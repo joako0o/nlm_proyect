@@ -1,41 +1,37 @@
 # nlm_proyect
 
-Actas y reuniones de Política Monetaria (RPM) del Banco Central de Chile, consolidadas en un dataset de 7.219 registros (132 sesiones, 2005-01-11 → 2015-12-17).
+Dataset de las Actas y reuniones de Política Monetaria (RPM) del Banco Central de Chile:
+132 sesiones entre el 11 de enero de 2005 y el 17 de diciembre de 2015.
 
 ## Archivos
 
-- `consolidado_final.xlsx` — base consolidada (hoja `Consolidado`), con `Fecha` como `datetime`.
-- `consolidado_goldstandard.xlsx` — versión corregida/auditada.
-- `build_gold_standard.py` — script reproducible que genera `consolidado_goldstandard.xlsx` a partir de `consolidado_final.xlsx` (`python3 build_gold_standard.py`).
-- `build_textos_completos.py` — re-extrae desde los PDFs el texto íntegro de las filas que tocan/rozan el límite de celda Excel (32.767) y escribe `textos_completos.jsonl`.
-- `textos_completos.jsonl` — texto completo (por ID) de las filas largas: ID 280 (2005-06-09) e ID 297 (2005-07-12). Para ID 297 el Excel no puede almacenar el texto completo (≈35.854 caracteres > 32.767), por eso la fuente de verdad es este JSONL.
-- `2005-06-09 - Actas.pdf` y `2005-07-12 - Actas.pdf` — PDFs originales usados para la re-extracción (no son parte del dataset; están como fuente de verificación).
-- `AUDITORIA_GOLD_STANDARD.md` — informe completo de auditoría y criterios aplicados.
+- `consolidado_final.xlsx` — base consolidada de entrada (hoja `Consolidado`, 7,219 registros); `Fecha` en formato `datetime`.
+- `consolidado_base_referencia.xlsx` — base de referencia generada y auditada.
+- `build_base_referencia.py` — script reproducible que genera `consolidado_base_referencia.xlsx` a partir de `consolidado_final.xlsx`.
+- `build_textos_completos.py` — re-extrae desde los PDFs el texto íntegro de las filas que alcanzan el límite de celda de Excel (32,767 caracteres) y escribe `textos_completos.jsonl`.
+- `textos_completos.jsonl` — texto completo de las filas largas (por ID).
+- `2005-06-09 - Actas.pdf` y `2005-07-12 - Actas.pdf` — documentos fuente utilizados para la re-extracción.
+- `AUDITORIA_BASE_REFERENCIA.md` — informe de auditoría y criterios aplicados.
+- `informe_revision_base_referencia_2026-09-07.md` — informe de la revisión más reciente (casos pendientes y validación de los parentes divididos).
 
-## `consolidado_goldstandard.xlsx`
+## Estructura de `consolidado_base_referencia.xlsx`
 
-Hoja `Consolidado` (23 columnas):
+Hoja `Consolidado` (25 columnas):
 
-`ID, Id_Sesion, Fecha, Actor_Original, Actor_Gold, Actor_Cambia, Rol_Original, Rol_Gold, Rol_Cambia, Rol_Texto, Rol_Asistencia, Metodo_Rol, Metodo_Actor, Página, Texto, Tema_Original, Tema_Categoria, Palabra_Clave_Original, Palabra_Clave_Categoria, Texto_Truncado, Duplicado_Exacto, Duplicado_Formula, Nota`
+`ID, ID_Padre, Id_Sesion, Fecha, Actor_Original, Actor_Final, Actor_Corregido, Rol_Fuente, Rol_Final, Rol_Corregido, Rol_Detectado_Texto, Rol_Lista_Asistencia, Fuente_Rol, Tipo_Acta, Fuente_Actor, Página, Texto, Tema_Original, Tema_Categoria, Palabra_Clave_Original, Palabra_Clave_Categoria, Texto_Truncado, Duplicado_Exacto, Duplicado_Formula, Nota`
 
-Hojas adicionales: `Calidad`, `Metodo_Actor`, `Metodo_Rol`, `Diccionario_Rol`, `Diccionario_Actor`, `Diccionario_Categoria`, `Textos_Completos`.
+Hojas adicionales: `Calidad`, `Fuente_Actor`, `Fuente_Rol`, `Diccionario_Rol`, `Diccionario_Actor`, `Diccionario_Categoria`, `Textos_Completos`.
 
-### Resumen de la versión gold
+## Contenido principal
 
-- `Fecha` convertida a **fecha real** con formato `YYYY-MM-DD`.
-- `Id_Sesion` = `RPM-YYYY-MM-DD`.
-- **Actor re-etiquetado** (quién habla realmente): 535 filas con cambio.
-- **Rol corregido**: 1.188 filas. El cargo canónico ahora proviene de la **lista de asistencia del primer párrafo de cada acta** (`Rol_Asistencia`), que es la fuente oficial de quién ocupaba qué cargo en esa sesión.
-- `Rol_Asistencia`: cargo extraído del primer párrafo (bajo la presidencia…, Asiste…, Asisten también…). Se aplica a `Rol_Gold` solo cuando la coincidencia nombre↔cargo es **única y exacta**.
-- `Metodo_Rol`: `ASISTENCIA` (6.748), `ACTAS` (309), `CONSERVADOR` (162, sin coincidencia única).
-- `Rol_Texto` conserva el rol reconstruido dentro del texto para revisión diferencial.
-- Métodos de atribución de actor: `ROL+NOMBRE` (5.000), `NOMBRE+VERBO` (1.368), `ROL+FECHA` (437), `ACTA/META` (309), `ORIGINAL` (105).
-- Textos largos resueltos con `textos_completos.jsonl` (ambos con `Texto_Truncado = NO`):
-  - ID 280 (2005-06-09): 32.498 caracteres, ya completo en el Excel; verificado contra el PDF.
-  - ID 297 (2005-07-12): celda Excel 32.767 (límite), texto íntegro 35.854 caracteres en `textos_completos.jsonl`.
-  - La hoja `Textos_Completos` referencia el JSONL, porque el formato XLSX no puede guardar celdas > 32.767.
-- Duplicados exactos: **391 registros**; **todos** quedan marcados como fórmula de sesión (`Duplicado_Formula = SI`), conforme a la instrucción de no eliminarlos.
-- **Taxonomía canónica** de `Tema` y `Palabra Clave` (11 categorías):
-  `acuerdo_comunicado`, `decision_tpm`, `opciones_tpm`, `inflacion`, `mercado_laboral`, `mercados_financieros`, `escenario_internacional`, `politica_fiscal`, `actividad_interna`, `riesgos`, `apertura_cierre`, `debate`, `otros`.
-- La columna `Actor_Gold` ya no contiene pseudo-rolles (`Gerente de División Internacional`, etc.).
-- No quedan filas `HERENCIA` ni `SIN_DETECTAR`.
+- **7,219 filas originales** que se segmentan en **8,302 intervenciones** (708 filas originales contienen más de una intervención).
+- `ID` consecutivo de la intervención; `ID_Padre` conserva el identificador de la fila original.
+- `Fecha` en formato `YYYY-MM-DD` y `Id_Sesion` con la forma `RPM-AAAA-MM-DD`.
+- El hablante de cada intervención se reconstruye desde el texto y queda en `Actor_Final`.
+- `Fuente_Actor` describe el método de atribución:
+  `ROL+NOMBRE` (5,358), `NOMBRE+VERBO` (1,799), `ROL+FECHA` (698), `ACTA/META` (309), `PRIMERA_ORACION` (54), `ORIGINAL` (84).
+- `Fuente_Rol` indica el origen del cargo:
+  `LISTA_ASISTENCIA` (7,987), `ACTA_INSTITUCIONAL` (309), `PENDIENTE_REVISION` (6).
+- `Tipo_Acta` clasifica las filas institucionales: `ACTA_CABECERA`, `ACUERDO_CONSEJO`, `COMUNICADO`, `META_SESION` o `ACTA_INSTITUCIONAL`.
+- Las filas sin cargo único o exacto en la lista de asistencia quedan en `PENDIENTE_REVISION` y deben revisarse manualmente.
+- `textos_completos.jsonl` es la fuente de verdad para las celdas que superan el límite de 32,767 caracteres del formato XLSX.

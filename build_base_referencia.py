@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Gold Standard del consolidado RPM v2.
+Base de referencia del consolidado RPM v2.
 - Re-etiqueta hablante solo cuando el texto lo confirma.
 - Corrige roles (Hacienda/subrogante y rol explicito).
 - Fecha real + Id_Sesion + taxonomia canonica + flags.
@@ -8,7 +8,7 @@ Gold Standard del consolidado RPM v2.
 import openpyxl, re, collections, datetime as dt
 from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
 
-SRC='consolidado_final.xlsx'; OUT='consolidado_goldstandard.xlsx'
+SRC='consolidado_final.xlsx'; OUT='consolidado_base_referencia.xlsx'
 wb=openpyxl.load_workbook(SRC, data_only=True, read_only=True)
 ws=wb['Consolidado']; data=list(ws.iter_rows(values_only=True))[1:]
 
@@ -723,7 +723,7 @@ for r in data:
         rol=rol_orig
         if method in ('ACTA/META','META') and spk==CONSEJO:
             rol='Consejo'
-        # Política conservadora: Rol_Gold = Rol_Original (cargo del PDF/source).
+        # Política conservadora: Rol_Final = Rol_Fuente (cargo del PDF/source).
         # Solo se corrigen casos indudables:
         #   - actas/metadata del Consejo -> rol Consejo
         #   - Rodrigo Valdés antes de 2015 cuando el acta lo presenta como Gerente
@@ -770,7 +770,7 @@ def cat(kw):
     return 'otros'
 
 outwb=openpyxl.Workbook(); ows=outwb.active; ows.title='Consolidado'
-header=['ID','ID_Padre','Id_Sesion','Fecha','Actor_Original','Actor_Gold','Actor_Corregido','Rol_Fuente','Rol_Final','Rol_Corregido','Rol_Detectado_Texto','Rol_Lista_Asistencia','Fuente_Rol','Tipo_Acta','Fuente_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
+header=['ID','ID_Padre','Id_Sesion','Fecha','Actor_Original','Actor_Final','Actor_Corregido','Rol_Fuente','Rol_Final','Rol_Corregido','Rol_Detectado_Texto','Rol_Lista_Asistencia','Fuente_Rol','Tipo_Acta','Fuente_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
 ows.append(header)
 for rec in records:
     rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw,rol_asistencia,metodo_rol,tipo,id_padre=rec
