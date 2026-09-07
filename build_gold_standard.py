@@ -542,6 +542,8 @@ for idx,rec in enumerate(records):
     if idx in dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if idx in dup_formula else ''))
     if role: note.append('Rol detectado en texto: '+role)
     if rol_asistencia: note.append('Rol según lista de asistencia: '+rol_asistencia)
+    if not rol_asistencia and metodo_rol=='CONSERVADOR':
+        note.append('Sin cargo único en lista de asistencia; revisar manualmente')
     if method in ('HERENCIA','SIN_DETECTAR','ORIGINAL','PSEUDO'): note.append('Método: '+method)
     # estado de texto largo: completo en textos_completos.jsonl
     if rid in FULL_TEXTS:
@@ -562,6 +564,7 @@ md.append(['Filas',len(records)]); md.append(['Sesiones',len(set(x[1] for x in r
 md.append(['Fecha min',min(x[1] for x in records)]); md.append(['Fecha max',max(x[1] for x in records)])
 md.append(['Actores reasignados',actor_corr]); md.append(['Roles corregidos',role_corr])
 md.append(['Roles desde lista de asistencia',sum(1 for x in records if x[13])])
+md.append(['Filas sin cargo único en lista de asistencia (revisar)',sum(1 for x in records if not x[13] and x[14]!='ACTAS')])
 md.append(['Métodos de rol',str(dict(role_method_counter))])
 md.append(['Textos truncados sin resolver',len([i for i in trunc if int(records[i][0]) not in FULL_TEXTS])])
 md.append(['Textos largos sin revisar',len([i for i in nearcut if int(records[i][0]) not in FULL_TEXTS])])
