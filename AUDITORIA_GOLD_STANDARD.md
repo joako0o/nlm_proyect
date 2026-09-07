@@ -68,13 +68,17 @@ La columna original `Actor` era la mayor fuente de error. En el gold se reconstr
 
 ---
 
-## 5. Rol canónico y género
+## 5. Rol canónico y género (política conservadora)
 
-- `Ministra de Hacienda (S)` → `Ministro de Hacienda` en los casos donde el texto habla de “El señor Ministro…” (136 cambios).
-- Se mantiene `Ministra de Hacienda (S)` solo para las subrogantes femeninas (María Eugenia Wagner, María Olivia Recart).
-- Formalización de subrogantes: `Ministro de Hacienda Subrogante` → `Ministro de Hacienda (S)`.
-- El rol **detectado en el texto** prevalece sobre el rol del archivo fuente (incluidos `Consejero`, `Vicepresidente`, `Gerente…`).
-- Se normalizaron también roles con errores OCR tipográficos cuando el texto lo permite.
+- **`Rol_Gold = Rol_Original`** (el cargo exacto del PDF/source) como regla general.
+- Solo se aplican correcciones **indudables**:
+  - `Ministra de Hacienda (S)` → `Ministro de Hacienda` cuando el texto habla de “El señor Ministro…” (136 cambios).
+  - `Ministro de Hacienda Subrogante` → `Ministro de Hacienda (S)` (6 cambios).
+  - Rodrigo Valdés Pulido (2005–2007) cuando el acta lo presenta como **Gerente de División Estudios** (31 cambios).
+  - Filas de acta/metadata con `Actor_Gold = Consejo` → `Rol_Gold = Consejo`.
+  - Un caso de `Ministra de Hacienda (S)` → `Ministro de Hacienda (S)` (subrogante masculino) y un caso de `Ministro de Hacienda` → `Ministra de Hacienda (S)` (subrogante femenina).
+- `Rol_Texto` mantiene el rol reconstruido desde el texto para **revisión diferencial**; su uso no modifica `Rol_Gold`.
+- No se reemplazan roles por inferencias textuales (p. ej. “El Consejero señor X” no cambia el rol si el source ya tiene otro cargo).
 
 ---
 
@@ -104,17 +108,17 @@ Distribución de `Tema_Categoria` (top):
 
 ## 7. Controles de consistencia
 
-- `Actor_Gold` = `Consejo del Banco Central de Chile` ⇔ `Rol_Gold` = `Consejo`: **0 discrepancias** (309 filas en cada lado).
-- Sin hablantes pseudo-rol en `Actor_Gold` (p. ej. `Gerente de División Internacional`, `Gerente de Investigación Económica`, `Gerente de Área Técnica`).
-- Sin `Rol_Gold` de género inconsistente:
+- **Actor**: sin hablantes pseudo-rol en `Actor_Gold` (p. ej. `Gerente de División Internacional`, `Gerente de Investigación Económica`, `Gerente de Área Técnica`).
+- **Roles**: `Rol_Gold` conserva el cargo del PDF/source por política explícita, por lo que **no** se impone `Actor_Gold=Consejo ⇔ Rol_Gold=Consejo`; las diferencias se dejan visibles para comparar con `Rol_Texto`.
+- **Género** validado:
   - `Ministra…` solo con subrogantes femeninas.
   - `Consejera` solo con María Elena Ovalle Molina.
 - `Fecha` es `datetime` en las 7.219 filas.
 - Métricas finales:
   - Filas: 7.219
   - Sesiones: 132
-  - Actores reasignados: **530**
-  - Roles corregidos: **1.032**
+  - Actores reasignados: **530** (535 filas con `Actor_Cambia = SI` contando cambios a Consejo)
+  - Roles corregidos: **181**
   - Truncados: **1 SI + 1 REV**
   - Duplicados exactos: **391** (todos marcados fórmula)
   - Textos largos revisar: 1

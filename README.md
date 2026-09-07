@@ -21,14 +21,13 @@ Hojas adicionales: `Calidad`, `Metodo_Actor`, `Diccionario_Rol`, `Diccionario_Ac
 
 - `Fecha` convertida a **fecha real** con formato `YYYY-MM-DD`.
 - `Id_Sesion` = `RPM-YYYY-MM-DD`.
-- **Actor re-etiquetado** (quién habla realmente): 530 filas cambiadas.
-- **Rol corregido**: 1.032 filas cambiadas.
+- **Actor re-etiquetado** (quién habla realmente): 535 filas con cambio.
+- **Rol corregido**: 181 filas. Política conservadora: `Rol_Gold = Rol_Original` (cargo tal como viene del PDF/source), salvo correcciones indudables (género/subrogante de Hacienda, Rodrigo Valdés como Gerente, actas/meta como `Consejo`).
+- `Rol_Texto` conserva el rol reconstruido desde el texto para revisión diferencial.
 - Métodos de atribución: `ROL+NOMBRE` (5.000), `NOMBRE+VERBO` (1.368), `ROL+FECHA` (437), `ACTA/META` (309), `ORIGINAL` (105).
 - Texto truncado: **1 `SI`** (ID 297, 2005-07-12, 32.767 caracteres) y **1 `REV`** (ID 280, 2005-06-09). No hay PDF/JSON fuente en el repo para re-extraer.
 - Duplicados exactos: **391 registros**; **todos** quedan marcados como fórmula de sesión (`Duplicado_Formula = SI`), conforme a la instrucción de no eliminarlos.
 - **Taxonomía canónica** de `Tema` y `Palabra Clave` (11 categorías):
   `acuerdo_comunicado`, `decision_tpm`, `opciones_tpm`, `inflacion`, `mercado_laboral`, `mercados_financieros`, `escenario_internacional`, `politica_fiscal`, `actividad_interna`, `riesgos`, `apertura_cierre`, `debate`, `otros`.
-- Consistencia validada:
-  - `Actor_Gold` = `Consejo del Banco Central de Chile` ⇔ `Rol_Gold` = `Consejo` (0 discrepancias).
-  - Sin hablantes pseudo-rol (`Gerente de División Internacional`, etc.) en `Actor_Gold`.
-  - Sin filas `HERENCIA` ni `SIN_DETECTAR`; la atribución queda completamente resuelta.
+- La columna `Actor_Gold` ya no contiene pseudo-rolles (`Gerente de División Internacional`, etc.).
+- No quedan filas `HERENCIA` ni `SIN_DETECTAR`.

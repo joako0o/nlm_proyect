@@ -442,25 +442,14 @@ for r in data:
     rol=rol_orig
     if method in ('ACTA/META','META') and spk==CONSEJO:
         rol='Consejo'
-    official=canonical_role(spk,date)
-    BOARD={'Presidente del Banco Central','Vicepresidente del Banco Central','Consejero','Consejera'}
-    staff_role = bool(role and role.split(' de ',1)[0] in ('Gerente','Jefe','Asesor','Subsecretario'))
-    # Rodrigo Valdes before 2015: texto lo muestra como gerente -> corregir Ministro erroneo
+    # Política conservadora: Rol_Gold = Rol_Original (cargo del PDF/source).
+    # Solo se corrigen casos indudables:
+    #   - actas/metadata del Consejo -> rol Consejo
+    #   - Rodrigo Valdés antes de 2015 cuando el acta lo presenta como Gerente
+    #   - género/subrogante de Hacienda confirmado por el texto
     if spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido'] and role and role.startswith('Gerente'):
         rol=role
     elif spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
-        rol=ministry_role(text,spk,date_dt)
-    elif role and role!='Consejo':
-        # el rol detectado en el texto es el mas fiable (incluso para Consejero/Vicepresidente)
-        rol=role
-    elif role is None and spk in REAL and spk!=actor_orig:
-        # hablante reasignado por nombre sin rol explicito: usar su rol canonico
-        if official and official!='Consejo':
-            rol=official
-    if spk in REAL and (rol=='Consejo' or (spk!=actor_orig and rol==rol_orig and rol_orig=='Consejo')):
-        if official and official!='Consejo': rol=official
-    # corrige genero/subrogante de Hacienda si aun el rol es Hacienda
-    if spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
         rol=ministry_role(text,spk,date_dt)
     if rol!=rol_orig: role_corr+=1
     method_counter[method]+=1
