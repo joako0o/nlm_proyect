@@ -184,6 +184,11 @@ alias_map['wager'].add('María Eugenia Wagner Brizzi')
 alias_map['maria wager'].add('María Eugenia Wagner Brizzi')
 alias_map['maria eugenia wager'].add('María Eugenia Wagner Brizzi')
 alias_map['maria eugenia wagner'].add('María Eugenia Wagner Brizzi')
+for _lehm in ['lehmman','lehemann','lehamann','lehnann','lehmann b']:
+    alias_map[_lehm].add('Sergio Lehmann Beresi')
+alias_map['sergio lehmman'].add('Sergio Lehmann Beresi')
+alias_map['sergio lehemann'].add('Sergio Lehmann Beresi')
+alias_map['sergio lehmann b'].add('Sergio Lehmann Beresi')
 
 # role -> actor per date
 role_date=collections.defaultdict(collections.Counter)
@@ -198,7 +203,7 @@ for r in data:
     for _pat,_canon in ROLE_PATS:
         for _m in re.finditer(r'(?<![A-Za-z0-9ÁÉÍÓÚÑáéíóúñ])'+re.escape(_pat),_txt,re.I):
             _after=_txt[_m.end():_m.end()+150]
-            _nm=re.match(r'\s*[-,;]?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})', _after)
+            _nm=re.match(r'\s*[-,;]?\s*(?:(?:[Ss]ubrogante)|\([Ss]\)|\(s\)|en calidad de [Ss]ubrogante)?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})', _after)
             if _nm:
                 _a=resolve_name(_nm.group(1).strip(),to_date_str(r[1]))
                 if _a and _a in REAL:
@@ -236,6 +241,21 @@ def role_variants(role):
     if role=='Ministra de Hacienda': v=[role,'Ministra de Hacienda']
     if role=='Ministra de Hacienda (S)': v=['Ministra de Hacienda Subrogante',role]
     return v
+def _roster_actor_for_role(date,role):
+    """Si el rol aparece en la lista de asistencia de esa fecha con un único titular, lo prefiere."""
+    rb=globals().get('ROSTER_BY_DATE')
+    if not rb: return None
+    r=rb.get(str(date)) if isinstance(rb.get(str(date)),dict) else rb.get(date)
+    if not r: return None
+    cands=[]
+    for name,raw in r.items():
+        cr=_canonical_role(raw,name)
+        if cr==role:
+            cands.append((name,cr))
+    if len(cands)==1:
+        return resolve_name(cands[0][0],date)
+    return None
+
 def actor_for_role(date,role):
     def _top(cnt):
         if not cnt: return None
@@ -243,6 +263,11 @@ def actor_for_role(date,role):
         return top[0] if top else None
     if date:
         d=dt.date.fromisoformat(str(date))
+        try:
+            a=_roster_actor_for_role(date,role)
+            if a: return a
+        except Exception:
+            pass
         if role in ('Ministro de Hacienda','Ministra de Hacienda'):
             m=minister_for_date(d,False)
             if m: return m
@@ -326,7 +351,7 @@ def detect(text,date):
     for pat,canon in ROLE_PATS:
         for m in re.finditer(r'(?<![A-Za-z0-9ÁÉÍÓÚÑáéíóúñ])'+re.escape(pat), t, re.I):
             after=t[m.end():m.end()+150]
-            nm=re.match(r'\s*[-,;]?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})', after)
+            nm=re.match(r'\s*[-,;]?\s*(?:(?:[Ss]ubrogante)|\([Ss]\)|\(s\)|en calidad de [Ss]ubrogante)?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})', after)
             if nm:
                 actor=resolve_name(nm.group(1).strip(),date)
                 if actor:
@@ -338,9 +363,11 @@ def detect(text,date):
             # role-only
             if not nm:
                 # skip if role is en "del señor Ministro"/"al señor Ministro" etc (mention)
-                before=t[max(0,m.start()-25):m.start()]
+                before=t[max(0,m.start()-40):m.start()]
                 bn=norm(before)
                 if bn.endswith('del senor') or bn.endswith('al senor') or bn.endswith('del') or bn.endswith('al') or bn.endswith('comentario del senor') or bn.endswith('pregunta del senor'):
+                    continue
+                if re.search(r'(?:del|al|de los|de las|de la|los comentarios del|la solicitud del|solicitud del|respuesta a la|ante la solicitud del|a la solicitud del)\s*$', bn):
                     continue
                 lo=max(0,m.start()-140); hi=min(len(t),m.end()+140)
                 window=t[lo:hi]
@@ -489,7 +516,7 @@ def seg_candidates(text,date):
     for pat,canon in ROLE_PATS:
         for m in re.finditer(r'(?<![A-Za-z0-9ÁÉÍÓÚÑáéíóúñ])'+re.escape(pat),t,re.I):
             after=t[m.end():m.end()+150]
-            nm=re.match(r'\s*[-,;]?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})',after)
+            nm=re.match(r'\s*[-,;]?\s*(?:(?:[Ss]ubrogante)|\([Ss]\)|\(s\)|en calidad de [Ss]ubrogante)?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})',after)
             if nm:
                 actor=resolve_name(nm.group(1).strip(),date)
                 if actor and actor in REAL:
@@ -500,9 +527,13 @@ def seg_candidates(text,date):
                     mentioned=(not inv) and (bool(MENTION_RE.search(beforen)) or bool(re.search(r'(del|al|por el|por la|de la|presentacion del|presentación del|expuesto por el|agradece la presentacion de|agradece la presentación de|concede la palabra)\s+(?:senor|ministro|ministra|gerente|consejero|consejera|presidente|vicepresidente|jefe|asesor)?\s*$',beforen)))
                     cands.append({'actor':actor,'pos':m.start(),'verb':verb,'mention':mentioned,'method':'ROL+NOMBRE','name':nm.group(1).strip()})
             else:
-                before=t[max(0,m.start()-25):m.start()]
+                before=t[max(0,m.start()-40):m.start()]
                 bn=norm(before)
                 if MENTION_RE.search(bn): continue
+                # role-only que es referencia/posesión ("del Gerente...", "sobre los comentarios del...")
+                # no es un hablante, se deja fuera.
+                if re.search(r'(?:del|al|de los|de las|de la|los comentarios del|la solicitud del|solicitud del|respuesta a la|ante la solicitud del|a la solicitud del)\s*$', bn):
+                    continue
                 lo=max(0,m.start()-140); hi=min(len(t),m.end()+140)
                 window=norm(t[lo:hi])
                 if S_VERB_RE.search(window):
@@ -550,6 +581,17 @@ def sentence_speaker(sent,date):
     ok = c['pos']<=35 or bool(LEAD_OK.match(prefix))
     if not ok: return c['actor'],False
     return c['actor'],True
+
+def first_speaker_hint(text,date):
+    """Prioriza el hablante explícito de la primera oración de la intervención."""
+    if session_meta(text) or is_header2(text): return None
+    for (s0,s1) in split_sentences(text):
+        sent=text[s0:s1].strip()
+        if not sent: continue
+        spk,clear=sentence_speaker(sent,date)
+        if clear and spk: return spk
+        break
+    return None
 
 def segment_row(text,date):
     sents=split_sentences(text)
@@ -651,15 +693,18 @@ for r in data:
         det=detect(text,date)
         if det:
             spk,role,method,_=det
-            if spk in REAL or spk==CONSEJO:
-                if spk in REAL: last_speaker[date]=spk
-            else:
-                # pseudo actor fallback: try inherit / keep
-                method='PSEUDO'
-                spk=None; role=None
         else:
-            method='SIN_DETECTAR'
+            spk=None; role=None; method='SIN_DETECTAR'
+        # Si la primera oración de la intervención ya identifica un hablante explícito,
+        # se prefiere ese hablante por sobre heurísticas posteriores del texto.
+        hint=first_speaker_hint(text,date)
+        if hint and hint in REAL and hint!=spk:
+            spk=hint; role=None; method='PRIMERA_ORACION'
+        if spk and spk not in REAL and spk!=CONSEJO:
+            method='PSEUDO'
             spk=None; role=None
+        if spk in REAL:
+            last_speaker[date]=spk
         # choose speaker
         if spk:
             pass
