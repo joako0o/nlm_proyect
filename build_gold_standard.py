@@ -14,7 +14,7 @@ ws=wb['Consolidado']; data=list(ws.iter_rows(values_only=True))[1:]
 
 CONSEJO='Consejo del Banco Central de Chile'
 PSEUDO={'Gerente de División Internacional','Gerente de División Estudios Subrogante','Gerente de Investigación Económica','Gerente de Operaciones Financieras','Gerente de Área Técnica','Gerente de Estabilidad Financiera'}
-EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro'}
+EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro','Rodrigo Álvarez Zenteno'}
 ALL_ACTORS=sorted(set(str(r[2]).strip() for r in data)|EXTRA_ACTORS)
 REAL=[a for a in ALL_ACTORS if a not in PSEUDO and a!=CONSEJO]
 
@@ -95,7 +95,7 @@ SURNAME={
  'Jorge Pérez Etchegaray':'perez','Enrique Orellana Cifuentes':'orellana','Elías Albagli Iruretagoyena':'albagli',
  'Ari Aisen':'aisen','Pablo Pincheira Brown':'pincheira','Felipe Jaque':'jaque','Julio Dittborn Cordua':'dittborn',
  'Miguel Ricaurte Vintimilla':'ricaurte','María Eugenia Wagner Brizzi':'wagner',
- 'Rodrigo Alfaro':'alfaro'
+ 'Rodrigo Alfaro':'alfaro','Rodrigo Álvarez Zenteno':'alvarez'
 }
 # extra surname aliases (second surname sometimes used)
 EXTRA={('Rodrigo Vergara Montes','montes'),('Rodrigo Valdés Pulido','pulido'),('Manuel Marfán Lewis','lewis'),
@@ -104,7 +104,8 @@ EXTRA={('Rodrigo Vergara Montes','montes'),('Rodrigo Valdés Pulido','pulido'),(
        ('Alberto Arenas de Mesa','de mesa'),('Diego Gianelli Gómez','gomez'),('Felipe Larraín Bascuñán','bascunan'),
        ('Klaus Schmidt-Hebbel Dunker','dunker'),('Luis Felipe Céspedes Cifuentes','cifuentes'),
        ('María Elena Ovalle Molina','molina'),('María Olivia Recart Herrera','herrera'),('María Eugenia Wagner Brizzi','wagner'),('Rodrigo Alfaro','alfaro'),
-       ('Mario Marcel Cullell','cullell'),('Camilo Carrasco Alfonso','alfonso'),('Miguel Ricaurte Bermúdez','bermudez')}
+       ('Mario Marcel Cullell','cullell'),('Camilo Carrasco Alfonso','alfonso'),('Miguel Ricaurte Bermúdez','bermudez'),
+       ('Rodrigo Álvarez Zenteno','zenteno')}
 
 # name resolution
 def _nearest_actor(acts,date=None):
@@ -212,6 +213,7 @@ SUBROGANTES={
  dt.date(2007,11,13):'María Olivia Recart Herrera', dt.date(2008,2,7):'María Olivia Recart Herrera',
  dt.date(2008,5,8):'María Olivia Recart Herrera', dt.date(2009,2,12):'María Olivia Recart Herrera',
  dt.date(2009,12,15):'Alberto Arenas de Mesa',
+ dt.date(2010,7,15):'Rodrigo Álvarez Zenteno',
 }
 def minister_for_date(date,sub=False):
     if sub and date in SUBROGANTES:
@@ -399,9 +401,9 @@ def canonical_role_by_actor(actor,date):
     cnt=collections.Counter(str(r[3]).strip() for r in data if str(r[2]).strip()==actor)
     return cnt.most_common(1)[0][0] if cnt else None
 
-KNOWN_MIN={'Nicolás Eyzaguirre Guzmán','Andrés Velasco Brañes','Felipe Larraín Bascuñán','Alberto Arenas de Mesa','Rodrigo Valdés Pulido','María Olivia Recart Herrera','Mario Marcel Cullell','María Eugenia Wagner Brizzi','Julio Dittborn Cordua'}
+KNOWN_MIN={'Nicolás Eyzaguirre Guzmán','Andrés Velasco Brañes','Felipe Larraín Bascuñán','Alberto Arenas de Mesa','Rodrigo Valdés Pulido','María Olivia Recart Herrera','Mario Marcel Cullell','María Eugenia Wagner Brizzi','Julio Dittborn Cordua','Rodrigo Álvarez Zenteno'}
 FULL_MIN_START={'Andrés Velasco Brañes':dt.date(2006,3,11),'Felipe Larraín Bascuñán':dt.date(2010,3,11),'Alberto Arenas de Mesa':dt.date(2014,3,11),'Rodrigo Valdés Pulido':dt.date(2015,3,19)}
-ALWAYS_SUBRO={'María Olivia Recart Herrera','Mario Marcel Cullell','María Eugenia Wagner Brizzi'}
+ALWAYS_SUBRO={'María Olivia Recart Herrera','Mario Marcel Cullell','María Eugenia Wagner Brizzi','Rodrigo Álvarez Zenteno'}
 def ministry_role(text,actor,date):
     if actor=='Julio Dittborn Cordua': return 'Subsecretario de Hacienda'
     low=text.lower()
