@@ -80,6 +80,10 @@ ROLE_PATS = [
 ]
 
 VERBS=['señala','indica','manifiesta','expresa','dice','comenta','interviene','estima','consulta','afirma','responde','agrega','agregar','precisa','plantea','pregunta','informa','expone','menciona','hace presente','continúa','prosigue','solicita','opina','acota','destaca','recuerda','observa','concluye','inicia','apoya','coincide','agradece','aclara','considera','señalando','planteando','comentando','ofrece la palabra','concede la palabra','da la palabra','da comienzo','informa que','manifiesta estar','deja planteado','formula','señalando que','hace presente que','fija','da cuenta','explica','explica que','explicó','explicando','señaló','manifestó','indicó','expresó','comentó','preguntó','respondió','agregó','precisó','planteó','subrayó','recalcó','advirtió','destacó','da inicio','da inicio a','dio inicio','dio inicio a','piensa','piensa que','cree','considera','acepta','refiriéndose','refiere','se refiere','refiriéndose a','transmite','comienza','inicia su','inicia la']
+VERBS += ['sostiene','confirma','apunta','argumenta','reconoce','describe','analiza','desarrolla',
+ 'expone','presenta','explicita','puntualiza','formula','contesta','propone','sugiere','señalando',
+ 'indicando','manifestando','expresando','acotando','precisando','destacando','comentando','hacen presente',
+ 'hizo presente','hace ver','presenta las opciones','tiene la impresion','se pregunta']
 VNORM=[norm(v) for v in VERBS]
 
 SURNAME={
@@ -409,11 +413,15 @@ def detect(text,date):
         no_mention=[c for c in strong if not (c.get('method')=='ROL+NOMBRE' and c.get('mention'))]
         if no_mention:
             strong=no_mention
-        # role+nombre explicito al inicio es una señal muy fuerte (aunque el verbo no este en la lista)
+        # role+nombre explicito al inicio es una señal muy fuerte (aunque el verbo no este en la lista).
+        # Pero si antes hay un hablante explícito por nombre (p.ej. "Manifiesta el señor X que la
+        # Gerencia ... señora Y"), el hablante es X, no el rol posterior.
         early_explicit=[c for c in strong if c['method']=='ROL+NOMBRE' and c['pos']<60]
         if early_explicit:
-            early_explicit.sort(key=lambda c:(c['pos'],0 if c['actor'] not in PSEUDO else 1))
-            c=early_explicit[0]; return (c['actor'],c['role'],c['method'],c['pos'])
+            earliest=min(strong,key=lambda c:(c['pos'],0 if c['method']=='ROL+NOMBRE' else 1,0 if c['actor'] not in PSEUDO else 1))
+            if not (earliest['pos'] < early_explicit[0]['pos'] and earliest['method'] in ('ROL+NOMBRE','NOMBRE+VERBO')):
+                early_explicit.sort(key=lambda c:(c['pos'],0 if c['actor'] not in PSEUDO else 1))
+                c=early_explicit[0]; return (c['actor'],c['role'],c['method'],c['pos'])
         # cargo generico al inicio vs nombre explicito posterior en la misma intervencion
         generic=[c for c in strong if c['method']=='ROL+FECHA' and c['pos']<50 and c.get('role')]
         explicit=[c for c in strong if c['method'] in ('ROL+NOMBRE','NOMBRE+VERBO') and c['pos']<1200 and not c.get('mention')]
@@ -424,8 +432,11 @@ def detect(text,date):
             between=norm(text[g['pos']:e['pos']+1])
             staff_generic=bool(g.get('role') and str(g.get('role')).split(' de ',1)[0] in ('Gerente','Jefe','Asesor','Subsecretario'))
             if staff_generic and not re.search(r'((ii|iii|iv|v)\.|iv\.|v\.|a continuaci\w+ el (senor )?presidente|ofrece la palabra|concede la palabra|da la palabra|se suspende|se reanuda|al respecto)', between):
-                # conservar el rol explicito del texto y solo corregir el hablante
-                return (e['actor'],g['role'],g['method'],e['pos'])
+                # conservar el rol explícito del texto; el nombre explícito corrige el hablante
+                # solo si está inmediatamente ligado al cargo (evita menciones posteriores).
+                if e['pos']-g['pos'] <= 120 and not e.get('mention'):
+                    return (e['actor'],g['role'],e['method'],e['pos'])
+                return (g['actor'],g['role'],g['method'],g['pos'])
         strong.sort(key=lambda c:(c['pos'],0 if c['method']=='ROL+NOMBRE' else 1 if c['verb'] else 2,0 if c['actor'] not in PSEUDO else 1))
         c=strong[0]; return (c['actor'],c['role'],c['method'],c['pos'])
     early=[c for c in cands if c['pos']<120 and c['role'] and c['method']=='ROL+NOMBRE']
@@ -434,6 +445,134 @@ def detect(text,date):
         c=early[0]; return (c['actor'],c['role'],c['method'],c['pos'])
     return None
     return None
+
+# ---------------------------------------------------------------------------
+# Segmentación de filas en intervenciones (una fila = una intervención real).
+# ---------------------------------------------------------------------------
+SPEECH_VERBS=[v for v in VERBS if v not in
+ ('ofrece la palabra','concede la palabra','da la palabra','invita a','cede la palabra','invita',
+  'agradece','agradece la presentacion de','agradece la presentación de','da inicio','da inicio a','dio inicio','dio inicio a')]
+SPEECH_VERBS += ['confirma','confirma que','sostiene','sostiene que','apunta','apunta que',
+ 'argumenta','argumenta que','reconoce','reconoce que','describe','analiza','desarrolla',
+ 'expone','expone que','presenta','presenta que','explicita','explicita que','puntualiza','puntualiza que',
+ 'formula','contesta','propone','propone que','sugiere','sugiere que','se refiere','señalando','indicando',
+ 'manifestando','expresando','acotando','precisando','destacando','comentando','hace presente',
+ 'hacen presente','hizo presente','hace ver','fija','da cuenta','presenta las opciones','plantea que','indica que',
+ 'expresa que','comenta que','considera que','opina que','estima que','aclara que','responde que',
+ 'informa que','menciona que','recalca que','subraya que','advierte que','consulta que','pregunta que',
+ 'agrega que','observa que','destaca que','concluye que','precisa que','explica que','analiza que']
+S_VERBS=sorted([norm(v) for v in SPEECH_VERBS],key=len,reverse=True)
+S_VERB_RE=re.compile(r'\b(?:'+'|'.join(map(re.escape,S_VERBS))+r')\b')
+
+INV_SUBJ_RE=re.compile(
+ r'^(?:(?:al respecto|por su parte|a lo anterior|a este respecto|con respecto|en respuesta|a continuacion|asimismo|luego|despues|finalmente|por otra parte|en relacion|luego de|despues de),?\s*)?'
+ r'(?:manifiesta|senala|sostiene|considera|plantea|indica|expresa|comenta|agrega|aclara|precisa|responde|informa|opina|acota|subraya|recalca|advierte|consulta|pregunta|concluye|estima|recuerda|reconoce|argumenta|confirma|explica|destaca|continua|prosigue|menciona|se refiere)'
+ r'\s+(?:el|la|don|doña|senor|senora|presidente|vicepresidente|ministro|ministra|gerente|consejero|consejera)\s*$')
+MENTION_RE=re.compile(
+ r'(?:como\s+lo\s+(?:senala|indica|senalo|manifiesta|plantea)|como\s+senala|como\s+senalo|'
+ r'lo\s+(?:senala|indica|senalo|manifiesta|plantea)|al\s+respecto\s+el\s+comentario|'
+ r'comentario\s+(?:del|de)|presentacion\s+(?:del|de)|expuesto\s+por|de\s+acuerdo\s+a\s+lo\s+'
+ r'(?:senalado|expuesto|indicado|planteado)\s+por|agradece\s+la\s+presentacion\s+(?:de|del)|'
+ r'en\s+relacion\s+(?:al|con)\s+(?:lo\s+)?(?:senalado|expuesto|indicado|planteado)|'
+ r'a\s+lo\s+(?:senalado|expuesto|indicado|planteado)\s+por|el\s+comentario\s+(?:del|de)|'
+ r'segun\s+lo\s+expuesto\s+por|en\s+referencia\s+a\s+lo\s+(?:senalado|senalado)|'
+ r'\bsenala\s+el\s+(?:senor|consejero|gerente|presidente|vicepresidente)|'
+ r'\bsenalo\s+el\s+(?:senor|consejero|gerente|presidente|vicepresidente)|'
+ r'\bindic[oa]\s+el\s+(?:senor|consejero|gerente|presidente|vicepresidente)|'
+ r'\bmanifiesta\s+el\s+(?:senor|consejero|gerente|presidente|vicepresidente)|'
+ r'\bconsidera)\s*$')
+START_VERB=re.compile(r'^(?:agrega|agregar|senala|senalando|indica|manifest[oa]|expresa|dice|comenta|considera|plantea|opina|destaca|observa|aclara|continua|prosigue|recuerda|responde|informa|explica|menciona|se\s+refiere|refiere|cree|piensa|estima|consulta|pregunta|se\s+pregunta|se\s+senala|concluye|precisa|subraya|recalca|advierte)\b')
+LEAD_OK=re.compile(r'^(?:el|la|a continuacion,?|luego,?|asimismo,?|por su parte,?|al respecto,?|despues,?|finalmente,?|con posterioridad,?|a su vez,?|de inmediato,?|enseguida,?|a continuacion\s+el|al\s+respecto\s+el|asistentes|a continuacion el senor|al respecto el senor|por su parte el senor)\s*$')
+
+def seg_candidates(text,date):
+    t=text; tn=norm(text); cands=[]
+    for pat,canon in ROLE_PATS:
+        for m in re.finditer(r'(?<![A-Za-z0-9ÁÉÍÓÚÑáéíóúñ])'+re.escape(pat),t,re.I):
+            after=t[m.end():m.end()+150]
+            nm=re.match(r'\s*[-,;]?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})',after)
+            if nm:
+                actor=resolve_name(nm.group(1).strip(),date)
+                if actor and actor in REAL:
+                    tail=after[nm.end():nm.end()+140]
+                    verb=bool(S_VERB_RE.search(norm(tail)))
+                    beforen=norm(t[max(0,m.start()-60):m.start()])
+                    inv=bool(INV_SUBJ_RE.search(norm(t[:m.start()])))
+                    mentioned=(not inv) and (bool(MENTION_RE.search(beforen)) or bool(re.search(r'(del|al|por el|por la|de la|presentacion del|presentación del|expuesto por el|agradece la presentacion de|agradece la presentación de|concede la palabra)\s+(?:senor|ministro|ministra|gerente|consejero|consejera|presidente|vicepresidente|jefe|asesor)?\s*$',beforen)))
+                    cands.append({'actor':actor,'pos':m.start(),'verb':verb,'mention':mentioned,'method':'ROL+NOMBRE','name':nm.group(1).strip()})
+            else:
+                before=t[max(0,m.start()-25):m.start()]
+                bn=norm(before)
+                if MENTION_RE.search(bn): continue
+                lo=max(0,m.start()-140); hi=min(len(t),m.end()+140)
+                window=norm(t[lo:hi])
+                if S_VERB_RE.search(window):
+                    actor=actor_for_role(date,canon)
+                    if actor and actor in REAL:
+                        cands.append({'actor':actor,'pos':m.start(),'verb':True,'mention':False,'method':'ROL+FECHA','name':None})
+    seen=set()
+    for alt,acts in alias_map.items():
+        mult=' ' in alt
+        for m in re.finditer(r'(?<![a-z])'+re.escape(alt)+r'(?![a-z])',tn):
+            if len(acts)>=1:
+                actor=_nearest_actor(acts,date)
+                if (m.start(),actor) in seen: continue
+                seen.add((m.start(),actor))
+                beforen=tn[max(0,m.start()-35):m.start()]
+                if not mult and not re.search(r'(senor|don|doña|gerente|consejero|presidente|ministr|vicepresidente|subsecretario|jefe|asesor|sr|sra)\s+',beforen):
+                    continue
+                tailn=tn[m.end():m.end()+150]
+                verb=bool(S_VERB_RE.search(tailn) or S_VERB_RE.search(beforen))
+                inv=bool(INV_SUBJ_RE.search(tn[:m.start()]))
+                mentioned=(not inv) and (bool(MENTION_RE.search(beforen)) or bool(re.search(r'(al|del|a los|comentario del|pregunta del|consulta al|agradece al|concede la palabra al|invita al)\s+(senor|sr|sra|don|doña)?\s*$',beforen)))
+                cands.append({'actor':actor,'pos':m.start(),'verb':verb,'mention':mentioned,'method':'NOMBRE+VERBO' if verb else 'NOMBRE','name':None})
+    return cands
+
+def split_sentences(text):
+    out=[]; start=0
+    for m in re.finditer(r'(?<=[.!?])\s*/*\s*(?=[A-ZÁÉÍÓÚÑ\"“‘«0-9])', text):
+        tail=text[max(0,m.start()-8):m.start()].rstrip()
+        if re.search(r'\b(?:Sr|Sra|N\.?|art\.?|inc\.?|num\.?|pág\.?|pag\.?)\s*$',tail,re.I):
+            continue
+        end=m.end(); out.append((start,end)); start=end
+    out.append((start,len(text)))
+    return out
+
+def sentence_speaker(sent,date):
+    cs=seg_candidates(sent,date)
+    strong=[c for c in cs if c['actor'] in REAL and not c.get('mention') and c.get('verb')]
+    if not strong: return None,False
+    strong.sort(key=lambda c:(c['pos'],0 if c['method']=='ROL+NOMBRE' else 1 if c['verb'] else 2))
+    c=strong[0]
+    prefix=norm(sent[:c['pos']])
+    if not prefix: return c['actor'],True
+    if START_VERB.search(prefix): return c['actor'],False
+    if S_VERB_RE.search(prefix): return c['actor'],False
+    ok = c['pos']<=35 or bool(LEAD_OK.match(prefix))
+    if not ok: return c['actor'],False
+    return c['actor'],True
+
+def segment_row(text,date):
+    sents=split_sentences(text)
+    segs=[]; cur_start=0; prev=None
+    for (s0,s1) in sents:
+        if not text[s0:s1].strip(): continue
+        sent=text[s0:s1]
+        spk,clear=sentence_speaker(sent,date)
+        if clear and spk:
+            if prev is not None and spk!=prev and s0>cur_start:
+                segs.append((cur_start,s0)); cur_start=s0
+            prev=spk
+    segs.append((cur_start,len(text)))
+    out=[]
+    for a,b in segs:
+        t=text[a:b].strip()
+        if t: out.append(t)
+    return out if out else [text.strip()]
+
+def maybe_segments(text,date):
+    if session_meta(text) or is_header2(text):
+        return [text]
+    return segment_row(text,date)
 
 def is_header2(t):
     return norm(t).lstrip().startswith(('acta correspondiente','a c t a'))
@@ -490,63 +629,78 @@ if _os.path.exists('textos_completos.jsonl'):
         print('No se pudo leer textos_completos.jsonl:',_e)
 
 # ---- process ----
+def _formula(t):
+    low=t.lower()
+    return any(x in low for x in ['suspende','levanta la sesión','aprueba el texto','ofrece la palabra','agradece la presentación','agradece la exposición','se levanta la sesión','a continuación, concede'])
+_parent_meta={int(str(r[0])):str(r[5]) for r in data}
+_parent_texts=collections.Counter(_parent_meta.values())
+_parent_trunc=set(pid for pid,t in _parent_meta.items() if len(t)>=32767)
+_parent_near=set(pid for pid,t in _parent_meta.items() if 30000<=len(t)<32767)
+_parent_dup=set(pid for pid,t in _parent_meta.items() if _parent_texts[t]>1)
+_parent_dup_formula=set(pid for pid in _parent_dup if _formula(_parent_meta[pid]))
+
 records=[]; last_speaker={}; actor_corr=0; role_corr=0; method_counter=collections.Counter(); role_method_counter=collections.Counter()
+_seg_per_parent=collections.Counter(); _rid=0
 for r in data:
-    rid=int(r[0]); date=to_date_str(r[1]); date_dt=dt.date.fromisoformat(date)
+    parent_id=int(r[0]); date=to_date_str(r[1]); date_dt=dt.date.fromisoformat(date)
     actor_orig=str(r[2]).strip(); rol_orig=str(r[3]).strip(); text=str(r[5])
-    det=detect(text,date)
-    if det:
-        spk,role,method,_=det
-        if spk in REAL or spk==CONSEJO:
-            if spk in REAL: last_speaker[date]=spk
+    seg_texts=maybe_segments(text,date)
+    _seg_per_parent[parent_id]+=len(seg_texts)
+    for text in seg_texts:
+        _rid+=1; rid=_rid
+        det=detect(text,date)
+        if det:
+            spk,role,method,_=det
+            if spk in REAL or spk==CONSEJO:
+                if spk in REAL: last_speaker[date]=spk
+            else:
+                # pseudo actor fallback: try inherit / keep
+                method='PSEUDO'
+                spk=None; role=None
         else:
-            # pseudo actor fallback: try inherit / keep
-            method='PSEUDO'
+            method='SIN_DETECTAR'
             spk=None; role=None
-    else:
-        method='SIN_DETECTAR'
-        spk=None; role=None
-    # choose speaker
-    if spk:
-        pass
-    elif session_meta(text):
-        spk=CONSEJO; role='Consejo'; method='META'
-    elif actor_orig in REAL:
-        spk=actor_orig; role=None; method='ORIGINAL'
-    else:
-        prev=last_speaker.get(date)
-        spk=prev if prev else actor_orig
-        role=None
-        method='HERENCIA' if prev else 'SIN_DETECTAR'
-    if spk!=actor_orig and spk!=CONSEJO:
-        actor_corr+=1
-    # role
-    rol=rol_orig
-    if method in ('ACTA/META','META') and spk==CONSEJO:
-        rol='Consejo'
-    # Política conservadora: Rol_Gold = Rol_Original (cargo del PDF/source).
-    # Solo se corrigen casos indudables:
-    #   - actas/metadata del Consejo -> rol Consejo
-    #   - Rodrigo Valdés antes de 2015 cuando el acta lo presenta como Gerente
-    #   - género/subrogante de Hacienda confirmado por el texto
-    if spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido'] and role and role.startswith('Gerente'):
-        rol=role
-    elif spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
-        rol=ministry_role(text,spk,date_dt)
-    # Fuente canónica de cargo: lista de asistencia del primer párrafo del acta.
-    # Se aplica solo cuando la coincidencia nombre/cargo es única y exacta.
-    rol_asistencia=None
-    if spk and spk!=CONSEJO:
-        rr=roster_role_for(date,spk)
-        if rr:
-            rol_asistencia=rr
-            rol=rr
-    metodo_rol='LISTA_ASISTENCIA' if rol_asistencia else ('ACTA_INSTITUCIONAL' if (method in ('ACTA/META','META') and spk==CONSEJO) else 'PENDIENTE_REVISION')
-    tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
-    if rol!=rol_orig: role_corr+=1
-    method_counter[method]+=1
-    role_method_counter[metodo_rol]+=1
-    records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7]),rol_asistencia,metodo_rol,tipo))
+        # choose speaker
+        if spk:
+            pass
+        elif session_meta(text):
+            spk=CONSEJO; role='Consejo'; method='META'
+        elif actor_orig in REAL:
+            spk=actor_orig; role=None; method='ORIGINAL'
+        else:
+            prev=last_speaker.get(date)
+            spk=prev if prev else actor_orig
+            role=None
+            method='HERENCIA' if prev else 'SIN_DETECTAR'
+        if spk!=actor_orig and spk!=CONSEJO:
+            actor_corr+=1
+        # role
+        rol=rol_orig
+        if method in ('ACTA/META','META') and spk==CONSEJO:
+            rol='Consejo'
+        # Política conservadora: Rol_Gold = Rol_Original (cargo del PDF/source).
+        # Solo se corrigen casos indudables:
+        #   - actas/metadata del Consejo -> rol Consejo
+        #   - Rodrigo Valdés antes de 2015 cuando el acta lo presenta como Gerente
+        #   - género/subrogante de Hacienda confirmado por el texto
+        if spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido'] and role and role.startswith('Gerente'):
+            rol=role
+        elif spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
+            rol=ministry_role(text,spk,date_dt)
+        # Fuente canónica de cargo: lista de asistencia del primer párrafo del acta.
+        # Se aplica solo cuando la coincidencia nombre/cargo es única y exacta.
+        rol_asistencia=None
+        if spk and spk!=CONSEJO:
+            rr=roster_role_for(date,spk)
+            if rr:
+                rol_asistencia=rr
+                rol=rr
+        metodo_rol='LISTA_ASISTENCIA' if rol_asistencia else ('ACTA_INSTITUCIONAL' if (method in ('ACTA/META','META') and spk==CONSEJO) else 'PENDIENTE_REVISION')
+        tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
+        if rol!=rol_orig: role_corr+=1
+        method_counter[method]+=1
+        role_method_counter[metodo_rol]+=1
+        records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7]),rol_asistencia,metodo_rol,tipo,parent_id))
 
 print("Actors reasignados:",actor_corr)
 print("Roles cambiados:",role_corr)
@@ -570,56 +724,49 @@ def cat(kw):
     if any(x in k for x in ['discusión','debate','deliberación','comentarios','traspaso','preguntas','ronda']): return 'debate'
     return 'otros'
 
-texts=[rec[10] for rec in records]
-tc=collections.Counter(texts)
-trunc=set(i for i,t in enumerate(texts) if len(t)>=32767)
-nearcut=set(i for i,t in enumerate(texts) if 30000<=len(t)<32767)
-dup=set(i for i,t in enumerate(texts) if tc[t]>1)
-def formula(t):
-    low=t.lower()
-    return any(x in low for x in ['suspende','levanta la sesión','aprueba el texto','ofrece la palabra','agradece la presentación','agradece la exposición','se levanta la sesión','a continuación, concede'])
-dup_formula=set(dup)  # todos los duplicados exactos son formulas de sesion repetidas (criterio usuario)
-
 outwb=openpyxl.Workbook(); ows=outwb.active; ows.title='Consolidado'
-header=['ID','Id_Sesion','Fecha','Actor_Original','Actor_Gold','Actor_Corregido','Rol_Fuente','Rol_Final','Rol_Corregido','Rol_Detectado_Texto','Rol_Lista_Asistencia','Fuente_Rol','Tipo_Acta','Fuente_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
+header=['ID','ID_Padre','Id_Sesion','Fecha','Actor_Original','Actor_Gold','Actor_Corregido','Rol_Fuente','Rol_Final','Rol_Corregido','Rol_Detectado_Texto','Rol_Lista_Asistencia','Fuente_Rol','Tipo_Acta','Fuente_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
 ows.append(header)
-for idx,rec in enumerate(records):
-    rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw,rol_asistencia,metodo_rol,tipo=rec
+for rec in records:
+    rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw,rol_asistencia,metodo_rol,tipo,id_padre=rec
     clean=re.sub(r'[ \t]+',' ',text); clean=re.sub(r'\s*\n\s*','\n',clean)
     note=[]
-    if idx in trunc: note.append('Texto truncado en celda Excel (32,767)')
-    if idx in nearcut: note.append('Texto muy largo (>=30,000)')
-    if idx in dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if idx in dup_formula else ''))
+    if id_padre in _parent_trunc: note.append('Texto truncado en celda Excel (32,767)')
+    if id_padre in _parent_near: note.append('Texto muy largo (>=30,000)')
+    if id_padre in _parent_dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if id_padre in _parent_dup_formula else ''))
     if role: note.append('Rol detectado en texto: '+role)
     if rol_asistencia: note.append('Rol según lista de asistencia: '+rol_asistencia)
     if not rol_asistencia and metodo_rol=='PENDIENTE_REVISION':
         note.append('Sin cargo único en lista de asistencia; revisar manualmente')
     if method in ('HERENCIA','SIN_DETECTAR','ORIGINAL','PSEUDO'): note.append('Método: '+method)
-    # estado de texto largo: completo en textos_completos.jsonl
-    if rid in FULL_TEXTS:
-        ft=FULL_TEXTS[rid]
+    # estado de texto largo: completo en textos_completos.jsonl (por fila original)
+    if id_padre in FULL_TEXTS:
+        ft=FULL_TEXTS[id_padre]
         note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en textos_completos.jsonl')
         tc='NO'
     else:
-        tc='SI' if idx in trunc else 'REV' if idx in nearcut else 'NO'
-    ows.append([rid,'RPM-'+date,date_dt,actor_orig,spk,'SI' if spk!=actor_orig else 'NO',
+        tc='SI' if id_padre in _parent_trunc else 'REV' if id_padre in _parent_near else 'NO'
+    ows.append([rid,id_padre,'RPM-'+date,date_dt,actor_orig,spk,'SI' if spk!=actor_orig else 'NO',
                 rol_orig,rol,'SI' if rol!=rol_orig else 'NO',role if role else '',
                 rol_asistencia if rol_asistencia else '',metodo_rol,tipo,method,page,clean,
                 tema,cat(tema),kw,cat(kw),
                 tc,
-                'SI' if idx in dup else 'NO','SI' if idx in dup_formula else 'NO','; '.join(note)])
+                'SI' if id_padre in _parent_dup else 'NO','SI' if id_padre in _parent_dup_formula else 'NO','; '.join(note)])
 
 md=outwb.create_sheet('Calidad'); md.append(['Indicador','Valor'])
-md.append(['Filas',len(records)]); md.append(['Sesiones',len(set(x[1] for x in records))])
+md.append(['Filas originales',len(data)])
+md.append(['Intervenciones (filas tras segmentar)',len(records)])
+md.append(['Filas divididas en intervenciones',sum(1 for n in _seg_per_parent.values() if n>1)])
+md.append(['Sesiones',len(set(x[1] for x in records))])
 md.append(['Fecha min',min(x[1] for x in records)]); md.append(['Fecha max',max(x[1] for x in records)])
 md.append(['Actores reasignados',actor_corr]); md.append(['Roles corregidos',role_corr])
 md.append(['Roles desde lista de asistencia',sum(1 for x in records if x[13])])
 md.append(['Filas sin cargo único en lista de asistencia (revisar)',sum(1 for x in records if not x[13] and x[14]!='ACTA_INSTITUCIONAL')])
 md.append(['Fuente_Rol',str(dict(role_method_counter))])
-md.append(['Textos truncados sin resolver',len([i for i in trunc if int(records[i][0]) not in FULL_TEXTS])])
-md.append(['Textos largos sin revisar',len([i for i in nearcut if int(records[i][0]) not in FULL_TEXTS])])
+md.append(['Textos truncados sin resolver',len([i for i in _parent_trunc if i not in FULL_TEXTS])])
+md.append(['Textos largos sin revisar',len([i for i in _parent_near if i not in FULL_TEXTS])])
 md.append(['Textos con texto completo en JSONL',len(FULL_TEXTS)])
-md.append(['Duplicados exactos',len(dup)]); md.append(['Duplicados fórmula',len(dup_formula)])
+md.append(['Duplicados exactos',len(_parent_dup)]); md.append(['Duplicados fórmula',len(_parent_dup_formula)])
 md.append(['Métodos',str(dict(method_counter))])
 
 md2=outwb.create_sheet('Fuente_Actor'); md2.append(['Fuente_Actor','Registros'])
