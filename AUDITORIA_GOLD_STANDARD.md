@@ -74,17 +74,18 @@ La columna original `Actor` era la mayor fuente de error. En el gold se reconstr
 
 ---
 
-## 5. Rol canónico y género (política conservadora)
+## 5. Rol canónico (lista de asistencia, `Rol_Asistencia`)
 
-- **`Rol_Gold = Rol_Original`** (el cargo exacto del PDF/source) como regla general.
-- Solo se aplican correcciones **indudables**:
-  - `Ministra de Hacienda (S)` → `Ministro de Hacienda` cuando el texto habla de “El señor Ministro…” (136 cambios).
-  - `Ministro de Hacienda Subrogante` → `Ministro de Hacienda (S)` (6 cambios).
-  - Rodrigo Valdés Pulido (2005–2007) cuando el acta lo presenta como **Gerente de División Estudios** (31 cambios).
-  - Filas de acta/metadata con `Actor_Gold = Consejo` → `Rol_Gold = Consejo`.
-  - Un caso de `Ministra de Hacienda (S)` → `Ministro de Hacienda (S)` (subrogante masculino) y un caso de `Ministro de Hacienda` → `Ministra de Hacienda (S)` (subrogante femenina).
-- `Rol_Texto` mantiene el rol reconstruido desde el texto para **revisión diferencial**; su uso no modifica `Rol_Gold`.
-- No se reemplazan roles por inferencias textuales (p. ej. “El Consejero señor X” no cambia el rol si el source ya tiene otro cargo).
+- Se construyó una **tabla de cargos por sesión** desde el **primer párrafo de cada acta**, la fuente oficial de qué cargo ocupaba cada persona ese día (`bajo la presidencia…`, `con la asistencia del Vicepresidente…`, `de los Consejeros…`, `Asiste…`, `Asisten también…`).
+- `Rol_Asistencia`: cargo extraído del párrafo de apertura (parser `roster.py` en las **132 sesiones**, 13–29 cargos por sesión).
+- **`Rol_Gold = Rol_Asistencia`** cuando la coincidencia nombre↔cargo es **única y exacta** (6.748 filas). Las 309 filas de acta/Consejo quedan como `Rol_Gold = Consejo`; los 162 casos sin coincidencia única quedan en `CONSERVADOR`.
+- `Metodo_Rol`: `ASISTENCIA` (6.748), `ACTAS` (309), `CONSERVADOR` (162).
+- Correcciones verificadas contra los PDFs (RPM 79 y 80):
+  - Esteban Jadresic → `Gerente de División Internacional` (2 filas).
+  - Ricardo Vicuña → `Gerente de Información e Investigación Estadística`.
+  - Manuel Marfán / Jorge Desormeaux → `Consejero` (5 filas).
+  - Nicolás Eyzaguirre → `Ministro de Hacienda`.
+- `Rol_Texto` mantiene el rol reconstruido dentro del texto para **revisión diferencial**; ya no modifica `Rol_Gold` cuando la asistencia es concluyente.
 
 ---
 
@@ -115,7 +116,7 @@ Distribución de `Tema_Categoria` (top):
 ## 7. Controles de consistencia
 
 - **Actor**: sin hablantes pseudo-rol en `Actor_Gold` (p. ej. `Gerente de División Internacional`, `Gerente de Investigación Económica`, `Gerente de Área Técnica`).
-- **Roles**: `Rol_Gold` conserva el cargo del PDF/source por política explícita, por lo que **no** se impone `Actor_Gold=Consejo ⇔ Rol_Gold=Consejo`; las diferencias se dejan visibles para comparar con `Rol_Texto`.
+- **Roles**: `Rol_Gold` deriva de `Rol_Asistencia` cuando la coincidencia es única; las filas sin coincidencia única conservan el cargo del source (`Metodo_Rol=CONSERVADOR`) para revisión manual.
 - **Género** validado:
   - `Ministra…` solo con subrogantes femeninas.
   - `Consejera` solo con María Elena Ovalle Molina.
@@ -124,7 +125,9 @@ Distribución de `Tema_Categoria` (top):
   - Filas: 7.219
   - Sesiones: 132
   - Actores reasignados: **530** (535 filas con `Actor_Cambia = SI` contando cambios a Consejo)
-  - Roles corregidos: **181**
+  - Roles corregidos: **1.188**
+  - Roles desde lista de asistencia: **6.748**
+  - Metodos de rol: `ASISTENCIA` (6.748), `ACTAS` (309), `CONSERVADOR` (162)
   - Textos truncados sin resolver: **0**
   - Textos largos sin revisar: **0**
   - Textos con texto completo en `textos_completos.jsonl`: **2** (ID 280, ID 297)
@@ -136,5 +139,6 @@ Distribución de `Tema_Categoria` (top):
 
 1. El formato XLSX limita cada celda a 32.767 caracteres; el texto completo de ID 297 no cabe en una celda y reside en `textos_completos.jsonl`.
 2. La taxonomía de `Tema`/`Palabra Clave` es **automática** y se basa en palabras clave; una revisión semántica humana puede reducir los casos `otros`.
-3. La atribución de hablante usa reglas sobre el texto de las actas; los casos donde el acta no nombra al hablante se resuelven por cargo+mes. Verificar con el documento impreso sigue siendo recomendable para el 100% de “gold”.
-4. `consolidado_final.xlsx` conserva el texto del ID 297 en 32.767 caracteres; el texto íntegro está en `textos_completos.jsonl`.
+3. `Rol_Asistencia` se extrae solo del primer párrafo de las actas; **162 filas** no tuvieron coincidencia única (ej. nombres con variante OCR, o fecha donde el párrafo de apertura no quedó en página 1) y quedan con `Metodo_Rol=CONSERVADOR` y sin `Rol_Asistencia`. Quedan identificables para revisión manual.
+4. La atribución de hablante usa reglas sobre el texto de las actas; los casos donde el acta no nombra al hablante se resuelven por cargo+mes. Verificar con el documento impreso sigue siendo recomendable para el 100% de “gold”.
+5. `consolidado_final.xlsx` conserva el texto del ID 297 en 32.767 caracteres; el texto íntegro está en `textos_completos.jsonl`.

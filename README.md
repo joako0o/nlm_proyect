@@ -14,20 +14,22 @@ Actas y reuniones de Política Monetaria (RPM) del Banco Central de Chile, conso
 
 ## `consolidado_goldstandard.xlsx`
 
-Hoja `Consolidado` (21 columnas):
+Hoja `Consolidado` (23 columnas):
 
-`ID, Id_Sesion, Fecha, Actor_Original, Actor_Gold, Actor_Cambia, Rol_Original, Rol_Gold, Rol_Cambia, Rol_Texto, Metodo_Actor, Página, Texto, Tema_Original, Tema_Categoria, Palabra_Clave_Original, Palabra_Clave_Categoria, Texto_Truncado, Duplicado_Exacto, Duplicado_Formula, Nota`
+`ID, Id_Sesion, Fecha, Actor_Original, Actor_Gold, Actor_Cambia, Rol_Original, Rol_Gold, Rol_Cambia, Rol_Texto, Rol_Asistencia, Metodo_Rol, Metodo_Actor, Página, Texto, Tema_Original, Tema_Categoria, Palabra_Clave_Original, Palabra_Clave_Categoria, Texto_Truncado, Duplicado_Exacto, Duplicado_Formula, Nota`
 
-Hojas adicionales: `Calidad`, `Metodo_Actor`, `Diccionario_Rol`, `Diccionario_Actor`, `Diccionario_Categoria`, `Textos_Completos`.
+Hojas adicionales: `Calidad`, `Metodo_Actor`, `Metodo_Rol`, `Diccionario_Rol`, `Diccionario_Actor`, `Diccionario_Categoria`, `Textos_Completos`.
 
 ### Resumen de la versión gold
 
 - `Fecha` convertida a **fecha real** con formato `YYYY-MM-DD`.
 - `Id_Sesion` = `RPM-YYYY-MM-DD`.
 - **Actor re-etiquetado** (quién habla realmente): 535 filas con cambio.
-- **Rol corregido**: 181 filas. Política conservadora: `Rol_Gold = Rol_Original` (cargo tal como viene del PDF/source), salvo correcciones indudables (género/subrogante de Hacienda, Rodrigo Valdés como Gerente, actas/meta como `Consejo`).
-- `Rol_Texto` conserva el rol reconstruido desde el texto para revisión diferencial.
-- Métodos de atribución: `ROL+NOMBRE` (5.000), `NOMBRE+VERBO` (1.368), `ROL+FECHA` (437), `ACTA/META` (309), `ORIGINAL` (105).
+- **Rol corregido**: 1.188 filas. El cargo canónico ahora proviene de la **lista de asistencia del primer párrafo de cada acta** (`Rol_Asistencia`), que es la fuente oficial de quién ocupaba qué cargo en esa sesión.
+- `Rol_Asistencia`: cargo extraído del primer párrafo (bajo la presidencia…, Asiste…, Asisten también…). Se aplica a `Rol_Gold` solo cuando la coincidencia nombre↔cargo es **única y exacta**.
+- `Metodo_Rol`: `ASISTENCIA` (6.748), `ACTAS` (309), `CONSERVADOR` (162, sin coincidencia única).
+- `Rol_Texto` conserva el rol reconstruido dentro del texto para revisión diferencial.
+- Métodos de atribución de actor: `ROL+NOMBRE` (5.000), `NOMBRE+VERBO` (1.368), `ROL+FECHA` (437), `ACTA/META` (309), `ORIGINAL` (105).
 - Textos largos resueltos con `textos_completos.jsonl` (ambos con `Texto_Truncado = NO`):
   - ID 280 (2005-06-09): 32.498 caracteres, ya completo en el Excel; verificado contra el PDF.
   - ID 297 (2005-07-12): celda Excel 32.767 (límite), texto íntegro 35.854 caracteres en `textos_completos.jsonl`.

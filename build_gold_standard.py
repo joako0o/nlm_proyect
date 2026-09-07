@@ -6,6 +6,7 @@ Gold Standard del consolidado RPM v2.
 - Fecha real + Id_Sesion + taxonomia canonica + flags.
 """
 import openpyxl, re, collections, datetime as dt
+from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
 
 SRC='consolidado_final.xlsx'; OUT='consolidado_goldstandard.xlsx'
 wb=openpyxl.load_workbook(SRC, data_only=True, read_only=True)
@@ -392,7 +393,7 @@ def is_header2(t):
 actor_role_by_date=collections.defaultdict(collections.Counter)
 for r in data:
     actor_role_by_date[(to_date_str(r[1]),str(r[2]).strip())][str(r[3]).strip()]+=1
-def canonical_role(actor,date):
+def canonical_role_by_actor(actor,date):
     cnt=actor_role_by_date.get((str(date),actor))
     if cnt: return cnt.most_common(1)[0][0]
     cnt=collections.Counter(str(r[3]).strip() for r in data if str(r[2]).strip()==actor)
@@ -412,6 +413,20 @@ def ministry_role(text,actor,date):
     if actor in FULL_MIN_START and date>=FULL_MIN_START[actor] and 'subrogante' not in low: subg=False
     return f'{gen} de Hacienda{" (S)" if subg else ""}'.strip()
 
+# ---- roster de cargos por sesión (primer párrafo del acta) ----
+_opening_by_date=collections.defaultdict(list)
+for _r in data:
+    _d=to_date_str(_r[1])
+    if str(_r[4]).strip()=='1':
+        _opening_by_date[_d].append(str(_r[5]))
+ROSTER_BY_DATE=_build_rosters({_d:' '.join(_opening_by_date[_d]) for _d in _opening_by_date})
+def roster_role_for(date,actor):
+    r=ROSTER_BY_DATE.get(date)
+    if not r: return None
+    raw=_match_role(r,actor)
+    if raw is None: return None
+    return _canonical_role(raw,actor)
+
 # ---- textos completos re-extraidos desde PDF (límite de celda Excel) ----
 import json as _json
 import os as _os
@@ -426,7 +441,7 @@ if _os.path.exists('textos_completos.jsonl'):
         print('No se pudo leer textos_completos.jsonl:',_e)
 
 # ---- process ----
-records=[]; last_speaker={}; actor_corr=0; role_corr=0; method_counter=collections.Counter()
+records=[]; last_speaker={}; actor_corr=0; role_corr=0; method_counter=collections.Counter(); role_method_counter=collections.Counter()
 for r in data:
     rid=int(r[0]); date=to_date_str(r[1]); date_dt=dt.date.fromisoformat(date)
     actor_orig=str(r[2]).strip(); rol_orig=str(r[3]).strip(); text=str(r[5])
@@ -469,13 +484,24 @@ for r in data:
         rol=role
     elif spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
         rol=ministry_role(text,spk,date_dt)
+    # Fuente canónica de cargo: lista de asistencia del primer párrafo del acta.
+    # Se aplica solo cuando la coincidencia nombre/cargo es única y exacta.
+    rol_asistencia=None
+    if spk and spk!=CONSEJO:
+        rr=roster_role_for(date,spk)
+        if rr:
+            rol_asistencia=rr
+            rol=rr
+    metodo_rol='ASISTENCIA' if rol_asistencia else ('ACTAS' if (method in ('ACTA/META','META') and spk==CONSEJO) else 'CONSERVADOR')
     if rol!=rol_orig: role_corr+=1
     method_counter[method]+=1
-    records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7])))
+    role_method_counter[metodo_rol]+=1
+    records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7]),rol_asistencia,metodo_rol))
 
 print("Actors reasignados:",actor_corr)
 print("Roles cambiados:",role_corr)
 print("Métodos:",dict(method_counter))
+print("Métodos de rol:",dict(role_method_counter))
 
 # taxonomy
 def cat(kw):
@@ -505,16 +531,17 @@ def formula(t):
 dup_formula=set(dup)  # todos los duplicados exactos son formulas de sesion repetidas (criterio usuario)
 
 outwb=openpyxl.Workbook(); ows=outwb.active; ows.title='Consolidado'
-header=['ID','Id_Sesion','Fecha','Actor_Original','Actor_Gold','Actor_Cambia','Rol_Original','Rol_Gold','Rol_Cambia','Rol_Texto','Metodo_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
+header=['ID','Id_Sesion','Fecha','Actor_Original','Actor_Gold','Actor_Cambia','Rol_Original','Rol_Gold','Rol_Cambia','Rol_Texto','Rol_Asistencia','Metodo_Rol','Metodo_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
 ows.append(header)
 for idx,rec in enumerate(records):
-    rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw=rec
+    rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw,rol_asistencia,metodo_rol=rec
     clean=re.sub(r'[ \t]+',' ',text); clean=re.sub(r'\s*\n\s*','\n',clean)
     note=[]
     if idx in trunc: note.append('Texto truncado en celda Excel (32,767)')
     if idx in nearcut: note.append('Texto muy largo (>=30,000)')
     if idx in dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if idx in dup_formula else ''))
     if role: note.append('Rol detectado en texto: '+role)
+    if rol_asistencia: note.append('Rol según lista de asistencia: '+rol_asistencia)
     if method in ('HERENCIA','SIN_DETECTAR','ORIGINAL','PSEUDO'): note.append('Método: '+method)
     # estado de texto largo: completo en textos_completos.jsonl
     if rid in FULL_TEXTS:
@@ -524,7 +551,8 @@ for idx,rec in enumerate(records):
     else:
         tc='SI' if idx in trunc else 'REV' if idx in nearcut else 'NO'
     ows.append([rid,'RPM-'+date,date_dt,actor_orig,spk,'SI' if spk!=actor_orig else 'NO',
-                rol_orig,rol,'SI' if rol!=rol_orig else 'NO',role if role else '',method,page,clean,
+                rol_orig,rol,'SI' if rol!=rol_orig else 'NO',role if role else '',
+                rol_asistencia if rol_asistencia else '',metodo_rol,method,page,clean,
                 tema,cat(tema),kw,cat(kw),
                 tc,
                 'SI' if idx in dup else 'NO','SI' if idx in dup_formula else 'NO','; '.join(note)])
@@ -533,6 +561,8 @@ md=outwb.create_sheet('Calidad'); md.append(['Indicador','Valor'])
 md.append(['Filas',len(records)]); md.append(['Sesiones',len(set(x[1] for x in records))])
 md.append(['Fecha min',min(x[1] for x in records)]); md.append(['Fecha max',max(x[1] for x in records)])
 md.append(['Actores reasignados',actor_corr]); md.append(['Roles corregidos',role_corr])
+md.append(['Roles desde lista de asistencia',sum(1 for x in records if x[13])])
+md.append(['Métodos de rol',str(dict(role_method_counter))])
 md.append(['Textos truncados sin resolver',len([i for i in trunc if int(records[i][0]) not in FULL_TEXTS])])
 md.append(['Textos largos sin revisar',len([i for i in nearcut if int(records[i][0]) not in FULL_TEXTS])])
 md.append(['Textos con texto completo en JSONL',len(FULL_TEXTS)])
@@ -541,6 +571,8 @@ md.append(['Métodos',str(dict(method_counter))])
 
 md2=outwb.create_sheet('Metodo_Actor'); md2.append(['Metodo','Registros'])
 for k,v in method_counter.most_common(): md2.append([k,v])
+md3=outwb.create_sheet('Metodo_Rol'); md3.append(['Metodo_Rol','Registros'])
+for k,v in role_method_counter.most_common(): md3.append([k,v])
 rc=collections.Counter(x[5] for x in records); cd=outwb.create_sheet('Diccionario_Rol'); cd.append(['Rol','Registros'])
 for k,v in rc.most_common(): cd.append([k,v])
 ac=collections.Counter(x[4] for x in records); ad=outwb.create_sheet('Diccionario_Actor'); ad.append(['Actor','Registros'])
