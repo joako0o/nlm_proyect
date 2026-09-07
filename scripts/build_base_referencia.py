@@ -6,9 +6,14 @@ Base de referencia del consolidado RPM v2.
 - Fecha real + Id_Sesion + taxonomia canonica + flags.
 """
 import openpyxl, re, collections, datetime as dt
+from pathlib import Path as _Path
 from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
 
-SRC='consolidado_final.xlsx'; OUT='consolidado_base_referencia.xlsx'
+# Rutas ancladas a la raíz del repositorio (el script vive en scripts/).
+REPO=_Path(__file__).resolve().parent.parent
+DATA_RAW=REPO/'data'/'raw'; DATA_EXT=REPO/'data'/'external'; DATA_PROC=REPO/'data'/'processed'
+SRC=str(DATA_RAW/'consolidado_final.xlsx'); OUT=str(DATA_PROC/'consolidado_base_referencia.xlsx')
+TEXTOS_COMPLETOS=DATA_PROC/'textos_completos.jsonl'
 wb=openpyxl.load_workbook(SRC, data_only=True, read_only=True)
 ws=wb['Consolidado']; data=list(ws.iter_rows(values_only=True))[1:]
 
@@ -342,6 +347,80 @@ def tipo_acta(text):
         return 'META_SESION'
     return 'ACTA_INSTITUCIONAL'
 
+# ---- decisión de TPM de la sesión (fórmula del acuerdo del Consejo) ----
+# Tolerante a \s+ (el texto extraído del PDF trae saltos incrustados; la
+# variante con espacios literales pierde ~18 sesiones) y a las variantes OCR:
+# comas antes de "acordó", "del Banco Central" sin "de Chile", "resolvió, por
+# unanimidad, mantener" (2005-06-09), "el Consejo acuerda bajar la Tasa"
+# (2009-04-09), "el Consejo decidió mantener la tasa..." (comunicados 2005),
+# y espacios OCR incrustados dentro de palabras clave ("monetari a",
+# "anteri or"), que se curan con _fix_ocr.
+def _soft(t):
+    """minúsculas sin acentos (mantiene saltos de línea)."""
+    s=str(t).lower()
+    for a,b in (('á','a'),('é','e'),('í','i'),('ó','o'),('ú','u'),('ñ','n'),('ü','u')):
+        s=s.replace(a,b)
+    return s
+
+_OCR_WORDS=('monetaria','anterior','politica','acuerdo','reunion','consejo','consejeros',
+            'votacion','unanimidad','constancia','comunicado','interbancaria','mantener',
+            'aumentar','reducir','puntos','siguiente','merito','virtud')
+
+def _fix_ocr(s):
+    """Colapsa espacios OCR incrustados dentro de palabras clave (p.ej.
+    'monetari a' -> 'monetaria', 'anteri or' -> 'anterior')."""
+    for w in _OCR_WORDS:
+        s=re.sub(r'\s*'.join(w), w, s)
+    return s
+_ACCORD_VERB = r'(?:acuerda|acord[oó]|resolvi[oó]|decidi[oó])'
+_ACTION_VERB = (r'(?:mantener|mantiene|aumentar|aumenta|aumentó|incrementar|incrementa|incrementó|'
+                r'elevar|eleva|elevó|reducir|reduce|redujo|bajar|baja|bajó)')
+_TASA_RE = r'(?:la\s+)?(?:tasa\s+de\s+(?:inter[ée]s\s+de\s+)?pol[íi]tica\s+monetaria|tpm)'
+# Fórmula canónica del acta/comunicado vigente: "En su reunión mensual de
+# política monetaria, el Consejo (del Banco Central ...),? (acordó|decidió|
+# resolvió|acuerda) <verbo> la tasa ..."
+DECISION_FORMULA_RE = re.compile(
+    r'en\s+su\s+reuni[oó]n\s+mensual\s+de\s+pol[íi]tica\s+monetaria\s*,?\s*el\s+consejo[^.\n]{0,80}?'
+    + _ACCORD_VERB + r'\s*[^.\n]{0,60}?' + _ACTION_VERB + r'\s+' + _TASA_RE,
+    re.I | re.S)
+# Fórmula del acta 2005: "Se acuerda <verbo> la tasa de interés de política monetaria ..."
+SE_ACUERDA_RE = re.compile(
+    r'se\s+acuerda\s*[^.\n]{0,60}?' + _ACTION_VERB + r'\s+' + _TASA_RE, re.I | re.S)
+# Verbo de acuerdo genérico, sin la fórmula completa (variantes de votación)
+DECISION_ACTION_RE = re.compile(
+    _ACCORD_VERB + r'\s*[^.\n]{0,60}?' + _ACTION_VERB + r'\s+' + _TASA_RE, re.I | re.S)
+# Bloques de acuerdo del acta que acompañan a la decisión vigente
+ACUERDO_BLOCK_RE = re.compile(
+    r'(siguiente\s+acuerdo|en\s+m[ée]rito\s+de\s+lo\s+anterior|conforme\s+a\s+la\s+votaci[oó]n|'
+    r'en\s+virtud\s+de\s+lo\s+anterior|se\s+deja\s+constancia|acuerdo\s+un[áa]nime|'
+    r'por\s+votaci[oó]n\s+un[áa]nime|por\s+(?:la\s+)?unanimidad|unanimidad\s+de\s+sus\s+miembros)',
+    re.I)
+# Recapitulaciones de la decisión de un mes anterior: "En la última
+# Reunión...", "En la reunión de política monetaria de <mes>...", "...desde
+# la Reunión celebrada en el mes de <mes>..." (presentación de Opciones).
+RECAP_LEAD_RE = re.compile(
+    r'(?:[úu]ltima\s+reuni|reuni[oó]n\s+de\s+pol[íi]tica\s+monetaria\s+de\s+'
+    r'(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)'
+    r'|reuni[oó]n\s+celebrada\s+en\s+el\s+mes\s+de|mes\s+(?:anterior|pasado))', re.I)
+
+def _is_current_decision(text):
+    """True si la fila porta la decisión de TPM de la SESIÓN (verbo de
+    acuerdo sobre la tasa), no citas de decisiones de meses anteriores.
+    Aplica a filas institucionales (ACUERDO/COMUNICADO) y a filas de persona
+    que arrastran el bloque del acuerdo (típico 2013-2015, donde el acuerdo
+    va pegado al discurso de cierre del Presidente)."""
+    t=_fix_ocr(_soft(text))
+    if DECISION_FORMULA_RE.search(t) or SE_ACUERDA_RE.search(t):
+        return True
+    for m in DECISION_ACTION_RE.finditer(t):
+        pre=t[max(0,m.start()-240):m.start()]
+        if RECAP_LEAD_RE.search(pre):
+            continue
+        ctx=t[max(0,m.start()-240):m.start()+240]
+        if ACUERDO_BLOCK_RE.search(ctx):
+            return True
+    return False
+
 
 def detect(text,date):
     if session_meta(text) or is_header2(text):
@@ -593,12 +672,44 @@ def first_speaker_hint(text,date):
         break
     return None
 
+def _inst_transition(sent):
+    """Oración que abre un bloque institucional del acta (transición al
+    Consejo) — versión ESTRICTA para uso a nivel de oración dentro de
+    segment_row. La heurística amplia de session_meta, aplicada por oración,
+    dividía por error discursos que sólo mencionan al Consejo ("Hace presente
+    que ... el Consejo adoptó ...", "En virtud de lo anterior, al Ministro...
+    le parece ...", "Consigna que ... el Consejo decidió ...")."""
+    t=_fix_ocr(norm(sent))
+    if t.startswith(('siendo las','se levanta','se reanuda','se suspende','se retiran',
+                     'se retira','se incorpora','se acuerda','comunicado','acuerdo n',
+                     'se deja constancia','en su reunion mensual','a continuacion el consejo',
+                     'a continuacion, el consejo','los consejeros manifiestan',
+                     'acta correspondiente','en santiago de chile','a c t a')):
+        return True
+    if re.match(r'^el\s+consejo\s+(adopta|adopto|aprueba|acuerda|acordo|resolvio|decidio|procede|procedio)\b', t):
+        return True
+    m=re.match(r'^(en\s+merito\s+de\s+lo\s+anterior|conforme\s+a\s+la\s+votacion[^,.;]{0,90}'
+               r'|en\s+virtud\s+de\s+lo\s+anterior|en\s+consecuencia\s*,?\s*por\s+votacion\s+unanime'
+               r'|por\s+(?:la\s+)?unanimidad\s+de\s+sus\s+miembros)\s*,?\s*', t)
+    if m:
+        return bool(re.search(r'\bel\s+consejo\s+(adopta|adopto|aprueba|acuerda|acordo|resolvio|decidio|procede|procedio)\b',
+                              t[m.end():m.end()+160]))
+    return False
+
 def segment_row(text,date):
     sents=split_sentences(text)
     segs=[]; cur_start=0; prev=None
     for (s0,s1) in sents:
         if not text[s0:s1].strip(): continue
         sent=text[s0:s1]
+        # Transición institucional: el Consejo/acta toma la palabra ("En
+        # mérito de lo anterior, el Consejo ... adopta el siguiente Acuerdo",
+        # "Conforme a la votación ...", "Se acuerda ...", "Siendo las ...").
+        # Divide sólo si el tramo actual no es ya institucional, para no
+        # fragmentar las filas de acta/meta propiamente tales.
+        if prev!=CONSEJO and s0>cur_start and _inst_transition(sent):
+            segs.append((cur_start,s0)); cur_start=s0; prev=CONSEJO
+            continue
         spk,clear=sentence_speaker(sent,date)
         if clear and spk:
             if prev is not None and spk!=prev and s0>cur_start:
@@ -661,9 +772,9 @@ def roster_role_for(date,actor):
 import json as _json
 import os as _os
 FULL_TEXTS={}
-if _os.path.exists('textos_completos.jsonl'):
+if _os.path.exists(TEXTOS_COMPLETOS):
     try:
-        with open('textos_completos.jsonl',encoding='utf-8') as _fh:
+        with open(TEXTOS_COMPLETOS,encoding='utf-8') as _fh:
             for _line in _fh:
                 _r=_json.loads(_line)
                 FULL_TEXTS[int(_r['ID'])]=_r
@@ -742,6 +853,12 @@ for r in data:
                 rol=rr
         metodo_rol='LISTA_ASISTENCIA' if rol_asistencia else ('ACTA_INSTITUCIONAL' if (method in ('ACTA/META','META') and spk==CONSEJO) else 'PENDIENTE_REVISION')
         tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
+        # La fila porta la decisión de TPM de la sesión -> ACUERDO_CONSEJO,
+        # incluso si quedó tipificada como COMUNICADO (el texto del comunicado
+        # repite la fórmula del acuerdo) o si es fila de persona que arrastra
+        # el bloque del acuerdo.
+        if _is_current_decision(text):
+            tipo = 'ACUERDO_CONSEJO'
         if rol!=rol_orig: role_corr+=1
         method_counter[method]+=1
         role_method_counter[metodo_rol]+=1
@@ -787,7 +904,7 @@ for rec in records:
     # estado de texto largo: completo en textos_completos.jsonl (por fila original)
     if id_padre in FULL_TEXTS:
         ft=FULL_TEXTS[id_padre]
-        note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en textos_completos.jsonl')
+        note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en data/processed/textos_completos.jsonl')
         tc='NO'
     else:
         tc='SI' if id_padre in _parent_trunc else 'REV' if id_padre in _parent_near else 'NO'
@@ -833,8 +950,8 @@ if FULL_TEXTS:
         ftws.append([ft.get('ID',''),ft.get('Id_Sesion',''),ft.get('Fecha',''),ft.get('Página',''),
                      ft.get('Paginas_PDF',''),ft.get('Archivo_PDF',''),ft.get('Actor',''),ft.get('Rol',''),
                      ft.get('Tema',''),ft.get('Palabra_Clave',''),
-                     'Ver texto completo en textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
-                     ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'textos_completos.jsonl'])
+                     'Ver texto completo en data/processed/textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
+                     ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'data/processed/textos_completos.jsonl'])
 
 for row in ows.iter_rows(min_row=2,max_row=ows.max_row,min_col=3,max_col=3):
     for c in row:
