@@ -1,7 +1,7 @@
 # Revisión de la base de referencia del consolidado RPM
 
 **Fecha:** 2026-09-07
-**Base de referencia:** `consolidado_base_referencia.xlsx`
+**Base de referencia:** `data/processed/consolidado_base_referencia.xlsx`
 **Contenido resultante:** 8,493 intervenciones, a partir de 7,219 filas originales; 843 filas fueron divididas.
 
 ## 1. Revisión de los registros `PENDIENTE_REVISION`
@@ -53,7 +53,7 @@ Los registros que permanecen en `PENDIENTE_REVISION` son los siguientes:
 
 ## 3. Compuerta de calidad F0
 
-`qa_gate_f0.py` verifica tres controles sobre la base de referencia. Veredicto actual: **F0 PASA**.
+`scripts/qa_gate_f0.py` verifica tres controles sobre la base de referencia. Veredicto actual: **F0 PASA**.
 
 ### 3.1 F0(a) Cardinalidad de actores
 
@@ -70,7 +70,7 @@ Cada una de las 132 sesiones debe rendir exactamente una decisión (verbo + Δ p
 
 ### 3.3 F0(c) Contraste contra la historia oficial de TPM
 
-Cada decisión se contrasta contra `tpm_oficial_bcch.csv` (55 cambios efectivos entre 2004-01-09 y 2015-12-18; `fecha_efectiva` = fecha en que la tasa rige, por regla general el día hábil siguiente a la reunión).
+Cada decisión se contrasta contra `data/external/tpm_oficial_bcch.csv` (55 cambios efectivos entre 2004-01-09 y 2015-12-18; `fecha_efectiva` = fecha en que la tasa rige, por regla general el día hábil siguiente a la reunión).
 
 - Regla de eficacia: la sesión adopta la siguiente tasa oficial sólo si su fecha efectiva cae dentro de los **10 días** posteriores a la reunión (`CHANGE_WINDOW_DAYS = 10`); si no, mantiene la tasa vigente. Ejemplo: la reunión del 15-07-2014 acuerda bajar a 3,75%, efectiva el 17-07-2014 (2 días después) → adoptada.
 - Resultado: **132/132 OK, 0 discrepancias reales.**

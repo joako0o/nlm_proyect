@@ -1,8 +1,8 @@
 # Auditoría de la base de referencia del consolidado RPM
 
 **Fecha de auditoría:** 2026-09-07 (actualizada tras la compuerta F0)
-**Base de entrada:** `consolidado_final.xlsx` (hoja `Consolidado`, 7,219 filas + encabezado)
-**Base de referencia:** `consolidado_base_referencia.xlsx`
+**Base de entrada:** `data/raw/consolidado_final.xlsx` (hoja `Consolidado`, 7,219 filas + encabezado)
+**Base de referencia:** `data/processed/consolidado_base_referencia.xlsx`
 
 ## 1. Cobertura
 
@@ -14,7 +14,7 @@
 ## 2. Trazabilidad
 
 - `ID`: identificador consecutivo de cada intervención.
-- `ID_Padre`: identificador de la fila original en `consolidado_final.xlsx`.
+- `ID_Padre`: identificador de la fila original en `data/raw/consolidado_final.xlsx`.
 - `Fecha`: fecha real de la sesión, formato `YYYY-MM-DD`.
 - `Id_Sesion`: `RPM-AAAA-MM-DD`.
 
@@ -47,7 +47,7 @@ El cargo canónico proviene de la lista de asistencia del párrafo inicial de ca
 | `ACTA_INSTITUCIONAL` | 466 |
 | `PENDIENTE_REVISION` | 6 |
 
-Diferencias con el cargo original: **2,107 cambios**.
+Diferencias con el cargo original: **2,141 cambios**.
 
 ## 5. Clasificación de las filas institucionales
 
@@ -70,17 +70,17 @@ Criterios de tipificación de la decisión (`ACUERDO_CONSEJO`):
 
 ## 6. Compuerta de calidad F0
 
-`qa_gate_f0.py` valida la base en tres frentes (ver `informe_revision_base_referencia_2026-09-07.md`):
+`scripts/qa_gate_f0.py` valida la base en tres frentes (ver `informe_revision_base_referencia_2026-09-07.md`):
 
 | Control | Resultado |
 |---|---|
 | F0(a) Cardinalidad de actores | 50 personas + Consejo = 51 valores de `Actor_Final` |
 | F0(b) Decisión por sesión | 132/132 sesiones con exactamente una decisión parseada; 0 filas de decisión mis-tipificadas |
-| F0(c) Contraste contra TPM oficial | 132/132 OK contra `tpm_oficial_bcch.csv` (ventana de eficacia de 10 días); 0 discrepancias |
+| F0(c) Contraste contra TPM oficial | 132/132 OK contra `data/external/tpm_oficial_bcch.csv` (ventana de eficacia de 10 días); 0 discrepancias |
 
 ## 7. Textos largos
 
-Se re-extrajo el contenido completo desde los PDFs originales para las celdas que alcanzan el límite de 32,767 caracteres del formato XLSX. La fuente de verdad se conserva en `textos_completos.jsonl`. La hoja `Textos_Completos` referencia esos registros.
+Se re-extrajo el contenido completo desde los PDFs originales para las celdas que alcanzan el límite de 32,767 caracteres del formato XLSX. La fuente de verdad se conserva en `data/processed/textos_completos.jsonl`. La hoja `Textos_Completos` referencia esos registros.
 
 ## 8. Duplicados
 

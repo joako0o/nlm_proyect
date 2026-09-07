@@ -20,14 +20,15 @@ from pathlib import Path
 import openpyxl
 import pypdf
 
-REPO = Path(__file__).resolve().parent
-SRC = REPO / "consolidado_final.xlsx"
-OUT = REPO / "textos_completos.jsonl"
+REPO = Path(__file__).resolve().parent.parent
+DATA_RAW = REPO / "data" / "raw"
+SRC = DATA_RAW / "consolidado_final.xlsx"
+OUT = REPO / "data" / "processed" / "textos_completos.jsonl"
 
 # id -> (archivo PDF, fecha, primera_página, última_página)
 PDFS = {
-    280: (REPO / "2005-06-09 - Actas.pdf", "2005-06-09", 1, 9),
-    297: (REPO / "2005-07-12 - Actas.pdf", "2005-07-12", 1, 12),
+    280: (DATA_RAW / "2005-06-09 - Actas.pdf", "2005-06-09", 1, 9),
+    297: (DATA_RAW / "2005-07-12 - Actas.pdf", "2005-07-12", 1, 12),
 }
 
 HEADER_LINE = re.compile(

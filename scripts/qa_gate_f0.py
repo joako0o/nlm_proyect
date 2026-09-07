@@ -22,13 +22,16 @@ F0(c) Contraste contra la historia oficial de TPM del BCCh
      fecha efectiva cae dentro de CHANGE_WINDOW_DAYS tras la reunión; en caso
      contrario mantiene la tasa vigente.
 
-Uso:  python qa_gate_f0.py [base.xlsx] [tpm_oficial_bcch.csv]
+Uso:  python scripts/qa_gate_f0.py [base.xlsx] [tpm_oficial_bcch.csv]
+      (por defecto usa data/processed/consolidado_base_referencia.xlsx y
+       data/external/tpm_oficial_bcch.csv, relativos a la raíz del repo)
 """
 
 import sys
 import re
 import csv
 import datetime as dt
+from pathlib import Path
 from collections import Counter, defaultdict
 
 try:
@@ -36,8 +39,11 @@ try:
 except ImportError:
     sys.exit("Se requiere openpyxl (pip install openpyxl)")
 
-BASE = sys.argv[1] if len(sys.argv) > 1 else 'consolidado_base_referencia.xlsx'
-TPM_CSV = sys.argv[2] if len(sys.argv) > 2 else 'tpm_oficial_bcch.csv'
+_ROOT = Path(__file__).resolve().parent.parent
+BASE = sys.argv[1] if len(sys.argv) > 1 else str(
+    _ROOT / 'data' / 'processed' / 'consolidado_base_referencia.xlsx')
+TPM_CSV = sys.argv[2] if len(sys.argv) > 2 else str(
+    _ROOT / 'data' / 'external' / 'tpm_oficial_bcch.csv')
 CONSEJO = 'Consejo del Banco Central de Chile'
 
 # Ventana máxima (días) entre la reunión y la fecha efectiva de la nueva tasa

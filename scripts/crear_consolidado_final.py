@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """Genera la copia final del consolidado a partir de la base de referencia."""
 import datetime as dt
+from pathlib import Path
 import openpyxl
 
-SRC = 'consolidado_base_referencia.xlsx'
-OUT = 'consolidado_base_referencia_final.xlsx'
+REPO = Path(__file__).resolve().parent.parent
+SRC = REPO / 'data' / 'processed' / 'consolidado_base_referencia.xlsx'
+OUT = REPO / 'data' / 'processed' / 'consolidado_base_referencia_final.xlsx'
 
 SOURCE_COLUMNS = [
     'ID',

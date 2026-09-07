@@ -6,9 +6,14 @@ Base de referencia del consolidado RPM v2.
 - Fecha real + Id_Sesion + taxonomia canonica + flags.
 """
 import openpyxl, re, collections, datetime as dt
+from pathlib import Path as _Path
 from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
 
-SRC='consolidado_final.xlsx'; OUT='consolidado_base_referencia.xlsx'
+# Rutas ancladas a la raíz del repositorio (el script vive en scripts/).
+REPO=_Path(__file__).resolve().parent.parent
+DATA_RAW=REPO/'data'/'raw'; DATA_EXT=REPO/'data'/'external'; DATA_PROC=REPO/'data'/'processed'
+SRC=str(DATA_RAW/'consolidado_final.xlsx'); OUT=str(DATA_PROC/'consolidado_base_referencia.xlsx')
+TEXTOS_COMPLETOS=DATA_PROC/'textos_completos.jsonl'
 wb=openpyxl.load_workbook(SRC, data_only=True, read_only=True)
 ws=wb['Consolidado']; data=list(ws.iter_rows(values_only=True))[1:]
 
@@ -767,9 +772,9 @@ def roster_role_for(date,actor):
 import json as _json
 import os as _os
 FULL_TEXTS={}
-if _os.path.exists('textos_completos.jsonl'):
+if _os.path.exists(TEXTOS_COMPLETOS):
     try:
-        with open('textos_completos.jsonl',encoding='utf-8') as _fh:
+        with open(TEXTOS_COMPLETOS,encoding='utf-8') as _fh:
             for _line in _fh:
                 _r=_json.loads(_line)
                 FULL_TEXTS[int(_r['ID'])]=_r
@@ -899,7 +904,7 @@ for rec in records:
     # estado de texto largo: completo en textos_completos.jsonl (por fila original)
     if id_padre in FULL_TEXTS:
         ft=FULL_TEXTS[id_padre]
-        note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en textos_completos.jsonl')
+        note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en data/processed/textos_completos.jsonl')
         tc='NO'
     else:
         tc='SI' if id_padre in _parent_trunc else 'REV' if id_padre in _parent_near else 'NO'
@@ -945,8 +950,8 @@ if FULL_TEXTS:
         ftws.append([ft.get('ID',''),ft.get('Id_Sesion',''),ft.get('Fecha',''),ft.get('Página',''),
                      ft.get('Paginas_PDF',''),ft.get('Archivo_PDF',''),ft.get('Actor',''),ft.get('Rol',''),
                      ft.get('Tema',''),ft.get('Palabra_Clave',''),
-                     'Ver texto completo en textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
-                     ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'textos_completos.jsonl'])
+                     'Ver texto completo en data/processed/textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
+                     ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'data/processed/textos_completos.jsonl'])
 
 for row in ows.iter_rows(min_row=2,max_row=ows.max_row,min_col=3,max_col=3):
     for c in row:
