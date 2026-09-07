@@ -16,11 +16,17 @@ Resultado generado: `consolidado_goldstandard.xlsx`
 
 ---
 
-## 2. Truncamiento
+## 2. Truncamiento / textos largos
 
-- **ID 297** (`2005-07-12`): `Texto` de **32.767 caracteres** (límite de celda Excel) y termina cortado → `Texto_Truncado = SI`.
-- **ID 280** (`2005-06-09`): 32.498 caracteres; cerca del límite pero termina en punto → `Texto_Truncado = REV`.
-- **No existe en el repositorio** ningún PDF/JSON fuente para re-extraer estos textos en esta sesión. Ambos quedan señalados en la columna `Nota`.
+Se re-extrajo el texto desde los PDFs originales (`2005-06-09 - Actas.pdf`, `2005-07-12 - Actas.pdf`). El formato XLSX no permite celdas de más de **32.767 caracteres**, así que el texto íntegro se guarda en `textos_completos.jsonl` (misma `ID`):
+
+| ID | Fecha | Excel | Texto completo | Fuente | Estado |
+|---|---|---|---|---|---|
+| 280 | 2005-06-09 | 32.498 | 32.498 | XLSX original (verificado contra PDF) | completo |
+| 297 | 2005-07-12 | 32.767 | 35.854 | PDF re-extraído | completo en JSONL |
+
+- En `consolidado_goldstandard.xlsx` ambas filas quedan con `Texto_Truncado = NO` y una nota que remite a `textos_completos.jsonl`.
+- La hoja `Textos_Completos` del workbook hace el mismo enlace.
 
 ---
 
@@ -119,15 +125,16 @@ Distribución de `Tema_Categoria` (top):
   - Sesiones: 132
   - Actores reasignados: **530** (535 filas con `Actor_Cambia = SI` contando cambios a Consejo)
   - Roles corregidos: **181**
-  - Truncados: **1 SI + 1 REV**
+  - Textos truncados sin resolver: **0**
+  - Textos largos sin revisar: **0**
+  - Textos con texto completo en `textos_completos.jsonl`: **2** (ID 280, ID 297)
   - Duplicados exactos: **391** (todos marcados fórmula)
-  - Textos largos revisar: 1
 
 ---
 
 ## 8. Limitaciones conocidas
 
-1. **Textos truncados** (ID 297, ID 280) no pudieron re-extraerse porque no hay PDF/JSON en el repositorio.
+1. El formato XLSX limita cada celda a 32.767 caracteres; el texto completo de ID 297 no cabe en una celda y reside en `textos_completos.jsonl`.
 2. La taxonomía de `Tema`/`Palabra Clave` es **automática** y se basa en palabras clave; una revisión semántica humana puede reducir los casos `otros`.
 3. La atribución de hablante usa reglas sobre el texto de las actas; los casos donde el acta no nombra al hablante se resuelven por cargo+mes. Verificar con el documento impreso sigue siendo recomendable para el 100% de “gold”.
-4. `consolidado_final.xlsx` permanece **sin modificar**; todo el trabajo está en `consolidado_goldstandard.xlsx`.
+4. `consolidado_final.xlsx` conserva el texto del ID 297 en 32.767 caracteres; el texto íntegro está en `textos_completos.jsonl`.

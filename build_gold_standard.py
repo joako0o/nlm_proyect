@@ -23,6 +23,11 @@ def norm(s):
         s=s.replace(a,b)
     return re.sub(r'\s+',' ',s.strip())
 
+def to_date_str(v):
+    if isinstance(v,(dt.datetime,dt.date)):
+        return v.strftime('%Y-%m-%d')
+    return str(v).strip()[:10]
+
 ROLE_PATS = [
  ('Ministra de Hacienda Subrogante','Ministra de Hacienda (S)'),
  ('Ministro de Hacienda Subrogante','Ministro de Hacienda (S)'),
@@ -111,7 +116,7 @@ def _nearest_actor(acts,date=None):
         if d:
             best=None; bd=None
             for a in acts:
-                ds=[dt.date.fromisoformat(str(x[1])) for x in data if str(x[2]).strip()==a]
+                ds=[dt.date.fromisoformat(to_date_str(x[1])) for x in data if str(x[2]).strip()==a]
                 dist=min(abs((x-d).days) for x in ds) if ds else 10**9
                 if bd is None or dist<bd:
                     bd=dist; best=a
@@ -174,7 +179,7 @@ alias_map['maria eugenia wagner'].add('María Eugenia Wagner Brizzi')
 # role -> actor per date
 role_date=collections.defaultdict(collections.Counter)
 for r in data:
-    role_date[(str(r[1]),str(r[3]).strip())][str(r[2]).strip()]+=1
+    role_date[(to_date_str(r[1]),str(r[3]).strip())][str(r[2]).strip()]+=1
 
 # nombres explicitos por rol (para role-only sin nombre)
 ROLE_ACTOR_GLOBAL=collections.defaultdict(collections.Counter)
@@ -186,11 +191,11 @@ for r in data:
             _after=_txt[_m.end():_m.end()+150]
             _nm=re.match(r'\s*[-,;]?\s*(?:señor|señora|don|doña|sr\.|sra\.)?\s*([A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+(?:\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñÁÉÍÓÚÑ]+){0,4})', _after)
             if _nm:
-                _a=resolve_name(_nm.group(1).strip(),str(r[1]))
+                _a=resolve_name(_nm.group(1).strip(),to_date_str(r[1]))
                 if _a and _a in REAL:
                     ROLE_ACTOR_GLOBAL[_canon][_a]+=1
                     try:
-                        ROLE_DATE_ACTOR[(dt.date.fromisoformat(str(r[1])),_canon)][_a]+=1
+                        ROLE_DATE_ACTOR[(dt.date.fromisoformat(to_date_str(r[1])),_canon)][_a]+=1
                     except Exception:
                         pass
 MINISTER_BY_DATE=[
@@ -386,7 +391,7 @@ def is_header2(t):
 # canonical role for actor/date
 actor_role_by_date=collections.defaultdict(collections.Counter)
 for r in data:
-    actor_role_by_date[(str(r[1]),str(r[2]).strip())][str(r[3]).strip()]+=1
+    actor_role_by_date[(to_date_str(r[1]),str(r[2]).strip())][str(r[3]).strip()]+=1
 def canonical_role(actor,date):
     cnt=actor_role_by_date.get((str(date),actor))
     if cnt: return cnt.most_common(1)[0][0]
@@ -407,10 +412,23 @@ def ministry_role(text,actor,date):
     if actor in FULL_MIN_START and date>=FULL_MIN_START[actor] and 'subrogante' not in low: subg=False
     return f'{gen} de Hacienda{" (S)" if subg else ""}'.strip()
 
+# ---- textos completos re-extraidos desde PDF (límite de celda Excel) ----
+import json as _json
+import os as _os
+FULL_TEXTS={}
+if _os.path.exists('textos_completos.jsonl'):
+    try:
+        with open('textos_completos.jsonl',encoding='utf-8') as _fh:
+            for _line in _fh:
+                _r=_json.loads(_line)
+                FULL_TEXTS[int(_r['ID'])]=_r
+    except Exception as _e:
+        print('No se pudo leer textos_completos.jsonl:',_e)
+
 # ---- process ----
 records=[]; last_speaker={}; actor_corr=0; role_corr=0; method_counter=collections.Counter()
 for r in data:
-    rid=int(r[0]); date=str(r[1]); date_dt=dt.date.fromisoformat(date)
+    rid=int(r[0]); date=to_date_str(r[1]); date_dt=dt.date.fromisoformat(date)
     actor_orig=str(r[2]).strip(); rol_orig=str(r[3]).strip(); text=str(r[5])
     det=detect(text,date)
     if det:
@@ -493,22 +511,31 @@ for idx,rec in enumerate(records):
     rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw=rec
     clean=re.sub(r'[ \t]+',' ',text); clean=re.sub(r'\s*\n\s*','\n',clean)
     note=[]
-    if idx in trunc: note.append('Texto truncado en celda Excel (32,767): re-extraer del PDF')
-    if idx in nearcut: note.append('Texto muy largo (>=30,000): revisar integridad')
+    if idx in trunc: note.append('Texto truncado en celda Excel (32,767)')
+    if idx in nearcut: note.append('Texto muy largo (>=30,000)')
     if idx in dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if idx in dup_formula else ''))
     if role: note.append('Rol detectado en texto: '+role)
     if method in ('HERENCIA','SIN_DETECTAR','ORIGINAL','PSEUDO'): note.append('Método: '+method)
+    # estado de texto largo: completo en textos_completos.jsonl
+    if rid in FULL_TEXTS:
+        ft=FULL_TEXTS[rid]
+        note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en textos_completos.jsonl')
+        tc='NO'
+    else:
+        tc='SI' if idx in trunc else 'REV' if idx in nearcut else 'NO'
     ows.append([rid,'RPM-'+date,date_dt,actor_orig,spk,'SI' if spk!=actor_orig else 'NO',
                 rol_orig,rol,'SI' if rol!=rol_orig else 'NO',role if role else '',method,page,clean,
                 tema,cat(tema),kw,cat(kw),
-                'SI' if idx in trunc else 'REV' if idx in nearcut else 'NO',
+                tc,
                 'SI' if idx in dup else 'NO','SI' if idx in dup_formula else 'NO','; '.join(note)])
 
 md=outwb.create_sheet('Calidad'); md.append(['Indicador','Valor'])
 md.append(['Filas',len(records)]); md.append(['Sesiones',len(set(x[1] for x in records))])
 md.append(['Fecha min',min(x[1] for x in records)]); md.append(['Fecha max',max(x[1] for x in records)])
 md.append(['Actores reasignados',actor_corr]); md.append(['Roles corregidos',role_corr])
-md.append(['Textos truncados',len(trunc)]); md.append(['Textos largos rev',len(nearcut)])
+md.append(['Textos truncados sin resolver',len([i for i in trunc if int(records[i][0]) not in FULL_TEXTS])])
+md.append(['Textos largos sin revisar',len([i for i in nearcut if int(records[i][0]) not in FULL_TEXTS])])
+md.append(['Textos con texto completo en JSONL',len(FULL_TEXTS)])
 md.append(['Duplicados exactos',len(dup)]); md.append(['Duplicados fórmula',len(dup_formula)])
 md.append(['Métodos',str(dict(method_counter))])
 
@@ -520,6 +547,17 @@ ac=collections.Counter(x[4] for x in records); ad=outwb.create_sheet('Diccionari
 for k,v in ac.most_common(): ad.append([k,v])
 kc=collections.Counter(cat(x[12]) for x in records); catws=outwb.create_sheet('Diccionario_Categoria'); catws.append(['Categoria','Registros'])
 for k,v in kc.most_common(): catws.append([k,v])
+if FULL_TEXTS:
+    ftws=outwb.create_sheet('Textos_Completos')
+    _ft_headers=['ID','Id_Sesion','Fecha','Página','Paginas_PDF','Archivo_PDF','Actor','Rol','Tema','Palabra_Clave','Texto_Completo','Longitud_Excel','Longitud_Texto_Completo','Fuente','Ubicacion_Texto_Completo']
+    ftws.append(_ft_headers)
+    for k in sorted(FULL_TEXTS):
+        ft=FULL_TEXTS[k]
+        ftws.append([ft.get('ID',''),ft.get('Id_Sesion',''),ft.get('Fecha',''),ft.get('Página',''),
+                     ft.get('Paginas_PDF',''),ft.get('Archivo_PDF',''),ft.get('Actor',''),ft.get('Rol',''),
+                     ft.get('Tema',''),ft.get('Palabra_Clave',''),
+                     'Ver texto completo en textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
+                     ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'textos_completos.jsonl'])
 
 for row in ows.iter_rows(min_row=2,max_row=ows.max_row,min_col=3,max_col=3):
     for c in row:
