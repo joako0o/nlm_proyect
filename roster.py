@@ -82,6 +82,8 @@ ROLE_PATTERNS = [
     ("Asesora Macroeconómica del Ministerio de Hacienda", "Asesora Macroeconómica del Ministerio de Hacienda"),
     ("Economista Senior de la Gerencia de Investigación Económica", "Economista Sénior de la Gerencia de Investigación Económica"),
     ("Economista Sénior de la Gerencia de Investigación Económica", "Economista Sénior de la Gerencia de Investigación Económica"),
+    ("Economista Senior", None),
+    ("Economista Sénior", None),
 ]
 # añadir variantes "de" para cargos de división (ej. "División de Operaciones Financieras")
 for _role, _canon in list(ROLE_PATTERNS):

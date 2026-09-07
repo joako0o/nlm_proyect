@@ -14,7 +14,8 @@ ws=wb['Consolidado']; data=list(ws.iter_rows(values_only=True))[1:]
 
 CONSEJO='Consejo del Banco Central de Chile'
 PSEUDO={'Gerente de División Internacional','Gerente de División Estudios Subrogante','Gerente de Investigación Económica','Gerente de Operaciones Financieras','Gerente de Área Técnica','Gerente de Estabilidad Financiera'}
-EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro','Rodrigo Álvarez Zenteno'}
+EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro','Rodrigo Álvarez Zenteno',
+              'Alejandro Micco','Leonardo Hernández Tagle','Alfredo Pistelli'}
 ALL_ACTORS=sorted(set(str(r[2]).strip() for r in data)|EXTRA_ACTORS)
 REAL=[a for a in ALL_ACTORS if a not in PSEUDO and a!=CONSEJO]
 
@@ -62,6 +63,8 @@ ROLE_PATS = [
  ('Gerente de Estrategia y Comunicación de Política Monetaria','Gerente de Estrategia y Comunicación de Política Monetaria'),
  ('Gerente de Modelación y Análisis Económico','Gerente de Modelación y Análisis Económico'),
  ('Gerente de Área Técnica','Gerente de Área Técnica'),
+ ('Economista Senior','Economista Senior'),
+ ('Economista Sénior','Economista Sénior'),
  ('Gerente de Operaciones Monetarias','Gerente de Operaciones Monetarias'),
  ('Gerente de Operaciones Financieras','Gerente de Operaciones Financieras'),
  ('Gerente de Información e Investigación Estadística','Gerente de Información e Investigación Estadística'),
@@ -76,7 +79,7 @@ ROLE_PATS = [
  ('Ministra','Ministra de Hacienda'),
 ]
 
-VERBS=['señala','indica','manifiesta','expresa','dice','comenta','interviene','estima','consulta','afirma','responde','agrega','agregar','precisa','plantea','pregunta','informa','expone','menciona','hace presente','continúa','prosigue','solicita','opina','acota','destaca','recuerda','observa','concluye','inicia','apoya','coincide','agradece','aclara','considera','señalando','planteando','comentando','ofrece la palabra','concede la palabra','da la palabra','da comienzo','informa que','manifiesta estar','deja planteado','formula','señalando que','hace presente que','fija','da cuenta','explica','explica que','explicó','explicando','señaló','manifestó','indicó','expresó','comentó','preguntó','respondió','agregó','precisó','planteó','subrayó','recalcó','advirtió','destacó','da inicio','da inicio a','dio inicio','dio inicio a','piensa','piensa que','cree','considera','acepta','refiriéndose','refiere','se refiere','refiriéndose a']
+VERBS=['señala','indica','manifiesta','expresa','dice','comenta','interviene','estima','consulta','afirma','responde','agrega','agregar','precisa','plantea','pregunta','informa','expone','menciona','hace presente','continúa','prosigue','solicita','opina','acota','destaca','recuerda','observa','concluye','inicia','apoya','coincide','agradece','aclara','considera','señalando','planteando','comentando','ofrece la palabra','concede la palabra','da la palabra','da comienzo','informa que','manifiesta estar','deja planteado','formula','señalando que','hace presente que','fija','da cuenta','explica','explica que','explicó','explicando','señaló','manifestó','indicó','expresó','comentó','preguntó','respondió','agregó','precisó','planteó','subrayó','recalcó','advirtió','destacó','da inicio','da inicio a','dio inicio','dio inicio a','piensa','piensa que','cree','considera','acepta','refiriéndose','refiere','se refiere','refiriéndose a','transmite','comienza','inicia su','inicia la']
 VNORM=[norm(v) for v in VERBS]
 
 SURNAME={
@@ -95,7 +98,8 @@ SURNAME={
  'Jorge Pérez Etchegaray':'perez','Enrique Orellana Cifuentes':'orellana','Elías Albagli Iruretagoyena':'albagli',
  'Ari Aisen':'aisen','Pablo Pincheira Brown':'pincheira','Felipe Jaque':'jaque','Julio Dittborn Cordua':'dittborn',
  'Miguel Ricaurte Vintimilla':'ricaurte','María Eugenia Wagner Brizzi':'wagner',
- 'Rodrigo Alfaro':'alfaro','Rodrigo Álvarez Zenteno':'alvarez'
+ 'Rodrigo Alfaro':'alfaro','Rodrigo Álvarez Zenteno':'alvarez zenteno',
+ 'Alejandro Micco':'micco','Leonardo Hernández Tagle':'hernandez tagle','Alfredo Pistelli':'pistelli'
 }
 # extra surname aliases (second surname sometimes used)
 EXTRA={('Rodrigo Vergara Montes','montes'),('Rodrigo Valdés Pulido','pulido'),('Manuel Marfán Lewis','lewis'),
@@ -104,8 +108,7 @@ EXTRA={('Rodrigo Vergara Montes','montes'),('Rodrigo Valdés Pulido','pulido'),(
        ('Alberto Arenas de Mesa','de mesa'),('Diego Gianelli Gómez','gomez'),('Felipe Larraín Bascuñán','bascunan'),
        ('Klaus Schmidt-Hebbel Dunker','dunker'),('Luis Felipe Céspedes Cifuentes','cifuentes'),
        ('María Elena Ovalle Molina','molina'),('María Olivia Recart Herrera','herrera'),('María Eugenia Wagner Brizzi','wagner'),('Rodrigo Alfaro','alfaro'),
-       ('Mario Marcel Cullell','cullell'),('Camilo Carrasco Alfonso','alfonso'),('Miguel Ricaurte Bermúdez','bermudez'),
-       ('Rodrigo Álvarez Zenteno','zenteno')}
+       ('Mario Marcel Cullell','cullell'),('Camilo Carrasco Alfonso','alfonso'),('Miguel Ricaurte Bermúdez','bermudez')}
 
 # name resolution
 def _nearest_actor(acts,date=None):
@@ -295,7 +298,7 @@ def session_meta(text):
 def detect(text,date):
     if session_meta(text) or is_header2(text):
         return (CONSEJO,'Consejo','ACTA/META',0)
-    t=text[:500]
+    t=text[:1200]
     cands=[]
     for pat,canon in ROLE_PATS:
         for m in re.finditer(r'(?<![A-Za-z0-9ÁÉÍÓÚÑáéíóúñ])'+re.escape(pat), t, re.I):
@@ -344,16 +347,41 @@ def detect(text,date):
 
     if not cands:
         return None
-    has_trans=any(x in text[:140] for x in ['ofrece la palabra','da la palabra','concede la palabra','invita a','cede la palabra'])
+    has_trans=any(x in text[:800] for x in ['ofrece la palabra','da la palabra','concede la palabra','invita a','cede la palabra'])
     # candidatos "hablados": verbos, o role+nombre explicito reciente (aunque el verbo no este en la lista)
-    strong=[c for c in cands if c.get('verb') or (c['method']=='ROL+NOMBRE' and c['pos']<650)]
+    strong=[c for c in cands if c.get('verb') or (c['method']=='ROL+NOMBRE' and c['pos']<1200)]
     if has_trans:
-        trans_idx=min([i for x in ['ofrece la palabra','da la palabra','concede la palabra','invita a','cede la palabra'] for i in [text[:140].find(x)] if i>=0] or [0])
+        trans_idx=min([i for x in ['ofrece la palabra','da la palabra','concede la palabra','invita a','cede la palabra'] for i in [text[:800].find(x)] if i>=0] or [0])
+        def _speaks_after(c):
+            if c.get('verb'): return True
+            an=norm(c.get('actor') or c.get('name',''))
+            toks=an.split()
+            if not toks: return False
+            low=text[c['pos']:c['pos']+1200]
+            for token in [toks[0], toks[-1]]:
+                for m in re.finditer(r'(?i)\b'+re.escape(token)+r'\w*', low):
+                    if any(v in norm(low[m.start():m.start()+320]) for v in VNORM):
+                        return True
+            return False
+        # Receptor explícito con cargo (rol+nombre) tras la transición.
+        # No excluimos menciones: "concede la palabra al Ministro ... señor X"
+        # es el destinatario de la palabra, no una mera mención.  Pero solo
+        # lo tratamos como hablante si el texto muestra que realmente habla
+        # más adelante en esa misma fila; si la fila es sólo "ofrece la palabra a X",
+        # el hablante sigue siendo quien la concede.
         after_trans=[c for c in strong if c.get('role') and c['method']=='ROL+NOMBRE' and c['pos']>trans_idx]
-        if after_trans:
-            after_trans.sort(key=lambda c:(c['pos'],0 if c['actor'] not in PSEUDO else 1))
-            c=after_trans[0]; return (c['actor'],c['role'],c['method'],c['pos'])
-        best=[c for c in strong if c.get('role') and c['method']=='ROL+NOMBRE']
+        after_trans_name=[c for c in strong if c['pos']>trans_idx and c['method'] in ('NOMBRE+VERBO','ROL+NOMBRE')]
+        after_all=[c for c in after_trans + [c for c in after_trans_name if c not in after_trans] if _speaks_after(c)]
+        if after_all:
+            after_all.sort(key=lambda c:(c['pos'],0 if c['method']=='ROL+NOMBRE' else 1,0 if c['actor'] not in PSEUDO else 1))
+            c=after_all[0]; return (c['actor'],c['role'],c['method'],c['pos'])
+        # Transición sin intervención del receptor en la misma fila: se queda
+        # con quien está hablando antes de ceder la palabra.
+        before_trans=[c for c in strong if c['pos']<trans_idx and not c.get('mention')]
+        if before_trans:
+            before_trans.sort(key=lambda c:(c['pos'],0 if c['method']=='ROL+NOMBRE' else 1,0 if c['actor'] not in PSEUDO else 1))
+            c=before_trans[0]; return (c['actor'],c['role'],c['method'],c['pos'])
+        best=[c for c in strong if c.get('role') and c['method']=='ROL+NOMBRE' and not c.get('mention')]
         if best:
             best.sort(key=lambda c:(c['pos'],0 if c['actor'] not in PSEUDO else 1))
             c=best[0]; return (c['actor'],c['role'],c['method'],c['pos'])
