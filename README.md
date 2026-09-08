@@ -1,70 +1,73 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de 7.219
-filas originales. La salida tiene **9.500 filas físicas / 9.499 bloques de texto**,
+filas originales. La salida tiene **9.504 filas físicas / 9.503 bloques de texto**,
 con actor, cargo, trazabilidad y alertas. Una intervención extensa ocupa dos filas
 por el límite de XLSX. **315 grupos comparten varias filas bajo un mismo
 `ID_Turno`**, con hasta once filas consecutivas; no se fusionan registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.100 pruebas. No certifican pureza semántica total.**
-Quedan **321 filas con alertas en 288 padres**. Los motivos se superponen:
-no son 321 errores confirmados ni filas todas sin leer.
+**F0 y F1 pasan, con 1.129 pruebas. No certifican pureza semántica total.**
+Quedan **322 filas con alertas en 288 padres**. Los motivos se superponen:
+no son 322 errores confirmados ni filas todas sin leer.
 `SIN_ALERTAS_AUTOMATICAS` tampoco equivale a revisión humana.
 
-**Informe vigente:** [LOOP15: exposiciones largas y retorno de Schmidt-Hebbel](docs/REVISION_LOOP15_2026-09-08.md).
-**15 padres afectados:** 1090 con separación estructural y revisión de atribución,
-13 sólo con metadatos de atribución y 1091 sólo con trazabilidad. Los otros
-**7.204 padres** conservan sus campos semánticos, descontando identificadores.
-Ver [comparación global](docs/comparacion_loop15_2026-09-08.json),
-[detalle CSV](docs/cambios_loop15_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop15_2026-09-08.json).
+**Informe vigente:** [LOOP16: diálogo recuperado y atribuciones locales](docs/REVISION_LOOP16_2026-09-08.md).
+**Diez padres afectados:** dos separaciones —780 sólo parcialmente—, un cambio
+local de etiqueta de actor en 6025 y siete cambios sólo de metadatos de atribución.
+Los otros **7.209 padres** conservan sus campos semánticos, descontando identificadores.
+Ver [comparación global](docs/comparacion_loop16_2026-09-08.json),
+[detalle CSV](docs/cambios_loop16_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop16_2026-09-08.json).
 
-Se leyeron íntegramente **14 exposiciones disponibles**: trece de Valdés y una de
-Magendzo, conservando párrafos, viñetas, enumeraciones y retornos. En **1090**,
-además, se separan los **88 caracteres** de apertura de Corbo de los **1.293**
-de Schmidt-Hebbel que estaban absorbidos; García permanece independiente.
-El apellido literal «Schmidt- Hebbel» no se reescribe. No se añadieron reglas
-globales de segmentación ni alias; se usan revisiones acotadas con hash y evidencia.
+- **6009:** un padre sin alerta y fusionado bajo Vergara se separa en cuatro
+  intervenciones: Vergara → Ricaurte → Vergara → Ricaurte. Se leyó íntegramente;
+  las exposiciones extensas se conservan y las menciones no crean turnos nuevos.
+- **780:** se recuperan 1.655 caracteres explícitos de Corbo. El puente anterior
+  «En la economía nacional…» sigue provisional y advertido; se conserva el ancla
+  posterior explícita de Corbo, sin extenderle la revisión.
+- **506 / 1572:** se leen íntegramente las exposiciones disponibles de Lehmann
+  de 8.662 / 18.132 caracteres. 506 conserva daño textual advertido y su respuesta
+  previa de 206 caracteres, independiente e idéntica.
+- **4575 / 4579 / 4582 / 4584 y 6025:** atribuciones documentadas por nóminas
+  explícitas de sesión, con etiqueta local Bermúdez y advertencias de identidad
+  intactas. **No se armonizan globalmente Bermúdez/Vintimilla.**
+- **6530:** revisión acotada de Raddatz, manteniendo el literal «Claudia Raddatz»
+  y añadiendo advertencia de nombre por verificar. Vergara sigue separado.
 
-Son **15 intervalos nuevos en 14 padres**, doce nuevos en el registro:
-**223 intervalos en 216 padres**. Los 208 anteriores quedan idénticos por
-identificador. **644** ordena la exposición nueva antes de la pregunta previa de
-Marfán, ahora secundaria sin alterar sus límites/evidencia. **664** conserva la
-suspensión de Corbo y añade después la exposición. `CONTEXTO_REVISADO` no crea
-anclas globales y `Fin` por sí solo no crea cortes.
-
-**Seis avisos nuevos de daño** en 644/664/770/1012/1047/1155. Identificar al
-expositor no reconstruye palabras ni resuelve rupturas sintácticas. Los quince
-avisos anteriores siguen intactos, incluidos 4433, 6443, residuos colectivos
-y discrepancias de cargo. No se atribuyen identidades por tema o proximidad.
+Son **once intervalos nuevos en diez padres**, nueve nuevos en el registro:
+**234 intervalos en 225 padres**. Los 223 anteriores permanecen idénticos.
+Tres advertencias nuevas (506/780/6530); las 21 anteriores se conservan.
+No se amplían alias ni reglas de segmentación. `CONTEXTO_REVISADO` no crea anclas
+globales y `Fin` por sí solo no crea cortes.
 
 **Todos los enlaces previos entre padres y grupos no afectados se conservan**,
 incluidas las dos exposiciones de García de once filas. Sin enlaces nuevos ni
-retirados. 1091 sólo actualiza la referencia al segmento antecedente de 1090.
-Se mantienen 3110 como continuación institucional, la revisión de 797 caracteres
-de 3421 y el modelo documental 5212/5742/5802: **autor ≠ lector**, sin inferir
-asistencia ni habla oral de Larraín. El [CSV documental](data/processed/documentos_leidos.csv),
-los esquemas XLSX 37/24, once menciones actuales y 21 fórmulas permanecen intactos.
-**66 hashes de entradas/código y once de salidas verificados**; la publicación
+retirados. Se mantienen 3110 institucional, 3421 y el modelo 5212/5742/5802:
+**Larraín autor ≠ Vergara lector**, sin inferir asistencia ni habla oral del autor.
+Los esquemas XLSX 37/24, once menciones actuales y 21 fórmulas permanecen intactos.
+**67 hashes de entradas/código y once de salidas verificados**; la base publicada
 coincide campo por campo con el ensayo aislado.
 
-Alertas **329 → 321**; anáforas **16 → 2**. Las restantes son las exposiciones de
-Lehmann de **506 y 1572**, no revisadas íntegramente en esta pasada; la respuesta
-posterior de 506 ya revisada sigue intacta. No representan el total pendiente.
-La cola histórica conserva **107 intervalos pendientes de lectura contextual**.
-La bajada **117 → 107** es clasificación automática, no diez lecturas humanas ni
-cierres integrales. Los conteos históricos y actuales se superponen: **no se suman**.
+Alertas **321 → 322**; anáforas **2 → 0**, atribuciones legadas **8 → 2**.
+El saldo no busca ocultar incertidumbre: los tramos nuevos de Ricaurte ahora
+llevan advertencia de identidad. Cero alertas por anáfora no prueba exhaustividad.
+La cola histórica conserva **104 intervalos pendientes de lectura contextual**, antes
+107. Esta clasificación automática no equivale a tres cierres integrales.
+La nueva columna histórica `Variante_Identidad_Pendiente` mantiene **seis intervalos**
+pendientes de identidad aunque cambie su método o etiqueta local; no altera los
+esquemas 37/24. Conteos históricos y actuales se superponen: **no se suman**.
 Las once menciones actuales no son las ocho históricas.
 
-Siguen 780/6185, residuos de 3191/5367, identidades, daños y otras alertas.
-Falta cotejo de originales en casos ambiguos y una muestra independiente con y
-sin alertas. No hubo nuevo cotejo PDF ni lectura exhaustiva del corpus.
+Siguen el puente de 780, 6185, 6443, 2126/3989, residuos de 3191/5367, identidades,
+nombres, daños y otras advertencias. Falta cotejo de originales en casos ambiguos
+y una muestra independiente con y sin alertas. No hubo nuevo cotejo PDF ni lectura
+exhaustiva del corpus.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP14_2026-09-08.md)
-conserva **9.499 filas / 329 alertas / 1.073 pruebas**. Verificaciones locales:
+**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP15_2026-09-08.md)
+conserva **9.500 filas / 321 alertas / 1.100 pruebas**. Verificaciones locales:
 el workflow de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline
@@ -278,9 +281,11 @@ igualdad binaria del ZIP XLSX: los metadatos del archivo incluyen timestamps.
 
 ## Límites y uso analítico
 
-- Hay **51 etiquetas de actor**, no una certificación de 51 identidades distintas.
-  Se señala la variante `Miguel Ricaurte Vintimilla` / `Miguel Ricaurte Bermúdez`
-  para verificarla antes de fusionar o tratar ambos nombres como personas distintas.
+- Hay **50 etiquetas nominales de actor** (49 personales y el Consejo), no un censo
+  de identidades verificadas. La bajada de 51 a 50 proviene sólo de la etiqueta local
+  de 6025 según su nómina. El actor original Vintimilla permanece registrado.
+  La variante `Miguel Ricaurte Vintimilla` / `Miguel Ricaurte Bermúdez` sigue advertida:
+  no se certifica equivalencia ni se modifican alias globales.
 - Las categorías son reglas de prioridad sobre etiquetas **heredadas del padre**,
   no anotaciones temáticas humanas de cada nuevo turno.
 - Las repeticiones se marcan, **no se eliminan automáticamente**.

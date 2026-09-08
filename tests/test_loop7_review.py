@@ -353,7 +353,7 @@ FIXTURES = {2668: {'hash': '7696cae883f2ac1a8f1761e6a582e04c3f16b1697089534135a8
         'parts': [["Alberto Naudon Dell'Oro", 502, 'SUJETO_ROL_NOMBRE'],
                   ['Rodrigo Vergara Montes', 239, 'SUJETO_ROL_NOMBRE']]},
  6530: {'hash': '563bd75f4a960704d95076f464c81bcf11b388e19b38a1e7019e46d5899cc2e0',
-        'parts': [['Claudio Raddatz Kiefer', 883, 'NOMBRE+VERBO'],
+        'parts': [['Claudio Raddatz Kiefer', 883, 'CONTEXTO_REVISADO'],
                   ['Rodrigo Vergara Montes', 239, 'SUJETO_ROL_NOMBRE']]},
  6570: {'hash': '704f0a42aa997130620b899baaa246d0f443bd2eb01917eae6f0aead2fead39d',
         'parts': [['Joaquín Vial Ruiz-Tagle', 505, 'SUJETO_ROL_NOMBRE']]},

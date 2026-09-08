@@ -102,6 +102,12 @@ def track(rows, baseline, decisions, speaker_reviews=None):
             status='REPETICION_SUSTANTIVA_PENDIENTE';kind='LECTURA_DIRIGIDA_POR_AGENTE'
             reason='Repite una recomendación de mantener la TPM, no sólo una fórmula de apertura o paso de palabra.'
             action='Conservar ambas recomendaciones; verificar cada sesión antes de deduplicar.'
+        # Una mejora de atribución local no resuelve una variante de identidad.
+        # Registrar el pendiente en una dimensión separada del cambio principal.
+        identity_pending = 'VARIANTE_IDENTIDAD_POR_VERIFICAR' in flags
+        if identity_pending:
+            reason += ' La variante de identidad sigue pendiente, aunque cambie la etiqueta local o el método.'
+            action += ' Verificar identidad con documentación externa; no fusionar variantes a partir de esta revisión local.'
         priority='ALTA' if any(k in old['Motivos_Revision'] for k in ['POSIBLE_OTRO','ATRIBUCION_','VARIANTE_IDENTIDAD']) else 'MEDIA'
         if status in ['FORMULA_PROCEDIMENTAL_RECLASIFICADA','BREVE_VALIDO_REVISADO','CONTINUIDAD_ENTRE_PADRES_REVISADA','MENCION_LEGITIMA_REVISADA']:
             priority='SEGUIMIENTO' if flags else 'RESUELTO_EN_ESTE_MOTIVO'
@@ -111,6 +117,7 @@ def track(rows, baseline, decisions, speaker_reviews=None):
         result.append(dict(ID_Original=old['ID'],ID_Padre=old['ID_Padre'],Fecha=old['Fecha'],
             Actor_Original_Cola=old['Actor_Final'],Motivos_Originales=old['Motivos_Revision'],
             Estado_Seguimiento=status,Tipo_Revision=kind,Prioridad=priority,
+            Variante_Identidad_Pendiente='SI' if identity_pending else '',
             IDs_Actuales=';'.join(str(r['ID']) for r in now),
             Actores_Actuales=' → '.join(r['Actor_Final'] for r in now),
             Alertas_Actuales=';'.join(flags),Justificacion=reason,Siguiente_Paso=action,
@@ -128,7 +135,8 @@ def build_report(rows, out, speaker_reviews=None, mention_annotations=None):
         'estados':dict(collections.Counter(r['Estado_Seguimiento'] for r in tracked)),
         'tipo_revision':dict(collections.Counter(r['Tipo_Revision'] for r in tracked)),
         'filas_originales_con_alertas_actuales':sum(bool(r['Alertas_Actuales']) for r in tracked),
-        'nota':'Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.',
+        'intervalos_con_variante_identidad_pendiente':sum(r['Variante_Identidad_Pendiente']=='SI' for r in tracked),
+        'nota':'Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Estado_Seguimiento registra el cambio principal, no el cierre de todos sus motivos: Variante_Identidad_Pendiente y Alertas_Actuales conservan los pendientes residuales. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.',
         'sha256_base_original':baseline['SHA256_Base']}
     (out/'resumen_revision_783.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (out/'revision_783.csv').open('w',encoding='utf-8-sig',newline='') as f:
@@ -136,6 +144,7 @@ def build_report(rows, out, speaker_reviews=None, mention_annotations=None):
     wb=openpyxl.Workbook();ws=wb.active;ws.title='Resumen'
     ws.append(['Revisión de las 783 alertas originales','Resultado'])
     ws.append(['Advertencia',summary['nota']]);ws.append(['Alertas en la versión actual',len(current)])
+    ws.append(['Intervalos históricos con variante de identidad aún pendiente',summary['intervalos_con_variante_identidad_pendiente']])
     for k,v in summary['estados'].items():ws.append([k,v])
     ws.append(['Lecturas de menciones actuales (no estados de las 783)',summary['menciones_actuales_documentadas']])
     for name,items,fields in [('Seguimiento_783',tracked,list(tracked[0])),

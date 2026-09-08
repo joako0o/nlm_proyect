@@ -122,8 +122,8 @@ class LoopThirteenTests(unittest.TestCase):
         entries=speaker_intervals(self.reviews[1923]);self.assertEqual(len(entries),2)
         self.assertEqual(entries[0]['Actor'],'Andrés Velasco Brañes');self.assertEqual(entries[1]['Actor'],'Sergio Lehmann Beresi')
         self.assertGreater(entries[1]['Inicio'],entries[0]['Fin'])
-    def test_only_short_506_answer_is_newly_reviewed(self):
-        parts=self.parts(506);self.assertEqual(parts[1][2],'ANAFORA_LOCAL')
+    def test_506_old_short_answer_remains_separate_from_new_exposition(self):
+        parts=self.parts(506);self.assertEqual(parts[1][2],'CONTEXTO_REVISADO')
         self.assertEqual(parts[7][2],'CONTEXTO_REVISADO');self.assertEqual(len(parts[7][0]),206)
     def test_legacy_past_verb_review_does_not_relax_mention_guard(self):
         self.assertIsNone(b.TURN_DETECTOR.speaker(self.raw[3126]['Texto'],self.raw[3126]['Fecha']))
@@ -134,7 +134,9 @@ class LoopThirteenTests(unittest.TestCase):
             t,a,m=self.parts(p)[0];self.assertEqual(m,'CONTEXTO_REVISADO')
             self.assertEqual(contextual_motives(dict(ID_Padre=p,Fecha=self.raw[p]['Fecha'],Actor_Final=a,Texto=t),warnings),['CARGO_EN_DISCURSO_POR_VERIFICAR'])
     def test_unresolved_joint_identity_and_bernier_not_forced(self):
-        self.assertFalse({780,6185,6443,6530,2126,3989}&set(self.reviews))
+        self.assertFalse({6185,6443,2126,3989}&set(self.reviews))
+        self.assertIn(780,b.load_context_warnings(self.raw))  # puente inicial todavía pendiente
+        self.assertIn(6530,b.load_context_warnings(self.raw))  # nombre literal no certificado
     def test_parent_38_exact_source_and_segments(self):
         self.assertEqual(hashlib.sha256(self.raw[38]['Texto'].encode()).hexdigest(),'86e5721e62bd17259186064afba811d40f72d6c6e20bbb99729ed36e51ee7221')
         parts=self.parts(38)
@@ -202,7 +204,7 @@ class LoopThirteenTests(unittest.TestCase):
     def test_parent_506_exact_source_and_segments(self):
         self.assertEqual(hashlib.sha256(self.raw[506]['Texto'].encode()).hexdigest(),'aa7efe74ac2d46954631ae46ff00e6e104e89ba5ee2472c0278c735030ba48b0')
         parts=self.parts(506)
-        self.assertEqual([(a,len(t),m) for t,a,m in parts],[('Vittorio Corbo Lioi', 547, 'SUJETO_ROL_NOMBRE'), ('Sergio Lehmann Beresi', 8662, 'ANAFORA_LOCAL'), ('Vittorio Corbo Lioi', 107, 'SUJETO_ROL_NOMBRE'), ('Pablo García Silva', 5743, 'SUJETO_ROL_NOMBRE'), ('Vittorio Corbo Lioi', 49, 'SUJETO_ROL_SESION'), ('Sergio Lehmann Beresi', 384, 'SUJETO_ROL_NOMBRE'), ('Nicolás Eyzaguirre Guzmán', 135, 'SUJETO_ROL_SESION'), ('Sergio Lehmann Beresi', 206, 'CONTEXTO_REVISADO'), ('Jorge Desormeaux Jiménez', 272, 'SUJETO_ROL_NOMBRE'), ('Vittorio Corbo Lioi', 533, 'SUJETO_ROL_NOMBRE')])
+        self.assertEqual([(a,len(t),m) for t,a,m in parts],[('Vittorio Corbo Lioi', 547, 'SUJETO_ROL_NOMBRE'), ('Sergio Lehmann Beresi', 8662, 'CONTEXTO_REVISADO'), ('Vittorio Corbo Lioi', 107, 'SUJETO_ROL_NOMBRE'), ('Pablo García Silva', 5743, 'SUJETO_ROL_NOMBRE'), ('Vittorio Corbo Lioi', 49, 'SUJETO_ROL_SESION'), ('Sergio Lehmann Beresi', 384, 'SUJETO_ROL_NOMBRE'), ('Nicolás Eyzaguirre Guzmán', 135, 'SUJETO_ROL_SESION'), ('Sergio Lehmann Beresi', 206, 'CONTEXTO_REVISADO'), ('Jorge Desormeaux Jiménez', 272, 'SUJETO_ROL_NOMBRE'), ('Vittorio Corbo Lioi', 533, 'SUJETO_ROL_NOMBRE')])
         self.assertEqual(''.join(''.join(t.split()) for t,a,m in parts),''.join(self.raw[506]['Texto'].split()))
         if 506 in self.reviews:
             rows=[dict(ID=i,ID_Padre=506,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(parts)]

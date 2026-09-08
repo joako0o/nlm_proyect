@@ -112,7 +112,9 @@ class LoopTwelveTests(unittest.TestCase):
         self.assertEqual([a for t,a,m in self.parts(1899)],['Manuel Marfán Lewis','Claudio Soto Gamboa','Manuel Marfán Lewis'])
         self.assertEqual([a for t,a,m in self.parts(5207)],['Claudio Soto Gamboa','Rodrigo Vergara Montes',b.CONSEJO])
     def test_unresolved_identity_and_inline_mention_not_forced(self):
-        self.assertFalse({6443,6185,780,6530,2126,3989}&set(self.reviews))
+        self.assertFalse({6443,6185,2126,3989}&set(self.reviews))
+        self.assertIn(780,b.load_context_warnings(self.raw))  # puente inicial todavía pendiente
+        self.assertIn(6530,b.load_context_warnings(self.raw))  # nombre literal no certificado
     def test_local_ocr_variants_preserved(self):
         for p,cue in [(392,'Klauss Schmidt'),(3385,'Marfán Manuel'),(790,'si posible')]:
             self.assertIn(cue,self.parts(p)[0][0])

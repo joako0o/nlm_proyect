@@ -108,7 +108,8 @@ class LoopNineTests(unittest.TestCase):
             self.assertIn('da la bienvenida',parts[-1][0])
             self.assertIn('concede la palabra',parts[-1][0])
     def test_pending_joint_passages_not_solved_by_opinion_reviews(self):
-        self.assertFalse({780,6185,2126}&set(self.reviews))
+        self.assertFalse({6185,2126}&set(self.reviews))
+        self.assertIn(780,b.load_context_warnings(self.raw))  # puente inicial todavía pendiente
         for p in [3191,5367]:
             self.assertGreater(self.reviews[p]["Inicio"],0)  # el prefijo conjunto no se adjudica
 

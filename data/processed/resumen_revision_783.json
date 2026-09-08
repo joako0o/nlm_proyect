@@ -1,25 +1,26 @@
 {
   "cola_original": 783,
-  "alertas_actuales": 321,
+  "alertas_actuales": 322,
   "menciones_actuales_documentadas": 11,
   "estados": {
-    "METODO_ACTUALIZADO": 325,
+    "METODO_ACTUALIZADO": 331,
     "FORMULA_PROCEDIMENTAL_RECLASIFICADA": 58,
-    "PENDIENTE_LECTURA_CONTEXTUAL": 107,
-    "SEGMENTACION_O_ACTOR_MODIFICADO": 171,
+    "PENDIENTE_LECTURA_CONTEXTUAL": 104,
+    "SEGMENTACION_O_ACTOR_MODIFICADO": 170,
     "BREVE_VALIDO_REVISADO": 7,
-    "CORRECCION_DIRIGIDA_APLICADA": 98,
+    "CORRECCION_DIRIGIDA_APLICADA": 101,
     "MENCION_LEGITIMA_REVISADA": 8,
-    "IDENTIDAD_PENDIENTE": 6,
+    "IDENTIDAD_PENDIENTE": 1,
     "REPETICION_SUSTANTIVA_PENDIENTE": 2,
     "CONTINUIDAD_ENTRE_PADRES_REVISADA": 1
   },
   "tipo_revision": {
-    "COMPARACION_AUTOMATICA": 496,
-    "LECTURA_DIRIGIDA_POR_AGENTE": 174,
-    "TRIAJE_AUTOMATICO": 113
+    "COMPARACION_AUTOMATICA": 501,
+    "LECTURA_DIRIGIDA_POR_AGENTE": 177,
+    "TRIAJE_AUTOMATICO": 105
   },
-  "filas_originales_con_alertas_actuales": 283,
-  "nota": "Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.",
+  "filas_originales_con_alertas_actuales": 282,
+  "intervalos_con_variante_identidad_pendiente": 6,
+  "nota": "Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Estado_Seguimiento registra el cambio principal, no el cierre de todos sus motivos: Variante_Identidad_Pendiente y Alertas_Actuales conservan los pendientes residuales. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.",
   "sha256_base_original": "bf557454bcea140a28d58d10fbb0962d4b8eab0558b5229a76e069f421c8a629"
 }

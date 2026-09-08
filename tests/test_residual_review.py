@@ -125,14 +125,15 @@ class ResidualReviewTests(unittest.TestCase):
             self.assertEqual(compact(''.join(t for t,a,m in self.parts(p))), compact(self.raw[p]['Texto']))
 
     def test_780_unknown_start_is_not_resolved_by_assumption(self):
-        # Esta regresión protege el alcance de esta ronda, no certifica esa atribución.
-        # Debe revisarse cuando haya evidencia para adjudicar el comienzo de Corbo.
-        self.assertNotIn(780, self.reviews)
+        # Sólo el inicio explícito es revisado; el puente anterior sigue provisional.
+        self.assertGreater(self.reviews[780]['Inicio'],self.raw[780]['Texto'].index('En la economía nacional'))
         parts = self.parts(780)
         self.assertIn('En la economía nacional', parts[0][0])
-        self.assertIn('Lo que sí ha cambiado, indica el señor Corbo', parts[0][0])
-        self.assertTrue(parts[1][0].startswith('Señala el Presidente, señor Corbo'))
-        self.assertTrue(parts[2][0].startswith(FORMULA))
+        self.assertNotIn('Lo que sí ha cambiado', parts[0][0])
+        self.assertTrue(parts[1][0].startswith('Lo que sí ha cambiado, indica el señor Corbo'))
+        self.assertTrue(parts[2][0].startswith('Señala el Presidente, señor Corbo'))
+        self.assertTrue(parts[3][0].startswith(FORMULA))
+        self.assertIn(780,b.load_context_warnings(self.raw))
 
 
 SOURCE_HASHES = {
