@@ -141,7 +141,7 @@ FIXTURES = {2668: {'hash': '7696cae883f2ac1a8f1761e6a582e04c3f16b1697089534135a8
                   ['Claudio Soto Gamboa', 733, 'SUJETO_ROL_SESION']]},
  3315: {'hash': 'f01ccc15a4a4e8729c22c1be73c903c44a151b872713a01b36c5a49508f1c4e3',
         'parts': [['Ricardo Vicuña Poblete', 165, 'SUJETO_ROL_NOMBRE'],
-                  ['Claudio Soto Gamboa', 1239, 'SUJETO_NOMBRE']]},
+                  ['Claudio Soto Gamboa', 1239, 'CONTEXTO_REVISADO']]},
  3376: {'hash': '61a15ddf126fe458dafcdcf2d4f6fa271df2cfa0f1e90f314c21f570e939fc80',
         'parts': [['Pablo García Silva', 285, 'SUJETO_ROL_NOMBRE']]},
  3534: {'hash': '437444b8a064ec18314d72dd27f1eaab32b1cbbc3456b982a45c9ca7f4b12c90',

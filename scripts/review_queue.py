@@ -132,6 +132,7 @@ def build_report(rows, out, speaker_reviews=None, mention_annotations=None):
     current=[{**r, **annotation_for(r,mention_annotations)} for r in rows if r['Estado_Revision']=='PENDIENTE_REVISION']
     summary={'cola_original':len(tracked),'alertas_actuales':len(current),
         'menciones_actuales_documentadas':len(mention_annotations or {}),
+        'lecturas_actuales_por_estado':dict(collections.Counter(e['Estado_Lectura_Dirigida'] for e in (mention_annotations or {}).values())),
         'estados':dict(collections.Counter(r['Estado_Seguimiento'] for r in tracked)),
         'tipo_revision':dict(collections.Counter(r['Tipo_Revision'] for r in tracked)),
         'filas_originales_con_alertas_actuales':sum(bool(r['Alertas_Actuales']) for r in tracked),
@@ -146,7 +147,7 @@ def build_report(rows, out, speaker_reviews=None, mention_annotations=None):
     ws.append(['Advertencia',summary['nota']]);ws.append(['Alertas en la versión actual',len(current)])
     ws.append(['Intervalos históricos con variante de identidad aún pendiente',summary['intervalos_con_variante_identidad_pendiente']])
     for k,v in summary['estados'].items():ws.append([k,v])
-    ws.append(['Lecturas de menciones actuales (no estados de las 783)',summary['menciones_actuales_documentadas']])
+    ws.append(['Lecturas dirigidas actuales, incluidas pendientes (no estados de las 783)',summary['menciones_actuales_documentadas']])
     for name,items,fields in [('Seguimiento_783',tracked,list(tracked[0])),
         ('Alertas_actuales',current,['ID','ID_Padre','Fecha','Actor_Final','Motivos_Revision','ID_Turno','Texto']+list(MENTION_FIELDS))]:
         sheet=wb.create_sheet(name);sheet.append(fields)

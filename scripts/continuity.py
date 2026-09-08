@@ -5,6 +5,7 @@ filas contiguas. La proximidad o la coincidencia de nombres, por sí solas, no
 son evidencia suficiente para reasignar al actor de una fila.
 """
 from context_warnings import has_context_warning
+from reviewed_continuity import matching_link, validate_reviewed_links, RELATION
 import re
 from turns import normalize
 
@@ -75,7 +76,7 @@ def update_state(state, actor, method, text, date, detector, sentence_spans, evi
             break
 
 
-def annotate_turns(rows):
+def annotate_turns(rows, reviewed_links=None):
     """Agrega identificadores de turno y eslabones de evidencia, sin reasignar.
 
     Los grupos son conservadores: ni mismo actor sin ancla ni una vuelta tras
@@ -95,11 +96,19 @@ def annotate_turns(rows):
         blocked = (not prev or institutional or prev.get('_blocks_continuity') or SECTION.search(normalize(text)))
         previous_anchor = prev.get('ID_Ancla_Actor') if prev else None
         same_physical_block = bool(same and prev['ID_Bloque_Texto'] == row['ID_Bloque_Texto'] and source == 'CONTINUACION_XLSX')
-        joined = bool(same and not blocked and previous_anchor and (source in EXPLICIT | CONTINUED or same_physical_block))
+        reviewed = matching_link(prev,row,reviewed_links)
+        if reviewed and (not same or institutional or prev.get('Tipo_Acta')
+                or boundary(prev['Texto']) or SECTION.search(normalize(text))
+                or has_context_warning(prev.get('Motivos_Revision'))
+                or has_context_warning(row.get('Motivos_Revision'))
+                or 'POSIBLE_OTRO_HABLANTE_O_MENCION' in (prev.get('Motivos_Revision') or '')
+                or 'POSIBLE_OTRO_HABLANTE_O_MENCION' in (row.get('Motivos_Revision') or '')):
+            raise ValueError('Continuidad revisada atraviesa barrera')
+        joined = bool(reviewed or (same and not blocked and previous_anchor and (source in EXPLICIT | CONTINUED or same_physical_block)))
         if joined:
             turn = prev['ID_Turno']
             antecedent = prev['ID_Intervencion']
-            relation = 'CONTINUIDAD_EXPLICITA' if source in EXPLICIT else source
+            relation = RELATION if reviewed else ('CONTINUIDAD_EXPLICITA' if source in EXPLICIT else source)
             anchor = row['ID_Intervencion'] if source in EXPLICIT else previous_anchor
         else:
             counts[date] = counts.get(date,0)+1
@@ -116,4 +125,6 @@ def annotate_turns(rows):
         last = row
     for row in rows:
         row.pop('_blocks_continuity', None)
+    errors=validate_reviewed_links(rows,reviewed_links or {})
+    if errors:raise ValueError('; '.join(errors))
     return rows

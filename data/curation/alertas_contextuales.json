@@ -502,5 +502,47 @@
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Respuesta actual del Presidente a Marshall. El literal Al Presidente es defectuoso pero el nombre, cargo y verbo comenta identifican el turno; no reescribir Al como El.",
     "Limitacion": "Sin nuevo cotejo PDF ni muestra independiente. No certifica el texto literal ni otros intervalos."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L19-2349",
+    "ID_Padre": 2349,
+    "Fecha": "2009-02-12",
+    "SHA256_Texto_Padre": "2b4e81f08c4a9883ba8e5d9b070424dea19edbc0bb9269f14e497f00783dc15d",
+    "Inicio": 1064,
+    "Fin": 1663,
+    "Texto_Intervalo": "Respecto a la caída de la inflación, el Gerente señor Claudia Soto señala que se realizó un ejercicio con un supuesto alternativo, pensando que gran parte de la caída del IPC dice relación con un efecto estacional y que en él se podrá llegar al mes de junio con una inflación de 3%, algo por sobre lo considerado en el escenario base. Señala, que otra materia que quiere destacar, es que en este ejercicio se está suponiendo que en los meses de junio y julio próximos, empiezan a devolverse las rebajas del impuesto a los combustibles yeso haría elevar algo la inflación dellPC por sobre la deIIPCX.",
+    "Actor_Provisional": "Claudio Soto Gamboa",
+    "Motivo": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_NOMBRE",
+    "Justificacion": "El discurso dice Claudia Soto; la nómina de la sesión identifica a Claudio Soto Gamboa. Etiqueta nominal local con literal preservado, sin certificar el nombre transcrito ni corregirlo silenciosamente.",
+    "Limitacion": "Sin nuevo cotejo PDF ni muestra independiente. No certifica otros tramos."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L19-3050",
+    "ID_Padre": 3050,
+    "Fecha": "2010-04-15",
+    "SHA256_Texto_Padre": "7287e9b8a419da34e8521c6ded3bf24b516ed39ea4da92d3a375fb9474e8c128",
+    "Inicio": 485,
+    "Fin": 3510,
+    "Texto_Intervalo": "El Gerente de Análisis Macroeconómico retoma su presentación, indicando que hasta antes del terremoto se observaba una fuerte recuperación del empleo. Destaca que la velocidad que traía el empleo asalariado venía creciendo de manera importante durante los últimos meses y había llevado a que la tasa de desempleo desestacionalizada cayera de manera fuerte en febrero, hasta 9%. Respecto de los posibles efectos que pueda tener el terremoto en el empleo, el señor Claudia Soto informa que no se cuenta con antecedentes suficientes como para conocerlos en este momento, pero que sí hay algunos antecedentes históricos respecto de lo que ocurrió después del terremoto del año 1985, que muestran que en esa oportunidad no hubo efectos significativos en los meses siguientes a la catástrofe. El señor Claudia Soto, refiriéndose a los salarios nominales, menciona que en el mes de enero se observó una caída, en febrero un aumento de magnitudes menores que las registradas durante el año pasado, con lo que la tasa de variación de los salarios reales sigue cayendo. En cuanto al IPC, el señor Soto destaca que el registro de marzo, de 0,1%, sorprendió a la baja, y que la estimación que se tenía era de 0,8%. Comenta que la sorpresa se dio principalmente en el componente más bien core del IPC, y que si se revisan los distintos componentes, las sorpresas se concentraron en vestuario, transporte y alimentos. Explica que en el caso de transporte, ello se debió a un efecto estacional. Al respecto, menciona que se sabía que caería en marzo; sin embargo, las noticias de la primera semana de ese mes indicaron que las tarifas de buses no estaban disminuyendo, llevando a la Gerencia a no ceñirse al patrón estacional habitual de transporte, lo que se reflejó en el error de 0,37 puntos porcentuales de mayor incidencia mensual efectiva. En el caso de vestuario, alude a una historia de un año de estacionalidad con la nueva serie, señalando que se cuenta con la historia reconstruida a partir de los precios micro, que mostraban que había una alta estacionalidad en el precio del vestuario en marzo, mes en que iba a subir bastante. Indica que eso determinó que se proyectara un incremento en el precio del vestuario, que finalmente no se materializó. Resume que esos fueron los dos componentes más significativos que explican el error en la proyección, que fue de casi medio punto. En el caso de alimentos, en tanto, declara que se pensó que iban a experimentar un alza, que sí sucedió, pero en una magnitud menor. Menciona también que otros componentes tuvieron incidencias menores, como el caso de educación, donde no se levantaron los precios en las regiones afectadas por el terremoto, pero que sí se estarían levantando el próximo mes, por lo que se espera que esta diferencia se recupere para entonces. Aclara que los precios no levantados se consideran precios sin variación y que lo que se hizo en esta oportunidad excepcional fue considerar los precios de las otras macro zonas, de la macro zona central, o sea, Santiago.",
+    "Actor_Provisional": "Claudio Soto Gamboa",
+    "Motivo": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_NOMBRE",
+    "Justificacion": "El discurso dice Claudia Soto; la nómina de la sesión identifica a Claudio Soto Gamboa. Etiqueta nominal local con literal preservado, sin certificar el nombre transcrito ni corregirlo silenciosamente.",
+    "Limitacion": "Sin nuevo cotejo PDF ni muestra independiente. No certifica otros tramos."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L19-3315",
+    "ID_Padre": 3315,
+    "Fecha": "2010-08-12",
+    "SHA256_Texto_Padre": "f01ccc15a4a4e8729c22c1be73c903c44a151b872713a01b36c5a49508f1c4e3",
+    "Inicio": 166,
+    "Fin": 1405,
+    "Texto_Intervalo": "El señor Claudia Soto, en tanto, agrega que los antecedentes de la Universidad de Chile, cuya metodología no ha cambiado y, por tanto , permite comparar las cifras en términos históricos, dan cuenta de que la tasa de desempleo se ubica algo por debajo de 9%, es decir, bajo el promedio histórico de esa encuesta que, en general, ha arrojado tasas de desempleo mucho más altas que las del INE. El señor Claudia Soto alude a un antecedente adicional, que dice relación con el efecto que podría estar teniendo la política fiscal en la dinámica del mercado laboral. Al respecto, informa que la Dipres publicó una serie de estadísticas sobre el número de empleos que se está generando, ya sea directamente en el sector público o indirectamente, y, en particular, los empleos que se estarían generando a partir de programas de inversión pública . De acuerdo con ello, precisa que el empleo con apoyo fiscal pasó de 1,5 a 5,5% del empleo total. El señor Soto comenta también que se llevó a cabo un par de ejercicios, que consideran lo que hubiese pasado con la tasa de desempleo si no hubiesen existido estos programas o esta generación de empleo. Señala que, en el caso extremo , se podría haber pensado que la tasa de desempleo no habría caído.",
+    "Actor_Provisional": "Claudio Soto Gamboa",
+    "Motivo": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_NOMBRE",
+    "Justificacion": "El discurso dice Claudia Soto; la nómina de la sesión identifica a Claudio Soto Gamboa. Etiqueta nominal local con literal preservado, sin certificar el nombre transcrito ni corregirlo silenciosamente.",
+    "Limitacion": "Sin nuevo cotejo PDF ni muestra independiente. No certifica otros tramos."
   }
 ]

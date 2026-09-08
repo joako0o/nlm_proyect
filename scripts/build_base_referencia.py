@@ -16,6 +16,7 @@ from institutional_reviews import load_institutional_reviews, institutional_part
 from curation import load_role_reviews, load_speaker_reviews, speaker_intervals, SPEAKER_REVIEW_SOURCE
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
+from reviewed_continuity import load_reviewed_links
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
 from roster import ROLE_PATTERNS as ROSTER_ROLES
 from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
@@ -1244,7 +1245,7 @@ def main():
         review_count+=bool(reasons)
     context_header = header + ['Estado_Revision','Motivos_Revision']
     context_rows = [dict(zip(context_header, vals)) for vals in ows.iter_rows(min_row=2, values_only=True)]
-    annotate_turns(context_rows)
+    annotate_turns(context_rows, load_reviewed_links({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data}))
     continuity_fields = ['ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor']
     for j,key in enumerate(continuity_fields,len(context_header)+1):
         ows.cell(1,j,key)

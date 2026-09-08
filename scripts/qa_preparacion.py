@@ -22,7 +22,8 @@ from procedural import is_formula, load_formula_reviews
 import openpyxl
 import build_base_referencia as builder
 from crear_consolidado_final import SOURCE_COLUMNS
-from continuity import EXPLICIT, boundary
+from continuity import EXPLICIT, boundary, SECTION, normalize
+from reviewed_continuity import load_reviewed_links, validate_reviewed_links, RELATION
 from curation import load_role_reviews, REVIEW_SOURCES, load_speaker_reviews, validate_speaker_reviews, SPEAKER_REVIEW_SOURCE
 from qa_gate_f0 import audit as audit_tpm, load_base, load_tpm
 
@@ -135,6 +136,11 @@ def validate_continuity(rows):
                 errors.append(f'ID {rid}: continuidad atraviesa barrera')
         elif previous and previous.get('ID_Turno') == turn:
             errors.append(f'ID {rid}: turno compartido sin antecedente')
+        if row.get('Relacion_Turno')==RELATION and (row.get('Tipo_Acta')
+                or SECTION.search(normalize(row['Texto']))
+                or has_context_warning(row.get('Motivos_Revision'))
+                or 'POSIBLE_OTRO_HABLANTE_O_MENCION' in (row.get('Motivos_Revision') or '')):
+            errors.append(f'ID {rid}: continuidad revisada atraviesa barrera actual')
         if anchor:
             root = by_id.get(anchor)
             if (not root or root['ID'] > rid or root['Actor_Final'] != row['Actor_Final']
@@ -168,6 +174,8 @@ def main():
     errors=validate(rows,raw,full,final,role_reviews)
     speaker_reviews=load_speaker_reviews({r["ID"]:r for r in raw})
     errors.extend(validate_speaker_reviews(rows,speaker_reviews))
+    reviewed_links=load_reviewed_links({r["ID"]:r for r in raw})
+    errors.extend(validate_reviewed_links(rows,reviewed_links))
     mention_reviews=load_mention_reviews({r["ID"]:r for r in raw})
     mention_errors, mention_annotations=validate_mention_reviews(rows,mention_reviews)
     errors.extend(mention_errors)
@@ -207,6 +215,8 @@ def main():
         'alertas_contextuales_documentadas':len(context_alerts),
         'documentos_escritos_revisados':len(document_records),
         'menciones_actuales_documentadas':len(mention_annotations),
+        'lecturas_actuales_por_estado':dict(collections.Counter(e['Estado_Lectura_Dirigida'] for e in mention_annotations.values())),
+        'continuidades_hablantes_revisadas':len(reviewed_links),
         'hablantes_revision_documentada':sum(r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE for r in rows),
         'cargos_revision_documentada':sum(r['Fuente_Rol'] in REVIEW_SOURCES for r in rows),
         'tipos_acta':dict(collections.Counter(r['Tipo_Acta'] or 'INTERVENCION_SIN_TIPO_INSTITUCIONAL' for r in rows)),

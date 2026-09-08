@@ -14,6 +14,8 @@ PATH = Path(__file__).resolve().parents[1] / 'data/curation/revisiones_menciones
 FIELDS = ('Estado_Lectura_Dirigida', 'Revision_Lectura_Dirigida', 'Alcance_Lectura_Dirigida')
 MOTIVE = 'POSIBLE_OTRO_HABLANTE_O_MENCION'
 DECISION = 'MENCION_LEGITIMA_REVISADA'
+PENDING_DECISION = 'PENDIENTE_DELIMITAR_APORTE'
+DECISIONS = {DECISION, PENDING_DECISION}
 
 
 def compact(text):
@@ -37,7 +39,7 @@ def load_mention_reviews(raw_by_id, path=PATH):
             raise ValueError('Lectura de mención: cambió el texto de origen')
         if not 0 <= start < end <= len(text) or not entry['Cita_Inicio'] or not text[start:end].startswith(entry['Cita_Inicio']):
             raise ValueError('Intervalo de mención inválido')
-        if (entry['Decision'] != DECISION or entry['Motivo_Revisado'] != MOTIVE
+        if (entry['Decision'] not in DECISIONS or entry['Motivo_Revisado'] != MOTIVE
                 or entry['Tipo_Revision'] != 'LECTURA_DIRIGIDA_POR_AGENTE'
                 or not entry['Actor'] or not entry['Justificacion'] or not entry['Limitacion']
                 or not entry['Evidencia']):

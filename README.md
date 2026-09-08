@@ -3,69 +3,73 @@
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de 7.219
 filas originales. La salida tiene **9.551 filas físicas / 9.550 bloques de texto**,
 con actor, cargo, trazabilidad y alertas. Una intervención extensa ocupa dos filas
-por el límite de XLSX. **315 grupos comparten varias filas bajo un mismo
+por el límite de XLSX. **319 grupos comparten varias filas bajo un mismo
 `ID_Turno`**, con hasta once filas consecutivas; no se fusionan registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.200 pruebas. No certifican pureza semántica total.**
-Quedan **346 filas con alertas en 306 padres**. No son 346 errores confirmados
+**F0 y F1 pasan, con 1.230 pruebas. No certifican pureza semántica total.**
+Quedan **349 filas con alertas en 309 padres**. No son 349 errores confirmados
 ni todas filas sin leer. `SIN_ALERTAS_AUTOMATICAS` tampoco significa revisión humana.
 
-**Informe vigente:** [LOOP18: fiscales, Comunicaciones y cambios ocultos por OCR](docs/REVISION_LOOP18_2026-09-08.md).
-**19 padres con separación estructural y cuatro sólo con metadatos de atribución/nombre**.
-Los otros **7.196 padres** conservan sus campos semánticos, descontando identificadores.
-Ver [comparación global](docs/comparacion_loop18_2026-09-08.json),
-[detalle CSV](docs/cambios_loop18_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop18_2026-09-08.json).
+**Informe vigente:** [LOOP19: continuidades acotadas y exposiciones largas](docs/REVISION_LOOP19_2026-09-08.md).
+**Cuatro enlaces discursivos y tres revisiones de metadatos/nombre; sin nuevas separaciones
+ni reasignaciones de actor.** Lectura íntegra adicional de 6185, todavía pendiente.
+Ver [comparación global](docs/comparacion_loop19_2026-09-08.json),
+[detalle CSV](docs/cambios_loop19_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop19_2026-09-08.json).
 
-- **5105–5108/5183/6277:** se recuperan respuestas de **Miguel Ángel Nacrur**,
-  conservando preguntas, retornos y el homenaje de Vergara como intervenciones
-  de sus respectivos hablantes. En 5183, la decisión final se separa como acta
-  institucional, no como opinión de Nacrur o Vicuña.
-- **6113:** se recupera la confirmación de **Pablo Mattar**, antes del acuerdo;
-  no se le atribuye un voto. **1742/2354:** se recupera a **Luis Alberto Álvarez**.
-  Los tres nombres y sus cargos se sustentan en discurso y nóminas, no en asistencia sola.
-- **1424/1663/1860/2473/2865/2957:** se separan cambios de hablante ocultos por
-  nombres o construcciones defectuosas. Se conservan y advierten Marshali,
-  Manual Marfán, Oesormeaux, Rabio García y «Al Presidente».
-- **2778/2909:** se recuperan los retornos de Soto sin perder sus anclas posteriores.
-  Los desarrollos largos y sus enumeraciones se mantienen unidos.
-- **4054:** la declaración de Marfán de sumarse a la mayoría se separa del
-  comunicado ya cerrado, mediante un límite revisado con hash y controles estrictos.
-- **4594:** se recupera a Ricaurte después de Herrera, conservando la advertencia
-  de identidad. **1003/2990/3476/3619:** revisión acotada de atribución/nombre,
-  sin cambiar textos, actores o límites. No se certifican todos sus tramos.
+- **3887→3888 Marshall, 4224→4225 Lehmann, 4941→4942 Soto y 5910→5911 Lehmann:**
+  sus exposiciones comparten un mismo `ID_Turno`, sin fusionar las filas ni sus textos.
+  Se leyeron completos los ocho extremos, incluidos los **10.080 caracteres de 5911**.
+  El registro acotado exige fechas, hashes, límites, actores y evidencia; no atraviesa
+  barreras ni convierte `CONTEXTO_REVISADO` en una ancla global. El extremo posterior
+  conserva su propia ancla explícita.
+- **2349/3050/3315:** tres revisiones acotadas y advertencias por el literal
+  «Claudia Soto», con Claudio Soto Gamboa en las nóminas. No se reescribe el OCR,
+  no se crean alias ni se cortan los desarrollos por cada referencia o indicador.
+- **3454:** leído completo; se conservan Claudia/Claudias y la continuidad con 3455.
+  El cambio de metadatos se aplaza porque el aviso actual rompería ese enlace.
+  Sigue como pendiente documental, no como nombre resuelto.
+- **6185:** leídos los **20.118 caracteres** y el contexto. «Conforme señala Matías
+  Bernier» no delimita con seguridad un turno autónomo. Se registra
+  `PENDIENTE_DELIMITAR_APORTE`, sin cambiar el texto/actor ni retirar la alerta.
+- **4745→4746 y 6561→6562:** siguen pendientes por finales dañados. Un párrafo largo
+  no es un párrafo «roto»; el daño aparente no autoriza inventar texto ni otra voz.
 
-Son **26 intervalos nuevos**, total **276 en 259 padres**. Los 250 anteriores
-permanecen idénticos. Diez advertencias contextuales nuevas, las 26 previas intactas:
-**36 activas**. No se retira ninguna; el archivo del retiro previo de 6443 no cambia.
-**21 de los 23 padres afectados estaban sin alerta**, incluidos los 19 con separación.
+Total **279 intervalos revisados en 262 padres**; los **276 anteriores idénticos**.
+**39 advertencias contextuales activas**, con las 36 previas intactas. No se retira
+ninguna; el archivo del retiro previo de 6443 se conserva íntegro.
 
-**Todos los enlaces previos entre padres y grupos no afectados se conservan**,
-incluidas las dos exposiciones de García de once filas y la continuidad 224 → 225 → 226.
-Sin enlaces nuevos ni retirados. `CONTEXTO_REVISADO` no crea anclas globales;
-`Fin` por sí solo no crea cortes. Esquemas XLSX **37/24**, once menciones actuales,
+**Texto exacto, actor, límites y orden de las 9.551 filas conservados**. Siete padres
+cambian campos no secuenciales; otros **7.212** mantienen esos campos, excluyendo
+`ID_Turno`. **Todos los enlaces anteriores y grupos ajenos a las cuatro uniones se
+conservan**, incluidas las exposiciones de García de once filas, 224→225→226 y
+3454→3455. `Fin` por sí solo no crea cortes. **73 hashes de entradas/código y once
+de salidas verificados**; publicación idéntica al ensayo aislado.
+
+Esquemas XLSX **37/24**, **12 lecturas actuales = 11 menciones legítimas + 1 pendiente**,
 21 fórmulas y tres documentos leídos intactos: **Larraín autor ≠ Vergara lector**,
-sin inferir asistencia o habla oral del autor. **70 hashes de entradas/código y once
-de salidas verificados**; la base publicada coincide campo por campo con el ensayo.
+sin inferir asistencia o habla oral del autor. El campo heredado
+`menciones_actuales_documentadas` cuenta registros; `lecturas_actuales_por_estado`
+distingue resueltos y pendientes. No se equiparan con las ocho menciones históricas.
 
-Alertas **334 → 346**, con nombres, daño y finales literales preservados. Hay
-**21 filas actuales con variante Ricaurte**, no veintiuna personas ni identidades
-resueltas. La cola histórica conserva **104 intervalos pendientes de lectura contextual**:
-500 comparaciones automáticas, 178 lecturas dirigidas y 105 triajes; seis intervalos
-históricos con variante de identidad. Los conteos se superponen y **no se suman**.
-Tampoco se equiparan once menciones actuales y ocho históricas.
+Alertas **346 → 349**, por tres discrepancias antes no advertidas. Siguen **21 filas
+actuales con variante Ricaurte**: no veintiuna personas ni identidades resueltas.
+La cola histórica mantiene **104 intervalos pendientes de lectura contextual**,
+500 comparaciones, 178 lecturas dirigidas y 105 triajes; seis intervalos históricos
+con variante de identidad. Los conteos se superponen y **no se suman**.
 
-Siguen 226, el puente de 780, 6185, pasajes conjuntos, nombres, identidades y daños.
-226 se leyó sin modificar su continuidad; su discrepancia nominal sigue pendiente.
-El checkpoint distingue nuevos candidatos de triaje y revisiones aplicadas.
-Faltan cotejos documentales y una muestra independiente con y sin alertas.
-No hubo nuevo cotejo PDF ni lectura exhaustiva del corpus.
+Se conservan las separaciones anteriores, las presentaciones de 506/1572, la
+recuperación parcial de 780, 6009/6025/6443, 4594, Nacrur/Mattar/Álvarez, 4054 tras
+el comunicado y las anclas posteriores de 780/1092/2790/2778/2909.
+Siguen pendientes 226/3454, el puente de 780, 6185, pasajes conjuntos, nombres,
+identidades y daños. **Sin nuevo cotejo PDF, muestra independiente con/sin alertas
+ni lectura exhaustiva del corpus.** El barrido dirigido no es auditoría representativa.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP17_2026-09-08.md)
-conserva **9.525 filas / 334 alertas / 1.155 pruebas**. Verificaciones locales:
+**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP18_2026-09-08.md)
+conserva **9.551 filas / 346 alertas / 1.200 pruebas**. Verificaciones locales:
 el workflow de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline
@@ -267,8 +271,10 @@ versiones mediante `ID_Padre`, texto y manifiesto, no sólo por número de fila.
 - Correspondencia exacta entre base de auditoría y proyección final.
 - Cadenas de continuidad: anclas explícitas, antecedentes contiguos, misma
   persona/sesión, sin saltar barreras institucionales ni cesiones de palabra.
-- Lecturas de menciones actuales: hash, actor, texto y límites vigentes; alcance
-  separado de las alertas automáticas y de los estados de las 783 originales.
+- Enlaces revisados: extremos/hash exactos, opt-in, ancla posterior propia y
+  rechazo de relaciones sin registro; no habilitan herencia global desde contexto.
+- Lecturas actuales: hash, actor, texto y límites vigentes; distinguen menciones
+  legítimas y aportes pendientes, sin retirar alertas ni adjudicar las 783 originales.
 - Alertas contextuales: fuente, fecha, hash e intervalo vigentes, actor provisional
   y aviso obligatorio; no desaparecen silenciosamente tras una resegmentación.
 - Manifiesto de procedencia y cola de revisión explícita.
