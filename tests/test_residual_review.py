@@ -58,7 +58,7 @@ class ResidualReviewTests(unittest.TestCase):
     def test_no_general_rule_for_all_gerunds(self):
         r = self.raw[2981]
         self.assertEqual(len(b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])), 6)
-        self.assertEqual({p for p,r in self.reviews.items() if r.get('Tipo_Limite')=='GERUNDIO_SENALANDO_EXPLICITO'}, {2981})
+        self.assertEqual({p for p,r in self.reviews.items() if r.get('Tipo_Limite')=='GERUNDIO_SENALANDO_EXPLICITO'}, {2981,1386,2938})
 
     def test_wrong_review_actor_is_rejected(self):
         review = copy.deepcopy(self.reviews[2981]);review['Actor'] = SOTO

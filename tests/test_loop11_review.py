@@ -30,9 +30,9 @@ class LoopElevenTests(unittest.TestCase):
     def rows(self,p):
         return [dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p))]
     def test_root_and_interval_counts_are_distinct(self):
-        self.assertEqual(len(self.reviews),288)
-        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),309)
-        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{506,644,664,1090,1923,2622,4923,5367,6009,6015,6016,6443,2957,3476,5108,6277,6021,631,6862})
+        self.assertEqual(len(self.reviews),307)
+        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),332)
+        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{506,644,664,1090,1923,2622,4923,5367,6009,6015,6016,6443,2957,3476,5108,6277,6021,631,6862,2674,2525,2738})
     def test_empty_and_single_review_compatibility(self):
         self.assertEqual(speaker_intervals(None),[])
         single=self.reviews[4706]
@@ -136,7 +136,7 @@ class LoopElevenTests(unittest.TestCase):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2661,2704,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015,1003,1424,1663,1860,2473,2865,2957,2990,3476,3619,2349,3050,3315,205,510,1013,1728,2695,2803,2969,5366,6021,7182,518,520,632,2141,4289,4446,6862})
+        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2661,2704,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015,1003,1424,1663,1860,2473,2865,2957,2990,3476,3619,2349,3050,3315,205,510,1013,1728,2695,2803,2969,5366,6021,7182,518,520,632,2141,4289,4446,6862,1904,2463,2525,2674,2938})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''
@@ -213,7 +213,9 @@ FIXTURES = {14: {'hash': '6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab
                   ('Pablo García Silva', 285, 'SUJETO_ROL_SESION'),
                   ('Claudio Soto Gamboa', 170, 'SUJETO_NOMBRE')]},
  2674: {'hash': 'd0bf1f145f07f3db3c185f7076213df875edad8f8c7939c209fd9dbbdae088aa',
-        'parts': [('Claudio Soto Gamboa', 4095, 'SUJETO_NOMBRE'),
+        'parts': [('Claudio Soto Gamboa', 2116, 'SUJETO_NOMBRE'),
+                  ('Enrique Marshall Rivera', 470, 'CONTEXTO_REVISADO'),
+                  ('Claudio Soto Gamboa', 1507, 'SUJETO_ROL_SESION'),
                   ('Kevin Cowan Logan', 386, 'SUJETO_ROL_NOMBRE'),
                   ('Igal Magendzo Weinberger', 237, 'SUJETO_ROL_NOMBRE'),
                   ('Pablo García Silva', 387, 'SUJETO_ROL_SESION'),

@@ -42,15 +42,15 @@ class CurrentMentionTests(unittest.TestCase):
             p.write_text(json.dumps(entries))
             return load_mention_reviews(raw if raw is not None else self.raw, p)
 
-    def test_nineteen_legitimate_mentions_and_one_pending_reading_are_documented(self):
-        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430})
-        self.assertEqual(len(self.reviews), 20)
+    def test_twenty_one_legitimate_mentions_and_one_pending_reading_are_documented(self):
+        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621})
+        self.assertEqual(len(self.reviews), 22)
 
     def test_valid_annotations_do_not_modify_rows_or_warnings(self):
         rows = copy.deepcopy(self.rows)
         errors, annotations = validate_mention_reviews(rows, self.reviews)
         self.assertEqual(errors, [])
-        self.assertEqual(len(annotations), 20)
+        self.assertEqual(len(annotations), 22)
         self.assertEqual(rows, self.rows)
         pending=[v for v in annotations.values() if v[FIELDS[0]]=='PENDIENTE_DELIMITAR_APORTE']
         self.assertEqual(len(pending),1)
@@ -58,7 +58,10 @@ class CurrentMentionTests(unittest.TestCase):
         for values in annotations.values():
             if values in pending:continue
             self.assertEqual(values[FIELDS[0]], 'MENCION_LEGITIMA_REVISADA')
-            self.assertIn('Sólo se adjudica este aviso', values[FIELDS[2]])
+            if '-L22-' in values[FIELDS[1]]:
+                self.assertIn('sin alerta automática previa',values[FIELDS[2]])
+            else:
+                self.assertIn('Sólo se adjudica este aviso', values[FIELDS[2]])
 
     def test_source_change_requires_new_reading(self):
         raw = copy.deepcopy(self.raw)

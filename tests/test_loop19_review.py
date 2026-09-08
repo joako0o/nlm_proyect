@@ -103,7 +103,7 @@ class LoopNineteenTests(unittest.TestCase):
         errors,annotations=validate_mention_reviews(rs,{e['Revision_ID']:e})
         self.assertFalse(errors);self.assertEqual(annotations[1]['Estado_Lectura_Dirigida'],PENDING_DECISION)
         self.assertEqual(rs[0]['Motivos_Revision'],'POSIBLE_OTRO_HABLANTE_O_MENCION')
-        self.assertEqual(sum(e['Decision']==DECISION for e in self.mentions.values()),19)
+        self.assertEqual(sum(e['Decision']==DECISION for e in self.mentions.values()),21)
     def test_metadata_reviews_preserve_complete_developments(self):
         for p,n in [(2349,599),(3050,3025),(3315,1239)]:
             rows=[dict(ID=i,ID_Padre=p,Actor_Final=a,Fuente_Actor=m,Texto=t,Fecha=self.raw[p]['Fecha']) for i,(t,a,m) in enumerate(self.parts(p))]

@@ -892,14 +892,15 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
             prefix = text[:review["Inicio"]]
             fragment = text[review["Inicio"]:review["Fin"]]
             fiscal_reply = review.get('Tipo_Limite') == 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO'
-            gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO' or fiscal_reply
+            nominal_gerund = review.get('Tipo_Limite') == 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO'
+            gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO' or fiscal_reply or nominal_gerund
             if gerund:
                 # Sólo esta decisión con hash/citas habilita el gerundio con
                 # sujeto explícito pospuesto. Proyectar el predicado únicamente
@@ -911,6 +912,14 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                     if not antecedent or not fragment.startswith(lead+' que '):
                         raise ValueError('Respuesta fiscal sin consulta nominal contigua')
                     fragment='indica el señor '+antecedent[1]+fragment[len(lead):]
+                elif nominal_gerund:
+                    predicates={'respondiendo':'responde','acotando':'acota',
+                                'comentando':'comenta','explicando':'explica',
+                                'precisando':'precisa','agregando':'agrega'}
+                    head=re.match(r'^(\w+) (?=(?:el|la)\b)',fragment)
+                    if not head or head[1] not in predicates or not prefix.rstrip().endswith((',', ';')):
+                        raise ValueError('Gerundio nominal revisado sin predicado/separador válido')
+                    fragment=predicates[head[1]]+fragment[len(head[1]):]
                 else:
                     if not prefix.rstrip().endswith((',', ';')) or not re.match(r'^señalando\s+(?:el|la)\s+', fragment):
                         raise ValueError("Revisión de gerundio sin límite válido")
@@ -973,6 +982,8 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                     text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement, statement=statement)
             else:
                 candidate = TURN_DETECTOR.speaker(fragment,date)
+            if nominal_gerund and (not candidate or candidate['method'] not in {'SUJETO_NOMBRE','SUJETO_ROL_NOMBRE'}):
+                raise ValueError('Gerundio revisado sin sujeto nominal explícito')
             if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
                 raise ValueError("Revisión de gerundio sin declaración válida")
             quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')

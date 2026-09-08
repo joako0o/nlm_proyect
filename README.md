@@ -1,81 +1,83 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de 7.219
-filas originales. La salida tiene **9.584 filas físicas / 9.583 bloques de texto**,
+filas originales. La salida tiene **9.610 filas físicas / 9.609 bloques de texto**,
 con actor, cargo, trazabilidad y alertas. Una intervención extensa ocupa dos filas
 por el límite de XLSX. **320 grupos comparten varias filas bajo un mismo
 `ID_Turno`**, con hasta once filas consecutivas; no se fusionan registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.297 pruebas. No certifican pureza semántica total.**
-Quedan **370 filas con alertas en 325 padres**. No son 370 errores confirmados
+**F0 y F1 pasan, con 1.336 pruebas. No certifican pureza semántica total.**
+Quedan **392 filas con alertas en 343 padres**. No son 392 errores confirmados
 ni todas filas sin leer. `SIN_ALERTAS_AUTOMATICAS` tampoco significa revisión humana.
 
-**Informe vigente:** [LOOP21: consultas, Fiscal y exposiciones absorbidas](docs/REVISION_LOOP21_2026-09-08.md).
-**Ocho padres resegmentados y cuatro sólo con metadatos/advertencias.** Trece
-intervalos nuevos en diez padres, sin eliminar ni reescribir el texto disponible.
-Ver [comparación global](docs/comparacion_loop21_2026-09-08.json),
-[detalle CSV](docs/cambios_loop21_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop21_2026-09-08.json).
+**Informe vigente:** [LOOP22: respuestas nominales en gerundio y OCR dañado](docs/REVISION_LOOP22_2026-09-08.md).
+**Veinte padres resegmentados**, con 23 intervalos nuevos. **2463 es recuperación
+parcial con cierre ambiguo advertido**, no certificación de exclusividad de voz.
+Además: una advertencia de cargo, dos controles negativos y dos referencias de
+continuidad actualizadas. Ver [comparación global](docs/comparacion_loop22_2026-09-08.json),
+[detalle CSV](docs/cambios_loop22_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop22_2026-09-08.json).
 
-- **280/631:** separar consultas de Eyzaguirre y Velasco de las respuestas de
-  Herrera/Lehmann. En 280 sólo se leyó el intervalo final de 1.444 caracteres:
-  los 30.150 anteriores de García se conservan, sin nueva adjudicación.
-- **518:** recuperar los **5.935 caracteres de opciones de Valdés** entre dos
-  tramos presidenciales, según contexto 517/520. Conservar el salto 7→9 y el
-  residuo H; no inventar contenido perdido ni fragmentar la exposición.
-- **2141/2646/3012/5199:** recuperar Marfán, el retorno presidencial después de
-  Cowan, el comienzo de De Ramón y el desarrollo de Soto después de Marshall.
-- **6862:** queda **Vergara → Araya → Vergara → Micco → Micco → Vergara**.
-  La respuesta del Fiscal Juan Pablo Araya Marco se delimita después de la
-  consulta nominal, con nómina 6810. Los dos tramos de Micco conservan la
-  identificación posterior explícita; no implican una interrupción de otro actor.
-- **632/4289:** documentar la respuesta de Lehmann con Lehmman literal y la
-  exposición internacional de **8.677 caracteres** con cargo contradictorio.
-  No trasladar esta última a Soto por el literal Análisis Macroeconómico.
-- **520/4446:** advertir el final dañado de Jadresic y la adhesión conjunta de
-  Marshall/Claro/Vergara. No repartir arbitrariamente el pasaje colectivo.
+- Separar respuestas efectivas en **1386/2692/2738/2740/2863/2911/2922/2938/3028/
+  3054/3160/3543/5061/5519/5872/6813/7176**: quien consulta no es quien responde.
+  Conservar incluso las respuestas breves de **43/51/56/63 caracteres**.
+- **2463:** Céspedes → Ministro. Inicio identificable pese al cargo dañado;
+  las dos frases finales podrían contener retorno de Céspedes sin introductor.
+  Atribución provisional para ese cierre, sin inventar una frontera.
+- **2525:** Velasco → Marshall → Soto → Velasco → Soto. Nombres/cargos dañados
+  conservados y documentados localmente, sin alias globales nuevos.
+- **2674:** recuperar otro comentario de Marshall (**470**) entre Soto **2.116**
+  y Soto **1.507**. Su revisión anterior de **1.159** y los siete segmentos
+  posteriores quedan intactos; la ficha previa sólo cambia de contenedor JSON.
+- **1904:** advertir Política Monetaria dañada frente a Política Financiera
+  de la nómina de Cowan. Ya estaba separado; no es un nuevo corte.
+- **854/1621:** controles negativos leídos: «respondiendo **al** Consejero» señala
+  al destinatario, no otro hablante. Siguen sin alerta ni cambio de segmentación.
 
-**Siete de los ocho padres resegmentados estaban sin alerta**; 6862 ya tenía un
-final sin puntuación. Los barridos fueron dirigidos, no muestreo independiente.
-Total **309 intervalos revisados en 288 padres**. Los **296 anteriores idénticos**;
-**56 advertencias activas**, con las 49 previas intactas y ningún retiro nuevo.
-El archivo completo del retiro de la advertencia obsoleta de 6443 se conserva.
+**Dieciocho de los veinte padres resegmentados estaban sin alerta**; 2938/3028
+ya tenían final sin puntuación. Búsqueda dirigida, no muestreo independiente.
+Total **332 intervalos revisados en 307 padres**. Los **309 anteriores conservados**,
+incluidas todas las evidencias de 2674. **61 advertencias activas**, con las 56
+previas intactas. Sin retiros; archivo completo del retiro de 6443 preservado.
 
-Los tres tipos nuevos de respuesta/relativa/gerundio requieren opt-in, hashes,
-límites y sujeto compatible. El Fiscal se resuelve desde la consulta nominal
-contigua, no como alias global. **CONTEXTO_REVISADO no crea anclas globales**;
-las anclas posteriores de 3012/6862 se conservan y Fin solo no crea cortes.
+El nuevo tipo de gerundio requiere opt-in, hash, separador, sujeto nominal
+compatible y declaración con que. No amplía el detector global ni los alias.
+**CONTEXTO_REVISADO no crea anclas globales**; las posteriores explícitas de
+2692/2863/6813 se conservan. Fin solo no crea cortes ni anclas.
 
 **7.219 padres y 2.048.560 palabras conservados. Ningún enlace añadido ni perdido.**
-Grupos no afectados intactos, incluidas las exposiciones de García de once filas,
-224→225→226, 3454→3455, 2695→2696, 2754→2755, 2790→2791 y las cinco uniones revisadas.
-Sólo los doce padres indicados cambian campos no secuenciales; otros **7.207** los
-mantienen, excluyendo ID e ID_Turno. **75 hashes de entradas/código y once de salidas
+Grupos no afectados intactos: García de once filas, 224→225→226, 3454→3455,
+2695→2696, 2754→2755, 2790→2791 y las cinco uniones revisadas. Se conservan
+1386→1387, 2673→2674 y 2863→2864. En 1387/2864 sólo cambia la referencia al
+antecedente correcto, además de IDs secuenciales. Otros **7.196 padres** mantienen
+todos los campos no secuenciales. **76 hashes de entradas/código y once de salidas
 verificados**; publicación idéntica al ensayo aislado.
 
 Esquemas **37/24**, 21 fórmulas y tres documentos intactos: **Larraín autor ≠ Vergara
 lector**, sin inferir presencia ni habla oral. CSV TPM/documentos comparados salvo
-IDs secuenciales. Las lecturas actuales siguen en **20 = 19 menciones legítimas +
-1 pendiente (6185/Bernier)**; no se añadió ninguna en esta pasada. No equivalen a
-las ocho menciones históricas ni cierran otras alertas de esas filas.
+IDs secuenciales. **22 lecturas actuales = 21 menciones legítimas + 6185/Bernier
+pendiente**. Los dos controles nuevos están registrados y validados, pero no en
+revision_pendientes.csv porque no tienen alertas. No se cuentan como avisos eliminados.
 
-El intervalo histórico 8653/6862 pasa a corrección dirigida, con daño residual
-visible. Quedan **103 pendientes contextuales**, 500 comparaciones, 179 lecturas
-dirigidas y 104 triajes, seis intervalos con variante de identidad y 283 intervalos
-históricos con alertas actuales. Siguen **21 filas actuales con variante Ricaurte**.
-**No se suman estas unidades** ni se interpreta el estado principal como cierre total.
+Los intervalos históricos 4179/2938 y 4302/3028 pasan a corrección dirigida, con
+motivos residuales visibles. Quedan **102 pendientes contextuales**, 499 comparaciones,
+181 lecturas dirigidas y 103 triajes; seis intervalos con variante de identidad y
+283 intervalos históricos con alertas actuales. Siguen **21 filas actuales con
+variante Ricaurte**. Las ocho menciones históricas no equivalen a las 21 actuales;
+**no se suman estas unidades** ni el estado principal cierra todos sus motivos.
 
 Se conservan 506/1572, 780, 6009/6025/6443, 4594, Nacrur/Mattar/Álvarez, 4054,
-3110 y anclas 780/1092/2790/2778/2909. Siguen 226/3454, el puente de 780, 6185,
-4745→4746 y 6561→6562, pasajes conjuntos —incluido 4446—, nombres/cargos e identidades.
-**Sin nuevo cotejo PDF ni muestra independiente con/sin alertas.** Una exposición
-larga no es un párrafo dañado y el daño aparente no autoriza inventar palabras.
+3110, anclas 780/1092/2790/2778/2909 y LOOP21/Araya. Siguen 226/3454, puente de
+780, 6185, 4745→4746, 6561→6562, pasajes conjuntos (incluido 4446), nombres/cargos
+e identidades. Los residuos de 2863 no se reparan ni bloquean su continuidad
+comprobada con 2864. **Sin nuevo cotejo PDF ni muestra independiente con/sin alertas.**
+Una exposición larga no es un párrafo dañado; daño aparente no autoriza inventar texto.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP20_2026-09-08.md)
-conserva **9.571 filas / 361 alertas / 1.270 pruebas**. Verificaciones locales:
+**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP21_2026-09-08.md)
+conserva **9.584 filas / 370 alertas / 1.297 pruebas**. Verificaciones locales:
 el workflow de GitHub Actions sigue fuera del PR por falta de permiso workflows.
 
 ## Ejecutar todo el pipeline
