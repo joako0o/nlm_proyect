@@ -895,7 +895,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "INICIO_TRAS_ARTEFACTO_REVISADO", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA', 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "INICIO_TRAS_ARTEFACTO_REVISADO", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA', 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA', 'GERUNDIO_RESPUESTA_VARIANTE_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
@@ -931,7 +931,8 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 fragment=fragment[len('lo que '):]
             fiscal_reply = review.get('Tipo_Limite') == 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO'
             confirming_gerund = review.get('Tipo_Limite') == 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA'
-            nominal_gerund = review.get('Tipo_Limite') == 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO' or confirming_gerund
+            reply_gerund = review.get('Tipo_Limite') == 'GERUNDIO_RESPUESTA_VARIANTE_REVISADA'
+            nominal_gerund = review.get('Tipo_Limite') == 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO' or confirming_gerund or reply_gerund
             gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO' or fiscal_reply or nominal_gerund
             if gerund:
                 # Sólo esta decisión con hash/citas habilita el gerundio con
@@ -950,6 +951,12 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                                 'precisando':'precisa','agregando':'agrega'}
                     if confirming_gerund:
                         predicates={'confirmando':'confirma'}
+                    if reply_gerund:
+                        # Sólo fichas con hash y sujeto nominal: la réplica se
+                        # proyecta para validación, no se reescribe ni se agrega
+                        # un verbo al detector automático de turnos.
+                        predicates={'afirmando':'afirma','replicando':'responde',
+                                    'consignando':'consigna'}
                     head=re.match(r'^(\w+) (?=(?:el|la)\b)',fragment)
                     if not head or head[1] not in predicates or not prefix.rstrip().endswith((',', ';')):
                         raise ValueError('Gerundio nominal revisado sin predicado/separador válido')
