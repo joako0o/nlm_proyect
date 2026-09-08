@@ -1,74 +1,71 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.412 filas físicas de
-Excel / 9.411 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
+consolidado de 7.219 filas. La salida actual tiene **9.427 filas físicas de
+Excel / 9.426 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
-**312 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
+**314 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 711 pruebas de regresión. Esto no certifica pureza semántica
-total de cada intervención.** Quedan **433 filas con alertas** para revisión
-dirigida. Las alertas se superponen y pueden ser falsos positivos; no son 433
-errores confirmados. Tampoco `SIN_ALERTAS_AUTOMATICAS` equivale a revisión humana.
+**F0 y F1 pasan, con 789 pruebas de regresión. Esto no certifica pureza semántica
+total de cada intervención.** Quedan **391 filas con alertas en 358 padres** para
+revisión dirigida. Los motivos se superponen y pueden ser falsos positivos;
+no son 391 errores confirmados. `SIN_ALERTAS_AUTOMATICAS` no equivale a revisión humana.
 
-**Informe vigente:** [octavo bloque: exposiciones, respuestas y cargos provisionales](docs/REVISION_LOOP8_2026-09-08.md).
-Se encadenaron cinco ciclos con cambios en **110 padres**: **12** de segmentación
-o atribución (29 → 36 segmentos, **7 filas nuevas**) y **98** sólo de metadatos,
-sin alterar texto ni actor. Los otros **7.109 padres** no tienen cambios semánticos
-en esta pasada. El detalle está en la
-[comparación global](docs/comparacion_loop8_2026-09-08.json).
+**Informe vigente:** [noveno bloque: sujetos, opiniones y continuidad](docs/REVISION_LOOP9_2026-09-08.md).
+Se encadenaron tres ciclos con cambios en **60 padres**: **13** de segmentación
+o atribución (28 → 43 segmentos, **15 filas nuevas**) y **47** sólo de metadatos,
+sin alterar sus textos ni actores. Los otros **7.159 padres** no tienen cambios
+semánticos en esta pasada. Ver [comparación global](docs/comparacion_loop9_2026-09-08.json)
+y [detalle CSV](docs/cambios_loop9_2026-09-08.csv).
 
-Se reconocen mejor inicios de exposición, respuestas y retornos al presentar
-un gráfico, conservando desarrollos largos completos. Las referencias a terceros
-no prestan su verbo al sujeto principal: la nueva guardia vuelve visible una
-atribución legada en 14, sin cambiar su actor. En **4433** se señala expresamente
-un **cargo posiblemente equivocado en la fuente**, entre tramos de Soto; no se
-trasladan por proximidad a Soto los 705 caracteres atribuidos provisionalmente
-a Lehmann. Ver [alertas contextuales](data/curation/alertas_contextuales.json).
+Se separan especificaciones, confirmaciones y opiniones intercaladas dentro de
+exposiciones largas, manteniendo los retornos del expositor. Cuatro intervalos
+revisados con hash (**4706, 4719, 6600 y 6601**) llevan el total a **101 revisiones**;
+las 97 anteriores siguen intactas. No se generaliza «En opinión» a cualquier mención.
+Las bienvenidas distinguen al Presidente de la narrativa institucional, sin
+convertir al invitado o destinatario en hablante.
 
-Se preservaron todos los enlaces de continuidad anteriores y las exposiciones
-de once filas. Se comprobaron **14 enlaces nuevos** entre aperturas/cesiones
-del Presidente o partes de una misma presentación. Las revisiones contextuales
-siguen sin crear anclas por sí solas. El
-[punto de reanudación](docs/estado_revision_loop8_2026-09-08.json) registra
-pendientes y alcance. La pasada está publicada y se incorpora al
-[PR #3](https://github.com/joako0o/nlm_proyect/pull/3); **no hay un proceso activo
+Se conservaron todos los enlaces anteriores y las exposiciones de once filas;
+se comprobaron **dos enlaces nuevos**, 3108→3109 y 3982→3983. El cierre de sesión
+bloquea la herencia posterior. Las revisiones contextuales siguen sin crear anclas
+por sí solas. El [checkpoint](docs/estado_revision_loop9_2026-09-08.json) registra
+alcance y pendientes. La pasada está publicada y se incorpora al
+[PR #3](https://github.com/joako0o/nlm_proyect/pull/3); **no hay proceso activo
 en segundo plano**.
 
 Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara mantienen
 **autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo documental y aviso
-obligatorio. **No acreditan asistencia ni habla oral del autor.** El
-[CSV documental](data/processed/documentos_leidos.csv) los enlaza con el Excel y
-los grupos de continuidad. Los esquemas XLSX siguen siendo de 37/24 columnas.
+obligatorio. **No acreditan asistencia ni habla oral del autor.** Continúan el
+[CSV documental](data/processed/documentos_leidos.csv) y los esquemas XLSX de 37/24 columnas.
+La advertencia de cargo en **4433** sigue visible y bloquea continuidad: no se
+reasignan por proximidad los 705 caracteres provisionales de Lehmann a Soto.
 
-De las 783 alertas originales, **232** siguen pendientes de lectura contextual,
-59 son fórmulas reclasificadas, **210** tienen método actualizado, **172**
-presentan cambios por comparación, **86** tienen una corrección dirigida aplicada,
+De las 783 alertas originales, **190** siguen pendientes de lectura contextual,
+58 son fórmulas reclasificadas, **249** tienen método actualizado, **173**
+presentan cambios por comparación y **89** una corrección dirigida aplicada;
 siete son breves válidos, ocho menciones revisadas, seis identidades pendientes,
 dos repeticiones sustantivas y una continuidad documentada. **No es una revisión
-exhaustiva de las 783 filas.** Las diez anotaciones actuales de menciones se
-cuentan aparte y mantienen sus avisos; no se añadieron menciones en este bloque.
+exhaustiva de las 783 filas.** Las diez anotaciones actuales de menciones se cuentan
+aparte y mantienen sus avisos; no se añadieron menciones en este bloque.
 
-Las filas con alertas pasan de **508 a 433**; el motivo de atribución heurística
-legada, de **182 a 104**. Se conservan tres avisos documentales y tres filas con
-repeticiones sustantivas, además de la nueva alerta contextual de cargo. La
-reducción de pendientes históricos **305 → 232** incluye cambios automáticos
-de método: no equivale a 73 lecturas humanas ni cierres semánticos.
+Alertas **433 → 391**; atribución heurística legada **104 → 58**. Se mantienen
+los tres avisos documentales, las tres repeticiones sustantivas y la advertencia de cargo.
+El descenso histórico **232 → 190** incluye cambios automáticos de método:
+no equivale a 42 lecturas humanas ni cierres semánticos.
 
-Permanecen los **cinco candidatos prioritarios** sin anotación de mención:
-**780, 3191, 5367, 5647 y 6185**. **No son cinco pendientes totales:** siguen
-433 filas con alertas, 232 intervalos originales pendientes y la advertencia
-contextual de 4433. Persisten pasajes conjuntos, daños, identidades, repeticiones
+Permanecen los cinco candidatos filtrados **780, 3191, 5367, 5647 y 6185**.
+**No son cinco pendientes totales:** siguen 391 filas alertadas y 190 intervalos
+históricos pendientes. Persisten pasajes conjuntos, daños, identidades, repeticiones
 y la necesidad de una muestra independiente con y sin alertas. No hubo nuevo
 cotejo PDF en esta pasada.
 
-El [informe anterior](docs/REVISION_LOOP7_2026-09-07.md) conserva el estado
-histórico de **9.405 filas / 508 alertas / 582 pruebas**. Las verificaciones son
-locales: el workflow propuesto de GitHub Actions sigue fuera del PR por falta
-de permiso `workflows` en la conexión.
+El [informe anterior](docs/REVISION_LOOP8_2026-09-08.md) conserva el estado histórico
+**9.412 filas / 433 alertas / 711 pruebas**. Las verificaciones son locales:
+el workflow propuesto de GitHub Actions sigue fuera del PR por falta de permiso
+`workflows` en la conexión.
 
 ## Ejecutar todo el pipeline
 

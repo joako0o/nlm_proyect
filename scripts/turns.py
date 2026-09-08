@@ -14,6 +14,7 @@ def normalize(text):
         t = t.replace(old,new)
     # Variantes constatadas en el consolidado, sólo en la vista de reconocimiento.
     for pattern, replacement in [
+        (r'\btam bien\b', 'tambien'),
         (r'\bvittoho corbo\b', 'vittorio corbo'),
         (r'\bgerente de la division (?:de )?', 'gerente de division '),
         (r'\bmadgenzo\b', 'magendzo'),
@@ -37,6 +38,14 @@ def normalize(text):
 # Verbos finitos / locuciones que vinculan directamente el sujeto a su discurso.
 # No usar búsqueda en una ventana: podría capturar el verbo de otra persona.
 VERBS = (
+    'admite', 'tiende a compartir', 'tiende a coincidir', 'suscribe plenamente', 'da la bienvenida',
+    'proporciona un comentario', 'hace un comentario', 'efectua varias reflexiones',
+    'da por finalizada la sesion', 'da por concluida la sesion',
+    'da inicio a la reunion de politica monetaria',
+    'hace enfasis', 'pone enfasis', 'hace la salvedad', 'clarifica', 'especifica',
+    'colige', 'deduce', 'calcula', 'compara', 'disiente', 'no descarta', 'no advierte',
+    'se compromete a informar', 'se compromete a actualizar', 'se compromete a analizar',
+    'se compromete a presentar', 'se compromete a continuar monitoreando',
     'recomienda', 'reafirma', 'ratifica', 'hace alusion', 'exhibe',
     'quiere hacer un comentario', 'desea efectuar algunas observaciones', 'desea plantear',
     'da inicio a su presentacion', 'da inicio a su intervencion',
@@ -69,7 +78,7 @@ VERBS = (
     'complementa', 'enfatiza', 'estima conveniente', 'deja constancia',
 )
 VERB = '(?:' + '|'.join(re.escape(v) for v in sorted(VERBS, key=len, reverse=True)) + r')\b'
-DIRECT = re.compile(r'^\s*[,;]?\s*(?:le\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte|en tanto)\s*,?\s*)?' + VERB)
+DIRECT = re.compile(r'^\s*[,;]?\s*(?:(?:le|lo)\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte|en tanto|si bien)\s*,?\s*)?' + VERB)
 PARENTHETICAL = re.compile(r'^\s*,?\s*(?:en referencia|aludiendo|en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
 # Inciso de apertura constatado: número acotado y verbo principal aún exigido.
 OPENING_ASIDE = re.compile(r'^\s*,?\s*junto con dar inicio a la reunion de politica monetaria n[°º]\s*\d{1,3},\s*(?=' + VERB + ')')
@@ -80,7 +89,7 @@ HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
 CLOSURE_LEAD = (r'al no (?:haber (?:consultas o comentarios adicionales|mas comentarios)|'
                 r'formularse (?:otros comentarios|comentarios adicionales))'
                 r'(?:(?:,| y) siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d(?: horas)?)?$')
-LEAD = re.compile(r'^(?:prosiguiendo con su exposicion$|al proseguir con su presentacion$|no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
+LEAD = re.compile(r'^(?:al continuar con su presentacion$|prosiguiendo con su exposicion$|al proseguir con su presentacion$|no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
                   r'antes de proseguir|finalizada la presentacion|concluida la presentacion|no habiendo mas (?:comentarios|comentanos)|refiriendose ahora a|antes de continuar con la votacion|complementando los comentarios efectuados|prosiguiendo con la votacion|prosiguiendo con la presentacion|al continuar con (?:su|la) exposicion|una vez adoptado el acuerdo correspondiente|aun considerando la explicacion anterior|como es habitual|para sintetizar|al concluir su presentacion|a modo complementario|a lo cual|a lo que|a continuacion|sobre el particular|sobre este|en este|en ese|'
                   r'nuevamente|tambien|respondiendo|asimismo|a su vez|finalmente|luego|despues|por otra parte|'
                   r'por otro lado|en respuesta|ante |respecto |intervencion|'

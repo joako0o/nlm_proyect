@@ -238,7 +238,7 @@ FIXTURES = {2668: {'hash': '7696cae883f2ac1a8f1761e6a582e04c3f16b1697089534135a8
  5229: {'hash': '813aaf1b2e373d4f15f5cf54e76bbb357fac154d9f4d5c4e7bf3c8344ff750d7',
         'parts': [['Sergio Lehmann Beresi', 901, 'SUJETO_NOMBRE']]},
  5243: {'hash': '835ecd08589bbb49a7e3ecc0327d7de5930ef121840a299874aac3d5f197d555',
-        'parts': [['Enrique Marshall Rivera', 829, 'ROL+NOMBRE'],
+        'parts': [['Enrique Marshall Rivera', 829, 'SUJETO_ROL_NOMBRE'],
                   ['Rodrigo Vergara Montes', 237, 'SUJETO_ROL_NOMBRE']]},
  5282: {'hash': 'f51212eae1f78fc3502d17b9c8427e564e10671b1e36e9550ab3f8fe985d737d',
         'parts': [['Sebastián Claro Edwards', 594, 'SUJETO_ROL_NOMBRE']]},

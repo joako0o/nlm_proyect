@@ -48,11 +48,16 @@ class LoopThreeTests(unittest.TestCase):
                   'No habiendo comentarios, el señor Presidente está presente.',
                   '“No habiendo comentarios, el señor Presidente agradece la exposición.”']:
             self.assertIsNone(b.TURN_DETECTOR.speaker(t,'2010-09-16'))
-    def test_personal_resumption_requires_review_not_blind_anaphora(self):
-        for p in [3421,3476]:
-            r=self.raw[p];plain=b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
-            self.assertEqual(plain[-1][1],b.CONSEJO)
-            self.assertEqual(self.parts(p)[-1][1],PRES)
+    def test_explicit_welcome_does_not_certify_prior_anaphoric_gratitude(self):
+        # Loop9 reconoce la bienvenida con sujeto expreso; no hereda ciegamente
+        # «Hace presente…» en 3421. Su intervalo completo aún requiere revisión.
+        r=self.raw[3421];plain=b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
+        self.assertEqual([(a,len(t)) for t,a,m in plain[-2:]],[(b.CONSEJO,666),(PRES,239)])
+        self.assertIn('Hace presente que esta es la última Sesión',plain[-2][0])
+        self.assertEqual([(a,len(t)) for t,a,m in self.parts(3421)[-2:]],[(b.CONSEJO,108),(PRES,797)])
+        r=self.raw[3476];plain=b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
+        self.assertEqual([(a,len(t)) for t,a,m in plain[-2:]],[(b.CONSEJO,66),(PRES,255)])
+        self.assertEqual(plain[-1][0],self.parts(3476)[-1][0])
     def test_each_new_interval_survives_and_rejects_truncation(self):
         for p in SOURCE_HASHES.keys() & self.reviews.keys():
             rows=[dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p),1)]

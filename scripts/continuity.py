@@ -14,7 +14,7 @@ CONTINUED = {'CONTINUIDAD_PARRAFO', 'CONTINUACION_XLSX', 'ANAFORA_CONTINUIDAD'}
 # Barreras aunque el siguiente registro sea del mismo actor.
 BOUNDARY = re.compile(r'\b(?:ofrece|concede|cede|da)\s+la\s+palabra\b|'
                       r'\bsolicita\s+al\b|\bsuspend[ei]\w*\s+la\s+sesion\b|'
-                      r'\breanuda\w*\s+la\s+sesion\b|\bse\s+levanta\s+la\s+sesion\b')
+                      r'\bda por (?:finalizada|concluida) la sesion\b|\breanuda\w*\s+la\s+sesion\b|\bse\s+levanta\s+la\s+sesion\b')
 SECTION = re.compile(r'^(?:[a-z]\)\s*)?(?:minuta\s+(?:del|de la)|fundamentacion\s+de\s+voto|'
                      r'votacion|acuerdo|comunicado|acta\s+correspondiente)\b')
 PERSON_CUE = re.compile(r'\b(?:el|la)\s+(?:senor|senora|presidente|vicepresidente|consejero|consejera|'
