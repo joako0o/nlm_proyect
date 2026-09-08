@@ -109,6 +109,7 @@ def annotate_turns(rows):
                    ID_Antecedente_Continuidad=antecedent, ID_Ancla_Actor=anchor)
         row['_blocks_continuity'] = (institutional or boundary(text) or
             'POSIBLE_OTRO_HABLANTE_O_MENCION' in (row.get('Motivos_Revision') or '') or
+            'CARGO_EN_DISCURSO_POR_VERIFICAR' in (row.get('Motivos_Revision') or '') or
             source not in EXPLICIT | CONTINUED)
         last = row
     for row in rows:

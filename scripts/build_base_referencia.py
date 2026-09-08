@@ -11,6 +11,7 @@ import openpyxl, re, collections, datetime as dt
 from pathlib import Path as _Path
 from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
+from context_warnings import load_context_warnings, contextual_motives
 from curation import load_role_reviews, load_speaker_reviews, SPEAKER_REVIEW_SOURCE
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
@@ -986,6 +987,7 @@ def main():
     # ---- process ----
     load_formula_reviews(raw_by_id={int(r[0]): {"Texto":str(r[5])} for r in data})
     reviewed_documents = load_document_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    context_alerts = load_context_warnings({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     _formula = is_formula
     _parent_meta={int(str(r[0])):str(r[5]) for r in data}
     _parent_texts=collections.Counter(_parent_meta.values())
@@ -1151,7 +1153,7 @@ def main():
     review_count=0
     for row in ows.iter_rows(min_row=2):
         obj=dict(zip(header, [c.value for c in row[:len(header)]]))
-        reasons=review_reasons(obj, TURN_DETECTOR, split_sentences)
+        reasons=sorted(set(review_reasons(obj, TURN_DETECTOR, split_sentences)+contextual_motives(obj,context_alerts)))
         state='PENDIENTE_REVISION' if reasons else 'SIN_ALERTAS_AUTOMATICAS'
         ows.cell(row[0].row, len(header)+1, state)
         ows.cell(row[0].row, len(header)+2, ';'.join(reasons))

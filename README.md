@@ -1,65 +1,72 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.405 filas físicas de
-Excel / 9.404 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
+consolidado de 7.219 filas. La salida actual tiene **9.412 filas físicas de
+Excel / 9.411 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
-**301 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
+**312 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
-## Estado actual — 2026-09-07
+## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 582 pruebas de regresión. Esto no certifica pureza semántica
-total de cada intervención.** Quedan **508 filas con alertas** para revisión
-dirigida. Las alertas se superponen y pueden ser falsos positivos; no son 508
+**F0 y F1 pasan, con 711 pruebas de regresión. Esto no certifica pureza semántica
+total de cada intervención.** Quedan **433 filas con alertas** para revisión
+dirigida. Las alertas se superponen y pueden ser falsos positivos; no son 433
 errores confirmados. Tampoco `SIN_ALERTAS_AUTOMATICAS` equivale a revisión humana.
 
-**Informe vigente:** [séptimo bloque: autor/lector, atribuciones heredadas y retornos](docs/REVISION_LOOP7_2026-09-07.md).
-Se encadenaron cuatro ciclos con cambios en **118 padres**: **45** cambiaron
-segmentación o atribución (53 → 105 segmentos, **52 filas nuevas**) y **73**
-sólo metadatos, sin alterar texto ni actor. Se conservaron los otros **7.101
-padres** sin cambios semánticos. El detalle está en la
-[comparación global](docs/comparacion_loop7_2026-09-07.json).
+**Informe vigente:** [octavo bloque: exposiciones, respuestas y cargos provisionales](docs/REVISION_LOOP8_2026-09-08.md).
+Se encadenaron cinco ciclos con cambios en **110 padres**: **12** de segmentación
+o atribución (29 → 36 segmentos, **7 filas nuevas**) y **98** sólo de metadatos,
+sin alterar texto ni actor. Los otros **7.109 padres** no tienen cambios semánticos
+en esta pasada. El detalle está en la
+[comparación global](docs/comparacion_loop8_2026-09-08.json).
 
-Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara ya tienen
-**autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo de fuente documental
-y aviso de lectura por tercero. **No acreditan asistencia ni habla oral del
-autor.** El [CSV documental](data/processed/documentos_leidos.csv) permite
-vincularlos con el Excel y los grupos de continuidad, sin cambiar los esquemas
-de 37/24 columnas. Las propuestas del loop6 quedan como antecedente histórico.
+Se reconocen mejor inicios de exposición, respuestas y retornos al presentar
+un gráfico, conservando desarrollos largos completos. Las referencias a terceros
+no prestan su verbo al sujeto principal: la nueva guardia vuelve visible una
+atribución legada en 14, sin cambiar su actor. En **4433** se señala expresamente
+un **cargo posiblemente equivocado en la fuente**, entre tramos de Soto; no se
+trasladan por proximidad a Soto los 705 caracteres atribuidos provisionalmente
+a Lehmann. Ver [alertas contextuales](data/curation/alertas_contextuales.json).
 
-Se preservaron todos los enlaces de continuidad anteriores, incluidos los 18
-verificados expresamente, y las dos exposiciones de once filas. La presentación
-de Herrera en 5994–5996 suma dos enlaces comprobados. Las revisiones contextuales
-no crean por sí solas anclas de agrupación. El
-[punto de reanudación](docs/estado_revision_loop7_2026-09-07.json) registra
+Se preservaron todos los enlaces de continuidad anteriores y las exposiciones
+de once filas. Se comprobaron **14 enlaces nuevos** entre aperturas/cesiones
+del Presidente o partes de una misma presentación. Las revisiones contextuales
+siguen sin crear anclas por sí solas. El
+[punto de reanudación](docs/estado_revision_loop8_2026-09-08.json) registra
 pendientes y alcance. La pasada está publicada y se incorpora al
 [PR #3](https://github.com/joako0o/nlm_proyect/pull/3); **no hay un proceso activo
 en segundo plano**.
 
-De las 783 alertas originales, **305** siguen pendientes de lectura contextual,
-59 son fórmulas reclasificadas, **140** tienen método actualizado, **169**
+Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara mantienen
+**autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo documental y aviso
+obligatorio. **No acreditan asistencia ni habla oral del autor.** El
+[CSV documental](data/processed/documentos_leidos.csv) los enlaza con el Excel y
+los grupos de continuidad. Los esquemas XLSX siguen siendo de 37/24 columnas.
+
+De las 783 alertas originales, **232** siguen pendientes de lectura contextual,
+59 son fórmulas reclasificadas, **210** tienen método actualizado, **172**
 presentan cambios por comparación, **86** tienen una corrección dirigida aplicada,
 siete son breves válidos, ocho menciones revisadas, seis identidades pendientes,
 dos repeticiones sustantivas y una continuidad documentada. **No es una revisión
-exhaustiva de las 783 filas.** Las diez anotaciones de menciones actuales se
-cuentan aparte y conservan sus avisos; no se añadieron menciones en este bloque.
+exhaustiva de las 783 filas.** Las diez anotaciones actuales de menciones se
+cuentan aparte y mantienen sus avisos; no se añadieron menciones en este bloque.
 
-Las filas con alertas pasan de **580 a 508**. Las atribuciones heurísticas
-legadas pasan de 258 a 182 y el motivo de otro hablante/mención, de 26 a 23.
-También quedan visibles tres escritos leídos por tercero, tres filas con
-repeticiones sustantivas y los daños de puntuación. Los motivos se solapan;
-la reducción no cuenta errores confirmados ni cierres semánticos.
+Las filas con alertas pasan de **508 a 433**; el motivo de atribución heurística
+legada, de **182 a 104**. Se conservan tres avisos documentales y tres filas con
+repeticiones sustantivas, además de la nueva alerta contextual de cargo. La
+reducción de pendientes históricos **305 → 232** incluye cambios automáticos
+de método: no equivale a 73 lecturas humanas ni cierres semánticos.
 
-Quedan **cinco candidatos prioritarios** sin anotación de mención: **780, 3191,
-5367, 5647 y 6185**. **No son cinco pendientes totales:** siguen 508 filas con
-alertas y 305 intervalos originales pendientes de lectura contextual. Persisten
-pasajes conjuntos, daños de fuente, identidades, repeticiones y la necesidad de
-revisión independiente con y sin alertas. Se leyó íntegramente 6185, pero no se
-forzó un límite ni se cerró su ambigüedad sobre Bernier.
+Permanecen los **cinco candidatos prioritarios** sin anotación de mención:
+**780, 3191, 5367, 5647 y 6185**. **No son cinco pendientes totales:** siguen
+433 filas con alertas, 232 intervalos originales pendientes y la advertencia
+contextual de 4433. Persisten pasajes conjuntos, daños, identidades, repeticiones
+y la necesidad de una muestra independiente con y sin alertas. No hubo nuevo
+cotejo PDF en esta pasada.
 
-El [informe anterior](docs/REVISION_LOOP6_2026-09-07.md) conserva el estado
-histórico de **9.353 filas / 580 alertas / 432 pruebas**. Las verificaciones son
+El [informe anterior](docs/REVISION_LOOP7_2026-09-07.md) conserva el estado
+histórico de **9.405 filas / 508 alertas / 582 pruebas**. Las verificaciones son
 locales: el workflow propuesto de GitHub Actions sigue fuera del PR por falta
 de permiso `workflows` en la conexión.
 
@@ -119,11 +126,12 @@ data/
     formulas_revisadas.json                   # 21 fórmulas exactas; no borrar repeticiones
     revisiones_menciones_actuales.json       # diez lecturas acotadas; no suprimen alertas
     revisiones_roles.json                    # seis cargos: citas, sesión, hash y justificación
-    revisiones_hablantes.json                # 96 intervalos acotados con citas y hash
+    revisiones_hablantes.json                # 97 intervalos acotados con citas y hash
     revisiones_documentos_leidos.json        # 3 escritos: autor, lector y límites con hash
+    alertas_contextuales.json                # incertidumbre de cargo, sin adjudicación automática
   processed/
-    consolidado_base_referencia.xlsx          # 9.405 filas, 37 columnas + hojas de auditoría
-    consolidado_base_referencia_final.xlsx    # 9.405 filas, 24 columnas
+    consolidado_base_referencia.xlsx          # 9.412 filas, 37 columnas + hojas de auditoría
+    consolidado_base_referencia_final.xlsx    # 9.412 filas, 24 columnas
     textos_completos.jsonl                    # 2 textos de origen completos
     decisiones_tpm.csv                       # una fila por sesión, con IDs de evidencia
     revision_783.xlsx                        # seguimiento original + cola actual, tres hojas
@@ -142,6 +150,7 @@ scripts/
   mention_reviews.py                        # valida lecturas actuales, sin cambiar actores/alertas
   continuity.py                             # continuidad entre párrafos con anclas de evidencia
   document_reviews.py                       # escritos leídos por terceros y validación autor/lector
+  context_warnings.py                        # valida advertencias contextuales ancladas a fuente
   curation.py                               # validación de decisiones documentadas
   roster.py                                 # asistencia, nombres y cargos
   decision_rules.py                         # identificación de decisiones vigentes
@@ -261,6 +270,8 @@ versiones mediante `ID_Padre`, texto y manifiesto, no sólo por número de fila.
   persona/sesión, sin saltar barreras institucionales ni cesiones de palabra.
 - Lecturas de menciones actuales: hash, actor, texto y límites vigentes; alcance
   separado de las alertas automáticas y de los estados de las 783 originales.
+- Alertas contextuales: fuente, fecha, hash e intervalo vigentes, actor provisional
+  y aviso obligatorio; no desaparecen silenciosamente tras una resegmentación.
 - Manifiesto de procedencia y cola de revisión explícita.
 - Reconstrucción de los 783 intervalos históricos y decisiones de fórmulas con
   citas en los padres; comparación automática separada de lectura dirigida.

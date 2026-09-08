@@ -2352,5 +2352,28 @@
       }
     ],
     "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-4469",
+    "ID_Padre": 4469,
+    "Fecha": "2011-12-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "477cdd6de26fa8fd1d32d6395425a1cd75131055f480907a1fde5af1086cd9f9",
+    "Inicio": 294,
+    "Fin": 2647,
+    "Cita_Inicio": "En opinión del señor Sergio Lehmann,",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán formula la pregunta sobre producción industrial; en oración independiente Lehmann responde que las exportaciones industriales explican parte de la desaceleración. La misma respuesta prosigue hacia la Zona Euro y Estados Unidos, sin otro hablante. No esperar al posterior exhibe para iniciar la respuesta ni generalizar En opinión a todas las menciones.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4469,
+        "Cita": "El Vicepresidente señor Manuel Marfán pregunta por el porcentaje de la desaceleración de la producción industrial que puede ser explicada por las exportaciones y, en particular, si acaso el debilitamiento de los mercados de Estados Unidos y Europa se debe a ese mecanismo o a las expectativas."
+      },
+      {
+        "ID_Padre": 4469,
+        "Cita": "En opinión del señor Sergio Lehmann, un componente importante de la desaceleración de la producción industrial podría explicarse por las exportaciones industriales, porque la demanda interna de algunas de estas economías no exhibe una desaceleración significativa. En relación con la Zona Euro, el señor Lehmann exhibe un indicador complementario al analizado regularmente, denominado Eurocoin, que es un indicador líder que compone una serie de variables para efectos de su construcción. Destaca que este anticipa una posible recesión en Europa hacia el cuarto trimestre, lo que es coherente con lo planteado en el IPoM de diciembre. De hecho, hace presente que en dicho Informe se proyecta una caída en el PIB para el cuarto trimestre en ese continente, lo que es coherente también con algunas percepciones respecto de Holanda y de la Zona Euro en general. A continuación, el Gerente de Análisis Internacional señala que la creación de empleo continúa débil, aunque mejora marginalmente en las economías emergentes. En cuanto a precios de viviendas en Estados Unidos, menciona que el índice S&P Case - Shiller 10 da cuenta de bastante estabilidad. Añade que las propiedades comerciales, que también constituyeron una fuente de preocupación por el impacto que podría haber tenido sobre la banca, registran una reversión en el margen después de haber caído de manera bastante significativa durante el período 2008 - 2010. Con respecto al mercado inmobiliario en otras latitudes, indica que los precios se mantienen aún elevados. Destaca que en España han mostrado una tendencia a la baja, que debería mantenerse, dados los registros que exhibe esta economía en materia de actividad; que en Francia se observan algunas reversiones; que en Australia han caído; y que Alemania sobresale, porque sus precios no han mostrado aumentos importantes en los últimos 10 años. Retomando el caso de Estados Unidos, informa que los indicadores inmobiliarios presentan una leve mejora, en línea con las ventas de viviendas, tanto existentes como nuevas, algo más positivas. Agrega que los tiempos de venta han tendido a caer, lo que se asocia a una actividad significativamente menor en el mercado inmobiliario en términos de construcción, y que la ejecución de hipotecas continúa elevada, lo mismo que la morosidad, aunque esta última registra una caída en el margen."
+      }
+    ]
   }
 ]

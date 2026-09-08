@@ -14,6 +14,7 @@ def normalize(text):
         t = t.replace(old,new)
     # Variantes constatadas en el consolidado, sólo en la vista de reconocimiento.
     for pattern, replacement in [
+        (r'\bvittoho corbo\b', 'vittorio corbo'),
         (r'\bgerente de la division (?:de )?', 'gerente de division '),
         (r'\bmadgenzo\b', 'magendzo'),
         (r'\bgerente analisis macroeconomico\b', 'gerente de analisis macroeconomico'),
@@ -36,6 +37,14 @@ def normalize(text):
 # Verbos finitos / locuciones que vinculan directamente el sujeto a su discurso.
 # No usar búsqueda en una ventana: podría capturar el verbo de otra persona.
 VERBS = (
+    'recomienda', 'reafirma', 'ratifica', 'hace alusion', 'exhibe',
+    'quiere hacer un comentario', 'desea efectuar algunas observaciones', 'desea plantear',
+    'da inicio a su presentacion', 'da inicio a su intervencion',
+    'procede a responder', 'procede a dar respuesta',
+    'se suma a lo expresado', 'se suma a lo planteado', 'se suma a lo senalado',
+    'se suma al planteamiento', 'se suma a los planteamientos', 'se suma al comentario',
+    'se suma a los comentarios', 'se suma a la preocupacion', 'se suma a todos los parabienes',
+    'discrepa', 'adhiere', 'califica', 'acoge', 'atribuye',
     'da paso a la exposicion', 'alude', 'corrobora', 'resume', 'hace el alcance', 'llama la atencion',
     'se compromete a revisar', 'asiente', 'le parece', 'hace referencia', 'repara en', 'felicita', 'anade', 'consigna', 'hace mencion', 'comunica', 'efectua un comentario',
     'quiere hacer presente', 'quiere hacer una aclaracion', 'quiere plantear', 'quiere puntualizar',
@@ -61,7 +70,9 @@ VERBS = (
 )
 VERB = '(?:' + '|'.join(re.escape(v) for v in sorted(VERBS, key=len, reverse=True)) + r')\b'
 DIRECT = re.compile(r'^\s*[,;]?\s*(?:le\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte|en tanto)\s*,?\s*)?' + VERB)
-PARENTHETICAL = re.compile(r'^\s*,?\s*(?:en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
+PARENTHETICAL = re.compile(r'^\s*,?\s*(?:en referencia|aludiendo|en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
+# Inciso de apertura constatado: número acotado y verbo principal aún exigido.
+OPENING_ASIDE = re.compile(r'^\s*,?\s*junto con dar inicio a la reunion de politica monetaria n[°º]\s*\d{1,3},\s*(?=' + VERB + ')')
 INVERTED = re.compile(VERB + r'\s*$')
 FINITE = re.compile(r'\b' + VERB)
 HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
@@ -69,7 +80,7 @@ HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
 CLOSURE_LEAD = (r'al no (?:haber (?:consultas o comentarios adicionales|mas comentarios)|'
                 r'formularse (?:otros comentarios|comentarios adicionales))'
                 r'(?:(?:,| y) siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d(?: horas)?)?$')
-LEAD = re.compile(r'^(?:no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
+LEAD = re.compile(r'^(?:prosiguiendo con su exposicion$|al proseguir con su presentacion$|no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
                   r'antes de proseguir|finalizada la presentacion|concluida la presentacion|no habiendo mas (?:comentarios|comentanos)|refiriendose ahora a|antes de continuar con la votacion|complementando los comentarios efectuados|prosiguiendo con la votacion|prosiguiendo con la presentacion|al continuar con (?:su|la) exposicion|una vez adoptado el acuerdo correspondiente|aun considerando la explicacion anterior|como es habitual|para sintetizar|al concluir su presentacion|a modo complementario|a lo cual|a lo que|a continuacion|sobre el particular|sobre este|en este|en ese|'
                   r'nuevamente|tambien|respondiendo|asimismo|a su vez|finalmente|luego|despues|por otra parte|'
                   r'por otro lado|en respuesta|ante |respecto |intervencion|'
@@ -151,8 +162,9 @@ class TurnDetector:
                 continue
             prefix = t[:start].strip(' ,;:')
             tail = t[end:]
-            parenthetical = PARENTHETICAL.match(tail)
-            if parenthetical and not has_finite(parenthetical.group()):
+            parenthetical = PARENTHETICAL.match(tail) or OPENING_ASIDE.match(tail)
+            if (parenthetical and not has_finite(parenthetical.group())
+                    and not re.search(r'\b(?:que|quien|donde|cuando|como)\s*$', parenthetical.group())):
                 tail = tail[parenthetical.end():]
             direct = bool(DIRECT.match(tail))
             inv = INVERTED.search(prefix)

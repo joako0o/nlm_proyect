@@ -186,9 +186,9 @@ class LoopFourTests(unittest.TestCase):
         self.assertTrue(parts[1][0].endswith('durante el año 2012.'))
 
     def test_presentation_returns_are_bounded_not_global_proximity_rules(self):
-        for p, actor in [(4224, COWAN), (4357, MARFAN)]:
+        for p, actors in [(4224, [COWAN, LEHMANN]), (4357, [MARFAN])]:
             r = self.raw[p]
-            self.assertEqual([a for t, a, m in b.segment_turns(r['Texto'], r['Fecha'], r['Actor'])], [actor])
+            self.assertEqual([a for t, a, m in b.segment_turns(r['Texto'], r['Fecha'], r['Actor'])], actors)
 
     def test_5647_new_warning_is_not_automatic_adjudication(self):
         from review_flags import review_reasons

@@ -14,6 +14,7 @@ import re
 from pathlib import Path
 
 from review_queue import build_report
+from context_warnings import load_context_warnings, validate_context_warnings
 from document_reviews import load_document_reviews, validate_document_reviews, FIELDS as DOCUMENT_FIELDS
 from mention_reviews import load_mention_reviews, validate_mention_reviews, annotation_for, FIELDS as MENTION_FIELDS
 from procedural import is_formula, load_formula_reviews
@@ -128,7 +129,8 @@ def validate_continuity(rows):
                 errors.append(f'ID {rid}: continuidad cruza actor/sesión/turno')
             elif (previous['Actor_Final'] == builder.CONSEJO or previous.get('Tipo_Acta')
                   or boundary(previous['Texto']) or
-                  'POSIBLE_OTRO_HABLANTE_O_MENCION' in (previous.get('Motivos_Revision') or '')):
+                  'POSIBLE_OTRO_HABLANTE_O_MENCION' in (previous.get('Motivos_Revision') or '') or
+                  'CARGO_EN_DISCURSO_POR_VERIFICAR' in (previous.get('Motivos_Revision') or '')):
                 errors.append(f'ID {rid}: continuidad atraviesa barrera')
         elif previous and previous.get('ID_Turno') == turn:
             errors.append(f'ID {rid}: turno compartido sin antecedente')
@@ -171,6 +173,8 @@ def main():
     documents=load_document_reviews({r['ID']:r for r in raw})
     document_errors, document_records=validate_document_reviews(rows,documents)
     errors.extend(document_errors)
+    context_alerts=load_context_warnings({r['ID']:r for r in raw})
+    errors.extend(validate_context_warnings(rows,context_alerts))
     for (parent,actor),review in role_reviews.items():
         if not any(r['ID_Padre']==parent and r['Actor_Final']==actor and r['Rol_Final']==review['Rol'] for r in rows):
             errors.append(f'{review["Revision_ID"]}: revisión ya no aplica a la salida')
@@ -197,6 +201,7 @@ def main():
         'max_caracteres_celda':max(len(r['Texto']) for r in rows),
         'fuente_actor':dict(collections.Counter(r['Fuente_Actor'] for r in rows)),
         'fuente_rol':dict(collections.Counter(r['Fuente_Rol'] for r in rows)),
+        'alertas_contextuales_documentadas':len(context_alerts),
         'documentos_escritos_revisados':len(document_records),
         'menciones_actuales_documentadas':len(mention_annotations),
         'hablantes_revision_documentada':sum(r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE for r in rows),

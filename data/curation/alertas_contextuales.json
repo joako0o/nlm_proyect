@@ -1,0 +1,16 @@
+[
+  {
+    "Revision_ID": "ALERTA-20260908-4433",
+    "ID_Padre": 4433,
+    "Fecha": "2011-11-15",
+    "SHA256_Texto_Padre": "68ceefd19fe4d0a89c1d8a1fc92c1bb6ea10583e71ecb2e6e23565572e038e65",
+    "Inicio": 4023,
+    "Fin": 4729,
+    "Texto_Intervalo": "El Gerente de Análisis Internacional prosigue con su presentación, indicando que el mercado laboral continúa bastante estrecho. Al respecto, informa que la creación mensual de empleo ha alcanzado, en promedio, a alrededor de 20.000 puestos de trabajo en los últimos meses, lo cual está bastante en línea con lo que es una expansión de tendencia del mercado laboral. Destaca que ello ha mantenido una presión en los salarios, que se han incrementado en torno a 3% real en el margen, y constituye uno de los factores que da cuenta del dinamismo actual del consumo, que si bien exhibe una atenuación en sus tasas de crecimiento interanuales, siguen siendo bastante elevadas, alcanzando niveles en torno a 8%.",
+    "Actor_Provisional": "Sergio Lehmann Beresi",
+    "Motivo": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_CARGO",
+    "Justificacion": "El texto dice Gerente de Análisis Internacional y el parser lo resuelve a Lehmann, pero el tramo sobre mercado laboral interno aparece entre dos partes explícitas de la presentación de Claudio Soto. Puede haber un error de cargo en la fuente; el tema y la proximidad no bastan para corregirlo. Se conserva la atribución provisional, se señala la incertidumbre y se exige cotejo original.",
+    "Limitacion": "Lectura del consolidado, no cotejo PDF ni revisión humana independiente. No certifica que Lehmann intervenga efectivamente en estos 705 caracteres, ni autoriza trasladarlos automáticamente a Soto."
+  }
+]
