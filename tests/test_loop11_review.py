@@ -30,9 +30,9 @@ class LoopElevenTests(unittest.TestCase):
     def rows(self,p):
         return [dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p))]
     def test_root_and_interval_counts_are_distinct(self):
-        self.assertEqual(len(self.reviews),204)
-        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),208)
-        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{1923,2622,4923,5367})
+        self.assertEqual(len(self.reviews),216)
+        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),223)
+        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{644,664,1090,1923,2622,4923,5367})
     def test_empty_and_single_review_compatibility(self):
         self.assertEqual(speaker_intervals(None),[])
         single=self.reviews[4706]
@@ -134,7 +134,7 @@ class LoopElevenTests(unittest.TestCase):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{180,5573,6282,4433,6443,3191,5367,2126,3989,2661,2704,2667,3107,587,836})
+        self.assertEqual(set(warnings),{180,5573,6282,4433,6443,3191,5367,2126,3989,2661,2704,2667,3107,587,836,644,664,770,1012,1047,1155})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''
