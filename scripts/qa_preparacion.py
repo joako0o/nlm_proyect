@@ -14,6 +14,7 @@ import re
 from pathlib import Path
 
 from review_queue import build_report
+from document_reviews import load_document_reviews, validate_document_reviews, FIELDS as DOCUMENT_FIELDS
 from mention_reviews import load_mention_reviews, validate_mention_reviews, annotation_for, FIELDS as MENTION_FIELDS
 from procedural import is_formula, load_formula_reviews
 import openpyxl
@@ -167,6 +168,9 @@ def main():
     mention_reviews=load_mention_reviews({r["ID"]:r for r in raw})
     mention_errors, mention_annotations=validate_mention_reviews(rows,mention_reviews)
     errors.extend(mention_errors)
+    documents=load_document_reviews({r['ID']:r for r in raw})
+    document_errors, document_records=validate_document_reviews(rows,documents)
+    errors.extend(document_errors)
     for (parent,actor),review in role_reviews.items():
         if not any(r['ID_Padre']==parent and r['Actor_Final']==actor and r['Rol_Final']==review['Rol'] for r in rows):
             errors.append(f'{review["Revision_ID"]}: revisión ya no aplica a la salida')
@@ -193,6 +197,7 @@ def main():
         'max_caracteres_celda':max(len(r['Texto']) for r in rows),
         'fuente_actor':dict(collections.Counter(r['Fuente_Actor'] for r in rows)),
         'fuente_rol':dict(collections.Counter(r['Fuente_Rol'] for r in rows)),
+        'documentos_escritos_revisados':len(document_records),
         'menciones_actuales_documentadas':len(mention_annotations),
         'hablantes_revision_documentada':sum(r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE for r in rows),
         'cargos_revision_documentada':sum(r['Fuente_Rol'] in REVIEW_SOURCES for r in rows),
@@ -233,16 +238,22 @@ def main():
         item.update(annotation_for(r,mention_annotations))
         queue.append(item)
     write_csv(out/'revision_pendientes.csv',queue,fields)
+    write_csv(out/'documentos_leidos.csv',document_records,DOCUMENT_FIELDS)
     grouped=collections.defaultdict(list)
     for r in rows:
         grouped[r['ID_Turno']].append(r)
+    documents_by_turn={r['ID_Turno']:r for r in document_records}
     turns=[{'ID_Turno':key,'Fecha':group[0]['Fecha'],'Actor_Final':group[0]['Actor_Final'],
+            'Naturaleza_Turno':('ESCRITO_LEIDO_POR_TERCERO' if key in documents_by_turn else
+                ('DOCUMENTO_PERSONAL' if group[0]['Relacion_Turno']=='DOCUMENTO_PERSONAL' else
+                ('INSTITUCIONAL' if group[0]['Relacion_Turno']=='INSTITUCIONAL' else 'INTERVENCION'))),
+            'Lector_Documento':documents_by_turn.get(key,{}).get('Lector',''),
             'ID_Desde':group[0]['ID'],'ID_Hasta':group[-1]['ID'],'Numero_Filas':len(group),
             'Padres':';'.join(map(str,dict.fromkeys(r['ID_Padre'] for r in group))),
             'Filas_Con_Alertas':sum(r['Estado_Revision']=='PENDIENTE_REVISION' for r in group),
             'Palabras':sum(len(r['Texto'].split()) for r in group)} for key,group in grouped.items()]
     write_csv(out/'turnos_habla.csv',turns,['ID_Turno','Fecha','Actor_Final','ID_Desde','ID_Hasta',
-                                        'Numero_Filas','Padres','Filas_Con_Alertas','Palabras'])
+                                        'Numero_Filas','Padres','Filas_Con_Alertas','Palabras','Naturaleza_Turno','Lector_Documento'])
     decisions=[{**d,'IDs_Evidencia':';'.join(map(str,d['IDs_Evidencia']))} for d in tpm['decisiones']]
     write_csv(out/'decisiones_tpm.csv',decisions,['Fecha','Tasa_Antes','Tasa_Despues','Delta_PB','IDs_Evidencia','Formulas_Contrastadas'])
     build_report(rows,out,speaker_reviews,mention_annotations)

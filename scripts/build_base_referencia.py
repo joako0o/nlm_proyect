@@ -12,6 +12,8 @@ from pathlib import Path as _Path
 from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
 from curation import load_role_reviews, load_speaker_reviews, SPEAKER_REVIEW_SOURCE
+from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
+                              ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
 from roster import ROLE_PATTERNS as ROSTER_ROLES
 from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
@@ -817,10 +819,18 @@ TURN_DETECTOR = TurnDetector(alias_map, ROLE_PATS + [(r, c or r) for r,c in ROST
                              strict_alias, strict_role, roster_role_for)
 
 
-def segment_turns(text, date, initial_actor, state=None, review=None):
+def segment_turns(text, date, initial_actor, state=None, review=None, document=None):
     if state is not None and state.get('date') != date:
         state.clear()
         state['date'] = date
+    if document is not None:
+        if review is not None:
+            raise ValueError('Documento y revisión de hablante se solapan')
+        parts = document_parts(text, date, initial_actor, document, TURN_DETECTOR)
+        if state is not None:
+            state['roles'] = {}
+            state['last_sentence'] = ''
+        return parts
     spans = split_sentences(text)
     if review:
         if review["Actor"] not in REAL:
@@ -975,6 +985,7 @@ def main():
     DATA_PROC.mkdir(parents=True, exist_ok=True)
     # ---- process ----
     load_formula_reviews(raw_by_id={int(r[0]): {"Texto":str(r[5])} for r in data})
+    reviewed_documents = load_document_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     _formula = is_formula
     _parent_meta={int(str(r[0])):str(r[5]) for r in data}
     _parent_texts=collections.Counter(_parent_meta.values())
@@ -993,7 +1004,7 @@ def main():
         if len(str(r[5])) >= 32767 and parent_id not in FULL_TEXTS:
             raise ValueError(f'Texto truncado sin recuperación: {parent_id}')
         state = session_states.setdefault(date, {'date': date})
-        seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id))
+        seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id),reviewed_documents.get(parent_id))
         _seg_per_parent[parent_id]+=len(seg_texts)
         block_number=0
         for segment_number, (text, segment_actor, segment_method) in enumerate(seg_texts, 1):
@@ -1057,12 +1068,19 @@ def main():
                 if not rol_asistencia:
                     rol = review['Rol']
                     metodo_rol = review['Fuente_Rol']
+            if method == AUTHOR_SOURCE:
+                # El cargo consta en el escrito recibido; no acredita asistencia.
+                rol = reviewed_documents[parent_id]['Rol_Autor']
+                rol_asistencia = None
+                metodo_rol = DOCUMENT_ROLE_SOURCE
             tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
             # La fila porta la decisión de TPM de la sesión -> ACUERDO_CONSEJO,
             # incluso si quedó tipificada como COMUNICADO (el texto del comunicado
             # repite la fórmula del acuerdo) o si es fila de persona que arrastra
             # el bloque del acuerdo.
-            if method == 'ENCABEZADO_MINUTA':
+            if method == AUTHOR_SOURCE:
+                tipo = DOCUMENT_TYPE
+            elif method == 'ENCABEZADO_MINUTA':
                 tipo = 'MINUTA_PERSONAL'
             elif _is_current_decision(text):
                 tipo = 'ACUERDO_CONSEJO'
@@ -1096,6 +1114,9 @@ def main():
             note.append("Fórmula procedimental revisada: " + FORMULA_REVIEWS[normalize_quote(clean)]["Revision_ID"])
         if method == SPEAKER_REVIEW_SOURCE:
             note.append(f'Hablante por contexto documentado: {reviewed_speakers[id_padre]["Revision_ID"]} (data/curation/revisiones_hablantes.json; no cotejo PDF)')
+        if method in (AUTHOR_SOURCE, READER_SOURCE):
+            doc = reviewed_documents[id_padre]
+            note.append(f"Lectura documental {doc['Revision_ID']}: autor={doc['Autor']}; lector={doc['Lector']}; asistencia del autor no inferida; data/curation/revisiones_documentos_leidos.json")
         review = reviewed_roles.get((id_padre,spk))
         if review:
             note.append(f'Revisión documental de cargo: {review["Revision_ID"]} (data/curation/revisiones_roles.json; no cotejo PDF)')

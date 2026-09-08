@@ -23,10 +23,10 @@ class ConcatenatedReviewTests(unittest.TestCase):
         return b.segment_turns(text if text is not None else r['Texto'], r['Fecha'], r['Actor'],
                                review=review if review is not None else self.reviews[p])
 
-    def test_exact_thirteen_reviewed_parents(self):
+    def test_exact_fifteen_reviewed_parents(self):
         self.assertEqual({p for p, r in self.reviews.items()
                           if r.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA'},
-                         {514, 644, 653, 664, 754, 1010, 1623, 1652, 1858, 2667, 2838, 2915, 3887})
+                         {514, 644, 653, 664, 754, 1010, 1623, 1652, 1858, 2667, 2838, 2915, 3887, 5286, 5360})
 
     def test_attribution_sequences_and_full_source_conservation(self):
         expected = {

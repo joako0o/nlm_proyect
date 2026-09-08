@@ -104,7 +104,7 @@ def annotate_turns(rows):
             turn = f'RPM-{date}:T{counts[date]}'
             antecedent = ''
             anchor = row['ID_Intervencion'] if source in EXPLICIT and not institutional else ''
-            relation = 'DOCUMENTO_PERSONAL' if source == 'ENCABEZADO_MINUTA' else ('INSTITUCIONAL' if institutional else ('INICIO_EXPLICITO' if source in EXPLICIT else 'SIN_CONTINUIDAD_CONFIRMADA'))
+            relation = 'DOCUMENTO_PERSONAL' if source in ('ENCABEZADO_MINUTA', 'DOCUMENTO_ESCRITO_REVISADO') else ('INSTITUCIONAL' if institutional else ('INICIO_EXPLICITO' if source in EXPLICIT else 'SIN_CONTINUIDAD_CONFIRMADA'))
         row.update(ID_Turno=turn, Relacion_Turno=relation,
                    ID_Antecedente_Continuidad=antecedent, ID_Ancla_Actor=anchor)
         row['_blocks_continuity'] = (institutional or boundary(text) or

@@ -36,6 +36,7 @@ def normalize(text):
 # Verbos finitos / locuciones que vinculan directamente el sujeto a su discurso.
 # No usar búsqueda en una ventana: podría capturar el verbo de otra persona.
 VERBS = (
+    'da paso a la exposicion', 'alude', 'corrobora', 'resume', 'hace el alcance', 'llama la atencion',
     'se compromete a revisar', 'asiente', 'le parece', 'hace referencia', 'repara en', 'felicita', 'anade', 'consigna', 'hace mencion', 'comunica', 'efectua un comentario',
     'quiere hacer presente', 'quiere hacer una aclaracion', 'quiere plantear', 'quiere puntualizar',
     'desea manifestar', 'desea senalar', 'quisiera senalar', 'se manifiesta de acuerdo',
@@ -59,7 +60,7 @@ VERBS = (
     'complementa', 'enfatiza', 'estima conveniente', 'deja constancia',
 )
 VERB = '(?:' + '|'.join(re.escape(v) for v in sorted(VERBS, key=len, reverse=True)) + r')\b'
-DIRECT = re.compile(r'^\s*[,;]?\s*(?:le\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte)\s*,?\s*)?' + VERB)
+DIRECT = re.compile(r'^\s*[,;]?\s*(?:le\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte|en tanto)\s*,?\s*)?' + VERB)
 PARENTHETICAL = re.compile(r'^\s*,?\s*(?:en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
 INVERTED = re.compile(VERB + r'\s*$')
 FINITE = re.compile(r'\b' + VERB)
@@ -68,7 +69,7 @@ HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
 CLOSURE_LEAD = (r'al no (?:haber (?:consultas o comentarios adicionales|mas comentarios)|'
                 r'formularse (?:otros comentarios|comentarios adicionales))'
                 r'(?:(?:,| y) siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d(?: horas)?)?$')
-LEAD = re.compile(r'^(?:' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
+LEAD = re.compile(r'^(?:no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
                   r'antes de proseguir|finalizada la presentacion|concluida la presentacion|no habiendo mas (?:comentarios|comentanos)|refiriendose ahora a|antes de continuar con la votacion|complementando los comentarios efectuados|prosiguiendo con la votacion|prosiguiendo con la presentacion|al continuar con (?:su|la) exposicion|una vez adoptado el acuerdo correspondiente|aun considerando la explicacion anterior|como es habitual|para sintetizar|al concluir su presentacion|a modo complementario|a lo cual|a lo que|a continuacion|sobre el particular|sobre este|en este|en ese|'
                   r'nuevamente|tambien|respondiendo|asimismo|a su vez|finalmente|luego|despues|por otra parte|'
                   r'por otro lado|en respuesta|ante |respecto |intervencion|'

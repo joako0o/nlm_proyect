@@ -55,7 +55,7 @@ class QueueReviewTests(unittest.TestCase):
 
     def test_reviewed_formulas_have_quotes_in_raw_parents(self):
         raw={r[0]:{'Texto':r[5]} for r in b.data}
-        self.assertEqual(len(load_formula_reviews(raw_by_id=raw)),18)
+        self.assertEqual(len(load_formula_reviews(raw_by_id=raw)),21)
 
     def test_substantive_recommendation_is_not_cleared_as_formula(self):
         text='El Gerente de División Estudios señor Luis Óscar Herrera concluye su exposición manifestando que conforme a las consideraciones expuestas, esa Gerencia propone al Consejo mantener la Tasa de Política Monetaria en su nivel actual.'

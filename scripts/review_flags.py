@@ -7,6 +7,8 @@ LEGACY_METHODS = {'ORIGINAL', 'ROL+NOMBRE', 'NOMBRE+VERBO', 'ROL+FECHA',
 
 def review_reasons(row, detector, sentence_spans):
     reasons = set()
+    if row['Fuente_Actor'] == 'DOCUMENTO_ESCRITO_REVISADO':
+        reasons.add('TEXTO_ESCRITO_LEIDO_POR_TERCERO')
     text = row['Texto'] or ''
     actor = row['Actor_Final']
     date = str(row['Fecha'])[:10]

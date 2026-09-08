@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUTS = ('textos_completos.jsonl', 'consolidado_base_referencia.xlsx',
            'consolidado_base_referencia_final.xlsx', 'qa_preparacion.json',
            'revision_pendientes.csv', 'decisiones_tpm.csv', 'turnos_habla.csv', 'manifiesto_preparacion.json',
-           'revision_783.csv', 'revision_783.xlsx', 'resumen_revision_783.json')
+           'revision_783.csv', 'revision_783.xlsx', 'resumen_revision_783.json', 'documentos_leidos.csv')
 
 
 def main():

@@ -1,63 +1,65 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.353 filas físicas de
-Excel / 9.352 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
+consolidado de 7.219 filas. La salida actual tiene **9.405 filas físicas de
+Excel / 9.404 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
 **301 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
 ## Estado actual — 2026-09-07
 
-**F0 y F1 pasan, con 432 pruebas de regresión. Esto no certifica pureza semántica
-total de cada intervención.** Quedan **580 filas con alertas** para revisión
-dirigida. Los seis cargos antes pendientes tienen ahora evidencia documental
-versionada (cuatro citas directas y dos de la misma sesión), no asistencia inventada.
-Las alertas se superponen y pueden ser falsos positivos; no son 580 errores
-confirmados. Tampoco `SIN_ALERTAS_AUTOMATICAS` equivale a revisión humana.
+**F0 y F1 pasan, con 582 pruebas de regresión. Esto no certifica pureza semántica
+total de cada intervención.** Quedan **508 filas con alertas** para revisión
+dirigida. Las alertas se superponen y pueden ser falsos positivos; no son 508
+errores confirmados. Tampoco `SIN_ALERTAS_AUTOMATICAS` equivale a revisión humana.
 
-La revisión corrigió textos recuperados que no se estaban incorporando,
-transiciones de hablantes, menciones confundidas con sujetos, categorías con
-tildes, validación parcial de TPM y marcas de duplicados heredadas del padre.
+**Informe vigente:** [séptimo bloque: autor/lector, atribuciones heredadas y retornos](docs/REVISION_LOOP7_2026-09-07.md).
+Se encadenaron cuatro ciclos con cambios en **118 padres**: **45** cambiaron
+segmentación o atribución (53 → 105 segmentos, **52 filas nuevas**) y **73**
+sólo metadatos, sin alterar texto ni actor. Se conservaron los otros **7.101
+padres** sin cambios semánticos. El detalle está en la
+[comparación global](docs/comparacion_loop7_2026-09-07.json).
 
-**Informe vigente:** [sexto bloque: pasada amplia de suspensiones, retornos y votos](docs/REVISION_LOOP6_2026-09-07.md).
-Se encadenaron tres ciclos: **59 padres corregidos**, de 74 a 176 segmentos,
-con **102 filas nuevas**, y dos menciones legítimas documentadas sin suprimir
-avisos. La familia de suspensión/reanudación permitió abordar 48 pasajes:
-45 cambiaron y tres ya estaban correctos. Se conservaron las exposiciones,
-las disidencias y los daños literales; no se inventó asistencia del Ministro.
+Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara ya tienen
+**autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo de fuente documental
+y aviso de lectura por tercero. **No acreditan asistencia ni habla oral del
+autor.** El [CSV documental](data/processed/documentos_leidos.csv) permite
+vincularlos con el Excel y los grupos de continuidad, sin cambiar los esquemas
+de 37/24 columnas. Las propuestas del loop6 quedan como antecedente histórico.
 
-Se comprobaron 18 enlaces de continuidad y las dos exposiciones de once filas.
-Las revisiones contextuales no crean por sí solas anclas de agrupación. El
-[punto de reanudación](docs/estado_revision_loop6_2026-09-07.json) registra
+Se preservaron todos los enlaces de continuidad anteriores, incluidos los 18
+verificados expresamente, y las dos exposiciones de once filas. La presentación
+de Herrera en 5994–5996 suma dos enlaces comprobados. Las revisiones contextuales
+no crean por sí solas anclas de agrupación. El
+[punto de reanudación](docs/estado_revision_loop7_2026-09-07.json) registra
 pendientes y alcance. La pasada está publicada y se incorpora al
 [PR #3](https://github.com/joako0o/nlm_proyect/pull/3); **no hay un proceso activo
 en segundo plano**.
 
-De las 783 alertas originales, **388** están pendientes de lectura contextual,
-59 son fórmulas reclasificadas, 71 tienen método actualizado, **157** presentan
-cambios por comparación, **84** tienen una corrección dirigida aplicada, siete
-son breves válidos, ocho menciones revisadas, seis identidades pendientes, dos
-repeticiones sustantivas y una continuidad documentada. **No es una revisión
-exhaustiva de las 783 filas.** Las **diez** anotaciones de menciones actuales se
-cuentan aparte y conservan sus avisos.
+De las 783 alertas originales, **305** siguen pendientes de lectura contextual,
+59 son fórmulas reclasificadas, **140** tienen método actualizado, **169**
+presentan cambios por comparación, **86** tienen una corrección dirigida aplicada,
+siete son breves válidos, ocho menciones revisadas, seis identidades pendientes,
+dos repeticiones sustantivas y una continuidad documentada. **No es una revisión
+exhaustiva de las 783 filas.** Las diez anotaciones de menciones actuales se
+cuentan aparte y conservan sus avisos; no se añadieron menciones en este bloque.
 
-Las filas con alertas pasan de **615 a 580**; el motivo de otro hablante/mención,
-de 76 a 26. Hay cinco nuevos avisos de puntuación por límites que conservan
-el daño original. Los motivos se solapan; su reducción no cuenta errores
-confirmados. No hay cambios adicionales de metadatos semánticos fuera de los
-59 padres; las anotaciones se añaden al seguimiento/cola.
+Las filas con alertas pasan de **580 a 508**. Las atribuciones heurísticas
+legadas pasan de 258 a 182 y el motivo de otro hablante/mención, de 26 a 23.
+También quedan visibles tres escritos leídos por tercero, tres filas con
+repeticiones sustantivas y los daños de puntuación. Los motivos se solapan;
+la reducción no cuenta errores confirmados ni cierres semánticos.
 
-Quedan **ocho candidatos prioritarios** sin anotación de mención: **780, 3191,
-5212, 5367, 5647, 5742, 5802 y 6185**. **No son ocho pendientes totales:** siguen
-580 filas con alertas y 388 intervalos originales pendientes de lectura contextual.
-Los textos escritos del Ministro leídos por el Presidente se documentaron con
-[propuestas de intervalos no aplicadas](docs/propuestas_documentales_loop6_2026-09-07.json),
-distinguiendo autor y lector. Persisten casos conjuntos, daños de fuente,
-identidades, repeticiones y necesidad de revisión independiente con y sin alertas.
+Quedan **cinco candidatos prioritarios** sin anotación de mención: **780, 3191,
+5367, 5647 y 6185**. **No son cinco pendientes totales:** siguen 508 filas con
+alertas y 305 intervalos originales pendientes de lectura contextual. Persisten
+pasajes conjuntos, daños de fuente, identidades, repeticiones y la necesidad de
+revisión independiente con y sin alertas. Se leyó íntegramente 6185, pero no se
+forzó un límite ni se cerró su ambigüedad sobre Bernier.
 
-El [informe anterior](docs/REVISION_LOOP5_2026-09-07.md) conserva el estado
-histórico de **9.251 filas / 615 alertas / 351 pruebas**. Las verificaciones son
+El [informe anterior](docs/REVISION_LOOP6_2026-09-07.md) conserva el estado
+histórico de **9.353 filas / 580 alertas / 432 pruebas**. Las verificaciones son
 locales: el workflow propuesto de GitHub Actions sigue fuera del PR por falta
 de permiso `workflows` en la conexión.
 
@@ -114,20 +116,22 @@ data/
   curation/
     cola_783.json                            # instantánea de las 783 alertas originales
     revisiones_cola_783.json                  # 16 decisiones: brevedad, continuidad y menciones
-    formulas_revisadas.json                   # 18 fórmulas; 59 citas históricas + 4 actuales
+    formulas_revisadas.json                   # 21 fórmulas exactas; no borrar repeticiones
     revisiones_menciones_actuales.json       # diez lecturas acotadas; no suprimen alertas
     revisiones_roles.json                    # seis cargos: citas, sesión, hash y justificación
-    revisiones_hablantes.json                # 91 intervalos acotados con citas y hash
+    revisiones_hablantes.json                # 96 intervalos acotados con citas y hash
+    revisiones_documentos_leidos.json        # 3 escritos: autor, lector y límites con hash
   processed/
-    consolidado_base_referencia.xlsx          # 9.353 filas, 37 columnas + hojas de auditoría
-    consolidado_base_referencia_final.xlsx    # 9.353 filas, 24 columnas
+    consolidado_base_referencia.xlsx          # 9.405 filas, 37 columnas + hojas de auditoría
+    consolidado_base_referencia_final.xlsx    # 9.405 filas, 24 columnas
     textos_completos.jsonl                    # 2 textos de origen completos
     decisiones_tpm.csv                       # una fila por sesión, con IDs de evidencia
     revision_783.xlsx                        # seguimiento original + cola actual, tres hojas
     revision_783.csv                         # 783 intervalos con estado/evidencia/IDs actuales
     resumen_revision_783.json                # balance de estados; no cierres semánticos
     revision_pendientes.csv                  # alertas, contexto y alcance de lecturas dirigidas
-    turnos_habla.csv                         # grupos de continuidad, sin duplicar texto completo
+    turnos_habla.csv                         # grupos, naturaleza y lector; no todos son habla oral
+    documentos_leidos.csv                    # vínculo autor/lector, cargo, límites y no inferencia de asistencia
     qa_preparacion.json                      # métricas y errores bloqueantes
     manifiesto_preparacion.json              # SHA-256 de entradas, código y salidas
 scripts/
@@ -137,6 +141,7 @@ scripts/
   turns.py                                  # sujetos de habla y contexto local
   mention_reviews.py                        # valida lecturas actuales, sin cambiar actores/alertas
   continuity.py                             # continuidad entre párrafos con anclas de evidencia
+  document_reviews.py                       # escritos leídos por terceros y validación autor/lector
   curation.py                               # validación de decisiones documentadas
   roster.py                                 # asistencia, nombres y cargos
   decision_rules.py                         # identificación de decisiones vigentes
@@ -162,11 +167,11 @@ Las **primeras 13 columnas conservan su orden** para facilitar la migración:
 |---|---|
 | `ID` | Consecutivo de fila en esta versión, no un identificador inmutable |
 | `Fecha` | Fecha de la sesión |
-| `Actor_Final` | Persona atribuida o Consejo del BCCh |
+| `Actor_Final` | Persona atribuida, autor de documento escrito o Consejo del BCCh; consultar `Tipo_Acta` |
 | `Rol_Final` | Cargo en la sesión; consultar su fuente y alertas |
-| `Fuente_Actor` | Evidencia de atribución: sujeto explícito, cargo de sesión, anáfora, contexto revisado, encabezado de minuta o heurística legada |
-| `Fuente_Rol` | `LISTA_ASISTENCIA`, `ACTA_INSTITUCIONAL`, `TEXTO_EXPLICITO_REVISADO`, `CONTEXTO_SESION_REVISADO` o `PENDIENTE_REVISION` |
-| `Tipo_Acta` | Etiqueta institucional/decisión o `MINUTA_PERSONAL`; vacío en otras intervenciones, por diseño |
+| `Fuente_Actor` | Evidencia de atribución: sujeto explícito, cargo de sesión, anáfora, contexto revisado, encabezado de minuta, documento escrito/lector revisado o heurística legada |
+| `Fuente_Rol` | `LISTA_ASISTENCIA`, `ACTA_INSTITUCIONAL`, `TEXTO_EXPLICITO_REVISADO`, `CONTEXTO_SESION_REVISADO`, `CARGO_DOCUMENTAL_REVISADO` o `PENDIENTE_REVISION` |
+| `Tipo_Acta` | Etiqueta institucional/decisión, `MINUTA_PERSONAL` u `OPINION_ESCRITA`; vacío en otras intervenciones, por diseño |
 | `Página` | Página del registro original; **no** localización recalculada de cada segmento |
 | `Texto` | Texto preservado, con normalización de espacios |
 | `Tema_Categoria` | Regla temática aplicada al tema del padre |
@@ -207,9 +212,17 @@ institucionales aisladas; no constituyen un conteo certificado de turnos humanos
 
 `CONTEXTO_REVISADO` identifica una decisión dirigida con citas en
 `data/curation/revisiones_hablantes.json`; no crea por sí sola un ancla de
-continuidad. Las minutas tienen relación `DOCUMENTO_PERSONAL` y tampoco se
-heredan como turnos hablados. Las notas de auditoría enlazan las decisiones de
+continuidad. Las minutas y opiniones escritas tienen relación
+`DOCUMENTO_PERSONAL` y tampoco se heredan como turnos hablados. Las notas de auditoría enlazan las decisiones de
 curación con sus IDs; la revisión fue del consolidado, no de los PDFs.
+
+En `OPINION_ESCRITA`, `Actor_Final` es el **autor** y `Fuente_Actor` es
+`DOCUMENTO_ESCRITO_REVISADO`; la lectura y el cargo se documentan en
+`documentos_leidos.csv`. El lector no sustituye la autoría. `Rol_Lista_Asistencia`
+queda vacío: el cargo `CARGO_DOCUMENTAL_REVISADO` no es prueba de presencia.
+Las introducciones y retornos del Presidente usan `LECTOR_DOCUMENTO_REVISADO`.
+`turnos_habla.csv` agrega `Naturaleza_Turno` y `Lector_Documento` para que los
+escritos no se interpreten como habla oral al usar ese archivo por separado.
 
 La base de auditoría conserva además actor/cargo originales, temas originales,
 notas, número de segmento y `Duplicado_Exacto_Origen` / `Duplicado_Formula_Origen`.
@@ -241,6 +254,8 @@ versiones mediante `ID_Padre`, texto y manifiesto, no sólo por número de fila.
   con el propio parser de asistencia no es una verificación semántica independiente.
 - Revisiones documentadas: hashes/citas vigentes, cargos aplicables e intervalos
   dirigidos íntegros con los actores revisados, sin sustituir asistencia.
+- Escritos revisados: cuatro intervalos completos, autor/lector, cargo documental,
+  no inferencia de asistencia, aviso obligatorio y barrera de continuidad.
 - Correspondencia exacta entre base de auditoría y proyección final.
 - Cadenas de continuidad: anclas explícitas, antecedentes contiguos, misma
   persona/sesión, sin saltar barreras institucionales ni cesiones de palabra.
