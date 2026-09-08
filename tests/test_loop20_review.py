@@ -84,8 +84,8 @@ class LoopTwentyTests(unittest.TestCase):
             errors,annotations=validate_mention_reviews(rs,rv)
             self.assertFalse(errors);self.assertEqual(rs,original);self.assertEqual(len(annotations),1)
             self.assertEqual(next(iter(annotations.values()))['Estado_Lectura_Dirigida'],DECISION)
-        self.assertEqual(sum(e['Decision']==DECISION for e in self.mentions.values()),21)
-        self.assertEqual([e['ID_Padre'] for e in self.mentions.values() if e['Decision']==PENDING_DECISION],[6185])
+        self.assertEqual(sum(e['Decision']==DECISION for e in self.mentions.values()),23)
+        self.assertEqual([e['ID_Padre'] for e in self.mentions.values() if e['Decision']==PENDING_DECISION],[6185,3775])
     def test_marshall_intro_joins_only_its_reviewed_next_parent(self):
         e=self.links[(2836,2837)];rs=[]
         for i,s in enumerate([e['Anterior'],e['Siguiente']],1):

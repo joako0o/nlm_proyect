@@ -892,12 +892,25 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
             prefix = text[:review["Inicio"]]
             fragment = text[review["Inicio"]:review["Fin"]]
+            passive_reply = review.get('Tipo_Limite') == 'RESPUESTA_PASIVA_NOMINAL_REVISADA'
+            relative_reply = review.get('Tipo_Limite') == 'RESPUESTA_LO_QUE_NOMINAL_REVISADA'
+            if passive_reply:
+                head=re.match(r'^(lo (?:que|cual)|Ello) es (confirmado|corroborado|rebatido) por (?=(?:el|la)\b)',fragment)
+                if (not head or not prefix or not prefix[-1].isspace()
+                        or not prefix.rstrip().endswith(('.', '!', '?') if head[1]=='Ello' else (',',))):
+                    raise ValueError('Respuesta pasiva sin límite/conector válido')
+                # Sólo proyección de sujeto nominal; el verbo/voz literal no se exporta cambiado.
+                fragment='responde '+fragment[head.end():]
+            if relative_reply:
+                if not prefix.rstrip().endswith(',') or not re.match(r'^lo que (?:comparte|confirma) (?:el|la)\b',fragment):
+                    raise ValueError('Respuesta relativa sin límite/predicado válido')
+                fragment=fragment[len('lo que '):]
             fiscal_reply = review.get('Tipo_Limite') == 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO'
             nominal_gerund = review.get('Tipo_Limite') == 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO'
             gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO' or fiscal_reply or nominal_gerund
@@ -958,7 +971,8 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 fragment = re.sub(r'^y,?\s+', '', fragment)
             acknowledgement = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'
             statement = review.get('Tipo_Limite') == 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA'
-            relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement or statement
+            analysis_ack = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA'
+            relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement or statement or analysis_ack
             opinion_quote = review.get('Tipo_Limite') == 'OPINION_TRAS_CITA_CERRADA_REVISADA'
             return_quote = review.get('Tipo_Limite') == 'RETORNO_TRAS_CITA_CERRADA_REVISADA'
             if return_quote:
@@ -979,15 +993,17 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 # anterior. La revisión y su hash delimitan la relativa adjudicada.
                 sentence_start = max(a for a,b in spans if a <= review['Inicio'])
                 candidate = TURN_DETECTOR.reviewed_relative_handoff(
-                    text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement, statement=statement)
+                    text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement, statement=statement, analysis_ack=analysis_ack)
             else:
                 candidate = TURN_DETECTOR.speaker(fragment,date)
+            if (passive_reply or relative_reply) and (not candidate or candidate['method'] not in {'SUJETO_NOMBRE','SUJETO_ROL_NOMBRE'}):
+                raise ValueError('Respuesta revisada sin sujeto nominal explícito')
             if nominal_gerund and (not candidate or candidate['method'] not in {'SUJETO_NOMBRE','SUJETO_ROL_NOMBRE'}):
                 raise ValueError('Gerundio revisado sin sujeto nominal explícito')
             if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
                 raise ValueError("Revisión de gerundio sin declaración válida")
             quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')
-            if ((not (coordinated or concatenated or reply or opinion_quote or return_quote) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
+            if ((not (coordinated or concatenated or reply or opinion_quote or return_quote or passive_reply or relative_reply) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
                     or candidate['actor'] != review['Actor'] or candidate['method'] not in EXPLICIT):
                 raise ValueError("Revisión de hablante sin actor/límite válido")
             bounds = sorted({0,len(text),review["Inicio"]} | {a for a,b in spans} | {b for a,b in spans})

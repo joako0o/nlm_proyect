@@ -1204,6 +1204,32 @@
         "ID_Padre": 2704,
         "Cita": "a lo cual el señor de Ramón manifiesta que no se puede concluir, necesariamente, que spreads más bajos y colocaciones estancadas sea un problema de demanda. Podría ser que subsistan los problemas de oferta de los bancos, que solamente han abierto líneas a algunos sectores. El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto."
       }
+    ],
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260908-L23-2704-1162",
+        "ID_Padre": 2704,
+        "Fecha": "2009-09-08",
+        "Actor": "Claudio Soto Gamboa",
+        "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+        "Inicio": 1162,
+        "Fin": 1210,
+        "Cita_Inicio": "lo cual es confirmado por el señor Claudio Soto.",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Confirmación identificable de Soto después de la aclaración de Marshall. La advertencia conjunta de la antigua fila de 210 caracteres deja de corresponder a la salida: se archiva completa. La revisión anterior del Presidente y los dos turnos de De Ramón permanecen intactos.",
+        "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+        "Evidencia": [
+          {
+            "ID_Padre": 2704,
+            "Cita": "El Gerente de División de Operaciones Financieras, señor Beltrán de Ramón, sostiene que se podría concluir que spreads más pequeños con colocaciones estancadas obedecen a un problema de demanda, lo que no es tan así, porque los bancos podrían establecer otras restricciones distintas al spread. De hecho, podrían estar fuera de ese spread, que ha estado cayendo en todos los sectores que son riesgosos, como la construcción, por ejemplo. Agrega tener antecedentes de que, en realidad, los bancos han puesto muchas más restricciones para otorgar líneas de crédito, más dificultades para otorgar créditos o solicitan más garantías para las boletas de garantía. Es decir, no es problema de demanda, consulta el señor Presidente, a lo cual el señor de Ramón manifiesta que no se puede concluir, necesariamente, que spreads más bajos y colocaciones estancadas sea un problema de demanda. Podría ser que subsistan los problemas de oferta de los bancos, que solamente han abierto líneas a algunos sectores. El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto."
+          },
+          {
+            "ID_Padre": 2689,
+            "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 143 celebrada el 8 de septiembre de 2009 En Santiago de Chile, a 8 de septiembre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Subsecretaría de Hacienda, doña María Olivia Recart Herrera; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera Subrogante, don Dalibor Eterovic Maggio; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+          }
+        ],
+        "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+      }
     ]
   },
   {
@@ -8722,5 +8748,488 @@
       }
     ],
     "Tipo_Limite": "GERUNDIO_NOMINAL_EXPLICITO_REVISADO"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-1871-124",
+    "ID_Padre": 1871,
+    "Fecha": "2008-06-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "90c9661e04af4f00dc1ec77663bf1f1b899069663a251bf79b603a34e596f147",
+    "Inicio": 124,
+    "Fin": 273,
+    "Cita_Inicio": "lo que comparte el señor Lehmann, quien agrega que lo más decidor",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann comparte el planteamiento presidencial sobre precios agrícolas y agrega su proyección, no es una referencia pasada. Conservar el desarrollo explícito posterior de 401 caracteres y la cesión final presidencial.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1871,
+        "Cita": "El señor Presidente comenta que los precios de estos tres productos agrícolas casi se triplican comparados con el año 2002, lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos. Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en el precio del cobre, no hay un cambio significativo, y tampoco en el precio de cereales, ya que los movimientos que tuvieron están anticipados en las proyecciones que ya se tenían. Comenta que lo claramente novedoso está en el petróleo y en la gasolina, que se revisan al alza en línea con los movimientos de los futuros. A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional."
+      },
+      {
+        "ID_Padre": 1851,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 124 celebrada el 10 de junio de 2008_____________________ En Santiago de Chile, a 10 de junio de 2008, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don José De Gregorio Rebeco y con la asistencia del Vicepresidente don Jorge Desormeaux Jiménez y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards, Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Subgerente General, don Leonardo Hernández Tagle; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministro de Hacienda, don Luis Felipe Céspedes Cifuentes; Economista Sénior, don Enrique Orellana Cifuentes; Economista Sénior, doña Erika Arraño González; Secretario General, don Jorge Court Larenas."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_LO_QUE_NOMINAL_REVISADA",
+    "Cita_Ancla_Posterior": "Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en "
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2027-154",
+    "ID_Padre": 2027,
+    "Fecha": "2008-08-14",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "ec828c142ff8416a1ccabb28ecfaac6c9a2c30c3428472e17562e47b1ad618f2",
+    "Inicio": 154,
+    "Fin": 219,
+    "Cita_Inicio": "lo que confirma el Gerente de Análisis Macroeconómico señor Soto.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Confirmación efectiva de Soto sobre desempleo después de Desormeaux. No eliminar la confirmación breve ni atribuírsela al consultante.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2027,
+        "Cita": "El Vicepresidente señor Desormeaux agrega que le da la impresión de que las cifras de la Universidad de Chile registran una baja en la tasa de desempleo, lo que confirma el Gerente de Análisis Macroeconómico señor Soto."
+      },
+      {
+        "ID_Padre": 1978,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 126 celebrada e l 4 de agosto de 2008 _____________ En Santiago de Chile, a 14 de agosto de 2008, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don José De Gregorio Rebeco y con la asistencia del Vicepresidente don Jorge Desormeaux Jiménez y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Ministro de Hacienda, don Andrés Velasco Brañes. Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Subgerente General, don Leonardo Hernández Tagle; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica Interino, don Jorge Selaive Carrasco; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministro de Hacienda, don Luis Felipe Céspedes Cifuentes; Economista Sénior, don Enrique Orellana Cifuentes; Economista Sénior, doña Erika Arraño González; Economista Sénior, doña Andrea Tokman Ramos; y Secretario General, don Jorge Court Larenas."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_LO_QUE_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2685-3301",
+    "ID_Padre": 2685,
+    "Fecha": "2009-08-13",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "ed325da268fbcfefc2a16b5313ab78d759fb444086753baa93cba09b74d52d19",
+    "Inicio": 3301,
+    "Fin": 3441,
+    "Cita_Inicio": "A continuación, es el turno del Consejero señor Enrique Marshall,",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall comienza efectivamente su exposición agradeciendo al staff después de que Claro concluye su voto y comentarios. Conservar la exposición íntegra de Claro y los 6624 caracteres explícitos posteriores de Marshall, ambos leídos completos.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2685,
+        "Cita": "El Consejero señor Sebastián Claro señala que los datos recientes van conformando, a grandes rasgos, un perfil de actividad en el que se observa cierta estabilidad y con expectativas de recuperación durante el segundo semestre. Agrega que los datos coyunturales en la punta son satisfactorios, tanto porque las cifras reales muestran signos positivos, como porque se consolida una consistente mejora en las expectativas, que fue identificada en su momento como una de las principales causas de la contracción de la actividad entre los meses de octubre y abril. Sin embargo, en su opinión, estas cifras deben ser tomadas con cautela y habrá que esperar cifras futuras para confirmar si se está frente a un quiebre en la tendencia. Indica que algo similar ocurre en el escenario internacional, donde las cifras también comienzan a dar cuenta de un cambio en las expectativas y de una incipiente recuperación o estabilización de las economías. El Consejero añade que los precios de los activos por varias semanas son coherentes con lo señalado. Por el lado de la inflación, el Consejero señor Claro sostiene que los datos del mes de julio sorprendieron nuevamente a la baja, lo que confirma las presiones, en especial, en el corto plazo. A mediano plazo, en tanto, las diferentes medidas de expectativas de inflación — con mucha amplitud entre ellas— dan cuenta de un panorama de estabilidad en torno a 3% en un horizonte de dos años El señor Sebastián Claro plantea que el mercado financiero doméstico funciona adecuadamente y que la principal inquietud que motivó la implementación de la Facilidad de Liquidez a Plazo (FLAP), que eran los altos spreads en las tasas de corto plazo, se han corregido. Afirma que las tasas de los papeles del Banco Central y las tasas de captación de la banca, especialmente en el tramo corto, han tenido caídas sustanciales, mientras que las tasas de largo plazo, tanto en pesos como en UF, continúan en niveles bastante bajos y no se observan comportamientos anómalos en el mercado de renta fija. En relación con el tipo de cambio, señala que este se ha mantenido relativamente estable en el periodo, en niveles que razonablemente podrían ser calificados como de equilibrio. En este sentido, el señor Consejero considera que la principal novedad es que el panorama tiende a estabilizarse en niveles similares a los esperados y consistentes con el impulso monetario actual. A juicio del Consejero señor Claro, la principal señal que se debe entregar es de tranquilidad y normalidad, y que, dada la alta incertidumbre, es importante recalcar el mensaje que las tasas se mantendrán bajas por un tiempo prolongado. En razón de lo expuesto, el señor Sebastián Claro vota por mantener la TPM en 50 puntos base y mantener la FLAP en sus condiciones actuales. Finalmente, el Consejero señor Sebastián Claro hace presente que existe un tema sobre el cual desea llamar la atención por la alta incertidumbre que involucra: la evolución de los commodities, en particular del petróleo y el cobre. Según el señor Claro, sus niveles dan cuenta de una demanda mundial activa, lo que plantea varias inquietudes respecto de su evolución en el futuro, una vez que la actividad mundial retome una senda más fuerte, tanto por su impacto inflacionario directo como por su impacto cambiarlo. A continuación, es el turno del Consejero señor Enrique Marshall, quien comienza su exposición agradeciendo al staff por el apoyo brindado. El señor Marshall indica que las noticias del último mes han configurado un panorama algo más favorable que el visualizado en la última Reunión. En el frente externo, las cifras de actividad comienzan a entregar señales de estabilización, mientras las perspectivas de crecimiento se revisan marginalmente al alza. Los mercados financieros denotan una mayor confianza por parte de los inversionistas, lo que se traduce en movimientos alcistas en las bolsas y en una reducción de las primas de riesgo. Los precios de los recursos naturales vuelven a subir como resultado de mejores perspectivas en adelante, y el del cobre lo hace con particular intensidad, alcanzando niveles bastante elevados. Sin embargo, a juicio del Consejero señor Marshall, la economía mundial sigue en una condición de debilidad y deterioro, que no ha cambiado sustancialmente, ya que persisten problemas no resueltos y los riesgos, si bien se han acotado, siguen siendo más bien altos. En el frente interno, señala que las noticias del último mes también han sido alentadoras, sin perjuicio de reconocer que las condiciones generales continúan marcadas por la fuerte contracción de la demanda que se desencadenó a partir del cuarto trimestre del año pasado. En cuanto a las tasas de interés, el señor Enrique Marshall manifiesta que estas han bajado respecto de los altos niveles alcanzados a fines del año pasado, pero que, en su opinión, la política monetaria parece haber encontrado algunos escollos o trabas para ejercer todo el estimulo requerido en estas circunstancias: en primer término, porque el riesgo de crédito percibido por los bancos, determinado por consideraciones de corto más que de mediano o largo plazo, ha puesto limitaciones al descenso de las tasas activas; en segundo lugar, porque en algunos segmentos, como el de los créditos de consumo, las tasas activas están afectadas por costos o márgenes de intermediación altos y, además, se han mostrado insensibles a la política monetaria; y, por último, porque la demanda de crédito, especialmente de parte de los hogares, sigue muy contenida por factores de confianza y expectativas. Al continuar con su votación, el señor Marshall se refiere a las cifras recientes de demanda y actividad, que han sido en general auspiciosas, mencionando que el último IMACEC, si bien dio cuenta de una significativa caída en doce meses, mostró un repunte no despreciable del mes anterior y que, luego, vahos indicadores de demanda han entregado señales, algunas todavía incipientes, de cambio de tendencia y recuperación. Con ello, las perspectivas de una mejora en el segundo semestre se han reafirmado, lo que sigue sustentado principalmente en la evolución de los índices de confianza, en las políticas expansivas en curso y en la gradual recuperación de la economía mundial. Congruente con lo anterior, expresa que las proyecciones del sector privado para este año se han estabilizado, después de muchos meses en que mostraron ajustes a la baja, y que. con todo, la trayectoria de la actividad en la primera parte del año llevaría, en el escenario más probable, a un crecimiento anual por debajo del rango proyectado en el último IPoM. El Consejero señor Marshall añade que si bien el mercado laboral está reflejando las condiciones del ciclo, las remuneraciones se están ajustando con bastante lentitud. En relación con la inflación, el señor Consejero afirma que ella ha seguido descendiendo, incluso con mayor rapidez e intensidad que lo esperado, y que lo mismo se puede decir de la inflación subyacente. En los próximos meses, la inflación anual entraría transitoriamente en territorio negativo y, en el escenario más probable, cerraría el año con una variación levemente por debajo de cero, panorama de corto plazo que, por lo demás, es compartido por el mercado. Sobre la evolución de la inflación más allá de ese horizonte, señala que persiste algún grado de incertidumbre y que las visiones no son completamente coincidentes. En resumen, en opiruon del señor Enrique Marshall, el cuadro macro ha evolucionado bastante en línea con lo anticipado y, por lo mismo, sigue requiriendo de un fuerte estímulo monetario . Agrega que las acciones de política adoptadas en la última Reunión se han validado y lo que corresponde en esta oportunidad es reafirmarlas , lo que comprende tanto la decisión para la TPM como las acciones complementarias. El señor Consejero no descarta la posibilidad de introducir nuevas medidas, especialmente si apuntan a perfeccionar o ampliar las ya implementadas, y que en esa línea estaria, por ejemplo, la extensión hasta un año del plazo para las operaciones que se efectúan en el marco de la FLAP. Sin embargo, manifiesta que se inclina por no innovar en esta Reunión. Considera que, en lo fundamental, se han desplegado las acciones requeridas para un escenario como el que se está enfrentando y que, por lo demás, los efectos perseguidos con las medidas adoptadas se están materializando. Agrega que también le parece conveniente contar con una adecuada evaluación sobre los efectos de las medidas actualmente en aplicación, antes de introducir ajustes o cambios, pero que ello supone necesariamente cierta perspectiva tempora l. En opinión del Consejero señor Marshall, la consideración y evaluación de nuevas medidas deberia darse conjuntamente con la revisión del escenario base, a partir de un nuevo ejercicio de proyecciones, lo que ocurrirá con motivo de la preparación del próximo ¡PoMo En estos momentos, plantea, el principal desafío es lograr un adecuado traspaso de las nuevas condiciones monetarias a los clientes. Parte de la tarea ha sido hecha, como lo demuestran las cifras, pero queda otra parte por hacer. Para que este proceso continúe, indica que es clave generar condiciones para que los riesgos y las incertidumbres percibidos por los bancos disminuyan. Al respecto, las medidas contenidas en la Iniciativa Pro Crédito anunciada por el Ministerio de Hacienda en marzo pasado hicieron una valiosa contribución en ese sentido. El señor Marshall estima que en el cuadro que se enfrenta , mucho ayudaría si el nesgo de crédito de las nuevas operaciones es evaluado con el correcto horizonte temporal, que. por cierto, va más allá del muy corto plazo, y que también parece importante reducir la preocupación por cambios normativos o de reglas de juego que podrían tener impacto sobre los márgenes de intermediación y los resultados durante esta fase del ciclo. En suma, el Consejero señor Enrique Marshall vota por mantener la TPM en su actual nivel de 0,50%, junto con reafirmar las acciones de política adoptadas en la última reunión."
+      },
+      {
+        "ID_Padre": 2656,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 142 celebrada el 13 de agosto de 2009 _______ En Santiago de Chile, a 13 de agosto de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular, don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también el señor: Ministro de Hacienda, don Andrés Velasco Brañes y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldivar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Cita_Ancla_Posterior": "El señor Marshall indica que las noticias del último mes han configurado un pano"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2707-3974",
+    "ID_Padre": 2707,
+    "Fecha": "2009-09-08",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "bf565a96234d9becf62acfb1bc905c781e8bc86fbacf79e09dc7d5de2e98a3c4",
+    "Inicio": 3974,
+    "Fin": 4113,
+    "Cita_Inicio": "A continuación, es el turno del Consejero señor Enrique Marshall,",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall inicia su exposición tras el voto completo de Claro, no habla de este último. La exposición continúa en 2708, leído completo, con enlace acotado que no convierte el revisado en ancla global.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2707,
+        "Cita": "El Consejero señor Sebastián Claro indica que las cifras de actividad van consolidando un escenario de recuperación de la actividad y que, acompañado de una consolidación de mejores expectativas, se presenta un escenario de recuperación a partir del segundo semestre del año que sugiere un quiebre en la tendencia de la actividad. La velocidad de recuperación, en tanto, sigue siendo incierta. Comenta que si bien hay componentes de la demanda interna que comienzan a mostrar dinamismo y que existe espacio para una recuperación dominada por factores internos, estima que la sostenibilidad de esta hacia mediano plazo dependerá fundamentalmente de la evolución de la demanda externa y de la economía internacional, sobre lo cual existe bastante incertidumbre. Menciona que las cifras de inflación estuvieron por debajo de lo esperado internamente, aunque algo más cercanas a las esperadas por el mercado. El último dato, de hecho, está dominado por una caída importante en los precios de la electricidad, lo que es en parte transitorio y no afecta mayormente la tendencia de mediano plazo, mientras que las cifras de subyacentes son similares a las esperadas. Las proyecciones a mediano plazo, por su parte, confirman que la inflación debiera llegar a sus mínimos hacia fines de este año, para luego tener una gradual convergencia hacia el 3% en el año 2011, y distintas medidas de expectativas de inflación a diferentes plazos son coherentes con este diagnóstico. Recuerda que existen varios escenarios de riesgo que son tratados en el IPoM, y destaca, al igual que en la Reunión anterior, una cierta inquietud por la evolución futura del precio de los commodities, que, a pesar de que se han mantenido estables en las últimas semanas, siguen constituyendo un elemento de nesgo. El Consejero señor Claro subraya que la evolución del mercado laboral es particularmente relevante en esta circunstancia. Las cifras de desempleo mostraron cierta estabilidad en su registro mensual, pero, a su juicio, es temprano todavía para establecer un quiebre de tendencia. Por el lado de los salarios, expresa que la rápida caída en la inflación y la indexación salarial han contribuido a un incremento importante en los salarios reales. Dada la debilidad de la actividad y los niveles de desempleo, se debiera comenzar a ver una tendencia a la corrección de estas alzas, mecanismo necesario para tener una recuperación con crecientes niveles de empleo y sin presiones inflacionarias. En su opinión, en el transcurso de los próximos meses se deberá evaluar en detalle la evolución del mercado laboral y los salarios. Respecto de los mercados financieros internos, manifiesta que estos funcionan con normalidad y no se observan anomalías en los mercados monetarios ni en los mercados de renta fija a mayores plazos. Destaca que es especialmente notoria la corrección en las tasas de papeles en pesos y en UF a dos años plazo, con alzas en las tasas nominales y caídas en las tasas reales. Respecto de la aplicación de la FLAP, indica que las tasas de captación a corto plazo se mantienen bajas, coherentes con las perspectivas de la TPM en sus niveles actuales por algunos meses, y que se siguen observando facilidades de liquidez por parte de los bancos bastante superiores al promedio histórico, lo que es coherente con un escenario de mayor percepción de riesgo, mayor liquidez en los portafolios de los bancos y menor provisión de crédito. A su parecer, en la medida que la incertidumbre caiga y se consoliden las mejores perspectivas, tanto las primas por riesgo como los excesos de liquidez de los bancos debieran ir disminuyendo. Con todo, el Consejero señor Sebastián Claro estima que la situación no es muy distinta de la prevista, que las tendencias que se consolidan son las esperadas y que sigue siendo necesario mantener el estimulo monetario actual, razón por la cual vota por mantener la tasa en su nivel actual y por mantener la facilidad FLAP en sus condiciones actuales. A continuación, es el turno del Consejero señor Enrique Marshall, quien comienza su exposición agradeciendo al staff por el apoyo brindado."
+      },
+      {
+        "ID_Padre": 2689,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 143 celebrada el 8 de septiembre de 2009 En Santiago de Chile, a 8 de septiembre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Subsecretaría de Hacienda, doña María Olivia Recart Herrera; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera Subrogante, don Dalibor Eterovic Maggio; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2723-285",
+    "ID_Padre": 2723,
+    "Fecha": "2009-10-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "6c1656ea79dfc8aadf22e55e2946240537ea41123a38381ac103d4c164474988",
+    "Inicio": 285,
+    "Fin": 328,
+    "Cita_Inicio": "lo cual es confirmado por el señor Lehmann.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann confirma la observación de Desormeaux sobre salidas desiguales de la crisis. Confirmación contemporánea con sujeto nominal, no destinatario ni referencia pasada.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2723,
+        "Cita": "El Vicepresidente, señor Jorge Desormeaux, comenta que el trasfondo de ello es que la salida de la crisis no será tan coordinada, por lo que van a producirse cierres de holguras más rápidos en el mundo emergente, a diferencia de las economías desarrolladas en que se centró la crisis, lo cual es confirmado por el señor Lehmann."
+      },
+      {
+        "ID_Padre": 2713,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 145 celebrada el 13 de octubre de 2009 En Santiago de Chile, a 13 de octubre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores; Ministro de Hacienda, don Andrés Velasco Brañes; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2796-5098",
+    "ID_Padre": 2796,
+    "Fecha": "2009-11-12",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "d6eaa426df05adaf0e0c2ea82e392b02032cce05bc4fec86b388d2d0fcd311fa",
+    "Inicio": 5098,
+    "Fin": 5442,
+    "Cita_Inicio": "A continuación, es el turno del Consejero señor Enrique Marshall,",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Comienzo y primer diagnóstico de Marshall después de la exposición completa de Claro sobre la FLAP. Conservar los 5287 caracteres posteriores explícitos y su continuidad hacia 2797.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2796,
+        "Cita": "El Consejero señor Sebastián Claro manifiesta que las cifras de actividad e inflación en Chile han estado en línea con las proyecciones de los últimos meses, lo que, en términos generales, valida las trayectorias de actividad e inflación para los próximos meses. Señala que, aun cuando la cifra de actividad del trimestre se corrigió a la baja, las cifras coyunturales sugieren que este es un fenómeno transitorio y que no afecta las perspectivas de mediano plazo, y sí hacen recordar la íncertidumbre en la velocidad de la recuperación, tanto del mundo como doméstica, consideración que ha estado en las decisiones de política monetaria. En relación con la inflación, sostiene que se sigue esperando a partir de comienzos del 2010 el retorno a cifras anuales positivas y que alcance niveles en torno a 3% a partir de comienzos del 2011. El señor Claro expresa que en las últimas semanas se ha producido una fuerte apreciación del peso que, siendo coherente con la depreciación generalizada del dólar de la cual el peso sorpresivamente se había abstraído por algún tiempo, ha sorprendido por su rapidez. Dada la evolución esperada del tipo de cambio real, a su juicio, no justifica un cambio en la dirección de la política monetaria, sino que confirma básicamente la trayectoria delineada en los últimos meses. Agrega que, a mediano plazo, no se puede descartar un escenario con presiones a la apreciación real derivadas de mayores precios de los commodities y flujos de capital, cuyas implicancias son complejas, en especial por la imposibilidad de la política monetaria para afectar la tendencia del tipo de cambio real. El señor Consejero manifiesta cierta preocupación por la evolución de los salarios, que en términos nominales han estado aumentando fuertemente y no parecen estar respondiendo dinámicamente al ciclo, lo que puede retrasar la recuperación del empleo y afectar los costos laborales. En lo grueso, indica que se justifica continuar con la estrategia de política monetaria trazada, que implica una tendencia gradual al alza de la TPM a partir del segundo trimestre del próximo año. El señor Claro estima que es el momento de introducir cambios a las medidas no convencionales, FLAP, debido a que este mecanismo se implementó en una circunstancia extraordinaria de incertidumbre, lo que mantenía las tasas de interés del mercado monetario muy por sobre lo que parecía razonable. Señala que esta situación ha cambiado y, aun cuando hoy las tasas sugieren una normalización más rápida de la política monetaria, las posibles explicaciones a este fenómeno son diferentes y con un escenario de recuperación que no las justifica. Indica que la incertidumbre sobre las perspectivas de inflación a mediano plazo subsiste y continuará existiendo en ambas direcciones, y que lo anterior no justifica la extensión de este mecanismo. Asimismo, expresa que es posible que las dudas sobre la duración de la FLAP y su mecanismo de desmantelamiento incidan en un incremento de las tasas cortas, ya que la posibilidad de eliminarla súbitamente, en caso que las condiciones cambien rápidamente, puede introducir pérdidas cuantiosas en muchos intermediarios financieros. En otras palabras, plantea que los mismos beneficios de la FLAP en términos de entregar mayor certidumbre sobre la trayectoria de tasas se logran dando claridad sobre su salida. El señor Consejero declara que las condiciones de mercado en los últimos meses desde la implementación de la FLAP han cambiado objetivamente, por lo que la simpleza y claridad en su desmantelamiento debiera contribuir a disminuir la incertidumbre sobre variaciones inesperadas en la trayectoria de la política monetaria en el corto plazo. Finalmente, sostiene que la eliminación o modificación de la FLAP no representa un compromiso sobre la trayectoria de tasas, aunque sí afecta los costos de modificarla. En otras palabras, y en su opinión, no hay un cambio en el juicio sobre las perspectivas de inflación o sobre la trayectoria de la TPM. Hace hincapié que este mensaje en la comunicación es fundamental para evitar una interpretación ruidosa de la decisión que se tome y que la simpleza y transparencia en la comunicación de la modificación de la FLAP contribuye a ello. Lo anterior, en su opinión, plantea la necesidad de comunicar hoy un cambio en la implementación de la FLAP. Señala que existen muchas posibles alternativas, y manifiesta que se encuentra disponible para evaluar algunas de ellas, priorizando un movimiento gradual para evitar sobrerreacciones en los mercados financieros, una calendarización para despejar la incertidumbre y un mensaje simple que desvincule la FLAP con la trayectoria de tasas. Hace presente que prefiere una comunicación que anuncie un cambio en la FLAP a 150 días, bajando 30 días por mes hasta extinguirse, pero que está disponible a anunciar hoy un calendario que entre en vigencia a partir de diciembre, esto es, que la duración de la FLAP sea de 150 días a continuación de la RPM de diciembre, y que se reduzca todos los meses 30 días. Así, la última FLAP a 30 días se ofrecería a mediados de abril. A continuación, es el turno del Consejero señor Enrique Marshall, quien comienza su exposición agradeciendo al staff por el apoyo brindado. El señor Consejero señala que las noticias del último mes no han cambiado significativamente el escenario perfilado en el último IPoM, pero han recordado que los riesgos de desviaciones siguen presentes. En el frente externo, el señor Enrique Marshall menciona que con diferencias y matices, la recuperación tiende a asentarse y que las perspectivas de crecimiento global se han revisado también levemente al alza. Destaca que los mercados financieros han seguido mostrando una consolidación de sus avances, lo que se advierte con particular intensidad en las economías emergentes, las que han experimentado importantes influjos de capital y una apreciación de sus monedas, no obstante lo cual, estos mercados muestran sensibilidad a las nuevas noticias y una volatilidad mayor que en meses anteriores. Agrega que en un contexto de recuperación de la actividad y depreciación del dólar, los precios de las materias primas han vuelto a subir, lo que, en su opinión, debe ser monitoreado con atención. Con todo, manifiesta que la economía mundial se muestra todavía frágil y vulnerable, ya que los países desarrollados enfrentan problemas estructurales, bien conocidos, que podrían limitar sus perspectivas de crecimiento en el mediano plazo, no obstante el empuje proveniente de las economías emergentes, y hace presente que dos temas agregan íncertidumbre al escenario global: la debilidad del dólar y el retiro de las políticas de estímulo, especialmente en los países desarrollados, por sus implicancias a nivel mundial. En el frente doméstico, el señor Consejero indica que los mercados financieros no han deparado sorpresas y siguen reflejando bastante normalidad, considerando la fase del ciclo por la que se atraviesa. En opinión del señor Marshall, donde sí han surgido noticias relevantes es en el mercado cambiario. Al respecto, señala que, por algunos meses, el peso se apartó de la tendencia apreciativa que mostraban las principales monedas de las economías emergentes, pero ha vuelto a ese derrotero, conducido principalmente por fundamentales. Plantea que este desarrollo tiene importantes efectos, directos e indirectos, sobre la inflación y, por lo tanto, debe ser monitoreado con mucha atención. El Consejero señor Marshall menciona que el crédito bancario se ha estabilizado. Las tasas de interés han alcanzado niveles próximos a sus promedios históricos y, en el margen, observan movimientos mixtos. Los ajustes inducidos por la política monetaria, en lo fundamental, parecen haber concluido y la magnitud del ajuste observado lleva a pensar que la moderación y la cautela permanecerán en este mercado por algún tiempo. Comenta que las cifras de demanda y actividad, evaluadas en perspectiva, dan cuenta de un proceso de recuperación, que no se aparta en forma apreciable de lo proyectado en el último IPoM. En su opinión, el último registro de Imacec, si bien sorprendió a la baja, no cambia dicho diagnóstico. Respecto del empleo, el señor Marshall manifiesta que vuelve a dar señales de estabilización. Las remuneraciones siguen mostrando poca sensibilidad a las condiciones del mercado laboral, lo que genera preocupación por sus implicancias para la recuperación. Al referirse a la inflación, señala que se mantiene baja y acotada. Los registros mensuales del último mes resultaron nulos para todas las medidas y, con ello, la variación anual del IPC se mantiene en territorio negativo y permanecería allí hasta fines de año. Sostiene que ello no cambia, en todo caso, las proyecciones de mediano plazo, que dan cuenta de una convergencia gradual hacia el 3%, y que esa misma visión es compartida por el mercado, cuyas expectativas de inflación se ubican en torno a la meta para un horizonte de mediano plazo. Sin embargo, destaca que los desarrollos del último mes vuelven a plantear cierta incertidumbre sobre la trayectoria de la inflación en el mediano plazo. El señor Consejero señala que la curva de expectativas para la TPM ha moderado su trayectoria en lo más reciente, pero se mantiene empinada, lo que refleja incertidumbre sobre el proceso de normalización de la política monetaria. En suma, el señor Marshall estima que el escenario macroeconómico no ha cambiado en forma significativa y, por tanto, la recomendación general de mantener un fuerte estímulo monetario permanece plenamente vigente. Sostiene también que sigue siendo válida la señal más específica que se entregó en meses anteriores, en el sentido que la TPM se mantendría en su actual nivel hasta el segundo trimestre del próximo año. En opinión del señor Consejero, el principal tema de esta Reunión no es el nivel ni la trayectoria futura de la TPM, sino las medidas complementarias y, en particular, la FLAP. Como se ha expresado reiteradamente, estas acciones fueron introducidas para reforzar la política monetaria y entregar una señal de permanencia del estímulo monetario y, en ese sentido, cumplieron bien su objetivo. No obstante, señala que estas medidas impusieron cierto grado de rigidez en la conducción de la política monetaria, al comprometer un nivel de TPM a plazos más largos que los habituales. A la luz de los desarrollos observados, que en lo fundamental están en línea con lo anticipado, se requiere, a su juicio, que la política monetaria vuelva a su formato acostumbrado y recupere todos los grados de libertad requeridos, lo que necesariamente supone el retiro de la FLAP, de manera que sus operaciones no se extiendan más allá del segundo trimestre del próximo año."
+      },
+      {
+        "ID_Padre": 2761,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 146 celebrada el 12 de noviembre de 2009 En Santiago de Chile, a 12 de noviembre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de División Estudios Subrogante y Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Cita_Ancla_Posterior": "En el frente externo, el señor Enrique Marshall menciona que con diferencias y m"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2885-79",
+    "ID_Padre": 2885,
+    "Fecha": "2010-01-14",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "6faf2896f7f4092243cdaaec6972b86807b1bcc205912dabe81816183624ab6f",
+    "Inicio": 79,
+    "Fin": 245,
+    "Cita_Inicio": "quien agradece el análisis del staff y declara hacer suyo el list",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras recibir la palabra, Marfán agradece y hace suyo el listado de la minuta; no es discurso del Presidente. Conservar los 2400 caracteres posteriores y su ancla explícita, incluidos los residuos finales advertidos sin reconstrucción.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2885,
+        "Cita": "El señor Presidente concede la palabra al Vicepresidente, señor Manuel Marfán, quien agradece el análisis del staff y declara hacer suyo el listado de antecedentes del punto 2 de la Minuta de Opciones, a la que añade los siguientes comentarios. En primer término, el señor Manuel Marfán señala que las principales economías han mantenido, en lo grueso, las perspectivas de hace un mes, y que hay ciertas economías de menor tamaño relativo que han comenzado a exhibir mayor vulnerabilidad y que requieren más atención, como es el caso en América Latina de Argentina y Venezuela, y en la Zona Euro, de España y, especialmente, Grecia e Islandia. Menciona que esta es una visión a las que se añadieron hace un mes atrás. En general, manifiesta que las principales economías han evitado una recesión profunda sobre la base de combinaciones de política inéditamente expansivas, las que son sostenibles en el corto plazo, pero no en el largo plazo. Por lo mismo, a su juicio, a medida que avanza el tiempo se acorta el plazo para retirar las políticas expansivas, a la vez que no parece que esas economías y sus sistemas financieros puedan todavía sostenerse sobre la base de fundamentos del Estado. En lo interno, el señor Manuel Marfán indica que el escenario central del último IPoM, como señala la Minuta de Opciones, sigue siendo el más probable. Con todo, agrega que los riesgos de la inflación parecen haber transitado del equilibrio hacia un sesgo a la baja. El señor Marfán declara compartir el análisis de la Minuta de Opciones en cuanto a la decisión de mantener la TPM en su nivel actual, y que lo que cabe decidir es más bien el contenido del comunicado. Al respecto, señala que no mencionaría el fortalecimiento del peso ni las menores perspectivas de inflación subyacente, principalmente para no introducir modificaciones al contenido del mismo como una señal, mientras que sí eliminaría la comparación que se hizo en el comunicado anterior y que es inédita, por lo menos durante el tiempo que ha estado en el Consejo, respecto de la trayectoria futura esperada para la TPM y su relación con las expectativas y los precios financieros, estimando que es conveniente retirarla. Finalmente, el señor Vicepresidente menciona que modificaría la referencia sobre las condiciones crediticias, señalando que se han vuelto menos estrechas. En todo lo demás, incluyendo las referencias a las FLAP, sugiere mantener el comunicado tal como hace un mes atrás. En consecuencia, el Vicepresidente, señor Manuel Marfán, vota por mantener la TPM en su nivel actual, modificando en el margen los contenidos del comunicado. Para concluir con la votación,."
+      },
+      {
+        "ID_Padre": 2841,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 149 celebrada el 14 de enero de 2010 En Santiago de Chile, a 14 de enero de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de División de Política Financiera Subrogante, don José Manuel Garrido Bouzo; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Señor, doña Erika Arraño González; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "CESION_AGRADECIMIENTO_ANALISIS_REVISADA",
+    "Cita_Ancla_Posterior": "En primer término, el señor Manuel Marfán señala que las principales economías h"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-2963-4569",
+    "ID_Padre": 2963,
+    "Fecha": "2010-02-11",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "5567715eb46c86e662055abeefb12a1ebca409436b0855cca660939b99647e8d",
+    "Inicio": 4569,
+    "Fin": 4735,
+    "Cita_Inicio": "Prosiguiendo con la votación, es el turno del Consejero señor Enr",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall agradece efectivamente al staff después del voto completo de Claro. Continuidad de su exposición y voto en 2964, leído íntegro, con enlace acotado.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2963,
+        "Cita": "El Consejero señor Sebastián Claro señala que las últimas cifras conocidas, tanto en el ámbito nacional como internacional, son, grosso modo, coherentes con las perspectivas planteadas en los últimos meses. Sin embargo, cree que existen varias novedades que son relevantes de recalcar, que, aun cuando no afectan la decisión de hoy, si pueden alterar el escenario en adelante. En el ámbito externo, indica que los mercados internacionales han mostrado mayor volatilidad en las últimas semanas, asociada principalmente a los problemas de endeudamiento en algunos países europeos. Agrega que esto explica, probablemente, la corrección de los precios de algunos commodities y el fortalecimiento del dólar a nivel mundial. Al mismo tiempo, menciona que se han ido consolidando las perspectivas de recuperación en diversas economías y que las expectativas de crecimiento siguen altas por los próximos trimestres. En su opinión, este es un tema a seguir con cuidado. A nivel local, destaca que la cifra de actividad estuvo algo por sobre lo esperado, y que lo que más llamó la atención fue la generalidad en los componentes que explican la mayor actividad, que anteriormente había estado concentrado en sectores puntuales. En todo caso, estima que, por ahora, no se perciben desviaciones importantes respecto del escenario base en esta materia. El señor Sebastián Claro manifiesta que el crédito doméstico comienza a dar mayores muestras de dinamismo, lo que es una fenómeno positivo, no solo porque puede estar reflejando mejores perspectivas por parte de los demandantes de crédito, sino que también mayor disposición de la banca a tomar posiciones menos líquidas y más riesgosas en sus activos. En todo caso, expresa que otras medidas, como los agregados M2 y M3, muestran todavía tasas de crecimiento acotadas. A continuación, el señor Claro subraya que el registro de inflación de enero sorprendió significativamente al alza, afectado por cambios metodológicos y por un aumento inesperado en costos financieros, que, aparentemente, van más allá del efecto anticipado del impuesto de timbres y estampillas. Agrega que las cifras de inflación subyacente no mostraron sorpresas importantes. En su opinión, la principal novedad de esta cifra es que la trayectoria futura de inflación está sujeta a una importante varianza. Manifiesta que ya sea por cambios metodológicos, que vienen sucediendo desde el año pasado y son difíciles de anticipar, como por efectos de las fluctuaciones cambiarías, la trayectoria de inflación en adelante presenta bastante incertidumbre, y que una muestra de ello es que la inflación en doce meses proyectada en noviembre del año pasado para abril del 2010 era de 1,2%, cifra que cayó a 0,3% en enero y volvió a subir a 1,2% en febrero. Esta incertidumbre, prosigue, se ve alimentada por la evolución del dólar, que tuvo una importante valoración respecto del peso en el último tiempo, tanto por razones externas como por razones domésticas. Destaca que la incertidumbre en este punto es grande y que un nivel persistente del tipo de cambio más depreciado puede tener impacto inflacionario. Añade que aun cuando es razonable pensar que el impacto de los ajustes domésticos en las posiciones de monedas no tiene efecto duradero sobre el tipo de cambio real, su efecto sobre el tipo de cambio nominal y el nivel de precios podría ser más duradero. Por otra parte, el Consejero señor Sebastián Claro hace presente que la inflación subyacente ha seguido controlada y que las proyecciones sugieren registros anuales bajos por los próximos meses. Sin embargo, sostiene que la fuerte caída en la inflación subyacente en Chile difiere de la evolución de índices similares para otros países con similares características, con similares caídas en el producto y con evoluciones cambiarías parecidas, lo que sugiere que un componente no menor de la variación en la inflación subyacente en Chile tiene un componente doméstico que es difícil de explicar. A la luz de la incipiente dinámica al alza en los índices de precios en algunos países, esto. en su opinión, abre una interrogante sobre la trayectoria del IPCX1 en los próximos trimestres y sobre el fundamento de suponer cierto aislamiento en la trayectoria interna con la de otros países. Para finalizar, el señor Claro manifiesta estimar que la evolución de los salarios nominales confirma en parte esta inquietud. En razón de lo expuesto, el Consejero señor Sebastián Claro vota por mantener la TPM en su nivel actual y continuar con el proceso de eliminación de la FLAP, tal como estaba anticipado. Prosiguiendo con la votación, es el turno del Consejero señor Enrique Marshall, quien, en primer término y como de costumbre, agradece al staff por el apoyo brindado."
+      },
+      {
+        "ID_Padre": 2889,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 150 celebrada el 11 de febrero de 2010 En Santiago de Chile, a 11 de febrero de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Gerente General Subrogante, Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales Subrogante, don Luis Felipe Alarcón Gazmuri; Gerente de Investigación Económica Subrogante, don Pablo Pincheira Brown; Gerente de Estabilidad Financiera Subrogante, don Ari Aisen; Gerente Asesor de Comunicaciones Subrogante, don Jaime Troncoso Rojas; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Economista Senior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-3051-189",
+    "ID_Padre": 3051,
+    "Fecha": "2010-04-15",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "cd1706769a902c4ffc65b86187964e3a837deb0d81887164c950004e6775c149",
+    "Inicio": 189,
+    "Fin": 230,
+    "Cita_Inicio": "lo cual es confirmado por el señor Soto. ",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Respuesta de Soto sobre cotizaciones de alimentos, seguida del retorno explícito de Marfán. El desarrollo posterior de Soto de 1705 caracteres y García permanece íntegro.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3051,
+        "Cita": "El Vicepresidente, señor Manuel Marfán, pregunta si el aumento de precios de los alimentos reportados es el resultado de cotizaciones efectuadas por la Gerencia de Análisis Macroeconómico, lo cual es confirmado por el señor Soto. El señor Marfán continúa, declarando que no se puede descartar que la inflación que se va a observar probablemente en abril haya ocurrido en marzo, habida cuenta que en marzo se imputó una variación de cero en la zona donde probablemente los precios experimentaron un alza más significativa. El señor Soto aclara que eso también está considerándose en la proyección. Por último, el señor Claudio Soto indica que en el caso de los arriendos se observaron aumentos que no fueron reflejados en el IPC, y que hacia finales de marzo se observaron aumentos importantes, que también se están considerando en la proyección. Para complementar el diagnóstico respecto de la inflación, el señor Soto menciona que las expectativas empresariales apuntan a un significativo aumento de la misma. En cuanto a la proyección, el Gerente de Análisis Macroeconómico informa que se están considerando trayectorias de la gasolina que son virtualmente las mismas que se tenían para el cierre del IPoM. Destaca que desde entonces no ha habido muchas novedades, por lo que los principales supuestos son muy similares a los considerados en ese Informe. Al respecto, detalla que el tipo de cambio se ha apreciado un poco desde entonces; que el supuesto del precio del petróleo es exactamente el mismo que el del IPoM, pero que los precios spot de gasolinas son algo mayores en el mercado doméstico, modificando un poco su trayectoria; y que en el caso de perecibles, la trayectoria también es muy similar a lo que se tenía para el cierre del IPoM. Respecto del vestuario, el señor Claudio Soto explica que en la proyección se está considerando algo de estacionalidad, ya que no se están contemplando bajas tan fuertes en julio como las registradas el año pasado; que sí se prevé un aumento estacional hacia agosto, que coincidiría con el patrón estacional observado el año pasado; y que se descartaría el patrón estacional de septiembre de años anteriores, mes en que los precios del vestuario aumentaban significativamente. El Gerente de División Estudios comenta que, respecto de vestuario, el INE cambió los puntos de recolección de precios y dejó de suavizar la serie. Hace presente que, hasta ahora, la Gerencia a su cargo más bien adjudica a lo segundo el principal efecto de lo que había ocurrido en dicha materia."
+      },
+      {
+        "ID_Padre": 3023,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 153 celebrada el15 de abril de 2010 En Santiago de Chile, a 15 de abril de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente, don Manuel Marfán Lewis, y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica Subrogante, don Pablo Pincheira Brown; Gerente de Estabilidad Financiera; don Luis Opazo Roco; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-3186-109",
+    "ID_Padre": 3186,
+    "Fecha": "2010-06-15",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "65a440f8ebabefcb64efd154c3e8bc226708372a0611c86f931a7f47e7e71a77",
+    "Inicio": 109,
+    "Fin": 156,
+    "Cita_Inicio": "lo que es confirmado por el señor Claudio Soto.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto confirma la pregunta de Claro sobre demanda de dinero. No eliminar por brevedad.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3186,
+        "Cita": "El Consejero señor Sebastián Claro, en tanto, pregunta si esto corresponde a un exceso de demanda de dinero, lo que es confirmado por el señor Claudio Soto."
+      },
+      {
+        "ID_Padre": 3128,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 155 _____________________ celebrada el 15 de junio de 2010_____________________ En Santiago de Chile, a 15 de junio de 2010, siendo las 9:00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente, don Manuel Marfán Lewis, y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste también el señor: Ministro de Hacienda, don Felipe Larraín Bascuñán; y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes; Gerente de Estabilidad Financiera; don Luis Opazo Roco; Gerente de Investigación Financiera, Don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-3268-389",
+    "ID_Padre": 3268,
+    "Fecha": "2010-07-15",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "ab4d4c2de94f94b06e0f718a60498c38f7f8b33a07f53fa751ae73338d5f974d",
+    "Inicio": 389,
+    "Fin": 437,
+    "Cita_Inicio": "lo que es confirmado por el señor Claudio Soto. ",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Confirmación de Soto sobre la diferencia en el valor de TPM de la forward. No es parte del planteamiento de Marfán.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3268,
+        "Cita": "El Vicepresidente señor Manuel Marfán manifiesta que, comparando la curva forward presentada con la distribuida por la Gerencia División de Operaciones Financieras, hay algunas diferencias. En primer término, señala que, de acuerdo con un cálculo simple, la expectativa para la TPM a diciembre que se obtiene de la curva forward debiera ser 3,44 ó 3,5% y no 3,25% como acaba de señalarse, lo que es confirmado por el señor Claudio Soto. En opinión del señor Vicepresidente, esa diferencia es relevante por dos razones. En primer término, porque lo que arroja la Encuesta de Operadores Financieros y la forward es prácticamente lo mismo, pero no así si esta última aumenta las expectativas en 25 puntos base. Agrega que si se supone que es probable que todos los meses se acuerde un alza de tasa, la diferencia será que ellos esperarían que hubiera un alza de 50 puntos base adicional, respecto de lo contemplado por la Gerencia División de Estudios. Al respecto, consulta cuál es el origen de las diferencias. El Gerente de División Estudios manifiesta que la diferencia fundamental radica en que la curva expuesta se calcula para el tramo largo, de dos a más años, con los BCP, aun cuando se sabe que los BCP con la swap no están perfectamente arbitrados. De hecho, indica que la concavidad de la swap de aquí a un año es mayor que la concavidad de la curva forward referida, lo que refleja que el punto de llegada de la swap debiera estar por debajo del punto de llegada de los BCP y forward. Añade que, de hecho, los operadores y los analistas efectúan apuestas respecto del grado de concavidad de la curva y ello forma parte del debate de la trayectoria de la TPM. No habiendo más comentarios,."
+      },
+      {
+        "ID_Padre": 3207,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 157 _____________________ celebrada el 15 de julio de 2010 En Santiago de Chile, a 15 de julio de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste también el señor: Ministro de Hacienda Subrogante, don Rodrigo Álvarez Zenteno; y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Rodrigo Cerda Norambuena; Asesor de la Presidencia, don Felipe Labbé Castillo; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA",
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260908-L23-3268-437",
+        "ID_Padre": 3268,
+        "Fecha": "2010-07-15",
+        "Actor": "Manuel Marfán Lewis",
+        "SHA256_Texto_Padre": "ab4d4c2de94f94b06e0f718a60498c38f7f8b33a07f53fa751ae73338d5f974d",
+        "Inicio": 437,
+        "Fin": 1010,
+        "Cita_Inicio": "En opinión del señor Vicepresidente, esa diferencia es relevante ",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Marfán retoma la evaluación de la diferencia y consulta por su origen, después de la confirmación de Soto. Referente nominal previo y nómina de sesión; no herencia global. García responde después en su propio segmento.",
+        "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+        "Evidencia": [
+          {
+            "ID_Padre": 3268,
+            "Cita": "El Vicepresidente señor Manuel Marfán manifiesta que, comparando la curva forward presentada con la distribuida por la Gerencia División de Operaciones Financieras, hay algunas diferencias. En primer término, señala que, de acuerdo con un cálculo simple, la expectativa para la TPM a diciembre que se obtiene de la curva forward debiera ser 3,44 ó 3,5% y no 3,25% como acaba de señalarse, lo que es confirmado por el señor Claudio Soto. En opinión del señor Vicepresidente, esa diferencia es relevante por dos razones. En primer término, porque lo que arroja la Encuesta de Operadores Financieros y la forward es prácticamente lo mismo, pero no así si esta última aumenta las expectativas en 25 puntos base. Agrega que si se supone que es probable que todos los meses se acuerde un alza de tasa, la diferencia será que ellos esperarían que hubiera un alza de 50 puntos base adicional, respecto de lo contemplado por la Gerencia División de Estudios. Al respecto, consulta cuál es el origen de las diferencias. El Gerente de División Estudios manifiesta que la diferencia fundamental radica en que la curva expuesta se calcula para el tramo largo, de dos a más años, con los BCP, aun cuando se sabe que los BCP con la swap no están perfectamente arbitrados. De hecho, indica que la concavidad de la swap de aquí a un año es mayor que la concavidad de la curva forward referida, lo que refleja que el punto de llegada de la swap debiera estar por debajo del punto de llegada de los BCP y forward. Añade que, de hecho, los operadores y los analistas efectúan apuestas respecto del grado de concavidad de la curva y ello forma parte del debate de la trayectoria de la TPM. No habiendo más comentarios,."
+          },
+          {
+            "ID_Padre": 3207,
+            "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 157 _____________________ celebrada el 15 de julio de 2010 En Santiago de Chile, a 15 de julio de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste también el señor: Ministro de Hacienda Subrogante, don Rodrigo Álvarez Zenteno; y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Rodrigo Cerda Norambuena; Asesor de la Presidencia, don Felipe Labbé Castillo; y la Secretario General, doña Marlys Pabst Cortés."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-3439-153",
+    "ID_Padre": 3439,
+    "Fecha": "2010-10-14",
+    "Actor": "Felipe Jaque",
+    "SHA256_Texto_Padre": "af8af8bbb415f9946753f73e005344afa9b802348263a68a8868921bc9f8e1c9",
+    "Inicio": 153,
+    "Fin": 544,
+    "Cita_Inicio": "lo cual es confirmado por el señor Felipe Jaque, quien explica, a",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Jaque confirma y explica spreads después de De Ramón. Conservar su exposición posterior de 1955 caracteres y su ancla, sin normalizar la etiqueta Felipe Jaque.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3439,
+        "Cita": "El Gerente de División Operaciones Financieras señor Beltrán de Ramón informa que dicho promedio se encuentra en el rango que va de 10 a 20 puntos base, lo cual es confirmado por el señor Felipe Jaque, quien explica, además, que dicho promedio es particularmente bajo para el Spread Libor - OIS a tres meses y que hoy está algo por sobre el rango estándar de 25 puntos base, aproximadamente. Añade que las primas de liquidez a doce meses están algo más altas respecto de lo que normalmente se paga de prima en tasas interbancarias a ese plazo. El señor Felipe Jaque prosigue, señalando que las expectativas de tasas de instancia monetaria de los analistas y las que se derivan de las trayectorias implícitas en los contratos futuros se han ajustado a la baja respecto de la Reunión anterior, salvo en las economías desarrolladas, donde los analistas ya incorporaron todos los ajustes a la trayectoria de TPM esperada para los próximos meses. Agrega que, de acuerdo con ellos, habría un ajuste a la baja en América Latina y Europa emergente, sobre todo en el primer semestre del 2011, y, en menor medida, en Asia y también en Oceania, que comprende Nueva Zelanda y Australia. En cuanto a las proyecciones implícitas en los contratos futuros, el señor Felipe Jaque hace notar que se advierte nuevamente un ajuste a la baja en el último mes. Detalla que el Reino Unido se aplana y que Estados Unidos se vuelve a aplanar respecto del mes pasado, lo que, de alguna forma, está en línea con el arbitraje que se esperaría después de que la tasa a dos años llegara a estos mínimos históricos. En materia de paridades, el señor Felipe Jaque destaca que el dólar continuó depreciándose de manera generalizada en el mes, gatillando una serie de intervenciones de distinta índole en los mercados cambiarlos de algunas economías, como control de capital e intervención en el mercado spot de algunas economías emergentes. Al respecto, señala que un foco en economías desarrolladas muestra que si bien los niveles nominales de los tipos de cambio, en particular del yen, se ven bastante bajos respecto de los promedios históricos, los niveles reales están levemente por sobre su media histórica de las últimas dos décadas, por lo que, de alguna manera, las presiones a la depreciación del yen, como se podría inferir del análisis bilateral nominal, no son tales. Indica que ello pone de relieve que los desalineamientos que se observan hoy no son tan marcados cuando se revisa la evolución del tipo de cambio real."
+      },
+      {
+        "ID_Padre": 3433,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 161 celebrada el día jueves 14 de octubre de 2010 En Santiago de Chile, a 14 de octubre de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don José De Gregorio Rebeco y con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste el Ministro de Hacienda, don Felipe Larraín Bascuñán. Asisten también los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional Subrogante, don Felipe Jaque Sarro; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Luis Opazo Roco; Gerente de Investigación Financiera, Don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria Subrogante, doña Tatiana Vargas Manzo; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; Asesor de la Presidencia, don Felipe Labbé Castillo; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA",
+    "Cita_Ancla_Posterior": "El señor Felipe Jaque prosigue, señalando que las expectativas de tasas de insta"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-3646-234",
+    "ID_Padre": 3646,
+    "Fecha": "2011-01-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "814cf096601a91a0820c3a5d75b7811bcd0847ef1ff182490537520175ba1866",
+    "Inicio": 234,
+    "Fin": 319,
+    "Cita_Inicio": "lo cual es confirmado por el Gerente de Análisis Internacional se",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann confirma la observación de Claro; su exposición explícita posterior sobre monedas permanece en 1168 caracteres, seguida de la nueva consulta de Claro.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3646,
+        "Cita": "El Consejero señor Sebastián Claro plantea que los vaivenes que exhiben las tasas largas en Alemania estarían determinados por el estrés financiero en Europa, ya que los datos de esa economía han sido bastante positivos en el margen, lo cual es confirmado por el Gerente de Análisis Internacional señor Sergio Lehmann. El señor Lehmann continúa, indicando que en materia de monedas, el euro tendió a depreciarse durante el mes, y que el yen no registró variación. Añade que las monedas de las economías emergentes se apreciaron, pero con cierta heterogeneidad, detallando que las latinoamericanas se mostraron estables, en general, y que las de Asia emergente registraron una apreciación algo más persistente que las de Europa emergente, ya que estas últimas se depreciaron durante unas semanas y luego volvieron a apreciarse. En cuanto a los tipos de cambio real, señala que se observan bastante estables en general. Complementando esta misma materia, manifiesta que al revisar la variación de las paridades con respecto a diferentes fechas hitos, correspondientes, en este caso, a la RPM de diciembre y a diciembre de 2009, 2008 y 2007, destaca la depreciación de 4,4% que registró el peso chileno desde la última RPM, así como la experimentada por la nueva lira turca y el forint de Hungría, y se observa que en el resto de las economías de la muestra predominan las apreciaciones, encabezadas por el peso colombiano, cuya variación respecto al dólar alcanzó a -3,1% en el último mes. El Consejero señor Sebastián Claro consulta si Turquía y Hungría adoptaron alguna medida especial."
+      },
+      {
+        "ID_Padre": 3643,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 165 celebrada el día jueves 13 de enero de 2011 En Santiago de Chile, a 13 de enero de 2011, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don José De Gregorio Rebeco y con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste el Ministro de Hacienda, don Felipe Larraín Bascuñán. Asisten también los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera Subrogante, don Rodrigo Cifuentes Santander; Gerente de División Estadísticas, don Ricardo Vicuña Róblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; Asesor de la Presidencia, don Felipe Labbé Castillo; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA",
+    "Cita_Ancla_Posterior": "El señor Lehmann continúa, indicando que en materia de monedas, el euro tendió a"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-3843-294",
+    "ID_Padre": 3843,
+    "Fecha": "2011-03-17",
+    "Actor": "Luis Óscar Herrera Barriga",
+    "SHA256_Texto_Padre": "836754415e1b53d602e81a5f4b72f762061731208aaf1f80bce8e096cfeaf38e",
+    "Inicio": 294,
+    "Fin": 425,
+    "Cita_Inicio": "lo cual es rebatido por el señor Luis Óscar Herrera, quien sostie",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Réplica efectiva de Herrera sobre sensibilidad de expectativas, entre dos intervenciones de Marshall. No confundir la refutación con una confirmación ni modificar el verbo literal.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3843,
+        "Cita": "El Consejero señor Enrique Marshall enfatiza que se debe tener presente que esa información está atrasada y que el hecho de considerar la inflación promedio diluye el problema en cierta medida. En su opinión, las expectativas a fin de año reflejarían de mejor forma la situación inflacionaria, lo cual es rebatido por el señor Luis Óscar Herrera, quien sostiene que, en general, las expectativas no son muy sensibles a ello. El Consejero señor Enrique Marshall acota que la transmisión del shock petrolero a los IPC de cado uno de los países varía significativamente, ya que algunos aplican subsidios, otros tienen mecanismos similares al Sipco o adoptan otras medidas."
+      },
+      {
+        "ID_Padre": 3815,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 167 celebrada el día jueves 17 de marzo de 2011 En Santiago de Chile, a 17 de marzo de 2011, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don José De Gregorio Rebeco y con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste el Ministro de Hacienda, don Felipe Larraín Bascuñán. Asisten también los señores; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, ...don Luis Opazo Roco; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; Asesor de la Presidencia, don Felipe Labbé Castillo; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-4182-115",
+    "ID_Padre": 4182,
+    "Fecha": "2011-07-14",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "41b0815e44cf335ab40fcb0b28d749a55be9c6b642a0063ed33b73ea0058780c",
+    "Inicio": 115,
+    "Fin": 297,
+    "Cita_Inicio": "lo cual es confirmado por el señor Claudio Soto, quien acota que ",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto confirma la observación presidencial y distingue las condiciones de oferta crediticia de las de demanda.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4182,
+        "Cita": "El Presidente señor José De Gregorio indica que las condiciones de demanda de créditos de consumo están mejorando, lo cual es confirmado por el señor Claudio Soto, quien acota que las condiciones de oferta están cercanas a cero, lo que significa que no hay cambios respecto del trimestre anterior."
+      },
+      {
+        "ID_Padre": 4119,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 173 celebrada el día martes 14 de julio de 2011 En Santiago de Chile, a 14 de julio de 2011, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don José De Gregorio Rebeco y con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste el Ministro de Hacienda señor Felipe Larraín Bascuñán. Asisten también: Gerente General don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera Subrogante, don Rodrigo Cifuentes Santander; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-4470-133",
+    "ID_Padre": 4470,
+    "Fecha": "2011-12-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "f3126dd95e950b2596e2405c74085bdc3731fcc05842ec25c6acd700013550a1",
+    "Inicio": 133,
+    "Fin": 176,
+    "Cita_Inicio": "lo cual es confirmado por el señor Lehmann.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Confirmación actual de Lehmann después del planteamiento de Vergara, no parte del turno presidencial.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4470,
+        "Cita": "El Presidente señor Rodrigo Vergara plantea que los antecedentes expuestos permiten señalar que la situación es algo menos negativa, lo cual es confirmado por el señor Lehmann."
+      },
+      {
+        "ID_Padre": 4460,
+        "Cita": "ACTA DE LA SESIÓN DE POLÍTICA MONETARIA N° 179 celebrada el día martes 13 de diciembre de 2011 En Santiago de Chile, a 13 de diciembre de 2011, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don Rodrigo Vergara Montes y con la asistencia del Vicepresidente señor Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Investigación Económica, don Claudio Raddatz Kiefer; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Luis Opazo Roco; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Tatiana Vargas Manzo; Asesor de la Presidencia, don Víctor Riquelme Peñaloza; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-5168-188",
+    "ID_Padre": 5168,
+    "Fecha": "2012-11-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "f60e1de9b4fde7a0e4e993f2528427b6c6d794c1a10e4942eb2cb6738898ac07",
+    "Inicio": 188,
+    "Fin": 366,
+    "Cita_Inicio": "Ello es corroborado por el señor Sergio Lehmann, quien acota que ",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann corrobora la lectura del gráfico de Marfán y precisa el trimestre siguiente. El sujeto nominal de la oración pasiva identifica la contribución propia de Lehmann.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 5168,
+        "Cita": "El Vicepresidente observa que Chile pasa del rango amarillo a naranjo en el cuarto trimestre del año en curso, por lo que conforme a ese gráfico comenzará a crecer por sobre su tendencia. Ello es corroborado por el señor Sergio Lehmann, quien acota que se prevé que se mantendrá dicho rango representado por el color naranjo durante el primer trimestre del año 2013."
+      },
+      {
+        "ID_Padre": 5161,
+        "Cita": "ACTA DE LA SESIÓN DE POLÍTICA MONETARIA N° 192 celebrada el día martes 13 de noviembre de 2012 En Santiago de Chile, a 13 de noviembre de 2012, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile, bajo la presidencia del titular don Rodrigo Vergara Montes y con la asistencia del Vicepresidente señor Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Joaquín Vial Ruiz-Tagle. Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera Subrogante, don Rodrigo Cifuentes Santander; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Investigación Económica, don Claudio Raddatz Kiefer; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Luis Opazo Roco; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Tatiana Vargas Manzo; Asesor de la Presidencia, don Víctor Riquelme Peñaloza; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-5639-235",
+    "ID_Padre": 5639,
+    "Fecha": "2013-07-11",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "5d084c290d4085c96a520ca38de79ec0b1e166079d6bb2be5c079a8bcb4cd896",
+    "Inicio": 235,
+    "Fin": 941,
+    "Cita_Inicio": "lo que es corroborado por el señor Sergio Lehmann, quien precisa,",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann corrobora y amplía sobre los mercados de Portugal; prosigue con la noticia de Egipto. Lectura íntegra del padre, sin trasladar el desarrollo de Lehmann a Vergara.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 5639,
+        "Cita": "El Presidente señor Rodrigo Vergara comenta que el gobierno portugués no ha descartado el otorgamiento de un nuevo conjunto de medidas de apoyo por parte de las instituciones internacionales, reflejando la complejidad de su situación, lo que es corroborado por el señor Sergio Lehmann, quien precisa, además, que si bien esa noticia generó una reacción positiva en los mercados, los EMBI y los spreads se han mantenido elevados y más altos que hace un mes atrás, dando cuenta que esta tensión política se ha visto reflejada en los indicadores financieros de ese país. Otra noticia que ha tenido efectos en el plano económico la constituye la situación de Egipto, en que continúa la tensión política tras el golpe de Estado. Hace notar que a pesar que este país no es un productor importante de petróleo, el mayor riesgo derivado del efecto de estas tensiones sobre la situación en el Medio Oriente ha generado presiones al alza en su precio."
+      },
+      {
+        "ID_Padre": 5636,
+        "Cita": "ACTA DE LA SESIÓN DE POLÍTICA MONETARIA N° 200 celebrada el día jueves 11 de julio de 2013 En Santiago de Chile, a 11 de julio de 2013, siendo las 11:00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don Rodrigo Vergara Montes y con la asistencia del Vicepresidente señor Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Joaquín Vial Ruiz-Tagle. Asiste a esta Sesión el Ministro de Hacienda, señor Felipe Larraín Bascuñan. Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera Subrogante, don Gabriel Aparici Cardozo; Gerente de División Estadísticas, don Ricardo Vicuña Poblete ; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Investigación Económica, don Claudio Raddatz Kiefer; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente Asesor de Comunicaciones, don Luis Alvarez Vallejos; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Secretario Ejecutivo Subrogante del Gabinete de la Presidencia, doña Erika Arraño González; Economista Senior, doña Tatiana Vargas Manzo; Asesor de la Presidencia, don Víctor Riquelme Peñaloza; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L23-5643-425",
+    "ID_Padre": 5643,
+    "Fecha": "2013-07-11",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "f8078bfaacc4be58cba84bad406feda84e9ef0876478d6d5bcaada03ee1b890a",
+    "Inicio": 425,
+    "Fin": 475,
+    "Cita_Inicio": "lo cual es confirmado por el señor Sergio Lehmann.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann confirma la observación de Vial sobre flujos; la declaración inicial de Soto sobre información futura permanece independiente y con el residuo y conservado.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 5643,
+        "Cita": "El Gerente de Análisis Macroeconómico señor Claudio Soto indica que se proporcionará esta información al término de la presentación del escenario internacional. y El Consejero señor Joaquín Vial destaca que todas las regiones exhiban flujos de capitales negativos, lo que en su opinión daría cuenta de que los inversionistas están retirando sus posiciones de los mercados internacionales y regresando a sus países de origen, lo cual es confirmado por el señor Sergio Lehmann."
+      },
+      {
+        "ID_Padre": 5636,
+        "Cita": "ACTA DE LA SESIÓN DE POLÍTICA MONETARIA N° 200 celebrada el día jueves 11 de julio de 2013 En Santiago de Chile, a 11 de julio de 2013, siendo las 11:00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don Rodrigo Vergara Montes y con la asistencia del Vicepresidente señor Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Joaquín Vial Ruiz-Tagle. Asiste a esta Sesión el Ministro de Hacienda, señor Felipe Larraín Bascuñan. Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera Subrogante, don Gabriel Aparici Cardozo; Gerente de División Estadísticas, don Ricardo Vicuña Poblete ; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Investigación Económica, don Claudio Raddatz Kiefer; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente Asesor de Comunicaciones, don Luis Alvarez Vallejos; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Secretario Ejecutivo Subrogante del Gabinete de la Presidencia, doña Erika Arraño González; Economista Senior, doña Tatiana Vargas Manzo; Asesor de la Presidencia, don Víctor Riquelme Peñaloza; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
   }
 ]

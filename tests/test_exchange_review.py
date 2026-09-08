@@ -112,15 +112,15 @@ class ExchangeReviewTests(unittest.TestCase):
 
     def test_president_question_then_deramon_answer(self):
         parts = self.parts(2704)
-        self.assertEqual([a for t,a,m in parts],[DERAMON,PRES,DERAMON,MARSHALL])
+        self.assertEqual([a for t,a,m in parts],[DERAMON,PRES,DERAMON,MARSHALL,SOTO])
         self.assertEqual(parts[1][0],'Es decir, no es problema de demanda, consulta el señor Presidente,')
         self.assertTrue(parts[2][0].startswith('a lo cual el señor de Ramón manifiesta'))
         self.assertIn('Podría ser que subsistan los problemas de oferta',parts[2][0])
 
-    def test_passive_confirmation_retained_without_certifying_last_segment(self):
-        # Alcance de esta tanda: la confirmación pasiva requiere lectura separada.
+    def test_passive_confirmation_recovered_by_loop23(self):
+        # LOOP23: la confirmación pasiva recibió una revisión individual.
         last = self.parts(2704)[-1]
-        self.assertEqual(last[1],MARSHALL)
+        self.assertEqual(last[1],SOTO)
         self.assertTrue(last[0].endswith('lo cual es confirmado por el señor Claudio Soto.'))
 
     def test_reviewed_intervals_survive_exactly_and_fail_on_truncation(self):

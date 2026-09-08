@@ -84,20 +84,6 @@
     "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
   },
   {
-    "Revision_ID": "ALERTA-20260908-L12-2704",
-    "ID_Padre": 2704,
-    "Fecha": "2009-09-08",
-    "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
-    "Inicio": 1000,
-    "Fin": 1210,
-    "Texto_Intervalo": "El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto.",
-    "Actor_Provisional": "Enrique Marshall Rivera",
-    "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
-    "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
-    "Justificacion": "La intervención de Marshall incluye lo cual es confirmado por el señor Claudio Soto. Se deja explícitamente pendiente delimitar esa confirmación pasiva, sin alterar la pregunta presidencial y la respuesta de De Ramón ya revisadas.",
-    "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
-  },
-  {
     "Revision_ID": "ALERTA-20260908-L12-2667",
     "ID_Padre": 2667,
     "Fecha": "2009-08-13",
@@ -852,5 +838,61 @@
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "La respuesta de García queda incompleta en tendrá efectos en los. Se separa lo identificable sin inventar su complemento ni unirlo al comentario siguiente de Marfán.",
     "Limitacion": "Sólo este intervalo. La atribución contextual no certifica integridad textual ni exclusividad de voz en tramos ambiguos. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L23-2885",
+    "ID_Padre": 2885,
+    "Fecha": "2010-01-14",
+    "SHA256_Texto_Padre": "6faf2896f7f4092243cdaaec6972b86807b1bcc205912dabe81816183624ab6f",
+    "Inicio": 245,
+    "Fin": 2645,
+    "Texto_Intervalo": "En primer término, el señor Manuel Marfán señala que las principales economías han mantenido, en lo grueso, las perspectivas de hace un mes, y que hay ciertas economías de menor tamaño relativo que han comenzado a exhibir mayor vulnerabilidad y que requieren más atención, como es el caso en América Latina de Argentina y Venezuela, y en la Zona Euro, de España y, especialmente, Grecia e Islandia. Menciona que esta es una visión a las que se añadieron hace un mes atrás. En general, manifiesta que las principales economías han evitado una recesión profunda sobre la base de combinaciones de política inéditamente expansivas, las que son sostenibles en el corto plazo, pero no en el largo plazo. Por lo mismo, a su juicio, a medida que avanza el tiempo se acorta el plazo para retirar las políticas expansivas, a la vez que no parece que esas economías y sus sistemas financieros puedan todavía sostenerse sobre la base de fundamentos del Estado. En lo interno, el señor Manuel Marfán indica que el escenario central del último IPoM, como señala la Minuta de Opciones, sigue siendo el más probable. Con todo, agrega que los riesgos de la inflación parecen haber transitado del equilibrio hacia un sesgo a la baja. El señor Marfán declara compartir el análisis de la Minuta de Opciones en cuanto a la decisión de mantener la TPM en su nivel actual, y que lo que cabe decidir es más bien el contenido del comunicado. Al respecto, señala que no mencionaría el fortalecimiento del peso ni las menores perspectivas de inflación subyacente, principalmente para no introducir modificaciones al contenido del mismo como una señal, mientras que sí eliminaría la comparación que se hizo en el comunicado anterior y que es inédita, por lo menos durante el tiempo que ha estado en el Consejo, respecto de la trayectoria futura esperada para la TPM y su relación con las expectativas y los precios financieros, estimando que es conveniente retirarla. Finalmente, el señor Vicepresidente menciona que modificaría la referencia sobre las condiciones crediticias, señalando que se han vuelto menos estrechas. En todo lo demás, incluyendo las referencias a las FLAP, sugiere mantener el comunicado tal como hace un mes atrás. En consecuencia, el Vicepresidente, señor Manuel Marfán, vota por mantener la TPM en su nivel actual, modificando en el margen los contenidos del comunicado. Para concluir con la votación,.",
+    "Actor_Provisional": "Manuel Marfán Lewis",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Se conserva el final Para concluir con la votación,. del desarrollo de Marfán. Su identificación posterior es explícita, pero no permite completar ni certificar ese final.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L23-3268",
+    "ID_Padre": 3268,
+    "Fecha": "2010-07-15",
+    "SHA256_Texto_Padre": "ab4d4c2de94f94b06e0f718a60498c38f7f8b33a07f53fa751ae73338d5f974d",
+    "Inicio": 1010,
+    "Fin": 1698,
+    "Texto_Intervalo": "El Gerente de División Estudios manifiesta que la diferencia fundamental radica en que la curva expuesta se calcula para el tramo largo, de dos a más años, con los BCP, aun cuando se sabe que los BCP con la swap no están perfectamente arbitrados. De hecho, indica que la concavidad de la swap de aquí a un año es mayor que la concavidad de la curva forward referida, lo que refleja que el punto de llegada de la swap debiera estar por debajo del punto de llegada de los BCP y forward. Añade que, de hecho, los operadores y los analistas efectúan apuestas respecto del grado de concavidad de la curva y ello forma parte del debate de la trayectoria de la TPM. No habiendo más comentarios,.",
+    "Actor_Provisional": "Pablo García Silva",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "García responde sobre las curvas y su exposición termina en No habiendo más comentarios,. No completar ni certificar la cláusula final; separar el intercambio precedente no reconstruye el texto.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L23-3775",
+    "ID_Padre": 3775,
+    "Fecha": "2011-02-17",
+    "SHA256_Texto_Padre": "efc7ea6aa75fa4b21ad023b66e2b2591557bc4266f130bd44428582b35cbcb9c",
+    "Inicio": 0,
+    "Fin": 440,
+    "Texto_Intervalo": "El Presidente señor José De Gregorio plantea que a contar de marzo del año 2010 se han creado cuatrocientos cincuenta mil empleos, es decir, seiscientos mil en doce meses, lo cual es confirmado por el señor Rodrigo Cerda. Concluye, en consecuencia, que habida consideración que la productividad del año 2010 será la de menor crecimiento en la historia de Chile, el incremento en la creación de empleo va a explicar el dinamismo del consumo.",
+    "Actor_Provisional": "José De Gregorio Rebeco",
+    "Motivo": "HABLANTES_POR_DELIMITAR",
+    "Decision": "PENDIENTE_DELIMITACION_DE_VOCES",
+    "Justificacion": "La confirmación de Cerda es explícita, pero Concluye, en consecuencia carece de sujeto nominal y podría retomar al Presidente o continuar a Cerda. La etiqueta De Gregorio es provisional para la fila compuesta; no es autor exclusivo certificado de la confirmación. Delimitación pendiente, sin inferir daño OCR, identidad desconocida ni una frontera segura.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L23-5643",
+    "ID_Padre": 5643,
+    "Fecha": "2013-07-11",
+    "SHA256_Texto_Padre": "f8078bfaacc4be58cba84bad406feda84e9ef0876478d6d5bcaada03ee1b890a",
+    "Inicio": 0,
+    "Fin": 162,
+    "Texto_Intervalo": "El Gerente de Análisis Macroeconómico señor Claudio Soto indica que se proporcionará esta información al término de la presentación del escenario internacional. y",
+    "Actor_Provisional": "Claudio Soto Gamboa",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Se conserva la y aislada al final de Soto antes del comentario de Vial. No trasladar ni borrar el residuo al separar después la confirmación de Lehmann.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
   }
 ]

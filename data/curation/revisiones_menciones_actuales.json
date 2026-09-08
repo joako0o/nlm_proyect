@@ -536,5 +536,68 @@
         "Cita": "El Presidente señor José De Gregorio consulta qué sucede con la diferencia de la ponderación entre las cifras antiguas y las nuevas que resulten de este cambio. El Gerente señor Lehmann señala que efectivamente es importante la ponderación de las paridades del poder de compra, lo que significa una baja de China e India, derivada de la mencionada modificación, que tiene por objeto renovar y revisar las indicaciones de los precios internos de esas economías y también las de otros países. En relación a los datos sobre expectativas de Tasas de Política Monetaria en Estados Unidos de América, que se obtienen a partir de los precios de opciones, el Consejero señor Manuel Marfán consulta si dichos precios que se utilizan para hacer esta medición no están contaminados por la crisis subprime, ya que se ha observado que existen tasas de interés que sí están contaminadas con ese fenómeno, como las de corto plazo. El Gerente señor Lehmann, respondiendo al Consejero señor Marfán, señala que entiende que estos datos están relativamente limpios, pero no estaría en condiciones de afirmar que no pudieran estar en alguna medida afectados por ese fenómeno. Agrega que esta información de opciones se obtiene de indicadores fehacientes de lo que el mercado está anticipando y ello, además, es coherente con lo que están analizando los bancos de inversión en materia de movimientos de Tasas de Política Monetaria. Sobre el particular, el señor Ministro de Hacienda señala que, en su opinión, aún cuando estos indicadores estuvieran contaminados estarían comparando dos informaciones que igualmente lo están. En consecuencia, si se toma la diferencia entre esas cifras, la variación será independiente del grado de contaminación que tenga, siempre que los factores sean simétricos."
       }
     ]
+  },
+  {
+    "Revision_ID": "MENCION-20260908-L23-1926",
+    "ID_Padre": 1926,
+    "Fecha": "2008-07-10",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "d754ac7e0a06f23d332b3b73c0e784f1b673fdd0ecf938c39f8f23562f968429",
+    "Inicio": 0,
+    "Fin": 228,
+    "Cita_Inicio": "El Presidente señor José De Gregorio comenta el punto del inversi",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Motivo_Revisado": "POSIBLE_OTRO_HABLANTE_O_MENCION",
+    "Justificacion": "De Gregorio comenta un punto de Soros referido en pasado. La relativa quien señaló no introduce una intervención actual de Soros.",
+    "Limitacion": "Lectura íntegra dirigida de fila sin alerta automática previa; en 3775 se añade advertencia de límite pendiente. No modifica actor, texto o segmentación ni certifica otros motivos. Sin nuevo cotejo PDF ni muestra independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1926,
+        "Cita": "El Presidente señor José De Gregorio comenta el punto del inversionista George Soros sobre la especulación en el petróleo, quien señaló que el inventario de crudo era acumulado por los países petroleros, no produciendo petróleo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "MENCION-20260908-L23-4161",
+    "ID_Padre": 4161,
+    "Fecha": "2011-07-14",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "bec89b775709961c221443ac4c10ca0d18f9b603de85b2c77518ad29fc374a67",
+    "Inicio": 0,
+    "Fin": 226,
+    "Cita_Inicio": "El Presidente señor José De Gregorio alude a lo expresado por el ",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Motivo_Revisado": "POSIBLE_OTRO_HABLANTE_O_MENCION",
+    "Justificacion": "De Gregorio alude expresamente a lo dicho por Bernanke. La relativa quien manifestó reproduce una declaración ajena, no un turno actual de Bernanke.",
+    "Limitacion": "Lectura íntegra dirigida de fila sin alerta automática previa; en 3775 se añade advertencia de límite pendiente. No modifica actor, texto o segmentación ni certifica otros motivos. Sin nuevo cotejo PDF ni muestra independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4161,
+        "Cita": "El Presidente señor José De Gregorio alude a lo expresado por el Presidente de la Reserva Federal Ben Bernanke, quien manifestó que había opciones para evitar el default y alternativas para cumplir con los pagos comprometidos."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "MENCION-20260908-L23-3775",
+    "ID_Padre": 3775,
+    "Fecha": "2011-02-17",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "efc7ea6aa75fa4b21ad023b66e2b2591557bc4266f130bd44428582b35cbcb9c",
+    "Inicio": 0,
+    "Fin": 440,
+    "Cita_Inicio": "El Presidente señor José De Gregorio plantea que a contar de marz",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Decision": "PENDIENTE_DELIMITAR_APORTE",
+    "Motivo_Revisado": "POSIBLE_OTRO_HABLANTE_O_MENCION",
+    "Justificacion": "Cerda confirma el número de empleos, pero no es seguro quién pronuncia Concluye, en consecuencia. No contar la confirmación como mención legítima ni fabricar el retorno de De Gregorio; queda advertida la atribución provisional de la fila.",
+    "Limitacion": "Lectura íntegra dirigida de fila sin alerta automática previa; en 3775 se añade advertencia de límite pendiente. No modifica actor, texto o segmentación ni certifica otros motivos. Sin nuevo cotejo PDF ni muestra independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3775,
+        "Cita": "El Presidente señor José De Gregorio plantea que a contar de marzo del año 2010 se han creado cuatrocientos cincuenta mil empleos, es decir, seiscientos mil en doce meses, lo cual es confirmado por el señor Rodrigo Cerda. Concluye, en consecuencia, que habida consideración que la productividad del año 2010 será la de menor crecimiento en la historia de Chile, el incremento en la creación de empleo va a explicar el dinamismo del consumo."
+      }
+    ]
   }
 ]

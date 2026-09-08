@@ -22,5 +22,27 @@
       "HAB-20260908-L17-6443-3"
     ],
     "Motivo_Residual": "VARIANTE_IDENTIDAD_POR_VERIFICAR"
+  },
+  {
+    "Revision_Retiro": "RETIRO-20260908-L23-2704",
+    "Alerta_Original": {
+      "Revision_ID": "ALERTA-20260908-L12-2704",
+      "ID_Padre": 2704,
+      "Fecha": "2009-09-08",
+      "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+      "Inicio": 1000,
+      "Fin": 1210,
+      "Texto_Intervalo": "El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto.",
+      "Actor_Provisional": "Enrique Marshall Rivera",
+      "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
+      "Justificacion": "La intervención de Marshall incluye lo cual es confirmado por el señor Claudio Soto. Se deja explícitamente pendiente delimitar esa confirmación pasiva, sin alterar la pregunta presidencial y la respuesta de De Ramón ya revisadas.",
+      "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
+    },
+    "Justificacion": "Leído completo el padre. La fila compuesta de 210 caracteres se separa en Marshall 161 y Soto 48. La confirmación pasiva queda identificada por sujeto nominal; se preservan la pregunta presidencial y las respuestas de De Ramón. El retiro cierra sólo esta advertencia de mezcla, no otros motivos del padre ni del corpus.",
+    "Revisiones_Sustitutas": [
+      "HAB-20260908-L23-2704-1162"
+    ],
+    "Motivo_Residual": "FINAL_SIN_PUNTUACION permanece visible en otros segmentos; no cierre integral del padre."
   }
 ]

@@ -242,15 +242,14 @@ class LoopTwelveTests(unittest.TestCase):
         self.assertEqual(len(matching),1);matching[0]['Motivos_Revision']=e['Motivo']
         self.assertFalse(validate_context_warnings(rows,{2661:e}))
         matching[0]['Texto']+=' agregado';self.assertTrue(validate_context_warnings(rows,{2661:e}))
-    def test_warning_2704_is_exact_and_not_an_attribution_fix(self):
-        warnings=load_context_warnings(self.raw);e=warnings[2704]
-        self.assertEqual(e['Actor_Provisional'],'Enrique Marshall Rivera')
-        self.assertEqual(e['Motivo'],'PASAJES_CONJUNTOS_POR_DELIMITAR');self.assertIn('confirmado por el señor Claudio Soto',e['Texto_Intervalo'])
-        rows=[dict(ID=i,ID_Padre=2704,Fecha=self.raw[2704]['Fecha'],Texto=t,Actor_Final=a,Motivos_Revision='') for i,(t,a,m) in enumerate(self.parts(2704))]
-        matching=[r for r in rows if contextual_motives(r,warnings)]
-        self.assertEqual(len(matching),1);matching[0]['Motivos_Revision']=e['Motivo']
-        self.assertFalse(validate_context_warnings(rows,{2704:e}))
-        matching[0]['Texto']+=' agregado';self.assertTrue(validate_context_warnings(rows,{2704:e}))
+    def test_warning_2704_archived_after_loop23_separation(self):
+        warnings=load_context_warnings(self.raw);self.assertNotIn(2704,warnings)
+        archive=json.loads(Path('data/curation/alertas_contextuales_retiradas.json').read_text())
+        old=next(e['Alerta_Original'] for e in archive if e['Alerta_Original']['ID_Padre']==2704)
+        self.assertEqual(old['Actor_Provisional'],'Enrique Marshall Rivera')
+        self.assertEqual(old['Motivo'],'PASAJES_CONJUNTOS_POR_DELIMITAR')
+        self.assertEqual(len(old['Texto_Intervalo']),210)
+        self.assertEqual([(a,len(t)) for t,a,m in self.parts(2704)[-2:]],[('Enrique Marshall Rivera',161),('Claudio Soto Gamboa',48)])
     def test_warning_2667_is_exact_and_not_an_attribution_fix(self):
         warnings=load_context_warnings(self.raw);e=warnings[2667]
         self.assertEqual(e['Actor_Provisional'],'Sergio Lehmann Beresi')

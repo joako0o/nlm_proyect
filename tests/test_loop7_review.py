@@ -133,7 +133,7 @@ FIXTURES = {2668: {'hash': '7696cae883f2ac1a8f1761e6a582e04c3f16b1697089534135a8
  3161: {'hash': '496b346628b36e8efe4f0a49d71c52b7284977e5cbc5187e3155a3c68e506f56',
         'parts': [['Enrique Marshall Rivera', 109, 'SUJETO_ROL_NOMBRE']]},
  3186: {'hash': '65a440f8ebabefcb64efd154c3e8bc226708372a0611c86f931a7f47e7e71a77',
-        'parts': [['Sebastián Claro Edwards', 156, 'SUJETO_ROL_NOMBRE']]},
+        'parts': [['Sebastián Claro Edwards', 108, 'SUJETO_ROL_NOMBRE'], ['Claudio Soto Gamboa', 47, 'CONTEXTO_REVISADO']]},
  3256: {'hash': 'f183b1feaba61b7ad5ea401773b9058677852ba7b6b5dd6c8c47486bf49a6dba',
         'parts': [['Pablo García Silva', 306, 'SUJETO_ROL_NOMBRE']]},
  3298: {'hash': 'dbc17baf722e6c766c8f8d697713f797fcd4a534930dce008c13ec5fa8a03021',
