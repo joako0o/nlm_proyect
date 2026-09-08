@@ -81,7 +81,7 @@ def load_speaker_reviews(raw_by_id, path=SPEAKER_REVIEWS):
         text = str(target['Texto'])
         if text_hash(text) != entry['SHA256_Texto_Padre']:
             raise ValueError('Revisión de hablante: cambió el texto de origen')
-        if entry.get('Tipo_Limite') not in (None, 'COORDINACION_Y_EXPLICITA', 'CONCATENACION_EXPLICITA_REVISADA', 'RESPUESTA_A_LO_QUE_EXPLICITA', 'RESPUESTA_POR_LO_QUE_EXPLICITA', 'GERUNDIO_SENALANDO_EXPLICITO', 'CESION_RELATIVA_EXPLICITA', 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO', 'OPINION_TRAS_CITA_CERRADA_REVISADA'):
+        if entry.get('Tipo_Limite') not in (None, 'COORDINACION_Y_EXPLICITA', 'CONCATENACION_EXPLICITA_REVISADA', 'RESPUESTA_A_LO_QUE_EXPLICITA', 'RESPUESTA_POR_LO_QUE_EXPLICITA', 'GERUNDIO_SENALANDO_EXPLICITO', 'CESION_RELATIVA_EXPLICITA', 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO', 'OPINION_TRAS_CITA_CERRADA_REVISADA', 'RETORNO_TRAS_CITA_CERRADA_REVISADA'):
             raise ValueError('Tipo de límite revisado inválido')
         start, end = entry['Inicio'], entry['Fin']
         if not 0 <= start < end <= len(text) or not text[start:end].startswith(entry['Cita_Inicio']):

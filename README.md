@@ -1,70 +1,71 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de 7.219
-filas originales. La salida tiene **9.525 filas físicas / 9.524 bloques de texto**,
+filas originales. La salida tiene **9.551 filas físicas / 9.550 bloques de texto**,
 con actor, cargo, trazabilidad y alertas. Una intervención extensa ocupa dos filas
 por el límite de XLSX. **315 grupos comparten varias filas bajo un mismo
 `ID_Turno`**, con hasta once filas consecutivas; no se fusionan registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.155 pruebas. No certifican pureza semántica total.**
-Quedan **334 filas con alertas en 297 padres**. No son 334 errores confirmados
+**F0 y F1 pasan, con 1.200 pruebas. No certifican pureza semántica total.**
+Quedan **346 filas con alertas en 306 padres**. No son 346 errores confirmados
 ni todas filas sin leer. `SIN_ALERTAS_AUTOMATICAS` tampoco significa revisión humana.
 
-**Informe vigente:** [LOOP17: diálogos sin alerta y Gloria Peña](docs/REVISION_LOOP17_2026-09-08.md).
-**Doce padres con separación estructural**, once antes sin alerta, leídos íntegramente
-en su texto disponible. Los otros **7.207 padres** conservan sus campos semánticos,
-descontando identificadores secuenciales. Ver [comparación global](docs/comparacion_loop17_2026-09-08.json),
-[detalle CSV](docs/cambios_loop17_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop17_2026-09-08.json).
+**Informe vigente:** [LOOP18: fiscales, Comunicaciones y cambios ocultos por OCR](docs/REVISION_LOOP18_2026-09-08.md).
+**19 padres con separación estructural y cuatro sólo con metadatos de atribución/nombre**.
+Los otros **7.196 padres** conservan sus campos semánticos, descontando identificadores.
+Ver [comparación global](docs/comparacion_loop18_2026-09-08.json),
+[detalle CSV](docs/cambios_loop18_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop18_2026-09-08.json).
 
-- **6013/6014/6015/6016/6019:** se recuperan intervenciones de Ricaurte y se
-  conservan los retornos de Vergara y Claro. Las exposiciones largas permanecen
-  unidas, sin convertir cada país, indicador o mención en un nuevo turno.
-- **6441/6442/6443/6451:** se separa a Ricaurte del participante inicial. En
-  **6443** quedan cinco intervenciones: Beltrán → Pablo García → Ricaurte →
-  Beltrán → Ricaurte. En 6451, cierre presidencial e incorporación institucional
-  siguen aparte.
-- **4364:** se recupera la respuesta de Soto entre dos intervenciones de
-  De Gregorio; el literal «Claudios Soto» se conserva y se advierte.
-- **6769/6770:** se recuperan dos intervenciones de **Gloria Peña Tapia**,
-  respaldadas por discurso y nómina 6755. Se incorpora su nombre al registro
-  nominal y el cargo explícito de Estadísticas Subrogante al catálogo de nóminas.
-  La referencia a ella en **6930** no se transforma en una intervención.
+- **5105–5108/5183/6277:** se recuperan respuestas de **Miguel Ángel Nacrur**,
+  conservando preguntas, retornos y el homenaje de Vergara como intervenciones
+  de sus respectivos hablantes. En 5183, la decisión final se separa como acta
+  institucional, no como opinión de Nacrur o Vicuña.
+- **6113:** se recupera la confirmación de **Pablo Mattar**, antes del acuerdo;
+  no se le atribuye un voto. **1742/2354:** se recupera a **Luis Alberto Álvarez**.
+  Los tres nombres y sus cargos se sustentan en discurso y nóminas, no en asistencia sola.
+- **1424/1663/1860/2473/2865/2957:** se separan cambios de hablante ocultos por
+  nombres o construcciones defectuosas. Se conservan y advierten Marshali,
+  Manual Marfán, Oesormeaux, Rabio García y «Al Presidente».
+- **2778/2909:** se recuperan los retornos de Soto sin perder sus anclas posteriores.
+  Los desarrollos largos y sus enumeraciones se mantienen unidos.
+- **4054:** la declaración de Marfán de sumarse a la mayoría se separa del
+  comunicado ya cerrado, mediante un límite revisado con hash y controles estrictos.
+- **4594:** se recupera a Ricaurte después de Herrera, conservando la advertencia
+  de identidad. **1003/2990/3476/3619:** revisión acotada de atribución/nombre,
+  sin cambiar textos, actores o límites. No se certifican todos sus tramos.
 
-Son **16 intervalos nuevos**, total **250 en 237 padres**. Los 234 anteriores
-permanecen idénticos. Tres advertencias nuevas (4364/6013/6015), una retirada
-por separación de 6443 y **archivada íntegra**, y las otras 23 anteriores intactas:
-**26 advertencias contextuales activas**. Las rupturas textuales no se reconstruyen.
-La identidad global de Ricaurte no queda resuelta por las nóminas locales.
+Son **26 intervalos nuevos**, total **276 en 259 padres**. Los 250 anteriores
+permanecen idénticos. Diez advertencias contextuales nuevas, las 26 previas intactas:
+**36 activas**. No se retira ninguna; el archivo del retiro previo de 6443 no cambia.
+**21 de los 23 padres afectados estaban sin alerta**, incluidos los 19 con separación.
 
 **Todos los enlaces previos entre padres y grupos no afectados se conservan**,
-incluidas las dos exposiciones de García de once filas. Sin enlaces nuevos ni
-retirados. `CONTEXTO_REVISADO` no crea anclas globales; se mantienen los controles
-anteriores de 780/1092/2790, 3110, 3421 y 5402/5403.
-Los esquemas XLSX 37/24, once menciones actuales, 21 fórmulas y tres documentos
-leídos siguen intactos: **Larraín autor ≠ Vergara lector**, sin inferir asistencia
-ni habla oral del autor. **69 hashes de entradas/código y once de salidas verificados**;
-la base publicada coincide campo por campo con el ensayo aislado.
+incluidas las dos exposiciones de García de once filas y la continuidad 224 → 225 → 226.
+Sin enlaces nuevos ni retirados. `CONTEXTO_REVISADO` no crea anclas globales;
+`Fin` por sí solo no crea cortes. Esquemas XLSX **37/24**, once menciones actuales,
+21 fórmulas y tres documentos leídos intactos: **Larraín autor ≠ Vergara lector**,
+sin inferir asistencia o habla oral del autor. **70 hashes de entradas/código y once
+de salidas verificados**; la base publicada coincide campo por campo con el ensayo.
 
-Alertas **322 → 334**: los doce tramos recuperados de Ricaurte hacen visible su
-advertencia de identidad antes oculta; se agrega el aviso de nombre de Soto y se
-retira la antigua advertencia de mezcla de 6443. Los avisos de daño se superponen.
-**20 filas actuales con variante Ricaurte**, antes ocho; no son veinte personas
-ni identidades resueltas. La cola histórica conserva **104 intervalos pendientes
-de lectura contextual** y seis con variante de identidad. Sus estados no cambian:
-estos doce padres no pertenecen a las 783 alertas históricas. Los conteos se
-superponen y **no se suman**; tampoco se equiparan once menciones actuales y ocho históricas.
+Alertas **334 → 346**, con nombres, daño y finales literales preservados. Hay
+**21 filas actuales con variante Ricaurte**, no veintiuna personas ni identidades
+resueltas. La cola histórica conserva **104 intervalos pendientes de lectura contextual**:
+500 comparaciones automáticas, 178 lecturas dirigidas y 105 triajes; seis intervalos
+históricos con variante de identidad. Los conteos se superponen y **no se suman**.
+Tampoco se equiparan once menciones actuales y ocho históricas.
 
-Siguen el puente de 780, 6185, 2126/3989, residuos conjuntos, nombres, identidades,
-daños y otras advertencias. El checkpoint incluye candidatos nominales nuevos
-sólo como triaje. Faltan cotejos documentales y una muestra independiente con y
-sin alertas. No hubo nuevo cotejo PDF ni lectura exhaustiva del corpus.
+Siguen 226, el puente de 780, 6185, pasajes conjuntos, nombres, identidades y daños.
+226 se leyó sin modificar su continuidad; su discrepancia nominal sigue pendiente.
+El checkpoint distingue nuevos candidatos de triaje y revisiones aplicadas.
+Faltan cotejos documentales y una muestra independiente con y sin alertas.
+No hubo nuevo cotejo PDF ni lectura exhaustiva del corpus.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP16_2026-09-08.md)
-conserva **9.504 filas / 322 alertas / 1.129 pruebas**. Verificaciones locales:
+**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP17_2026-09-08.md)
+conserva **9.525 filas / 334 alertas / 1.155 pruebas**. Verificaciones locales:
 el workflow de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline
@@ -279,9 +280,10 @@ igualdad binaria del ZIP XLSX: los metadatos del archivo incluyen timestamps.
 
 ## Límites y uso analítico
 
-- Hay **51 etiquetas nominales de actor** (50 personales y el Consejo), no un censo
-  de identidades independientemente verificadas. La subida de 50 a 51 incorpora
-  las intervenciones de Gloria Peña Tapia, con discurso y nómina explícitos.
+- Hay **54 etiquetas nominales de actor** (53 personales y el Consejo), no un censo
+  de identidades independientemente verificadas. La subida de 51 a 54 incorpora
+  intervenciones de Luis Alberto Álvarez Vallejos, Miguel Ángel Nacrur Gazali y
+  Pablo Mattar Oyarzún, con discurso y nóminas explícitos. Gloria Peña se conserva.
   La variante `Miguel Ricaurte Vintimilla` / `Miguel Ricaurte Bermúdez` sigue advertida:
   no se certifica equivalencia ni se modifican sus alias. El actor original
   Vintimilla de 6025 permanece registrado aunque allí se use la etiqueta local Bermúdez.

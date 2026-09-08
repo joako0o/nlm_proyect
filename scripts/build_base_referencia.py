@@ -31,7 +31,8 @@ CONSEJO='Consejo del Banco Central de Chile'
 PSEUDO={'Gerente de División Internacional','Gerente de División Estudios Subrogante','Gerente de Investigación Económica','Gerente de Operaciones Financieras','Gerente de Área Técnica','Gerente de Estabilidad Financiera'}
 EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro','Rodrigo Álvarez Zenteno',
               'Alejandro Micco','Leonardo Hernández Tagle','Alfredo Pistelli',
-              'Gloria Peña Tapia'}
+              'Gloria Peña Tapia','Luis Alberto Álvarez Vallejos',
+              'Miguel Ángel Nacrur Gazali','Pablo Mattar Oyarzún'}
 ALL_ACTORS=sorted(set(str(r[2]).strip() for r in data)|EXTRA_ACTORS)
 REAL=[a for a in ALL_ACTORS if a not in PSEUDO and a!=CONSEJO]
 
@@ -683,6 +684,9 @@ def _inst_transition(sent):
     dividía por error discursos que sólo mencionan al Consejo ("Hace presente
     que ... el Consejo adoptó ...", "En virtud de lo anterior, al Ministro...
     le parece ...", "Consigna que ... el Consejo decidió ...")."""
+    # 5183: decisión institucional literal, no un turno de Vicuña o Nacrur.
+    if sent.strip() == 'Se determinó, dada la importancia de este tema, que el Gerente de División Estadísticas efectúe una presentación sobre el tratamiento de las importaciones de aviones y barcos en una próxima Sesión de Pre Consejo.':
+        return True
     t=_fix_ocr(norm(sent))
     # Registro horario de reanudación, no cualquier mención de una hora.
     if re.match(r'^a las (?:[01]?\d|2[0-3]):[0-5]\d horas, se reanuda la (?:reunion|sesion) de politica monetaria n[°º]\s*\d+\b', t):
@@ -859,7 +863,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA")):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
@@ -900,6 +904,13 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             acknowledgement = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'
             relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement
             opinion_quote = review.get('Tipo_Limite') == 'OPINION_TRAS_CITA_CERRADA_REVISADA'
+            return_quote = review.get('Tipo_Limite') == 'RETORNO_TRAS_CITA_CERRADA_REVISADA'
+            if return_quote:
+                # Retorno nominal después del comunicado cerrado; sólo por revisión con hash.
+                if not re.match(r'^Antes de concluir la Reunión, (?:el|la) ', fragment) or not re.search(r'[.!?][”»"]$', prefix.rstrip()):
+                    raise ValueError('Retorno revisado sin cita cerrada/límite válido')
+                # Proyección sólo para validar el sujeto; el texto guardado no cambia.
+                fragment = fragment[len('Antes de concluir la Reunión, '):]
             if opinion_quote:
                 # Excepción sólo con revisión individual: cita cerrada antes de
                 # una opinión nominal. No divide automáticamente por comillas.
@@ -918,7 +929,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
                 raise ValueError("Revisión de gerundio sin declaración válida")
             quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')
-            if ((not (coordinated or concatenated or reply or opinion_quote) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
+            if ((not (coordinated or concatenated or reply or opinion_quote or return_quote) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
                     or candidate['actor'] != review['Actor'] or candidate['method'] not in EXPLICIT):
                 raise ValueError("Revisión de hablante sin actor/límite válido")
             bounds = sorted({0,len(text),review["Inicio"]} | {a for a,b in spans} | {b for a,b in spans})
