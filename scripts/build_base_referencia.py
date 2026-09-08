@@ -583,6 +583,11 @@ def seg_candidates(text,date):
                 cands.append({'actor':actor,'pos':m.start(),'verb':verb,'mention':mentioned,'method':'NOMBRE+VERBO' if verb else 'NOMBRE','name':None})
     return cands
 
+# Reanudación dañada constatada en 4502. Sólo esta fórmula literal habilita
+# el prefijo OCR; no se borra «i,-» ni se generaliza a basura entre oraciones.
+_DAMAGED_REOPENING = 'i,- Siendo las 16:00 horas, se reanuda la Reunión de Política Monetaria N° 179.'
+
+
 def split_sentences(text):
     # Conservar offsets originales. No usar saltos OCR como fin de oración.
     boundaries = {0, len(text)}
@@ -627,6 +632,12 @@ def split_sentences(text):
         if before.count('"') % 2 or before.count('“') > before.count('”') or before.count('«') > before.count('»'):
             continue
         boundaries.add(m.start())
+    for m in re.finditer(re.escape(_DAMAGED_REOPENING), text):
+        before = text[:m.start()]
+        quoted = (before.count('"') % 2 or before.count('“') > before.count('”')
+                  or before.count('«') > before.count('»'))
+        if re.search(r'\.\s+$', before) and not quoted:
+            boundaries.add(m.start())
     positions = sorted(boundaries)
     return list(zip(positions, positions[1:]))
 
@@ -664,6 +675,8 @@ def _inst_transition(sent):
     que ... el Consejo adoptó ...", "En virtud de lo anterior, al Ministro...
     le parece ...", "Consigna que ... el Consejo decidió ...")."""
     t=_fix_ocr(norm(sent))
+    if sent.strip() == _DAMAGED_REOPENING:
+        return True
     if t.startswith(('siendo las','se levanta','se reanuda','se suspende','se retiran',
                      'se retira','se incorpora','se acuerda','comunicado','acuerdo n',
                      'se deja constancia','en su reunion mensual','a continuacion el consejo',

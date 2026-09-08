@@ -1,59 +1,62 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.245 filas físicas de
-Excel / 9.244 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
+consolidado de 7.219 filas. La salida actual tiene **9.251 filas físicas de
+Excel / 9.250 bloques de texto**, con actor, cargo, trazabilidad y alertas de revisión.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
 **301 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
 ## Estado actual — 2026-09-07
 
-**F0 y F1 pasan, con 339 pruebas de regresión. Esto no certifica pureza semántica
-total de cada intervención.** Quedan **618 filas con alertas** para revisión
+**F0 y F1 pasan, con 351 pruebas de regresión. Esto no certifica pureza semántica
+total de cada intervención.** Quedan **615 filas con alertas** para revisión
 dirigida. Los seis cargos antes pendientes tienen ahora evidencia documental
 versionada (cuatro citas directas y dos de la misma sesión), no asistencia inventada.
-Las alertas se superponen y pueden ser falsos positivos; no son 618 errores
+Las alertas se superponen y pueden ser falsos positivos; no son 615 errores
 confirmados. Tampoco `SIN_ALERTAS_AUTOMATICAS` equivale a revisión humana.
 
 La revisión corrigió textos recuperados que no se estaban incorporando,
 transiciones de hablantes, menciones confundidas con sujetos, categorías con
 tildes, validación parcial de TPM y marcas de duplicados heredadas del padre.
 
-**Informe vigente:** [cuarto bloque: votos, complementos y retornos de exposición](docs/REVISION_LOOP4_2026-09-07.md).
-Se corrigieron **3800, 3810, 3813, 3887, 3906, 4220, 4224, 4341 y 4357**:
-nueve padres pasan de 12 a 22 segmentos, con diez filas nuevas. Se separan
-votos, complementos y retornos sin recortar exposiciones ni reconstruir frases
-dañadas. Se recuperó **3810 → 3811**, la continuación de Marshall, y se
-conservaron 17 enlaces previos comprobados y las dos exposiciones de once filas.
-Las revisiones contextuales no crean por sí solas anclas de continuidad:
-3887 → 3888 y 4224 → 4225 no se agrupan automáticamente bajo un mismo turno.
-El [punto de reanudación](docs/estado_revision_loop4_2026-09-07.json) registra
-pendientes y candidatos. Los tres ciclos están publicados; **no hay un proceso
-activo en segundo plano**.
+**Informe vigente:** [quinto bloque: suspensiones, opinión intermedia y retorno del expositor](docs/REVISION_LOOP5_2026-09-07.md).
+Después de abrir el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3), se
+corrigieron **4384, 4420, 4421 y 4502**: cuatro padres pasan de cinco a once
+segmentos, con seis filas nuevas. Se separan suspensiones del Presidente,
+reanudaciones institucionales y cambios de voz sin recortar exposiciones.
+En 4421 el retorno de Lehmann comienza al exhibir el gráfico, no sólo en el
+cierre. **4420 se encontró por lectura contextual sin aviso de otro hablante**:
+la cola no es exhaustiva. En 4502 se conserva literalmente el prefijo OCR `i,-`.
 
-De las 783 alertas originales, **440** están pendientes de lectura contextual,
+Se conservaron 18 enlaces de continuidad comprobados y las dos exposiciones de
+once filas. Las revisiones contextuales no crean por sí solas anclas:
+3887 → 3888 y 4224 → 4225 siguen sin agruparse automáticamente. El
+[punto de reanudación](docs/estado_revision_loop5_2026-09-07.json) registra
+pendientes y candidatos. Este lote está publicado; **no hay un proceso activo
+en segundo plano**.
+
+De las 783 alertas originales, **437** están pendientes de lectura contextual,
 59 son fórmulas reclasificadas, 72 tienen método actualizado, **123** presentan
-cambios por comparación, **65** tienen una corrección dirigida aplicada, siete
+cambios por comparación, **68** tienen una corrección dirigida aplicada, siete
 son breves válidos, ocho menciones revisadas, seis identidades pendientes, dos
 repeticiones sustantivas y una continuidad documentada. **No es una revisión
 exhaustiva de las 783 filas.** Las ocho lecturas de menciones actuales se cuentan
 aparte, permanecen idénticas y conservan sus avisos.
 
-En este bloque, las alertas pasan de **623 a 618**: ocho avisos netos menos de
-posible otro hablante, cuatro más de puntuación y uno menos de atribución legada.
-Los motivos se superponen; el contador no mide errores confirmados. Además de
-los nueve padres estructurales, sólo cambian metadatos en 3811 (continuidad),
-5231 (método explícito, mismo actor/texto) y **5647 (nuevo aviso, sin adjudicar)**.
-Quedan **63 candidatos** bajo el filtro de otro hablante sin anotación de mención.
-**3191 sigue pendiente por su coincidencia conjunta**, junto con los residuos
-anteriores. Falta continuar la cola, el cotejo documental y la revisión semántica
-independiente. Se separan cambios de voz con evidencia, no cada oración,
-cada párrafo ni cada nombre mencionado.
+En este lote, las alertas pasan de **618 a 615**: tres avisos menos de posible
+otro hablante, sin cambios en los demás motivos. No hay cambios adicionales de
+metadatos semánticos fuera de los cuatro padres. Quedan **60 candidatos** bajo
+el filtro de otro hablante sin anotación de mención. **3191 sigue pendiente por
+su coincidencia conjunta**, al igual que 5647 y los residuos anteriores. Falta
+continuar la cola, el cotejo documental y la revisión semántica independiente.
+Se separan cambios de voz con evidencia, no cada oración, cada párrafo ni cada
+nombre mencionado.
 
-El [informe anterior](docs/REVISION_LOOP3_2026-09-07.md) y sus evidencias se
-conservan como registro histórico de la publicación de **9.235 filas / 623
-alertas / 318 pruebas**.
+El [informe anterior](docs/REVISION_LOOP4_2026-09-07.md) conserva la publicación
+histórica de **9.245 filas / 618 alertas / 339 pruebas**. Las validaciones del PR
+son locales: el workflow propuesto de GitHub Actions queda fuera del PR por
+falta de permiso `workflows` en la conexión.
 
 ## Ejecutar todo el pipeline
 
@@ -111,10 +114,10 @@ data/
     formulas_revisadas.json                   # 18 fórmulas; 59 citas históricas + 4 actuales
     revisiones_menciones_actuales.json       # ocho lecturas acotadas; no suprimen alertas
     revisiones_roles.json                    # seis cargos: citas, sesión, hash y justificación
-    revisiones_hablantes.json                # 70 intervalos acotados con citas y hash
+    revisiones_hablantes.json                # 74 intervalos acotados con citas y hash
   processed/
-    consolidado_base_referencia.xlsx          # 9.245 filas, 37 columnas + hojas de auditoría
-    consolidado_base_referencia_final.xlsx    # 9.245 filas, 24 columnas
+    consolidado_base_referencia.xlsx          # 9.251 filas, 37 columnas + hojas de auditoría
+    consolidado_base_referencia_final.xlsx    # 9.251 filas, 24 columnas
     textos_completos.jsonl                    # 2 textos de origen completos
     decisiones_tpm.csv                       # una fila por sesión, con IDs de evidencia
     revision_783.xlsx                        # seguimiento original + cola actual, tres hojas
