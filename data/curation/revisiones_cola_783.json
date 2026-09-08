@@ -1,0 +1,147 @@
+[
+  {
+    "ID_Original": 409,
+    "SHA256_Texto": "ba458f42797c06cdd3009ba654508c6f3febad77e57ab69e028482a71aad48dc",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Paso de palabra completo y explícito del Presidente; la brevedad no implica pérdida de texto ni un nuevo hablante. Conservar texto y actor.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El Presidente ofrece la palabra para comentarios.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 465,
+    "SHA256_Texto": "ba458f42797c06cdd3009ba654508c6f3febad77e57ab69e028482a71aad48dc",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Paso de palabra completo y explícito del Presidente; la brevedad no implica pérdida de texto ni un nuevo hablante. Conservar texto y actor.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El Presidente ofrece la palabra para comentarios.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 500,
+    "SHA256_Texto": "ba458f42797c06cdd3009ba654508c6f3febad77e57ab69e028482a71aad48dc",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Paso de palabra completo y explícito del Presidente; la brevedad no implica pérdida de texto ni un nuevo hablante. Conservar texto y actor.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El Presidente ofrece la palabra para comentarios.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 551,
+    "SHA256_Texto": "ba458f42797c06cdd3009ba654508c6f3febad77e57ab69e028482a71aad48dc",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Paso de palabra completo y explícito del Presidente; la brevedad no implica pérdida de texto ni un nuevo hablante. Conservar texto y actor.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El Presidente ofrece la palabra para comentarios.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 608,
+    "SHA256_Texto": "ba458f42797c06cdd3009ba654508c6f3febad77e57ab69e028482a71aad48dc",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Paso de palabra completo y explícito del Presidente; la brevedad no implica pérdida de texto ni un nuevo hablante. Conservar texto y actor.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El Presidente ofrece la palabra para comentarios.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 671,
+    "SHA256_Texto": "ba458f42797c06cdd3009ba654508c6f3febad77e57ab69e028482a71aad48dc",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Paso de palabra completo y explícito del Presidente; la brevedad no implica pérdida de texto ni un nuevo hablante. Conservar texto y actor.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El Presidente ofrece la palabra para comentarios.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 5645,
+    "SHA256_Texto": "bdcc61e61b64913c5ccd07ce6fc73113fe9eda82d06be42f560e4cf3c978867a",
+    "Decision": "BREVE_VALIDO_REVISADO",
+    "Justificacion": "Respuesta afirmativa completa de Lehmann a la consulta de De Gregorio en 4141; en 4143 Herrera comenta esa misma cuestión. No falta un contenido obligatorio por tener pocas palabras.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El señor Sergio Lehmann responde afirmativamente.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus."
+  },
+  {
+    "ID_Original": 8424,
+    "SHA256_Texto": "c05e1179a91bf27102f445b1940e36500424a1421b02e248c72eda023cb6578c",
+    "Decision": "CONTINUIDAD_ENTRE_PADRES_REVISADA",
+    "Justificacion": "«anticipa que.» termina el padre 6655, pero la frase continúa en 6656: «uno de los escenarios de riesgo del próximo IPoM…». Mismo Gianelli y misma exposición. No agregar palabras ni eliminar el punto OCR; leer ambos padres juntos.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "El señor Diego Gianellí anticipa que.",
+    "Limite": "Resuelve sólo la alerta de brevedad. No es cotejo PDF ni certificación del corpus.",
+    "Padre_Continuacion": 6656
+  },
+  {
+    "ID_Original": 710,
+    "SHA256_Texto": "766ad0a170656731c03760231859c0bc002f3eafa9396497abfaa09355295b47",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Desormeaux fundamenta su propio voto y recuerda lo señalado antes por el Gerente. No hay respuesta nueva; cierra inclinándose por aumentar 25 puntos base.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "Hace presente que recientemente",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 854,
+    "SHA256_Texto": "ee567cbbc796e3aace9ab3a23f98f76012d1c382c4b07aeeb50100211b9faea0",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Velasco enumera dudas y recuerda diagnósticos de gerentes bajo «Recuerda que» y «tal como lo señaló». Sigue siendo la argumentación del Ministro.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "Recuerda que el Gerente",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 1447,
+    "SHA256_Texto": "c70290e218f04b18c434872dd42f06244b19ce75a5c3f9fc27f252fc24a8aa44",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Valdés comenta riesgos inmobiliarios de Estados Unidos. De Ramón aparece en un inciso comparativo, no como sujeto de una nueva intervención.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "como también lo menciona",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 1721,
+    "SHA256_Texto": "eff768d2d36fde341af252a27fc63b4c30ae96fb0d77b875a32dad513a943143",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Desormeaux señala un posible desfase en créditos y remite a la exposición anterior de Magendzo; no comienza a hablar Magendzo.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "en la exposición",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 1741,
+    "SHA256_Texto": "a7de758a50bdd0ed2509778ce0a8c59f636784182b0e116a99acdefce0411978",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Jadresic distingue promedios y escenarios modales de tasas. Recoge un comentario previo de Magendzo bajo «Manifiesta ... que ... comentó» y cierra él mismo su análisis.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "Manifiesta el señor Jadresic",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 2061,
+    "SHA256_Texto": "40c46a110c150845a64a812823f5e785f087ba56dca0e316a14f263fa7aade95",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Lehmann responde a consultas de Marshall y Marfán. Los consejeros son destinatarios o referentes; el mercado es sujeto de «da cuenta» en el pasaje que activa la alerta, no Marfán.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "en referencia al gráfico",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 3259,
+    "SHA256_Texto": "43039a562f42e9cadfef7c063187093f63e51a5ba091a71aba36a628e397eae2",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "Claro cuestiona la interpretación de deflación expuesta por Lehmann. «Que planteaba el Gerente» describe el escenario previo, no otra intervención. La alerta de método legado es independiente.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "escenario de crecim iento mundial",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  },
+  {
+    "ID_Original": 3301,
+    "SHA256_Texto": "7d7271b7a5d371399e18398d62625b9fc18498fea80f59a65d74eb105f39b3ae",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Justificacion": "De Ramón desarrolla tres hechos y su recomendación monetaria. La relativa «las que ya comentó el Gerente» remite a brechas comentadas antes; no cede la palabra.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Cita": "adicionales a las que ya comentó",
+    "Limite": "Decisión sobre POSIBLE_OTRO_HABLANTE_O_MENCION en este intervalo; no suprime otras alertas. Lectura del consolidado sin cotejo PDF."
+  }
+]

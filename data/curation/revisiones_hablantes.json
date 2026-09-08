@@ -1,0 +1,1692 @@
+[
+  {
+    "Revision_ID": "HAB-20260907-2110",
+    "ID_Padre": 2110,
+    "Fecha": "2008-10-09",
+    "Actor": "Felipe Jaque",
+    "SHA256_Texto_Padre": "96bc3dddd9064eeba1efce0bdd778b38109dc2398e5c9f4b44fe7ac78d64c908",
+    "Inicio": 2240,
+    "Fin": 5673,
+    "Cita_Inicio": "Refiriéndose a los mercados de commodities, el expositor menciona que hay una fuerte y generalizada reducción.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Jaque conduce la exposición internacional antes y después del breve comentario de García sobre el carry trade. La referencia «el expositor» retoma esa presentación; la oración posterior «Menciona el señor Jaque» sigue el mismo análisis de petróleo y gasolina. No propagar automáticamente esta resolución a otros usos de «expositor».",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2110,
+        "Cita": "Por el lado de las monedas, el señor Jaque indica que el dólar se aprecia frente a las principales monedas, con la excepción del yen."
+      },
+      {
+        "ID_Padre": 2110,
+        "Cita": "El Gerente de División Estudios señor Pablo García añade que otra razón para que se produzca la apreciación del yen es el carry trade que, si es que algo quedaba, probablemente desapareció en las últimas semanas."
+      },
+      {
+        "ID_Padre": 2110,
+        "Cita": "Refiriéndose a los mercados de commodities, el expositor menciona que hay una fuerte y generalizada reducción."
+      },
+      {
+        "ID_Padre": 2110,
+        "Cita": "Menciona el señor Jaque que si se observa el mercado de la gasolina, se aprecia un ajuste bastante marcado de las curvas de futuro y también que la proyección alternativa considera mucho más los datos de los últimos dias versus el promedio de los últimos 10 días, que es lo habitual que se considera para cada una de las Reuniones de Política Monetaria."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2336",
+    "ID_Padre": 2336,
+    "Fecha": "2009-02-12",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "d2e621087652b93263f754bd98a9a7fb38b99f94ade29790386a18e507d08c13",
+    "Inicio": 1384,
+    "Fin": 1602,
+    "Cita_Inicio": "En relación a un comentario efectuado por el Gerente señor Claudio Soto respecto al gráfico que se refiere al PIB resto socios comerciales, el Consejero señor Manuel Marfán consulta por el significado de esa expresión.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "La cláusula inicial menciona un comentario anterior de Soto; el sujeto de consulta es Marfán. Soto responde en el padre 2337. El parser se abstiene porque la relativa «que se refiere» en el prefijo puede parecer otro verbo de habla; se resuelve este intervalo sin relajar esa salvaguarda global.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2336,
+        "Cita": "En relación a un comentario efectuado por el Gerente señor Claudio Soto respecto al gráfico que se refiere al PIB resto socios comerciales, el Consejero señor Manuel Marfán consulta por el significado de esa expresión."
+      },
+      {
+        "ID_Padre": 2337,
+        "Cita": "El señor Claudio Soto señala que ello se refiere a la velocidad del PIB resto de los socios comerciales."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-6394",
+    "ID_Padre": 6394,
+    "Fecha": "2014-09-11",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "9a2478c3b2be188ddbc29ae461778225b2a6c1736bf7729a54bd63c1d69c7211",
+    "Inicio": 0,
+    "Fin": 2286,
+    "Cita_Inicio": "El Presidente del Banco Central Europeo señor Mario Draghi, en tanto, dio señales de mayor expansividad monetaria, que se materializaron días después.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "La exposición de Lehmann en 6393 enumera noticias políticas: comienza con Yellen y continúa en 6394 con Draghi y «En segundo lugar» Escocia. El padre 6395 explicita que Lehmann prosigue su presentación. No hay cesión ni intervención de Vergara. La mención de un presidente extranjero no identifica al Presidente del BCCh. Se cambia el actor original incompatible sólo mediante esta revisión documentada, no por herencia ciega.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6393,
+        "Cita": "El señor Sergio Lehmann inicia su intervención refiriéndose a las principales noticias de índole político que han producido efectos en el plano económico desde la Reunión de Política Monetaria, RPM, precedente."
+      },
+      {
+        "ID_Padre": 6394,
+        "Cita": "En segundo lugar, expresa que en el Reino Unido ha ganado fuerza la opción independentista de Escocia, que se definirá en el referéndum que se celebrará el próximo 18 de septiembre, y que el gobierno inglés se ha puesto en campaña para fines de mantener la unión."
+      },
+      {
+        "ID_Padre": 6395,
+        "Cita": "El señor Sergio Lehmann prosigue con su presentación mencionando los hechos destacados en materia de mercados financieros."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-6135",
+    "ID_Padre": 6135,
+    "Fecha": "2014-04-17",
+    "Actor": "Ricardo Vicuña Poblete",
+    "SHA256_Texto_Padre": "de08d9967fae4555cb742775f6289a2151d6b32bdddeacf7530a3a23514c3a18",
+    "Inicio": 665,
+    "Fin": 1162,
+    "Cita_Inicio": "en tanto el Gerente de División Estadísticas señor Ricardo Vicuña precisa que por el momento no ha reportado hasta esta fecha compras de aeronaves",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "La cláusula «en tanto ... Ricardo Vicuña precisa» es respuesta explícita sobre contabilización de aeronaves. La explicación del leasing y el arrendamiento pertenece a Vicuña; termina donde «Miguel Fuentes retoma su presentación». Conservar Fuentes → Soto → Fuentes → Vicuña → Fuentes sin generalizar un corte ante todo «en tanto».",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6135,
+        "Cita": "en tanto el Gerente de División Estadísticas señor Ricardo Vicuña precisa que por el momento no ha reportado hasta esta fecha compras de aeronaves"
+      },
+      {
+        "ID_Padre": 6135,
+        "Cita": "El señor Miguel Fuentes retoma su presentación y menciona que las expectativas empresariales no exhiben grandes cambios desde la última Reunión, manteniéndose en torno al pivote neutral, pero en terreno pesimista."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1457",
+    "ID_Padre": 1457,
+    "Fecha": "2007-09-13",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "1e6685f113d2780eb1a53eb227088481b8ed97711d449625a7a76cf996cf6a04",
+    "Inicio": 90,
+    "Fin": 467,
+    "Cita_Inicio": "y el señor Gerente de División Política Financiera responde",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Velasco pregunta por el horizonte; García explica el impacto cambiario de diferenciales a tres meses y diez años.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1457,
+        "Cita": "l señor Ministro de Hacienda consulta la razón por la que debería importar ese horizonte"
+      },
+      {
+        "ID_Padre": 1457,
+        "Cita": "y el señor Gerente de División Política Financiera responde que ese diferencial se aplica sobre todo a las trayectorias de tipo de cambio de aquí a diez años. Dicho de otra forma, a tres meses un diferencial de cien puntos base en la tasa será un peso y medio, en cambio cuarenta puntos base a diez años produce un impacto cambiario mucho más grande que el efecto a tres meses."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1737",
+    "ID_Padre": 1737,
+    "Fecha": "2008-03-13",
+    "Actor": "Sebastián Claro Edwards",
+    "SHA256_Texto_Padre": "4dcad81d9773a29ab1bc3c89a2d30541c4b91e83f83e55a9769c306b722cffce",
+    "Inicio": 91,
+    "Fin": 224,
+    "Cita_Inicio": "y el Consejero señor Sebastián Claro manifiesta",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Desormeaux se suma a la mayoría, pero Claro mantiene un voto por 6,50%. Son votos distintos. Tras ello García comienza un comentario institucional sobre la minuta.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1737,
+        "Cita": "l Vicepresidente señor Jorge Desormeaux señala que se suma a la mayoría antes mencionada,"
+      },
+      {
+        "ID_Padre": 1737,
+        "Cita": "y el Consejero señor Sebastián Claro manifiesta que mantiene su votación consistente en subir la Tasa de Política Monetaria a 6,50%."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2392",
+    "ID_Padre": 2392,
+    "Fecha": "2009-03-12",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "34fec67841f79b48d53edcef313a2f9c98a8532ca4172830812220432fdddcc8",
+    "Inicio": 102,
+    "Fin": 211,
+    "Cita_Inicio": "y el señor Sergio Lehmann informa",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Desormeaux pregunta por datos recientes; Lehmann informa la cifra formal. Después García comenta el posible sesgo y la previsión de 2010.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2392,
+        "Cita": "l señor Vicepresidente consulta si no se cuenta con datos más recientes que los que se han filtrado,"
+      },
+      {
+        "ID_Padre": 2392,
+        "Cita": "y el señor Sergio Lehmann informa que menos 0,5 de crecimiento es la cifra que se dio a conocer formalmente."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2443",
+    "ID_Padre": 2443,
+    "Fecha": "2009-04-09",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "9c76ea118a334fe7103c82a89f98c3ad0d4907aedfbe5b115adbb62ab801dc19",
+    "Inicio": 1197,
+    "Fin": 1288,
+    "Cita_Inicio": "y el señor Lehmann complementa",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Gregorio menciona precios de mercado; Lehmann precisa PPP. De Gregorio vuelve a plantear dudas después de esta explicación.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2443,
+        "Cita": "Al respecto, el señor Presidente indica que Consensus considera precio de mercado"
+      },
+      {
+        "ID_Padre": 2443,
+        "Cita": "y el señor Lehmann complementa que en la gráfica que se presenta en esta Reunión es a PPP."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2621",
+    "ID_Padre": 2621,
+    "Fecha": "2009-07-09",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "e71867a8827dd3340d42f78362133cbc91fa3f660c30314acb4cf49ca5b72319",
+    "Inicio": 174,
+    "Fin": 250,
+    "Cita_Inicio": "y el señor Claudio Soto agrega",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García responde con la cifra trimestral; Soto agrega la revisión para el año. No atribuir ambas cifras a García.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2621,
+        "Cita": "l Presidente consulta asimismo, acerca de la cifra de la Encuesta de Expectativas para el presente trimestre, a lo cual el señor Pablo García responde que asciende a -3,5%,"
+      },
+      {
+        "ID_Padre": 2621,
+        "Cita": "y el señor Claudio Soto agrega que esta se corrigió de -1 a -5% para el año."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2765",
+    "ID_Padre": 2765,
+    "Fecha": "2009-11-12",
+    "Actor": "Jorge Desormeaux Jiménez",
+    "SHA256_Texto_Padre": "850720ec83dcfd81616ca1d44cd422ade01753471d1cc717ca661a36025b5a12",
+    "Inicio": 3244,
+    "Fin": 3413,
+    "Cita_Inicio": "y el señor Vicepresidente complementa",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Gregorio comenta ahorro; Desormeaux distingue pérdidas en vivienda de recuperación accionaria. Lehmann retoma la presentación tras esa intervención.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2765,
+        "Cita": "Respecto del comentario del señor Claro, el señor Presidente afirma que el aumento de la tasa de ahorro es un síntoma de desapalancamiento,"
+      },
+      {
+        "ID_Padre": 2765,
+        "Cita": "y el señor Vicepresidente complementa que la caída de riqueza que permanece es la de la vivienda, porque el mercado accionario ha recuperado alguna parte de lo perdido."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2768",
+    "ID_Padre": 2768,
+    "Fecha": "2009-11-12",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "6249b0589812347de7c4a9bb5b20e4f78fd9e7137e406a91811116666095b30a",
+    "Inicio": 58,
+    "Fin": 809,
+    "Cita_Inicio": "y el señor Sergio Lehmann agrega",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Gregorio comparte la inquietud de Claro. Lehmann solicita precios de commodities en otras monedas y continúa explicando dólar y commodities. Marshall interviene después.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2768,
+        "Cita": "l señor Presidente comparte la inquietud del señor Claro"
+      },
+      {
+        "ID_Padre": 2768,
+        "Cita": "y el señor Sergio Lehmann agrega que seria útil contar con el precio de los commodities en otras monedas para la próxima Reunión. El señor Gerente de Análisis Internacional destaca que algo que ha sorprendido respecto a lo que se tenia en el último IPoM y respecto de las trayectorias del precio del dólar, es que la depreciación que se esperaba hace un par de meses atrás se produjo mucho más rápido que lo anticipado, lo que, sin duda, tiene un impacto sobre los precios de los commodities. Los commodities, enfatiza, están recogiendo hoy un dólar más depreciado que la tendencia que se estaba viendo hace un mes atrás. Recalca que ese es un elemento realmente importante y que, de hecho, y a modo de ejemplo, ha estado empujando el precio del oro."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2826",
+    "ID_Padre": 2826,
+    "Fecha": "2009-12-15",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "ed69e6964dc57a847cad65d555a5acad4de19e5ce5a433d8a1a83d2f2720fd1c",
+    "Inicio": 892,
+    "Fin": 1012,
+    "Cita_Inicio": "y el señor José De Gregorio acota",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall comparte lo dicho por Marfán; De Gregorio agrega la comparación de inflación subyacente. García desarrolla su propia respuesta a continuación.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2826,
+        "Cita": "El señor Marshall manifiesta compartir lo expuesto por el señor Marfán"
+      },
+      {
+        "ID_Padre": 2826,
+        "Cita": "y el señor José De Gregorio acota que Chile también presenta una inflación subyacente muy superior a la de otros países"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3449",
+    "ID_Padre": 3449,
+    "Fecha": "2010-10-14",
+    "Actor": "Luis Óscar Herrera Barriga",
+    "SHA256_Texto_Padre": "30bb8c0e8b2548eb13ff37db28d6290eecf539283df9e74a1483dd3aee239636",
+    "Inicio": 539,
+    "Fin": 729,
+    "Cita_Inicio": "y el Gerente de División Estudios señor Luis Óscar Herrera añade",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Gregorio comenta el nivel del Dow Jones; Herrera agrega la expectativa de relajamiento cuantitativo. Luego Claro retoma su planteamiento.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3449,
+        "Cita": "Al respecto, el Presidente señor José De Gregorio comenta que el índice Dow Jones está al mismo nivel que en abril"
+      },
+      {
+        "ID_Padre": 3449,
+        "Cita": "y el Gerente de División Estudios señor Luis Óscar Herrera añade que ello parte con la expectativa generalizada sobre la proximidad de un relajamiento cuantitativo y un programa importante."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3871",
+    "ID_Padre": 3871,
+    "Fecha": "2011-03-17",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "6cdab6a621dd1cde6bb83c9de5817a6282b9767f8d576d5af1e6046b4db281cf",
+    "Inicio": 104,
+    "Fin": 204,
+    "Cita_Inicio": "y el Presidente señor José De Gregorio estima",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Herrera propone el nombre Indicador; De Gregorio propone índice. Los nombres entre comillas son títulos del indicador, no turnos citados.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3871,
+        "Cita": "l señor Luis Óscar Herrera es de opinión que este debiera ser “Indicador de expectativas de inflación”"
+      },
+      {
+        "ID_Padre": 3871,
+        "Cita": "y el Presidente señor José De Gregorio estima que debiera ser “índice de expectativas de inflación”."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-4233",
+    "ID_Padre": 4233,
+    "Fecha": "2011-08-18",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "daa3cf78d70a9d4a327ffc6dc720323cbba27810cb117b38c25e1ae795e72e39",
+    "Inicio": 70,
+    "Fin": 1744,
+    "Cita_Inicio": "y el Gerente de Análisis Internacional agrega",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Herrera explica una omisión; Lehmann complementa la comparación y continúa la exposición internacional con las proyecciones de bancos de inversión.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4233,
+        "Cita": "l Gerente de División Estudios indica que ello obedece a una omisión"
+      },
+      {
+        "ID_Padre": 4233,
+        "Cita": "y el Gerente de Análisis Internacional agrega que, utilizando la misma metodología, Chile aparecería en rojo. En materia de proyecciones de crecimiento, el señor Lehmann presenta un resumen de las últimas revisiones efectuadas por JP Morgan, Deutsche Bank, Barclays, Goldman Sachs y el Global Projection Model del Fondo Monetario Internacional, todas las cuales dan cuenta de un ajuste importante para el segundo semestre del presente año y para el año 2012. Comenta, además, que horas antes de esta Reunión fue dado a conocer un informe de Morgan Stanley, que también da cuenta de un ajuste sustancialmente importante para el crecimiento del año 2012. Al respecto, especifica que, según JP Morgan, Estados Unidos tendría un crecimiento en torno a 2,2% en el año 2012, mientras que el Deutsche Bank es algo más optimista y estima que alcanzará a 2,6%. En todo caso, destaca que ambos ajustaron sus proyecciones de manera significativa, ya que el 15 de julio último, el primero proyectó un crecimiento de 2,7% y Deutsche Bank uno de 3,7%. Agrega que en el caso de Zona Euro también se observan ajustes importantes a la baja. En cuanto a Deutsche Bank, que se supone que analiza con mayor cuidado a Europa, es más pesimista que las demás instituciones y proyecta un crecimiento de solo 1,5% para el próximo año. En términos generales, indica que se observa un crecimiento que se ajusta a la baja en torno a tres décimas hacia el año 2012, específicamente desde 4,6 a 4,3%, en promedio. Por último, destaca que el dato de Morgan Stanley, publicado a comienzos de la jornada, proyecta un crecimiento para Estados Unidos de 2,1%, de solo 0,5% para Europa y de 3,9% para el mundo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-6407",
+    "ID_Padre": 6407,
+    "Fecha": "2014-09-11",
+    "Actor": "Beltrán de Ramón Acevedo",
+    "SHA256_Texto_Padre": "71439b4b32753eea37d33481d6861148d828150d7b5e5c1ee1fe410a71a5a1f7",
+    "Inicio": 107,
+    "Fin": 269,
+    "Cita_Inicio": "y el Gerente de División Operaciones Financieras señor Beltrán de Ramón agrega",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Claro recuerda las marchas estudiantiles; De Ramón aporta el dato de los fondos de pensiones. No es una enumeración de personas.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6407,
+        "Cita": "l Consejero señor Sebastián Claro recuerda que en ese período se desarrollaron las marchas estudiantiles,"
+      },
+      {
+        "ID_Padre": 6407,
+        "Cita": "y el Gerente de División Operaciones Financieras señor Beltrán de Ramón agrega que los fondos de pensiones anotaron una fuerte caída en el mes de mayo de ese año."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-514",
+    "ID_Padre": 514,
+    "Fecha": "2005-12-13",
+    "Actor": "Beltrán de Ramón Acevedo",
+    "SHA256_Texto_Padre": "58f799a5e7f298b5beb1f92a22389f2f1abc5d4de54ef948cf609f4252820c13",
+    "Inicio": 163,
+    "Fin": 998,
+    "Cita_Inicio": "Con respecto al tipo de cambio, el Gerente de Mercados Financieros",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Corbo deja una frase incompleta sobre una clasificadora; De Ramón inicia explícitamente el análisis cambiario y continúa hasta el final. La referencia previa a Marfán no abre otro turno.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto ni puntuación ausentes.",
+    "Evidencia": [
+      {
+        "ID_Padre": 514,
+        "Cita": "El Presidente señor Corbo, sobre este tema señala, en la misma dirección del Consejero señor Marfán, que hace diez días atrás una agencia clasificadora de riesgos"
+      },
+      {
+        "ID_Padre": 514,
+        "Cita": "Con respecto al tipo de cambio, el Gerente de Mercados Financieros, señor Beltrán De Ramón indica, que lo que ha pasado en el último mes y tal vez en una perspectiva de tasa de Chile con Brasil y de Chile con México, éstas se han reducido desde agosto, 400 puntos base con Brasil y 205 puntos base con México, un poco menos respecto al último mes. Señala, que la correlación no ha sido tan alta como lo fue en el semestre, y lo que puede apreciarse es que la posición MBF que llegó a un máximo de US$ 5.600 millones en octubre, era una posición compradora de pesos, la que se redujo el día miércoles, según el último dato con que se cuenta, a menos de US$ 4.500 millones. Lo anterior, puso una presión adicional a los movimientos ocurridos en el mercado local en el día anterior, respecto del dólar, que subió a S 516 y volvió a $ 510."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-653",
+    "ID_Padre": 653,
+    "Fecha": "2006-04-13",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "1cad0d902830e2e02bada6a7aebc3a89f5f3edc17f6aeb92801372053251d077",
+    "Inicio": 3180,
+    "Fin": 7341,
+    "Cita_Inicio": "El Vicepresidente señor José De Gregorio indica",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de la frase incompleta de Desormeaux «dado que el», De Gregorio inicia su evaluación y continúa hasta su voto de 25 puntos base. No atribuirle a Desormeaux el inicio de esa evaluación ni dividir la continuación del Vicepresidente.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto ni puntuación ausentes.",
+    "Evidencia": [
+      {
+        "ID_Padre": 653,
+        "Cita": "un marco de condiciones financieras expansivas y de holguras decrecientes, configuran un cuadro que resultaría difícil de reconciliar con dos pausas consecutivas de la tasa de política monetaria. Señala, que un alza de 25 puntos base, decisión que espera la mayoría del mercado, sería más coherente con nuestro escenario central y contribuye a mantener las expectativas ancladas en torno al centro del rango meta. Al respecto, indica que dado que el"
+      },
+      {
+        "ID_Padre": 653,
+        "Cita": "El Vicepresidente señor José De Gregorio indica, que el panorama económico reciente es coherente con el escenario central de nuestro último IPOM y, por lo tanto, no hay razones para cambiar nuestra estrategia de retiro gradual del impulso monetario para cumplir con nuestro objetivo inflacionario. Sin embargo, señala que la pregunta relevante es si corresponde hacer una pausa o no a la luz de lo ocurrido desde nuestra última RPM. Indica, que para ello se debe considerar, en primer lugar, que el mes pasado la decisión no fue fácil, en cuanto había buenas razones para subir o mantener la tasa. La mantención dejó implícito que, en el escenario más probable, este mes se debería subir la tasa de política monetaria y ello es una poderosa razón para subirla, en particular, dado que el escenario central no ha cambiado. Sin embargo, indica el señor Vicepresidente que, deberíamos detenernos a examinar que ha pasado en el margen, y aquí es donde han habido novedades que han sido bien analizadas por la Gerencia de División Estudios, las que se pueden resumir en; significativa alza del precio del cobre; apreciación del peso desde la última reunión de política monetaria hasta hoy, de aproximadamente 3%; alza del precio del petróleo, aunque con movimientos probablemente compensatorios del precio de la gasolina; y un crecimiento del PIB levemente inferior al previsto anteriormente. Por su parte, indica que, los costos laborales unitarios siguen una senda consistente con la meta de inflación, pero hay que tener cuidado con la medición. Señala que si bien nuestra medición, corrigiendo por estacionalidad-horas y, usando el empleo asalariado, las tasas de crecimiento en 12 meses han subido sistemáticamente los últimos meses hasta llegar cerca de 3%, en las cifras más recientes, no está claro que ésa es la medida más adecuada. Además, agrega que como bien señala la Gerencia de División Estudios, en términos velocidad, ésta no está aumentando, aunque sí se encuentra en el límite de su consistencia con la meta de inflación. Sin embargo, señala el señor Vicepresidente, cambiar las cifras usadas para calcular el costo laboral unitario puede llevar a visiones distintas. Los indicadores se vuelven bastante volátiles. Agrega que, de hecho, si en vez de usar el empleo asalariado ajustado por estacionalidad se considera el empleo total, se mantiene el resto de los datos. El costo laboral unitario habría caído en torno a un 1,4% anual en noviembre y diciembre del año pasado, en vez de subir 1,7%. Habría subido un 0,2% en enero, en vez de un 2,5%; y, un 2,3% en febrero en vez de un 3,7%. Se ve claramente un incremento en los costos laborales unitarios, pero aún en rangos moderados. Hace presente el señor Vicepresidente, que este ejercicio sólo intenta mostrar que si bien los costos laborales crecen, es probable que no tanto como lo que indicarían nuestros indicadores regulares. Si bien esto no cambia la visión central respecto de las presiones de costo, además que en el pasado ya hubo problemas con la interpretación de los datos, cuando se usa el empleo total, no se puede descartar fácilmente que ellas sean, aunque igualmente crecientes, algo menores. Si a esto se agrega el efecto de la evolución del tipo de cambio, es de esperar que en algo se estén reduciendo las presiones inflacionarias respecto a nuestro escenario central. En consecuencia, señala que no le parece que estemos ante una decisión simple, como tal vez pensábamos un mes atrás. La evidencia más reciente del tipo de cambio y actividad así como la incertidumbre respecto a la velocidad de aumento de los costos laborales unitarios, no son suficientes para pensar que hay un cambio de tendencia o que la estrategia de política monetaria debiera cambiar. Le parece que habría que estar particularmente vigilantes de las señales recientes, las que de persistir irán configurando un escenario de mayores pausas en el ritmo de normalización de la política monetaria. Con todo, y con una cuota mayor de dudas que otras veces, señala el señor Vicepresidente que se inclina por un alza de 25 puntos base en la tasa de política monetaria y, en tal virtud, vota en ese sentido."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1010",
+    "ID_Padre": 1010,
+    "Fecha": "2006-12-14",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "287130f1b5c680c496e77f0c876929d91296134ab7be389fdd2c83b83b2df999",
+    "Inicio": 2336,
+    "Fin": 2828,
+    "Cita_Inicio": "El Vicepresidente señor José De Gregorio, con respecto a esta discusión, señala",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán termina en la frase incompleta «ese es el»; el Vicepresidente interviene explícitamente sobre la sorpresa de actividad y los costos laborales. Las referencias previas de Marfán a Mario Marcel siguen siendo menciones, no turnos.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto ni puntuación ausentes.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1010,
+        "Cita": "ue cuando el Gobierno impulsa la regla fiscal, lo que está implícitamente pensando es que cuando esa regla tiene un componente anticíclico éste es tenue y que, por lo tanto, la política monetaria debería jugar un rol anticíclico más fuerte. En consecuencia, a su juicio, si existe una desaceleración, el discurso consistente y coherente de ellos es que la política monetaria no jugó el rol anticíclico que debió haber tenido. Le parece que ese es el"
+      },
+      {
+        "ID_Padre": 1010,
+        "Cita": "El Vicepresidente señor José De Gregorio, con respecto a esta discusión, señala que el Banco tuvo una sorpresa la que tendrá implicancia en los aspectos de política monetaria, en el sentido si el menor nivel de actividad, independiente de que si es transitoria o permanente, tiene impacto sobre la presión inflacionaria. Por otro lado, con respecto del tema laboral recuerda que hubo discusiones previas sobre nuestras cifras de costo laboral, ya que se advertía que había cierta anormalidad."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1623",
+    "ID_Padre": 1623,
+    "Fecha": "2008-01-10",
+    "Actor": "Igal Magendzo Weinberger",
+    "SHA256_Texto_Padre": "f7d9d79642e97bdc3f4a53295b4ab4aa62bfcacb8f86912167323d37e7b60527",
+    "Inicio": 384,
+    "Fin": 11442,
+    "Cita_Inicio": "Menciona el señor Magendzo que como forma de prevenir",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras el comentario de Desormeaux y el dígito aislado 7, Magendzo comienza el análisis de inflación, actividad y proyecciones. La posterior fórmula «Por otra parte, menciona el señor Magendzo» y las referencias al Gerente de Análisis Macroeconómico continúan esa misma exposición, no abren hablantes distintos. Conservar el dígito de origen sin adjudicarle contenido discursivo ni completar texto faltante.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto ni puntuación ausentes.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1623,
+        "Cita": "El Vicepresidente señor Desormeaux señala que le llama la atención que a pesar de un diagnóstico de una inflación en alza en todas partes del mundo desarrollado, las tasas de interés están más bien bajando. Agrega que este hecho constituye una diferencia bastante grande con respecto a lo que sucede en el mundo emergente donde los movimientos de tasas sí van en dirección al alza. 7"
+      },
+      {
+        "ID_Padre": 1623,
+        "Cita": "Menciona el señor Magendzo que como forma de prevenir el riesgo que la mayor inflación afecte la formación de expectativas de mediano y largo plazo y se propague hacia otros precios y costos más allá de lo habitual, la política monetaria se ha ajustado, aumentando la Tasa de Política Monetaria en 25 puntos base en los meses de septiembre y diciembre, respectivamente, hasta llevarla a 6% anual. Por otra parte, menciona el señor Magendzo que en el último año se han sumado un conjunt o de shocks, en gran medida ligados a factores de oferta, cuya magnitud y simultaneidad ha llevado la inflación anual a valores muy por sobre el rango de tolerancia de la meta de inflación. Como se indicó en el mes de septiembre, en gran parte del año 2007 se verificó un incremento sostenido de los precios internacionales de algunos alimentos, con alta incidencia en los precios internos. Hace presente también que a esto se agregó el efecto de las heladas locales en los precios de las frutas y verduras frescas,que provocó que a fines del tercer trimestre, tanto en la inflación total como sus medidas subyacentes -IPCX e IPCX1- se anotaran tasas de crecimiento anual por sobre 5%. Por otro lado, menciona el señor Gerente de Análisis Macroeconómico que en los últimos meses el precio del petróleo y sus derivados volvieron a subir inesperadamente. Agrega que se hizo más notorio el efecto en el costo de la electricidad debido al cambio en la matriz de generación eléctrica, la que se desplazó hacia fuentes más caras que la hídrica. Menciona además, que los precios de algunos alimentos, en particular los perecibles, tuvieron una reversión menor que la esperada. Como consecuencia de lo anterior, el señor Gerente de Análisis Macroeconómico hace presente que a fines del año 2007, la inflación anual dellPC se acercó a 8%. Por otra parte, el señor Gerente de Análisis Macroeconómico señala que la magnitud de los shocks de oferta se aprecia al comparar el inusual incremento que registraron ciertos precios el 2007, con su aumento promedio de esta década. Asimismo , agrega que los precios de los alimentos no perecibles aumentaron cerca de 15% anual en el año recién pasado, lo que contrasta con un aumento promedio algo menor del 2% entre los años 2000 y 2006. Por otra parte, indica que el precio de las frutas y verduras frescas, aún considerando años de altos precios, como lo fueron el 2002 y el 2005, cayó casi 2% promedio entre los años 2000 y 2006. Agrega que el año 2007 aumentó algo más de 30%. Señala que la tarifa eléctrica afectada por el alza de sus costos, aumentó 22% promedio en el año, casi el doble si se considera la tarifa vigente a diciembre de 2007, comparado con un aumento de menos de 6% promedio entre los años 2000 y 2006. Hace presente también que el aumento del precio de los combustibles, aunque fue sólo algo mayor que el observado en los últimos años, fue sorpresivo, toda vez que la expectativa mayoritaria de los distintos agentes del mercado apuntaba a un leve descenso. Explica el Gerente señor Magendzo que debido a estos hechos, la inflación que se acumuló durante el año 2007 fue entre cinco y seis puntos porcentuales . Asimismo, hace presente que una parte importante de los precios registró cambios en línea con su tendencia de los últimos años y otros, en especial la tarifa del transporte público en Santiago, que descendió a comienzos de 2007, tuvieron una incidencia negativa en la inflación anual. Indica el señor Magendzo, que en el segundo semestre de 2007, la actividad creció a una tasa menor que en el primer semestre y que lo previsto en septiembre, en parte importante por shocks específicos. En particular, destaca el señor Magendzo la acentuación de la caída del valor agregado del sector eléctrico, dada la menor disponibilidad de recursos hídricos para la generación eléctrica, en un contexto de escasa disponibilidad de gas natural y elevados precios del petróleo y sus derivados. Este cuadro provocó un aumento importante en los costos de la electricidad y en las tarifas que pagan hogares y empresas . Comenta que aunque es difícil cuantificar con exactitud su impacto, el mayor costo de la energía ha sido causante en parte del menor dinamismo en la industria. Agrega, que en todo caso estos mayores precios de la energía, coherentes con las condiciones que se enfrentan en materia de abastecimiento energético, proveen los incentivos para las inversiones que se prevén en el sector. Señala que como consecuencia de lo anterior, se estima que en el 2007 el PIB creció un 5,2% anual. Asimismo, la demanda interna siguió aumentando sostenidamente, apoyada en la inversión y el consumo privado. Por su parte, señala el señor Magendzo, que en el año 2008 el escenario base de proyección, considera que el PIB aumentará entre un 4,5% y 5,5%. Agrega que la demanda interna crecerá a una tasa inferior que la de los años recientes, aún por sobre el incremento de la actividad. También menciona que el consumo reducirá su crecimiento por el efecto algo rezagado del aumento de la inflación, sobre el ingreso real y un escenario externo menos favorable. Menciona asimismo, que este menor dinamismo del ingreso se dará además en un contexto de atenuación del crecimiento del crédito y del empleo. Indica el señor Gerente que el desarrollo normal del ciclo del crédito de consumo, considerando el grado de penetración que ha alcanzado en la población, constituye un factor que difícilmente estimulará el consumo ante un ingreso menos dinámico. Hace presente también que el aumento del gasto fiscal, tenderá a mitigar a un nivel agregado, debido a la pérdida de dinamismo del ingreso privado. Comenta que esta proyección, no obstante, tiene una alta incertidumbre porque el consumo podría ser más persistente que lo previsto en línea con su comportamiento de los últimos años, pero también podría caer con una fuerza mayor que la anticipada. Manifiesta el señor Gerente que el escenario base supone que durante el año 2008, no habrá cambios relevantes en los envíos de gas natural argentino, ni en las condiciones hidrológicas respecto de 2007. Agrega que los riesgos en este ámbito son especialmente importantes por las implicancias sobre la actividad y la inflación en un escenario de tarifas eléctricas aún mayor y/o menor disponibilidad de la energía. Le parece que un escenario en que estos costos vuelven a aumentar, tendría implicancias relevantes en la actividad de la industria y de otros sectores económicos. Por su parte, señala el señor Magendzo que las expectativas de inflación de corto plazo han aumentado en los últimos meses, aunque a plazos mayores siguen ancladas en torno a 3% anual. El crecimiento anual de los salarios nominales no ha mostrado mayores cambios luego del aumento de mediados de 2007, y se estima que su variación sigue siendo coherente con las cláusulas de indexación habituales y la evolución del mercado laboral en los últimos años. Asimismo, señala que los costos laborales unitarios crecen a tasas anuales que están en línea con la meta de inflación. Hace presente también el señor Gerente, que el escenario base considera que la inflación anual del IPC seguirá aumentando en el curso del primer trimestre de este año, manteniéndose durante todo el año 2008 por sobre el rango de tolerancia, en parte como respuesta al incremento reciente del precio del petróleo y el reajuste rezagado de las tarifas eclécticas, pero también porque algunos precios indexados tendrían aumentos importantes. Por otro lado, y considerando que entre los meses de junio y diciembre de 2007 se dio la mayor concentración de altas variaciones mensuales del IPC, y que en ese lapso se acumuló una inflación de 5,8%, es esperable que a partir de mediados de 2008 la inflación anual del IPC comience a converger hacia la meta, entrando en el rango de tolerancia hacia principios del año 2009 y fluctuando en tomo a un 3% durante ese año y hasta fines del horizonte de proyección, es decir, entre el último trimestre del próximo año y el primero de 2010. Agrega el señor Magendzo que la inflación anual del IPCX1 se mantendrá en niveles inferiores a los de la inflación total en los próximos meses, pero su convergencia hacia un 3% será más lenta que la del IRC. Lo anterior, porque la inercia inflacionaria es mayor en los precios incluidos en el IPCX1 que en aquéllos que no son parte de este índice, como las frutas y verduras frescas. Así, se prevé que la inflación anual del IPCX1 alcanzará a un 3% sólo hacia fines del horizonte de proyección relevante. Menciona el señor Gerente que en el escenario de proyección también se considera que el nivel que ha alcanzado la inflación no se propagará al resto de los precios, más allá de la habitual inercia inflacionaria. Supone también que en los trimestres venideros los salarios nominales crecerán a tasas anuales mayores que las actuales, y que a mediano plazo dichas tasas descenderán. Todo lo anterior, en respuesta principalmente a la indexación y al rezago con que ésta opera. No obstante, indica que no puede descartarse que la propagación sea distinta de la prevista. Por ejemplo, un escenario en que la alta inflación se traduzca en un crecimiento de los salarios mayor que el previsto, llevando a un incremento de los costos laborales unitarios incompatible con la meta de inflación. Agrega también, que podría suceder que la propagación termine siendo incluso menor que la histórica, considerando la transitoriedad de los shocks. Con todo, estima que el Consejo, como es habitual, seguirá con atención la evolución de las expectativas de inflación, manifestando que la confianza en el cumplimiento de la meta inflacionaria es clave en la dinámica de precios. Además, reafirma que tal como ya lo ha hecho, el Consejo adoptará las decisiones necesarias para reducir los riesgos de que la mayor inflación actual se propague más allá de lo habitual hacia los costos, de manera de asegurar que la inflación converja a un 3% anual en el horizonte de política. Manifiesta el señor Magendzo que, en su opinión, las presiones de costos importados no será una fuente relevante de cambios en la inflación en los próximos dos años. Agrega el señor Gerente que la incertidumbre de este supuesto aumenta por las dudas sobre la evolución del escenario externo. Señala además, que no es posible descartar que ante una desaceleración mayor que la anticipada en el crecimiento mundial, los precios internacionales de las materias primas, en especial alimentos, cobre y petróleo, tengan caídas importantes, además de llevar a una menor demanda por las exportaciones chilenas. Le parece que este escenario tendría como contrapartida un aumento del tipo de cambio junto con una eventual incidencia negativa sobre el crecimiento económico, con un efecto neto en la inflación difícil de estimar, que dependerá además del tamaño de las holguras. Hace presente también que no se puede descartar que como ha sido la tónica del último tiempo, los precios de los alimentos y, en especial, del petróleo, se mantengan en niveles elevados o incluso vuelvan a aumentar."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1652",
+    "ID_Padre": 1652,
+    "Fecha": "2008-02-07",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "395c27e02590e08529697782b74c9cb99e4361216c12c2fa7c53175339f20bfa",
+    "Inicio": 74,
+    "Fin": 974,
+    "Cita_Inicio": "En cuanto a mercados financieros, el Consejero señor Manuel Marfán señala",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente ofrece la palabra y queda una frase sin cierre; Marfán inicia la discusión de tasas externas y sigue en «Agrega el Consejero señor Marfán». García interviene después, seguido de intercambios entre Marfán y De Ramón que se conservan.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto ni puntuación ausentes.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1652,
+        "Cita": "El señor Presidente ofrece la palabra para comentarios sobre el escenario"
+      },
+      {
+        "ID_Padre": 1652,
+        "Cita": "En cuanto a mercados financieros, el Consejero señor Manuel Marfán señala que tiene algunas dudas respecto de cuál es la tasa de interés externa relevante que se debe considerar en condiciones atípicas, como las que se han presentado en estos meses, con crisis de liquidez, para efectos de determinar la presión sobre el mercado cambiarlo. Agrega el Consejero señor Marfán, que en el corto plazo la tasa importante está implícita en las operaciones forward, la que se había observado hace algunos meses que estaba anormalmente alta. Por consiguiente, aquél banco chileno que quería endeudarse para respaldar su saldo de operaciones forward, se estaba endeudando a una tasa de corto plazo, que era anormalmente elevada, pero cuyo spread ha venido bajando. En consecuencia, cree que, sin demasiados movimientos de tasas, igual se pueden explicar variaciones cambiarías, por los cambios en los spreads."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-664",
+    "ID_Padre": 664,
+    "Fecha": "2006-05-11",
+    "Actor": "Vittorio Corbo Lioi",
+    "SHA256_Texto_Padre": "5f08e3e94c1cf7b833c59ccac25bcd8879a94e3fecdfbd7140aedb258ced277d",
+    "Inicio": 433,
+    "Fin": 562,
+    "Cita_Inicio": "El Presidente, señor Vittorio Corbo, suspende",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "La frase incompleta de Velasco termina en «no solamente la». Corbo suspende explícitamente la sesión; después hay reanudación institucional, Corbo solicita la exposición de Valdés, el gerente mencionado informa y Corbo vuelve a ofrecer la palabra. Este intervalo adjudica únicamente la suspensión a Corbo, no la exposición de Valdés.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto o puntuación ausentes ni se sustituye la asistencia.",
+    "Evidencia": [
+      {
+        "ID_Padre": 664,
+        "Cita": "El Presidente señor Vittorio Corbo señala, sobre el mismo tema, que si se observa desde el año 1992 al 2002, nunca hubo un tipo de cambio de 620 - 640, con las paridades de hoy. Finalmente, el señor Ministro de Hacienda, señor Andrés Velasco, en relación a lo informado por el señor Gerente de Análisis Macroeconómico en cuanto a la baja de trayectoria de crecimiento, contenido en el resumen del iPoM, le parece que no solamente la"
+      },
+      {
+        "ID_Padre": 664,
+        "Cita": "El Presidente, señor Vittorio Corbo, suspende la Sesión a las 13:20 horas e informa que la misma se reanudará a las 16:00 horas."
+      }
+    ],
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-1904",
+    "ID_Padre": 1904,
+    "Fecha": "2008-06-10",
+    "Actor": "Kevin Cowan Logan",
+    "SHA256_Texto_Padre": "66478e0a23cc34e2501610e55e243605202fc7b4e5f43e778523e3c4c244a174",
+    "Inicio": 3053,
+    "Fin": 4411,
+    "Cita_Inicio": "El Gerente de División Política l\\/lonetaria señor Kevin Cowan señala",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Ramón recomienda 50 puntos base. Después se nombra explícitamente a Kevin Cowan como sujeto de «señala», con tres noticias y su evaluación. Su mención posterior a lo que mencionaba el Gerente de División Operaciones Financieras no es un retorno de De Ramón. El título dañado «Política l\\/lonetaria» no se normaliza a un cargo supuesto: la atribución usa el nombre explícito leído; el cargo final sigue la lista de asistencia, Política Financiera. Se conserva el marcador ■J anterior.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto o puntuación ausentes ni se sustituye la asistencia.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1904,
+        "Cita": "be eliminarse, para no distorsionar significativamente los precios, considera que no debe descartarse para nada realizar otros aumentos adicionales en los próximos meses, considerando que una sorpresa de 150 puntos base para el año 2008, como está considerado en el escenario de proyecciones de esta Reunión de Política Monetaria, es altamente probable si se cumple la proyección de la Gerencia de División Estudios y de los seguros de inflación. ■J"
+      },
+      {
+        "ID_Padre": 1904,
+        "Cita": "El Gerente de División Política l\\/lonetaria señor Kevin Cowan señala que cree que las principales noticias desde la última Reunión de Política Monetaria son tres. En primer lugar, shocks a niveles de precios con potenciales impactos de segunda vuelta sobre la inflación, en particular el alza significativa que se ha observado en el precio internacional del petróleo spot y el registro de inflación para mayo significativamente más alta a la esperada en la Reunión de Política Monetaria anterior y por el mercado. En segundo lugar, shocks a la tasa de crecimiento esperada de precios externos claves, entre los cuales se incluye el alza en la inflación esperada para el petróleo en los próximos meses, y alzas en las tasas de inflación efectivas y esperadas en economías desarrolladas, en particular en los índices de precios productor que son intensivos en bienes transables y por lo tanto, una mejor medida en los precios externos relevantes para Chile. En tercer lugar, las alzas en las expectativas de inflación que mencionaba el señor Gerente de División Operaciones Financieras, en especial la expectativa de uno en uno, recogidas por las encuestas múltiples que realiza el Banco Central de Chile y los agentes. Indica que esos tres conjuntos de noticias sugieren un alza en la Tasa de Política Monetaria, tal como se discute en la Minuta de Opciones."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2462",
+    "ID_Padre": 2462,
+    "Fecha": "2009-04-09",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "3634941f3ceca78099b126ad0f0d052db9d0612eee586670cd2afab2a1e3dfe1",
+    "Inicio": 1025,
+    "Fin": 2594,
+    "Cita_Inicio": "El Gerente Análisis Macroeconómico señor Claudio Soto señala",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García explica la escala del gráfico y Soto inicia explícitamente el análisis de demanda y consumo; «Continuando con su exposición» sigue con Soto. García responde después. Este intervalo corresponde al primer retorno de Soto; el segundo retorno sobre inversión y viviendas se recupera por el reconocimiento del mismo cargo sin «de», y se verifica por regresión y comparación documentada.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. No se reconstruye texto o puntuación ausentes ni se sustituye la asistencia.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2462,
+        "Cita": "vísima recuperación respecto al mes anterior, y que hay una fuerte caída en doce meses. Al respecto, el señor Gerente de División Estudios precisa que hay que tener cuidado con las magnitudes, ya que el gráfico es algo engañoso. Por ello, explica, hay que tomar la escala, observando que la escala es gigante, y que si se analiza la cola, se trata de una cifra bastante grande. Señala que lo que sucede es que la caída fue fenomenal, de dos dígitos."
+      },
+      {
+        "ID_Padre": 2462,
+        "Cita": "El Gerente Análisis Macroeconómico señor Claudio Soto señala que por el lado de la demanda, se tiene información corregida respecto de la evolución del consumo. Explica que se tiene una corrección histórica de las series de producción que se utilizan para construir el indicador coincidente de consumo, donde en realidad la dinámica que está haciendo el consumo habitual es peor de lo que teníamos previsto el mes anterior. Agrega que su evaluación respecto de cómo estaba en enero es peor y lo que se está viendo para febrero también es peor. Señala que en estos momentos, se observan variaciones interanuales para el consumo habitual cercanas a cero, y negativas para el consumo total, por lo que está pasando con el consumo de durables. Continuando con su exposición, el señor Claudio Soto señala que, respecto de las importaciones de automóviles, que es un indicador bastante adelantado de lo que ha pasado en el sector, es posible observar el desplome importante de septiembre, pero indica que este dato se empieza a revertir en el margen. Explica que hay una evaluación de que el consumo puede estar más deteriorado, sobre todo por la parte habitual, con perspectivas algo más optimistas hacia delante dado este rebote de la venta de automóviles. Sin embargo, si se observan los datos de importaciones de bienes de consumo, excluyendo autos, se ve que en el margen, éstos podrían estar incluso peor que lo que se venía viendo el mes pasado. Este dato no es un dato duro, pero señala que se ve una caída adicional respecto a lo que se venía observando para marzo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-644",
+    "ID_Padre": 644,
+    "Fecha": "2006-04-13",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "4d0ec7f0ca45ca994334bb8094622dd350fe8225fe1958d6d7d6120f2f008c73",
+    "Inicio": 6928,
+    "Fin": 7093,
+    "Cita_Inicio": "Consulta el Consejero señor Marfán, por qué",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Schmidt-Hebbel deja una frase en «Ello». Marfán pregunta explícitamente por qué la combinación de precios mejora el ingreso privado; Schmidt-Hebbel responde y después continúa el intercambio. No absorber esta pregunta en la exposición anterior ni en la respuesta siguiente.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Se conserva «Ello» sin completar la frase.",
+    "Evidencia": [
+      {
+        "ID_Padre": 644,
+        "Cita": "e holgada de sus ciclos económicos. Menciona el señor Gerente de Investigación Económica, que el segundo riesgo al cual se enfrenta la economía chilena es de una significativa apreciación nominal y real adicional, empujando el valor del dólar bastante por debajo de los actuales $513 por dólar. Ello"
+      },
+      {
+        "ID_Padre": 644,
+        "Cita": "Consulta el Consejero señor Marfán, por qué una combinación de aumento de precio del cobre y del precio del petróleo, significa un mejor ingreso disponible privado."
+      },
+      {
+        "ID_Padre": 644,
+        "Cita": "El señor Schmidt-Hebbel, responde al señor Consejero, que el aumento del ingreso disponible privado se basa en estimaciones presentadas en una minuta de la División Estudios de hace dos semanas atrás, que mide el impacto de alzas en el precio del cobre y del petróleo sobre el ingreso disponible priv"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1923",
+    "ID_Padre": 1923,
+    "Fecha": "2008-07-10",
+    "Actor": "Andrés Velasco Brañes",
+    "SHA256_Texto_Padre": "43bc8834429e7dd1c19c068121fef592958a11556fefa8518eaa78d6c5a615c0",
+    "Inicio": 86,
+    "Fin": 342,
+    "Cita_Inicio": "y el señor Ministro de Hacienda agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Gregorio comenta la caída de energía en Brasil; Velasco compara precios en México, Perú y Chile. Lehmann retoma la exposición internacional inmediatamente después. Sólo se adjudica esta comparación del Ministro, no las anáforas posteriores del padre.",
+    "Limitacion": "Lectura dirigida del consolidado y del entorno de este intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1923,
+        "Cita": "El Presidente don José De Gregorio comenta que en Brasil cayó el precio de la energía"
+      },
+      {
+        "ID_Padre": 1923,
+        "Cita": "y el señor Ministro de Hacienda agrega que en México y Perú los precios de ios combustibles están fijos en moneda local, pero que, sin embargo, la electricidad en Chile ha subido dos, tres o cuatro veces el incremento que ha experimentado en otros países."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-2555",
+    "ID_Padre": 2555,
+    "Fecha": "2009-06-16",
+    "Actor": "Jorge Desormeaux Jiménez",
+    "SHA256_Texto_Padre": "87f91292fa7a7a4e9c3b127208f35fc4f40ffd63501d876480ebe9fcd5f099c7",
+    "Inicio": 221,
+    "Fin": 341,
+    "Cita_Inicio": "y el Vicepresidente, señor Jorge Desormeaux, agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán distingue rebote de aumento de importaciones; Desormeaux precisa que en doce meses siguen cayendo. García cierra el intercambio y Lehmann vuelve a exponer.",
+    "Limitacion": "Lectura dirigida del consolidado y del entorno de este intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2555,
+        "Cita": "El Consejero señor Enrique Marshall consulta si en el caso de Chile las importaciones de bienes de capital también están aumentando, a lo cual el Consejero Manuel Marfán comenta que ellas están rebotando más que subiendo"
+      },
+      {
+        "ID_Padre": 2555,
+        "Cita": "y el Vicepresidente, señor Jorge Desormeaux, agrega que, medidas en doce meses, dichas importaciones continúan cayendo."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-2576",
+    "ID_Padre": 2576,
+    "Fecha": "2009-06-16",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "f67e13fe2661a51169488c061e3e559f72aa33aeeab04a5dd9286e589006453e",
+    "Inicio": 190,
+    "Fin": 309,
+    "Cita_Inicio": "en tanto el Presidente señor José De Gregorio pregunta",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán pregunta por el grado de expansión monetaria; el Presidente formula una pregunta distinta sobre MI y demanda. Cowan comenta después la encuesta y las colocaciones. No adjudicar ambas preguntas a Marfán.",
+    "Limitacion": "Lectura dirigida del consolidado y del entorno de este intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2576,
+        "Cita": "El Consejero señor Manuel Marfán consulta si lo expuesto podría interpretarse en términos que la política monetaria pudiera ser también menos expansiva de lo que refleja la tasa de interés,"
+      },
+      {
+        "ID_Padre": 2576,
+        "Cita": "en tanto el Presidente señor José De Gregorio pregunta acerca de si el MI crece menos que lo que estimaría la demanda."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2583",
+    "ID_Padre": 2583,
+    "Fecha": "2009-06-16",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "105634b0b84cf0d7ba5bc9c6bb568cb655251f608fbd0f799fba7e5e16bbb0df",
+    "Inicio": 155,
+    "Fin": 310,
+    "Cita_Inicio": "y el Gerente de División Estudios, señor Pablo García, complementa",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto responde con -4 puntos; García precisa el efecto de nivel y la tasa anualizada. Luego el Presidente vuelve a preguntar, Cowan contesta y Soto continúa explicando las proyecciones.",
+    "Limitacion": "Lectura dirigida del consolidado y del entorno de este intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2583,
+        "Cita": "El Presidente señor José De Gregorio consulta por la magnitud de la corrección trimestre a trimestre, a lo cual el señor Soto responde que es de -4 puntos"
+      },
+      {
+        "ID_Padre": 2583,
+        "Cita": "y el Gerente de División Estudios, señor Pablo García, complementa lo expresado indicando que el efecto en el nivel es de 1% y que anualizado es de -4,4%."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-2608",
+    "ID_Padre": 2608,
+    "Fecha": "2009-07-09",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "9be87c4bedff1acd74d3960aa69b54e1f9c5099b04d017c829b72ebcc03f9cd3",
+    "Inicio": 2282,
+    "Fin": 4605,
+    "Cita_Inicio": "y el señor Lehmann agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Desormeaux informa un dato secuencial de China; Lehmann agrega su evaluación y continúa la presentación internacional de inflación, liquidez y tasas hasta el final del padre. No cortar su exposición en cada cambio de tema.",
+    "Limitacion": "Lectura dirigida del consolidado y del entorno de este intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2608,
+        "Cita": "ucirse un aumento muy importante en las velocidades y que ello está implícito en las proyecciones actuales de la Gerencia. El señor Velasco acota que para que eso sea posible, el crecimiento debe ser de dos dígitos, por lo menos, a lo cual el señor Vicepresidente añade que, de acuerdo a algunos bancos de inversión, China ya estarla creciendo a más de 10% a tasa secuencial en el segundo trimestre,"
+      },
+      {
+        "ID_Padre": 2608,
+        "Cita": "y el señor Lehmann agrega que China es la economía que está liderando las proyecciones hacia el alza e impulsando particularmente el crecimiento en Asia, y que ello es coherente con lo que están proyectando también el Fondo Monetario Internacional y los bancos de inversión. En materia de inflación, el señor Lehmann señala que las proyecciones o las expectativas para el promedio correspondientes a los años 2009 y 2010 se han estabilizado relativamente, mientras que los registros spot siguen cayendo. El Gerente de Análisis Internacional informa, a continuación, que las primas por liquidez en Estados Unidos y Europa han seguido cayendo, aunque aún no alcanzan los niveles pre crisis. Agrega, que las primas por liquidez correspondientes a plazos más largos registran caídas más pronunciadas, en tanto que las que exhibe Estados Unidos a un mes son relativamente estables. En relación con las tasas de interés, el señor Lehmann indica que las de mediano y largo plazo de economías desarrolladas han estado cayendo, particularmente en Estados Unidos, donde la tasa a 10 años ha registrado una baja realmente importante respecto de la última RPM, que alcanza a 30 puntos base aproximadamente, disminución algo similar a la experimentada por la tasa a 2 años, lo que da cuenta de que la pendiente de la curva de rendimiento está relativamente estable. En cuanto a la tasa efectiva interbancaria overnight, el Gerente menciona que ella está muy cerca del rango establecido por el FED, esto es, en una cifra muy cercana a cero. En el caso de Europa, continúa, existe mayor variabilidad en la tasa interbancaria y caídas realmente importantes en las tasas de largo plazo y las a 2 años plazo, lo cual obedecería, fundamentalmente, a un mayor apetito por comprar bonos de los Estados Unidos. De hecho, agrega, se han observado demandas mucho mayores que lo anticipado, que han estado llevando las tasas a niveles muy bajos, y que detrás de ello podrían existir, además, elementos asociados a dudas respecto de la evolución de la economía en adelante, lo que también se ha traspasado al mercado, reflejándose en el mercado bursátil. Prosigue el señor Lehmann refiriéndose ahora a la tasa efectiva que la Gerencia de Análisis Internacional está proyectando, la que evidencia la existencia de una brecha entre esta y la estimada."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-2818",
+    "ID_Padre": 2818,
+    "Fecha": "2009-12-15",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "828325324617efc79af0035732c4aad81e99c35c4e35243c97243953ff4a81fe",
+    "Inicio": 1740,
+    "Fin": 1888,
+    "Cita_Inicio": "Esa moderación se refiere a la actividad real del PIB",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de Marfán, Marshall distingue actividad real del PIB de demanda: «sostiene el señor Enrique Marshall». Es una intervención explícita con sujeto pospuesto. Soto responde inmediatamente después. El retorno final a la exposición de Soto se recupera por el prefijo Al continuar con su exposición, sin extender este intervalo a los intercambios posteriores.",
+    "Limitacion": "Lectura dirigida del consolidado y del entorno de este intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2818,
+        "Cita": "e de cómo se defina velocidad histórica, ya que si se la define como la velocidad a la cual se sale de las recesiones, esa velocidad es bajísima. Añade que Chile normalmente ha salido rápido de las recesiones con velocidades muy altas, y que, incluso, en el año 1999 y en años previos, estas fueron muy altas, por lo que se puede afirmar que las actuales corresponden más bien a una salida moderada."
+      },
+      {
+        "ID_Padre": 2818,
+        "Cita": "Esa moderación se refiere a la actividad real del PIB, sostiene el señor Enrique Marshall, ya que si se observa la demanda, no parece tan moderada."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-754",
+    "ID_Padre": 754,
+    "Fecha": "2006-07-13",
+    "Actor": "Igal Magendzo Weinberger",
+    "SHA256_Texto_Padre": "b7c4a87739ebd1dfe19eb41114f3b9e8cfd6a369d9df1f0aea88bbb9d647ed15",
+    "Inicio": 257,
+    "Fin": 461,
+    "Cita_Inicio": "Responde el señor Gerente de Análisis Macroeconómico",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán deja una pregunta incompleta sobre fondos mutuos. Magendzo responde que no están en M1 pero sí en M2 y M3. Después Marfán vuelve a desarrollar su hipótesis y Valdés aclara las definiciones. No completar la pregunta ni atribuir la respuesta a Marfán.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Se conserva texto y marcas OCR sin reconstruir contenido ausente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 754,
+        "Cita": "El Presidente señor Vittorio Corbo, ofrece la palabra a los asistentes para comentarios. En cuanto a los agregados monetarios, el Consejero señor Manuel Marfán señala que si los fondos mutuos son todos filiales de bancos, y se definiera el dinero como todo"
+      },
+      {
+        "ID_Padre": 754,
+        "Cita": "Responde el señor Gerente de Análisis Macroeconómico, que los fondos mutuos no están dentro del M1, pero sí son parte del M2 y del M3. Por ello, señala que la información del M2 y M3 se podría modificar."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1858",
+    "ID_Padre": 1858,
+    "Fecha": "2008-06-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "c668fe3a84ffbe1c49fdaa321f2e8245900792d6bcb7598bb38f5c701d31ca03",
+    "Inicio": 692,
+    "Fin": 1702,
+    "Cita_Inicio": "Continuando con la presentación del escenario internacional",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después del comentario del Presidente y de la marca .LI I, Lehmann retoma la exposición sobre inflación de Japón y Asia, y responde la consulta de unidades de medida. El Presidente interviene a continuación y Lehmann vuelve a responder. Conservar el marcador de origen, no extender el Presidente al comienzo de la exposición.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Se conserva texto y marcas OCR sin reconstruir contenido ausente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1858,
+        "Cita": "or ejemplo, comenta que en el caso del ¡PC Core, siempre que se mira y compara dicho indicador, y como el nuestro es muy cercano se obtiene poco, y si se compara con otros lados, es bajísimo, entonces, plantea el señor Presidente que habría que revisar detenidamente ese tema, además de la implicancia que tiene la forma cómo se reporta la información, ya que es la misma forma en todos lados. .LI I"
+      },
+      {
+        "ID_Padre": 1858,
+        "Cita": "Continuando con la presentación del escenario internacional, el señor Sergio Lehmann indica que en Japón la tendencia es a mayores niveles de inflación en el margen, a pesar de observarse una ligera caída por razones coyunturales, pero claramente en el caso de esta economía también se han observado mayores presiones de inflación. Indica el señor Gerente que dando una mirada a las regiones, la inflación en general tiende a acelerarse, y especialmente importante, es la aceleración que muestra la inflación en Asia, y China por cierto es una de estas economías, pero el resto de las economías también están mostrando niveles de inflación más importantes, incluso, como ya se comentó hace una semana atrás, muchas de estas economías han tendido a sacar subsidios a combustibles, como es el caso de Tailandia, Indonesia, Malasia, lo que ha tendido a presionar los niveles de precios. Ante una consulta del señor Presidente, el señor Lehmann señala que las variaciones presentadas son mensuales semestre móvil."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2838",
+    "ID_Padre": 2838,
+    "Fecha": "2009-12-15",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "7334060401fd9477090cc4a154e523e3ef13244b82d218474a25306067f72057",
+    "Inicio": 2325,
+    "Fin": 4027,
+    "Cita_Inicio": "Para finalizar con la votación, el Presidente",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán expone su voto y comenta el comunicado; tras una frase sin cierre, De Gregorio inicia explícitamente la última intervención de la votación y desarrolla su evaluación. No atribuir ambos discursos a Marfán ni fabricar la puntuación que falta.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Se conserva texto y marcas OCR sin reconstruir contenido ausente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2838,
+        "Cita": "ue el escenario de riesgo, sin embargo, aún no está definido. En este contexto, el Vicepresidente Subrogante señor Marfán manifiesta que la decisión de hoy de mantener la tasa en su nivel actual de 50 puntos base es obvia, y que lo más relevante es el contenido del Comunicado que, a su juicio, debiera ser equivalente al de la Reunión anterior, respecto de las perspectivas de la política monetaria"
+      },
+      {
+        "ID_Padre": 2838,
+        "Cita": "Para finalizar con la votación, el Presidente, señor José De Gregorio, indica que al igual que el mes pasado, el escenario actual no dista significativamente del último IPoM, el cual, a su vez, es similar al que se presentará el miércoles 16 de diciembre ante la Comisión de Hacienda del Senado Señala que, aunque los últimos registros de actividad e inflación presentaron algunas sorpresas, en ambos casos algo por debajo de lo proyectado, estuvieron dentro de rangos razonables para afirmar que se sigue en una senda de recuperación con perspectivas de inflaciones que permanecerán bajas por un tiempo, para comenzar a subir y a converger a la meta en el horizonte de política. Más allá de algunos shocks financieros en la economía global, que revelan que la situación aún no se ha normalizado, el señor José De Gregorio menciona que la recuperación global continúa y con riesgos que aún persisten. Más aún, plantea que las recientes rebajas en la clasificación de la deuda pública de algunos países atestiguan que la situación fiscal en muchas economías es vulnerable y los costos de las expansiones fiscales en economías que partieron de una situación frágil no son menores. En su opinión, en el futuro se seguirán observando algunas turbulencias y shocks financieros negativos, del tipo observado recientemente, lo que requiere de un cuidadoso monitoreo del escenario internacional, que es, precisamente, lo que conduce a predicciones de una recuperación mundial pausada. Con todo, y habida cuenta de los riesgos externos, el señor De Gregorio estima que el panorama inflacionario para nuestra economía sugiere que el estímulo monetario actual se debe seguir manteniendo por un período prolongado."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2915",
+    "ID_Padre": 2915,
+    "Fecha": "2010-02-11",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "2846284cf82661bf08549e333c70548724dabb87369bcf60f50731b81ac8b63f",
+    "Inicio": 963,
+    "Fin": 2483,
+    "Cita_Inicio": "En cuanto a las tasas de variación de los salarios reales",
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García comenta la estacionalidad tras la intervención de Claro; después del marcador i, Soto retoma el análisis de salarios e inflación y desarrolla los cambios de base del IPC hasta el final. Es una exposición continua de Soto, no una serie de nuevos hablantes.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Se conserva texto y marcas OCR sin reconstruir contenido ausente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2915,
+        "Cita": "estaba esperando para diciembre del año 2009, con el objeto de apreciar si la tasa de desempleo original, no desestacionalizada, caía significativamente. Al respecto, el señor García indica que la tasa de desempleo efectivamente cayó, pero que podría haber disminuido más, si no se controlara por la estacionalidad habitual de que en el mes de diciembre se produce el reajuste del sector público. i"
+      },
+      {
+        "ID_Padre": 2915,
+        "Cita": "En cuanto a las tasas de variación de los salarios reales, el señor Claudio Soto indica que el último dato da cuenta de una calda, no obstante que el registro de diciembre de precios fue negativo y el dato de salarios fue positivo, explicando que la base de comparación de diciembre del año pasado hace que en doce meses se registre una caída en la tasa de variación anual. Refiriéndose ahora al IPC, el Gerente de Análisis Macroeconómico, señala que la variación del IPC mensual fue de 0,5% y que el IPCX1 llegó a -0,3%. Menciona que hubo dos sorpresas relevantes: una en vestuario, que determinó que la caída del IPCX1, de -0,4%, haya sido mayor que el -0,2% esperado; y la segunda, que fue la incidencia de gastos financieros, derivado de un tema metodológico, por el efecto de pasar las series de precios desde base diciembre 2008 igual 100 a base promedio 2009 igual 100. Al respecto, explica que si bien la dinámica de ambas series es similar, la diferencia está en el delta p, ya que para la primera este es de 28, en cambio que para la serie promedio 2009 igual 100 es de 42. Agrega que para evaluar la incidencia de este ítem se utiliza una fórmula bastante estándar, consistente en el cambio en el precio multiplicado por la ponderación y dividido por el IPC esperado. Indica que el IPC en promedio del índice es muy parecido, es decir que el del mes de diciembre es similar en base 2009 promedio igual 100 que en base diciembre 2008 igual 100, agregando que el ponderador aumentó levemente, desde 1,60 a 1,86."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-753",
+    "ID_Padre": 753,
+    "Fecha": "2006-07-13",
+    "Actor": "Igal Magendzo Weinberger",
+    "SHA256_Texto_Padre": "134a1c4db0c47848dd7f6d71c335ea61bfaca73163aec04e68344a48cb29fae7",
+    "Inicio": 174,
+    "Fin": 7352,
+    "Cita_Inicio": "Los mercados financieros nacionales, señala el señor Magendzo",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Corbo ofrece la palabra; Magendzo comienza la exposición con sujeto pospuesto y continúa hasta el final con mercados, actividad, empleo e inflación. Unir ese inicio a su continuación ya reconocida; no trasladar la presentación al Presidente.",
+    "Limitacion": "Lectura del consolidado y del entorno del intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 753,
+        "Cita": "el Presidente señor Corbo ofrece la palabra al Gerente de Análisis Macroeconómico, don Igal Magendzo Weinberger, a fin de que presente la exposición sobre la parte nacional."
+      },
+      {
+        "ID_Padre": 753,
+        "Cita": "Los mercados financieros nacionales, señala el señor Magendzo, se han movido en las últimas semanas coincidentemente con los movimientos externos, con una apreciación del peso y una recuperación de los Indicadores bursátiles. Indica que el tipo de cambio nominal pasó desde valores del orden de $ 544 por dólar, al cierre de la reunión de junio, hasta valores cercanos a $ 550 a fines de ese mes. No obstante, en lo más reciente, se ubica en niveles cercanos $ 540 por dólar. Las medidas multilaterales, TCM, TCM-5 y TCM-X presentaron variaciones del orden de 0,1%, -0,5% y 0,4%, en igual lapso, respectivamente. Agrega que el TCR finalizó junio con un nivel promedio de 93,4 y 2,8% por sobre el valor del mes anterior. En cuanto a la expansividad de las condiciones financieras internas, el señor Gerente indica que ésta no siguió disminuyendo en el último mes. Las tasas de interés de los documentos en pesos del Banco Central aumentaron desde la última reunión, entre 8 y 18 puntos base los BCP, mientras las de los BCU cayeron algo más de 10 puntos base. La tasa de crecimiento anual del dinero MI aumentó tras varios meses de estabilidad, lo mismo que su velocidad de expansión, a la vez que el incremento anual de los agregados crediticios sigue en niveles altos y estables. Las tasas de interés cobradas en las colocaciones de consumo y comerciales disminuyeron, marginalmente la primera 10 puntos base y con algo de mayor fuerza la segunda, 70 puntos base. Señala el Gerente señor Magendzo, que la Bolsa local, en línea con las internacionales, se ha recuperado casi 6% desde su nivel mínimo, registrado a mediados de junio. Por otra parte, señala que en el sector real, las cifras de mayo apoyaron la hipótesis planteada el mes anterior de que el débil dato del mes de abril había sido mayormente transitorio. Agrega, que en la industria y el comercio, los sectores de peor desempeño en el mes de abril, mostraron repuntes importantes en su tasa de crecimiento anual en mayo, llevando al Imacec a un crecimiento anual de 6,1% en dicho mes, con un día hábil más que en igual período del año 2005. Indica, que a diferencia de lo observado en el mes de abril, el crecimiento de la actividad en mayo sorprendió positivamente, toda vez que la mayor parte del mercado esperaba un incremento entre 5% y 5,5%. En cuanto a la inversión, hace presente el señor Gerente de Análisis Macroeconómico, que en junio el nivel de las importaciones de bienes de capital se mantuvo en torno a los valores de los meses previos (US$ 577 millones CIF). Su tasa de variación anual, no obstante, fue negativa -1,3%; 16,6% en mayo, principalmente, por el efecto de la alta base de comparación del mismo mes del año 2005. Menciona, el señor Gerente, que sobresalió el bajo desempeño de las ventas del sector inmobiliario en el mes de mayo, -10,2% anual; 1,4% en abril y 13,7% en el primer trimestre. Con todo, en su opinión, el panorama global de la inversión en el año se avizora con una desaceleración algo más pronunciada que la prevista en los últimos meses. En cuanto a la evolución del resto de la demanda interna — consumo y existencias— , señala que la información reciente sigue en línea con el escenario base considerado en el IPoM del mes de mayo y en la evolución de los meses recientes. Agrega que los indicadores parciales de consumo del mes de mayo, con su volatilidad habitual, apuntan a tasas de crecimiento anual similares a las del primer trimestre. Comenta, que ello afirma un escenario en que la demanda interna continúa creciendo a tasas similares a las previstas, pero con un mayor protagonismo del consumo y uno menor de la inversión. Por otro lado, destacó en el último mes la importante caída de las expectativas tanto de consumidores como de productores. El IPEC cayó 6,6 puntos respecto de mayo. Indica el señor Gerente de Análisis Macroeconómico, que durante junio las exportaciones agrícolas e industriales se mostraron dinámicas, consolidando la recuperación del desempeño relativamente bajo que mostraron en abril. Por su parte, los envíos mineros se vieron perjudicados por menores exportaciones de cobre. En cuanto a las importaciones, las de consumo se mostraron en el último trimestre relativamente dinámicas debido a mayores internaciones de combustible. Así, comenta que las exportaciones alcanzaron durante el mes de junio un valor de US$ 4.858 millones FOB, 40% anual, mientras las importaciones llegaron a US$ 2.960 millones FOB, 22,8% anual. Indica, que el segundo trimestre del año cerró con exportaciones por US$ 14.430 millones FOB, lo que corresponde a una variación anual de 43%, 33,9% el primer trimestre del año. Asimismo, las importaciones del segundo cuarto del año sumaron US$ 8.600 millones FOB, lo cual corresponde a un crecimiento anual cercano a 17%, 21,4% el primer trimestre. Indica el señor Magendzo, que en el mercado laboral, las cifras del Instituto Nacional de Estadísticas del trimestre móvil marzo-mayo de 2006, siguen indicando tendencias difíciles de analizar con exactitud, dadas las innovaciones que se están realizando en la muestra incluida en la encuesta de empleo y que distancian, cada vez más, las actuales cifras de los comparativos disponibles. En relación con los costos laborales, indica el señor Gerente, que en el mes de mayo, la tasa de crecimiento anual de los salarios nominales no tuvo mayores variaciones respecto del mes de abril, alcanzando un aumento de 5,5% en el costo de la mano de obra, -0,1 punto porcentual respecto del mes anterior. Manifiesta, que por su lado, los costos laborales unitarios, CLU, calculados a partir de los datos publicados, volvieron a presentar un incremento de su tasa de crecimiento anual, la que llegó a 8,3 y 7,6% para los CLU totales y CLUX, respectivamente. Le parece al señor Gerente, que sigue siendo difícil precisar cuánto de la mayor variación anual de los CLU podría responder a presiones genuinas de costos o más bien refleja la volatilidad propia de la productividad medida y los cambios a las mediciones del empleo y los salarios. Asimismo, indica que en el mes de junio, la inflación IPC estuvo en línea con lo proyectado (0,6% mensual; 3,9% anual), aunque las medidas subyacentes estuvieron algo por debajo. Agrega, que las estimaciones de mercado, en tanto, estuvieron por debajo de la variación efectiva del IPC. Indica el señor Gerente, que los distintos indicadores subyacentes mantuvieron las tendencias de los últimos meses. Indica, que por un lado, la velocidad de expansión del IPCX1 descendió por tercer mes consecutivo ubicándose algo por debajo de 2% anualizado y, por otro, la tasa de variación anual de los indicadores alternativos, medias podadas e IPCX2, siguieron oscilando en torno a los valores de los últimos meses, sin una trayectoria clara de aumento o disminución. Agrega que, en el corto plazo, el aumento en el precio del petróleo y sus derivados tendrá un efecto al alza en la inflación, a través de los canales habituales de precio de los combustibles y tarifas. En todo caso, estima que la entrada en operación del nuevo Fondo de Estabilización del Precio de los Combustibles podría producir precios algo distintos de los contemplados."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1873",
+    "ID_Padre": 1873,
+    "Fecha": "2008-06-10",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "67c7dbe426ded0d8a2363ef725c24db9ba222f34ccd53031e5a1a8e8778f4382",
+    "Inicio": 75,
+    "Fin": 528,
+    "Cita_Inicio": "En relación a lo indicado por el Gerente de Análisis Macroeconómico",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras la oferta de palabra del Presidente, Marshall distingue transferencias de donaciones. Soto es mencionado en el antecedente. El Presidente interviene de nuevo con una consulta sobre inversión y García responde. Sólo se adjudica el comentario de Marshall, manteniendo las demás voces.",
+    "Limitacion": "Lectura del consolidado y del entorno del intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1873,
+        "Cita": "El Presidente, señor José De Gregorio, ofrece la palabra para comentarios."
+      },
+      {
+        "ID_Padre": 1873,
+        "Cita": "En relación a lo indicado por el Gerente de Análisis Macroeconómico señor Claudio Soto, en el sentido que el gasto presupuestario del sector público continúa dinámico, sobre todo lo que se refiere a subsidios y donaciones, que afecta el ingreso disponible de los hogares, el Consejero señor Enrique Marshall señala que más bien se trata de transferencias fiscales al sector privado y no de donaciones, ya que este último término tiene otra connotación."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-1718",
+    "ID_Padre": 1718,
+    "Fecha": "2008-03-13",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "04c5c08361b0f0aad7e36344d87ea824e9d958c8dd5968a02df2d59df9a08414",
+    "Inicio": 3296,
+    "Fin": 3429,
+    "Cita_Inicio": "a lo que el Consejero Marfán agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall menciona la fiscalización laboral; Marfán agrega que antes subcontrataban y ahora deben incorporar trabajadores. Son sujetos explícitos distintos unidos sin coma. Se conserva a lo que, y Velasco comenta después. La referencia anterior de Magendzo a Cowan no se convierte en otro turno.",
+    "Limitacion": "Lectura del consolidado y del entorno del intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1718,
+        "Cita": "uciendo más. El señor Magendzo indica que se han presentado algunos problemas con la Asociación Chilena de Seguridad porque en cálculos e índices solicitados por el Banco, han mostrado cifras poco claras, y por lo mismo el gráfico de empleos asalariados está con datos inexactos. El Consejero señor Marshall señala que puede ser efecto de la fiscalización que está aplicando la Dirección del Trabajo"
+      },
+      {
+        "ID_Padre": 1718,
+        "Cita": "a lo que el Consejero Marfán agrega que efectivamente antes subcontrataban y ahora están obligados a incorporarlos en sus planillas."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_A_LO_QUE_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-2896",
+    "ID_Padre": 2896,
+    "Fecha": "2010-02-11",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "5c291d2bd39d4ad3592f3af1d10fb50b339e89b490b62d2144677f9ccb499fea",
+    "Inicio": 169,
+    "Fin": 662,
+    "Cita_Inicio": "en tanto que el señor Pablo García señala",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Vergara pregunta, Lehmann responde brevemente y García explica la estimación de largo plazo del cobre. Lehmann aclara después y sigue presentando la actividad y el empleo globales; no atribuir la explicación de García a Lehmann ni fragmentar su retorno.",
+    "Limitacion": "Lectura del consolidado y del entorno del intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2896,
+        "Cita": "El Consejero señor Rodrigo Vergara consulta si el ser más pesimista en esta materia es un patrón seguido por el Banco, a lo cual el señor Lehmann responde que no lo es,"
+      },
+      {
+        "ID_Padre": 2896,
+        "Cita": "en tanto que el señor Pablo García señala que la estimación se vincula con el diagnóstico de precios a largo plazo que se ha mantenido después de haberse incrementado en torno a US$2 la libra en términos reales. Añade que la percepción es que va a alcanzar ese valor y explica que el precio de largo plazo mencionado, de US$2 la libra en términos reales, se obtiene de estimaciones efectuadas sobre la base de modelos a largo plazo respecto del precio del cobre y las proyecciones de demanda."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2910",
+    "ID_Padre": 2910,
+    "Fecha": "2010-02-11",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "f0dc602ee9987ce7b0994b174cfe5424517ee74f66523b466f917475f06b8bf2",
+    "Inicio": 153,
+    "Fin": 422,
+    "Cita_Inicio": "en tanto que el señor Pablo García agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto responde que el objetivo estructural era de 0%; García distingue el anuncio inicial, la proyección de octubre y el resultado. La pregunta del Presidente y la respuesta de Soto conservan sus actores.",
+    "Limitacion": "Lectura del consolidado y del entorno del intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2910,
+        "Cita": "El Presidente, señor José De Gregorio, consulta si la regla del balance estructural era de 0,5%, a lo cual el señor Claudio Soto responde que era de 0%,"
+      },
+      {
+        "ID_Padre": 2910,
+        "Cita": "en tanto que el señor Pablo García agrega que a comienzos del año 2009 el anuncio fue que el objetivo para ese ejercicio fuera cero y que después, en el mes de octubre, al discutirse la Ley de Presupuesto, la proyección que se tenía era de -0,4% y resultó ser de -0,9%."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2983",
+    "ID_Padre": 2983,
+    "Fecha": "2010-03-18",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "97896e4b05b1681642d27c1d16210ccf1efc1ea39c8ca90eb5799adfb2aa744a",
+    "Inicio": 65,
+    "Fin": 552,
+    "Cita_Inicio": "en tanto que el señor Pablo García explica",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto confirma los componentes; García explica las fuentes de información y la calibración del modelo. Son intervenciones diferentes, no una atribución de toda la explicación a Soto.",
+    "Limitacion": "Lectura del consolidado y del entorno del intervalo; sin cotejo PDF ni revisión humana independiente. No certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2983,
+        "Cita": "El señor Claudio Soto confirma que esos son los dos componentes,"
+      },
+      {
+        "ID_Padre": 2983,
+        "Cita": "en tanto que el señor Pablo García explica que no es que dichos números se obtengan a partir del diagnóstico de cuánto cayó la oferta versus la demanda, sino que se llega a ellos basados en información de prensa y de la SOFOFA respecto de qué pasó con las empresas y con determinados sectores de la economía. Indica que, después, para calibrar cómo ello se vislumbra en adelante, se sometió el modelo a un par de shocks, de tal forma que arroje este tipo de resultados en el corto plazo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3007",
+    "ID_Padre": 3007,
+    "Fecha": "2010-03-18",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "e0908bbc45f2d390a1dbb57075ebed230b41d7d106b50c38988e2890d139394f",
+    "Inicio": 2732,
+    "Fin": 2933,
+    "Cita_Inicio": "Por último, el señor Vicepresidente sugiere",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de la explicación de García, Marfán solicita un escenario de riesgo con mayor impulso fiscal. García responde a continuación sobre el escenario corregido. La sugerencia del Vicepresidente no pertenece a García; se mantiene la secuencia Marfán → García → Marfán → García.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Se conserva el cierre dañado «No habiendo más comentarios,.» sin asignarle un hablante institucional nuevo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3007,
+        "Cita": "o distinto. En cuanto al saldo fiscal, que en sí mismo es muy fluctuante, plantea que si el Fisco no se ha pronunciado acerca de cuál es el escenario estructural de las cuentas públicas, lo que se debiese decir es que el Banco supone que, tal como se ha medido en los últimos años, el balance estructural es de 0% y que la condicionante es la clave."
+      },
+      {
+        "ID_Padre": 3007,
+        "Cita": "Por último, el señor Vicepresidente sugiere que, para efectos de evaluar escenarios de riesgo, se elabore un escenario en que haya un impulso fiscal mayor que el que está contemplado en la actualidad."
+      },
+      {
+        "ID_Padre": 3007,
+        "Cita": "Al respecto, el señor Pablo García explica que se partió con un escenario más estimulativo que el que se tenía el día martes 16, que consideraba un impulso fiscal de 2,5 puntos del PIB, escenario que luego fue corregido a la baja, suponiendo que es medio punto del PIB por año. No habiendo más comentarios,."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2981",
+    "ID_Padre": 2981,
+    "Fecha": "2010-03-18",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "a786b1a89d62184cd923e9ac5c70552d8e5cc4077caf17ea0e5f6f8a0c686f36",
+    "Inicio": 4774,
+    "Fin": 5012,
+    "Cita_Inicio": "señalando el señor Presidente que es el cambio",
+    "Tipo_Limite": "GERUNDIO_SENALANDO_EXPLICITO",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall pregunta qué representan -1,1% y -0,7%. El Presidente responde, con sujeto explícito pospuesto a señalando, y agrega las cifras del efecto del terremoto. Soto complementa después. Conservar señalando y la coma en la fuente, sin asignar la respuesta a Marshall ni el complemento de Soto al Presidente.",
+    "Limitacion": "Lectura del consolidado; sin cotejo PDF ni revisión humana independiente. Excepción individual para un gerundio con sujeto explícito: no se habilitan todos los gerundios como turnos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2981,
+        "Cita": "El Consejero señor Enrique Marshall consulta a qué corresponden el -1,1% y el - 0,7%,"
+      },
+      {
+        "ID_Padre": 2981,
+        "Cita": "señalando el señor Presidente que es el cambio en la tasa de crecimiento respecto a un escenario pre terremoto. Agrega que como consecuencia del terremoto, el nivel del PIB podría disminuir 2% en el primer trimestre y 1,4% en el segundo."
+      },
+      {
+        "ID_Padre": 2981,
+        "Cita": "El señor Soto complementa, aclarando que si no hubiese ocurrido esa catástrofe, se habría tenido un PIB 0,8% mayor que en la Reunión de Política Monetaria pasada, cuando todavía no se conocía el cierre de cuentas."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2566",
+    "ID_Padre": 2566,
+    "Fecha": "2009-06-16",
+    "Actor": "Jorge Desormeaux Jiménez",
+    "SHA256_Texto_Padre": "4888d369b51dbde449be28d6dce158afb565cba3b64bd42387d31090aef16769",
+    "Inicio": 2443,
+    "Fin": 2763,
+    "Cita_Inicio": "planteamiento al cual el Vicepresidente señor Jorge Desormeaux complementa",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann explica las expectativas de inflación. Desormeaux complementa ese planteamiento con un sujeto explícito, y Lehmann retoma después su exposición sobre paridades. Separar sólo el complemento del Vicepresidente, sin adjudicarle la presentación que sigue.",
+    "Limitacion": "Lectura del consolidado y entorno de los límites; sin cotejo PDF ni revisión humana independiente. No certifica todo el padre ni reconstruye enlaces dañados.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2566,
+        "Cita": "ida de estas expectativas desde hace algún tiempo. Asimismo, responde al Consejero señor Manuel Marfán que la información que proporciona dicha Universidad es a un período de 5 años plazo, por lo que sería similar o comparable con el bono análogo. Añade, que, de hecho, se ha pensado que la compensación inflacionaria se estaría normalizando después de un período en el que estuvo inusualmente baja,"
+      },
+      {
+        "ID_Padre": 2566,
+        "Cita": "planteamiento al cual el Vicepresidente señor Jorge Desormeaux complementa, señalando que cuando el mercado financiero se empieza a tranquilizar, los inversionistas tienden a abandonar los activos seguros en busca de activos más riesgosos y que esos activos corresponden esencialmente a inversiones con tasas nominales."
+      },
+      {
+        "ID_Padre": 2566,
+        "Cita": "Continuando con su exposición, el señor Lehmann indica que, en materia de paridades, ha continuado la depreciación del dólar con respecto a la mayoría de las monedas de países desarrollados y emergentes, salvo en relación con el yen, que ha experimentado un proceso distinto que el resto de las monedas. Agrega, que en cuanto a los tipos de cambio real para un conjunto de economías con las cuales Chile se compara, las trayectorias de los niveles SI bien no son necesariamente semejantes, sus perfiles que se aprecian con respecto al dólar, resultan"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2667",
+    "ID_Padre": 2667,
+    "Fecha": "2009-08-13",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "8ecd52eb4de993a9dac5b2f1a9cf06e13d9c74a70d29e9021e9a113c68debc4a",
+    "Inicio": 261,
+    "Fin": 1395,
+    "Cita_Inicio": "Al continuar con la exposición sobre consumo",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de la respuesta de Lehmann se concatena, sin cierre limpio, el inicio explícito del Gerente de Análisis Macroeconómico. Soto continúa sobre inventarios e inversión; su nombre reaparece al final. Conservar y el Gerente de en el tramo precedente, sin completar esa frase ni inferir a quién nombraba.",
+    "Limitacion": "Lectura del consolidado y entorno de los límites; sin cotejo PDF ni revisión humana independiente. No certifica todo el padre ni reconstruye enlaces dañados.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2667,
+        "Cita": "El señor Ministro de Hacienda consulta si estas empresas son las usuarias de cobre en Chile o fuera de Chile, a lo cual el Gerente de Análisis Internacional responde que cada uno de los países se pondera por el consumo de cobre correspondiente, y el Gerente de"
+      },
+      {
+        "ID_Padre": 2667,
+        "Cita": "Al continuar con la exposición sobre consumo, el Gerente de Análisis Macroeconómico indica que, respecto de julio, el dato que más sobresale es el de importaciones, haciendo el alcance que ello obedece a una circunstancia bastante puntual, cual fue una importación de magnitud relevante de turbinas para generación eléctrica. En cuanto a las perspectivas para los inventarios, medidas por el IMCE, el señor Gerente menciona que, si bien estas han seguido retrocediendo, todavía están en niveles altos, recordando, en todo caso, que la media histórica siempre ha estado sobre los 50 puntos. Plantea que es por ello que no se debería esperar que el IMCE llegue a 50 puntos para pensar que la situación se ha normalizado, sino que el hecho que supere ese nivel significa recién una señal de cierta normalidad. Luego, el señor Soto manifiesta que el catastro de inversión en construcción e ingeniería de junio se corrigió marginalmente a la baja para los años 2009 y 2010, corrección que es bastante menor que la de catastros anteriores, mientras que para 2011 aparecen proyectos nuevos o hay una postergación de proyectos hasta entonces."
+      }
+    ],
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-2704",
+    "ID_Padre": 2704,
+    "Fecha": "2009-09-08",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+    "Inicio": 659,
+    "Fin": 726,
+    "Cita_Inicio": "Es decir, no es problema de demanda, consulta el señor Presidente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras la explicación de De Ramón, el Presidente formula la pregunta con sujeto pospuesto; De Ramón responde y continúa con las restricciones de oferta. Marshall interviene después. La confirmación final atribuida en forma pasiva a Soto no se convierte en un turno nuevo en esta ronda.",
+    "Limitacion": "Lectura del consolidado y entorno de los límites; sin cotejo PDF ni revisión humana independiente. No certifica todo el padre ni reconstruye enlaces dañados.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2704,
+        "Cita": "restricciones distintas al spread. De hecho, podrían estar fuera de ese spread, que ha estado cayendo en todos los sectores que son riesgosos, como la construcción, por ejemplo. Agrega tener antecedentes de que, en realidad, los bancos han puesto muchas más restricciones para otorgar líneas de crédito, más dificultades para otorgar créditos o solicitan más garantías para las boletas de garantía."
+      },
+      {
+        "ID_Padre": 2704,
+        "Cita": "Es decir, no es problema de demanda, consulta el señor Presidente,"
+      },
+      {
+        "ID_Padre": 2704,
+        "Cita": "a lo cual el señor de Ramón manifiesta que no se puede concluir, necesariamente, que spreads más bajos y colocaciones estancadas sea un problema de demanda. Podría ser que subsistan los problemas de oferta de los bancos, que solamente han abierto líneas a algunos sectores. El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2644",
+    "ID_Padre": 2644,
+    "Fecha": "2009-07-09",
+    "Actor": "Luis Felipe Céspedes Cifuentes",
+    "SHA256_Texto_Padre": "ae1569d32298477457ba5b1aa72c320ca31d97394f54ce521043c9cb9dd751cb",
+    "Inicio": 100,
+    "Fin": 4202,
+    "Cita_Inicio": "quien comienza su exposición señalando que",
+    "Tipo_Limite": "CESION_RELATIVA_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente cede la palabra explícitamente a Céspedes; la relativa quien comienza su exposición señalando que inicia su presentación. Conservar su desarrollo completo, sus anáforas y los retornos explícitos del Gerente de Investigación Económica, hasta que el Presidente cede la palabra a De Ramón. No trasladar el comienzo de la exposición al cedente.",
+    "Limitacion": "Lectura del consolidado, no cotejo PDF ni revisión humana independiente. Se preservan daño y puntuación. Esta decisión no certifica todo el padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2644,
+        "Cita": "El Presidente concede la palabra al Gerente de Investigación Económica, señor Luis Felipe Céspedes,"
+      },
+      {
+        "ID_Padre": 2644,
+        "Cita": "quien comienza su exposición señalando que así como fue discutido en la sesión de la mañana y tal como lo indica la Minuta de Opciones, es necesario imprimir un impulso monetario adicional al ya contemplado en el escenario central del IPoM de mayo, habida consideración de la acumulación de noticias en los últimos meses. Precisa, que un cálculo basado en una simple regla de Taylor, y consistente con lo expresado por el Gerente de Análisis Macroeconómico durante la mañana, indica que la TPM debiese ser negativa en el corto plazo para que la inflación converja a la meta de 3% en el horizonte de política monetaria. Respecto del mínimo al cual podría llegar la TPM producto de la crisis financiera, plantea que, dado lo señalado en la Minuta de Opciones, no es difícil concluir que la vía de escape al problema de un límite inferior a la TPM, al menos inicialmente, sea incrementar el periodo de tiempo por el cual esta debiese mantenerse baja. En su opinión, si no se puede bajar la tasa en el corto plazo, habría que reducir la pendiente para lograr un estímulo macroeconómico equivalente. Agrega, que lamentablemente y tal como se ha observado en las últimas semanas, afectar la trayectoria de tasas esperadas por el mercado es complejo y difícil, dado que los problemas de consistencia dinámica se exacerban en este tipo de situaciones. Lo anterior, manifiesta el señor Céspedes, puede redundar en una Tasa de Política Monetaria esperada mayor que la necesaria para volver la inflación al 3% en el horizonte de política. Hace presente, que más complejo aún es que conforme la estructura de tasas de mercado es mayor que la requerida, se exacerba la necesidad de mantener la TPM en un nivel muy bajo por períodos prolongados. Explica, que por cada vez que el mercado tiene una estructura de tasas superior a la que los modelos del Banco indican, se requiere aumentar el lapso de tiempo en el que se debiese mantener baja la Tasa de Política Monetaria, es decir, se puede entrar en un círculo vicioso. Al respecto, señala que una forma de reducir este problema es implementar mecanismos que le den credibilidad a la comunicación de una TPM que se mantendrá baja por un período, y que la alternativa de facilidades de liquidez discutida en la Minuta de Opciones emerge como un elemento clave en esta dirección. En su opinión, de no explicitarse un plazo en el cual esta facilidad estará disponible, se aumenta la probabilidad de que el mercado estime una mantención de TPM menor que la requerida para estimular a la economía. Informa, que antecedentes preliminares basados nuevamente en ejercicios en torno al escenario de nesgo del IPoM, muestran que los plazos a los cuales la TPM debiese mantenerse en niveles bajos exceden largamente los que podría comprometer el Banco en operaciones de liquidez, por lo que se requiere avanzar en otras dimensiones que apoyen este tipo de medidas, reafirmando que las señaladas en la Minuta de Opciones van en esa dirección. El Gerente de Investigación Económica agrega que, dado el nivel de incertidumbre sobre el efecto de la estructura de tasas de los cursos de acción de política delineados en la Minuta de Opciones, parece razonable esperar y evaluar los efectos de la decisión de política monetaria que se adoptará antes de discutir potenciales alternativas. No obstante, señala que hay que tener muy presente que conforme la estructura de tasas se mantenga por sobre la requerida según las estimaciones disponibles en un esquema de facilidades de liquidez, el Banco tendría que comprometerse cada vez a plazos de mantención de TPM mayores o implementar acciones de política que, adoleciendo de un grado menor de inconsistencia dinámica, permitan incrementar el estímulo monetario en el corto plazo. Como una nota al margen, el señor Céspedes menciona que la sola existencia de potenciales medidas adicionales es útil para evitar el problema de distribución de TPM futuras truncadas en el valor mínimo posible. Respecto a estas medidas adicionales, finaliza, la experiencia reciente de otras economías abiertas puede ser interesante de tener en cuenta."
+      },
+      {
+        "ID_Padre": 2644,
+        "Cita": "A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de División Operaciones Financieras, señor Beltrán De Ramón."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2661",
+    "ID_Padre": 2661,
+    "Fecha": "2009-08-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+    "Inicio": 3640,
+    "Fin": 3710,
+    "Cita_Inicio": "y el señor Lehmann complementa que",
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras la explicación del Presidente, el Ministro acota El efecto debiera ser menor y al revés con sujeto pospuesto explícito. Lehmann complementa a continuación, y Claro hace la pregunta siguiente. Se recupera también el turno del Ministro mediante el prefijo acotado; no separar sólo la coordinación final. La confirmación pasiva anterior de Lehmann permanece documentada como residuo, sin inventar sus palabras.",
+    "Limitacion": "Lectura del consolidado, no cotejo PDF ni revisión humana independiente. Se preservan daño y puntuación. Esta decisión no certifica todo el padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2661,
+        "Cita": "El Ministro de Hacienda pregunta si la ponderación entre países latinoamericanos también es a PPP, a lo cual el señor Lehmann responde que para efectos de las agrupaciones también lo es a PPP. En el caso del año 2010, añade que las revisiones son bien marginales y bastante homogéneas en el grupo de países presentados El Vicepresidente, señor Jorge Desormeaux, solicita al Gerente de Análisis Internacional que explique cómo se estimaron las cifras del año 2010 que está presentando, porque los bancos de inversión no solo hablan de cifras superiores a 3% para el 2010, sino que de un crecimiento de tendencia. Al respecto, el señor Sergio Lehmann comenta que para el año 2010 hay una importante discrepancia entre los distintos bancos de inversión, es decir, que hay una desviación estándar en materia de proyección bastante elevada. Añade que, efectivamente, respecto de la media de dichos bancos, en especial en el caso de Estados Unidos, donde este fenómeno se focaliza tal vez de manera más importante, nuestras cifras están por debajo del promedio que ellos manejan, que hoy es de alrededor de 2%. Explica que lo que la Gerencia ha Incorporado en el juicio para efectos de definir el crecimiento del año 2010, también incluye la información de crecimiento y el hecho de que el FMI, en particular, esté proyectando un 0,8% para Estados Unidos para el próximo año. Entonces, señala que la Gerencia ha tratado de moderar en algún grado lo que los bancos de inversión están planteando en materia de expansión para el año 2010. El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann. El Gerente de Análisis Internacional destaca que un elemento importante, que quizás está vinculado con la visión que se puede tener en términos de crecimiento en adelante, tiene que ver con lo que plantean algunas instituciones respecto del crecimiento del producto potencial. Menciona que en el caso de Estados Unidos, el Congressional Budget Office (CBO) ha efectuado una revisión para los años 2008, 2009 y 2010, planteando una caída de seis décimas en el 2010 versus el año 2008. En el caso de la Zona Euro, añade, las estimaciones de la Comisión Europea, de la OCDE y del FMI dan cuenta de una caída del producto potencial de aproximadamente un punto producto de la crisis, señalando que los factores detrás del ajuste son el capital y la PTF en proporciones similares. Respecto de la PTF, detalla que los elementos que se han considerado para efectos de revisar el producto potencial a la baja están asociados a condiciones crediticias más estrechas a futuro, que llevarían a una asignación de recursos menos eficiente; retiros anticipados de personas del mercado laboral, si es que el desempleo se mantiene de manera particularmente prolongada, lo que, a su vez, también afecta los flujos de inmigración hacia las economías; y la reducción de la empleabilidad ante la pérdida de habilidades de la fuerza de trabajo. El Ministro señor Velasco pregunta qué relación tienen los flujos del mercado laboral con la productividad, a lo cual el Presidente señor De Gregorio responde que, dado que la PTF es un residuo, el flujo de inmigración tiene que ver con la composición de la fuerza de trabajo, con el capital humano. Explica que si los inmigrantes tienen habilidades diferentes del promedio del trabajador, va a cambiar la PTF, pero si entra gente con menores habilidades, eso debería afectar la PTF. El efecto debiera ser menor y al revés, acota el Ministro,"
+      },
+      {
+        "ID_Padre": 2661,
+        "Cita": "y el señor Lehmann complementa que será necesario afinar el análisis."
+      },
+      {
+        "ID_Padre": 2661,
+        "Cita": "Sobre ese mismo punto, el Consejero señor Claro consulta acerca del efecto que tiene en estas estimaciones el uso de un filtro estadístico estándar, sin agregar elementos de juicio como los antes presentados."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2805",
+    "ID_Padre": 2805,
+    "Fecha": "2009-12-15",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "932234f15936d5c993a83019c0833d3699871eeac5304df12b7afaa03d4400b7",
+    "Inicio": 5355,
+    "Fin": 5494,
+    "Cita_Inicio": "Esa es una decisión que han adoptado",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras la explicación de García sobre la disociación de la tasa objetivo y de mercado del BCE, el Presidente acota con sujeto pospuesto explícito que la decisión se implementó mediante provisión de liquidez más barata. No atribuir ese cierre a García ni alterar la larga exposición previa de Lehmann.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Conservar daños y continuidades. No certifica todos los pasajes del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2805,
+        "Cita": "s marcada, ya que la TPM es de 1%, pero la tasa efectiva está en torno a 0,5%. El señor Marfán manifiesta que no tiene sentido que el Banco Central Europeo (BCE) establezca que su tasa de interés es de 1% y que la baje cuando resulta redundante, a lo cual el Gerente de División Estudios, señor Pablo García, menciona que el BCE ha mantenido esta disociación entre tener una tasa objetivo de 1% y validar tasas de mercado bastante más bajas que eso."
+      },
+      {
+        "ID_Padre": 2805,
+        "Cita": "Esa es una decisión que han adoptado y lo han hecho a través de operaciones de provisión de liquidez más barata, acota el señor Presidente."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2855",
+    "ID_Padre": 2855,
+    "Fecha": "2010-01-14",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "eb4218cbe44c2721cdf95cb802e0f9da9c381168075ee768487ac0b9f45e5fdc",
+    "Inicio": 143,
+    "Fin": 1169,
+    "Cita_Inicio": "El Gerente de Análisis Macroeconómico, señor Claudio Soto, da inicio a su presentación",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente solicita la presentación a Soto; la oración siguiente nombra al expositor como sujeto de da inicio a su presentación. Soto continúa con PIB, actividad y sectores hasta el final del padre. La cesión no atribuye al Presidente los párrafos de la presentación.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Conservar daños y continuidades. No certifica todos los pasajes del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2855,
+        "Cita": "el señor Presidente solicita al Gerente Análisis Macroeconómico, señor Claudio Soto, que exponga la información relativa al escenario interno."
+      },
+      {
+        "ID_Padre": 2855,
+        "Cita": "El Gerente de Análisis Macroeconómico, señor Claudio Soto, da inicio a su presentación, destacando que el dato de actividad de noviembre, que dio cuenta de una variación anual y mensual de 3,1 y 1,2%, respectivamente, sorprendió algo al alza y constituyó el primer dato de variación positiva del Imacec después de casi un año. Señala que este crecimiento del PIB fue explicado en parte importante por recursos naturales, que se ha mantenido bastante dinámico tanto en minería como en gas, así como también por el IVA y los derechos de importación. A nivel sectorial, el señor Claudio Soto menciona importantes repuntes, como es el caso de la producción industrial vinculada a la inversión y, fundamentalmente, algunos componentes de comercio, sobre todo la venta de automóviles. Por el contrario, indica que el sector construcción aún no da muestras de una recuperación clara y que las ventas mayoristas muestran un cierto deterioro en el margen, principalmente la venta de materiales de construcción, maquinarias y alimentos."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-2779",
+    "ID_Padre": 2779,
+    "Fecha": "2009-11-12",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "4f8c900b02547f37065c1b6bf660952ba8303456339e42fd0bea158cfa9a5fb4",
+    "Inicio": 246,
+    "Fin": 612,
+    "Cita_Inicio": "mientras que el Consejero señor Enrique Marshall responde",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Cowan interviene; Soto asiente con sujeto explícito y sin palabras transcritas; Marshall responde y continúa con En su opinión. Se reconoce asiente como acto expreso, preservando literalmente la breve cláusula, y se delimita la respuesta contrastiva de Marshall. No atribuir la respuesta de Marshall a Soto ni la continuación a Cowan.",
+    "Limitacion": "Lectura del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar los actos narrados, texto dañado y continuidades; no certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2779,
+        "Cita": "El Gerente de División Política Financiera, señor Kevin Cowan, manifiesta entender que el empleo asalariado en la construcción aumenta, pero que sumado con el empleo por cuenta propia en construcción está más bien estable. El señor Soto asiente,"
+      },
+      {
+        "ID_Padre": 2779,
+        "Cita": "mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. En su opinión, en este sector se puede demostrar el empleo asalariado, ya que por empleo por cuenta propia, llevando las cosas a un extremo, se podría decir que este aumenta cuando los maestros empiezan a hacer trabajos muy simples."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3107",
+    "ID_Padre": 3107,
+    "Fecha": "2010-05-13",
+    "Actor": "Matías Bernier Bórquez",
+    "SHA256_Texto_Padre": "70bdecaab346768f17df7bd8fbb422e87221bb826b91abc769adb5af4c7160c3",
+    "Inicio": 4460,
+    "Fin": 4796,
+    "Cita_Inicio": "Para complementar, el Gerente de Mercados Financieros Nacionales, señor Matías Bernier, señala",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras la exposición de Marfán y la respuesta de De Ramón, Bernier complementa con sujeto y cargo explícitos. Agrega que el ha ido disminuyendo… continúa su intervención. Conservar los daños de la fuente, sin completar el sujeto que falta ni corregir la frase y últimamente.",
+    "Limitacion": "Lectura del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar los actos narrados, texto dañado y continuidades; no certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3107,
+        "Cita": "o, porque así obtienen liquidez gratis, a la TPM. mientras que la alternativa puede ser ir a una AFP, que le va a cobrar 25 puntos todos los días. Manifiesta que es muy posible que la venta de los depósitos a plazo se deba a que su tasa es atractiva hoy día, ya que subió un poco y la de 360 días está, de hecho, en algo más de 2% y, por lo tanto, puede ser que los bancos se estén deshaciendo de ese tipo de depósitos de manera ordenada. En resumen, indica que los bancos más bien mantienen los papeles que cree que van a subir de valor y, mientras tanto, con esos papeles obtienen liquidez gratis."
+      },
+      {
+        "ID_Padre": 3107,
+        "Cita": "Para complementar, el Gerente de Mercados Financieros Nacionales, señor Matías Bernier, señala que los vencimientos más cuantiosos de la FLAP han sido que no ha renovado en los Repos, y últimamente. Agrega que el ha ido disminuyendo su posición de liquidez neta y no ha sustituido los depósitos a plazo, sino que ha traído nuevos bonos."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3158",
+    "ID_Padre": 3158,
+    "Fecha": "2010-06-15",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "304d470f585515c6478f844583b9dc073579f13e33b24c8f5bf487417b9ff08b",
+    "Inicio": 83,
+    "Fin": 829,
+    "Cita_Inicio": "y el señor Claudio Soto agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García responde sobre el nivel de empleo; Soto agrega la variación de abril y continúa con cuenta propia, empleo asalariado y sectores. Delimitar la coordinación inicial y conservar como una exposición continua lo que sigue, incluido El señor Soto prosigue. No separar el número 400.000 ni inventar una coma antes de y.",
+    "Limitacion": "Lectura del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar los actos narrados, texto dañado y continuidades; no certifica todos los tramos del padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3158,
+        "Cita": "El señor Pablo García señala que el empleo total asciende 6,5 millones de personas"
+      },
+      {
+        "ID_Padre": 3158,
+        "Cita": "y el señor Claudio Soto agrega que, en abril, este registró una variación de 6,4% en doce meses, lo que implica alrededor de 400.000 personas. El señor Soto prosigue, indicando que el empleo por cuenta propia experimentó un fuerte crecimiento en abril y que el empleo asalariado también aumentó, pero en menor medida. Comenta que a nivel sectorial, el fuerte aumento se registró en servicios y comercio, estimándose que parte de este correspondería a la creación de empleo por cuenta propia y a un cierto grado de informalidad que se estaría observando en estos sectores. Añade que la serie de empleo por cuenta propia ha sido bastante volátil y que ha estado muy afectada por el terremoto, ya que disminuyó en febrero y marzo y aumentó en abril."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-3468",
+    "ID_Padre": 3468,
+    "Fecha": "2010-10-14",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "acb924a2fa0ed98c0a7792bf9d4daa03999e832b42b279337ba044fffea5358f",
+    "Inicio": 503,
+    "Fin": 924,
+    "Cita_Inicio": "Para resumir, el Vicepresidente señor Manuel Marfán plantea",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Herrera comenta los flujos brutos y netos y comprende la preocupación del Vicepresidente, lo que no lo convierte aún en sujeto. Marfán toma la palabra en Para resumir y prosigue con Por este motivo y Lo otro, indica. Conservar esas continuaciones con Marfán, sin adjudicarlas a Herrera ni cortar por cada oración.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. No certifica el resto de la sesión ni corrige texto dañado.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3468,
+        "Cita": "El Gerente de División Estudios señor Luis Óscar Herrera manifiesta tener dudas sobre lo que se puede aprender de considerar los flujos brutos versus los netos, porque muchos agentes miran, efectivamente, la posición neta, pero si se quieren acortar, no reducen la posición activa, sino que toman la posición pasiva en caso que los plazos sean más largos. Agrega comprender la preocupación del señor Vicepresidente respecto de poder diferenciar a los agentes que están tomando una determinada posición."
+      },
+      {
+        "ID_Padre": 3468,
+        "Cita": "Para resumir, el Vicepresidente señor Manuel Marfán plantea que son los agentes los que importan, ya que cada uno de ellos opera bajo una lógica distinta. Por este motivo, estima que los flujos brutos proveen información que contribuye a ver las tendencias y saber cuáles son los movimientos que predominan. Lo otro, indica, es poner un rezago a cualquier condición, que reporte los errores cometidos en períodos previos."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3123",
+    "ID_Padre": 3123,
+    "Fecha": "2010-05-13",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "c84f302301f80057608ad0c754229a67ba49fb00415d524684d51d9814b2c2f6",
+    "Inicio": 5594,
+    "Fin": 5651,
+    "Cita_Inicio": "quien agradece, en primer término, el análisis del staff.",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras el voto de Marshall, el Presidente cede la palabra al Vicepresidente Manuel Marfán. La relativa quien agradece describe el acto de Marfán, no el del Presidente ni el de Marshall. Se separa también la cesión precedente mediante su sujeto explícito. Preservar el voto y la exposición anterior de Marshall; no inventar palabras de agradecimiento.",
+    "Limitacion": "Lectura del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Delimitar los actos narrados sin inventar palabras y conservar las continuaciones. No certifica todo el padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3123,
+        "Cita": "de normalización de inmediato. Por otro lado, indica que se puede sostener que la evolución del escenario interno ha generado cierto espacio para postergar el inicio del ciclo de ajuste. Plantea que a ello se puede agregar que las tensiones observadas en el frente externo se encuentran aún en desarrollo y que sus implicancias son aún inciertas, y que, en ese cuadro, no parece conveniente introducir una sorpresa iniciando el proceso de normalización antes de lo que el mercado espera. Sopesando todos estos argumentos, el Consejero señor Enrique Marshall declara inclinarse, finalmente, por no innovar en esta Reunión, votando, por tanto, por mantener la TPM en su actual nivel de 0,50%. Al continuar con la votación, el señor Presidente concede la palabra al Vicepresidente, señor Manuel Marfán,"
+      },
+      {
+        "ID_Padre": 3123,
+        "Cita": "quien agradece, en primer término, el análisis del staff."
+      }
+    ],
+    "Tipo_Limite": "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO"
+  },
+  {
+    "Revision_ID": "HAB-20260907-3187",
+    "ID_Padre": 3187,
+    "Fecha": "2010-06-15",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "dd1a3ab5eec7f3c17674b647721fd084db357372e242755580bae90d813e7f87",
+    "Inicio": 342,
+    "Fin": 818,
+    "Cita_Inicio": "En opinión del señor Presidente,",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente inicia el comentario; el Vicepresidente Marfán manifiesta después que el dinero debiera retirarse, y el Presidente retoma en En opinión del señor Presidente. Mantener Plantea y Pregunta como continuaciones de este último. Se reconoce también Dado eso con sujeto explícito, evitando separar sólo uno de los dos límites.",
+    "Limitacion": "Lectura del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Delimitar los actos narrados sin inventar palabras y conservar las continuaciones. No certifica todo el padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3187,
+        "Cita": "El señor Presidente indica que algo distinto ocurre con la demanda de dinero real de corto plazo, en que el residuo es positivo, y en cuyo caso se tiene un exceso de oferta de dinero. Dado eso, el señor Vicepresidente manifiesta que el dinero debiera ser retirado para llegar a un punto de equilibrio en que la demanda sea igual a la oferta."
+      },
+      {
+        "ID_Padre": 3187,
+        "Cita": "En opinión del señor Presidente, este tema es fundamentalmente académico. Plantea que el crecimiento del dinero debiera ser igual al crecimiento real en el largo plazo y que llama la atención que en el período comprendido entre los años 2000 y el 2010, el crecimiento acumulado, de dos dígitos durante todos esos años, haya sido diez veces el crecimiento del producto. Pregunta, entonces, qué elemento en la demanda por dinero lleva a ese grado de monetización tan importante."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3421",
+    "ID_Padre": 3421,
+    "Fecha": "2010-09-16",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "f6f8d7474b7739072034ce6d15db2f7fa6fbf1ee9366cdd00b671fb35a2179cc",
+    "Inicio": 1790,
+    "Fin": 2587,
+    "Cita_Inicio": "Hace presente que esta es la última Sesión",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de la reanudación institucional que identifica al Presidente, este agradece personalmente a García y da la bienvenida a Herrera. Delimitar desde Hace presente hasta el final, sin atribuir las menciones a García o Herrera como turnos. Separar además la suspensión previa del discurso de Soto con su sujeto explícito.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3421,
+        "Cita": "iación gradual del peso. Para finalizar, el Gerente de Análisis Macroeconómico informa que para esta RPM se espera, mayoritariamente, un aumento de 50 puntos base de la TPM. Agrega que la curva forward y la forward que se podría computar con los swaps se empinan respecto del último IPoM. No habiendo comentarios, el Presidente señor José De Gregorio agradece al Gerente de Análisis Macroeconómico, suspende la Sesión a las 13:20 horas e informa que la misma se reanudará a las 16:00 horas. Siendo las 16:00 horas, el Presidente señor José De Gregorio reanuda la Sesión de Política Monetaria N° 160."
+      },
+      {
+        "ID_Padre": 3421,
+        "Cita": "Hace presente que esta es la última Sesión a la que el señor Pablo García asiste en calidad de Gerente de División Estudios. Es por esta razón que desea que quede constancia en el Acta el agradecimiento, en nombre del Consejo y del suyo propio, por la contribución que prestó al Banco Central durante largo tiempo, primero como Economista, luego como Gerente y después como Gerente de División Estudios. Manifiesta que, sin duda alguna, parte importante de lo que se ha logrado en el Banco hasta hoy día se ha debido a la gran contribución del señor García. Asimismo, el Presidente señor José De Gregorio da la bienvenida al señor Luis Óscar Herrera, quien se reincorpora a su casa de origen en el cargo de Gerente de División Estudios a contar del día martes 21 de septiembre próximo. Presidente."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3476",
+    "ID_Padre": 3476,
+    "Fecha": "2010-10-14",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "38f69a35061dc74e623eb090222b575626caec6a937a3c883c8ec4512d8462ea",
+    "Inicio": 4851,
+    "Fin": 5106,
+    "Cita_Inicio": "El Presidente señor José De Gregario da la bienvenida",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de la reanudación institucional, el Presidente da la bienvenida al Ministro y cede la palabra a Herrera. Ambos son destinatarios, no autores del turno. Separar también la suspensión anterior de la presentación de Soto, conservando De Gregario, Claudia y la falta de punto antes de El Presidente.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3476,
+        "Cita": "se ha ajustado a la baja en su tramo más corto, por lo que se estima que la TPM llegará a 3,25% en diciembre. Agrega que si se estima esta curva con las tasas swap, esto es, con la metodología que utiliza la Gerencia de Mercados Nacionales, la tasa estaría algo por sobre 3% de aquí a diciembre. No habiendo comentarios , el Presidente señor José De Gregario agradece la exposición del Gerente de Análisis Macroeconómico señor Claudia Soto, suspende la Sesión a las 13:15 horas e informa que la misma se reanudará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria"
+      },
+      {
+        "ID_Padre": 3476,
+        "Cita": "El Presidente señor José De Gregario da la bienvenida al Ministro de Hacienda señor Felipe Larraín y concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente las Opciones de Política Monetaria para la presente Reunión."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3303",
+    "ID_Padre": 3303,
+    "Fecha": "2010-08-12",
+    "Actor": "Ricardo Vicuña Poblete",
+    "SHA256_Texto_Padre": "87b8e9aa37152b24797ed4c93baeb38b87bf5844764b2c36071d6d00ed642f66",
+    "Inicio": 1098,
+    "Fin": 1212,
+    "Cita_Inicio": "en tanto que el señor Vicuña complementa",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Vicuña explica las reparaciones; Soto responde sobre el registro de albañiles; Vicuña complementa que se incorporan como relaciones menores. Delimitar el retorno, sin adjudicarlo a Soto ni dividir la exposición inicial.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3303,
+        "Cita": "bestimando la cifra si se utilizara la tasa histórica de reparaciones, que se obtiene a partir de las cuentas anuales, y que en el caso particular del segundo trimestre se hizo una imputación especial en materia de reparaciones, sobre la base de lo ocurrido en el primero. Finalmente, menciona que hay información más dura de demoliciones, cuya fuente es el Servicio de Impuestos Internos, a partir de la cual también se efectúa una estimación gruesa. En cuanto al registro de los albañiles, el Gerente de Análisis Macroeconómico señor Claudio Soto informa que se incluyen en el sector construcción,"
+      },
+      {
+        "ID_Padre": 3303,
+        "Cita": "en tanto que el señor Vicuña complementa, especificando que se incorporan como relaciones menores en dicho sector."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3650",
+    "ID_Padre": 3650,
+    "Fecha": "2011-01-13",
+    "Actor": "Luis Óscar Herrera Barriga",
+    "SHA256_Texto_Padre": "410a0347656717088cf9a46b2d5ce4841b634d1580e69b47bfd9eab0cdb7a8c4",
+    "Inicio": 104,
+    "Fin": 384,
+    "Cita_Inicio": "y el Gerente de División Estudios señor Luis Óscar Herrera",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann confirma lo expresado por el Presidente, referencia que no inicia un turno de este. Herrera explica después los argumentos sobre salarios y apreciación china. Delimitar la coordinación con su sujeto explícito.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3650,
+        "Cita": "El Gerente de Análisis Internacional señor Sergio Lehmann confirma lo expresado por el señor Presidente"
+      },
+      {
+        "ID_Padre": 3650,
+        "Cita": "y el Gerente de División Estudios señor Luis Óscar Herrera, por su parte, explica que quienes argumentan que la apreciación de la moneda china es mayor, usan los datos de salarios, que han experimentado un alza de entre 15 y 20%, más allá del aumento anotado por la productividad."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-3651",
+    "ID_Padre": 3651,
+    "Fecha": "2011-01-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "93271dab9f9aa8b4ba85182d596a89cddb8cae6e4fd2751a192b98748239a44f",
+    "Inicio": 166,
+    "Fin": 1449,
+    "Cita_Inicio": "Para cerrar este tema, el señor Sergio Lehmann agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente solicita analizar el tipo de cambio real; Lehmann responde y continúa su exposición sobre bolsas y premios soberanos. Mantener la respuesta y los párrafos siguientes con el expositor, sin retornarlos al Presidente.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3651,
+        "Cita": "El Presidente señor José De Gregorio solicita analizar el tipo de cambio real y la inflación doméstica y completar, en lo posible, esta visión del tipo cambio chino."
+      },
+      {
+        "ID_Padre": 3651,
+        "Cita": "Para cerrar este tema, el señor Sergio Lehmann agrega que el tipo de cambio nominal se apreció alrededor de 3,5% durante el año 2010 y que para este año se estima una apreciación de 5%. Al continuar con su presentación, el señor Sergio Lehmann informa que los mercados bursátiles desarrollados y emergentes han registrado alzas durante las últimas semanas. En cuanto a Europa, en particular, destaca la acción del Banco Central Europeo (BCE) en materia de compra de deuda soberana de países de la región, que luego de haberlas intensificado hacia finales del año 2010, las ha moderado durante las últimas semanas. Al respecto, hace el alcance que los montos adquiridos a partir de agosto son significativamente menores que los comprados en mayo del año pasado, cuando se llegó a una máxima tensión en esos mercados. En relación con los premios soberanos, hace notar que los CDS spreads a 5 años en las economías periféricas de Europa se mantienen en niveles muy elevados y con alguna tendencia al alza en las últimas semanas, en especial en Grecia, Irlanda y Portugal. Indica que esta situación se repite en el caso de los CDS bancarios, como es el caso del Deutsche Bank, UniCredit, Société Générale y UBS, y con mayor fuerza aún en el caso de los bancos españoles Santander y BBVA."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3571",
+    "ID_Padre": 3571,
+    "Fecha": "2010-11-16",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "2152c6d07d89fa7f4ec211ef52b1c67b22a33cb94c8fa0dcfd7a4552e8bfc979",
+    "Inicio": 737,
+    "Fin": 1127,
+    "Cita_Inicio": "Para cerrar la discusión, el Presidente señor José De Gregorio destaca",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán advierte sobre vulnerabilidades y estabilidad; el Presidente cierra la discusión comparando el marco de política actual con el de los noventa. Al respecto, manifiesta continúa con el Presidente. No adjudicar el cierre ni su continuación a Marfán.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3571,
+        "Cita": "riesgo o de un problema de inestabilidad financiera. Aclara que se refiere más bien a un escenario de mucho optimismo, como el de fines de los años noventa, antes de la crisis asiática, que llevó a vulnerabilidades que significaron un ajuste de precios relativos que fue tan inflacionario, que el Banco Central de la época frenó ese cambio de precios, porque validarlo en un contexto sobrecalentado se traducía en más inflación. A su juicio, ese tipo de escenario y de solución son los que hay que evitar, por la propia estabilidad del ciclo macro y por los efectos sobre la inflación y los precios."
+      },
+      {
+        "ID_Padre": 3571,
+        "Cita": "Para cerrar la discusión, el Presidente señor José De Gregorio destaca la relevancia de dimensionar y de tomar una posición respecto de cuál es la importancia que juega el policy. Al respecto, manifiesta que el marco de política actual es completamente distinto del de fines de los noventa, y que es muy difícil que el escenario de entonces pueda repetirse con el marco de política vigente."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3737",
+    "ID_Padre": 3737,
+    "Fecha": "2011-02-17",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "8a1dc0c8274d61739404f534249c49b02693a31ddcbcaf3790d8a17db0330cd6",
+    "Inicio": 430,
+    "Fin": 978,
+    "Cita_Inicio": "Con el objeto de entender los movimientos en bolsa, el señor Sergio Lehmann explica",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Ramón expone su interpretación y coincide con el Presidente, referencia que no inicia un turno de este. Lehmann explica después los flujos de fondos entre renta variable y bonos y continúa con Agrega. Conservar su análisis íntegro y no confundir la mención del Presidente con un interlocutor nuevo.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3737,
+        "Cita": "El señor Beltrán de Ramón señala que, a su juicio, la caída de las bolsas de América Latina, Asia y de los BRIC obedecería al enfriamiento de la economía china, particularmente significativo en el mes de enero y parte de febrero último. Coincide, además, con el Presidente señor José De Gregorio en que debe recordarse que estas bolsas registraron los más altos rendimientos el año pasado, que no serían sostenibles en el tiempo."
+      },
+      {
+        "ID_Padre": 3737,
+        "Cita": "Con el objeto de entender los movimientos en bolsa, el señor Sergio Lehmann explica que en las economías emergentes se observa una salida muy marcada de fondos de inversión de renta variable, similar, de hecho, a lo acontecido hacia fines del año 2007 y comienzos del año 2008, mientras que las posiciones en bonos muestran un ligero aumento en virtud de las expectativas de alza de tasas. Agrega que en los períodos de mayor turbulencia, las caídas de flujos se producen en ambos tipos de instrumentos, lo que no es el caso en la coyuntura actual."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3800",
+    "ID_Padre": 3800,
+    "Fecha": "2011-02-17",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "c66c98897c02a55f09fce3132dc22e01e596a2238fc17edb9ea35ed8490da1d8",
+    "Inicio": 142,
+    "Fin": 852,
+    "Cita_Inicio": "Por último, el señor Vicepresidente comenta",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto responde a la petición de una minuta en 3799; luego el Vicepresidente comenta las expectativas de febrero y continúa con Indica y En otras palabras. El Vicepresidente en esta sesión es Manuel Marfán (3799/3812/3813). No asignar sus advertencias a Soto ni dividirlas por oración; 3801 es la suspensión del Presidente.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3800,
+        "Cita": "El señor Claudio Soto responde que se está elaborando una minuta sobre la materia, que será presentada a los señores Consejeros próximamente."
+      },
+      {
+        "ID_Padre": 3800,
+        "Cita": "Por último, el señor Vicepresidente comenta que la Encuesta de Expectativas Económicas de febrero no es muy confiable, porque es respondida principalmente por los subrogantes, quienes no suelen manifestar su verdadero parecer cuando dista de la opinión mayoritaria del mercado, llevando a un resultado más bien uniforme. Indica que si bien esta encuesta no muestra una mayor dispersión respecto de ocasiones anteriores, no descartaría la hipótesis de que las expectativas pudieran comenzar a desanclarse. En otras palabras, manifiesta su mayor preocupación en cuanto a que se pudiera repetir el episodio del año 2008, razón por la cual sugiere estar alertas para actuar con mayor oportunidad, si fuera el caso."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-3887",
+    "ID_Padre": 3887,
+    "Fecha": "2011-03-17",
+    "Actor": "Enrique Marshall Rivera",
+    "SHA256_Texto_Padre": "d8c21b38a94635b583aee621d4346374a9cb9226d2d1edb43800462c4a230453",
+    "Inicio": 5699,
+    "Fin": 8366,
+    "Cita_Inicio": "Al continuar con la votación, el Consejero señor Enrique Marshall comienza",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Claro desarrolla su voto; el texto conserva a 4%. antes de En consecuencia y termina la frase de Claro en aumentar la tasa sin puntuación. El sujeto explícito siguiente inicia el agradecimiento y la exposición completa de Marshall, que prosigue con Plantea, Sin perjuicio de ello, En el frente interno y las expectativas de inflación. 3888 continúa su fundamentación con nombre explícito. No mover a 4%. ni reconstruir la frase; no cortar sus continuaciones.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3887,
+        "Cita": "a la luz de estos antecedentes disponibles hoy, ello no representa necesariamente un cambio sustancial en la magnitud requerida del ajuste de la política monetaria en los próximos trimestres, sino que refleja más bien un cierto adelantamiento de parte de este ajuste, dada la genuina preocupación por las perspectivas y por las expectativas de inflación. Agrega que en las condiciones actuales, es posible que los próximos ajustes vuelvan a la gradualidad anterior, en la medida que las condiciones así lo sugieran. a 4%. En consecuencia, el Consejero señor Sebastián Claro vota por aumentar la tasa"
+      },
+      {
+        "ID_Padre": 3887,
+        "Cita": "Al continuar con la votación, el Consejero señor Enrique Marshall comienza su intervención agradeciendo al staff e\\ apoyo brindado en esta oportunidad. Plantea, en primer término, que las noticias del último mes están marcadas por el fuerte incremento del precio del petróleo asociado a fenómenos geopolíticos, y por las catástrofes sufridas por Japón, todo lo cual ha introducido incertidumbre y ha tenido ya efectos en los mercados financieros. Sin perjuicio de ello, sostiene que los antecedentes disponibles, levantados con anterioridad a dichos desarrollos, reafirman el crecimiento mundial y despiertan una creciente preocupación por la inflación tanto en las economías maduras como en las emergentes. En su opinión, si bien lo más probable es que la economía mundial mantendrá un sólido crecimiento, los efectos de los últimos desarrollos deben ser monitoreados con atención. En el frente interno, menciona que las cifras de actividad han resultado algo mejores que lo previsto. Agrega que las proyecciones se han corregido levemente al alza para el primer semestre, pero que el panorama para el año, en su conjunto, no es sustancialmente distinto del que se visualizó previamente. Destaca que las condiciones que apoyan esta expansión siguen presentes, ya que las expectativas de hogares y empresas siguen siendo positivas; las perspectivas para el sector construcción se ven positivas para este año; las políticas crediticias de los bancos son bastante normales; el empleo crece; y la masa salarial se expande en forma apreciable. En materia de inflación, señala que, por el momento, las cifras efectivas no han deparado grandes sorpresas, pero que las perspectivas en adelante generan preocupación debido a la concurrencia de varios factores, como los incrementos en los precios de la energía y los alimentos que, tarde o temprano, deberían traducirse en mayores índices inflacionarios; las condiciones cíclicas de la economía interna, que resultan favorables para la propagación de presiones inflacionarias; y el mercado laboral, que se ha ido estrechando, y, congruente con ello, el aumento de las remuneraciones a tasas relevantes. Destaca que si bien las fuerzas apreciativas siguen en operación, el peso ha experimentado oscilaciones e incluso se ha depreciado respecto de la última Reunión, agregando o, por lo menos, no restando presión sobre los precios internos. Informa, además, que las expectativas de inflación, obtenidas tanto de encuestas como de los precios de los activos, han vuelto a subir para los plazos más cortos y se han mantenido elevadas para los plazos más largos. A su juicio, estas son señales que no pueden pasar desapercibidas."
+      }
+    ],
+    "Tipo_Limite": "CONCATENACION_EXPLICITA_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260907-3906",
+    "ID_Padre": 3906,
+    "Fecha": "2011-04-12",
+    "Actor": "Sebastián Claro Edwards",
+    "SHA256_Texto_Padre": "0b1afd119abf98fbd8223feff96a54c4851530b1e679836940e7ba4cec23e83d",
+    "Inicio": 136,
+    "Fin": 258,
+    "Cita_Inicio": "en tanto que el Consejero señor Sebastián Claro estima",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente interpreta mayor inflación y mayor crecimiento; Claro contrapone mayor inflación y menor crecimiento. Son dos opiniones distintas de sujetos explícitos, no una cita del Presidente. 3905 desarrolla la pregunta de Claro y 3907 devuelve la exposición a Lehmann.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3906,
+        "Cita": "El Presidente señor José De Gregorio piensa que la caída de tasas puede obedecer a expectativas de mayor inflación y mayor crecimiento,"
+      },
+      {
+        "ID_Padre": 3906,
+        "Cita": "en tanto que el Consejero señor Sebastián Claro estima que responde a expectativas de mayor inflación y menor crecimiento."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-4220",
+    "ID_Padre": 4220,
+    "Fecha": "2011-08-18",
+    "Actor": "Luis Óscar Herrera Barriga",
+    "SHA256_Texto_Padre": "c3073064f00dd768b5377883a55412c982531bd486682a450dd51c7e411de802",
+    "Inicio": 174,
+    "Fin": 351,
+    "Cita_Inicio": "en tanto que el Gerente de División Estudios señor Luis Óscar Herrera hace presente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente plantea sustituir referencias para la Zona Euro, Lehmann se compromete a revisar el gráfico y Herrera agrega que el spread alternativo arroja los mismos resultados. Se separan los tres actos, sin atribuirlos todos al Presidente ni confundir a Herrera con un objeto de mención. 4219 corresponde a Lehmann y 4221 a Marshall.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4220,
+        "Cita": "El Presidente señor José De Gregorio plantea que tratándose de la Zona Euro, debiera considerarse la Euribor y la Eonia. El señor Lehmann se compromete a revisar el gráfico,"
+      },
+      {
+        "ID_Padre": 4220,
+        "Cita": "en tanto que el Gerente de División Estudios señor Luis Óscar Herrera hace presente que considerar el spread Euribor- Eonia arroja los mismos resultados que el spread Libor-OIS."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-4224",
+    "ID_Padre": 4224,
+    "Fecha": "2011-08-18",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "9aa4dcbac22b640a6a916b017e2225fdc46da85624ff836af69d724028d09530",
+    "Inicio": 442,
+    "Fin": 1408,
+    "Cita_Inicio": "Al proseguir con su presentación, el señor Sergio Lehmann indica",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Cowan explica las tensiones de financiamiento en dólares y Lehmann retoma su presentación de CDS, incluyendo Agrega, Hace notar, Informa y el ejemplo de Société Générale. No adjudicar ese retorno a Cowan ni repartir las continuaciones entre ellos. 4223 muestra el intercambio previo y 4225 prosigue explícitamente la exposición de Lehmann.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4224,
+        "Cita": "El Gerente de División Política Financiera señor Kevin Cowan explica que una parte importante del financiamiento en dólares de los bancos europeos proviene de los fondos mutuos norteamericanos. En consecuencia, cuando hay tensiones, los fondos mutuos deshacen posiciones en Europa, generando presiones de liquidez en dólares en ese continente. Acota que para los bancos europeos es algo más difícil acceder al fondeo en dólares que en euros."
+      },
+      {
+        "ID_Padre": 4224,
+        "Cita": "Al proseguir con su presentación, el señor Sergio Lehmann indica que los CDS de las economías europeas registraron aumentos importantes, particularmente los CDS de los bonos soberanos hasta el momento en que se tomó la decisión de rescatar a Grecia. Agrega que los CDS de Italia y España también alcanzaron niveles en torno a 400 puntos base, pero que disminuyeron una vez que el Banco Central Europeo decidió comprar bonos de ambas economías. Hace notar, además, que los CDS de bancos también registraron un aumento importante y una caída posterior. Informa que, probablemente, se estén produciendo movimientos al alza durante la presente jornada, producto de las turbulencias más recientes y las preocupaciones acerca de los problemas que siguen latentes en el caso de los bancos europeos. A título ejemplar, comenta que los CDS del banco Société Générale, respecto del cual hay hoy día algún grado de cuestionamiento, se mantuvieron en un nivel levemente elevado."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-4341",
+    "ID_Padre": 4341,
+    "Fecha": "2011-10-13",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "26e27a214f5df2531eebd2342363d90cc66c5be18e8ed880636f1a49b6bae3c6",
+    "Inicio": 211,
+    "Fin": 307,
+    "Cita_Inicio": "en tanto que el Vicepresidente señor Manuel Marfán agrega",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente pregunta por el objeto de la votación; Lehmann responde; Marfán agrega la explicación de la garantía y Lehmann precisa el alcance de los países AAA. El complemento intermedio no es parte de la respuesta de Lehmann. Mantener la precisión posterior de Lehmann y la exposición anterior 4340; 4342 incorpora a Herrera y retoma Lehmann.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4341,
+        "Cita": "El Presidente señor José De Gregorio consulta si la votación de los distintos países tiene por objeto aprobar la ampliación del Fondo. El señor Lehmann responde que ese es precisamente el objeto de la votación,"
+      },
+      {
+        "ID_Padre": 4341,
+        "Cita": "en tanto que el Vicepresidente señor Manuel Marfán agrega que votan porque otorgan su garantía."
+      },
+      {
+        "ID_Padre": 4341,
+        "Cita": "El señor Lehmann precisa que solo los países AAA garantizan las emisiones de bonos y que los recursos obtenidos van en ayuda de los países en problemas, en este caso, a Grecia, Portugal Irlanda, contra bonos de primera emisión de esas economías."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260907-4357",
+    "ID_Padre": 4357,
+    "Fecha": "2011-10-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "ec97f28400a25507951819d1299790fb312612007cdf10b667f56d6f36502123",
+    "Inicio": 655,
+    "Fin": 1235,
+    "Cita_Inicio": "Al finalizar su presentación, el señor Lehmann destaca",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán comenta los contratos de cobre y menciona la denominación de Lehmann entre rayas, sin que la mención produzca un turno. Más tarde Lehmann cierra su presentación sobre commodities, petróleo y Libia, incluyendo Respecto, En su opinión y Agrega. 4356 es su explicación anterior y 4358 agradece expresamente esa presentación antes del paso al escenario interno.",
+    "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Preservar texto dañado, referencias y continuaciones. No certifica el padre completo.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4357,
+        "Cita": "juicio, la posición neta de contratos financieros de cobre —que el señor Lehmann denomina de carácter especulativo— deben tener una contrapartida física, que normalmente corresponde a los almacenes warrants utilizados en los contratos de futuros. En consecuencia, plantea que si la posición de compra de cobre especulativa está cayendo en términos netos, los inventarios warrants necesariamente tienen que reducirse. Sostiene que ello es más bien una consecuencia más que una causa. Agrega que las ventas de excedentes de cobre afectan su precio en la medida que las magnitudes sean significativas."
+      },
+      {
+        "ID_Padre": 4357,
+        "Cita": "Al finalizar su presentación, el señor Lehmann destaca que la caída de los precios de los commodities es generalizada en el último año, aunque presentan alguna reversión en los últimos días. Respecto del precio del petróleo, hace notar que la trayectoria actual es inferior a la contemplada en el IPoM, que el petróleo WTI exhibe una trayectoria más bien plana y el Brent, una caída. En su opinión, estos precios estarían buscando cierta convergencia. Agrega que también es probable que el mercado haya internalizado un posible retorno de Libia a los mercados durante el año 2012."
+      }
+    ]
+  }
+]

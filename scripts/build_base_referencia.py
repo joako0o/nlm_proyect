@@ -5,13 +5,19 @@ Base de referencia del consolidado RPM v2.
 - Corrige roles (Hacienda/subrogante y rol explicito).
 - Fecha real + Id_Sesion + taxonomia canonica + flags.
 """
+from procedural import is_formula, load_formula_reviews, FORMULA_REVIEWS
+from curation import normalize_quote
 import openpyxl, re, collections, datetime as dt
 from pathlib import Path as _Path
+from turns import TurnDetector, normalize as normalize_turn
+from review_flags import review_reasons
+from curation import load_role_reviews, load_speaker_reviews, SPEAKER_REVIEW_SOURCE
+from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
+from roster import ROLE_PATTERNS as ROSTER_ROLES
 from roster import build_rosters as _build_rosters, match_role as _match_role, canonical_role as _canonical_role
 
 # Rutas ancladas a la raíz del repositorio (el script vive en scripts/).
-REPO=_Path(__file__).resolve().parent.parent
-DATA_RAW=REPO/'data'/'raw'; DATA_EXT=REPO/'data'/'external'; DATA_PROC=REPO/'data'/'processed'
+from paths import REPO, DATA_RAW, DATA_EXT, DATA_PROC
 SRC=str(DATA_RAW/'consolidado_final.xlsx'); OUT=str(DATA_PROC/'consolidado_base_referencia.xlsx')
 TEXTOS_COMPLETOS=DATA_PROC/'textos_completos.jsonl'
 wb=openpyxl.load_workbook(SRC, data_only=True, read_only=True)
@@ -129,13 +135,13 @@ def _nearest_actor(acts,date=None):
             d=None
         if d:
             best=None; bd=None
-            for a in acts:
+            for a in sorted(acts):
                 ds=[dt.date.fromisoformat(to_date_str(x[1])) for x in data if str(x[2]).strip()==a]
                 dist=min(abs((x-d).days) for x in ds) if ds else 10**9
                 if bd is None or dist<bd:
                     bd=dist; best=a
             if best: return best
-    return max(acts,key=lambda a:sum(1 for x in data if str(x[2]).strip()==a))
+    return max(sorted(acts),key=lambda a:sum(1 for x in data if str(x[2]).strip()==a))
 
 def resolve_name(name,date=None):
     n=norm(name).strip()
@@ -163,6 +169,8 @@ alias_map=collections.defaultdict(set)
 for a in REAL:
     toks=norm(a).split()
     alts={norm(a)}
+    for size in range(2, len(toks)):
+        alts.add(" ".join(toks[:size]))
     if len(toks)>=2:
         alts.add(toks[0]+' '+toks[-1])
         alts.add(' '.join(toks[-2:]))
@@ -257,8 +265,10 @@ def _roster_actor_for_role(date,role):
         cr=_canonical_role(raw,name)
         if cr==role:
             cands.append((name,cr))
-    if len(cands)==1:
-        return resolve_name(cands[0][0],date)
+    actors = {resolve_name(name,date) for name,_ in cands}
+    actors.discard(None)
+    if len(actors)==1:
+        return next(iter(actors))
     return None
 
 def actor_for_role(date,role):
@@ -284,7 +294,7 @@ def actor_for_role(date,role):
             a=_top(ROLE_DATE_ACTOR.get((d,rv)))
             if a: return a
         # sesion mas cercana donde el rol aparece con nombre
-        dates=sorted({dat for (dat,rv) in ROLE_DATE_ACTOR for rv in role_variants(role) if rv in [role]+role_variants(role)})
+        dates=sorted({dat for (dat,rv) in ROLE_DATE_ACTOR if rv in role_variants(role)})
         if dates:
             nd=min(dates,key=lambda x:abs((x-d).days))
             for rv in role_variants(role):
@@ -355,71 +365,7 @@ def tipo_acta(text):
 # (2009-04-09), "el Consejo decidió mantener la tasa..." (comunicados 2005),
 # y espacios OCR incrustados dentro de palabras clave ("monetari a",
 # "anteri or"), que se curan con _fix_ocr.
-def _soft(t):
-    """minúsculas sin acentos (mantiene saltos de línea)."""
-    s=str(t).lower()
-    for a,b in (('á','a'),('é','e'),('í','i'),('ó','o'),('ú','u'),('ñ','n'),('ü','u')):
-        s=s.replace(a,b)
-    return s
-
-_OCR_WORDS=('monetaria','anterior','politica','acuerdo','reunion','consejo','consejeros',
-            'votacion','unanimidad','constancia','comunicado','interbancaria','mantener',
-            'aumentar','reducir','puntos','siguiente','merito','virtud')
-
-def _fix_ocr(s):
-    """Colapsa espacios OCR incrustados dentro de palabras clave (p.ej.
-    'monetari a' -> 'monetaria', 'anteri or' -> 'anterior')."""
-    for w in _OCR_WORDS:
-        s=re.sub(r'\s*'.join(w), w, s)
-    return s
-_ACCORD_VERB = r'(?:acuerda|acord[oó]|resolvi[oó]|decidi[oó])'
-_ACTION_VERB = (r'(?:mantener|mantiene|aumentar|aumenta|aumentó|incrementar|incrementa|incrementó|'
-                r'elevar|eleva|elevó|reducir|reduce|redujo|bajar|baja|bajó)')
-_TASA_RE = r'(?:la\s+)?(?:tasa\s+de\s+(?:inter[ée]s\s+de\s+)?pol[íi]tica\s+monetaria|tpm)'
-# Fórmula canónica del acta/comunicado vigente: "En su reunión mensual de
-# política monetaria, el Consejo (del Banco Central ...),? (acordó|decidió|
-# resolvió|acuerda) <verbo> la tasa ..."
-DECISION_FORMULA_RE = re.compile(
-    r'en\s+su\s+reuni[oó]n\s+mensual\s+de\s+pol[íi]tica\s+monetaria\s*,?\s*el\s+consejo[^.\n]{0,80}?'
-    + _ACCORD_VERB + r'\s*[^.\n]{0,60}?' + _ACTION_VERB + r'\s+' + _TASA_RE,
-    re.I | re.S)
-# Fórmula del acta 2005: "Se acuerda <verbo> la tasa de interés de política monetaria ..."
-SE_ACUERDA_RE = re.compile(
-    r'se\s+acuerda\s*[^.\n]{0,60}?' + _ACTION_VERB + r'\s+' + _TASA_RE, re.I | re.S)
-# Verbo de acuerdo genérico, sin la fórmula completa (variantes de votación)
-DECISION_ACTION_RE = re.compile(
-    _ACCORD_VERB + r'\s*[^.\n]{0,60}?' + _ACTION_VERB + r'\s+' + _TASA_RE, re.I | re.S)
-# Bloques de acuerdo del acta que acompañan a la decisión vigente
-ACUERDO_BLOCK_RE = re.compile(
-    r'(siguiente\s+acuerdo|en\s+m[ée]rito\s+de\s+lo\s+anterior|conforme\s+a\s+la\s+votaci[oó]n|'
-    r'en\s+virtud\s+de\s+lo\s+anterior|se\s+deja\s+constancia|acuerdo\s+un[áa]nime|'
-    r'por\s+votaci[oó]n\s+un[áa]nime|por\s+(?:la\s+)?unanimidad|unanimidad\s+de\s+sus\s+miembros)',
-    re.I)
-# Recapitulaciones de la decisión de un mes anterior: "En la última
-# Reunión...", "En la reunión de política monetaria de <mes>...", "...desde
-# la Reunión celebrada en el mes de <mes>..." (presentación de Opciones).
-RECAP_LEAD_RE = re.compile(
-    r'(?:[úu]ltima\s+reuni|reuni[oó]n\s+de\s+pol[íi]tica\s+monetaria\s+de\s+'
-    r'(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)'
-    r'|reuni[oó]n\s+celebrada\s+en\s+el\s+mes\s+de|mes\s+(?:anterior|pasado))', re.I)
-
-def _is_current_decision(text):
-    """True si la fila porta la decisión de TPM de la SESIÓN (verbo de
-    acuerdo sobre la tasa), no citas de decisiones de meses anteriores.
-    Aplica a filas institucionales (ACUERDO/COMUNICADO) y a filas de persona
-    que arrastran el bloque del acuerdo (típico 2013-2015, donde el acuerdo
-    va pegado al discurso de cierre del Presidente)."""
-    t=_fix_ocr(_soft(text))
-    if DECISION_FORMULA_RE.search(t) or SE_ACUERDA_RE.search(t):
-        return True
-    for m in DECISION_ACTION_RE.finditer(t):
-        pre=t[max(0,m.start()-240):m.start()]
-        if RECAP_LEAD_RE.search(pre):
-            continue
-        ctx=t[max(0,m.start()-240):m.start()+240]
-        if ACUERDO_BLOCK_RE.search(ctx):
-            return True
-    return False
+from decision_rules import _soft, _fix_ocr, _is_current_decision
 
 
 def detect(text,date):
@@ -638,14 +584,52 @@ def seg_candidates(text,date):
     return cands
 
 def split_sentences(text):
-    out=[]; start=0
-    for m in re.finditer(r'(?<=[.!?])\s*/*\s*(?=[A-ZÁÉÍÓÚÑ\"“‘«0-9])', text):
-        tail=text[max(0,m.start()-8):m.start()].rstrip()
-        if re.search(r'\b(?:Sr|Sra|N\.?|art\.?|inc\.?|num\.?|pág\.?|pag\.?)\s*$',tail,re.I):
+    # Conservar offsets originales. No usar saltos OCR como fin de oración.
+    boundaries = {0, len(text)}
+    pattern = r'(?<=[.!?;])\s*/*\s*(?=[A-ZÁÉÍÓÚÑ\"“‘«0-9])'
+    for m in re.finditer(pattern, text):
+        tail = text[max(0,m.start()-12):m.start()].rstrip()
+        if re.search(r'\b(?:Sr|Sra|art|inc|num|pág|pag)\.$',tail,re.I):
             continue
-        end=m.end(); out.append((start,end)); start=end
-    out.append((start,len(text)))
-    return out
+        boundaries.add(m.end())
+    # Marcadores inequívocos de turno aun cuando el OCR perdió el punto.
+    for m in re.finditer(r'\s+(?=(?:A continuación,|Al respecto,|Por su parte,)\s+(?:el|la)\s+(?:señor|señora|Presidente|Vicepresidente|Consejero|Consejera|Gerente|Ministro))', text):
+        boundaries.add(m.end())
+    # OCR concatena párrafos sin punto ("...totalmente El Gerente...") o deja
+    # basura entre el punto y el sujeto. Sólo sujeto con artículo MAYÚSCULO;
+    # se excluyen subordinadas y citas. El detector valida el verbo después.
+    for m in re.finditer(r'(?<!\w)(?:El|La|EL|LA)\s+(?:señor|señora|Presidente|Vicepresidente|Consejero|Consejera|Gerente|Ministro|Ministra|Subgerente)\b', text):
+        if not m.start():
+            continue
+        before = text[:m.start()]
+        if re.search(r'\b(?:Exposición|Intervención|Comentarios)\s+$', before):
+            continue
+        # OCR constatado: falta el sustantivo tras «proceder a la» y empieza
+        # un nuevo sujeto explícito. No completar el texto ni atribuir el voto
+        # al Presidente que acaba de ceder la palabra.
+        broken_handoff = bool(re.search(
+            r'ofrece la palabra a los señores Consejeros para proceder a la\s*$',
+            before, re.I) and re.match(r'El Consejero\b',text[m.start():]))
+        if not broken_handoff and re.search(r'\b(?:que|si|como|cuando|donde|del|al|de|por|segun|según|el|la)\s*$', before, re.I):
+            continue
+        if before.count('"') % 2 or before.count('“') > before.count('”') or before.count('«') > before.count('»'):
+            continue
+        # Una división en oración no implica cambio de actor: segment_turns
+        # sólo crea fila si reconoce un nuevo sujeto de habla.
+        boundaries.add(m.start())
+    # Respuestas explícitas dentro de una oración, no nombres meramente citados.
+    # Se conserva el conector en el segundo fragmento; el detector exige sujeto
+    # y verbo. No abrir límites dentro de comillas ni extender esto a cualquier «y».
+    for m in re.finditer(r'\ba lo (?:cual|que),?\s+(?:el|la)\s+(?:señor|señora|Presidente|Vicepresidente|Consejero|Consejera|Gerente|Ministro|Ministra)\b', text, re.I):
+        before = text[:m.start()]
+        if not re.search(r'[,;]\s*$', before):
+            continue
+        if before.count('"') % 2 or before.count('“') > before.count('”') or before.count('«') > before.count('»'):
+            continue
+        boundaries.add(m.start())
+    positions = sorted(boundaries)
+    return list(zip(positions, positions[1:]))
+
 
 def sentence_speaker(sent,date):
     cs=seg_candidates(sent,date)
@@ -685,6 +669,10 @@ def _inst_transition(sent):
                      'se deja constancia','en su reunion mensual','a continuacion el consejo',
                      'a continuacion, el consejo','los consejeros manifiestan',
                      'acta correspondiente','en santiago de chile','a c t a')):
+        return True
+    # Fórmula formal constatada: no omitir la transición por la intercalación.
+    # No aceptar aquí cualquier mención del Consejo dentro de un discurso.
+    if re.match(r'^en merito de lo anterior,\s*el consejo,\s*por la unanimidad de sus miembros,\s*adopta el siguiente acuerdo\b', t):
         return True
     if re.match(r'^el\s+consejo\s+(adopta|adopto|aprueba|acuerda|acordo|resolvio|decidio|procede|procedio)\b', t):
         return True
@@ -771,195 +759,423 @@ def roster_role_for(date,actor):
 # ---- textos completos re-extraidos desde PDF (límite de celda Excel) ----
 import json as _json
 import os as _os
-FULL_TEXTS={}
-if _os.path.exists(TEXTOS_COMPLETOS):
-    try:
-        with open(TEXTOS_COMPLETOS,encoding='utf-8') as _fh:
-            for _line in _fh:
-                _r=_json.loads(_line)
-                FULL_TEXTS[int(_r['ID'])]=_r
-    except Exception as _e:
-        print('No se pudo leer textos_completos.jsonl:',_e)
+def load_full_texts(path=TEXTOS_COMPLETOS):
+    result = {}
+    with open(path, encoding='utf-8') as fh:
+        for line in fh:
+            row = _json.loads(line)
+            rid = int(row['ID'])
+            if rid in result or not row.get('Texto_Completo'):
+                raise ValueError(f'Texto completo duplicado o vacío: {rid}')
+            if len(row['Texto_Completo']) != row['Longitud_Texto_Completo']:
+                raise ValueError(f'Longitud de texto completo inconsistente: {rid}')
+            result[rid] = row
+    return result
 
-# ---- process ----
-def _formula(t):
-    low=t.lower()
-    return any(x in low for x in ['suspende','levanta la sesión','aprueba el texto','ofrece la palabra','agradece la presentación','agradece la exposición','se levanta la sesión','a continuación, concede'])
-_parent_meta={int(str(r[0])):str(r[5]) for r in data}
-_parent_texts=collections.Counter(_parent_meta.values())
-_parent_trunc=set(pid for pid,t in _parent_meta.items() if len(t)>=32767)
-_parent_near=set(pid for pid,t in _parent_meta.items() if 30000<=len(t)<32767)
-_parent_dup=set(pid for pid,t in _parent_meta.items() if _parent_texts[t]>1)
-_parent_dup_formula=set(pid for pid in _parent_dup if _formula(_parent_meta[pid]))
 
-records=[]; last_speaker={}; actor_corr=0; role_corr=0; method_counter=collections.Counter(); role_method_counter=collections.Counter()
-_seg_per_parent=collections.Counter(); _rid=0
-for r in data:
-    parent_id=int(r[0]); date=to_date_str(r[1]); date_dt=dt.date.fromisoformat(date)
-    actor_orig=str(r[2]).strip(); rol_orig=str(r[3]).strip(); text=str(r[5])
-    seg_texts=maybe_segments(text,date)
-    _seg_per_parent[parent_id]+=len(seg_texts)
-    for text in seg_texts:
-        _rid+=1; rid=_rid
-        det=detect(text,date)
-        if det:
-            spk,role,method,_=det
+def strict_alias(alias, date):
+    actors = alias_map[alias]
+    if len(actors) == 1:
+        return next(iter(actors))
+    present = [a for a in sorted(actors) if roster_role_for(date, a)]
+    return present[0] if len(present) == 1 else None
+
+
+def strict_role(date, role):
+    # No inferir un turno nuevo por la frecuencia global de un cargo ambiguo.
+    actor = _roster_actor_for_role(date, role)
+    if actor:
+        return actor
+    base = re.sub(r'\s*(?:\(S\)|Subrogante)$', '', role)
+    names = {resolve_name(name,date) for name,raw in ROSTER_BY_DATE.get(date,{}).items()
+             if re.sub(r'\s*(?:\(S\)|Subrogante)$', '', _canonical_role(raw,name)) == base}
+    names.discard(None)
+    return next(iter(names)) if len(names)==1 else None
+
+
+TURN_DETECTOR = TurnDetector(alias_map, ROLE_PATS + [(r, c or r) for r,c in ROSTER_ROLES] + [('Gerente', 'Gerente'), ('Gerente de División', 'Gerente de División')],
+                             strict_alias, strict_role, roster_role_for)
+
+
+def segment_turns(text, date, initial_actor, state=None, review=None):
+    if state is not None and state.get('date') != date:
+        state.clear()
+        state['date'] = date
+    spans = split_sentences(text)
+    if review:
+        if review["Actor"] not in REAL:
+            raise ValueError("Revisión de hablante sin actor/límite válido")
+        if (review["Inicio"] not in {a for a,b in spans}
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO")):
+            # Una decisión individual puede delimitar una cláusula interior:
+            # exige separador previo o excepción documentada, sujeto explícito
+            # compatible y fuera de cita.
+            prefix = text[:review["Inicio"]]
+            fragment = text[review["Inicio"]:review["Fin"]]
+            gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO'
+            if gerund:
+                # Sólo esta decisión con hash/citas habilita el gerundio con
+                # sujeto explícito pospuesto. Proyectar el predicado únicamente
+                # para reconocer su sujeto; nunca modificar el texto guardado.
+                if not prefix.rstrip().endswith((',', ';')) or not re.match(r'^señalando\s+(?:el|la)\s+', fragment):
+                    raise ValueError("Revisión de gerundio sin límite válido")
+                fragment = 'señala' + fragment[len('señalando'):]
+            coordinated = review.get('Tipo_Limite') == 'COORDINACION_Y_EXPLICITA'
+            concatenated = review.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA'
+            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA'
+            if reply:
+                # Excepción individual: conservar el conector, sin inventar coma.
+                if not re.match(r'^a lo que\s+(?:el|la)\s+', fragment) or not prefix or not prefix[-1].isspace():
+                    raise ValueError("Revisión de respuesta sin límite válido")
+            if concatenated:
+                # Texto dañado sin separador: sólo el intervalo con hash/citas.
+                # No completar la frase anterior ni generalizar a mayúsculas.
+                if not prefix or not prefix[-1].isspace() or not fragment[:1].isupper():
+                    raise ValueError("Revisión de concatenación sin límite válido")
+            if coordinated:
+                # Sólo una entrada con hash/citas permite este corte. Nunca
+                # interpretar automáticamente todas las coordinaciones con «y».
+                if not re.match(r'^y\s+(?:el|la)\s+',fragment) or not prefix or not prefix[-1].isspace():
+                    raise ValueError("Revisión de coordinación sin límite válido")
+                fragment = re.sub(r'^y\s+', '', fragment)
+            acknowledgement = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'
+            relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement
+            if relative:
+                # Sólo el antecedente contiguo en esta oración, nunca otra cesión
+                # anterior. La revisión y su hash delimitan la relativa adjudicada.
+                sentence_start = max(a for a,b in spans if a <= review['Inicio'])
+                candidate = TURN_DETECTOR.reviewed_relative_handoff(
+                    text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement)
+            else:
+                candidate = TURN_DETECTOR.speaker(fragment,date)
+            if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
+                raise ValueError("Revisión de gerundio sin declaración válida")
+            quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')
+            if ((not (coordinated or concatenated or reply) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
+                    or candidate['actor'] != review['Actor'] or candidate['method'] not in EXPLICIT):
+                raise ValueError("Revisión de hablante sin actor/límite válido")
+            bounds = sorted({0,len(text),review["Inicio"]} | {a for a,b in spans} | {b for a,b in spans})
+            spans = list(zip(bounds,bounds[1:]))
+    author = TURN_DETECTOR.minute_author(text,date)
+    if author:
+        return bound_segments([(text,author,'ENCABEZADO_MINUTA')])
+    if is_header2(text):
+        return bound_segments([(text, CONSEJO, 'ACTA/META')])
+    segments = []
+    start, actor, method = 0, initial_actor, None
+    context = dict((state or {}).get('roles', {})) if initial_actor in ((state or {}).get('actor'), (state or {}).get('pending')) else {}
+    method = 'CONTINUIDAD_PARRAFO' if continuation_start(text, initial_actor, state, TURN_DETECTOR, split_sentences, date) else None
+    def remember(who):
+        role = roster_role_for(date, who) if who and who != CONSEJO else None
+        if role:
+            context[role] = who
+            if role.startswith('Gerente'):
+                context['Gerente'] = who
+                if role.startswith('Gerente de División'):
+                    context['Gerente de División'] = who
+    if not context:
+        remember(actor)
+    previous_sentence = (state or {}).get('last_sentence', '')
+    for a, b in spans:
+        sent = text[a:b]
+        if not sent.strip():
+            continue
+        local_context = {**context, **TURN_DETECTOR.referents(previous_sentence,date)}
+        previous_sentence = sent
+        candidate = TURN_DETECTOR.speaker(sent, date, actor, local_context)
+        institutional = _inst_transition(sent)
+        if review and a == review["Inicio"]:
+            if candidate and candidate["actor"] != review["Actor"]:
+                raise ValueError("Revisión contradice sujeto explícito")
+            who, source = review["Actor"], SPEAKER_REVIEW_SOURCE
+        elif institutional:
+            who, source = CONSEJO, 'ACTA/META'
+        elif candidate:
+            who, source = candidate['actor'], candidate['method']
+            if (source == 'ANAFORA_LOCAL' and state and state.get('anchor')
+                    and not state.get('barrier') and who == actor == state.get('actor')
+                    and initial_actor == who):
+                source = 'ANAFORA_CONTINUIDAD'
         else:
-            spk=None; role=None; method='SIN_DETECTAR'
-        # Si la primera oración de la intervención ya identifica un hablante explícito,
-        # se prefiere ese hablante por sobre heurísticas posteriores del texto.
-        hint=first_speaker_hint(text,date)
-        if hint and hint in REAL and hint!=spk:
-            spk=hint; role=None; method='PRIMERA_ORACION'
-        if spk and spk not in REAL and spk!=CONSEJO:
-            method='PSEUDO'
-            spk=None; role=None
-        if spk in REAL:
-            last_speaker[date]=spk
-        # choose speaker
-        if spk:
-            pass
-        elif session_meta(text):
-            spk=CONSEJO; role='Consejo'; method='META'
-        elif actor_orig in REAL:
-            spk=actor_orig; role=None; method='ORIGINAL'
-        else:
-            prev=last_speaker.get(date)
-            spk=prev if prev else actor_orig
-            role=None
-            method='HERENCIA' if prev else 'SIN_DETECTAR'
-        if spk!=actor_orig and spk!=CONSEJO:
-            actor_corr+=1
-        # role
-        rol=rol_orig
-        if method in ('ACTA/META','META') and spk==CONSEJO:
-            rol='Consejo'
-        # Política conservadora: Rol_Final = Rol_Fuente (cargo del PDF/source).
-        # Solo se corrigen casos indudables:
-        #   - actas/metadata del Consejo -> rol Consejo
-        #   - Rodrigo Valdés antes de 2015 cuando el acta lo presenta como Gerente
-        #   - género/subrogante de Hacienda confirmado por el texto
-        if spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido'] and role and role.startswith('Gerente'):
-            rol=role
-        elif spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
-            rol=ministry_role(text,spk,date_dt)
-        # Fuente canónica de cargo: lista de asistencia del primer párrafo del acta.
-        # Se aplica solo cuando la coincidencia nombre/cargo es única y exacta.
-        rol_asistencia=None
-        if spk and spk!=CONSEJO:
-            rr=roster_role_for(date,spk)
-            if rr:
-                rol_asistencia=rr
-                rol=rr
-        metodo_rol='LISTA_ASISTENCIA' if rol_asistencia else ('ACTA_INSTITUCIONAL' if (method in ('ACTA/META','META') and spk==CONSEJO) else 'PENDIENTE_REVISION')
-        tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
-        # La fila porta la decisión de TPM de la sesión -> ACUERDO_CONSEJO,
-        # incluso si quedó tipificada como COMUNICADO (el texto del comunicado
-        # repite la fórmula del acuerdo) o si es fila de persona que arrastra
-        # el bloque del acuerdo.
-        if _is_current_decision(text):
-            tipo = 'ACUERDO_CONSEJO'
-        if rol!=rol_orig: role_corr+=1
-        method_counter[method]+=1
-        role_method_counter[metodo_rol]+=1
-        records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7]),rol_asistencia,metodo_rol,tipo,parent_id))
+            continue
+        if who != actor and a > start:
+            segments.append((text[start:a].strip(), actor, method))
+            start, method = a, None
+        actor = who
+        method = method or source
+        remember(actor)
+        recipient = TURN_DETECTOR.handoff(sent, date)
+        if recipient:
+            remember(recipient)
+    segments.append((text[start:].strip(), actor, method))
+    if state is not None:
+        state['roles'] = context
+        state['last_sentence'] = previous_sentence
+    if re.sub(r'\s+', '', ''.join(t for t, _, _ in segments)) != re.sub(r'\s+', '', text):
+        raise ValueError('La segmentación perdió contenido')
+    return bound_segments(segments)
 
-print("Actors reasignados:",actor_corr)
-print("Roles cambiados:",role_corr)
-print("Métodos:",dict(method_counter))
-print("Fuente_Rol:",dict(role_method_counter))
+
+def bound_segments(segments):
+    # Fracciones físicas XLSX, no cambios de hablante. El bloque permite reunirlas.
+    bounded = []
+    for body, who, source in segments:
+        while len(body) > 32767:
+            ends = [b for a,b in split_sentences(body) if b <= 32000]
+            cut = max(ends) if ends else body.rfind(' ', 0, 32000)
+            if cut <= 0:
+                raise ValueError('Texto largo sin límite seguro de fragmentación')
+            bounded.append((body[:cut].strip(), who, source))
+            body, source = body[cut:].strip(), 'CONTINUACION_XLSX'
+        bounded.append((body, who, source))
+    return bounded
+
 
 # taxonomy
 def cat(kw):
     k=norm(kw)
-    if any(x in k for x in ['acuerdo','comunicado','adopción unánime','levantamiento']): return 'acuerdo_comunicado'
-    if any(x in k for x in ['votación','voto','fundamentación de voto','llamado a votación','pase votación','apertura votación']): return 'decision_tpm'
-    if any(x in k for x in ['opciones','minuta de opciones']): return 'opciones_tpm'
-    if any(x in k for x in ['inflación','expectativas inflación','ipcx','subyacente','presiones de precios']): return 'inflacion'
-    if any(x in k for x in ['mercado laboral','empleo','desempleo','participación laboral','salario','estrechez']): return 'mercado_laboral'
-    if any(x in k for x in ['liquidez','curva','tasas','tipo de cambio','bonos','spread','interbancario','mercado monetario','renta fija','fondeo','financiero']): return 'mercados_financieros'
-    if any(x in k for x in ['internacional','estados unidos','europa','china','brasil','ee.uu','weo','fed','commodities','petróleo','cobre','molibdeno','materias primas','mundial','global']): return 'escenario_internacional'
-    if any(x in k for x in ['fiscal','hacienda','gasto público','superávit fiscal','deuda soberana','subsidio','regla fiscal']): return 'politica_fiscal'
-    if any(x in k for x in ['actividad interna','actividad económica','demanda','inversión','consumo','imacec','pib','producto potencial','brecha del producto','industria','gasto']): return 'actividad_interna'
-    if any(x in k for x in ['riesgo','balance','incertidumbre']): return 'riesgos'
-    if any(x in k for x in ['apertura','asistencia','calendario','presidencia','inicio de sesión','invitaciones','orden','suspensión','reanudación','cierre','se levanta']): return 'apertura_cierre'
-    if any(x in k for x in ['discusión','debate','deliberación','comentarios','traspaso','preguntas','ronda']): return 'debate'
+    if any(norm(x) in k for x in ['acuerdo','comunicado','adopción unánime','levantamiento']): return 'acuerdo_comunicado'
+    if any(norm(x) in k for x in ['votación','voto','fundamentación de voto','llamado a votación','pase votación','apertura votación']): return 'decision_tpm'
+    if any(norm(x) in k for x in ['opciones','minuta de opciones']): return 'opciones_tpm'
+    if any(norm(x) in k for x in ['inflación','expectativas inflación','ipcx','subyacente','presiones de precios']): return 'inflacion'
+    if any(norm(x) in k for x in ['mercado laboral','empleo','desempleo','participación laboral','salario','estrechez']): return 'mercado_laboral'
+    if any(norm(x) in k for x in ['liquidez','curva','tasas','tipo de cambio','bonos','spread','interbancario','mercado monetario','renta fija','fondeo','financiero']): return 'mercados_financieros'
+    if any(norm(x) in k for x in ['internacional','estados unidos','europa','china','brasil','ee.uu','weo','fed','commodities','petróleo','cobre','molibdeno','materias primas','mundial','global']): return 'escenario_internacional'
+    if any(norm(x) in k for x in ['fiscal','hacienda','gasto público','superávit fiscal','deuda soberana','subsidio','regla fiscal']): return 'politica_fiscal'
+    if any(norm(x) in k for x in ['actividad interna','actividad económica','demanda','inversión','consumo','imacec','pib','producto potencial','brecha del producto','industria','gasto']): return 'actividad_interna'
+    if any(norm(x) in k for x in ['riesgo','balance','incertidumbre']): return 'riesgos'
+    if any(norm(x) in k for x in ['apertura','asistencia','calendario','presidencia','inicio de sesión','invitaciones','orden','suspensión','reanudación','cierre','se levanta']): return 'apertura_cierre'
+    if any(norm(x) in k for x in ['discusión','debate','deliberación','comentarios','traspaso','preguntas','ronda']): return 'debate'
     return 'otros'
 
-outwb=openpyxl.Workbook(); ows=outwb.active; ows.title='Consolidado'
-header=['ID','ID_Padre','Id_Sesion','Fecha','Actor_Original','Actor_Final','Actor_Corregido','Rol_Fuente','Rol_Final','Rol_Corregido','Rol_Detectado_Texto','Rol_Lista_Asistencia','Fuente_Rol','Tipo_Acta','Fuente_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota']
-ows.append(header)
-for rec in records:
-    rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw,rol_asistencia,metodo_rol,tipo,id_padre=rec
-    clean=re.sub(r'[ \t]+',' ',text); clean=re.sub(r'\s*\n\s*','\n',clean)
-    note=[]
-    if id_padre in _parent_trunc: note.append('Texto truncado en celda Excel (32,767)')
-    if id_padre in _parent_near: note.append('Texto muy largo (>=30,000)')
-    if id_padre in _parent_dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if id_padre in _parent_dup_formula else ''))
-    if role: note.append('Rol detectado en texto: '+role)
-    if rol_asistencia: note.append('Rol según lista de asistencia: '+rol_asistencia)
-    if not rol_asistencia and metodo_rol=='PENDIENTE_REVISION':
-        note.append('Sin cargo único en lista de asistencia; revisar manualmente')
-    if method in ('HERENCIA','SIN_DETECTAR','ORIGINAL','PSEUDO'): note.append('Método: '+method)
-    # estado de texto largo: completo en textos_completos.jsonl (por fila original)
-    if id_padre in FULL_TEXTS:
-        ft=FULL_TEXTS[id_padre]
-        note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en data/processed/textos_completos.jsonl')
-        tc='NO'
-    else:
-        tc='SI' if id_padre in _parent_trunc else 'REV' if id_padre in _parent_near else 'NO'
-    ows.append([rid,id_padre,'RPM-'+date,date_dt,actor_orig,spk,'SI' if spk!=actor_orig else 'NO',
-                rol_orig,rol,'SI' if rol!=rol_orig else 'NO',role if role else '',
-                rol_asistencia if rol_asistencia else '',metodo_rol,tipo,method,page,clean,
-                tema,cat(tema),kw,cat(kw),
-                tc,
-                'SI' if id_padre in _parent_dup else 'NO','SI' if id_padre in _parent_dup_formula else 'NO','; '.join(note)])
+def main():
+    FULL_TEXTS = load_full_texts()
+    reviewed_roles = load_role_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
+    reviewed_speakers = load_speaker_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
+    DATA_PROC.mkdir(parents=True, exist_ok=True)
+    # ---- process ----
+    load_formula_reviews(raw_by_id={int(r[0]): {"Texto":str(r[5])} for r in data})
+    _formula = is_formula
+    _parent_meta={int(str(r[0])):str(r[5]) for r in data}
+    _parent_texts=collections.Counter(_parent_meta.values())
+    _parent_trunc=set(pid for pid,t in _parent_meta.items() if len(t)>=32767)
+    _parent_near=set(pid for pid,t in _parent_meta.items() if 30000<=len(t)<32767)
+    _parent_dup=set(pid for pid,t in _parent_meta.items() if _parent_texts[t]>1)
+    _parent_dup_formula=set(pid for pid in _parent_dup if _formula(_parent_meta[pid]))
 
-md=outwb.create_sheet('Calidad'); md.append(['Indicador','Valor'])
-md.append(['Filas originales',len(data)])
-md.append(['Intervenciones (filas tras segmentar)',len(records)])
-md.append(['Filas divididas en intervenciones',sum(1 for n in _seg_per_parent.values() if n>1)])
-md.append(['Sesiones',len(set(x[1] for x in records))])
-md.append(['Fecha min',min(x[1] for x in records)]); md.append(['Fecha max',max(x[1] for x in records)])
-md.append(['Actores reasignados',actor_corr]); md.append(['Roles corregidos',role_corr])
-md.append(['Roles desde lista de asistencia',sum(1 for x in records if x[13])])
-md.append(['Filas sin cargo único en lista de asistencia (revisar)',sum(1 for x in records if not x[13] and x[14]!='ACTA_INSTITUCIONAL')])
-md.append(['Fuente_Rol',str(dict(role_method_counter))])
-md.append(['Textos truncados sin resolver',len([i for i in _parent_trunc if i not in FULL_TEXTS])])
-md.append(['Textos largos sin revisar',len([i for i in _parent_near if i not in FULL_TEXTS])])
-md.append(['Textos con texto completo en JSONL',len(FULL_TEXTS)])
-md.append(['Duplicados exactos',len(_parent_dup)]); md.append(['Duplicados fórmula',len(_parent_dup_formula)])
-md.append(['Métodos',str(dict(method_counter))])
+    records=[]; last_speaker={}; actor_corr=0; role_corr=0; method_counter=collections.Counter(); role_method_counter=collections.Counter()
+    _seg_per_parent=collections.Counter(); _rid=0
+    session_states = {}
+    for r in data:
+        parent_id=int(r[0]); date=to_date_str(r[1]); date_dt=dt.date.fromisoformat(date)
+        actor_orig=str(r[2]).strip(); rol_orig=str(r[3]).strip()
+        text=FULL_TEXTS.get(parent_id, {}).get('Texto_Completo', str(r[5]))
+        if len(str(r[5])) >= 32767 and parent_id not in FULL_TEXTS:
+            raise ValueError(f'Texto truncado sin recuperación: {parent_id}')
+        state = session_states.setdefault(date, {'date': date})
+        seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id))
+        _seg_per_parent[parent_id]+=len(seg_texts)
+        block_number=0
+        for segment_number, (text, segment_actor, segment_method) in enumerate(seg_texts, 1):
+            if segment_method != "CONTINUACION_XLSX": block_number+=1
+            _rid+=1; rid=_rid
+            det=(segment_actor, None, segment_method, 0) if segment_method else detect(text,date)
+            if det:
+                spk,role,method,_=det
+            else:
+                spk=None; role=None; method='SIN_DETECTAR'
+            # Si la primera oración de la intervención ya identifica un hablante explícito,
+            # se prefiere ese hablante por sobre heurísticas posteriores del texto.
+            hint=None if segment_method else first_speaker_hint(text,date)
+            if hint and hint in REAL and hint!=spk:
+                spk=hint; role=None; method='PRIMERA_ORACION'
+            if spk and spk not in REAL and spk!=CONSEJO:
+                method='PSEUDO'
+                spk=None; role=None
+            if spk in REAL:
+                last_speaker[date]=spk
+            # choose speaker
+            if spk:
+                pass
+            elif session_meta(text):
+                spk=CONSEJO; role='Consejo'; method='META'
+            elif actor_orig in REAL:
+                spk=actor_orig; role=None; method='ORIGINAL'
+            else:
+                prev=last_speaker.get(date)
+                spk=prev if prev else actor_orig
+                role=None
+                method='HERENCIA' if prev else 'SIN_DETECTAR'
+            if spk!=actor_orig and spk!=CONSEJO:
+                actor_corr+=1
+            # role
+            rol=rol_orig if spk==actor_orig else (roster_role_for(date,spk) or canonical_role_by_actor(spk,date) or '')
+            if method in ('ACTA/META','META') and spk==CONSEJO:
+                rol='Consejo'
+            # Política conservadora: Rol_Final = Rol_Fuente (cargo del PDF/source).
+            # Solo se corrigen casos indudables:
+            #   - actas/metadata del Consejo -> rol Consejo
+            #   - Rodrigo Valdés antes de 2015 cuando el acta lo presenta como Gerente
+            #   - género/subrogante de Hacienda confirmado por el texto
+            if spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido'] and role and role.startswith('Gerente'):
+                rol=role
+            elif spk in KNOWN_MIN and ('Hacienda' in rol or 'Subsecretario' in rol) and not (spk=='Rodrigo Valdés Pulido' and date_dt<FULL_MIN_START['Rodrigo Valdés Pulido']):
+                rol=ministry_role(text,spk,date_dt)
+            # Fuente canónica de cargo: lista de asistencia del primer párrafo del acta.
+            # Se aplica solo cuando la coincidencia nombre/cargo es única y exacta.
+            rol_asistencia=None
+            if spk and spk!=CONSEJO:
+                rr=roster_role_for(date,spk)
+                if rr:
+                    rol_asistencia=rr
+                    rol=rr
+            metodo_rol='LISTA_ASISTENCIA' if rol_asistencia else ('ACTA_INSTITUCIONAL' if (method in ('ACTA/META','META') and spk==CONSEJO) else 'PENDIENTE_REVISION')
+            review = reviewed_roles.get((parent_id,spk))
+            if review:
+                if rol_asistencia and rol != review['Rol']:
+                    raise ValueError(f'Cargo de asistencia contradice {review["Revision_ID"]}')
+                if not rol_asistencia:
+                    rol = review['Rol']
+                    metodo_rol = review['Fuente_Rol']
+            tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
+            # La fila porta la decisión de TPM de la sesión -> ACUERDO_CONSEJO,
+            # incluso si quedó tipificada como COMUNICADO (el texto del comunicado
+            # repite la fórmula del acuerdo) o si es fila de persona que arrastra
+            # el bloque del acuerdo.
+            if method == 'ENCABEZADO_MINUTA':
+                tipo = 'MINUTA_PERSONAL'
+            elif _is_current_decision(text):
+                tipo = 'ACUERDO_CONSEJO'
+            if rol!=rol_orig: role_corr+=1
+            method_counter[method]+=1
+            role_method_counter[metodo_rol]+=1
+            records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7]),rol_asistencia,metodo_rol,tipo,parent_id,block_number))
+            update_state(state, spk, method, text, date, TURN_DETECTOR,
+                         split_sentences, rid, institutional=bool(tipo))
 
-md2=outwb.create_sheet('Fuente_Actor'); md2.append(['Fuente_Actor','Registros'])
-for k,v in method_counter.most_common(): md2.append([k,v])
-md3=outwb.create_sheet('Fuente_Rol'); md3.append(['Fuente_Rol','Registros'])
-for k,v in role_method_counter.most_common(): md3.append([k,v])
-rc=collections.Counter(x[5] for x in records); cd=outwb.create_sheet('Diccionario_Rol'); cd.append(['Rol','Registros'])
-for k,v in rc.most_common(): cd.append([k,v])
-ac=collections.Counter(x[4] for x in records); ad=outwb.create_sheet('Diccionario_Actor'); ad.append(['Actor','Registros'])
-for k,v in ac.most_common(): ad.append([k,v])
-kc=collections.Counter(cat(x[12]) for x in records); catws=outwb.create_sheet('Diccionario_Categoria'); catws.append(['Categoria','Registros'])
-for k,v in kc.most_common(): catws.append([k,v])
-if FULL_TEXTS:
-    ftws=outwb.create_sheet('Textos_Completos')
-    _ft_headers=['ID','Id_Sesion','Fecha','Página','Paginas_PDF','Archivo_PDF','Actor','Rol','Tema','Palabra_Clave','Texto_Completo','Longitud_Excel','Longitud_Texto_Completo','Fuente','Ubicacion_Texto_Completo']
-    ftws.append(_ft_headers)
-    for k in sorted(FULL_TEXTS):
-        ft=FULL_TEXTS[k]
-        ftws.append([ft.get('ID',''),ft.get('Id_Sesion',''),ft.get('Fecha',''),ft.get('Página',''),
-                     ft.get('Paginas_PDF',''),ft.get('Archivo_PDF',''),ft.get('Actor',''),ft.get('Rol',''),
-                     ft.get('Tema',''),ft.get('Palabra_Clave',''),
-                     'Ver texto completo en data/processed/textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
-                     ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'data/processed/textos_completos.jsonl'])
+    print("Actors reasignados:",actor_corr)
+    print("Roles cambiados:",role_corr)
+    print("Métodos:",dict(method_counter))
+    print("Fuente_Rol:",dict(role_method_counter))
 
-for row in ows.iter_rows(min_row=2,max_row=ows.max_row,min_col=3,max_col=3):
-    for c in row:
-        if isinstance(c.value,dt.date): c.number_format='YYYY-MM-DD'
-for sheet in outwb.worksheets:
-    for j,col in enumerate(sheet.iter_cols()):
-        if not col: continue
-        w=min(max(max((len(str(c.value)) for c in col[:300] if c.value is not None),default=8)+2,10),60)
-        sheet.column_dimensions[col[0].column_letter].width=w
-ows.freeze_panes='A2'
-outwb.save(OUT); print("Saved",OUT)
+    outwb=openpyxl.Workbook(); ows=outwb.active; ows.title='Consolidado'
+    header=['ID','ID_Padre','Id_Sesion','Fecha','Actor_Original','Actor_Final','Actor_Corregido','Rol_Fuente','Rol_Final','Rol_Corregido','Rol_Detectado_Texto','Rol_Lista_Asistencia','Fuente_Rol','Tipo_Acta','Fuente_Actor','Página','Texto','Tema_Original','Tema_Categoria','Palabra_Clave_Original','Palabra_Clave_Categoria','Texto_Truncado','Duplicado_Exacto','Duplicado_Formula','Nota','ID_Intervencion','Numero_Segmento','Fuente_Texto','Duplicado_Exacto_Origen','Duplicado_Formula_Origen','ID_Bloque_Texto']
+    ows.append(header)
+    segment_counts=collections.Counter()
+    clean_text=lambda t: re.sub(r'\s*\n\s*','\n',re.sub(r'[ \t]+',' ',t))
+    exact_counts=collections.Counter(clean_text(rec[10]) for rec in records)
+    for rec in records:
+        rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,page,text,tema,kw,rol_asistencia,metodo_rol,tipo,id_padre,block_number=rec
+        clean=re.sub(r'[ \t]+',' ',text); clean=re.sub(r'\s*\n\s*','\n',clean)
+        segment_counts[id_padre]+=1
+        segment_number=segment_counts[id_padre]
+        if len(clean)>32767:
+            raise ValueError(f'Intervención {id_padre}/{segment_number} excede XLSX; no se truncará')
+        note=[]
+        if normalize_quote(clean) in FORMULA_REVIEWS:
+            note.append("Fórmula procedimental revisada: " + FORMULA_REVIEWS[normalize_quote(clean)]["Revision_ID"])
+        if method == SPEAKER_REVIEW_SOURCE:
+            note.append(f'Hablante por contexto documentado: {reviewed_speakers[id_padre]["Revision_ID"]} (data/curation/revisiones_hablantes.json; no cotejo PDF)')
+        review = reviewed_roles.get((id_padre,spk))
+        if review:
+            note.append(f'Revisión documental de cargo: {review["Revision_ID"]} (data/curation/revisiones_roles.json; no cotejo PDF)')
+        if id_padre in _parent_trunc: note.append('Texto truncado en celda Excel (32,767)')
+        if id_padre in _parent_near: note.append('Texto muy largo (>=30,000)')
+        if id_padre in _parent_dup: note.append('Texto duplicado exacto'+(' (probable fórmula)' if id_padre in _parent_dup_formula else ''))
+        if role: note.append('Rol detectado en texto: '+role)
+        if rol_asistencia: note.append('Rol según lista de asistencia: '+rol_asistencia)
+        if not rol_asistencia and metodo_rol=='PENDIENTE_REVISION':
+            note.append('Sin cargo único en lista de asistencia; revisar manualmente')
+        if method in ('HERENCIA','SIN_DETECTAR','ORIGINAL','PSEUDO'): note.append('Método: '+method)
+        # estado de texto largo: completo en textos_completos.jsonl (por fila original)
+        if id_padre in FULL_TEXTS:
+            ft=FULL_TEXTS[id_padre]
+            note.append(f'Texto completo ({ft.get("Longitud_Texto_Completo",len(str(ft.get("Texto_Completo",""))))} chars) en data/processed/textos_completos.jsonl')
+            tc='NO'
+        else:
+            tc='SI' if id_padre in _parent_trunc else 'REV' if id_padre in _parent_near else 'NO'
+        ows.append([rid,id_padre,'RPM-'+date,date_dt,actor_orig,spk,'SI' if spk!=actor_orig else 'NO',
+                    rol_orig,rol,'SI' if rol!=rol_orig else 'NO',role if role else '',
+                    rol_asistencia if rol_asistencia else '',metodo_rol,tipo,method,page,clean,
+                    tema,cat(tema),kw,cat(kw),
+                    tc,
+                    'SI' if exact_counts[clean]>1 else 'NO','SI' if exact_counts[clean]>1 and _formula(clean) else 'NO','; '.join(note),
+                    f'RPM-{date}:{id_padre}:{segment_number}',segment_number,
+                    FULL_TEXTS.get(id_padre,{}).get('Fuente','XLSX_ORIGINAL'),
+                    'SI' if id_padre in _parent_dup else 'NO','SI' if id_padre in _parent_dup_formula else 'NO',
+                    f'RPM-{date}:{id_padre}:B{block_number}'])
+
+    ows.cell(1, len(header)+1, 'Estado_Revision')
+    ows.cell(1, len(header)+2, 'Motivos_Revision')
+    review_count=0
+    for row in ows.iter_rows(min_row=2):
+        obj=dict(zip(header, [c.value for c in row[:len(header)]]))
+        reasons=review_reasons(obj, TURN_DETECTOR, split_sentences)
+        state='PENDIENTE_REVISION' if reasons else 'SIN_ALERTAS_AUTOMATICAS'
+        ows.cell(row[0].row, len(header)+1, state)
+        ows.cell(row[0].row, len(header)+2, ';'.join(reasons))
+        review_count+=bool(reasons)
+    context_header = header + ['Estado_Revision','Motivos_Revision']
+    context_rows = [dict(zip(context_header, vals)) for vals in ows.iter_rows(min_row=2, values_only=True)]
+    annotate_turns(context_rows)
+    continuity_fields = ['ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor']
+    for j,key in enumerate(continuity_fields,len(context_header)+1):
+        ows.cell(1,j,key)
+        for i,obj in enumerate(context_rows,2):
+            ows.cell(i,j,obj[key])
+    md=outwb.create_sheet('Calidad'); md.append(['Indicador','Valor'])
+    md.append(['Filas originales',len(data)])
+    md.append(['Filas con alertas de revisión (no errores confirmados)',review_count])
+    md.append(['Intervenciones (filas tras segmentar)',len(records)])
+    md.append(['Filas divididas en intervenciones',sum(1 for n in _seg_per_parent.values() if n>1)])
+    md.append(['Sesiones',len(set(x[1] for x in records))])
+    md.append(['Fecha min',min(x[1] for x in records)]); md.append(['Fecha max',max(x[1] for x in records)])
+    md.append(['Actores reasignados',actor_corr]); md.append(['Roles corregidos',role_corr])
+    md.append(['Roles desde lista de asistencia',sum(1 for x in records if x[13])])
+    md.append(['Filas sin cargo único en lista de asistencia (revisar)',sum(1 for x in records if x[14]=='PENDIENTE_REVISION')])
+    md.append(['Fuente_Rol',str(dict(role_method_counter))])
+    md.append(['Textos truncados sin resolver',len([i for i in _parent_trunc if i not in FULL_TEXTS])])
+    md.append(['Textos largos sin revisar',len([i for i in _parent_near if i not in FULL_TEXTS])])
+    md.append(['Textos con texto completo en JSONL',len(FULL_TEXTS)])
+    md.append(['Duplicados exactos (intervenciones)',sum(n for n in exact_counts.values() if n>1)])
+    md.append(['Duplicados fórmula (intervenciones)',sum(n for t,n in exact_counts.items() if n>1 and _formula(t))])
+    md.append(['Duplicados exactos (origen)',len(_parent_dup)])
+    md.append(['Duplicados fórmula (origen)',len(_parent_dup_formula)])
+    md.append(['Métodos',str(dict(method_counter))])
+
+    md2=outwb.create_sheet('Fuente_Actor'); md2.append(['Fuente_Actor','Registros'])
+    for k,v in method_counter.most_common(): md2.append([k,v])
+    md3=outwb.create_sheet('Fuente_Rol'); md3.append(['Fuente_Rol','Registros'])
+    for k,v in role_method_counter.most_common(): md3.append([k,v])
+    rc=collections.Counter(x[5] for x in records); cd=outwb.create_sheet('Diccionario_Rol'); cd.append(['Rol','Registros'])
+    for k,v in rc.most_common(): cd.append([k,v])
+    ac=collections.Counter(x[4] for x in records); ad=outwb.create_sheet('Diccionario_Actor'); ad.append(['Actor','Registros'])
+    for k,v in ac.most_common(): ad.append([k,v])
+    kc=collections.Counter(cat(x[12]) for x in records); catws=outwb.create_sheet('Diccionario_Categoria'); catws.append(['Categoria','Registros'])
+    for k,v in kc.most_common(): catws.append([k,v])
+    if FULL_TEXTS:
+        ftws=outwb.create_sheet('Textos_Completos')
+        _ft_headers=['ID','Id_Sesion','Fecha','Página','Paginas_PDF','Archivo_PDF','Actor','Rol','Tema','Palabra_Clave','Texto_Completo','Longitud_Excel','Longitud_Texto_Completo','Fuente','Ubicacion_Texto_Completo']
+        ftws.append(_ft_headers)
+        for k in sorted(FULL_TEXTS):
+            ft=FULL_TEXTS[k]
+            ftws.append([ft.get('ID',''),ft.get('Id_Sesion',''),ft.get('Fecha',''),ft.get('Página',''),
+                         ft.get('Paginas_PDF',''),ft.get('Archivo_PDF',''),ft.get('Actor',''),ft.get('Rol',''),
+                         ft.get('Tema',''),ft.get('Palabra_Clave',''),
+                         'Ver texto completo en data/processed/textos_completos.jsonl (el XLSX limita la celda a 32,767 chars)',
+                         ft.get('Longitud_Excel',''),ft.get('Longitud_Texto_Completo',''),ft.get('Fuente',''),'data/processed/textos_completos.jsonl'])
+
+    for row in ows.iter_rows(min_row=2,max_row=ows.max_row,min_col=4,max_col=4):
+        for c in row:
+            if isinstance(c.value,dt.date): c.number_format='YYYY-MM-DD'
+    for sheet in outwb.worksheets:
+        for j,col in enumerate(sheet.iter_cols()):
+            if not col: continue
+            w=min(max(max((len(str(c.value)) for c in col[:300] if c.value is not None),default=8)+2,10),60)
+            sheet.column_dimensions[col[0].column_letter].width=w
+    ows.freeze_panes='A2'
+    outwb.save(OUT); print("Saved",OUT)
+
+
+if __name__ == "__main__":
+    main()

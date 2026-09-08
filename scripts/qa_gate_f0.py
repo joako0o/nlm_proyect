@@ -1,30 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-F0 QA gate — Base de referencia RPM (consolidado_base_referencia.xlsx)
-======================================================================
+F0: cobertura mensual y consistencia de las decisiones de TPM.
 
-F0(a) Cardinalidad de actores
-     Actor_Final únicos y su frecuencia. El plan original decía 60–80;
-     la cardinalidad real del consolidado es ~51 (verificar).
+Valida 132 sesiones 2005–2015, todas las fórmulas vigentes detectadas, su
+etiqueta y TODOS los componentes parseados (tasa, delta y signo verbal).
+La cardinalidad de actores se informa, no se fuerza a un número histórico.
 
-F0(b) Decisión de TPM por sesión
-     Cada una de las 132 sesiones debe rendir exactamente UNA decisión
-     (verbo + Δ pb y/o tasa objetivo). La fila que porta la decisión debe
-     estar tipificada Tipo_Acta='ACUERDO_CONSEJO'; las que no lo están son
-     "mis-tipificadas".
+La referencia CSV proviene de Datosmacro; su nombre histórico incluye BCCh,
+pero no es una descarga directa del Banco Central. La asociación temporal
+usa una ventana explícita de 10 días entre sesión y fecha efectiva.
 
-F0(c) Contraste contra la historia oficial de TPM del BCCh
-     tpm_oficial_bcch.csv  (fecha_efectiva,tasa_pct,fuente).
-     OJO: fecha_efectiva es la fecha en que la tasa COMIENZA A REGIR (por
-     regla general, el día hábil siguiente a la reunión), no la fecha de la
-     reunión. Por eso la sesión sólo adopta la siguiente tasa oficial si su
-     fecha efectiva cae dentro de CHANGE_WINDOW_DAYS tras la reunión; en caso
-     contrario mantiene la tasa vigente.
-
-Uso:  python scripts/qa_gate_f0.py [base.xlsx] [tpm_oficial_bcch.csv]
-      (por defecto usa data/processed/consolidado_base_referencia.xlsx y
-       data/external/tpm_oficial_bcch.csv, relativos a la raíz del repo)
+Uso: python scripts/qa_gate_f0.py [base.xlsx] [tpm.csv] [--json reporte.json]
 """
 
 import sys
@@ -33,6 +20,7 @@ import csv
 import datetime as dt
 from pathlib import Path
 from collections import Counter, defaultdict
+from decision_rules import _is_current_decision
 
 try:
     import openpyxl
@@ -40,9 +28,9 @@ except ImportError:
     sys.exit("Se requiere openpyxl (pip install openpyxl)")
 
 _ROOT = Path(__file__).resolve().parent.parent
-BASE = sys.argv[1] if len(sys.argv) > 1 else str(
+BASE = str(
     _ROOT / 'data' / 'processed' / 'consolidado_base_referencia.xlsx')
-TPM_CSV = sys.argv[2] if len(sys.argv) > 2 else str(
+TPM_CSV = str(
     _ROOT / 'data' / 'external' / 'tpm_oficial_bcch.csv')
 CONSEJO = 'Consejo del Banco Central de Chile'
 
@@ -72,7 +60,7 @@ def _fix_ocr(s):
     return s
 
 def _prep(t):
-    return _fix_ocr(_soft(t))
+    return re.sub(r'\s+', ' ', _fix_ocr(_soft(t))).strip()
 
 # ---------------------------------------------------------------------------
 # Carga
@@ -99,6 +87,9 @@ def load_tpm(path):
         for r in csv.DictReader(fh):
             y, m, d = r['fecha_efectiva'].split('-')
             rows.append((dt.date(int(y), int(m), int(d)), float(r['tasa_pct'])))
+    import math
+    if not rows or len({d for d,_ in rows}) != len(rows) or any(not math.isfinite(rate) or rate < 0 for _,rate in rows):
+        raise ValueError('Referencia TPM vacía, duplicada o con tasas inválidas')
     rows.sort()
     return rows
 
@@ -114,7 +105,7 @@ def load_tpm(path):
 # acuerda bajar la Tasa..." (2009) y "el Consejo decidió mantener la tasa..."
 # (comunicados 2005), por lo que se toleran hasta 60 caracteres entre el
 # verbo del acuerdo y la acción.
-DECISION_VERB = r'(?:mantener|mantiene|aumentar|aumenta|aumentó|incrementar|incrementa|incrementó|elevar|eleva|elevó|reducir|reduce|redujo|bajar|baja|bajó)'
+DECISION_VERB = r'(?:mantener|mantiene|aumentar|aumenta|aument[oó]|incrementar|incrementa|increment[oó]|elevar|eleva|elev[oó]|reducir|reduce|redujo|bajar|baja|baj[oó])'
 DECISION_ROW_RE = re.compile(
     r'(?:se\s+acuerda|acuerda|acord[oó]|resolvi[oó]|decidi[oó])\s*[^.\n]{0,60}?' + DECISION_VERB +
     r'\s+(?:la\s+)?(?:tasa\s+de\s+(?:inter[eé]s\s+de\s+)?pol[íi]tica\s+monetaria|tpm)',
@@ -140,6 +131,8 @@ def extract_decision_rows(session_rows):
     formula, marks = [], []
     for d in session_rows:
         t = _prep(d.get('Texto') or '')
+        if not _is_current_decision(t):
+            continue
         if DECISION_ROW_RE.search(t):
             formula.append(d)
         elif DECISION_MARK_RE.search(t) and re.search(
@@ -161,11 +154,11 @@ TARGET_RE = re.compile(r'\b(?:hasta|a|en)\s+' + NUM + r'\s*%', re.I)
 
 _VERB_SIGN = {
     'mantener': 0, 'mantiene': 0,
-    'aumentar': 1, 'aumenta': 1, 'aumentó': 1,
-    'incrementar': 1, 'incrementa': 1, 'incrementó': 1,
-    'elevar': 1, 'eleva': 1, 'elevó': 1,
+    'aumentar': 1, 'aumenta': 1, 'aumento': 1,
+    'incrementar': 1, 'incrementa': 1, 'incremento': 1,
+    'elevar': 1, 'eleva': 1, 'elevo': 1,
     'reducir': -1, 'reduce': -1, 'redujo': -1,
-    'bajar': -1, 'baja': -1, 'bajó': -1,
+    'bajar': -1, 'baja': -1, 'bajo': -1,
 }
 
 _SENT_SPLIT = re.compile(r'(?<=[.!?\n])\s+')
@@ -219,7 +212,7 @@ def _parse_clause(cl):
             delta = sign * round(float(pd.group(1).replace(',', '.')) * 100)
         elif sign == 0:
             delta = 0                      # 'mantener': cualquier mención de pb es ruido
-        tg = TARGET_RE.search(tail)
+        tg = TARGET_RE.search(tail[pd.end():] if pd and sign != 0 else tail)
         if tg:
             target = float(tg.group(1).replace(',', '.'))
     return (verb, delta, target)
@@ -265,115 +258,91 @@ def expected_after(tpm, meeting):
 # Gate
 # ---------------------------------------------------------------------------
 
-def main():
-    rows = load_base(BASE)
-    tpm = load_tpm(TPM_CSV)
-    print(f"Base: {BASE}  ({len(rows):,} filas)")
-    print(f"TPM oficial: {TPM_CSV}  ({len(tpm)} cambios, "
-          f"{tpm[0][0]} → {tpm[-1][0]})")
-    print()
+def decision_matches_reference(decision, before, after, delta):
+    """Todos los componentes disponibles deben concordar, incluido el signo verbal."""
+    verb, parsed_delta, target = decision
+    if before is None or after is None or delta is None:
+        return False
+    expected_sign = (delta > 0) - (delta < 0)
+    if _VERB_SIGN[verb] != expected_sign:
+        return False
+    return ((parsed_delta is not None or target is not None)
+            and (parsed_delta is None or parsed_delta == delta)
+            and (target is None or abs(target - after) < 1e-8))
 
-    # ---------------- F0(a) ----------------
-    # Cardinalidad verificada: 51 valores de Actor_Final = 50 personas + el
-    # Consejo (filas institucionales). El plan original decía 60–80: incorrecto.
-    EXPECTED_PERSONS = 50
+
+def audit(rows, tpm):
+    errors = []
     counts = Counter(r['Actor_Final'] for r in rows)
-    persons = {a: n for a, n in counts.items() if a != CONSEJO}
-    print('== F0(a) Cardinalidad de actores ==')
-    print(f"   Valores de Actor_Final: {len(counts)} "
-          f"({len(persons)} personas + Consejo)")
-    print(f"   Filas del Consejo (institucionales): {counts.get(CONSEJO, 0)}")
-    n1 = sorted(a for a, n in persons.items() if n == 1)
-    print(f"   Actores con n=1: {len(n1)} -> {', '.join(n1)}")
-    print()
-
-    by_sess = defaultdict(list)
+    # La cardinalidad es descriptiva: no fuerza a mantener errores de nombres
+    # para alcanzar un número prefijado. El registro canónico se valida en F1.
+    if not counts.get(CONSEJO) or any(not a for a in counts):
+        errors.append('Actor vacío o Consejo ausente')
+    by_session = defaultdict(list)
     for r in rows:
-        by_sess[r['Fecha_str']].append(r)
-    sessions = sorted(by_sess)
-    print(f"Sesiones: {len(sessions)}  ({sessions[0]} → {sessions[-1]})")
-
-    # ---------------- F0(b) ----------------
-    print()
-    print('== F0(b) Decisión por sesión ==')
-    missing, mistyped, parsed, no_parse = [], [], {}, []
-    for s in sessions:
-        cands = extract_decision_rows(by_sess[s])
-        if not cands:
-            missing.append(s)
+        by_session[r['Fecha_str']].append(r)
+    expected_months = {f'{y}-{m:02d}' for y in range(2005, 2016) for m in range(1,13)}
+    if len(by_session) != 132 or {s[:7] for s in by_session} != expected_months:
+        errors.append('Cobertura incompleta: se esperan 132 sesiones mensuales 2005–2015')
+    decisions = []
+    for session, group in sorted(by_session.items()):
+        candidates = extract_decision_rows(group)
+        if not candidates:
+            errors.append(f'{session}: sin decisión vigente detectable')
             continue
-        last = cands[-1]
-        if (last.get('Tipo_Acta') or '') != 'ACUERDO_CONSEJO':
-            mistyped.append((s, last['ID'], last.get('Tipo_Acta') or '',
-                             last['Actor_Final']))
-        dec = parse_decision(str(last['Texto']))
-        if dec is None:                    # reintenta con las candidatas previas
-            for c in reversed(cands[:-1]):
-                dec = parse_decision(str(c['Texto']))
-                if dec:
-                    break
-        if dec is None:
-            no_parse.append((s, last['ID']))
-        else:
-            parsed[s] = dec
-    print(f"   Sesiones sin fila de decisión detectable: {len(missing)}"
-          + (f" -> {missing}" if missing else ''))
-    print(f"   Sesiones con decisión parseada: {len(parsed)}/{len(sessions)}")
-    print(f"   Filas de decisión mis-tipificadas (última candidata sin "
-          f"ACUERDO_CONSEJO): {len(mistyped)}")
-    for s, rid, t, act in mistyped:
-        print(f"      {s}  ID {rid}  tipo='{t}'  actor={act}")
-    if no_parse:
-        print(f"   NO_PARSE: {no_parse}")
-    print()
+        before, after, delta = expected_after(tpm, dt.date.fromisoformat(session))
+        values = []
+        for row in candidates:
+            if row.get('Tipo_Acta') != 'ACUERDO_CONSEJO':
+                errors.append(f'{session} ID {row["ID"]}: decisión sin tipificar')
+            # Examinar todas las fórmulas en cada candidata, no sólo la última.
+            clauses = _decision_clauses(row['Texto'])
+            for clause in clauses:
+                if not DECISION_ROW_RE.search(clause):
+                    continue
+                # Una recapitulación puede convivir con el acuerdo vigente.
+                from decision_rules import RECAP_LEAD_RE
+                matches = list(DECISION_ROW_RE.finditer(clause))
+                for index, match in enumerate(matches):
+                    if RECAP_LEAD_RE.search(clause[max(0, match.start()-240):match.start()]):
+                        continue
+                    end = matches[index+1].start() if index+1 < len(matches) else len(clause)
+                    parsed = _parse_clause(clause[match.start():end])
+                    if parsed and (parsed[1] is not None or parsed[2] is not None):
+                        values.append((row['ID'], parsed))
+                        if not decision_matches_reference(parsed, before, after, delta):
+                            errors.append(f'{session} ID {row["ID"]}: {parsed} vs referencia {(before, after, delta)}')
+                    else:
+                        errors.append(f'{session} ID {row["ID"]}: fórmula no parseable')
+            if not any(rid == row['ID'] for rid, _ in values):
+                errors.append(f'{session} ID {row["ID"]}: candidata no parseable')
+        if values:
+            decisions.append({'Fecha': session, 'Tasa_Antes': before, 'Tasa_Despues': after,
+                              'Delta_PB': delta, 'IDs_Evidencia': sorted({rid for rid,_ in values}),
+                              'Formulas_Contrastadas': len(values)})
+    return {'sesiones': len(by_session), 'actores': len(counts),
+            'personas': len(counts)-int(CONSEJO in counts),
+            'decisiones': decisions, 'errores': errors, 'pasa': not errors}
 
-    # ---------------- F0(c) ----------------
-    print('== F0(c) Contraste contra TPM oficial BCCh ==')
-    print(f"   CHANGE_WINDOW_DAYS = {CHANGE_WINDOW_DAYS}")
-    mism, ok, compared = [], 0, 0
-    for s in sessions:
-        if s not in parsed:
-            continue
-        meeting = dt.date.fromisoformat(s)
-        before, after, odelta = expected_after(tpm, meeting)
-        verb, bdelta, btarget = parsed[s]
-        compared += 1
-        ok_target = btarget is not None and abs(btarget - after) < 1e-9
-        ok_delta = bdelta is not None and odelta is not None and bdelta == odelta
-        if ok_target or ok_delta:
-            ok += 1
-        else:
-            rid = extract_decision_rows(by_sess[s])[-1]['ID']
-            mism.append((s, rid, verb, bdelta, btarget, before, after, odelta))
-    print(f"   Sesiones contrastadas: {compared}   OK: {ok}   "
-          f"Discrepancias: {len(mism)}")
-    for (s, rid, verb, bd, bt, b, a, od) in mism:
-        parts = [f"{s}  ID {rid}  '{verb}'"]
-        if bd is not None or bt is not None:
-            if bd is not None:
-                parts.append(f"delta base={bd:+d}" if bd else "delta base=+0")
-            if bt is not None:
-                parts.append(f"tasa base={bt:.2f}")
-        else:
-            parts.append("base=NO_PARSE")
-        parts.append(f"vs oficial: antes={b:.2f} despues={a:.2f} "
-                     f"delta={od:+d}" if od is not None else "vs oficial: n/d")
-        print('      ' + '  |  '.join(parts))
-    print()
 
-    # ---------------- veredicto ----------------
-    fail = (len(persons) != EXPECTED_PERSONS or missing or no_parse
-            or mistyped or mism)
-    print('== VEREDICTO F0:', 'FALLA' if fail else 'PASA', '==')
-    print(f"   F0(a) {'OK' if len(persons)==EXPECTED_PERSONS else 'FALLA'}: "
-          f"{len(persons)} personas + Consejo = {len(counts)} valores de "
-          f"Actor_Final (plan decía 60–80 -> corregir)")
-    print(f"   F0(b) {'OK' if not (missing or no_parse or mistyped) else 'FALLA'}: "
-          f"0 sin decisión, {len(mistyped)} mis-tipificadas, "
-          f"{len(no_parse)} sin parsear")
-    print(f"   F0(c) {'OK' if not mism else 'FALLA'}: {len(mism)} discrepancias "
-          f"reales contra la historia oficial")
-    return 1 if fail else 0
+def main():
+    import json
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('base', nargs='?', default=str(_ROOT/'data/processed/consolidado_base_referencia.xlsx'))
+    parser.add_argument('tpm', nargs='?', default=str(_ROOT/'data/external/tpm_oficial_bcch.csv'))
+    parser.add_argument('--json', dest='json_path')
+    args = parser.parse_args()
+    result = audit(load_base(args.base), load_tpm(args.tpm))
+    print(f"Sesiones: {result['sesiones']} | Actores: {result['actores']}")
+    print(f"Sesiones con evidencia parseada: {len(result['decisiones'])}")
+    print(f"Fórmulas contrastadas: {sum(d['Formulas_Contrastadas'] for d in result['decisiones'])}")
+    for error in result['errores']:
+        print('ERROR:', error)
+    print('== VEREDICTO F0:', 'PASA' if result['pasa'] else 'FALLA', '==')
+    if args.json_path:
+        Path(args.json_path).write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    return 0 if result['pasa'] else 1
 
 
 if __name__ == '__main__':

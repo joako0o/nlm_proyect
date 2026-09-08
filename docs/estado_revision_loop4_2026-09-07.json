@@ -1,0 +1,280 @@
+{
+  "Estado": "CUARTO_BLOQUE_TRES_CICLOS_TERMINADO_Y_PUBLICADO",
+  "Filas": 9245,
+  "Alertas": 618,
+  "Pruebas": 339,
+  "Ciclos": [
+    {
+      "Ciclo": 1,
+      "Padres_Modificados": [
+        3800,
+        3810,
+        3813
+      ],
+      "Pruebas": 325,
+      "Filas_Ensayo": 9237
+    },
+    {
+      "Ciclo": 2,
+      "Padres_Modificados": [
+        3887,
+        3906,
+        4220
+      ],
+      "Pruebas": 334,
+      "Filas_Ensayo": 9241
+    },
+    {
+      "Ciclo": 3,
+      "Padres_Modificados": [
+        4224,
+        4341,
+        4357
+      ],
+      "Pruebas": 339,
+      "Filas_Ensayo": 9245
+    }
+  ],
+  "Padres_Modificados": [
+    3800,
+    3810,
+    3813,
+    3887,
+    3906,
+    4220,
+    4224,
+    4341,
+    4357
+  ],
+  "Padres_Con_Cambios_Solo_Metadatos": [
+    3811,
+    5231,
+    5647
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 780,
+      "Estado": "REQUIERE_COTEJO_Y_DELIMITACION_CONTEXTUAL",
+      "Detalle": "Acuerdo ya delimitado; sigue pendiente el comienzo de Corbo. No se obtuvo PDF: acceso oficial anterior bloqueado por verificación humana; no hubo nuevo cotejo en esta tanda."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PENDIENTE",
+      "Detalle": "Intervención conjunta: no asignar arbitrariamente un único actor."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "INTERCAMBIO_CORREGIDO_CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "El intercambio final Presidente → Ministro → Lehmann → Claro ya está delimitado. Antes queda acotación que es confirmada por el señor Lehmann dentro del segmento de Desormeaux. No inventar palabras ni certificar todo el padre."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "Pregunta del Presidente ya corregida. Queda lo cual es confirmado por el señor Claudio Soto en el segmento final de Marshall, sin alerta automática ni adjudicación nueva."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "ENLACE_DANADO_NO_RECONSTRUIDO",
+      "Detalle": "Exposición de Soto ya delimitada; y el Gerente de se conserva literal en el tramo anterior. Requiere cotejo para reconstruir, no completar por intuición."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "ATRIBUCION_DELIMITADA_DANO_TEXTUAL_SIN_RECONSTRUIR",
+      "Detalle": "Bernier delimitado, pero se conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el…; faltan elementos en la fuente. No completar bancos, nombres o redacción sin cotejo."
+    },
+    {
+      "ID_Padre": 3191,
+      "Estado": "INTERCAMBIO_CON_SUJETO_CONJUNTO_PENDIENTE",
+      "Detalle": "Leído sin modificar. Marshall → opinión de Claro → coincidencia conjunta del Presidente y Soto → cierre de García. No adjudicar la coincidencia conjunta a una única persona ni corregir sólo el último cierre."
+    },
+    {
+      "ID_Padre": 5647,
+      "Estado": "COMPROMISO_Y_CONTINUACION_PENDIENTES",
+      "Detalle": "El Presidente observa diferencias de paridades; por lo que el señor Sergio Lehmann se compromete a revisar dicha información. La continuación sobre intervenciones cambiarias requiere delimitación contextual. No se cambió el actor; ahora hay alerta explícita. No adjudicar automáticamente todo el resto a Lehmann."
+    }
+  ],
+  "Continuidad_Nueva": [
+    3810,
+    3811
+  ],
+  "Continuidades_No_Forzadas": [
+    [
+      3887,
+      3888
+    ],
+    [
+      4224,
+      4225
+    ]
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 63,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1053,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 3191,
+      "ID_Actual": 4642,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "d596d82b964da0af1585fba5293a53767bd77dc6dcf311807f1f4ac82401803d",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al finalizar esta discusión, el Gerente de División Estudios, señor Pablo García, se refiere al planteamiento del Vicepresidente, señor Manuel Marfán, y explica que en los años 2000, las tasas de interés nominales fueron claramente inferiores a sus niveles históricos y, por lo tanto, lo que ocurrió habría sido, en parte, un proceso más de convergencia, que llevó a una monetización a tasas mayores que las que hubiesen correspondido dado el nivel de tasa prevaleciente."
+    },
+    {
+      "ID_Padre": 4384,
+      "ID_Actual": 6102,
+      "Actor": "Manuel Marfán Lewis",
+      "SHA256_Texto_Padre": "676ed7ecb74f6614b9dd3e0b8c994fbb8d61906b392c0562190e1702da2bb50c",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no haber consultas o comentarios adicionales, el Presidente señor José De Gregorio suspende la presente Reunión hasta las 16 horas."
+    },
+    {
+      "ID_Padre": 4421,
+      "ID_Actual": 6146,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "57211987e157632d672d5b6c80ffb891f26cc85a50934ef34aac492a2d93014d",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al finalizar su presentación, el señor Sergio Lehmann menciona que las curvas de futuros del petróleo WTI y Brent apuntan a una convergencia tal vez más acelerada hacia los niveles de precios normales."
+    },
+    {
+      "ID_Padre": 4502,
+      "ID_Actual": 6248,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "27734eade5ca7028a64f4adb81a95a7b77122b152a94cfb7030a5c728b15f7b2",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no haber consultas o comentarios adicionales, el Presidente señor Rodrigo Vergara suspende la Reunión hasta las 16:00 horas. i,- Siendo las 16:00 horas, se reanuda la Reunión de Política Monetaria N° 179."
+    },
+    {
+      "ID_Padre": 4562,
+      "ID_Actual": 6316,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "e9c127cd946aaefebbd2c55f47f3c9f1a748a762a1e2dcf33941cf26e0779f69",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no haber consultas o comentarios adicionales, el Presidente señor Rodrigo Vergara suspende la presente Reunión hasta las 16:00 horas."
+    },
+    {
+      "ID_Padre": 4638,
+      "ID_Actual": 6395,
+      "Actor": "Kevin Cowan Logan",
+      "SHA256_Texto_Padre": "964b0a39992aab0babc3d2c77acba6b40a2be035a48fbe346972e82cd205e7aa",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no haber consultas o comentarios adicionales, el Presidente señor Rodrigo Vergara suspende la presente Reunión para reanudarla a las 16 horas."
+    },
+    {
+      "ID_Padre": 4745,
+      "ID_Actual": 6521,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "0252c2442e6457a3d39674411a551523d97254e5979562c46cba155260b671d6",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir con su presentación, el Gerente de Análisis Internacional señor Sergio Lehmann se refiere a las proyecciones en materia de crecimiento. "
+    },
+    {
+      "ID_Padre": 4833,
+      "ID_Actual": 6628,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "1b372af6d512f39ef8da975d8ce2d995c01430f729caf443b15b50033bf83cb8",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no haber más comentarios, el Presidente señor Rodrigo Vergara suspende la Reunión y deja constancia que ella se reiniciará a las 15:30 horas."
+    },
+    {
+      "ID_Padre": 4857,
+      "ID_Actual": 6655,
+      "Actor": "Rodrigo Vergara Montes",
+      "SHA256_Texto_Padre": "ed90a120df786f1d483f542c5980ccee01f8d5c404114355dc61facf0f8e96d5",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El Presidente señor Rodrigo Vergara consulta por la situación de Rusia y sobre este aspecto, el Consejero señor Joaquín Vial manifiesta que el plan de expansión impulsado por el Presidente Putin ha generado dudas sobre la sostenibilidad fiscal de esa economía, especialmente en el contexto actual en que ha disminuido el precio del petróleo. "
+    },
+    {
+      "ID_Padre": 4885,
+      "ID_Actual": 6684,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "567a3ffd5653adc55367c85578c622e4605d9d7dbc266b5b560030b195cca299",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no formularse otros comentarios, el Presidente señor Rodrigo Vergara suspende la Reunión y deja constancia que ella se reiniciará a las 15:30 horas para tratar las opciones de Política Monetaria."
+    },
+    {
+      "ID_Padre": 4941,
+      "ID_Actual": 6742,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "daadfa2182aa9d4d37d5cc72237af3e914ca3862ca627468f93bcae57253e7af",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir con su exposición, el Gerente de Análisis Macroeconómico se refiere a la inflación. "
+    },
+    {
+      "ID_Padre": 4955,
+      "ID_Actual": 6757,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "7c077d26995fc6d1feb941523b1bcb79a9319e90cd911cab29d6023a7f79192c",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no formularse otros comentarios, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 15:30 horas para tratar las opciones de política monetaria."
+    },
+    {
+      "ID_Padre": 5022,
+      "ID_Actual": 6826,
+      "Actor": "Kevin Cowan Logan",
+      "SHA256_Texto_Padre": "f9165e4dc6a0d27386017db111629ee5750cac23347adca0dde739be1daa06c3",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no formularse otros comentarios, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 15:30 horas para tratar las opciones de política monetaria."
+    },
+    {
+      "ID_Padre": 5076,
+      "ID_Actual": 6884,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "565c5fa45a56c21b69e504a1c1b82e5e581d8e9dcba4cda9acf1fd978bba1de0",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no formularse otros comentarios, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 15:30 horas para tratar las opciones de política monetaria."
+    },
+    {
+      "ID_Padre": 5141,
+      "ID_Actual": 6957,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "1c277b5ca4c4acf60478d7bf39503621d96b3e7739ed69fa061086effc6f08be",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no formularse otros comentarios, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 15:30 horas para analizar las opciones de política monetaria."
+    },
+    {
+      "ID_Padre": 5207,
+      "ID_Actual": 7026,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "a18dcbbf60469ed7fe6f2caca3fc2e1736ab328521972e128ce461e513f97096",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al no formularse otros comentarios, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 16:00 horas para analizar las opciones de política monetaria."
+    },
+    {
+      "ID_Padre": 5212,
+      "ID_Actual": 7032,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "02c25d8e8a9ba21f879e2e90631a0891add07dd050b6817fd692baf7307a5b36",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir con la Sesión, el señor Presidente informa que el Ministro de Hacienda señor Felipe Larraín, por intermedio de su Asesor señor Rodrigo Cerda, le ha hecho llegar su planteamiento por escrito, al que dará lectura a continuación: “El escenario económico en el último mes sigue mostrando a nivel local el dinamismo de la actividad y la inflación bajo control. "
+    },
+    {
+      "ID_Padre": 5313,
+      "ID_Actual": 7143,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "2c4168b49100aafd940012a22a8c363c36c76316c77041fe40160993ddbaecd5",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "05 horas, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 15:30 horas para tratar las opciones de política monetaria."
+    },
+    {
+      "ID_Padre": 5367,
+      "ID_Actual": 7203,
+      "Actor": "Miguel Fuentes Díaz",
+      "SHA256_Texto_Padre": "cfccd558e6d6904fd878f07fde2e28f78e2e276c50e96f6bfa39aa39df8ed11b",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "B A N C O C E N T R A L D E C H IL E En cuanto al gráfico referido a las colocaciones de consumo, el Gerente de División Estudios señor Luis Óscar Herrera señala, a título ejemplar, que si los consumidores reciben un flujo de $1."
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar la cola por lotes contextuales; no se revisaron todos los candidatos.",
+    "Cotejo de actas originales para pasajes ambiguos/dañados.",
+    "Seis variantes de identidad y dos repeticiones sustantivas.",
+    "Revisión semántica independiente de una muestra con y sin alertas: no realizada."
+  ],
+  "Limite": "Tres ciclos terminados; no proceso activo. Lectura del consolidado y vecinos, sin cotejo PDF ni revisión humana/semántica independiente. No se certifica pureza completa de los padres. Las ocho menciones actuales conservan sus avisos; 3191 sigue conjunto pendiente. 3887/4224 conservan exposición y actor correctos, pero CONTEXTO_REVISADO no crea por sí solo un ID_Turno compartido con el siguiente padre."
+}

@@ -20,10 +20,9 @@ from pathlib import Path
 import openpyxl
 import pypdf
 
-REPO = Path(__file__).resolve().parent.parent
-DATA_RAW = REPO / "data" / "raw"
+from paths import REPO, DATA_RAW, DATA_PROC
 SRC = DATA_RAW / "consolidado_final.xlsx"
-OUT = REPO / "data" / "processed" / "textos_completos.jsonl"
+OUT = DATA_PROC / "textos_completos.jsonl"
 
 # id -> (archivo PDF, fecha, primera_página, última_página)
 PDFS = {
@@ -42,11 +41,20 @@ HEADER_LINE = re.compile(
 
 # encabezado/pie embebido al final o inicio de una línea:
 #   09.06.2005 3.-    12.07.2005 12.-    3.-   12.-   9
-DATE_PAGE_TAIL = re.compile(r"\s*\d{2}\.\d{2}\.\d{4}\s*\d{1,3}[.\-]?\s*$")
-DATE_PAGE_HEAD = re.compile(r"^\s*\d{2}\.\d{2}\.\d{4}\s*\d{1,3}[.\-]?\s*")
-PAGE_TAIL = re.compile(r"\s*\d{1,3}[.\-]?\s*$")
-PAGE_HEAD = re.compile(r"^\s*\d{1,3}[.\-]?\s*")
-NEXT_PAGE_TOKENS = re.compile(r"\b(?:2\.-|3\.-|4\.-|5\.-|6\.-|7\.-|8\.-|9\.-|10\.-|11\.-|12\.-|13\.-|14\.-|15\.-)\b")
+DATE_FOOTER_LINE = re.compile(r"^\d{2}\.\d{2}\.\d{4}(?:\s+\d{1,3}(?:\.-|[.-])?)?$")
+
+DATE_PAGE_TAIL = re.compile(r"\s*\d{2}\.\d{2}\.\d{4}\s+\d{1,3}(?:\.-|[.-])?\s*$")
+DATE_PAGE_HEAD = re.compile(r"^\s*\d{2}\.\d{2}\.\d{4}\s+\d{1,3}(?:\.-|[.-])?\s*")
+
+
+def clean_pdf_line(line):
+    """Quita firmas de pie/encabezado, jamás números económicos genéricos."""
+    line = line.strip()
+    if HEADER_LINE.fullmatch(line) or DATE_FOOTER_LINE.fullmatch(line):
+        return ''
+    line = DATE_PAGE_TAIL.sub('', line)
+    line = DATE_PAGE_HEAD.sub('', line)
+    return reremove_artifacts(line).strip()
 
 
 def pdf_text(path, start_page, end_page):
@@ -56,32 +64,19 @@ def pdf_text(path, start_page, end_page):
         raw = reader.pages[i].extract_text() or ""
         lines = []
         for orig in raw.split("\n"):
-            ln = orig.strip()
+            ln = clean_pdf_line(orig)
             if not ln:
-                continue
-            # quitar encabezado/pie de página embebido en los bordes de la línea
-            ln = HEADER_LINE.sub("", ln) if HEADER_LINE.match(ln) else ln
-            ln = DATE_PAGE_TAIL.sub("", ln)
-            ln = DATE_PAGE_HEAD.sub("", ln)
-            ln = PAGE_TAIL.sub("", ln)
-            ln = PAGE_HEAD.sub("", ln)
-            ln = reremove_artifacts(ln)
-            if not ln:
-                continue
-            if HEADER_LINE.match(ln):
                 continue
             lines.append(ln)
         pages.append(" ".join(lines))
     text = " ".join(pages)
-    # quitar números de página que quedaron entre párrafos (p. ej. "2.-")
-    text = re.sub(r"\b\d{1,3}[.\-]\s*", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
 def reremove_artifacts(s):
     # números de página sueltos o letras huérfanas del pie (ej. "H")
-    if re.fullmatch(r"\d{1,3}[.\-]?", s):
+    if re.fullmatch(r"\d{1,3}\.-", s):
         return ""
     if re.fullmatch(r"[A-ZÁÉÍÓÚÑ]", s):
         return ""
@@ -98,6 +93,7 @@ def slice_from_marker(full_text, marker):
 
 
 def main():
+    DATA_PROC.mkdir(parents=True, exist_ok=True)
     wb = openpyxl.load_workbook(SRC, read_only=True, data_only=True)
     ws = wb["Consolidado"]
     rows = iter(ws.iter_rows(values_only=True))

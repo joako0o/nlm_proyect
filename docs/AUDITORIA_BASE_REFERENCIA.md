@@ -1,5 +1,10 @@
 # Auditoría de la base de referencia del consolidado RPM
 
+> **Antecedente histórico de la base de 8.493 filas.** Las cifras y conclusiones
+> de este documento no describen la salida actual. La revisión posterior
+> encontró limitaciones en conservación, segmentación y F0. Consultar
+> [el informe vigente](CONTINUIDAD_PARRAFOS_2026-09-07.md) y `qa_preparacion.json`.
+
 **Fecha de auditoría:** 2026-09-07 (actualizada tras la compuerta F0)
 **Base de entrada:** `data/raw/consolidado_final.xlsx` (hoja `Consolidado`, 7,219 filas + encabezado)
 **Base de referencia:** `data/processed/consolidado_base_referencia.xlsx`

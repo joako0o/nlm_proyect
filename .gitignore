@@ -9,3 +9,6 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+
+# Auditorías intermedias y staging (las salidas finales validadas sí se versionan)
+.cache/
