@@ -992,5 +992,33 @@
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "La opinión leída conserva constituyó na,0,1% ensual y escenario de onda, indicios de pérdidas de letras. No reconstruirlas ni atribuir el texto al lector por esa razón. Las comillas mixtas se conservan y delimitan mediante revisión individual.",
     "Limitacion": "Advertencia del texto documental exacto; no certifica origen del daño ni asistencia o habla oral del autor. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L27-4064",
+    "ID_Padre": 4064,
+    "Fecha": "2011-06-14",
+    "SHA256_Texto_Padre": "92448b1cd681cd9809ba4df4f3e1899f10a50d9fdd3c9109943a5157df9cac48",
+    "Inicio": 0,
+    "Fin": 462,
+    "Texto_Intervalo": "El Gerente de División Estudios señor Luis Óscar Herrera precisa que el propósito de este heat map es transmitir una visión de conjunto, sin entrar en cada uno de los casos particulares, porque, de lo contrario, habría que elaborar un informe de cada país. En consecuencia, si bien este heat map podría contener errores en cada uno de los casilleros, muestra una historia en el colectivo de cómo se van moviendo las economías sincronizadamente. -4 . f . • \" ' A)",
+    "Actor_Provisional": "Luis Óscar Herrera Barriga",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "El tramo de Herrera conserva el artefacto -4 . f . • \" ' A) tras su explicación. No son palabras de otro actor ni una cita abierta. No reescribir signos ni certificar origen del daño; corte de Lehmann mediante excepción individual.",
+    "Limitacion": "Sólo el intervalo señalado; no certificar exclusividad ni reconstruir OCR. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L27-2510",
+    "ID_Padre": 2510,
+    "Fecha": "2009-05-07",
+    "SHA256_Texto_Padre": "b6bd404e4738d5b185086ac4752ad8ecdc46639381120451cb58f92297ba6b2a",
+    "Inicio": 0,
+    "Fin": 699,
+    "Texto_Intervalo": "El Presidente señor José De Gregorio comenta que ese último efecto aparece como extraño, ya que está bien que el programa Credit Easing sea bien recibido, por cuanto va a aliviar la situación financiera, pero lo lógico sería esperar que, como consecuencia de ello la tasa larga baje. Agrega que, no obstante, lo anterior se explicaría porque lo que se está haciendo en realidad es bajar las primas. En el mismo sentido, ante la consulta del Ministro señor Velasco acerca de cuál es la lógica que funda ese resultado, el Presidente y el Consejero señor Sebastián Claro comentan que el efecto fue que el precio del bono bajó, porque lo que se está haciendo es bajar la prima de los bonos corporativos.",
+    "Actor_Provisional": "José De Gregorio Rebeco",
+    "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+    "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
+    "Justificacion": "El comentario presidencial termina con el Presidente y el Consejero señor Sebastián Claro comentan. La proposición conjunta no permite atribución exclusiva ni repartir palabras arbitrariamente. Velasco aparece como consultante referido, no turno delimitado. Conservar íntegros los desarrollos de Lehmann2071 y503 y el comentario presidencial243 posteriores.",
+    "Limitacion": "Sólo el intervalo señalado; no certificar exclusividad ni reconstruir OCR. Sin nuevo cotejo PDF ni muestra independiente."
   }
 ]

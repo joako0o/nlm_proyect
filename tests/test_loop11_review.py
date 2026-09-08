@@ -30,8 +30,8 @@ class LoopElevenTests(unittest.TestCase):
     def rows(self,p):
         return [dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p))]
     def test_root_and_interval_counts_are_distinct(self):
-        self.assertEqual(len(self.reviews),345)
-        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),374)
+        self.assertEqual(len(self.reviews),348)
+        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),377)
         self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{506,644,664,1090,1923,2622,4923,5367,6009,6015,6016,6443,2957,3476,5108,6277,6021,631,6862,2674,2525,2738,2704,3268,2661,2788})
     def test_empty_and_single_review_compatibility(self):
         self.assertEqual(speaker_intervals(None),[])
@@ -136,7 +136,7 @@ class LoopElevenTests(unittest.TestCase):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015,1003,1424,1663,1860,2473,2865,2957,2990,3476,3619,2349,3050,3315,205,510,1013,1728,2695,2803,2969,5366,6021,7182,518,520,632,2141,4289,4446,6862,1904,2463,2525,2674,2938,2885,3268,3775,5643,2680,2788,2958,3008,4055,1004,2948,3071})
+        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015,1003,1424,1663,1860,2473,2865,2957,2990,3476,3619,2349,3050,3315,205,510,1013,1728,2695,2803,2969,5366,6021,7182,518,520,632,2141,4289,4446,6862,1904,2463,2525,2674,2938,2885,3268,3775,5643,2680,2788,2958,3008,4055,1004,2948,3071,4064,2510})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''

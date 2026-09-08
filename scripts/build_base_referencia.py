@@ -850,7 +850,10 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
     if institution is not None:
         if review is not None or document is not None:
             raise ValueError('Continuación de acta solapada con revisión personal')
-        parts = institutional_parts(text, institution)
+        if institution.get('Tipo_Alcance') == 'INTERRUPCION_Y_REANUDACION_REVISADA':
+            if date != institution['Fecha'] or initial_actor != institution['Actor_Expositor']:
+                raise ValueError('Acta: fecha/actor de reanudación incompatibles')
+        parts = institutional_parts(text, institution, TURN_DETECTOR)
         if state is not None:
             state.update(roles={}, last_sentence='', anchor=None, pending=None, barrier=True)
         return parts
@@ -892,7 +895,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA', 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "INICIO_TRAS_ARTEFACTO_REVISADO", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA', 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
@@ -957,7 +960,15 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                     fragment = 'señala' + fragment[len('señalando'):]
 
             coordinated = review.get('Tipo_Limite') == 'COORDINACION_Y_EXPLICITA'
-            concatenated = review.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA'
+            artifact = review.get('Tipo_Limite') == 'INICIO_TRAS_ARTEFACTO_REVISADO'
+            if artifact:
+                noise = review.get('Cita_Artefacto')
+                if (noise != "-4 . f . • \" ' A) " or not prefix.endswith(noise)
+                        or not prefix[:-len(noise)].rstrip().endswith('.')
+                        or not fragment.startswith('El señor Sergio Lehmann insiste en que ')):
+                    raise ValueError('Artefacto revisado sin separador y sujeto exactos')
+                prefix = prefix[:-len(noise)]
+            concatenated = review.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA' or artifact
             causal_reply = review.get('Tipo_Limite') == 'RESPUESTA_POR_LO_QUE_EXPLICITA'
             reply_muestra = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA'
             reply_cual = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_CUAL_EXPLICITA'
@@ -1283,9 +1294,12 @@ def main():
         note=[]
         if normalize_quote(clean) in FORMULA_REVIEWS:
             note.append("Fórmula procedimental revisada: " + FORMULA_REVIEWS[normalize_quote(clean)]["Revision_ID"])
-        if id_padre in reviewed_institutions:
+        if id_padre in reviewed_institutions and method == 'ACTA/META':
             e = reviewed_institutions[id_padre]
             note.append(INSTITUTIONAL_NOTE+e['Revision_ID']+' (data/curation/revisiones_continuaciones_acta.json; no habla personal ni cotejo PDF)')
+        if id_padre in reviewed_institutions and method != 'ACTA/META':
+            e = reviewed_institutions[id_padre]
+            note.append('Reanudación nominal revisada: '+e['Revision_ID']+' (data/curation/revisiones_continuaciones_acta.json; expositor nominal, sin cotejo PDF)')
         if method == SPEAKER_REVIEW_SOURCE:
             applicable = [r for r in speaker_intervals(reviewed_speakers[id_padre])
                           if r['Actor']==spk and normalize_quote(clean).startswith(normalize_quote(r['Cita_Inicio']))]

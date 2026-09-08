@@ -302,8 +302,8 @@ class LoopTwentySixTests(unittest.TestCase):
         self.assertNotIn(4096, self.docs)
         self.assertNotIn('DOCUMENTO_ESCRITO_REVISADO', [m for t, a, m in self.parts(4096)])
 
-    def test_three_pending_readings_and_retired_archives_stay_distinct(self):
-        self.assertEqual({e['ID_Padre'] for e in self.mentions.values() if e['Decision'] == 'PENDIENTE_DELIMITAR_APORTE'}, {6185, 3775, 4055})
+    def test_four_pending_readings_and_retired_archives_stay_distinct(self):
+        self.assertEqual({e['ID_Padre'] for e in self.mentions.values() if e['Decision'] == 'PENDIENTE_DELIMITAR_APORTE'}, {6185, 3775, 4055, 2510})
         self.assertNotIn((5402, 5403), self.links)
         archive = json.loads((DOC_PATH.parent / 'alertas_contextuales_retiradas.json').read_text())
         self.assertEqual({e['Alerta_Original']['ID_Padre'] for e in archive}, {6443, 2704, 2661})

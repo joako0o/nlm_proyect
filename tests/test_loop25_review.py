@@ -97,7 +97,7 @@ class LoopTwentyFiveTests(unittest.TestCase):
         for p in [77,1042,1456,2167,1004]:
             self.assertEqual(self.parts(p),self.parts(p,False));self.assertNotIn(p,self.reviews)
         self.assertEqual(sum('-L25-' in e['Revision_ID'] for e in ms.values()),5)
-        self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775,4055})
+        self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775,4055,2510})
     def test_claro_reference_to_vial_does_not_open_another_voice(self):
         self.assertEqual([a for t,a,m in self.parts(6073)],['Sergio Lehmann Beresi','Sebastián Claro Edwards'])
         self.assertIn('corrobora lo expresado por el Consejero señor Joaquín Vial',self.parts(6073)[-1][0])

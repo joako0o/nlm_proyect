@@ -31,7 +31,7 @@ class LoopThirteenTests(unittest.TestCase):
     def test_institutional_fragment_is_not_orellana_speech(self):
         self.assertEqual(self.parts(3110),[(self.raw[3110]['Texto'],b.CONSEJO,'ACTA/META')])
         self.assertIn('comunicado oportunamente por el señor Orellana',self.parts(3110)[0][0])
-        self.assertFalse(validate_institutional_reviews([self.inst_row()],self.institutions))
+        self.assertFalse(validate_institutional_reviews([self.inst_row()],{3110:self.institutions[3110]}))
     def test_institutional_review_cannot_overlap_person_or_document(self):
         r=self.raw[3110]
         for opts in [dict(review={}),dict(document={})]:
@@ -67,10 +67,10 @@ class LoopThirteenTests(unittest.TestCase):
     def test_institutional_validation_rejects_personal_actor_and_role(self):
         for field,value in [('Actor_Final','Enrique Orellana Cifuentes'),('Fuente_Actor','CONTEXTO_REVISADO'),('Fuente_Rol','LISTA_ASISTENCIA'),('Tipo_Acta',''),('Rol_Final','Gerente'),('Texto','Inventado'),('Nota',''),('ID_Ancla_Actor','1'),('ID_Antecedente_Continuidad','1')]:
             r=self.inst_row();r[field]=value
-            self.assertTrue(validate_institutional_reviews([r],self.institutions))
+            self.assertTrue(validate_institutional_reviews([r],{3110:self.institutions[3110]}))
     def test_institutional_validation_rejects_missing_and_duplicate(self):
-        self.assertTrue(validate_institutional_reviews([],self.institutions))
-        r=self.inst_row();self.assertTrue(validate_institutional_reviews([r,r],self.institutions))
+        self.assertTrue(validate_institutional_reviews([],{3110:self.institutions[3110]}))
+        r=self.inst_row();self.assertTrue(validate_institutional_reviews([r,r],{3110:self.institutions[3110]}))
     def test_institutional_validation_rejects_unregistered_annotation(self):
         self.assertTrue(validate_institutional_reviews([self.inst_row()],{}))
     def test_3110_damaged_links_are_preserved_not_repaired(self):

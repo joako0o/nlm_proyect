@@ -42,18 +42,18 @@ class CurrentMentionTests(unittest.TestCase):
             p.write_text(json.dumps(entries))
             return load_mention_reviews(raw if raw is not None else self.raw, p)
 
-    def test_thirty_two_legitimate_mentions_and_three_pending_readings_are_documented(self):
-        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621,1926,4161,1549,2219,77,1042,1456,2167,1004,5276,5308})
-        self.assertEqual(len(self.reviews), 35)
+    def test_thirty_four_legitimate_mentions_and_four_pending_readings_are_documented(self):
+        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621,1926,4161,1549,2219,77,1042,1456,2167,1004,5276,5308,870,6601})
+        self.assertEqual(len(self.reviews), 38)
 
     def test_valid_annotations_do_not_modify_rows_or_warnings(self):
         rows = copy.deepcopy(self.rows)
         errors, annotations = validate_mention_reviews(rows, self.reviews)
         self.assertEqual(errors, [])
-        self.assertEqual(len(annotations), 35)
+        self.assertEqual(len(annotations), 38)
         self.assertEqual(rows, self.rows)
         pending=[v for v in annotations.values() if v[FIELDS[0]]=='PENDIENTE_DELIMITAR_APORTE']
-        self.assertEqual(len(pending),3)
+        self.assertEqual(len(pending),4)
         self.assertIn('Bernier',pending[0][FIELDS[2]])
         for values in annotations.values():
             if values in pending:continue
