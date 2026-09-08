@@ -285,7 +285,7 @@ class TurnDetector:
             return self.resolve_role(date, self.roles[role.group()])
         return None
 
-    def reviewed_relative_handoff(self, prefix, fragment, date, acknowledgement=False):
+    def reviewed_relative_handoff(self, prefix, fragment, date, acknowledgement=False, statement=False):
         """Valida una cesión contigua para una revisión, no detecta turnos sola.
 
         La relativa debe declarar el comienzo efectivo de la exposición. Los
@@ -293,6 +293,8 @@ class TurnDetector:
         no basta encontrar una cesión o un nombre en una ventana de contexto.
         Las proyecciones sirven sólo para reconocer sujetos, nunca para exportar.
         """
+        if acknowledgement and statement:
+            return None
         if acknowledgement:
             # Variante individual constatada: no habilitar relativas de agradecimiento
             # arbitrarias ni confundir al destinatario de unas gracias con su autor.
@@ -303,6 +305,9 @@ class TurnDetector:
             if not prefix.startswith(lead):
                 return None
             prefix = prefix[len(lead):]
+        elif statement:
+            if not re.match(r'^quien hace presente que\b', normalize(fragment)):
+                return None
         elif not re.match(r'^quien comienza su exposicion senalando que\b', normalize(fragment)):
             return None
         m = re.fullmatch(r'(.+?) (?:ofrece|concede|da|cede) la palabra (?:al|a la) (.+),',

@@ -1,6 +1,6 @@
 {
   "cola_original": 783,
-  "alertas_actuales": 361,
+  "alertas_actuales": 370,
   "menciones_actuales_documentadas": 20,
   "lecturas_actuales_por_estado": {
     "MENCION_LEGITIMA_REVISADA": 19,
@@ -9,10 +9,10 @@
   "estados": {
     "METODO_ACTUALIZADO": 331,
     "FORMULA_PROCEDIMENTAL_RECLASIFICADA": 58,
-    "PENDIENTE_LECTURA_CONTEXTUAL": 104,
+    "PENDIENTE_LECTURA_CONTEXTUAL": 103,
     "SEGMENTACION_O_ACTOR_MODIFICADO": 169,
     "BREVE_VALIDO_REVISADO": 7,
-    "CORRECCION_DIRIGIDA_APLICADA": 102,
+    "CORRECCION_DIRIGIDA_APLICADA": 103,
     "MENCION_LEGITIMA_REVISADA": 8,
     "IDENTIDAD_PENDIENTE": 1,
     "REPETICION_SUSTANTIVA_PENDIENTE": 2,
@@ -20,8 +20,8 @@
   },
   "tipo_revision": {
     "COMPARACION_AUTOMATICA": 500,
-    "LECTURA_DIRIGIDA_POR_AGENTE": 178,
-    "TRIAJE_AUTOMATICO": 105
+    "LECTURA_DIRIGIDA_POR_AGENTE": 179,
+    "TRIAJE_AUTOMATICO": 104
   },
   "filas_originales_con_alertas_actuales": 283,
   "intervalos_con_variante_identidad_pendiente": 6,

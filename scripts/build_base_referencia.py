@@ -33,7 +33,7 @@ PSEUDO={'Gerente de División Internacional','Gerente de División Estudios Subr
 EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro','Rodrigo Álvarez Zenteno',
               'Alejandro Micco','Leonardo Hernández Tagle','Alfredo Pistelli',
               'Gloria Peña Tapia','Luis Alberto Álvarez Vallejos',
-              'Miguel Ángel Nacrur Gazali','Pablo Mattar Oyarzún'}
+              'Miguel Ángel Nacrur Gazali','Pablo Mattar Oyarzún','Juan Pablo Araya Marco'}
 ALL_ACTORS=sorted(set(str(r[2]).strip() for r in data)|EXTRA_ACTORS)
 REAL=[a for a in ALL_ACTORS if a not in PSEUDO and a!=CONSEJO]
 
@@ -132,6 +132,9 @@ EXTRA={('Rodrigo Vergara Montes','montes'),('Rodrigo Valdés Pulido','pulido'),(
        ('María Elena Ovalle Molina','molina'),('María Olivia Recart Herrera','herrera'),('María Eugenia Wagner Brizzi','wagner'),('Rodrigo Alfaro','alfaro'),
        ('Mario Marcel Cullell','cullell'),('Camilo Carrasco Alfonso','alfonso'),('Miguel Ricaurte Bermúdez','bermudez')}
 
+# Alta nominal acotada: no generar el alias común Marco ni sólo nombres de pila.
+NARROW_NAME_ALIASES={'Juan Pablo Araya Marco': {'juan pablo araya marco','juan pablo araya'}}
+
 # name resolution
 def _nearest_actor(acts,date=None):
     if len(acts)==1: return next(iter(acts))
@@ -158,6 +161,8 @@ def resolve_name(name,date=None):
     if len(exact)>1: return _nearest_actor(exact,date)
     cand=[]
     for a in REAL:
+        if a in NARROW_NAME_ALIASES and n not in NARROW_NAME_ALIASES[a]:
+            continue
         if n in norm(a): cand.append(a)
         elif n in norm(SURNAME.get(a,'')): cand.append(a)
     if len(cand)==1: return cand[0]
@@ -194,6 +199,8 @@ for a in REAL:
     if sur:
         toks2=norm(a).split()
         alts.add(toks2[0]+' '+norm(sur))
+    if a in NARROW_NAME_ALIASES:
+        alts=NARROW_NAME_ALIASES[a]
     # full without accents already normalized
     for alt in alts:
         if len(alt)>3 and (len(alt.split())>1 or len(alt)>=4):
@@ -885,30 +892,41 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
             prefix = text[:review["Inicio"]]
             fragment = text[review["Inicio"]:review["Fin"]]
-            gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO'
+            fiscal_reply = review.get('Tipo_Limite') == 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO'
+            gerund = review.get('Tipo_Limite') == 'GERUNDIO_SENALANDO_EXPLICITO' or fiscal_reply
             if gerund:
                 # Sólo esta decisión con hash/citas habilita el gerundio con
                 # sujeto explícito pospuesto. Proyectar el predicado únicamente
                 # para reconocer su sujeto; nunca modificar el texto guardado.
-                if not prefix.rstrip().endswith((',', ';')) or not re.match(r'^señalando\s+(?:el|la)\s+', fragment):
-                    raise ValueError("Revisión de gerundio sin límite válido")
-                fragment = 'señala' + fragment[len('señalando'):]
+                if fiscal_reply:
+                    # Referente nominal en la consulta contigua, no un Fiscal global.
+                    antecedent=re.search(r'solicita al Fiscal señor ([^,.;!?]{1,100}) que precise [^.!?]+,\s*$',prefix)
+                    lead='indicando el señor Fiscal'
+                    if not antecedent or not fragment.startswith(lead+' que '):
+                        raise ValueError('Respuesta fiscal sin consulta nominal contigua')
+                    fragment='indica el señor '+antecedent[1]+fragment[len(lead):]
+                else:
+                    if not prefix.rstrip().endswith((',', ';')) or not re.match(r'^señalando\s+(?:el|la)\s+', fragment):
+                        raise ValueError("Revisión de gerundio sin límite válido")
+                    fragment = 'señala' + fragment[len('señalando'):]
+
             coordinated = review.get('Tipo_Limite') == 'COORDINACION_Y_EXPLICITA'
             concatenated = review.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA'
             causal_reply = review.get('Tipo_Limite') == 'RESPUESTA_POR_LO_QUE_EXPLICITA'
             reply_muestra = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA'
-            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA' or causal_reply or reply_muestra
+            reply_cual = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_CUAL_EXPLICITA'
+            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA' or causal_reply or reply_muestra or reply_cual
             if reply:
                 # Excepción individual: conservar el conector, sin inventar coma.
-                lead = 'a lo cual' if reply_muestra else ('por lo que' if causal_reply else 'a lo que')
+                lead = 'a lo cual' if (reply_muestra or reply_cual) else ('por lo que' if causal_reply else 'a lo que')
                 if (not re.match(r'^'+lead+r'\s+(?:el|la)\s+', fragment) or not prefix or not prefix[-1].isspace()
-                        or (causal_reply and not prefix.rstrip().endswith(','))):
+                        or ((causal_reply or reply_cual) and not prefix.rstrip().endswith(','))):
                     raise ValueError("Revisión de respuesta sin límite válido")
                 if reply_muestra:
                     # Proyección exclusivamente para validar el sujeto nominal; no reescribir.
@@ -930,7 +948,8 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                     raise ValueError("Revisión de coordinación sin límite válido")
                 fragment = re.sub(r'^y,?\s+', '', fragment)
             acknowledgement = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'
-            relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement
+            statement = review.get('Tipo_Limite') == 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA'
+            relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement or statement
             opinion_quote = review.get('Tipo_Limite') == 'OPINION_TRAS_CITA_CERRADA_REVISADA'
             return_quote = review.get('Tipo_Limite') == 'RETORNO_TRAS_CITA_CERRADA_REVISADA'
             if return_quote:
@@ -951,7 +970,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 # anterior. La revisión y su hash delimitan la relativa adjudicada.
                 sentence_start = max(a for a,b in spans if a <= review['Inicio'])
                 candidate = TURN_DETECTOR.reviewed_relative_handoff(
-                    text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement)
+                    text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement, statement=statement)
             else:
                 candidate = TURN_DETECTOR.speaker(fragment,date)
             if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
