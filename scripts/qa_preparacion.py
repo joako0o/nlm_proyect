@@ -15,6 +15,7 @@ from pathlib import Path
 
 from review_queue import build_report
 from context_warnings import load_context_warnings, validate_context_warnings, has_context_warning
+from institutional_reviews import load_institutional_reviews, validate_institutional_reviews
 from document_reviews import load_document_reviews, validate_document_reviews, FIELDS as DOCUMENT_FIELDS
 from mention_reviews import load_mention_reviews, validate_mention_reviews, annotation_for, FIELDS as MENTION_FIELDS
 from procedural import is_formula, load_formula_reviews
@@ -173,6 +174,8 @@ def main():
     documents=load_document_reviews({r['ID']:r for r in raw})
     document_errors, document_records=validate_document_reviews(rows,documents)
     errors.extend(document_errors)
+    institutions=load_institutional_reviews({r['ID']:r for r in raw})
+    errors.extend(validate_institutional_reviews(rows,institutions))
     context_alerts=load_context_warnings({r['ID']:r for r in raw})
     errors.extend(validate_context_warnings(rows,context_alerts))
     for (parent,actor),review in role_reviews.items():

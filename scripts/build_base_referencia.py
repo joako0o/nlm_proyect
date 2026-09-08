@@ -12,6 +12,7 @@ from pathlib import Path as _Path
 from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
 from context_warnings import load_context_warnings, contextual_motives
+from institutional_reviews import load_institutional_reviews, institutional_parts, institutional_type, NOTE as INSTITUTIONAL_NOTE
 from curation import load_role_reviews, load_speaker_reviews, speaker_intervals, SPEAKER_REVIEW_SOURCE
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
@@ -683,7 +684,13 @@ def _inst_transition(sent):
     le parece ...", "Consigna que ... el Consejo decidió ...")."""
     t=_fix_ocr(norm(sent))
     # Registro horario de reanudación, no cualquier mención de una hora.
-    if re.match(r'^a las (?:[01]?\d|2[0-3]):[0-5]\d horas, se reanuda la reunion de politica monetaria n[°º]\s*\d+\b', t):
+    if re.match(r'^a las (?:[01]?\d|2[0-3]):[0-5]\d horas, se reanuda la (?:reunion|sesion) de politica monetaria n[°º]\s*\d+\b', t):
+        return True
+    # Encabezado formal con código de acuerdo; espacios OCR sólo reconocidos.
+    # No confundir una cifra ni una mención retrospectiva con un bloque del acta.
+    if re.match(r'^\d{2,3}-\d{2}-\d{6}-\s*t\s*a\s*s\s*a de politica monetaria(?:\.|\s+el consejo\b)', t):
+        return True
+    if re.match(r'^luego de un intercambio de opiniones, se acuerda que\b', t):
         return True
     if sent.strip() == _DAMAGED_REOPENING:
         return True
@@ -820,10 +827,17 @@ TURN_DETECTOR = TurnDetector(alias_map, ROLE_PATS + [(r, c or r) for r,c in ROST
                              strict_alias, strict_role, roster_role_for)
 
 
-def segment_turns(text, date, initial_actor, state=None, review=None, document=None):
+def segment_turns(text, date, initial_actor, state=None, review=None, document=None, institution=None):
     if state is not None and state.get('date') != date:
         state.clear()
         state['date'] = date
+    if institution is not None:
+        if review is not None or document is not None:
+            raise ValueError('Continuación de acta solapada con revisión personal')
+        parts = institutional_parts(text, institution)
+        if state is not None:
+            state.update(roles={}, last_sentence='', anchor=None, pending=None, barrier=True)
+        return parts
     if document is not None:
         if review is not None:
             raise ValueError('Documento y revisión de hablante se solapan')
@@ -951,6 +965,12 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         previous_sentence = sent
         candidate = TURN_DETECTOR.speaker(sent, date, actor, local_context)
         institutional = _inst_transition(sent)
+        # La hora no vuelve institucional a un sujeto personal explícito que
+        # abre/reanuda la sesión. «Se reanuda» sin tal sujeto sigue siendo acta.
+        timed_personal = bool(candidate and candidate['method'] in EXPLICIT
+                and re.match(r'^siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d horas,', normalize_turn(sent)))
+        if timed_personal:
+            institutional = False
         local_review = reviews_by_start.get(a)
         if local_review:
             if candidate and candidate["actor"] != local_review["Actor"]:
@@ -966,7 +986,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 source = 'ANAFORA_CONTINUIDAD'
         else:
             continue
-        if (who != actor or a in explicit_review_ends) and a > start:
+        if (who != actor or a in explicit_review_ends or local_review or timed_personal) and a > start:
             segments.append((text[start:a].strip(), actor, method))
             start, method = a, None
         actor = who
@@ -1020,6 +1040,7 @@ def main():
     FULL_TEXTS = load_full_texts()
     reviewed_roles = load_role_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
     reviewed_speakers = load_speaker_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
+    reviewed_institutions = load_institutional_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     DATA_PROC.mkdir(parents=True, exist_ok=True)
     # ---- process ----
     load_formula_reviews(raw_by_id={int(r[0]): {"Texto":str(r[5])} for r in data})
@@ -1043,7 +1064,7 @@ def main():
         if len(str(r[5])) >= 32767 and parent_id not in FULL_TEXTS:
             raise ValueError(f'Texto truncado sin recuperación: {parent_id}')
         state = session_states.setdefault(date, {'date': date})
-        seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id),reviewed_documents.get(parent_id))
+        seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id),reviewed_documents.get(parent_id),reviewed_institutions.get(parent_id))
         _seg_per_parent[parent_id]+=len(seg_texts)
         block_number=0
         for segment_number, (text, segment_actor, segment_method) in enumerate(seg_texts, 1):
@@ -1112,7 +1133,8 @@ def main():
                 rol = reviewed_documents[parent_id]['Rol_Autor']
                 rol_asistencia = None
                 metodo_rol = DOCUMENT_ROLE_SOURCE
-            tipo = tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else ''
+            tipo = (institutional_type(text, reviewed_institutions[parent_id]) if parent_id in reviewed_institutions
+                    else tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else '')
             # La fila porta la decisión de TPM de la sesión -> ACUERDO_CONSEJO,
             # incluso si quedó tipificada como COMUNICADO (el texto del comunicado
             # repite la fórmula del acuerdo) o si es fila de persona que arrastra
@@ -1154,6 +1176,9 @@ def main():
         note=[]
         if normalize_quote(clean) in FORMULA_REVIEWS:
             note.append("Fórmula procedimental revisada: " + FORMULA_REVIEWS[normalize_quote(clean)]["Revision_ID"])
+        if id_padre in reviewed_institutions:
+            e = reviewed_institutions[id_padre]
+            note.append(INSTITUTIONAL_NOTE+e['Revision_ID']+' (data/curation/revisiones_continuaciones_acta.json; no habla personal ni cotejo PDF)')
         if method == SPEAKER_REVIEW_SOURCE:
             applicable = [r for r in speaker_intervals(reviewed_speakers[id_padre])
                           if r['Actor']==spk and normalize_quote(clean).startswith(normalize_quote(r['Cita_Inicio']))]

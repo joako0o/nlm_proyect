@@ -30,7 +30,7 @@ class LoopThreeTests(unittest.TestCase):
             self.assertEqual(compact(''.join(t for t,a,m in self.parts(p))),compact(self.raw[p]['Texto']))
     def test_3421_personal_gratitude_does_not_remain_in_institutional_block(self):
         parts=self.parts(3421)
-        self.assertEqual([a for t,a,m in parts],['Enrique Marshall Rivera','Luis Opazo Roco',SOTO,PRES,b.CONSEJO,PRES])
+        self.assertEqual([a for t,a,m in parts],['Enrique Marshall Rivera','Luis Opazo Roco',SOTO,PRES,PRES,PRES])
         self.assertEqual([len(t) for t,a,m in parts],[90,243,1143,201,108,797])
         self.assertIn('13:20',parts[3][0]);self.assertIn('16:00',parts[4][0])
         self.assertTrue(parts[5][0].startswith('Hace presente que esta es la última Sesión'))
@@ -49,12 +49,13 @@ class LoopThreeTests(unittest.TestCase):
                   '“No habiendo comentarios, el señor Presidente agradece la exposición.”']:
             self.assertIsNone(b.TURN_DETECTOR.speaker(t,'2010-09-16'))
     def test_explicit_welcome_does_not_certify_prior_anaphoric_gratitude(self):
-        # Loop9 reconoce la bienvenida con sujeto expreso; no hereda ciegamente
-        # «Hace presente…» en 3421. Su intervalo completo aún requiere revisión.
+        # Loop13 reconoce al Presidente que reanuda ANTES de Hace presente.
+        # La anáfora aislada no es sujeto explícito; la revisión anterior se conserva.
         r=self.raw[3421];plain=b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
-        self.assertEqual([(a,len(t)) for t,a,m in plain[-2:]],[(b.CONSEJO,666),(PRES,239)])
-        self.assertIn('Hace presente que esta es la última Sesión',plain[-2][0])
-        self.assertEqual([(a,len(t)) for t,a,m in self.parts(3421)[-2:]],[(b.CONSEJO,108),(PRES,797)])
+        self.assertEqual([(a,len(t)) for t,a,m in plain[-2:]],[(PRES,201),(PRES,906)])
+        self.assertIn('Hace presente que esta es la última Sesión',plain[-1][0])
+        self.assertIsNone(b.TURN_DETECTOR.speaker('Hace presente que esta es la última Sesión.',r['Fecha']))
+        self.assertEqual([(a,len(t)) for t,a,m in self.parts(3421)[-2:]],[(PRES,108),(PRES,797)])
         r=self.raw[3476];plain=b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
         self.assertEqual([(a,len(t)) for t,a,m in plain[-2:]],[(b.CONSEJO,66),(PRES,255)])
         self.assertEqual(plain[-1][0],self.parts(3476)[-1][0])

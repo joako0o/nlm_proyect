@@ -138,5 +138,47 @@
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "Bernier está identificado por sujeto explícito, pero su texto conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el ha ido disminuyendo. Su revisión de hablante no certifica integridad del contenido ni autoriza completar los sujetos u objetos ausentes.",
     "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L13-180",
+    "ID_Padre": 180,
+    "Fecha": "2005-03-10",
+    "SHA256_Texto_Padre": "78a9eccfa0e38e54f4de38791765728007a3108bbd9cfe3642fa90e71e1851a7",
+    "Inicio": 0,
+    "Fin": 643,
+    "Texto_Intervalo": "El Gerente de Análisis Financiero, señor Sergio Lehmann, estima que es importante también poner sobre el tapete de la discusión algo que se mencionó en la reunión de la mañana que se refiere al balance de riesgo, que, al menos, desde el punto de vista de la División Internacional, es más bien negativo, desde el punto de vista de la inflación externa que, al parecer, puede presentar algunas presiones en ese sentido, así como también en lo referente al precio del petróleo, y por lo tanto, desde el punto de vista de la estrategia táctica habría que tomar en consideración esos escenarios de manera de no aparecer también sobrerreaccionando.",
+    "Actor_Provisional": "Sergio Lehmann Beresi",
+    "Motivo": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_CARGO",
+    "Justificacion": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de Análisis Financiero y la nómina local Gerente de Análisis Internacional. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido.",
+    "Limitacion": "Sin cotejo PDF ni revisión humana independiente. Mantener el OCR y el cargo de nómina en sus campos respectivos; no tratar la revisión del hablante como resolución de esta discrepancia."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L13-5573",
+    "ID_Padre": 5573,
+    "Fecha": "2013-06-13",
+    "SHA256_Texto_Padre": "dfe73faeb0746b803b059cf9c517c3d0c5a2419cc5a1f7216362099d08b5719a",
+    "Inicio": 0,
+    "Fin": 478,
+    "Texto_Intervalo": "El Gerente de División Operaciones Monetarias señor Beltrán de Ramón deja constancia que el Banco de Japón se comprometió a subir la inflación a 2% anual, de manera que en su opinión, es razonable que las tasas de interés de corto plazo aumenten y que disminuyan las de largo plazo, que estaban en niveles más altos. En consecuencia, no se trataría necesariamente de un programa que presente problemas de credibilidad, sino que está demostrando ser coherente con dicho objetivo.",
+    "Actor_Provisional": "Beltrán de Ramón Acevedo",
+    "Motivo": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_CARGO",
+    "Justificacion": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de División Operaciones Monetarias y la nómina local Gerente de División Operaciones Financieras. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido.",
+    "Limitacion": "Sin cotejo PDF ni revisión humana independiente. Mantener el OCR y el cargo de nómina en sus campos respectivos; no tratar la revisión del hablante como resolución de esta discrepancia."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L13-6282",
+    "ID_Padre": 6282,
+    "Fecha": "2014-06-12",
+    "SHA256_Texto_Padre": "954b2910e6d96eed45701365b14b5ed9a0ef49c0b036e5834cbff89e151b8be9",
+    "Inicio": 0,
+    "Fin": 3253,
+    "Texto_Intervalo": "El Gerente de División Política Operaciones Financieras señor Beltrán de Ramón señala que la Gerencia de División Estudios ha propuesto dos opciones para esta Reunión, la de mantener la TPM en 4% anual o bajarla a 3,75% anual; y que de acuerdo con la información disponible, en su entender ambas opciones se encontraban en un mismo nivel, por lo que no se había puesto énfasis en alguna de ellas, lo que no se aviene con lo expresado precedentemente. En lo concerniente a los datos reales, expresa que la Gerencia de División Estudios presentó en la primera parte de esta Sesión una perspectiva más débil tanto para el consumo como para la actividad, situación que ha sido negativa por varios meses y asimismo, consignó que las perspectivas de los empresarios y consumidores tuvieron un fuerte deterioro en el último mes. No obstante, atendido que las expectativas sobre el aumento de la inflación futura parecen haber disminuido y que los citados datos reales son más débiles, se inclina por la opción de bajar la TPM en esta Reunión en lugar de mantenerla en 4% anual. Desde el ámbito de la transmisión de la política monetaria, estima que recientemente han ocurrido dos hechos esenciales, que forman parte de una tendencia que se venia gestando hace unos meses y que se profundizó durante mayo y junio. En primer término, una caída relevante de la tasas de interés en el mercado de préstamos, en especial de las correspondientes a los créditos hipotecarios y comerciales, no así de las tasas de las colocaciones de consumo. En segundo lugar, la compresión de spreads en el mercado de renta fija, fenómeno que no solo es de carácter global, sino que también se observa en los bonos bancarios chilenos y también en los bonos de empresas, excepto en los emitidos por SMU y Fasa, que se sitúan en niveles mínimos. En su opinión, si a lo anterior se suma la disminución en la base, tanto de los BCU como de los BTU, se configuraría un impulso importante a la política monetaria a plazos más largos, lo que estima un hecho relevante y que está incrementándose con fuerza. Manifiesta que en las últimas Reuniones se ha inclinado por recomendar al Consejo la reducción de la TPM, excepto en la del mes de mayo último, ocasión en que el alto registro de IPC, de 0,8%, hacía prudente esperar para contar con mayor información sobre la situación futura de la inflación y de la economía. Añade que si bien el mercado proyecta a que la inflación comenzará a bajar en los próximos meses, por lo que valida lo estimado por el Banco Central de Chile y también por el Ministerio de Hacienda en cuanto a que el alza del IPC del mes de mayo ha sido transitoria y levemente superior a la prevista por el mercado, aún no permite despejar todas las dudas sobre su transitoriedad. El señor Beltrán de Ramón, si bien se inclina por recomendar una nueva baja de la TPM, estima que en la medida que el Consejo no apruebe esta opción, lo más relevante sería mantener inalterado el sesgo y, de esa manera, validar la expectativa en orden a que la TPM llegará muy prontamente a 3,5% anual. En el intertanto, durante este mes se producirán .las caídas de las tasas de interés en el mercado de préstamos a que se hizo mención, así como la compresión de spreads a plazos más largos.",
+    "Actor_Provisional": "Beltrán de Ramón Acevedo",
+    "Motivo": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+    "Decision": "PENDIENTE_CONTRASTE_CARGO",
+    "Justificacion": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de División Política Operaciones Financieras y la nómina local Gerente de División Operaciones Financieras. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido.",
+    "Limitacion": "Sin cotejo PDF ni revisión humana independiente. Mantener el OCR y el cargo de nómina en sus campos respectivos; no tratar la revisión del hablante como resolución de esta discrepancia."
   }
 ]

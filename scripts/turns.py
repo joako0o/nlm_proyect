@@ -41,6 +41,7 @@ def normalize(text):
 # Verbos finitos / locuciones que vinculan directamente el sujeto a su discurso.
 # No usar búsqueda en una ventana: podría capturar el verbo de otra persona.
 VERBS = (
+    'aprovecha de agradecer', 'hace una observacion', 'da inicio a la sesion',
     'esta en desacuerdo', 'visualiza', 'asigna una alta probabilidad',
     'llama a ser cuidadosos', 'deja planteada la pregunta',
     'admite', 'tiende a compartir', 'tiende a coincidir', 'suscribe plenamente', 'da la bienvenida',
@@ -86,7 +87,7 @@ VERB = '(?:' + '|'.join(re.escape(v) for v in sorted(VERBS, key=len, reverse=Tru
 DIRECT = re.compile(r'^\s*[,;]?\s*(?:(?:le|lo)\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte|en tanto|si bien)\s*,?\s*)?' + VERB)
 PARENTHETICAL = re.compile(r'^\s*,?\s*(?:acerca del?|a raiz del?|en razon del?|insistiendo sobre|ante comentarios de|haciendo referencia al?|continuando con su|continuando su|en referencia|aludiendo|en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
 # Incisos constatados: locuciones completas y verbo principal aún exigido.
-OPENING_ASIDE = re.compile(r'^\s*,?\s*(?:junto con dar inicio a la reunion de politica monetaria n[°º]\s*\d{1,3}|tambien con respecto a demanda|atendido lo expuesto|haciendo un calculo preliminar|junto con agradecer las opiniones expuestas|en nombre suyo y del consejo|antes de retirarse de la reunion|pensado en los agricultores),\s*(?=' + VERB + ')')
+OPENING_ASIDE = re.compile(r'^\s*,?\s*(?:como siempre|junto con dar inicio a la reunion de politica monetaria n[°º]\s*\d{1,3}|tambien con respecto a demanda|atendido lo expuesto|haciendo un calculo preliminar|junto con agradecer las opiniones expuestas|en nombre suyo y del consejo|antes de retirarse de la reunion|pensado en los agricultores),\s*(?=' + VERB + ')')
 INVERTED = re.compile(VERB + r'\s*$')
 FINITE = re.compile(r'\b' + VERB)
 HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
@@ -94,7 +95,7 @@ HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
 CLOSURE_LEAD = (r'al no (?:haber (?:consultas o comentarios adicionales|mas comentarios)|'
                 r'formularse (?:otros comentarios|comentarios adicionales))'
                 r'(?:(?:,| y) siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d(?: horas)?)?$')
-LEAD = re.compile(r'^(?:al continuar con su presentacion$|prosiguiendo con su exposicion$|al proseguir con su presentacion$|no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
+LEAD = re.compile(r'^(?:siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d horas$|al continuar con su presentacion$|prosiguiendo con su exposicion$|al proseguir con su presentacion$|no existiendo otras consultas o comentarios$|no habiendo mas consultas ni comentarios (?:en (?:lo|io) concerniente al|respecto del) escenario internacional$|' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
                   r'antes de proseguir|finalizada la presentacion|concluida la presentacion|no habiendo mas (?:comentarios|comentanos)|refiriendose ahora a|antes de continuar con la votacion|complementando los comentarios efectuados|prosiguiendo con la votacion|prosiguiendo con la presentacion|al continuar con (?:su|la) exposicion|una vez adoptado el acuerdo correspondiente|aun considerando la explicacion anterior|como es habitual|para sintetizar|al concluir su presentacion|a modo complementario|a lo cual|a lo que|a continuacion|sobre el particular|sobre este|en este|en ese|'
                   r'nuevamente|tambien|respondiendo|asimismo|a su vez|finalmente|luego|despues|por otra parte|'
                   r'por otro lado|en respuesta|ante |respecto |intervencion|'

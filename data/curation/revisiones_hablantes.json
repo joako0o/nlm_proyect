@@ -631,7 +631,36 @@
         "Cita": "y el señor Ministro de Hacienda agrega que en México y Perú los precios de ios combustibles están fijos en moneda local, pero que, sin embargo, la electricidad en Chile ha subido dos, tres o cuatro veces el incremento que ha experimentado en otros países."
       }
     ],
-    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260908-L13-1923",
+        "ID_Padre": 1923,
+        "Fecha": "2008-07-10",
+        "Actor": "Sergio Lehmann Beresi",
+        "SHA256_Texto_Padre": "43bc8834429e7dd1c19c068121fef592958a11556fefa8518eaa78d6c5a615c0",
+        "Inicio": 2556,
+        "Fin": 2645,
+        "Cita_Inicio": "Al respecto el señor Gerente indica",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Lehmann presenta expectativas de tasas; De Gregorio consulta si son posteriores al discurso de Bernanke y el Gerente responde por las fechas spot. Se conserva el retorno siguiente de De Gregorio. La coordinación anterior del Ministro ya revisada permanece intacta.",
+        "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+        "Evidencia": [
+          {
+            "ID_Padre": 1923,
+            "Cita": "Al respecto el señor Gerente indica que estos valores son spot, 9 de junio y 9 de julio."
+          },
+          {
+            "ID_Padre": 1923,
+            "Cita": "se hubiese graficado esta línea habría salido muy arriba, es decir, el mercado estaba esperando tres aumentos de TPM. Luego, a propósito de las preocupaciones en términos de actividad y también de nuevos ruidos en los mercados financieros , esto ha tendido a moderarse y hoy día las expectativas de aumento de TPM están bastante más cargadas hacia una tendencia más moderada. Indica que la gráfica muestra lo que se está viendo en materia de expectativas de tasa hoy día; lo que se estaba viendo hace un mes atrás donde está bastante marcado como posición mayoritaria una TPM en 3% en diciembre de 2008; y hoy día se está pensando entre 2 y 2,5%, con probabilidades bastante similares. El Presidente señor José De Gregorio consulta si esta situación es posterior al último discurso de Ben Bernanke."
+          },
+          {
+            "ID_Padre": 1923,
+            "Cita": "El señor De Gregorio indica que en dicho discurso el señor Bernanke señaló que sería incoherente seguir dando líneas especiales de liquidez y estar subiendo tasas y como dice en otra parte de su discurso, estas líneas especiales de liquidez van a llegar hasta final de año. El Gerente de División Estudios comenta que el ECS piensa lo contrario. En e"
+          }
+        ]
+      }
+    ]
   },
   {
     "Revision_ID": "HAB-20260907-2555",
@@ -4517,6 +4546,384 @@
       {
         "ID_Padre": 7019,
         "Cita": "El Consejero señor Pablo García, teniendo presente que se cuenta con indicadores que van en direcciones diversas, sugiere tomar un componente principal que sea el predictor más adecuado."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-38",
+    "ID_Padre": 38,
+    "Fecha": "2005-01-11",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "86e5721e62bd17259186064afba811d40f72d6c6e20bbb99729ed36e51ee7221",
+    "Inicio": 0,
+    "Fin": 5917,
+    "Cita_Inicio": "Al respecto",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "37 solicita explícitamente a Valdés las Opciones. En 38 el Gerente de División responde y se vuelve a nombrar al señor Valdés al analizar opciones. 39 desarrolla la táctica y 40 abre comentarios. Se leyó el desarrollo completo; las referencias al Consejo describen decisiones anteriores, no cambios de voz.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 38,
+        "Cita": "Al respecto, el señor Gerente de División señala que; 1. En la reunión de política monetaria de diciembre, el Consejo decidió mantener la tasa de interés de política en 2,25%. Con los antecedentes disponibles se concluía que, a diferencia de los meses previos, la actividad no tenía una aceleración adicional que las medidas de la tendencia inflacionaria seguían aumentando lentamente desde niveles reducidos y que el ritmo de aumento de los costos seguía siendo acotado. Se consideró que tanto subir como mantener la tasa de política monetaria era coherente con la estrategia de normalización pausada de la política monetaria, la cual no cambiaba con la información disponible. Se decidió que mantener la tasa era apropiado para justamente remarcar la gradualidad del proceso de normalización. En el comunicado respectivo, el Consejo reafirmó que, en el escenario más probable, continuaría reduciendo pausadamente el marcado estímulo monetario prevaleciente, de manera de mantener una trayectoria esperada para la inflación en torno a 3% anual en el horizonte habitual de política. 2. Los antecedentes acumulados desde la última reunión dan cuenta de que continúan las principales tendencias observadas en la economía nacional en los últimos meses, con una inflación acotada y una actividad más dinámica, todo ello en un entorno internacional favorable. En efecto, las cifras de crecimiento económico continúan altas y han sido algo superiores a las proyectadas. La inversión sigue aumentando en la tendencia de los últimos meses y, más allá de temas de registro de alta frecuencia, las exportaciones siguen creciendo con fuerza. La creación de empleo ha confirmado su dinamismo de los últimos tres meses y se aprecian expectativas positivas. En paralelo, las medidas de la tendencia inflacionaria siguen repuntado desde niveles reducidos, aunque la inflación subyacente IPCX1 una vez más se situó marginalmente por debajo de lo presupuestado. El ritmo de aum ento de los distintos costos sigue siendo sorprendentemente acotado, en particular los costos laborales unitarios privados, que caen en 12 meses en lo más reciente (y pesan casi 75% en la estructura de costos del IPCX1), y el tipo de cambio multilateral, que tuvo una disminución real cercana a 2,5% desde la última reunión (y pondera poco menos de 10% en ese mismo indicador). Finalmente, las distintas medidas de expectativas de inflación se mantienen por debajo de 3%, en particular la compensación inflacionaria en instrum entos financieros a distintos plazos. 3. De acuerdo con las proyecciones preparadas para el Informe de Política Monetaria, este cuadro de dinamismo del sector real, de inflación reducida aunque aumentando gradualmente, e incremento tenue de los costos implica que la inflación continuará siendo baja en el corto plazo, pero aumentará progresivamente más adelante. En particular, se espera que, en promedio, la inflación se ubique en el piso del rango meta en los próximos cuatro trimestres, para aumentar hacia 3% el año siguiente. Todo ello bajo el supuesto de trabajo de un aumento paulatino de la tasa de política monetaria. Los antecedentes acum ulados, por lo tanto, no parecen suficientes como para modificar la estrategia de normalización pausada de la política monetaria. De hecho, la trayectoria de la tasa de política monetaria implícita en las proyecciones no difiere mayormente de la considerada en las proyecciones de septiembre pasado. 4. Con estos antecedentes, y al igual que en los últimos meses, se puede descartar la opción de dism inuir la tasa de interés. A continuación, el señor Valdés analiza las opciones de mantenerla, o aumentarla en una magnitud a determinar. 5. Por un lado, la opción de no aumentar la tasa de política monetaria podría justificarse si se evalúa necesario una normalización más lenta a la contemplada en el escenario central de proyecciones, o incluso postergarla por un tiempo. Esto porque dos meses consecutivos sin aum entos no parecen coherentes con el ritmo utilizado como supuesto de trabajo en las proyecciones actuales, e incluso se alejan de lo implícito en las tasas de interés de m ercado para el mediano plazo, salvo que se considere como probable hacer aumentos significativos de la tasa de política monetaria más adelante, lo cual es en principio poco deseable. Sin aumentos más bruscos más adelante, una estrategia de normalización postergada implicaría una proyección de inflación en el escenario central más elevada, por encima de 3% para el mediano plazo, lo que hace poco recomendable esta opción. 6. Por otro lado, se podría argumentar a favor de un aumento mayor a 25 puntos base, tom ando en cuenta el dinamismo que está exhibiendo la economía, el que se acompaña con un considerable impulso monetario (refrendado en una tasa de interés real cercana a cero en un plazo de un año y un marcado crecimiento del crédito y de los agregados monetarios), y el hecho de que varios de los escenarios de riesgo configuran un balance posiblemente sesgado al alza hacia la inflación, especialmente en el mediano plazo. A ello se agrega que no es evidente que un aumento de esta magnitud sea contradictorio con el ritmo de normalización supuesto en las proyecciones, si más adelante hay pausas. Sin embargo, es discutible que un aumento como éste pueda entenderse como parte de un proceso pausado, especialmente después de que se mantuvo la tasa de política monetaria en condiciones que apuntaban a un panorama de mediano plazo similar al que se enfrenta en esta reunión. Por lo tanto, sería una dosis que, por coherencia temporal, parece excesiva. Además, en caso de estimarse como adecuada, es posible de repartir en más de una reunión. 7. Finalmente, un aumento de 25 puntos base en esta reunión es coherente con el ritmo de normalización considerado en las proyecciones, el que permite mantener la inflación proyectada en torno a 3% en el horizonte habitual de política."
+      },
+      {
+        "ID_Padre": 37,
+        "Cita": "El Presidente señor Corbo señala que continuarán los esfuerzos para clarificar estos temas, tanto internamente como también con el señor Ministro. Agrega que la reunión de política monetaria que tenga lugar en cuatro meses contados desde ahora se contará con un avance significativo en esta dirección. A continuación el Presidente don Vittorio Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      },
+      {
+        "ID_Padre": 39,
+        "Cita": "Respecto de elementos de táctica, cabe mencionar que, dependiendo de la encuesta, una parte importante o una mayoría relativa del mercado y analistas, no espera un aumento en esta reunión, lo cual es una situación que se previó en la reunión de un mes atrás. Sin embargo, una eventual mantención de la tasa de política monetaria podría reafirmar una percepción errónea de que se persigue una normalización más lenta del estímulo monetario, o, aun peor, que una alta inflación mensual es un requisito previo a aumentar la tasa, cuando lo relevante para esta decisión son las proyecciones de mediano plazo. En todo caso, dadas las expectativas prevalecientes, cabe suponer que un alza de 25 puntos base tendrá algunos efectos en precios financieros, en el sentido opuesto a los que tuvo la decisión de la reunión pasada, cuando se esperaba un alza. Sin embargo, en la medida en que se mantenga la percepción de que la trayectoria de normalización seguirá siendo pausada y no ha cambiado mayormente, las magnitudes involucradas deberían ser acotadas."
+      },
+      {
+        "ID_Padre": 40,
+        "Cita": "El Presidente, don Vittorio Corbo ofrece la palabra para comentarios."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-39",
+    "ID_Padre": 39,
+    "Fecha": "2005-01-11",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "1287aaa3350ee8c3ba5cab088ac2a8af0e7c32d26319de0a9d61e6d50b5b4d4a",
+    "Inicio": 0,
+    "Fin": 1047,
+    "Cita_Inicio": "Respecto de elementos de táctica",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Continuación de la exposición de opciones de Valdés en 38: desarrolla el riesgo táctico del alza o mantención antes de que Corbo abra comentarios en 40. Sin otro sujeto ni cesión intermedia; no usar el cambio de párrafo como cambio de expositor.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 39,
+        "Cita": "Respecto de elementos de táctica, cabe mencionar que, dependiendo de la encuesta, una parte importante o una mayoría relativa del mercado y analistas, no espera un aumento en esta reunión, lo cual es una situación que se previó en la reunión de un mes atrás. Sin embargo, una eventual mantención de la tasa de política monetaria podría reafirmar una percepción errónea de que se persigue una normalización más lenta del estímulo monetario, o, aun peor, que una alta inflación mensual es un requisito previo a aumentar la tasa, cuando lo relevante para esta decisión son las proyecciones de mediano plazo. En todo caso, dadas las expectativas prevalecientes, cabe suponer que un alza de 25 puntos base tendrá algunos efectos en precios financieros, en el sentido opuesto a los que tuvo la decisión de la reunión pasada, cuando se esperaba un alza. Sin embargo, en la medida en que se mantenga la percepción de que la trayectoria de normalización seguirá siendo pausada y no ha cambiado mayormente, las magnitudes involucradas deberían ser acotadas."
+      },
+      {
+        "ID_Padre": 37,
+        "Cita": "El Presidente señor Corbo señala que continuarán los esfuerzos para clarificar estos temas, tanto internamente como también con el señor Ministro. Agrega que la reunión de política monetaria que tenga lugar en cuatro meses contados desde ahora se contará con un avance significativo en esta dirección. A continuación el Presidente don Vittorio Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      },
+      {
+        "ID_Padre": 38,
+        "Cita": "Al respecto, el señor Gerente de División señala que; 1. En la reunión de política monetaria de diciembre, el Consejo decidió mantener la tasa de interés de política en 2,25%. Con los antecedentes disponibles se concluía que, a diferencia de los meses previos, la actividad no tenía una aceleración adicional que las medidas de la tendencia inflacionaria seguían aumentando lentamente desde niveles reducidos y que el ritmo de aumento de los costos seguía siendo acotado. Se consideró que tanto subir como mantener la tasa de política monetaria era coherente con la estrategia de normalización pausada de la política monetaria, la cual no cambiaba con la información disponible. Se decidió que mantener la tasa era apropiado para justamente remarcar la gradualidad del proceso de normalización. En el comunicado respectivo, el Consejo reafirmó que, en el escenario más probable, continuaría reduciendo pausadamente el marcado estímulo monetario prevaleciente, de manera de mantener una trayectoria esperada para la inflación en torno a 3% anual en el horizonte habitual de política. 2. Los antecedentes acumulados desde la última reunión dan cuenta de que continúan las principales tendencias observadas en la economía nacional en los últimos meses, con una inflación acotada y una actividad más dinámica, todo ello en un entorno internacional favorable. En efecto, las cifras de crecimiento económico continúan altas y han sido algo superiores a las proyectadas. La inversión sigue aumentando en la tendencia de los últimos meses y, más allá de temas de registro de alta frecuencia, las exportaciones siguen creciendo con fuerza. La creación de empleo ha confirmado su dinamismo de los últimos tres meses y se aprecian expectativas positivas. En paralelo, las medidas de la tendencia inflacionaria siguen repuntado desde niveles reducidos, aunque la inflación subyacente IPCX1 una vez más se situó marginalmente por debajo de lo presupuestado. El ritmo de aum ento de los distintos costos sigue siendo sorprendentemente acotado, en particular los costos laborales unitarios privados, que caen en 12 meses en lo más reciente (y pesan casi 75% en la estructura de costos del IPCX1), y el tipo de cambio multilateral, que tuvo una disminución real cercana a 2,5% desde la última reunión (y pondera poco menos de 10% en ese mismo indicador). Finalmente, las distintas medidas de expectativas de inflación se mantienen por debajo de 3%, en particular la compensación inflacionaria en instrum entos financieros a distintos plazos. 3. De acuerdo con las proyecciones preparadas para el Informe de Política Monetaria, este cuadro de dinamismo del sector real, de inflación reducida aunque aumentando gradualmente, e incremento tenue de los costos implica que la inflación continuará siendo baja en el corto plazo, pero aumentará progresivamente más adelante. En particular, se espera que, en promedio, la inflación se ubique en el piso del rango meta en los próximos cuatro trimestres, para aumentar hacia 3% el año siguiente. Todo ello bajo el supuesto de trabajo de un aumento paulatino de la tasa de política monetaria. Los antecedentes acum ulados, por lo tanto, no parecen suficientes como para modificar la estrategia de normalización pausada de la política monetaria. De hecho, la trayectoria de la tasa de política monetaria implícita en las proyecciones no difiere mayormente de la considerada en las proyecciones de septiembre pasado. 4. Con estos antecedentes, y al igual que en los últimos meses, se puede descartar la opción de dism inuir la tasa de interés. A continuación, el señor Valdés analiza las opciones de mantenerla, o aumentarla en una magnitud a determinar. 5. Por un lado, la opción de no aumentar la tasa de política monetaria podría justificarse si se evalúa necesario una normalización más lenta a la contemplada en el escenario central de proyecciones, o incluso postergarla por un tiempo. Esto porque dos meses consecutivos sin aum entos no parecen coherentes con el ritmo utilizado como supuesto de trabajo en las proyecciones actuales, e incluso se alejan de lo implícito en las tasas de interés de m ercado para el mediano plazo, salvo que se considere como probable hacer aumentos significativos de la tasa de política monetaria más adelante, lo cual es en principio poco deseable. Sin aumentos más bruscos más adelante, una estrategia de normalización postergada implicaría una proyección de inflación en el escenario central más elevada, por encima de 3% para el mediano plazo, lo que hace poco recomendable esta opción. 6. Por otro lado, se podría argumentar a favor de un aumento mayor a 25 puntos base, tom ando en cuenta el dinamismo que está exhibiendo la economía, el que se acompaña con un considerable impulso monetario (refrendado en una tasa de interés real cercana a cero en un plazo de un año y un marcado crecimiento del crédito y de los agregados monetarios), y el hecho de que varios de los escenarios de riesgo configuran un balance posiblemente sesgado al alza hacia la inflación, especialmente en el mediano plazo. A ello se agrega que no es evidente que un aumento de esta magnitud sea contradictorio con el ritmo de normalización supuesto en las proyecciones, si más adelante hay pausas. Sin embargo, es discutible que un aumento como éste pueda entenderse como parte de un proceso pausado, especialmente después de que se mantuvo la tasa de política monetaria en condiciones que apuntaban a un panorama de mediano plazo similar al que se enfrenta en esta reunión. Por lo tanto, sería una dosis que, por coherencia temporal, parece excesiva. Además, en caso de estimarse como adecuada, es posible de repartir en más de una reunión. 7. Finalmente, un aumento de 25 puntos base en esta reunión es coherente con el ritmo de normalización considerado en las proyecciones, el que permite mantener la inflación proyectada en torno a 3% en el horizonte habitual de política."
+      },
+      {
+        "ID_Padre": 40,
+        "Cita": "El Presidente, don Vittorio Corbo ofrece la palabra para comentarios."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-120",
+    "ID_Padre": 120,
+    "Fecha": "2005-02-10",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "f33d3ed14fc7b8f112ba70a0ddd5e543a4b1f595ed6f70b8712974f13b356508",
+    "Inicio": 0,
+    "Fin": 2855,
+    "Cita_Inicio": "Al respecto",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "119 cede las Opciones a Valdés. 120 presenta puntos 1–4, 121 sigue 5–9 y 122 continúa 10–11 nombrando de nuevo al Gerente de Estudios. Se mantiene la exposición, no se transforma cada punto numerado en un hablante distinto.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 120,
+        "Cita": "Al respecto, el señor Gerente de División señala que: 1. En la reunión de política monetaria de enero, el Consejo decidió aumentar la tasa de interés de política en 25 puntos base, a 2,5%. Con los antecedentes disponibles se concluyó que continuaban las principales tendencias identificadas en meses recientes: una inflación acotada, con medidas subyacentes que aumentaban lentamente desde niveles reducidos, y una actividad cada vez más dinámica. La disminución de holguras resultante recomendaba seguir normalizando la política monetaria, la que continuaba siendo considerablemente expansiva. La inflación acotada, por su parte, permitía que el ritmo de ajustes de la tasa de interés siguiera siendo pausado. El aumento de la tasa de política monetaria en la reunión anterior era coherente con aportar señales respecto de este ritmo de normalización. 2. La minuta de antecedentes preparada para esta reunión, da cuenta de que continúan las principales tendencias mencionadas, aunque con novedades que indican un mayor crecimiento. El entorno internacional relevante se mantiene favorable, con un precio del cobre que ha persistido en niveles superiores a US$ 1,42 por libra, por encima de lo proyectado en la reunión anterior, y un precio del petróleo que también se mantiene elevado, aunque ha vuelto a los niveles observados antes de la reunión anterior. La de actividad interna creció 7,7% en diciembre, aproximadamente un punto porcentual más que lo previsto hace un mes. La inversión en maquinaria y equipos sigue aumentando en la tendencia de los últimos meses, sorprendiendo al no dar muestras de atenuar su marcado dinamismo. Los indicadores de consumo se mantienen robustos, mientras se aprecia un aumento en las últimas mediciones de las expectativas de los hogares. En el mercado laboral se confirma la mayor creación de empleos, a una tasa anualizada cercana a 7% durante la segunda mitad de 2004. 3. Por el lado de precios y costos, las medidas de la tendencia inflacionaria siguen aumentando lentamente, con la inflación subyacente IPCX1 en línea con las proyecciones del último Informe de Política Monetaria. Asimismo, la tasa de crecimiento anual de los costos laborales unitarios privados se mantiene negativa, situación que, en todo caso, no se ha profundizado. Por su parte, el tipo de cambio bilateral y multilateral ha mostrado un leve aumento durante el último mes, el que se ha revertido parcialmente en los últimos días. Finalmente, las distintas medidas de expectativas de inflación han aumentado, ubicándose cerca de 3% las de mayor plazo, incluyendo la compensación inflacionaria en instrumentos financieros a cinco y diez años. 4. Con estos antecedentes, considerando el aumento de la tasa de interés de la reunión pasada, las opciones más plausibles son mantener la tasa de política monetaria o aumentarla en 25 puntos base."
+      },
+      {
+        "ID_Padre": 119,
+        "Cita": "A continuación el Presidente don Vittorio Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      },
+      {
+        "ID_Padre": 121,
+        "Cita": "5. En principio, los antecedentes acumulados son coherentes con mantener la estrategia de normalización pausada de la política monetaria aplicada desde septiembre pasado, pues ellos parecen insuficientes para modificar de manera significativa el escenario macroeconómico más probable. Sin embargo, si el escenario alternativo de persistencia de las noticias positivas de actividad sigue cobrando importancia, se podría justificar aumentar levemente el ritmo de normalización, aumento que en todo caso podría seguir siendo gradual, en la medida que las presiones inflacionarias actuales se mantengan acotadas. Por lo tanto, las novedades permiten descartar la idea de reducir el ritmo de normalización porque, mientras la inflación siga un curso como el previsto, la situación de mayor crecimiento implicará un mayor uso de las holguras de capacidad que lo anticipado en las proyecciones. 6. Como se ha discutido en otras oportunidades, en esta estrategia de normalización pausada de la política monetaria tienen cabida tanto alzas sucesivas durante algunos meses como pausas en otros, siendo la acumulación de antecedentes mes a mes un elemento fundamental para definir el ritmo preciso. Así, luego de un mes en que se aumentó la tasa de política monetaria, en la estrategia de normalización pausada tienen cabida tanto la mantención de la tasa de política monetaria en esta reunión como un aumento de 25 puntos base. 7. La mayoría de los antecedentes coyunturales apoya un nuevo aumento de tasa de política monetaria en esta reunión. Como se ha visto, por el lado de la inflación efectiva hay relativamente pocas novedades, mientras que el mayor uso de las holguras de capacidad estaría progresando más rápidamente que lo previsto. A ello se suman mejores indicadores de expectativas de hogares y empresas. En este cuadro resulta recomendable continuar transitando hacia una política monetaria más neutral desde el actual nivel considerablemente expansivo, de manera de asegurar que, dados los rezagos que tiene dicha política, el estimulo monetario sea coherente con una inflación proyectada en 3% en el horizonte habitual de política de 12 a 24 meses. 8. Ahora bien, también sería posible justificar mantener la tasa de política monetaria en su nivel actual si se evaluara que detrás del mayor crecimiento existe una expansión especialmente vigorosa del producto potencial, comparable a la del producto efectivo — y, por lo tanto, un cierre de brechas menos pronunciado— y se ponderara más el reducido aumento de los costos laborales. Ambos efectos atenuarían las futuras presiones de precios. La validez de este cuadro, sin embargo, puede ser contrastada con el comportamiento de las medidas de la tendencia inflacionaria, las que deberían mostrar algún grado de estancamiento si las holguras efectivamente fuesen elevadas y persistentes. Aunque las medidas mencionadas siguen aumentando lentamente, todas ellas van en la misma dirección por alrededor de varios meses. 9. En la presente reunión, los elementos tácticos tienen mayor importancia que la habitual. Al respecto cabe considerar, que en los últimos meses la gradualidad del proceso de normalización se ha asociado con pausas en los cambios de la tasa de política monetaria mes por medio. Esta situación ha sido relativamente incorporada en la estructura de precios financieros prevaleciente y, en esta oportunidad, una mayoría relativa del mercado no espera un cambio en la tasa de política monetaria. En efecto, la encuesta a analistas del Banco Central de Chile reveló un expectativa mayoritaria de mantención de la tasa (aunque su fecha de cierre fue previa a la divulgación del Imacec), y las encuestas de los servicios informativos realizadas en el día de ayer también dan cuenta de una expectativa mayoritaria por la mantención de la misma. Un alza sucesiva rompería la secuencia descrita y, posiblemente, sería percibida como un leve aumento del ritmo de normalización."
+      },
+      {
+        "ID_Padre": 122,
+        "Cita": "10. Lo anterior, sin embargo, tiene dos aspectos positivos. Por un lado, validaría el que las proyecciones realizadas en el Informe de Política Monetaria tienen implícito un ritmo de normalización de la política monetaria levemente mayor que el implícito en la estructura que prevalecía antes del cierre estadístico de dicho documento. Las novedades que se han acumulado apoyan dicha validación, al igual que la exigua reacción que tuvieron las tasas de mercado con ese anuncio. Por otro lado, en la medida en que este ritmo de normalización levemente mayor sea percibido por el mercado, disminuye el riesgo de que sea necesario hacer alzas menos pausadas en el futuro ya que, parte de la normalización del estímulo monetario emanaría de acomodos en las tasas de mediano y largo plazo (y de los efectos cambíanos asociados. 11. Finalmente, el señor Gerente de la División Estudios señala, que cabe mencionar que también existe el riesgo táctico de que una decisión de alza no sea bien comprendida y se confunda con un cambio de la estrategia gradual. Este riesgo, sin embargo, debería ser posible de abordar en el comunicado de prensa respectivo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-121",
+    "ID_Padre": 121,
+    "Fecha": "2005-02-10",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "1fd7df4fc59ff688edad4f37f6162a6b6f35d41ed40d4b10070de41079642ed9",
+    "Inicio": 0,
+    "Fin": 3940,
+    "Cita_Inicio": "5. En principio",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Puntos 5–9 continúan los 1–4 expuestos por Valdés tras la cesión de 119. 122 sigue con 10–11 y el cargo del expositor; no hay interlocutor nuevo dentro del desarrollo.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 121,
+        "Cita": "5. En principio, los antecedentes acumulados son coherentes con mantener la estrategia de normalización pausada de la política monetaria aplicada desde septiembre pasado, pues ellos parecen insuficientes para modificar de manera significativa el escenario macroeconómico más probable. Sin embargo, si el escenario alternativo de persistencia de las noticias positivas de actividad sigue cobrando importancia, se podría justificar aumentar levemente el ritmo de normalización, aumento que en todo caso podría seguir siendo gradual, en la medida que las presiones inflacionarias actuales se mantengan acotadas. Por lo tanto, las novedades permiten descartar la idea de reducir el ritmo de normalización porque, mientras la inflación siga un curso como el previsto, la situación de mayor crecimiento implicará un mayor uso de las holguras de capacidad que lo anticipado en las proyecciones. 6. Como se ha discutido en otras oportunidades, en esta estrategia de normalización pausada de la política monetaria tienen cabida tanto alzas sucesivas durante algunos meses como pausas en otros, siendo la acumulación de antecedentes mes a mes un elemento fundamental para definir el ritmo preciso. Así, luego de un mes en que se aumentó la tasa de política monetaria, en la estrategia de normalización pausada tienen cabida tanto la mantención de la tasa de política monetaria en esta reunión como un aumento de 25 puntos base. 7. La mayoría de los antecedentes coyunturales apoya un nuevo aumento de tasa de política monetaria en esta reunión. Como se ha visto, por el lado de la inflación efectiva hay relativamente pocas novedades, mientras que el mayor uso de las holguras de capacidad estaría progresando más rápidamente que lo previsto. A ello se suman mejores indicadores de expectativas de hogares y empresas. En este cuadro resulta recomendable continuar transitando hacia una política monetaria más neutral desde el actual nivel considerablemente expansivo, de manera de asegurar que, dados los rezagos que tiene dicha política, el estimulo monetario sea coherente con una inflación proyectada en 3% en el horizonte habitual de política de 12 a 24 meses. 8. Ahora bien, también sería posible justificar mantener la tasa de política monetaria en su nivel actual si se evaluara que detrás del mayor crecimiento existe una expansión especialmente vigorosa del producto potencial, comparable a la del producto efectivo — y, por lo tanto, un cierre de brechas menos pronunciado— y se ponderara más el reducido aumento de los costos laborales. Ambos efectos atenuarían las futuras presiones de precios. La validez de este cuadro, sin embargo, puede ser contrastada con el comportamiento de las medidas de la tendencia inflacionaria, las que deberían mostrar algún grado de estancamiento si las holguras efectivamente fuesen elevadas y persistentes. Aunque las medidas mencionadas siguen aumentando lentamente, todas ellas van en la misma dirección por alrededor de varios meses. 9. En la presente reunión, los elementos tácticos tienen mayor importancia que la habitual. Al respecto cabe considerar, que en los últimos meses la gradualidad del proceso de normalización se ha asociado con pausas en los cambios de la tasa de política monetaria mes por medio. Esta situación ha sido relativamente incorporada en la estructura de precios financieros prevaleciente y, en esta oportunidad, una mayoría relativa del mercado no espera un cambio en la tasa de política monetaria. En efecto, la encuesta a analistas del Banco Central de Chile reveló un expectativa mayoritaria de mantención de la tasa (aunque su fecha de cierre fue previa a la divulgación del Imacec), y las encuestas de los servicios informativos realizadas en el día de ayer también dan cuenta de una expectativa mayoritaria por la mantención de la misma. Un alza sucesiva rompería la secuencia descrita y, posiblemente, sería percibida como un leve aumento del ritmo de normalización."
+      },
+      {
+        "ID_Padre": 119,
+        "Cita": "A continuación el Presidente don Vittorio Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      },
+      {
+        "ID_Padre": 120,
+        "Cita": "Al respecto, el señor Gerente de División señala que: 1. En la reunión de política monetaria de enero, el Consejo decidió aumentar la tasa de interés de política en 25 puntos base, a 2,5%. Con los antecedentes disponibles se concluyó que continuaban las principales tendencias identificadas en meses recientes: una inflación acotada, con medidas subyacentes que aumentaban lentamente desde niveles reducidos, y una actividad cada vez más dinámica. La disminución de holguras resultante recomendaba seguir normalizando la política monetaria, la que continuaba siendo considerablemente expansiva. La inflación acotada, por su parte, permitía que el ritmo de ajustes de la tasa de interés siguiera siendo pausado. El aumento de la tasa de política monetaria en la reunión anterior era coherente con aportar señales respecto de este ritmo de normalización. 2. La minuta de antecedentes preparada para esta reunión, da cuenta de que continúan las principales tendencias mencionadas, aunque con novedades que indican un mayor crecimiento. El entorno internacional relevante se mantiene favorable, con un precio del cobre que ha persistido en niveles superiores a US$ 1,42 por libra, por encima de lo proyectado en la reunión anterior, y un precio del petróleo que también se mantiene elevado, aunque ha vuelto a los niveles observados antes de la reunión anterior. La de actividad interna creció 7,7% en diciembre, aproximadamente un punto porcentual más que lo previsto hace un mes. La inversión en maquinaria y equipos sigue aumentando en la tendencia de los últimos meses, sorprendiendo al no dar muestras de atenuar su marcado dinamismo. Los indicadores de consumo se mantienen robustos, mientras se aprecia un aumento en las últimas mediciones de las expectativas de los hogares. En el mercado laboral se confirma la mayor creación de empleos, a una tasa anualizada cercana a 7% durante la segunda mitad de 2004. 3. Por el lado de precios y costos, las medidas de la tendencia inflacionaria siguen aumentando lentamente, con la inflación subyacente IPCX1 en línea con las proyecciones del último Informe de Política Monetaria. Asimismo, la tasa de crecimiento anual de los costos laborales unitarios privados se mantiene negativa, situación que, en todo caso, no se ha profundizado. Por su parte, el tipo de cambio bilateral y multilateral ha mostrado un leve aumento durante el último mes, el que se ha revertido parcialmente en los últimos días. Finalmente, las distintas medidas de expectativas de inflación han aumentado, ubicándose cerca de 3% las de mayor plazo, incluyendo la compensación inflacionaria en instrumentos financieros a cinco y diez años. 4. Con estos antecedentes, considerando el aumento de la tasa de interés de la reunión pasada, las opciones más plausibles son mantener la tasa de política monetaria o aumentarla en 25 puntos base."
+      },
+      {
+        "ID_Padre": 122,
+        "Cita": "10. Lo anterior, sin embargo, tiene dos aspectos positivos. Por un lado, validaría el que las proyecciones realizadas en el Informe de Política Monetaria tienen implícito un ritmo de normalización de la política monetaria levemente mayor que el implícito en la estructura que prevalecía antes del cierre estadístico de dicho documento. Las novedades que se han acumulado apoyan dicha validación, al igual que la exigua reacción que tuvieron las tasas de mercado con ese anuncio. Por otro lado, en la medida en que este ritmo de normalización levemente mayor sea percibido por el mercado, disminuye el riesgo de que sea necesario hacer alzas menos pausadas en el futuro ya que, parte de la normalización del estímulo monetario emanaría de acomodos en las tasas de mediano y largo plazo (y de los efectos cambíanos asociados. 11. Finalmente, el señor Gerente de la División Estudios señala, que cabe mencionar que también existe el riesgo táctico de que una decisión de alza no sea bien comprendida y se confunda con un cambio de la estrategia gradual. Este riesgo, sin embargo, debería ser posible de abordar en el comunicado de prensa respectivo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-264",
+    "ID_Padre": 264,
+    "Fecha": "2005-05-12",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "f231d358e8696661d84e781d491c3c203cb72dfc51b5d624e3cda06e5c7d44be",
+    "Inicio": 0,
+    "Fin": 3765,
+    "Cita_Inicio": "Al respecto",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "263 solicita las Opciones a Valdés. 264 expone puntos 1–6 y 265 los 7–12; Corbo abre comentarios en 266. El relato de acuerdos previos y las alternativas de política no son votos de otros participantes.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 264,
+        "Cita": "Al respecto, el señor Gerente de División señala que: 1. En la reunión de política monetaria de abril, el Consejo decidió aumentar la tasa de interés de política en 25 puntos base a 3%. En esta decisión se consideró que, más allá de cierta volatilidad en la inflación mensual, provocada por los aumentos en el precio internacional del petróleo, las distintas mediciones de la tendencia inflacionaria seguían aumentando gradualmente. Por su parte, el gasto interno continuaba exhibiendo una expansión robusta, mientras el crecimiento de la actividad mostraba una intensidad un poco menor que en trimestres pasados. Este escenario era apoyado por condiciones monetarias en Chile que continuaban siendo claramente expansivas y por un entorno internacional favorable, pero cuyos riesgos se habían incrementado. 2. Los antecedentes acumulados desde la última reunión muestran que las condiciones externas se mantienen favorables, aunque al igual que el mes pasado se aprecian focos de incertidumbre más marcados. Los precios del petróleo y del cobre han descendido marginalmente en las últimas semanas desde sus elevados niveles, pero dentro de lo esperado en el escenario central del mes pasado. 3. Respecto de las condiciones internas, el crecimiento de la actividad sigue siendo sólido, por encima del PIB de tendencia, aunque con bastante diversidad sectorial y confirmando un ritmo de expansión menos intenso que durante el primer semestre del 2004. Sorprendió la debilidad relativa del crecimiento industrial, que se ha compensado con el mayor empuje de comercio y construcción. La demanda interna ha seguido creciendo a tasas elevadas, con una inversión fija que sigue expandiéndose con vigor y aparentemente con mayor acumulación de inventarios y crecimiento del consumo. Las cifras del mercado laboral han vuelto a mostrar mayor fortaleza. Los indicadores de expectativas han decaído algo, pero se mantienen positivos para empresas y algo por debajo del nivel neutral para las familias, probablemente influidos por las noticias del sector energía. 4. Las condiciones financieras internas siguen siendo claramente expansivas, lo que se aprecia en el alto crecimiento de los agregados de crédito y dinero. Cabe destacar, además, la disminución adicional de las tasas de interés en UF de mediano y largo plazo. 5. Con respecto a los precios, la inflación mensual del IPC resultó dos décimas por encima de lo proyectado, mientras que el IPCX1 estuvo dos décimas por debajo. A pesar de esto último, la mayoría de las medidas de la tendencia de la inflación sigue aumentando gradualmente. El aumento de los salarios, por su parte, se compensa con la mayor productividad del trabajo. Las medidas de inflación esperada a distintos plazos se ubican cerca de 3%, con la compensación inflacionaria a 5 y 10 años por sobre esa cifra. 6. De acuerdo con las proyecciones preparadas para el Informe de Política Monetaria, el cuadro de progresivo cierre de brechas y aumento gradual de la tendencia inflacionaria continuará en los próximos trimestres. La propagación del shock del precio del petróleo y la utilización de las holguras de capacidad —que se copan hacia fines del horizonte de proyección— explican el aumento esperado de la tendencia inflacionaria. En particular, se proyecta que el PIB crezca 5,7% este año y 5,5% el próximo, mientras que la inflación se proyecta en 2,5% a 12 meses y en 3,2% a 24 meses, en una trayectoria convergente a 3%. Todo ello bajo el supuesto de trabajo de un aumento gradual de la tasa de política monetaria. Suponiendo que se mantiene fija la tasa de política monetaria hasta el segundo semestre, ello involucraría aumentos sucesivos (en todas las reuniones) durante dos a tres trimestres, para recién después seguir un patrón pausado."
+      },
+      {
+        "ID_Padre": 263,
+        "Cita": "El Presidente, señor Vittoho Corbo, suspende la Sesión a las 13:45 horas e informa que la misma se reanudará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N° 77. Se deja constancia que no se encuentra presente en la Sala, la Secretaria Ejecutiva del Gabinete de la Presidencia, señora Cecilia Feliú Carrizo. A continuación el Presidente don Vittoho Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      },
+      {
+        "ID_Padre": 265,
+        "Cita": "7. Con estos antecedentes, las opciones que parecen más plausibles para esta reunión son aumentar la tasa de política monetaria en 25 puntos base o mantenerla en su nivel actual. 8. La principal justificación para aumentar la tasa de política monetaria es el escenario central de proyecciones. En efecto, este cuadro incluye una normalización pausada de la política monetaria, necesaria para mantener una convergencia de la inflación a 3% en el horizonte de política, convergencia que en este caso incluso se proyecta que ocurrirá algo más allá del horizonte de política. La necesidad de normalización refleja que la política monetaria es todavía claramente expansiva y que las holguras de actividad se copan en los próximos dos años. Aunque siempre es posible postergar esta normalización de la tasa de política monetaria, en el escenario central ello involucra que hacia delante sea más difícil tener pausas y eleva el riesgo de tener que realizar movimientos más abruptos en el futuro. 9. Considerando que la acumulación de antecedentes mes a mes es un elemento fundamental para definir el ritmo preciso de los ajustes de la tasa de política monetaria, cabe mencionar el elevado aumento del IPC (aunque explicado por el mayor precio del petróleo), las mayores expectativas de inflación, la expansión del gasto interno, la fortaleza del empleo y el crecimiento de los distintos agregados monetarios y de crédito como factores que podrían hacer recomendable no postergar un aumento de la tasa de política monetaria. 10. Al mismo tiempo, es posible justificar mantener la tasa de política monetaria en esta reunión, considerando los escenarios de riesgo que se enfrentan y que sesgan su balance hacia abajo en el caso del crecimiento. En particular, la aparente mayor acumulación de inventarios (suponiendo que es no deseada), la relativa concentración del crecimiento de la actividad en algunos sectores específicos, el cambiante escenario internacional y la eventualidad de que la magnitud y/o los efectos de los recortes de gas y el incremento del precio del petróleo sobre la producción y la demanda privada sean más negativos de lo previsto, son todos factores que podrían retrasar el cierre de holguras y demorar la convergencia de la tendencia inflacionaria al 3%. Estas consideraciones modifican en algo la importancia del riesgo de aumentar la tasa de política monetaria y luego tener que pausar de manera relativamente prolongada, respecto del riesgo de tener que realizar ajustes más abruptos en el futuro si se decide mantener la tasa de política monetaria en esta ocasión. 11. Además de los factores de riesgo, se debe mencionar la nula variación mensual del IPCX1 y los datos de actividad del último mes, en particular de industria, y la disminución de la confianza de los hogares como antecedentes coyunturales que apoyarían la mantención. 12. Finalmente, cabe destacar que para esta reunión existe una expectativa mayoritaria de aumento de 25 puntos base, por lo que un ajuste de esta magnitud no debería tener consecuencias mayores sobre los precios de los activos y las perspectivas futuras de política monetaria. Dada esta expectativa, cabe considerar cómo se entendería la mantención de la tasa de política monetaria. Un riesgo es que se interprete como que el Banco Central de Chile tiene una evaluación más negativa de la coyuntura real, elemento que si bien está presente en los escenarios alternativos, no lo está tan claramente en el escenario central. El riesgo opuesto es que un alza consecutiva de la tasa de política monetaria sea entendida como un endurecimiento de la trayectoria más probable de la política monetaria, más allá de lo considerado en las proyecciones. Aunque ambos riesgos pueden aminorarse con una redacción cuidadosa del comunicado, este segundo riesgo parece ser más fácil de acotar a través de ese medio."
+      },
+      {
+        "ID_Padre": 266,
+        "Cita": "El Presidente, don Vittoho Corbo ofrece la palabra para comentarios."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-265",
+    "ID_Padre": 265,
+    "Fecha": "2005-05-12",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "ef5431b707bc183d7206a53c4b741660d3f6322ea48bcdc4e308d169d2d3aeb2",
+    "Inicio": 0,
+    "Fin": 3854,
+    "Cita_Inicio": "7. Con estos antecedentes",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Puntos 7–12 completan las opciones iniciadas por Valdés en 264. Se leyeron ambos párrafos y la cesión/retorno presidencial; conservar la exposición táctica sin inventar intervención nueva por numeración.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 265,
+        "Cita": "7. Con estos antecedentes, las opciones que parecen más plausibles para esta reunión son aumentar la tasa de política monetaria en 25 puntos base o mantenerla en su nivel actual. 8. La principal justificación para aumentar la tasa de política monetaria es el escenario central de proyecciones. En efecto, este cuadro incluye una normalización pausada de la política monetaria, necesaria para mantener una convergencia de la inflación a 3% en el horizonte de política, convergencia que en este caso incluso se proyecta que ocurrirá algo más allá del horizonte de política. La necesidad de normalización refleja que la política monetaria es todavía claramente expansiva y que las holguras de actividad se copan en los próximos dos años. Aunque siempre es posible postergar esta normalización de la tasa de política monetaria, en el escenario central ello involucra que hacia delante sea más difícil tener pausas y eleva el riesgo de tener que realizar movimientos más abruptos en el futuro. 9. Considerando que la acumulación de antecedentes mes a mes es un elemento fundamental para definir el ritmo preciso de los ajustes de la tasa de política monetaria, cabe mencionar el elevado aumento del IPC (aunque explicado por el mayor precio del petróleo), las mayores expectativas de inflación, la expansión del gasto interno, la fortaleza del empleo y el crecimiento de los distintos agregados monetarios y de crédito como factores que podrían hacer recomendable no postergar un aumento de la tasa de política monetaria. 10. Al mismo tiempo, es posible justificar mantener la tasa de política monetaria en esta reunión, considerando los escenarios de riesgo que se enfrentan y que sesgan su balance hacia abajo en el caso del crecimiento. En particular, la aparente mayor acumulación de inventarios (suponiendo que es no deseada), la relativa concentración del crecimiento de la actividad en algunos sectores específicos, el cambiante escenario internacional y la eventualidad de que la magnitud y/o los efectos de los recortes de gas y el incremento del precio del petróleo sobre la producción y la demanda privada sean más negativos de lo previsto, son todos factores que podrían retrasar el cierre de holguras y demorar la convergencia de la tendencia inflacionaria al 3%. Estas consideraciones modifican en algo la importancia del riesgo de aumentar la tasa de política monetaria y luego tener que pausar de manera relativamente prolongada, respecto del riesgo de tener que realizar ajustes más abruptos en el futuro si se decide mantener la tasa de política monetaria en esta ocasión. 11. Además de los factores de riesgo, se debe mencionar la nula variación mensual del IPCX1 y los datos de actividad del último mes, en particular de industria, y la disminución de la confianza de los hogares como antecedentes coyunturales que apoyarían la mantención. 12. Finalmente, cabe destacar que para esta reunión existe una expectativa mayoritaria de aumento de 25 puntos base, por lo que un ajuste de esta magnitud no debería tener consecuencias mayores sobre los precios de los activos y las perspectivas futuras de política monetaria. Dada esta expectativa, cabe considerar cómo se entendería la mantención de la tasa de política monetaria. Un riesgo es que se interprete como que el Banco Central de Chile tiene una evaluación más negativa de la coyuntura real, elemento que si bien está presente en los escenarios alternativos, no lo está tan claramente en el escenario central. El riesgo opuesto es que un alza consecutiva de la tasa de política monetaria sea entendida como un endurecimiento de la trayectoria más probable de la política monetaria, más allá de lo considerado en las proyecciones. Aunque ambos riesgos pueden aminorarse con una redacción cuidadosa del comunicado, este segundo riesgo parece ser más fácil de acotar a través de ese medio."
+      },
+      {
+        "ID_Padre": 263,
+        "Cita": "El Presidente, señor Vittoho Corbo, suspende la Sesión a las 13:45 horas e informa que la misma se reanudará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N° 77. Se deja constancia que no se encuentra presente en la Sala, la Secretaria Ejecutiva del Gabinete de la Presidencia, señora Cecilia Feliú Carrizo. A continuación el Presidente don Vittoho Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      },
+      {
+        "ID_Padre": 264,
+        "Cita": "Al respecto, el señor Gerente de División señala que: 1. En la reunión de política monetaria de abril, el Consejo decidió aumentar la tasa de interés de política en 25 puntos base a 3%. En esta decisión se consideró que, más allá de cierta volatilidad en la inflación mensual, provocada por los aumentos en el precio internacional del petróleo, las distintas mediciones de la tendencia inflacionaria seguían aumentando gradualmente. Por su parte, el gasto interno continuaba exhibiendo una expansión robusta, mientras el crecimiento de la actividad mostraba una intensidad un poco menor que en trimestres pasados. Este escenario era apoyado por condiciones monetarias en Chile que continuaban siendo claramente expansivas y por un entorno internacional favorable, pero cuyos riesgos se habían incrementado. 2. Los antecedentes acumulados desde la última reunión muestran que las condiciones externas se mantienen favorables, aunque al igual que el mes pasado se aprecian focos de incertidumbre más marcados. Los precios del petróleo y del cobre han descendido marginalmente en las últimas semanas desde sus elevados niveles, pero dentro de lo esperado en el escenario central del mes pasado. 3. Respecto de las condiciones internas, el crecimiento de la actividad sigue siendo sólido, por encima del PIB de tendencia, aunque con bastante diversidad sectorial y confirmando un ritmo de expansión menos intenso que durante el primer semestre del 2004. Sorprendió la debilidad relativa del crecimiento industrial, que se ha compensado con el mayor empuje de comercio y construcción. La demanda interna ha seguido creciendo a tasas elevadas, con una inversión fija que sigue expandiéndose con vigor y aparentemente con mayor acumulación de inventarios y crecimiento del consumo. Las cifras del mercado laboral han vuelto a mostrar mayor fortaleza. Los indicadores de expectativas han decaído algo, pero se mantienen positivos para empresas y algo por debajo del nivel neutral para las familias, probablemente influidos por las noticias del sector energía. 4. Las condiciones financieras internas siguen siendo claramente expansivas, lo que se aprecia en el alto crecimiento de los agregados de crédito y dinero. Cabe destacar, además, la disminución adicional de las tasas de interés en UF de mediano y largo plazo. 5. Con respecto a los precios, la inflación mensual del IPC resultó dos décimas por encima de lo proyectado, mientras que el IPCX1 estuvo dos décimas por debajo. A pesar de esto último, la mayoría de las medidas de la tendencia de la inflación sigue aumentando gradualmente. El aumento de los salarios, por su parte, se compensa con la mayor productividad del trabajo. Las medidas de inflación esperada a distintos plazos se ubican cerca de 3%, con la compensación inflacionaria a 5 y 10 años por sobre esa cifra. 6. De acuerdo con las proyecciones preparadas para el Informe de Política Monetaria, el cuadro de progresivo cierre de brechas y aumento gradual de la tendencia inflacionaria continuará en los próximos trimestres. La propagación del shock del precio del petróleo y la utilización de las holguras de capacidad —que se copan hacia fines del horizonte de proyección— explican el aumento esperado de la tendencia inflacionaria. En particular, se proyecta que el PIB crezca 5,7% este año y 5,5% el próximo, mientras que la inflación se proyecta en 2,5% a 12 meses y en 3,2% a 24 meses, en una trayectoria convergente a 3%. Todo ello bajo el supuesto de trabajo de un aumento gradual de la tasa de política monetaria. Suponiendo que se mantiene fija la tasa de política monetaria hasta el segundo semestre, ello involucraría aumentos sucesivos (en todas las reuniones) durante dos a tres trimestres, para recién después seguir un patrón pausado."
+      },
+      {
+        "ID_Padre": 266,
+        "Cita": "El Presidente, don Vittoho Corbo ofrece la palabra para comentarios."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-458",
+    "ID_Padre": 458,
+    "Fecha": "2005-11-10",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "500eca88f7b96f8f480a11bfa4da516aa463898b301b5ce6ba7f7fc2196ebe97",
+    "Inicio": 0,
+    "Fin": 105,
+    "Cita_Inicio": "El señor Gerente responde",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García presenta inflación en 456; Eyzaguirre pregunta al Gerente de Análisis Macroeconómico en 457 y el Gerente responde en 458. Corbo comenta en 459. La respuesta se identifica por el intercambio, no por cualquier Gerente cercano.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 458,
+        "Cita": "El señor Gerente responde que, efectivamente la inflación subyacente ha estado más baja de lo proyectado."
+      },
+      {
+        "ID_Padre": 456,
+        "Cita": "El Gerente de Análisis Macroeconómico, señor Pablo García indicó que dentro de los puntos destacados de la reunión puede señalarse que el escenario internacional para la economía chilena se mantiene favorable en términos de crecimiento mundial, de intercambio e incluso en condiciones favorables que aún son ventajosas. Sin embargo, la evaluación que existe es que los riesgos se han acrecentado desde la última reunión y ello, por eventuales mayores presiones inflacionarias en el mundo y también, por la posibilidad de aumentos más acelerados de las tasas de interés. Agrega, que también ha incidido en esta incertidumbre los efectos del elevado precio del petróleo sobre la actividad. Indica asimismo, que por el lado inflacionario, el IPC superó en el mes pasado lo previsto, por factores específicos que son probablemente transitorios y que las medidas subyacentes estuvieron más cerca de lo proyectado."
+      },
+      {
+        "ID_Padre": 457,
+        "Cita": "El Ministro de Hacienda, señor Nicolás Eyzaguirre consulta al señor Gerente de Análisis Macroeconómico, sí cuando señala que la inflación subyacente ha estado más cerca de lo proyectado se refiere a que si ella está más cerca, pero más baja."
+      },
+      {
+        "ID_Padre": 459,
+        "Cita": "Respecto al escenario mundial, el Presidente señor Vittorio Corbo, señala que en resumen éste se presenta bien, pero que los riesgos han aumentado, especialmente en lo que se refiere a la inflación. Indica que este fenómeno ha tenido un alza en todos los países y la pregunta es cuánto de esta situación se traspasará a efectos de segunda vuelta y a salarios. Agrega que en Estados Unidos de América queda todavía un aumento importante en los precios del gas natural y también de la electricidad y eso se reflejará en los meses de invierno, así que también ello puede afectar a la demanda agregada en los Estados Unidos de América. Concluye el señor Presidente, que en general la economía mundial en promedio se aprecia bien, incluso en el margen, y mejor en promedio que con anterioridad, no obstante que los riesgos son mayores."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-555",
+    "ID_Padre": 555,
+    "Fecha": "2006-01-12",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "0a8d7a48977fc47d640b90299c859f5d148396546a1cd19fd9e073e32ba0a9a6",
+    "Inicio": 0,
+    "Fin": 260,
+    "Cita_Inicio": "Al respecto",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "554 anuncia que el Gerente de Análisis Macroeconómico responderá por petróleo y cuenta corriente; el citado Gerente entrega la respuesta cuantitativa en 555. La nómina local identifica a García en ese cargo. 556 sólo después cede Opciones a Valdés: no anticipar ese receptor.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 555,
+        "Cita": "Al respecto, el citado Gerente señala que un dólar de precio del petróleo tiene un impacto entre 70 y 100 millones de dólares; y agrega, que en el caso de precio del cobre, un centavo de dólar implica alrededor de 60 millones de dólares en la cuenta corriente."
+      },
+      {
+        "ID_Padre": 554,
+        "Cita": "El Presidente, señor Vittorio Corbo, suspende la Sesión a las 13:30 horas e informa que la misma se reanudará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N° 87. El señor Presidente señala que antes de pasar a las Opciones de Política Monetaria, el señor Gerente de Análisis Macroeconómico dará respuesta a la consulta que efectuara el señor Ministro en la reunión de la mañana, en cuanto al impacto del precio del petróleo en la cuenta corriente fiscal."
+      },
+      {
+        "ID_Padre": 556,
+        "Cita": "A continuación, el Presidente don Vittorio Corbo solicita al Gerente de División Estudios, don Rodrigo Valdés, que presente las Opciones de Política Monetaria."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-506",
+    "ID_Padre": 506,
+    "Fecha": "2005-12-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "aa7efe74ac2d46954631ae46ff00e6e104e89ba5ee2472c0278c735030ba48b0",
+    "Inicio": 15634,
+    "Fin": 15841,
+    "Cita_Inicio": "Sobre el particular, el Gerente mencionado",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Lehmann explica el salto técnico del EMBI; Eyzaguirre consulta si se debe a CODELCO y el Gerente mencionado responde por el bono. Acotar sólo esa respuesta, antes del comentario de Desormeaux; no certificar toda la extensa presentación del padre.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 506,
+        "Cita": "Sobre el particular, el Gerente mencionado indica que el bono de esa empresa a treinta años tuvo un spread de algo más de cien puntos base y que eso alteró algo la lectura del EMBI Global respecto de Chile."
+      },
+      {
+        "ID_Padre": 506,
+        "Cita": "ucialmente de la trayectoria subyacente de los precios, la que, como se ha indicado, continúa acotada. Las expectativas privadas, por su parte, han incorporado un panorama inflacionario de mediano plazo que sigue siendo benigno. El Presidente ofrece la palabra para comentarios. En relación al escenario internacional, el Gerente de Análisis Internacional, don Sergio Lehmann agrega respecto al EMBI Global que, en el caso de Chile, éste se ha mantenido estable y el salto que se observa respecto a un mes y medio atrás es más bien una situación de carácter técnico, pero en realidad la lectura general es que se ha mantenido marginalmente estable, hacia la baja. Al respecto, consulta el señor Ministro de Hacienda si el carácter técnico a que se refiere el señor Lehmann dice relación con CODELCO."
+      },
+      {
+        "ID_Padre": 506,
+        "Cita": "El Consejero señor Desormeaux, respecto de la situación internacional y a lo expuesto por el Gerente señor Lehmann, señala que sería conveniente separar lo que es la situación de Asia, ya que le parece que un 80% de lo que se presenta corresponde a este último continente. El Presidente don Vittorio Corbo señala, que en resumen en la parte internaci"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-2058",
+    "ID_Padre": 2058,
+    "Fecha": "2008-09-04",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "2fc395fbcec3ed25b3d474918990c3ec5083ed0b65ee1cf85b020ecf6f04ae74",
+    "Inicio": 316,
+    "Fin": 582,
+    "Cita_Inicio": "El Gerente mencionado señala",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán consulta por los no transables de la información de Soto; el Gerente mencionado responde con la lista de rubros. La nueva consulta presidencial delimita la respuesta. Marfán es quien pregunta, no quien presenta los datos.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2058,
+        "Cita": "El Gerente mencionado señala que dicho rubro comprende el pan, los alcoholes, cervezas, tabaco, imprentas, productos plásticos, vidrios. Un sector que tuvo un dinamismo bastante considerable a comienzos de año y que en la actualidad se encuentra más bien estancado."
+      },
+      {
+        "ID_Padre": 2058,
+        "Cita": "El Presidente señor José De Gregorio ofrece la palabra para comentarios. En relación a la información entregada por el Gerente de Análisis Macroeconómico señor Claudio Soto sobre al publicación de los datos del IMACEC, el Consejero señor Manuel Marfán consulta qué productos comprende la industria de no transables."
+      },
+      {
+        "ID_Padre": 2058,
+        "Cita": "El Presidente señor José De Gregorio consulta si acaso los datos del comercio no presentan algunos problemas en sus mediciones, ya que le parece raro que el aumento de ese sector esté ligado a la venta de alimentos. Agrega, que se podría pensar que el grueso de ese aumento pudiera ser nominal, puesto que cree que resulta extraño que con el alza de"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-180",
+    "ID_Padre": 180,
+    "Fecha": "2005-03-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "78a9eccfa0e38e54f4de38791765728007a3108bbd9cfe3642fa90e71e1851a7",
+    "Inicio": 0,
+    "Fin": 643,
+    "Cita_Inicio": "El Gerente de Análisis Financiero",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El nombre Sergio Lehmann y su predicado estima identifican su evaluación de riesgos. El cargo literal Análisis Financiero difiere de Análisis Internacional en la nómina: se documenta el hablante, pero se conserva una advertencia separada de cargo y el OCR sin corregir.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 180,
+        "Cita": "El Gerente de Análisis Financiero, señor Sergio Lehmann, estima que es importante también poner sobre el tapete de la discusión algo que se mencionó en la reunión de la mañana que se refiere al balance de riesgo, que, al menos, desde el punto de vista de la División Internacional, es más bien negativo, desde el punto de vista de la inflación externa que, al parecer, puede presentar algunas presiones en ese sentido, así como también en lo referente al precio del petróleo, y por lo tanto, desde el punto de vista de la estrategia táctica habría que tomar en consideración esos escenarios de manera de no aparecer también sobrerreaccionando."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-5573",
+    "ID_Padre": 5573,
+    "Fecha": "2013-06-13",
+    "Actor": "Beltrán de Ramón Acevedo",
+    "SHA256_Texto_Padre": "dfe73faeb0746b803b059cf9c517c3d0c5a2419cc5a1f7216362099d08b5719a",
+    "Inicio": 0,
+    "Fin": 478,
+    "Cita_Inicio": "El Gerente de División Operaciones Monetarias",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Beltrán de Ramón deja constancia y evalúa coherencia del programa japonés. El nombre identifica al hablante; Operaciones Monetarias difiere de Operaciones Financieras en la nómina, por lo que el cargo literal queda advertido, no certificado ni normalizado en el texto.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 5573,
+        "Cita": "El Gerente de División Operaciones Monetarias señor Beltrán de Ramón deja constancia que el Banco de Japón se comprometió a subir la inflación a 2% anual, de manera que en su opinión, es razonable que las tasas de interés de corto plazo aumenten y que disminuyan las de largo plazo, que estaban en niveles más altos. En consecuencia, no se trataría necesariamente de un programa que presente problemas de credibilidad, sino que está demostrando ser coherente con dicho objetivo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-6282",
+    "ID_Padre": 6282,
+    "Fecha": "2014-06-12",
+    "Actor": "Beltrán de Ramón Acevedo",
+    "SHA256_Texto_Padre": "954b2910e6d96eed45701365b14b5ed9a0ef49c0b036e5834cbff89e151b8be9",
+    "Inicio": 0,
+    "Fin": 3253,
+    "Cita_Inicio": "El Gerente de División Política Operaciones Financieras",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Beltrán de Ramón evalúa opciones y transmisión de tasas y vuelve a ser nombrado al recomendar baja. Las referencias a Estudios y Hacienda no son nuevos turnos. El cargo literal Política Operaciones Financieras queda advertido por diferencia con la nómina, sin reescritura.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6282,
+        "Cita": "El Gerente de División Política Operaciones Financieras señor Beltrán de Ramón señala que la Gerencia de División Estudios ha propuesto dos opciones para esta Reunión, la de mantener la TPM en 4% anual o bajarla a 3,75% anual; y que de acuerdo con la información disponible, en su entender ambas opciones se encontraban en un mismo nivel, por lo que no se había puesto énfasis en alguna de ellas, lo que no se aviene con lo expresado precedentemente. En lo concerniente a los datos reales, expresa que la Gerencia de División Estudios presentó en la primera parte de esta Sesión una perspectiva más débil tanto para el consumo como para la actividad, situación que ha sido negativa por varios meses y asimismo, consignó que las perspectivas de los empresarios y consumidores tuvieron un fuerte deterioro en el último mes. No obstante, atendido que las expectativas sobre el aumento de la inflación futura parecen haber disminuido y que los citados datos reales son más débiles, se inclina por la opción de bajar la TPM en esta Reunión en lugar de mantenerla en 4% anual. Desde el ámbito de la transmisión de la política monetaria, estima que recientemente han ocurrido dos hechos esenciales, que forman parte de una tendencia que se venia gestando hace unos meses y que se profundizó durante mayo y junio. En primer término, una caída relevante de la tasas de interés en el mercado de préstamos, en especial de las correspondientes a los créditos hipotecarios y comerciales, no así de las tasas de las colocaciones de consumo. En segundo lugar, la compresión de spreads en el mercado de renta fija, fenómeno que no solo es de carácter global, sino que también se observa en los bonos bancarios chilenos y también en los bonos de empresas, excepto en los emitidos por SMU y Fasa, que se sitúan en niveles mínimos. En su opinión, si a lo anterior se suma la disminución en la base, tanto de los BCU como de los BTU, se configuraría un impulso importante a la política monetaria a plazos más largos, lo que estima un hecho relevante y que está incrementándose con fuerza. Manifiesta que en las últimas Reuniones se ha inclinado por recomendar al Consejo la reducción de la TPM, excepto en la del mes de mayo último, ocasión en que el alto registro de IPC, de 0,8%, hacía prudente esperar para contar con mayor información sobre la situación futura de la inflación y de la economía. Añade que si bien el mercado proyecta a que la inflación comenzará a bajar en los próximos meses, por lo que valida lo estimado por el Banco Central de Chile y también por el Ministerio de Hacienda en cuanto a que el alza del IPC del mes de mayo ha sido transitoria y levemente superior a la prevista por el mercado, aún no permite despejar todas las dudas sobre su transitoriedad. El señor Beltrán de Ramón, si bien se inclina por recomendar una nueva baja de la TPM, estima que en la medida que el Consejo no apruebe esta opción, lo más relevante sería mantener inalterado el sesgo y, de esa manera, validar la expectativa en orden a que la TPM llegará muy prontamente a 3,5% anual. En el intertanto, durante este mes se producirán .las caídas de las tasas de interés en el mercado de préstamos a que se hizo mención, así como la compresión de spreads a plazos más largos."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L13-3126",
+    "ID_Padre": 3126,
+    "Fecha": "2010-05-13",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "2f23afb48a3ad50a939397d16bb8850ebc7466746583e9e5d72c4f1d65cfc64c",
+    "Inicio": 0,
+    "Fin": 2609,
+    "Cita_Inicio": "El señor José De Gregorio se refirió",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Gregorio expone su posición y vota, felicita al Ministro y comenta el comunicado. El sujeto inicial se refirió es actual en esta narración, no la relativa retrospectiva protegida por el detector. Acotar antes del código formal del acuerdo; no atribuir a la persona el acuerdo ni comunicado institucional.",
+    "Limitacion": "Lectura del intervalo con contexto pertinente en el consolidado y nómina local cuando se indica; sin cotejo PDF ni revisión humana independiente. No certifica otros tramos del padre ni crea anclas globales.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3126,
+        "Cita": "El señor José De Gregorio se refirió también a una cierta discrepancia que existe entre las encuestas y los precios de mercado del mercado swap respecto de las expectativas. Hace presente que, en su mayoría, las encuestas de analistas económicos y financieros no prevén alza de tasas en esta Reunión, aunque sí los operadores del mercado swap. Indica que lo no debería ser una sorpresa, ya que esos operadores son quienes sí han internalizado el cambio de la oferta de la FLAP que debía haber ocurrido el lunes 10 de mayo y que lo hará el lunes próximo, de manera que no es sorprendente que ellos hayan visto en dicha decisión que el Banco Central estaba abriendo espacio para em pezar el proceso de normalización. Por lo anterior, y basado en la necesidad de que el Banco se cubra ante riesgos en diversas direcciones, el señor Presidente estima que el costo de subir la tasa de interés es menor comparado con sus beneficios, razón por la cual su preferencia es por subir la tasa en 25 puntos base, a un nivel de 0,75%. Agrega que ello se ve reforzado por los argumentos dados previamente por el staff. No obstante, y habida consideración de la discusión que lo precedió, señala que le parece aún más valioso en la presente Reunión tener una decisión lo más consensuada posible. Asimismo, dado que no cree que mantener la tasa sea una decisión negativa, es que su decisión final es sumarse a la mayoría, apoyando la decisión de mantener la tasa de interés en 0,5%, con un sesgo al alza. Por lo tanto, el Presidente, señor José De Gregorio, señala que, por unanimidad, el Consejo mantiene la tasa en 0,5%, agregando que entiende que habría una mayoría por poner un sesgo al alza. Finalizada la votación, y antes de que el Ministro de Hacienda se retire de la Sala de Consejo, el señor José de Gregorio le expresa sus felicitaciones por el proyecto de reconstrucción y le desea mucho éxito en su aprobación. Asimismo, y tal como lo señaló el señor Vicepresidente precedentemente, señala la satisfacción para el Banco que dicho plan pueda tener una temprana solución y aprobación. Por otra parte, hace presente al señor Ministro que, por política del Banco, en los comunicados de la RPM no se hacen evaluaciones de la política fiscal, porque ello, sin duda, podría hacerle entrar en una dinámica que sería compleja en otros escenarios. En todo caso, aclara que quedará expresa constancia en el Acta de la presente Reunión que el Banco Central de Chile está muy satisfecho y contento con el éxito del plan fiscal para la reconstrucción y que le desea que este éxito continúe en la etapa de aprobación del mismo."
+      },
+      {
+        "ID_Padre": 3126,
+        "Cita": "154-01-100513-T a s a de Política Monetaria El Consejo aprobó, por la unanimidad de sus miembros, mantener la tasa de interés de política monetaria en 0,50% anual. Comunicado En su reunión mensual de política monetaria, el Consejo del Banco Central de Chile acordó mantener la tasa de interés de política monetaria en 0,50% anual. En el ámbito extern"
       }
     ]
   }
