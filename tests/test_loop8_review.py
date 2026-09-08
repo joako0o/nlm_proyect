@@ -18,7 +18,7 @@ class LoopEightTests(unittest.TestCase):
     def setUpClass(cls):
         cls.raw={r[0]:dict(Fecha=b.to_date_str(r[1]),Texto=r[5],Actor=r[2]) for r in b.data}
         cls.reviews=load_speaker_reviews(cls.raw)
-        cls.warnings=load_context_warnings(cls.raw)
+        cls.warnings={4433:load_context_warnings(cls.raw)[4433]}
     def parts(self,p):
         r=self.raw[p];return b.segment_turns(r['Texto'],r['Fecha'],r['Actor'],review=self.reviews.get(p))
     def test_direct_predicates_require_subject_not_citation(self):
@@ -127,7 +127,7 @@ class LoopEightTests(unittest.TestCase):
         self.assertFalse({3191,5367,5647,6185}&set(self.reviews))
 
 FIXTURES = {14: {'hash': '6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab48e3519085',
-      'parts': [('Esteban Jadresic Marinovic', 822, 'ROL+NOMBRE')]},
+      'parts': [('Esteban Jadresic Marinovic', 822, 'CONTEXTO_REVISADO')]},
  263: {'hash': '96eda138e68b826252bf8e478180268914379363aefa31b07b338fc3ebfc6f79',
        'parts': [('Vittorio Corbo Lioi', 127, 'SUJETO_ROL_NOMBRE'),
                  ('Consejo del Banco Central de Chile', 219, 'ACTA/META'),

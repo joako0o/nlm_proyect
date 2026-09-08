@@ -14,6 +14,9 @@ def normalize(text):
         t = t.replace(old,new)
     # Variantes constatadas en el consolidado, sólo en la vista de reconocimiento.
     for pattern, replacement in [
+        (r'\bgerente de analis is macroeconomico\b', 'gerente de analisis macroeconomico'),
+        (r'^a l respecto\b', 'al respecto'),
+        (r'\bgerente de division de estudios\b', 'gerente de division estudios'),
         (r'\btam bien\b', 'tambien'),
         (r'\bvittoho corbo\b', 'vittorio corbo'),
         (r'\bgerente de la division (?:de )?', 'gerente de division '),
@@ -140,7 +143,7 @@ class TurnDetector:
             start = self._subject_start(t, m.start())
             end = m.end()
             tail = t[end:]
-            gap = re.match(r'\s*[,;]?\s*(?:(?:subrogante|\(s\))\s*)?(?:' + HONOR + r')?', tail)
+            gap = re.match(r'\s*[,;]?\s*(?:(?:subrogante|interino|\(s\))\s*)?(?:' + HONOR + r')?', tail)
             name_start = end + gap.end()
             nm = self.name.match(t, name_start)
             role = self.roles[m.group()]

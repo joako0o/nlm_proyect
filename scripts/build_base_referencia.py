@@ -12,7 +12,7 @@ from pathlib import Path as _Path
 from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
 from context_warnings import load_context_warnings, contextual_motives
-from curation import load_role_reviews, load_speaker_reviews, SPEAKER_REVIEW_SOURCE
+from curation import load_role_reviews, load_speaker_reviews, speaker_intervals, SPEAKER_REVIEW_SOURCE
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
@@ -833,11 +833,15 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             state['last_sentence'] = ''
         return parts
     spans = split_sentences(text)
-    if review:
+    intervals = speaker_intervals(review)
+    reviews_by_start = {r["Inicio"]:r for r in intervals}
+    if len(reviews_by_start) != len(intervals):
+        raise ValueError("Inicios revisados duplicados")
+    for review in reviews_by_start.values():
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO")):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA")):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
@@ -871,7 +875,15 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 fragment = re.sub(r'^y,?\s+', '', fragment)
             acknowledgement = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'
             relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement
-            if relative:
+            opinion_quote = review.get('Tipo_Limite') == 'OPINION_TRAS_CITA_CERRADA_REVISADA'
+            if opinion_quote:
+                # Excepción sólo con revisión individual: cita cerrada antes de
+                # una opinión nominal. No divide automáticamente por comillas.
+                head = re.match(r'^(?:En opinión|A juicio) del ([^,.;!?“”«»"]{1,180}),', fragment)
+                if not head or not re.search(r'[.!?][”»"]$', prefix.rstrip()):
+                    raise ValueError("Opinión revisada sin cita cerrada/límite válido")
+                candidate = TURN_DETECTOR.speaker('El '+head[1]+' señala.', date)
+            elif relative:
                 # Sólo el antecedente contiguo en esta oración, nunca otra cesión
                 # anterior. La revisión y su hash delimitan la relativa adjudicada.
                 sentence_start = max(a for a,b in spans if a <= review['Inicio'])
@@ -882,7 +894,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
                 raise ValueError("Revisión de gerundio sin declaración válida")
             quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')
-            if ((not (coordinated or concatenated or reply) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
+            if ((not (coordinated or concatenated or reply or opinion_quote) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
                     or candidate['actor'] != review['Actor'] or candidate['method'] not in EXPLICIT):
                 raise ValueError("Revisión de hablante sin actor/límite válido")
             bounds = sorted({0,len(text),review["Inicio"]} | {a for a,b in spans} | {b for a,b in spans})
@@ -915,10 +927,11 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         previous_sentence = sent
         candidate = TURN_DETECTOR.speaker(sent, date, actor, local_context)
         institutional = _inst_transition(sent)
-        if review and a == review["Inicio"]:
-            if candidate and candidate["actor"] != review["Actor"]:
+        local_review = reviews_by_start.get(a)
+        if local_review:
+            if candidate and candidate["actor"] != local_review["Actor"]:
                 raise ValueError("Revisión contradice sujeto explícito")
-            who, source = review["Actor"], SPEAKER_REVIEW_SOURCE
+            who, source = local_review["Actor"], SPEAKER_REVIEW_SOURCE
         elif institutional:
             who, source = CONSEJO, 'ACTA/META'
         elif candidate:
@@ -1092,6 +1105,9 @@ def main():
             records.append((rid,date,date_dt,actor_orig,spk,rol,rol_orig,role,method,int(r[4]),text,str(r[6]),str(r[7]),rol_asistencia,metodo_rol,tipo,parent_id,block_number))
             update_state(state, spk, method, text, date, TURN_DETECTOR,
                          split_sentences, rid, institutional=bool(tipo))
+            if contextual_motives(dict(ID_Padre=parent_id,Fecha=date,Actor_Final=spk,Texto=text),context_alerts):
+                state['barrier'] = True
+                state['anchor'] = None
 
     print("Actors reasignados:",actor_corr)
     print("Roles cambiados:",role_corr)
@@ -1115,7 +1131,11 @@ def main():
         if normalize_quote(clean) in FORMULA_REVIEWS:
             note.append("Fórmula procedimental revisada: " + FORMULA_REVIEWS[normalize_quote(clean)]["Revision_ID"])
         if method == SPEAKER_REVIEW_SOURCE:
-            note.append(f'Hablante por contexto documentado: {reviewed_speakers[id_padre]["Revision_ID"]} (data/curation/revisiones_hablantes.json; no cotejo PDF)')
+            applicable = [r for r in speaker_intervals(reviewed_speakers[id_padre])
+                          if r['Actor']==spk and normalize_quote(clean).startswith(normalize_quote(r['Cita_Inicio']))]
+            if len(applicable) != 1:
+                raise ValueError('Nota de hablante revisado sin intervalo único')
+            note.append(f'Hablante por contexto documentado: {applicable[0]["Revision_ID"]} (data/curation/revisiones_hablantes.json; no cotejo PDF)')
         if method in (AUTHOR_SOURCE, READER_SOURCE):
             doc = reviewed_documents[id_padre]
             note.append(f"Lectura documental {doc['Revision_ID']}: autor={doc['Autor']}; lector={doc['Lector']}; asistencia del autor no inferida; data/curation/revisiones_documentos_leidos.json")

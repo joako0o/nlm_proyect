@@ -1,72 +1,71 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.466 filas físicas de
-Excel / 9.465 bloques de texto**, con actor, cargo, trazabilidad y alertas.
+consolidado de 7.219 filas. La salida actual tiene **9.489 filas físicas de
+Excel / 9.488 bloques de texto**, con actor, cargo, trazabilidad y alertas.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
 **313 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 871 pruebas de regresión. Esto no certifica pureza semántica
-total de cada intervención.** Quedan **372 filas con alertas en 339 padres**.
-Los motivos se superponen y pueden ser falsos positivos; no son 372 errores
-confirmados. `SIN_ALERTAS_AUTOMATICAS` tampoco equivale a revisión humana.
+**F0 y F1 pasan, con 930 pruebas de regresión. Esto no certifica pureza semántica
+total.** Quedan **368 filas con alertas en 334 padres**. Los motivos se superponen
+y pueden ser falsos positivos; no son 368 errores confirmados.
+`SIN_ALERTAS_AUTOMATICAS` tampoco equivale a revisión humana.
 
-**Informe vigente:** [décimo bloque: opiniones intercaladas y discurso referido](docs/REVISION_LOOP10_2026-09-08.md).
-Cuatro ciclos de comparación y cierre documental produjeron cambios en **60 padres**:
-**39** estructurales (66 → 105 segmentos, **39 filas nuevas**) y **21** sólo de
-metadatos, sin cambiar sus textos ni actores. Los otros **7.159 padres** no tienen
-cambios semánticos en esta pasada. Ver [comparación global](docs/comparacion_loop10_2026-09-08.json)
-y [detalle CSV](docs/cambios_loop10_2026-09-08.csv).
+**Informe vigente:** [undécimo bloque: varios intervalos y citas cerradas](docs/REVISION_LOOP11_2026-09-08.md).
+Dos ciclos produjeron cambios en **29 padres**: **19** estructurales
+(43 → 66 segmentos, **23 filas nuevas**) y **10** sólo de metadatos, sin cambiar
+sus textos ni actores. Los otros **7.190 padres** no tienen cambios semánticos
+en esta pasada. Ver [comparación global](docs/comparacion_loop11_2026-09-08.json)
+y [detalle CSV](docs/cambios_loop11_2026-09-08.csv).
 
-Se documentaron **37 intervalos de hablante**, llevando el total a **138**;
-las 101 revisiones anteriores están intactas. **36 de esos inicios estaban en
-segmentos sin ninguna alerta automática.** No es una muestra independiente ni una
-estimación del error global, pero muestra por qué no basta revisar la cola visible.
-Se separan opiniones intercaladas, respuestas y retornos, conservando las exposiciones
-largas. En 7079: **Fuentes → Soto → Fuentes → Claro**. No se generaliza «En opinión»
-a cualquier mención.
+Se añadieron **22 intervalos revisados en 20 padres**. El registro ahora admite
+varias revisiones independientes dentro de un mismo párrafo, con sus propios
+límites, citas e identificadores: **160 intervalos en 158 padres**. Las 138 entradas
+anteriores están intactas. En **4923** se distinguen Soto → Vergara → Marshall;
+en **4954**, Marfán → Soto, que cita la pregunta de la encuesta → Marfán.
+No se generalizan cortes por comillas ni por cualquier «En opinión».
 
-En **2325** se reúne la explicación de García: la Ministra era una referencia
-retrospectiva, no un nuevo turno. Se conserva el aviso automático y se añade una
-anotación de mención legítima: **once menciones actuales**, distintas de las ocho
-históricas. En 2052 se reúne una exposición contigua de Lehmann.
-
-Todos los enlaces anteriores se conservan **salvo 5402→5403**, retirado porque Claro
-interviene antes de la respuesta de Lehmann. No hay enlaces nuevos. Las exposiciones
-de once filas permanecen intactas y las revisiones contextuales no crean anclas por
-sí solas. El [checkpoint](docs/estado_revision_loop10_2026-09-08.json) registra alcance
-y pendientes. Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3);
+Se recuperan respuestas y opiniones, conservando exposiciones y retornos.
+Todos los enlaces anteriores y las exposiciones de once filas se mantienen;
+no se añadieron ni retiraron enlaces. Las revisiones contextuales no crean anclas
+por sí solas. El [checkpoint](docs/estado_revision_loop11_2026-09-08.json) registra
+alcance y pendientes. Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3);
 **no hay proceso activo en segundo plano**.
 
+**6443 ahora tiene advertencia visible:** el bloque mezcla a de Ramón, García y una
+presentación de Ricaurte con identidad ambigua. Su atribución completa a de Ramón
+no está validada; queda pendiente de separación/contraste y se bloquea continuidad.
+No se fusionan las variantes de Ricaurte. Continúa también la advertencia de cargo
+en **4433**, sin reasignar por tema a Soto los 705 caracteres provisionales de Lehmann.
+
 Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara mantienen
-**autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo documental y aviso
-obligatorio. **No acreditan asistencia ni habla oral del autor.** Continúan el
-[CSV documental](data/processed/documentos_leidos.csv) y los esquemas XLSX 37/24.
-La advertencia de cargo en **4433** sigue visible y bloquea continuidad: no se
-reasignan por proximidad los 705 caracteres provisionales de Lehmann a Soto.
+**autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo documental y aviso.
+**No acreditan asistencia ni habla oral del autor.** Se conservan el
+[CSV documental](data/processed/documentos_leidos.csv), los esquemas XLSX 37/24,
+las once menciones actuales y las 21 fórmulas revisadas.
 
-De las 783 alertas originales, **170** siguen pendientes de lectura contextual,
-58 son fórmulas, **267** métodos actualizados, **173** cambios por comparación y
-**91** correcciones dirigidas; siete breves válidos, ocho menciones históricas,
-seis identidades pendientes, dos repeticiones y una continuidad documentada.
-**No es una revisión exhaustiva de las 783 filas.**
+De las 783 alertas históricas, **163** siguen pendientes de lectura contextual,
+58 son fórmulas, **274** métodos actualizados, **171** cambios por comparación y
+**93** correcciones dirigidas; siete breves válidos, ocho menciones históricas,
+seis identidades, dos repeticiones y una continuidad documentada.
+**No es una revisión exhaustiva.** Las once menciones actuales se cuentan aparte.
 
-Alertas **391 → 372**; atribución heurística legada **58 → 38**. El descenso
-histórico **190 → 170** incluye cambios automáticos: no son 20 lecturas humanas
-ni cierres semánticos. Se mantienen los avisos documentales, las repeticiones
-sustantivas y la advertencia de cargo.
+Alertas **372 → 368**; atribución legada **38 → 29**. Se mantienen las alertas que
+surgen al separar límites y se añade la advertencia de 6443: no se ocultan para
+mejorar el total. El descenso histórico **170 → 163** incluye cambios automáticos;
+no representa siete lecturas humanas ni cierres semánticos.
 
 Persisten los cinco candidatos filtrados **780, 3191, 5367, 5647 y 6185**, además
-de pasajes conjuntos, daños y candidatos fuera de las alertas (4954, 4923, 6308,
-6443 y 6447, con alcance de triaje/lectura distinguido en el checkpoint).
-**No son el total pendiente.** Falta una muestra independiente con y sin alertas;
+de pasajes conjuntos, daños, identidades y repeticiones. **No son el total pendiente.**
+Los candidatos anteriores 4923, 4954, 6308 y 6447 tienen revisiones aplicadas;
+6443 quedó alertado, no resuelto. Falta una muestra independiente con y sin alertas;
 no hubo nuevo cotejo PDF en esta pasada.
 
-El [informe anterior](docs/REVISION_LOOP9_2026-09-08.md) conserva el estado histórico
-**9.427 filas / 391 alertas / 789 pruebas**. Verificaciones locales: el workflow
+El [informe anterior](docs/REVISION_LOOP10_2026-09-08.md) conserva el estado histórico
+**9.466 filas / 372 alertas / 871 pruebas**. Verificaciones locales: el workflow
 propuesto de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline

@@ -130,6 +130,7 @@ def validate_continuity(rows):
             elif (previous['Actor_Final'] == builder.CONSEJO or previous.get('Tipo_Acta')
                   or boundary(previous['Texto']) or
                   'POSIBLE_OTRO_HABLANTE_O_MENCION' in (previous.get('Motivos_Revision') or '') or
+                  'HABLANTES_POR_IDENTIDAD_PENDIENTE' in (previous.get('Motivos_Revision') or '') or
                   'CARGO_EN_DISCURSO_POR_VERIFICAR' in (previous.get('Motivos_Revision') or '')):
                 errors.append(f'ID {rid}: continuidad atraviesa barrera')
         elif previous and previous.get('ID_Turno') == turn:

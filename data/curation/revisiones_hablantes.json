@@ -3626,5 +3626,529 @@
         "Cita": "En opinión del Consejero señor Sebastián Claro, se podría argumentar que estos defaults valorizan las operaciones de crédito que tienen garantías. En otras palabras, considerando todo lo demás constante, podría ser mucho más atractivo realizar un préstamo garantizado, en este caso con cobre, que uno sin garantía."
       }
     ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-2622",
+    "ID_Padre": 2622,
+    "Fecha": "2009-07-09",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "5426afc76089e253b26fd2f323058ac46d92490efc1ff8e87529fa762600108d",
+    "Inicio": 587,
+    "Fin": 791,
+    "Cita_Inicio": "A juicio del Presidente José De Gregorio",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marshall evalúa la fuerza de la recuperación; De Gregorio interpreta la cifra trimestral anualizada y continúa preguntando en 2623.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2622,
+        "Cita": "tir la serie de proyecciones, el aspecto central está en si acaso se va a producir la recuperación en el segundo semestre y cuál va a ser el grado. Agrega,que con la proyección de la economia, lo más probable es que se cierre el año con cifras por debajo de lo esperado. Para el referido Consejero, lo fundamen tal fue el mensaje transmitido por el Sanco en mayo, en cuanto a que habrá recuperación económica con cierta intensidad y que el riesgo en este punto reside en la potencia que va a tener ."
+      },
+      {
+        "ID_Padre": 2622,
+        "Cita": "A juicio del Presidente José De Gregorio, esa pregunta es relevante en el caso del -2,1% correspondiente al tercer trimestre, el que de acuerdo con lo que se puede deducir, asciende a un 4,2% anualizado."
+      },
+      {
+        "ID_Padre": 2622,
+        "Cita": "El señor Claud io Soto precisa que se trata de 7,3%, a lo cual el Presidente señala que es más fuerte aún y que le llama la atención que ese -4,8% sea menor que el -2,1% contemplado en el Informe del primer trimestre . El Gerente de División Estudios aclara que se trata de las velocidades y el Gerente de Anális is Macroeconómico agrega que las vari"
+      }
+    ],
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260908-2622-B",
+        "ID_Padre": 2622,
+        "Fecha": "2009-07-09",
+        "Actor": "Claudio Soto Gamboa",
+        "SHA256_Texto_Padre": "5426afc76089e253b26fd2f323058ac46d92490efc1ff8e87529fa762600108d",
+        "Inicio": 1081,
+        "Fin": 1232,
+        "Cita_Inicio": "y el Gerente de Anális is Macroeconómico",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Tras la aclaración de García sobre velocidades, Soto agrega cómo anualizar la variación trimestre a trimestre. Coordinación con sujeto y predicado propios; se conserva la separación OCR Anális is.",
+        "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+        "Evidencia": [
+          {
+            "ID_Padre": 2622,
+            "Cita": "ner . A juicio del Presidente José De Gregorio, esa pregunta es relevante en el caso del -2,1% correspondiente al tercer trimestre, el que de acuerdo con lo que se puede deducir, asciende a un 4,2% anualizado. El señor Claud io Soto precisa que se trata de 7,3%, a lo cual el Presidente señala que es más fuerte aún y que le llama la atención que ese -4,8% sea menor que el -2,1% contemplado en el Informe del primer trimestre . El Gerente de División Estudios aclara que se trata de las velocidades"
+          },
+          {
+            "ID_Padre": 2622,
+            "Cita": "y el Gerente de Anális is Macroeconómico agrega que las variaciones trimestre a trimestre hay que multiplicarlas por cuatro para sacar las velocidades."
+          }
+        ],
+        "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-2635",
+    "ID_Padre": 2635,
+    "Fecha": "2009-07-09",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "0e2243330049b9e11e9fefa42ca1e942ccb675f8d11d95f0d884c0a9dade1851",
+    "Inicio": 1175,
+    "Fin": 1303,
+    "Cita_Inicio": "En opinión del señor Presidente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Después de la respuesta del Gerente de División Estudios, el Presidente interpreta que el mercado sigue más la proyección del Banco. No extender la respuesta de García sobre esa opinión.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2635,
+        "Cita": "a 2% para mediados del año 2010, y destaca que cerca de 60 pb del aumento de la curva forward se explican por nuevos benchmarks nominales. El Presidente señor José De Gregorio plantea que con los nuevos benchmarks la curva ha sido mucho más elevada que la forward que se deriva como modelo, a lo cual el Gerente de División Estudios indica que ello es efectivo, pero que la dirección del diagnóstico es la misma, esto es, que si se hubiera aplanado la curva forward, se habría generado un problema."
+      },
+      {
+        "ID_Padre": 2635,
+        "Cita": "En opinión del señor Presidente, lo expresado significa que el mercado sigue más la proyección del Banco que hace algunos meses."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-2776",
+    "ID_Padre": 2776,
+    "Fecha": "2009-11-12",
+    "Actor": "Jorge Desormeaux Jiménez",
+    "SHA256_Texto_Padre": "cc97a9800038fe3d56153c639f94908d66d3312a7567e4f1fa4a70b2a208fa47",
+    "Inicio": 3008,
+    "Fin": 4510,
+    "Cita_Inicio": "En opinión del Vicepresidente, señor Jorge Desormeaux",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Desormeaux contrapone su evaluación estadística y desarrolla los riesgos externos tras la intervención de Magendzo; no es mención de éste.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2776,
+        "Cita": "a y construcción. En su opinión, se podría aventurar la hipótesis de que tanto el aumento del comercio como la caída del desempleo pudieran estar vinculados a los paquetes fiscales y al estímulo fiscal, cosa que va a ir cediendo en el tiempo. Agrega que no se está ante una recuperación muy fuerte focalizada directamente desde el sector privado o de las importaciones, y que la nueva información empieza a abrir ciertos riesgos a que la recuperación sea más lenta que lo que se percibía en el IPoM."
+      },
+      {
+        "ID_Padre": 2776,
+        "Cita": "En opinión del Vicepresidente, señor Jorge Desormeaux, si se miran los datos y se aísla el fenómeno estadístico del sector construcción, y se deja, por ejemplo, el sector resto sin construcción, hay correcciones menores a la baja. Luego, la evidencia no es suficiente como para afirmar que realmente hay un quiebre con respecto a lo previsto. Concuerda con que la preocupación respecto de los riesgos a la baja es legítima, porque en la economía internacional hoy día hay un riesgo muy importante de que la economía pierda fuerza. Al respecto, informa que en Estados Unidos, esta semana, aparecieron tres miembros del FED señalando que los riesgos de que la inflación esté por debajo de la meta son mucho mayores a que estén por arriba, siendo el gran argumento la importante debilidad del empleo. Esta es una recuperación en la que el empleo sigue deteriorándose, en la que las tasas de desempleo superaron el 10%, algo que no estaba en los cálculos de nadie, ya que los optimistas pensaban que la pérdida de empleos era fundamentalmente por una sobrerreacción, porque las empresas pensaron que el escenario iba a ser catastrófico y no lo fue. Hoy día, prosigue, esos empleos no se están recuperando y, por lo tanto, el consumo ha tenido un comportamiento muy débil, con corrección de cuatro décimas a la baja para el 2011 en el crecimiento de Estados Unidos, tal como el señor Lehmann acaba de mostrar. Hace ver que ahí está el riesgo y ello, indudablemente, puede repercutir en la economía chilena."
+      },
+      {
+        "ID_Padre": 2776,
+        "Cita": "Al respecto, el señor Ministro de Hacienda manifiesta que las cifras de crecimiento no son concluyentes, pero sí son una señal de alerta. Coincide con el señor Vicepresidente en que a ello hay que añadirle el riesgo de que el resto del mundo ande más lento y que ello se ha acrecentado desde la última RPM. Finalmente, el señor Ministro hace especial"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-3173",
+    "ID_Padre": 3173,
+    "Fecha": "2010-06-15",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "116fa6cab93f68943f267b70ac731716db423d5f93540483115290c912e00362",
+    "Inicio": 166,
+    "Fin": 520,
+    "Cita_Inicio": "En opinión del Vicepresidente, señor Manuel Marfán",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Soto informa diferencias del Transantiago; Marfán explica impacto único del impuesto y distingue la estrategia de mediano plazo.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3173,
+        "Cita": "El señor Claudio Soto informa, asimismo, que, en marzo, el impacto del Transantiago era menos intenso que ahora, lo que constituye también una diferencia importante."
+      },
+      {
+        "ID_Padre": 3173,
+        "Cita": "En opinión del Vicepresidente, señor Manuel Marfán, las discusiones sobre el impuesto de timbres y estampillas no deben minimizarse, pero que para efectos de la inflación debe tenerse presente que solo impacta una vez. Agrega que para la estrategia de política monetaria de mediano plazo no tiene tanto impacto, excepto por eventuales efectos de demanda."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-3310",
+    "ID_Padre": 3310,
+    "Fecha": "2010-08-12",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "caac7007271cb2ee3ef53a531ad9d2b9a98bd7af9ef5602ca6a187b135decfe9",
+    "Inicio": 910,
+    "Fin": 1669,
+    "Cita_Inicio": "En opinión del Gerente de División Estudios señor Pablo García",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García interpreta el perfil transitorio de la demanda; Soto retoma explícitamente el mercado laboral después. Acotar la opinión para conservar ese retorno.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3310,
+        "Cita": "fectos de los modelos, es el PIB resto el que interesa. Dado eso, señala que la pregunta que surge es si el escenario de mayor crecimiento respecto del contemplado en el IPoM se está dando o no, lo cual debería evaluarse respecto del PIB resto. En su opinión, este estaría creciendo de manera significativa y que quizás habría que cambiarse de escenario respecto del que se tenía en el último IPoM. El señor Claudio Soto indica que ese mayor crecimiento del PIB resto sería del orden de medio punto."
+      },
+      {
+        "ID_Padre": 3310,
+        "Cita": "En opinión del Gerente de División Estudios señor Pablo García, para ese escenario de nesgo, más que la cifra en sí, es importante evaluar el perfil que está teniendo el dinamismo de la demanda, y si es que el abultamiento observado en el segundo trimestre fue transitorio o correspondió a una aceleración que iba a continuar en el tercer trimestre y el cuarto. Indica que los datos dan cuenta que ese abultamiento efectivamente se observó, ya que se tuvo un peak de demanda interna, de consumo, de acumulación de inventarios, de venta de durables, de venta de viviendas, que después ha venido cayendo de manera notable, por lo que, en consecuencia, esto no ha continuado acelerándose desde el punto de vista de la difusión coyuntural que se está observando."
+      },
+      {
+        "ID_Padre": 3310,
+        "Cita": "El señor Claudio Soto prosigue, refiriéndose al mercado laboral. Señala, en primer término, que la tasa de desempleo ha venido cayendo de manera sistemática desde mediados del año pasado que, más allá del efecto que pudiera estar reflejando el cambio en la encuesta del INE, se confirma con los datos de la Universidad de Chile. En segundo lugar, ind"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-4437",
+    "ID_Padre": 4437,
+    "Fecha": "2011-11-15",
+    "Actor": "Enrique Orellana Cifuentes",
+    "SHA256_Texto_Padre": "87940dd907ce3841cc8533528dc2d2788522887088a6bc5d32ccad2bb82a68d7",
+    "Inicio": 547,
+    "Fin": 779,
+    "Cita_Inicio": "En opinión del Gerente de Estrategia y Comunicación de Política Monetaria señor Enrique Orellana",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Orellana explica ajustes de inventarios de vendedores de automóviles; Soto retoma con el supuesto de existencias.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4437,
+        "Cita": "es conservador, en el sentido que tiene incorporado este dato, pero de manera transitoria. Aclara que este fenómeno no tiene una naturaleza similar al observado en el año 2008, cuando se registró una caída sistemática en las importaciones durante un par de trimestres, que derivó en una corrección muy importante en la demanda. En todo caso, hace presente que si bien este antecedente ha llevado a estar alertas respecto de la evolución de la demanda, se estima que podría revertirse el próximo mes."
+      },
+      {
+        "ID_Padre": 4437,
+        "Cita": "En opinión del Gerente de Estrategia y Comunicación de Política Monetaria señor Enrique Orellana, los vendedores de automóviles están efectuando ajustes de inventarios, ya que presupuestan que las ventas no crecerán el próximo año."
+      },
+      {
+        "ID_Padre": 4437,
+        "Cita": "El señor Claudio Soto agrega que se tiene como supuesto una variación negativa de existencias hacia fines de año, es decir, que se producirá una desacumulación de inventarios, en línea con lo mencionado precedentemente."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-4665",
+    "ID_Padre": 4665,
+    "Fecha": "2012-03-15",
+    "Actor": "Luis Óscar Herrera Barriga",
+    "SHA256_Texto_Padre": "4ad98fc33e28fa007c50552157d7c5eeb4b123985964b3ab0b5cc33c0d43e614",
+    "Inicio": 805,
+    "Fin": 1297,
+    "Cita_Inicio": "En opinión del Gerente de División Estudios señor Luis Óscar Herrera",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Cowan describe compras de bonos; Herrera aporta el contrafactual de acceso al financiamiento y explica la LTRO.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4665,
+        "Cita": "epresenta un porcentaje bajo en relación con la base de activos de esa economía. Agrega que según los datos del Banco Internacional de Pagos, Italia efectuó compras de títulos por un monto de 15 mil millones de euros, aproximadamente. De acuerdo con lo anterior, sostiene que existe alguna evidencia de que parte de ello constituye un retorno que obtienen los bancos que aprovechan la tasa de 5% anual que obtienen en el bono español y luego, para financiar esa operación, captan fondos al 1% anual."
+      },
+      {
+        "ID_Padre": 4665,
+        "Cita": "En opinión del Gerente de División Estudios señor Luis Óscar Herrera, se debe considerar también el contrafactual, en razón que si los bancos no hubieran podido acceder a este financiamiento, igualmente habrían estado obligados a obtenerlo del mercado o a liquidar activos, por cuanto tenían un número considerable de vencimientos de sus pasivos durante este año. Explica que con la LTRO obtuvieron el financiamiento que les permite colateralizar sus obligaciones en el Banco Central Europeo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-4923",
+    "ID_Padre": 4923,
+    "Fecha": "2012-07-12",
+    "Actor": "Rodrigo Vergara Montes",
+    "SHA256_Texto_Padre": "77916e8773747cbfbcb68b2e6dc4e954888a7c308ac197bbccb4c3832db88439",
+    "Inicio": 1248,
+    "Fin": 1389,
+    "Cita_Inicio": "En opinión del Presidente señor Rodrigo Vergara",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Vergara interpreta el aumento real de la masa salarial después de Soto. Marshall aporta una segunda opinión distinta, que delimita este tramo.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4923,
+        "Cita": "resente que a ello se suma que la percepción de la situación familiar también mejora, aunque sigue estando en terreno negativo, y que si bien el indicador de compra de artículos para el hogar retrocedió levemente en el margen, permanece en niveles elevados. Respecto de la masa salarial, manifiesta que exhibe una pequeña pendiente al alza, explicada probablemente por los menores registros inflacionarios, ya que los salarios y las tasas de crecimiento del empleo no han registrado mayor variación."
+      },
+      {
+        "ID_Padre": 4923,
+        "Cita": "En opinión del Presidente señor Rodrigo Vergara, el aumento real de la masa salarial obedecería al último registro negativo de la inflación."
+      },
+      {
+        "ID_Padre": 4923,
+        "Cita": "A juicio del Consejero señor Enrique Marshall, correspondería analizar la variación de la masa salarial en términos nominales para fines de determinar si registra, efectivamente, una reaceleración, al menos en el corto plazo."
+      }
+    ],
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260908-4923-B",
+        "ID_Padre": 4923,
+        "Fecha": "2012-07-12",
+        "Actor": "Enrique Marshall Rivera",
+        "SHA256_Texto_Padre": "77916e8773747cbfbcb68b2e6dc4e954888a7c308ac197bbccb4c3832db88439",
+        "Inicio": 1389,
+        "Fin": 1614,
+        "Cita_Inicio": "A juicio del Consejero señor Enrique Marshall",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Marshall pide analizar la masa salarial nominal para comprobar la reaceleración. No es continuación de la opinión de Vergara; ambos intervalos se registran separadamente.",
+        "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+        "Evidencia": [
+          {
+            "ID_Padre": 4923,
+            "Cita": "el indicador de compra de artículos para el hogar retrocedió levemente en el margen, permanece en niveles elevados. Respecto de la masa salarial, manifiesta que exhibe una pequeña pendiente al alza, explicada probablemente por los menores registros inflacionarios, ya que los salarios y las tasas de crecimiento del empleo no han registrado mayor variación. En opinión del Presidente señor Rodrigo Vergara, el aumento real de la masa salarial obedecería al último registro negativo de la inflación."
+          },
+          {
+            "ID_Padre": 4923,
+            "Cita": "A juicio del Consejero señor Enrique Marshall, correspondería analizar la variación de la masa salarial en términos nominales para fines de determinar si registra, efectivamente, una reaceleración, al menos en el corto plazo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-4954",
+    "ID_Padre": 4954,
+    "Fecha": "2012-07-12",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "759550ba8d4a134cf097a00dc6d73ee3ed2e5502f2573a035b261a8c899e98f0",
+    "Inicio": 350,
+    "Fin": 556,
+    "Cita_Inicio": "En opinión del Vicepresidente señor Manuel Marfán",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán pregunta qué mide la encuesta; Soto cita la pregunta literal. Después de cerrar la cita interrogativa, Marfán explica qué debe reflejar la encuesta. Conservar la cita con Soto y revisar sólo la opinión posterior.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4954,
+        "Cita": "El Vicepresidente señor Manuel Marfán solicita que se precise si la pregunta contenida en la Encuesta de Expectativas Económicas se refiere a la decisión esperada en materia de TPM o a lo que se estima debería ser dicha decisión. El señor Claudio Soto precisa que la pregunta específica que se formula es “¿Qué va a hacer el Banco Central de Chile?”"
+      },
+      {
+        "ID_Padre": 4954,
+        "Cita": "En opinión del Vicepresidente señor Manuel Marfán, conviene que una encuesta de expectativas refleje lo que los consultados creen que será la decisión del Banco Central de Chile, aunque estén en desacuerdo."
+      }
+    ],
+    "Tipo_Limite": "OPINION_TRAS_CITA_CERRADA_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-6060",
+    "ID_Padre": 6060,
+    "Fecha": "2014-03-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "44d79739742e26d59bf29fd4bb5b867a6b891ec5bf26e858f19caa045da6d371",
+    "Inicio": 99,
+    "Fin": 604,
+    "Cita_Inicio": "En opinión del Gerente de Análisis Internacional señor Sergio Lehmann",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Vergara consulta por apreciación del euro; Lehmann responde por actividad, riesgos y spreads.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6060,
+        "Cita": "El Presidente señor Rodrigo Vergara consulta por las razones que explican la apreciación del euro."
+      },
+      {
+        "ID_Padre": 6060,
+        "Cita": "En opinión del Gerente de Análisis Internacional señor Sergio Lehmann, se aprecia que, en el margen, las noticias han sido algo mejores en materia de actividad, por lo que la percepción ha sido más positiva. En efecto, la apreciación dei euro respondería en parte a una leve revisión al alza de las proyecciones de actividad para la Zona Euro; una visión más positiva respecto de las economías periféricas, particularmente de España; mejoras en la clasificación de riesgo; y la disminución de los spreads."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-6308",
+    "ID_Padre": 6308,
+    "Fecha": "2014-07-15",
+    "Actor": "Rodrigo Vergara Montes",
+    "SHA256_Texto_Padre": "de05707a4bef7dfab0e52d8d551aee1072018d927d1a02e2af645345696ddeba",
+    "Inicio": 1831,
+    "Fin": 4137,
+    "Cita_Inicio": "En opinión del Presidente señor Rodrigo Vergara",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García evalúa rebalanceo y ajustes; Vergara aporta su balance internacional y posteriormente cede a Fuentes. Las referencias a Yellen son parte de su evaluación, no turnos locales.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6308,
+        "Cita": "terializado cambios significativos en las condiciones financieras, se ha producido un importante grado de ajuste en el crecimiento, en las tasas de interés domésticas y en el tipo de cambio; luego, mayor será este ajuste una vez que se concrete el alza de tasas externas. En consecuencia, si bien algunas economías emergentes se encuentran en mejor pie para enfrentar el alza de tasas, es posible que se produzca un ajuste aun mayor cuando Estados Unidos de América comience a subir su tasa rectora."
+      },
+      {
+        "ID_Padre": 6308,
+        "Cita": "En opinión del Presidente señor Rodrigo Vergara, resulta complejo hacer un balance del escenario internacional actual, toda vez que se observan aspectos positivos, pero también otros menos auspiciosos, y que además pueden variar repentinamente en uno u otro sentido. En cuanto a Estados Unidos de América, señala que las condiciones de financiamiento se mantienen muy positivas para su propio mercado y también para el resto del mundo, y que el mercado laboral ha dado sorpresas positivas. De hecho, destaca las últimas declaraciones de la Presidenta de la Reserva Federal señora Janet Yellen, quien, por primera vez, hizo referencia a la posibilidad de un avance más rápido en el mercado laboral, lo que podría traducirse en una anticipación del aumento de tasas antes y posibles efectos negativos sobre muchos países emergentes. Con respecto a China, manifiesta que los principales riesgos persisten, pero mantiene sus tasas de crecimiento en un nivel igual o levemente superior a lo anticipado. Europa, en cambio, exhibe un panorama más negativo, lo mismo que América Latina, donde las revisiones a la baja han sido significativas y reiteradas. Con todo, estima que las mejores noticias de Estados Unidos de América y China configuran un escenario en el margen algo más positivo. Además, hace notar la situación por la que atraviesa Perú, que en la medida que se consolide su desaceleración, explicada principalmente por el término del ciclo minero, sería semejante a la que se observó primero en Australia y luego en Chile. Acota que esta desaceleración es mucho mayor que la anticipada en dicho país. En materia de commodities, destaca que el precio del cobre es mayor que un mes atrás y que lo previsto; que de mantenerse, llevaría a una revisión de sus proyecciones; y que si bien su alza podría ser de carácter transitorio, también ha exhibido bastante resiliencia durante un período prolongado. Agrega que el precio de los alimentos han retrocedido y el del petróleo ha aumentado, y que este escenario de precios es algo más favorable para nuestra economía. No habiendo más consultas ni comentarios en lo concerniente al escenario internacional, el Presidente señor Rodrigo Vergara da paso a la exposición del escenario interno, a cargo del Gerente de Análisis Macroeconómico señor Miguel Fuentes."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-6447",
+    "ID_Padre": 6447,
+    "Fecha": "2014-10-16",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "599825c4dce422c925abe439ae377e9a55c0b7c71f25600d9449827f94d2fdc3",
+    "Inicio": 2830,
+    "Fin": 4526,
+    "Cita_Inicio": "En opinión del Consejero señor Pablo García",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Tras las preocupaciones de Vial sobre mercados y ébola, García analiza presiones de inflación y crecimiento y la debilidad de la demanda global.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6447,
+        "Cita": "se las proyecciones de la Organización Mundial de la Salud hacia fin de año, que apuntan a tasas de infección de 5 o 10 mil casos por semana en los países afectados por esta enfermedad, el contagio difícilmente se mantendrá restringido a ese grupo de países, con el consiguiente impacto sobre el consumo y confianza de consumidores, de manera análoga a lo observado con motivo de la gripe aviar, pero con la diferencia que esta epidemia probablemente demorará más tiempo en controlarse y eliminarse."
+      },
+      {
+        "ID_Padre": 6447,
+        "Cita": "En opinión del Consejero señor Pablo García, cabe preguntarse por la configuración de presiones inflacionarias y de crecimiento que subyacen al escenario internacional actual. En este sentido, destaca que los precios de los commodities acumulan una caída del orden del 30 a 35% respecto del año 2011, en tanto que el del cobre se ha corregido de manera más significativa, por lo que no debería continuar disminuyendo. En materia de crecimiento, expresa que después de una crisis, siempre se espera una recuperación con forma de montaña, seguida de un retorno a un crecimiento más tendencial y una inflación volviendo a sus niveles normales. No obstante, en el contexto actual, se advierte que esta montaña de crecimiento está finalizando en el mundo sin que la inflación haya llegado a nivel normal alguno, incluso con correcciones a la baja hacia adelante, siendo el caso de la Zona Euro quizás el más notorio. En este contexto, plantea que su preocupación por el sesgo a la baja en materia de inflación en nuestra proyección para el próximo año se justifica plenamente y, de cierta manera, valida el escenario con sesgo a la baja, pero con la sutileza de que ello responde a un problema de demanda más que a uno de carácter estructural o de crecimiento mundial. Hace notar que en el contexto actual, Estados Unidos de América es el único país que crece y además sin inflación, mientras el resto se corrige a la baja, lo que configura un escenario de mucha debilidad de crecimiento en las economías avanzadas y emergentes, con brechas que se amplían a nivel mundial, y con Estados Unidos de América que, con una tasa de crecimiento del orden de 3%, difícilmente podrá empujar al resto del mundo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-7063",
+    "ID_Padre": 7063,
+    "Fecha": "2015-10-15",
+    "Actor": "Rodrigo Valdés Pulido",
+    "SHA256_Texto_Padre": "114ed441c32c084d80d9a7ac2ac548d0219afaeee908358ba7ea16786c869b90",
+    "Inicio": 4659,
+    "Fin": 4966,
+    "Cita_Inicio": "En opinión del Ministro de Hacienda señor Rodrigo Valdés",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Gianelli presenta commodities y perspectivas de tasas; Valdés contrapone la relación de tasas largas con China y dólar, no con petróleo.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 7063,
+        "Cita": "a para cada año se han ido moviendo a la baja, particularmente a partir del momento en que comenzó a caer el precio del petróleo, lo que estaría indicando que los efectos desinflacionarios explicarían, en parte, la mantención de la tasa de instancia por parte de ese organismo. Acota que la Reserva Federal también ha ido corrigiendo a la baja la tasa de llegada o tasa neutral. De hecho, la mediana de las proyecciones de los miembros del Board ha caído 75 puntos base desde el año 2012 a la fecha."
+      },
+      {
+        "ID_Padre": 7063,
+        "Cita": "En opinión del Ministro de Hacienda señor Rodrigo Valdés, el nivel de las tasas de largo plazo no se relaciona con la evolución del precio del petróleo, sino que con la evolución de la economía china -a juicio de la Reserva Federal, el riesgo más importante­ y, en menor grado, con la apreciación del dólar."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-7066",
+    "ID_Padre": 7066,
+    "Fecha": "2015-10-15",
+    "Actor": "Beltrán de Ramón Acevedo",
+    "SHA256_Texto_Padre": "19dd9e44506c0a6875b2ce88187b3d9764ad1eb79755c7213c11e0a520f0c5b9",
+    "Inicio": 228,
+    "Fin": 455,
+    "Cita_Inicio": "En opinión del Gerente de División Operaciones Financieras señor Beltrán de Ramón",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García pregunta por CDS latinoamericanos; de Ramón explica contagio brasileño.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 7066,
+        "Cita": "El Consejero señor Pablo García consulta por los factores que explicarían el fuerte aumento de los CDS en América Latina durante la última semana, en circunstancias que el mercado pareciera estar yendo en direcciones distintas."
+      },
+      {
+        "ID_Padre": 7066,
+        "Cita": "En opinión del Gerente de División Operaciones Financieras señor Beltrán de Ramón, el aumento de los premios por riesgo en América Latina responde a un efecto contagio de la situación por la que atraviesa la economía brasileña."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-14",
+    "ID_Padre": 14,
+    "Fecha": "2005-01-11",
+    "Actor": "Esteban Jadresic Marinovic",
+    "SHA256_Texto_Padre": "6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab48e3519085",
+    "Inicio": 0,
+    "Fin": 822,
+    "Cita_Inicio": "El Gerente de División Internacional",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "La relativa en relación a lo que señala Herrera es mención; el predicado principal expresa y el desarrollo sobre compensación inflacionaria corresponden a Jadresic. Revisión acotada, sin retirar la guardia general contra verbos de subordinadas.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 14,
+        "Cita": "El Gerente de División Internacional, señor Esteban Jadresic, en relación a lo que señala el señor Herrera, expresa que al final el riesgo es relativo a quien está demandando los papeles, lo que quiere decir que en los papeles largos a diez años un inversionista debiera tener un riesgo. Agrega que la secuencia de inversión de papeles nominales más cortos o incluso de papeles largos, es más riesgoso que tener el papel real y eso quiere decir que la compensación inflacionaria en general debería ser menor que la expectativa de inflación implícita, porque hay que darle un premio adicional a los papeles nominales para poder satisfacer a los mismos demandantes. Entonces indica, sería normal, bajo esa hipótesis que la compensación inflacionaria esté bajo el 3%, si es que es una tasa creíble de inflación a largo plazo."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-2220",
+    "ID_Padre": 2220,
+    "Fecha": "2008-12-11",
+    "Actor": "Pablo García Silva",
+    "SHA256_Texto_Padre": "c647f47ec64ddaa910485cc65bd47e481e4aadd23ec31dc06255fe0e4085f899",
+    "Inicio": 0,
+    "Fin": 434,
+    "Cita_Inicio": "El señor Pablo García",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "García recuerda el ejercicio crediticio y demanda interna. El inciso no debe tomar el verbo de la relativa. Claro consulta después con sujeto propio, fuera de este intervalo.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2220,
+        "Cita": "El señor Pablo García, con el propósito de recordar cuál es el ejercicio que se efectuó respecto a la elaboración de las proyecciones, hace presente que se evaluó la respuesta de la economía al shock crediticio del tercer trimestre y parte del cuarto, suponiendo una reacción de la demanda interna parecida a la que se observó a principios del 98 y a la que se vio el año 2002, por lo tanto, factualmente será parecida la proyección."
+      },
+      {
+        "ID_Padre": 2220,
+        "Cita": "En cuanto a la información entregada por el Gerente de Análisis Macroeconómico respecto de la apreciación del tipo de cambio, el Consejero señor Sebastián Claro consulta si metodológicamente la convergencia de dicho tipo de cambio hacia los valores estimados en el modelo de mediano plazo, se produce a partir del sexto mes o siempre a contar del mes"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-2703",
+    "ID_Padre": 2703,
+    "Fecha": "2009-09-08",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "7584c8bd29e362e16b866d26c5b015051836c37361c096a590a53fde9c53b19c",
+    "Inicio": 0,
+    "Fin": 336,
+    "Cita_Inicio": "El señor Presidente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente plantea su pregunta sobre rentabilidad de bancos en un inciso largo; Cowan responde y Soto retoma. No atribuir ni cortar el desarrollo del expositor.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2703,
+        "Cita": "El señor Presidente, sosteniendo que la rentabilidad de los bancos en Chile, de entre 15 y 18%, es mucho más alta que en la gran mayoría de otros países y que los spreads son parecidos a nivel comercial, que es donde está el grueso del negocio, consulta de dónde provienen las utilidades, y si es acaso de sus actividades de tesorería."
+      },
+      {
+        "ID_Padre": 2703,
+        "Cita": "Al respecto, el señor Cowan señala que hay que tener presente que, en general, las rentabilidades en las economías emergentes son más volátiles y altas. Concuerda con que la economía se ha desarrollado ahora y que está en un período de volatilidad, pero que también hay riesgos que deben ser considerados y que, históricamente, ha sido una economía m"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-3262",
+    "ID_Padre": 3262,
+    "Fecha": "2010-07-15",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "6a4a3a629c984e1254b46026403b9657c6e9432e4dfa4a2b354dda79afb658ca",
+    "Inicio": 0,
+    "Fin": 260,
+    "Cita_Inicio": "El señor Vicepresidente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Vicepresidente recuerda una afirmación de Valdés, Gerente de Estudios de la época; no habla Valdés. Soto continúa su exposición después.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3262,
+        "Cita": "El señor Vicepresidente, recordando lo mencionado en alguna oportunidad por el señor Rodrigo Valdés, Gerente de División de Estudios de la época, señala que este fenómeno ya estaba ocurriendo antes, por lo que cabría considerar información anterior a ese año."
+      },
+      {
+        "ID_Padre": 3262,
+        "Cita": "El Gerente de Análisis Macroeconómico continúa, haciendo presente que la mayoría de los analistas y quienes respondieron las diferentes encuestas, piensan que el Consejo del Banco Central de Chile acordará un aumento de la tasa de política monetaria de 50 puntos base, y que solo unos pocos estiman que se optará por una reducción de 25 puntos base."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-4297",
+    "ID_Padre": 4297,
+    "Fecha": "2011-09-15",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "c06f51527a55eb27667f87de169c7ed0c266d425ab1fc9beb756e9a58ae96e2f",
+    "Inicio": 0,
+    "Fin": 831,
+    "Cita_Inicio": "A juicio del Vicepresidente señor Manuel Marfán",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán desarrolla su propia interpretación de liquidez/solvencia y pregunta por financiamiento en dólares. Lehmann responde en el padre siguiente.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4297,
+        "Cita": "A juicio del Vicepresidente señor Manuel Marfán, cuando existen problemas serios de liquidez, entonces la prima por liquidez, representada por el spread Libor - OIS, es más alta a menor plazo, como fue, por ejemplo, en Estados Unidos en su peor momento, inmediatamente después de Lehman Brothers. En otras palabras, sostiene que un crédito overnight o un crédito a un mes es mucho más caro, en términos de tasa anual, que uno a 4 o 6 meses. Al respecto, estima que, dada la actual estructura de tasas, el aumento en el costo del crédito obedece más a un tema de solvencia que de liquidez. En segundo término, solicita mayores antecedentes respecto de la provisión de financiamiento en dólares anunciada por el Banco Central Europeo, específicamente el monto involucrado y la razón por la que estaría proveyendo liquidez en dólares."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-6505",
+    "ID_Padre": 6505,
+    "Fecha": "2014-11-18",
+    "Actor": "Alberto Naudon Dell'Oro",
+    "SHA256_Texto_Padre": "fa5742308ae4d2bb9e981ce8c6772bbfc3cc0aa3d8daf53795769e8c6068b3e9",
+    "Inicio": 0,
+    "Fin": 2970,
+    "Cita_Inicio": "El Gerente de División Estudios señor Alberto Naudon",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Naudon responde sobre modelos y sorpresas inflacionarias hasta el cierre presidencial. Se conserva precede a responder como grafía literal; no se generaliza una corrección OCR.",
+    "Limitacion": "Intervalo leído con contexto pertinente en el consolidado; sin cotejo PDF ni revisión humana independiente. No certifica íntegramente el padre ni generaliza opiniones, cargos o identidades. Preservar OCR y retornos.",
+    "Evidencia": [
+      {
+        "ID_Padre": 6505,
+        "Cita": "El Gerente de División Estudios señor Alberto Naudon precede a responder las consultas y comentarios. En primer término, indica que la incertidumbre de la proyección es muy significativa, como queda de manifiesto al observar el franchart. En todo caso, comenta que la incertidumbre es menor para la inflación core, razón por la que los análisis se enfocan mayormente en esta variable y no en la inflación headline. En segundo lugar, señala que, en su opinión, no somos muy mecánicos respecto del uso de la brecha. Sobre este aspecto, manifiesta que la brecha, si bien es uno de los elementos considerados para realizar las proyecciones, no es el más importante y, por lo tanto, no determina completamente dichas proyecciones. De hecho, el utilizar los modelos MAS y MEP por separado apunta justamente a ello. El MEP es un modelo que depende mucho de la brecha, y es por ello que con este modelo la actividad e inflación son más bajas hacia adelante; el modelo MAS, en cambio, no la considera. Es más, si se calculara la brecha implícita en el MAS, esta sería positiva y, por lo tanto, la relativa baja inflación que tiene ese otro modelo no está explicada por la brecha, sino que por otros elementos. Sin perjuicio, de considerar no ser mecánicos respecto del uso de la brecha, señala que se podría avanzar en tratar de encontrar nuevos elementos y nuevas explicaciones de lo que está aconteciendo en la economía. A su juicio, es muy relevante efectuar el ejercicio de revisar en detalle lo que acontece con el IPC, atendida la importancia de entender la naturaleza de las distintas sorpresas para informar correctamente los modelos de proyección en adelante. En este sentido, plantea que es muy distinto cometer un error producto de un juicio equivocado que cometerlo por hechos exógenos identificables fácilmente y que no se repetirían en el futuro. Hace presente que el IPoM del mes de marzo, la estimación de la inflación core era de 2,8%, pero se corrigió fuertemente en el Informe siguiente hasta 3,7% debido a un error de juicio. En efecto, se consideró que las sorpresas inflacionarias negativas observadas especialmente en los meses de enero y febrero iban a ser de carácter persistente, atendidas las condiciones cíclicas de la economía en ese entonces, pero no lo fueron. Hubo un error de juicio, porque la inflación fue mayor en todos los bienes, no solamente en algunos componentes puntuales. Por el contrario, desde el mes de junio a la fecha, período en que la estimación de la inflación core se ha revisado desde 3,7 a 4,1%, hay un grado de error de juicio, pero concentrado básicamente en elementos puntuales. En su opinión, esa diferencia en la naturaleza de la sorpresa es esencial para efectos de las proyecciones del próximo IPoM. Expresa que, a diferencia de lo que ocurrió con ocasión de los Informes de junio o septiembre, las sorpresas inflacionarias, si bien son de importancia, no cambian de ninguna manera esencial el encuadre macro general."
+      },
+      {
+        "ID_Padre": 6505,
+        "Cita": "Al no formularse otros comentarios, siendo las 13:35 horas, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 16:00 horas para tratar lo referente a las opciones de política monetaria. A las 16:00 horas, se reanuda la Reunión de Política Monetaria Nº 216, incorporándose a esta Sesión el"
+      }
+    ]
   }
 ]

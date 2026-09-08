@@ -109,8 +109,8 @@ class LoopTenTests(unittest.TestCase):
             rows=[dict(ID_Intervencion='1',ID_Bloque_Texto='1',Fecha=self.raw[p]['Fecha'],Actor_Final=r[1],Texto=r[0],Fuente_Actor=r[2],Tipo_Acta='INTERVENCION',Motivos_Revision='')]
             annotate_turns(rows)
             self.assertFalse(rows[0]['ID_Ancla_Actor'])
-    def test_pending_quotation_and_joint_passages_not_forced(self):
-        self.assertFalse({4954,4923,3191,5367,5647,6185,780}&set(self.reviews))
+    def test_unresolved_joint_passages_not_forced(self):
+        self.assertFalse({3191,5367,5647,6185,780}&set(self.reviews))
     def test_5402_long_prefix_and_mixed_ocr_quotes_preserved(self):
         parts=self.parts(5402)
         self.assertEqual(len(parts[0][0]),5443)
@@ -156,7 +156,8 @@ FIXTURES = {343: {'hash': '9f9b7ffb3b62c9d672fa0edf604932839443641b609f8c1eebb0e
  2674: {'hash': 'd0bf1f145f07f3db3c185f7076213df875edad8f8c7939c209fd9dbbdae088aa',
         'parts': [('Claudio Soto Gamboa', 4095, 'SUJETO_NOMBRE'),
                   ('Kevin Cowan Logan', 386, 'SUJETO_ROL_NOMBRE'),
-                  ('Igal Magendzo Weinberger', 625, 'SUJETO_ROL_NOMBRE'),
+                  ('Igal Magendzo Weinberger', 237, 'SUJETO_ROL_NOMBRE'),
+                   ('Pablo García Silva', 387, 'SUJETO_ROL_SESION'),
                   ('Claudio Soto Gamboa', 635, 'SUJETO_ROL_NOMBRE'),
                   ('Enrique Marshall Rivera', 1159, 'CONTEXTO_REVISADO'),
                   ('Claudio Soto Gamboa', 889, 'SUJETO_ROL_SESION'),

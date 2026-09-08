@@ -60,14 +60,20 @@ SPEAKER_REVIEWS = ROOT/'data/curation/revisiones_hablantes.json'
 SPEAKER_REVIEW_SOURCE = 'CONTEXTO_REVISADO'
 
 
+def speaker_intervals(review):
+    """Interfaz compatible: un padre puede tener varios intervalos independientes."""
+    if not review:
+        return []
+    return [{k:v for k,v in review.items() if k != 'Revisiones_Adicionales'}] + review.get('Revisiones_Adicionales', [])
+
+
 def load_speaker_reviews(raw_by_id, path=SPEAKER_REVIEWS):
-    """Intervalos revisados explícitamente; no generaliza 'expositor' a otras filas."""
     entries = json.loads(Path(path).read_text(encoding='utf-8'))
     result, ids = {}, set()
-    for entry in entries:
+    def validate(entry):
         rid = entry['ID_Padre']
         target = raw_by_id.get(rid)
-        if rid in result or entry['Revision_ID'] in ids:
+        if entry['Revision_ID'] in ids:
             raise ValueError('Revisión de hablante duplicada')
         ids.add(entry['Revision_ID'])
         if not target or str(target['Fecha'])[:10] != entry['Fecha']:
@@ -75,7 +81,7 @@ def load_speaker_reviews(raw_by_id, path=SPEAKER_REVIEWS):
         text = str(target['Texto'])
         if text_hash(text) != entry['SHA256_Texto_Padre']:
             raise ValueError('Revisión de hablante: cambió el texto de origen')
-        if entry.get('Tipo_Limite') not in (None, 'COORDINACION_Y_EXPLICITA', 'CONCATENACION_EXPLICITA_REVISADA', 'RESPUESTA_A_LO_QUE_EXPLICITA', 'GERUNDIO_SENALANDO_EXPLICITO', 'CESION_RELATIVA_EXPLICITA', 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'):
+        if entry.get('Tipo_Limite') not in (None, 'COORDINACION_Y_EXPLICITA', 'CONCATENACION_EXPLICITA_REVISADA', 'RESPUESTA_A_LO_QUE_EXPLICITA', 'GERUNDIO_SENALANDO_EXPLICITO', 'CESION_RELATIVA_EXPLICITA', 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO', 'OPINION_TRAS_CITA_CERRADA_REVISADA'):
             raise ValueError('Tipo de límite revisado inválido')
         start, end = entry['Inicio'], entry['Fin']
         if not 0 <= start < end <= len(text) or not text[start:end].startswith(entry['Cita_Inicio']):
@@ -88,7 +94,31 @@ def load_speaker_reviews(raw_by_id, path=SPEAKER_REVIEWS):
                 raise ValueError('Evidencia de hablante fuera de sesión')
             if not ev['Cita'] or normalize_quote(ev['Cita']) not in normalize_quote(row['Texto']):
                 raise ValueError('Cita de hablante inexistente')
-        result[rid] = {**entry, '_Texto_Intervalo':text[start:end]}
+        return {**entry, '_Texto_Intervalo':text[start:end],
+                '_Inicio_Compacto':len(re.sub(r'\s+', '', text[:start]))}
+    for entry in entries:
+        rid = entry['ID_Padre']
+        if rid in result:
+            raise ValueError('Revisión de hablante duplicada')
+        extras = entry.get('Revisiones_Adicionales', [])
+        if not isinstance(extras, list):
+            raise ValueError('Intervalos adicionales inválidos')
+        validated = validate(entry)
+        compiled = []
+        end = entry['Fin']
+        for extra in extras:
+            if (not isinstance(extra, dict) or 'Revisiones_Adicionales' in extra
+                    or extra.get('ID_Padre') != rid or extra.get('Fecha') != entry['Fecha']
+                    or extra.get('SHA256_Texto_Padre') != entry['SHA256_Texto_Padre']):
+                raise ValueError('Intervalo adicional fuera de padre/fecha/hash')
+            item = validate(extra)
+            if item['Inicio'] < end:
+                raise ValueError('Intervalos revisados solapados o desordenados')
+            end = item['Fin']
+            compiled.append(item)
+        if extras:
+            validated['Revisiones_Adicionales'] = compiled
+        result[rid] = validated
     return result
 
 
@@ -98,23 +128,28 @@ def validate_speaker_reviews(rows, reviews):
     compact = lambda t: re.sub(r'\s+', '', t)
     for row in rows:
         if row['Fuente_Actor'] == SPEAKER_REVIEW_SOURCE:
-            entry = reviews.get(row['ID_Padre'])
-            if not entry or row['Actor_Final'] != entry['Actor'] or not compact(row['Texto']).startswith(compact(entry['Cita_Inicio'])):
+            applicable = [e for e in speaker_intervals(reviews.get(row['ID_Padre']))
+                          if row['Actor_Final']==e['Actor'] and compact(row['Texto']).startswith(compact(e['Cita_Inicio']))]
+            if len(applicable) != 1:
                 errors.append(f'ID {row["ID"]}: hablante revisado sin evidencia aplicable')
-    for rid, entry in reviews.items():
-        group = [r for r in rows if r['ID_Padre']==rid]
-        matches = [i for i,r in enumerate(group) if r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE]
-        if len(matches) != 1:
-            errors.append(f'{entry["Revision_ID"]}: falta inicio revisado único')
-            continue
-        expected = compact(entry['_Texto_Intervalo'])
-        actual = ''
-        for row in group[matches[0]:]:
-            if row['Actor_Final'] != entry['Actor']:
-                break
-            actual += compact(row['Texto'])
-            if len(actual) >= len(expected):
-                break
-        if actual != expected:
-            errors.append(f'{entry["Revision_ID"]}: intervalo revisado alterado')
+    for rid, root in reviews.items():
+        for entry in speaker_intervals(root):
+            group = [r for r in rows if r['ID_Padre']==rid]
+            matches = [i for i,r in enumerate(group) if r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE
+                       and r['Actor_Final']==entry['Actor'] and compact(r['Texto']).startswith(compact(entry['Cita_Inicio']))]
+            if len(matches) != 1:
+                errors.append(f'{entry["Revision_ID"]}: falta inicio revisado único')
+                continue
+            if ('_Inicio_Compacto' in entry and sum(len(compact(r['Texto'])) for r in group[:matches[0]]) != entry['_Inicio_Compacto']):
+                errors.append(f'{entry["Revision_ID"]}: inicio revisado desplazado')
+            expected = compact(entry['_Texto_Intervalo'])
+            actual = ''
+            for row in group[matches[0]:]:
+                if row['Actor_Final'] != entry['Actor']:
+                    break
+                actual += compact(row['Texto'])
+                if len(actual) >= len(expected):
+                    break
+            if actual != expected:
+                errors.append(f'{entry["Revision_ID"]}: intervalo revisado alterado')
     return errors

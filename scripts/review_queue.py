@@ -12,7 +12,7 @@ import re
 from pathlib import Path
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
-from curation import normalize_quote, SPEAKER_REVIEW_SOURCE
+from curation import normalize_quote, speaker_intervals, SPEAKER_REVIEW_SOURCE
 from procedural import FORMULA_REVIEWS
 from mention_reviews import annotation_for, FIELDS as MENTION_FIELDS
 
@@ -88,7 +88,8 @@ def track(rows, baseline, decisions, speaker_reviews=None):
             status='SEGMENTACION_O_ACTOR_MODIFICADO';kind='COMPARACION_AUTOMATICA'
             reason='Se modificó la atribución o un límite dentro del intervalo original; no se certifica pureza de todos los segmentos resultantes.'
             action='Contrastar los nuevos segmentos; mantener pendientes las alertas residuales.'
-            directed = speaker_reviews.get(old['ID_Padre'])
+            directed = next((e for e in speaker_intervals(speaker_reviews.get(old['ID_Padre']))
+                             if any(r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE and r['Actor_Final']==e['Actor'] for r in now)), None)
             if directed and any(r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE and r['Actor_Final']==directed['Actor'] for r in now):
                 status='CORRECCION_DIRIGIDA_APLICADA';kind='LECTURA_DIRIGIDA_POR_AGENTE'
                 reason=directed['Revision_ID']+': '+directed['Justificacion']+' Se adjudica el tramo documentado, no la pureza de todo el intervalo original.'
