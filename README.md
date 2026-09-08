@@ -1,79 +1,74 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.497 filas físicas de
-Excel / 9.496 bloques de texto**, con actor, cargo, trazabilidad y alertas.
+consolidado de 7.219 filas. La salida actual tiene **9.499 filas físicas de
+Excel / 9.498 bloques de texto**, con actor, cargo, trazabilidad y alertas.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
-**314 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
+**315 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.035 pruebas de regresión. Esto no certifica pureza semántica
-total.** Quedan **343 filas con alertas en 309 padres**. Los motivos se superponen
-y pueden ser falsos positivos; no son 343 errores confirmados ni filas todas sin leer.
+**F0 y F1 pasan, con 1.073 pruebas de regresión. Esto no certifica pureza semántica
+total.** Quedan **329 filas con alertas en 296 padres**. Los motivos se superponen;
+no son 329 errores confirmados ni filas todas sin leer.
 `SIN_ALERTAS_AUTOMATICAS` tampoco equivale a revisión humana.
 
-**Informe vigente:** [decimotercer bloque: anáforas y límites de acta](docs/REVISION_LOOP13_2026-09-08.md).
-Se abordaron **30 padres**: **12** con cambios estructurales (31 → 34 segmentos,
-**tres filas netas nuevas**), **17** con mejoras de metadatos de atribución y **uno**,
-3068, sólo de trazabilidad. Los otros **7.189 padres** no cambian semánticamente.
-Ver [comparación global](docs/comparacion_loop13_2026-09-08.json),
-[detalle CSV](docs/cambios_loop13_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop13_2026-09-08.json).
+**Informe vigente:** [decimocuarto bloque: exposiciones largas y cierres](docs/REVISION_LOOP14_2026-09-08.md).
+Se abordaron **20 padres**: **tres** estructurales (8 → 10 segmentos, dos filas
+netas nuevas), **16** con revisión de atribución y **2490** sólo de trazabilidad.
+Los otros **7.199 padres** no cambian semánticamente.
+Ver [comparación global](docs/comparacion_loop14_2026-09-08.json),
+[detalle CSV](docs/cambios_loop14_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop14_2026-09-08.json).
 
-Se añadieron **15 intervalos de hablante en 15 padres**, 14 de ellos nuevos en el
-registro: **192 intervalos en 188 padres**. Los 177 intervalos anteriores permanecen
-idénticos; 1923 recibe una revisión secundaria sin cambiar la anterior de Velasco.
-Se documentan las exposiciones de Valdés en **38–39, 120–121 y 264–265**, y respuestas
-breves de García, Lehmann y Soto, conservando presentaciones y retornos.
-La revisión de los 206 caracteres de 506 no certifica todo ese extenso padre.
+Se añadieron **16 intervalos en 16 padres nuevos del registro**:
+**208 intervalos en 204 padres**. Los 192 intervalos anteriores y sus evidencias
+permanecen idénticos. Se leyeron diez exposiciones completas de Valdés,
+recomendaciones de García y Jadresic y una respuesta de Lehmann, manteniendo
+párrafos, numeraciones y retornos. **351/727 sólo reciben revisión de sus
+introducciones de 61 caracteres**, no de todas las series posteriores.
 
-En **2438/2839/3126/3205** el código formal del acuerdo queda con el acta, no con
-el discurso presidencial. Las aperturas con hora y sujeto explícito se distinguen
-de las reanudaciones narrativas. En **3881** se preserva la asistencia como acta;
-en **3421**, la revisión previa de los 797 caracteres de agradecimiento.
+En **2489/2538** el cierre explícito de De Gregorio queda separado de la
+reanudación institucional. En **3269** se reconoce la apertura presidencial;
+no se convierte al ministro que recibe la bienvenida en hablante. Las nuevas
+locuciones exigen sujeto/predicado y actúan como barreras de continuidad.
+«Se levanta la Sesión» impersonal sigue siendo acta. El OCR no se reescribe.
 
-**3110 es una continuación de acta, no una intervención de Orellana.** Su nuevo
-[registro específico](data/curation/revisiones_continuaciones_acta.json) congela
-padre y antecedente inmediato por texto/hash. «Comunicado oportunamente» no es
-un comunicado de política monetaria. No se habilita herencia institucional global.
+**Dos nuevos avisos:** texto dañado en **587** y discrepancia de cargo en **836**.
+Identificar al expositor no resuelve el daño ni certifica un cargo textual.
+Los trece avisos anteriores siguen intactos, incluidos **4433**, **6443**, los
+residuos colectivos y las discrepancias de 180/5573/6282.
 
-**Tres nuevas advertencias de cargo** en 180/5573/6282: identificar al hablante
-por su nombre no confirma un cargo textual que difiere de la nómina. Las diez
-advertencias anteriores quedan intactas, incluidas **4433** y **6443**, los residuos
-colectivos y los daños. No se elige identidad de Ricaurte por proximidad ni tema.
-
-**Todos los enlaces previos entre padres y los grupos no afectados están
-preservados**, incluidas las dos exposiciones de García de once filas. Sin enlaces
-nuevos ni retirados; el grupo de varias filas adicional está dentro de 3881.
+**Todos los enlaces previos entre padres y grupos no afectados se preservan**,
+incluidas las dos exposiciones de García de once filas. Sin enlaces nuevos ni
+retirados; el grupo adicional está dentro de **2489**, no entre padres.
 `CONTEXTO_REVISADO` no crea anclas y `Fin` por sí solo no crea cortes.
+Se mantienen la revisión previa de 797 caracteres de 3421 y **3110 como
+continuación de acta**, no Orellana ni comunicado de política monetaria.
 
-Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara mantienen
-**autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo documental y aviso.
-**No acreditan asistencia ni habla oral del autor.** Se conservan el
+Los tres escritos de Larraín leídos por Vergara conservan **autor ≠ lector**,
+sin inferir asistencia ni habla oral del autor. Se mantienen el
 [CSV documental](data/processed/documentos_leidos.csv), los esquemas XLSX 37/24,
-las once menciones actuales y las 21 fórmulas revisadas. Se verificaron 64 hashes
-de entradas/código y 11 de salidas tras la publicación.
+las once menciones actuales y las 21 fórmulas revisadas. Se verificaron **65 hashes
+de entradas/código y 11 de salidas**; la publicación coincide con el ensayo aislado.
 
-De las 783 alertas históricas, **131** siguen pendientes de lectura contextual,
-58 son fórmulas, **302** métodos actualizados, **170** cambios por comparación y
-**98** correcciones dirigidas; siete breves válidos, ocho menciones históricas,
-seis identidades, dos repeticiones y una continuidad documentada.
-**No es una revisión exhaustiva.** Las once menciones actuales se cuentan aparte.
-Alertas **359 → 343**; atribución legada **16 → 8**; anáfora **43 → 32**.
-La bajada histórica **150 → 131** incluye comparaciones/triage automáticos,
-no 19 lecturas humanas ni cierres integrales.
+Alertas **343 → 329**; anáforas **32 → 16**; atribución legada permanece en ocho.
+De las 783 alertas históricas, **117** siguen pendientes de lectura contextual.
+La bajada histórica **131 → 117** es clasificación automática de intervalos,
+no 14 lecturas humanas ni cierres integrales; no sustituye las 16 lecturas
+acotadas registradas en esta pasada. Los conteos actuales e históricos se
+superponen: **no se suman**. Las once menciones actuales no son las ocho históricas.
 
-Siguen **780/6185**, los residuos parcialmente separados en 3191/5367, identidades,
-daños y otras alertas. **No son el total pendiente.** Falta cotejo de originales
-en casos ambiguos/dañados y una muestra independiente con y sin alertas.
-No hubo nuevo cotejo PDF en esta pasada.
+Siguen 780/6185, residuos de 3191/5367, identidades, daños y otras alertas.
+**No son el total pendiente.** Falta cotejo de originales en casos ambiguos y
+una muestra independiente con y sin alertas. No hubo nuevo cotejo PDF ni
+lectura exhaustiva del corpus.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo en segundo plano.** El [informe anterior](docs/REVISION_LOOP12_2026-09-08.md)
-conserva **9.494 filas / 359 alertas / 975 pruebas**. Verificaciones locales:
-el workflow propuesto de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
+**No hay proceso activo en segundo plano.** El [informe anterior](docs/REVISION_LOOP13_2026-09-08.md)
+conserva **9.497 filas / 343 alertas / 1.035 pruebas**. Verificaciones locales:
+el workflow de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline
 

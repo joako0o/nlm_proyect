@@ -143,7 +143,7 @@ FIXTURES = {81: {'hash': 'f90369e73f9c615d024061e1f00d851e9f6c5badf8d839df77fda1
         'parts': [('Manuel Marfán Lewis', 258, 'SUJETO_ROL_NOMBRE')]},
  3269: {'hash': '445405ded961630c8adf14a97808353da4cb503509b96ef3991f63d8545c6df3',
         'parts': [('José De Gregorio Rebeco', 96, 'SUJETO_ROL_NOMBRE'),
-                  ('Consejo del Banco Central de Chile', 247, 'ACTA/META')]},
+                  ('José De Gregorio Rebeco', 247, 'SUJETO_ROL_NOMBRE')]},
  3283: {'hash': '41900b75d3b72836b4039bc9a4847dcd8289b0cf4600e40c77faf946b33ec2e7',
         'parts': [('José De Gregorio Rebeco', 140, 'SUJETO_ROL_NOMBRE')]},
  3328: {'hash': 'a57a126f7057d8456abecec3f31fa577474ac2049e19150e8b9782503bed9226', 'parts': [('José De Gregorio Rebeco', 142, 'SUJETO_ROL_NOMBRE'), ('José De Gregorio Rebeco', 245, 'SUJETO_ROL_NOMBRE'), ('Pablo García Silva', 449, 'SUJETO_ROL_SESION')]},

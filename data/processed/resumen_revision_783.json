@@ -1,12 +1,12 @@
 {
   "cola_original": 783,
-  "alertas_actuales": 343,
+  "alertas_actuales": 329,
   "menciones_actuales_documentadas": 11,
   "estados": {
-    "METODO_ACTUALIZADO": 302,
+    "METODO_ACTUALIZADO": 315,
     "FORMULA_PROCEDIMENTAL_RECLASIFICADA": 58,
-    "PENDIENTE_LECTURA_CONTEXTUAL": 131,
-    "SEGMENTACION_O_ACTOR_MODIFICADO": 170,
+    "PENDIENTE_LECTURA_CONTEXTUAL": 117,
+    "SEGMENTACION_O_ACTOR_MODIFICADO": 171,
     "BREVE_VALIDO_REVISADO": 7,
     "CORRECCION_DIRIGIDA_APLICADA": 98,
     "MENCION_LEGITIMA_REVISADA": 8,
@@ -15,11 +15,11 @@
     "CONTINUIDAD_ENTRE_PADRES_REVISADA": 1
   },
   "tipo_revision": {
-    "COMPARACION_AUTOMATICA": 472,
+    "COMPARACION_AUTOMATICA": 486,
     "LECTURA_DIRIGIDA_POR_AGENTE": 174,
-    "TRIAJE_AUTOMATICO": 137
+    "TRIAJE_AUTOMATICO": 123
   },
-  "filas_originales_con_alertas_actuales": 303,
+  "filas_originales_con_alertas_actuales": 290,
   "nota": "Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.",
   "sha256_base_original": "bf557454bcea140a28d58d10fbb0962d4b8eab0558b5229a76e069f421c8a629"
 }

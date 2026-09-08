@@ -30,8 +30,8 @@ class LoopElevenTests(unittest.TestCase):
     def rows(self,p):
         return [dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p))]
     def test_root_and_interval_counts_are_distinct(self):
-        self.assertEqual(len(self.reviews),188)
-        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),192)
+        self.assertEqual(len(self.reviews),204)
+        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),208)
         self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{1923,2622,4923,5367})
     def test_empty_and_single_review_compatibility(self):
         self.assertEqual(speaker_intervals(None),[])
@@ -134,7 +134,7 @@ class LoopElevenTests(unittest.TestCase):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{180,5573,6282,4433,6443,3191,5367,2126,3989,2661,2704,2667,3107})
+        self.assertEqual(set(warnings),{180,5573,6282,4433,6443,3191,5367,2126,3989,2661,2704,2667,3107,587,836})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''
@@ -164,7 +164,7 @@ class LoopElevenTests(unittest.TestCase):
 FIXTURES = {14: {'hash': '6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab48e3519085',
       'parts': [('Esteban Jadresic Marinovic', 822, 'CONTEXTO_REVISADO')]},
  178: {'hash': '652f4f30978b72c57dba90549181aedf6c1e6c6dfcdc80b4c72295d2868a45c4',
-       'parts': [('Rodrigo Valdés Pulido', 6176, 'ANAFORA_LOCAL'),
+       'parts': [('Rodrigo Valdés Pulido', 6176, 'CONTEXTO_REVISADO'),
                  ('Vittorio Corbo Lioi', 69, 'SUJETO_ROL_NOMBRE')]},
  641: {'hash': '7d8b40fbdb92b4a37db1c001784df62a618c1242134f8ab827492bd3369b80b1',
        'parts': [('Manuel Marfán Lewis', 251, 'SUJETO_ROL_NOMBRE'),

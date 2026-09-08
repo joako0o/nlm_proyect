@@ -692,7 +692,10 @@ def _inst_transition(sent):
         return True
     if re.match(r'^luego de un intercambio de opiniones, se acuerda que\b', t):
         return True
-    if sent.strip() == _DAMAGED_REOPENING:
+    if sent.strip() in (_DAMAGED_REOPENING,
+            # 2489: número de sesión desplazado por OCR. Fórmula literal,
+            # no permiso general para anteponer números/basura a un relato.
+            'N° 137, Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria'):
         return True
     if t.startswith(('siendo las','se levanta','se reanuda','se suspende','se retiran',
                      'se retira','se incorpora','se acuerda','comunicado','acuerdo n',

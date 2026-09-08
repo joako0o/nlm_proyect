@@ -47,6 +47,7 @@ VERBS = (
     'admite', 'tiende a compartir', 'tiende a coincidir', 'suscribe plenamente', 'da la bienvenida',
     'proporciona un comentario', 'hace un comentario', 'efectua varias reflexiones',
     'da por finalizada la sesion', 'da por concluida la sesion',
+    'pone termino a la sesion', 'abre la sesion',
     'da inicio a la reunion de politica monetaria',
     'hace enfasis', 'pone enfasis', 'hace la salvedad', 'clarifica', 'especifica',
     'colige', 'deduce', 'calcula', 'compara', 'disiente', 'no descarta', 'no advierte',
