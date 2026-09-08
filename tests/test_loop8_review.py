@@ -124,7 +124,9 @@ class LoopEightTests(unittest.TestCase):
         self.assertIsNone(b.TURN_DETECTOR.speaker(r['Texto'],r['Fecha']))
         self.assertEqual(b.detect(r['Texto'],r['Fecha'])[0],'Esteban Jadresic Marinovic')
     def test_joint_priority_cases_remain_unadjudicated(self):
-        self.assertFalse({3191,5367,5647,6185}&set(self.reviews))
+        self.assertFalse({6185}&set(self.reviews))
+        for p in [3191,5367]:
+            self.assertGreater(self.reviews[p]["Inicio"],0)  # el prefijo conjunto no se adjudica
 
 FIXTURES = {14: {'hash': '6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab48e3519085',
       'parts': [('Esteban Jadresic Marinovic', 822, 'CONTEXTO_REVISADO')]},

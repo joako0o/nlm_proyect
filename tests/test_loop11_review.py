@@ -30,9 +30,9 @@ class LoopElevenTests(unittest.TestCase):
     def rows(self,p):
         return [dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p))]
     def test_root_and_interval_counts_are_distinct(self):
-        self.assertEqual(len(self.reviews),158)
-        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),160)
-        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{2622,4923})
+        self.assertEqual(len(self.reviews),174)
+        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),177)
+        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{2622,4923,5367})
     def test_empty_and_single_review_compatibility(self):
         self.assertEqual(speaker_intervals(None),[])
         single=self.reviews[4706]
@@ -128,13 +128,13 @@ class LoopElevenTests(unittest.TestCase):
             rows=[dict(ID_Intervencion='1',ID_Bloque_Texto='1',Fecha=self.raw[4923]['Fecha'],Texto=t,Actor_Final=a,Fuente_Actor=m,Tipo_Acta='INTERVENCION',Motivos_Revision='')]
             annotate_turns(rows);self.assertFalse(rows[0]['ID_Ancla_Actor'])
     def test_ricaurte_and_joint_priorities_remain_unadjudicated(self):
-        self.assertFalse({6443,3191,5367,5647,6185,780,2126}&set(self.reviews))
+        self.assertFalse({6443,6185,780,2126}&set(self.reviews))
 
     def test_both_context_warning_scopes_validate_without_certifying_actor(self):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{4433,6443})
+        self.assertEqual(set(warnings),{4433,6443,3191,5367,2126,3989,2661,2704,2667,3107})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''

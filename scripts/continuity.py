@@ -4,6 +4,7 @@ Nunca se fusiona ni se borra el texto de origen. Se documenta una relación entr
 filas contiguas. La proximidad o la coincidencia de nombres, por sí solas, no
 son evidencia suficiente para reasignar al actor de una fila.
 """
+from context_warnings import has_context_warning
 import re
 from turns import normalize
 
@@ -109,8 +110,7 @@ def annotate_turns(rows):
                    ID_Antecedente_Continuidad=antecedent, ID_Ancla_Actor=anchor)
         row['_blocks_continuity'] = (institutional or boundary(text) or
             'POSIBLE_OTRO_HABLANTE_O_MENCION' in (row.get('Motivos_Revision') or '') or
-            'HABLANTES_POR_IDENTIDAD_PENDIENTE' in (row.get('Motivos_Revision') or '') or
-            'CARGO_EN_DISCURSO_POR_VERIFICAR' in (row.get('Motivos_Revision') or '') or
+            has_context_warning(row.get('Motivos_Revision')) or
             source not in EXPLICIT | CONTINUED)
         last = row
     for row in rows:

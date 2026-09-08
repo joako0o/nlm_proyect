@@ -108,7 +108,9 @@ class LoopNineTests(unittest.TestCase):
             self.assertIn('da la bienvenida',parts[-1][0])
             self.assertIn('concede la palabra',parts[-1][0])
     def test_pending_joint_passages_not_solved_by_opinion_reviews(self):
-        self.assertFalse({780,3191,5367,5647,6185,2126}&set(self.reviews))
+        self.assertFalse({780,6185,2126}&set(self.reviews))
+        for p in [3191,5367]:
+            self.assertGreater(self.reviews[p]["Inicio"],0)  # el prefijo conjunto no se adjudica
 
 FIXTURES = {81: {'hash': 'f90369e73f9c615d024061e1f00d851e9f6c5badf8d839df77fda14d16d05dce',
       'parts': [('Jorge Desormeaux Jiménez', 767, 'SUJETO_ROL_NOMBRE')]},

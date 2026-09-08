@@ -192,9 +192,10 @@ class LoopFourTests(unittest.TestCase):
 
     def test_5647_new_warning_is_not_automatic_adjudication(self):
         from review_flags import review_reasons
-        parts = self.parts(5647)
+        r = self.raw[5647]
+        parts = b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
         self.assertEqual([a for t, a, m in parts], ['Rodrigo Vergara Montes'])
-        self.assertNotIn(5647, self.reviews)
+        self.assertEqual([a for t,a,m in self.parts(5647)], ['Rodrigo Vergara Montes','Sergio Lehmann Beresi'])
         row = dict(Texto=parts[0][0], Actor_Final=parts[0][1], Fecha=self.raw[5647]['Fecha'],
                    Fuente_Rol='LISTA_ASISTENCIA', Fuente_Actor=parts[0][2], Duplicado_Exacto='NO')
         self.assertIn('POSIBLE_OTRO_HABLANTE_O_MENCION', review_reasons(row, b.TURN_DETECTOR, b.split_sentences))

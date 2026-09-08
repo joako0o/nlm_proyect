@@ -135,7 +135,9 @@ class LoopThreeTests(unittest.TestCase):
             self.assertTrue(errors)
     def test_joint_3191_is_not_adjudicated_by_single_person_assumption(self):
         # Protección de alcance, no certificación de la atribución heredada.
-        self.assertNotIn(3191,self.reviews)
+        self.assertEqual(self.reviews[3191]["Actor"],"Pablo García Silva")
+        self.assertTrue(self.reviews[3191]["Cita_Inicio"].startswith("Al finalizar esta discusión"))
+        self.assertGreater(self.reviews[3191]["Inicio"],0)
         self.assertIn('el señor Presidente y el señor Claudio Soto coinciden',self.raw[3191]['Texto'])
 
 SOURCE_HASHES = {2768: '6249b0589812347de7c4a9bb5b20e4f78fd9e7137e406a91811116666095b30a', 3147: '89cda9f19ba68255595049376f5a771810604217912df600004dd509e382e5f4', 3191: 'd596d82b964da0af1585fba5293a53767bd77dc6dcf311807f1f4ac82401803d', 3303: '87b8e9aa37152b24797ed4c93baeb38b87bf5844764b2c36071d6d00ed642f66', 3421: 'f6f8d7474b7739072034ce6d15db2f7fa6fbf1ee9366cdd00b671fb35a2179cc', 3476: '38f69a35061dc74e623eb090222b575626caec6a937a3c883c8ec4512d8462ea', 3571: '2152c6d07d89fa7f4ec211ef52b1c67b22a33cb94c8fa0dcfd7a4552e8bfc979', 3650: '410a0347656717088cf9a46b2d5ce4841b634d1580e69b47bfd9eab0cdb7a8c4', 3651: '93271dab9f9aa8b4ba85182d596a89cddb8cae6e4fd2751a192b98748239a44f', 3737: '8a1dc0c8274d61739404f534249c49b02693a31ddcbcaf3790d8a17db0330cd6'}

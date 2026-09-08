@@ -841,7 +841,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA")):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA")):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
@@ -857,11 +857,17 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 fragment = 'señala' + fragment[len('señalando'):]
             coordinated = review.get('Tipo_Limite') == 'COORDINACION_Y_EXPLICITA'
             concatenated = review.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA'
-            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA'
+            causal_reply = review.get('Tipo_Limite') == 'RESPUESTA_POR_LO_QUE_EXPLICITA'
+            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA' or causal_reply
             if reply:
                 # Excepción individual: conservar el conector, sin inventar coma.
-                if not re.match(r'^a lo que\s+(?:el|la)\s+', fragment) or not prefix or not prefix[-1].isspace():
+                lead = 'por lo que' if causal_reply else 'a lo que'
+                if (not re.match(r'^'+lead+r'\s+(?:el|la)\s+', fragment) or not prefix or not prefix[-1].isspace()
+                        or (causal_reply and not prefix.rstrip().endswith(','))):
                     raise ValueError("Revisión de respuesta sin límite válido")
+                if causal_reply:
+                    # Proyección para reconocer el sujeto; el conector literal se conserva.
+                    fragment = fragment[len(lead):].lstrip()
             if concatenated:
                 # Texto dañado sin separador: sólo el intervalo con hash/citas.
                 # No completar la frase anterior ni generalizar a mayúsculas.
@@ -899,6 +905,24 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 raise ValueError("Revisión de hablante sin actor/límite válido")
             bounds = sorted({0,len(text),review["Inicio"]} | {a for a,b in spans} | {b for a,b in spans})
             spans = list(zip(bounds,bounds[1:]))
+    # Opt-in con cita y hash: Fin solo NO crea cortes. Esta excepción conserva
+    # una identificación explícita posterior del mismo expositor, sin convertir
+    # CONTEXTO_REVISADO en ancla ni inventar un cambio de persona.
+    explicit_review_ends = set()
+    for entry in intervals:
+        if 'Cita_Ancla_Posterior' not in entry:
+            continue
+        end = entry['Fin']
+        tail = text[end:]
+        anchor_quote = entry['Cita_Ancla_Posterior']
+        prefix = text[:end]
+        candidate = TURN_DETECTOR.speaker(tail, date)
+        quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')
+        if (not isinstance(anchor_quote, str) or not anchor_quote or not tail.startswith(anchor_quote)
+                or end not in {a for a,b in spans} or quoted or not candidate
+                or candidate['actor'] != entry['Actor'] or candidate['method'] not in EXPLICIT):
+            raise ValueError('Ancla posterior revisada sin sujeto explícito compatible')
+        explicit_review_ends.add(end)
     author = TURN_DETECTOR.minute_author(text,date)
     if author:
         return bound_segments([(text,author,'ENCABEZADO_MINUTA')])
@@ -942,7 +966,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 source = 'ANAFORA_CONTINUIDAD'
         else:
             continue
-        if who != actor and a > start:
+        if (who != actor or a in explicit_review_ends) and a > start:
             segments.append((text[start:a].strip(), actor, method))
             start, method = a, None
         actor = who

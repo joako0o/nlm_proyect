@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 
 from review_queue import build_report
-from context_warnings import load_context_warnings, validate_context_warnings
+from context_warnings import load_context_warnings, validate_context_warnings, has_context_warning
 from document_reviews import load_document_reviews, validate_document_reviews, FIELDS as DOCUMENT_FIELDS
 from mention_reviews import load_mention_reviews, validate_mention_reviews, annotation_for, FIELDS as MENTION_FIELDS
 from procedural import is_formula, load_formula_reviews
@@ -130,8 +130,7 @@ def validate_continuity(rows):
             elif (previous['Actor_Final'] == builder.CONSEJO or previous.get('Tipo_Acta')
                   or boundary(previous['Texto']) or
                   'POSIBLE_OTRO_HABLANTE_O_MENCION' in (previous.get('Motivos_Revision') or '') or
-                  'HABLANTES_POR_IDENTIDAD_PENDIENTE' in (previous.get('Motivos_Revision') or '') or
-                  'CARGO_EN_DISCURSO_POR_VERIFICAR' in (previous.get('Motivos_Revision') or '')):
+                  has_context_warning(previous.get('Motivos_Revision'))):
                 errors.append(f'ID {rid}: continuidad atraviesa barrera')
         elif previous and previous.get('ID_Turno') == turn:
             errors.append(f'ID {rid}: turno compartido sin antecedente')

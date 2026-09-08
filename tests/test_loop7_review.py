@@ -93,7 +93,9 @@ class LoopSevenTests(unittest.TestCase):
             self.assertFalse(is_formula(t+' Recomienda reducir la tasa de política monetaria.'))
             self.assertFalse(is_formula('La situación económica es compleja. '+t))
     def test_joint_and_ambiguous_cases_are_not_reviewed_as_single_speaker(self):
-        self.assertFalse({3191,5367,5647,6185}&set(self.reviews))
+        self.assertFalse({6185}&set(self.reviews))
+        for p in [3191,5367]:
+            self.assertGreater(self.reviews[p]["Inicio"],0)  # el prefijo conjunto no se adjudica
     def test_long_6185_is_not_split_on_conforme_senala(self):
         parts=self.parts(6185)
         self.assertEqual(len(parts),1)

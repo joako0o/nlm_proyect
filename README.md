@@ -1,45 +1,48 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de un
-consolidado de 7.219 filas. La salida actual tiene **9.489 filas físicas de
-Excel / 9.488 bloques de texto**, con actor, cargo, trazabilidad y alertas.
+consolidado de 7.219 filas. La salida actual tiene **9.494 filas físicas de
+Excel / 9.493 bloques de texto**, con actor, cargo, trazabilidad y alertas.
 Una intervención extensa ocupa dos filas por el límite de XLSX. Además,
 **313 grupos comparten varias filas bajo un mismo `ID_Turno`**, con hasta
 11 filas consecutivas en una exposición; no se fusionan los registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 930 pruebas de regresión. Esto no certifica pureza semántica
-total.** Quedan **368 filas con alertas en 334 padres**. Los motivos se superponen
-y pueden ser falsos positivos; no son 368 errores confirmados.
+**F0 y F1 pasan, con 975 pruebas de regresión. Esto no certifica pureza semántica
+total.** Quedan **359 filas con alertas en 323 padres**. Los motivos se superponen
+y pueden ser falsos positivos; no son 359 errores confirmados.
 `SIN_ALERTAS_AUTOMATICAS` tampoco equivale a revisión humana.
 
-**Informe vigente:** [undécimo bloque: varios intervalos y citas cerradas](docs/REVISION_LOOP11_2026-09-08.md).
-Dos ciclos produjeron cambios en **29 padres**: **19** estructurales
-(43 → 66 segmentos, **23 filas nuevas**) y **10** sólo de metadatos, sin cambiar
-sus textos ni actores. Los otros **7.190 padres** no tienen cambios semánticos
-en esta pasada. Ver [comparación global](docs/comparacion_loop11_2026-09-08.json)
-y [detalle CSV](docs/cambios_loop11_2026-09-08.csv).
+**Informe vigente:** [duodécimo bloque: separaciones parciales y continuidad](docs/REVISION_LOOP12_2026-09-08.md).
+Dos ciclos abordaron **22 padres**: **tres** con cambios estructurales
+(3 → 8 segmentos, **cinco filas nuevas**) y **19** sólo de metadatos.
+Estos últimos son 13 atribuciones antiguas documentadas y seis advertencias de
+residuos, no 19 separaciones corregidas. Los otros **7.197 padres** no cambian
+semánticamente. Ver [comparación global](docs/comparacion_loop12_2026-09-08.json)
+y [detalle CSV](docs/cambios_loop12_2026-09-08.csv).
 
-Se añadieron **22 intervalos revisados en 20 padres**. El registro ahora admite
-varias revisiones independientes dentro de un mismo párrafo, con sus propios
-límites, citas e identificadores: **160 intervalos en 158 padres**. Las 138 entradas
-anteriores están intactas. En **4923** se distinguen Soto → Vergara → Marshall;
-en **4954**, Marfán → Soto, que cita la pregunta de la encuesta → Marfán.
-No se generalizan cortes por comillas ni por cualquier «En opinión».
+Se añadieron **17 intervalos revisados en 16 padres**: ahora hay **177 intervalos
+en 174 padres**, con las 158 entradas anteriores intactas. En **5367** se separan
+Herrera → Fuentes → Claro después de la presentación; la solicitud colectiva
+anterior permanece advertida. En **3191** se recupera el cierre de García, pero
+no se adjudica a una sola persona el prefijo de Marshall/Claro/Presidente/Soto.
+En **5647**, Vergara observa una discrepancia y Lehmann responde y continúa.
+No hay corte global ante cualquier causal, opinión, cita o mención.
 
-Se recuperan respuestas y opiniones, conservando exposiciones y retornos.
-Todos los enlaces anteriores y las exposiciones de once filas se mantienen;
-no se añadieron ni retiraron enlaces. Las revisiones contextuales no crean anclas
-por sí solas. El [checkpoint](docs/estado_revision_loop11_2026-09-08.json) registra
-alcance y pendientes. Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3);
-**no hay proceso activo en segundo plano**.
+El primer ensayo perdía el enlace correcto **2790 → 2791, Soto**, y fue rechazado.
+El segundo conserva el sujeto nominal posterior mediante una cita/límite
+revisados, sin convertir `CONTEXTO_REVISADO` en ancla. **Todos los enlaces previos,
+los grupos no afectados y las exposiciones de once filas están preservados**;
+sin enlaces nuevos ni retirados. `Fin` por sí solo no crea cortes.
 
-**6443 ahora tiene advertencia visible:** el bloque mezcla a de Ramón, García y una
-presentación de Ricaurte con identidad ambigua. Su atribución completa a de Ramón
-no está validada; queda pendiente de separación/contraste y se bloquea continuidad.
-No se fusionan las variantes de Ricaurte. Continúa también la advertencia de cargo
-en **4433**, sin reasignar por tema a Soto los 705 caracteres provisionales de Lehmann.
+**Ocho advertencias contextuales nuevas**, diez en total: seis pasajes conjuntos
+y dos daños textuales, además de las dos anteriores. Alcances y hashes exactos;
+no se inventan palabras ni participantes. Las revisiones previas de hablante en
+2661/2667/2704/3107 se conservan: no certifican los residuos aún pendientes.
+**6443 sigue alertado, no resuelto**; no se elige una identidad de Ricaurte.
+Continúa el aviso de cargo en **4433**, sin reasignar por tema los 705 caracteres
+provisionales de Lehmann. Ver [checkpoint](docs/estado_revision_loop12_2026-09-08.json).
 
 Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara mantienen
 **autor y lector distintos**, tipo `OPINION_ESCRITA`, cargo documental y aviso.
@@ -47,26 +50,24 @@ Los tres escritos de Felipe Larraín leídos por Rodrigo Vergara mantienen
 [CSV documental](data/processed/documentos_leidos.csv), los esquemas XLSX 37/24,
 las once menciones actuales y las 21 fórmulas revisadas.
 
-De las 783 alertas históricas, **163** siguen pendientes de lectura contextual,
-58 son fórmulas, **274** métodos actualizados, **171** cambios por comparación y
-**93** correcciones dirigidas; siete breves válidos, ocho menciones históricas,
+De las 783 alertas históricas, **150** siguen pendientes de lectura contextual,
+58 son fórmulas, **285** métodos actualizados, **169** cambios por comparación y
+**97** correcciones dirigidas; siete breves válidos, ocho menciones históricas,
 seis identidades, dos repeticiones y una continuidad documentada.
 **No es una revisión exhaustiva.** Las once menciones actuales se cuentan aparte.
+Alertas **368 → 359**; atribución legada **29 → 16**. El descenso histórico
+**163 → 150** incluye cambios automáticos, no trece lecturas humanas ni cierres integrales.
 
-Alertas **372 → 368**; atribución legada **38 → 29**. Se mantienen las alertas que
-surgen al separar límites y se añade la advertencia de 6443: no se ocultan para
-mejorar el total. El descenso histórico **170 → 163** incluye cambios automáticos;
-no representa siete lecturas humanas ni cierres semánticos.
+Del filtro anterior quedan **780 y 6185** sin adjudicar; 3191 y 5367 son parciales
+con residuos advertidos. **No son el total pendiente.** Falta una muestra
+independiente con y sin alertas y cotejo de originales en casos ambiguos/dañados.
+No hubo nuevo cotejo PDF en esta pasada.
 
-Persisten los cinco candidatos filtrados **780, 3191, 5367, 5647 y 6185**, además
-de pasajes conjuntos, daños, identidades y repeticiones. **No son el total pendiente.**
-Los candidatos anteriores 4923, 4954, 6308 y 6447 tienen revisiones aplicadas;
-6443 quedó alertado, no resuelto. Falta una muestra independiente con y sin alertas;
-no hubo nuevo cotejo PDF en esta pasada.
-
-El [informe anterior](docs/REVISION_LOOP10_2026-09-08.md) conserva el estado histórico
-**9.466 filas / 372 alertas / 871 pruebas**. Verificaciones locales: el workflow
-propuesto de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
+Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
+**No hay proceso activo en segundo plano.** El [informe anterior](docs/REVISION_LOOP11_2026-09-08.md)
+conserva el estado histórico **9.489 filas / 368 alertas / 930 pruebas**.
+Verificaciones locales: el workflow propuesto de GitHub Actions sigue fuera del
+PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline
 

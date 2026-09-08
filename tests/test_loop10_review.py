@@ -110,7 +110,9 @@ class LoopTenTests(unittest.TestCase):
             annotate_turns(rows)
             self.assertFalse(rows[0]['ID_Ancla_Actor'])
     def test_unresolved_joint_passages_not_forced(self):
-        self.assertFalse({3191,5367,5647,6185,780}&set(self.reviews))
+        self.assertFalse({6185,780}&set(self.reviews))
+        for p in [3191,5367]:
+            self.assertGreater(self.reviews[p]["Inicio"],0)  # el prefijo conjunto no se adjudica
     def test_5402_long_prefix_and_mixed_ocr_quotes_preserved(self):
         parts=self.parts(5402)
         self.assertEqual(len(parts[0][0]),5443)

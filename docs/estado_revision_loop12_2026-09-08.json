@@ -1,0 +1,208 @@
+{
+  "Estado": "DUODECIMO_BLOQUE_DOS_CICLOS_TERMINADOS",
+  "Pull_Request": "https://github.com/joako0o/nlm_proyect/pull/3",
+  "Filas": 9494,
+  "Alertas": 359,
+  "Pruebas": 975,
+  "Padres_Modificados": [
+    3191,
+    5367,
+    5647
+  ],
+  "Padres_Con_Cambios_Solo_Metadatos": [
+    392,
+    629,
+    790,
+    1092,
+    1128,
+    1758,
+    1842,
+    1899,
+    2126,
+    2661,
+    2667,
+    2704,
+    2790,
+    3107,
+    3189,
+    3385,
+    3989,
+    5207,
+    7019
+  ],
+  "Nuevos_Padres_Con_Revision": [
+    392,
+    629,
+    790,
+    1092,
+    1128,
+    1758,
+    1842,
+    1899,
+    2790,
+    3189,
+    3191,
+    3385,
+    5207,
+    5367,
+    5647,
+    7019
+  ],
+  "Nuevos_Intervalos_Hablantes": 17,
+  "Total_Padres_Con_Revision": 174,
+  "Total_Intervalos_Hablantes": 177,
+  "Nuevas_Menciones": [],
+  "Nuevas_Alertas_Contextuales": [
+    2126,
+    2661,
+    2667,
+    2704,
+    3107,
+    3191,
+    3989,
+    5367
+  ],
+  "Nuevos_Enlaces_Continuidad": [],
+  "Enlaces_Retirados_Justificados": [],
+  "Regresion_Detectada_Y_Rechazada": {
+    "Ciclo": 1,
+    "Enlace": [
+      2790,
+      2791,
+      "Claudio Soto Gamboa"
+    ],
+    "Causa": "Una revisión demasiado extensa absorbía el ancla nominal posterior.",
+    "Solucion": "Cita_Ancla_Posterior opcional validada; inicio revisado sin ancla y sujeto nominal posterior explícito conservado. Fin por sí solo no crea corte."
+  },
+  "Continuidades_No_Forzadas": [
+    [
+      3887,
+      3888
+    ],
+    [
+      4224,
+      4225
+    ],
+    [
+      4745,
+      4746
+    ],
+    [
+      4941,
+      4942
+    ],
+    [
+      5910,
+      5911
+    ],
+    [
+      6561,
+      6562
+    ]
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 780,
+      "Estado": "REQUIERE_COTEJO_Y_DELIMITACION_CONTEXTUAL",
+      "Detalle": "Acuerdo ya delimitado; sigue pendiente el comienzo de Corbo. No se obtuvo PDF: acceso oficial anterior bloqueado por verificación humana; no hubo nuevo cotejo en esta tanda."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "La votación está expresada conjuntamente por el Vicepresidente y Claro. La etiqueta provisional Claro no representa por sí sola a ambos; no duplicar el texto ni inventar votos individuales separados."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo de Desormeaux incluye acotación que es confirmada por el señor Lehmann. Es una confirmación narrada en pasiva aún no delimitada; no inventar palabras de Lehmann ni certificar todo el tramo como Desormeaux. La revisión posterior de Lehmann en 3640 y los otros turnos se conservan."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Después de la respuesta de Lehmann aparece y el Gerente de, un cargo truncado antes del retorno de Soto ya separado. Mantener el daño literal; no completar el cargo ni adjudicarle hablante individual."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "La intervención de Marshall incluye lo cual es confirmado por el señor Claudio Soto. Se deja explícitamente pendiente delimitar esa confirmación pasiva, sin alterar la pregunta presidencial y la respuesta de De Ramón ya revisadas."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Bernier está identificado por sujeto explícito, pero su texto conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el ha ido disminuyendo. Su revisión de hablante no certifica integridad del contenido ni autoriza completar los sujetos u objetos ausentes."
+    },
+    {
+      "ID_Padre": 3191,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo conserva provisionalmente Marshall pero contiene una opinión de Claro y una coincidencia conjunta del Presidente y Soto. Sólo se separó la explicación final de García. La etiqueta provisional no adjudica las cláusulas de otros participantes a Marshall."
+    },
+    {
+      "ID_Padre": 3989,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "De Gregorio y Marshall coinciden conjuntamente con una opinión de Claro. El sujeto plural no debe certificarse como una intervención exclusiva de De Gregorio ni la referencia a Claro como un tercer turno."
+    },
+    {
+      "ID_Padre": 4433,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "705 caracteres atribuidos provisionalmente a Lehmann por el cargo expreso Análisis Internacional, entre tramos de Soto sobre escenario interno. Se alerta y bloquea continuidad; no se corrige por proximidad/tema. Ver data/curation/alertas_contextuales.json."
+    },
+    {
+      "ID_Padre": 5367,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo inicial de Fuentes incluye la solicitud colectiva de los Consejeros y un encabezado OCR. Se separaron Herrera, el retorno de Fuentes y Claro, pero la solicitud no tiene autor individual ni un límite institucional adjudicado. Fuentes sigue siendo provisional para este residuo, no autor certificado de la solicitud."
+    },
+    {
+      "ID_Padre": 6185,
+      "Estado": "REFERENCIA_O_CONFIRMACION_PENDIENTE",
+      "Detalle": "Lectura completa de los 20.118 caracteres y de los vecinos 6184/6186. La exposición pertenece a Sergio Lehmann; conforme señala el Gerente de Mercados Nacionales señor Matías Bernier puede ser referencia o confirmación intercalada. No hay límites suficientes para adjudicar la exposición de commodities a Bernier ni para cerrar la alerta. Texto y atribución sin cambios."
+    },
+    {
+      "ID_Padre": 6443,
+      "Estado": "HABLANTES_POR_IDENTIDAD_PENDIENTE",
+      "Detalle": "Inicio de de Ramón, opinión de García y presentación de Miguel Ricaurte no separadas. Dos identidades para el alias; sin escoger una arbitrariamente. Bloque 15100 caracteres alertado por hash y sin continuidad; lectura sólo de transiciones pertinentes, no integral."
+    }
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 2,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1055,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 6185,
+      "ID_Actual": 8243,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "9a9b1345ac739250ef4d70153ea9d737a7cb5d09795d79c9433f840dfa423792",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "000 millones cada tres meses, conforme señala el Gerente de Mercados Nacionales señor Matías Bernier. "
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar la cola por lotes contextuales; no se revisaron todos los candidatos.",
+    "Cotejo de actas originales para pasajes ambiguos/dañados.",
+    "Seis variantes de identidad y repeticiones sustantivas: dos intervalos históricos, tres filas actuales (5212, 5256, 5385).",
+    "Revisión semántica independiente de una muestra con y sin alertas: no realizada."
+  ],
+  "Relecturas_Sin_Adjudicar": [
+    {
+      "ID_Padre": 3191,
+      "Detalle": "Marshall → opinión de Claro → coincidencia conjunta Presidente/Soto → García. Releídos 3190–3192; no se adjudica a Claro el tramo conjunto ni se certifica el padre."
+    },
+    {
+      "ID_Padre": 5647,
+      "Detalle": "Compromiso de Lehmann en cláusula por lo que, seguido de anáforas sobre intervenciones cambiarias. Releídos 5646–5648; no se fuerza la extensión del compromiso a todo el resto sin revisión acotada adicional."
+    }
+  ],
+  "Candidatos_Previos_Con_Revision_Aplicada": [
+    5647
+  ],
+  "Candidatos_Parcialmente_Separados_Con_Residuo_Advertido": [
+    3191,
+    5367
+  ],
+  "Limite": "17 intervalos en 16 padres, más seis advertencias de residuos en otros padres: 22 afectados, no 22 correcciones estructurales. Ocho nuevas advertencias en total, dos sobre padres parcialmente separados. Sin nuevo cotejo PDF ni muestra humana independiente. 359 filas alertadas en 323 padres y 150 intervalos históricos pendientes no son lectura exhaustiva. En 6185 esta ronda releyó la ventana de Bernier y el cierre siguiente, no todos los 20118 caracteres; no hubo nueva adjudicación de Ricaurte. Sin proceso activo."
+}
