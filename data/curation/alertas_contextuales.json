@@ -950,5 +950,33 @@
     "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
     "Justificacion": "La fila incluye agradecimiento presidencial, aceptación conjunta con Marshall, Claro y Vergara y un acuerdo institucional literal. De Gregorio es etiqueta provisional, no autor exclusivo certificado. No inventar cuatro turnos ni presentar la resolución como opinión individual. Queda pendiente una delimitación institucional y conjunta acotada.",
     "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L25-2948",
+    "ID_Padre": 2948,
+    "Fecha": "2010-02-11",
+    "SHA256_Texto_Padre": "ed1632fd25757f7e8e0eb9eb2a65b2a346029e25ca248ea19a2f173898cfe4ba",
+    "Inicio": 786,
+    "Fin": 1450,
+    "Texto_Intervalo": "Al respecto, el señor Beltrán de Ramón detalla que desde el 27 de enero, las AFP compraron cerca de US$5.000 millones, de los cuales US$2.000 millones provinieron de ventas de divisas efectuadas por empresas que aprovecharon esta oportunidad. Indica que algunas de tales empresas que perciben ingresos en divisas se habían endeudado en el mercado local en pesos y que no habían cerrado esa posición. Otra parte de las ventas fueron efectuadas por exportadores habituales y la última corresponde al mercado NDF, en una cifra inferior a US$1.000 millones. Aparte de ello, cabe considerar los ajustes que han efectuado las propias empresas bancarias. A continuación,.",
+    "Actor_Provisional": "Beltrán de Ramón Acevedo",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "El desarrollo de De Ramón termina en A continuación,.; se conserva sin reconstrucción. No confundir el reconocimiento de voz con la integridad del texto.",
+    "Limitacion": "Sólo este intervalo, sin reconstruir texto ni inferir cambio de voz por daño. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L25-1004",
+    "ID_Padre": 1004,
+    "Fecha": "2006-12-14",
+    "SHA256_Texto_Padre": "2f819a38ca9ab8a978874939de938a9d642d4073e9bf3bbd8e4c0eb22f60a2a5",
+    "Inicio": 0,
+    "Fin": 1422,
+    "Texto_Intervalo": "El Consejero señor Manuel Marfán menciona que la hipótesis que ha planteado en alguna oportunidad, que el gran crecimiento de China, liderado por sus exportaciones, aporta al crecimiento mundial, pero también produce algún crowding out en otros países. Señala que el asunto que plantea el Gerente de División señor Valdés también es una historia de crowding out y, frente a ello lo que se señaló como hipótesis es que Chile también estaba perdiendo competitividad frente a nuestros vecinos. Lo anterior, se observa menos porque V Por otra parte, el Consejero señor Marfán señala que, en su opinión, el valor de las importaciones sube porque la demanda interna por bienes de esa categoría importable aumenta, ya que son más baratos; la producción nacional cae; y, por lo tanto, las importaciones necesariamente tienen que subir incluso en valor. Por consiguiente, el valor de las importaciones subiría y si éste sube requerimos importar más porque el efecto cantidad es enorme y el efecto precio es más bien bajo. Agrega también, que si se colocan estos antecedentes en cualquiera de los modelos del tipo de cambio real, el resultado está dentro del rango estadístico y no se traduce en nada significativo. En consecuencia, tiene la impresión, que se tiene que tener la conciencia tranquila de que el problema no es el tipo de cambio, sino que más bien es que se tiene un cambio estructural en los mercados internacionales.",
+    "Actor_Provisional": "Manuel Marfán Lewis",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Se conserva la cláusula incompleta Lo anterior, se observa menos porque V Por otra parte. Valdés es referencia dentro del razonamiento de Marfán, no un nuevo turno. No reconstruir la unión ni certificar el origen del daño.",
+    "Limitacion": "Sólo este intervalo, sin reconstruir texto ni inferir cambio de voz por daño. Sin nuevo cotejo PDF ni muestra independiente."
   }
 ]

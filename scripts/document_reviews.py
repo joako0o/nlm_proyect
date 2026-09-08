@@ -38,8 +38,17 @@ def load_document_reviews(raw, path=PATH):
                 or any(a >= z for a,z in zip(bounds,bounds[1:]))):
             raise ValueError('Documento: partición inválida')
         chunks = [text[a:z].strip() for a,z in zip(bounds,bounds[1:])]
+        received = entry.get('Tipo_Procedencia') == 'PLANTEAMIENTO_RECIBIDO_PARA_LECTURA'
+        handoff = entry.get('Tipo_Retorno') == 'CESION_TRAS_LECTURA_REVISADA'
+        if (entry.get('Tipo_Procedencia') not in (None, 'PLANTEAMIENTO_RECIBIDO_PARA_LECTURA')
+                or entry.get('Tipo_Retorno') not in (None, 'CESION_TRAS_LECTURA_REVISADA')):
+            raise ValueError('Documento: modalidad revisada inválida')
+        return_valid = (chunks[3] == entry.get('Cita_Retorno')
+                        and chunks[3].startswith('A continuación, el Presidente señor ')
+                        and ' da paso a la votación, concediéndole la palabra al Consejero señor ' in chunks[3]
+                        if handoff else chunks[3].startswith('Concluida la lectura'))
         if (not all(chunks) or not chunks[1].startswith('Al proseguir con la Sesión, el señor Presidente informa')
-                or not chunks[3].startswith('Concluida la lectura')
+                or not return_valid
                 or text[bounds[2]] != '“' or text[bounds[3]-1] != '”'
                 or chunks[2].count('“') != 1 or chunks[2].count('”') != 1):
             raise ValueError('Documento: límites de lectura/cita inválidos')
@@ -50,7 +59,13 @@ def load_document_reviews(raw, path=PATH):
                 or entry['Rol_Lector'] != 'Presidente del Banco Central'):
             raise ValueError('Documento: alcance/autor/lector inválidos')
         proof = normalize_quote(entry['Cita_Procedencia'])
-        if (proof != normalize_quote(chunks[1]) or 'por escrito' not in proof
+        # Variante individual: texto recibido que se anuncia para lectura literal.
+        # No inferir formato de envío ni asistencia, y no aceptar una mera opinión citada.
+        received_proof = ('Al proseguir con la Sesión, el señor Presidente informa que el Ministro de Hacienda señor '
+                          +entry['Autor_Mencion']+', por intermedio de su Asesor señor Rodrigo Cerda, '
+                          +'le ha hecho llegar su planteamiento, al que dará lectura a continuación:')
+        if (proof != normalize_quote(chunks[1])
+                or (proof != received_proof if received else 'por escrito' not in proof)
                 or 'lectura' not in proof
                 or f"{entry['Rol_Autor']} señor {entry['Autor_Mencion']}" not in proof):
             raise ValueError('Documento: falta evidencia explícita de autoría y lectura')
@@ -68,6 +83,12 @@ def document_parts(text, date, initial_actor, review, detector):
             or detector.resolve_alias(normalize(review['Autor_Mencion']),date) != review['Autor']
             or detector.resolve_role(date,review['Rol_Lector']) != review['Lector']):
         raise ValueError('Documento: autor/lector/sujeto incompatibles con evidencia')
+    if review.get('Tipo_Retorno') == 'CESION_TRAS_LECTURA_REVISADA':
+        # Proyección sólo para validar el sujeto; no reescribir la cesión exportada.
+        tail = detector.speaker(review['_Tramos'][3].replace(
+            'da paso a la votación, concediéndole la palabra al', 'ofrece la palabra al', 1), date)
+        if not tail or tail['actor'] != review['Lector']:
+            raise ValueError('Documento: retorno sin lector presidencial compatible')
     return list(zip(review['_Tramos'],
                     [review['Actor_Anterior'],review['Lector'],review['Autor'],review['Lector']],
                     [first['method'],READER_SOURCE,AUTHOR_SOURCE,READER_SOURCE]))

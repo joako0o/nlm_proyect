@@ -35,8 +35,8 @@ class DocumentReviewTests(unittest.TestCase):
             row['Motivos_Revision']=';'.join(review_reasons(row,b.TURN_DETECTOR,b.split_sentences))
             rows.append(row)
         return annotate_turns(rows)
-    def test_three_exact_sources_are_documented(self):
-        self.assertEqual(set(self.reviews),{5212,5742,5802})
+    def test_six_exact_sources_are_documented(self):
+        self.assertEqual(set(self.reviews),{5212,5742,5802,4453,4507,4722})
     def test_four_complete_parts_with_author_and_reader(self):
         for p,lengths in [(5212,[229,239,6039,250]),(5742,[498,366,4908,322]),(5802,[545,381,5094,322])]:
             parts=self.parts(p)
@@ -96,9 +96,9 @@ class DocumentReviewTests(unittest.TestCase):
     def test_reader_returns_and_handoff_not_attributed_to_recipient(self):
         for p in self.reviews:
             parts=self.parts(p)
-            self.assertTrue(parts[-1][0].startswith('Concluida la lectura'))
-            self.assertIn('Joaquín Vial',parts[-1][0])
-            self.assertEqual(parts[-1][1],'Rodrigo Vergara Montes')
+            self.assertTrue(parts[-1][0].startswith('A continuación' if p in [4453,4507] else 'Concluida la lectura'))
+            self.assertIn({4453:'Rodrigo Vergara',4507:'Sebastián Claro'}.get(p,'Joaquín Vial'),parts[-1][0])
+            self.assertEqual(parts[-1][1],'José De Gregorio Rebeco' if p==4453 else 'Rodrigo Vergara Montes')
     def test_ocr_and_quotes_are_not_rewritten(self):
         self.assertTrue(self.parts(5802)[1][0].endswith('( ■'))
         for p in self.reviews:
@@ -109,7 +109,7 @@ class DocumentReviewTests(unittest.TestCase):
             errors,records=validate_document_reviews(self.rows(p),{p:self.reviews[p]})
             self.assertEqual(errors,[]);self.assertEqual(len(records),1)
             self.assertEqual(records[0]['Autor'],'Felipe Larraín Bascuñán')
-            self.assertEqual(records[0]['Lector'],'Rodrigo Vergara Montes')
+            self.assertEqual(records[0]['Lector'],'José De Gregorio Rebeco' if p==4453 else 'Rodrigo Vergara Montes')
             self.assertEqual(records[0]['ID_Documento'],3)
     def test_output_corruption_rejected(self):
         for field,value in [('Texto','truncado'),('Actor_Final','Rodrigo Vergara Montes'),('Fuente_Actor','SUJETO_NOMBRE'),
