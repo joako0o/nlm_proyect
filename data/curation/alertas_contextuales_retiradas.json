@@ -44,5 +44,27 @@
       "HAB-20260908-L23-2704-1162"
     ],
     "Motivo_Residual": "FINAL_SIN_PUNTUACION permanece visible en otros segmentos; no cierre integral del padre."
+  },
+  {
+    "Revision_Retiro": "RETIRO-20260908-L24-2661",
+    "Alerta_Original": {
+      "Revision_ID": "ALERTA-20260908-L12-2661",
+      "ID_Padre": 2661,
+      "Fecha": "2009-08-13",
+      "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+      "Inicio": 1530,
+      "Fin": 1773,
+      "Texto_Intervalo": "El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann.",
+      "Actor_Provisional": "Jorge Desormeaux Jiménez",
+      "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
+      "Justificacion": "El tramo de Desormeaux incluye acotación que es confirmada por el señor Lehmann. Es una confirmación narrada en pasiva aún no delimitada; no inventar palabras de Lehmann ni certificar todo el tramo como Desormeaux. La revisión posterior de Lehmann en 3640 y los otros turnos se conservan.",
+      "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
+    },
+    "Justificacion": "Padre leído completo: Desormeaux 193 y confirmación nominal de Lehmann 49 sustituyen la fila compuesta de 243 caracteres. El desarrollo explícito posterior de Lehmann de 1322 caracteres y las revisiones previas se conservan. Sólo se cierra esta advertencia conjunta.",
+    "Revisiones_Sustitutas": [
+      "HAB-20260908-L24-2661-1724"
+    ],
+    "Motivo_Residual": "Conservar puntuación y demás motivos automáticos del padre; no certifica integridad del OCR ni cierra otros intervalos."
   }
 ]

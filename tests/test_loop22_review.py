@@ -98,8 +98,8 @@ class LoopTwentyTwoTests(unittest.TestCase):
         for p in [854,1621]:
             self.assertEqual(self.parts(p),self.parts(p,False))
         self.assertEqual(len(self.parts(854)),1);self.assertEqual(len(self.parts(1621)),5)
-        ms=load_mention_reviews(self.raw);self.assertEqual(len(ms),25)
-        self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775})
+        ms=load_mention_reviews(self.raw);self.assertEqual(len(ms),28)
+        self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775,4055})
         self.assertEqual({e['ID_Padre'] for e in ms.values() if '-L22-' in e['Revision_ID']},{854,1621})
     def test_changed_source_rejected(self):
         raw=copy.deepcopy(self.raw);raw[2674]['Texto']+='X'

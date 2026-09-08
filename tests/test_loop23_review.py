@@ -79,7 +79,7 @@ class LoopTwentyThreeTests(unittest.TestCase):
             self.assertFalse(rows[0]['ID_Ancla_Actor']);self.assertEqual(rows[1]['ID_Ancla_Actor'],'2')
     def test_old_2704_warning_archived_and_not_reactivated(self):
         self.assertNotIn(2704,self.warnings)
-        archive=json.loads(Path('data/curation/alertas_contextuales_retiradas.json').read_text());self.assertEqual(len(archive),2)
+        archive=json.loads(Path('data/curation/alertas_contextuales_retiradas.json').read_text());self.assertEqual(len(archive),3)
         e=next(e for e in archive if e['Alerta_Original']['ID_Padre']==2704)
         self.assertEqual(e['Alerta_Original']['Revision_ID'],'ALERTA-20260908-L12-2704')
         self.assertEqual(e['Alerta_Original']['Texto_Intervalo'],' '.join(t for t,a,m in self.parts(2704)[-2:]))
@@ -90,8 +90,8 @@ class LoopTwentyThreeTests(unittest.TestCase):
         self.assertEqual(self.warnings[3775]['Motivo'],'HABLANTES_POR_DELIMITAR')
         self.assertTrue(has_context_warning('HABLANTES_POR_DELIMITAR'))
         ms=load_mention_reviews(self.raw)
-        self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775})
-        self.assertEqual(len(ms),25)
+        self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775,4055})
+        self.assertEqual(len(ms),28)
     def test_past_reported_relatives_not_current_speakers(self):
         for p in [1926,4161]:
             self.assertNotIn(p,self.reviews);self.assertEqual(len(self.parts(p)),1)

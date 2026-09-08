@@ -177,6 +177,10 @@ def check_formula(p):
         matches=[(t,a) for t,a,m in parts if e['suspension'] in t]
         self.assertEqual(len(matches),1)
         self.assertEqual(matches[0][1],e['actor'])
+        if p==5252:
+            self.assertEqual(' '.join(t for t,a,m in parts[1:3]),e['reanudacion'])
+            self.assertEqual([(a,len(t),m) for t,a,m in parts[1:3]],[(b.CONSEJO,158,'ACTA/META'),('Manuel Marfán Lewis',162,'CONTEXTO_REVISADO')])
+            return
         matches=[(t,a) for t,a,m in parts if e['reanudacion'] in t]
         self.assertEqual(len(matches),1)
         self.assertEqual(matches[0][1],b.CONSEJO)

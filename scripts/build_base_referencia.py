@@ -892,16 +892,31 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
             prefix = text[:review["Inicio"]]
             fragment = text[review["Inicio"]:review["Fin"]]
-            passive_reply = review.get('Tipo_Limite') == 'RESPUESTA_PASIVA_NOMINAL_REVISADA'
+            passive_variant = review.get('Tipo_Limite') == 'RESPUESTA_PASIVA_VARIANTE_REVISADA'
+            passive_reply = review.get('Tipo_Limite') == 'RESPUESTA_PASIVA_NOMINAL_REVISADA' or passive_variant
+            assumption_declaration = review.get('Tipo_Limite') == 'DECLARACION_TRAS_ASUNCION_REVISADA'
+            if assumption_declaration:
+                subject=re.search(r'pasa a presidir la Sesión transitoriamente (el Vicepresidente señor [^,.;!?]+),\s*$',prefix)
+                if not subject or not fragment.startswith('haciendo presente que '):
+                    raise ValueError('Declaración sin asunción nominal contigua')
+                fragment=subject[1]+' hace presente'+fragment[len('haciendo presente'):]
+            role_handoff = review.get('Tipo_Limite') == 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA'
+            if role_handoff:
+                handoff=re.search(r'ofrece la palabra al (Gerente de División Estudios Subrogante), señor ([^,.;!?]+), para que presente las Opciones de Política Monetaria para esta Reunión\s+$',prefix)
+                lead='El señor Gerente de División Estudios Subrogante recuerda que'
+                if not handoff or not fragment.startswith(lead):
+                    raise ValueError('Inicio por cargo sin cesión nominal contigua')
+                fragment='El señor '+handoff[2]+' recuerda que'+fragment[len(lead):]
             relative_reply = review.get('Tipo_Limite') == 'RESPUESTA_LO_QUE_NOMINAL_REVISADA'
             if passive_reply:
-                head=re.match(r'^(lo (?:que|cual)|Ello) es (confirmado|corroborado|rebatido) por (?=(?:el|la)\b)',fragment)
+                pattern=(r'^(acotación que es confirmada|lo cual es compartido) por (?=(?:el|la)\b)' if passive_variant else r'^(lo (?:que|cual)|Ello) es (confirmado|corroborado|rebatido) por (?=(?:el|la)\b)')
+                head=re.match(pattern,fragment)
                 if (not head or not prefix or not prefix[-1].isspace()
                         or not prefix.rstrip().endswith(('.', '!', '?') if head[1]=='Ello' else (',',))):
                     raise ValueError('Respuesta pasiva sin límite/conector válido')
@@ -996,14 +1011,14 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                     text[sentence_start:review['Inicio']], fragment, date, acknowledgement=acknowledgement, statement=statement, analysis_ack=analysis_ack)
             else:
                 candidate = TURN_DETECTOR.speaker(fragment,date)
-            if (passive_reply or relative_reply) and (not candidate or candidate['method'] not in {'SUJETO_NOMBRE','SUJETO_ROL_NOMBRE'}):
+            if (passive_reply or relative_reply or assumption_declaration or role_handoff) and (not candidate or candidate['method'] not in {'SUJETO_NOMBRE','SUJETO_ROL_NOMBRE'}):
                 raise ValueError('Respuesta revisada sin sujeto nominal explícito')
             if nominal_gerund and (not candidate or candidate['method'] not in {'SUJETO_NOMBRE','SUJETO_ROL_NOMBRE'}):
                 raise ValueError('Gerundio revisado sin sujeto nominal explícito')
             if gerund and (not candidate or not re.match(r'^\s*,?\s*que\b', normalize_turn(fragment)[candidate['end']:])):
                 raise ValueError("Revisión de gerundio sin declaración válida")
             quoted = prefix.count('"') % 2 or prefix.count('“') > prefix.count('”') or prefix.count('«') > prefix.count('»')
-            if ((not (coordinated or concatenated or reply or opinion_quote or return_quote or passive_reply or relative_reply) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
+            if ((not (coordinated or concatenated or reply or opinion_quote or return_quote or passive_reply or relative_reply or role_handoff) and not prefix.rstrip().endswith((',', ';'))) or quoted or not candidate
                     or candidate['actor'] != review['Actor'] or candidate['method'] not in EXPLICIT):
                 raise ValueError("Revisión de hablante sin actor/límite válido")
             bounds = sorted({0,len(text),review["Inicio"]} | {a for a,b in spans} | {b for a,b in spans})

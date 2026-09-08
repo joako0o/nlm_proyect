@@ -233,15 +233,14 @@ class LoopTwelveTests(unittest.TestCase):
         self.assertEqual(len(matching),1);matching[0]['Motivos_Revision']=e['Motivo']
         self.assertFalse(validate_context_warnings(rows,{3989:e}))
         matching[0]['Texto']+=' agregado';self.assertTrue(validate_context_warnings(rows,{3989:e}))
-    def test_warning_2661_is_exact_and_not_an_attribution_fix(self):
-        warnings=load_context_warnings(self.raw);e=warnings[2661]
-        self.assertEqual(e['Actor_Provisional'],'Jorge Desormeaux Jiménez')
-        self.assertEqual(e['Motivo'],'PASAJES_CONJUNTOS_POR_DELIMITAR');self.assertIn('confirmada por el señor Lehmann',e['Texto_Intervalo'])
-        rows=[dict(ID=i,ID_Padre=2661,Fecha=self.raw[2661]['Fecha'],Texto=t,Actor_Final=a,Motivos_Revision='') for i,(t,a,m) in enumerate(self.parts(2661))]
-        matching=[r for r in rows if contextual_motives(r,warnings)]
-        self.assertEqual(len(matching),1);matching[0]['Motivos_Revision']=e['Motivo']
-        self.assertFalse(validate_context_warnings(rows,{2661:e}))
-        matching[0]['Texto']+=' agregado';self.assertTrue(validate_context_warnings(rows,{2661:e}))
+    def test_warning_2661_archived_after_loop24_separation(self):
+        warnings=load_context_warnings(self.raw);self.assertNotIn(2661,warnings)
+        archive=json.loads(Path('data/curation/alertas_contextuales_retiradas.json').read_text())
+        old=next(e['Alerta_Original'] for e in archive if e['Alerta_Original']['ID_Padre']==2661)
+        self.assertEqual(old['Actor_Provisional'],'Jorge Desormeaux Jiménez')
+        self.assertEqual(old['Motivo'],'PASAJES_CONJUNTOS_POR_DELIMITAR')
+        self.assertEqual(' '.join(t for t,a,m in self.parts(2661)[4:6]),old['Texto_Intervalo'])
+        self.assertEqual([a for t,a,m in self.parts(2661)[4:6]],['Jorge Desormeaux Jiménez','Sergio Lehmann Beresi'])
     def test_warning_2704_archived_after_loop23_separation(self):
         warnings=load_context_warnings(self.raw);self.assertNotIn(2704,warnings)
         archive=json.loads(Path('data/curation/alertas_contextuales_retiradas.json').read_text())

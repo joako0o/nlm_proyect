@@ -42,23 +42,25 @@ class CurrentMentionTests(unittest.TestCase):
             p.write_text(json.dumps(entries))
             return load_mention_reviews(raw if raw is not None else self.raw, p)
 
-    def test_twenty_three_legitimate_mentions_and_two_pending_reading_are_documented(self):
-        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621,1926,4161})
-        self.assertEqual(len(self.reviews), 25)
+    def test_twenty_five_legitimate_mentions_and_three_pending_readings_are_documented(self):
+        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621,1926,4161,1549,2219})
+        self.assertEqual(len(self.reviews), 28)
 
     def test_valid_annotations_do_not_modify_rows_or_warnings(self):
         rows = copy.deepcopy(self.rows)
         errors, annotations = validate_mention_reviews(rows, self.reviews)
         self.assertEqual(errors, [])
-        self.assertEqual(len(annotations), 25)
+        self.assertEqual(len(annotations), 28)
         self.assertEqual(rows, self.rows)
         pending=[v for v in annotations.values() if v[FIELDS[0]]=='PENDIENTE_DELIMITAR_APORTE']
-        self.assertEqual(len(pending),2)
+        self.assertEqual(len(pending),3)
         self.assertIn('Bernier',pending[0][FIELDS[2]])
         for values in annotations.values():
             if values in pending:continue
             self.assertEqual(values[FIELDS[0]], 'MENCION_LEGITIMA_REVISADA')
-            if '-L22-' in values[FIELDS[1]] or '-L23-' in values[FIELDS[1]]:
+            if '-L24-' in values[FIELDS[1]]:
+                self.assertIn('No modifica actor, texto ni segmentación',values[FIELDS[2]])
+            elif '-L22-' in values[FIELDS[1]] or '-L23-' in values[FIELDS[1]]:
                 self.assertIn('sin alerta automática previa',values[FIELDS[2]])
             else:
                 self.assertIn('Sólo se adjudica este aviso', values[FIELDS[2]])

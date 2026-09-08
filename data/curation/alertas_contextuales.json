@@ -70,20 +70,6 @@
     "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
   },
   {
-    "Revision_ID": "ALERTA-20260908-L12-2661",
-    "ID_Padre": 2661,
-    "Fecha": "2009-08-13",
-    "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
-    "Inicio": 1530,
-    "Fin": 1773,
-    "Texto_Intervalo": "El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann.",
-    "Actor_Provisional": "Jorge Desormeaux Jiménez",
-    "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
-    "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
-    "Justificacion": "El tramo de Desormeaux incluye acotación que es confirmada por el señor Lehmann. Es una confirmación narrada en pasiva aún no delimitada; no inventar palabras de Lehmann ni certificar todo el tramo como Desormeaux. La revisión posterior de Lehmann en 3640 y los otros turnos se conservan.",
-    "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
-  },
-  {
     "Revision_ID": "ALERTA-20260908-L12-2667",
     "ID_Padre": 2667,
     "Fecha": "2009-08-13",
@@ -893,6 +879,76 @@
     "Motivo": "TEXTO_DANADO_POR_COTEJAR",
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "Se conserva la y aislada al final de Soto antes del comentario de Vial. No trasladar ni borrar el residuo al separar después la confirmación de Lehmann.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L24-2680",
+    "ID_Padre": 2680,
+    "Fecha": "2009-08-13",
+    "SHA256_Texto_Padre": "9f6dc581b25eb91f7662b1418656aea654f8d86f74b3e4c6c2d812c8108aeef0",
+    "Inicio": 181,
+    "Fin": 256,
+    "Texto_Intervalo": "Siendo las 16; 15 horas, se reanuda la Sesión de Política Monetaria N° 141,",
+    "Actor_Provisional": "Consejo del Banco Central de Chile",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Conservar la grafía horaria 16; 15 sin convertirla en 16:15 ni certificar la numeración de sesión. Advertencia acotada al registro institucional, no a la exposición de García ni a su continuidad.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L24-2788",
+    "ID_Padre": 2788,
+    "Fecha": "2009-11-12",
+    "SHA256_Texto_Padre": "01401cf1a5883b177d14025bb3c371eb389bada960e5c62511165ffeeee87131",
+    "Inicio": 577,
+    "Fin": 984,
+    "Texto_Intervalo": "El señor Gerente de División Estudios Subrogante recuerda que, en su Reunión mensual de política monetaria de octubre, el Consejo del Banco Central de Chile acordó mantener la TPM en 0,50% anual, como también continuar aplicando las medidas complementarias adoptadas en la Reunión de julio, y reiteró que la TPM se mantendría en el nivel mínimo de 0,50% por un período de tiempo prolongado. A continuación,.",
+    "Actor_Provisional": "Claudio Soto Gamboa",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "La exposición de Soto termina en A continuación,. y su inicio está concatenado sin punto a la invitación. No reconstruir. Su identidad procede del destinatario nominal contiguo; el cargo subrogante dicho en el discurso no queda certificado por la nómina, que registra Gerente de Análisis Macroeconómico.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L24-2958",
+    "ID_Padre": 2958,
+    "Fecha": "2010-02-11",
+    "SHA256_Texto_Padre": "6e6dcaac4057416a10b9c9cb842a9f47d0e54a09ede2a94f8cf33a5a568cf34e",
+    "Inicio": 0,
+    "Fin": 335,
+    "Texto_Intervalo": "El Presidente, señor José De Gregorio, agradece la exposición del señor Claudio Soto, da por finalizada la Sesión de Política Monetaria de esta mañana y recuerda El señor Presidente agradece la exposición del señor Claudio Soto, da por finalizada la sesión de la mañana y recuerda que la sesión de la tarde se reanudará a las 15 horas.",
+    "Actor_Provisional": "José De Gregorio Rebeco",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Conservar la repetición del cierre presidencial y la concatenación y recuerda El señor Presidente. No eliminar ni reconstruir el pasaje; el origen del daño requiere cotejo.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L24-3008",
+    "ID_Padre": 3008,
+    "Fecha": "2010-03-18",
+    "SHA256_Texto_Padre": "e06a08c6d205aadcc7918c9243c489cb14ee76fe353db9d8ec7e6684b525e9e8",
+    "Inicio": 395,
+    "Fin": 808,
+    "Texto_Intervalo": "El señor Ministro de Hacienda agradece las palabras del señor José De Gregorio y señala que para él constituye un agrado estar en el Banco Central de Chile y un gusto poder participar en esta Reunión de Política Monetaria. Disculpa su ausencia durante la sesión de la mañana, la que se debió a un llamado de S.E. el Presidente de la República, que le impidió participar de los análisis expuestos. A continuación,.",
+    "Actor_Provisional": "Felipe Larraín Bascuñán",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Conservar el final A continuación,. de la respuesta de Larraín; separar la bienvenida presidencial no permite completar el texto.",
+    "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L24-4055",
+    "ID_Padre": 4055,
+    "Fecha": "2011-05-12",
+    "SHA256_Texto_Padre": "d265a6d34f7613d664e750177bec1c8584e2da48ab9605e08966d73a7588aa24",
+    "Inicio": 0,
+    "Fin": 722,
+    "Texto_Intervalo": "El Presidente señor José De Gregorio expresa su agradecimiento al planteamiento que formula el Vicepresidente señor Manuel Marfán y, junto con los Consejeros señores Enrique Marshall, Sebastián Claro y Rodrigo Vergara, por las razones expresadas por el señor Vicepresidente de sumarse al voto de mayoría del Consejo, no tienen inconveniente en modificar el Acuerdo, de manera que este sea adoptado en forma unánime. En virtud de lo anterior, se deja constancia que el Acuerdo del Consejo es el siguiente: 170-01-110512 - Tasa de Política Monetaria En su reunión mensual de política monetaria, el Consejo del Banco Central de Chile acordó aumentar la tasa de interés de política monetaria en 50 puntos base, hasta 5% anual.",
+    "Actor_Provisional": "José De Gregorio Rebeco",
+    "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+    "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
+    "Justificacion": "La fila incluye agradecimiento presidencial, aceptación conjunta con Marshall, Claro y Vergara y un acuerdo institucional literal. De Gregorio es etiqueta provisional, no autor exclusivo certificado. No inventar cuatro turnos ni presentar la resolución como opinión individual. Queda pendiente una delimitación institucional y conjunta acotada.",
     "Limitacion": "Sólo este intervalo, sin atribución exclusiva donde hay ambigüedad ni reconstrucción de texto. Sin nuevo cotejo PDF ni muestra independiente."
   }
 ]

@@ -599,5 +599,68 @@
         "Cita": "El Presidente señor José De Gregorio plantea que a contar de marzo del año 2010 se han creado cuatrocientos cincuenta mil empleos, es decir, seiscientos mil en doce meses, lo cual es confirmado por el señor Rodrigo Cerda. Concluye, en consecuencia, que habida consideración que la productividad del año 2010 será la de menor crecimiento en la historia de Chile, el incremento en la creación de empleo va a explicar el dinamismo del consumo."
       }
     ]
+  },
+  {
+    "Revision_ID": "MENCION-20260908-L24-1549",
+    "ID_Padre": 1549,
+    "Fecha": "2007-11-13",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "1a8e5a56c3eb0cd869b86884ac1dfd7d33fe9d6f1ad5099de4a7dbca881d860e",
+    "Inicio": 0,
+    "Fin": 332,
+    "Cita_Inicio": "El Consejero señor Manuel Marfán señala que tiene la impresión qu",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Motivo_Revisado": "POSIBLE_OTRO_HABLANTE_O_MENCION",
+    "Justificacion": "Marfán evalúa lo que está comentando Schmidt-Hebbel: referencia dentro de su razonamiento, no una nueva intervención del citado.",
+    "Limitacion": "Lectura íntegra dirigida, no muestra independiente. No modifica actor, texto ni segmentación. Sólo se adjudica la referencia interna, no otros motivos. Sin nuevo cotejo PDF.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1549,
+        "Cita": "El Consejero señor Manuel Marfán señala que tiene la impresión que si bien es cierto que lo que está comentando el Gerente de Investigación Económica señor Klaus Schmidt-Hebbel es lo que presenta el ejercicio, estima que constituye un error apreciarlo de la manera que se está haciendo, ya que transforma los shocks en persistentes."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "MENCION-20260908-L24-2219",
+    "ID_Padre": 2219,
+    "Fecha": "2008-12-11",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "7899c455442a19c92887e9ea500bf2a89ad56ff4ee98dddc91d43a4b3e17b0db",
+    "Inicio": 787,
+    "Fin": 1084,
+    "Cita_Inicio": "El Presidente señor José De Gregario comenta que le parece releva",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Decision": "MENCION_LEGITIMA_REVISADA",
+    "Motivo_Revisado": "POSIBLE_OTRO_HABLANTE_O_MENCION",
+    "Justificacion": "De Gregorio evalúa lo que está señalando Marfán; mantener los 786 caracteres previos de Marfán y la respuesta de 297 de De Gregorio. La referencia interna no abre otro turno.",
+    "Limitacion": "Lectura íntegra dirigida, no muestra independiente. No modifica actor, texto ni segmentación. Sólo se adjudica la referencia interna, no otros motivos. Sin nuevo cotejo PDF.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2219,
+        "Cita": "El Consejero señor Manuel Marfán señala que en la Reunión de Política Monetaria pasada y también en las reuniones semanales de coyuntura que se han realizado, ha podido plantear una hipótesis que consiste en que la mayoría de las veces los movimientos sinusoidales se presentan en las variables, pero a veces existen coyunturas singulares en las cuales hay un shock suficientemente importante como para que el cambio sea moderado y que se pueda producir una detención brusca, tal como ocurrió el año 1998 y el año 2002. Agrega que ha planteado en algunas reuniones este mismo argumento y, en consecuencia, no puede descartar que en la actualidad se esté en una situación similar. Lo que quisiera que se le indicara es si la información recogida tiende a apoyar o rechazar esa hipótesis. El Presidente señor José De Gregario comenta que le parece relevante lo que está señalando el Consejero señor Manuel Marfán, pero en su opinión esta situación es parte de la discusión que debería presentarse al final de la Reunión, en el sentido de si se está o no frente a un cambio de tendencia."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "MENCION-20260908-L24-4055",
+    "ID_Padre": 4055,
+    "Fecha": "2011-05-12",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "d265a6d34f7613d664e750177bec1c8584e2da48ab9605e08966d73a7588aa24",
+    "Inicio": 0,
+    "Fin": 722,
+    "Cita_Inicio": "El Presidente señor José De Gregorio expresa su agradecimiento al",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Decision": "PENDIENTE_DELIMITAR_APORTE",
+    "Motivo_Revisado": "POSIBLE_OTRO_HABLANTE_O_MENCION",
+    "Justificacion": "Agradecimiento presidencial, aceptación conjunta y acuerdo literal dentro de la misma fila. No son cuatro intervenciones nominales separables con seguridad. Pendiente delimitar la parte institucional y la expresión conjunta, no mención legítima resuelta.",
+    "Limitacion": "Lectura íntegra dirigida, no muestra independiente. No modifica actor, texto ni segmentación. La advertencia explicita la provisionalidad, sin certificar atribución exclusiva. Sin nuevo cotejo PDF.",
+    "Evidencia": [
+      {
+        "ID_Padre": 4055,
+        "Cita": "El Presidente señor José De Gregorio expresa su agradecimiento al planteamiento que formula el Vicepresidente señor Manuel Marfán y, junto con los Consejeros señores Enrique Marshall, Sebastián Claro y Rodrigo Vergara, por las razones expresadas por el señor Vicepresidente de sumarse al voto de mayoría del Consejo, no tienen inconveniente en modificar el Acuerdo, de manera que este sea adoptado en forma unánime. En virtud de lo anterior, se deja constancia que el Acuerdo del Consejo es el siguiente: 170-01-110512 - Tasa de Política Monetaria En su reunión mensual de política monetaria, el Consejo del Banco Central de Chile acordó aumentar la tasa de interés de política monetaria en 50 puntos base, hasta 5% anual. Se levanta la Sesión a las 18:00 horas."
+      }
+    ]
   }
 ]

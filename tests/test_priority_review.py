@@ -111,21 +111,22 @@ class PriorityReviewTests(unittest.TestCase):
     def test_2661_minister_and_lehmann_both_recovered(self):
         parts=self.parts(2661)
         self.assertEqual([a for t,a,m in parts],
-                         [VELASCO,LEHMANN,DESORMEAUX,LEHMANN,DESORMEAUX,LEHMANN,VELASCO,PRES,VELASCO,LEHMANN,CLARO])
-        self.assertEqual(parts[8][0],'El efecto debiera ser menor y al revés, acota el Ministro,')
-        self.assertEqual(parts[9][0],'y el señor Lehmann complementa que será necesario afinar el análisis.')
-        self.assertEqual(parts[8][2],'SUJETO_ROL_SESION')
-        self.assertEqual(parts[9][2],'CONTEXTO_REVISADO')
-        self.assertTrue(parts[10][0].startswith('Sobre ese mismo punto'))
+                         [VELASCO,LEHMANN,DESORMEAUX,LEHMANN,DESORMEAUX,LEHMANN,LEHMANN,VELASCO,PRES,VELASCO,LEHMANN,CLARO])
+        self.assertEqual(parts[9][0],'El efecto debiera ser menor y al revés, acota el Ministro,')
+        self.assertEqual(parts[10][0],'y el señor Lehmann complementa que será necesario afinar el análisis.')
+        self.assertEqual(parts[9][2],'SUJETO_ROL_SESION')
+        self.assertEqual(parts[10][2],'CONTEXTO_REVISADO')
+        self.assertTrue(parts[11][0].startswith('Sobre ese mismo punto'))
 
-    def test_2661_previous_turns_unchanged_and_passive_confirmation_not_certified(self):
+    def test_2661_previous_turns_and_passive_posterior_anchor_preserved(self):
         parts=self.parts(2661);r=self.raw[2661]
         plain=b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])
-        self.assertEqual(parts[:7],plain[:7])
-        self.assertEqual(len(parts[5][0]),1322)
-        self.assertIn('acotación que es confirmada por el señor Lehmann',parts[4][0])
-        self.assertIn('Explica que si los inmigrantes tienen habilidades',parts[7][0])
-        # Sin revisión no se divide la coordinación interna, aunque ya se reconoce al Ministro.
+        self.assertEqual(parts[:4],plain[:4])
+        self.assertEqual(parts[6:9],plain[5:8])
+        self.assertEqual(len(parts[6][0]),1322)
+        self.assertEqual(parts[5],('acotación que es confirmada por el señor Lehmann.',LEHMANN,'CONTEXTO_REVISADO'))
+        self.assertEqual(' '.join(t for t,a,m in parts[4:6]),plain[4][0])
+        self.assertIn('Explica que si los inmigrantes tienen habilidades',parts[8][0])
         self.assertEqual(len(plain),10)
         self.assertIn('y el señor Lehmann complementa',plain[-2][0])
 

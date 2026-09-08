@@ -1261,34 +1261,6 @@
     ]
   },
   {
-    "Revision_ID": "HAB-20260907-2661",
-    "ID_Padre": 2661,
-    "Fecha": "2009-08-13",
-    "Actor": "Sergio Lehmann Beresi",
-    "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
-    "Inicio": 3640,
-    "Fin": 3710,
-    "Cita_Inicio": "y el señor Lehmann complementa que",
-    "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
-    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
-    "Justificacion": "Tras la explicación del Presidente, el Ministro acota El efecto debiera ser menor y al revés con sujeto pospuesto explícito. Lehmann complementa a continuación, y Claro hace la pregunta siguiente. Se recupera también el turno del Ministro mediante el prefijo acotado; no separar sólo la coordinación final. La confirmación pasiva anterior de Lehmann permanece documentada como residuo, sin inventar sus palabras.",
-    "Limitacion": "Lectura del consolidado, no cotejo PDF ni revisión humana independiente. Se preservan daño y puntuación. Esta decisión no certifica todo el padre.",
-    "Evidencia": [
-      {
-        "ID_Padre": 2661,
-        "Cita": "El Ministro de Hacienda pregunta si la ponderación entre países latinoamericanos también es a PPP, a lo cual el señor Lehmann responde que para efectos de las agrupaciones también lo es a PPP. En el caso del año 2010, añade que las revisiones son bien marginales y bastante homogéneas en el grupo de países presentados El Vicepresidente, señor Jorge Desormeaux, solicita al Gerente de Análisis Internacional que explique cómo se estimaron las cifras del año 2010 que está presentando, porque los bancos de inversión no solo hablan de cifras superiores a 3% para el 2010, sino que de un crecimiento de tendencia. Al respecto, el señor Sergio Lehmann comenta que para el año 2010 hay una importante discrepancia entre los distintos bancos de inversión, es decir, que hay una desviación estándar en materia de proyección bastante elevada. Añade que, efectivamente, respecto de la media de dichos bancos, en especial en el caso de Estados Unidos, donde este fenómeno se focaliza tal vez de manera más importante, nuestras cifras están por debajo del promedio que ellos manejan, que hoy es de alrededor de 2%. Explica que lo que la Gerencia ha Incorporado en el juicio para efectos de definir el crecimiento del año 2010, también incluye la información de crecimiento y el hecho de que el FMI, en particular, esté proyectando un 0,8% para Estados Unidos para el próximo año. Entonces, señala que la Gerencia ha tratado de moderar en algún grado lo que los bancos de inversión están planteando en materia de expansión para el año 2010. El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann. El Gerente de Análisis Internacional destaca que un elemento importante, que quizás está vinculado con la visión que se puede tener en términos de crecimiento en adelante, tiene que ver con lo que plantean algunas instituciones respecto del crecimiento del producto potencial. Menciona que en el caso de Estados Unidos, el Congressional Budget Office (CBO) ha efectuado una revisión para los años 2008, 2009 y 2010, planteando una caída de seis décimas en el 2010 versus el año 2008. En el caso de la Zona Euro, añade, las estimaciones de la Comisión Europea, de la OCDE y del FMI dan cuenta de una caída del producto potencial de aproximadamente un punto producto de la crisis, señalando que los factores detrás del ajuste son el capital y la PTF en proporciones similares. Respecto de la PTF, detalla que los elementos que se han considerado para efectos de revisar el producto potencial a la baja están asociados a condiciones crediticias más estrechas a futuro, que llevarían a una asignación de recursos menos eficiente; retiros anticipados de personas del mercado laboral, si es que el desempleo se mantiene de manera particularmente prolongada, lo que, a su vez, también afecta los flujos de inmigración hacia las economías; y la reducción de la empleabilidad ante la pérdida de habilidades de la fuerza de trabajo. El Ministro señor Velasco pregunta qué relación tienen los flujos del mercado laboral con la productividad, a lo cual el Presidente señor De Gregorio responde que, dado que la PTF es un residuo, el flujo de inmigración tiene que ver con la composición de la fuerza de trabajo, con el capital humano. Explica que si los inmigrantes tienen habilidades diferentes del promedio del trabajador, va a cambiar la PTF, pero si entra gente con menores habilidades, eso debería afectar la PTF. El efecto debiera ser menor y al revés, acota el Ministro,"
-      },
-      {
-        "ID_Padre": 2661,
-        "Cita": "y el señor Lehmann complementa que será necesario afinar el análisis."
-      },
-      {
-        "ID_Padre": 2661,
-        "Cita": "Sobre ese mismo punto, el Consejero señor Claro consulta acerca del efecto que tiene en estas estimaciones el uso de un filtro estadístico estándar, sin agregar elementos de juicio como los antes presentados."
-      }
-    ]
-  },
-  {
     "Revision_ID": "HAB-20260907-2805",
     "ID_Padre": 2805,
     "Fecha": "2009-12-15",
@@ -9231,5 +9203,274 @@
       }
     ],
     "Tipo_Limite": "RESPUESTA_PASIVA_NOMINAL_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-2661-1724",
+    "ID_Padre": 2661,
+    "Fecha": "2009-08-13",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+    "Inicio": 1724,
+    "Fin": 1774,
+    "Cita_Inicio": "acotación que es confirmada por el señor Lehmann. ",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Confirmación efectiva de Lehmann, separada de Desormeaux; preservar los 1322 caracteres explícitos posteriores y todas las revisiones anteriores. Archivar la advertencia conjunta sustituida.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2661,
+        "Cita": "El Ministro de Hacienda pregunta si la ponderación entre países latinoamericanos también es a PPP, a lo cual el señor Lehmann responde que para efectos de las agrupaciones también lo es a PPP. En el caso del año 2010, añade que las revisiones son bien marginales y bastante homogéneas en el grupo de países presentados El Vicepresidente, señor Jorge Desormeaux, solicita al Gerente de Análisis Internacional que explique cómo se estimaron las cifras del año 2010 que está presentando, porque los bancos de inversión no solo hablan de cifras superiores a 3% para el 2010, sino que de un crecimiento de tendencia. Al respecto, el señor Sergio Lehmann comenta que para el año 2010 hay una importante discrepancia entre los distintos bancos de inversión, es decir, que hay una desviación estándar en materia de proyección bastante elevada. Añade que, efectivamente, respecto de la media de dichos bancos, en especial en el caso de Estados Unidos, donde este fenómeno se focaliza tal vez de manera más importante, nuestras cifras están por debajo del promedio que ellos manejan, que hoy es de alrededor de 2%. Explica que lo que la Gerencia ha Incorporado en el juicio para efectos de definir el crecimiento del año 2010, también incluye la información de crecimiento y el hecho de que el FMI, en particular, esté proyectando un 0,8% para Estados Unidos para el próximo año. Entonces, señala que la Gerencia ha tratado de moderar en algún grado lo que los bancos de inversión están planteando en materia de expansión para el año 2010. El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann. El Gerente de Análisis Internacional destaca que un elemento importante, que quizás está vinculado con la visión que se puede tener en términos de crecimiento en adelante, tiene que ver con lo que plantean algunas instituciones respecto del crecimiento del producto potencial. Menciona que en el caso de Estados Unidos, el Congressional Budget Office (CBO) ha efectuado una revisión para los años 2008, 2009 y 2010, planteando una caída de seis décimas en el 2010 versus el año 2008. En el caso de la Zona Euro, añade, las estimaciones de la Comisión Europea, de la OCDE y del FMI dan cuenta de una caída del producto potencial de aproximadamente un punto producto de la crisis, señalando que los factores detrás del ajuste son el capital y la PTF en proporciones similares. Respecto de la PTF, detalla que los elementos que se han considerado para efectos de revisar el producto potencial a la baja están asociados a condiciones crediticias más estrechas a futuro, que llevarían a una asignación de recursos menos eficiente; retiros anticipados de personas del mercado laboral, si es que el desempleo se mantiene de manera particularmente prolongada, lo que, a su vez, también afecta los flujos de inmigración hacia las economías; y la reducción de la empleabilidad ante la pérdida de habilidades de la fuerza de trabajo. El Ministro señor Velasco pregunta qué relación tienen los flujos del mercado laboral con la productividad, a lo cual el Presidente señor De Gregorio responde que, dado que la PTF es un residuo, el flujo de inmigración tiene que ver con la composición de la fuerza de trabajo, con el capital humano. Explica que si los inmigrantes tienen habilidades diferentes del promedio del trabajador, va a cambiar la PTF, pero si entra gente con menores habilidades, eso debería afectar la PTF. El efecto debiera ser menor y al revés, acota el Ministro, y el señor Lehmann complementa que será necesario afinar el análisis. Sobre ese mismo punto, el Consejero señor Claro consulta acerca del efecto que tiene en estas estimaciones el uso de un filtro estadístico estándar, sin agregar elementos de juicio como los antes presentados."
+      },
+      {
+        "ID_Padre": 2656,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 142 celebrada el 13 de agosto de 2009 _______ En Santiago de Chile, a 13 de agosto de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular, don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también el señor: Ministro de Hacienda, don Andrés Velasco Brañes y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldivar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_VARIANTE_REVISADA",
+    "Cita_Ancla_Posterior": "El Gerente de Análisis Internacional destaca que un elemento importante, que qui",
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260907-2661",
+        "ID_Padre": 2661,
+        "Fecha": "2009-08-13",
+        "Actor": "Sergio Lehmann Beresi",
+        "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+        "Inicio": 3640,
+        "Fin": 3710,
+        "Cita_Inicio": "y el señor Lehmann complementa que",
+        "Tipo_Limite": "COORDINACION_Y_EXPLICITA",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Tras la explicación del Presidente, el Ministro acota El efecto debiera ser menor y al revés con sujeto pospuesto explícito. Lehmann complementa a continuación, y Claro hace la pregunta siguiente. Se recupera también el turno del Ministro mediante el prefijo acotado; no separar sólo la coordinación final. La confirmación pasiva anterior de Lehmann permanece documentada como residuo, sin inventar sus palabras.",
+        "Limitacion": "Lectura del consolidado, no cotejo PDF ni revisión humana independiente. Se preservan daño y puntuación. Esta decisión no certifica todo el padre.",
+        "Evidencia": [
+          {
+            "ID_Padre": 2661,
+            "Cita": "El Ministro de Hacienda pregunta si la ponderación entre países latinoamericanos también es a PPP, a lo cual el señor Lehmann responde que para efectos de las agrupaciones también lo es a PPP. En el caso del año 2010, añade que las revisiones son bien marginales y bastante homogéneas en el grupo de países presentados El Vicepresidente, señor Jorge Desormeaux, solicita al Gerente de Análisis Internacional que explique cómo se estimaron las cifras del año 2010 que está presentando, porque los bancos de inversión no solo hablan de cifras superiores a 3% para el 2010, sino que de un crecimiento de tendencia. Al respecto, el señor Sergio Lehmann comenta que para el año 2010 hay una importante discrepancia entre los distintos bancos de inversión, es decir, que hay una desviación estándar en materia de proyección bastante elevada. Añade que, efectivamente, respecto de la media de dichos bancos, en especial en el caso de Estados Unidos, donde este fenómeno se focaliza tal vez de manera más importante, nuestras cifras están por debajo del promedio que ellos manejan, que hoy es de alrededor de 2%. Explica que lo que la Gerencia ha Incorporado en el juicio para efectos de definir el crecimiento del año 2010, también incluye la información de crecimiento y el hecho de que el FMI, en particular, esté proyectando un 0,8% para Estados Unidos para el próximo año. Entonces, señala que la Gerencia ha tratado de moderar en algún grado lo que los bancos de inversión están planteando en materia de expansión para el año 2010. El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann. El Gerente de Análisis Internacional destaca que un elemento importante, que quizás está vinculado con la visión que se puede tener en términos de crecimiento en adelante, tiene que ver con lo que plantean algunas instituciones respecto del crecimiento del producto potencial. Menciona que en el caso de Estados Unidos, el Congressional Budget Office (CBO) ha efectuado una revisión para los años 2008, 2009 y 2010, planteando una caída de seis décimas en el 2010 versus el año 2008. En el caso de la Zona Euro, añade, las estimaciones de la Comisión Europea, de la OCDE y del FMI dan cuenta de una caída del producto potencial de aproximadamente un punto producto de la crisis, señalando que los factores detrás del ajuste son el capital y la PTF en proporciones similares. Respecto de la PTF, detalla que los elementos que se han considerado para efectos de revisar el producto potencial a la baja están asociados a condiciones crediticias más estrechas a futuro, que llevarían a una asignación de recursos menos eficiente; retiros anticipados de personas del mercado laboral, si es que el desempleo se mantiene de manera particularmente prolongada, lo que, a su vez, también afecta los flujos de inmigración hacia las economías; y la reducción de la empleabilidad ante la pérdida de habilidades de la fuerza de trabajo. El Ministro señor Velasco pregunta qué relación tienen los flujos del mercado laboral con la productividad, a lo cual el Presidente señor De Gregorio responde que, dado que la PTF es un residuo, el flujo de inmigración tiene que ver con la composición de la fuerza de trabajo, con el capital humano. Explica que si los inmigrantes tienen habilidades diferentes del promedio del trabajador, va a cambiar la PTF, pero si entra gente con menores habilidades, eso debería afectar la PTF. El efecto debiera ser menor y al revés, acota el Ministro,"
+          },
+          {
+            "ID_Padre": 2661,
+            "Cita": "y el señor Lehmann complementa que será necesario afinar el análisis."
+          },
+          {
+            "ID_Padre": 2661,
+            "Cita": "Sobre ese mismo punto, el Consejero señor Claro consulta acerca del efecto que tiene en estas estimaciones el uso de un filtro estadístico estándar, sin agregar elementos de juicio como los antes presentados."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-2680-257",
+    "ID_Padre": 2680,
+    "Fecha": "2009-08-13",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "9f6dc581b25eb91f7662b1418656aea654f8d86f74b3e4c6c2d812c8108aeef0",
+    "Inicio": 257,
+    "Fin": 422,
+    "Cita_Inicio": "y el señor Presidente ofrece la palabra al Gerente de División Es",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Invitación presidencial, no metadato ni habla de García. Conservar la reanudación institucional previa, la exposición posterior de García y su continuidad hacia 2681.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2680,
+        "Cita": "El Presidente agradece la presentación del señor Claudio Soto y señala que, por expresa solicitud del señor Ministro de Hacienda, la sesión de la tarde comenzará a las 16:15 horas. Siendo las 16; 15 horas, se reanuda la Sesión de Política Monetaria N° 141, y el señor Presidente ofrece la palabra al Gerente de División Estudios, señor Pablo García, para que presente las Opciones de Política Monetaria para esta Reunión. El Gerente señor Pablo García, comienza a dar lectura a las Opciones, informando, en primer término, que en la última Reunión de Política Monetaria, el Consejo acordó reducir la tasa de interés de política monetaria hasta 0,5% anual, señalando que se mantendría en ese nivel mínimo por un tiempo prolongado, y que, a fin de reforzar esta decisión y alinear los precios de los activos financieros, adoptó, además, una serie de medidas complementarias de política monetaria. A continuación,."
+      },
+      {
+        "ID_Padre": 2656,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 142 celebrada el 13 de agosto de 2009 _______ En Santiago de Chile, a 13 de agosto de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular, don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también el señor: Ministro de Hacienda, don Andrés Velasco Brañes y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldivar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "COORDINACION_Y_EXPLICITA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-2746-1249",
+    "ID_Padre": 2746,
+    "Fecha": "2009-10-13",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "6bbf874937a753e834e76198517edb90e1e36ad6e68988ca7f4f4fb0d40b27e6",
+    "Inicio": 1249,
+    "Fin": 1431,
+    "Cita_Inicio": "Siendo las 12:45 horas, y no habiendo más coméntanos, el señor Pr",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Cierre presidencial de la mañana; la reanudación y excusa de asistencia posteriores son acta institucional, no habla de Velasco. Conservar íntegra la exposición de Cowan.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2746,
+        "Cita": "El Presidente agradece la exposición del señor Soto y concede la palabra al señor Kevin Cowan para que se refiera a los resultados de la citada encuesta. El señor Kevin Cowan comienza su intervención, señalando que aún falta recibir la respuesta de una empresa bancaria, pero que, en todo caso, en los resultados preliminares se aprecia que el 25% de los bancos declara estar otorgando créditos en condiciones más flexibles o menos restrictivas respecto al semestre anterior, esto es, respecto de marzo y junio. Agrega que con relación a trimestres anteriores, las empresas bancarias están prestando con spreads más bajos y que las garantías exigidas y los plazos se mantienen en general estables, siendo la única excepción el segmento de créditos a grandes empresas, para las cuales se flexibilizan los tres márgenes, esto es, spreads, monto y precios. En relación con la demanda de créditos, menciona que, en términos netos, el 30% de los gerentes comerciales de los bancos reportan percibir condiciones de demanda más expansivas para préstamos hipotecarios, de consumo y PYMES, en tanto que poco más del 25% de ellos informa condiciones de demanda más expansivas respecto al trimestre anterior para las empresas inmobiliarias y grandes empresas. Siendo las 12:45 horas, y no habiendo más coméntanos, el señor Presidente da por finalizada la sesión de la mañana, indicando que la reunión de la tarde comenzará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N° 145, dejándose constancia que el Ministro de Hacienda señor Andrés Velasco excusó su asistencia en razón de otros compromisos relativos a su cargo, vinculados con la discusión de la Ley de Presupuesto del próximo año."
+      },
+      {
+        "ID_Padre": 2713,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 145 celebrada el 13 de octubre de 2009 En Santiago de Chile, a 13 de octubre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores; Ministro de Hacienda, don Andrés Velasco Brañes; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-2788-127",
+    "ID_Padre": 2788,
+    "Fecha": "2009-11-12",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "01401cf1a5883b177d14025bb3c371eb389bada960e5c62511165ffeeee87131",
+    "Inicio": 127,
+    "Fin": 310,
+    "Cita_Inicio": "Siendo las 13:15 horas, y no habiendo más comentarios, el señor P",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Cierre presidencial, distinto del registro institucional de reanudación. Conservar literalmente las repeticiones del texto.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2788,
+        "Cita": "El Presidente, señor José De Gregorio, agradece la presentación del Gerente de de Análisis Macroeconómico, señor Claudio Soto. Siendo las 13:15 horas, y no habiendo más comentarios, el señor Presidente da por finalizada la sesión de la mañana, indicando que la reunión de la tarde comenzará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N° 146. El Presidente, señor José De Gregorio, ofrece la palabra al Gerente de División Estudios Subrogante, señor Claudio Soto, para que presente las Opciones de Política Monetaria para esta Reunión El señor Gerente de División Estudios Subrogante recuerda que, en su Reunión mensual de política monetaria de octubre, el Consejo del Banco Central de Chile acordó mantener la TPM en 0,50% anual, como también continuar aplicando las medidas complementarias adoptadas en la Reunión de julio, y reiteró que la TPM se mantendría en el nivel mínimo de 0,50% por un período de tiempo prolongado. A continuación,."
+      },
+      {
+        "ID_Padre": 2761,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 146 celebrada el 12 de noviembre de 2009 En Santiago de Chile, a 12 de noviembre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de División Estudios Subrogante y Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Revisiones_Adicionales": [
+      {
+        "Revision_ID": "HAB-20260908-L24-2788-577",
+        "ID_Padre": 2788,
+        "Fecha": "2009-11-12",
+        "Actor": "Claudio Soto Gamboa",
+        "SHA256_Texto_Padre": "01401cf1a5883b177d14025bb3c371eb389bada960e5c62511165ffeeee87131",
+        "Inicio": 577,
+        "Fin": 984,
+        "Cita_Inicio": "El señor Gerente de División Estudios Subrogante recuerda que, en",
+        "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+        "Justificacion": "Inicio real de la exposición de Soto después de la invitación nominal presidencial. El destinatario nominal inmediato identifica a Soto localmente; la nómina lo registra como Gerente de Análisis Macroeconómico y no confirma ese cargo subrogante. No insertar el punto ausente ni reconstruir el final incompleto.",
+        "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+        "Evidencia": [
+          {
+            "ID_Padre": 2788,
+            "Cita": "El Presidente, señor José De Gregorio, agradece la presentación del Gerente de de Análisis Macroeconómico, señor Claudio Soto. Siendo las 13:15 horas, y no habiendo más comentarios, el señor Presidente da por finalizada la sesión de la mañana, indicando que la reunión de la tarde comenzará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N° 146. El Presidente, señor José De Gregorio, ofrece la palabra al Gerente de División Estudios Subrogante, señor Claudio Soto, para que presente las Opciones de Política Monetaria para esta Reunión El señor Gerente de División Estudios Subrogante recuerda que, en su Reunión mensual de política monetaria de octubre, el Consejo del Banco Central de Chile acordó mantener la TPM en 0,50% anual, como también continuar aplicando las medidas complementarias adoptadas en la Reunión de julio, y reiteró que la TPM se mantendría en el nivel mínimo de 0,50% por un período de tiempo prolongado. A continuación,."
+          },
+          {
+            "ID_Padre": 2761,
+            "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 146 celebrada el 12 de noviembre de 2009 En Santiago de Chile, a 12 de noviembre de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Manuel Marfán Lewis, don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de División Estudios Subrogante y Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+          }
+        ],
+        "Tipo_Limite": "INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-2875-80",
+    "ID_Padre": 2875,
+    "Fecha": "2010-01-14",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "130cfe9812c54e581dfc4c2d8a9d46092a7a31da68109450c501a8304a3b2e37",
+    "Inicio": 80,
+    "Fin": 1118,
+    "Cita_Inicio": "Siendo las 16:00 horas, y antes de reanudar la Sesión de Política",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Reconocimiento presidencial completo a Velasco, no reanudación impersonal ni turno del homenajeado. Conservar los 1038 caracteres de agradecimiento y valoración.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2875,
+        "Cita": "el Presidente, señor José De Gregorio, da por concluida la sesión de la mañana. Siendo las 16:00 horas, y antes de reanudar la Sesión de Política Monetaria N° 149, el Presidente, señor José De Gregorio, informa que esta es la última vez que el Ministro de Hacienda, señor Andrés Velasco, participe en una Reunión de Política Monetaria, por lo que desea hacer un reconocimiento especial a su relación con el Banco. Expresa que el señor Ministro, dentro su estricto apego a las características de esta Institución, tuvo siempre una relación profesional y de continua colaboración con el Banco, destacando que sus aportes fueron muy valiosos y que su continua cooperación en materias de coordinación y de compartir información fueron muy importantes para el manejo de la política monetaria. Especial mención hace de los momentos más álgidos de la crisis financiera, durante la cual se pudo establecer un alto nivel de coordinación, que permitió mitigar sus efectos sobre la economía. Finalmente, en nombre del Consejo y el suyo propio, agradece y valora profundamente su labor, y le desea éxito en sus nuevas actividades."
+      },
+      {
+        "ID_Padre": 2841,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 149 celebrada el 14 de enero de 2010 En Santiago de Chile, a 14 de enero de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Ministro de Hacienda, don Andrés Velasco Brañes; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de División de Política Financiera Subrogante, don José Manuel Garrido Bouzo; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Señor, doña Erika Arraño González; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-2958-336",
+    "ID_Padre": 2958,
+    "Fecha": "2010-02-11",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "6e6dcaac4057416a10b9c9cb842a9f47d0e54a09ede2a94f8cf33a5a568cf34e",
+    "Inicio": 336,
+    "Fin": 560,
+    "Cita_Inicio": "Siendo las 15 horas, el señor Presidente da inicio a la sesión de",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Apertura personal del Presidente y cesión de la palabra; García aún no interviene. Conservar el cierre previo duplicado sin reconstruirlo.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2958,
+        "Cita": "El Presidente, señor José De Gregorio, agradece la exposición del señor Claudio Soto, da por finalizada la Sesión de Política Monetaria de esta mañana y recuerda El señor Presidente agradece la exposición del señor Claudio Soto, da por finalizada la sesión de la mañana y recuerda que la sesión de la tarde se reanudará a las 15 horas. Siendo las 15 horas, el señor Presidente da inicio a la sesión de la tarde, ofreciéndole la palabra al Gerente de División Estudios, señor Pablo García, para que presente las Opciones de Política Monetaria para esta Reunión."
+      },
+      {
+        "ID_Padre": 2889,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 150 celebrada el 11 de febrero de 2010 En Santiago de Chile, a 11 de febrero de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Gerente General Subrogante, Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales Subrogante, don Luis Felipe Alarcón Gazmuri; Gerente de Investigación Económica Subrogante, don Pablo Pincheira Brown; Gerente de Estabilidad Financiera Subrogante, don Ari Aisen; Gerente Asesor de Comunicaciones Subrogante, don Jaime Troncoso Rojas; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Economista Senior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-3008-62",
+    "ID_Padre": 3008,
+    "Fecha": "2010-03-18",
+    "Actor": "José De Gregorio Rebeco",
+    "SHA256_Texto_Padre": "e06a08c6d205aadcc7918c9243c489cb14ee76fe353db9d8ec7e6684b525e9e8",
+    "Inicio": 62,
+    "Fin": 395,
+    "Cita_Inicio": "Siendo las 16:00 horas, y antes de reanudar la Sesión de Política",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Bienvenida presidencial a Larraín y su asesor, no metadato. La respuesta posterior de Larraín permanece independiente e íntegra, incluso su final incompleto.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3008,
+        "Cita": "el señor Presidente da por finalizada la sesión de la mañana. Siendo las 16:00 horas, y antes de reanudar la Sesión de Política Monetaria N° 151, el Presidente, señor José De Gregorio, da la bienvenida al nuevo Ministro de Hacienda, señor Felipe Larraín, y a su asesor, a quienes les expresa sus deseos de éxito en su gestión y la disposición de la Institución para trabajar juntos en adelante. El señor Ministro de Hacienda agradece las palabras del señor José De Gregorio y señala que para él constituye un agrado estar en el Banco Central de Chile y un gusto poder participar en esta Reunión de Política Monetaria. Disculpa su ausencia durante la sesión de la mañana, la que se debió a un llamado de S.E. el Presidente de la República, que le impidió participar de los análisis expuestos. A continuación,."
+      },
+      {
+        "ID_Padre": 2969,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 151 celebrada el 18 de marzo de 2010 En Santiago de Chile, a 18 de marzo de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente, don Manuel Marfán Lewis, y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Ministro de Hacienda, don Felipe Larraín Bascuñán; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés. Asisten también especialmente invitados, el Gerente de Infraestructura y Regulación Financiera, señor José Manuel Garrido Bouzo, y el Economista Senior señor Rodrigo Alfaro Arancibia. / ) El Presidente, señor José De Gregorio, junto con dar inicio a la Reunión de Política Monetaria N° 151, señala que, de conformidad con el Reglamento que rige estas Sesiones, fija la Reunión de Política Monetaria correspondiente al mes de septiembre de 2010 para el día 16 de dicho mes. A continuación,."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-3288-130",
+    "ID_Padre": 3288,
+    "Fecha": "2010-08-12",
+    "Actor": "Beltrán de Ramón Acevedo",
+    "SHA256_Texto_Padre": "d381eea1c036434cb1b3bf3658db833e511294c237958afc1f6fb5767a4a761e",
+    "Inicio": 130,
+    "Fin": 227,
+    "Cita_Inicio": "lo cual es compartido por el Gerente de División Operaciones Fina",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "De Ramón comparte efectivamente el planteamiento de Vergara. Conservar la exposición posterior completa de Lehmann de 3138 caracteres, no atribuírsela a De Ramón.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3288,
+        "Cita": "El Consejero señor Rodrigo Vergara señala que, en su opinión, la minuta de la FED explica ese movimiento de manera significativa, lo cual es compartido por el Gerente de División Operaciones Financieras señor Beltrán de Ramón. El señor Lehmann continúa, mencionando que los premios por riesgo en las economías emergentes registraron una caída y una suerte de reversión marginal, producto, nuevamente, de las preocupaciones por la actividad. En materia de mercados bursátiles, informa que las bolsas de economías emergentes exhibieron movimientos al alza durante el último mes, con algunas reversiones en el margen, y alzas algo menores en los mercados bursátiles de economías desarrolladas. Con respecto a los precios de commodities, el señor Sergio Lehmann destaca el aumento significativo que registraron los granos durante el último mes, que alcanzó a 14%, y, en especial, el trigo, cuya alza fue de 18%. Añade que, en términos agregados, el indicador de metales subió 10%, lo mismo que el cobre, mientras que el indicador de energía experimentó un alza bastante más moderada, de solo 3%, como resultado de un alza de solo 4% del petróleo y también de la gasolina, que no registró variación. Desde una perspectiva más amplia, que considera la evolución del índice agregado de commodities a partir de enero del año 2008, hace notar que si bien se observan aumentos de precios, están bastante alejados de los máximos alcanzados a mediados del 2008, con la excepción del oro que, en este contexto, resulta ser una suerte de refugio de valor. Indica que el precio del combustible exhibe un aumento más moderado, mientras que el indicador de granos y cereales muestra un aumento muy importante a partir del último IPoM, fundamentalmente por el alza en el precio del trigo, que desde entonces acumula un aumento aproximado de 50%. A raíz de la significativa alza del precio del trigo, el señor Sergio Lehmann se refiere, en esta oportunidad, a ese mercado. En primer término, destaca que la participación de Rusia en las exportaciones totales alcanza a algo más del 10%, porcentaje que considera el recorte de producción en esta temporada, como consecuencia de la sequía que afecta a ese país. Agrega que la relación stock sobre consumo registra una caída, lo cual explicaría parte del aumento en el precio del trigo, pero, en términos históricos, indica que si se compara esta relación con los peaks que se alcanzaron a mediados del año 2008, y producto fundamentalmente de lo que fue la cosecha 2007 - 2008, la situación de mercado actual resulta ser bastante más holgada que lo que fue la de ese período, que estuvo impactada, además, por una sequía que afectó a Australia, economía que tiene una participación muy importante en las exportaciones mundiales de este grano. En cuanto al índice agregado de granos y cereales, el señor Lehmann hace presente que, en el margen, hubo una caída, lo que significa que hubo una reacción importante en el aumento del precio del trigo, producto de la información sobre las restricciones a las exportaciones que anunció Rusia, pero, luego, el precio tendió a caer y revirtió el efecto en el precio del trigo cuando se anunciaron las restricciones al comercio por parte de Rusia. De todas maneras, manifiesta que hay un elemento de carácter algo más permanente, asociado justamente a una caída en la producción mundial de trigo."
+      },
+      {
+        "ID_Padre": 3278,
+        "Cita": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 158 celebrada el 12 de agosto de 2010_____________________ En Santiago de Chile, a 12 de agosto de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asiste también el señor: Ministro de Hacienda, don Felipe Larraín Bascuñán; y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante don Juan Esteban Laval Zaldívar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente de Estabilidad Financiera, don Luis Opazo Roco; Gerente de Investigación Finanaciera, Don Rodrigo Cifuentes Santander; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Erika Arraño González; Asesor de la Presidencia, don Felipe Labbé Castillo; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "RESPUESTA_PASIVA_VARIANTE_REVISADA"
+  },
+  {
+    "Revision_ID": "HAB-20260908-L24-5252-1872",
+    "ID_Padre": 5252,
+    "Fecha": "2012-12-13",
+    "Actor": "Manuel Marfán Lewis",
+    "SHA256_Texto_Padre": "5962e84de409e110e810754ab33a7799f9758ae3aeff1f12c2d97a86bb245686",
+    "Inicio": 1872,
+    "Fin": 2035,
+    "Cita_Inicio": "haciendo presente que el Presidente señor Rodrigo Vergara se inco",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Marfán informa que Vergara llegará después: sujeto nominal contiguo en la asunción temporal de la presidencia. Separar esta declaración del registro institucional, sin inferir habla de Vergara ni un alias global de Presidente. Preservar la exposición previa de 1712 y la cesión explícita posterior de 223 caracteres.",
+    "Limitacion": "Sólo el intervalo documentado. Sin nuevo cotejo PDF ni muestra independiente. Conservar literal; no certifica otros segmentos, integridad del OCR ni identidades.",
+    "Evidencia": [
+      {
+        "ID_Padre": 5252,
+        "Cita": "El Vicepresidente señor Manuel Marfán señala que la economía chilena enfrenta un puzzle desde hace varios meses, por cuanto presenta un crecimiento anormalmente elevado y una inflación inusualmente baja. Plantea que los antecedentes disponibles indican que ello no constituye un shock de oferta, en tanto deberían observarse también ciertas presiones de demanda, que no existen al menos por el momento. Al respecto, recuerda dos episodios en que se observó una combinación similar, el primero de ellos en los años 1992 a 1993, y el segundo en el período 1996 a 1997, con desenlaces distintos. Plantea que el primero se pudo resolver con una adecuada coordinación de políticas monetarias y fiscales, en que el Banco Central de Chile y el Ministerio de Hacienda llevaron adelante de manera conjunta lo que se denominó un mini ajuste. Indica que, por el contrario, en los años 1996 a 1997 se observó un desequilibrio que afectó la balanza de pagos y el tipo de cambio, lo que producto de la crisis internacional reinante produjo efectos muy significativos en Chile. Asimismo, alude al denominado efecto Tequila en el año 1995, oportunidad en que Chile no se vio afectado, presumiblemente porque en esa época el precio del cobre fue anormalmente alto. El Vicepresidente señor Manuel Marfán enfatiza en la necesidad de que exista una muy buena coordinación entre el Banco Central de Chile y el Ministerio de Hacienda en episodios como los mencionados, para fines de llevar adelante un mini ajuste económico. Al no formularse otros comentarios, el Vicepresidente señor Manuel Marfán suspende la presente Reunión y deja constancia que ella se reiniciará a las 16:30 horas para tratar las opciones de política monetaria. Siendo las 16:30 horas, se reanuda la Reunión de Política Monetaria N° 193 y pasa a presidir la Sesión transitoriamente el Vicepresidente señor Manuel Marfán, haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo. El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente al Consejo las Opciones de Política Monetaria que se han considerado para esta oportunidad."
+      },
+      {
+        "ID_Padre": 5223,
+        "Cita": "ACTA DE LA SESIÓN DE POLÍTICA MONETARIA N° 193 celebrada el día martes 13 de diciembre de 2012 En Santiago de Chile, a 13 de diciembre de 2012, siendo las 11:00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don Rodrigo Vergara Montes y con la asistencia del Vicepresidente señor Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Joaquín Vial Ruiz-Tagle. Asisten también: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División Estudios, don Luis Óscar Herrera Barriga; Gerente de División Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Investigación Económica, don Claudio Raddatz Kiefer; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministro de Hacienda, don Rodrigo Cerda Norambuena; Economista Senior, doña Tatiana Vargas Manzo; Asesor de la Presidencia, don Víctor Riquelme Peñaloza; y la Secretario General, doña Marlys Pabst Cortés."
+      }
+    ],
+    "Tipo_Limite": "DECLARACION_TRAS_ASUNCION_REVISADA",
+    "Cita_Ancla_Posterior": "El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División "
   }
 ]
