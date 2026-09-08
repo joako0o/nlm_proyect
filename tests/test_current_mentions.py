@@ -42,15 +42,15 @@ class CurrentMentionTests(unittest.TestCase):
             p.write_text(json.dumps(entries))
             return load_mention_reviews(raw if raw is not None else self.raw, p)
 
-    def test_eight_exact_intervals_are_documented(self):
-        self.assertEqual({e['ID_Padre'] for e in self.reviews.values()}, {320,1336,1420,2228,2768,3147,4574,4656})
-        self.assertEqual(len(self.reviews), 8)
+    def test_ten_exact_intervals_are_documented(self):
+        self.assertEqual({e['ID_Padre'] for e in self.reviews.values()}, {320,1336,1420,2228,2768,3147,4574,4656,5658,6587})
+        self.assertEqual(len(self.reviews), 10)
 
     def test_valid_annotations_do_not_modify_rows_or_warnings(self):
         rows = copy.deepcopy(self.rows)
         errors, annotations = validate_mention_reviews(rows, self.reviews)
         self.assertEqual(errors, [])
-        self.assertEqual(len(annotations), 8)
+        self.assertEqual(len(annotations), 10)
         self.assertEqual(rows, self.rows)
         for values in annotations.values():
             self.assertEqual(values[FIELDS[0]], 'MENCION_LEGITIMA_REVISADA')

@@ -64,7 +64,11 @@ PARENTHETICAL = re.compile(r'^\s*,?\s*(?:en relacion|con respecto|respecto|sobre
 INVERTED = re.compile(VERB + r'\s*$')
 FINITE = re.compile(r'\b' + VERB)
 HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
-LEAD = re.compile(r'^(?:no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
+# Cierres acotados: prefijo completo, hora válida opcional, sujeto/predicado aún exigidos.
+CLOSURE_LEAD = (r'al no (?:haber (?:consultas o comentarios adicionales|mas comentarios)|'
+                r'formularse (?:otros comentarios|comentarios adicionales))'
+                r'(?:(?:,| y) siendo las? (?:[01]?\d|2[0-3])[:.][0-5]\d(?: horas)?)?$')
+LEAD = re.compile(r'^(?:' + CLOSURE_LEAD + r'|no habiendo comentarios$|dado eso$|al continuar(?:se)? con la votacion$|al concluir con la votacion$|al proseguir$|mientras que|el efecto debiera ser menor y al reves|planteamiento al cual|por su parte|al respecto|en relacion|con respecto|en cuanto|'
                   r'antes de proseguir|finalizada la presentacion|concluida la presentacion|no habiendo mas (?:comentarios|comentanos)|refiriendose ahora a|antes de continuar con la votacion|complementando los comentarios efectuados|prosiguiendo con la votacion|prosiguiendo con la presentacion|al continuar con (?:su|la) exposicion|una vez adoptado el acuerdo correspondiente|aun considerando la explicacion anterior|como es habitual|para sintetizar|al concluir su presentacion|a modo complementario|a lo cual|a lo que|a continuacion|sobre el particular|sobre este|en este|en ese|'
                   r'nuevamente|tambien|respondiendo|asimismo|a su vez|finalmente|luego|despues|por otra parte|'
                   r'por otro lado|en respuesta|ante |respecto |intervencion|'

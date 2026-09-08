@@ -20,9 +20,9 @@ class CoordinatedReviewTests(unittest.TestCase):
         r=self.raw[p]
         return b.segment_turns(r['Texto'],r['Fecha'],r['Actor'],review=review if review is not None else self.reviews[p])
 
-    def test_nineteen_coordinations_are_documented(self):
+    def test_twenty_three_coordinations_are_documented(self):
         self.assertEqual({p for p,r in self.reviews.items() if r.get('Tipo_Limite')=='COORDINACION_Y_EXPLICITA'},
-            {1457,1737,1923,2392,2443,2555,2583,2608,2621,2661,2765,2768,2826,3158,3449,3650,3871,4233,6407})
+            {1457,1737,1923,2392,2443,2555,2583,2608,2621,2661,2765,2768,2826,3158,3449,3650,3871,4233,6407,4857,6293,7044,5418})
 
     def test_votes_are_not_conflated_and_garcia_starts_afterwards(self):
         parts=self.parts(1737)
@@ -71,7 +71,7 @@ class CoordinatedReviewTests(unittest.TestCase):
         rows=[]
         for p in self.reviews:
             for t,a,m in self.parts(p):rows.append(dict(ID=len(rows)+1,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m))
-        self.assertEqual(len(self.reviews),74)
+        self.assertEqual(len(self.reviews),91)
         self.assertEqual(validate_speaker_reviews(rows,self.reviews),[])
 
     def test_tracking_distinguishes_directed_correction(self):

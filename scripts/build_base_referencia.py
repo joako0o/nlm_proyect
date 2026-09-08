@@ -596,6 +596,10 @@ def split_sentences(text):
         tail = text[max(0,m.start()-12):m.start()].rstrip()
         if re.search(r'\b(?:Sr|Sra|art|inc|num|pág|pag)\.$',tail,re.I):
             continue
+        # La hora literal 13.05 en 5313 no inicia una oración en 05.
+        if (re.search(r'\bsiendo las? (?:[01]?\d|2[0-3])\.$', text[:m.start()], re.I)
+                and re.match(r'[0-5]\d horas\b', text[m.end():], re.I)):
+            continue
         boundaries.add(m.end())
     # Marcadores inequívocos de turno aun cuando el OCR perdió el punto.
     for m in re.finditer(r'\s+(?=(?:A continuación,|Al respecto,|Por su parte,)\s+(?:el|la)\s+(?:señor|señora|Presidente|Vicepresidente|Consejero|Consejera|Gerente|Ministro))', text):
@@ -675,6 +679,9 @@ def _inst_transition(sent):
     que ... el Consejo adoptó ...", "En virtud de lo anterior, al Ministro...
     le parece ...", "Consigna que ... el Consejo decidió ...")."""
     t=_fix_ocr(norm(sent))
+    # Registro horario de reanudación, no cualquier mención de una hora.
+    if re.match(r'^a las (?:[01]?\d|2[0-3]):[0-5]\d horas, se reanuda la reunion de politica monetaria n[°º]\s*\d+\b', t):
+        return True
     if sent.strip() == _DAMAGED_REOPENING:
         return True
     if t.startswith(('siendo las','se levanta','se reanuda','se suspende','se retiran',
@@ -848,9 +855,9 @@ def segment_turns(text, date, initial_actor, state=None, review=None):
             if coordinated:
                 # Sólo una entrada con hash/citas permite este corte. Nunca
                 # interpretar automáticamente todas las coordinaciones con «y».
-                if not re.match(r'^y\s+(?:el|la)\s+',fragment) or not prefix or not prefix[-1].isspace():
+                if not re.match(r'^y,?\s+(?:(?:sobre este aspecto|en (?:este|ese) sentido),?\s+)?(?:el|la)\s+',fragment) or not prefix or not prefix[-1].isspace():
                     raise ValueError("Revisión de coordinación sin límite válido")
-                fragment = re.sub(r'^y\s+', '', fragment)
+                fragment = re.sub(r'^y,?\s+', '', fragment)
             acknowledgement = review.get('Tipo_Limite') == 'CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO'
             relative = review.get('Tipo_Limite') == 'CESION_RELATIVA_EXPLICITA' or acknowledgement
             if relative:

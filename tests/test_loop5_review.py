@@ -72,9 +72,8 @@ class LoopFiveTests(unittest.TestCase):
         self.assertTrue(parts[0][0].endswith('al primer trimestre del próximo año.'))
         self.assertEqual(parts[2][0], b._DAMAGED_REOPENING)
 
-    def test_personal_assignments_require_individual_reviews(self):
-        for p, expected in [(4384,[MARFAN,b.CONSEJO]), (4420,[LEHMANN]),
-                            (4421,[HERRERA]), (4502,[SOTO,b.CONSEJO])]:
+    def test_opinion_and_exhibits_require_individual_reviews(self):
+        for p, expected in [(4420,[LEHMANN]), (4421,[HERRERA])]:
             r = self.raw[p]
             self.assertEqual([a for t,a,m in b.segment_turns(r['Texto'],r['Fecha'],r['Actor'])], expected)
 
