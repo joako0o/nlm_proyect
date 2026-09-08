@@ -816,7 +816,7 @@ def strict_role(date, role):
     return next(iter(names)) if len(names)==1 else None
 
 
-TURN_DETECTOR = TurnDetector(alias_map, ROLE_PATS + [(r, c or r) for r,c in ROSTER_ROLES] + [('Gerente', 'Gerente'), ('Gerente de División', 'Gerente de División')],
+TURN_DETECTOR = TurnDetector(alias_map, ROLE_PATS + [(r, c or r) for r,c in ROSTER_ROLES] + [('Asesor Macroeconómico del Ministro de Hacienda', 'Asesor Macroeconómico del Ministro de Hacienda'), ('Gerente', 'Gerente'), ('Gerente de División', 'Gerente de División')],
                              strict_alias, strict_role, roster_role_for)
 
 

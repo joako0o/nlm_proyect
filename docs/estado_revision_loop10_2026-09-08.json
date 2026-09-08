@@ -1,0 +1,302 @@
+{
+  "Estado": "DECIMO_BLOQUE_CUATRO_CICLOS_Y_CIERRE_DOCUMENTADO",
+  "Pull_Request": "https://github.com/joako0o/nlm_proyect/pull/3",
+  "Filas": 9466,
+  "Alertas": 372,
+  "Pruebas": 871,
+  "Padres_Modificados": [
+    2052,
+    2325,
+    2674,
+    3011,
+    3056,
+    3435,
+    3442,
+    3523,
+    4148,
+    4252,
+    4256,
+    4342,
+    4477,
+    4589,
+    4634,
+    4709,
+    4903,
+    4922,
+    5347,
+    5402,
+    5470,
+    5793,
+    6069,
+    6118,
+    6163,
+    6257,
+    6305,
+    6456,
+    6791,
+    6839,
+    6869,
+    6900,
+    6902,
+    6953,
+    6985,
+    7021,
+    7079,
+    7142,
+    7174
+  ],
+  "Padres_Con_Cambios_Solo_Metadatos": [
+    343,
+    345,
+    1145,
+    1326,
+    2196,
+    2380,
+    2415,
+    2481,
+    2596,
+    3299,
+    3446,
+    4122,
+    4547,
+    5197,
+    5403,
+    6421,
+    6654,
+    6807,
+    6808,
+    6959,
+    7125
+  ],
+  "Nuevas_Revisiones_Hablantes": [
+    2674,
+    3011,
+    3056,
+    3435,
+    3442,
+    3523,
+    4148,
+    4252,
+    4256,
+    4342,
+    4477,
+    4589,
+    4634,
+    4709,
+    4903,
+    4922,
+    5347,
+    5402,
+    5470,
+    5793,
+    6069,
+    6118,
+    6163,
+    6257,
+    6305,
+    6456,
+    6791,
+    6839,
+    6869,
+    6900,
+    6902,
+    6953,
+    6985,
+    7021,
+    7079,
+    7142,
+    7174
+  ],
+  "Nuevas_Menciones": [
+    2325
+  ],
+  "Nuevas_Alertas_Contextuales": [],
+  "Nuevos_Enlaces_Continuidad": [],
+  "Enlaces_Retirados_Justificados": [
+    {
+      "Desde": 5402,
+      "Hasta": 5403,
+      "Motivo": "Claro interpone evaluación/pregunta; la respuesta posterior de Lehmann debe iniciar otro turno."
+    }
+  ],
+  "Continuidades_No_Forzadas": [
+    [
+      3887,
+      3888
+    ],
+    [
+      4224,
+      4225
+    ],
+    [
+      4745,
+      4746
+    ],
+    [
+      4941,
+      4942
+    ],
+    [
+      5910,
+      5911
+    ],
+    [
+      6561,
+      6562
+    ]
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 780,
+      "Estado": "REQUIERE_COTEJO_Y_DELIMITACION_CONTEXTUAL",
+      "Detalle": "Acuerdo ya delimitado; sigue pendiente el comienzo de Corbo. No se obtuvo PDF: acceso oficial anterior bloqueado por verificación humana; no hubo nuevo cotejo en esta tanda."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PENDIENTE",
+      "Detalle": "Intervención conjunta: no asignar arbitrariamente un único actor."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "INTERCAMBIO_CORREGIDO_CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "El intercambio final Presidente → Ministro → Lehmann → Claro ya está delimitado. Antes queda acotación que es confirmada por el señor Lehmann dentro del segmento de Desormeaux. No inventar palabras ni certificar todo el padre."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "Pregunta del Presidente ya corregida. Queda lo cual es confirmado por el señor Claudio Soto en el segmento final de Marshall, sin alerta automática ni adjudicación nueva."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "ENLACE_DANADO_NO_RECONSTRUIDO",
+      "Detalle": "Exposición de Soto ya delimitada; y el Gerente de se conserva literal en el tramo anterior. Requiere cotejo para reconstruir, no completar por intuición."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "ATRIBUCION_DELIMITADA_DANO_TEXTUAL_SIN_RECONSTRUIR",
+      "Detalle": "Bernier delimitado, pero se conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el…; faltan elementos en la fuente. No completar bancos, nombres o redacción sin cotejo."
+    },
+    {
+      "ID_Padre": 3191,
+      "Estado": "INTERCAMBIO_CON_SUJETO_CONJUNTO_PENDIENTE",
+      "Detalle": "Leído sin modificar. Marshall → opinión de Claro → coincidencia conjunta del Presidente y Soto → cierre de García. No adjudicar la coincidencia conjunta a una única persona ni corregir sólo el último cierre."
+    },
+    {
+      "ID_Padre": 5647,
+      "Estado": "COMPROMISO_Y_CONTINUACION_PENDIENTES",
+      "Detalle": "El Presidente observa diferencias de paridades; por lo que el señor Sergio Lehmann se compromete a revisar dicha información. La continuación sobre intervenciones cambiarias requiere delimitación contextual. No se cambió el actor; ahora hay alerta explícita. No adjudicar automáticamente todo el resto a Lehmann."
+    },
+    {
+      "ID_Padre": 5367,
+      "Estado": "VARIOS_LIMITES_Y_PETICION_COLECTIVA_PENDIENTES",
+      "Detalle": "Fuentes expone, los Consejeros solicitan una explicación, Herrera responde tras un rótulo OCR, Fuentes aclara y Claro opina. Requiere múltiples límites y tratamiento de la petición colectiva, sin adjudicarla arbitrariamente a una persona. Leído sin modificar."
+    },
+    {
+      "ID_Padre": 6185,
+      "Estado": "REFERENCIA_O_CONFIRMACION_PENDIENTE",
+      "Detalle": "Lectura completa de los 20.118 caracteres y de los vecinos 6184/6186. La exposición pertenece a Sergio Lehmann; conforme señala el Gerente de Mercados Nacionales señor Matías Bernier puede ser referencia o confirmación intercalada. No hay límites suficientes para adjudicar la exposición de commodities a Bernier ni para cerrar la alerta. Texto y atribución sin cambios."
+    },
+    {
+      "ID_Padre": 4433,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "705 caracteres atribuidos provisionalmente a Lehmann por el cargo expreso Análisis Internacional, entre tramos de Soto sobre escenario interno. Se alerta y bloquea continuidad; no se corrige por proximidad/tema. Ver data/curation/alertas_contextuales.json."
+    },
+    {
+      "ID_Padre": 14,
+      "Estado": "METODO_LEGADO_VISIBLE_TRAS_GUARDIA",
+      "Detalle": "La relativa en relación a lo que señala el señor Herrera no debe prestar su verbo al sujeto Jadresic. Se conserva actor/texto, pero ya no se califica ese reconocimiento como sujeto explícito: queda alerta legada. No se certifica ni corrige identidad."
+    }
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 5,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1054,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 3191,
+      "ID_Actual": 4648,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "d596d82b964da0af1585fba5293a53767bd77dc6dcf311807f1f4ac82401803d",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al finalizar esta discusión, el Gerente de División Estudios, señor Pablo García, se refiere al planteamiento del Vicepresidente, señor Manuel Marfán, y explica que en los años 2000, las tasas de interés nominales fueron claramente inferiores a sus niveles históricos y, por lo tanto, lo que ocurrió habría sido, en parte, un proceso más de convergencia, que llevó a una monetización a tasas mayores que las que hubiesen correspondido dado el nivel de tasa prevaleciente."
+    },
+    {
+      "ID_Padre": 5367,
+      "ID_Actual": 7275,
+      "Actor": "Miguel Fuentes Díaz",
+      "SHA256_Texto_Padre": "cfccd558e6d6904fd878f07fde2e28f78e2e276c50e96f6bfa39aa39df8ed11b",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "B A N C O C E N T R A L D E C H IL E En cuanto al gráfico referido a las colocaciones de consumo, el Gerente de División Estudios señor Luis Óscar Herrera señala, a título ejemplar, que si los consumidores reciben un flujo de $1."
+    },
+    {
+      "ID_Padre": 5647,
+      "ID_Actual": 7593,
+      "Actor": "Rodrigo Vergara Montes",
+      "SHA256_Texto_Padre": "09ec80183f30efee597fe32f0ee0cc3a8e631cd90dc74017e7cb5597d278623c",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El Presidente señor Rodrigo Vergara observa que las variaciones que acumulan las paridades desde el mes de diciembre de 2012 a la fecha difieren de las informadas por la Gerencia de Análisis Internacional en forma diaria, por lo que el señor Sergio Lehmann se compromete a revisar dicha información. "
+    },
+    {
+      "ID_Padre": 6185,
+      "ID_Actual": 8218,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "9a9b1345ac739250ef4d70153ea9d737a7cb5d09795d79c9433f840dfa423792",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "000 millones cada tres meses, conforme señala el Gerente de Mercados Nacionales señor Matías Bernier. "
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar la cola por lotes contextuales; no se revisaron todos los candidatos.",
+    "Cotejo de actas originales para pasajes ambiguos/dañados.",
+    "Seis variantes de identidad y repeticiones sustantivas: dos intervalos históricos, tres filas actuales (5212, 5256, 5385).",
+    "Revisión semántica independiente de una muestra con y sin alertas: no realizada."
+  ],
+  "Relecturas_Sin_Adjudicar": [
+    {
+      "ID_Padre": 3191,
+      "Detalle": "Marshall → opinión de Claro → coincidencia conjunta Presidente/Soto → García. Releídos 3190–3192; no se adjudica a Claro el tramo conjunto ni se certifica el padre."
+    },
+    {
+      "ID_Padre": 5647,
+      "Detalle": "Compromiso de Lehmann en cláusula por lo que, seguido de anáforas sobre intervenciones cambiarias. Releídos 5646–5648; no se fuerza la extensión del compromiso a todo el resto sin revisión acotada adicional."
+    }
+  ],
+  "Nuevos_Candidatos_Fuera_De_Alertas": [
+    {
+      "ID_Padre": 4954,
+      "SHA256_Texto_Padre": "759550ba8d4a134cf097a00dc6d73ee3ed2e5502f2573a035b261a8c899e98f0",
+      "Estado": "PENDIENTE_REVISION_ACOTADA",
+      "Detalle": "Marfán después de cita interrogativa cerrada de Soto; no se aplicó revisión porque falta límite de oración compatible. No generalizar corte por comillas."
+    },
+    {
+      "ID_Padre": 4923,
+      "SHA256_Texto_Padre": "77916e8773747cbfbcb68b2e6dc4e954888a7c308ac197bbccb4c3832db88439",
+      "Estado": "PENDIENTE_REVISION_ACOTADA",
+      "Detalle": "Dos fórmulas de opinión nominal en un segmento de Soto; triaje, sin adjudicación ni lectura completa."
+    },
+    {
+      "ID_Padre": 6308,
+      "SHA256_Texto_Padre": "de05707a4bef7dfab0e52d8d551aee1072018d927d1a02e2af645345696ddeba",
+      "Estado": "PENDIENTE_REVISION_ACOTADA",
+      "Detalle": "Opinión de Vergara dentro de segmento de García; triaje, sin lectura completa."
+    },
+    {
+      "ID_Padre": 6443,
+      "SHA256_Texto_Padre": "c2f9531c9d1bfad7d90bd4731fed1edd0d36feed20585aeb0a4be34609fa6f1a",
+      "Estado": "PENDIENTE_REVISION_ACOTADA",
+      "Detalle": "Opinión de García dentro de segmento largo de de Ramón; triaje, sin lectura completa."
+    },
+    {
+      "ID_Padre": 6447,
+      "SHA256_Texto_Padre": "599825c4dce422c925abe439ae377e9a55c0b7c71f25600d9449827f94d2fdc3",
+      "Estado": "PENDIENTE_REVISION_ACOTADA",
+      "Detalle": "Opinión de García dentro de segmento de Vial; triaje, sin lectura completa."
+    }
+  ],
+  "Limite": "Sin proceso activo. 37 intervalos de hablante y una mención documentados; lectura de límites y contextos pertinentes, no certificación íntegra de 60 padres. Rastreo de opiniones no equivale a muestra independiente. Sin cotejo PDF ni revisión humana independiente. Quedan 372 filas alertadas en 339 padres y 170 intervalos históricos pendientes; existen candidatos fuera de las alertas."
+}

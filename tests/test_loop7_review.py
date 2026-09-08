@@ -387,7 +387,7 @@ FIXTURES = {2668: {'hash': '7696cae883f2ac1a8f1761e6a582e04c3f16b1697089534135a8
         'parts': [["Alberto Naudon Dell'Oro", 1689, 'SUJETO_NOMBRE'],
                   ['Rodrigo Vergara Montes', 170, 'SUJETO_ROL_NOMBRE']]},
  7125: {'hash': '98eb62b766027b19efad46b3c97600325cd6d4a9529cd0a7e0d899e1d3054893',
-        'parts': [["Alberto Naudon Dell'Oro", 1655, 'NOMBRE+VERBO'],
+        'parts': [["Alberto Naudon Dell'Oro", 1655, 'SUJETO_NOMBRE'],
                   ['Rodrigo Vergara Montes', 127, 'SUJETO_ROL_NOMBRE']]},
  7179: {'hash': '4d798ca38f58d3cd625b68491e0219b965428df3166793bd9080221b037ad27f',
         'parts': [['Sebastián Claro Edwards', 926, 'SUJETO_ROL_NOMBRE'],

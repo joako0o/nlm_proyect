@@ -38,6 +38,8 @@ def normalize(text):
 # Verbos finitos / locuciones que vinculan directamente el sujeto a su discurso.
 # No usar búsqueda en una ventana: podría capturar el verbo de otra persona.
 VERBS = (
+    'esta en desacuerdo', 'visualiza', 'asigna una alta probabilidad',
+    'llama a ser cuidadosos', 'deja planteada la pregunta',
     'admite', 'tiende a compartir', 'tiende a coincidir', 'suscribe plenamente', 'da la bienvenida',
     'proporciona un comentario', 'hace un comentario', 'efectua varias reflexiones',
     'da por finalizada la sesion', 'da por concluida la sesion',
@@ -79,9 +81,9 @@ VERBS = (
 )
 VERB = '(?:' + '|'.join(re.escape(v) for v in sorted(VERBS, key=len, reverse=True)) + r')\b'
 DIRECT = re.compile(r'^\s*[,;]?\s*(?:(?:le|lo)\s+)?(?:(?:tambien|ademas|entonces|luego|por su parte|en tanto|si bien)\s*,?\s*)?' + VERB)
-PARENTHETICAL = re.compile(r'^\s*,?\s*(?:en referencia|aludiendo|en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
-# Inciso de apertura constatado: número acotado y verbo principal aún exigido.
-OPENING_ASIDE = re.compile(r'^\s*,?\s*junto con dar inicio a la reunion de politica monetaria n[°º]\s*\d{1,3},\s*(?=' + VERB + ')')
+PARENTHETICAL = re.compile(r'^\s*,?\s*(?:acerca del?|a raiz del?|en razon del?|insistiendo sobre|ante comentarios de|haciendo referencia al?|continuando con su|continuando su|en referencia|aludiendo|en relacion|con respecto|respecto|sobre|en cuanto|por su parte|en respuesta|a proposito|refiriendose|complementando|contestando|frente|con motivo|para ilustrar|ante una consulta|respondiendo)\b[^.;:]{1,250}?(?=' + VERB + ')')
+# Incisos constatados: locuciones completas y verbo principal aún exigido.
+OPENING_ASIDE = re.compile(r'^\s*,?\s*(?:junto con dar inicio a la reunion de politica monetaria n[°º]\s*\d{1,3}|tambien con respecto a demanda|atendido lo expuesto|haciendo un calculo preliminar|junto con agradecer las opiniones expuestas|en nombre suyo y del consejo|antes de retirarse de la reunion|pensado en los agricultores),\s*(?=' + VERB + ')')
 INVERTED = re.compile(VERB + r'\s*$')
 FINITE = re.compile(r'\b' + VERB)
 HONOR = r'(?:senor|senora|don|dona|sr\.|sra\.)\s+'
@@ -96,6 +98,10 @@ LEAD = re.compile(r'^(?:al continuar con su presentacion$|prosiguiendo con su ex
                   r'exposicion|comentarios|opciones|sobre la|sobre el|'
                   r'en |sobre |respecto |ante |para concluir|para finalizar|a este respecto|a su analisis|por las razones expuestas|sin embargo|en consecuencia|por ello|con relacion|de inmediato|enseguida|en seguida|a lo anterior|a lo anteriormente|a proposito|en otra|en esta|en tal|en el mismo|adicionalmente|ademas|continuando|para enfatizar|por el lado|en consideracion)\b')
 def has_finite(text):
+    # Una referencia retrospectiva bloquea prestar el verbo al actor mencionado;
+    # no basta por sí sola para abrir un turno actual (casos 1013 y 2325).
+    if re.search(r'\bse refirio\b', text):
+        return True
     # "la consulta del Ministro" es un sustantivo, no otro verbo de habla.
     for m in FINITE.finditer(text):
         if m.group() in ('consulta', 'pregunta') and re.search(r'\b(?:la|una|su|esta|esa|dicha)\s+$', text[:m.start()]):
