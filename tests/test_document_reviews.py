@@ -32,11 +32,13 @@ class DocumentReviewTests(unittest.TestCase):
                      Tipo_Acta=DOCUMENT_TYPE if doc else '',Rol_Final=e['Rol_Autor'] if doc else b.roster_role_for(e['Fecha'],actor),
                      Fuente_Rol=ROLE_SOURCE if doc else 'LISTA_ASISTENCIA',Rol_Lista_Asistencia='' if doc else b.roster_role_for(e['Fecha'],actor),
                      Duplicado_Exacto='NO',ID_Intervencion=f'{p}:{i}',ID_Bloque_Texto=f'{p}:{i}')
+            if method=='ACTA/META':
+                row.update(Tipo_Acta='ACTA_INSTITUCIONAL',Rol_Final='Consejo',Fuente_Rol='ACTA_INSTITUCIONAL',Rol_Lista_Asistencia='')
             row['Motivos_Revision']=';'.join(review_reasons(row,b.TURN_DETECTOR,b.split_sentences))
             rows.append(row)
         return annotate_turns(rows)
-    def test_six_exact_sources_are_documented(self):
-        self.assertEqual(set(self.reviews),{5212,5742,5802,4453,4507,4722})
+    def test_twelve_exact_sources_are_documented(self):
+        self.assertEqual(set(self.reviews),{5212,5742,5802,4453,4507,4722,3071,3575,4109,5257,5892,5999})
     def test_four_complete_parts_with_author_and_reader(self):
         for p,lengths in [(5212,[229,239,6039,250]),(5742,[498,366,4908,322]),(5802,[545,381,5094,322])]:
             parts=self.parts(p)
@@ -96,20 +98,22 @@ class DocumentReviewTests(unittest.TestCase):
     def test_reader_returns_and_handoff_not_attributed_to_recipient(self):
         for p in self.reviews:
             parts=self.parts(p)
-            self.assertTrue(parts[-1][0].startswith('A continuación' if p in [4453,4507] else 'Concluida la lectura'))
-            self.assertIn({4453:'Rodrigo Vergara',4507:'Sebastián Claro'}.get(p,'Joaquín Vial'),parts[-1][0])
-            self.assertEqual(parts[-1][1],'José De Gregorio Rebeco' if p==4453 else 'Rodrigo Vergara Montes')
+            self.assertTrue(parts[-1][0].startswith({4453:'A continuación',4507:'A continuación',3071:'Finalizada la lectura',3575:'Al proseguir con la Reunión',4109:'Al proseguir con la Reunión'}.get(p,'Concluida la lectura')))
+            if p!=3071:
+                self.assertIn({4453:'Rodrigo Vergara',4507:'Sebastián Claro',3575:'Rodrigo Vergara',4109:'Rodrigo Vergara'}.get(p,'Joaquín Vial'),parts[-1][0])
+            self.assertEqual(parts[-1][1],'José De Gregorio Rebeco' if p in [4453,3071,3575,4109] else 'Rodrigo Vergara Montes')
     def test_ocr_and_quotes_are_not_rewritten(self):
         self.assertTrue(self.parts(5802)[1][0].endswith('( ■'))
         for p in self.reviews:
             text=self.parts(p)[2][0]
-            self.assertTrue(text.startswith('“'));self.assertTrue(text.endswith('”'))
+            pair={3071:('"','”'),5892:('“','"')}.get(p,('“','”'))
+            self.assertTrue(text.startswith(pair[0]));self.assertTrue(text.endswith(pair[1]))
     def test_output_validator_and_exported_reader(self):
         for p in self.reviews:
             errors,records=validate_document_reviews(self.rows(p),{p:self.reviews[p]})
             self.assertEqual(errors,[]);self.assertEqual(len(records),1)
             self.assertEqual(records[0]['Autor'],'Felipe Larraín Bascuñán')
-            self.assertEqual(records[0]['Lector'],'José De Gregorio Rebeco' if p==4453 else 'Rodrigo Vergara Montes')
+            self.assertEqual(records[0]['Lector'],'José De Gregorio Rebeco' if p in [4453,3071,3575,4109] else 'Rodrigo Vergara Montes')
             self.assertEqual(records[0]['ID_Documento'],3)
     def test_output_corruption_rejected(self):
         for field,value in [('Texto','truncado'),('Actor_Final','Rodrigo Vergara Montes'),('Fuente_Actor','SUJETO_NOMBRE'),

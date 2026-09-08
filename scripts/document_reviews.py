@@ -39,19 +39,46 @@ def load_document_reviews(raw, path=PATH):
             raise ValueError('Documento: partición inválida')
         chunks = [text[a:z].strip() for a,z in zip(bounds,bounds[1:])]
         received = entry.get('Tipo_Procedencia') == 'PLANTEAMIENTO_RECIBIDO_PARA_LECTURA'
+        coordinated = entry.get('Tipo_Procedencia') == 'LECTURA_COORDINADA_RECIBIDA_REVISADA'
+        comments = entry.get('Tipo_Procedencia') == 'LECTURA_COMENTARIOS_RECIBIDOS_REVISADA'
+        nominal = entry.get('Tipo_Procedencia') == 'LECTURA_NOMINAL_POR_ESCRITO_REVISADA'
+        return_variant = entry.get('Tipo_Retorno') == 'RETORNO_LECTURA_VARIANTE_REVISADA'
+        arrival = entry.get('Tipo_Anterior') == 'INCORPORACION_INSTITUCIONAL_REVISADA'
+        mixed = entry.get('Tipo_Comillas') == 'PAR_MIXTO_REVISADO'
         handoff = entry.get('Tipo_Retorno') == 'CESION_TRAS_LECTURA_REVISADA'
-        if (entry.get('Tipo_Procedencia') not in (None, 'PLANTEAMIENTO_RECIBIDO_PARA_LECTURA')
-                or entry.get('Tipo_Retorno') not in (None, 'CESION_TRAS_LECTURA_REVISADA')):
+        if (entry.get('Tipo_Procedencia') not in (None, 'PLANTEAMIENTO_RECIBIDO_PARA_LECTURA', 'LECTURA_COORDINADA_RECIBIDA_REVISADA', 'LECTURA_COMENTARIOS_RECIBIDOS_REVISADA', 'LECTURA_NOMINAL_POR_ESCRITO_REVISADA')
+                or entry.get('Tipo_Retorno') not in (None, 'CESION_TRAS_LECTURA_REVISADA', 'RETORNO_LECTURA_VARIANTE_REVISADA')
+                or entry.get('Tipo_Anterior') not in (None, 'INCORPORACION_INSTITUCIONAL_REVISADA')
+                or entry.get('Tipo_Comillas') not in (None, 'PAR_MIXTO_REVISADO')):
             raise ValueError('Documento: modalidad revisada inválida')
         return_valid = (chunks[3] == entry.get('Cita_Retorno')
                         and chunks[3].startswith('A continuación, el Presidente señor ')
                         and ' da paso a la votación, concediéndole la palabra al Consejero señor ' in chunks[3]
                         if handoff else chunks[3].startswith('Concluida la lectura'))
-        if (not all(chunks) or not chunks[1].startswith('Al proseguir con la Sesión, el señor Presidente informa')
-                or not return_valid
-                or text[bounds[2]] != '“' or text[bounds[3]-1] != '”'
-                or chunks[2].count('“') != 1 or chunks[2].count('”') != 1):
+        if return_variant:
+            return_valid = (chunks[3] == entry.get('Cita_Retorno') and (
+                chunks[3] == 'Finalizada la lectura de los comentarios del señor Ministro de Hacienda, el señor Presidente da paso a la votación.'
+                or (chunks[3].startswith('Al proseguir con la Reunión, el Presidente señor ')
+                    and ' da paso a la votación, concediéndole la palabra al Consejero señor ' in chunks[3])))
+        # Variantes opt-in: el hash y la cita completa siguen siendo obligatorios.
+        if nominal:
+            intro_valid = chunks[1].startswith(('El Presidente señor ',
+                'Al proseguir con la Sesión, el Presidente señor '))
+        else:
+            intro_valid = coordinated or comments or chunks[1].startswith(
+                'Al proseguir con la Sesión, el señor Presidente informa')
+        pair = entry.get('Comillas', ['“','”']) if mixed else ['“','”']
+        if mixed and (not isinstance(pair,list) or pair not in [['"','”'],['“','"']]
+                      or sum(chunks[2].count(c) for c in '“”"') != 2):
+            raise ValueError('Documento: par mixto sin delimitación única')
+        quote_valid = (text[bounds[2]] == pair[0] and text[bounds[3]-1] == pair[1]
+                       and all(chunks[2].count(c)==pair.count(c) for c in set(pair)))
+        if not all(chunks) or not intro_valid or not return_valid or not quote_valid:
             raise ValueError('Documento: límites de lectura/cita inválidos')
+        if arrival and (not nominal or entry['Actor_Anterior'] != 'Consejo del Banco Central de Chile'
+                or chunks[0] != entry.get('Cita_Anterior')
+                or chunks[0] != 'El Presidente señor Rodrigo Vergara se integra a la Sesión y pasa a presidirla.'):
+            raise ValueError('Documento: incorporación institucional sin evidencia exacta')
         if (entry['Tipo_Revision'] != 'LECTURA_DIRIGIDA_POR_AGENTE'
                 or entry['Asistencia_Autor'] != 'NO_INFERIDA_DEL_DOCUMENTO'
                 or not entry['Justificacion'] or not entry['Limitacion']
@@ -64,10 +91,17 @@ def load_document_reviews(raw, path=PATH):
         received_proof = ('Al proseguir con la Sesión, el señor Presidente informa que el Ministro de Hacienda señor '
                           +entry['Autor_Mencion']+', por intermedio de su Asesor señor Rodrigo Cerda, '
                           +'le ha hecho llegar su planteamiento, al que dará lectura a continuación:')
-        if (proof != normalize_quote(chunks[1])
-                or (proof != received_proof if received else 'por escrito' not in proof)
-                or 'lectura' not in proof
-                or f"{entry['Rol_Autor']} señor {entry['Autor_Mencion']}" not in proof):
+        if coordinated:
+            provenance_valid = proof == ('e informa que el Ministro de Hacienda señor '+entry['Autor_Mencion']
+                +', por intermedio de su Asesor señor Rodrigo Cerda, le ha hecho llegar su planteamiento, al que dará lectura a continuación.')
+        elif comments:
+            provenance_valid = proof == ('y, a continuación, debido a la imposibilidad del Ministro de Hacienda, señor '
+                +entry['Autor_Mencion']+', de asistir a la sesión de la tarde, da lectura a los comentarios que hizo llegar a través de su asesor, señor Rodrigo Cerda:')
+        else:
+            provenance_valid = (proof == received_proof if received else 'por escrito' in proof)
+        author_phrase = entry['Rol_Autor']+(', señor ' if comments else ' señor ')+entry['Autor_Mencion']
+        if (proof != normalize_quote(chunks[1]) or not provenance_valid
+                or 'lectura' not in proof or author_phrase not in proof):
             raise ValueError('Documento: falta evidencia explícita de autoría y lectura')
         result[p] = {**entry, '_Texto':text, '_Tramos':chunks}
         ids.add(rid)
@@ -78,11 +112,34 @@ def document_parts(text, date, initial_actor, review, detector):
     if (text != review['_Texto'] or date != review['Fecha']
             or initial_actor != review['Actor_Origen']):
         raise ValueError('Documento: fuente/fecha/actor previo incompatibles')
-    first = detector.speaker(review['_Tramos'][0], date)
+    arrival = review.get('Tipo_Anterior') == 'INCORPORACION_INSTITUCIONAL_REVISADA'
+    if arrival:
+        candidate = detector.speaker(review['_Tramos'][0].replace('se integra a la Sesión y pasa a presidirla.', 'informa.'), date)
+        if not candidate or candidate['actor'] != review['Lector']:
+            raise ValueError('Documento: incorporación sin presidente compatible')
+        first = {'actor':'Consejo del Banco Central de Chile', 'method':'ACTA/META'}
+    else:
+        first = detector.speaker(review['_Tramos'][0], date)
     if (not first or first['actor'] != review['Actor_Anterior']
             or detector.resolve_alias(normalize(review['Autor_Mencion']),date) != review['Autor']
             or detector.resolve_role(date,review['Rol_Lector']) != review['Lector']):
         raise ValueError('Documento: autor/lector/sujeto incompatibles con evidencia')
+    if review.get('Tipo_Procedencia') in {'LECTURA_COORDINADA_RECIBIDA_REVISADA','LECTURA_COMENTARIOS_RECIBIDOS_REVISADA'} and review['Actor_Anterior'] != review['Lector']:
+        raise ValueError('Documento: lectura coordinada sin lector antecedente')
+    if review.get('Tipo_Procedencia') == 'LECTURA_NOMINAL_POR_ESCRITO_REVISADA':
+        projected = review['_Tramos'][1]
+        lead = 'Al proseguir con la Sesión, '
+        if projected.startswith(lead):projected=projected[len(lead):]
+        intro = detector.speaker(projected, date)
+        if not intro or intro['actor'] != review['Lector']:
+            raise ValueError('Documento: anuncio nominal sin lector compatible')
+    if review.get('Tipo_Retorno') == 'RETORNO_LECTURA_VARIANTE_REVISADA':
+        projected = review['_Tramos'][3]
+        for lead in ['Finalizada la lectura de los comentarios del señor Ministro de Hacienda, ', 'Al proseguir con la Reunión, ']:
+            if projected.startswith(lead):projected=projected[len(lead):];break
+        tail = detector.speaker(projected.replace('da paso a la votación', 'ofrece la palabra', 1), date)
+        if not tail or tail['actor'] != review['Lector']:
+            raise ValueError('Documento: retorno variante sin lector compatible')
     if review.get('Tipo_Retorno') == 'CESION_TRAS_LECTURA_REVISADA':
         # Proyección sólo para validar el sujeto; no reescribir la cesión exportada.
         tail = detector.speaker(review['_Tramos'][3].replace(
@@ -118,6 +175,12 @@ def validate_document_reviews(rows, reviews):
         if not valid:
             errors.append(f"{e['Revision_ID']}: cambiaron intervalos/actores/lector")
             continue
+        if e.get('Tipo_Anterior') == 'INCORPORACION_INSTITUCIONAL_REVISADA':
+            before=group[0]
+            if (before['Fuente_Actor'] != 'ACTA/META' or before.get('Fuente_Rol') != 'ACTA_INSTITUCIONAL'
+                    or before.get('Rol_Final') != 'Consejo' or before.get('Tipo_Acta') != 'ACTA_INSTITUCIONAL'
+                    or before.get('ID_Ancla_Actor') or before.get('ID_Antecedente_Continuidad')):
+                errors.append(f"{e['Revision_ID']}: incorporación confundida con habla personal")
         doc = group[2]
         if (doc.get('Tipo_Acta') != DOCUMENT_TYPE or doc.get('Relacion_Turno') != 'DOCUMENTO_PERSONAL'
                 or doc.get('Fuente_Rol') != ROLE_SOURCE or doc.get('Rol_Final') != e['Rol_Autor']

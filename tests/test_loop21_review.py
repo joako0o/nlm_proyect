@@ -97,7 +97,7 @@ class LoopTwentyOneTests(unittest.TestCase):
         for p,n in [(518,5935),(520,2821),(632,587),(2141,774),(4289,8677),(4446,484),(6862,1302)]:
             hits=[t for t,a,m in self.parts(p) if contextual_motives(dict(ID_Padre=p,Fecha=self.raw[p]['Fecha'],Actor_Final=a,Texto=t),self.warnings)]
             self.assertEqual(len(hits),1);self.assertEqual(len(hits[0]),n)
-        ms=load_mention_reviews(self.raw);self.assertEqual(len(ms),33)
+        ms=load_mention_reviews(self.raw);self.assertEqual(len(ms),35)
         self.assertEqual([e['ID_Padre'] for e in ms.values() if e['Decision']==PENDING_DECISION],[6185,3775,4055])
     def test_source_mutation_invalidates_registration(self):
         raw=copy.deepcopy(self.raw);raw[6862]['Texto']+='X'

@@ -91,7 +91,7 @@ class LoopTwentyFourTests(unittest.TestCase):
         ms=load_mention_reviews(self.raw)
         for p in [1549,2219,4055]:self.assertEqual(self.parts(p),self.parts(p,False));self.assertNotIn(p,self.reviews)
         self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775,4055})
-        self.assertEqual(sum(e['Decision']=='MENCION_LEGITIMA_REVISADA' for e in ms.values()),30)
+        self.assertEqual(sum(e['Decision']=='MENCION_LEGITIMA_REVISADA' for e in ms.values()),32)
         self.assertEqual(self.warnings[4055]['Motivo'],'PASAJES_CONJUNTOS_POR_DELIMITAR')
     def test_source_hash_mutation_fails_before_publication(self):
         raw=copy.deepcopy(self.raw);raw[2788]['Texto']+='X'
