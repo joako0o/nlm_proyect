@@ -35,6 +35,7 @@ ROLE_PATTERNS = [
     ("Gerente de Mercados Financieros Nacionales", None),
     ("Gerente de División Política Financiera", None),
     ("Gerente de División Operaciones Financieras", None),
+    ("Gerente de División Estadísticas Subrogante", "Gerente de División Estadísticas (S)"),
     ("Gerente de División Estadísticas", None),
     ("Gerente de División Estudios Subrogante", None),
     ("Gerente de División Estudios", None),

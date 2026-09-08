@@ -104,7 +104,8 @@ class LoopSixteenTests(unittest.TestCase):
         self.assertIn('indicadores de El señor Lehmann',self.parts(506)[1][0])
         self.assertTrue(self.parts(506)[1][0].endswith('tanto en Estados Unidos'))
     def test_6185_and_joint_identity_cases_remain_unadjudicated(self):
-        self.assertFalse({6185,6443,2126,3989}&set(self.reviews))
+        self.assertFalse({6185,2126,3989}&set(self.reviews))
+        self.assertTrue(any(e["Actor"]=="Miguel Ricaurte Bermúdez" for e in speaker_intervals(self.reviews[6443])))  # separación local; variante pendiente
     def test_changed_source_hash_rejects_local_review(self):
         raw=copy.deepcopy(self.raw);raw[6025]['Texto']+=' X'
         with tempfile.TemporaryDirectory() as d:

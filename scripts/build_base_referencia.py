@@ -30,7 +30,8 @@ ws=wb['Consolidado']; data=list(ws.iter_rows(values_only=True))[1:]
 CONSEJO='Consejo del Banco Central de Chile'
 PSEUDO={'Gerente de División Internacional','Gerente de División Estudios Subrogante','Gerente de Investigación Económica','Gerente de Operaciones Financieras','Gerente de Área Técnica','Gerente de Estabilidad Financiera'}
 EXTRA_ACTORS={'María Eugenia Wagner Brizzi','Rodrigo Alfaro','Rodrigo Álvarez Zenteno',
-              'Alejandro Micco','Leonardo Hernández Tagle','Alfredo Pistelli'}
+              'Alejandro Micco','Leonardo Hernández Tagle','Alfredo Pistelli',
+              'Gloria Peña Tapia'}
 ALL_ACTORS=sorted(set(str(r[2]).strip() for r in data)|EXTRA_ACTORS)
 REAL=[a for a in ALL_ACTORS if a not in PSEUDO and a!=CONSEJO]
 

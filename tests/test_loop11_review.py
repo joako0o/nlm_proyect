@@ -30,9 +30,9 @@ class LoopElevenTests(unittest.TestCase):
     def rows(self,p):
         return [dict(ID=i,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m) for i,(t,a,m) in enumerate(self.parts(p))]
     def test_root_and_interval_counts_are_distinct(self):
-        self.assertEqual(len(self.reviews),225)
-        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),234)
-        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{506,644,664,1090,1923,2622,4923,5367,6009})
+        self.assertEqual(len(self.reviews),237)
+        self.assertEqual(sum(len(speaker_intervals(r)) for r in self.reviews.values()),250)
+        self.assertEqual({p for p,r in self.reviews.items() if len(speaker_intervals(r))>1},{506,644,664,1090,1923,2622,4923,5367,6009,6015,6016,6443})
     def test_empty_and_single_review_compatibility(self):
         self.assertEqual(speaker_intervals(None),[])
         single=self.reviews[4706]
@@ -128,39 +128,47 @@ class LoopElevenTests(unittest.TestCase):
             rows=[dict(ID_Intervencion='1',ID_Bloque_Texto='1',Fecha=self.raw[4923]['Fecha'],Texto=t,Actor_Final=a,Fuente_Actor=m,Tipo_Acta='INTERVENCION',Motivos_Revision='')]
             annotate_turns(rows);self.assertFalse(rows[0]['ID_Ancla_Actor'])
     def test_ricaurte_and_joint_priorities_remain_unadjudicated(self):
-        self.assertFalse({6443,6185,2126}&set(self.reviews))
+        self.assertFalse({6185,2126}&set(self.reviews))
+        self.assertTrue(any(e["Actor"]=="Miguel Ricaurte Bermúdez" for e in speaker_intervals(self.reviews[6443])))  # separación local; variante pendiente
         self.assertIn(780,b.load_context_warnings(self.raw))  # puente inicial todavía pendiente
 
     def test_both_context_warning_scopes_validate_without_certifying_actor(self):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{180,5573,6282,4433,6443,3191,5367,2126,3989,2661,2704,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530})
+        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2661,2704,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''
         self.assertTrue(validate_context_warnings(rows,warnings))
+    def archived_6443_warning(self):
+        from context_warnings import load_context_warnings
+        archive=json.loads((Path(b.__file__).resolve().parents[1]/'data/curation/alertas_contextuales_retiradas.json').read_text())
+        e=next(x['Alerta_Original'] for x in archive if x['Alerta_Original']['ID_Padre']==6443)
+        with tempfile.TemporaryDirectory() as d:
+            path=Path(d)/'warning.json';path.write_text(json.dumps([e]))
+            return load_context_warnings(self.raw,path)[6443]
     def test_identity_warning_rejects_unregistered_or_wrong_motive(self):
         from context_warnings import load_context_warnings, validate_context_warnings
-        warnings=load_context_warnings(self.raw);e=warnings[6443]
+        e=self.archived_6443_warning()
         row=dict(ID=1,ID_Padre=6443,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo'])
         self.assertTrue(validate_context_warnings([row],{}))
         row['Motivos_Revision']='CARGO_EN_DISCURSO_POR_VERIFICAR'
         self.assertTrue(validate_context_warnings([row],{6443:e}))
     def test_identity_warning_blocks_downstream_group_even_for_same_actor(self):
         from context_warnings import load_context_warnings
-        e=load_context_warnings(self.raw)[6443]
+        e=self.archived_6443_warning()
         rows=[dict(ID_Intervencion=str(i),ID_Bloque_Texto=str(i),Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=t,Fuente_Actor='SUJETO_ROL_NOMBRE',Tipo_Acta='INTERVENCION',Motivos_Revision=e['Motivo'] if i==0 else '') for i,t in enumerate([e['Texto_Intervalo'],'El señor Beltrán de Ramón señala otro punto.'])]
         annotate_turns(rows)
         self.assertNotEqual(rows[0]['ID_Turno'],rows[1]['ID_Turno'])
-    def test_6443_remains_explicitly_unresolved_not_reassigned_by_topic(self):
+    def test_6443_separation_replaces_archived_warning_not_global_identity(self):
         from context_warnings import load_context_warnings
-        e=load_context_warnings(self.raw)[6443]
+        e=self.archived_6443_warning()
         self.assertEqual(e['Decision'],'PENDIENTE_SEPARACION_E_IDENTIDAD')
         self.assertIn('Miguel Ricaurte retoma',e['Texto_Intervalo'])
         self.assertIn('En opinión del Consejero señor Pablo García',e['Texto_Intervalo'])
-        self.assertEqual([a for t,a,m in self.parts(6443)],['Beltrán de Ramón Acevedo'])
-        self.assertNotIn(6443,self.reviews)
+        self.assertEqual([a for t,a,m in self.parts(6443)],['Beltrán de Ramón Acevedo','Pablo García Silva','Miguel Ricaurte Bermúdez','Beltrán de Ramón Acevedo','Miguel Ricaurte Bermúdez'])
+        self.assertNotIn(6443,load_context_warnings(self.raw))
 
 FIXTURES = {14: {'hash': '6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab48e3519085',
       'parts': [('Esteban Jadresic Marinovic', 822, 'CONTEXTO_REVISADO')]},
@@ -266,7 +274,7 @@ FIXTURES = {14: {'hash': '6792502ab9eed5ccfe5c098a7c1da6ede20c10af3703e1d2f664ab
         'parts': [('Pablo García Silva', 1830, 'SUJETO_ROL_NOMBRE'),
                   ('Rodrigo Vergara Montes', 2306, 'CONTEXTO_REVISADO')]},
  6443: {'hash': 'c2f9531c9d1bfad7d90bd4731fed1edd0d36feed20585aeb0a4be34609fa6f1a',
-        'parts': [('Beltrán de Ramón Acevedo', 15100, 'SUJETO_ROL_NOMBRE')]},
+        'parts': [('Beltrán de Ramón Acevedo', 734, 'SUJETO_ROL_NOMBRE'), ('Pablo García Silva', 305, 'CONTEXTO_REVISADO'), ('Miguel Ricaurte Bermúdez', 7178, 'CONTEXTO_REVISADO'), ('Beltrán de Ramón Acevedo', 480, 'SUJETO_ROL_NOMBRE'), ('Miguel Ricaurte Bermúdez', 6399, 'CONTEXTO_REVISADO')]},
  6447: {'hash': '599825c4dce422c925abe439ae377e9a55c0b7c71f25600d9449827f94d2fdc3',
         'parts': [('Joaquín Vial Ruiz-Tagle', 2829, 'SUJETO_ROL_NOMBRE'),
                   ('Pablo García Silva', 1696, 'CONTEXTO_REVISADO')]},

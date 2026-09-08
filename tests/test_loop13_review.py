@@ -134,7 +134,8 @@ class LoopThirteenTests(unittest.TestCase):
             t,a,m=self.parts(p)[0];self.assertEqual(m,'CONTEXTO_REVISADO')
             self.assertEqual(contextual_motives(dict(ID_Padre=p,Fecha=self.raw[p]['Fecha'],Actor_Final=a,Texto=t),warnings),['CARGO_EN_DISCURSO_POR_VERIFICAR'])
     def test_unresolved_joint_identity_and_bernier_not_forced(self):
-        self.assertFalse({6185,6443,2126,3989}&set(self.reviews))
+        self.assertFalse({6185,2126,3989}&set(self.reviews))
+        self.assertTrue(any(e["Actor"]=="Miguel Ricaurte Bermúdez" for e in speaker_intervals(self.reviews[6443])))  # separación local; variante pendiente
         self.assertIn(780,b.load_context_warnings(self.raw))  # puente inicial todavía pendiente
         self.assertIn(6530,b.load_context_warnings(self.raw))  # nombre literal no certificado
     def test_parent_38_exact_source_and_segments(self):

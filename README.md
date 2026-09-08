@@ -1,73 +1,70 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, preparado a partir de 7.219
-filas originales. La salida tiene **9.504 filas físicas / 9.503 bloques de texto**,
+filas originales. La salida tiene **9.525 filas físicas / 9.524 bloques de texto**,
 con actor, cargo, trazabilidad y alertas. Una intervención extensa ocupa dos filas
 por el límite de XLSX. **315 grupos comparten varias filas bajo un mismo
 `ID_Turno`**, con hasta once filas consecutivas; no se fusionan registros de origen.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.129 pruebas. No certifican pureza semántica total.**
-Quedan **322 filas con alertas en 288 padres**. Los motivos se superponen:
-no son 322 errores confirmados ni filas todas sin leer.
-`SIN_ALERTAS_AUTOMATICAS` tampoco equivale a revisión humana.
+**F0 y F1 pasan, con 1.155 pruebas. No certifican pureza semántica total.**
+Quedan **334 filas con alertas en 297 padres**. No son 334 errores confirmados
+ni todas filas sin leer. `SIN_ALERTAS_AUTOMATICAS` tampoco significa revisión humana.
 
-**Informe vigente:** [LOOP16: diálogo recuperado y atribuciones locales](docs/REVISION_LOOP16_2026-09-08.md).
-**Diez padres afectados:** dos separaciones —780 sólo parcialmente—, un cambio
-local de etiqueta de actor en 6025 y siete cambios sólo de metadatos de atribución.
-Los otros **7.209 padres** conservan sus campos semánticos, descontando identificadores.
-Ver [comparación global](docs/comparacion_loop16_2026-09-08.json),
-[detalle CSV](docs/cambios_loop16_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop16_2026-09-08.json).
+**Informe vigente:** [LOOP17: diálogos sin alerta y Gloria Peña](docs/REVISION_LOOP17_2026-09-08.md).
+**Doce padres con separación estructural**, once antes sin alerta, leídos íntegramente
+en su texto disponible. Los otros **7.207 padres** conservan sus campos semánticos,
+descontando identificadores secuenciales. Ver [comparación global](docs/comparacion_loop17_2026-09-08.json),
+[detalle CSV](docs/cambios_loop17_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop17_2026-09-08.json).
 
-- **6009:** un padre sin alerta y fusionado bajo Vergara se separa en cuatro
-  intervenciones: Vergara → Ricaurte → Vergara → Ricaurte. Se leyó íntegramente;
-  las exposiciones extensas se conservan y las menciones no crean turnos nuevos.
-- **780:** se recuperan 1.655 caracteres explícitos de Corbo. El puente anterior
-  «En la economía nacional…» sigue provisional y advertido; se conserva el ancla
-  posterior explícita de Corbo, sin extenderle la revisión.
-- **506 / 1572:** se leen íntegramente las exposiciones disponibles de Lehmann
-  de 8.662 / 18.132 caracteres. 506 conserva daño textual advertido y su respuesta
-  previa de 206 caracteres, independiente e idéntica.
-- **4575 / 4579 / 4582 / 4584 y 6025:** atribuciones documentadas por nóminas
-  explícitas de sesión, con etiqueta local Bermúdez y advertencias de identidad
-  intactas. **No se armonizan globalmente Bermúdez/Vintimilla.**
-- **6530:** revisión acotada de Raddatz, manteniendo el literal «Claudia Raddatz»
-  y añadiendo advertencia de nombre por verificar. Vergara sigue separado.
+- **6013/6014/6015/6016/6019:** se recuperan intervenciones de Ricaurte y se
+  conservan los retornos de Vergara y Claro. Las exposiciones largas permanecen
+  unidas, sin convertir cada país, indicador o mención en un nuevo turno.
+- **6441/6442/6443/6451:** se separa a Ricaurte del participante inicial. En
+  **6443** quedan cinco intervenciones: Beltrán → Pablo García → Ricaurte →
+  Beltrán → Ricaurte. En 6451, cierre presidencial e incorporación institucional
+  siguen aparte.
+- **4364:** se recupera la respuesta de Soto entre dos intervenciones de
+  De Gregorio; el literal «Claudios Soto» se conserva y se advierte.
+- **6769/6770:** se recuperan dos intervenciones de **Gloria Peña Tapia**,
+  respaldadas por discurso y nómina 6755. Se incorpora su nombre al registro
+  nominal y el cargo explícito de Estadísticas Subrogante al catálogo de nóminas.
+  La referencia a ella en **6930** no se transforma en una intervención.
 
-Son **once intervalos nuevos en diez padres**, nueve nuevos en el registro:
-**234 intervalos en 225 padres**. Los 223 anteriores permanecen idénticos.
-Tres advertencias nuevas (506/780/6530); las 21 anteriores se conservan.
-No se amplían alias ni reglas de segmentación. `CONTEXTO_REVISADO` no crea anclas
-globales y `Fin` por sí solo no crea cortes.
+Son **16 intervalos nuevos**, total **250 en 237 padres**. Los 234 anteriores
+permanecen idénticos. Tres advertencias nuevas (4364/6013/6015), una retirada
+por separación de 6443 y **archivada íntegra**, y las otras 23 anteriores intactas:
+**26 advertencias contextuales activas**. Las rupturas textuales no se reconstruyen.
+La identidad global de Ricaurte no queda resuelta por las nóminas locales.
 
 **Todos los enlaces previos entre padres y grupos no afectados se conservan**,
 incluidas las dos exposiciones de García de once filas. Sin enlaces nuevos ni
-retirados. Se mantienen 3110 institucional, 3421 y el modelo 5212/5742/5802:
-**Larraín autor ≠ Vergara lector**, sin inferir asistencia ni habla oral del autor.
-Los esquemas XLSX 37/24, once menciones actuales y 21 fórmulas permanecen intactos.
-**67 hashes de entradas/código y once de salidas verificados**; la base publicada
-coincide campo por campo con el ensayo aislado.
+retirados. `CONTEXTO_REVISADO` no crea anclas globales; se mantienen los controles
+anteriores de 780/1092/2790, 3110, 3421 y 5402/5403.
+Los esquemas XLSX 37/24, once menciones actuales, 21 fórmulas y tres documentos
+leídos siguen intactos: **Larraín autor ≠ Vergara lector**, sin inferir asistencia
+ni habla oral del autor. **69 hashes de entradas/código y once de salidas verificados**;
+la base publicada coincide campo por campo con el ensayo aislado.
 
-Alertas **321 → 322**; anáforas **2 → 0**, atribuciones legadas **8 → 2**.
-El saldo no busca ocultar incertidumbre: los tramos nuevos de Ricaurte ahora
-llevan advertencia de identidad. Cero alertas por anáfora no prueba exhaustividad.
-La cola histórica conserva **104 intervalos pendientes de lectura contextual**, antes
-107. Esta clasificación automática no equivale a tres cierres integrales.
-La nueva columna histórica `Variante_Identidad_Pendiente` mantiene **seis intervalos**
-pendientes de identidad aunque cambie su método o etiqueta local; no altera los
-esquemas 37/24. Conteos históricos y actuales se superponen: **no se suman**.
-Las once menciones actuales no son las ocho históricas.
+Alertas **322 → 334**: los doce tramos recuperados de Ricaurte hacen visible su
+advertencia de identidad antes oculta; se agrega el aviso de nombre de Soto y se
+retira la antigua advertencia de mezcla de 6443. Los avisos de daño se superponen.
+**20 filas actuales con variante Ricaurte**, antes ocho; no son veinte personas
+ni identidades resueltas. La cola histórica conserva **104 intervalos pendientes
+de lectura contextual** y seis con variante de identidad. Sus estados no cambian:
+estos doce padres no pertenecen a las 783 alertas históricas. Los conteos se
+superponen y **no se suman**; tampoco se equiparan once menciones actuales y ocho históricas.
 
-Siguen el puente de 780, 6185, 6443, 2126/3989, residuos de 3191/5367, identidades,
-nombres, daños y otras advertencias. Falta cotejo de originales en casos ambiguos
-y una muestra independiente con y sin alertas. No hubo nuevo cotejo PDF ni lectura
-exhaustiva del corpus.
+Siguen el puente de 780, 6185, 2126/3989, residuos conjuntos, nombres, identidades,
+daños y otras advertencias. El checkpoint incluye candidatos nominales nuevos
+sólo como triaje. Faltan cotejos documentales y una muestra independiente con y
+sin alertas. No hubo nuevo cotejo PDF ni lectura exhaustiva del corpus.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP15_2026-09-08.md)
-conserva **9.500 filas / 321 alertas / 1.100 pruebas**. Verificaciones locales:
+**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP16_2026-09-08.md)
+conserva **9.504 filas / 322 alertas / 1.129 pruebas**. Verificaciones locales:
 el workflow de GitHub Actions sigue fuera del PR por falta de permiso `workflows`.
 
 ## Ejecutar todo el pipeline
@@ -128,7 +125,8 @@ data/
     revisiones_roles.json                    # seis cargos: citas, sesión, hash y justificación
     revisiones_hablantes.json                # 97 intervalos acotados con citas y hash
     revisiones_documentos_leidos.json        # 3 escritos: autor, lector y límites con hash
-    alertas_contextuales.json                # incertidumbre de cargo, sin adjudicación automática
+    alertas_contextuales.json                # incertidumbre textual, de nombre, cargo o identidad
+    alertas_contextuales_retiradas.json      # advertencia original, motivo del retiro y sustitutas
   processed/
     consolidado_base_referencia.xlsx          # 9.412 filas, 37 columnas + hojas de auditoría
     consolidado_base_referencia_final.xlsx    # 9.412 filas, 24 columnas
@@ -281,11 +279,12 @@ igualdad binaria del ZIP XLSX: los metadatos del archivo incluyen timestamps.
 
 ## Límites y uso analítico
 
-- Hay **50 etiquetas nominales de actor** (49 personales y el Consejo), no un censo
-  de identidades verificadas. La bajada de 51 a 50 proviene sólo de la etiqueta local
-  de 6025 según su nómina. El actor original Vintimilla permanece registrado.
+- Hay **51 etiquetas nominales de actor** (50 personales y el Consejo), no un censo
+  de identidades independientemente verificadas. La subida de 50 a 51 incorpora
+  las intervenciones de Gloria Peña Tapia, con discurso y nómina explícitos.
   La variante `Miguel Ricaurte Vintimilla` / `Miguel Ricaurte Bermúdez` sigue advertida:
-  no se certifica equivalencia ni se modifican alias globales.
+  no se certifica equivalencia ni se modifican sus alias. El actor original
+  Vintimilla de 6025 permanece registrado aunque allí se use la etiqueta local Bermúdez.
 - Las categorías son reglas de prioridad sobre etiquetas **heredadas del padre**,
   no anotaciones temáticas humanas de cada nuevo turno.
 - Las repeticiones se marcan, **no se eliminan automáticamente**.

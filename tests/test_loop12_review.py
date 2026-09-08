@@ -9,7 +9,7 @@ import tempfile
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import build_base_referencia as b
-from curation import load_speaker_reviews, validate_speaker_reviews
+from curation import load_speaker_reviews, validate_speaker_reviews, speaker_intervals
 from context_warnings import load_context_warnings, contextual_motives, validate_context_warnings, has_context_warning, JOINT_MOTIVE
 from continuity import annotate_turns
 
@@ -112,7 +112,8 @@ class LoopTwelveTests(unittest.TestCase):
         self.assertEqual([a for t,a,m in self.parts(1899)],['Manuel Marfán Lewis','Claudio Soto Gamboa','Manuel Marfán Lewis'])
         self.assertEqual([a for t,a,m in self.parts(5207)],['Claudio Soto Gamboa','Rodrigo Vergara Montes',b.CONSEJO])
     def test_unresolved_identity_and_inline_mention_not_forced(self):
-        self.assertFalse({6443,6185,2126,3989}&set(self.reviews))
+        self.assertFalse({6185,2126,3989}&set(self.reviews))
+        self.assertTrue(any(e["Actor"]=="Miguel Ricaurte Bermúdez" for e in speaker_intervals(self.reviews[6443])))  # separación local; variante pendiente
         self.assertIn(780,b.load_context_warnings(self.raw))  # puente inicial todavía pendiente
         self.assertIn(6530,b.load_context_warnings(self.raw))  # nombre literal no certificado
     def test_local_ocr_variants_preserved(self):

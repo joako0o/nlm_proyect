@@ -1,0 +1,305 @@
+{
+  "Estado": "DECIMOSEPTIMO_BLOQUE_TERMINADO_TRAS_CONTROLES",
+  "Pull_Request": "https://github.com/joako0o/nlm_proyect/pull/3",
+  "Commit_Base": "af85daba1076177472ed510703edd9444f42cd09",
+  "Filas": 9525,
+  "Alertas": 334,
+  "Padres_Alertados": 297,
+  "Pruebas": 1155,
+  "Padres_Modificados": [
+    4364,
+    6013,
+    6014,
+    6015,
+    6016,
+    6019,
+    6441,
+    6442,
+    6443,
+    6451,
+    6769,
+    6770
+  ],
+  "Padres_Con_Cambios_Solo_Metadatos": [],
+  "Nuevos_Padres_Con_Revision": [
+    4364,
+    6013,
+    6014,
+    6015,
+    6016,
+    6019,
+    6441,
+    6442,
+    6443,
+    6451,
+    6769,
+    6770
+  ],
+  "Nuevos_Intervalos_Hablantes": 16,
+  "Total_Padres_Con_Revision": 237,
+  "Total_Intervalos_Hablantes": 250,
+  "Nuevas_Revisiones_Institucionales": [],
+  "Nuevas_Menciones": [],
+  "Nuevas_Alertas_Contextuales": [
+    4364,
+    6013,
+    6015
+  ],
+  "Nuevos_Enlaces_Continuidad": [],
+  "Enlaces_Retirados_Justificados": [],
+  "Ajuste_Trazabilidad_Sin_Nueva_Adjudicacion": [],
+  "Regresiones_Detectadas_Y_Corregidas": [],
+  "Continuidades_No_Forzadas": [
+    [
+      3887,
+      3888
+    ],
+    [
+      4224,
+      4225
+    ],
+    [
+      4745,
+      4746
+    ],
+    [
+      4941,
+      4942
+    ],
+    [
+      5910,
+      5911
+    ],
+    [
+      6561,
+      6562
+    ]
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 180,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de Análisis Financiero y la nómina local Gerente de Análisis Internacional. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido."
+    },
+    {
+      "ID_Padre": 506,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La exposición contiene indicadores de El señor Lehmann y termina en tanto en Estados Unidos antes de la cesión a García. Se identifica a Lehmann, pero no se completan los fragmentos ni se certifica la integridad del OCR."
+    },
+    {
+      "ID_Padre": 587,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La cesión nominal de Corbo identifica a Valdés. Se leyó íntegro el desarrollo de opciones hasta su conclusión, antes de Schmidt-Hebbel en 588. La frase truncada apreciación del Agrega que conserva una advertencia independiente: identificar al expositor no reconstruye ni certifica ese daño."
+    },
+    {
+      "ID_Padre": 644,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «costos laborales U 5.». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 664,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «la persistencia que 8.». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 770,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «desde fines del • La inflación». Además termina con comentarios, mientras la apertura presidencial siguiente queda cortada en para. La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 780,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Tras el voto explícito de De Gregorio aparece el pasaje En la economía nacional sin cesión ni sujeto nuevo. Sólo desde Lo que sí ha cambiado, indica el señor Corbo hay atribución explícita a Corbo. El puente anterior queda provisional en el segmento de De Gregorio; no se certifica su autor ni se reasigna por tema/proximidad. Pendiente de cotejo del límite perdido o no consignado."
+    },
+    {
+      "ID_Padre": 836,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "835 contiene la consulta de De Gregorio por la trayectoria del petróleo. Lehmann responde nominalmente en 836; 837 abre otra consulta de Desormeaux. El nombre y la respuesta son claros, pero Análisis Financiero difiere del cargo de nómina Análisis Internacional: advertencia separada, sin corregir el texto."
+    },
+    {
+      "ID_Padre": 1012,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «inflacionaria efectiva y de los Señala». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 1047,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «más de medio punto por debajo • El IPC». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 1155,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «que en el último IPOM y que, aunque». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "La votación está expresada conjuntamente por el Vicepresidente y Claro. La etiqueta provisional Claro no representa por sí sola a ambos; no duplicar el texto ni inventar votos individuales separados."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo de Desormeaux incluye acotación que es confirmada por el señor Lehmann. Es una confirmación narrada en pasiva aún no delimitada; no inventar palabras de Lehmann ni certificar todo el tramo como Desormeaux. La revisión posterior de Lehmann en 3640 y los otros turnos se conservan."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Después de la respuesta de Lehmann aparece y el Gerente de, un cargo truncado antes del retorno de Soto ya separado. Mantener el daño literal; no completar el cargo ni adjudicarle hablante individual."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "La intervención de Marshall incluye lo cual es confirmado por el señor Claudio Soto. Se deja explícitamente pendiente delimitar esa confirmación pasiva, sin alterar la pregunta presidencial y la respuesta de De Ramón ya revisadas."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Bernier está identificado por sujeto explícito, pero su texto conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el ha ido disminuyendo. Su revisión de hablante no certifica integridad del contenido ni autoriza completar los sujetos u objetos ausentes."
+    },
+    {
+      "ID_Padre": 3191,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo conserva provisionalmente Marshall pero contiene una opinión de Claro y una coincidencia conjunta del Presidente y Soto. Sólo se separó la explicación final de García. La etiqueta provisional no adjudica las cláusulas de otros participantes a Marshall."
+    },
+    {
+      "ID_Padre": 3989,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "De Gregorio y Marshall coinciden conjuntamente con una opinión de Claro. El sujeto plural no debe certificarse como una intervención exclusiva de De Gregorio ni la referencia a Claro como un tercer turno."
+    },
+    {
+      "ID_Padre": 4364,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El discurso dice Claudios Soto; la nómina 4334 dice Claudio Soto Gamboa y el padre previo explicita Claudio Soto. Etiqueta local, sin reescribir ni certificar el literal discrepante."
+    },
+    {
+      "ID_Padre": 4433,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "705 caracteres atribuidos provisionalmente a Lehmann por el cargo expreso Análisis Internacional, entre tramos de Soto sobre escenario interno. Se alerta y bloquea continuidad; no se corrige por proximidad/tema. Ver data/curation/alertas_contextuales.json."
+    },
+    {
+      "ID_Padre": 5367,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo inicial de Fuentes incluye la solicitud colectiva de los Consejeros y un encabezado OCR. Se separaron Herrera, el retorno de Fuentes y Claro, pero la solicitud no tiene autor individual ni un límite institucional adjudicado. Fuentes sigue siendo provisional para este residuo, no autor certificado de la solicitud."
+    },
+    {
+      "ID_Padre": 5573,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de División Operaciones Monetarias y la nómina local Gerente de División Operaciones Financieras. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido."
+    },
+    {
+      "ID_Padre": 6013,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La secuencia Agrega que la proyección de En lo referente presenta ruptura textual. Se identifica a Ricaurte, pero no se reconstruye contenido ausente."
+    },
+    {
+      "ID_Padre": 6015,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La confirmación de Ricaurte contiene quien hace que tratándose de Argentina. Se conserva el literal defectuoso y no se completa una expresión ausente."
+    },
+    {
+      "ID_Padre": 6185,
+      "Estado": "REFERENCIA_O_CONFIRMACION_PENDIENTE",
+      "Detalle": "Lectura completa de los 20.118 caracteres y de los vecinos 6184/6186. La exposición pertenece a Sergio Lehmann; conforme señala el Gerente de Mercados Nacionales señor Matías Bernier puede ser referencia o confirmación intercalada. No hay límites suficientes para adjudicar la exposición de commodities a Bernier ni para cerrar la alerta. Texto y atribución sin cambios."
+    },
+    {
+      "ID_Padre": 6282,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de División Política Operaciones Financieras y la nómina local Gerente de División Operaciones Financieras. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido."
+    },
+    {
+      "ID_Padre": 6443,
+      "Estado": "VARIANTE_IDENTIDAD_POR_VERIFICAR",
+      "Detalle": "Cinco intervenciones separadas; identidad global Ricaurte sigue pendiente en los dos intervalos recuperados. Advertencia de mezcla anterior archivada íntegra."
+    },
+    {
+      "ID_Padre": 6530,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El discurso dice señor Claudia Raddatz, mientras la nómina 6518 nombra a Claudio Raddatz Kiefer. Se utiliza la etiqueta de la nómina para este intervalo, sin reescribir ni certificar el nombre textual. Pendiente de contraste con fuente primaria."
+    }
+  ],
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 6185,
+      "ID_Actual": 8264,
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Detalle": "Aviso conforme señala Matías Bernier. No se releyó íntegramente en LOOP17."
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar la cola por lotes contextuales y explorar fusiones sin alerta; sin revisión exhaustiva.",
+    "Cotejo de actas originales para pasajes ambiguos/dañados.",
+    "Variante de identidad: seis intervalos históricos y veinte filas actuales pendientes; unidades superpuestas, no personas distintas certificadas.",
+    "Repeticiones sustantivas: dos intervalos históricos, tres filas actuales (5212, 5256, 5385).",
+    "Revisión semántica independiente con y sin alertas: no realizada."
+  ],
+  "Relecturas_Sin_Adjudicar": [
+    {
+      "ID_Padre": 3191,
+      "Detalle": "Marshall → opinión de Claro → coincidencia conjunta Presidente/Soto → García. Releídos 3190–3192; no se adjudica a Claro el tramo conjunto ni se certifica el padre."
+    }
+  ],
+  "Anaforas_Restantes": [],
+  "Historico_783": {
+    "cola_original": 783,
+    "alertas_actuales": 334,
+    "menciones_actuales_documentadas": 11,
+    "estados": {
+      "METODO_ACTUALIZADO": 331,
+      "FORMULA_PROCEDIMENTAL_RECLASIFICADA": 58,
+      "PENDIENTE_LECTURA_CONTEXTUAL": 104,
+      "SEGMENTACION_O_ACTOR_MODIFICADO": 170,
+      "BREVE_VALIDO_REVISADO": 7,
+      "CORRECCION_DIRIGIDA_APLICADA": 101,
+      "MENCION_LEGITIMA_REVISADA": 8,
+      "IDENTIDAD_PENDIENTE": 1,
+      "REPETICION_SUSTANTIVA_PENDIENTE": 2,
+      "CONTINUIDAD_ENTRE_PADRES_REVISADA": 1
+    },
+    "tipo_revision": {
+      "COMPARACION_AUTOMATICA": 501,
+      "LECTURA_DIRIGIDA_POR_AGENTE": 177,
+      "TRIAJE_AUTOMATICO": 105
+    },
+    "filas_originales_con_alertas_actuales": 282,
+    "intervalos_con_variante_identidad_pendiente": 6,
+    "nota": "Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Estado_Seguimiento registra el cambio principal, no el cierre de todos sus motivos: Variante_Identidad_Pendiente y Alertas_Actuales conservan los pendientes residuales. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.",
+    "sha256_base_original": "bf557454bcea140a28d58d10fbb0962d4b8eab0558b5229a76e069f421c8a629"
+  },
+  "Limite": "Doce padres separados, once antes sin alerta. Dieciséis intervalos nuevos; los 234 anteriores permanecen idénticos. Se leyó íntegro el texto disponible de los doce padres. La advertencia anterior de fusión de 6443 queda archivada, con identidad de Ricaurte todavía pendiente en ambos tramos. Veinte filas actuales con variante de identidad. Nombre Claudios y rupturas textuales preservados y advertidos. Sin nuevo cotejo PDF ni muestra independiente, sin certificación exhaustiva del corpus. Sin proceso activo.",
+  "Total_Alertas_Contextuales": 26,
+  "Etiquetas_Nominales_Actor": 51,
+  "Cambio_Etiquetas_No_Identidades": "50→51 por dos intervenciones de Gloria Peña Tapia; nómina 6755 y discurso explícito. Sin equivalencia global Ricaurte.",
+  "Mejora_Trazabilidad_Cola_Historica": "Variante_Identidad_Pendiente es independiente del estado principal: seis intervalos históricos siguen pendientes pese a cambios de método/etiqueta local. No cambia el esquema 37/24 de las bases.",
+  "Relecturas_Contextuales_Sin_Adjudicar_LOOP16": [
+    {
+      "ID_Padre": 6185,
+      "Alcance": "Ventana sobre Colombia: se distingue la referencia a la pregunta de Claro del aviso real, conforme señala Bernier. Sólo lectura de ventana y contexto, no integral de 20118 caracteres. No se fuerza un turno autónomo ni se cierra el aviso."
+    }
+  ],
+  "Alertas_Contextuales_Retiradas": [
+    6443
+  ],
+  "Archivo_Alertas_Retiradas": "data/curation/alertas_contextuales_retiradas.json",
+  "Triaje_Nombres_No_Adjudicados_LOOP17": [
+    {
+      "ID_Padre": 226,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 1003,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 2990,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 3476,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 3619,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    }
+  ]
+}
