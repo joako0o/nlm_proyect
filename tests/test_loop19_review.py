@@ -86,8 +86,8 @@ class LoopNineteenTests(unittest.TestCase):
             with tempfile.TemporaryDirectory() as d:
                 p=Path(d)/'e.json';p.write_text(json.dumps([x,x] if kind=='duplicate' else [x]))
                 with self.assertRaises(ValueError):load_reviewed_links(self.raw,p)
-    def test_only_four_previously_pending_edges_registered(self):
-        self.assertEqual(set(self.links),{(3887,3888),(4224,4225),(4941,4942),(5910,5911)})
+    def test_four_loop19_edges_and_one_loop20_edge_registered(self):
+        self.assertEqual(set(self.links),{(3887,3888),(4224,4225),(4941,4942),(5910,5911),(2836,2837)})
         for key in [(4745,4746),(6561,6562)]:self.assertNotIn(key,self.links)
     def test_5911_long_presentation_remains_one_physical_segment(self):
         parts=self.parts(5911);self.assertEqual(len(parts),1);self.assertEqual(len(parts[0][0]),10080)
@@ -103,7 +103,7 @@ class LoopNineteenTests(unittest.TestCase):
         errors,annotations=validate_mention_reviews(rs,{e['Revision_ID']:e})
         self.assertFalse(errors);self.assertEqual(annotations[1]['Estado_Lectura_Dirigida'],PENDING_DECISION)
         self.assertEqual(rs[0]['Motivos_Revision'],'POSIBLE_OTRO_HABLANTE_O_MENCION')
-        self.assertEqual(sum(e['Decision']==DECISION for e in self.mentions.values()),11)
+        self.assertEqual(sum(e['Decision']==DECISION for e in self.mentions.values()),19)
     def test_metadata_reviews_preserve_complete_developments(self):
         for p,n in [(2349,599),(3050,3025),(3315,1239)]:
             rows=[dict(ID=i,ID_Padre=p,Actor_Final=a,Fuente_Actor=m,Texto=t,Fecha=self.raw[p]['Fecha']) for i,(t,a,m) in enumerate(self.parts(p))]

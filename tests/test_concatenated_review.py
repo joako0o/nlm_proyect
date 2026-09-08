@@ -26,7 +26,7 @@ class ConcatenatedReviewTests(unittest.TestCase):
     def test_exact_registered_concatenated_parents(self):
         self.assertEqual({p for p, r in self.reviews.items()
                           if any(e.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA' for e in speaker_intervals(r))},
-                         {514, 644, 653, 664, 754, 1010, 1623, 1652, 1858, 2667, 2838, 2915, 3887, 5286, 5360, 5367})
+                         {510, 514, 644, 653, 664, 754, 1010, 1623, 1652, 1858, 2667, 2838, 2915, 3887, 5286, 5360, 5367})
 
     def test_attribution_sequences_and_full_source_conservation(self):
         expected = {

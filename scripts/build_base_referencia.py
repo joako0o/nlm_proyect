@@ -857,6 +857,27 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         return parts
     spans = split_sentences(text)
     intervals = speaker_intervals(review)
+    if any(e.get('Tipo_Limite')=='APERTURA_POST_NOMINA_REVISADA' for e in intervals) and not is_header2(text):
+        raise ValueError('Apertura revisada fuera de cabecera')
+    if is_header2(text) and intervals:
+        # Excepción individual: sólo la cola presidencial revisada, nunca la nómina.
+        if len(intervals)!=1 or intervals[0].get('Tipo_Limite')!='APERTURA_POST_NOMINA_REVISADA':
+            raise ValueError('Apertura revisada sin alcance único')
+        entry=intervals[0];a,z=entry['Inicio'],entry['Fin']
+        prefix,fragment=text[:a],text[a:z]
+        candidate=TURN_DETECTOR.speaker(fragment,date)
+        if (not 0<a<z==len(text) or not fragment.startswith('El Presidente, señor ')
+                or not re.search(r'Asisten? también',prefix)
+                or prefix.count('"')%2 or prefix.count('“')>prefix.count('”')
+                or prefix.count('«')>prefix.count('»')
+                or not candidate or candidate['actor']!=entry['Actor']
+                or candidate['method'] not in EXPLICIT
+                or candidate['role']!='Presidente del Banco Central'):
+            raise ValueError('Apertura revisada sin sujeto/límite presidencial válido')
+        if state is not None:
+            state.update(roles={},last_sentence='',anchor=None,pending=None,barrier=True)
+        return bound_segments([(prefix.strip(),CONSEJO,'ACTA/META'),
+                               (fragment.strip(),entry['Actor'],SPEAKER_REVIEW_SOURCE)])
     reviews_by_start = {r["Inicio"]:r for r in intervals}
     if len(reviews_by_start) != len(intervals):
         raise ValueError("Inicios revisados duplicados")
@@ -864,7 +885,7 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
@@ -881,13 +902,19 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             coordinated = review.get('Tipo_Limite') == 'COORDINACION_Y_EXPLICITA'
             concatenated = review.get('Tipo_Limite') == 'CONCATENACION_EXPLICITA_REVISADA'
             causal_reply = review.get('Tipo_Limite') == 'RESPUESTA_POR_LO_QUE_EXPLICITA'
-            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA' or causal_reply
+            reply_muestra = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA'
+            reply = review.get('Tipo_Limite') == 'RESPUESTA_A_LO_QUE_EXPLICITA' or causal_reply or reply_muestra
             if reply:
                 # Excepción individual: conservar el conector, sin inventar coma.
-                lead = 'por lo que' if causal_reply else 'a lo que'
+                lead = 'a lo cual' if reply_muestra else ('por lo que' if causal_reply else 'a lo que')
                 if (not re.match(r'^'+lead+r'\s+(?:el|la)\s+', fragment) or not prefix or not prefix[-1].isspace()
                         or (causal_reply and not prefix.rstrip().endswith(','))):
                     raise ValueError("Revisión de respuesta sin límite válido")
+                if reply_muestra:
+                    # Proyección exclusivamente para validar el sujeto nominal; no reescribir.
+                    if not prefix.rstrip().endswith(',') or not re.match(r'^a lo cual el señor [^,.;!?]{1,100} muestra que\b',fragment):
+                        raise ValueError('Respuesta muestra sin predicado/límite válido')
+                    fragment=re.sub(r' muestra que\b',' señala que',fragment[len(lead):].lstrip(),count=1)
                 if causal_reply:
                     # Proyección para reconocer el sujeto; el conector literal se conserva.
                     fragment = fragment[len(lead):].lstrip()
