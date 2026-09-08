@@ -5,19 +5,19 @@
   "filas_originales": 7219,
   "filas_procesadas": 9683,
   "bloques_texto": 9682,
-  "grupos_turno": 9264,
+  "grupos_turno": 9250,
   "relaciones_turno": {
     "INSTITUCIONAL": 559,
-    "INICIO_EXPLICITO": 8287,
+    "INICIO_EXPLICITO": 8273,
     "CONTINUIDAD_PARRAFO": 31,
     "SIN_CONTINUIDAD_CONFIRMADA": 403,
     "ANAFORA_CONTINUIDAD": 2,
     "CONTINUIDAD_EXPLICITA": 376,
+    "CONTINUIDAD_REVISADA": 23,
     "DOCUMENTO_PERSONAL": 15,
-    "CONTINUACION_XLSX": 1,
-    "CONTINUIDAD_REVISADA": 9
+    "CONTINUACION_XLSX": 1
   },
-  "grupos_multiparrafo": 323,
+  "grupos_multiparrafo": 337,
   "max_filas_por_turno": 11,
   "columnas_auditoria": 37,
   "columnas_final": 24,
@@ -50,12 +50,12 @@
   },
   "alertas_contextuales_documentadas": 73,
   "documentos_escritos_revisados": 12,
-  "menciones_actuales_documentadas": 38,
+  "menciones_actuales_documentadas": 41,
   "lecturas_actuales_por_estado": {
-    "MENCION_LEGITIMA_REVISADA": 34,
+    "MENCION_LEGITIMA_REVISADA": 37,
     "PENDIENTE_DELIMITAR_APORTE": 4
   },
-  "continuidades_hablantes_revisadas": 9,
+  "continuidades_hablantes_revisadas": 23,
   "hablantes_revision_documentada": 377,
   "cargos_revision_documentada": 6,
   "tipos_acta": {
