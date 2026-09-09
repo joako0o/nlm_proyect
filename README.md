@@ -8,7 +8,8 @@ no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.757 pruebas. No certifican pureza semántica total.**
+**Entrega de datos LOOP32: F0 y F1 pasan, con 1.757 pruebas en su publicación.**
+No certifican pureza semántica total.
 Quedan **465 filas con alertas en 395 padres**. No equivalen a errores confirmados
 ni a todo lo que falta leer. `SIN_ALERTAS_AUTOMATICAS` tampoco significa revisión humana.
 
@@ -76,6 +77,18 @@ Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
 **No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP31_2026-09-08.md)
 conserva 9.691 filas / 462 alertas / 1.704 pruebas. Verificaciones locales;
 el workflow preexistente de GitHub Actions permanece fuera del PR.
+
+## Diagnóstico posterior: patrones de puntuación
+
+Se revisaron **36 intervalos completos con contexto acotado** para organizar los avisos,
+sin modificar la entrega LOOP32. De las302 filas cuyo único aviso es el final sin
+puntuación, **167 terminan en coma antes de otro actor ya separado en el mismo padre**.
+También se distinguen pies/encabezados y ocho indicios de palabra posiblemente desplazada
+al párrafo anterior. Son candidatos para cotejo, no reparaciones automáticas.
+
+**1.780 pruebas locales pasan**, incluidas23 de la nueva herramienta independiente.
+Datos, curación, QA y manifiesto permanecen idénticos; **ninguna alerta cerrada**.
+[Informe y evidencia de las36 lecturas](docs/DIAGNOSTICO_FINALES_2026-09-08.md).
 
 ## Ejecutar todo el pipeline
 
