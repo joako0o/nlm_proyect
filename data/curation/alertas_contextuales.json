@@ -1132,5 +1132,47 @@
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "El anuncio de Herrera286 conserva V antes del inicio nominal de Lehmann. El artefacto está al final de Herrera y ya genera FINAL_SIN_PUNTUACION. No borrarlo ni arrastrarlo a Lehmann; su exposición1926 y el retorno de Herrera623 están separados.",
     "Limitacion": "Intervalo y padre completos leídos; advertencia acotada sin modificar atribución o texto. Sin cotejo PDF ni muestra independiente; origen no certificado."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L32-665",
+    "ID_Padre": 665,
+    "Fecha": "2006-05-11",
+    "SHA256_Texto_Padre": "613c0ca3af23b863525c95d84f22a7ed7853b352a84fce0b80e119b26841b8cb",
+    "Inicio": 0,
+    "Fin": 1328,
+    "Texto_Intervalo": "El Gerente de Investigación Económica, señor Klaus Schmidt-Hebbel, señala que en lo cambiarlo coincide con el comentario efectuado en esta sesión por el Consejero señor Manuel Marfán, en el sentido que estamos enfrentando escenarios de una distribución sumamente plana respecto de riesgos del escenario base, es decir, que éste no se cumpla. Agrega, que existe la posibilidad de que vía gasto fiscal futuro se aprecie el tipo de cambio respecto de su trayectoria, y/o se produzca el escenario que proyecta Larraín Vial, de que lleguemos a US$ 5 y ello tenga algún efecto, en el sentido de ser más persistente en la apreciación actual. Por otro lado, señala el señor Gerente, está el escenario de Martín Walter, de que por una masiva apreciación del dólar en los mercados internacionales genere presiones hacia la depreciación cuando este ocurra, que es el escenario catastrofista. Agrega, el señor Schmidt-Hebbel, que enfrentamos un escenario que le parece mucho más incierto respecto de esta actitud cambiarla en el mediano plazo, que lo que hemos enfrentado en el pasado, incluso en meses más recientes, implicancias para la decisión que cree que simplemente confirma el análisis y, especialmente considerando que hubo un alza de tasa en el pasado. Por tanto, su recomendación consiste en mantener la tasa en esta oportunidad.",
+    "Actor_Provisional": "Klaus Schmidt-Hebbel Dunker",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Se conservan las expresiones en lo cambiarlo y esta actitud cambiarla en una discusión de tipo de cambio. Son dudas léxicas/sintácticas para cotejo, sin sustituirlas por palabras supuestas ni certificar origen OCR. La atribución a Schmidt-Hebbel y la lectura de referencias no resuelven esa integridad textual.",
+    "Limitacion": "Advertencia léxica/sintáctica acotada, no daño material u origen confirmados. No altera texto, límites, fecha, actor o cargo; no certifica otros tramos. Sin cotejo PDF nuevo ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L32-6250",
+    "ID_Padre": 6250,
+    "Fecha": "2014-06-12",
+    "SHA256_Texto_Padre": "94255276976e308f0902aad419394fe8d6c50c4a10b51e5d9595ee59ea3f530a",
+    "Inicio": 0,
+    "Fin": 1479,
+    "Texto_Intervalo": "El Gerente de División Operaciones Financieras señor Beltrán de Ramón resalta el sorpresivo recorte de la TPM mexicana, de 50 puntos base. En su opinión, la desaceleración transitoria de Estados Unidos de América en el primer trimestre es insuficiente para explicar una reducción de esa magnitud. Asimismo, manifiesta su extrañeza por el hecho que ese país lidere las bajas de TPM en América Latina en el último año y medio, al acumular 150 puntos base, versus Chile y Colombia, que la han recortado en 100 y 50 puntos base, respectivamente. A su juicio, otras razones explicarían esta situación. Por otra parte, concuerda con lo expresado por el Consejero señor Sebastián Claro en cuanto a que la mayor calma en los mercados financieros puede ser engañosa. Sobre este aspecto, indica que en materia de volatilidad financiera, se está en su nivel mínimo en 5 años, teniendo presente que alcanzó sus máximos históricos después de la crisis, y que el actual nivel es levemente mayor que el observado en el período 2004 - 2007, cuando la baja volatilidad, la percepción de inexistencia de riego de mercado y un contexto de bajas tasas de interés produjo un apetito por riesgo. En su opinión, en un contexto de bajas tasas de interés y exceso de liquidez, existirá una búsqueda por rendimiento que resulta muy preocupante y que amerita estar alertas, en particular si se considera que periodos de bajas volatilidades son seguidas de otros de fuerte volatilidad y pérdidas de mercado.",
+    "Actor_Provisional": "Beltrán de Ramón Acevedo",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Se conserva percepción de inexistencia de riego de mercado en la discusión de volatilidad financiera. Duda léxica por cotejar, sin sustituir riego ni afirmar el origen del problema. La lectura legítima de la referencia a Claro no cierra este motivo.",
+    "Limitacion": "Advertencia léxica/sintáctica acotada, no daño material u origen confirmados. No altera texto, límites, fecha, actor o cargo; no certifica otros tramos. Sin cotejo PDF nuevo ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L32-6456",
+    "ID_Padre": 6456,
+    "Fecha": "2014-10-16",
+    "SHA256_Texto_Padre": "2cf01efe8f76c5b08f445bd3650fba098de46d4c849f34b0cf2279b9efed120a",
+    "Inicio": 829,
+    "Fin": 1223,
+    "Texto_Intervalo": "A juicio del Consejero señor Joaquín Vial, no solo es necesario contar con la información solicitada por el Consejero señor Pablo García, sino que también sería aconsejable agregar algún ejercicio de efecto multiplicador sobre otros sectores distintos de la minería, dado que los distintos proveedores de servicios para la minería han sido afectados por la caída de la inversión se este sector.",
+    "Actor_Provisional": "Joaquín Vial Ruiz-Tagle",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "El tramo de Vial conserva caída de la inversión se este sector. Duda sintáctica/textual por cotejar, sin completar la preposición supuesta. La advertencia sólo alcanza Vial394, no el pedido anterior de García828.",
+    "Limitacion": "Advertencia léxica/sintáctica acotada, no daño material u origen confirmados. No altera texto, límites, fecha, actor o cargo; no certifica otros tramos. Sin cotejo PDF nuevo ni muestra independiente."
   }
 ]

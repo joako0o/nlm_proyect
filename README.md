@@ -8,78 +8,73 @@ no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
 ## Estado actual — 2026-09-08
 
-**F0 y F1 pasan, con 1.704 pruebas. No certifican pureza semántica total.**
-Quedan **462 filas con alertas en 392 padres**. No equivalen a errores confirmados
+**F0 y F1 pasan, con 1.757 pruebas. No certifican pureza semántica total.**
+Quedan **465 filas con alertas en 395 padres**. No equivalen a errores confirmados
 ni a todo lo que falta leer. `SIN_ALERTAS_AUTOMATICAS` tampoco significa revisión humana.
 
-**Informe vigente:** [LOOP31: asistencia distinta de habla](docs/REVISION_LOOP31_2026-09-08.md).
-**Dos padres resegmentados, ambos antes sin alerta**, para separar hechos de asistencia
-del discurso personal. **20 fichas nuevas de referencias, tres relecturas sin duplicar
-fichas y cuatro advertencias textuales**. Sin nuevos enlaces ni retiros. Ver
-[comparación global](docs/comparacion_loop31_2026-09-08.json),
-[detalle CSV](docs/cambios_loop31_2026-09-08.csv) y
-[checkpoint](docs/estado_revision_loop31_2026-09-08.json).
+**Informe vigente:** [LOOP32: referencias y continuidad pendiente](docs/REVISION_LOOP32_2026-09-08.md).
+**25 fichas nuevas de referencias legítimas y tres advertencias léxicas/sintácticas**.
+Se leyeron **35 padres completos**, incluidos dos registros de cabecera mixta.
+**No nuevos cortes, reasignaciones o enlaces**: las respuestas y retornos de los casos
+leídos ya estaban separados. Ver [comparación global](docs/comparacion_loop32_2026-09-08.json),
+[detalle CSV](docs/cambios_loop32_2026-09-08.csv) y
+[checkpoint](docs/estado_revision_loop32_2026-09-08.json).
 
-- **4788:** Vergara 2132 → **acta de llegada 112** → Larraín 161 → Vergara 333.
-  La llegada de Larraín no es voto presidencial ni habla ministerial. Sus excusas,
-  el retorno de Vergara y la exposición posterior de Larraín 8541 se conservan.
-- **6808:** Valdés 518 → **acta de retiro 114** → acta/comunicado 1940.
-  El retiro de Valdés y Soto no es intervención conjunta. Pregunta de Valdés y
-  comunicado conservados; movimiento y comunicado en grupos distintos.
-- **20 referencias nuevas:** destinatarios, complementos y alusiones no crean voces.
-  «la señora Silva» en 6402 refiere a Marina Silva, no a Pablo García Silva.
-- **1338/3147/5658:** tres relecturas completas, con fichas anteriores intactas.
-  El presidente referido en 5658 es el del Banco Central de Reserva de Perú, no Vergara.
-- **202/2701/3147/5078:** avisos acotados de calendario/composición o texto dudoso,
-  sin reconstrucción. «hace prensar», «AA Dado eso» y «V» se mantienen literales.
+- **578/611:** las preguntas o referencias al destinatario no adelantan su respuesta;
+  ésta conserva su inicio explícito. **3102** mantiene Soto → De Ramón → Soto.
+- **628:** Corbo anuncia 283; Lehmann desarrolla **3269**, sin recorte por longitud.
+  **629 / Velasco 248** formula excusas al incorporarse: habla personal, no evento genérico.
+- **3473:** referencias a Marshall y Cowan dentro del argumento de Marfán, no tres voces
+  conjuntas. **7096:** la referencia de Raddatz no adelanta la respuesta real de Naudon.
+- **665/6250/6456:** reservas acotadas sobre «en lo cambiarlo», «riego de mercado» y
+  «inversión se este sector», sin reconstruir palabras ni afirmar origen OCR confirmado.
+- **1904→1905, 2788→2789, 2803→2804 y 2969→2970:** cuatro pares leídos completos;
+  candidatos plausibles, pero no se fuerzan enlaces a través de sus avisos pendientes.
+  Esto no prueba discontinuidad semántica ni justifica eliminar advertencias.
 
-`MOVIMIENTO_ASISTENTES_REVISADO` sólo admite **fichas individuales con hash, evidencia
-y partición completa**. Sólo el movimiento recibe la nota de revisión; el resto se
-comprueba con la segmentación nativa. **No cambia el detector automático ni los motores
-de continuidad.** No regla global para incorporarse/retirarse ni nuevos alias.
-**CONTEXTO_REVISADO no crea anclas globales** y Fin solo no corta ni ancla.
-Autor documental ≠ lector ≠ asistencia: no se agregan documentos.
+**Todos los scripts de producción siguen idénticos. CONTEXTO_REVISADO no crea anclas
+globales** y Fin solo no corta ni ancla. Sin nuevas reglas de verbos o alias.
+Autor documental ≠ lector ≠ asistencia: no nuevos documentos o eventos.
 
-**382 intervalos personales en 353 padres, sin cambios**: las dos separaciones nuevas
-son institucionales, no dos voces personales recuperadas. **81 advertencias = 77 previas
-+ 4 nuevas**. Se conservan los **24 enlaces revisados, 12 documentos y 3 archivos de retiros**.
-**Cuatro fichas institucionales = 601/3110 intactas + 4788/6808**.
+**382 intervalos personales en 353 padres, 24 enlaces revisados, 12 documentos,
+4 fichas institucionales y 3 archivos de retiros, intactos**.
+**84 advertencias = 81 anteriores + 3 nuevas**. Se conservan las separaciones de acta
+**4788 llegada112 / 6808 retiro114**, junto con las excusas, respuestas, retornos y
+presentaciones reales. La nota de movimiento sólo alcanza su intervalo individual.
 
-**7.219 padres y 2.048.560 palabras conservados. Todos los enlaces anteriores intactos.**
-Seis padres cambian celdas no secuenciales: dos por separación y cuatro por aviso.
-**7.213 padres conservan esas celdas**. Ensayo aislado/publicación idénticos celda a celda.
-**85 hashes de entradas/código y 11 de salidas comprobados**; esquemas 37/24, 21 fórmulas,
-310 contrastes TPM y 55 etiquetas preservados. TPM y documentos sólo varían en IDs.
+**7.219 padres y 2.048.560 palabras conservados. Todos los enlaces, grupos e IDs idénticos.**
+Sólo tres padres cambian celdas de alertas; **7.216 son idénticos en todas sus columnas**.
+Ensayo aislado/publicación idénticos celda a celda. **86 hashes de entradas/código y 11
+de salidas comprobados**; esquemas 37/24, 21 fórmulas, 310 contrastes TPM y 55 etiquetas
+preservados. CSV de TPM, documentos e histórico783 idénticos byte a byte, incluidos IDs.
 
 García de once filas; 224→225→226, 3454→3455, 2695→2696, 2754→2755, 2790→2791,
 1386→1387, 2673→2674, 2863→2864, 2796→2797, 2707→2708, 2963→2964, 2680→2681,
 4745→4746, 6561→6562, 5003→5004 y las 14 continuidades de LOOP28 se conservan.
-**3572 reanudación 235 sigue separada. 5402→5403 y 600→601 no se restauran.**
+**3572 reanudación235 sigue separada. 5402→5403 y 600→601 no se restauran.**
 Pausa archivada, retornos 3044/4476/4926 y correcciones 2705/2706 intactos.
 
-**77 lecturas actuales = 73 legítimas + 4 pendientes:** 6185/Bernier, 3775/Cerda,
-4055/conjunto-institucional y 2510/conjunto. De las 20 nuevas, sólo 202/2743 aparecen
-en la cola; no cierran sus otros motivos. 2701/5078 tienen avisos en otros intervalos.
-Las **459 filas previas de la cola siguen presentes**: salvo IDs, 456 idénticas y tres
-con anotación/motivo actualizado. **Tres filas nuevas**: avisos de 202/2701 y pie de página
-sin puntuación conservado en 4788. 3147/5078 ya tenían alertas; no son filas nuevas.
+**102 lecturas actuales = 98 legítimas + 4 pendientes:** 6185/Bernier, 3775/Cerda,
+4055/conjunto-institucional y 2510/conjunto. De las 25 nuevas, cuatro aparecen en la cola:
+628 y 665/6250/6456. **No cierran sus avisos de puntuación/texto.** Las otras 21 lecturas
+no corresponden a intervalos alertados. Las **462 filas previas de la cola siguen presentes**:
+461 completamente idénticas y 628 sólo con anotación nueva. Tres filas añadidas por avisos.
 
-Histórico **783**: **102 pendientes contextuales**, 497 comparaciones, 183 lecturas y
-103 triajes. **285 intervalos con alertas actuales**, sin aumento: 3147/5078 suman motivos
-en intervalos ya alertados. **6808/original 8592 cambia de método actualizado a segmentación/
-actor modificado**, sin cierre exhaustivo. Seis intervalos con variante y **21 filas actuales**
-de variantes. Ocho menciones históricas no son las 73 actuales: unidades superpuestas.
+Histórico **783**: CSV idéntico, **102 pendientes contextuales**, 497 comparaciones,
+183 lecturas y 103 triajes. **285 intervalos con alertas actuales**: los tres avisos nuevos
+no recaen en esa cola histórica. El cambio de estado de 6808 documentado en LOOP31
+se conserva. Seis intervalos con variante y **21 filas actuales** de variantes.
+Ocho menciones históricas no son las 98 actuales; unidades superpuestas, no sumables.
 
-**29 padres completos y tres cabeceras leídos**, con fichas nuevas en 23 padres por
-superposición entre lecturas y avisos. Los barridos son orientativos y superpuestos,
-no una muestra representativa ni lectura integral de todas sus coincidencias.
-Siguen nombres/cargos, pasajes conjuntos, puente de 780, reserva de 6119 y demás pendientes.
-**Sin nuevo cotejo PDF ni muestra independiente con/sin alertas.** Identificar una voz
-no certifica OCR; longitud no es daño. Controles previos preservados sin afirmar relectura de todos.
+Los barridos son orientativos y superpuestos, no lecturas completas de todas sus
+coincidencias ni muestra representativa. Siguen nombres/cargos, pasajes conjuntos,
+puente de 780, reserva de 6119 y demás pendientes. **Sin nuevo cotejo PDF ni muestra
+independiente con/sin alertas.** Identificar una voz no certifica OCR; longitud no es daño.
+Controles previos preservados sin afirmar relectura de todos en esta pasada.
 
 Publicado en el [PR #3](https://github.com/joako0o/nlm_proyect/pull/3).
-**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP30_2026-09-08.md)
-conserva 9.689 filas / 459 alertas / 1.652 pruebas. Verificaciones locales;
+**No hay proceso activo.** El [informe anterior](docs/REVISION_LOOP31_2026-09-08.md)
+conserva 9.691 filas / 462 alertas / 1.704 pruebas. Verificaciones locales;
 el workflow preexistente de GitHub Actions permanece fuera del PR.
 
 ## Ejecutar todo el pipeline

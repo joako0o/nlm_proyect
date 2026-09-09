@@ -136,7 +136,7 @@ class LoopElevenTests(unittest.TestCase):
         from context_warnings import load_context_warnings, validate_context_warnings
         warnings=load_context_warnings(self.raw)
         rows=[dict(ID=i,ID_Padre=p,Fecha=e['Fecha'],Actor_Final=e['Actor_Provisional'],Texto=e['Texto_Intervalo'],Motivos_Revision=e['Motivo']) for i,(p,e) in enumerate(warnings.items())]
-        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015,1003,1424,1663,1860,2473,2865,2957,2990,3476,3619,2349,3050,3315,205,510,1013,1728,2695,2803,2969,5366,6021,7182,518,520,632,2141,4289,4446,6862,1904,2463,2525,2674,2938,2885,3268,3775,5643,2680,2788,2958,3008,4055,1004,2948,3071,4064,2510,3045,1298,1379,3340,202,2701,3147,5078})
+        self.assertEqual(set(warnings),{180,5573,6282,4433,3191,5367,2126,3989,2667,3107,587,836,644,664,770,1012,1047,1155,506,780,6530,4364,6013,6015,1003,1424,1663,1860,2473,2865,2957,2990,3476,3619,2349,3050,3315,205,510,1013,1728,2695,2803,2969,5366,6021,7182,518,520,632,2141,4289,4446,6862,1904,2463,2525,2674,2938,2885,3268,3775,5643,2680,2788,2958,3008,4055,1004,2948,3071,4064,2510,3045,1298,1379,3340,202,2701,3147,5078,665,6250,6456})
         self.assertFalse(validate_context_warnings(rows,warnings))
         self.assertTrue(validate_context_warnings(rows[:-1],warnings))
         rows[-1]['Motivos_Revision']=''
