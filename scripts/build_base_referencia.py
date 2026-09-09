@@ -12,7 +12,7 @@ from pathlib import Path as _Path
 from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
 from context_warnings import load_context_warnings, contextual_motives
-from institutional_reviews import load_institutional_reviews, institutional_parts, institutional_type, NOTE as INSTITUTIONAL_NOTE
+from institutional_reviews import load_institutional_reviews, institutional_parts, institutional_type, is_movement, MOVEMENT_NOTE, NOTE as INSTITUTIONAL_NOTE
 from curation import load_role_reviews, load_speaker_reviews, speaker_intervals, SPEAKER_REVIEW_SOURCE
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
@@ -853,7 +853,10 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if institution.get('Tipo_Alcance') == 'INTERRUPCION_Y_REANUDACION_REVISADA':
             if date != institution['Fecha'] or initial_actor != institution['Actor_Expositor']:
                 raise ValueError('Acta: fecha/actor de reanudación incompatibles')
-        parts = institutional_parts(text, institution, TURN_DETECTOR)
+        if is_movement(institution) and (date!=institution['Fecha'] or initial_actor!=institution['Actor_Inicial']):
+            raise ValueError('Acta: fecha/actor inicial del movimiento incompatibles')
+        parts = institutional_parts(text, institution, TURN_DETECTOR,
+            segmenter=lambda fragment, actor: segment_turns(fragment,date,actor))
         if state is not None:
             state.update(roles={}, last_sentence='', anchor=None, pending=None, barrier=True)
         return parts
@@ -1309,10 +1312,14 @@ def main():
         note=[]
         if normalize_quote(clean) in FORMULA_REVIEWS:
             note.append("Fórmula procedimental revisada: " + FORMULA_REVIEWS[normalize_quote(clean)]["Revision_ID"])
-        if id_padre in reviewed_institutions and method == 'ACTA/META':
+        movement = id_padre in reviewed_institutions and is_movement(reviewed_institutions[id_padre])
+        if movement and normalize_quote(clean)==normalize_quote(reviewed_institutions[id_padre]['Texto_Acta']):
+            e=reviewed_institutions[id_padre]
+            note.append(MOVEMENT_NOTE+e['Revision_ID']+' (data/curation/revisiones_continuaciones_acta.json; asistencia, no habla personal ni cotejo PDF)')
+        if id_padre in reviewed_institutions and not movement and method == 'ACTA/META':
             e = reviewed_institutions[id_padre]
             note.append(INSTITUTIONAL_NOTE+e['Revision_ID']+' (data/curation/revisiones_continuaciones_acta.json; no habla personal ni cotejo PDF)')
-        if id_padre in reviewed_institutions and method != 'ACTA/META':
+        if id_padre in reviewed_institutions and not movement and method != 'ACTA/META':
             e = reviewed_institutions[id_padre]
             note.append('Reanudación nominal revisada: '+e['Revision_ID']+' (data/curation/revisiones_continuaciones_acta.json; expositor nominal, sin cotejo PDF)')
         if method == SPEAKER_REVIEW_SOURCE:

@@ -42,15 +42,15 @@ class CurrentMentionTests(unittest.TestCase):
             p.write_text(json.dumps(entries))
             return load_mention_reviews(raw if raw is not None else self.raw, p)
 
-    def test_fifty_three_legitimate_mentions_and_four_pending_readings_are_documented(self):
-        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621,1926,4161,1549,2219,77,1042,1456,2167,1004,5276,5308,870,6601,2839,3124,6394,1142,1370,649,1298,1379,1930,1941,2058,2201,2206,2220,2853,3570,4193,4910,4989})
-        self.assertEqual(len(self.reviews), 57)
+    def test_seventy_three_legitimate_mentions_and_four_pending_readings_are_documented(self):
+        self.assertEqual({e['ID_Padre'] for e in self.reviews.values() if e["Decision"]=="MENCION_LEGITIMA_REVISADA"}, {320,1336,1420,2228,2325,2768,3147,4574,4656,5658,6587,571,647,1114,1328,1338,1574,2397,2430,854,1621,1926,4161,1549,2219,77,1042,1456,2167,1004,5276,5308,870,6601,2839,3124,6394,1142,1370,649,1298,1379,1930,1941,2058,2201,2206,2220,2853,3570,4193,4910,4989,202,410,953,1273,2499,2564,2608,2701,2743,3059,3286,3615,5078,6353,6402,6669,6891,6935,7124,7175})
+        self.assertEqual(len(self.reviews), 77)
 
     def test_valid_annotations_do_not_modify_rows_or_warnings(self):
         rows = copy.deepcopy(self.rows)
         errors, annotations = validate_mention_reviews(rows, self.reviews)
         self.assertEqual(errors, [])
-        self.assertEqual(len(annotations), 57)
+        self.assertEqual(len(annotations), 77)
         self.assertEqual(rows, self.rows)
         pending=[v for v in annotations.values() if v[FIELDS[0]]=='PENDIENTE_DELIMITAR_APORTE']
         self.assertEqual(len(pending),4)
@@ -58,7 +58,7 @@ class CurrentMentionTests(unittest.TestCase):
         for values in annotations.values():
             if values in pending:continue
             self.assertEqual(values[FIELDS[0]], 'MENCION_LEGITIMA_REVISADA')
-            if '-L28-' in values[FIELDS[1]] or '-L29-' in values[FIELDS[1]] or '-L30-' in values[FIELDS[1]]:
+            if '-L28-' in values[FIELDS[1]] or '-L29-' in values[FIELDS[1]] or '-L30-' in values[FIELDS[1]] or '-L31-' in values[FIELDS[1]]:
                 self.assertIn('No modifica actor, texto, segmentación ni alertas',values[FIELDS[2]])
             elif '-L24-' in values[FIELDS[1]] or '-L25-' in values[FIELDS[1]]:
                 self.assertIn('No modifica actor, texto ni segmentación',values[FIELDS[2]])

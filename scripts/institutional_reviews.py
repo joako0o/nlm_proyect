@@ -5,6 +5,7 @@ con evidencia del antecedente inmediato, ambos congelados por hash/fecha.
 No habilita herencia institucional general ni elimina el OCR dañado.
 """
 import json
+import re
 from pathlib import Path
 from curation import text_hash, normalize_quote
 
@@ -13,6 +14,58 @@ ACTOR = 'Consejo del Banco Central de Chile'
 NOTE = 'Continuación de acta revisada: '
 RESUME_NOTE = 'Reanudación nominal revisada: '
 INTERRUPTION = 'INTERRUPCION_Y_REANUDACION_REVISADA'
+MOVEMENT = 'MOVIMIENTO_ASISTENTES_REVISADO'
+MOVEMENT_NOTE = 'Movimiento de asistentes revisado: '
+# Formas constatadas, admitidas sólo con ficha individual y límites congelados.
+# No son un detector general ni convierten asistencia en habla de los nombrados.
+MOVEMENT_FORMS = {
+    'LLEGADA': 'A continuación, y siendo las 16:25 horas, se incorpora a la Sesión el Ministro de Hacienda señor Felipe Larraín.',
+    'RETIRO': 'El Ministro de Hacienda señor Rodrigo Valdés y su Asesor, el señor Claudio Soto, se retiran de la Sala de Consejo.',
+}
+
+def is_movement(entry):
+    return entry.get('Tipo_Alcance') == MOVEMENT
+
+
+def _signature(parts):
+    return [(normalize_quote(t), a, m) for t, a, m in parts]
+
+
+def _validate_movement(entry, raw):
+    text=entry['Texto_Padre'];a,z=entry['Inicio'],entry['Fin']
+    if (type(a) is not int or type(z) is not int or not 0<a<z<len(text)
+            or text[a:z]!=entry['Texto_Acta']
+            or entry['Texto_Acta']!=MOVEMENT_FORMS.get(entry['Movimiento'])
+            or not re.search(r'(?:\.\s+|Sesión N° \d+ Página \d+ de \d+\s+)$',text[:a])
+            or text[:a].count('"')%2 or text[:a].count('“')>text[:a].count('”')
+            or text[:a].count('«')>text[:a].count('»')):
+        raise ValueError('Acta: movimiento sin forma literal, límite o fuera de cita')
+    parts=entry['Tramos_Resultado']
+    if (not 3<=len(parts)<=5 or len([r for r in parts if r['Texto']==entry['Texto_Acta']])!=1
+            or ''.join(''.join(r['Texto'].split()) for r in parts)!=''.join(text.split())
+            or parts[1]['Texto']!=entry['Texto_Acta'] or parts[1]['Actor']!=ACTOR
+            or parts[1]['Fuente_Actor']!='ACTA/META' or parts[1]['Tipo_Acta']!='ACTA_INSTITUCIONAL'
+            or not entry['Evidencia']):
+        raise ValueError('Acta: partición de movimiento no conserva el origen')
+    for ev in entry['Evidencia']:
+        source=raw.get(ev['ID_Padre'])
+        if (not source or str(source['Fecha'])[:10]!=entry['Fecha']
+                or text_hash(source['Texto'])!=ev['SHA256_Texto_Padre']
+                or not ev['Cita'] or normalize_quote(ev['Cita']) not in normalize_quote(source['Texto'])):
+            raise ValueError('Acta: evidencia del movimiento inválida')
+
+
+def _movement_parts(text, entry, segmenter):
+    if segmenter is None:
+        raise ValueError('Acta: movimiento requiere comprobar segmentación nativa')
+    parts=(segmenter(text[:entry['Inicio']].strip(),entry['Actor_Inicial'])
+           +[(entry['Texto_Acta'],ACTOR,'ACTA/META')]
+           +segmenter(text[entry['Fin']:].strip(),ACTOR))
+    expected=[(r['Texto'],r['Actor'],r['Fuente_Actor']) for r in entry['Tramos_Resultado']]
+    if _signature(parts)!=_signature(expected):
+        raise ValueError('Acta: cambiaron las voces o límites alrededor del movimiento')
+    return parts
+
 
 def is_interruption(entry):
     return entry.get('Tipo_Alcance') == INTERRUPTION
@@ -31,13 +84,15 @@ def load_institutional_reviews(raw, path=PATH):
                 or text_hash(target['Texto']) != e['SHA256_Texto_Padre']
                 or text_hash(before['Texto']) != e['SHA256_Texto_Antecedente']):
             raise ValueError('Continuación de acta: fuente/antecedente/fecha/hash inválidos')
-        if e.get('Tipo_Alcance') not in (None, INTERRUPTION):
+        if e.get('Tipo_Alcance') not in (None, INTERRUPTION, MOVEMENT):
             raise ValueError('Acta: alcance desconocido')
         if (e['Texto_Padre'] != target['Texto'] or not e['Cita_Antecedente']
                 or not before['Texto'].rstrip().endswith(e['Cita_Antecedente'])
-                or e['Decision'] != (INTERRUPTION if is_interruption(e) else 'CONTINUACION_INSTITUCIONAL_NO_HABLA_PERSONAL')
+                or e['Decision'] != (MOVEMENT if is_movement(e) else INTERRUPTION if is_interruption(e) else 'CONTINUACION_INSTITUCIONAL_NO_HABLA_PERSONAL')
                 or not e['Justificacion'] or not e['Limitacion']):
             raise ValueError('Continuación de acta sin alcance o antecedente literal')
+        if is_movement(e):
+            _validate_movement(e,raw)
         if is_interruption(e):
             split=e['Limite'];text=target['Texto']
             expected=('El señor Presidente interrumpe la sesión por diez minutos, para permitir el ingreso de un '
@@ -65,6 +120,11 @@ def load_institutional_reviews(raw, path=PATH):
 
 
 def institutional_type(text, entry):
+    if is_movement(entry):
+        matches=[r for r in entry['Tramos_Resultado'] if normalize_quote(r['Texto'])==normalize_quote(text)]
+        if len(matches)!=1:
+            raise ValueError('Acta: tipo fuera de partición del movimiento')
+        return matches[0]['Tipo_Acta']
     if is_interruption(entry):
         if text==entry['Texto_Acta']:return 'ACTA_INSTITUCIONAL'
         if text==entry['Texto_Exposicion']:return ''
@@ -75,9 +135,11 @@ def institutional_type(text, entry):
     return 'ACTA_INSTITUCIONAL'
 
 
-def institutional_parts(text, entry, detector=None):
+def institutional_parts(text, entry, detector=None, segmenter=None):
     if text != entry['Texto_Padre']:
         raise ValueError('Continuación de acta: cambió el texto')
+    if is_movement(entry):
+        return _movement_parts(text,entry,segmenter)
     if is_interruption(entry):
         projected='El señor '+entry['Nombre_Expositor']+' '+entry['Texto_Exposicion'][len('quien '):]
         candidate=detector.speaker(projected,entry['Fecha']) if detector else None
@@ -90,6 +152,24 @@ def institutional_parts(text, entry, detector=None):
 
 def validate_institutional_reviews(rows, reviews):
     errors, seen = [], set()
+    movements={p:e for p,e in reviews.items() if is_movement(e)}
+    for p,e in movements.items():
+        group=[r for r in rows if r['ID_Padre']==p]
+        expected=e['Tramos_Resultado']
+        if len(group)!=len(expected):
+            errors.append(f'{p}: movimiento sin partición completa')
+        else:
+            for row,want in zip(group,expected):
+                event=want['Texto']==e['Texto_Acta']
+                if (str(row['Fecha'])[:10]!=e['Fecha']
+                        or normalize_quote(row['Texto'])!=normalize_quote(want['Texto'])
+                        or row['Actor_Final']!=want['Actor'] or row['Fuente_Actor']!=want['Fuente_Actor']
+                        or (row.get('Tipo_Acta') or '')!=want['Tipo_Acta']
+                        or ((MOVEMENT_NOTE+e['Revision_ID']+' (') in (row.get('Nota') or ''))!=event
+                        or (event and (row.get('ID_Ancla_Actor') or row.get('ID_Antecedente_Continuidad')
+                                       or row['Rol_Final']!='Consejo' or row['Fuente_Rol']!='ACTA_INSTITUCIONAL'))):
+                    errors.append(f'{p}: movimiento confundido con habla o tramos adyacentes alterados')
+        seen.add(p)
     partial={p:e for p,e in reviews.items() if is_interruption(e)}
     for p,e in partial.items():
         group=[r for r in rows if r['ID_Padre']==p]
@@ -112,7 +192,7 @@ def validate_institutional_reviews(rows, reviews):
             errors.append(f'{p}: interrupción o exposición alterada/confundida con otra voz')
         seen.add(p)
     for row in rows:
-        if row['ID_Padre'] in partial:continue
+        if row['ID_Padre'] in partial or row['ID_Padre'] in movements:continue
         p = row['ID_Padre']
         e = reviews.get(p)
         note = row.get('Nota') or ''
@@ -127,7 +207,7 @@ def validate_institutional_reviews(rows, reviews):
                     or NOTE+e['Revision_ID']+' (' not in note
                     or row.get('ID_Ancla_Actor') or row.get('ID_Antecedente_Continuidad')):
                 errors.append(f'{p}: continuación de acta alterada o tratada como habla personal')
-        elif NOTE in note or RESUME_NOTE in note:
+        elif NOTE in note or RESUME_NOTE in note or MOVEMENT_NOTE in note:
             errors.append(f'{p}: continuación de acta sin evidencia registrada')
     for p in reviews.keys()-seen:
         errors.append(f'{p}: falta continuación de acta revisada')

@@ -3,11 +3,11 @@
   "errores": [],
   "estado_semantico": "REQUIERE_REVISION_DIRIGIDA; no certifica pureza total de hablante",
   "filas_originales": 7219,
-  "filas_procesadas": 9689,
-  "bloques_texto": 9688,
-  "grupos_turno": 9255,
+  "filas_procesadas": 9691,
+  "bloques_texto": 9690,
+  "grupos_turno": 9257,
   "relaciones_turno": {
-    "INSTITUCIONAL": 559,
+    "INSTITUCIONAL": 561,
     "INICIO_EXPLICITO": 8273,
     "CONTINUIDAD_PARRAFO": 31,
     "SIN_CONTINUIDAD_CONFIRMADA": 408,
@@ -28,7 +28,7 @@
   "palabras": 2048560,
   "max_caracteres_celda": 31948,
   "fuente_actor": {
-    "ACTA/META": 501,
+    "ACTA/META": 503,
     "SUJETO_ROL_SESION": 901,
     "SUJETO_ROL_NOMBRE": 6031,
     "CONTINUIDAD_PARRAFO": 31,
@@ -42,17 +42,17 @@
     "DOCUMENTO_ESCRITO_REVISADO": 12
   },
   "fuente_rol": {
-    "ACTA_INSTITUCIONAL": 501,
+    "ACTA_INSTITUCIONAL": 503,
     "LISTA_ASISTENCIA": 9170,
     "TEXTO_EXPLICITO_REVISADO": 4,
     "CONTEXTO_SESION_REVISADO": 2,
     "CARGO_DOCUMENTAL_REVISADO": 12
   },
-  "alertas_contextuales_documentadas": 77,
+  "alertas_contextuales_documentadas": 81,
   "documentos_escritos_revisados": 12,
-  "menciones_actuales_documentadas": 57,
+  "menciones_actuales_documentadas": 77,
   "lecturas_actuales_por_estado": {
-    "MENCION_LEGITIMA_REVISADA": 53,
+    "MENCION_LEGITIMA_REVISADA": 73,
     "PENDIENTE_DELIMITAR_APORTE": 4
   },
   "continuidades_hablantes_revisadas": 24,
@@ -65,7 +65,7 @@
     "ACUERDO_CONSEJO": 199,
     "MINUTA_PERSONAL": 3,
     "COMUNICADO": 91,
-    "ACTA_INSTITUCIONAL": 6,
+    "ACTA_INSTITUCIONAL": 8,
     "OPINION_ESCRITA": 12
   },
   "categorias_tema": {
@@ -80,7 +80,7 @@
     "debate": 1687,
     "opciones_tpm": 422,
     "decision_tpm": 446,
-    "acuerdo_comunicado": 1727,
+    "acuerdo_comunicado": 1729,
     "politica_fiscal": 88
   },
   "categorias_palabra_clave": {
@@ -96,15 +96,15 @@
     "politica_fiscal": 76,
     "opciones_tpm": 397,
     "decision_tpm": 441,
-    "acuerdo_comunicado": 1620
+    "acuerdo_comunicado": 1622
   },
   "duplicados_exactos": 633,
   "duplicados_formula": 614,
-  "filas_con_alertas": 459,
+  "filas_con_alertas": 462,
   "alertas_por_motivo": {
     "CARGO_EN_DISCURSO_POR_VERIFICAR": 7,
-    "FINAL_SIN_PUNTUACION": 316,
-    "TEXTO_DANADO_POR_COTEJAR": 44,
+    "TEXTO_DANADO_POR_COTEJAR": 48,
+    "FINAL_SIN_PUNTUACION": 317,
     "FRAGMENTO_BREVE": 11,
     "POSIBLE_OTRO_HABLANTE_O_MENCION": 20,
     "NOMBRE_EN_DISCURSO_POR_VERIFICAR": 18,

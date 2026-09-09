@@ -1076,5 +1076,61 @@
     "Decision": "PENDIENTE_COTEJO_TEXTUAL",
     "Justificacion": "El desarrollo de Claro conserva rV- entre intermediarios y financieros. Advertencia sólo sobre ese tramo7642, sin eliminar el artefacto, recortar el voto ni atribuir un origen confirmado al daño. No alcanza la intervención posterior de Marshall.",
     "Limitacion": "Sólo este intervalo leído íntegro; sin modificar actor, cargo o texto. No certifica otros tramos ni origen del daño. Sin nuevo cotejo PDF ni muestra independiente."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L31-202",
+    "ID_Padre": 202,
+    "Fecha": "2005-04-07",
+    "SHA256_Texto_Padre": "f744a11cebfa1e44ec1d0603a99c1d62d471787565bbe1c78a13820d5e846fbe",
+    "Inicio": 0,
+    "Fin": 767,
+    "Texto_Intervalo": "El señor Presidente, da cuenta al Consejo que doña María Eugenia Wagner Brizzi, quien concurrirá a esta Sesión de Política Monetaria, en calidad de Ministra Subrogante, en reemplazo del titular que se encuentra fuera del país, le ha informado que se incorporará a ella a las 16,00 horas, ya que ha debido concurrir a una reunión citada por su Excelencia el Presidente de la República. Asimismo, informa que ha invitado a esta Sesión al señor Jorge Pérez, con el propósito de tener la opinión de la Gerencia de División Política Financiera, en ausencia del Gerente de dicha División. Fecha Sesión de Política Monetaria del mes de octubre de 2005. El Presidente fija la sesión de política monetaria del mes de octubre de 2005, para el día 11 de ese mes. II. Exposición.",
+    "Actor_Provisional": "Vittorio Corbo Lioi",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "La cabecera201 fecha la sesión el7 de abril de2005, pero el tramo presidencial767 contiene Fecha Sesión de Política Monetaria del mes de octubre de2005 y fija el11 de octubre. Aparente discordancia de calendario o composición que requiere cotejo; no decidir cuál fecha es correcta, no modificar Fecha, mes ni texto. La llegada futura anunciada no es habla ministerial.",
+    "Limitacion": "Intervalo y padre completos leídos; advertencia acotada sin modificar atribución o texto. Sin cotejo PDF ni muestra independiente; origen no certificado."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L31-2701",
+    "ID_Padre": 2701,
+    "Fecha": "2009-09-08",
+    "SHA256_Texto_Padre": "eead6604919346ce6694c245f4a81b8fa8d5ff0208c00fba2b372261f442729c",
+    "Inicio": 0,
+    "Fin": 3144,
+    "Texto_Intervalo": "El señor Claudio Soto responde que algunos analistas sí lo habían considerado y que muchos, al igual que el Banco, proyectaban un 0%. Otros, en cambio, estimaban un -0,4%, es decir, sí lo habían considerado. Añade que si se revisa el informe de la CNE, la impresión es que la reducción fue mayor que lo que debió haber sido, porque una cosa es la reducción del precio de nudo, que fue de -8,4% según el INE en su registro pasado, y otra es lo que debió haberse reflejado en las boletas. De acuerdo con el propio informe de la CNE, debió haber sido menor, de -5%. Entonces, ese tipo de discrepancia hace prensar que la estimación del Banco no estaba tan desviada, concluye. Respecto del precio del vestuario, el señor Gerente indica que hay mucha incertidumbre, ya que hay dos cosas que están afectando su inmunidad: la propia crisis y la calda en el consumo y, por otra parte, el patrón estacional, del cual no se tienen antecedentes. Explica que en la proyección se considera un supuesto más bien conservador, algo más en linea con la de la Reunión pasada, esto es, con variaciones mensuales positivas en los próximos meses, pero no muy significativas, y nuevas caídas de precios en enero producto de la liquidación de temporada. Lo anterior, más los supuestos de precios de combustibles, que son algo al alza respecto de la Reunión pasada, llevan a mantener bastante inalterada la proyección hacia diciembre y enero próximos, en tanto que, de acuerdo con las estimaciones, sí se observará una volatilidad puntual de la inflación el próximo mes, principalmente por la devolución de la reliquidación de la tarifa eléctrica ya comentada. Asimismo, agrega que se considera que en enero se revierte el impuesto de timbres y estampillas, lo que quedará reflejado en el IPC de ese mes, de acuerdo con la metodología del INE. El Gerente de Análisis Macroeconómico continúa su presentación refiriéndose a ios mercados financieros. Al respecto, menciona que desde la última Reunión se han apreciado reducciones en las tasas reales, sobre todo en las de los BCU2 y BCU5, mientras que las tasas nominales se han movido en la dirección opuesta, específicamente las de los BCP2 y BCP5. En cuanto a la pendiente de la curva, indica que la de los bonos nominales no se ha movido de manera importante respecto de la última Reunión, debido a que los movimientos de los BCP2 y el BCP5 han sido bastante en paralelo. Por su parte, las tasas de colocación comerciales y de consumo a distintos plazos han continuado reduciéndose, en general, mientras que las tasas hipotecarias se han mostrado algo más estables, sobre todo las de los créditos hipotecarios, que son las más relevantes para este segmento de colocaciones. Respecto de los spreads, el señor Claudio Soto informa que si bien estos han caído de manera importante, especialmente aquellos a plazos más cortos, están aún por sobre lo que se busca como promedio entre los años 2001 y 2007. En relación con datos históricos, con toda la volatilidad que ellos tienen, están en niveles comparables. Sin embargo, respecto de los plazos más cortos, que es lo relevante, aún están por sobre los niveles deseados.",
+    "Actor_Provisional": "Claudio Soto Gamboa",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "Soto3144 conserva hace prensar, la calda en el consumo y otros términos dudosos. Señalar para cotejo sin corregir palabras ni inferir su origen. No alcanza los otros cuatro hablantes del padre.",
+    "Limitacion": "Intervalo y padre completos leídos; advertencia acotada sin modificar atribución o texto. Sin cotejo PDF ni muestra independiente; origen no certificado."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L31-3147",
+    "ID_Padre": 3147,
+    "Fecha": "2010-06-15",
+    "SHA256_Texto_Padre": "89cda9f19ba68255595049376f5a771810604217912df600004dd509e382e5f4",
+    "Inicio": 204,
+    "Fin": 1104,
+    "Texto_Intervalo": "Con respecto a la pregunta del Consejero señor Sebastián Claro, de por qué los bancos norteamericanos reaccionan igual que los europeos, el señor Gerente de División Operaciones Financieras señala que en Europa hay bancos AAA y muchos bancos AA, mientras que en Estados Unidos hay muchos bancos, pero bancos pequeños, donde todos son A o menos que A, salvo Wells Fargo y JP Morgan, que son AA Dado eso, y probablemente por el tipo de banco o fuente de información que consideró el señor Lehmann, piensa que se compararon bancos AA europeos con bancos estadounidenses A o menos de A y, por lo tanto, probablemente frente a una turbulencia en Europa, los bancos norteamericanos también van a verse afectados. Para resumir, la reacción al unísono de bancos europeos y norteamericanos obedecería a que en Estados Unidos el número de bancos AA es insuficiente para contrarrestar lo que acontece en Europa.",
+    "Actor_Provisional": "Beltrán de Ramón Acevedo",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "De Ramón900 conserva la unión AA Dado eso sin puntuación intermedia aparente. No completar el signo ni interpretar piensa como habla de Lehmann; la mención ya revisada sigue legítima. No alcanza Presidente203/185 ni certifica otros términos del padre.",
+    "Limitacion": "Intervalo y padre completos leídos; advertencia acotada sin modificar atribución o texto. Sin cotejo PDF ni muestra independiente; origen no certificado."
+  },
+  {
+    "Revision_ID": "ALERTA-20260908-L31-5078",
+    "ID_Padre": 5078,
+    "Fecha": "2012-09-13",
+    "SHA256_Texto_Padre": "56a207e93143678474b771d3becce4f5b71c0081fd3b7e9836e0b151627e78ad",
+    "Inicio": 0,
+    "Fin": 286,
+    "Texto_Intervalo": "El señor Luis Óscar Herrera señala que antes de proceder a exponer las opciones que se han contemplado para la presente Reunión, el Gerente de Análisis Internacional señor Sergio Lehmann se referirá a las decisiones adoptadas por la Reserva Federal al mediodía de la presente jornada. V",
+    "Actor_Provisional": "Luis Óscar Herrera Barriga",
+    "Motivo": "TEXTO_DANADO_POR_COTEJAR",
+    "Decision": "PENDIENTE_COTEJO_TEXTUAL",
+    "Justificacion": "El anuncio de Herrera286 conserva V antes del inicio nominal de Lehmann. El artefacto está al final de Herrera y ya genera FINAL_SIN_PUNTUACION. No borrarlo ni arrastrarlo a Lehmann; su exposición1926 y el retorno de Herrera623 están separados.",
+    "Limitacion": "Intervalo y padre completos leídos; advertencia acotada sin modificar atribución o texto. Sin cotejo PDF ni muestra independiente; origen no certificado."
   }
 ]
