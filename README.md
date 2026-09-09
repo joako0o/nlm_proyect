@@ -135,7 +135,7 @@ las reservas de texto, cifras y nombres se conservan para cotejo.
 [Informe del lote3](docs/REVISION_COMAS_LOTE3_2026-09-08.md) ·
 [47 límites sin ficha](docs/revision_comas_lote3_2026-09-08/comas_sin_ficha.csv).
 
-### Seguimiento vigente: cuarto lote de comas
+### Cuarto lote de comas (histórico; continúa en el lote 5)
 
 **142 límites con ficha bilateral y 25 sin ficha**, tras revisar 22 límites más
 leyendo 22 padres completos (57.607 caracteres). Se conservan el voto de
@@ -150,6 +150,25 @@ no permite completar el texto. Quedan **20 límites personales y 5 institucional
 
 [Informe del lote 4](docs/REVISION_COMAS_LOTE4_2026-09-08.md) ·
 [25 límites sin ficha](docs/revision_comas_lote4_2026-09-08/comas_sin_ficha.csv).
+
+### Seguimiento vigente: quinto lote de comas
+
+**162 límites con ficha bilateral y 5 sin ficha**, tras revisar los últimos
+**20 límites personales de esta subcola**, leyendo 20 padres completos
+(47.515 caracteres). Esto no completa la revisión de todos los hablantes del corpus.
+Se conservan las exposiciones, los retornos y las confirmaciones breves de Soto;
+en 2705 permanecen las siete partes, incluida la reanudación institucional separada.
+
+**1.855 pruebas locales pasan (+14)**. Los 27 archivos de datos, los 20 artefactos
+de los cuatro lotes previos y el helper siguen idénticos. **Ningún nuevo corte,
+enlace, reasignación o cierre de alerta**: siguen 465 filas alertadas. El voto de
+Marfán en 2885 y los tramos advertidos de 3268 conservan daño/duplicado y colas literales.
+
+Quedan **5 límites institucionales** (601, 1901, 2112, 2803 y 5252), para revisión
+con criterios acta/discurso, sin debilitar las restricciones del seguimiento personal.
+
+[Informe del lote 5](docs/REVISION_COMAS_LOTE5_2026-09-08.md) ·
+[5 límites institucionales sin ficha](docs/revision_comas_lote5_2026-09-08/comas_sin_ficha.csv).
 
 ## Ejecutar todo el pipeline
 
