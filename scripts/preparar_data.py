@@ -1,7 +1,7 @@
 """Construye en staging, ejecuta pruebas + F0/F1 y publica sólo si no hay fallos.
 
-Uso actual: python scripts/preparar_data.py --perfil intrapadre-v1
-El perfil predeterminado es intrapadre-v1 y nunca sobrescribe una entrega existente.
+Uso actual: python scripts/preparar_data.py --perfil intrapadre-v2
+El perfil predeterminado es intrapadre-v2 y nunca sobrescribe una entrega existente.
 --perfil legacy conserva el constructor anterior; puede sobrescribir data/processed.
 --destino admite una nueva salida bajo .cache/ o data/releases/.
 Las alertas semánticas no se ocultan: se publican en revision_pendientes.csv.
@@ -30,13 +30,14 @@ def release_target(destination):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1'), default='intrapadre-v1')
+    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2'), default='intrapadre-v2')
     parser.add_argument('--destino', type=Path)
     args = parser.parse_args(argv)
-    versioned = args.perfil == 'intrapadre-v1'
+    versioned = args.perfil != 'legacy'
+    version = args.perfil.removeprefix('intrapadre-v') if versioned else None
     if args.destino and not versioned:
-        parser.error('--destino sólo se admite con --perfil intrapadre-v1')
-    target = release_target(args.destino or ROOT / 'data/releases/continuidad_intrapadre_v1') if versioned else ROOT / 'data/processed'
+        parser.error('--destino sólo se admite con perfiles versionados')
+    target = release_target(args.destino or ROOT / f'data/releases/continuidad_intrapadre_v{version}') if versioned else ROOT / 'data/processed'
 
     cache = ROOT / '.cache'
     cache.mkdir(exist_ok=True)
@@ -46,14 +47,14 @@ def main(argv=None):
         # No permitir activación ambiental accidental en el perfil histórico.
         env.pop('NLM_INTRAPARA_REVIEWS', None)
         if versioned:
-            env['NLM_INTRAPARA_REVIEWS'] = str(ROOT / 'data/curation/continuidades_intrapadre_v1.json')
+            env['NLM_INTRAPARA_REVIEWS'] = str(ROOT / f'data/curation/continuidades_intrapadre_v{version}.json')
         commands = [
             ['scripts/build_textos_completos.py'],
             ['-m', 'unittest', 'discover', '-s', 'tests', '-v'],
             ['scripts/build_base_referencia.py'],
             ['scripts/crear_consolidado_final.py'],
             ['scripts/qa_gate_f0.py', str(stage/'consolidado_base_referencia.xlsx')],
-            *([['scripts/compare_intrapara_release.py', '--candidate', str(stage)]] if versioned else []),
+            *([['scripts/compare_intrapara_v2.py' if version == '2' else 'scripts/compare_intrapara_release.py', '--candidate', str(stage)]] if versioned else []),
             ['scripts/qa_preparacion.py', '--processed', str(stage)],
         ]
         for args in commands:

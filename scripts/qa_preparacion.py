@@ -24,7 +24,8 @@ import build_base_referencia as builder
 from crear_consolidado_final import SOURCE_COLUMNS
 from continuity import EXPLICIT, boundary, SECTION, normalize
 from reviewed_continuity import load_reviewed_links, validate_reviewed_links, RELATION
-from reviewed_intrapara_continuity import load_intrapara_links, validate_intrapara_links, RELATION as INTRA_RELATION
+from reviewed_intrapara_continuity import validate_intrapara_links, RELATION as INTRA_RELATION
+from intrapara_profiles import load_intrapara_links, profile_name
 import os
 from curation import load_role_reviews, REVIEW_SOURCES, load_speaker_reviews, validate_speaker_reviews, SPEAKER_REVIEW_SOURCE
 from qa_gate_f0 import audit as audit_tpm, load_base, load_tpm
@@ -287,7 +288,7 @@ def main():
     manifest={'python':platform.python_version(),'dependencias':{name:importlib.metadata.version(name) for name in ['openpyxl','pypdf']},
               'sha256_entradas_codigo':{str(p.relative_to(ROOT)):digest(p) for p in files},
               'sha256_salidas':{p.name:digest(p) for p in sorted(out.iterdir()) if p.is_file() and p.name!='manifiesto_preparacion.json'}}
-    manifest['perfil_continuidad'] = 'intrapadre-v1' if intra_path else 'legacy'
+    manifest['perfil_continuidad'] = profile_name(intra_path) if intra_path else 'legacy'
     if intra_path:
         manifest['pruebas_intrapadre'] = {'archivo': str(Path(intra_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(intra_path))}
     (out/'manifiesto_preparacion.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

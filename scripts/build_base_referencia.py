@@ -17,7 +17,7 @@ from curation import load_role_reviews, load_speaker_reviews, speaker_intervals,
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
 from reviewed_continuity import load_reviewed_links
-from reviewed_intrapara_continuity import load_intrapara_links
+from intrapara_profiles import load_intrapara_links
 import os
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
 from roster import ROLE_PATTERNS as ROSTER_ROLES

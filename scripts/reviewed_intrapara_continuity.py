@@ -21,9 +21,14 @@ def compact(text):
 
 
 def load_intrapara_links(raw, path=PATH):
+    # El API histórico sigue cerrado exactamente a v1.
+    return _load_bounded_links(raw, path, 1, 'CONTINUIDAD_INTRAPADRE_V1', ALLOWED)
+
+
+def _load_bounded_links(raw, path, version, scope, allowed):
     package = json.loads(Path(path).read_text(encoding='utf-8'))
-    if (not isinstance(package, dict) or type(package.get('Version')) is not int or package.get('Version') != 1
-            or package.get('Alcance') != 'CONTINUIDAD_INTRAPADRE_V1'
+    if (not isinstance(package, dict) or type(package.get('Version')) is not int or package.get('Version') != version
+            or package.get('Alcance') != scope
             or not isinstance(package.get('Revisiones'), list)):
         raise ValueError('Paquete intrapadre incompatible')
     result, ids = {}, set()
@@ -31,9 +36,9 @@ def load_intrapara_links(raw, path=PATH):
         try:
             left, right = e['Anterior'], e['Siguiente']
             key = (left['ID_Intervencion'], right['ID_Intervencion'])
-            if key not in ALLOWED or key in result or not e['Revision_ID'] or e['Revision_ID'] in ids:
+            if key not in allowed or key in result or not e['Revision_ID'] or e['Revision_ID'] in ids:
                 raise ValueError('Par intrapadre fuera de alcance o duplicado')
-            p, date, actor = ALLOWED[key]
+            p, date, actor = allowed[key]
             source = raw[p]
             if (e['ID_Padre'] != p or e['Fecha'] != date or e['Actor'] != actor
                     or str(source['Fecha'])[:10] != date or e['Texto_Padre'] != source['Texto']
@@ -54,8 +59,8 @@ def load_intrapara_links(raw, path=PATH):
             ids.add(e['Revision_ID'])
         except (KeyError, TypeError) as exc:
             raise ValueError('Prueba intrapadre incompleta') from exc
-    if set(result) != set(ALLOWED):
-        raise ValueError('La versión intrapadre v1 requiere los dos pares exactos')
+    if set(result) != set(allowed):
+        raise ValueError('La versión intrapadre requiere todos sus pares exactos')
     return result
 
 

@@ -1,0 +1,1385 @@
+{
+  "Pasa": true,
+  "Perfil": "intrapadre-v2",
+  "Baseline": "intrapadre-v1",
+  "Filas": 9691,
+  "Grupos_Antes": 9255,
+  "Grupos_Despues": 9251,
+  "Uniones_Exactas": [
+    [
+      "RPM-2006-05-11:663:2",
+      "RPM-2006-05-11:663:3"
+    ],
+    [
+      "RPM-2008-06-10:1871:2",
+      "RPM-2008-06-10:1871:3"
+    ],
+    [
+      "RPM-2009-09-08:2692:2",
+      "RPM-2009-09-08:2692:3"
+    ],
+    [
+      "RPM-2015-06-11:6813:2",
+      "RPM-2015-06-11:6813:3"
+    ]
+  ],
+  "Celdas_Relacionales_Modificadas": [
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:3",
+      "Campo": "Relacion_Turno",
+      "Antes": "INICIO_EXPLICITO",
+      "Despues": "CONTINUIDAD_INTRAPADRE_REVISADA"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:3",
+      "Campo": "ID_Antecedente_Continuidad",
+      "Antes": null,
+      "Despues": "RPM-2006-05-11:663:2"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1871:3",
+      "Campo": "Relacion_Turno",
+      "Antes": "INICIO_EXPLICITO",
+      "Despues": "CONTINUIDAD_INTRAPADRE_REVISADA"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1871:3",
+      "Campo": "ID_Antecedente_Continuidad",
+      "Antes": null,
+      "Despues": "RPM-2008-06-10:1871:2"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2692:3",
+      "Campo": "Relacion_Turno",
+      "Antes": "INICIO_EXPLICITO",
+      "Despues": "CONTINUIDAD_INTRAPADRE_REVISADA"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2692:3",
+      "Campo": "ID_Antecedente_Continuidad",
+      "Antes": null,
+      "Despues": "RPM-2009-09-08:2692:2"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6813:3",
+      "Campo": "Relacion_Turno",
+      "Antes": "INICIO_EXPLICITO",
+      "Despues": "CONTINUIDAD_INTRAPADRE_REVISADA"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6813:3",
+      "Campo": "ID_Antecedente_Continuidad",
+      "Antes": null,
+      "Despues": "RPM-2015-06-11:6813:2"
+    }
+  ],
+  "Celdas_ID_Turno_Modificadas": [
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T19",
+      "Despues": "RPM-2006-05-11:T18"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T20",
+      "Despues": "RPM-2006-05-11:T19"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T21",
+      "Despues": "RPM-2006-05-11:T20"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:6",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T22",
+      "Despues": "RPM-2006-05-11:T21"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:663:7",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T23",
+      "Despues": "RPM-2006-05-11:T22"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T24",
+      "Despues": "RPM-2006-05-11:T23"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T25",
+      "Despues": "RPM-2006-05-11:T24"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T26",
+      "Despues": "RPM-2006-05-11:T25"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T27",
+      "Despues": "RPM-2006-05-11:T26"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T28",
+      "Despues": "RPM-2006-05-11:T27"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:6",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T29",
+      "Despues": "RPM-2006-05-11:T28"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:664:7",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T30",
+      "Despues": "RPM-2006-05-11:T29"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:665:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T31",
+      "Despues": "RPM-2006-05-11:T30"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:666:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T32",
+      "Despues": "RPM-2006-05-11:T31"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:667:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T33",
+      "Despues": "RPM-2006-05-11:T32"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:668:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T34",
+      "Despues": "RPM-2006-05-11:T33"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:669:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T35",
+      "Despues": "RPM-2006-05-11:T34"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:670:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T36",
+      "Despues": "RPM-2006-05-11:T35"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:671:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T37",
+      "Despues": "RPM-2006-05-11:T36"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:672:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T38",
+      "Despues": "RPM-2006-05-11:T37"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:673:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T39",
+      "Despues": "RPM-2006-05-11:T38"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:674:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T40",
+      "Despues": "RPM-2006-05-11:T39"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:674:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2006-05-11:T41",
+      "Despues": "RPM-2006-05-11:T40"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1871:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T46",
+      "Despues": "RPM-2008-06-10:T45"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1871:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T47",
+      "Despues": "RPM-2008-06-10:T46"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1872:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T48",
+      "Despues": "RPM-2008-06-10:T47"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1873:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T49",
+      "Despues": "RPM-2008-06-10:T48"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1873:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T50",
+      "Despues": "RPM-2008-06-10:T49"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1873:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T51",
+      "Despues": "RPM-2008-06-10:T50"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1873:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T52",
+      "Despues": "RPM-2008-06-10:T51"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1874:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T53",
+      "Despues": "RPM-2008-06-10:T52"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1875:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T54",
+      "Despues": "RPM-2008-06-10:T53"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1876:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T55",
+      "Despues": "RPM-2008-06-10:T54"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1877:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T56",
+      "Despues": "RPM-2008-06-10:T55"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1878:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T57",
+      "Despues": "RPM-2008-06-10:T56"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1878:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T58",
+      "Despues": "RPM-2008-06-10:T57"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1878:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T59",
+      "Despues": "RPM-2008-06-10:T58"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1879:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T60",
+      "Despues": "RPM-2008-06-10:T59"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1879:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T61",
+      "Despues": "RPM-2008-06-10:T60"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1879:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T62",
+      "Despues": "RPM-2008-06-10:T61"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1880:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T63",
+      "Despues": "RPM-2008-06-10:T62"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1881:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T64",
+      "Despues": "RPM-2008-06-10:T63"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1882:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T65",
+      "Despues": "RPM-2008-06-10:T64"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1883:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T66",
+      "Despues": "RPM-2008-06-10:T65"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1884:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T67",
+      "Despues": "RPM-2008-06-10:T66"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1885:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T68",
+      "Despues": "RPM-2008-06-10:T67"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1885:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T69",
+      "Despues": "RPM-2008-06-10:T68"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1886:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T70",
+      "Despues": "RPM-2008-06-10:T69"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1887:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T71",
+      "Despues": "RPM-2008-06-10:T70"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1888:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T72",
+      "Despues": "RPM-2008-06-10:T71"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1889:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T73",
+      "Despues": "RPM-2008-06-10:T72"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1889:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T74",
+      "Despues": "RPM-2008-06-10:T73"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1889:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T75",
+      "Despues": "RPM-2008-06-10:T74"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1890:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T76",
+      "Despues": "RPM-2008-06-10:T75"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1891:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T77",
+      "Despues": "RPM-2008-06-10:T76"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1892:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T78",
+      "Despues": "RPM-2008-06-10:T77"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1893:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T79",
+      "Despues": "RPM-2008-06-10:T78"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1894:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T80",
+      "Despues": "RPM-2008-06-10:T79"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1895:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T81",
+      "Despues": "RPM-2008-06-10:T80"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1896:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T82",
+      "Despues": "RPM-2008-06-10:T81"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1896:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T83",
+      "Despues": "RPM-2008-06-10:T82"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1897:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T84",
+      "Despues": "RPM-2008-06-10:T83"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1897:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T85",
+      "Despues": "RPM-2008-06-10:T84"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1898:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T86",
+      "Despues": "RPM-2008-06-10:T85"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1899:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T87",
+      "Despues": "RPM-2008-06-10:T86"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1899:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T88",
+      "Despues": "RPM-2008-06-10:T87"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1899:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T89",
+      "Despues": "RPM-2008-06-10:T88"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1900:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T90",
+      "Despues": "RPM-2008-06-10:T89"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1901:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T91",
+      "Despues": "RPM-2008-06-10:T90"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1901:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T92",
+      "Despues": "RPM-2008-06-10:T91"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1901:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T93",
+      "Despues": "RPM-2008-06-10:T92"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1902:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T94",
+      "Despues": "RPM-2008-06-10:T93"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1903:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T95",
+      "Despues": "RPM-2008-06-10:T94"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1904:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T96",
+      "Despues": "RPM-2008-06-10:T95"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1904:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T97",
+      "Despues": "RPM-2008-06-10:T96"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1905:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T98",
+      "Despues": "RPM-2008-06-10:T97"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1906:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T99",
+      "Despues": "RPM-2008-06-10:T98"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1907:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T100",
+      "Despues": "RPM-2008-06-10:T99"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1908:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T101",
+      "Despues": "RPM-2008-06-10:T100"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1909:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T102",
+      "Despues": "RPM-2008-06-10:T101"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1910:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T103",
+      "Despues": "RPM-2008-06-10:T102"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1911:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T104",
+      "Despues": "RPM-2008-06-10:T103"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1912:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T105",
+      "Despues": "RPM-2008-06-10:T104"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1913:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2008-06-10:T106",
+      "Despues": "RPM-2008-06-10:T105"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2692:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T6",
+      "Despues": "RPM-2009-09-08:T5"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2693:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T7",
+      "Despues": "RPM-2009-09-08:T6"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2694:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T8",
+      "Despues": "RPM-2009-09-08:T7"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2694:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T9",
+      "Despues": "RPM-2009-09-08:T8"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2695:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T10",
+      "Despues": "RPM-2009-09-08:T9"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2695:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T11",
+      "Despues": "RPM-2009-09-08:T10"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2695:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T12",
+      "Despues": "RPM-2009-09-08:T11"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T12",
+      "Despues": "RPM-2009-09-08:T11"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T13",
+      "Despues": "RPM-2009-09-08:T12"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T14",
+      "Despues": "RPM-2009-09-08:T13"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T15",
+      "Despues": "RPM-2009-09-08:T14"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T16",
+      "Despues": "RPM-2009-09-08:T15"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:6",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T17",
+      "Despues": "RPM-2009-09-08:T16"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2697:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T18",
+      "Despues": "RPM-2009-09-08:T17"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2697:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T19",
+      "Despues": "RPM-2009-09-08:T18"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2697:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T20",
+      "Despues": "RPM-2009-09-08:T19"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2698:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T21",
+      "Despues": "RPM-2009-09-08:T20"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2698:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T22",
+      "Despues": "RPM-2009-09-08:T21"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2698:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T23",
+      "Despues": "RPM-2009-09-08:T22"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2699:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T24",
+      "Despues": "RPM-2009-09-08:T23"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2699:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T25",
+      "Despues": "RPM-2009-09-08:T24"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2699:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T26",
+      "Despues": "RPM-2009-09-08:T25"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2699:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T27",
+      "Despues": "RPM-2009-09-08:T26"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2699:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T28",
+      "Despues": "RPM-2009-09-08:T27"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2700:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T29",
+      "Despues": "RPM-2009-09-08:T28"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2700:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T30",
+      "Despues": "RPM-2009-09-08:T29"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2701:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T31",
+      "Despues": "RPM-2009-09-08:T30"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2701:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T32",
+      "Despues": "RPM-2009-09-08:T31"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2701:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T33",
+      "Despues": "RPM-2009-09-08:T32"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2701:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T34",
+      "Despues": "RPM-2009-09-08:T33"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2701:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T35",
+      "Despues": "RPM-2009-09-08:T34"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2702:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T36",
+      "Despues": "RPM-2009-09-08:T35"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2702:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T37",
+      "Despues": "RPM-2009-09-08:T36"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2702:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T38",
+      "Despues": "RPM-2009-09-08:T37"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2703:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T39",
+      "Despues": "RPM-2009-09-08:T38"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2703:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T40",
+      "Despues": "RPM-2009-09-08:T39"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2703:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T41",
+      "Despues": "RPM-2009-09-08:T40"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2703:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T42",
+      "Despues": "RPM-2009-09-08:T41"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2703:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T43",
+      "Despues": "RPM-2009-09-08:T42"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2703:6",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T44",
+      "Despues": "RPM-2009-09-08:T43"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2704:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T45",
+      "Despues": "RPM-2009-09-08:T44"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2704:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T46",
+      "Despues": "RPM-2009-09-08:T45"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2704:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T47",
+      "Despues": "RPM-2009-09-08:T46"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2704:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T48",
+      "Despues": "RPM-2009-09-08:T47"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2704:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T49",
+      "Despues": "RPM-2009-09-08:T48"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T50",
+      "Despues": "RPM-2009-09-08:T49"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T51",
+      "Despues": "RPM-2009-09-08:T50"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T52",
+      "Despues": "RPM-2009-09-08:T51"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T53",
+      "Despues": "RPM-2009-09-08:T52"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T54",
+      "Despues": "RPM-2009-09-08:T53"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:6",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T55",
+      "Despues": "RPM-2009-09-08:T54"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:7",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T56",
+      "Despues": "RPM-2009-09-08:T55"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2706:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T57",
+      "Despues": "RPM-2009-09-08:T56"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2706:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T58",
+      "Despues": "RPM-2009-09-08:T57"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2706:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T59",
+      "Despues": "RPM-2009-09-08:T58"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2707:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T60",
+      "Despues": "RPM-2009-09-08:T59"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2707:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T61",
+      "Despues": "RPM-2009-09-08:T60"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2708:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T61",
+      "Despues": "RPM-2009-09-08:T60"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2709:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T62",
+      "Despues": "RPM-2009-09-08:T61"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2710:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T63",
+      "Despues": "RPM-2009-09-08:T62"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2711:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T63",
+      "Despues": "RPM-2009-09-08:T62"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2711:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T64",
+      "Despues": "RPM-2009-09-08:T63"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2711:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T65",
+      "Despues": "RPM-2009-09-08:T64"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2712:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-09-08:T66",
+      "Despues": "RPM-2009-09-08:T65"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6813:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T6",
+      "Despues": "RPM-2015-06-11:T5"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6813:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T7",
+      "Despues": "RPM-2015-06-11:T6"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6814:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T8",
+      "Despues": "RPM-2015-06-11:T7"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6815:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T8",
+      "Despues": "RPM-2015-06-11:T7"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6816:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T9",
+      "Despues": "RPM-2015-06-11:T8"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6817:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T10",
+      "Despues": "RPM-2015-06-11:T9"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6818:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T11",
+      "Despues": "RPM-2015-06-11:T10"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6819:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T12",
+      "Despues": "RPM-2015-06-11:T11"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6820:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T13",
+      "Despues": "RPM-2015-06-11:T12"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6821:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T14",
+      "Despues": "RPM-2015-06-11:T13"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6822:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T15",
+      "Despues": "RPM-2015-06-11:T14"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6823:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T16",
+      "Despues": "RPM-2015-06-11:T15"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6824:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T17",
+      "Despues": "RPM-2015-06-11:T16"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6825:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T18",
+      "Despues": "RPM-2015-06-11:T17"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6826:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T19",
+      "Despues": "RPM-2015-06-11:T18"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6827:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T20",
+      "Despues": "RPM-2015-06-11:T19"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6828:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T21",
+      "Despues": "RPM-2015-06-11:T20"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6829:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T22",
+      "Despues": "RPM-2015-06-11:T21"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6829:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T23",
+      "Despues": "RPM-2015-06-11:T22"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6830:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T24",
+      "Despues": "RPM-2015-06-11:T23"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6831:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T25",
+      "Despues": "RPM-2015-06-11:T24"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6832:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T26",
+      "Despues": "RPM-2015-06-11:T25"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6833:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T27",
+      "Despues": "RPM-2015-06-11:T26"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6834:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T28",
+      "Despues": "RPM-2015-06-11:T27"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6835:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T29",
+      "Despues": "RPM-2015-06-11:T28"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6836:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T30",
+      "Despues": "RPM-2015-06-11:T29"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6837:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T31",
+      "Despues": "RPM-2015-06-11:T30"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6838:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T32",
+      "Despues": "RPM-2015-06-11:T31"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6839:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T33",
+      "Despues": "RPM-2015-06-11:T32"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6839:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T34",
+      "Despues": "RPM-2015-06-11:T33"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6840:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T35",
+      "Despues": "RPM-2015-06-11:T34"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6841:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T36",
+      "Despues": "RPM-2015-06-11:T35"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6842:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T37",
+      "Despues": "RPM-2015-06-11:T36"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6843:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T38",
+      "Despues": "RPM-2015-06-11:T37"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6844:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T39",
+      "Despues": "RPM-2015-06-11:T38"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6845:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T40",
+      "Despues": "RPM-2015-06-11:T39"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6846:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T41",
+      "Despues": "RPM-2015-06-11:T40"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6847:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T42",
+      "Despues": "RPM-2015-06-11:T41"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6848:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T43",
+      "Despues": "RPM-2015-06-11:T42"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6848:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T44",
+      "Despues": "RPM-2015-06-11:T43"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6849:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T45",
+      "Despues": "RPM-2015-06-11:T44"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6849:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T46",
+      "Despues": "RPM-2015-06-11:T45"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6850:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T47",
+      "Despues": "RPM-2015-06-11:T46"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6851:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T48",
+      "Despues": "RPM-2015-06-11:T47"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6852:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T49",
+      "Despues": "RPM-2015-06-11:T48"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6852:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T50",
+      "Despues": "RPM-2015-06-11:T49"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6852:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T51",
+      "Despues": "RPM-2015-06-11:T50"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6853:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T52",
+      "Despues": "RPM-2015-06-11:T51"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6854:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T53",
+      "Despues": "RPM-2015-06-11:T52"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6855:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T54",
+      "Despues": "RPM-2015-06-11:T53"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6856:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T55",
+      "Despues": "RPM-2015-06-11:T54"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6857:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T56",
+      "Despues": "RPM-2015-06-11:T55"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6857:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T57",
+      "Despues": "RPM-2015-06-11:T56"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6858:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T58",
+      "Despues": "RPM-2015-06-11:T57"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6859:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T59",
+      "Despues": "RPM-2015-06-11:T58"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6860:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T60",
+      "Despues": "RPM-2015-06-11:T59"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6861:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T61",
+      "Despues": "RPM-2015-06-11:T60"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6861:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T62",
+      "Despues": "RPM-2015-06-11:T61"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6862:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T63",
+      "Despues": "RPM-2015-06-11:T62"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6862:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T64",
+      "Despues": "RPM-2015-06-11:T63"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6862:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T65",
+      "Despues": "RPM-2015-06-11:T64"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6862:4",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T66",
+      "Despues": "RPM-2015-06-11:T65"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6862:5",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T67",
+      "Despues": "RPM-2015-06-11:T66"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6862:6",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T68",
+      "Despues": "RPM-2015-06-11:T67"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6863:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T69",
+      "Despues": "RPM-2015-06-11:T68"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6863:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T70",
+      "Despues": "RPM-2015-06-11:T69"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6864:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2015-06-11:T71",
+      "Despues": "RPM-2015-06-11:T70"
+    }
+  ],
+  "Filas_Con_Conjunto_De_Companeros_Distinto": [
+    "RPM-2006-05-11:663:2",
+    "RPM-2006-05-11:663:3",
+    "RPM-2008-06-10:1871:2",
+    "RPM-2008-06-10:1871:3",
+    "RPM-2009-09-08:2692:2",
+    "RPM-2009-09-08:2692:3",
+    "RPM-2015-06-11:6813:2",
+    "RPM-2015-06-11:6813:3"
+  ],
+  "Otros_Campos_Modificados": 0,
+  "Grupos_Previos_Divididos": 0,
+  "Alertas_Antes": 465,
+  "Alertas_Despues": 465,
+  "Nota": "Los IDs numéricos se renumeran. La partición completa se compara por pertenencia, no por etiquetas.",
+  "SHA256_Baseline": "86e0b96fd433f4ce9ee0da427aa6e201d29103ece6ad3a7aabddc6cd18d65237",
+  "SHA256_Candidato": "5ac6b4c788dafd9f1201e3774c3c3fdff88cd046d28d057f776b00e3a71b5f36"
+}

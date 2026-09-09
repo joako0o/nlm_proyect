@@ -22,12 +22,12 @@ def groups(rows):
     return set(frozenset(v) for v in result.values())
 
 
-def compare(before, after):
+def compare(before, after, *, pairs=ALLOWED, profile='intrapadre-v1', baseline='LOOP32'):
     ids = [r['ID_Intervencion'] for r in before]
     if len(set(ids)) != len(ids) or ids != [r['ID_Intervencion'] for r in after]:
         raise ValueError('Filas, identidad u orden alterados')
     expected = groups(before)
-    for left, right in ALLOWED:
+    for left, right in pairs:
         a = next(g for g in expected if left in g)
         b = next(g for g in expected if right in g)
         if a == b:
@@ -37,7 +37,7 @@ def compare(before, after):
         expected.add(a | b)
     if expected != groups(after):
         raise ValueError('Partición global distinta: enlace extra, pérdida o división de grupo')
-    rights = {right: left for left, right in ALLOWED}
+    rights = {right: left for left, right in pairs}
     changes, labels = [], []
     for a, b in zip(before, after):
         rid = a['ID_Intervencion']
@@ -54,22 +54,21 @@ def compare(before, after):
                 changes.append(change)
             else:
                 raise ValueError(f'Cambio no autorizado: {rid} / {field}')
-    if len(changes) != 4:
-        raise ValueError('Se requieren dos relaciones y dos antecedentes nuevos')
+    if len(changes) != 2 * len(pairs):
+        raise ValueError('Se requieren las relaciones y antecedentes exactos de cada unión')
     old_members = {rid: g for g in groups(before) for rid in g}
     new_members = {rid: g for g in groups(after) for rid in g}
     affected = sorted(rid for rid in ids if old_members[rid] != new_members[rid])
     return {
-        'Pasa': True, 'Perfil': 'intrapadre-v1', 'Baseline': 'LOOP32',
+        'Pasa': True, 'Perfil': profile, 'Baseline': baseline,
         'Filas': len(after), 'Grupos_Antes': len(groups(before)), 'Grupos_Despues': len(groups(after)),
-        'Uniones_Exactas': [list(key) for key in ALLOWED],
+        'Uniones_Exactas': [list(key) for key in pairs],
         'Celdas_Relacionales_Modificadas': changes, 'Celdas_ID_Turno_Modificadas': labels,
         'Filas_Con_Conjunto_De_Companeros_Distinto': affected,
         'Otros_Campos_Modificados': 0, 'Grupos_Previos_Divididos': 0,
         'Alertas_Antes': sum(bool(r['Motivos_Revision']) for r in before),
         'Alertas_Despues': sum(bool(r['Motivos_Revision']) for r in after),
-        'Nota': 'Los IDs numéricos se renumeran. Cambian los compañeros de cinco filas, no sus textos. '
-                'Las tres filas del escenario previo sólo contaban sustituciones hacia la etiqueta izquierda.',
+        'Nota': 'Los IDs numéricos se renumeran. La partición completa se compara por pertenencia, no por etiquetas.',
     }
 
 
