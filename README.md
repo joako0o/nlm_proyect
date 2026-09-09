@@ -191,7 +191,7 @@ que tienen motivos adicionales y no deben incorporarse eliminando esas reservas.
 [Informe del lote 6](docs/REVISION_COMAS_LOTE6_2026-09-08.md) ·
 [Cola combinada con clase de ficha](docs/revision_comas_lote6_2026-09-08/cola_comas.csv).
 
-### Seguimiento vigente: lote 7 — límites con reservas abiertas
+### Lote 7 — límites con reservas abiertas (histórico; reservas vigentes)
 
 Se releyeron **2680, 2779 y 2957 completos**, sus seis intervalos vecinos y dos
 cabeceras. Los límites existentes están respaldados, pero quedan **tres reservas
@@ -211,6 +211,29 @@ sigue en 167/167: estas tres fichas con motivos adicionales se mantienen aparte.
 
 [Informe del lote 7](docs/REVISION_COMAS_LOTE7_2026-09-08.md) ·
 [Tabla de riesgos abiertos](docs/revision_comas_lote7_2026-09-08/riesgos_abiertos.csv).
+
+### Seguimiento vigente: auditoría de continuidad — escenario no aplicado
+
+Se inventariaron **92 pares contiguos de la misma persona en grupos distintos**;
+no son 92 errores. Se leyeron **siete padres completos (28.893 caracteres)**,
+revisando cuatro pares del inventario y dos controles negativos de acta/alternancia.
+
+La lectura respalda dos candidatos: **Marshall343→5287 en 2796**, conservando
+su continuación2105 en 2797, y **De Ramón375→1867 en 3012**. Una simulación aislada
+pasaría de **9.257 a 9.255 grupos**, cambiando la pertenencia de tres filas.
+**No se aplicó ningún enlace: la base publicada conserva sus 9.257 grupos.**
+
+Se mantienen fuera del escenario el duplicado de 2685, el daño de 2885, la
+reanudación institucional de 1901 y las tres voces de 2779. El motor productivo
+actual sólo admite enlaces revisados entre padres consecutivos; estos dos casos
+requieren una prueba intrapadre específica, sin crear anclas globales.
+
+**1.917 pruebas locales pasan (+20)**. Los 27 archivos de datos y 34 artefactos
+anteriores siguen idénticos. La subcola de comas permanece en 167/167, las tres
+reservas del lote7 siguen abiertas y hay **465 filas alertadas, sin cierres**.
+
+[Informe de continuidad](docs/AUDITORIA_CONTINUIDAD1_2026-09-09.md) ·
+[Cambios sólo de escenario](docs/auditoria_continuidad1_2026-09-09/cambios_solo_escenario.csv).
 
 ## Ejecutar todo el pipeline
 
