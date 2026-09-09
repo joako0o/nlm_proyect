@@ -104,20 +104,36 @@ permanecieron idénticos**, incluida TPM externa. El pipeline y su QA siguen sie
 [Informe del lote1](docs/REVISION_COMAS_LOTE1_2026-09-08.md) ·
 [127 límites sin ficha](docs/revision_comas_lote1_2026-09-08/comas_sin_ficha.csv).
 
-### Seguimiento vigente: segundo lote de comas
+### Seguimiento: segundo lote de comas (histórico)
 
-**80 límites con ficha bilateral y87 sin ficha**, después de leer40 límites adicionales
+**El lote2 dejó80 límites con ficha bilateral y87 sin ficha**, después de leer40 límites adicionales
 en39 padres completos. Se amplió la lectura a2010–2015 y al padre largo2738:
 **Soto4743 → Presidente105 → Soto947 → Marfán401**, conservando la presentación y el retorno.
 Los cinco límites institucionales siguen aparte; no se aprueban como dos voces personales.
 
 La herramienta acumula lotes sin duplicar límites ni modificar las40 fichas anteriores.
-**1.815 pruebas locales pasan (+20)** y los27 archivos de datos siguen idénticos:
+**En ese lote pasaron1.815 pruebas (+20)** y los27 archivos de datos quedaron idénticos:
 **465 filas alertadas**, sin nuevos cortes, reasignaciones o cierres. Permanecen las
 reservas de nombres, residuos, duplicados y posibles palabras desplazadas.
 
 [Informe del lote2 y plan para seguir](docs/REVISION_COMAS_LOTE2_2026-09-08.md) ·
 [87 límites sin ficha](docs/revision_comas_lote2_2026-09-08/comas_sin_ficha.csv).
+
+### Seguimiento vigente: tercer lote de comas
+
+**120 límites con ficha bilateral y47 sin ficha**, tras revisar40 límites más en29
+padres completos. Se leyó todo2765, de12.127 caracteres: sus seis tramos se conservan,
+incluida la exposición final de **Lehmann8714**, sin cortes por temas o longitud.
+Agrupar focos del mismo padre permitió revisar juntas las cuatro comas de2661 y otras
+alternancias, sin aprobar automáticamente los límites no incluidos en las fichas.
+
+**1.829 pruebas locales pasan (+14)**. Los27 archivos de datos y los diez artefactos
+de los lotes1 y2 permanecen idénticos. **Ningún nuevo corte, reasignación o cierre de
+alerta**: siguen465 filas alertadas. Quedan42 límites personales y5 institucionales;
+las reservas de texto, cifras y nombres se conservan para cotejo.
+
+[Informe del lote3](docs/REVISION_COMAS_LOTE3_2026-09-08.md) ·
+[47 límites sin ficha](docs/revision_comas_lote3_2026-09-08/comas_sin_ficha.csv).
 
 ## Ejecutar todo el pipeline
 
