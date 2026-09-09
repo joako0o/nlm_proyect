@@ -279,9 +279,9 @@ class VersionedPipelineTests(unittest.TestCase):
             with patch.object(pipeline.subprocess, 'run', side_effect=RuntimeError('stop')) as run:
                 with self.assertRaises(RuntimeError):
                     pipeline.main(['--destino', str(dest)])
-                # Desde lote2 la entrega vigente es v2; el perfil explícito v1 sigue probado abajo.
+                # Desde lote3 la entrega vigente es v3; el perfil explícito v1 sigue probado abajo.
                 self.assertEqual(run.call_args.kwargs['env']['NLM_INTRAPARA_REVIEWS'],
-                                 str(ROOT / 'data/curation/continuidades_intrapadre_v2.json'))
+                                 str(ROOT / 'data/curation/continuidades_intrapadre_v3.json'))
                 self.assertFalse(dest.exists())
 
     def test_versioned_profile_passes_registry_to_real_build(self):

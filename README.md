@@ -3,10 +3,46 @@
 Corpus de **132 sesiones mensuales de 2005–2015**, a partir de **7.219 filas originales**.
 La entrega tiene **9.691 filas físicas / 9.690 bloques de texto**, con actor, cargo,
 trazabilidad y alertas. Una intervención extensa ocupa dos filas por el límite de XLSX.
-**343 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
+**349 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
 no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
-## Estado actual — 2026-09-09: continuidad intrapadre v2, lote2
+## Estado actual — 2026-09-09: continuidad intrapadre v3, lote3
+
+**Nueve enlaces nuevos; 9.242 grupos; 2.008 pruebas locales y F0/F1 pasan.**
+Se revisaron los **14 candidatos restantes del subgrupo contextual sin avisos en
+sus extremos**, leyendo **18 padres completos /70.514 caracteres** y todos los
+miembros de los grupos implicados. No sólo los casos breves: se preservan las
+presentaciones de Marshall de7764 caracteres y de Soto de6592.
+
+**Entrega vigente:** [`data/releases/continuidad_intrapadre_v3/`](data/releases/continuidad_intrapadre_v3/).
+[Excel final](data/releases/continuidad_intrapadre_v3/consolidado_base_referencia_final.xlsx) ·
+[Excel de auditoría](data/releases/continuidad_intrapadre_v3/consolidado_base_referencia.xlsx) ·
+[Informe del lote3](docs/CONTINUIDAD_LOTE3_2026-09-09.md) ·
+[Decisiones de los14 casos](docs/continuidad_lote3_2026-09-09/decisiones.csv).
+
+Se aplican **1092,2695,2754,2778,2790,2810,2909,3439 y6800**. Se mantienen las
+continuaciones de2695→2696,2754→2755 y2790→2791, sin fusionar a través de otras voces.
+**780,2661,2863,3646 y5252 quedan reservados**, incluso sin avisos automáticos en
+los extremos. No se inventan palabras para confirmaciones ni se mueve el puente
+ambiguo de780. Se conserva el enlace anterior2863→2864 y sus residuos literales.
+
+**Mismas9.691 filas, textos, actores, cargos, anclas y alertas:**465 filas en395
+padres; ningún cierre ni nuevo cotejo PDF. La comparación global prueba nueve
+uniones, ninguna otra fusión/división:18 celdas relacionales y358 etiquetas de
+turno renumeradas, no358 correcciones. Hay **15 pruebas intrapadre acumuladas** y
+se conservan las24 pruebas entre padres. El contexto nunca se convierte en ancla global.
+
+Quedan **77 pares inventariados**:cinco reservas de este lote y72 fuera de esta
+selección, no77 errores ni77 casos nunca leídos. La lectura del subgrupo está
+cubierta; la revisión semántica de todo el corpus no está terminada.
+
+**Históricos intactos:**55 archivos de datos y241 documentos/artefactos anteriores.
+LOOP32, v1 y v2 conservan sus rutas, archivos y evidencias. El perfil predeterminado
+ahora es **intrapadre-v3**, siempre con destino nuevo; v1/v2 siguen disponibles explícitamente.
+
+## Histórico — continuidad intrapadre v2, lote2
+
+Esta sección describe la entrega anterior, no la vigente.
 
 **Cuatro enlaces nuevos aplicados; 9.251 grupos; 1.980 pruebas locales y F0/F1 pasan.**
 Se leyeron cinco padres completos (**8.314 caracteres**) y todos los miembros de los
@@ -15,7 +51,7 @@ grupos implicados. Se agrupan **663/Magendzo347+370**, **1871/Lehmann148+401**,
 respuestas y retornos de otras personas. **5252/Marfán162→223 queda como reserva**:
 siguen separados comentario1712 / acta158 / aviso162 / cesión223.
 
-**Entrega vigente:** [`data/releases/continuidad_intrapadre_v2/`](data/releases/continuidad_intrapadre_v2/).
+**Entrega anterior:** [`data/releases/continuidad_intrapadre_v2/`](data/releases/continuidad_intrapadre_v2/).
 [Excel final](data/releases/continuidad_intrapadre_v2/consolidado_base_referencia_final.xlsx) ·
 [Excel de auditoría](data/releases/continuidad_intrapadre_v2/consolidado_base_referencia.xlsx) ·
 [Informe del lote2](docs/CONTINUIDAD_LOTE2_2026-09-09.md) ·
@@ -306,7 +342,7 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python scripts/preparar_data.py --perfil intrapadre-v2 --destino .cache/reproduccion_intrapadre_v2
+python scripts/preparar_data.py --perfil intrapadre-v3 --destino .cache/reproduccion_intrapadre_v3
 ```
 
 El comando:
@@ -315,13 +351,13 @@ El comando:
 2. Ejecuta las pruebas de regresión.
 3. Segmenta, atribuye, clasifica y calcula alertas.
 4. Genera la base final.
-5. Ejecuta F0, la comparación global contra v1 y F1 (integridad/trazabilidad).
+5. Ejecuta F0, la comparación global contra v2 y F1 (integridad/trazabilidad).
 6. **Publica el directorio versionado sólo después de pasar todas las verificaciones.**
 
 El destino debe ser **nuevo** y estar bajo `.cache/` o `data/releases/`.
 El ejemplo deja una reproducción aislada. Sin `--destino`, se usa
-`data/releases/continuidad_intrapadre_v2/`, que ya contiene la entrega y por tanto
-no se sobrescribe. `intrapadre-v2` es también el perfil predeterminado.
+`data/releases/continuidad_intrapadre_v3/`, que ya contiene la entrega y por tanto
+no se sobrescribe. `intrapadre-v3` es también el perfil predeterminado.
 `--perfil legacy` conserva el constructor anterior y puede sobrescribir
 `data/processed/`: **no usarlo para regenerar el histórico que respalda las fichas**.
 
@@ -334,10 +370,10 @@ Pruebas y validaciones por separado:
 
 ```bash
 python -m unittest discover -s tests -v
-python scripts/qa_gate_f0.py .cache/reproduccion_intrapadre_v2/consolidado_base_referencia.xlsx
+python scripts/qa_gate_f0.py .cache/reproduccion_intrapadre_v3/consolidado_base_referencia.xlsx
 # Linux/macOS: F1 sobre la reproducción, indicando expresamente las pruebas nuevas.
-NLM_INTRAPARA_REVIEWS=data/curation/continuidades_intrapadre_v2.json \
-  python scripts/qa_preparacion.py --processed .cache/reproduccion_intrapadre_v2
+NLM_INTRAPARA_REVIEWS=data/curation/continuidades_intrapadre_v3.json \
+  python scripts/qa_preparacion.py --processed .cache/reproduccion_intrapadre_v3
 ```
 
 También existen los scripts individuales `build_textos_completos.py`,
@@ -368,12 +404,14 @@ data/
     revisiones_documentos_leidos.json        # autor, lector y límites con hash
     revisiones_continuidad_hablantes.json    # 24 enlaces entre padres; no anclas globales
     continuidades_intrapadre_v1.json          # dos pares históricos, sin cambios
-    continuidades_intrapadre_v2.json          # seis pares: dos heredados + cuatro del lote2; hash de lecturas
+    continuidades_intrapadre_v2.json          # seis pares históricos, sin cambios
+    continuidades_intrapadre_v3.json          # quince pares: seis heredados + nueve del lote3; hash de lecturas
     revisiones_continuaciones_acta.json      # acta, interrupción/reanudación o movimiento de asistentes acotado
     alertas_contextuales.json                # incertidumbre textual, de nombre, cargo o identidad
     alertas_contextuales_retiradas.json      # advertencia original, motivo del retiro y sustitutas
-  releases/continuidad_intrapadre_v2/        # ENTREGA VIGENTE: los 12 archivos listados abajo
-    comparacion_intrapadre.json              # más el gate global: cuatro uniones nuevas frente a v1
+  releases/continuidad_intrapadre_v3/        # ENTREGA VIGENTE: los 12 archivos listados abajo
+    comparacion_intrapadre.json              # más el gate global: nueve uniones nuevas frente a v2
+  releases/continuidad_intrapadre_v2/        # HISTÓRICO v2, archivos intactos
   releases/continuidad_intrapadre_v1/        # HISTÓRICO v1, archivos intactos
   processed/                                # HISTÓRICO LOOP32, no sobrescribir
     consolidado_base_referencia.xlsx          # base de 37 columnas + hojas de auditoría
@@ -400,9 +438,11 @@ scripts/
   reviewed_continuity.py                     # extremos exactos de enlaces entre padres
   reviewed_intrapara_continuity.py            # v1 cerrado; validación común de extremos
   reviewed_intrapara_v2.py                     # v2: cuatro pares nuevos, lecturas completas y reserva5252
-  intrapara_profiles.py                       # despacho explícito de v1/v2
+  reviewed_intrapara_v3.py                     # v3: nueve pares nuevos, cinco reservas y grupos completos
+  intrapara_profiles.py                       # despacho explícito de v1/v2/v3
   compare_intrapara_release.py                # gate v1 contra LOOP32 y comparador de particiones
   compare_intrapara_v2.py                     # gate v2 contra v1: cuatro uniones exactas
+  compare_intrapara_v3.py                     # gate v3 contra v2: nueve uniones exactas
   context_warnings.py                        # valida advertencias contextuales ancladas a fuente
   curation.py                               # validación de decisiones documentadas
   roster.py                                 # asistencia, nombres y cargos
@@ -463,8 +503,8 @@ La revisión de continuidad agrega **4 columnas más** (24 en el Excel final):
 | `ID_Ancla_Actor` | Fila con sujeto explícito que sustenta la atribución |
 
 `CONTINUIDAD_REVISADA` identifica pruebas entre padres.
-`CONTINUIDAD_INTRAPADRE_REVISADA` se usa sólo en los extremos registrados: seis
-pares en v2 (dos heredados y cuatro nuevos). Sus extremos derechos conservan su
+`CONTINUIDAD_INTRAPADRE_REVISADA` se usa sólo en los extremos registrados: quince
+pares en v3 (seis heredados y nueve nuevos). Sus extremos derechos conservan su
 ancla explícita propia y enlazan al tramo contextual anterior.
 
 `CONTINUIDAD_PARRAFO` y `ANAFORA_CONTINUIDAD` no convierten menciones en nuevos

@@ -1,7 +1,7 @@
 """Construye en staging, ejecuta pruebas + F0/F1 y publica sólo si no hay fallos.
 
-Uso actual: python scripts/preparar_data.py --perfil intrapadre-v2
-El perfil predeterminado es intrapadre-v2 y nunca sobrescribe una entrega existente.
+Uso actual: python scripts/preparar_data.py --perfil intrapadre-v3
+El perfil predeterminado es intrapadre-v3 y nunca sobrescribe una entrega existente.
 --perfil legacy conserva el constructor anterior; puede sobrescribir data/processed.
 --destino admite una nueva salida bajo .cache/ o data/releases/.
 Las alertas semánticas no se ocultan: se publican en revision_pendientes.csv.
@@ -30,7 +30,7 @@ def release_target(destination):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2'), default='intrapadre-v2')
+    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2', 'intrapadre-v3'), default='intrapadre-v3')
     parser.add_argument('--destino', type=Path)
     args = parser.parse_args(argv)
     versioned = args.perfil != 'legacy'
@@ -54,7 +54,7 @@ def main(argv=None):
             ['scripts/build_base_referencia.py'],
             ['scripts/crear_consolidado_final.py'],
             ['scripts/qa_gate_f0.py', str(stage/'consolidado_base_referencia.xlsx')],
-            *([['scripts/compare_intrapara_v2.py' if version == '2' else 'scripts/compare_intrapara_release.py', '--candidate', str(stage)]] if versioned else []),
+            *([[f'scripts/compare_intrapara_v{version}.py' if version in ('2','3') else 'scripts/compare_intrapara_release.py', '--candidate', str(stage)]] if versioned else []),
             ['scripts/qa_preparacion.py', '--processed', str(stage)],
         ]
         for args in commands:
