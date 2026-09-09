@@ -151,7 +151,7 @@ no permite completar el texto. Quedan **20 límites personales y 5 institucional
 [Informe del lote 4](docs/REVISION_COMAS_LOTE4_2026-09-08.md) ·
 [25 límites sin ficha](docs/revision_comas_lote4_2026-09-08/comas_sin_ficha.csv).
 
-### Seguimiento vigente: quinto lote de comas
+### Quinto lote de comas (histórico; continúa en el lote 6)
 
 **162 límites con ficha bilateral y 5 sin ficha**, tras revisar los últimos
 **20 límites personales de esta subcola**, leyendo 20 padres completos
@@ -169,6 +169,27 @@ con criterios acta/discurso, sin debilitar las restricciones del seguimiento per
 
 [Informe del lote 5](docs/REVISION_COMAS_LOTE5_2026-09-08.md) ·
 [5 límites institucionales sin ficha](docs/revision_comas_lote5_2026-09-08/comas_sin_ficha.csv).
+
+### Seguimiento vigente: sexto lote — acta/discurso
+
+**167 de 167 límites de esta subcola tienen ficha: 162 personales y 5 acta/discurso.**
+Se leyeron los cinco padres institucionales completos (10.169 caracteres) y sus diez
+intervalos vecinos completos (26.227 caracteres). **Esto completa el registro de
+esta subcola, no la revisión del corpus ni el cierre de alertas.**
+
+Se conserva García3688 en 601 sin enlace a través del acta; la cabecera de asistencia
+no se convierte en turnos individuales; en 5252 habla Marfán sobre la llegada futura
+de Vergara. El daño de 2803 y la falta de enlace hacia 2804 permanecen.
+Un validador institucional separado comprueba padres, vecinos y relaciones locales;
+el validador personal no cambia y sigue rechazando los extremos del Consejo.
+
+**1.878 pruebas locales pasan (+23)**. Los 27 archivos de datos y 25 artefactos previos
+siguen idénticos. **Ningún nuevo corte, enlace, reasignación o cierre:** siguen 465
+filas alertadas. Próximos focos fuera de esta subcola: 2680:2, 2779:2 y 2957:2,
+que tienen motivos adicionales y no deben incorporarse eliminando esas reservas.
+
+[Informe del lote 6](docs/REVISION_COMAS_LOTE6_2026-09-08.md) ·
+[Cola combinada con clase de ficha](docs/revision_comas_lote6_2026-09-08/cola_comas.csv).
 
 ## Ejecutar todo el pipeline
 
