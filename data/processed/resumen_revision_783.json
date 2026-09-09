@@ -1,9 +1,9 @@
 {
   "cola_original": 783,
-  "alertas_actuales": 455,
-  "menciones_actuales_documentadas": 43,
+  "alertas_actuales": 459,
+  "menciones_actuales_documentadas": 57,
   "lecturas_actuales_por_estado": {
-    "MENCION_LEGITIMA_REVISADA": 39,
+    "MENCION_LEGITIMA_REVISADA": 53,
     "PENDIENTE_DELIMITAR_APORTE": 4
   },
   "estados": {
@@ -23,7 +23,7 @@
     "LECTURA_DIRIGIDA_POR_AGENTE": 183,
     "TRIAJE_AUTOMATICO": 103
   },
-  "filas_originales_con_alertas_actuales": 284,
+  "filas_originales_con_alertas_actuales": 285,
   "intervalos_con_variante_identidad_pendiente": 6,
   "nota": "Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Estado_Seguimiento registra el cambio principal, no el cierre de todos sus motivos: Variante_Identidad_Pendiente y Alertas_Actuales conservan los pendientes residuales. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.",
   "sha256_base_original": "bf557454bcea140a28d58d10fbb0962d4b8eab0558b5229a76e069f421c8a629"

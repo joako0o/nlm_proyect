@@ -71,7 +71,7 @@ class CoordinatedReviewTests(unittest.TestCase):
         rows=[]
         for p in self.reviews:
             for t,a,m in self.parts(p):rows.append(dict(ID=len(rows)+1,ID_Padre=p,Texto=t,Actor_Final=a,Fuente_Actor=m))
-        self.assertEqual(len(self.reviews),351)
+        self.assertEqual(len(self.reviews),353)
         self.assertEqual(validate_speaker_reviews(rows,self.reviews),[])
 
     def test_tracking_distinguishes_directed_correction(self):

@@ -895,12 +895,20 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
         if review["Actor"] not in REAL:
             raise ValueError("Revisión de hablante sin actor/límite válido")
         if (review["Inicio"] not in {a for a,b in spans}
-                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "INICIO_TRAS_ARTEFACTO_REVISADO", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA', 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA', 'GERUNDIO_RESPUESTA_VARIANTE_REVISADA')):
+                or review.get("Tipo_Limite") in ("CONCATENACION_EXPLICITA_REVISADA", "INICIO_TRAS_ARTEFACTO_REVISADO", "RESPUESTA_A_LO_QUE_EXPLICITA", "RESPUESTA_POR_LO_QUE_EXPLICITA", "GERUNDIO_SENALANDO_EXPLICITO", "CESION_RELATIVA_EXPLICITA", "CESION_AGRADECIMIENTO_RELATIVO_EXPLICITO", "OPINION_TRAS_CITA_CERRADA_REVISADA", 'RETORNO_TRAS_CITA_CERRADA_REVISADA', 'RESPUESTA_A_LO_CUAL_MUESTRA_REVISADA', 'RESPUESTA_A_LO_CUAL_EXPLICITA', 'GERUNDIO_INDICANDO_FISCAL_EXPLICITO', 'CESION_HACE_PRESENTE_RELATIVA_EXPLICITA', 'GERUNDIO_NOMINAL_EXPLICITO_REVISADO', 'RESPUESTA_PASIVA_NOMINAL_REVISADA', 'RESPUESTA_LO_QUE_NOMINAL_REVISADA', 'CESION_AGRADECIMIENTO_ANALISIS_REVISADA', 'RESPUESTA_PASIVA_VARIANTE_REVISADA', 'DECLARACION_TRAS_ASUNCION_REVISADA', 'INICIO_CARGO_TRAS_CESION_NOMINAL_REVISADA', 'GERUNDIO_CONFIRMACION_NOMINAL_REVISADA', 'GERUNDIO_RESPUESTA_VARIANTE_REVISADA', 'OPINION_RELATIVA_PRESIDENCIAL_REVISADA')):
             # Una decisión individual puede delimitar una cláusula interior:
             # exige separador previo o excepción documentada, sujeto explícito
             # compatible y fuera de cita.
             prefix = text[:review["Inicio"]]
             fragment = text[review["Inicio"]:review["Fin"]]
+            presidential_opinion = review.get('Tipo_Limite') == 'OPINION_RELATIVA_PRESIDENCIAL_REVISADA'
+            if presidential_opinion:
+                lead = 'lo cual, a juicio del señor Presidente, '
+                if not prefix.rstrip().endswith(',') or not fragment.startswith(lead + 'es '):
+                    raise ValueError('Opinión relativa sin separador y atribución presidencial explícita')
+                # Proyección exclusivamente para validar el cargo en esta sesión.
+                # La relativa literal se conserva; no es un patrón automático.
+                fragment = 'El señor Presidente señala que ' + fragment[len(lead):]
             passive_variant = review.get('Tipo_Limite') == 'RESPUESTA_PASIVA_VARIANTE_REVISADA'
             passive_reply = review.get('Tipo_Limite') == 'RESPUESTA_PASIVA_NOMINAL_REVISADA' or passive_variant
             assumption_declaration = review.get('Tipo_Limite') == 'DECLARACION_TRAS_ASUNCION_REVISADA'

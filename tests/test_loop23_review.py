@@ -91,7 +91,7 @@ class LoopTwentyThreeTests(unittest.TestCase):
         self.assertTrue(has_context_warning('HABLANTES_POR_DELIMITAR'))
         ms=load_mention_reviews(self.raw)
         self.assertEqual({e['ID_Padre'] for e in ms.values() if e['Decision']=='PENDIENTE_DELIMITAR_APORTE'},{6185,3775,4055,2510})
-        self.assertEqual(len(ms),43)
+        self.assertEqual(len(ms),57)
     def test_past_reported_relatives_not_current_speakers(self):
         for p in [1926,4161]:
             self.assertNotIn(p,self.reviews);self.assertEqual(len(self.parts(p)),1)
