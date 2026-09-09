@@ -6,6 +6,33 @@ trazabilidad y alertas. Una intervención extensa ocupa dos filas por el límite
 **349 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
 no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
+## Revisión vigente — 2026-09-09: lote4, sin cambios de datos
+
+**19 pares leídos,29 padres completos /59.698 caracteres; 2.032 pruebas locales pasan.**
+Se abordaron todas las15 barreras léxicas del inventario y los primeros cuatro
+pares con indicador exclusivo de acta/documento. La evidencia respalda diez
+separaciones —nueve pausas/reanudaciones y una distinción entre voto y constancia—;
+los otros nueve casos quedan como reservas. **No se aplican enlaces ni cortes.**
+
+**Hallazgo prioritario:**4788:1,4849:1 y4899:1 mezclan contenido personal con una
+declaración de unanimidad bajo la etiqueta `ACUERDO_CONSEJO`. Se documentan sus
+límites funcionales exactos **sin aplicarlos**; no se consideran acta pura ni se
+unen enteras al párrafo anterior. El Presidente sigue siendo quien habla: no
+es una propuesta de cambio de actor.
+
+[Informe del lote4](docs/CONTINUIDAD_LOTE4_2026-09-09.md) ·
+[19 decisiones](docs/continuidad_lote4_2026-09-09/decisiones.csv) ·
+[Tres límites no aplicados](docs/continuidad_lote4_2026-09-09/limites_no_aplicados.csv).
+
+F0/F1 pasan sobre una **copia aislada** de v3; no hubo reconstrucción ni publicación
+de datos.69 archivos de datos,247 documentos/artefactos y33 scripts anteriores
+siguen idénticos. Se mantienen9.691 filas,9.242 grupos y465 filas alertadas en395
+padres. El inventario conserva77 pares; revisar un corte no lo elimina del inventario.
+53 quedan fuera de los lotes3/4 entre los pares aún inventariados, no53 errores
+ni53 casos nunca leídos. No hubo subagentes, segundo revisor semántico ni nuevo cotejo PDF.
+
+La entrega de datos vigente continúa siendo **intrapadre-v3**, descrita a continuación.
+
 ## Estado actual — 2026-09-09: continuidad intrapadre v3, lote3
 
 **Nueve enlaces nuevos; 9.242 grupos; 2.008 pruebas locales y F0/F1 pasan.**
@@ -443,6 +470,7 @@ scripts/
   compare_intrapara_release.py                # gate v1 contra LOOP32 y comparador de particiones
   compare_intrapara_v2.py                     # gate v2 contra v1: cuatro uniones exactas
   compare_intrapara_v3.py                     # gate v3 contra v2: nueve uniones exactas
+  revisar_continuidad_barreras.py              # lote4 de lectura, reservas y límites funcionales; no modifica datos
   context_warnings.py                        # valida advertencias contextuales ancladas a fuente
   curation.py                               # validación de decisiones documentadas
   roster.py                                 # asistencia, nombres y cargos
@@ -601,3 +629,12 @@ igualdad binaria del ZIP XLSX: los metadatos del archivo incluyen timestamps.
 - Para análisis individual hawk/dove: revisar primero las alertas de hablante,
   distinguir contenido sustantivo de pasos de palabra/acuerdos y definir una
   política para las filas pendientes. No asumir que pasar F0/F1 resuelve esas decisiones.
+
+### Reproducir el seguimiento del lote4 sin tocar los datos
+
+```bash
+python scripts/revisar_continuidad_barreras.py --salida .cache/reproduccion_continuidad_lote4
+```
+
+El destino debe ser nuevo. Exporta el inventario, las19 decisiones, tres límites
+funcionales no aplicados y el resumen; nunca escribe en `data/` ni elimina alertas.
