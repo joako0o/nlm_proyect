@@ -1,0 +1,24 @@
+{
+  "Pares_Inventariados": 71,
+  "Estados": {
+    "SIN_ADJUDICACION_EN_ESTE_INVENTARIO": 53,
+    "RESERVA_COTEJO_INICIO": 1,
+    "RESERVA_CONFIRMACION_NARRADA": 1,
+    "PROPUESTA_LOCAL_NO_APLICADA": 2,
+    "SEPARACION_RESPALDADA_PREVIAMENTE": 10,
+    "SEPARACION_FUNCIONAL_V4": 3,
+    "RESERVA_LIMITE_ACTA_PERSONA": 1
+  },
+  "Pares_Releidos": 5,
+  "Padres_Completos": 6,
+  "Caracteres_Origen": 20797,
+  "Propuestas_No_Aplicadas": 2,
+  "Reservas": 3,
+  "Enlaces_Aplicados": 0,
+  "Cortes_Aplicados": 0,
+  "Alertas_Cerradas": 0,
+  "Filas": 9694,
+  "Grupos": 9236,
+  "Filas_Alertadas": 467,
+  "Nota": "Las53 filas sin adjudicación en este inventario no son53 errores ni53 casos nunca leídos. No estima cobertura semántica del corpus."
+}

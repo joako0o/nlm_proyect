@@ -6,6 +6,33 @@ trazabilidad y alertas. Una intervención extensa ocupa dos filas por el límite
 **357 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
 no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
+## Revisión vigente — lote6: reservas complejas e inventario por estado
+
+**Cinco casos releídos,6 padres completos /20.797 caracteres; 2.099 pruebas y F0/F1 pasan.**
+Se distinguen dos propuestas locales **todavía no aplicadas**,2863:2→3 y3646:2→3,
+de tres reservas: **780** requiere cotejar el inicio de Corbo; **2661** conserva la duda
+sobre la confirmación narrada; **5252** exige resolver primero la frontera acta/aviso.
+El literal «El señor Lehmann continúa» en3646 aporta evidencia distinta de la mera
+adyacencia de2661. No se infiere modalidad ni se corrige el OCR.
+
+El inventario de71 pares queda organizado en **13 separaciones respaldadas previamente,
+2 propuestas no aplicadas,3 reservas y53 sin adjudicación en esta vista**. Esos53 no
+son53 errores ni53 casos nunca leídos. Las13 separaciones conservan respaldo anterior;
+no se presentan como nuevas lecturas completas de este lote.
+
+[Informe del lote6](docs/CONTINUIDAD_LOTE6_2026-09-09.md) ·
+[Inventario por estado](docs/continuidad_lote6_2026-09-09/inventario_estado.csv) ·
+[Decisiones y siguiente acción](docs/continuidad_lote6_2026-09-09/decisiones.csv).
+
+**Datos vigentes sin cambios: procedimental-v5**,9.694 filas /9.236 grupos /467 alertas
+en397 padres. No se reconstruyeron datos ni se aplicaron enlaces, cortes, reasignaciones
+o cierres.98 archivos de datos,264 documentos y38 scripts anteriores intactos.
+Sin nuevo cotejo PDF ni segundo revisor semántico. Para reproducir sólo esta lectura:
+
+```bash
+python scripts/revisar_reservas_complejas.py --salida .cache/reproduccion_lectura_lote6
+```
+
 ## Entrega vigente — 2026-09-09: continuidad procedimental v5, lote5
 
 **Seis enlaces aplicados tras leer12 padres completos /23.450 caracteres.**
