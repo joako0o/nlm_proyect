@@ -3,10 +3,39 @@
 Corpus de **132 sesiones mensuales de 2005–2015**, a partir de **7.219 filas originales**.
 La entrega tiene **9.694 filas físicas / 9.693 bloques de texto**, con actor, cargo,
 trazabilidad y alertas. Una intervención extensa ocupa dos filas por el límite de XLSX.
-**352 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
+**357 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
 no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
-## Entrega vigente — 2026-09-09: refinamiento funcional v4
+## Entrega vigente — 2026-09-09: continuidad procedimental v5, lote5
+
+**Seis enlaces aplicados tras leer12 padres completos /23.450 caracteres.**
+Se agrupan las secuencias presidenciales **1603→1604,1630→1631,1840→1841,
+2203→2204,3269:2→3270:1 y3421:5→3421:6**, sin incorporar otras voces.
+El grupo previo2202:2→2203:1 se conserva y se extiende a2204:1.
+
+**9.694 filas /9.236 grupos; 467 alertas en397 padres, sin cierres.** No cambian
+textos, actores, cargos, anclas, segmentos ni bloques. En3421:6 la fuente contextual
+sigue sin ancla. Las pausas de la mañana/tarde y las exposiciones de Schmidt-Hebbel
+y García permanecen separadas; no se desactiva ninguna barrera léxica global.
+
+**Entrega:** [`data/releases/continuidad_procedimental_v5/`](data/releases/continuidad_procedimental_v5/).
+[Excel final](data/releases/continuidad_procedimental_v5/consolidado_base_referencia_final.xlsx) ·
+[Excel de auditoría](data/releases/continuidad_procedimental_v5/consolidado_base_referencia.xlsx) ·
+[Informe del lote5](docs/CONTINUIDAD_LOTE5_2026-09-09.md) ·
+[Comparación global](data/releases/continuidad_procedimental_v5/comparacion_procedimental.json) ·
+[Inventario actualizado](docs/continuidad_lote5_2026-09-09/inventario_v5.csv).
+
+**2.082 pruebas y F0/F1 pasan en dos construcciones.** La comparación comprueba seis
+uniones,12 celdas relacionales y147 etiquetas renumeradas; ningún otro cambio.
+El inventario baja de77 a71 pares, no71 errores ni71 casos nunca leídos. Se mantienen
+las24 pruebas entre padres,15 intrapadre y los tres refinamientos funcionales v4.
+**84 datos y257 documentos anteriores intactos**, sin nuevo cotejo PDF ni segundo
+revisor semántico. `procedimental-v5` es el perfil predeterminado, siempre con destino
+nuevo; los perfiles anteriores no activan estos enlaces. La revisión del corpus sigue abierta.
+
+## Histórico — refinamiento funcional v4
+
+Esta sección describe la entrega anterior; sus archivos y evidencias se conservan.
 
 **Tres cortes funcionales y tres continuidades personales aplicados; 2.057 pruebas y F0/F1 pasan en dos construcciones.**
 En **4788, 4849 y 4899** se separa el aporte personal de la constancia de unanimidad.
@@ -21,7 +50,7 @@ El aviso del pie de página de abril se conserva en la constancia. Ningún cierr
 alerta, deduplicación ni modificación del OCR. Los24 enlaces revisados entre padres
 y las15 pruebas intrapadre anteriores siguen intactos.
 
-**Entrega:** [`data/releases/funcional_v4/`](data/releases/funcional_v4/).
+**Entrega anterior:** [`data/releases/funcional_v4/`](data/releases/funcional_v4/).
 [Excel final](data/releases/funcional_v4/consolidado_base_referencia_final.xlsx) ·
 [Excel de auditoría](data/releases/funcional_v4/consolidado_base_referencia.xlsx) ·
 [Informe y límites](docs/REFINAMIENTO_FUNCIONAL_V4_2026-09-09.md) ·
@@ -31,8 +60,8 @@ y las15 pruebas intrapadre anteriores siguen intactos.
 La comparación verifica todos los campos y todos los miembros de cada grupo.
 La prueba institucional de4788 se refina explícitamente para validar cinco filas
 reales; no se debilita el validador histórico. **69 archivos de datos y254 documentos
-anteriores permanecen idénticos**. El perfil predeterminado es `funcional-v4`, siempre
-con destino nuevo; v1/v2/v3 permanecen disponibles sin activar este refinamiento.
+anteriores permanecen idénticos**. En esa entrega el perfil predeterminado pasó a
+`funcional-v4`, hoy disponible explícitamente junto a v1/v2/v3.
 No hay segundo revisor semántico ni nuevo cotejo PDF. La revisión del corpus sigue abierta.
 
 ## Histórico de lectura — lote4, antes de aplicar los tres límites
@@ -400,7 +429,7 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python scripts/preparar_data.py --perfil funcional-v4 --destino .cache/reproduccion_funcional_v4
+python scripts/preparar_data.py --perfil procedimental-v5 --destino .cache/reproduccion_procedimental_v5
 ```
 
 El comando:
@@ -409,13 +438,13 @@ El comando:
 2. Ejecuta las pruebas de regresión.
 3. Segmenta, atribuye, clasifica y calcula alertas.
 4. Genera la base final.
-5. Ejecuta F0, la comparación global contra v3 y F1 (integridad/trazabilidad).
+5. Ejecuta F0, la comparación global contra v4 y F1 (integridad/trazabilidad).
 6. **Publica el directorio versionado sólo después de pasar todas las verificaciones.**
 
 El destino debe ser **nuevo** y estar bajo `.cache/` o `data/releases/`.
 El ejemplo deja una reproducción aislada. Sin `--destino`, se usa
-`data/releases/funcional_v4/`, que ya contiene la entrega y por tanto
-no se sobrescribe. `funcional-v4` es también el perfil predeterminado.
+`data/releases/continuidad_procedimental_v5/`, que ya contiene la entrega y por tanto
+no se sobrescribe. `procedimental-v5` es también el perfil predeterminado.
 `--perfil legacy` conserva el constructor anterior y puede sobrescribir
 `data/processed/`: **no usarlo para regenerar el histórico que respalda las fichas**.
 
@@ -428,11 +457,12 @@ Pruebas y validaciones por separado:
 
 ```bash
 python -m unittest discover -s tests -v
-python scripts/qa_gate_f0.py .cache/reproduccion_funcional_v4/consolidado_base_referencia.xlsx
+python scripts/qa_gate_f0.py .cache/reproduccion_procedimental_v5/consolidado_base_referencia.xlsx
 # Linux/macOS: F1 sobre la reproducción, indicando expresamente las pruebas nuevas.
 NLM_INTRAPARA_REVIEWS=data/curation/continuidades_intrapadre_v3.json \
 NLM_FUNCTIONAL_REVIEWS=data/curation/refinamiento_funcional_v4.json \
-  python scripts/qa_preparacion.py --processed .cache/reproduccion_funcional_v4
+NLM_PROCEDURAL_REVIEWS=data/curation/continuidades_procedimentales_v5.json \
+  python scripts/qa_preparacion.py --processed .cache/reproduccion_procedimental_v5
 ```
 
 También existen los scripts individuales `build_textos_completos.py`,
@@ -465,11 +495,14 @@ data/
     continuidades_intrapadre_v1.json          # dos pares históricos, sin cambios
     continuidades_intrapadre_v2.json          # seis pares históricos, sin cambios
     continuidades_intrapadre_v3.json          # quince pares: seis heredados + nueve del lote3; hash de lecturas
+    continuidades_procedimentales_v5.json    # seis enlaces de conducción, con grupos completos y hashes
     refinamiento_funcional_v4.json           # tres límites personal/constancia; lectura lote4 y prueba anterior
     revisiones_continuaciones_acta.json      # acta, interrupción/reanudación o movimiento de asistentes acotado
     alertas_contextuales.json                # incertidumbre textual, de nombre, cargo o identidad
     alertas_contextuales_retiradas.json      # advertencia original, motivo del retiro y sustitutas
-  releases/funcional_v4/                     # ENTREGA VIGENTE: los 12 archivos listados abajo
+  releases/continuidad_procedimental_v5/    # ENTREGA VIGENTE: los 12 archivos listados abajo
+    comparacion_procedimental.json           # más seis uniones exactas frente a v4 (13 archivos)
+  releases/funcional_v4/                     # HISTÓRICO v4, archivos intactos
     comparacion_funcional.json               # más comparación exacta contra v3
     linaje_funcional.csv                     # y trazabilidad de todas las filas (14 archivos en total)
   releases/continuidad_intrapadre_v3/        # HISTÓRICO v3, archivos intactos
@@ -500,6 +533,8 @@ scripts/
   institutional_reviews.py                  # acta/reanudación acotadas y archivo de enlace retirado
   functional_refinements.py                 # refinamiento opcional exacto; no regla global
   compare_functional_v4.py                  # campos y grupos completos contra el histórico v3
+  reviewed_procedural_v5.py                 # seis enlaces exactos y lector/inventario reproducible
+  compare_procedural_v5.py                  # comparación independiente de todos los grupos/campos v4
   reviewed_continuity.py                     # extremos exactos de enlaces entre padres
   reviewed_intrapara_continuity.py            # v1 cerrado; validación común de extremos
   reviewed_intrapara_v2.py                     # v2: cuatro pares nuevos, lecturas completas y reserva5252

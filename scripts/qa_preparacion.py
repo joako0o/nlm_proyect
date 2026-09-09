@@ -27,6 +27,8 @@ from reviewed_continuity import load_reviewed_links, validate_reviewed_links, RE
 from reviewed_intrapara_continuity import validate_intrapara_links, RELATION as INTRA_RELATION
 from intrapara_profiles import load_intrapara_links, profile_name
 from functional_refinements import active_refinements, refined_institutions, validate_refinements
+from reviewed_procedural_v5 import (active_reviews as active_procedural, matching_review as matching_procedural,
+                                    validate_reviews as validate_procedural, RELATION as PROCEDURAL_RELATION)
 import os
 from curation import load_role_reviews, REVIEW_SOURCES, load_speaker_reviews, validate_speaker_reviews, SPEAKER_REVIEW_SOURCE
 from qa_gate_f0 import audit as audit_tpm, load_base, load_tpm
@@ -48,7 +50,7 @@ def compact(text):
     return re.sub(r'\s+', '', text or '')
 
 
-def validate(rows, raw, full, final, role_reviews=None):
+def validate(rows, raw, full, final, role_reviews=None, procedural_reviews=None):
     role_reviews = role_reviews or {}
     errors = []
     def check(condition, message):
@@ -104,13 +106,13 @@ def validate(rows, raw, full, final, role_reviews=None):
         check(len({r['Actor_Final'] for r in group}) == 1, f'Bloque {block}: más de un actor')
         if len(group)>1:
             check(all(r['Fuente_Actor']=='CONTINUACION_XLSX' for r in group[1:]), f'Bloque {block}: fracciones sin marcar')
-    errors.extend(validate_continuity(rows))
+    errors.extend(validate_continuity(rows,procedural_reviews))
     check(len(final)==len(rows), 'Base final: cardinalidad distinta')
     check(all({k:r[k] for k in SOURCE_COLUMNS} == f for r,f in zip(rows,final)), 'Base final: proyección distinta')
     return errors
 
 
-def validate_continuity(rows):
+def validate_continuity(rows,procedural_reviews=None):
     """Verifica eslabones de continuidad: orden, identidad, sesión y ancla."""
     errors = []
     by_id = {r['ID_Intervencion']:r for r in rows}
@@ -127,6 +129,7 @@ def validate_continuity(rows):
             errors.append(f'ID {rid}: turno no contiguo')
         antecedent = row.get('ID_Antecedente_Continuidad')
         anchor = row.get('ID_Ancla_Actor')
+        procedural = matching_procedural(previous,row,procedural_reviews)
         if antecedent:
             if not previous or antecedent != previous['ID_Intervencion']:
                 errors.append(f'ID {rid}: antecedente no es la fila previa')
@@ -134,7 +137,7 @@ def validate_continuity(rows):
                   or previous['ID_Turno'] != turn):
                 errors.append(f'ID {rid}: continuidad cruza actor/sesión/turno')
             elif (previous['Actor_Final'] == builder.CONSEJO or previous.get('Tipo_Acta')
-                  or boundary(previous['Texto']) or
+                  or (boundary(previous['Texto']) and not (procedural and row.get('Relacion_Turno')==PROCEDURAL_RELATION)) or
                   'POSIBLE_OTRO_HABLANTE_O_MENCION' in (previous.get('Motivos_Revision') or '') or
                   has_context_warning(previous.get('Motivos_Revision'))):
                 errors.append(f'ID {rid}: continuidad atraviesa barrera')
@@ -154,6 +157,7 @@ def validate_continuity(rows):
         if row['Fuente_Actor'] in ('CONTINUIDAD_PARRAFO','ANAFORA_CONTINUIDAD') and (not anchor or not antecedent):
             errors.append(f'ID {rid}: herencia de actor sin cadena de evidencia')
         previous = row
+    errors.extend(validate_procedural(rows,procedural_reviews or {}))
     return errors
 
 
@@ -175,7 +179,8 @@ def main():
     full=builder.load_full_texts(out/'textos_completos.jsonl')
     load_formula_reviews(raw_by_id={r["ID"]:r for r in raw})
     role_reviews=load_role_reviews({r['ID']:r for r in raw})
-    errors=validate(rows,raw,full,final,role_reviews)
+    procedural=active_procedural({r["ID"]:r for r in raw})
+    errors=validate(rows,raw,full,final,role_reviews,procedural)
     speaker_reviews=load_speaker_reviews({r["ID"]:r for r in raw})
     errors.extend(validate_speaker_reviews(rows,speaker_reviews))
     reviewed_links=load_reviewed_links({r["ID"]:r for r in raw})
@@ -192,7 +197,10 @@ def main():
     institutions=load_institutional_reviews({r['ID']:r for r in raw})
     functional_path = os.environ.get('NLM_FUNCTIONAL_REVIEWS')
     functional = active_refinements({r['ID']:r for r in raw})
-    if functional:
+    if procedural:
+        from compare_procedural_v5 import compare, BASE
+        compare(read_rows(BASE)[1],rows)
+    elif functional:
         from compare_functional_v4 import compare, BASE
         compare(read_rows(BASE)[1],rows,functional)
     errors.extend(validate_institutional_reviews(rows,refined_institutions(institutions,functional)))
@@ -243,6 +251,8 @@ def main():
         'formulas_tpm_contrastadas':sum(d['Formulas_Contrastadas'] for d in tpm['decisiones']),
         'nota': 'Las alertas se superponen; no son un conteo de errores. Página y etiquetas temáticas se heredan del padre. La conservación compara caracteres ignorando sólo espacios.'
     }
+    if procedural:
+        report['continuidades_procedimentales_revisadas']=len(procedural)
     if functional:
         report['refinamientos_funcionales']=len(functional)
         report['continuidades_personales_funcionales']=len(functional)
@@ -302,6 +312,10 @@ def main():
     if functional_path:
         manifest['perfil_entrega'] = 'funcional-v4'
         manifest['pruebas_funcionales'] = {'archivo': str(Path(functional_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(functional_path)), 'refinamientos': len(functional)}
+    if procedural:
+        manifest['perfil_entrega'] = 'procedimental-v5'
+        pp=Path(os.environ['NLM_PROCEDURAL_REVIEWS'])
+        manifest['pruebas_procedimentales'] = {'archivo':str(pp.resolve().relative_to(ROOT)), 'sha256':digest(pp), 'enlaces':len(procedural)}
     if intra_path:
         manifest['pruebas_intrapadre'] = {'archivo': str(Path(intra_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(intra_path))}
     (out/'manifiesto_preparacion.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

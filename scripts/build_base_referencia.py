@@ -19,6 +19,7 @@ from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOUR
 from reviewed_continuity import load_reviewed_links
 from intrapara_profiles import load_intrapara_links
 from functional_refinements import active_refinements, refine_segments, refined_institutions
+from reviewed_procedural_v5 import active_reviews as active_procedural, apply_reviews as apply_procedural
 import os
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
 from roster import ROLE_PATTERNS as ROSTER_ROLES
@@ -1382,6 +1383,7 @@ def main():
     intra_path = os.environ.get("NLM_INTRAPARA_REVIEWS")
     annotate_turns(context_rows, load_reviewed_links(continuity_raw),
                    load_intrapara_links(continuity_raw, intra_path) if intra_path else None)
+    apply_procedural(context_rows, active_procedural(continuity_raw))
     continuity_fields = ['ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor']
     for j,key in enumerate(continuity_fields,len(context_header)+1):
         ows.cell(1,j,key)
