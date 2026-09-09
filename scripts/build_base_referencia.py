@@ -18,6 +18,7 @@ from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOUR
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
 from reviewed_continuity import load_reviewed_links
 from intrapara_profiles import load_intrapara_links
+from functional_refinements import active_refinements, refine_segments, refined_institutions
 import os
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
 from roster import ROLE_PATTERNS as ROSTER_ROLES
@@ -1179,6 +1180,8 @@ def main():
     reviewed_roles = load_role_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
     reviewed_speakers = load_speaker_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
     reviewed_institutions = load_institutional_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    functional = active_refinements({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    typed_institutions = refined_institutions(reviewed_institutions, functional)
     DATA_PROC.mkdir(parents=True, exist_ok=True)
     # ---- process ----
     load_formula_reviews(raw_by_id={int(r[0]): {"Texto":str(r[5])} for r in data})
@@ -1203,6 +1206,7 @@ def main():
             raise ValueError(f'Texto truncado sin recuperación: {parent_id}')
         state = session_states.setdefault(date, {'date': date})
         seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id),reviewed_documents.get(parent_id),reviewed_institutions.get(parent_id))
+        seg_texts=refine_segments(parent_id, seg_texts, functional)
         _seg_per_parent[parent_id]+=len(seg_texts)
         block_number=0
         for segment_number, (text, segment_actor, segment_method) in enumerate(seg_texts, 1):
@@ -1271,7 +1275,7 @@ def main():
                 rol = reviewed_documents[parent_id]['Rol_Autor']
                 rol_asistencia = None
                 metodo_rol = DOCUMENT_ROLE_SOURCE
-            tipo = (institutional_type(text, reviewed_institutions[parent_id]) if parent_id in reviewed_institutions
+            tipo = (institutional_type(text, typed_institutions[parent_id]) if parent_id in reviewed_institutions
                     else tipo_acta(text) if metodo_rol=='ACTA_INSTITUCIONAL' else '')
             # La fila porta la decisión de TPM de la sesión -> ACUERDO_CONSEJO,
             # incluso si quedó tipificada como COMUNICADO (el texto del comunicado

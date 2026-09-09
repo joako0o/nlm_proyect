@@ -1,12 +1,43 @@
 # nlm_proyect — Preparación de actas RPM del Banco Central de Chile
 
 Corpus de **132 sesiones mensuales de 2005–2015**, a partir de **7.219 filas originales**.
-La entrega tiene **9.691 filas físicas / 9.690 bloques de texto**, con actor, cargo,
+La entrega tiene **9.694 filas físicas / 9.693 bloques de texto**, con actor, cargo,
 trazabilidad y alertas. Una intervención extensa ocupa dos filas por el límite de XLSX.
-**349 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
+**352 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
 no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
-## Revisión vigente — 2026-09-09: lote4, sin cambios de datos
+## Entrega vigente — 2026-09-09: refinamiento funcional v4
+
+**Tres cortes funcionales y tres continuidades personales aplicados; 2.057 pruebas y F0/F1 pasan en dos construcciones.**
+En **4788, 4849 y 4899** se separa el aporte personal de la constancia de unanimidad.
+**El Presidente sigue siendo el hablante de ambos segmentos**: no se reasigna al Consejo
+la declaración ni se une la fila mixta entera al párrafo anterior. Sólo el aporte
+personal continúa a4787:2,4848:1 o4898:1; constancia, llegada y voces posteriores
+permanecen separadas.
+
+**9.694 filas y9.242 grupos.** Las constancias de mayo/junio son idénticas y generan
+dos avisos de duplicado, que no se ocultan: **467 filas alertadas en397 padres**.
+El aviso del pie de página de abril se conserva en la constancia. Ningún cierre de
+alerta, deduplicación ni modificación del OCR. Los24 enlaces revisados entre padres
+y las15 pruebas intrapadre anteriores siguen intactos.
+
+**Entrega:** [`data/releases/funcional_v4/`](data/releases/funcional_v4/).
+[Excel final](data/releases/funcional_v4/consolidado_base_referencia_final.xlsx) ·
+[Excel de auditoría](data/releases/funcional_v4/consolidado_base_referencia.xlsx) ·
+[Informe y límites](docs/REFINAMIENTO_FUNCIONAL_V4_2026-09-09.md) ·
+[Comparación global](data/releases/funcional_v4/comparacion_funcional.json) ·
+[Linaje completo](data/releases/funcional_v4/linaje_funcional.csv).
+
+La comparación verifica todos los campos y todos los miembros de cada grupo.
+La prueba institucional de4788 se refina explícitamente para validar cinco filas
+reales; no se debilita el validador histórico. **69 archivos de datos y254 documentos
+anteriores permanecen idénticos**. El perfil predeterminado es `funcional-v4`, siempre
+con destino nuevo; v1/v2/v3 permanecen disponibles sin activar este refinamiento.
+No hay segundo revisor semántico ni nuevo cotejo PDF. La revisión del corpus sigue abierta.
+
+## Histórico de lectura — lote4, antes de aplicar los tres límites
+
+Esta sección describe la lectura previa, sin modificaciones productivas en aquel momento.
 
 **19 pares leídos,29 padres completos /59.698 caracteres; 2.032 pruebas locales pasan.**
 Se abordaron todas las15 barreras léxicas del inventario y los primeros cuatro
@@ -31,9 +62,9 @@ padres. El inventario conserva77 pares; revisar un corte no lo elimina del inven
 53 quedan fuera de los lotes3/4 entre los pares aún inventariados, no53 errores
 ni53 casos nunca leídos. No hubo subagentes, segundo revisor semántico ni nuevo cotejo PDF.
 
-La entrega de datos vigente continúa siendo **intrapadre-v3**, descrita a continuación.
+En ese momento la entrega de datos seguía siendo **intrapadre-v3**, descrita a continuación.
 
-## Estado actual — 2026-09-09: continuidad intrapadre v3, lote3
+## Histórico — continuidad intrapadre v3, lote3
 
 **Nueve enlaces nuevos; 9.242 grupos; 2.008 pruebas locales y F0/F1 pasan.**
 Se revisaron los **14 candidatos restantes del subgrupo contextual sin avisos en
@@ -41,7 +72,7 @@ sus extremos**, leyendo **18 padres completos /70.514 caracteres** y todos los
 miembros de los grupos implicados. No sólo los casos breves: se preservan las
 presentaciones de Marshall de7764 caracteres y de Soto de6592.
 
-**Entrega vigente:** [`data/releases/continuidad_intrapadre_v3/`](data/releases/continuidad_intrapadre_v3/).
+**Entrega anterior:** [`data/releases/continuidad_intrapadre_v3/`](data/releases/continuidad_intrapadre_v3/).
 [Excel final](data/releases/continuidad_intrapadre_v3/consolidado_base_referencia_final.xlsx) ·
 [Excel de auditoría](data/releases/continuidad_intrapadre_v3/consolidado_base_referencia.xlsx) ·
 [Informe del lote3](docs/CONTINUIDAD_LOTE3_2026-09-09.md) ·
@@ -64,8 +95,8 @@ selección, no77 errores ni77 casos nunca leídos. La lectura del subgrupo está
 cubierta; la revisión semántica de todo el corpus no está terminada.
 
 **Históricos intactos:**55 archivos de datos y241 documentos/artefactos anteriores.
-LOOP32, v1 y v2 conservan sus rutas, archivos y evidencias. El perfil predeterminado
-ahora es **intrapadre-v3**, siempre con destino nuevo; v1/v2 siguen disponibles explícitamente.
+LOOP32, v1 y v2 conservan sus rutas, archivos y evidencias. En esa publicación el perfil
+predeterminado pasó a **intrapadre-v3**; hoy también sigue disponible explícitamente.
 
 ## Histórico — continuidad intrapadre v2, lote2
 
@@ -369,7 +400,7 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python scripts/preparar_data.py --perfil intrapadre-v3 --destino .cache/reproduccion_intrapadre_v3
+python scripts/preparar_data.py --perfil funcional-v4 --destino .cache/reproduccion_funcional_v4
 ```
 
 El comando:
@@ -378,13 +409,13 @@ El comando:
 2. Ejecuta las pruebas de regresión.
 3. Segmenta, atribuye, clasifica y calcula alertas.
 4. Genera la base final.
-5. Ejecuta F0, la comparación global contra v2 y F1 (integridad/trazabilidad).
+5. Ejecuta F0, la comparación global contra v3 y F1 (integridad/trazabilidad).
 6. **Publica el directorio versionado sólo después de pasar todas las verificaciones.**
 
 El destino debe ser **nuevo** y estar bajo `.cache/` o `data/releases/`.
 El ejemplo deja una reproducción aislada. Sin `--destino`, se usa
-`data/releases/continuidad_intrapadre_v3/`, que ya contiene la entrega y por tanto
-no se sobrescribe. `intrapadre-v3` es también el perfil predeterminado.
+`data/releases/funcional_v4/`, que ya contiene la entrega y por tanto
+no se sobrescribe. `funcional-v4` es también el perfil predeterminado.
 `--perfil legacy` conserva el constructor anterior y puede sobrescribir
 `data/processed/`: **no usarlo para regenerar el histórico que respalda las fichas**.
 
@@ -397,10 +428,11 @@ Pruebas y validaciones por separado:
 
 ```bash
 python -m unittest discover -s tests -v
-python scripts/qa_gate_f0.py .cache/reproduccion_intrapadre_v3/consolidado_base_referencia.xlsx
+python scripts/qa_gate_f0.py .cache/reproduccion_funcional_v4/consolidado_base_referencia.xlsx
 # Linux/macOS: F1 sobre la reproducción, indicando expresamente las pruebas nuevas.
 NLM_INTRAPARA_REVIEWS=data/curation/continuidades_intrapadre_v3.json \
-  python scripts/qa_preparacion.py --processed .cache/reproduccion_intrapadre_v3
+NLM_FUNCTIONAL_REVIEWS=data/curation/refinamiento_funcional_v4.json \
+  python scripts/qa_preparacion.py --processed .cache/reproduccion_funcional_v4
 ```
 
 También existen los scripts individuales `build_textos_completos.py`,
@@ -433,10 +465,14 @@ data/
     continuidades_intrapadre_v1.json          # dos pares históricos, sin cambios
     continuidades_intrapadre_v2.json          # seis pares históricos, sin cambios
     continuidades_intrapadre_v3.json          # quince pares: seis heredados + nueve del lote3; hash de lecturas
+    refinamiento_funcional_v4.json           # tres límites personal/constancia; lectura lote4 y prueba anterior
     revisiones_continuaciones_acta.json      # acta, interrupción/reanudación o movimiento de asistentes acotado
     alertas_contextuales.json                # incertidumbre textual, de nombre, cargo o identidad
     alertas_contextuales_retiradas.json      # advertencia original, motivo del retiro y sustitutas
-  releases/continuidad_intrapadre_v3/        # ENTREGA VIGENTE: los 12 archivos listados abajo
+  releases/funcional_v4/                     # ENTREGA VIGENTE: los 12 archivos listados abajo
+    comparacion_funcional.json               # más comparación exacta contra v3
+    linaje_funcional.csv                     # y trazabilidad de todas las filas (14 archivos en total)
+  releases/continuidad_intrapadre_v3/        # HISTÓRICO v3, archivos intactos
     comparacion_intrapadre.json              # más el gate global: nueve uniones nuevas frente a v2
   releases/continuidad_intrapadre_v2/        # HISTÓRICO v2, archivos intactos
   releases/continuidad_intrapadre_v1/        # HISTÓRICO v1, archivos intactos
@@ -462,6 +498,8 @@ scripts/
   continuity.py                             # continuidad entre párrafos con anclas de evidencia
   document_reviews.py                       # escritos leídos por terceros y validación autor/lector
   institutional_reviews.py                  # acta/reanudación acotadas y archivo de enlace retirado
+  functional_refinements.py                 # refinamiento opcional exacto; no regla global
+  compare_functional_v4.py                  # campos y grupos completos contra el histórico v3
   reviewed_continuity.py                     # extremos exactos de enlaces entre padres
   reviewed_intrapara_continuity.py            # v1 cerrado; validación común de extremos
   reviewed_intrapara_v2.py                     # v2: cuatro pares nuevos, lecturas completas y reserva5252

@@ -26,6 +26,7 @@ from continuity import EXPLICIT, boundary, SECTION, normalize
 from reviewed_continuity import load_reviewed_links, validate_reviewed_links, RELATION
 from reviewed_intrapara_continuity import validate_intrapara_links, RELATION as INTRA_RELATION
 from intrapara_profiles import load_intrapara_links, profile_name
+from functional_refinements import active_refinements, refined_institutions, validate_refinements
 import os
 from curation import load_role_reviews, REVIEW_SOURCES, load_speaker_reviews, validate_speaker_reviews, SPEAKER_REVIEW_SOURCE
 from qa_gate_f0 import audit as audit_tpm, load_base, load_tpm
@@ -189,7 +190,13 @@ def main():
     document_errors, document_records=validate_document_reviews(rows,documents)
     errors.extend(document_errors)
     institutions=load_institutional_reviews({r['ID']:r for r in raw})
-    errors.extend(validate_institutional_reviews(rows,institutions))
+    functional_path = os.environ.get('NLM_FUNCTIONAL_REVIEWS')
+    functional = active_refinements({r['ID']:r for r in raw})
+    if functional:
+        from compare_functional_v4 import compare, BASE
+        compare(read_rows(BASE)[1],rows,functional)
+    errors.extend(validate_institutional_reviews(rows,refined_institutions(institutions,functional)))
+    errors.extend(validate_refinements(rows,functional))
     context_alerts=load_context_warnings({r['ID']:r for r in raw})
     errors.extend(validate_context_warnings(rows,context_alerts))
     for (parent,actor),review in role_reviews.items():
@@ -236,6 +243,9 @@ def main():
         'formulas_tpm_contrastadas':sum(d['Formulas_Contrastadas'] for d in tpm['decisiones']),
         'nota': 'Las alertas se superponen; no son un conteo de errores. Página y etiquetas temáticas se heredan del padre. La conservación compara caracteres ignorando sólo espacios.'
     }
+    if functional:
+        report['refinamientos_funcionales']=len(functional)
+        report['continuidades_personales_funcionales']=len(functional)
     (out/'qa_preparacion.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     fields=['ID','ID_Intervencion','ID_Padre','Fecha','Actor_Final','Rol_Final','Fuente_Actor','Fuente_Rol',
             'Motivos_Revision','ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor',
@@ -289,6 +299,9 @@ def main():
               'sha256_entradas_codigo':{str(p.relative_to(ROOT)):digest(p) for p in files},
               'sha256_salidas':{p.name:digest(p) for p in sorted(out.iterdir()) if p.is_file() and p.name!='manifiesto_preparacion.json'}}
     manifest['perfil_continuidad'] = profile_name(intra_path) if intra_path else 'legacy'
+    if functional_path:
+        manifest['perfil_entrega'] = 'funcional-v4'
+        manifest['pruebas_funcionales'] = {'archivo': str(Path(functional_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(functional_path)), 'refinamientos': len(functional)}
     if intra_path:
         manifest['pruebas_intrapadre'] = {'archivo': str(Path(intra_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(intra_path))}
     (out/'manifiesto_preparacion.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
