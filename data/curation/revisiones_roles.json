@@ -1,0 +1,128 @@
+[
+  {
+    "Revision_ID": "ROL-20260907-41",
+    "Fecha_Revision": "2026-09-07",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "ID_Padre": 41,
+    "Fecha": "2005-01-11",
+    "Actor": "Klaus Schmidt-Hebbel Dunker",
+    "Rol": "Gerente de Investigación Económica",
+    "Decision": "CONFIRMAR_ROL_SIN_CAMBIAR_VALOR",
+    "Fuente_Rol": "TEXTO_EXPLICITO_REVISADO",
+    "SHA256_Texto_Padre": "af2005fcbc7d092b6454a6dc9b3f4e7f9ef66c4e89d47b7662225238bd87e9a4",
+    "Evidencia": [
+      {
+        "ID_Padre": 41,
+        "Nombre_en_Cita": "Klaus Schmidt-Hebbel",
+        "Cita": "El Gerente de Investigación Económica, señor Klaus Schmidt-Hebbel, manifiesta"
+      }
+    ],
+    "Justificacion": "El texto identifica al hablante con nombre y cargo. Se confirma el cargo por esta evidencia textual, sin afirmar coincidencia con la lista de asistencia.",
+    "Limite": "Fuente: consolidado original. No implica cotejo con PDF ni acreditación de asistencia completa."
+  },
+  {
+    "Revision_ID": "ROL-20260907-234",
+    "Fecha_Revision": "2026-09-07",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "ID_Padre": 234,
+    "Fecha": "2005-05-12",
+    "Actor": "Jorge Pérez Etchegaray",
+    "Rol": "Gerente de Operaciones Monetarias",
+    "Decision": "CONFIRMAR_ROL_SIN_CAMBIAR_VALOR",
+    "Fuente_Rol": "CONTEXTO_SESION_REVISADO",
+    "SHA256_Texto_Padre": "d1373f34dbbc96ec448cb1c9a9e832e0cd3fe1bb483fb8e5dff082f7d2c187ef",
+    "Evidencia": [
+      {
+        "ID_Padre": 243,
+        "Nombre_en_Cita": "Jorge Pérez",
+        "Cita": "El Gerente de Operaciones Monetarias, señor Jorge Pérez, sobre esta materia indica"
+      }
+    ],
+    "Justificacion": "Jorge Pérez interviene por nombre; el padre 243 de la misma sesión lo identifica explícitamente como Gerente de Operaciones Monetarias. Se confirma el cargo por contexto documental, no por asistencia.",
+    "Limite": "Fuente: consolidado original. No implica cotejo con PDF ni acreditación de asistencia completa."
+  },
+  {
+    "Revision_ID": "ROL-20260907-243",
+    "Fecha_Revision": "2026-09-07",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "ID_Padre": 243,
+    "Fecha": "2005-05-12",
+    "Actor": "Jorge Pérez Etchegaray",
+    "Rol": "Gerente de Operaciones Monetarias",
+    "Decision": "CONFIRMAR_ROL_SIN_CAMBIAR_VALOR",
+    "Fuente_Rol": "TEXTO_EXPLICITO_REVISADO",
+    "SHA256_Texto_Padre": "bbc13a32b877c038586e6cc9ab6d36eba08d905f4f3cee9cb3c3787c8ea2ce6a",
+    "Evidencia": [
+      {
+        "ID_Padre": 243,
+        "Nombre_en_Cita": "Jorge Pérez",
+        "Cita": "El Gerente de Operaciones Monetarias, señor Jorge Pérez, sobre esta materia indica"
+      }
+    ],
+    "Justificacion": "El texto identifica al hablante con nombre y cargo. Se confirma el cargo por esta evidencia textual, sin afirmar coincidencia con la lista de asistencia.",
+    "Limite": "Fuente: consolidado original. No implica cotejo con PDF ni acreditación de asistencia completa."
+  },
+  {
+    "Revision_ID": "ROL-20260907-246",
+    "Fecha_Revision": "2026-09-07",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "ID_Padre": 246,
+    "Fecha": "2005-05-12",
+    "Actor": "Jorge Pérez Etchegaray",
+    "Rol": "Gerente de Operaciones Monetarias",
+    "Decision": "CONFIRMAR_ROL_SIN_CAMBIAR_VALOR",
+    "Fuente_Rol": "CONTEXTO_SESION_REVISADO",
+    "SHA256_Texto_Padre": "7dfbaad3266a0e51cd39338a9736528f54d2735dfc0dfa62c29964e8397501ff",
+    "Evidencia": [
+      {
+        "ID_Padre": 243,
+        "Nombre_en_Cita": "Jorge Pérez",
+        "Cita": "El Gerente de Operaciones Monetarias, señor Jorge Pérez, sobre esta materia indica"
+      }
+    ],
+    "Justificacion": "Jorge Pérez interviene por nombre; el padre 243 de la misma sesión lo identifica explícitamente como Gerente de Operaciones Monetarias. Se confirma el cargo por contexto documental, no por asistencia.",
+    "Limite": "Fuente: consolidado original. No implica cotejo con PDF ni acreditación de asistencia completa."
+  },
+  {
+    "Revision_ID": "ROL-20260907-406",
+    "Fecha_Revision": "2026-09-07",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "ID_Padre": 406,
+    "Fecha": "2005-10-11",
+    "Actor": "Sergio Lehmann Beresi",
+    "Rol": "Gerente de Análisis Internacional",
+    "Decision": "CONFIRMAR_ROL_SIN_CAMBIAR_VALOR",
+    "Fuente_Rol": "TEXTO_EXPLICITO_REVISADO",
+    "SHA256_Texto_Padre": "e76cb8f9ab75f20e68eb97a5cd707a8295fae6306e521aa9a746e7b6f7d7b474",
+    "Evidencia": [
+      {
+        "ID_Padre": 406,
+        "Nombre_en_Cita": "Sergio Lehmann",
+        "Cita": "el Gerente de Análisis Internacional don Sergio Lehmann hace presente"
+      }
+    ],
+    "Justificacion": "El texto identifica al hablante con nombre y cargo. Se confirma el cargo por esta evidencia textual, sin afirmar coincidencia con la lista de asistencia.",
+    "Limite": "Fuente: consolidado original. No implica cotejo con PDF ni acreditación de asistencia completa."
+  },
+  {
+    "Revision_ID": "ROL-20260907-980",
+    "Fecha_Revision": "2026-09-07",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "ID_Padre": 980,
+    "Fecha": "2006-11-16",
+    "Actor": "Andrés Velasco Brañes",
+    "Rol": "Ministro de Hacienda",
+    "Decision": "CONFIRMAR_ROL_SIN_CAMBIAR_VALOR",
+    "Fuente_Rol": "TEXTO_EXPLICITO_REVISADO",
+    "SHA256_Texto_Padre": "06cfee7a26e575ee71ecc18f41cece679a2f4b1171ed47fb8e059732d3abce34",
+    "Evidencia": [
+      {
+        "ID_Padre": 980,
+        "Nombre_en_Cita": "Andrés Velasco",
+        "Cita": "El señor Ministro de Hacienda don Andrés Velasco comenta"
+      }
+    ],
+    "Justificacion": "El texto identifica al hablante con nombre y cargo. Se confirma el cargo por esta evidencia textual, sin afirmar coincidencia con la lista de asistencia.",
+    "Limite": "Fuente: consolidado original. No implica cotejo con PDF ni acreditación de asistencia completa."
+  }
+]

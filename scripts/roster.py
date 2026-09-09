@@ -35,6 +35,7 @@ ROLE_PATTERNS = [
     ("Gerente de Mercados Financieros Nacionales", None),
     ("Gerente de División Política Financiera", None),
     ("Gerente de División Operaciones Financieras", None),
+    ("Gerente de División Estadísticas Subrogante", "Gerente de División Estadísticas (S)"),
     ("Gerente de División Estadísticas", None),
     ("Gerente de División Estudios Subrogante", None),
     ("Gerente de División Estudios", None),
@@ -177,7 +178,10 @@ def parse_opening(text):
             roster[nz(nm)] = "Vicepresidente del Banco Central"
 
     cm = re.search(
-        r"de\s+(?:los|ios)\s+Consejeros\s+(?:señores\s+)?(.+?)(?:\.\s*(?:Asiste|Ministro|Gerente|Asisten)|\.\s*$)",
+        # La lista termina ANTES de otra categoría de asistentes, incluso si
+        # el OCR usa coma en vez de punto (2008-06) o sigue «Ministra» (2009-02).
+        r"de\s+(?:los|ios)\s+Consejeros\s+(?:señores\s+)?(.+?)"
+        r"(?=\s*(?:[.,;]\s*)?(?:Asisten?\b|" + ROLE_WORD + r"\b)|[.;]\s*$)",
         block, re.I,
     )
     if cm:
@@ -187,7 +191,7 @@ def parse_opening(text):
         for part in parts:
             nm = re.search(HONOR + r"\s+(" + NAME_TOKEN + r")", part, re.I)
             if nm:
-                key = nz(nm.group(1))
+                key = nz(_extract_name(nm.group(1)))
                 if key:
                     roster[key] = "Consejero/a"
 
@@ -311,11 +315,8 @@ def match_role(roster, actor):
     fuzzy.sort(key=lambda x: -x[0])
     if fuzzy:
         top = fuzzy[0]
-        # único por nombre o por rol
-        same_name = [f for f in fuzzy if f[1] == top[1]]
-        if len(same_name) == 1:
-            return top[2]
-        same_role = [f for f in fuzzy if f[2] == top[2]]
-        if len(same_role) == 1:
+        # La versión previa comprobaba unicidad de una clave de diccionario:
+        # siempre era cierta. Abstenerse ante dos nombres plausibles.
+        if len(fuzzy) == 1 or top[0] - fuzzy[1][0] >= 0.08:
             return top[2]
     return None

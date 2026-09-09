@@ -1,5 +1,10 @@
 # Revisión de la base de referencia del consolidado RPM
 
+> **Antecedente histórico de la base de 8.493 filas.** Las cifras y conclusiones
+> de este documento no describen la salida actual. La revisión posterior
+> encontró limitaciones en conservación, segmentación y F0. Consultar
+> [el informe vigente](CONTINUIDAD_PARRAFOS_2026-09-07.md) y `qa_preparacion.json`.
+
 **Fecha:** 2026-09-07
 **Base de referencia:** `data/processed/consolidado_base_referencia.xlsx`
 **Contenido resultante:** 8,493 intervenciones, a partir de 7,219 filas originales; 843 filas fueron divididas.

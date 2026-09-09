@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "Alcance": "COMAS_ACTA_DISCURSO_20260908",
+  "Commit_Base": "84bdd565b969d6612b7e77e94b1d637028feed42",
+  "Estado": "LECTURA_ACTA_DISCURSO_SIN_MODIFICAR_DATOS",
+  "SHA256_Fuentes": {
+    "data/raw/2005-06-09 - Actas.pdf": "bce6cc8f02ceb563113c14a3031fffdf83dd29150884bedbea2c45c218c98ae2",
+    "data/raw/2005-07-12 - Actas.pdf": "58e6fd4ea726079c94310a1451e58ae0b3fdbf028629cde86f25bac03883e6c9",
+    "data/raw/consolidado_final.xlsx": "c1cb73821242a7dcb20a75aef671598a9a6901201318a1beb3f9723c9aa4a512"
+  },
+  "Padres": {
+    "601": {
+      "Fecha": "2006-03-16",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Presidente interrumpe la sesión por diez minutos, para permitir el ingreso de un \ngrupo de reporteros que tomará imágenes de los miembros del Consejo con el nuevo Ministro \nde Hacienda señor Andrés Velasco. Una vez realizado este cometido, se reinicia la sesión con \nla exposición de don Pablo García, quien señala que durante el último mes, las condiciones \nmonetarias no muestran cambios significativos. Las tasas de interés reajustables de largo plazo \nestán en niveles similares a los vigentes al momento de la reunión pasada, y las tasas de \ncrecimiento anual de los distintos agregados monetarios y crediticios no sufrieron cambios \nimportantes, manteniéndose en niveles elevados. Sin embargo, el señor Gerente destacó el \nincremento de las tasas de interés de créditos a personas y empresas. En particular, las de \nconsumo aumentaron 120 puntos base en febrero, ubicándose en niveles no vistos desde \ncomienzos del 2003. El tipo de cambio real se ubica actualmente en niveles algo por encima de \nlos observados hace un mes. En el transcurso de febrero, la paridad nominal se apreció hasta valores cercanos a $ 515 por dólar, volviendo a situarse algo por sobre $ 530 por dólar en lo \nmás reciente.\n\nLa demanda interna se prevé que sigue disminuyendo su ritmo de crecimiento, aunque desde \nniveles que ahora se estiman mayores que hace un mes. \nLos indicadores parciales de \nconsumo privado para el primer bimestre indican que las tendencias globales previstas se \nmantienen, esto es una desaceleración del fuerte crecimiento del componente durable y una \nmantención del habitual. La inversión, en cambio, pareciera estar desacelerándose de manera \nalgo más pronunciada que la prevista. En cuanto al comercio exterior, las cuentas nacionales \ndel 2005 y la información acumulada en el último mes redujeron el crecimiento estimado para el \nvolumen de las exportaciones industriales en el trimestre en curso, revirtiendo la corrección al \nalza considerada el último mes.\n\nEn cuanto a la actividad, el cierre preliminar de las cuentas nacionales para el 2005 arrojó un \ncrecimiento del PIB igual al considerado en el escenario base del IPoM de enero. Señala el \nseñor García que, en enero destacó el crecimiento de la actividad industrial, el que siguió \nreafirmando la transitoriedad de la desaceleración de parte del tercer trimestre del año pasado. \nLa actividad minera volvió a anotar caídas anuales, esta vez por la distribución de la producción \nhacia productos de menor valor agregado.\n\nRespecto de los precios, en febrero la inflación del IPCX1 siguió en línea con el escenario base \ndel IPoM de enero. \nAl mismo tiempo, la velocidad de expansión anualizada del IPCX1 se \nmantiene desde mediados del 2005 en cifras del orden de 3%. La inflación IPC, en cambio, \nvolvió a sorprender en febrero, esta vez con una diferencia a la baja importante respecto de lo \nproyectado. Una vez más, el precio efectivo del petróleo y sus derivados fue la fuente principal \nde discrepancia. Respecto de los costos laborales, en enero la tasa de crecimiento anual de las \nmedidas de CMO cayeron, comportamiento esperado dado el efecto sobre la base del 2005 del \ncambio legal en la jornada. El incremento en doce meses de los CLU, por el contrario, volvió a \naumentar, situándose cercano a 3%, reflejo del sostenido crecimiento del empleo asalariado y \nsu efecto en la productividad.\n\nLas expectativas de mercado que se deducen para la TPM a partir de la curva forward \ndisminuyeron levemente en el mes, esperándose que a julio la TPM se ubique en 5,25%. Para \nfines de año, se prevé una TPM de 5,6% (5,8% el mes pasado). Un panorama similar señala la \nEEE, con una mantención de la TPM este mes y una tasa en 5,5% a fines de año. \nLa \ncompensación inflacionaria se mantuvo en torno a 3% en el curso del mes, aunque con \nmovimientos pequeños en sus distintos plazos. Las encuestas a mesas de dineros tampoco \ntuvieron cambios relevantes y la inflación esperada en la EEE bajó marginalmente para fines de \naño, mientras a dos años sigue en 3%.",
+      "SHA256_Texto_Padre": "1c3e2866efb830e60bc2e96887522cd8a7b6557d599ed2568fd078aec39d79cf",
+      "SHA256_Particion": "ad0bd60a75e5be2e2c84365b90f6cf4a08d944189ae648ce24a7789a74185953",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2006-03-16:600:1",
+          "Actor": "Pablo García Silva",
+          "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+          "SHA256_Texto": "7ff17dce7e8c3860aadfe835bb1907170d95260d358fbf191b759c764b11a998",
+          "Texto": "Exposición\nEl Gerente de Análisis Macroeconómico señor Pablo García señaló que la marcha de la\neconomía continúa bastante en línea con el escenario de corto plazo delineado en el IPoM de\nenero. El entorno externo sigue muy favorable, la actividad se expande a un ritmo sobre su\ntendencia y el crecimiento anual de la demanda interna en el primer trimestre se está\nmoderando a una velocidad algo más lenta y desde un nivel mayor al previsto, aunque la\ninversión lo hace algo por debajo. Agregó que el empleo asalariado sigue creciendo con fuerza,\nmientras la confianza de consumidores y empresas se mantiene en niveles optimistas.\nLa\ninflación anual del IPCX1 se ubica dentro de lo esperado y la del IPC continúa marginalmente\npor encima del techo del rango meta.\nLas condiciones financieras se mantienen expansivas,\naunque destacó el incremento de las tasas de interés de créditos en pesos a personas y\nempresas.\nEn el ámbito externo el conjunto de noticias indicó que se mantienen las favorables condiciones\npara la economía chilena, incluso postergándose en el tiempo la esperada convergencia hacia\nun escenario considerado más normal.\nPor el lado del crecimiento mundial, las novedades\napuntan a un mayor incremento para el 2006, con aumentos en la actividad proyectada para\nEstados Unidos de América y, en especial, Japón.\nLo anterior, sumado a posibles mayores\npresiones inflacionarias en las principales economías, ha llevado a expectativas de un aumento\nmás rápido de las tasas de interés en estas economías, implicando también mayores tasas de\ninterés en los bonos en Estados Unidos de América y la Zona Euro.\nPor ahora, en las\neconomías emergentes su efecto se ha compensado parcialmente por una disminución de los\npremios soberanos. El precio del cobre sigue por encima de lo esperado. El precio del petróleo\ntuvo un comportamiento bastante volátil en el mes."
+        },
+        "SHA256_Fila": "863106b05496541d7e68582b4c41315cf42fccf75fc884bda92019b8c9feb938",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2006-03-16:602:1",
+          "Actor": "Vittorio Corbo Lioi",
+          "Fuente_Actor": "SUJETO_ROL_SESION",
+          "SHA256_Texto": "e8928def92b63062b855316c76b30c731030f0b46a895b8fb569760ecade39d4",
+          "Texto": "El Presidente ofrece la palabra respecto de la presentación del informe\nefectuada por el Gerente de Análisis Macroeconómico, don Pablo García."
+        },
+        "SHA256_Fila": "66f4278fd8af68be3d006fec41e33a8df96388d9613ee9a5212af72ef1e14a3a",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2006-03-16:600:1",
+          "Derecha": "RPM-2006-03-16:601:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2006-03-16:600:1",
+          "Derecha": "RPM-2006-03-16:601:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2006-03-16:600:1",
+          "Derecha": "RPM-2006-03-16:602:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2006-03-16:601:1",
+          "Derecha": "RPM-2006-03-16:601:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2006-03-16:601:1",
+          "Derecha": "RPM-2006-03-16:602:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2006-03-16:601:2",
+          "Derecha": "RPM-2006-03-16:602:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre de origen completo y dos intervalos vecinos exportados completos; no certificación de todos los padres vecinos, voces, cargos, OCR o cifras."
+    },
+    "1901": {
+      "Fecha": "2008-06-10",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente, señor José De Gregorio, suspende la Sesión a las 13:50 horas e informa que la misma se reanudará a las 16:00 horas. Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N °124, El Presidente señor José De Gregorio ofrece la palabra al Gerente de División Estudios señor Pablo García a fin que presente las Opciones de Política Monetaria para esta Reunión.",
+      "SHA256_Texto_Padre": "5a8041a16d3e1f6e57ff89aed6c56cf24f9bcab6e7f0c697f31586fbdcd87c27",
+      "SHA256_Particion": "f8d4e3bbc742f887324cbe2a7ec3f6d6f54d70d147b30dda77be5e1404589d15",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2008-06-10:1900:1",
+          "Actor": "Pablo García Silva",
+          "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+          "SHA256_Texto": "82a38e966e8c1ee4add25c5f9e927dc25c74c41bb45b49e1cb7e99f441be7773",
+          "Texto": "El Gerente de División Estudios señor Pablo García señala que existen riesgos que efectivamente la inflación no vuelva a 3% en veinticuatro meses y cree que la discusión de si las expectativas están o no ancladas constituyó una mala decisión del Banco cuando se puso en un Comunicado el año pasado. Le parece que esta ocasión sería una buena oportunidad para sacar ese tema de la comunicación pública del Banco, pero que efectivamente los riesgos son que con ese shock adicional, el escenario de inflación que se tenía en el IPoM de mayo no se cumpla, es decir, que en veinticuatro meses más uno, que es el que ya ha transcurrido, no se converja a 3%, con la trayectoria de tasas que se tenía implícita en ese momento."
+        },
+        "SHA256_Fila": "ae8f7bac4620c169099e2e8f0e816ad69e5b4909b34e3656eab413d7f972557e",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2008-06-10:1902:1",
+          "Actor": "Pablo García Silva",
+          "Fuente_Actor": "SUJETO_ROL_SESION",
+          "SHA256_Texto": "075aaca1d8a6aa56d6fe0e5a6bb1dcbc846210a627d3f7bf3a5736a0bb83e64a",
+          "Texto": "El Gerente de División Estudios señala lo siguiente: 1. En la última Reunión de Política Monetaria, el Consejo decidió mantener la Tasa de Política Monetaria en 6,25 puntos base, eliminando el sesgo en la comunicación de futuros ajustes en la Tasa de Política Monetaria. Agrega el señor García que en esa Reunión se señaló que cambios futuros en la Tasa de Política Monetaria dependerían de las implicancias para la inflación del complejo escenario internacional, el grado de propagación de los shocks inflacionarios de meses pasados a otros precios y el surgimiento de nuevas presiones inflacionarias. 2 Agrega el señor Gerente de División mencionado, que desde dicha Reunión, las principales noticias que se han acumulado son las siguientes: • En el ámbito internacional, aunque se avizora una desaceleración del crecimiento algo menos acentuada que la prevista el mes pasado, los indicadores coyunturales siguen mostrando una situación de debilidad cíclica en Estados Unidos de América y la situación financiera sigue siendo incierta. • Señala también que el precio del petróleo y sus derivados ha aumentado de manera significativa, provocando tensiones importantes en diversas economías y aumentando la preocupación respecto de la inflación mundial. Las tasas de interés de largo plazo en el mundo han tendido a subir de manera relevante respecto de los mínimos de hace un par de meses. • El crecimiento interno de abril estuvo dentro de lo previsto, con lo que no se modifican mayormente las perspectivas de crecimiento para el segundo trimestre contempladas en el IPoM. Hacia adelante, la significativa mejora de la situación hídrica, junto con los esperados efectos calendario y por base de comparación, permite esperar registros de crecimiento interanuales superiores a 5% para el segundo semestre. • En el caso de Chile, la inflación de mayo sorprendió significativamente al alza, empujada una vez más por sorpresas en alimentos y energía. Las tendencias subyacentes de los precios mostraron un repunte y el peso tuvo una depreciación adicional de cerca de 4% con respecto a la Reunión de Política Monetaria de mayo. Indica el señor García que el conjunto de antecedentes disponibles lleva a revisar al alza hasta en más de un punto la inflación anual del segundo semestre. • Señala el Gerente de División que las expectativas de inflación se han incrementado a partir de las noticias recientes con grados relevantes de volatilidad en algunos casos. Luego del último IPoM, de los anuncios de esterilización y de la sorpresa inflacionaria de mayo, las expectativas privadas para la Tasa de Política Monetaria sugieren que el mercado y los analistas anticipan una Tasa de Política Monetaria mayor que la antes esperada. Este nuevo panorama es más marcado para los precios financieros que para la encuesta de expectativas. 3. Comenta también el señor García, que la ausencia de un sesgo en los comunicados de la Reunión de Política Monetaria de abril y mayo era congruente con una evolución de la inflación desde enero, similar o incluso inferior a la prevista a principios de año, y con la evaluación de que el balance de riesgos sobre la inflación en el último Informe estaba equilibrado. Este panorama ha cambiado, ya que se estima que los nuevos shocks inflacionarios en alimentos y combustibles son suficientemente elevados como para tener consecuencias sobre las perspectivas de inflación para los próximos trimestres. 4. Señala el señor García que son tres los elementos principales que se deben tomar en cuenta en relación a la magnitud de estas consecuencias. Menciona en primer lugar, la dinámica de la inflación importada, incluyendo la persistencia del actual tipo de cambio y de los mayores precios de los alimentos y de la energía. Agrega en segundo lugar, la evolución de las brechas de capacidad. Finalmente, menciona el señor García en tercer lugar, el patrón de propagación inflacionaria hacia precios subyacentes, salarios y expectativas. 5. Respecto a la Reunión de Política Monetaria pasada, el señor Gerente de División Estudios indica que el primer elemento mencionado está detrás de la mayor inflación efectiva. Agrega el señor García que el precio internacional del petróleo ha seguido subiendo, mientras que los precios internacionales de varios otros productos básicos se mantienen en niveles altos. Menciona que las perspectivas de crecimiento mundial se han corregido en algo al alza, por lo que no se modifica el panorama de estrechez global tras estos elevados precios. Por su parte, las consecuentes preocupaciones inflacionarias globales han tendido a elevar las tasas de interés de largo plazo en el mundo. 6 El señor García indica que en relación al segundo elemento, no se aprecian antecedentes que modifiquen las perspectivas de crecimiento hacía adelante. En términos de la generación eléctrica y costos energéticos, las noticias han sido favorables y los antecedentes sectoriales siguen siendo congruentes con el rango de proyección de crecimiento para el año. La demanda interna continúa creciendo a tasas elevadas y con un componente importado significativo. 7 Finalmente, manifiesta el señor García que mientras el conjunto de medidas de inflación subyacente ha mostrado un aumento adicional, los salarios continúan creciendo a tasas congruentes con las cláusulas habituales de indización. Las medidas de expectativas de inflación basadas en encuestas han incorporado la sorpresa más reciente, señalando aumentos relevantes en las trayectorias esperadas de la inflación dentro de los próximos dos años. Señala que las compensaciones inflacionarias, han tenido muy elevados grados de volatilidad por el impacto de anuncios oficiales y de las sorpresas de precios y siguen estando desviadas de la meta, particularmente a los plazos más cortos. 8 Hace presente el señor García que estas consideraciones motivan una revisión relevante de las proyecciones de inflación anual para el segundo semestre de este año, comparable o incluso mayor a la que se deduce de diversos indicadores de expectativas privadas, lo que constituye la materialización de un escenario de riesgo, distinto al escenario central contenido en el último IPoM, lo que lleva a descartar la opción de mantener la Tasa de Política Monetaria en esta ocasión. 9. Menciona el señor García que en términos de la magnitud de una decisión de alza de la Tasa de Política Monetaria, las noticias del mes sugieren un aumento de 25 ó 50 puntos base. La decisión precisa de cuál es la magnitud más apropiada en esta ocasión depende de cómo se ponderen los antecedentes anteriores y de cuánta certeza éstos otorguen a las perspectivas inflacionarias de los próximos trimestres. Indica que tanto para ello como para la eventual incorporación de un sesgo, es clave la evaluación que se realíce de la persistencia de la mayor inflación proyectada con relación al escenario base del IPoM. Agrega que como referencia, recuerda que el escenario base del IPoM contemplaba una trayectoria de la Tasa de Política Monetaria que podía acomodar tanto un alza como una baja de 25 puntos base de aquí a fin de año. 10. Hace presente el señor García que como es habitual, consideraciones de orden comunicacional pueden llevar esta vez a ponderar de diversa forma las alternativas planteadas. Señala que en esta ocasión, el mercado anticipa mayoritariamente un ajuste al alza de la Tasa de Política Monetaria de 25 puntos base, asignándole además una probabilidad alta a un alza adicional en meses posteriores. Comenta el Gerente de División Estudios que tan relevante como la decisión de tasas en sí misma, es lo que se deduzca del Comunicado, respecto de ajustes adicionales de la Tasa de Política Monetaria en los meses venideros. Un aumento de 25 puntos base con un sesgo al alza estaría en línea con lo que espera el mercado, mientras que un aumento de 50 puntos base no constituiría en sí mismo un elemento extraordinariamente sorpresivo si se acompaña de un nítido sesgo neutral."
+        },
+        "SHA256_Fila": "54a3b5e17341213e99b4d63673604d38d07f45c4bbea72ee3509c1edd9537b85",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2008-06-10:1900:1",
+          "Derecha": "RPM-2008-06-10:1901:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1900:1",
+          "Derecha": "RPM-2008-06-10:1901:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1900:1",
+          "Derecha": "RPM-2008-06-10:1901:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1900:1",
+          "Derecha": "RPM-2008-06-10:1902:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1901:1",
+          "Derecha": "RPM-2008-06-10:1901:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1901:1",
+          "Derecha": "RPM-2008-06-10:1901:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1901:1",
+          "Derecha": "RPM-2008-06-10:1902:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1901:2",
+          "Derecha": "RPM-2008-06-10:1901:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1901:2",
+          "Derecha": "RPM-2008-06-10:1902:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-06-10:1901:3",
+          "Derecha": "RPM-2008-06-10:1902:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre de origen completo y dos intervalos vecinos exportados completos; no certificación de todos los padres vecinos, voces, cargos, OCR o cifras."
+    },
+    "2112": {
+      "Fecha": "2008-10-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Gerente de División Estudios señor Pablo García menciona que el escenario alternativo tiene como base lo que se discutió en el IPoM, que era un escenario pesimista de crecimiento mundial, pero que ese mal escenario se actualizó con lo que se observó del WEO y en algunos bancos de inversión, pero que sigue siendo cualitativamente similar a lo que se conocía como escenario negativo en el IPoM. El señor Felipe Jaque indica que es importante considerar que para las economías emergentes se está tomando en cuenta una “elasticidad” del efecto de menor crecimiento en economías desarrolladas, mayor de lo que se ha observado en los últimos quince años. Comenta que al respecto se hizo una estimación en que el impacto es un punto menos de crecimiento en las economías desarrolladas y menos de un punto negativo en economías emergentes, considerando la caída de precios de los commodities que es bastante abrupta, en lo más reciente. Agrega el expositor que para Estados Unidos de América, la Zona Euro y Japón lo que se ha hecho en esta presentación es perfilar lo que sería un escenario de recesión, considerando las velocidades del PIB para la segunda mitad del 2008 y para la primera mitad del 2009. Finalmente, indica el señor Jaque que todo lo anterior configura un precio del petróleo, convergiendo bastante rápido hacia los 80 dólares y un precio del cobre también convergiendo. Siendo las 16;00 horas, se reanuda la Sesión de Política Monetaria N° 129, El Presidente señor José De Gregorio fija la Reunión de Política Monetaria del mes de abril de 2009, para el día jueves 9. Posteriormente, ofrece la palabra al Gerente de División Estudios señor Pablo García para que presente las Opciones de Política Monetaria para esta Reunión.",
+      "SHA256_Texto_Padre": "470fa5b16d6a041c4013124fd3501f075fc30081602e905fc66f761b235b76ed",
+      "SHA256_Particion": "d3bd798e626bac6313d9d1e5160550e1c44568dc5bfb72c1018fe2d4d8f02562",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2008-10-09:2111:1",
+          "Actor": "José De Gregorio Rebeco",
+          "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+          "SHA256_Texto": "8b3042013618880ec15e529fd69b93bb0b25d8879cefcaae2c08041ea9a4fb70",
+          "Texto": "El Presidente señor José De Gregorio menciona que los países del mundo siempre han sido afectados cuando ha habido recesión en Estados Unidos de América. Comenta que en estas situaciones el mundo promedia 2%, que es el número que recuerda y cuando todo está bien está en 3%. Señala que decir que China se proyecta al 9% u 8,5% puede ser un poco optimista."
+        },
+        "SHA256_Fila": "214f711f074def03ac61e9b68a6977399a8713f86fa961f2613700f1cd7358e3",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2008-10-09:2113:1",
+          "Actor": "Pablo García Silva",
+          "Fuente_Actor": "SUJETO_ROL_SESION",
+          "SHA256_Texto": "6f22d461654d2acb4477a819b44f64fb2a2bc426e73629530f94090a2958db53",
+          "Texto": "El Gerente de División Estudios señala que en la última Reunión de Política Monetaria, el Consejo acordó aumentar la tasa de interés de política monetaria en 50 puntos base, hasta 8,25% anual, dado el deterioro que había experimentado el panorama inflacionario y para asegurar la convergencia de la inflación hacia el 3%. Asimismo, indica que se reafirmó el compromiso de conducir la política monetaria de manera de reducir la elevada inflación actual hacia 3% en el horizonte de política, señalando que ello resultaba esencial para alinear la dinámica inflacionaria con el objetivo de estabilidad de precios. Indica el Gerente de División Estudios señor García que en el escenario más probable, la trayectoria futura de la Tasa de Política Monetaria contemplaba ajustes adicionales para asegurar la convergencia de la inflación a la meta, a un ritmo que dependería de la nueva información que se acumulara y de sus implicancias sobre la inflación proyectada. Agrega el Gerente de División Estudios, que desde dicha Reunión, las principales noticias que se han acumulado son las siguientes. En primer término, que en el ámbito internacional, los mercados financieros se encuentran en extremo tensionados, a causa de la desconfianza que ha emergido en los mercados interbancarios de Estados Unidos de América y Europa, y que se ha reflejado en primas por riesgo que alcanzan niveles inéditos. Ello ha agudizado los problemas de liquidez y conducido a caídas abruptas en bolsas y precios de commodities. Indica que bajo este contexto, el dólar se ha apreciado, especialmente frente a monedas de economías emergentes, cuyas cotizaciones exhiben caídas significativas. En segundo lugar, menciona que los bancos centrales y gobiernos de países desarrollados han adoptado diversas medidas tendientes a normalizar la liquidez y enfrentar los problemas de insolvencia bancaria. Señala el señor García que en lo más reciente, anticipando una fuerte desaceleración de la actividad y buscando restablecer la confianza de los mercados, los bancos centrales de Estados Unidos de América, Zona Euro, Inglaterra, Canadá, Suiza y Suecia recortaron sus tasas de política monetaria en 50 puntos base. Indica también el señor García que en este escenario, el mercado anticipa que el crecimiento mundial para 2009 se ajustaría a la baja, así como las proyecciones de precios de los commodities. Hace mención el Gerente de División Estudios que los mercados financieros locales no han estado ajenos a las tensiones internacionales, observándose reacciones importantes en las variables financieras. Destaca también, la magnitud de la depreciación del tipo de cambio en pesos, respecto del dólar desde el cierre estadístico del IPoM (cerca de 17%, equivalente a un aumento de casi $100). Asimismo, señala que la liquidez en dólares y en pesos también se ha visto afectada en los mercados internos, con aumentos en los spread on-shore y en las tasas del sistema financiero. Asimismo, indica el Gerente de División Estudios señor García que las cifras internas de actividad y demanda tuvieron un débil desempeño en agosto. Agrega que no obstante, la aún escasa información y la volatilidad de las cifras mes a mes no permiten modificaciones sustanciales al panorama de actividad de corto plazo considerado en el IPoM. Las expectativas privadas (EEE) redujeron el crecimiento esperado tanto para el 2008 como para el 2009, ubicándolo en 4,1% y 3,5%, respectivamente (4,3% y 4,2% el mes pasado). Indica también el señor García que en septiembre, la inflación mes a mes volvió a mostrar un incremento importante, aunque en línea con lo previsto en el escenario base del IPoM de septiembre. Señala que a diferencia de meses previos, una parte importante de la mayor inflación del mes se concentró en los precios de los combustibles y tarifas. Los salarios crecieron mes a mes bastante menos que en el mes previo. Destaca que las compensaciones inflacionarias, aunque con una alta volatilidad en el mes, se ubican en niveles significativamente menores a los vigentes para la reunión anterior. Hace mención que el escenario de inflación de corto plazo, por la depreciación del peso, es cerca de medio punto porcentual mayor que el considerado en el IPoM para el IPC. Agrega el señor García, que las expectativas privadas (EEE) se corrigen al alza en el corto plazo, pero medio punto a la baja a 24 meses. Señala que las compensaciones inflacionarias se han reducido de manera significativa. Asimismo, indica el Gerente de División Estudios señor García que las principales consideraciones tras las opciones de política en esta ocasión son tres: (i) la elevada probabilidad de materialización de un escenario alternativo de mediano plazo con menor crecimiento global, menores precios de commodities y un peso más depreciado; (ii) el grado de restrictividad actual y esperable de las condiciones financieras luego de los episodios de turbulencia internacional y local; y, (iii) el diagnóstico respecto de la propagación y persistencia inflacionaria y del ritmo de expansión de la actividad en el corto plazo. Indica el señor García que en relación al primer punto, en las discusiones del IPoM se plantearon diversos escenarios alternativos. Menciona que uno de ellos coincidía de forma cercana con las perspectivas de crecimiento mundial y de precios de commodities que se han comenzado a visualizar con mayor probabilidad hacia delante. Señala, que a ese escenario se ha agregado una depreciación del peso coherente con los sucesos recientes. Indica también que aunque el escenario alternativo del IPoM contenía ya de por sí una depreciación del peso, su depreciación bilateral de éste con relación al dólar desde la última Reunión de Política Monetaria ha sido significativamente mayor que la considerada. Comenta el señor García que en el corto plazo, un tipo de cambio en torno a $590 aumentaría la inflación en medio punto, incrementando el riesgo que la inflación anual alcance 10% en uno o varios meses del próximo semestre, incluso en el contexto de desinflación gradual de la tendencia subyacente considerada en el IPoM. Señala el Gerente de División Estudios que hacia el mediano plazo, en este escenario alternativo, las tendencias desinflacionarias se verían reforzadas por el deteriorado escenario internacional. Agrega que de acuerdo con las proyecciones presentadas para el escenario alternativo, estos argumentos por sí solos justifican en el corto plazo una trayectoria para la Tasa de Política Monetaria algo por debajo (del orden de 25pb) de la contenida en el IPoM, pero bastante inferior a plazos más largos (incluso 100 o más puntos base hacia fines de 2009). Señala que esto es congruente con tasas de crecimiento local del orden de 2,0% para fines de 2009 y una trayectoria inflacionaria que, en promedio, es mayor el 2009, pero converge rápidamente a 3% el 2010, con la posibilidad de ubicarse por debajo de 3% al final del horizonte de proyección. Señala el Gerente de División Estudios que con respecto al segundo punto, se deben considerar diversos aspectos. Por el lado del financiamiento externo, se aprecia un mayor costo y restrictividad para el endeudamiento bancario y, probablemente, no bancario. Indica que la estrechez de liquidez en dólares ha aumentado el costo del financiamiento local en dólares, mientras también han subido las tasas de captación y colocación en pesos y en UF. Comenta que en cierta forma, un ajuste hacia un sesgo más restrictivo de las condiciones financieras era esperable, dado que, hasta hace algunas semanas, el aumento Mí de 200 puntos base en la Tasa de Política Monetaria no había generado cambios importantes en las tasas activas de la banca o cambios evidentes en el ritmo de expansión de los agregados monetarios. Indica también el señor García, que resulta relevante por tanto evaluar en qué medida las condiciones financieras actuales y su evolución previsible a futuro exceden, de manera relevante, lo que cabía esperar dado el ajuste de política monetaria ya implementado. Agrega que los antecedentes internos discutidos sugieren que las tasas de colocación en pesos han subido bastante más de lo que se hubiera esperado, mientras las en UF se encuentran alineadas con patrones históricos. Señala que de este modo, en su conjunto no se puede descartar que la restrictividad de las condiciones financieras esté siendo mayor que la considerada al elaborar el IPoM, dada la instancia monetaria. Hace presente el señor García que finalmente, respecto de la evolución de corto plazo de la economía, las cifras recientes de actividad e inflación no modifican por sí mismo de manera significativa el panorama para el cuarto trimestre. Menciona que esto incluye una moderación en el ritmo de expansión de la actividad distinta de recursos naturales y también una leve reducción de las medidas de inflación subyacente, aspectos que se observan en la información coyuntural. Por otra parte, indica que los puntos anteriores llevan a evaluar si es o no conveniente un cambio en la estrategia de política monetaria, principalmente por la significativa diferencia entre las trayectorias de la Tasa de Política Monetaria implícitas en los distintos escenarios de mediano plazo. Menciona el Gerente de División Estudios, que en lo concreto, una decisión de mantener la Tasa de Política Monetaria en su nivel actual y no realizar ajustes adicionales en los próximos meses es congruente con un cambio bastante intenso (de al menos 100pb de menor Tasa de Política Monetaria en el corto plazo) de la estrategia de política monetaria seguida hasta el momento para el corto plazo. Señala asimismo, que en el otro extremo, un alza de 50 puntos base, al ser equivalente a los cambios de la Tasa de Política Monetaria realizados con anterioridad, podría sugerir que la estrategia de política monetaria sigue inalterada, requiriendo de un esfuerzo comunicacional dificultoso por lo que es de fácil descarte. Agrega que en este sentido, un alza de 25 puntos base, o la mantención de la Tasa de Política Monetaria con perspectivas de aumento futuro si la inflación no cede según lo previsto, permiten dar la señal tanto que se ha realizado un cambio de estrategia de política monetaria como que aún el problema inflacionario no ha sido resuelto. Por lo anterior, señala el señor Gerente de División Estudios que existen otros aspectos comunicacionales y tácticos que son particularmente relevantes y difíciles de evaluar con precisión en la coyuntura. Agrega que por un lado, la reducción coordinada de tasas de política realizada ayer por parte de diversos bancos centrales frente a la severa inestabilidad financiera que enfrentan, contrastan con un entorno financieramente mucho más estable en Chile. Señala también, que un cambio fuerte en la estrategia de política monetaria puede indicar que el Banco Central de Chile está más preocupado de lo que ha señalado respecto a la situación financiera local. Estima el señor García que, a su vez, mantener la Tasa de Política Monetaria a la espera de mayor información tanto respecto de la restrictividad de las condiciones financieras locales e internacionales como del desenvolvimiento de la economía mundial hacia el 2009 tiene valor. Por otro lado, agrega que un cambio fuerte de la estrategia puede leerse como una menor preocupación por la inflación, aún cuando las expectativas y perspectivas coyunturales son aún complejas, pero le parece que realizar un cambio en la estrategia de política monetaria es clave para dar cuenta de la conciencia que se tiene respecto de la gravedad de la situación internacional. Finalmente, hace presente el señor Gerente de División Estudios que en esta ocasión, el balance entre ambas opciones, un aumento de 25 puntos base o una mantención, depende de cómo se ponderen los antecedentes comunicacionales anteriores. Señala también, que el mercado, antes de los eventos del día de ayer, estaba ligeramente inclinado a un aumento de 25 puntos base, mientras que posteriormente el balance se ha desplazado hacia opiniones más sesgadas hacia una mantención."
+        },
+        "SHA256_Fila": "1200061996a9393e22ba28721c00df2693885c5d9526bad487fb71af2c804332",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2008-10-09:2111:1",
+          "Derecha": "RPM-2008-10-09:2112:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2111:1",
+          "Derecha": "RPM-2008-10-09:2112:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2111:1",
+          "Derecha": "RPM-2008-10-09:2112:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2111:1",
+          "Derecha": "RPM-2008-10-09:2112:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2111:1",
+          "Derecha": "RPM-2008-10-09:2113:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:1",
+          "Derecha": "RPM-2008-10-09:2112:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:1",
+          "Derecha": "RPM-2008-10-09:2112:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:1",
+          "Derecha": "RPM-2008-10-09:2112:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:1",
+          "Derecha": "RPM-2008-10-09:2113:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:2",
+          "Derecha": "RPM-2008-10-09:2112:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:2",
+          "Derecha": "RPM-2008-10-09:2112:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:2",
+          "Derecha": "RPM-2008-10-09:2113:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:3",
+          "Derecha": "RPM-2008-10-09:2112:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:3",
+          "Derecha": "RPM-2008-10-09:2113:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2008-10-09:2112:4",
+          "Derecha": "RPM-2008-10-09:2113:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre de origen completo y dos intervalos vecinos exportados completos; no certificación de todos los padres vecinos, voces, cargos, OCR o cifras."
+    },
+    "2803": {
+      "Fecha": "2009-12-15",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 147 celebrada el 15 de diciembre de 2009 En Santiago de Chile, a 15 de diciembre de 2009, siendo las 9;00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente Subrogante don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda Subrogante, don Alberto Arenas de Mesa; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Señor, doña Erika Arraño González; y la Secretario General, doña Marlys Pabst Cortés, El Presidente, señor José De Gregorio, junto con dar inicio a la Reunión de Política Monetaria N° 147, señala que, de conformidad con el Reglamento que rige estas Sesiones, fija la Reunión de Política Monetaria correspondiente al mes de junio de 2010 para el día 15 de dicho mes. A continuación,.",
+      "SHA256_Texto_Padre": "1e76073f6c76c3c411daef28c7c3d02f86df4d8f0c48d7900ce77f2751103726",
+      "SHA256_Particion": "668cf1c5ba59d7d0cc31e1d4ed3e7af1ce9fea7dc05c3f0b316bd7971cb7495e",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2009-11-12:2802:1",
+          "Actor": "Consejo del Banco Central de Chile",
+          "Fuente_Actor": "ACTA/META",
+          "SHA256_Texto": "7287786f57cb8200373aefb121a65387a12fa786cd98c72ef39c8558b9265ebd",
+          "Texto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a las 17:55 horas. JORGE DESORMEAUX JIMÉNEZ JOSE DE GREGORIO REBECO Vicepresidente Presidente ENRIQUE MARSHALL RIVERA LEWIS Consejero Consejero."
+        },
+        "SHA256_Fila": "fd82b49d98b83f7dfc1b4177f64fdb81bf68e20c91d2215bf16244fce5989c49",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2009-12-15:2804:1",
+          "Actor": "José De Gregorio Rebeco",
+          "Fuente_Actor": "SUJETO_ROL_SESION",
+          "SHA256_Texto": "cddc49a5deac614ded108f169e1f298b2989a52994dc063205eb82989a1643eb",
+          "Texto": "el señor Presidente ofrece la palabra al Gerente de Análisis Internacional, señor Sergio Lehmann, para que presente la información sobre el escenario externo."
+        },
+        "SHA256_Fila": "5778eb239bc69e0c34a0da5c4c559a8879fad26ea228ff170e090ce4f9e3db3c",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2009-11-12:2802:1",
+          "Derecha": "RPM-2009-12-15:2803:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2802:1",
+          "Derecha": "RPM-2009-12-15:2803:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2802:1",
+          "Derecha": "RPM-2009-12-15:2804:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-12-15:2803:1",
+          "Derecha": "RPM-2009-12-15:2803:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-12-15:2803:1",
+          "Derecha": "RPM-2009-12-15:2804:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-12-15:2803:2",
+          "Derecha": "RPM-2009-12-15:2804:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre de origen completo y dos intervalos vecinos exportados completos; no certificación de todos los padres vecinos, voces, cargos, OCR o cifras."
+    },
+    "5252": {
+      "Fecha": "2012-12-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Vicepresidente señor Manuel Marfán señala que la economía chilena enfrenta un puzzle desde hace varios meses, por cuanto presenta un crecimiento anormalmente elevado y una inflación inusualmente baja. Plantea que los antecedentes disponibles indican que ello no constituye un shock de oferta, en tanto deberían observarse también ciertas presiones de demanda, que no existen al menos por el momento. Al respecto, recuerda dos episodios en que se observó una combinación similar, el primero de ellos en los años 1992 a 1993, y el segundo en el período 1996 a 1997, con desenlaces distintos. Plantea que el primero se pudo resolver con una adecuada coordinación de políticas monetarias y fiscales, en que el Banco Central de Chile y el Ministerio de Hacienda llevaron adelante de manera conjunta lo que se denominó un mini ajuste. Indica que, por el contrario, en los años 1996 a 1997 se observó un desequilibrio que afectó la balanza de pagos y el tipo de cambio, lo que producto de la crisis internacional reinante produjo efectos muy significativos en Chile. Asimismo, alude al denominado efecto Tequila en el año 1995, oportunidad en que Chile no se vio afectado, presumiblemente porque en esa época el precio del cobre fue anormalmente alto. El Vicepresidente señor Manuel Marfán enfatiza en la necesidad de que exista una muy buena coordinación entre el Banco Central de Chile y el Ministerio de Hacienda en episodios como los mencionados, para fines de llevar adelante un mini ajuste económico. Al no formularse otros comentarios, el Vicepresidente señor Manuel Marfán suspende la presente Reunión y deja constancia que ella se reiniciará a las 16:30 horas para tratar las opciones de política monetaria. Siendo las 16:30 horas, se reanuda la Reunión de Política Monetaria N° 193 y pasa a presidir la Sesión transitoriamente el Vicepresidente señor Manuel Marfán, haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo. El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente al Consejo las Opciones de Política Monetaria que se han considerado para esta oportunidad.",
+      "SHA256_Texto_Padre": "5962e84de409e110e810754ab33a7799f9758ae3aeff1f12c2d97a86bb245686",
+      "SHA256_Particion": "11db4c692390eec5c47d920ac812d6d1385af6ce6d4a90ed659a7c7c323be6a7",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2012-12-13:5251:1",
+          "Actor": "Joaquín Vial Ruiz-Tagle",
+          "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+          "SHA256_Texto": "743b6289002d9d0dcefa99ad27589a645c1385e1e28c30cfe28c427ee3cde69f",
+          "Texto": "El Consejero señor Joaquín Vial plantea la conveniencia de analizar en detalle el mercado de trabajo, de manera de conocer la evolución de las tasas de participación, los salarios por sectores y por tipo de ocupación, como asimismo, identificar los sectores que presentan problemas y determinar si la mayor participación de la fuerza de trabajo femenina contribuirá a resolverlos. Asimismo, sugiere analizar los costos laborales unitarios locales en relación con los predominantes en otros países, a fin de establecer si se está perdiendo o ganando competitividad por esa vía. En materia de inflación, manifiesta que mantenerla baja por un tiempo prolongado tiene como correlato, si todo lo demás permanece constante, un mayor ingreso disponible. En su opinión, si a ello se suman los efectos que tendrá la entrada de carne paraguaya al país, la eventual baja del precio del gas natural producto de la renegociación de contratos y la posible caída del precio del petróleo, se observará un período prolongado con inflación baja, junto con el incremento del poder de compra de los consumidores y de su confianza al alza, lo cual demandará esfuerzos con la finalidad de mantener la demanda interna bajo control."
+        },
+        "SHA256_Fila": "a1e3b5e95a9064e7652b4e4562c31fdd2cdc1a976b96baf33d5b7608913facd3",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2012-12-13:5253:1",
+          "Actor": "Luis Óscar Herrera Barriga",
+          "Fuente_Actor": "SUJETO_NOMBRE",
+          "SHA256_Texto": "f17fb547bd22b34a38931a6acdfacbd7379e43fe12e3cdf9ebd297ae8baa3c32",
+          "Texto": "El señor Luis Óscar Herrera inicia su intervención refiriéndose a los principales desarrollos acontecidos desde la última Reunión de Política Monetaria. En lo concerniente a la economía internacional, señala que las condiciones financieras internacionales han mostrado una mejora durante el último mes, expresadas en mayor valoración de las bolsas internacionales y menores premios de crédito y volatilidad. Agrega que, sin embargo, las primas de riesgo soberano de los países periféricos de la Eurozona han continuado en niveles elevados. Indica que la actividad mundial sigue mostrando una marcada debilidad; que la Reserva Federal puso en marcha una serie de medidas adicionales de estímulo monetario; que el dólar estadounidense se ha depreciado en los mercados internacionales; y que el precio del cobre muestra un aumento, mientras que los combustibles presentan retrocesos. En el plano local, expresa que la actividad del mes de octubre evolucionó en línea con lo esperado, mientras que el ritmo de creación de empleo se mantuvo en torno a tasas de tendencia, y que los salarios nominales crecieron entre 6 y 7% anual. Destaca que la inflación subyacente y la inflación total se sitúan en torno al 2% y que el peso se ha apreciado respecto al dólar estadounidense y otras monedas. Asimismo, comenta que las encuestas señalan que la expectativa de mantener la TPM en su entorno actual por un período prolongado constituye la estimación de consenso, y que para esta Reunión, en particular, se anticipa la mantención de la tasa rectora."
+        },
+        "SHA256_Fila": "01944f8f4b918ee73b5004d017f9c9d1c5724d650fe5bcd96016a126e0012d96",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2012-12-13:5251:1",
+          "Derecha": "RPM-2012-12-13:5252:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5251:1",
+          "Derecha": "RPM-2012-12-13:5252:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5251:1",
+          "Derecha": "RPM-2012-12-13:5252:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5251:1",
+          "Derecha": "RPM-2012-12-13:5252:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5251:1",
+          "Derecha": "RPM-2012-12-13:5253:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:1",
+          "Derecha": "RPM-2012-12-13:5252:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:1",
+          "Derecha": "RPM-2012-12-13:5252:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:1",
+          "Derecha": "RPM-2012-12-13:5252:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:1",
+          "Derecha": "RPM-2012-12-13:5253:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:2",
+          "Derecha": "RPM-2012-12-13:5252:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:2",
+          "Derecha": "RPM-2012-12-13:5252:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:2",
+          "Derecha": "RPM-2012-12-13:5253:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:3",
+          "Derecha": "RPM-2012-12-13:5252:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:3",
+          "Derecha": "RPM-2012-12-13:5253:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2012-12-13:5252:4",
+          "Derecha": "RPM-2012-12-13:5253:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre de origen completo y dos intervalos vecinos exportados completos; no certificación de todos los padres vecinos, voces, cargos, OCR o cifras."
+    }
+  },
+  "Revisiones": [
+    {
+      "Revision_ID": "COMA-ACTA-20260908-L6-601",
+      "ID_Padre": 601,
+      "Fecha": "2006-03-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2006-03-16:601:1",
+        "Actor": "Consejo del Banco Central de Chile",
+        "Fuente_Actor": "ACTA/META",
+        "SHA256_Texto": "3c00b6a4343f7ee5f126c62eba0d880ff238fbd713dc4df2e766ba5dd6806188",
+        "Texto": "El señor Presidente interrumpe la sesión por diez minutos, para permitir el ingreso de un\ngrupo de reporteros que tomará imágenes de los miembros del Consejo con el nuevo Ministro\nde Hacienda señor Andrés Velasco. Una vez realizado este cometido, se reinicia la sesión con\nla exposición de don Pablo García,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2006-03-16:601:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "a44dc683543862b02d80757fe05e2e08cf813c8de753c029ad6773e4240f619a",
+        "Texto": "quien señala que durante el último mes, las condiciones\nmonetarias no muestran cambios significativos. Las tasas de interés reajustables de largo plazo\nestán en niveles similares a los vigentes al momento de la reunión pasada, y las tasas de\ncrecimiento anual de los distintos agregados monetarios y crediticios no sufrieron cambios\nimportantes, manteniéndose en niveles elevados. Sin embargo, el señor Gerente destacó el\nincremento de las tasas de interés de créditos a personas y empresas. En particular, las de\nconsumo aumentaron 120 puntos base en febrero, ubicándose en niveles no vistos desde\ncomienzos del 2003. El tipo de cambio real se ubica actualmente en niveles algo por encima de\nlos observados hace un mes. En el transcurso de febrero, la paridad nominal se apreció hasta valores cercanos a $ 515 por dólar, volviendo a situarse algo por sobre $ 530 por dólar en lo\nmás reciente.\nLa demanda interna se prevé que sigue disminuyendo su ritmo de crecimiento, aunque desde\nniveles que ahora se estiman mayores que hace un mes.\nLos indicadores parciales de\nconsumo privado para el primer bimestre indican que las tendencias globales previstas se\nmantienen, esto es una desaceleración del fuerte crecimiento del componente durable y una\nmantención del habitual. La inversión, en cambio, pareciera estar desacelerándose de manera\nalgo más pronunciada que la prevista. En cuanto al comercio exterior, las cuentas nacionales\ndel 2005 y la información acumulada en el último mes redujeron el crecimiento estimado para el\nvolumen de las exportaciones industriales en el trimestre en curso, revirtiendo la corrección al\nalza considerada el último mes.\nEn cuanto a la actividad, el cierre preliminar de las cuentas nacionales para el 2005 arrojó un\ncrecimiento del PIB igual al considerado en el escenario base del IPoM de enero. Señala el\nseñor García que, en enero destacó el crecimiento de la actividad industrial, el que siguió\nreafirmando la transitoriedad de la desaceleración de parte del tercer trimestre del año pasado.\nLa actividad minera volvió a anotar caídas anuales, esta vez por la distribución de la producción\nhacia productos de menor valor agregado.\nRespecto de los precios, en febrero la inflación del IPCX1 siguió en línea con el escenario base\ndel IPoM de enero.\nAl mismo tiempo, la velocidad de expansión anualizada del IPCX1 se\nmantiene desde mediados del 2005 en cifras del orden de 3%. La inflación IPC, en cambio,\nvolvió a sorprender en febrero, esta vez con una diferencia a la baja importante respecto de lo\nproyectado. Una vez más, el precio efectivo del petróleo y sus derivados fue la fuente principal\nde discrepancia. Respecto de los costos laborales, en enero la tasa de crecimiento anual de las\nmedidas de CMO cayeron, comportamiento esperado dado el efecto sobre la base del 2005 del\ncambio legal en la jornada. El incremento en doce meses de los CLU, por el contrario, volvió a\naumentar, situándose cercano a 3%, reflejo del sostenido crecimiento del empleo asalariado y\nsu efecto en la productividad.\nLas expectativas de mercado que se deducen para la TPM a partir de la curva forward\ndisminuyeron levemente en el mes, esperándose que a julio la TPM se ubique en 5,25%. Para\nfines de año, se prevé una TPM de 5,6% (5,8% el mes pasado). Un panorama similar señala la\nEEE, con una mantención de la TPM este mes y una tasa en 5,5% a fines de año.\nLa\ncompensación inflacionaria se mantuvo en torno a 3% en el curso del mes, aunque con\nmovimientos pequeños en sus distintos plazos. Las encuestas a mesas de dineros tampoco\ntuvieron cambios relevantes y la inflación esperada en la EEE bajó marginalmente para fines de\naño, mientras a dos años sigue en 3%."
+      },
+      "Criterio": "INTERRUPCION_REINICIO_EXPOSICION",
+      "Estado": "LIMITE_INSTITUCIONAL_REVISADO_SIN_CIERRE",
+      "Justificacion": "El primer tramo narra interrupción, ingreso de reporteros y reinicio; no reproduce una intervención de Velasco por ser fotografiado. Tras la exposición de don Pablo García, quien señala introduce el contenido económico de García. Se conservan acta307/García3688, con toda la exposición y sus párrafos internos. La exposición de García en600 no se enlaza a través del acta;602 vuelve al Presidente que ofrece comentarios.",
+      "Reservas": [
+        "Se mantiene quien señala literal, el método y ancla actuales de García y FINAL_SIN_PUNTUACION del acta. Nunca restaurar600→601 ni clasificar todo601 como institucional."
+      ],
+      "Limitacion": "Frontera existente acta/discurso revisada sin nuevos cortes, reasignaciones, enlaces o cierres. No detector general de gerundios, menciones o actos administrativos; sin nuevo cotejo PDF ni revisión humana independiente."
+    },
+    {
+      "Revision_ID": "COMA-ACTA-20260908-L6-1901",
+      "ID_Padre": 1901,
+      "Fecha": "2008-06-10",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-06-10:1901:2",
+        "Actor": "Consejo del Banco Central de Chile",
+        "Fuente_Actor": "ACTA/META",
+        "SHA256_Texto": "490ca9e4c9697fe20462c244bde53f6cb7e3b422160410dbf53d25786832bdf2",
+        "Texto": "Siendo las 16:00 horas, se reanuda la Sesión de Política Monetaria N °124,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-06-10:1901:3",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "723698868b2988ae59a50583fb04a2e53fc9f04c45964c615bb159594d38095d",
+        "Texto": "El Presidente señor José De Gregorio ofrece la palabra al Gerente de División Estudios señor Pablo García a fin que presente las Opciones de Política Monetaria para esta Reunión."
+      },
+      "Criterio": "REANUDACION_CESION",
+      "Estado": "LIMITE_INSTITUCIONAL_REVISADO_SIN_CIERRE",
+      "Justificacion": "El Presidente suspende e informa el horario en130 caracteres; Siendo las16:00 horas narra la reanudación en el acta74. Después de la coma, El Presidente señor José De Gregorio ofrece la palabra es la cesión personal178, no el inicio de García. García comienza en1902, cuya exposición completa se leyó como intervalo vecino. No fusionar ambos aportes presidenciales a través de la reanudación.",
+      "Reservas": [
+        "Se mantienen la coma y N °124 literal. La exposición vecina1902 conserva6,25 puntos base; la lectura contextual no certifica o corrige esa unidad."
+      ],
+      "Limitacion": "Frontera existente acta/discurso revisada sin nuevos cortes, reasignaciones, enlaces o cierres. No detector general de gerundios, menciones o actos administrativos; sin nuevo cotejo PDF ni revisión humana independiente."
+    },
+    {
+      "Revision_ID": "COMA-ACTA-20260908-L6-2112",
+      "ID_Padre": 2112,
+      "Fecha": "2008-10-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-10-09:2112:3",
+        "Actor": "Consejo del Banco Central de Chile",
+        "Fuente_Actor": "ACTA/META",
+        "SHA256_Texto": "cfa9e6ef8f726d560dbbe12187897e62a872d36c8e03cd28e729b862030b7b82",
+        "Texto": "Siendo las 16;00 horas, se reanuda la Sesión de Política Monetaria N° 129,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-10-09:2112:4",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "41cb66145350863a3a7ce2f6b8b7442c97b2f76a8f2b34d065293e175b068f31",
+        "Texto": "El Presidente señor José De Gregorio fija la Reunión de Política Monetaria del mes de abril de 2009, para el día jueves 9. Posteriormente, ofrece la palabra al Gerente de División Estudios señor Pablo García para que presente las Opciones de Política Monetaria para esta Reunión."
+      },
+      "Criterio": "REANUDACION_AGENDA",
+      "Estado": "LIMITE_INSTITUCIONAL_REVISADO_SIN_CIERRE",
+      "Justificacion": "El padre conserva García397/Jaque988/acta74/Presidente279. Siendo las16;00 horas describe la reanudación; El Presidente señor José De Gregorio fija la Reunión abre la intervención que agenda abril de2009 y ofrece la palabra. La fecha futura mencionada no cambia la fecha de la sesión. García empieza la presentación siguiente en2113, no en la cesión. No atribuir el acta a Jaque ni el discurso presidencial al Consejo.",
+      "Reservas": [
+        "Se mantienen16;00 y la coma, sin normalizar signos. El intervalo vecino2113 conserva aumento Mí de200 puntos base; no reconstruir ese residuo ni fragmentar su exposición por temas."
+      ],
+      "Limitacion": "Frontera existente acta/discurso revisada sin nuevos cortes, reasignaciones, enlaces o cierres. No detector general de gerundios, menciones o actos administrativos; sin nuevo cotejo PDF ni revisión humana independiente."
+    },
+    {
+      "Revision_ID": "COMA-ACTA-20260908-L6-2803",
+      "ID_Padre": 2803,
+      "Fecha": "2009-12-15",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-12-15:2803:1",
+        "Actor": "Consejo del Banco Central de Chile",
+        "Fuente_Actor": "ACTA/META",
+        "SHA256_Texto": "cec3b1d28f83cc7779fb354fc270211f692e9c375b8dc9e5a18ff69d13b5913c",
+        "Texto": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 147 celebrada el 15 de diciembre de 2009 En Santiago de Chile, a 15 de diciembre de 2009, siendo las 9;00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente Subrogante don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también los señores: Ministro de Hacienda Subrogante, don Alberto Arenas de Mesa; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldívar; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Señor, doña Erika Arraño González; y la Secretario General, doña Marlys Pabst Cortés,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-12-15:2803:2",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "a273e40c754831d3a2a577ecc004397e8f565319fa815bf07ee82d543f26199b",
+        "Texto": "El Presidente, señor José De Gregorio, junto con dar inicio a la Reunión de Política Monetaria N° 147, señala que, de conformidad con el Reglamento que rige estas Sesiones, fija la Reunión de Política Monetaria correspondiente al mes de junio de 2010 para el día 15 de dicho mes. A continuación,."
+      },
+      "Criterio": "ASISTENCIA_AGENDA",
+      "Estado": "LIMITE_INSTITUCIONAL_REVISADO_SIN_CIERRE",
+      "Justificacion": "La cabecera1445 enumera sesión, presidencia y asistentes, sin intervenciones de cada persona nombrada. El Presidente, señor José De Gregorio, junto con dar inicio abre una intervención296 que fija la fecha de junio de2010. Se conserva separada de la lista, sin convertir su cola A continuación,. en reparación o enlace hacia2804. El vecino anterior2802 corresponde al cierre de noviembre, no a esta sesión de diciembre.",
+      "Reservas": [
+        "Presidente296 conserva TEXTO_DANADO_POR_COTEJAR y A continuación,.. CONTEXTO_REVISADO no se vuelve ancla global.2803→2804 sigue sin enlace, aunque ambos tramos sean presidenciales. Cabecera conserva9;00 y Economista Señor."
+      ],
+      "Limitacion": "Frontera existente acta/discurso revisada sin nuevos cortes, reasignaciones, enlaces o cierres. No detector general de gerundios, menciones o actos administrativos; sin nuevo cotejo PDF ni revisión humana independiente."
+    },
+    {
+      "Revision_ID": "COMA-ACTA-20260908-L6-5252",
+      "ID_Padre": 5252,
+      "Fecha": "2012-12-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2012-12-13:5252:2",
+        "Actor": "Consejo del Banco Central de Chile",
+        "Fuente_Actor": "ACTA/META",
+        "SHA256_Texto": "6407a0d7447b9c4b13a78bc3ce1350eb8183348320b437e4b2b820f0451ac145",
+        "Texto": "Siendo las 16:30 horas, se reanuda la Reunión de Política Monetaria N° 193 y pasa a presidir la Sesión transitoriamente el Vicepresidente señor Manuel Marfán,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2012-12-13:5252:3",
+        "Actor": "Manuel Marfán Lewis",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "262802a397d21d31b78755b8bf88e49b0d0c1b1f56a909896412c484017502f4",
+        "Texto": "haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo."
+      },
+      "Criterio": "REANUDACION_PRESIDENCIA_COMENTARIO",
+      "Estado": "LIMITE_INSTITUCIONAL_REVISADO_SIN_CIERRE",
+      "Justificacion": "Marfán desarrolla1712 caracteres y anuncia la suspensión. El acta158 registra reanudación y presidencia transitoria; haciendo presente introduce el comentario162 de Marfán sobre la llegada futura de Vergara. La cesión nominal posterior223 tiene ancla propia y se conserva en otro grupo; Herrera empieza su presentación en5253. El gerundio se interpreta sólo con este sujeto y contenido, no como regla global. Vergara mencionado en futuro no es un hablante actual ni una llegada ya ocurrida.",
+      "Reservas": [
+        "CONTEXTO_REVISADO en Marfán162 conserva ancla nula y grupo distinto del aporte nominal223. No adelantar la llegada de Vergara registrada posteriormente en5257, ni atribuir a Herrera la cesión de palabra."
+      ],
+      "Limitacion": "Frontera existente acta/discurso revisada sin nuevos cortes, reasignaciones, enlaces o cierres. No detector general de gerundios, menciones o actos administrativos; sin nuevo cotejo PDF ni revisión humana independiente."
+    }
+  ]
+}

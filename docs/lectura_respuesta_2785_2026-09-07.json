@@ -1,0 +1,25 @@
+{
+  "ID_Padre": 2785,
+  "Fecha": "2009-11-12",
+  "Actor": "Claudio Soto Gamboa",
+  "SHA256_Texto_Padre": "825dbd4c482de6443f3a7ec8cdfc944325ab880d82f71aec565499b0c70a9e8f",
+  "Inicio": 435,
+  "Fin": 1963,
+  "Cita_Inicio": "a lo cual, el señor Claudio Soto responde",
+  "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+  "Justificacion": "Claro plantea expectativas de depreciación. Soto responde con sujeto explícito después del conector con coma y retoma la exposición sobre colocaciones, tipo de cambio e indicadores bursátiles. Mantener todo ese desarrollo unido, sin alterar el daño UF mayores Luego del tramo precedente.",
+  "Limitacion": "Lectura dirigida del consolidado y entorno pertinente; sin cotejo PDF ni revisión humana independiente. Conservar daños y continuidades. No certifica todos los pasajes del padre.",
+  "Evidencia": [
+    {
+      "ID_Padre": 2785,
+      "Cita": "El Consejero señor Sebastián Claro señala que, en la medida que el mercado vea que el tipo de cambio real de equilibrio no ha variado mucho y observe una apreciación real spot, esas expectativas de depreciación deberán ir acompañadas de tasas en UF mayores Luego, se pasa de una situación con expectativas reales de depreciación cercanas a cero, por poner algún benchmark, a una con expectativas de depreciación reales algo positivas,"
+    },
+    {
+      "ID_Padre": 2785,
+      "Cita": "a lo cual, el señor Claudio Soto responde que no es claro que existan expectativas de depreciación real. El Gerente de Análisis Macroeconómico retoma su presentación, refiriéndose a las colocaciones. Al respecto, indica que la curva de las colocaciones de consumo exhiben, en general, una cierta recuperación; que las colocaciones comerciales y las colocaciones de vivienda nunca tuvieron variaciones mensuales negativas, pero se mantienen en niveles bajos con respecto de los registrados hasta antes de la crisis; y que las colocaciones de comercio exterior han estado bastante volátiles y están aún en terreno negativo. Agrega que ello contradice en algo los últimos datos de importaciones y exportaciones, que dan cuenta de repuntes tanto nominales como reales. Estos datos, explica, están en dólares, por lo que pueden estar afectados por el tipo de cambio, ya que ellos aún no reflejan la fuerte caída de este último. En cuanto al tipo de cambio real, el señor Claudio Soto señala que el dato spot es algo más bajo que 92, mientras que, proyectando el dato nominal promedio de noviembre, que debe ser aproximadamente $512, estaría entre 93 y 93,2 el próximo mes, es decir, prácticamente en el centro de la banda. Añade que con un modelo ampliado, la apreciación del tipo de cambio desde julio hasta el 10 de noviembre puede ser explicada por fundamentales. Respecto de los indicadores bursátiles, el señor Soto reporta que el IPSA presenta una caída desde la última RPM, aunque menor que la de otros indicadores regionales."
+    }
+  ],
+  "Lectura_ID": "LECTURA-20260907-2785",
+  "Implementacion": "RECONOCIMIENTO_EXPLICITO_DE_RESPUESTA_CON_COMA; no es una entrada del registro de intervalos CONTEXTO_REVISADO",
+  "Motivo_Implementacion": "La respuesta tiene sujeto explícito reconocible. Admitir la coma del conector conserva la atribución por sujeto y el ancla de continuidad hacia 2786, sin convertir una revisión contextual en ancla."
+}

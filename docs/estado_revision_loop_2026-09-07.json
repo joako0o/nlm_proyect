@@ -1,0 +1,217 @@
+{
+  "Estado": "CUATRO_CICLOS_TERMINADOS_Y_PUBLICADOS",
+  "Filas": 9186,
+  "Alertas": 650,
+  "Pruebas": 189,
+  "Ciclos": [
+    {
+      "Ciclo": 1,
+      "Padres": [
+        2883,
+        3017,
+        3073,
+        3122,
+        3273,
+        3340,
+        3428,
+        3429,
+        3488,
+        3637
+      ]
+    },
+    {
+      "Ciclo": 2,
+      "Padres": [
+        1335,
+        2514,
+        2624,
+        2818,
+        6564
+      ]
+    },
+    {
+      "Ciclo": 3,
+      "Padres": [
+        1923,
+        2555,
+        2576,
+        2583,
+        2608,
+        2818
+      ]
+    },
+    {
+      "Ciclo": 4,
+      "Padres": [
+        754,
+        1858,
+        2838,
+        2915
+      ]
+    }
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 115,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 298,
+      "ID_Actual": 360,
+      "Actor": "Esteban Jadresic Marinovic",
+      "SHA256_Texto_Padre": "54df4164b45cdc505bf5190ddbc29934296d1570f42f8111ca3452a85a9c44fb",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En lo que dice relación con los mercados financieros y, en especial, respecto de las tasas de interés de colocación, el señor Ministro consulta si para deducir las tasas fonA/ards, el Banco usa el BCP5, el BCP10, o alguno más corto."
+    },
+    {
+      "ID_Padre": 753,
+      "ID_Actual": 1006,
+      "Actor": "Vittorio Corbo Lioi",
+      "SHA256_Texto_Padre": "134a1c4db0c47848dd7f6d71c335ea61bfaca73163aec04e68344a48cb29fae7",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Los mercados financieros nacionales, señala el señor Magendzo, se han movido en las últimas semanas coincidentemente con los movimientos externos, con una apreciación del peso y una recuperación de los Indicadores bursátiles. "
+    },
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1051,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 1718,
+      "ID_Actual": 2327,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "04c5c08361b0f0aad7e36344d87ea824e9d958c8dd5968a02df2d59df9a08414",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El Consejero señor Marshall señala que puede ser efecto de la fiscalización que está aplicando la Dirección del Trabajo a lo que el Consejero Marfán agrega que efectivamente antes subcontrataban y ahora están obligados a incorporarlos en sus planillas."
+    },
+    {
+      "ID_Padre": 1873,
+      "ID_Actual": 2552,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "67c7dbe426ded0d8a2363ef725c24db9ba222f34ccd53031e5a1a8e8778f4382",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En relación a lo indicado por el Gerente de Análisis Macroeconómico señor Claudio Soto, en el sentido que el gasto presupuestario del sector público continúa dinámico, sobre todo lo que se refiere a subsidios y donaciones, que afecta el ingreso disponible de los hogares, el Consejero señor Enrique Marshall señala que más bien se trata de transferencias fiscales al sector privado y no de donaciones, ya que este último término tiene otra connotación."
+    },
+    {
+      "ID_Padre": 1873,
+      "ID_Actual": 2553,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "67c7dbe426ded0d8a2363ef725c24db9ba222f34ccd53031e5a1a8e8778f4382",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En cuanto al comentario del expositor señor Claudio Soto, respecto a las proyecciones para el crecimiento y, en especial, la gran corrección que se produce por el lado de la inversión, el Presidente señor José De Gregorio señala que el Banco en general siempre está enfatizando el tema de la inversión, en cuanto a que continúa creciendo, pero también se argumenta que la explicación está en energía y minería."
+    },
+    {
+      "ID_Padre": 1946,
+      "ID_Actual": 2665,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "6e91f08f9c5f4d29fa452912e9bd60f73183a2dcdc5e14018d919bc57e17adf0",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En relación al comentario del expositor señor Claudio Soto, respecto de las sorpresas del aumento del IPC en el mes de junio que volvió a aumentar, el Consejero señor Sebastián Claro consulta qué porcentaje de los precios de frutas y verduras son márgenes e insumos intermedios distintos del básico, es decir, en qué medida los aumentos de precios de alimentos se reflejan efectivamente en el insumo fundamental, que podría asociarse más bien a un shock tradicional que a efectos de segunda vuelta. "
+    },
+    {
+      "ID_Padre": 2167,
+      "ID_Actual": 2971,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "10ffe024136b613fd598d95b9ba354dd58fb564f98a7f1e470e45a01ab0aa4b9",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Antes de continuar con la votación de los señores Consejeros, el Presidente señor José De Gregorio ofrece la palabra al señor Ministro de Hacienda, quien desea efectuar un alcance a la intervención que efectuara con anterioridad."
+    },
+    {
+      "ID_Padre": 2206,
+      "ID_Actual": 3022,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "0e3701a343a69b37bca7f15e6fc5e6e5ef78b99e64c9ba3b156acae404e1f411",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En cuanto a los datos que ha entregado el señor Claudio Soto respecto a los datos del IMACEC, el señor Vicepresidente consulta si el hecho que la información respecto de dicho índice corregido por estacionalidad era algo más elevado, más 3, significa que existe alguna diferencia en los días trabajados. "
+    },
+    {
+      "ID_Padre": 2408,
+      "ID_Actual": 3298,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "bcbbbeca35ea9f58e2ee2bee5ba89b071c4b170a774c5d4ea6dc6769eb39062f",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Complementando los comentarios efectuados, el Gerente de División Operaciones Financieras señor Beltrán De Ramón consulta si en esas cifras optimistas se aprecia alguna incidencia del efecto del plan fiscal o si acaso dicha información recién se podrá observar después de conocerse las cifras del mes de marzo. "
+    },
+    {
+      "ID_Padre": 2566,
+      "ID_Actual": 3597,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "4888d369b51dbde449be28d6dce158afb565cba3b64bd42387d31090aef16769",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Añade, que, de hecho, se ha pensado que la compensación inflacionaria se estaría normalizando después de un período en el que estuvo inusualmente baja, planteamiento al cual el Vicepresidente señor Jorge Desormeaux complementa, señalando que cuando el mercado financiero se empieza a tranquilizar, los inversionistas tienden a abandonar los activos seguros en busca de activos más riesgosos y que esos activos corresponden esencialmente a inversiones con tasas nominales. "
+    },
+    {
+      "ID_Padre": 2588,
+      "ID_Actual": 3639,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "308fcd93e412425c734009f703e20ae3342a274ae895499e715edd0db75c2b56",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Finalizada la presentación del señor Claudio Soto, el Presidente ofrece la palabra al Gerente de División Política Financiera, señor Kevin Cowan, para que comente brevemente la minuta referida a las fricciones en los mercados financieros."
+    },
+    {
+      "ID_Padre": 2644,
+      "ID_Actual": 3758,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "ae1569d32298477457ba5b1aa72c320ca31d97394f54ce521043c9cb9dd751cb",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo anterior, manifiesta el señor Céspedes, puede redundar en una Tasa de Política Monetaria esperada mayor que la necesaria para volver la inflación al 3% en el horizonte de política. "
+    },
+    {
+      "ID_Padre": 2661,
+      "ID_Actual": 3785,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El efecto debiera ser menor y al revés, acota el Ministro, y el señor Lehmann complementa que será necesario afinar el análisis."
+    },
+    {
+      "ID_Padre": 2667,
+      "ID_Actual": 3799,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "8ecd52eb4de993a9dac5b2f1a9cf06e13d9c74a70d29e9021e9a113c68debc4a",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "a lo cual el Gerente de Análisis Internacional responde que cada uno de los países se pondera por el consumo de cobre correspondiente, y el Gerente de Al continuar con la exposición sobre consumo, el Gerente de Análisis Macroeconómico indica que, respecto de julio, el dato que más sobresale es el de importaciones, haciendo el alcance que ello obedece a una circunstancia bastante puntual, cual fue una importación de magnitud relevante de turbinas para generación eléctrica. "
+    },
+    {
+      "ID_Padre": 2678,
+      "ID_Actual": 3819,
+      "Actor": "Pablo García Silva",
+      "SHA256_Texto_Padre": "100d2bc8807cacb4f2fb5607e067d8aa204c2130422d2160bc1735bcd8a997f4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Antes de proseguir, el señor Vicepresidente comenta que los analistas ya hablan de perspectivas de crecimiento para el próximo año superiores a 3%, de entre 4 y 5%. "
+    },
+    {
+      "ID_Padre": 2681,
+      "ID_Actual": 3825,
+      "Actor": "Pablo García Silva",
+      "SHA256_Texto_Padre": "fa73f79441ebbcdca6a45eb115f3036316c8430d796c3a0d10431628bd4076c9",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Concluida la presentación de las Opciones por parte del Gerente de División de Estudios, el Presidente De Gregorio ofrece la palabra para comentarios."
+    },
+    {
+      "ID_Padre": 2704,
+      "ID_Actual": 3878,
+      "Actor": "Beltrán de Ramón Acevedo",
+      "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Es decir, no es problema de demanda, consulta el señor Presidente, "
+    },
+    {
+      "ID_Padre": 2768,
+      "ID_Actual": 3987,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "6249b0589812347de7c4a9bb5b20e4f78fd9e7137e406a91811116666095b30a",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al respecto, el Consejero señor Enrique Marshall recuerda que el Gerente de División Estudios, señor Pablo García, comentó que en una reunión en el Fondo Monetario Internacional había recogido visiones algo más negativas en relación con el mercado del petróleo. "
+    },
+    {
+      "ID_Padre": 2779,
+      "ID_Actual": 4013,
+      "Actor": "Kevin Cowan Logan",
+      "SHA256_Texto_Padre": "4f8c900b02547f37065c1b6bf660952ba8303456339e42fd0bea158cfa9a5fb4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El señor Soto asiente, mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. "
+    }
+  ],
+  "Limite": "La lista es un punto de reanudación, no una revisión ni un proceso autónomo activo. Leer fuentes y contexto; no cortar por una mención. En 1923 sólo se revisó el tramo inicial del Ministro; las anáforas posteriores no quedan certificadas. Los casos 2126 y 2661 siguen sin adjudicación completa."
+}

@@ -1,0 +1,323 @@
+{
+  "Estado": "SEXTO_BLOQUE_TRES_CICLOS_Y_DOCUMENTACION_DE_RESIDUOS_TERMINADOS",
+  "Pull_Request": "https://github.com/joako0o/nlm_proyect/pull/3",
+  "Filas": 9353,
+  "Alertas": 580,
+  "Pruebas": 432,
+  "Padres_Modificados": [
+    4562,
+    4638,
+    4745,
+    4833,
+    4857,
+    4885,
+    4941,
+    4955,
+    5022,
+    5076,
+    5141,
+    5207,
+    5313,
+    5368,
+    5381,
+    5417,
+    5418,
+    5435,
+    5498,
+    5548,
+    5615,
+    5679,
+    5738,
+    5798,
+    5842,
+    5884,
+    5910,
+    5942,
+    5991,
+    6039,
+    6050,
+    6093,
+    6163,
+    6220,
+    6276,
+    6293,
+    6326,
+    6373,
+    6389,
+    6422,
+    6466,
+    6505,
+    6534,
+    6561,
+    6583,
+    6625,
+    6678,
+    6730,
+    6741,
+    6793,
+    6852,
+    6904,
+    6961,
+    7035,
+    7044,
+    7092,
+    7097,
+    7145,
+    7209
+  ],
+  "Padres_Con_Cambios_Solo_Metadatos": [],
+  "Nuevas_Menciones": [
+    5658,
+    6587
+  ],
+  "Ciclos": [
+    {
+      "Ciclo": 1,
+      "Padres_Abordados": [
+        4562,
+        4638,
+        4833,
+        4885,
+        4955,
+        5022,
+        5076,
+        5141,
+        5207,
+        5313,
+        5381,
+        5435,
+        5498,
+        5548,
+        5615,
+        5679,
+        5738,
+        5798,
+        5842,
+        5884,
+        5942,
+        5991,
+        6039,
+        6093,
+        6163,
+        6220,
+        6276,
+        6326,
+        6373,
+        6422,
+        6466,
+        6505,
+        6534,
+        6583,
+        6625,
+        6678,
+        6741,
+        6793,
+        6852,
+        6904,
+        6961,
+        7035,
+        7097,
+        7145,
+        7209
+      ],
+      "Filas_Ensayo": 9333,
+      "Pruebas": 408
+    },
+    {
+      "Ciclo": 2,
+      "Padres_Abordados": [
+        4745,
+        4857,
+        4941,
+        5910,
+        6050,
+        6293,
+        6389,
+        6561,
+        6730,
+        7044,
+        7092
+      ],
+      "Filas_Ensayo": 9348,
+      "Pruebas": 426
+    },
+    {
+      "Ciclo": 3,
+      "Padres_Abordados": [
+        5368,
+        5417,
+        5418,
+        5615
+      ],
+      "Filas_Ensayo": 9353,
+      "Pruebas": 432
+    }
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 780,
+      "Estado": "REQUIERE_COTEJO_Y_DELIMITACION_CONTEXTUAL",
+      "Detalle": "Acuerdo ya delimitado; sigue pendiente el comienzo de Corbo. No se obtuvo PDF: acceso oficial anterior bloqueado por verificación humana; no hubo nuevo cotejo en esta tanda."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PENDIENTE",
+      "Detalle": "Intervención conjunta: no asignar arbitrariamente un único actor."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "INTERCAMBIO_CORREGIDO_CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "El intercambio final Presidente → Ministro → Lehmann → Claro ya está delimitado. Antes queda acotación que es confirmada por el señor Lehmann dentro del segmento de Desormeaux. No inventar palabras ni certificar todo el padre."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "Pregunta del Presidente ya corregida. Queda lo cual es confirmado por el señor Claudio Soto en el segmento final de Marshall, sin alerta automática ni adjudicación nueva."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "ENLACE_DANADO_NO_RECONSTRUIDO",
+      "Detalle": "Exposición de Soto ya delimitada; y el Gerente de se conserva literal en el tramo anterior. Requiere cotejo para reconstruir, no completar por intuición."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "ATRIBUCION_DELIMITADA_DANO_TEXTUAL_SIN_RECONSTRUIR",
+      "Detalle": "Bernier delimitado, pero se conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el…; faltan elementos en la fuente. No completar bancos, nombres o redacción sin cotejo."
+    },
+    {
+      "ID_Padre": 3191,
+      "Estado": "INTERCAMBIO_CON_SUJETO_CONJUNTO_PENDIENTE",
+      "Detalle": "Leído sin modificar. Marshall → opinión de Claro → coincidencia conjunta del Presidente y Soto → cierre de García. No adjudicar la coincidencia conjunta a una única persona ni corregir sólo el último cierre."
+    },
+    {
+      "ID_Padre": 5647,
+      "Estado": "COMPROMISO_Y_CONTINUACION_PENDIENTES",
+      "Detalle": "El Presidente observa diferencias de paridades; por lo que el señor Sergio Lehmann se compromete a revisar dicha información. La continuación sobre intervenciones cambiarias requiere delimitación contextual. No se cambió el actor; ahora hay alerta explícita. No adjudicar automáticamente todo el resto a Lehmann."
+    },
+    {
+      "ID_Padre": 5212,
+      "Estado": "AUTOR_ESCRITO_Y_LECTOR_PENDIENTES",
+      "Detalle": "Herrera concluye; el Presidente lee un planteamiento escrito por Felipe Larraín y retoma la conducción. Se documentan intervalos propuestos, sin publicar una atribución que confunda autor, lector y asistencia. No corregido en esta pasada."
+    },
+    {
+      "ID_Padre": 5742,
+      "Estado": "AUTOR_ESCRITO_Y_LECTOR_PENDIENTES",
+      "Detalle": "Herrera concluye; el Presidente lee un planteamiento escrito por Felipe Larraín y retoma la conducción. Se documentan intervalos propuestos, sin publicar una atribución que confunda autor, lector y asistencia. No corregido en esta pasada."
+    },
+    {
+      "ID_Padre": 5802,
+      "Estado": "AUTOR_ESCRITO_Y_LECTOR_PENDIENTES",
+      "Detalle": "Herrera concluye; el Presidente lee un planteamiento escrito por Felipe Larraín y retoma la conducción. Se documentan intervalos propuestos, sin publicar una atribución que confunda autor, lector y asistencia. No corregido en esta pasada."
+    },
+    {
+      "ID_Padre": 5367,
+      "Estado": "VARIOS_LIMITES_Y_PETICION_COLECTIVA_PENDIENTES",
+      "Detalle": "Fuentes expone, los Consejeros solicitan una explicación, Herrera responde tras un rótulo OCR, Fuentes aclara y Claro opina. Requiere múltiples límites y tratamiento de la petición colectiva, sin adjudicarla arbitrariamente a una persona. Leído sin modificar."
+    },
+    {
+      "ID_Padre": 6185,
+      "Estado": "REFERENCIA_O_CONFIRMACION_PENDIENTE",
+      "Detalle": "Pasaje de 20.118 caracteres con conforme señala el Gerente de Mercados Nacionales señor Matías Bernier. Lectura acotada; no adjudicar como turno ni cerrar como mención sin completar la revisión contextual. Sigue alerta."
+    }
+  ],
+  "Continuidades_No_Forzadas": [
+    [
+      3887,
+      3888
+    ],
+    [
+      4224,
+      4225
+    ],
+    [
+      4745,
+      4746
+    ],
+    [
+      4941,
+      4942
+    ],
+    [
+      5910,
+      5911
+    ],
+    [
+      6561,
+      6562
+    ]
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 8,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1053,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 3191,
+      "ID_Actual": 4642,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "d596d82b964da0af1585fba5293a53767bd77dc6dcf311807f1f4ac82401803d",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al finalizar esta discusión, el Gerente de División Estudios, señor Pablo García, se refiere al planteamiento del Vicepresidente, señor Manuel Marfán, y explica que en los años 2000, las tasas de interés nominales fueron claramente inferiores a sus niveles históricos y, por lo tanto, lo que ocurrió habría sido, en parte, un proceso más de convergencia, que llevó a una monetización a tasas mayores que las que hubiesen correspondido dado el nivel de tasa prevaleciente."
+    },
+    {
+      "ID_Padre": 5212,
+      "ID_Actual": 7050,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "02c25d8e8a9ba21f879e2e90631a0891add07dd050b6817fd692baf7307a5b36",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir con la Sesión, el señor Presidente informa que el Ministro de Hacienda señor Felipe Larraín, por intermedio de su Asesor señor Rodrigo Cerda, le ha hecho llegar su planteamiento por escrito, al que dará lectura a continuación: “El escenario económico en el último mes sigue mostrando a nivel local el dinamismo de la actividad y la inflación bajo control. "
+    },
+    {
+      "ID_Padre": 5367,
+      "ID_Actual": 7222,
+      "Actor": "Miguel Fuentes Díaz",
+      "SHA256_Texto_Padre": "cfccd558e6d6904fd878f07fde2e28f78e2e276c50e96f6bfa39aa39df8ed11b",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "B A N C O C E N T R A L D E C H IL E En cuanto al gráfico referido a las colocaciones de consumo, el Gerente de División Estudios señor Luis Óscar Herrera señala, a título ejemplar, que si los consumidores reciben un flujo de $1."
+    },
+    {
+      "ID_Padre": 5647,
+      "ID_Actual": 7535,
+      "Actor": "Rodrigo Vergara Montes",
+      "SHA256_Texto_Padre": "09ec80183f30efee597fe32f0ee0cc3a8e631cd90dc74017e7cb5597d278623c",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El Presidente señor Rodrigo Vergara observa que las variaciones que acumulan las paridades desde el mes de diciembre de 2012 a la fecha difieren de las informadas por la Gerencia de Análisis Internacional en forma diaria, por lo que el señor Sergio Lehmann se compromete a revisar dicha información. "
+    },
+    {
+      "ID_Padre": 5742,
+      "ID_Actual": 7642,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "1e5c93a1f5085b5362cf4a20556e8f5888e5f33596984e2ccb1dd21ef0f80f8e",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir con la Sesión, el señor Presidente informa que el Ministro de Hacienda señor Felipe Larraín, por intermedio de su Asesor señor Rodrigo Cerda, le ha entregado su planteamiento por escrito, atendido que no podrá asistir a esta Sesión por razones propias de su cargo, por lo que procederá a darle lectura, de manera que quede inserto en el Acta respectiva: “Aunque con relativa calma en los mercados financieros, el escenario económico internacional sigue mostrando un panorama incierto, con fluctuaciones relevantes en los precios de commodities, provocando mayor volatilidad en las economías exportadoras de estos productos. "
+    },
+    {
+      "ID_Padre": 5802,
+      "ID_Actual": 7708,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "3cd9b09efad5a979c8de088ac80964335d66fe6cd83cb92874b49082feac2e2e",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir con la Sesión, el señor Presidente informa que el Ministro de Hacienda señor Felipe Larraín, por intermedio de su Asesor señor Rodrigo Cerda, le ha entregado su planteamiento por escrito, atendido que no podrá asistir a esta Sesión por razones propias de su cargo, de manera que procederá a darle lectura, con el objeto que quede inserto en el Acta de esta Sesión: ( ■ “El escenario económico internacional sigue mostrando un panorama incierto, con fluctuaciones relevantes en los mercados financieros y los precios de commodities, generando volatilidad en las economías exportadoras de estos productos. "
+    },
+    {
+      "ID_Padre": 6185,
+      "ID_Actual": 8140,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "9a9b1345ac739250ef4d70153ea9d737a7cb5d09795d79c9433f840dfa423792",
+      "Estado": "PENDIENTE_NO_ADJUDICADO",
+      "Evidencia_Alerta": "000 millones cada tres meses, conforme señala el Gerente de Mercados Nacionales señor Matías Bernier. "
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar la cola por lotes contextuales; no se revisaron todos los candidatos.",
+    "Cotejo de actas originales para pasajes ambiguos/dañados.",
+    "Seis variantes de identidad y dos repeticiones sustantivas.",
+    "Revisión semántica independiente de una muestra con y sin alertas: no realizada."
+  ],
+  "Limite": "No proceso activo. Lectura acotada de 48 pasajes de suspensión/reanudación (tres ya correctas), intercambios y contexto. Sin cotejo PDF ni revisión semántica/humana independiente. 59 padres modificados no equivalen a 59 padres íntegramente certificados. 8 candidatos prioritarios no son el total pendiente: quedan 580 filas con alertas y 388 intervalos originales pendientes de lectura contextual."
+}

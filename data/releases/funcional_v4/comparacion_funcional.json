@@ -1,0 +1,29 @@
+{
+  "Perfil": "funcional-v4",
+  "Baseline": "intrapadre-v3",
+  "Pasa": true,
+  "Filas_Antes": 9691,
+  "Filas_Despues": 9694,
+  "Refinamientos": 3,
+  "Continuidades_Personales": 3,
+  "Grupos_Antes": 9242,
+  "Grupos_Despues": 9242,
+  "Comparacion": "Todas las filas, todos los campos y todos los miembros de cada grupo; sin excepciones globales",
+  "Alertas_Antes": 465,
+  "Alertas_Despues": 467,
+  "Padres_Con_Alertas": 397,
+  "Nuevas_Alertas": [
+    "RPM-2012-05-17:4849:2",
+    "RPM-2012-06-14:4899:2"
+  ],
+  "Motivo_Nuevo": "DUPLICADO_NO_FORMULA: dos constancias idénticas, no se elimina texto ni se declara error",
+  "Alertas_Cerradas": 0,
+  "Alerta_Desplazada": {
+    "Desde": "RPM-2012-04-17:4788:1",
+    "Hasta": "RPM-2012-04-17:4788:2",
+    "Motivo": "FINAL_SIN_PUNTUACION"
+  },
+  "SHA256_Baseline": "b4a169701c212c15f302b5c3c572eae65e3d4de8d6a71d38754ccec4606aa992",
+  "SHA256_Registro": "d636f4a6f33bdef932956ca13834f247daf6cafd5d54bcb50440283a701220b8",
+  "SHA256_Candidato": "a8038f8c18933990a84a870fb607f2053e8daccc0dbea634dc612635fe41a5df"
+}

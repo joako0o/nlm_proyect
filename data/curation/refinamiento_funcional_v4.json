@@ -1,0 +1,62 @@
+{
+  "Version": 4,
+  "Perfil": "funcional-v4",
+  "SHA256_Lecturas_Lote4": "5f0a7e58a8134f46aa6ec7d01cb2aa7610ce3b011341b9d889564822a7e22a8f",
+  "SHA256_Revision_Institucional_4788": "72e591c644a118a1a7b4761e715d9b45fd5fef4b83852dd4aee8bd54ba52a65e",
+  "Revisiones": {
+    "4788": {
+      "Revision_ID": "FUNC-20260909-4788",
+      "ID_Padre": 4788,
+      "Fecha": "2012-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+      "SHA256_Texto_Padre": "5e6168f1c610bac2f3ab5bfeab1f0928645f53e639ca799121cf03771fed927d",
+      "ID_Anterior": "RPM-2012-04-17:4787:2",
+      "ID_Fila_Original": "RPM-2012-04-17:4788:1",
+      "Texto_Original": "El Presidente señor Rodrigo Vergara destaca que la inflación sorprendió a la baja en marzo pasado y que las expectativas no presentan cambios significativos con respecto a la Reunión anterior. Sobre el particular, plantea que a pesar de la baja reciente en el precio de las materias primas ya mencionada, tanto el petróleo como los alimentos siguen con sus precios elevados, y que si a ello se le suma un mercado laboral estrecho y brechas de capacidad cerradas, se puede apreciar que los riegos de mayor inflación han aumentado con respecto a fines del año pasado. Añade que el riesgo de un escenario externo mucho más adverso, con efectos a la baja en actividad y precios internacionales, sigue presente, pero que su probabilidad de ocurrencia es menor que hace unos meses. En estas circunstancias, indica que las opciones que la Gerencia de División Estudios ha presentado al Consejo son las más razonables. En cuanto a subir la TPM, señala que esa alternativa sería concordante con mayores riesgos inflacionarios. No obstante, estima que es todavía temprano para apartarse del escenario base, más aún tomando en cuenta los registros de inflación subyacente que siguen estando, en general, en la parte baja del rango de proyección. Además, considera que las expectativas en el horizonte de proyección se mantienen ancladas en la meta. Por último, recuerda que el mercado espera alzas en la TPM, pero solo a partir de los últimos meses de este año. En razón de lo anterior, el Presidente señor Rodrigo Vergara plantea que la opción de mantener la TPM es lo adecuado en esta oportunidad, y que en las próximas Reuniones se considerará si las condiciones cambian o se acercan más a algunos de los escenarios de riesgos contemplados. Por último, manifiesta ser partidario de mantener el tono del Comunicado anterior. El Presidente señor Rodrigo Vergara señala que en mérito de los fundamentos expuestos, su voto es por mantener la TPM en 5% anual. En consecuencia, el Presidente señor Rodrigo Vergara deja constancia que se acuerda por unanimidad de los señores Consejeros mantener la TPM en 5,0% anual. Sesión N° 184 Página 23 de 26",
+      "Texto_Personal": "El Presidente señor Rodrigo Vergara destaca que la inflación sorprendió a la baja en marzo pasado y que las expectativas no presentan cambios significativos con respecto a la Reunión anterior. Sobre el particular, plantea que a pesar de la baja reciente en el precio de las materias primas ya mencionada, tanto el petróleo como los alimentos siguen con sus precios elevados, y que si a ello se le suma un mercado laboral estrecho y brechas de capacidad cerradas, se puede apreciar que los riegos de mayor inflación han aumentado con respecto a fines del año pasado. Añade que el riesgo de un escenario externo mucho más adverso, con efectos a la baja en actividad y precios internacionales, sigue presente, pero que su probabilidad de ocurrencia es menor que hace unos meses. En estas circunstancias, indica que las opciones que la Gerencia de División Estudios ha presentado al Consejo son las más razonables. En cuanto a subir la TPM, señala que esa alternativa sería concordante con mayores riesgos inflacionarios. No obstante, estima que es todavía temprano para apartarse del escenario base, más aún tomando en cuenta los registros de inflación subyacente que siguen estando, en general, en la parte baja del rango de proyección. Además, considera que las expectativas en el horizonte de proyección se mantienen ancladas en la meta. Por último, recuerda que el mercado espera alzas en la TPM, pero solo a partir de los últimos meses de este año. En razón de lo anterior, el Presidente señor Rodrigo Vergara plantea que la opción de mantener la TPM es lo adecuado en esta oportunidad, y que en las próximas Reuniones se considerará si las condiciones cambian o se acercan más a algunos de los escenarios de riesgos contemplados. Por último, manifiesta ser partidario de mantener el tono del Comunicado anterior. El Presidente señor Rodrigo Vergara señala que en mérito de los fundamentos expuestos, su voto es por mantener la TPM en 5% anual.",
+      "Separador": " ",
+      "Texto_Constancia": "En consecuencia, el Presidente señor Rodrigo Vergara deja constancia que se acuerda por unanimidad de los señores Consejeros mantener la TPM en 5,0% anual. Sesión N° 184 Página 23 de 26",
+      "Tipo_Personal": "",
+      "Tipo_Constancia": "ACUERDO_CONSEJO",
+      "Justificacion": "El análisis1423 continúa en4788:1, cuya fila2132 combina análisis y voto personal con declaración de unanimidad y pie editorial. ACUERDO_CONSEJO no vuelve institucional todo el contenido previo. Se propone estudiar la separación funcional dentro de esa fila, sin aplicar cortes ni unirla íntegra. Se preservan llegada112 institucional, excusa161 de Larraín, retorno333 del Presidente y el aviso del pie; no se cierra ninguna alerta.",
+      "Aplicacion": "Separar funciones sin cambiar de hablante; unir sólo el prefijo personal al antecedente explícito. Mantener constancia, pie, eventos, respuestas y avisos; recalcular duplicados sin ocultarlos."
+    },
+    "4849": {
+      "Revision_ID": "FUNC-20260909-4849",
+      "ID_Padre": 4849,
+      "Fecha": "2012-05-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+      "SHA256_Texto_Padre": "b2b2e6622ea13e53779ffe69e7c4594b9b139f720b33e2f63b88c0af4efa0cea",
+      "ID_Anterior": "RPM-2012-05-17:4848:1",
+      "ID_Fila_Original": "RPM-2012-05-17:4849:1",
+      "Texto_Original": "El Presidente señor Rodrigo Vergara señala que en mérito de los fundamentos expuestos, su voto es por mantener la Tasa de Política Monetaria en 5% anual. En consecuencia, el Presidente señor Rodrigo Vergara deja constancia que se acuerda por unanimidad de los señores Consejeros mantener la Tasa de Política Monetaria en 5,0% anual.",
+      "Texto_Personal": "El Presidente señor Rodrigo Vergara señala que en mérito de los fundamentos expuestos, su voto es por mantener la Tasa de Política Monetaria en 5% anual.",
+      "Separador": " ",
+      "Texto_Constancia": "En consecuencia, el Presidente señor Rodrigo Vergara deja constancia que se acuerda por unanimidad de los señores Consejeros mantener la Tasa de Política Monetaria en 5,0% anual.",
+      "Tipo_Personal": "",
+      "Tipo_Constancia": "ACUERDO_CONSEJO",
+      "Justificacion": "El análisis3941 precede a una fila332 con voto individual y declaración de unanimidad, hoy etiquetada entera ACUERDO_CONSEJO. Se documenta el límite literal de ambas funciones sin aplicarlo. No se une íntegra ni se reasigna al Consejo; el acuerdo/comunicado2126 permanece aparte.",
+      "Aplicacion": "Separar funciones sin cambiar de hablante; unir sólo el prefijo personal al antecedente explícito. Mantener constancia, pie, eventos, respuestas y avisos; recalcular duplicados sin ocultarlos."
+    },
+    "4899": {
+      "Revision_ID": "FUNC-20260909-4899",
+      "ID_Padre": 4899,
+      "Fecha": "2012-06-14",
+      "Actor": "Rodrigo Vergara Montes",
+      "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+      "SHA256_Texto_Padre": "055b6c03759b9c17dbf5afcc7463969a6b958053a2348cfc544088135989872b",
+      "ID_Anterior": "RPM-2012-06-14:4898:1",
+      "ID_Fila_Original": "RPM-2012-06-14:4899:1",
+      "Texto_Original": "El Presidente señor Rodrigo Vergara señala que en mérito de los fundamentos expuestos, su voto es por mantener la TPM en 5% anual. Asimismo, sugiere mantener el tono y la neutralidad en el sesgo del Comunicado anterior. En consecuencia, el Presidente señor Rodrigo Vergara deja constancia que se acuerda por unanimidad de los señores Consejeros mantener la Tasa de Política Monetaria en 5,0% anual.",
+      "Texto_Personal": "El Presidente señor Rodrigo Vergara señala que en mérito de los fundamentos expuestos, su voto es por mantener la TPM en 5% anual. Asimismo, sugiere mantener el tono y la neutralidad en el sesgo del Comunicado anterior.",
+      "Separador": " ",
+      "Texto_Constancia": "En consecuencia, el Presidente señor Rodrigo Vergara deja constancia que se acuerda por unanimidad de los señores Consejeros mantener la Tasa de Política Monetaria en 5,0% anual.",
+      "Tipo_Personal": "",
+      "Tipo_Constancia": "ACUERDO_CONSEJO",
+      "Justificacion": "El análisis2802 precede a una fila398 con voto individual, sugerencia sobre el comunicado y declaración de unanimidad. La etiqueta ACUERDO_CONSEJO abarca una mezcla; no demuestra por sí sola discontinuidad de la parte personal. Se señala el límite funcional sin aplicarlo, conservando aparte el acuerdo/comunicado2189. Se mantiene €100 billones sin validar ni corregir su escala.",
+      "Aplicacion": "Separar funciones sin cambiar de hablante; unir sólo el prefijo personal al antecedente explícito. Mantener constancia, pie, eventos, respuestas y avisos; recalcular duplicados sin ocultarlos."
+    }
+  }
+}

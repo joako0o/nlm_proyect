@@ -1,0 +1,1232 @@
+{
+  "Estado": "VIGESIMOSEPTIMO_BLOQUE_TERMINADO_TRAS_CONTROLES",
+  "Pull_Request": "https://github.com/joako0o/nlm_proyect/pull/3",
+  "Commit_Base": "d1656177b533a99444491b7d62b88197ccde219b",
+  "Filas": 9683,
+  "Alertas": 451,
+  "Padres_Alertados": 381,
+  "Pruebas": 1514,
+  "Padres_Modificados": [
+    601,
+    3120,
+    4064,
+    4476
+  ],
+  "Padres_Con_Cambios_Solo_Metadatos": [
+    2510
+  ],
+  "Nuevos_Padres_Con_Revision": [
+    3120,
+    4064,
+    4476
+  ],
+  "Nuevos_Intervalos_Hablantes": 3,
+  "Total_Padres_Con_Revision": 348,
+  "Total_Intervalos_Hablantes": 377,
+  "Nuevas_Revisiones_Institucionales": [
+    601
+  ],
+  "Nuevas_Menciones": [
+    870,
+    6601
+  ],
+  "Nuevas_Alertas_Contextuales": [
+    4064,
+    2510
+  ],
+  "Nuevos_Enlaces_Continuidad": [],
+  "Enlaces_Retirados_Justificados": [
+    [
+      600,
+      601
+    ]
+  ],
+  "Ajuste_Trazabilidad_Sin_Nueva_Adjudicacion": [],
+  "Regresiones_Detectadas_Y_Corregidas": [],
+  "Continuidades_No_Forzadas": [],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 180,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de Análisis Financiero y la nómina local Gerente de Análisis Internacional. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido."
+    },
+    {
+      "ID_Padre": 506,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La exposición contiene indicadores de El señor Lehmann y termina en tanto en Estados Unidos antes de la cesión a García. Se identifica a Lehmann, pero no se completan los fragmentos ni se certifica la integridad del OCR."
+    },
+    {
+      "ID_Padre": 587,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La cesión nominal de Corbo identifica a Valdés. Se leyó íntegro el desarrollo de opciones hasta su conclusión, antes de Schmidt-Hebbel en 588. La frase truncada apreciación del Agrega que conserva una advertencia independiente: identificar al expositor no reconstruye ni certifica ese daño."
+    },
+    {
+      "ID_Padre": 644,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «costos laborales U 5.». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 664,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «la persistencia que 8.». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 770,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «desde fines del • La inflación». Además termina con comentarios, mientras la apertura presidencial siguiente queda cortada en para. La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 780,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Tras el voto explícito de De Gregorio aparece el pasaje En la economía nacional sin cesión ni sujeto nuevo. Sólo desde Lo que sí ha cambiado, indica el señor Corbo hay atribución explícita a Corbo. El puente anterior queda provisional en el segmento de De Gregorio; no se certifica su autor ni se reasigna por tema/proximidad. Pendiente de cotejo del límite perdido o no consignado."
+    },
+    {
+      "ID_Padre": 836,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "835 contiene la consulta de De Gregorio por la trayectoria del petróleo. Lehmann responde nominalmente en 836; 837 abre otra consulta de Desormeaux. El nombre y la respuesta son claros, pero Análisis Financiero difiere del cargo de nómina Análisis Internacional: advertencia separada, sin corregir el texto."
+    },
+    {
+      "ID_Padre": 1003,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Se leyó íntegro este tramo, manteniendo el desarrollo del expositor y sus límites previos. El nombre literal discrepante se advierte aparte, sin reescribirlo ni generalizar un alias. No certifica los demás tramos del padre."
+    },
+    {
+      "ID_Padre": 1012,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «inflacionaria efectiva y de los Señala». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 1047,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «más de medio punto por debajo • El IPC». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 1155,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Ruptura textual/sintáctica constatada: «que en el último IPOM y que, aunque». La cesión y el desarrollo permiten identificar al expositor, pero no reconstruir palabras ni certificar el contenido ausente/desplazado."
+    },
+    {
+      "ID_Padre": 1424,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Comentario propio de Marshall después de Corbo. Nómina 1404: Enrique Marshall Rivera; conservar y advertir el literal Marshali."
+    },
+    {
+      "ID_Padre": 1663,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Marfán comenta sobre energía/PIB potencial y continúa sobre volatilidad, después de Magendzo. La nómina 1643 identifica a Manuel Marfán; conservar Manual e í\\/lanuel sin crear personas distintas ni dividir su desarrollo."
+    },
+    {
+      "ID_Padre": 1860,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Comentario propio del Vicepresidente después de la exposición de Lehmann y antes de su retorno. Nómina 1851: Jorge Desormeaux Jiménez. Se conserva el residuo V/ y el literal Oesormeaux."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "La votación está expresada conjuntamente por el Vicepresidente y Claro. La etiqueta provisional Claro no representa por sí sola a ambos; no duplicar el texto ni inventar votos individuales separados."
+    },
+    {
+      "ID_Padre": 2473,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Respuesta actual del Presidente a Marshall. El literal Al Presidente es defectuoso pero el nombre, cargo y verbo comenta identifican el turno; no reescribir Al como El."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "SEPARADO_LOOP24_ADVERTENCIA_ARCHIVADA",
+      "Detalle": "Desormeaux193 y Lehmann49 separados. Advertencia original archivada íntegra; Lehmann explícito1322 y coordinación previa69 intactos. Otros motivos del padre permanecen.",
+      "Estado_Anterior": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle_Anterior": "El tramo de Desormeaux incluye acotación que es confirmada por el señor Lehmann. Es una confirmación narrada en pasiva aún no delimitada; no inventar palabras de Lehmann ni certificar todo el tramo como Desormeaux. La revisión posterior de Lehmann en 3640 y los otros turnos se conservan."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Después de la respuesta de Lehmann aparece y el Gerente de, un cargo truncado antes del retorno de Soto ya separado. Mantener el daño literal; no completar el cargo ni adjudicarle hablante individual."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "SEPARADO_LOOP23_ADVERTENCIA_ARCHIVADA",
+      "Detalle": "Marshall161 y Soto48 separados. Ficha de advertencia original íntegra en archivo; no cierre de otros motivos del padre.",
+      "Estado_Anterior": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle_Anterior": "La intervención de Marshall incluye lo cual es confirmado por el señor Claudio Soto. Se deja explícitamente pendiente delimitar esa confirmación pasiva, sin alterar la pregunta presidencial y la respuesta de De Ramón ya revisadas."
+    },
+    {
+      "ID_Padre": 2865,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. García explica el cambio metodológico después de Vergara. La nómina 2841 identifica a Pablo García; conservar y advertir Rabio."
+    },
+    {
+      "ID_Padre": 2957,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Pregunta actual de Pablo García según nómina 2889; no pertenece a Cowan. Termina antes de la respuesta presidencial en gerundio, que se revisa por separado. Conservar Rabio y la coma literal."
+    },
+    {
+      "ID_Padre": 2990,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Se leyó íntegro este tramo, manteniendo el desarrollo del expositor y sus límites previos. El nombre literal discrepante se advierte aparte, sin reescribirlo ni generalizar un alias. No certifica los demás tramos del padre."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Bernier está identificado por sujeto explícito, pero su texto conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el ha ido disminuyendo. Su revisión de hablante no certifica integridad del contenido ni autoriza completar los sujetos u objetos ausentes."
+    },
+    {
+      "ID_Padre": 3191,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo conserva provisionalmente Marshall pero contiene una opinión de Claro y una coincidencia conjunta del Presidente y Soto. Sólo se separó la explicación final de García. La etiqueta provisional no adjudica las cláusulas de otros participantes a Marshall."
+    },
+    {
+      "ID_Padre": 3476,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Se leyó íntegro este tramo, manteniendo el desarrollo del expositor y sus límites previos. El nombre literal discrepante se advierte aparte, sin reescribirlo ni generalizar un alias. No certifica los demás tramos del padre."
+    },
+    {
+      "ID_Padre": 3619,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Se leyó íntegro este tramo, manteniendo el desarrollo del expositor y sus límites previos. El nombre literal discrepante se advierte aparte, sin reescribirlo ni generalizar un alias. No certifica los demás tramos del padre."
+    },
+    {
+      "ID_Padre": 3989,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "De Gregorio y Marshall coinciden conjuntamente con una opinión de Claro. El sujeto plural no debe certificarse como una intervención exclusiva de De Gregorio ni la referencia a Claro como un tercer turno."
+    },
+    {
+      "ID_Padre": 4364,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El discurso dice Claudios Soto; la nómina 4334 dice Claudio Soto Gamboa y el padre previo explicita Claudio Soto. Etiqueta local, sin reescribir ni certificar el literal discrepante."
+    },
+    {
+      "ID_Padre": 4433,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "705 caracteres atribuidos provisionalmente a Lehmann por el cargo expreso Análisis Internacional, entre tramos de Soto sobre escenario interno. Se alerta y bloquea continuidad; no se corrige por proximidad/tema. Ver data/curation/alertas_contextuales.json."
+    },
+    {
+      "ID_Padre": 5367,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El tramo inicial de Fuentes incluye la solicitud colectiva de los Consejeros y un encabezado OCR. Se separaron Herrera, el retorno de Fuentes y Claro, pero la solicitud no tiene autor individual ni un límite institucional adjudicado. Fuentes sigue siendo provisional para este residuo, no autor certificado de la solicitud."
+    },
+    {
+      "ID_Padre": 5573,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de División Operaciones Monetarias y la nómina local Gerente de División Operaciones Financieras. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido."
+    },
+    {
+      "ID_Padre": 6013,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La secuencia Agrega que la proyección de En lo referente presenta ruptura textual. Se identifica a Ricaurte, pero no se reconstruye contenido ausente."
+    },
+    {
+      "ID_Padre": 6015,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La confirmación de Ricaurte contiene quien hace que tratándose de Argentina. Se conserva el literal defectuoso y no se completa una expresión ausente."
+    },
+    {
+      "ID_Padre": 6185,
+      "Estado": "PENDIENTE_DELIMITAR_APORTE",
+      "Detalle": "Lectura íntegra documentada en LOOP19 (20118 caracteres, más contexto 6184/6186). Conforme señala Bernier puede ser referencia o aporte autónomo sin comienzo delimitable. Alerta activa, no mención legítima resuelta."
+    },
+    {
+      "ID_Padre": 6282,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El nombre y predicado permiten revisar el hablante, pero el texto dice Gerente de División Política Operaciones Financieras y la nómina local Gerente de División Operaciones Financieras. El cargo textual no se corrige ni se certifica por la atribución nominal. Diferencia pendiente de cotejo, no un cargo verdadero nuevo inferido."
+    },
+    {
+      "ID_Padre": 6443,
+      "Estado": "VARIANTE_IDENTIDAD_POR_VERIFICAR",
+      "Detalle": "Cinco intervenciones separadas; identidad global Ricaurte sigue pendiente en los dos intervalos recuperados. Advertencia de mezcla anterior archivada íntegra."
+    },
+    {
+      "ID_Padre": 6530,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El discurso dice señor Claudia Raddatz, mientras la nómina 6518 nombra a Claudio Raddatz Kiefer. Se utiliza la etiqueta de la nómina para este intervalo, sin reescribir ni certificar el nombre textual. Pendiente de contraste con fuente primaria."
+    },
+    {
+      "ID_Padre": 2349,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "Intervalo leído íntegramente y advertido en LOOP19; Claudio Soto Gamboa por nómina local. Claudia literal preservado, no alias global ni cotejo documental."
+    },
+    {
+      "ID_Padre": 3050,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "Intervalo leído íntegramente y advertido en LOOP19; Claudio Soto Gamboa por nómina local. Claudia literal preservado, no alias global ni cotejo documental."
+    },
+    {
+      "ID_Padre": 3315,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "Intervalo leído íntegramente y advertido en LOOP19; Claudio Soto Gamboa por nómina local. Claudia literal preservado, no alias global ni cotejo documental."
+    },
+    {
+      "ID_Padre": 205,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El final literal i permanece tras la intervención previa de Marfán; no se borra ni se certifica integridad de ese tramo al recuperar su intervención posterior."
+    },
+    {
+      "ID_Padre": 510,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El desarrollo de García termina en no cambios de antes del comienzo explícito de Marfán. No completar la frase ni trasladar el residuo."
+    },
+    {
+      "ID_Padre": 1013,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Valdés compara argumentos previos de Schmidt-Hebbel y Jadresic; no delimita un nuevo turno de éstos. La secuencia y, en V Finalmente indica daño/incompletitud del desarrollo: conservar, no completar."
+    },
+    {
+      "ID_Padre": 1728,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El inicio dice señor a Andrés Velasco; la cesión anterior acaba en señor Andrés. Se separa la exposición identificable sin corregir esos residuos ni certificar integridad textual."
+    },
+    {
+      "ID_Padre": 2695,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La cesión presidencial termina con X - antes de comenzar Soto. Residuo conservado, sin restauración de texto."
+    },
+    {
+      "ID_Padre": 2803,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La apertura presidencial termina en A continuación,. Conservar el final defectuoso; no reconstruir la cesión siguiente."
+    },
+    {
+      "ID_Padre": 2969,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La apertura presidencial termina en A continuación,. Conservar ese final y el residuo / ) de la nómina, sin completar palabras."
+    },
+    {
+      "ID_Padre": 5366,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El rótulo espaciado BANCO CENTRAL DE CHILE queda al final de Marfán antes del turno de Marshall. Residuo documental conservado; no inventar una voz institucional ni borrar texto."
+    },
+    {
+      "ID_Padre": 6021,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La respuesta inicial de De Ramón conserva comienz, sobi y explic. La identificación del expositor no certifica ni reconstruye las terminaciones dañadas."
+    },
+    {
+      "ID_Padre": 7182,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La petición de Marcel conserva la forma verbal solicite. Actor por nombre, cargo y contexto de respuesta; no corregir silenciosamente el literal ni certificar su transcripción."
+    },
+    {
+      "ID_Padre": 518,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El desarrollo de opciones conserva el salto de numeración 7→9 y el antecedente Gerente de División mencionado. La lectura contextual identifica a Valdés por 517/520, pero no permite reconstruir un numeral 8 ni certificar integridad textual. La H del prefijo presidencial también permanece literal."
+    },
+    {
+      "ID_Padre": 520,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El tramo de Jadresic ya separado termina en no se han antes del comienzo explícito de Herrera. No completar su conclusión. Se leyeron íntegros ambos desarrollos, sin alterar actores o límites ni certificar sus demás residuos."
+    },
+    {
+      "ID_Padre": 632,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El discurso conserva Lehmman; la nómina 626 y el intercambio local identifican a Sergio Lehmann Beresi. No reescribir ni crear nuevos alias o certificar el nombre transcrito."
+    },
+    {
+      "ID_Padre": 2141,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El discurso conserva Manual Marfán; la nómina 2128 identifica a Manuel Marfán Lewis. Atribución local sin corregir el literal discrepante."
+    },
+    {
+      "ID_Padre": 4289,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "Lehmann aparece reiteradamente por nombre y desarrolla el escenario internacional. En el interior dice Gerente de Análisis Macroeconómico señor Lehmann, en discrepancia con Análisis Internacional de la nómina 4282 y con su propia introducción. No reasignar a Soto por el cargo discrepante ni corregir silenciosamente el literal."
+    },
+    {
+      "ID_Padre": 4446,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "Entre el agradecimiento y la cesión de De Gregorio aparece la adhesión conjunta de Marshall, Claro y Vergara. La etiqueta De Gregorio es provisional para esa fila compuesta, no autor exclusivo de la adhesión. No fabricar tres turnos ni adjudicarla a uno de los tres; los segmentos anteriores de homenaje, suspensión y reanudación se conservan."
+    },
+    {
+      "ID_Padre": 6862,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El comienzo recuperado de la exposición de Micco termina en el residuo r. Conservarlo y mantener la identificación posterior explícita de Micco; separar voces no certifica integridad del OCR."
+    },
+    {
+      "ID_Padre": 1904,
+      "Estado": "CARGO_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "Cowan ya estaba separado. El cargo literal Política l\\/lonetaria discrepa de Política Financiera en la nómina 1851. Conservar el desarrollo de 1358 caracteres y su actor nominal, sin reescribir ni trasladarlo a otro gerente. El resto de 1904 también se leyó, sin certificar el residuo final de De Ramón."
+    },
+    {
+      "ID_Padre": 2463,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El inicio i\\/linistro identifica localmente al Ministro por nómina/intercambio, pero el cierre desde Este dato corresponde a esas dos categorías podría ser una aclaración de Céspedes sin introductor. Velasco es provisional para ese cierre, no autor exclusivo certificado de las dos frases finales. No reconstruir un cambio ni corregir el cargo dañado sin cotejo."
+    },
+    {
+      "ID_Padre": 2525,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "El apellido literal í\\/larshall se conserva; la nómina local y el sujeto Consejero Enrique sustentan Marshall. Sin alias global nuevo. La advertencia afecta este tramo de 216 caracteres, no certifica ni corrige el cargo Macroeconómico dañado en el tramo siguiente de Soto, documentado por separado en su revisión."
+    },
+    {
+      "ID_Padre": 2674,
+      "Estado": "NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Detalle": "Marshall objeta la comparación con el peak de tasas; el apellido literal í\\/larshall no se reescribe ni se añade como alias global. Este intervalo es distinto del comentario posterior de Marshall de 1159 caracteres, cuya revisión anterior se preserva íntegra."
+    },
+    {
+      "ID_Padre": 2938,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La respuesta de García queda incompleta en tendrá efectos en los. Se separa lo identificable sin inventar su complemento ni unirlo al comentario siguiente de Marfán."
+    },
+    {
+      "ID_Padre": 2525,
+      "Estado": "CARGO_DANADO_DOCUMENTADO_EN_REVISION",
+      "Detalle": "í\\/lacroeconómico en los 721 caracteres de Soto. Interpretación local documentada, sin segunda advertencia fuera del alcance del tramo de Marshall."
+    },
+    {
+      "ID_Padre": 2863,
+      "Estado": "DANO_PENDIENTE_SIN_BLOQUEAR_CONTINUIDAD",
+      "Detalle": "r y A continuación,. en 939 caracteres; preservar enlace 2863→2864 tras lectura completa, sin reparar ni certificar integridad."
+    },
+    {
+      "ID_Padre": 2885,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Se conserva el final Para concluir con la votación,. del desarrollo de Marfán. Su identificación posterior es explícita, pero no permite completar ni certificar ese final."
+    },
+    {
+      "ID_Padre": 3268,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "García responde sobre las curvas y su exposición termina en No habiendo más comentarios,. No completar ni certificar la cláusula final; separar el intercambio precedente no reconstruye el texto."
+    },
+    {
+      "ID_Padre": 3775,
+      "Estado": "HABLANTES_POR_DELIMITAR",
+      "Detalle": "La confirmación de Cerda es explícita, pero Concluye, en consecuencia carece de sujeto nominal y podría retomar al Presidente o continuar a Cerda. La etiqueta De Gregorio es provisional para la fila compuesta; no es autor exclusivo certificado de la confirmación. Delimitación pendiente, sin inferir daño OCR, identidad desconocida ni una frontera segura."
+    },
+    {
+      "ID_Padre": 5643,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Se conserva la y aislada al final de Soto antes del comentario de Vial. No trasladar ni borrar el residuo al separar después la confirmación de Lehmann."
+    },
+    {
+      "ID_Padre": 2680,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Conservar la grafía horaria 16; 15 sin convertirla en 16:15 ni certificar la numeración de sesión. Advertencia acotada al registro institucional, no a la exposición de García ni a su continuidad."
+    },
+    {
+      "ID_Padre": 2788,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La exposición de Soto termina en A continuación,. y su inicio está concatenado sin punto a la invitación. No reconstruir. Su identidad procede del destinatario nominal contiguo; el cargo subrogante dicho en el discurso no queda certificado por la nómina, que registra Gerente de Análisis Macroeconómico."
+    },
+    {
+      "ID_Padre": 2958,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Conservar la repetición del cierre presidencial y la concatenación y recuerda El señor Presidente. No eliminar ni reconstruir el pasaje; el origen del daño requiere cotejo."
+    },
+    {
+      "ID_Padre": 3008,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Conservar el final A continuación,. de la respuesta de Larraín; separar la bienvenida presidencial no permite completar el texto."
+    },
+    {
+      "ID_Padre": 4055,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "La fila incluye agradecimiento presidencial, aceptación conjunta con Marshall, Claro y Vergara y un acuerdo institucional literal. De Gregorio es etiqueta provisional, no autor exclusivo certificado. No inventar cuatro turnos ni presentar la resolución como opinión individual. Queda pendiente una delimitación institucional y conjunta acotada."
+    },
+    {
+      "ID_Padre": 2948,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El desarrollo de De Ramón termina en A continuación,.; se conserva sin reconstrucción. No confundir el reconocimiento de voz con la integridad del texto."
+    },
+    {
+      "ID_Padre": 1004,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "Se conserva la cláusula incompleta Lo anterior, se observa menos porque V Por otra parte. Valdés es referencia dentro del razonamiento de Marfán, no un nuevo turno. No reconstruir la unión ni certificar el origen del daño."
+    },
+    {
+      "ID_Padre": 3071,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "La opinión leída conserva constituyó na,0,1% ensual y escenario de onda, indicios de pérdidas de letras. No reconstruirlas ni atribuir el texto al lector por esa razón. Las comillas mixtas se conservan y delimitan mediante revisión individual."
+    },
+    {
+      "ID_Padre": 4064,
+      "Estado": "TEXTO_DANADO_POR_COTEJAR",
+      "Detalle": "El tramo de Herrera conserva el artefacto -4 . f . • \" ' A) tras su explicación. No son palabras de otro actor ni una cita abierta. No reescribir signos ni certificar origen del daño; corte de Lehmann mediante excepción individual."
+    },
+    {
+      "ID_Padre": 2510,
+      "Estado": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Detalle": "El comentario presidencial termina con el Presidente y el Consejero señor Sebastián Claro comentan. La proposición conjunta no permite atribución exclusiva ni repartir palabras arbitrariamente. Velasco aparece como consultante referido, no turno delimitado. Conservar íntegros los desarrollos de Lehmann2071 y503 y el comentario presidencial243 posteriores."
+    }
+  ],
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 2510,
+      "Estado": "PENDIENTE_DELIMITAR_APORTE",
+      "Detalle": "Proposición conjunta Presidente/Claro en tramo699. No voz exclusiva ni duplicación arbitraria; otras tres filas intactas.",
+      "ID_Actual": 3530
+    },
+    {
+      "ID_Padre": 4055,
+      "Estado": "PENDIENTE_DELIMITAR_APORTE",
+      "Detalle": "Agradecimiento presidencial, aceptación conjunta y resolución institucional mezclados: advertencia y lectura pendiente; no cuatro turnos inventados ni autor exclusivo certificado.",
+      "ID_Actual": 5841
+    },
+    {
+      "ID_Padre": 3775,
+      "Estado": "PENDIENTE_DELIMITAR_APORTE",
+      "Detalle": "Confirmación de Cerda identificable, pero conclusión posterior sin sujeto nominal: advertencia de delimitación y lectura pendiente, no adjudicación de exclusividad ni inferencia de daño/identidad desconocida.",
+      "ID_Actual": 5514
+    },
+    {
+      "ID_Padre": 6185,
+      "ID_Actual": 8413,
+      "Estado": "PENDIENTE_DELIMITAR_APORTE",
+      "Detalle": "Lectura íntegra documentada en LOOP19 (20118 caracteres, más contexto 6184/6186). Conforme señala Bernier puede ser referencia o aporte autónomo sin comienzo delimitable. Alerta activa, no mención legítima resuelta."
+    },
+    {
+      "ID_Padre": 3454,
+      "Estado": "NOMBRE_PENDIENTE_SIN_CAMBIO_PARA_PRESERVAR_CONTINUIDAD",
+      "Detalle": "Leído completo, 2548 caracteres. Claudia/Claudias Soto conservados; la pregunta referida de Marfán no se separa. No registrar un aviso bloqueante que rompa 3454→3455. Sin modificación de texto, método, ancla o grupo.",
+      "ID_Actual": 5132
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar revisión contextual y explorar fusiones sin alerta; sin revisión exhaustiva.",
+    "Cotejo documental de nombres, cargos, OCR y pasajes conjuntos.",
+    "Variante Ricaurte: seis intervalos históricos y veintiuna filas actuales pendientes; unidades superpuestas, no personas distintas certificadas.",
+    "Repeticiones sustantivas: dos intervalos históricos, tres filas actuales (5212,5256,5385).",
+    "Muestra independiente con y sin alertas: no realizada."
+  ],
+  "Relecturas_Sin_Adjudicar": [
+    {
+      "ID_Padre": 3191,
+      "Detalle": "Marshall → opinión de Claro → coincidencia conjunta Presidente/Soto → García. Releídos 3190–3192; no se adjudica a Claro el tramo conjunto ni se certifica el padre."
+    }
+  ],
+  "Anaforas_Restantes": [],
+  "Historico_783": {
+    "cola_original": 783,
+    "alertas_actuales": 451,
+    "menciones_actuales_documentadas": 38,
+    "lecturas_actuales_por_estado": {
+      "MENCION_LEGITIMA_REVISADA": 34,
+      "PENDIENTE_DELIMITAR_APORTE": 4
+    },
+    "estados": {
+      "METODO_ACTUALIZADO": 330,
+      "FORMULA_PROCEDIMENTAL_RECLASIFICADA": 58,
+      "PENDIENTE_LECTURA_CONTEXTUAL": 102,
+      "SEGMENTACION_O_ACTOR_MODIFICADO": 167,
+      "BREVE_VALIDO_REVISADO": 7,
+      "CORRECCION_DIRIGIDA_APLICADA": 107,
+      "MENCION_LEGITIMA_REVISADA": 8,
+      "IDENTIDAD_PENDIENTE": 1,
+      "REPETICION_SUSTANTIVA_PENDIENTE": 2,
+      "CONTINUIDAD_ENTRE_PADRES_REVISADA": 1
+    },
+    "tipo_revision": {
+      "COMPARACION_AUTOMATICA": 497,
+      "LECTURA_DIRIGIDA_POR_AGENTE": 183,
+      "TRIAJE_AUTOMATICO": 103
+    },
+    "filas_originales_con_alertas_actuales": 284,
+    "intervalos_con_variante_identidad_pendiente": 6,
+    "nota": "Estados por intervalo original; una fila puede corresponder ahora a varios segmentos. Estado_Seguimiento registra el cambio principal, no el cierre de todos sus motivos: Variante_Identidad_Pendiente y Alertas_Actuales conservan los pendientes residuales. Triaje/comparación automática no son lectura humana ni cierre semántico. Las 783 no fueron revisadas exhaustivamente.",
+    "sha256_base_original": "bf557454bcea140a28d58d10fbb0962d4b8eab0558b5229a76e069f421c8a629"
+  },
+  "Limite": "Cuatro padres resegmentados: tres personales y601 interrupción/reanudación. Retiro único600→601 con ambas filas anteriores archivadas, manteniendo exposición completa. Dos referencias legítimas y2510 conjunto pendiente, dos advertencias nuevas. Conservados374 intervalos,71 advertencias,35 lecturas,9 enlaces revisados,12 documentos,3110 y3 retiros de advertencias. Sin nuevo cotejo PDF ni muestra independiente; no proceso activo.",
+  "Total_Alertas_Contextuales": 73,
+  "Etiquetas_Nominales_Actor": 55,
+  "Cambio_Etiquetas_No_Identidades": "Sin nuevas etiquetas ni alias;55 observadas. Doce documentos previos conservados sin inferencia de asistencia.3120 contiene aporte personal de Larraín y cesión presidencial, no nuevo documento.",
+  "Mejora_Trazabilidad_Cola_Historica": "Variante_Identidad_Pendiente es independiente del estado principal: seis intervalos históricos siguen pendientes pese a cambios de método/etiqueta local. No cambia el esquema 37/24 de las bases.",
+  "Relecturas_Contextuales_Sin_Adjudicar_LOOP16": [
+    {
+      "ID_Padre": 6185,
+      "Alcance": "Ventana sobre Colombia: se distingue la referencia a la pregunta de Claro del aviso real, conforme señala Bernier. Sólo lectura de ventana y contexto, no integral de 20118 caracteres. No se fuerza un turno autónomo ni se cierra el aviso."
+    }
+  ],
+  "Alertas_Contextuales_Retiradas": [],
+  "Archivo_Alertas_Retiradas": "data/curation/alertas_contextuales_retiradas.json",
+  "Triaje_Nombres_LOOP17_Historico": [
+    {
+      "ID_Padre": 226,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 1003,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 2990,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 3476,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    },
+    {
+      "ID_Padre": 3619,
+      "Alcance": "Sólo candidato surgido del barrido nominal; no lectura integral ni corrección en esta pasada."
+    }
+  ],
+  "Lectura_Sin_Cambio_LOOP18": [
+    {
+      "ID_Padre": 226,
+      "Alcance": "Leído el intervalo completo de 3868 caracteres. Rabio García permanece como discrepancia documental pendiente; no se reescribe ni se corta la continuidad 224→225→226. No se registra revisión de hablante ni aviso nuevo que bloquee ese enlace."
+    }
+  ],
+  "Nuevas_Lecturas_Actuales_Pendientes": [
+    2510
+  ],
+  "Lecturas_Actuales_Por_Estado": {
+    "MENCION_LEGITIMA_REVISADA": 34,
+    "PENDIENTE_DELIMITAR_APORTE": 4
+  },
+  "Grupos_Turno": 9264,
+  "Grupos_Multifila": 323,
+  "Triaje_Nombres_LOOP18_Historico": [
+    {
+      "ID_Padre": 2349,
+      "Alcance": "Sólo barrido nominal, sin lectura integral ni corrección en LOOP18."
+    },
+    {
+      "ID_Padre": 3050,
+      "Alcance": "Sólo barrido nominal, sin lectura integral ni corrección en LOOP18."
+    },
+    {
+      "ID_Padre": 3315,
+      "Alcance": "Sólo barrido nominal, sin lectura integral ni corrección en LOOP18."
+    },
+    {
+      "ID_Padre": 3454,
+      "Alcance": "Sólo barrido nominal, sin lectura integral ni corrección en LOOP18."
+    }
+  ],
+  "Lectura_Sin_Cambio_LOOP19": [
+    {
+      "ID_Padre": 3454,
+      "Caracteres": 2548,
+      "SHA256_Texto_Padre": "bfc24e8621d286f3d23b0743a33252e9d52c41281c5699e4c97328c3486e8497",
+      "Alcance": "Leído completo, 2548 caracteres. Claudia/Claudias Soto conservados; la pregunta referida de Marfán no se separa. No registrar un aviso bloqueante que rompa 3454→3455. Sin modificación de texto, método, ancla o grupo."
+    }
+  ],
+  "Enlaces_Registrados_LOOP19": [
+    {
+      "Revision_ID": "CONT-HAB-20260908-L19-3887-3888",
+      "Fecha": "2011-03-17",
+      "Actor": "Enrique Marshall Rivera",
+      "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+      "Justificacion": "Marshall continúa su evaluación de riesgos y la concluye con su opción de voto. El conector con estos antecedentes retoma el desarrollo previo, sin nuevo participante intercalado.",
+      "Limitacion": "Unir únicamente estos extremos contiguos como un mismo ID_Turno; no fusionar textos físicos ni reasignar actores. El extremo revisado sigue sin ancla; el posterior conserva su ancla explícita. Sin cotejo PDF nuevo ni muestra independiente.",
+      "Anterior": {
+        "ID_Padre": 3887,
+        "Inicio": 5699,
+        "Fin": 8366,
+        "SHA256_Texto_Padre": "d8c21b38a94635b583aee621d4346374a9cb9226d2d1edb43800462c4a230453",
+        "Fuente_Actor": "CONTEXTO_REVISADO"
+      },
+      "Siguiente": {
+        "ID_Padre": 3888,
+        "Inicio": 0,
+        "Fin": 1627,
+        "SHA256_Texto_Padre": "a7f3086e6c10fae71e8fd07e54381e0686b27afadd7ec00caa93058bf5dd6cab",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE"
+      }
+    },
+    {
+      "Revision_ID": "CONT-HAB-20260908-L19-4224-4225",
+      "Fecha": "2011-08-18",
+      "Actor": "Sergio Lehmann Beresi",
+      "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+      "Justificacion": "Lehmann prosigue los mercados financieros: CDS europeos, expectativas de inflación, tasas y paridades. En este contexto enlaza ambos desarrollos, sin cesión ni cierre.",
+      "Limitacion": "Unir únicamente estos extremos contiguos como un mismo ID_Turno; no fusionar textos físicos ni reasignar actores. El extremo revisado sigue sin ancla; el posterior conserva su ancla explícita. Sin cotejo PDF nuevo ni muestra independiente.",
+      "Anterior": {
+        "ID_Padre": 4224,
+        "Inicio": 442,
+        "Fin": 1408,
+        "SHA256_Texto_Padre": "9aa4dcbac22b640a6a916b017e2225fdc46da85624ff836af69d724028d09530",
+        "Fuente_Actor": "CONTEXTO_REVISADO"
+      },
+      "Siguiente": {
+        "ID_Padre": 4225,
+        "Inicio": 0,
+        "Fin": 2853,
+        "SHA256_Texto_Padre": "2f42616bf276092f9929202420d430e54bb951c95a73784e2ec18785783969f7",
+        "Fuente_Actor": "SUJETO_NOMBRE"
+      }
+    },
+    {
+      "Revision_ID": "CONT-HAB-20260908-L19-4941-4942",
+      "Fecha": "2012-07-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+      "Justificacion": "Soto concluye la explicación de las sorpresas de inflación con su nueva proyección. En razón de lo expuesto precedentemente remite al tramo inmediatamente anterior.",
+      "Limitacion": "Unir únicamente estos extremos contiguos como un mismo ID_Turno; no fusionar textos físicos ni reasignar actores. El extremo revisado sigue sin ancla; el posterior conserva su ancla explícita. Sin cotejo PDF nuevo ni muestra independiente.",
+      "Anterior": {
+        "ID_Padre": 4941,
+        "Inicio": 313,
+        "Fin": 2392,
+        "SHA256_Texto_Padre": "daadfa2182aa9d4d37d5cc72237af3e914ca3862ca627468f93bcae57253e7af",
+        "Fuente_Actor": "CONTEXTO_REVISADO"
+      },
+      "Siguiente": {
+        "ID_Padre": 4942,
+        "Inicio": 0,
+        "Fin": 291,
+        "SHA256_Texto_Padre": "8ef3a1304cf754da6562f7b1c0d036250eef1be6f0d8c68bf4ee185b43bc9145",
+        "Fuente_Actor": "SUJETO_NOMBRE"
+      }
+    },
+    {
+      "Revision_ID": "CONT-HAB-20260908-L19-5910-5911",
+      "Fecha": "2013-12-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+      "Justificacion": "Lehmann continúa las noticias de actividad y precios, exhibe las cifras del cuadro y desarrolla brechas, mercados laborales y commodities. Se leyeron completos ambos extremos, incluida la exposición de 10080 caracteres, sin intercalar otra voz.",
+      "Limitacion": "Unir únicamente estos extremos contiguos como un mismo ID_Turno; no fusionar textos físicos ni reasignar actores. El extremo revisado sigue sin ancla; el posterior conserva su ancla explícita. Sin cotejo PDF nuevo ni muestra independiente.",
+      "Anterior": {
+        "ID_Padre": 5910,
+        "Inicio": 366,
+        "Fin": 2214,
+        "SHA256_Texto_Padre": "832b9d1155ccb16fe1e5d60f5758a23665c91f3f250cbf79f6cae618eb6b5507",
+        "Fuente_Actor": "CONTEXTO_REVISADO"
+      },
+      "Siguiente": {
+        "ID_Padre": 5911,
+        "Inicio": 0,
+        "Fin": 10080,
+        "SHA256_Texto_Padre": "bd1fea7a89cb68fa4345ced808e5ec141c22f2110863948d37a0a6e07c9ad00b",
+        "Fuente_Actor": "SUJETO_NOMBRE"
+      }
+    }
+  ],
+  "Verificacion_Global": {
+    "Padres": 7219,
+    "Padres_Corregidos": [
+      601,
+      3120,
+      4064,
+      4476
+    ],
+    "Padres_Resegmentados": [
+      601,
+      3120,
+      4064,
+      4476
+    ],
+    "Padres_Personales_Resegmentados": [
+      3120,
+      4064,
+      4476
+    ],
+    "Padres_Interrupcion_Institucional": [
+      601
+    ],
+    "Padres_Autor_Lector": [],
+    "Padres_Corregidos_Antes_Sin_Alerta": 4,
+    "Padres_Solo_Advertencia": [
+      2510
+    ],
+    "Padres_Duplicado_Recalculado": [],
+    "Padres_Con_Cambio_En_Celdas_No_Secuenciales": 5,
+    "Padres_Sin_Cambio_En_Celdas_No_Secuenciales": 7214,
+    "Padres_Fuera_De_Correcciones_Enlace_Retirado_Y_Advertencia": 7213,
+    "Padres_Extremos_Enlace_Retirado": [
+      600,
+      601
+    ],
+    "Columnas_Secuenciales_Excluidas": [
+      "ID",
+      "ID_Turno"
+    ],
+    "Conservacion": true,
+    "Nuevos_Enlaces": [],
+    "Enlaces_Retirados_Justificados": [
+      [
+        600,
+        601,
+        "Pablo García Silva"
+      ]
+    ],
+    "Enlaces_Retirados_Sin_Justificacion": [],
+    "Archivo_Completo_De_Arista_Retirada": true,
+    "Otros_Enlaces_Preexistentes_Conservados": true,
+    "Grupos_Fuera_De_Correcciones_Y_Enlace_Retirado_Conservados": true,
+    "Retornos_Explicitos_4926_Y_4476_Conservados": true,
+    "Ensayo_Y_Publicacion_Identicos": true,
+    "Hashes_Entradas_Verificados": 81,
+    "Hashes_Salidas_Verificados": 11,
+    "Revisiones_Previas_Conservadas": 374,
+    "Advertencias_Previas_Conservadas": 71,
+    "Advertencias_Retiradas": [],
+    "Lecturas_Previas_Conservadas": 35,
+    "Enlaces_Revisados_Previos_Conservados": 9,
+    "Archivo_Retiros_Previos_Conservado": true,
+    "Documentos_Previos_Conservados": 12,
+    "Revision_Institucional_3110_Conservada": true,
+    "Documentos_Nuevos": 0,
+    "TPM_Comparado_Salvo_IDs": true,
+    "Documentos_Previos_Comparados_Salvo_IDs": true,
+    "Cotejo_PDF_Nuevo": false,
+    "Muestra_Independiente": false
+  },
+  "Aclaracion_Dano": "Párrafo roto alude a texto aparentemente incompleto/mal unido, no a su extensión. Origen del daño sin resolver sin cotejo de fuente; no completar texto ni inferir cambio de voz.",
+  "Padres_Solo_Trazabilidad": [],
+  "Padres_Duplicado_Recalculado": [],
+  "Registro_Enlaces_Actuales": "data/curation/revisiones_continuidad_hablantes.json",
+  "Nuevos_Tipos_Limite": [
+    "INICIO_TRAS_ARTEFACTO_REVISADO"
+  ],
+  "Nuevas_Revisiones_Personales_En_Cabeceras": [],
+  "Lectura_Sin_Reasignacion_LOOP20": [
+    {
+      "ID_Padre": 1013,
+      "Caracteres": 2471,
+      "Alcance": "Leído el desarrollo completo de Valdés: comparación de argumentos previos de Jadresic/Schmidt-Hebbel, no nuevos turnos. Advertencia de daño textual sin cambiar su atribución ni límites."
+    }
+  ],
+  "Preservacion_Anclas_Posteriores_LOOP20": [
+    663,
+    1728,
+    2695,
+    2754,
+    2810,
+    6800
+  ],
+  "Triaje_LOOP20": {
+    "Metodo": "Barridos dirigidos de sujetos/verbos y ventanas: 38 coincidencias nominales con predicados potenciales y 95 coincidencias en inicios, muchas institucionales. No muestra representativa ni 133 lecturas/casos independientes.",
+    "Limite": "Se leyeron íntegros los dieciséis padres resegmentados, los ocho intervalos de menciones, el tramo de Valdés de 1013 y 2837; contexto adicional según informe. Asistencia, citas y referencias no convertidas en habla por coincidencia de nombres."
+  },
+  "Preservacion_Anclas_Posteriores_LOOP21": [
+    3012,
+    6862
+  ],
+  "Alcance_Lectura_280_LOOP21": "Sólo lectura íntegra del intervalo de Herrera de 1444 caracteres y contexto breve, no de los 30150 caracteres previos de García; estos últimos se conservan y verifican mecánicamente, sin nueva adjudicación.",
+  "Cambio_Historico_LOOP21": {
+    "ID_Original": 8653,
+    "ID_Padre": 6862,
+    "Antes": "PENDIENTE_LECTURA_CONTEXTUAL",
+    "Ahora": "CORRECCION_DIRIGIDA_APLICADA",
+    "Residual": "Conserva FINAL_SIN_PUNTUACION y TEXTO_DANADO_POR_COTEJAR; el cambio principal no cierra estos motivos."
+  },
+  "Triaje_LOOP21": {
+    "Metodo": "Barridos de nombres sin exigir tratamiento y de cargos al comienzo de oración; revisión de candidatos nominales no reconocidos, varios de ellos asistencias, errores de escritura y declaraciones extranjeras/referidas.",
+    "Limite": "Búsqueda dirigida no representativa. Las ventanas descartadas no equivalen a lecturas completas. Alcance individual según informe y registros; ninguna nueva lectura de mención ni cierre de Bernier."
+  },
+  "Alias_Fiscal_LOOP21": [
+    "Juan Pablo Araya",
+    "Juan Pablo Araya Marco"
+  ],
+  "Aliases_No_Habilitados_LOOP21": [
+    "Marco",
+    "Juan Pablo",
+    "Fiscal"
+  ],
+  "Preservacion_Anclas_Posteriores_LOOP22": [
+    2692,
+    2863,
+    6813
+  ],
+  "Migracion_2674_LOOP22": "Ficha anterior HAB-20260908-2674 conservada idéntica como intervalo adicional cronológico; no se retira ni modifica al anteponer otro intervalo independiente.",
+  "Recuperacion_Parcial_2463_LOOP22": "Recuperación parcial: inicio del Ministro identificado, dos frases finales posiblemente de Céspedes sin introductor; advertencia de atribución provisional.",
+  "Lecturas_Sin_Alerta_LOOP22": {
+    "Padres": [
+      854,
+      1621
+    ],
+    "Visibilidad": "Validadas contra filas exactas, registradas en revisiones_menciones_actuales.json. No aparecen en revision_pendientes.csv porque no tienen alertas. No se eliminan alertas ni se modifica segmentación."
+  },
+  "Lecturas_Sin_Cambio_LOOP22": [
+    {
+      "ID_Padre": 3348,
+      "Detalle": "Diálogo ya separado, incluso respuesta a lo cual; referencia del Presidente a intervención japonesa/Tesoro sin voz nueva."
+    },
+    {
+      "ID_Padre": 4513,
+      "Detalle": "3589 caracteres leídos: agradecimiento a Marfán y desarrollo propio de Vergara, sin nueva adjudicación."
+    }
+  ],
+  "Cambio_Historico_LOOP22": [
+    {
+      "ID_Original": 4179,
+      "ID_Padre": 2938,
+      "Antes": "PENDIENTE_LECTURA_CONTEXTUAL",
+      "Ahora": "CORRECCION_DIRIGIDA_APLICADA",
+      "Residual": "Final sin puntuación y daño conservados."
+    },
+    {
+      "ID_Original": 4302,
+      "ID_Padre": 3028,
+      "Antes": "SEGMENTACION_O_ACTOR_MODIFICADO",
+      "Ahora": "CORRECCION_DIRIGIDA_APLICADA",
+      "Residual": "Final sin puntuación conservado."
+    }
+  ],
+  "Triaje_LOOP22": {
+    "Ventanas_Respuestas": 47,
+    "Ventanas_Signos_Danados": 17,
+    "Limite": "Búsqueda dirigida no representativa. Ventanas no equivalen a lecturas integrales ni se suman como 64 casos revisados. Destinatarios/referencias, cesiones y casos ya revisados entre falsos positivos."
+  },
+  "Preservacion_Anclas_Posteriores_LOOP23": [
+    1871,
+    2685,
+    2796,
+    2885,
+    3439,
+    3646
+  ],
+  "Pendiente_3775_LOOP23": "Confirmación de Cerda identificable, pero conclusión posterior sin sujeto nominal: advertencia de delimitación y lectura pendiente, no adjudicación de exclusividad ni inferencia de daño/identidad desconocida.",
+  "Retiro_2704_LOOP23": {
+    "Revision_Retiro": "RETIRO-20260908-L23-2704",
+    "Alerta_Original": {
+      "Revision_ID": "ALERTA-20260908-L12-2704",
+      "ID_Padre": 2704,
+      "Fecha": "2009-09-08",
+      "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+      "Inicio": 1000,
+      "Fin": 1210,
+      "Texto_Intervalo": "El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto.",
+      "Actor_Provisional": "Enrique Marshall Rivera",
+      "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
+      "Justificacion": "La intervención de Marshall incluye lo cual es confirmado por el señor Claudio Soto. Se deja explícitamente pendiente delimitar esa confirmación pasiva, sin alterar la pregunta presidencial y la respuesta de De Ramón ya revisadas.",
+      "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
+    },
+    "Justificacion": "Leído completo el padre. La fila compuesta de 210 caracteres se separa en Marshall 161 y Soto 48. La confirmación pasiva queda identificada por sujeto nominal; se preservan la pregunta presidencial y las respuestas de De Ramón. El retiro cierra sólo esta advertencia de mezcla, no otros motivos del padre ni del corpus.",
+    "Revisiones_Sustitutas": [
+      "HAB-20260908-L23-2704-1162"
+    ],
+    "Motivo_Residual": "FINAL_SIN_PUNTUACION permanece visible en otros segmentos; no cierre integral del padre."
+  },
+  "Nuevo_Motivo_LOOP23": {
+    "Motivo": "HABLANTES_POR_DELIMITAR",
+    "Decision": "PENDIENTE_DELIMITACION_DE_VOCES",
+    "Limite": "No implica daño OCR ni identidad desconocida; bloquea continuidad no sustentada."
+  },
+  "Lecturas_Sin_Alerta_LOOP23": {
+    "Padres": [
+      1926,
+      4161
+    ],
+    "Visibilidad": "Validadas en registro actual, sin modificación de filas; no aparecen en revision_pendientes.csv porque no tienen alertas."
+  },
+  "Cambio_Historico_LOOP23": [
+    {
+      "ID_Original": 3971,
+      "ID_Padre": 2796,
+      "Antes": "SEGMENTACION_O_ACTOR_MODIFICADO",
+      "Ahora": "CORRECCION_DIRIGIDA_APLICADA"
+    },
+    {
+      "ID_Original": 4509,
+      "ID_Padre": 3186,
+      "Antes": "METODO_ACTUALIZADO",
+      "Ahora": "CORRECCION_DIRIGIDA_APLICADA",
+      "Residual": "DUPLICADO_NO_FORMULA y FINAL_SIN_PUNTUACION conservados."
+    }
+  ],
+  "Triaje_LOOP23": {
+    "Ventanas_Relativas": 143,
+    "Ventanas_Conectores_Iniciales": 347,
+    "Ventanas_Conectores_Filtradas": 23,
+    "Limite": "No sumables como lecturas completas, casos únicos o muestra independiente. Incluyen metadatos, referencias y sujetos impersonales."
+  },
+  "Duplicados_Breves_LOOP23": {
+    "Padres": [
+      2685,
+      2707,
+      2723,
+      3186,
+      3268,
+      4470
+    ],
+    "Filas": 6,
+    "Detalle": "Repeticiones de frases breves entre sesiones, conservadas. No eliminación ni nuevas fórmulas revisadas."
+  },
+  "Padres_Resegmentados": [
+    601,
+    3120,
+    4064,
+    4476
+  ],
+  "Padres_Reasignados_Sin_Nuevas_Filas": [],
+  "Total_Alertas_Retiradas": 3,
+  "Preservacion_Anclas_Posteriores_LOOP24": [
+    2661,
+    5252
+  ],
+  "Retiro_2661_LOOP24": {
+    "Revision_Retiro": "RETIRO-20260908-L24-2661",
+    "Alerta_Original": {
+      "Revision_ID": "ALERTA-20260908-L12-2661",
+      "ID_Padre": 2661,
+      "Fecha": "2009-08-13",
+      "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+      "Inicio": 1530,
+      "Fin": 1773,
+      "Texto_Intervalo": "El señor Desormeaux acota que hay que tomar debida nota de que en las últimas dos o tres semanas ha habido un cambio de sentimiento significativo, que no está considerado en el Informe del FMI, acotación que es confirmada por el señor Lehmann.",
+      "Actor_Provisional": "Jorge Desormeaux Jiménez",
+      "Motivo": "PASAJES_CONJUNTOS_POR_DELIMITAR",
+      "Decision": "PENDIENTE_DELIMITACION_CONJUNTA",
+      "Justificacion": "El tramo de Desormeaux incluye acotación que es confirmada por el señor Lehmann. Es una confirmación narrada en pasiva aún no delimitada; no inventar palabras de Lehmann ni certificar todo el tramo como Desormeaux. La revisión posterior de Lehmann en 3640 y los otros turnos se conservan.",
+      "Limitacion": "Advertencia del residuo leído, no corrección del OCR ni resolución integral del padre. Sin cotejo PDF ni revisión humana independiente; los intervalos previos de hablante permanecen intactos."
+    },
+    "Justificacion": "Padre leído completo: Desormeaux 193 y confirmación nominal de Lehmann 49 sustituyen la fila compuesta de 243 caracteres. El desarrollo explícito posterior de Lehmann de 1322 caracteres y las revisiones previas se conservan. Sólo se cierra esta advertencia conjunta.",
+    "Revisiones_Sustitutas": [
+      "HAB-20260908-L24-2661-1724"
+    ],
+    "Motivo_Residual": "Conservar puntuación y demás motivos automáticos del padre; no certifica integridad del OCR ni cierra otros intervalos."
+  },
+  "Pendiente_4055_LOOP24": "Agradecimiento presidencial, aceptación conjunta y resolución institucional mezclados: advertencia y lectura pendiente; no cuatro turnos inventados ni autor exclusivo certificado.",
+  "Cargo_Subrogante_2788_LOOP24": "Soto identificado por cesión nominal contigua; nómina: Gerente de Análisis Macroeconómico. No certifica cargo subrogante ni crea alias global.",
+  "Residuo_2680_LOOP24": "García489 conserva A continuación,. sin aviso bloqueante nuevo, preservando2680→2681. Aviso actual sólo para acta75; desarrollo de García no certificado íntegro.",
+  "Lecturas_Sin_Alerta_LOOP24": {
+    "Padres": [
+      1549,
+      2219
+    ],
+    "Visibilidad": "Registro actual validado, sin cambio de filas ni alertas; no aparecen en revision_pendientes.csv."
+  },
+  "Triaje_LOOP24": {
+    "Ventanas_Pasivas": 20,
+    "Ventanas_Gerundios": 2,
+    "Filas_Institucionales_Candidatas": 161,
+    "Padres_Leidos_Completos": [
+      1549,
+      2219,
+      2661,
+      2680,
+      2746,
+      2788,
+      2875,
+      2958,
+      3008,
+      3288,
+      4055,
+      5252
+    ],
+    "Filas_Anteriores_De_Esos_Padres": 37,
+    "Limite": "Barridos dirigidos no representativos; candidatos y ventanas no equivalen a lecturas completas. No se leyeron completas las161 filas institucionales ni nuevamente2681."
+  },
+  "Nuevos_Documentos_Leidos": [],
+  "Total_Documentos_Revisados": 12,
+  "Retorno_Explicito_4926_LOOP25": "Soto1751 → Vergara148 → Soto213; retorno explícito con ancla, sin completar de Presidente ni fusionar la opinión.",
+  "Procedencia_Documental_LOOP25": "En4453/4507 el Presidente anuncia un planteamiento recibido de Larraín por intermedio de Cerda y le da lectura; no dice literalmente por escrito. Se identifica autor y lector de la cita, no formato del envío ni asistencia. En4722 la procedencia por escrito es literal.",
+  "Modalidades_Documentales_LOOP25": [
+    "PLANTEAMIENTO_RECIBIDO_PARA_LECTURA",
+    "CESION_TRAS_LECTURA_REVISADA"
+  ],
+  "Lecturas_Sin_Alerta_LOOP25": {
+    "Padres": [
+      77,
+      1042,
+      1456,
+      2167
+    ],
+    "Visibilidad": "Registro validado; filas y alertas intactas, ausentes de revision_pendientes.csv.1004 también tiene lectura legítima pero queda en la cola por daño textual."
+  },
+  "Triaje_LOOP25": {
+    "Ventanas_Relativas": 68,
+    "Ventanas_Gerundios": 171,
+    "Ventanas_Cesiones": 11,
+    "Candidatos_Clausulas": 0,
+    "Ventanas_Invertidos": 14,
+    "Ventanas_Inicios": 201,
+    "Ventanas_Inicios_Con_Tratamiento": 135,
+    "Padres_Leidos_Completos": [
+      77,
+      586,
+      1004,
+      1042,
+      1456,
+      1627,
+      1680,
+      2167,
+      2698,
+      2918,
+      2948,
+      4453,
+      4507,
+      4722,
+      4926,
+      6073
+    ],
+    "Limite": "Resultados dirigidos superpuestos, no sumables como lecturas/casos. Muchos falsos positivos, asistencia, referencias y casos ya revisados. No muestra independiente ni lectura completa de todos los candidatos."
+  },
+  "Duplicados_Lectura_LOOP25": {
+    "Parejas": [
+      [
+        4453,
+        4507
+      ],
+      [
+        4722,
+        5212
+      ]
+    ],
+    "Alcance": "Cuatro anuncios de lectura conservados con avisos de duplicado;5212 sólo cambia indicadores, no texto, autor/lector ni límites. No nuevas fórmulas ni nueva lectura integral de5212."
+  },
+  "Padres_Con_Cambios_Solo_Enlace": [],
+  "Procedencia_Documental_LOOP26": "3071/3575/4109: comentarios o planteamiento recibidos para lectura, sin procedencia literalmente por escrito. 5257/5892/5999: por escrito explícito. Autor distinto del lector, sin inferir asistencia ni habla oral. Incorporación institucional sólo en5257; comillas mixtas literales3071/5892.",
+  "Modalidades_Documentales_LOOP26": [
+    "LECTURA_COMENTARIOS_RECIBIDOS_REVISADA",
+    "LECTURA_COORDINADA_RECIBIDA_REVISADA",
+    "LECTURA_NOMINAL_POR_ESCRITO_REVISADA",
+    "RETORNO_LECTURA_VARIANTE_REVISADA",
+    "PAR_MIXTO_REVISADO",
+    "INCORPORACION_INSTITUCIONAL_REVISADA"
+  ],
+  "Incorporacion_Documental_LOOP26": {
+    "ID_Padre": 5257,
+    "Caracteres": 79,
+    "Actor": "Consejo del Banco Central de Chile",
+    "Limite": "Primera oración de incorporación/presidencia, no habla personal. Excepción exacta dentro del documento; no modifica el registro institucional de padre completo ni habilita reasignar4055."
+  },
+  "Lecturas_Sin_Alerta_LOOP26": {
+    "Padres": [
+      5276,
+      5308
+    ],
+    "Visibilidad": "Registro validado; filas y alertas intactas, ausentes de revision_pendientes.csv."
+  },
+  "Control_Sin_Documento_LOOP26": {
+    "ID_Padre": 4096,
+    "Detalle": "Lectura íntegra de siete intervenciones ya bien separadas. Lectura económica no es documento de otro autor; sin nueva ficha de mención o documento."
+  },
+  "Triaje_LOOP26": {
+    "Ventanas_Terminos_Documentales": 49,
+    "Ventanas_Nominales_Con_Tratamiento": 90,
+    "Candidatos_Inicios_Dativos_Opinion": 0,
+    "Padres_Leidos_Completos": [
+      3071,
+      3092,
+      3575,
+      4096,
+      4109,
+      4143,
+      4745,
+      4746,
+      4778,
+      5257,
+      5276,
+      5308,
+      5892,
+      5999,
+      6561,
+      6562
+    ],
+    "Limite": "Resultados dirigidos superpuestos, no sumables como lecturas o casos. Incluyen referencias, asistencia, coincidencias de nombres y casos ya revisados. Sin muestra independiente; no lectura completa de todos los candidatos."
+  },
+  "Duplicados_LOOP26": {
+    "Parejas": [
+      [
+        3575,
+        4109
+      ],
+      [
+        4507,
+        5999
+      ]
+    ],
+    "Alcance": "Anuncios181 y retornos149 de3575/4109, primeros tramos132 de4507/5999: conservados y advertidos, sin nuevas fórmulas.4507 sólo cambia indicadores. Retornos322 de5892/5999 mantienen clasificación de fórmula preexistente y no aportan aviso de duplicado no fórmula."
+  },
+  "Enlaces_Resueltos_LOOP26": [
+    {
+      "Revision_ID": "CONT-HAB-20260908-L26-4745-4746",
+      "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+      "Fecha": "2012-04-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Anterior": {
+        "ID_Padre": 4745,
+        "Inicio": 495,
+        "Fin": 1092,
+        "Texto": "Al proseguir con su presentación, el Gerente de Análisis Internacional señor Sergio Lehmann se refiere a las proyecciones en materia de crecimiento. Sobre el particular, señala que al utilizar modelos de factores dinámicos, que consideran entre doscientas y trescientas variables, se obtiene que el crecimiento del primer trimestre de la Zona Euro, los Estados Unidos y Japón estaría ligeramente por sobre lo que contemplan el IPoM y Bloomberg, y que ello se asocia fundamentalmente a indicadores de confianza recientes, que muestran una visión algo más optimista en este sentido. A continuación,.",
+        "SHA256_Texto_Padre": "0252c2442e6457a3d39674411a551523d97254e5979562c46cba155260b671d6",
+        "Fuente_Actor": "CONTEXTO_REVISADO"
+      },
+      "Siguiente": {
+        "ID_Padre": 4746,
+        "Inicio": 0,
+        "Fin": 1877,
+        "Texto": "el señor Sergio Lehmann exhibe el heat map de inflación que se contiene en la lámina N° 23 y señala que, en términos generales, la inflación se mantiene en las economías desarrolladas, que tiende a caer en las emergentes y que en algunas economías, como Perú, República Checa, Hungría y Turquía, supera sus rangos meta. En cuanto a proyecciones, indica que se anticipan aumentos transitorios para el presente año en casi todas las regiones y algunas reversiones en el año 2013, particularmente en el caso de América Latina y Europa emergente. Hace presente que en línea con lo anterior, la mayor parte de los bancos centrales ha detenido el ciclo de bajas de sus tasas rectoras y que estas solo persisten en algunos casos específicos, como en India, cuya autoridad monetaria la recortó en 50 puntos base en la reunión realizada durante la presente jornada, mayor que el esperado, y en Brasil, que lo haría en 75 puntos base en la reunión programada para el día siguiente. Sesión N° 184 Página 7 de 26 También en consonancia con lo precedentemente expuesto, el señor Gerente de Análisis Internacional menciona que las perspectivas en materia de TPM han tendido a ajustarse. Precisa que tal es el caso de Europa emergente, América Latina, Asia y Oceanía. Añade que los contratos de futuros, en tanto, están recogiendo un posible aumento en los Estados Unidos hacia fines del año 2013, ante indicadores que han resultado más favorables que lo esperado, contrariamente a lo anunciado por la Reserva Federal en cuanto a que no moverá sus tasas hasta bien entrado el año 2014. Con respecto a los precios de commodities, destaca que han tendido a caer, salvo el arroz y la gasolina. Explica que el aumento del precio de la gasolina se debe a factores estacionales, mientras que el del arroz, que no se había ajustado al alza, como sí lo habían hecho otros granos, se niveló con ellos.",
+        "SHA256_Texto_Padre": "9e89343fcc0ac4b2ff9175b9c0d44a41968471a6daedf20137f3461b2d2089e4",
+        "Fuente_Actor": "SUJETO_NOMBRE"
+      },
+      "Justificacion": "Lehmann retoma la presentación de proyecciones de crecimiento y continúa con el heat map de inflación, TPM y commodities. Ambos padres leídos completos; Soto494 queda fuera del enlace. Conservar A continuación,. y el encabezado de página sin reconstruirlos.",
+      "Limitacion": "Sólo estos extremos exactos con hashes; no fusionar textos físicos ni convertir CONTEXTO_REVISADO en ancla global. La continuidad de voz no certifica integridad del OCR. Sin nuevo cotejo PDF ni muestra independiente.",
+      "Evidencia": [
+        {
+          "ID_Padre": 4745,
+          "Cita": "El Gerente de Análisis Macroeconómico señor Claudio Soto plantea que para determinarlo, lo central es que el pivote elegido considere un año normal o en el que la brecha estuvo cerrada. Explica que al elaborar el heat map, se promedia toda la muestra y se asume que en ella, la brecha estuvo precisamente cerrada, y que de acuerdo con ello, los datos correspondientes a los últimos tres a cuatro trimestres dan cuenta de que, efectivamente, la brecha habría estado más abierta en dicho período. Al proseguir con su presentación, el Gerente de Análisis Internacional señor Sergio Lehmann se refiere a las proyecciones en materia de crecimiento. Sobre el particular, señala que al utilizar modelos de factores dinámicos, que consideran entre doscientas y trescientas variables, se obtiene que el crecimiento del primer trimestre de la Zona Euro, los Estados Unidos y Japón estaría ligeramente por sobre lo que contemplan el IPoM y Bloomberg, y que ello se asocia fundamentalmente a indicadores de confianza recientes, que muestran una visión algo más optimista en este sentido. A continuación,."
+        },
+        {
+          "ID_Padre": 4746,
+          "Cita": "el señor Sergio Lehmann exhibe el heat map de inflación que se contiene en la lámina N° 23 y señala que, en términos generales, la inflación se mantiene en las economías desarrolladas, que tiende a caer en las emergentes y que en algunas economías, como Perú, República Checa, Hungría y Turquía, supera sus rangos meta. En cuanto a proyecciones, indica que se anticipan aumentos transitorios para el presente año en casi todas las regiones y algunas reversiones en el año 2013, particularmente en el caso de América Latina y Europa emergente. Hace presente que en línea con lo anterior, la mayor parte de los bancos centrales ha detenido el ciclo de bajas de sus tasas rectoras y que estas solo persisten en algunos casos específicos, como en India, cuya autoridad monetaria la recortó en 50 puntos base en la reunión realizada durante la presente jornada, mayor que el esperado, y en Brasil, que lo haría en 75 puntos base en la reunión programada para el día siguiente. Sesión N° 184 Página 7 de 26 También en consonancia con lo precedentemente expuesto, el señor Gerente de Análisis Internacional menciona que las perspectivas en materia de TPM han tendido a ajustarse. Precisa que tal es el caso de Europa emergente, América Latina, Asia y Oceanía. Añade que los contratos de futuros, en tanto, están recogiendo un posible aumento en los Estados Unidos hacia fines del año 2013, ante indicadores que han resultado más favorables que lo esperado, contrariamente a lo anunciado por la Reserva Federal en cuanto a que no moverá sus tasas hasta bien entrado el año 2014. Con respecto a los precios de commodities, destaca que han tendido a caer, salvo el arroz y la gasolina. Explica que el aumento del precio de la gasolina se debe a factores estacionales, mientras que el del arroz, que no se había ajustado al alza, como sí lo habían hecho otros granos, se niveló con ellos."
+        }
+      ]
+    },
+    {
+      "Revision_ID": "CONT-HAB-20260908-L26-6561-6562",
+      "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+      "Fecha": "2015-01-15",
+      "Actor": "Miguel Fuentes Díaz",
+      "Anterior": {
+        "ID_Padre": 6561,
+        "Inicio": 1670,
+        "Fin": 5931,
+        "Texto": "Al continuar con su presentación, el señor Miguel Fuentes se refiere a los mercados financieros de las economías emergentes, señalando que han empeorado desde la Reunión anterior, empujados por la incertidumbre política y económica en Grecia y Rusia. Asimismo, indica que la caída de los precios de commodities han deteriorado las expectativas sobre estos mercados, en particular sobre aquellos que son productores de materias primas. Añade que las monedas de estas economías se han depreciado, llevando a algunos bancos centrales latinoamericanos a adoptar medidas para mitigar esta pérdida de valor. Comenta que los datos de alta frecuencia dan cuenta de salidas de capitales desde las economías emergentes en los dos últimos meses, y que a ello se ha sumado una caída en el tramo largo de las tasas en las economías desarrolladas, que sería reflejo de un flight to quality. Hace presente que el strong dollar se afianza como uno de los elementos que estará presente en el escenario del año 2015 por la clara divergencia entre las políticas monetarias de la Zona Euro y Estados Unidos de América y, en particular, porque la probabilidad de que se adopte un programa de Quantitative Easing en la reunión del Banco Central Europeo del próximo jueves 22 es cada vez mayor; por la caída de las expectativas de inflación en la Eurozona; y por la decisión de la Corte Europea de Justicia que eliminó, en principio, uno de los riesgos legales que impedía adoptar esta política. Indica que a ello se suma que los datos de actividad siguen apuntando a la mayor fortaleza relativa de la economía de Estados Unidos de América frente a la europea. Además, plantea que los mercados financieros se han movido a la baja y con mayor intensidad en las economías emergentes, en un contexto de aumento de la volatilidad de las monedas; de los EMBI spread, en especial los de América Latina; y de los precios de los commodities. Hace notar que una de las fuentes de esta debilidad ha sido Rusia, que enfrenta un shock externo de importancia debido a la caída del precio del petróleo y sanciones internacionales por el conflicto con Ucrania. Sostiene que la fuente de la incertidumbre es de carácter financiero, en el sentido que si bien los stocks de deuda no son tan significativos en relación con las reservas, no está claro cuál es la contraparte, lo que podría generar algún grado de incertidumbre en los mercados. Indica que ello ha sido acompañado de una calificación de deuda que ha bajado y que se encuentra a un escalón de ser considerada basura; y de algunas medidas, como la eliminación de la banda cambiaría, que han contribuido a mitigar la fuerte depreciación que se observó a comienzos de esta crisis, esto es, a fines del mes de diciembre último. 7 i A este respecto, resalta que los indicadores financieros rusos han sufrido un deterioro evidente frente a la última RPM. En efecto, el rublo se ha depreciado y las tasas y los CDS han subido, atendida la caída del precio del petróleo, la imposición de sanciones geopolíticas este mes y el surgimiento de algunas dudas sobre su sistema financiero. Añade que el Banco Central ruso ha implementado algunos planes de rescate y ha adoptado nuevas exigencias de liquidez y ha endurecido la regulación de las entidades sistémicas con el fin de evitar problemas financieros de importancia. En todo caso, plantea que los efectos de las tensiones en Rusia han sido bastante acotadas en las economías desarrolladas de Europa, no así en las economías emergentes, en especial en América Latina, donde los premios por riesgo han tenido un movimiento muy similar al observado en dicho país. Agrega que los efectos bancarios también han sido relativamente acotados hasta el momento. Sobre el particular, comenta que un banco austríaco y otro húngaro presentan un grado de exposición mayor a Rusia, pero los CDS de ambos países no exhiben movimientos muy apreciables en las últimas semanas. Informa que otras noticias han estado marcadas por las especulaciones en torno a un Grexit, esto es, la salida de Grecia de la Zona Euro tras el llamado a elecciones anticipadas que se celebrarán el domingo 25 del mes en curso. Ello ha tenido un impacto acotado en los mercados financieros de la periferia de la Eurozona. A continuación,.",
+        "SHA256_Texto_Padre": "6997135a713ec558fe41c0ce9d7272dc80d036ac2569619ea9e6bdb027a3c51c",
+        "Fuente_Actor": "CONTEXTO_REVISADO"
+      },
+      "Siguiente": {
+        "ID_Padre": 6562,
+        "Inicio": 0,
+        "Fin": 875,
+        "Texto": "el señor Miguel Fuentes se refiere a las medidas adoptadas en la Eurozona tras la crisis griega del año 2012, las que no solo explican las razones por las cuales el riesgo de esta región parece ser menor, sino que contribuyen a mitigar un contagio algo mayor. En primer término, alude a la creación del Mecanismo de Estabilidad Financiera, que es el mecanismo permanente de resolución de crisis para los países del bloque. Asimismo, menciona los avances en la Unión Bancaria; la disposición del Banco Central Europeo a adoptar medidas para rescatar países; y también el Quantiative Easing, cuyo propósito es la compra de activos soberanos y que, en este caso particular, podría darle algún alivio adicional a Grecia. Enfatiza que estos elementos se conjugan para explicar la menor percepción de riesgo financiero en torno a Grecia que la observada en el episodio 2011 - 2012.",
+        "SHA256_Texto_Padre": "205a0a568c36ef6771eda7b4a35000cfc1752a63d060dc2421f4a76a862c6ea1",
+        "Fuente_Actor": "SUJETO_NOMBRE"
+      },
+      "Justificacion": "Fuentes retoma mercados emergentes, Rusia y Grecia y continúa inmediatamente con las medidas europeas que explican el menor riesgo griego. Ambos padres leídos íntegros; Vial1669 queda fuera del enlace. Conservar A continuación,.,7 i y Quantiative sin normalizarlos.",
+      "Limitacion": "Sólo estos extremos exactos con hashes; no fusionar textos físicos ni convertir CONTEXTO_REVISADO en ancla global. La continuidad de voz no certifica integridad del OCR. Sin nuevo cotejo PDF ni muestra independiente.",
+      "Evidencia": [
+        {
+          "ID_Padre": 6561,
+          "Cita": "El Consejero señor Joaquín Vial estima que el precio de largo plazo sería cercano a US$2,8 la libra, pero dificulta que alcance dicho nivel en el mediano plazo. Expresa que los ciclos del cobre han sido de 4 a 5 años, pero el último escapó de todos los patrones históricos. En segundo término, hace notar la correlación existente entre los precios de todos de metales analizados y el petróleo, todos los cuales exhiben retrocesos. A su juicio, si bien puede haber problemas de oferta en algún mercado, es difícil pensar que estos se extienden a todos estos commodities, razón por la que considera que es un tema de demanda el que subyace claramente a esta caída de precios. En su opinión, es preciso analizar los balances de cobre con mucha cautela, porque a partir del año 2009 ha sido difícil medirlos por la enorme cantidad de inventarios fuera de bolsa en China, de los cuales no se tiene evidencia fidedigna. Además, advierte sobre el nivel de incertidumbre en relación con el funcionamiento de estos mercados de metales, en particular, con la preponderancia que ha ganado China no solamente en términos de consumo, sino que también de producción, al convertirse en el segundo productor de cobre de mina del mundo. El Consejero señor Joaquín Vial resalta la importancia de no subestimar los efectos de esta fuerte caída del precio del cobre, como tampoco la competencia que enfrenta nuestro mercado, porque puede inducir a errores de política de relevancia. Por último, indica que las variaciones del precio del cobre no son de carácter especulativo. Por definición, los inventarios determinan el precio de este metal, porque se comporta como un activo financiero. Al continuar con su presentación, el señor Miguel Fuentes se refiere a los mercados financieros de las economías emergentes, señalando que han empeorado desde la Reunión anterior, empujados por la incertidumbre política y económica en Grecia y Rusia. Asimismo, indica que la caída de los precios de commodities han deteriorado las expectativas sobre estos mercados, en particular sobre aquellos que son productores de materias primas. Añade que las monedas de estas economías se han depreciado, llevando a algunos bancos centrales latinoamericanos a adoptar medidas para mitigar esta pérdida de valor. Comenta que los datos de alta frecuencia dan cuenta de salidas de capitales desde las economías emergentes en los dos últimos meses, y que a ello se ha sumado una caída en el tramo largo de las tasas en las economías desarrolladas, que sería reflejo de un flight to quality. Hace presente que el strong dollar se afianza como uno de los elementos que estará presente en el escenario del año 2015 por la clara divergencia entre las políticas monetarias de la Zona Euro y Estados Unidos de América y, en particular, porque la probabilidad de que se adopte un programa de Quantitative Easing en la reunión del Banco Central Europeo del próximo jueves 22 es cada vez mayor; por la caída de las expectativas de inflación en la Eurozona; y por la decisión de la Corte Europea de Justicia que eliminó, en principio, uno de los riesgos legales que impedía adoptar esta política. Indica que a ello se suma que los datos de actividad siguen apuntando a la mayor fortaleza relativa de la economía de Estados Unidos de América frente a la europea. Además, plantea que los mercados financieros se han movido a la baja y con mayor intensidad en las economías emergentes, en un contexto de aumento de la volatilidad de las monedas; de los EMBI spread, en especial los de América Latina; y de los precios de los commodities. Hace notar que una de las fuentes de esta debilidad ha sido Rusia, que enfrenta un shock externo de importancia debido a la caída del precio del petróleo y sanciones internacionales por el conflicto con Ucrania. Sostiene que la fuente de la incertidumbre es de carácter financiero, en el sentido que si bien los stocks de deuda no son tan significativos en relación con las reservas, no está claro cuál es la contraparte, lo que podría generar algún grado de incertidumbre en los mercados. Indica que ello ha sido acompañado de una calificación de deuda que ha bajado y que se encuentra a un escalón de ser considerada basura; y de algunas medidas, como la eliminación de la banda cambiaría, que han contribuido a mitigar la fuerte depreciación que se observó a comienzos de esta crisis, esto es, a fines del mes de diciembre último. 7 i A este respecto, resalta que los indicadores financieros rusos han sufrido un deterioro evidente frente a la última RPM. En efecto, el rublo se ha depreciado y las tasas y los CDS han subido, atendida la caída del precio del petróleo, la imposición de sanciones geopolíticas este mes y el surgimiento de algunas dudas sobre su sistema financiero. Añade que el Banco Central ruso ha implementado algunos planes de rescate y ha adoptado nuevas exigencias de liquidez y ha endurecido la regulación de las entidades sistémicas con el fin de evitar problemas financieros de importancia. En todo caso, plantea que los efectos de las tensiones en Rusia han sido bastante acotadas en las economías desarrolladas de Europa, no así en las economías emergentes, en especial en América Latina, donde los premios por riesgo han tenido un movimiento muy similar al observado en dicho país. Agrega que los efectos bancarios también han sido relativamente acotados hasta el momento. Sobre el particular, comenta que un banco austríaco y otro húngaro presentan un grado de exposición mayor a Rusia, pero los CDS de ambos países no exhiben movimientos muy apreciables en las últimas semanas. Informa que otras noticias han estado marcadas por las especulaciones en torno a un Grexit, esto es, la salida de Grecia de la Zona Euro tras el llamado a elecciones anticipadas que se celebrarán el domingo 25 del mes en curso. Ello ha tenido un impacto acotado en los mercados financieros de la periferia de la Eurozona. A continuación,."
+        },
+        {
+          "ID_Padre": 6562,
+          "Cita": "el señor Miguel Fuentes se refiere a las medidas adoptadas en la Eurozona tras la crisis griega del año 2012, las que no solo explican las razones por las cuales el riesgo de esta región parece ser menor, sino que contribuyen a mitigar un contagio algo mayor. En primer término, alude a la creación del Mecanismo de Estabilidad Financiera, que es el mecanismo permanente de resolución de crisis para los países del bloque. Asimismo, menciona los avances en la Unión Bancaria; la disposición del Banco Central Europeo a adoptar medidas para rescatar países; y también el Quantiative Easing, cuyo propósito es la compra de activos soberanos y que, en este caso particular, podría darle algún alivio adicional a Grecia. Enfatiza que estos elementos se conjugan para explicar la menor percepción de riesgo financiero en torno a Grecia que la observada en el episodio 2011 - 2012."
+        }
+      ]
+    }
+  ],
+  "Limite_Continuidades_LOOP26": "4745→4746 y6561→6562 ya no pendientes de lectura: cuatro padres leídos completos. Conservan filas físicas, voces anterioresSoto/Vial y OCR. No globalizar CONTEXTO_REVISADO ni certificar texto íntegro.5402→5403 prohibido.",
+  "Unidades_Comparacion_LOOP26": "12 padres cambian celdas no secuenciales;4745 y6561 conservan esas celdas pero pasan a compartir grupo con su continuación. Son14 padres alcanzados por correcciones/enlaces/duplicado, no12. Lecturas negativas5276/5308 y control4096 no cambian estas celdas.",
+  "Total_Registros_Institucionales": 2,
+  "Interrupcion_Institucional_LOOP27": "601: interrupción de diez minutos para fotografías y reanudación nominal de García. Acta307 separada de exposición3688 íntegra. Se retira600→601 con ambas filas previas archivadas. Ninguna de las9 pruebas de enlace revisado retirada.3110 sin cambios.",
+  "Archivo_Enlace_Retirado_LOOP27": {
+    "Ruta": "data/curation/revisiones_continuaciones_acta.json",
+    "Revision_ID": "ACTA-20260908-L27-601",
+    "Clave": "Enlace_Retirado",
+    "Extremos": [
+      600,
+      601
+    ],
+    "Alcance": "Ambas filas completas anteriores cotejadas conLOOP26; retiro por interrupción, no por longitud. Nueve fichas de continuidad revisada intactas; no nuevo retiro de advertencia."
+  },
+  "Retorno_Explicito_4476_LOOP27": "Vergara395 → Lehmann797 → Vergara103; última consulta explícita conserva ancla, no herencia global del tramo revisado.",
+  "Artefacto_4064_LOOP27": "Herrera462 conserva -4 . f . • \" ' A), con advertencia. Lehmann222 separado por excepción exacta; cita real abierta antes del artefacto sigue bloqueando. Sin eliminar signos ni completar texto.",
+  "Lecturas_Sin_Alerta_LOOP27": {
+    "Padres": [
+      870,
+      6601
+    ],
+    "Visibilidad": "Referencias legítimas validadas; texto/actores/grupos intactos, ausentes de revision_pendientes.csv."
+  },
+  "Triaje_LOOP27": {
+    "Ventanas_Inicios": 131,
+    "Ventanas_Tratamientos_Interiores": 138,
+    "Ventanas_Cargos_Sin_Tratamiento": 16,
+    "Ventanas_Palabra_Tras_Nombre": 1086,
+    "Ventanas_Cargos_Con_Proyeccion": 34,
+    "Padres_Leidos_Completos": [
+      600,
+      601,
+      870,
+      2510,
+      3120,
+      4064,
+      4476,
+      6601
+    ],
+    "Limite": "Resultados dirigidos superpuestos, no sumables como lecturas/casos. Proyecciones producen referencias, asistencia y falsos sujetos, incluidos mandatarios extranjeros; no son atribuciones adoptadas. No lectura integral de todas las ventanas ni muestra independiente."
+  },
+  "Unidades_Comparacion_LOOP27": "Cinco padres cambian celdas no secuenciales;600 conserva esas celdas pero deja de compartir grupo con601 por la interrupción. Son6 padres alcanzados por correcciones/arista/advertencia, no5. Negativos870/6601 sin cambios de celdas/grupos."
+}

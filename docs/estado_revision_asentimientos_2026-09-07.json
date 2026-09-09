@@ -1,0 +1,228 @@
+{
+  "Estado": "ASENTIMIENTO_Y_COMPLEMENTOS_TERMINADOS_Y_PUBLICADOS",
+  "Filas": 9218,
+  "Alertas": 632,
+  "Pruebas": 272,
+  "Padres_Modificados": [
+    2779,
+    3107,
+    3158
+  ],
+  "Padres_Solo_Continuidad": [],
+  "Intervalos_Abordados": [
+    {
+      "ID_Padre": 2779,
+      "Detalle": "Cowan → asentimiento explícito de Soto → respuesta de Marshall, incluida En su opinión…; no se inventaron palabras pronunciadas por Soto."
+    },
+    {
+      "ID_Padre": 3107,
+      "Detalle": "Marfán → De Ramón → complemento de Bernier; Agrega… se mantiene con Bernier. Texto dañado conservado."
+    },
+    {
+      "ID_Padre": 3158,
+      "Detalle": "García da el nivel de empleo; Soto agrega la variación y prosigue la exposición. Se conserva 400.000 y el resto del párrafo."
+    }
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 780,
+      "Estado": "REQUIERE_COTEJO_Y_DELIMITACION_CONTEXTUAL",
+      "Detalle": "Acuerdo ya delimitado; sigue pendiente el comienzo de Corbo. No se obtuvo PDF: acceso oficial anterior bloqueado por verificación humana; no hubo nuevo cotejo en esta tanda."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PENDIENTE",
+      "Detalle": "Intervención conjunta: no asignar arbitrariamente un único actor."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "INTERCAMBIO_CORREGIDO_CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "El intercambio final Presidente → Ministro → Lehmann → Claro ya está delimitado. Antes queda acotación que es confirmada por el señor Lehmann dentro del segmento de Desormeaux. No inventar palabras ni certificar todo el padre."
+    },
+    {
+      "ID_Padre": 2704,
+      "Estado": "CONFIRMACION_PASIVA_PENDIENTE",
+      "Detalle": "Pregunta del Presidente ya corregida. Queda lo cual es confirmado por el señor Claudio Soto en el segmento final de Marshall, sin alerta automática ni adjudicación nueva."
+    },
+    {
+      "ID_Padre": 2667,
+      "Estado": "ENLACE_DANADO_NO_RECONSTRUIDO",
+      "Detalle": "Exposición de Soto ya delimitada; y el Gerente de se conserva literal en el tramo anterior. Requiere cotejo para reconstruir, no completar por intuición."
+    },
+    {
+      "ID_Padre": 3107,
+      "Estado": "ATRIBUCION_DELIMITADA_DANO_TEXTUAL_SIN_RECONSTRUIR",
+      "Detalle": "Bernier delimitado, pero se conserva han sido que no ha renovado en los Repos, y últimamente y Agrega que el…; faltan elementos en la fuente. No completar bancos, nombres o redacción sin cotejo."
+    }
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 86,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1053,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 2768,
+      "ID_Actual": 4005,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "6249b0589812347de7c4a9bb5b20e4f78fd9e7137e406a91811116666095b30a",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al respecto, el Consejero señor Enrique Marshall recuerda que el Gerente de División Estudios, señor Pablo García, comentó que en una reunión en el Fondo Monetario Internacional había recogido visiones algo más negativas en relación con el mercado del petróleo. "
+    },
+    {
+      "ID_Padre": 3123,
+      "ID_Actual": 4557,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "c84f302301f80057608ad0c754229a67ba49fb00415d524684d51d9814b2c2f6",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al continuar con la votación, el señor Presidente concede la palabra al Vicepresidente, señor Manuel Marfán, quien agradece, en primer término, el análisis del staff."
+    },
+    {
+      "ID_Padre": 3147,
+      "ID_Actual": 4588,
+      "Actor": "Beltrán de Ramón Acevedo",
+      "SHA256_Texto_Padre": "89cda9f19ba68255595049376f5a771810604217912df600004dd509e382e5f4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Con respecto a la pregunta del Consejero señor Sebastián Claro, de por qué los bancos norteamericanos reaccionan igual que los europeos, el señor Gerente de División Operaciones Financieras señala que en Europa hay bancos AAA y muchos bancos AA, mientras que en Estados Unidos hay muchos bancos, pero bancos pequeños, donde todos son A o menos que A, salvo Wells Fargo y JP Morgan, que son AA Dado eso, y probablemente por el tipo de banco o fuente de información que consideró el señor Lehmann, piensa que se compararon bancos AA europeos con bancos estadounidenses A o menos de A y, por lo tanto, probablemente frente a una turbulencia en Europa, l"
+    },
+    {
+      "ID_Padre": 3187,
+      "ID_Actual": 4632,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "dd1a3ab5eec7f3c17674b647721fd084db357372e242755580bae90d813e7f87",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Dado eso, el señor Vicepresidente manifiesta que el dinero debiera ser retirado para llegar a un punto de equilibrio en que la demanda sea igual a la oferta. "
+    },
+    {
+      "ID_Padre": 3191,
+      "ID_Actual": 4638,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "d596d82b964da0af1585fba5293a53767bd77dc6dcf311807f1f4ac82401803d",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al finalizar esta discusión, el Gerente de División Estudios, señor Pablo García, se refiere al planteamiento del Vicepresidente, señor Manuel Marfán, y explica que en los años 2000, las tasas de interés nominales fueron claramente inferiores a sus niveles históricos y, por lo tanto, lo que ocurrió habría sido, en parte, un proceso más de convergencia, que llevó a una monetización a tasas mayores que las que hubiesen correspondido dado el nivel de tasa prevaleciente."
+    },
+    {
+      "ID_Padre": 3221,
+      "ID_Actual": 4678,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "b60d361f9c18ceffdda41d956392300183e237a651c68f796f70f817826bdc73",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir, el Gerente de Análisis Internacional señala que en materia de crecimiento está como referencia lo considerado en el último IPoM, lo que está hoy está proyectando una muestra de bancos de inversión, el último Consensus Forecasts y el World Economic Out/ook (WEO), actualizado hace un par de semanas tanto para el presente año como para 2011. "
+    },
+    {
+      "ID_Padre": 3233,
+      "ID_Actual": 4692,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "ec9064f45a4199559c2aeff706eb8fea5298b3234717848e53830e626c781a96",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Ai respecto, el señor Pablo García responde que actualmente no lo hace, pero que pronto no solo calculará la brecha, sino que también la balanza estructural, como lo ha hecho para todas las economías que componen dicha organización."
+    },
+    {
+      "ID_Padre": 3303,
+      "ID_Actual": 4787,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "87b8e9aa37152b24797ed4c93baeb38b87bf5844764b2c36071d6d00ed642f66",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En cuanto al registro de los albañiles, el Gerente de Análisis Macroeconómico señor Claudio Soto informa que se incluyen en el sector construcción, en tanto que el señor Vicuña complementa, especificando que se incorporan como relaciones menores en dicho sector."
+    },
+    {
+      "ID_Padre": 3421,
+      "ID_Actual": 4955,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "f6f8d7474b7739072034ce6d15db2f7fa6fbf1ee9366cdd00b671fb35a2179cc",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "No habiendo comentarios, el Presidente señor José De Gregorio agradece al Gerente de Análisis Macroeconómico, suspende la Sesión a las 13:20 horas e informa que la misma se reanudará a las 16:00 horas."
+    },
+    {
+      "ID_Padre": 3468,
+      "ID_Actual": 5021,
+      "Actor": "Luis Óscar Herrera Barriga",
+      "SHA256_Texto_Padre": "acb924a2fa0ed98c0a7792bf9d4daa03999e832b42b279337ba044fffea5358f",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Para resumir, el Vicepresidente señor Manuel Marfán plantea que son los agentes los que importan, ya que cada uno de ellos opera bajo una lógica distinta. "
+    },
+    {
+      "ID_Padre": 3476,
+      "ID_Actual": 5031,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "38f69a35061dc74e623eb090222b575626caec6a937a3c883c8ec4512d8462ea",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "No habiendo comentarios , el Presidente señor José De Gregario agradece la exposición del Gerente de Análisis Macroeconómico señor Claudia Soto, suspende la Sesión a las 13:15 horas e informa que la misma se reanudará a las 16:00 horas."
+    },
+    {
+      "ID_Padre": 3571,
+      "ID_Actual": 5143,
+      "Actor": "Manuel Marfán Lewis",
+      "SHA256_Texto_Padre": "2152c6d07d89fa7f4ec211ef52b1c67b22a33cb94c8fa0dcfd7a4552e8bfc979",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Para cerrar la discusión, el Presidente señor José De Gregorio destaca la relevancia de dimensionar y de tomar una posición respecto de cuál es la importancia que juega el policy. "
+    },
+    {
+      "ID_Padre": 3650,
+      "ID_Actual": 5237,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "410a0347656717088cf9a46b2d5ce4841b634d1580e69b47bfd9eab0cdb7a8c4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El Gerente de Análisis Internacional señor Sergio Lehmann confirma lo expresado por el señor Presidente y el Gerente de División Estudios señor Luis Óscar Herrera, por su parte, explica que quienes argumentan que la apreciación de la moneda china es mayor, usan los datos de salarios, que han experimentado un alza de entre 15 y 20%, más allá del aumento anotado por la productividad."
+    },
+    {
+      "ID_Padre": 3651,
+      "ID_Actual": 5238,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "93271dab9f9aa8b4ba85182d596a89cddb8cae6e4fd2751a192b98748239a44f",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Para cerrar este tema, el señor Sergio Lehmann agrega que el tipo de cambio nominal se apreció alrededor de 3,5% durante el año 2010 y que para este año se estima una apreciación de 5%. "
+    },
+    {
+      "ID_Padre": 3737,
+      "ID_Actual": 5333,
+      "Actor": "Beltrán de Ramón Acevedo",
+      "SHA256_Texto_Padre": "8a1dc0c8274d61739404f534249c49b02693a31ddcbcaf3790d8a17db0330cd6",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Con el objeto de entender los movimientos en bolsa, el señor Sergio Lehmann explica que en las economías emergentes se observa una salida muy marcada de fondos de inversión de renta variable, similar, de hecho, a lo acontecido hacia fines del año 2007 y comienzos del año 2008, mientras que las posiciones en bonos muestran un ligero aumento en virtud de las expectativas de alza de tasas. "
+    },
+    {
+      "ID_Padre": 3800,
+      "ID_Actual": 5401,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "c66c98897c02a55f09fce3132dc22e01e596a2238fc17edb9ea35ed8490da1d8",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Por último, el señor Vicepresidente comenta que la Encuesta de Expectativas Económicas de febrero no es muy confiable, porque es respondida principalmente por los subrogantes, quienes no suelen manifestar su verdadero parecer cuando dista de la opinión mayoritaria del mercado, llevando a un resultado más bien uniforme. "
+    },
+    {
+      "ID_Padre": 3810,
+      "ID_Actual": 5412,
+      "Actor": "Sebastián Claro Edwards",
+      "SHA256_Texto_Padre": "b2a82d5e9b5ea1cdc554782387e55ea02e32196a7849a235d716a6780ba8dfb0",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al continuarse con la votación, el Consejero señor Enrique Marshall comienza su intervención agradeciendo al staff e\\ apoyo brindado en esta oportunidad."
+    },
+    {
+      "ID_Padre": 3813,
+      "ID_Actual": 5415,
+      "Actor": "Manuel Marfán Lewis",
+      "SHA256_Texto_Padre": "2ba6c82805ab531cf13a65ea7b23a3982511b8f5fd3c3612ec8ce082a6c7c06f",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al concluir con la votación, el Presidente señor José de Gregorio señala que en materia de inflación y crecimiento, durante las últimas semanas no se han observado desviaciones importantes del escenario macroeconómico respecto del delineado en el último IPoM, por cuanto las economías avanzadas siguen recuperándose pausadamente, aunque en el margen las perspectivas de crecimiento han mejorado; porque las economías emergentes siguen creciendo con vigor; y debido a que los precios de los commodities siguen con precios récord, en particular los alimentos, lo que ya está afectando los registros de inflación en la gran mayoría de las economías del "
+    },
+    {
+      "ID_Padre": 3887,
+      "ID_Actual": 5502,
+      "Actor": "Sebastián Claro Edwards",
+      "SHA256_Texto_Padre": "d8c21b38a94635b583aee621d4346374a9cb9226d2d1edb43800462c4a230453",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En consecuencia, el Consejero señor Sebastián Claro vota por aumentar la tasa Al continuar con la votación, el Consejero señor Enrique Marshall comienza su intervención agradeciendo al staff e\\ apoyo brindado en esta oportunidad. "
+    }
+  ],
+  "Pendiente_Del_Plan": [
+    "Continuar la cola por lotes contextuales; no se revisaron todos los candidatos.",
+    "Cotejo de actas originales para pasajes ambiguos/dañados.",
+    "Seis variantes de identidad y dos repeticiones sustantivas.",
+    "Revisión semántica independiente de una muestra con y sin alertas: no realizada."
+  ],
+  "Limite": "Punto de reanudación, no proceso activo. Lectura acotada del consolidado, sin cotejo PDF ni revisión semántica independiente. La delimitación de un acto no implica palabras pronunciadas ni certifica todo el padre. Mantener alertas y daños de la fuente."
+}

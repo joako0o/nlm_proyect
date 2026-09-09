@@ -1,0 +1,1232 @@
+{
+  "Version": 1,
+  "Commit_Base": "ef9eba3397f384333227a54474681d4c996cc6eb",
+  "Estado": "LECTURA_BILATERAL_SIN_MODIFICAR_DATOS",
+  "SHA256_Fuentes": {
+    "data/raw/2005-06-09 - Actas.pdf": "bce6cc8f02ceb563113c14a3031fffdf83dd29150884bedbea2c45c218c98ae2",
+    "data/raw/2005-07-12 - Actas.pdf": "58e6fd4ea726079c94310a1451e58ae0b3fdbf028629cde86f25bac03883e6c9",
+    "data/raw/consolidado_final.xlsx": "c1cb73821242a7dcb20a75aef671598a9a6901201318a1beb3f9723c9aa4a512"
+  },
+  "Padres": {
+    "1410": {
+      "Fecha": "2007-09-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Gerente de Análisis Internacional señor Lehmann señala que el spread de México que reporta JPMorgan, EMBI México, es el que aparece en el gráfico, esto es, 135 puntos base. Dentro del EMBI el 40% de los bonos son PEMEX, El Gerente de Mercados Financieros Nacionales señor Beltrán De Ramón indica que revisó los comentarios sobre este tema y complementando lo expresado por el señor Ministro de Hacienda en el Diario Financiero, puede concluir que el tema actual es que tener liquidez en el m ercado internacional representa un valor. Agrega que dado lo anterior, los inversionistas prefieren adquirir el bono mexicano, que el más conocido vence el año 2017 que es por mil millones de dólares, versus el bono del Gobierno chileno que ya tiene su tiempo, que se transa poco y en general, está en poder de inversionistas locales. Indica que a pesar de estos cambios m etodológicos dichos bonos están más o menos a la par. Sin embargo, mirando los créditos que no requieren liquidez, ahí se observa la diferencia de 50 puntos base y en atención a que hay liquidez mundial, cree el señor De Ramón que esa es la verdadera diferencia entre el riesgo de Chile y el de México.",
+      "SHA256_Texto_Padre": "957733a16c28fbc93578316d20b938f45f90b6a51018852c12fee3b194323a5b",
+      "SHA256_Particion": "197c381dacfdecc81f7e5ec254fa038f46d136877f49acdcf574f7a889b879ac",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "1713": {
+      "Fecha": "2008-03-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Presidente señala que habría que hacer un esfuerzo al respecto porque el canal del crédito es de enorme importancia. El Gerente señor Magendzo comenta que efectivamente se está haciendo un esfuerzo. En relación a los índices del sector manufacturero y agrícola, el señor Ministro solicita al Presidente la posibilidad de que el staff del Banco confeccione índices de precios al integro del sector manufacturero como del sector agrícola, a lo que el señor Presidente responde que se verá la factibilidad de integrar dicha petición a la agenda de trabajo del equipo. El Gerente señor Magendzo comenta que se tiene un proyecto que está un poco en esa línea, respecto a precios de productos industriales.",
+      "SHA256_Texto_Padre": "78db221e005ab1e512cb5518fb6b50efdfb7338322c8c708aef8efc78fdf693a",
+      "SHA256_Particion": "7006d18ddb0b986f6dba21a3b523bbacc7111a161a07a1c208271612a3a21b93",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "1714": {
+      "Fecha": "2008-03-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Sebastián Claro menciona que el Servicio Nacional de Aduanas posee todos los datos de valor unitario, a lo que el señor Magendzo responde que efectivamente es así, pero que son datos que requieren ser organizados y ponderados en forma muy minuciosa, con muchos detalles y aplicando filtros para obtener la información requerida. Comenta asimismo, que resulta más fácil hacer un gráfico producto por producto, ya que existe el valor de exportación de éstos.",
+      "SHA256_Texto_Padre": "2b968d0efa829e929edca80f049263377b4a85d62d4ef83f957025db86d96179",
+      "SHA256_Particion": "4dfba35337174a22d29eb67afd8ba492414035a8d6524d82f32152de35840b18",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "1809": {
+      "Fecha": "2008-05-08",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregario comenta sobre este último tema que esto podría deberse a que aparentemente en Europa, Estados Unidos de América y en otros países el traspaso ha tenido mayor rezago, lo que sería coherente con el tema de la frecuencia cambio/precio, que en Europa es bastante menor que la que existe en Chile. Comenta que es probable que en dichas zonas este tipo de situaciones ocurra con un poco más de rezago, en tanto, en el grueso de los países en desarrollo se están realizando infinidad de cosas para evitar los aumentos de precios, El Gerente de División Estudios, señor Pablo García comenta que el Banco va a ener información más detallada de esta materia porque se está a punto de obtener una base de datos bien precisa, respecto a las canastas de consumo en un conjunto de países. Por lo tanto, con esta base se podrá comparar la evolución de precios de alimentos en forma detallada, con la evolución internacional, yeso justamente permitirá validar o no la hipótesis de que en Chile se produjo un traspaso más rápido que en el resto del mundo. El Presidente señor De Gregorio señala que otro aspecto que hay que tener presente y que el Economista señor Tomás Flores ha resaltado en estos días, es que no nos encontramos en el peak de alimentos, sino en el peak del petróleo. Agrega que el peak de alimentos fue el año 1980, y comenta que la posibilidad de que este fenómeno pare, si se compara con patrones históricos, podría extenderse todavía un largo camino.",
+      "SHA256_Texto_Padre": "5cf58c2fc4538493b642230e810b9182cb72a02f36d1e798fc9ed07ba300c40b",
+      "SHA256_Particion": "8e1267a91d9180e2441eafd5af46103f0f455aec90a778f153548d66b5495365",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "1857": {
+      "Fecha": "2008-06-10",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Manuel Marfán consulta si el ¡PC Care en la Zona Euro excluye energía y alimentos al igual que en Estados Unidos de América, a lo que el señor Lehmann responde afirmativamente.",
+      "SHA256_Texto_Padre": "4e0bbf1816e644e3407c4a9213fe3119ac0217a6e693e7ebbea08c7cbe77fba2",
+      "SHA256_Particion": "6e1c36e786d6c45254c03867c3fb42ec60c88f22f0eb9494a1177ce1af1f344f",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "1871": {
+      "Fecha": "2008-06-10",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Presidente comenta que los precios de estos tres productos agrícolas casi se triplican comparados con el año 2002, lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos. Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en el precio del cobre, no hay un cambio significativo, y tampoco en el precio de cereales, ya que los movimientos que tuvieron están anticipados en las proyecciones que ya se tenían. Comenta que lo claramente novedoso está en el petróleo y en la gasolina, que se revisan al alza en línea con los movimientos de los futuros. A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
+      "SHA256_Texto_Padre": "90c9661e04af4f00dc1ec77663bf1f1b899069663a251bf79b603a34e596f147",
+      "SHA256_Particion": "bf1767354e6d1dbcaf2959a384c15056c3c2d116dba459a6fffcd460ee93e991",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2027": {
+      "Fecha": "2008-08-14",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Vicepresidente señor Desormeaux agrega que le da la impresión de que las cifras de la Universidad de Chile registran una baja en la tasa de desempleo, lo que confirma el Gerente de Análisis Macroeconómico señor Soto.",
+      "SHA256_Texto_Padre": "ec828c142ff8416a1ccabb28ecfaac6c9a2c30c3428472e17562e47b1ad618f2",
+      "SHA256_Particion": "7cc8bbcd70b105d506b980a20617d917a46458d42b80190e4cc0033bc435ddf8",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2198": {
+      "Fecha": "2008-12-11",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Sergio Lehmann señala que en términos de inflación ha habido retrocesos importantes de ésta en las economías desarrolladas. Menciona que en Estados Unidos de América y en la Zona Euro, inflaciones headline e inflaciones core están cayendo, indica que lo mismo está sucediendo en Japón y el Reino Unido, Agrega, que esta situación sin embargo no se observa, por ahora, de manera importante en las economías emergentes. Por ejemplo tratándose de Brasil se ha mantenido elevada; en el caso de México está aumentando en el margen y señala que la excepción la constituye China, De hecho menciona que hoy se conoció el dato sobre la inflación de ese país para el mes de noviembre, y éste fue de 2,4% es decir, si se tuviera que incorporar el último dato para China se observaría una caída bastante importante, porque China constituye una excepción por el control de precios que tiene, por lo cual no es un país muy decidor en esta materia. En el caso de las economías latinoamericanas, señala que se aprecia en particular alguna resistencia al descenso de la inflación y agrega que de hecho esa situación fue uno de los elementos que hoy día, el Banco Central de Brasil tomó en consideración para efectos de mantener su Tasa de Política Monetaria, El Presidente señor José De Gregorio agradece la exposición del señor Sergio Lehmann respecto al escenario internacional y ofrece la palabra para consultas o comentarios.",
+      "SHA256_Texto_Padre": "71a57bac3b78bf222f97e705d10dd94f7d5484274b6f41dd11e5817a95f176a8",
+      "SHA256_Particion": "879c2207be2b32f405ed4be4c50a8a15905ac18730faba14c26fe3f20ee16edd",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2392": {
+      "Fecha": "2009-03-12",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Vicepresidente consulta si no se cuenta con datos más recientes que los que se han filtrado, y el señor Sergio Lehmann informa que menos 0,5 de crecimiento es la cifra que se dio a conocer formalmente. Por su parte el Gerente de División Estudios comenta que según cree esa cifra tiene un sesgo a la baja y que quizás pueda incluso ser corregida en los meetings de abril. En segundo lugar, señala que efectivamente para el 2010 el Fondo Monetario Internacional está pensando en cifras más bien cercanas a cero para los países desarrollados.",
+      "SHA256_Texto_Padre": "34fec67841f79b48d53edcef313a2f9c98a8532ca4172830812220432fdddcc8",
+      "SHA256_Particion": "68a033f1e64cf32c3772ddba5c5b494a0ff536b197154817347389fa383a1bce",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2535": {
+      "Fecha": "2009-05-07",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Gerente de Análisis Macroeconómico señor Claudio Soto señaló que el error de proyección fue de aproximadamente cinco décimas. Agrega que hacia delante, están corrigiendo combustible un poco hacia arriba más por la trayectoria de la gasolina que por el precio del petróleo. Indica que la trayectoria de gasolina ha sido algo mayor que la que se preveía antes sobre todo hacia el final del horizonte de proyección. En cuanto a perecibles, el señor Soto señala que éstos presentan una trayectoria algo más baja, justamente por el dato, sorpresivo de este mes, de la baja en frutas y verduras. Por lo tanto, señala que se está corrigiendo en algo a la baja la trayectoria de frutas y verduras hacia delante. Agrega que una reflexión como supuesto de trabajo importante, es que a partir de junio se empieza a devolver el Impuesto Especifico a los Combustibles, provocando un aumento en el precio de éstos de aproximadamente 100 pesos hasta septiembre u octubre aproximadamente, para luego comenzar a operar el precio de acuerdo a la banda de estabilización del precio de los combustibles Con estos antecedentes, el señor Claudio Soto señala que se estaría llegando a una inflación negativa en octubre de -0,6%, con inflaciones del IPCX1 muy bajas hacia delante y probablemente, con una variación mensual negativa en mayo. Aclara que esta proyección se realizó con los datos que llegaron durante la mañana correspondiente a la presente Reunión, por lo que no dispuso de demasiado tiempo para analizarla. En su opinión personal, esta proyección estaría algo sesgada al alza en términos de inflación, y podría ser que se tenga menos inflación hacia delante. / , El Presidente señor José De Gregorio señala que mañana se va a contar con una proyección más definitiva. Indica que entre noviembre y diciembre, la inflación acumulada fue aproximadamente -1,3%, lo que quiere decir que noviembre y diciembre del año pasado es -1,3%, con lo cual podría subir en 1,3% si la inflación es 0% en ambos meses. El año terminaría con 0,7%. Señala que lo anterior sería bajo el supuesto antes mencionado sobre el impuesto Especifico a los Combustibles, ya que en el escenario alternativo, el resultado sería casi 0% a fin de año.",
+      "SHA256_Texto_Padre": "d5c14daf99ae3f04034170c464ac315e8ebe4ff70fd4ca622b811ec0aebb00ba",
+      "SHA256_Particion": "9950acbc52f06d1e4647fea84419d9d5263d2f9cb9201f8c7629dc2e1973a1c6",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2560": {
+      "Fecha": "2009-06-16",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregorio acota que los datos presentados son solo estimaciones y que si bien elevan ligeramente la proyección, los resultados no representan un cambio muy significativo. El señor Lehmann confirma lo expresado por el Presidente señor José De Gregorio, agregando que aún no hay datos duros que apoyen necesariamente una recuperación tan importante y que los efectos centrales que están detrás de ellos son el leve mejoramiento que muestran las importaciones a nivel mundial, la confianza que ello pudiese empezar a reflejarse en el consumo y la inversión, y la normalización de los mercados financieros, que exhiben riesgos interbancarios bastante más reducidos, lo que hace prever que el funcionamiento del mercado bancario tenderá a normalizarse en algún grado. El Consejero Manuel Marfán señala que del análisis de las cifras de crecimiento expuestas se concluye que las correspondientes a los meses anteriores eran malas, mientras que las del mes de mayo resultaron las peores en su conjunto y que, a su juicio, la gran noticia de esta reunión es que simplemente estas dejaron de caer, a lo cual el Gerente de División Estudios, señor Pablo García, agrega que, desde el punto de vista de la economía mundial no hay antecedentes que hagan revisar el escenario del último Informe de Política Monetaria (IPoM).",
+      "SHA256_Texto_Padre": "d284f9f8acfc1da1a195d83c32dd79d08b1aa25671bafb5137e2c5ead3e60f68",
+      "SHA256_Particion": "5374a263e8d2f4e8a8d1c3ee65a3eba5263cf06020e42816e9607f8a05fe06d8",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2565": {
+      "Fecha": "2009-06-16",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Vicepresidente señor Jorge Desormeaux resalta que la TIP está en el mismo nivel que en septiembre de 2008, a lo cual el señor De Ramón precisa que actualmente se encuentra en 1,82% versus 1,83% de septiembre y que la tasa nominal en 3,68 % y 3,73%, respectivamente.",
+      "SHA256_Texto_Padre": "dd195e95cee17a8e34a0fe3c7d97c0c3de7f94ba8d7da7ec964ea97d4c9920fe",
+      "SHA256_Particion": "84263ee891514b847b0de2a48004dcbf268b855e3c38e10ab8e42ce8f75c1639",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2576": {
+      "Fecha": "2009-06-16",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Manuel Marfán consulta si lo expuesto podría interpretarse en términos que la política monetaria pudiera ser también menos expansiva de lo que refleja la tasa de interés, en tanto el Presidente señor José De Gregorio pregunta acerca de si el MI crece menos que lo que estimaría la demanda. En relación con las variaciones de las colocaciones, el Gerente de División Política Monetaria, señor Kevin Cowan, expresa dos comentarios: en primer término, que la encuesta que se presentó el jueves anterior a consideración del Consejo se efectuó en marzo pasado y se refiere a las condiciones del primer trimestre, por lo que el repunte que se observa en los meses de abril y mayo puede deberse a un cierto cambio en las condiciones; y, en segundo lugar, que en el caso particular de las colocaciones para la vivienda, el que se estén mostrando cifras nominales podría estar escondiendo un alza en la Unidad de Fomento, por cuanto estos préstamos son reajustables.",
+      "SHA256_Texto_Padre": "f67e13fe2661a51169488c061e3e559f72aa33aeeab04a5dd9286e589006453e",
+      "SHA256_Particion": "64b9a0dab7458de23c44b8f450247fdc9ec6c97124de9f57f33295e2accf49c0",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2580": {
+      "Fecha": "2009-06-16",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregorio consulta acerca de las razones que avalarían que las existencias todavía se encuentren elevadas , a lo cual el señor Claudio Soto responde que el 60% de los encuestados responde que las existencias están por sobre lo deseado. Añade, que dícha información es distinta de aquélla que dice relación con la venta e importaciones de automóviles, la que refleja que tales ventas están recuperándose , mientras que las importaciones están cayendo, por lo que se estaría frente a una reducción adicional de existencias.",
+      "SHA256_Texto_Padre": "8a8dc628830d513b31a380110a039bfe5482a42f840e928b5b0a26f82debd2c4",
+      "SHA256_Particion": "64c12dc650b486f4311f3562d9f248edeec1ab7d216063547598bb8e29483878",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2583": {
+      "Fecha": "2009-06-16",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregorio consulta por la magnitud de la corrección trimestre a trimestre, a lo cual el señor Soto responde que es de -4 puntos y el Gerente de División Estudios, señor Pablo García, complementa lo expresado indicando que el efecto en el nivel es de 1% y que anualizado es de -4,4%. El Presidente señor José De Gregorio reitera su consultar en cuanto solicita la cifra absoluta, a lo cual el señor Kevin Cowan responde que es de 0,2%, según el IPoM. El Gerente de Análisis Macroeconómico manifiesta que sería de -1,5% anualizado, pero que por un efecto de cambio de factores no resultaría extraño que en unos meses se obtenga que la corrección fuera positiva. Agrega, que parte de la corrección del tercer trimestre al alza se debe a la producción de recursos naturales, especialmente pesca, así como a otros sectores resto, mientras que industria, comercio, construcción, agricultura y una parte de servicios se están corrigiendo a la baja. Señala, que la primera corrección disponible a nivel desagregado para el tercer trimestre da un crecimiento de -1,1%, versus el -0,1% del último IPoM, el que, a su vez, se obtuvo de los modelos que no consideran la segregación sectorial. Indica también, que hay una corrección de la demanda a la baja, fundamentalmente por una corrección de inventarios y una leve corrección al alza del consumo por la dinámica propia de los bienes durables. Con todo, agrega que la proyección disponible supone que habrá un aumento de velocidades positivas en el tercer trimestre, tanto en los sectores resto como en el de recursos naturales.",
+      "SHA256_Texto_Padre": "105634b0b84cf0d7ba5bc9c6bb568cb655251f608fbd0f799fba7e5e16bbb0df",
+      "SHA256_Particion": "7a0a9ba1ace1f1315483d487b80977e6ce3744689465249d310c9e8e207dd87c",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2609": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente consulta si la tasa efectiva es mayor que la estimada, a lo cual el señor Lehmann responde que dicha tasa ha estado algo por debajo de la tasa que entregaron los modelos. Añade, que si se incorporara, particularmente, lo que es el balance del FED, esto es. SI se midiera en algún grado lo que es el quantitative easing, probablemente sí explicaría bien este movimiento, lo cual refleja que hay un efecto asociado a esta política. Al respecto, el señor Vicepresidente agrega que ello también se debe a que el entusiasmo se redujo de forma significativa durante las semanas previas, lo que explica un cambio de expectativas.",
+      "SHA256_Texto_Padre": "df46bcd825ffee051f4c6d9bca522cfa72ddbaf391c7a9b9e02804c146e588ec",
+      "SHA256_Particion": "975703c104c2aaf29a4cf006f33451ffe2eef833bfd5e691aa7133a3ed500926",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2615": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Gerente de Análisis Macroeconómico, señor Claudio Soto, da inicio a su presentación, indicando que el IMACEC de abril registró una corrección muy relevante, de 1% mes a mes, dato que si se compara con el de mayo se traduce en un leve aumento de 0,2%. En mayo, por el contrario, este índice fue de -4,4%, en línea con lo proyectado, y aún más bajo si se considera el promedio de lo que va del trimestre. A la pregunta del Consejero señor Sebastián Claro acerca de si el nivel final es el mismo, el señor Soto contesta que es más bajo, influenciado básicamente por lo acontecido en el mes de abril más que por lo que ocurrió en el mes de mayo pasado, a lo cual el señor Ministro de Hacienda agrega que lo positivo, entre comillas, no es que haya mejorado mayo, sino que bajó la tasa. En cuanto a la dinámica sectorial, el Gerente de Análisis Macroeconómico destaca que si bien la industria ha continuado cayendo de manera sistemática, los sectores vinculados a la inversión son los que registran las disminuciones más intensas, y que la minería, a pesar de exhibir un cierto rebote en el margen, registra alta volatilidad y niveles más bajos comparados con los del año anterior. Agrega, que los indicadores parciales de construcción son más bien mixtos, ya que hay un cierto efecto positivo en las ventas reales, pero por otra parte los despachos de cemento y los permisos de construcción siguen relativamente planos. Al respecto, comenta que en este sector se observó un cierto rebote en algún momento, que se estimó tendría mayor persistencia en el tiempo, pero que los últimos dos datos indican que los permisos estarían estancados. Respecto del comercio, señala que las cifras son más alentadoras, toda vez que algunos indicadores, en especial, los ligados al comercio minorista, han experimentado un cierto incremento, no así el comercio mayorista, cuyo margen es más bajo que los datos previos.",
+      "SHA256_Texto_Padre": "f74b46b3f7861d0a3219bd0d29f067787560bbac87a8836324f319f9580a419b",
+      "SHA256_Particion": "df5bea729db1d4ab1858a81f8be7b79e92ee100fb438cd599b5dbd4c0a150047",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2619": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Enrique Marshall complementa lo expresado, indicando que en el caso de los inventarios concurre también un factor de composición, por cuanto tratándose de los automóviles está claro que en un momento de crisis cambia la composición de la demanda y por lo tanto los vendedores se quedan con stock. El Gerente de Análisis Macroeconómico retoma su exposición e informa que para jumo los datos de consumo energético, que son relativamente bajos, hacen prever un IMACEC que podría estar en torno a -5%, lo que representa una leve caída con respecto de su nivel de mayo. Aclara que la proyección de la Gerencia para el mes, que es coherente con la estimación que se tiene para el trimestre, no es literalmente la proyección del IMACEC con el modelo de energía, pero que este último ayuda a ajustar las proyecciones, por lo que, en consecuencia, se tiene una proyección del IMACEC implícita en torno a -5% y algo más alto. Con ello, agrega que, en términos de las proyecciones mensuales, en adelante, podría haber una pequeña caída adicional en el nivel del IMACEC en el margen. Destaca, que lo más relevante es el ajuste en la corrección del crecimiento del segundo y tercer trimestres de este año, desde -4% hasta -4,8% para el segundo trimestre y desde -1,1% hasta -2,1% para el tercero. En relación con consultas formuladas por el Presidente señor José De Gregorio y el Ministro de Hacienda señor Andrés Velasco, el señor Claudio Soto responde que los datos antedichos se encuentran ya corregidos y que el IPoM de mayo informó -2,9% para el segundo trimestre. Asimismo, aclara que los datos trimestre contra trimestre arrojan -5,1% para el segundo trimestre y 7,3% para el tercero. El asesor del Ministro de Hacienda, señor Igal Magendzo, indica que para crecer -0.75% en el año habría que hacerlo al 6% en doce meses en el cuarto trimestre, y consulta si se tiene alguna indicación acerca de la velocidad que ello implica, a lo cual el Gerente de División Estudios responde que se necesita un crecimiento anualizado de entre 10 y 15% secuencial en el tercer y cuarto trimestres. Precisa, que con los datos de los IMACEC implícitos en el segundo trimestre, se calcula el IMACEC desestacionalizado por todo el período y se utiliza como factor para desestacionalizar el PIB.",
+      "SHA256_Texto_Padre": "2475528c04a91d58d770885fc77651f47970d806734133ff56e6e32028302dd7",
+      "SHA256_Particion": "61ee2f4678da8f8583e0cb885492d40e65622337163d44c694710412278cbd9a",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2621": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente consulta asimismo, acerca de la cifra de la Encuesta de Expectativas para el presente trimestre, a lo cual el señor Pablo García responde que asciende a -3,5%, y el señor Claudio Soto agrega que esta se corrigió de -1 a -5% para el año.",
+      "SHA256_Texto_Padre": "e71867a8827dd3340d42f78362133cbc91fa3f660c30314acb4cf49ca5b72319",
+      "SHA256_Particion": "fdb6ca0e23ca8d9379d540baff995e3eb0b96834dedbe8d618a01eb6dac12526",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2622": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Enrique Marshall señala que, en su opinión, más importante que discutir la serie de proyecciones, el aspecto central está en si acaso se va a producir la recuperación en el segundo semestre y cuál va a ser el grado. Agrega,que con la proyección de la economia, lo más probable es que se cierre el año con cifras por debajo de lo esperado. Para el referido Consejero, lo fundamen tal fue el mensaje transmitido por el Sanco en mayo, en cuanto a que habrá recuperación económica con cierta intensidad y que el riesgo en este punto reside en la potencia que va a tener . A juicio del Presidente José De Gregorio, esa pregunta es relevante en el caso del -2,1% correspondiente al tercer trimestre, el que de acuerdo con lo que se puede deducir, asciende a un 4,2% anualizado. El señor Claud io Soto precisa que se trata de 7,3%, a lo cual el Presidente señala que es más fuerte aún y que le llama la atención que ese -4,8% sea menor que el -2,1% contemplado en el Informe del primer trimestre . El Gerente de División Estudios aclara que se trata de las velocidades y el Gerente de Anális is Macroeconómico agrega que las variaciones trimestre a trimestre hay que multiplicarlas por cuatro para sacar las velocidades.",
+      "SHA256_Texto_Padre": "5426afc76089e253b26fd2f323058ac46d92490efc1ff8e87529fa762600108d",
+      "SHA256_Particion": "bcb03eb1477aeac3d405204887a44c84c2588f59fb956cfdf62705a54cd771d9",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2626": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregorio hace referencia a las tasas de interés de los créditos de consumo, que se redujeron a todos los plazos, especialmente, las de a más de tres años que disminuyeron entre 90 y 120pb. Añade, que las tasas de interés de las colocaciones comerciales cayeron bajo 6%, a lo cual el Gerente de División Política Financiera especifica que esa reducción se refiere a esos antecedentes respecto de la última Reunión.",
+      "SHA256_Texto_Padre": "32317abc356a527a5a80a4035251e40a2b0680fbc14f5cab511d02200201f588",
+      "SHA256_Particion": "42ce2e482023388bb29b40768e106c35cd682ff4b2cac415cc37016437c2821c",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2628": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Ministro de Hacienda plantea que, en su opinión, existen dos dimensiones que considerar: una, es la relativa a un plazo fijo entre agentes y la otra, es para el agente en cuanto al tiempo. En ambas, señala, hay dudas respecto del traspaso entre agentes por las razones ya mencionadas por el Presidente señor José De Gregorio y el Consejero señor Manuel Marfán, lo que se confirma cuando se observan las cantidades y no los precios. Indica, que el estancamiento de los stocks es bastante notorio, incluso para aquellos segmentos hipotecarios en que el Banco del Estado tradicionalmente es muy activo. Su otra duda, originada en la Minuta de Opciones, dice relación con las trayectorias esperadas, ya que en la Reunión de Política Monetaria anterior se comunicó que se esperaba una tasa a niveles actuales o menores por un tiempo prolongado, lo que no se refleja en la estructura de tasas en adelante. En su opinión, esa es otra dimensión que apunta en la misma dirección respecto a sembrar dudas sobre si el monetary stance es lo expansivo que requieren las condiciones actuales. El Gerente de División Estudios informa que la Gerencia monitorea el traspaso de tasas y que esa información se presenta en las Reuniones solo cuando hay hechos destacables que comunicar. Básicamente, señala, dada la trayectoria de la Tasa de Política Monetaria que se deduce de los precios de activos, que es la que se utiliza para ver los / traspasos de tasas, no se observan anomalías en la rebaja de las tasas de los créditos comerciales, tomando en cuenta también medidas de riesgo, de costos de fondos de la banca y otros elementos que se han analizado en varias oportunidades. El Ministro de Hacienda consulta acerca de cómo se define una anomalía, a lo cual el Gerente de División Estudios responde que se trata de un residuo positivo que se infiere de la trayectoria implícita para la Tasa de Política Monetaria en adelante en la curva forward y por las medidas de riesgo que vienen dadas, por ejemplo, el costo al que se fondean los bancos en el exterior, o el VIX o el EMBI, y si se observa un residuo positivo, estadísticamente significativo, se podría decir que existe una anomalía que no se está traspasando.",
+      "SHA256_Texto_Padre": "8cc838b883888ecfc3bbec0ff2076acb60b5c993937e96b6d6ac387f73a744dc",
+      "SHA256_Particion": "580b2b0ed2d72336dd2724abad833d0dda27b225c6fe9e69b2b47e0d42072964",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2635": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregorio afirma que los porcentajes mencionados corresponden al promedio, por lo que estima que la mediana es más baja, a lo cual el señor Claudio Soto confirma lo expuesto en cuanto a que se trata de los promedios. En general, acota, que las expectativas de inflación de esta fecha a un año son bajas y que en la Encuesta de Expectativas a dos años se sitúa en 3%. Respecto de la Tasa de Política Monetaria, el Gerente de Análisis Macroeconómico señala que las encuestas de expectativas a julio arrojan una TPM más baja y que de la curva forward se puede inferir que las expectativas para esta se ubican en 0,5% para los próximos meses y en torno a 2% para mediados del año 2010, y destaca que cerca de 60 pb del aumento de la curva forward se explican por nuevos benchmarks nominales. El Presidente señor José De Gregorio plantea que con los nuevos benchmarks la curva ha sido mucho más elevada que la forward que se deriva como modelo, a lo cual el Gerente de División Estudios indica que ello es efectivo, pero que la dirección del diagnóstico es la misma, esto es, que si se hubiera aplanado la curva forward, se habría generado un problema. En opinión del señor Presidente, lo expresado significa que el mercado sigue más la proyección del Banco que hace algunos meses.",
+      "SHA256_Texto_Padre": "0e2243330049b9e11e9fefa42ca1e942ccb675f8d11d95f0d884c0a9dade1851",
+      "SHA256_Particion": "d53c07e8bef3f452d5e7230541f3444f02f4f3a3c88c22c71d959a81e4280738",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2637": {
+      "Fecha": "2009-07-09",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente señor José De Gregorio explica que primitivamente se construía dicho benchmark sobre la base de un bono a dos años que había que reemplazarlo, mientras que actualmente se utiliza un bono genérico basado en una canasta que se representa al plazo de dos años. Para finalizar con la exposición del escenario interno, el señor Claudio Soto informa que para esta Reunión, la mayoría de los agentes encuestados estima que el Consejo acordará una disminución de la Tasa de Política Monetaria en 25 puntos base y que la nueva Tasa se mantendrá por lo menos hasta el próximo mes de septiembre. Destaca, que de la Encuesta de Expectativas se obtiene que la Tasa de Política Monetaria se encuentra más baja que hace un tiempo y que junto con ello, ha aumentado la dispersión entre las respuestas, lo que refleja una mayor incertidumbre respecto de la tasa a un año. El Presidente señor José De Gregorio agradece la presentación efectuada por el Gerente de Análisis Macroeconómico y ofrece la palabra para comentarios. En primer término, el Vicepresidente, señor Jorge Desormeaux, consulta acerca de las razones por las cuales la Encuesta de Expectativas arroja una diferencia de 100 pb con respecto de la forward al final de la proyección, a lo cual el Gerente de División Estudios, señor Pablo García, responde que se trata de una razón relacionada con la curva forward, ya que en razón del bajo nivel de la Tasa de Política Monetaria, se genera la incertidumbre respecto de que esa curva pueda ser esa o alguna mayor, por lo que existe una prima por riesgo que sesga los precios de los activos al alza.",
+      "SHA256_Texto_Padre": "8d941fa71ad9614fdbb049286e70ca9ebfcf1d73a673f68c872318118bdcc260",
+      "SHA256_Particion": "541f4ab57c44aaec072314b935fd4fe409b94ff9363b1020f3bda81a61b7b26d",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2664": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente afirma que la forma de la curva chilena es parecida o igual a la de los países desarrollados, y luego consulta sí hay technicality en el quiebre de un año y por qué todas las curvas tienen un quiebre tan fuerte en un año. El Gerente de División de Estudios responde que ello obedece a que hay un cambio de la frecuencia del eje del gráfico, que primero va mes a mes y luego año a año, a lo cual el señor Lehmann acota que es un tema visual.",
+      "SHA256_Texto_Padre": "c78ff05d7a93005e5594a4cb2ce2b32fe95a9200f9df39fc2d2251b92b50c8a8",
+      "SHA256_Particion": "8885ac7e3337ad011774cc12149effcf2e918a17011d2cc70d765679936d62d4",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2667": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Ministro de Hacienda consulta si estas empresas son las usuarias de cobre en Chile o fuera de Chile, a lo cual el Gerente de Análisis Internacional responde que cada uno de los países se pondera por el consumo de cobre correspondiente, y el Gerente de Al continuar con la exposición sobre consumo, el Gerente de Análisis Macroeconómico indica que, respecto de julio, el dato que más sobresale es el de importaciones, haciendo el alcance que ello obedece a una circunstancia bastante puntual, cual fue una importación de magnitud relevante de turbinas para generación eléctrica. En cuanto a las perspectivas para los inventarios, medidas por el IMCE, el señor Gerente menciona que, si bien estas han seguido retrocediendo, todavía están en niveles altos, recordando, en todo caso, que la media histórica siempre ha estado sobre los 50 puntos. Plantea que es por ello que no se debería esperar que el IMCE llegue a 50 puntos para pensar que la situación se ha normalizado, sino que el hecho que supere ese nivel significa recién una señal de cierta normalidad. Luego, el señor Soto manifiesta que el catastro de inversión en construcción e ingeniería de junio se corrigió marginalmente a la baja para los años 2009 y 2010, corrección que es bastante menor que la de catastros anteriores, mientras que para 2011 aparecen proyectos nuevos o hay una postergación de proyectos hasta entonces.",
+      "SHA256_Texto_Padre": "8ecd52eb4de993a9dac5b2f1a9cf06e13d9c74a70d29e9021e9a113c68debc4a",
+      "SHA256_Particion": "9f1554211c86513f874d63eee634b810606fd2055aabd70a2301279d965ccd78",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2670": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente De Gregorio pregunta en cuánto cerrará el cuarto trimestre, a lo cual el Gerente de División de Estudios responde que si se hace un ejercicio muy simple, que es mantener la velocidad registrada en junio para todos los meses del segundo semestre, que fue de 0,7%, la variación anual sería cercana a -1%, mientras que si se mantienen velocidades parecidas a las que se tenían en el IPoM de mayo, esta sería de -1,5%. Indica que ello es coherente con la discusión del último mes, cuando se tenían cifras más negativas que ese 0,7%, en que para llegar a un nivel de crecimiento en el año similar al del IPoM, tenían que registrarse expansiones anualizadas de entre 10 y 15%. Ahora, añade, como se cuenta con datos más alentadores, se necesitan cifras en torno a 8 ó 10%.",
+      "SHA256_Texto_Padre": "81bbb42efb6bfd5442c5d2d760088e7730f873b620e1211cd81ecfb3bac3f574",
+      "SHA256_Particion": "16fdd5fbd133424cc3f5a0676060cce1e1aa670978535d86c9a489d443371f7b",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2671": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Claudio Soto explica que hay factores que no son públicos, que se van corrigiendo por las correcciones de cuentas. De todas maneras, el 6,9% que se proyecta para el tercer trimestre es una velocidad alta, pero no tanto desde una perspectiva histórica. Menciona que se han registrado velocidades de esta magnitud en períodos de recuperación de una crisis, por lo que podría haber un rebote fuerte, pero se tiene cierta incertidumbre respecto de la velocidad del mismo en el tercer trimestre. En relación con el mercado laboral, el Gerente de Análisis Macroeconómico señala que la tasa de desempleo llegó a 10,7%, pero que si se desestacionaliza la serie, la tasa es de 10,1%, algo superior al 10% del mes previo. Ello se explica fundamentalmente por una tasa de empleo que sigue cayendo a tasas de 1% anual y por una fuerza de trabajo que mantiene tasas de crecimiento bastante estables en los últimos meses. De todas maneras, se observa que el empleo ha dejado de caer en el margen, principalmente por un fuerte aumento en el empleo por cuenta propia. Ante la solicitud del señor Ministro de Hacienda sobre mayores antecedentes de este último, el Gerente de División de Estudios indica que la dinámica del año 1999 fue similar, cuando se produjo un aumento en el empleo por cuenta propia al mismo tiempo que el asalariado estaba cayendo, a lo cual el señor Claudio Soto agrega que en 1998 se registró un alto nivel de servicios comunales, el que se repite ahora, conforme lo indica el último dato disponible.",
+      "SHA256_Texto_Padre": "2df6e74c87d01b6606585e58d81dc64d258928adc998231a1617c61761c985e6",
+      "SHA256_Particion": "6b2cc86093f10e8b00bdf3d89fe33b3f2cd4ea603deab7bf005c0e636a61bd6b",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2673": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Enrique Marshall pregunta si los trabajadores por cuenta propia son vendedores ambulantes o si pertenecen a otros sectores, a lo cual el señor Claudio Soto responde que los datos indican que un porcentaje importante corresponde al sector comercio, que lógicamente puede incluir a los vendedores ambulantes, pero que también pertenecen al sector agrícola e, incluso, al de la industria. Respecto de los salarios en general , el señor Soto informa que se mantienen las tasas de variación estables mes a mes, las que son algo más bajas que si se las compara en términos históricos, y que los salarios reales han experimentado un significativo aumento, producto de las caídas en los niveles de precios que se están observando . El señor Gerente agrega que los resultados de un par de modelos de demanda por empleo arrojan que este es más sensible a la actividad que a los cambios en el precio relativo. En cuanto al Indice de Precios al Consumidor, el señor Gerente de Análisis Macroeconómico reporta nuevamente un dato negativo, que lo fue algo más que el predicho, con lo que la tasa de inflación llega a 0,3% en términos anuales. Menciona que las principales sorpresas respecto de la proyección, se registraron en equipamiento de viviendas y en vestuario, cuyos precios presentaron importantes caídas, mientras que la proyección fue compensada, en parte, por una tarifa eléctrica que experimentó un descenso de una magnitud inferior al esperado. Añade que con el dato de inflación de julio, se tiene que las velocidades de la inflación y de casi todos sus componentes están en terreno negativo.",
+      "SHA256_Texto_Padre": "8031626448a1e52b4d085c48a74dc01b903db06f646a5b9f22b17ff8c9b268af",
+      "SHA256_Particion": "2536df557b23515a6db81eec1ae4397494bc94ca08f2766c87a3339d0dbf7864",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2692": {
+      "Fecha": "2009-09-08",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente De Gregorio consulta por el nivel normal de los inventarios en el mercado del cobre, respondiendo el señor Lehmann que estos han bordeado las 200 mil toneladas métricas, lo que es históricamente bajo en relación con lo observado en la primera mitad de esta década y en los 90, cuando eran cercanos a 600 mil toneladas métricas. De hecho, añade, luego de una caída, llegaron a ese nivel a principios de año, y ahora no hay certeza sobre cuál será el nivel de estabilidad. Para finalizar, el señor Gerente de Análisis Internacional menciona las principales proyecciones de los precios de los commodities para el 2009. Respecto del cobre, indica que es algo más alta respecto de un mes atrás, mientras que para el año 2010 no hay cambios significativos, proyectándose que alcanzará a 256 centavos de dólar la libra. En el caso de petróleo y gasolina tampoco se observan cambios importantes.",
+      "SHA256_Texto_Padre": "4c9dc196f3424759e6ed3258f6dc711bf2d4ac014fdb9ab0e20d1f512cdc181d",
+      "SHA256_Particion": "e6a8e20383c3938ed91e1b1f0a887e6d34046273a2ce1b1f3dfd4f638bcea075",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2704": {
+      "Fecha": "2009-09-08",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Gerente de División de Operaciones Financieras, señor Beltrán de Ramón, sostiene que se podría concluir que spreads más pequeños con colocaciones estancadas obedecen a un problema de demanda, lo que no es tan así, porque los bancos podrían establecer otras restricciones distintas al spread. De hecho, podrían estar fuera de ese spread, que ha estado cayendo en todos los sectores que son riesgosos, como la construcción, por ejemplo. Agrega tener antecedentes de que, en realidad, los bancos han puesto muchas más restricciones para otorgar líneas de crédito, más dificultades para otorgar créditos o solicitan más garantías para las boletas de garantía. Es decir, no es problema de demanda, consulta el señor Presidente, a lo cual el señor de Ramón manifiesta que no se puede concluir, necesariamente, que spreads más bajos y colocaciones estancadas sea un problema de demanda. Podría ser que subsistan los problemas de oferta de los bancos, que solamente han abierto líneas a algunos sectores. El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen, lo cual es confirmado por el señor Claudio Soto.",
+      "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+      "SHA256_Particion": "a5ce662929f0e9fc1fa1a00afcee6439ee6685f2820e9ca3821547c6b17cf597",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2723": {
+      "Fecha": "2009-10-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Vicepresidente, señor Jorge Desormeaux, comenta que el trasfondo de ello es que la salida de la crisis no será tan coordinada, por lo que van a producirse cierres de holguras más rápidos en el mundo emergente, a diferencia de las economías desarrolladas en que se centró la crisis, lo cual es confirmado por el señor Lehmann.",
+      "SHA256_Texto_Padre": "6c1656ea79dfc8aadf22e55e2946240537ea41123a38381ac103d4c164474988",
+      "SHA256_Particion": "f901b74cb70ff98b0bd3bd565cd0ea297b95939006a7b40654ac1b88cfb3de0b",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2726": {
+      "Fecha": "2009-10-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Manuel Marfán consulta si los spreads que reflejaban interés por liquidez siguen desalineados, a lo cual el señor Lehmann responde que los spreads Libor OIS a un mes están bastante estables, muy similares a los niveles previos a la crisis. En cambio, los spreads a seis meses exhiben discrepancias. El spread histórico entre la tasa de política monetaria y la Libor a doce meses está más alto que antes de la crisis, acotando que si bien ha estado disminuyendo, ello refleja un mercado bancario en que aún existen elementos que no se han normalizado. El spread a treinta días, en tanto, está bastante estable y muy parecido a los niveles pre crisis, reiterando que los de seis y doce meses son los que muestran distorsiones actualmente.",
+      "SHA256_Texto_Padre": "8665accbfc865e91b4dbbe7da96854f42a71f7917e4c55a6609522256600c963",
+      "SHA256_Particion": "c76a0bf26b3bc52f226f949e98810716ec32d04a0211a2b419a22158b1848a4b",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2743": {
+      "Fecha": "2009-10-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Jorge Desormeaux comenta que el señor Pablo García mencionaba la semana anterior que, al final, la responsable de este fenómeno es la propia política monetaria, a lo cual el señor Ministro acota que, al final, el arbitraje cuenta.",
+      "SHA256_Texto_Padre": "260048d124b4be52becebcc63d5678a33b8bac37cd3c3cc9701149a591563c29",
+      "SHA256_Particion": "bc01a76f0b0584760ee98e6b8b57ad371ba145350f2c66ad436f05600dc26f43",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2771": {
+      "Fecha": "2009-11-12",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El señor Presidente comenta que el sector industria está peor o igual y que construcción está peor, a lo cual el señor Vicepresidente añade que construcción está basada en el catastro de septiembre, y este, a su vez, en la encuesta y en la información de agosto, por lo que no sería raro que tal vez la próxima lectura del catastro haga una corrección al alza.",
+      "SHA256_Texto_Padre": "3fd09a4a6c393a617e40c6d0e283b992fa8174d311b83c9942c673b127684d9e",
+      "SHA256_Particion": "0b3056f038951a24abe74d3fd6d72cadae8026579db68f4fcf5368f8ee47a514",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    },
+    "2785": {
+      "Fecha": "2009-11-12",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Consejero señor Sebastián Claro señala que, en la medida que el mercado vea que el tipo de cambio real de equilibrio no ha variado mucho y observe una apreciación real spot, esas expectativas de depreciación deberán ir acompañadas de tasas en UF mayores Luego, se pasa de una situación con expectativas reales de depreciación cercanas a cero, por poner algún benchmark, a una con expectativas de depreciación reales algo positivas, a lo cual, el señor Claudio Soto responde que no es claro que existan expectativas de depreciación real. El Gerente de Análisis Macroeconómico retoma su presentación, refiriéndose a las colocaciones. Al respecto, indica que la curva de las colocaciones de consumo exhiben, en general, una cierta recuperación; que las colocaciones comerciales y las colocaciones de vivienda nunca tuvieron variaciones mensuales negativas, pero se mantienen en niveles bajos con respecto de los registrados hasta antes de la crisis; y que las colocaciones de comercio exterior han estado bastante volátiles y están aún en terreno negativo. Agrega que ello contradice en algo los últimos datos de importaciones y exportaciones, que dan cuenta de repuntes tanto nominales como reales. Estos datos, explica, están en dólares, por lo que pueden estar afectados por el tipo de cambio, ya que ellos aún no reflejan la fuerte caída de este último. En cuanto al tipo de cambio real, el señor Claudio Soto señala que el dato spot es algo más bajo que 92, mientras que, proyectando el dato nominal promedio de noviembre, que debe ser aproximadamente $512, estaría entre 93 y 93,2 el próximo mes, es decir, prácticamente en el centro de la banda. Añade que con un modelo ampliado, la apreciación del tipo de cambio desde julio hasta el 10 de noviembre puede ser explicada por fundamentales. Respecto de los indicadores bursátiles, el señor Soto reporta que el IPSA presenta una caída desde la última RPM, aunque menor que la de otros indicadores regionales.",
+      "SHA256_Texto_Padre": "825dbd4c482de6443f3a7ec8cdfc944325ab880d82f71aec565499b0c70a9e8f",
+      "SHA256_Particion": "3864073c952b3be4765c102089c8c65d2917b31bb985adb8e8d4ac563a3a9bfa",
+      "Limite": "Sólo los límites enumerados se registran como revisados; leer el padre no certifica todos sus intervalos, identidades, cargos o texto."
+    }
+  },
+  "Revisiones": [
+    {
+      "Revision_ID": "COMA-20260908-L1-1410-1",
+      "ID_Padre": 1410,
+      "Fecha": "2007-09-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2007-09-13:1410:1",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "f2e5780f163046eafbf5447f7fa8d714f61c8bceef7625385188e4b398f0be0e",
+        "Texto": "El Gerente de Análisis Internacional señor Lehmann señala que el spread de México que reporta JPMorgan, EMBI México, es el que aparece en el gráfico, esto es, 135 puntos base. Dentro del EMBI el 40% de los bonos son PEMEX,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2007-09-13:1410:2",
+        "Actor": "Beltrán de Ramón Acevedo",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "464fc102ece6c67d105efdc0f9e27212c5ebcbd54635b6c0d06a3996139499ac",
+        "Texto": "El Gerente de Mercados Financieros Nacionales señor Beltrán De Ramón indica que revisó los comentarios sobre este tema y complementando lo expresado por el señor Ministro de Hacienda en el Diario Financiero, puede concluir que el tema actual es que tener liquidez en el m ercado internacional representa un valor. Agrega que dado lo anterior, los inversionistas prefieren adquirir el bono mexicano, que el más conocido vence el año 2017 que es por mil millones de dólares, versus el bono del Gobierno chileno que ya tiene su tiempo, que se transa poco y en general, está en poder de inversionistas locales. Indica que a pesar de estos cambios m etodológicos dichos bonos están más o menos a la par. Sin embargo, mirando los créditos que no requieren liquidez, ahí se observa la diferencia de 50 puntos base y en atención a que hay liquidez mundial, cree el señor De Ramón que esa es la verdadera diferencia entre el riesgo de Chile y el de México."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Lehmann informa el spread y composición del EMBI; De Ramón comienza con nombre y predicado indica, y desarrolla su propia explicación de liquidez. La alusión al Ministro en el Diario Financiero no es un turno ministerial.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-1713-3",
+      "ID_Padre": 1713,
+      "Fecha": "2008-03-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-03-13:1713:3",
+        "Actor": "Andrés Velasco Brañes",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "e2475306e4e13cf1bde26a4eb422ca30f25c30ca132bb2ddd3fbbf3ad47a4e1c",
+        "Texto": "En relación a los índices del sector manufacturero y agrícola, el señor Ministro solicita al Presidente la posibilidad de que el staff del Banco confeccione índices de precios al integro del sector manufacturero como del sector agrícola,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-03-13:1713:4",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "905cdae79be5d0feb27e444974f643ca7bec41b1ec8252dc3d40a719c0b1910c",
+        "Texto": "a lo que el señor Presidente responde que se verá la factibilidad de integrar dicha petición a la agenda de trabajo del equipo."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Velasco solicita un trabajo al Presidente; a lo que el señor Presidente responde abre la respuesta de De Gregorio. Magendzo anterior y posterior se conserva aparte.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-1714-1",
+      "ID_Padre": 1714,
+      "Fecha": "2008-03-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-03-13:1714:1",
+        "Actor": "Sebastián Claro Edwards",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "b7b16b62c85545cc837e4f1a2f48dfd0a4b2fca3d40c9761b67cbaa1c70ae452",
+        "Texto": "El Consejero señor Sebastián Claro menciona que el Servicio Nacional de Aduanas posee todos los datos de valor unitario,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-03-13:1714:2",
+        "Actor": "Igal Magendzo Weinberger",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "800f9498c82d84026f3d3f520e5cc716be18eee5d54769d36534cc92cfbe6f50",
+        "Texto": "a lo que el señor Magendzo responde que efectivamente es así, pero que son datos que requieren ser organizados y ponderados en forma muy minuciosa, con muchos detalles y aplicando filtros para obtener la información requerida. Comenta asimismo, que resulta más fácil hacer un gráfico producto por producto, ya que existe el valor de exportación de éstos."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Claro aporta información sobre Aduanas; a lo que el señor Magendzo responde introduce la contestación y su explicación metodológica.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-1809-1",
+      "ID_Padre": 1809,
+      "Fecha": "2008-05-08",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-05-08:1809:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "d24de0a3474101a42f2fe6687a9bc8fbbd1bcc8f984719e856ff660c46630d29",
+        "Texto": "El Presidente señor José De Gregario comenta sobre este último tema que esto podría deberse a que aparentemente en Europa, Estados Unidos de América y en otros países el traspaso ha tenido mayor rezago, lo que sería coherente con el tema de la frecuencia cambio/precio, que en Europa es bastante menor que la que existe en Chile. Comenta que es probable que en dichas zonas este tipo de situaciones ocurra con un poco más de rezago, en tanto, en el grueso de los países en desarrollo se están realizando infinidad de cosas para evitar los aumentos de precios,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-05-08:1809:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "ac87ee2cfea84f06304ede010e350397cb419eaf0ea6684f569f6b4a5b75d8c9",
+        "Texto": "El Gerente de División Estudios, señor Pablo García comenta que el Banco va a ener información más detallada de esta materia porque se está a punto de obtener una base de datos bien precisa, respecto a las canastas de consumo en un conjunto de países. Por lo tanto, con esta base se podrá comparar la evolución de precios de alimentos en forma detallada, con la evolución internacional, yeso justamente permitirá validar o no la hipótesis de que en Chile se produjo un traspaso más rápido que en el resto del mundo."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "De Gregorio explica rezagos; El Gerente de División Estudios, señor Pablo García comenta inicia otro aporte. El retorno presidencial posterior conserva su sujeto; Tomás Flores es una referencia, no otra voz actual.",
+      "Reservas": [
+        "Se conservan De Gregario, va a ener y yeso. La lectura del límite no certifica esos términos ni habilita alias."
+      ],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-1857-1",
+      "ID_Padre": 1857,
+      "Fecha": "2008-06-10",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-06-10:1857:1",
+        "Actor": "Manuel Marfán Lewis",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "62949cda593fe2f5a979a141374043063280668961ffa5fbe2c360afa7d2f5ba",
+        "Texto": "El Consejero señor Manuel Marfán consulta si el ¡PC Care en la Zona Euro excluye energía y alimentos al igual que en Estados Unidos de América,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-06-10:1857:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "8eaf5279f9d6e90e5b822e1181b5457b22a8d3011703ca69a6c73828257b60ab",
+        "Texto": "a lo que el señor Lehmann responde afirmativamente."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Marfán pregunta por el índice de precios; Lehmann responde afirmativamente con sujeto nominal. La brevedad de la respuesta no la elimina.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-1871-1",
+      "ID_Padre": 1871,
+      "Fecha": "2008-06-10",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-06-10:1871:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "da897adc79237ed0d33d98beb96e2588ed05c3da5752c142f1fdd44cbceae510",
+        "Texto": "El señor Presidente comenta que los precios de estos tres productos agrícolas casi se triplican comparados con el año 2002,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-06-10:1871:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "137b712aef5799cfbbee2e975b35a4007e0208e7fb5db79b224d81ea960512e2",
+        "Texto": "lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Comentario presidencial seguido de lo que comparte el señor Lehmann, quien agrega. La relativa mantiene el aporte de Lehmann. Su exposición posterior y la cesión a Soto no se fusionan con el Presidente.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2027-1",
+      "ID_Padre": 2027,
+      "Fecha": "2008-08-14",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-08-14:2027:1",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "e2f4ef8bd2a0af9925bf8609e75b7535ad9a893ab05e656a7759470be2e09240",
+        "Texto": "El Vicepresidente señor Desormeaux agrega que le da la impresión de que las cifras de la Universidad de Chile registran una baja en la tasa de desempleo,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-08-14:2027:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "c250fe08e13bec89e85195c8d51c3e4c258fad7c3bb30eecfe75270df70e4818",
+        "Texto": "lo que confirma el Gerente de Análisis Macroeconómico señor Soto."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Desormeaux comenta la tasa de desempleo; lo que confirma el Gerente de Análisis Macroeconómico señor Soto es una confirmación propia. El enlace documentado de Soto a2028 se conserva.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2198-1",
+      "ID_Padre": 2198,
+      "Fecha": "2008-12-11",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2008-12-11:2198:1",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "c84d367b52fd4dc787df41d89f8557ff443b60c5d35a5602f4759fe038c3ad9c",
+        "Texto": "El señor Sergio Lehmann señala que en términos de inflación ha habido retrocesos importantes de ésta en las economías desarrolladas. Menciona que en Estados Unidos de América y en la Zona Euro, inflaciones headline e inflaciones core están cayendo, indica que lo mismo está sucediendo en Japón y el Reino Unido, Agrega, que esta situación sin embargo no se observa, por ahora, de manera importante en las economías emergentes. Por ejemplo tratándose de Brasil se ha mantenido elevada; en el caso de México está aumentando en el margen y señala que la excepción la constituye China, De hecho menciona que hoy se conoció el dato sobre la inflación de ese país para el mes de noviembre, y éste fue de 2,4% es decir, si se tuviera que incorporar el último dato para China se observaría una caída bastante importante, porque China constituye una excepción por el control de precios que tiene, por lo cual no es un país muy decidor en esta materia. En el caso de las economías latinoamericanas, señala que se aprecia en particular alguna resistencia al descenso de la inflación y agrega que de hecho esa situación fue uno de los elementos que hoy día, el Banco Central de Brasil tomó en consideración para efectos de mantener su Tasa de Política Monetaria,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2008-12-11:2198:2",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "501161c5fb18f3bb765ec5d06481a485616d93e58aeb0689abb94852dadd766f",
+        "Texto": "El Presidente señor José De Gregorio agradece la exposición del señor Sergio Lehmann respecto al escenario internacional y ofrece la palabra para consultas o comentarios."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Lehmann desarrolla el escenario inflacionario; El Presidente señor José De Gregorio agradece y ofrece la palabra abre la intervención presidencial, no el cierre del expositor.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2392-1",
+      "ID_Padre": 2392,
+      "Fecha": "2009-03-12",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-03-12:2392:1",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "1d03dbec9034a66dc8a013a65d4a65069307bbf78e96044c9fe73a032e673f8d",
+        "Texto": "El señor Vicepresidente consulta si no se cuenta con datos más recientes que los que se han filtrado,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-03-12:2392:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "423d01235fa2859426305d63d4d1faaa82e52ab7883aaaaaf27e30c7eabfb258",
+        "Texto": "y el señor Sergio Lehmann informa que menos 0,5 de crecimiento es la cifra que se dio a conocer formalmente."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Consulta del Vicepresidente seguida de información nominal de Lehmann. El comentario posterior del Gerente de División Estudios conserva otra voz.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2535-1",
+      "ID_Padre": 2535,
+      "Fecha": "2009-05-07",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-05-07:2535:1",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "64ff09ac8060c16a86be7786307a5f85305b5594c05bcd8d2f25393cc3d888a0",
+        "Texto": "El Gerente de Análisis Macroeconómico señor Claudio Soto señaló que el error de proyección fue de aproximadamente cinco décimas. Agrega que hacia delante, están corrigiendo combustible un poco hacia arriba más por la trayectoria de la gasolina que por el precio del petróleo. Indica que la trayectoria de gasolina ha sido algo mayor que la que se preveía antes sobre todo hacia el final del horizonte de proyección. En cuanto a perecibles, el señor Soto señala que éstos presentan una trayectoria algo más baja, justamente por el dato, sorpresivo de este mes, de la baja en frutas y verduras. Por lo tanto, señala que se está corrigiendo en algo a la baja la trayectoria de frutas y verduras hacia delante. Agrega que una reflexión como supuesto de trabajo importante, es que a partir de junio se empieza a devolver el Impuesto Especifico a los Combustibles, provocando un aumento en el precio de éstos de aproximadamente 100 pesos hasta septiembre u octubre aproximadamente, para luego comenzar a operar el precio de acuerdo a la banda de estabilización del precio de los combustibles Con estos antecedentes, el señor Claudio Soto señala que se estaría llegando a una inflación negativa en octubre de -0,6%, con inflaciones del IPCX1 muy bajas hacia delante y probablemente, con una variación mensual negativa en mayo. Aclara que esta proyección se realizó con los datos que llegaron durante la mañana correspondiente a la presente Reunión, por lo que no dispuso de demasiado tiempo para analizarla. En su opinión personal, esta proyección estaría algo sesgada al alza en términos de inflación, y podría ser que se tenga menos inflación hacia delante. / ,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-05-07:2535:2",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "ad0e011cd5e6b08d34a51f82d27c023906df6ac925066a68311c3c737ac8d748",
+        "Texto": "El Presidente señor José De Gregorio señala que mañana se va a contar con una proyección más definitiva. Indica que entre noviembre y diciembre, la inflación acumulada fue aproximadamente -1,3%, lo que quiere decir que noviembre y diciembre del año pasado es -1,3%, con lo cual podría subir en 1,3% si la inflación es 0% en ambos meses. El año terminaría con 0,7%. Señala que lo anterior sería bajo el supuesto antes mencionado sobre el impuesto Especifico a los Combustibles, ya que en el escenario alternativo, el resultado sería casi 0% a fin de año."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Soto expone proyecciones; El Presidente señor José De Gregorio señala introduce la precisión presidencial. El límite de voz es legible pese al residuo literal / , que no se borra ni se considera puntuación íntegra.",
+      "Reservas": [
+        "Residuo / , al final de Soto. Requiere cotejo textual; verificar el cambio de voz no cierra esta reserva ni elimina el aviso."
+      ],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2560-3",
+      "ID_Padre": 2560,
+      "Fecha": "2009-06-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-06-16:2560:3",
+        "Actor": "Manuel Marfán Lewis",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "34a07939a2d833274e53f80c87345bdc980011a23b54abc7bc7d91af008ef6bf",
+        "Texto": "El Consejero Manuel Marfán señala que del análisis de las cifras de crecimiento expuestas se concluye que las correspondientes a los meses anteriores eran malas, mientras que las del mes de mayo resultaron las peores en su conjunto y que, a su juicio, la gran noticia de esta reunión es que simplemente estas dejaron de caer,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-06-16:2560:4",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "b977eaa0ac4e0f2663c03718a016c8d6e14b78a5b605c6ab431ca7c3edcf4212",
+        "Texto": "a lo cual el Gerente de División Estudios, señor Pablo García, agrega que, desde el punto de vista de la economía mundial no hay antecedentes que hagan revisar el escenario del último Informe de Política Monetaria (IPoM)."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Marfán evalúa las cifras; a lo cual el Gerente de División Estudios, señor Pablo García, agrega identifica el complemento de García. Las referencias anteriores al Presidente no agregan turnos.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2565-1",
+      "ID_Padre": 2565,
+      "Fecha": "2009-06-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-06-16:2565:1",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "16a5ffd4bfe0d4f0369aa23682e43e17e600c1647c75fdfe6cd0e1973ec762f8",
+        "Texto": "El Vicepresidente señor Jorge Desormeaux resalta que la TIP está en el mismo nivel que en septiembre de 2008,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-06-16:2565:2",
+        "Actor": "Beltrán de Ramón Acevedo",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "bd3bcece0de459b809f790bf5263620d86033c9f5da43fb7f8b2153c7b953160",
+        "Texto": "a lo cual el señor De Ramón precisa que actualmente se encuentra en 1,82% versus 1,83% de septiembre y que la tasa nominal en 3,68 % y 3,73%, respectivamente."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Desormeaux compara la TIP; a lo cual el señor De Ramón precisa introduce cifras de la respuesta de De Ramón.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2576-1",
+      "ID_Padre": 2576,
+      "Fecha": "2009-06-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-06-16:2576:1",
+        "Actor": "Manuel Marfán Lewis",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "f25d09e3660e4315296d116f4a4db7fdf5133357bef651e34b0bbd638d15caa5",
+        "Texto": "El Consejero señor Manuel Marfán consulta si lo expuesto podría interpretarse en términos que la política monetaria pudiera ser también menos expansiva de lo que refleja la tasa de interés,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-06-16:2576:2",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "466f0fc359694aa2894e5f4915aec767243f1bc3ceb6ca2b73595435c18ba13a",
+        "Texto": "en tanto el Presidente señor José De Gregorio pregunta acerca de si el MI crece menos que lo que estimaría la demanda."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Marfán pregunta por expansividad y en tanto el Presidente señor José De Gregorio pregunta abre una segunda consulta propia. El aporte posterior de Cowan se conserva separado.",
+      "Reservas": [
+        "Fuera del límite revisado, el aporte de Cowan dice Gerente de División Política Monetaria. Cargo textual no certificado; conservar y cotejar, sin crear alias de cargo."
+      ],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2580-1",
+      "ID_Padre": 2580,
+      "Fecha": "2009-06-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-06-16:2580:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "0622b58bc55ece6217781a89f4ce1aef2b593be107a84dafac2e342c33c0c69c",
+        "Texto": "El Presidente señor José De Gregorio consulta acerca de las razones que avalarían que las existencias todavía se encuentren elevadas ,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-06-16:2580:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "0f8a9f88afaf54cafc8aa8e79fe0cf463047e1f82a79e173a6d692aa442507b6",
+        "Texto": "a lo cual el señor Claudio Soto responde que el 60% de los encuestados responde que las existencias están por sobre lo deseado. Añade, que dícha información es distinta de aquélla que dice relación con la venta e importaciones de automóviles, la que refleja que tales ventas están recuperándose , mientras que las importaciones están cayendo, por lo que se estaría frente a una reducción adicional de existencias."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Consulta presidencial seguida de a lo cual el señor Claudio Soto responde. La respuesta y su desarrollo sobre existencias permanecen con Soto.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2583-1",
+      "ID_Padre": 2583,
+      "Fecha": "2009-06-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-06-16:2583:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "cff6e47f5b99b04a5cdfe5e67a9fe8f29acffc3c9dcc7003311e2fbda11532ea",
+        "Texto": "El Presidente señor José De Gregorio consulta por la magnitud de la corrección trimestre a trimestre,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-06-16:2583:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "879f682e2335477e3b73db7f0243bbd27e6618afbc7fd1fa55417e46fe282e47",
+        "Texto": "a lo cual el señor Soto responde que es de -4 puntos"
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Se conserva el intercambio presidencial de cifras y las respuestas con sujetos propios; no fusionar la respuesta de Soto con la complementación de García ni el retorno del Presidente con Cowan. Foco Presidente101→Soto52.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2583-4",
+      "ID_Padre": 2583,
+      "Fecha": "2009-06-16",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-06-16:2583:4",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "ae9c8273f878d76ff2c64bdfa164d10b0bb9c592659c48b88b715d0c1c5e3639",
+        "Texto": "El Presidente señor José De Gregorio reitera su consultar en cuanto solicita la cifra absoluta,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-06-16:2583:5",
+        "Actor": "Kevin Cowan Logan",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "0f71a2897fb0446db08c643db0697c321871c972b5ce53b8a73025ebb11bd6e8",
+        "Texto": "a lo cual el señor Kevin Cowan responde que es de 0,2%, según el IPoM."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Se conserva el intercambio presidencial de cifras y las respuestas con sujetos propios; no fusionar la respuesta de Soto con la complementación de García ni el retorno del Presidente con Cowan. Foco Presidente95→Cowan70.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2609-1",
+      "ID_Padre": 2609,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2609:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "4ebb49e9f451dea811d1e2892339d48eb15fd79d1c6300d7b20c6093fd4645c8",
+        "Texto": "El Presidente consulta si la tasa efectiva es mayor que la estimada,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2609:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "da579e2ad164b211159820eea7132a336e1d6b74caf1c0d640a66f5b81323dd5",
+        "Texto": "a lo cual el señor Lehmann responde que dicha tasa ha estado algo por debajo de la tasa que entregaron los modelos. Añade, que si se incorporara, particularmente, lo que es el balance del FED, esto es. SI se midiera en algún grado lo que es el quantitative easing, probablemente sí explicaría bien este movimiento, lo cual refleja que hay un efecto asociado a esta política."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Pregunta presidencial seguida de respuesta nominal de Lehmann; el posterior agregado del Vicepresidente conserva su propio sujeto.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2615-1",
+      "ID_Padre": 2615,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2615:1",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "ab8c01924fca29fa93f5eaccb0afeaae3108a66fe5aa5b4583bbaf7770eaf0b6",
+        "Texto": "El Gerente de Análisis Macroeconómico, señor Claudio Soto, da inicio a su presentación, indicando que el IMACEC de abril registró una corrección muy relevante, de 1% mes a mes, dato que si se compara con el de mayo se traduce en un leve aumento de 0,2%. En mayo, por el contrario, este índice fue de -4,4%, en línea con lo proyectado, y aún más bajo si se considera el promedio de lo que va del trimestre. A la pregunta del Consejero señor Sebastián Claro acerca de si el nivel final es el mismo, el señor Soto contesta que es más bajo, influenciado básicamente por lo acontecido en el mes de abril más que por lo que ocurrió en el mes de mayo pasado,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2615:2",
+        "Actor": "Andrés Velasco Brañes",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "3b862da70cf7bf1c9339d1daf046d80e2fa3f1a16331c2d119d2b9d1900f2e01",
+        "Texto": "a lo cual el señor Ministro de Hacienda agrega que lo positivo, entre comillas, no es que haya mejorado mayo, sino que bajó la tasa."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Soto responde a una pregunta referida de Claro; a lo cual el señor Ministro de Hacienda agrega abre el aporte de Velasco. El desarrollo sectorial posterior vuelve a Soto. La referencia inicial a la pregunta de Claro no prueba un comienzo delimitado de otra voz dentro del foco.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2619-3",
+      "ID_Padre": 2619,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2619:3",
+        "Actor": "Igal Magendzo Weinberger",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "1857903624ccef486bc9f04c53570973ea71e807a8c9609c4b293b21e20474d0",
+        "Texto": "El asesor del Ministro de Hacienda, señor Igal Magendzo, indica que para crecer -0.75% en el año habría que hacerlo al 6% en doce meses en el cuarto trimestre, y consulta si se tiene alguna indicación acerca de la velocidad que ello implica,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2619:4",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "2596f13d3c3ed0e9d900b8aadd967205c7164312a984794af6249c38af642728",
+        "Texto": "a lo cual el Gerente de División Estudios responde que se necesita un crecimiento anualizado de entre 10 y 15% secuencial en el tercer y cuarto trimestres. Precisa, que con los datos de los IMACEC implícitos en el segundo trimestre, se calcula el IMACEC desestacionalizado por todo el período y se utiliza como factor para desestacionalizar el PIB."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Magendzo, aquí asesor del Ministro, pregunta por velocidades; a lo cual el Gerente de División Estudios responde abre la respuesta de García. Las preguntas referidas en el desarrollo previo de Soto no se transforman en turnos nuevos.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2621-1",
+      "ID_Padre": 2621,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2621:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "8ae121f3ce2f6963488d5e78cc926d9c3bdf1d4bf2de6509723d6ce8ef5d5901",
+        "Texto": "El Presidente consulta asimismo, acerca de la cifra de la Encuesta de Expectativas para el presente trimestre,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2621:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "04072e146768da35944b3df64f2e7ef6d26f6882db2bf14af92a66238674f6ee",
+        "Texto": "a lo cual el señor Pablo García responde que asciende a -3,5%,"
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "La pregunta presidencial, la respuesta nominal de García y el agregado nominal de Soto están separados; se revisan las dos comas sin agrupar a los dos economistas como una voz conjunta. Foco Presidente110→García62.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2621-2",
+      "ID_Padre": 2621,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2621:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "04072e146768da35944b3df64f2e7ef6d26f6882db2bf14af92a66238674f6ee",
+        "Texto": "a lo cual el señor Pablo García responde que asciende a -3,5%,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2621:3",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "78248b007dd732c5d6f6d07a62546eeadeb02787abdea4459e9246e7aaa9bf5e",
+        "Texto": "y el señor Claudio Soto agrega que esta se corrigió de -1 a -5% para el año."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "La pregunta presidencial, la respuesta nominal de García y el agregado nominal de Soto están separados; se revisan las dos comas sin agrupar a los dos economistas como una voz conjunta. Foco García62→Soto76.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2622-3",
+      "ID_Padre": 2622,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2622:3",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "a3d1da0c0ab040726d51ee90ba4ea303ff465ad9ef5c1b107bbb55f3ec3201c8",
+        "Texto": "El señor Claud io Soto precisa que se trata de 7,3%,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2622:4",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "2bb3087b1c293dbaf37d4c29301f39021afdbfb48ab521cb44becda0b82e997b",
+        "Texto": "a lo cual el Presidente señala que es más fuerte aún y que le llama la atención que ese -4,8% sea menor que el -2,1% contemplado en el Informe del primer trimestre ."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Soto precisa 7,3%; a lo cual el Presidente señala abre su respuesta. Los otros aportes y el pasaje A juicio del Presidente se preservan, sin regla global para A juicio.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2626-1",
+      "ID_Padre": 2626,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2626:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "2087a4af8ef6ff0782b74f39a6fcbeb14a4cfc058428c80e9865354e91e7076d",
+        "Texto": "El Presidente señor José De Gregorio hace referencia a las tasas de interés de los créditos de consumo, que se redujeron a todos los plazos, especialmente, las de a más de tres años que disminuyeron entre 90 y 120pb. Añade, que las tasas de interés de las colocaciones comerciales cayeron bajo 6%,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2626:2",
+        "Actor": "Kevin Cowan Logan",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "4b2fab55ad26827149d7d7153c595eddd08c5305751929d9f8ec06d9e0b788dc",
+        "Texto": "a lo cual el Gerente de División Política Financiera especifica que esa reducción se refiere a esos antecedentes respecto de la última Reunión."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "De Gregorio describe tasas; a lo cual el Gerente de División Política Financiera especifica abre la precisión de Cowan, no prolonga el comentario presidencial.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2628-3",
+      "ID_Padre": 2628,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2628:3",
+        "Actor": "Andrés Velasco Brañes",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "4bc4745fb01a6bc8973998ad652ac859a938a9833913e5ac366723810d63d47b",
+        "Texto": "El Ministro de Hacienda consulta acerca de cómo se define una anomalía,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2628:4",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "06f51aab5ab2d0b6c6c0eee8fb1f558422f97a496c446e73d3f21a0dd52774d4",
+        "Texto": "a lo cual el Gerente de División Estudios responde que se trata de un residuo positivo que se infiere de la trayectoria implícita para la Tasa de Política Monetaria en adelante en la curva forward y por las medidas de riesgo que vienen dadas, por ejemplo, el costo al que se fondean los bancos en el exterior, o el VIX o el EMBI, y si se observa un residuo positivo, estadísticamente significativo, se podría decir que existe una anomalía que no se está traspasando."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Pregunta ministerial sobre el significado de anomalía seguida de respuesta del Gerente de División Estudios. La referencia al Presidente y Marfán en el primer aporte del Ministro no es habla de ambos.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2635-1",
+      "ID_Padre": 2635,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2635:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "6e2be6094e9d17fdc537ed92c3cc69ad75df6cc9a07d87660faf26306f2448c9",
+        "Texto": "El Presidente señor José De Gregorio afirma que los porcentajes mencionados corresponden al promedio, por lo que estima que la mediana es más baja,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2635:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "1d0f4989d8c785964648457b7df6947243b32bcbd970409e0d407b8771a89343",
+        "Texto": "a lo cual el señor Claudio Soto confirma lo expuesto en cuanto a que se trata de los promedios. En general, acota, que las expectativas de inflación de esta fecha a un año son bajas y que en la Encuesta de Expectativas a dos años se sitúa en 3%. Respecto de la Tasa de Política Monetaria, el Gerente de Análisis Macroeconómico señala que las encuestas de expectativas a julio arrojan una TPM más baja y que de la curva forward se puede inferir que las expectativas para esta se ubican en 0,5% para los próximos meses y en torno a 2% para mediados del año 2010, y destaca que cerca de 60 pb del aumento de la curva forward se explican por nuevos benchmarks nominales."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Dos aportes presidenciales seguidos de respuestas diferentes, de Soto y de García. Se conservan los retornos y el comentario presidencial final. Foco Presidente147→Soto666.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2635-3",
+      "ID_Padre": 2635,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2635:3",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "eb2d2b16908b31098b2574fb9c29fe34f94e8a8b5ee2313663016c17dd26977b",
+        "Texto": "El Presidente señor José De Gregorio plantea que con los nuevos benchmarks la curva ha sido mucho más elevada que la forward que se deriva como modelo,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2635:4",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "648643553cfa1990a6218e78a2dd60bf297b1ee8ecc788fbc7ebc49e52a1c459",
+        "Texto": "a lo cual el Gerente de División Estudios indica que ello es efectivo, pero que la dirección del diagnóstico es la misma, esto es, que si se hubiera aplanado la curva forward, se habría generado un problema."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Dos aportes presidenciales seguidos de respuestas diferentes, de Soto y de García. Se conservan los retornos y el comentario presidencial final. Foco Presidente151→García207.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2637-4",
+      "ID_Padre": 2637,
+      "Fecha": "2009-07-09",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-07-09:2637:4",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "e6d350d7e5f8a9e3d44344c0bed30347673e0bed8dcb200bcf5a7c39f6a907a2",
+        "Texto": "En primer término, el Vicepresidente, señor Jorge Desormeaux, consulta acerca de las razones por las cuales la Encuesta de Expectativas arroja una diferencia de 100 pb con respecto de la forward al final de la proyección,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-07-09:2637:5",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "9a59cd42682813e60a4f1be3e57e97fd574d52cd4666dfa405935ab9aa5b3803",
+        "Texto": "a lo cual el Gerente de División Estudios, señor Pablo García, responde que se trata de una razón relacionada con la curva forward, ya que en razón del bajo nivel de la Tasa de Política Monetaria, se genera la incertidumbre respecto de que esa curva pueda ser esa o alguna mayor, por lo que existe una prima por riesgo que sesga los precios de los activos al alza."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Consulta del Vicepresidente sobre brecha entre expectativas y forward; a lo cual el Gerente de División Estudios, señor Pablo García, responde abre la explicación. La presentación previa de Soto y el cierre presidencial se preservan.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2664-2",
+      "ID_Padre": 2664,
+      "Fecha": "2009-08-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-08-13:2664:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "d3a747e7ed7c257811e571924b3e595c7155da5eddb2286676eaf0db2e2eff61",
+        "Texto": "El Gerente de División de Estudios responde que ello obedece a que hay un cambio de la frecuencia del eje del gráfico, que primero va mes a mes y luego año a año,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-08-13:2664:3",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "1b50753c5e612921972135bfbb9137165bd958f36bdd9980123d38be3bd2eff9",
+        "Texto": "a lo cual el señor Lehmann acota que es un tema visual."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "García explica la frecuencia del eje; a lo cual el señor Lehmann acota abre la precisión visual de otro hablante.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2667-1",
+      "ID_Padre": 2667,
+      "Fecha": "2009-08-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-08-13:2667:1",
+        "Actor": "Andrés Velasco Brañes",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "2c6daf19f501f0bcab0ab285c2bcf66b2a44967e27cad72ce3635f9ea2f43136",
+        "Texto": "El señor Ministro de Hacienda consulta si estas empresas son las usuarias de cobre en Chile o fuera de Chile,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-08-13:2667:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "3abe4c2e2c72c536f272b1f287b769ee7e986943153ac73a6695700bbbe2c040",
+        "Texto": "a lo cual el Gerente de Análisis Internacional responde que cada uno de los países se pondera por el consumo de cobre correspondiente, y el Gerente de"
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "El Ministro pregunta por países consumidores de cobre; a lo cual el Gerente de Análisis Internacional responde identifica el inicio de Lehmann. Sólo se verifica este inicio: la terminación y el Gerente de sigue dañada y pendiente, no se adjudica a otra persona.",
+      "Reservas": [
+        "El intervalo derecho conserva FINAL_SIN_PUNTUACION y TEXTO_DANADO_POR_COTEJAR; y el Gerente de sigue sin resolver. No certificar exclusividad de todo ese intervalo."
+      ],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2670-1",
+      "ID_Padre": 2670,
+      "Fecha": "2009-08-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-08-13:2670:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "ca5c614a26a676224e94c62ccc14dc25f6bd8491611e471ef762695e7938407b",
+        "Texto": "El Presidente De Gregorio pregunta en cuánto cerrará el cuarto trimestre,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-08-13:2670:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "db673fe2e2dafb19304621e435b077f4e261925cf807c900973f212d679d08e8",
+        "Texto": "a lo cual el Gerente de División de Estudios responde que si se hace un ejercicio muy simple, que es mantener la velocidad registrada en junio para todos los meses del segundo semestre, que fue de 0,7%, la variación anual sería cercana a -1%, mientras que si se mantienen velocidades parecidas a las que se tenían en el IPoM de mayo, esta sería de -1,5%. Indica que ello es coherente con la discusión del último mes, cuando se tenían cifras más negativas que ese 0,7%, en que para llegar a un nivel de crecimiento en el año similar al del IPoM, tenían que registrarse expansiones anualizadas de entre 10 y 15%. Ahora, añade, como se cuenta con datos más alentadores, se necesitan cifras en torno a 8 ó 10%."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Pregunta presidencial sobre cierre del trimestre seguida de respuesta propia del Gerente de División de Estudios.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2671-2",
+      "ID_Padre": 2671,
+      "Fecha": "2009-08-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-08-13:2671:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "99380ba2c90a2b1ab730719724fb67f8dea49b6c8cbee6387b0be03b5344c7e1",
+        "Texto": "Ante la solicitud del señor Ministro de Hacienda sobre mayores antecedentes de este último, el Gerente de División de Estudios indica que la dinámica del año 1999 fue similar, cuando se produjo un aumento en el empleo por cuenta propia al mismo tiempo que el asalariado estaba cayendo,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-08-13:2671:3",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "2af21c7749430ce173153fd697767bbea9d46503b70c02c25dd9b44b072d8c2e",
+        "Texto": "a lo cual el señor Claudio Soto agrega que en 1998 se registró un alto nivel de servicios comunales, el que se repite ahora, conforme lo indica el último dato disponible."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "García responde a una solicitud referida del Ministro; a lo cual el señor Claudio Soto agrega introduce un agregado de Soto. El desarrollo anterior de Soto no se fusiona a través de García.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2673-1",
+      "ID_Padre": 2673,
+      "Fecha": "2009-08-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-08-13:2673:1",
+        "Actor": "Enrique Marshall Rivera",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "88b2f32eb33ba673cee146e993967f4745a76ce860d4ea01531096150eaa3957",
+        "Texto": "El Consejero señor Enrique Marshall pregunta si los trabajadores por cuenta propia son vendedores ambulantes o si pertenecen a otros sectores,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-08-13:2673:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "a2cd1de906e2dcb3ffb3a992407cb1898ec2cb7059c090b7a72a6b26c8de18e7",
+        "Texto": "a lo cual el señor Claudio Soto responde que los datos indican que un porcentaje importante corresponde al sector comercio, que lógicamente puede incluir a los vendedores ambulantes, pero que también pertenecen al sector agrícola e, incluso, al de la industria. Respecto de los salarios en general , el señor Soto informa que se mantienen las tasas de variación estables mes a mes, las que son algo más bajas que si se las compara en términos históricos, y que los salarios reales han experimentado un significativo aumento, producto de las caídas en los niveles de precios que se están observando . El señor Gerente agrega que los resultados de un par de modelos de demanda por empleo arrojan que este es más sensible a la actividad que a los cambios en el precio relativo. En cuanto al Indice de Precios al Consumidor, el señor Gerente de Análisis Macroeconómico reporta nuevamente un dato negativo, que lo fue algo más que el predicho, con lo que la tasa de inflación llega a 0,3% en términos anuales. Menciona que las principales sorpresas respecto de la proyección, se registraron en equipamiento de viviendas y en vestuario, cuyos precios presentaron importantes caídas, mientras que la proyección fue compensada, en parte, por una tarifa eléctrica que experimentó un descenso de una magnitud inferior al esperado. Añade que con el dato de inflación de julio, se tiene que las velocidades de la inflación y de casi todos sus componentes están en terreno negativo."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Marshall pregunta por sectores del empleo por cuenta propia; a lo cual el señor Claudio Soto responde inicia la respuesta y exposición posterior. Se conserva su continuidad a2674 y los pendientes de ese vecino.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2692-1",
+      "ID_Padre": 2692,
+      "Fecha": "2009-09-08",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-09-08:2692:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "3f75cc46807ac13a8bf08fb88e6afb8c877e6aab252ee16f75c64f6fb073a7eb",
+        "Texto": "El Presidente De Gregorio consulta por el nivel normal de los inventarios en el mercado del cobre,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-09-08:2692:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "f3c58c708cf2f7c39d3ac7750844608a595f125f58fcd116d502b432e8c68f9f",
+        "Texto": "respondiendo el señor Lehmann que estos han bordeado las 200 mil toneladas métricas, lo que es históricamente bajo en relación con lo observado en la primera mitad de esta década y en los 90, cuando eran cercanos a 600 mil toneladas métricas. De hecho, añade, luego de una caída, llegaron a ese nivel a principios de año, y ahora no hay certeza sobre cuál será el nivel de estabilidad."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Consulta presidencial por inventarios de cobre; respondiendo el señor Lehmann introduce la respuesta, no una mención. El desarrollo posterior de Lehmann permanece completo.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2704-2",
+      "ID_Padre": 2704,
+      "Fecha": "2009-09-08",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-09-08:2704:2",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "972f2d47a86aee77dd92305c28f980435160e05e68f193be5956794a9f29cd9e",
+        "Texto": "Es decir, no es problema de demanda, consulta el señor Presidente,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-09-08:2704:3",
+        "Actor": "Beltrán de Ramón Acevedo",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "27bd6079e39b472891a51a66f55f0097dc53d1dda6e9c53974d571b4d32d6100",
+        "Texto": "a lo cual el señor de Ramón manifiesta que no se puede concluir, necesariamente, que spreads más bajos y colocaciones estancadas sea un problema de demanda. Podría ser que subsistan los problemas de oferta de los bancos, que solamente han abierto líneas a algunos sectores."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Se mantienen la consulta presidencial invertida y respuesta de De Ramón, y el comentario de Marshall seguido por confirmación de Soto48. No se absorben réplicas breves ni retornos. Foco Presidente66→De Ramón273.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2704-4",
+      "ID_Padre": 2704,
+      "Fecha": "2009-09-08",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-09-08:2704:4",
+        "Actor": "Enrique Marshall Rivera",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "57b1c89e3e6054cb7cda574be55d11f8cc6459f6b34d1681b914649a9a780266",
+        "Texto": "El Consejero señor Marshall aclara que la Superintendencia de Bancos entregó una cifra hace un par de semanas que mostraba un cierta estabilización en el margen,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-09-08:2704:5",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "bd8032d1c0710acd75eddf5e42344e8a1c5790430d0ce7f958f86f1b474a0f73",
+        "Texto": "lo cual es confirmado por el señor Claudio Soto."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Se mantienen la consulta presidencial invertida y respuesta de De Ramón, y el comentario de Marshall seguido por confirmación de Soto48. No se absorben réplicas breves ni retornos. Foco Marshall161→Soto48.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2723-1",
+      "ID_Padre": 2723,
+      "Fecha": "2009-10-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-10-13:2723:1",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "5fe28c2c80132c24b42bbec6e41c391c533ec5f548ce0dee5ff3d5251bd68df5",
+        "Texto": "El Vicepresidente, señor Jorge Desormeaux, comenta que el trasfondo de ello es que la salida de la crisis no será tan coordinada, por lo que van a producirse cierres de holguras más rápidos en el mundo emergente, a diferencia de las economías desarrolladas en que se centró la crisis,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-10-13:2723:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "f99b3680373835a152a4aca45504ce319c59cab850885aee1cb8694c77466773",
+        "Texto": "lo cual es confirmado por el señor Lehmann."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Comentario de Desormeaux seguido de lo cual es confirmado por el señor Lehmann: confirmación nominal distinta. El aviso de duplicado de la respuesta no se cierra por reconocer su autor.",
+      "Reservas": [
+        "La respuesta de Lehmann mantiene DUPLICADO_NO_FORMULA. No se cierra por esta revisión."
+      ],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2726-1",
+      "ID_Padre": 2726,
+      "Fecha": "2009-10-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-10-13:2726:1",
+        "Actor": "Manuel Marfán Lewis",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "1f93e0ae3a25cac7240e0b3167a34f5a648b914092f0de4d3fe9343361b946eb",
+        "Texto": "El Consejero señor Manuel Marfán consulta si los spreads que reflejaban interés por liquidez siguen desalineados,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-10-13:2726:2",
+        "Actor": "Sergio Lehmann Beresi",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "23189444a6f396cef333efe1a2871db652906bf668a78c9ca319a53d69d64192",
+        "Texto": "a lo cual el señor Lehmann responde que los spreads Libor OIS a un mes están bastante estables, muy similares a los niveles previos a la crisis. En cambio, los spreads a seis meses exhiben discrepancias. El spread histórico entre la tasa de política monetaria y la Libor a doce meses está más alto que antes de la crisis, acotando que si bien ha estado disminuyendo, ello refleja un mercado bancario en que aún existen elementos que no se han normalizado. El spread a treinta días, en tanto, está bastante estable y muy parecido a los niveles pre crisis, reiterando que los de seis y doce meses son los que muestran distorsiones actualmente."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Marfán consulta por spreads; a lo cual el señor Lehmann responde abre la explicación con su propio sujeto y desarrollo.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2743-1",
+      "ID_Padre": 2743,
+      "Fecha": "2009-10-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-10-13:2743:1",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "33b5119e43771496178bf0c6a347d353b423a93f5224b114bc10d27206bdc2f4",
+        "Texto": "El señor Jorge Desormeaux comenta que el señor Pablo García mencionaba la semana anterior que, al final, la responsable de este fenómeno es la propia política monetaria,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-10-13:2743:2",
+        "Actor": "Andrés Velasco Brañes",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "c8e9a72b712fdcf4451dd23d977be05f564c11cab4710c1cc192c02163d198e2",
+        "Texto": "a lo cual el señor Ministro acota que, al final, el arbitraje cuenta."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "La referencia de Desormeaux a lo que García mencionaba la semana anterior sigue siendo referencia; a lo cual el señor Ministro acota abre la respuesta actual de Velasco69. Ficha de mención anterior intacta.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2771-1",
+      "ID_Padre": 2771,
+      "Fecha": "2009-11-12",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-11-12:2771:1",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "acb0fa47648c2daa1f081bfd3f74efb18642e7c2a51f1fa82ec74904b7fc944c",
+        "Texto": "El señor Presidente comenta que el sector industria está peor o igual y que construcción está peor,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-11-12:2771:2",
+        "Actor": "Jorge Desormeaux Jiménez",
+        "Fuente_Actor": "SUJETO_ROL_SESION",
+        "SHA256_Texto": "b7c0ca2a1203599393c059f5583ccbbf10e366ee6425537bfee83929c8fab3c2",
+        "Texto": "a lo cual el señor Vicepresidente añade que construcción está basada en el catastro de septiembre, y este, a su vez, en la encuesta y en la información de agosto, por lo que no sería raro que tal vez la próxima lectura del catastro haga una corrección al alza."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Comentario presidencial seguido de a lo cual el señor Vicepresidente añade. La próxima lectura del catastro es referencia al análisis económico, no documento de tercero leído en sesión.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    },
+    {
+      "Revision_ID": "COMA-20260908-L1-2785-1",
+      "ID_Padre": 2785,
+      "Fecha": "2009-11-12",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-11-12:2785:1",
+        "Actor": "Sebastián Claro Edwards",
+        "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+        "SHA256_Texto": "d59cbcd931c75d94e999fe2ecd5ffc78f8ab5c168021c0ed57a4403ae76ede3d",
+        "Texto": "El Consejero señor Sebastián Claro señala que, en la medida que el mercado vea que el tipo de cambio real de equilibrio no ha variado mucho y observe una apreciación real spot, esas expectativas de depreciación deberán ir acompañadas de tasas en UF mayores Luego, se pasa de una situación con expectativas reales de depreciación cercanas a cero, por poner algún benchmark, a una con expectativas de depreciación reales algo positivas,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-11-12:2785:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "d6ef5c5d819173ec1b0a602dca4e9bedd83567a71839d4a14a0859799e26399b",
+        "Texto": "a lo cual, el señor Claudio Soto responde que no es claro que existan expectativas de depreciación real. El Gerente de Análisis Macroeconómico retoma su presentación, refiriéndose a las colocaciones. Al respecto, indica que la curva de las colocaciones de consumo exhiben, en general, una cierta recuperación; que las colocaciones comerciales y las colocaciones de vivienda nunca tuvieron variaciones mensuales negativas, pero se mantienen en niveles bajos con respecto de los registrados hasta antes de la crisis; y que las colocaciones de comercio exterior han estado bastante volátiles y están aún en terreno negativo. Agrega que ello contradice en algo los últimos datos de importaciones y exportaciones, que dan cuenta de repuntes tanto nominales como reales. Estos datos, explica, están en dólares, por lo que pueden estar afectados por el tipo de cambio, ya que ellos aún no reflejan la fuerte caída de este último. En cuanto al tipo de cambio real, el señor Claudio Soto señala que el dato spot es algo más bajo que 92, mientras que, proyectando el dato nominal promedio de noviembre, que debe ser aproximadamente $512, estaría entre 93 y 93,2 el próximo mes, es decir, prácticamente en el centro de la banda. Añade que con un modelo ampliado, la apreciación del tipo de cambio desde julio hasta el 10 de noviembre puede ser explicada por fundamentales. Respecto de los indicadores bursátiles, el señor Soto reporta que el IPSA presenta una caída desde la última RPM, aunque menor que la de otros indicadores regionales."
+      },
+      "Estado": "LIMITE_REVISADO_SIN_CIERRE",
+      "Justificacion": "Claro plantea una interpretación cambiaria; a lo cual, el señor Claudio Soto responde abre la discrepancia. La respuesta y reanudación de presentación se conservan con Soto; su continuidad posterior no se corta por longitud.",
+      "Reservas": [],
+      "Limitacion": "Límite existente cotejado con padre completo; no nuevo corte o reasignación. Conserva la coma y todas las alertas. No certifica identidad/cargo global, integridad OCR, otras voces del padre o exclusividad del tramo derecho. Sin nuevo cotejo PDF."
+    }
+  ]
+}

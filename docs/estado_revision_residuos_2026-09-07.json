@@ -1,0 +1,212 @@
+{
+  "Estado": "RESIDUOS_ACOTADOS_TERMINADOS_Y_PUBLICADOS",
+  "Filas": 9207,
+  "Alertas": 635,
+  "Pruebas": 222,
+  "Padres_Modificados": [
+    219,
+    294,
+    310,
+    503,
+    526,
+    594,
+    654,
+    674,
+    780,
+    1020,
+    2981
+  ],
+  "Residuos_Del_Bloque_Anterior": [
+    {
+      "ID_Padre": 2981,
+      "Estado": "RESPUESTA_DEL_PRESIDENTE_DELIMITADA",
+      "Detalle": "Intervalo señalando el señor Presidente + Agrega… separado de la pregunta de Marshall; se conserva Soto antes y después. No certifica pureza semántica completa del padre."
+    },
+    {
+      "ID_Padre": 780,
+      "Estado": "ACUERDO_DELIMITADO_INICIO_DE_CORBO_PENDIENTE",
+      "Detalle": "El Consejo comienza en En mérito de lo anterior…; no se reasigna el comienzo incierto de Corbo."
+    }
+  ],
+  "Pendientes_Identificados_Durante_Lectura": [
+    {
+      "ID_Padre": 780,
+      "Estado": "REQUIERE_COTEJO_Y_DELIMITACION_CONTEXTUAL",
+      "Detalle": "En la economía nacional aparece sin encabezado tras De Gregorio; después se nombra a Corbo. No adjudicar el comienzo por proximidad. Intento de acceso a la colección oficial bloqueado por verificación humana; no se leyó el PDF."
+    },
+    {
+      "ID_Padre": 2126,
+      "Estado": "PENDIENTE",
+      "Detalle": "Intervención conjunta: no asignar arbitrariamente un único actor."
+    },
+    {
+      "ID_Padre": 2661,
+      "Estado": "PENDIENTE",
+      "Detalle": "Delimitar todas las voces del intercambio; no resolver sólo su última coordinación."
+    }
+  ],
+  "Candidatos_Otro_Hablante_Sin_Anotacion": 97,
+  "Siguientes_Candidatos": [
+    {
+      "ID_Padre": 780,
+      "ID_Actual": 1053,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "c9325d0aa5f9fa57bef82bb441e6a5ef228ee0db912c062c1c0fdc09d758cf13",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo que sí ha cambiado, indica el señor Corbo, pero sin efectos perceptibles hasta ahora en las cifras macroeconómicas agregadas, son las expectativas tanto de las personas como de las empresas las que muestran un claro deterioro en los meses recientes. "
+    },
+    {
+      "ID_Padre": 2566,
+      "ID_Actual": 3606,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "4888d369b51dbde449be28d6dce158afb565cba3b64bd42387d31090aef16769",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Añade, que, de hecho, se ha pensado que la compensación inflacionaria se estaría normalizando después de un período en el que estuvo inusualmente baja, planteamiento al cual el Vicepresidente señor Jorge Desormeaux complementa, señalando que cuando el mercado financiero se empieza a tranquilizar, los inversionistas tienden a abandonar los activos seguros en busca de activos más riesgosos y que esos activos corresponden esencialmente a inversiones con tasas nominales. "
+    },
+    {
+      "ID_Padre": 2644,
+      "ID_Actual": 3768,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "ae1569d32298477457ba5b1aa72c320ca31d97394f54ce521043c9cb9dd751cb",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Lo anterior, manifiesta el señor Céspedes, puede redundar en una Tasa de Política Monetaria esperada mayor que la necesaria para volver la inflación al 3% en el horizonte de política. "
+    },
+    {
+      "ID_Padre": 2661,
+      "ID_Actual": 3795,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "ba871e522560a087da27e178ffbdc31badc52e41f09e7fa9b434fb31d9a632c4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El efecto debiera ser menor y al revés, acota el Ministro, y el señor Lehmann complementa que será necesario afinar el análisis."
+    },
+    {
+      "ID_Padre": 2667,
+      "ID_Actual": 3809,
+      "Actor": "Sergio Lehmann Beresi",
+      "SHA256_Texto_Padre": "8ecd52eb4de993a9dac5b2f1a9cf06e13d9c74a70d29e9021e9a113c68debc4a",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "a lo cual el Gerente de Análisis Internacional responde que cada uno de los países se pondera por el consumo de cobre correspondiente, y el Gerente de Al continuar con la exposición sobre consumo, el Gerente de Análisis Macroeconómico indica que, respecto de julio, el dato que más sobresale es el de importaciones, haciendo el alcance que ello obedece a una circunstancia bastante puntual, cual fue una importación de magnitud relevante de turbinas para generación eléctrica. "
+    },
+    {
+      "ID_Padre": 2704,
+      "ID_Actual": 3890,
+      "Actor": "Beltrán de Ramón Acevedo",
+      "SHA256_Texto_Padre": "1b67ddf55051af63a23c5ac9d1b0bcdab007b6a164bd979c55e116b2ca631ff9",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Es decir, no es problema de demanda, consulta el señor Presidente, "
+    },
+    {
+      "ID_Padre": 2768,
+      "ID_Actual": 3999,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "6249b0589812347de7c4a9bb5b20e4f78fd9e7137e406a91811116666095b30a",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al respecto, el Consejero señor Enrique Marshall recuerda que el Gerente de División Estudios, señor Pablo García, comentó que en una reunión en el Fondo Monetario Internacional había recogido visiones algo más negativas en relación con el mercado del petróleo. "
+    },
+    {
+      "ID_Padre": 2779,
+      "ID_Actual": 4025,
+      "Actor": "Kevin Cowan Logan",
+      "SHA256_Texto_Padre": "4f8c900b02547f37065c1b6bf660952ba8303456339e42fd0bea158cfa9a5fb4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El señor Soto asiente, mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. "
+    },
+    {
+      "ID_Padre": 2785,
+      "ID_Actual": 4031,
+      "Actor": "Sebastián Claro Edwards",
+      "SHA256_Texto_Padre": "825dbd4c482de6443f3a7ec8cdfc944325ab880d82f71aec565499b0c70a9e8f",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El Consejero señor Sebastián Claro señala que, en la medida que el mercado vea que el tipo de cambio real de equilibrio no ha variado mucho y observe una apreciación real spot, esas expectativas de depreciación deberán ir acompañadas de tasas en UF mayores Luego, se pasa de una situación con expectativas reales de depreciación cercanas a cero, por poner algún benchmark, a una con expectativas de depreciación reales algo positivas, a lo cual, el señor Claudio Soto responde que no es claro que existan expectativas de depreciación real."
+    },
+    {
+      "ID_Padre": 2805,
+      "ID_Actual": 4062,
+      "Actor": "Pablo García Silva",
+      "SHA256_Texto_Padre": "932234f15936d5c993a83019c0833d3699871eeac5304df12b7afaa03d4400b7",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Esa es una decisión que han adoptado y lo han hecho a través de operaciones de provisión de liquidez más barata, acota el señor Presidente."
+    },
+    {
+      "ID_Padre": 2855,
+      "ID_Actual": 4149,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "eb4218cbe44c2721cdf95cb802e0f9da9c381168075ee768487ac0b9f45e5fdc",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "A nivel sectorial, el señor Claudio Soto menciona importantes repuntes, como es el caso de la producción industrial vinculada a la inversión y, fundamentalmente, algunos componentes de comercio, sobre todo la venta de automóviles. "
+    },
+    {
+      "ID_Padre": 3107,
+      "ID_Actual": 4523,
+      "Actor": "Beltrán de Ramón Acevedo",
+      "SHA256_Texto_Padre": "70bdecaab346768f17df7bd8fbb422e87221bb826b91abc769adb5af4c7160c3",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Para complementar, el Gerente de Mercados Financieros Nacionales, señor Matías Bernier, señala que los vencimientos más cuantiosos de la FLAP han sido que no ha renovado en los Repos, y últimamente. "
+    },
+    {
+      "ID_Padre": 3123,
+      "ID_Actual": 4546,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "c84f302301f80057608ad0c754229a67ba49fb00415d524684d51d9814b2c2f6",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al continuar con la votación, el señor Presidente concede la palabra al Vicepresidente, señor Manuel Marfán, quien agradece, en primer término, el análisis del staff."
+    },
+    {
+      "ID_Padre": 3147,
+      "ID_Actual": 4577,
+      "Actor": "Beltrán de Ramón Acevedo",
+      "SHA256_Texto_Padre": "89cda9f19ba68255595049376f5a771810604217912df600004dd509e382e5f4",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Con respecto a la pregunta del Consejero señor Sebastián Claro, de por qué los bancos norteamericanos reaccionan igual que los europeos, el señor Gerente de División Operaciones Financieras señala que en Europa hay bancos AAA y muchos bancos AA, mientras que en Estados Unidos hay muchos bancos, pero bancos pequeños, donde todos son A o menos que A, salvo Wells Fargo y JP Morgan, que son AA Dado eso, y probablemente por el tipo de banco o fuente de información que consideró el señor Lehmann, piensa que se compararon bancos AA europeos con bancos estadounidenses A o menos de A y, por lo tanto, probablemente frente a una turbulencia en Europa, l"
+    },
+    {
+      "ID_Padre": 3158,
+      "ID_Actual": 4590,
+      "Actor": "Pablo García Silva",
+      "SHA256_Texto_Padre": "304d470f585515c6478f844583b9dc073579f13e33b24c8f5bf487417b9ff08b",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "El señor Pablo García señala que el empleo total asciende 6,5 millones de personas y el señor Claudio Soto agrega que, en abril, este registró una variación de 6,4% en doce meses, lo que implica alrededor de 400."
+    },
+    {
+      "ID_Padre": 3187,
+      "ID_Actual": 4621,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "dd1a3ab5eec7f3c17674b647721fd084db357372e242755580bae90d813e7f87",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Dado eso, el señor Vicepresidente manifiesta que el dinero debiera ser retirado para llegar a un punto de equilibrio en que la demanda sea igual a la oferta. "
+    },
+    {
+      "ID_Padre": 3191,
+      "ID_Actual": 4627,
+      "Actor": "Enrique Marshall Rivera",
+      "SHA256_Texto_Padre": "d596d82b964da0af1585fba5293a53767bd77dc6dcf311807f1f4ac82401803d",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al finalizar esta discusión, el Gerente de División Estudios, señor Pablo García, se refiere al planteamiento del Vicepresidente, señor Manuel Marfán, y explica que en los años 2000, las tasas de interés nominales fueron claramente inferiores a sus niveles históricos y, por lo tanto, lo que ocurrió habría sido, en parte, un proceso más de convergencia, que llevó a una monetización a tasas mayores que las que hubiesen correspondido dado el nivel de tasa prevaleciente."
+    },
+    {
+      "ID_Padre": 3221,
+      "ID_Actual": 4667,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "b60d361f9c18ceffdda41d956392300183e237a651c68f796f70f817826bdc73",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Al proseguir, el Gerente de Análisis Internacional señala que en materia de crecimiento está como referencia lo considerado en el último IPoM, lo que está hoy está proyectando una muestra de bancos de inversión, el último Consensus Forecasts y el World Economic Out/ook (WEO), actualizado hace un par de semanas tanto para el presente año como para 2011. "
+    },
+    {
+      "ID_Padre": 3233,
+      "ID_Actual": 4681,
+      "Actor": "José De Gregorio Rebeco",
+      "SHA256_Texto_Padre": "ec9064f45a4199559c2aeff706eb8fea5298b3234717848e53830e626c781a96",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "Ai respecto, el señor Pablo García responde que actualmente no lo hace, pero que pronto no solo calculará la brecha, sino que también la balanza estructural, como lo ha hecho para todas las economías que componen dicha organización."
+    },
+    {
+      "ID_Padre": 3303,
+      "ID_Actual": 4776,
+      "Actor": "Claudio Soto Gamboa",
+      "SHA256_Texto_Padre": "87b8e9aa37152b24797ed4c93baeb38b87bf5844764b2c36071d6d00ed642f66",
+      "Estado": "TRIAJE_AUTOMATICO_NO_ADJUDICADO",
+      "Evidencia_Alerta": "En cuanto al registro de los albañiles, el Gerente de Análisis Macroeconómico señor Claudio Soto informa que se incluyen en el sector construcción, en tanto que el señor Vicuña complementa, especificando que se incorporan como relaciones menores en dicho sector."
+    }
+  ],
+  "Limite": "Punto de reanudación, no proceso activo en segundo plano ni adjudicación automática. La lectura se limita al intervalo documentado; no excluir un padre entero por tener una corrección previa."
+}

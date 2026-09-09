@@ -1,0 +1,15 @@
+{
+  "Limites_Subgrupo": 167,
+  "Limites_Con_Ficha": 80,
+  "Limites_Sin_Ficha": 87,
+  "Padres_Con_Ficha": 75,
+  "Alertas_Cerradas": 0,
+  "SHA256_Base": "f9d76860d86500a8d3b928eb9e9f6849c74f9e4480df0fdaa381d090e69ddcd2",
+  "SHA256_Revisiones": null,
+  "SHA256_Lotes": {
+    "docs/revision_comas_lote1_2026-09-08/revisiones.json": "efd48b25aaa63ca591eb1bd2ca7923edff8bc2ede898c0635f73719b660b80fc",
+    "docs/revision_comas_lote2_2026-09-08/revisiones.json": "bb343dc2fd538d47a701f9d80a82200d1d9b13088cd70789f79e77efa0b70a99"
+  },
+  "Lotes": 2,
+  "Limite": "Seguimiento de lectura, no cierre de alertas ni certificación de padres completos. Los límites no revisados no se validan por proximidad."
+}
