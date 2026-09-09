@@ -170,7 +170,7 @@ con criterios acta/discurso, sin debilitar las restricciones del seguimiento per
 [Informe del lote 5](docs/REVISION_COMAS_LOTE5_2026-09-08.md) ·
 [5 límites institucionales sin ficha](docs/revision_comas_lote5_2026-09-08/comas_sin_ficha.csv).
 
-### Seguimiento vigente: sexto lote — acta/discurso
+### Sexto lote — acta/discurso (histórico; continúa en el lote 7)
 
 **167 de 167 límites de esta subcola tienen ficha: 162 personales y 5 acta/discurso.**
 Se leyeron los cinco padres institucionales completos (10.169 caracteres) y sus diez
@@ -190,6 +190,27 @@ que tienen motivos adicionales y no deben incorporarse eliminando esas reservas.
 
 [Informe del lote 6](docs/REVISION_COMAS_LOTE6_2026-09-08.md) ·
 [Cola combinada con clase de ficha](docs/revision_comas_lote6_2026-09-08/cola_comas.csv).
+
+### Seguimiento vigente: lote 7 — límites con reservas abiertas
+
+Se releyeron **2680, 2779 y 2957 completos**, sus seis intervalos vecinos y dos
+cabeceras. Los límites existentes están respaldados, pero quedan **tres reservas
+abiertas**, documentadas por separado de la decisión sobre quién interviene:
+
+- **2680:** hora `16; 15` y sesión 141 frente a 142 en la cabecera, sin corregir;
+  García conserva su continuidad hacia los 11.085 caracteres de 2681.
+- **2779:** Soto asiente, sin palabras transcritas; no se inventa una respuesta verbal
+  ni se elimina el acto por breve. Marshall responde por separado.
+- **2957:** `Rabio García` permanece literal y la atribución local a Pablo García
+  sigue **provisional**; la nómina no basta para confirmar identidad.
+
+**1.897 pruebas locales pasan (+19)**. Los 27 archivos de datos, los 30 artefactos
+anteriores y ambos validadores previos siguen idénticos. **Cero nuevos cortes,
+enlaces, reasignaciones o cierres; 465 filas alertadas.** La subcola anterior
+sigue en 167/167: estas tres fichas con motivos adicionales se mantienen aparte.
+
+[Informe del lote 7](docs/REVISION_COMAS_LOTE7_2026-09-08.md) ·
+[Tabla de riesgos abiertos](docs/revision_comas_lote7_2026-09-08/riesgos_abiertos.csv).
 
 ## Ejecutar todo el pipeline
 
