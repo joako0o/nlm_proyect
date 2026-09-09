@@ -198,8 +198,13 @@ def main():
     functional_path = os.environ.get('NLM_FUNCTIONAL_REVIEWS')
     functional = active_refinements({r['ID']:r for r in raw})
     if procedural:
-        from compare_procedural_v5 import compare, BASE
-        compare(read_rows(BASE)[1],rows)
+        # v6 se compara contra la entrega v5; los perfiles históricos contra v4.
+        if os.environ.get('NLM_PERFIL_CONSTRUCCION') == 'procedimental-v6':
+            from compare_procedural_v6 import BASE as BASE_V5, verify
+            verify(read_rows(BASE_V5)[1], rows)
+        else:
+            from compare_procedural_v5 import compare, BASE
+            compare(read_rows(BASE)[1],rows)
     elif functional:
         from compare_functional_v4 import compare, BASE
         compare(read_rows(BASE)[1],rows,functional)
@@ -313,7 +318,7 @@ def main():
         manifest['perfil_entrega'] = 'funcional-v4'
         manifest['pruebas_funcionales'] = {'archivo': str(Path(functional_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(functional_path)), 'refinamientos': len(functional)}
     if procedural:
-        manifest['perfil_entrega'] = 'procedimental-v5'
+        manifest['perfil_entrega'] = os.environ.get('NLM_PERFIL_CONSTRUCCION') or 'procedimental-v5'
         pp=Path(os.environ['NLM_PROCEDURAL_REVIEWS'])
         manifest['pruebas_procedimentales'] = {'archivo':str(pp.resolve().relative_to(ROOT)), 'sha256':digest(pp), 'enlaces':len(procedural)}
     if intra_path:

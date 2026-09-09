@@ -1,7 +1,8 @@
 """Construye en staging, ejecuta pruebas + F0/F1 y publica sólo si no hay fallos.
 
-Uso actual: python scripts/preparar_data.py --perfil procedimental-v5
+Uso actual: python scripts/preparar_data.py --perfil procedimental-v6
 El perfil predeterminado es procedimental-v5 y nunca sobrescribe una entrega existente.
+--perfil procedimental-v6 suma los dos enlaces intrapadre del lote6 sobre v5.
 --perfil legacy conserva el constructor anterior; puede sobrescribir data/processed.
 --destino admite una nueva salida bajo .cache/ o data/releases/.
 Las alertas semánticas no se ocultan: se publican en revision_pendientes.csv.
@@ -30,16 +31,23 @@ def release_target(destination):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2', 'intrapadre-v3', 'funcional-v4', 'procedimental-v5'), default='procedimental-v5')
+    # El perfil predeterminado sigue siendo procedimental-v5 (entrega histórica
+    # vigente al cierre de lote5). v6 es aditivo y siempre explícito.
+    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2', 'intrapadre-v3', 'funcional-v4', 'procedimental-v5', 'procedimental-v6'), default='procedimental-v5')
     parser.add_argument('--destino', type=Path)
     args = parser.parse_args(argv)
     versioned = args.perfil != 'legacy'
-    procedural = args.perfil == 'procedimental-v5'
-    functional = args.perfil in ('funcional-v4','procedimental-v5')
-    version = '3' if functional else args.perfil.removeprefix('intrapadre-v') if versioned else None
+    procedural = args.perfil in ('procedimental-v5', 'procedimental-v6')
+    functional = args.perfil in ('funcional-v4', 'procedimental-v5', 'procedimental-v6')
+    # Pruebas intrapadre acumuladas que exige cada perfil de construcción.
+    intrapara = {'funcional-v4': '3', 'procedimental-v5': '3', 'procedimental-v6': '4'}
+    version = intrapara[args.perfil] if functional else args.perfil.removeprefix('intrapadre-v') if versioned else None
     if args.destino and not versioned:
         parser.error('--destino sólo se admite con perfiles versionados')
-    default_target = ROOT / ('data/releases/continuidad_procedimental_v5' if procedural else 'data/releases/funcional_v4' if functional else f'data/releases/continuidad_intrapadre_v{version}')
+    default_release = {'procedimental-v6': 'data/releases/continuidad_procedimental_v6',
+                       'procedimental-v5': 'data/releases/continuidad_procedimental_v5',
+                       'funcional-v4': 'data/releases/funcional_v4'}
+    default_target = ROOT / (default_release[args.perfil] if functional else f'data/releases/continuidad_intrapadre_v{version}')
     target = release_target(args.destino or default_target) if versioned else ROOT / 'data/processed'
 
     cache = ROOT / '.cache'
@@ -51,13 +59,20 @@ def main(argv=None):
         env.pop('NLM_INTRAPARA_REVIEWS', None)
         env.pop('NLM_FUNCTIONAL_REVIEWS', None)
         env.pop('NLM_PROCEDURAL_REVIEWS', None)
+        env.pop('NLM_PERFIL_CONSTRUCCION', None)
+        if versioned:
+            # Cada perfil de construcción exige su propio acumulado intrapadre.
+            env['NLM_PERFIL_CONSTRUCCION'] = args.perfil
         if procedural:
             env['NLM_PROCEDURAL_REVIEWS'] = str(ROOT / 'data/curation/continuidades_procedimentales_v5.json')
         if functional:
             env['NLM_FUNCTIONAL_REVIEWS'] = str(ROOT / 'data/curation/refinamiento_funcional_v4.json')
         if versioned:
             env['NLM_INTRAPARA_REVIEWS'] = str(ROOT / f'data/curation/continuidades_intrapadre_v{version}.json')
-        gate = 'scripts/compare_procedural_v5.py' if procedural else 'scripts/compare_functional_v4.py' if functional else (f'scripts/compare_intrapara_v{version}.py' if version in ('2','3') else 'scripts/compare_intrapara_release.py')
+        gate = ('scripts/compare_procedural_v6.py' if args.perfil == 'procedimental-v6'
+                else 'scripts/compare_procedural_v5.py' if procedural
+                else 'scripts/compare_functional_v4.py' if functional
+                else (f'scripts/compare_intrapara_v{version}.py' if version in ('2','3') else 'scripts/compare_intrapara_release.py'))
         commands = [
             ['scripts/build_textos_completos.py'],
             ['-m', 'unittest', 'discover', '-s', 'tests', '-v'],

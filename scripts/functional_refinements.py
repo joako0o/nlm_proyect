@@ -113,13 +113,14 @@ def validate_refinements(rows,reviews):
     return errors
 
 
-def active_refinements(raw):
+def active_refinements(raw,intrapara_profile=None):
     """Impide combinar v4 con un perfil de continuidad incompleto por ambiente."""
     import os
-    from intrapara_profiles import profile_name
+    from intrapara_profiles import profile_name, required_intrapara
     path=os.environ.get('NLM_FUNCTIONAL_REVIEWS')
     if not path:return {}
     intra=os.environ.get('NLM_INTRAPARA_REVIEWS')
-    if not intra or profile_name(intra)!='intrapadre-v3':
-        raise ValueError('funcional-v4 requiere las quince pruebas intrapadre v3')
+    intrapara_profile=required_intrapara(intrapara_profile)
+    if not intra or profile_name(intra)!=intrapara_profile:
+        raise ValueError(f'El refinamiento funcional requiere las pruebas {intrapara_profile}')
     return load_refinements(raw,path)
