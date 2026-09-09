@@ -119,7 +119,7 @@ reservas de nombres, residuos, duplicados y posibles palabras desplazadas.
 [Informe del lote2 y plan para seguir](docs/REVISION_COMAS_LOTE2_2026-09-08.md) ·
 [87 límites sin ficha](docs/revision_comas_lote2_2026-09-08/comas_sin_ficha.csv).
 
-### Seguimiento vigente: tercer lote de comas
+### Tercer lote de comas (histórico; continúa en el lote 4)
 
 **120 límites con ficha bilateral y47 sin ficha**, tras revisar40 límites más en29
 padres completos. Se leyó todo2765, de12.127 caracteres: sus seis tramos se conservan,
@@ -134,6 +134,22 @@ las reservas de texto, cifras y nombres se conservan para cotejo.
 
 [Informe del lote3](docs/REVISION_COMAS_LOTE3_2026-09-08.md) ·
 [47 límites sin ficha](docs/revision_comas_lote3_2026-09-08/comas_sin_ficha.csv).
+
+### Seguimiento vigente: cuarto lote de comas
+
+**142 límites con ficha bilateral y 25 sin ficha**, tras revisar 22 límites más
+leyendo 22 padres completos (57.607 caracteres). Se conservan el voto de
+**Marshall de 5.484 caracteres**, la exposición de **Céspedes de 4.101** y las
+quince intervenciones del padre 1718. No se corta por longitud o cambios de tema.
+
+**1.841 pruebas locales pasan (+12)**. Los 27 archivos de datos y los 15 artefactos
+de los tres lotes anteriores permanecen idénticos. **Ningún nuevo corte, enlace,
+reasignación o cierre de alerta**: siguen 465 filas alertadas. La respuesta de
+García en 2938 conserva su final dañado y ambas advertencias; identificar su inicio
+no permite completar el texto. Quedan **20 límites personales y 5 institucionales**.
+
+[Informe del lote 4](docs/REVISION_COMAS_LOTE4_2026-09-08.md) ·
+[25 límites sin ficha](docs/revision_comas_lote4_2026-09-08/comas_sin_ficha.csv).
 
 ## Ejecutar todo el pipeline
 
