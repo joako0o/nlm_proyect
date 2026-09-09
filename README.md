@@ -90,19 +90,34 @@ al párrafo anterior. Son candidatos para cotejo, no reparaciones automáticas.
 Datos, curación, QA y manifiesto permanecen idénticos; **ninguna alerta cerrada**.
 [Informe y evidencia de las36 lecturas](docs/DIAGNOSTICO_FINALES_2026-09-08.md).
 
-### Seguimiento: primer lote de comas
+### Seguimiento: primer lote de comas (histórico)
 
-**40 límites existentes revisados en36 padres leídos completos;127 límites del subgrupo
-siguen sin ficha bilateral.** Los sujetos respaldan las separaciones examinadas; no
+**El lote1 registró40 límites existentes en36 padres completos y dejó127 límites
+sin ficha bilateral.** Los sujetos respaldan las separaciones examinadas; no
 hicieron falta nuevos cortes. Las comas y reservas textuales/de cargo permanecen literales.
 
 La nueva cola distingue **lectura realizada** de **alerta cerrada**: siguen465 filas
 alertadas. Se conservan el daño de2667, el duplicado de2723, el residuo de2535 y los demás
-pendientes. **1.795 pruebas locales pasan (+15); los27 archivos versionados de datos
-son idénticos**, incluida TPM externa. El pipeline y su QA siguen siendo los de LOOP32.
+pendientes. **En ese lote pasaron1.795 pruebas (+15); los27 archivos versionados de datos
+permanecieron idénticos**, incluida TPM externa. El pipeline y su QA siguen siendo los de LOOP32.
 
 [Informe del lote1](docs/REVISION_COMAS_LOTE1_2026-09-08.md) ·
 [127 límites sin ficha](docs/revision_comas_lote1_2026-09-08/comas_sin_ficha.csv).
+
+### Seguimiento vigente: segundo lote de comas
+
+**80 límites con ficha bilateral y87 sin ficha**, después de leer40 límites adicionales
+en39 padres completos. Se amplió la lectura a2010–2015 y al padre largo2738:
+**Soto4743 → Presidente105 → Soto947 → Marfán401**, conservando la presentación y el retorno.
+Los cinco límites institucionales siguen aparte; no se aprueban como dos voces personales.
+
+La herramienta acumula lotes sin duplicar límites ni modificar las40 fichas anteriores.
+**1.815 pruebas locales pasan (+20)** y los27 archivos de datos siguen idénticos:
+**465 filas alertadas**, sin nuevos cortes, reasignaciones o cierres. Permanecen las
+reservas de nombres, residuos, duplicados y posibles palabras desplazadas.
+
+[Informe del lote2 y plan para seguir](docs/REVISION_COMAS_LOTE2_2026-09-08.md) ·
+[87 límites sin ficha](docs/revision_comas_lote2_2026-09-08/comas_sin_ficha.csv).
 
 ## Ejecutar todo el pipeline
 

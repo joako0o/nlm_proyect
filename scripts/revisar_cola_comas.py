@@ -6,6 +6,7 @@ puntuación, certifica OCR ni valida otros límites del mismo padre.
 """
 import argparse
 import collections
+import copy
 import csv
 import hashlib
 import json
@@ -114,20 +115,57 @@ def check_sources(package):
             raise ValueError('Fuente original modificada: ' + name)
 
 
+def combine_packages(packages):
+    """Acumula lotes sin modificar originales ni contar un límite dos veces."""
+    if not packages:
+        raise ValueError('Se requiere al menos un lote')
+    combined = dict(Version=1, SHA256_Fuentes={}, Padres={}, Revisiones=[])
+    ids, limits = set(), set()
+    for package in packages:
+        if not isinstance(package, dict) or package.get('Version') != 1:
+            raise ValueError('Lote o versión incompatible')
+        try:
+            if not isinstance(package['Revisiones'], list):
+                raise ValueError('Revisiones debe ser una lista')
+            for name, expected in package['SHA256_Fuentes'].items():
+                if name in combined['SHA256_Fuentes'] and combined['SHA256_Fuentes'][name] != expected:
+                    raise ValueError('Hashes de fuente incompatibles entre lotes')
+                combined['SHA256_Fuentes'][name] = expected
+            for parent, evidence in package['Padres'].items():
+                if parent in combined['Padres'] and combined['Padres'][parent] != evidence:
+                    raise ValueError('Evidencia de padre incompatible entre lotes')
+                combined['Padres'][parent] = copy.deepcopy(evidence)
+            for e in package['Revisiones']:
+                rid, key = e['Revision_ID'], e['Izquierda']['ID_Intervencion']
+                if rid in ids or key in limits:
+                    raise ValueError('Ficha o límite duplicado entre lotes')
+                ids.add(rid); limits.add(key)
+                combined['Revisiones'].append(copy.deepcopy(e))
+        except (KeyError, TypeError, AttributeError) as exc:
+            raise ValueError('Lote incompleto') from exc
+    return combined
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--base', type=Path, default=ROOT / 'data/processed/consolidado_base_referencia.xlsx')
-    parser.add_argument('--revisiones', type=Path, required=True)
+    parser.add_argument('--revisiones', type=Path, action='append', required=True,
+                        help='Lote de fichas; repetir la opción para acumular varios')
     parser.add_argument('--salida', type=Path, required=True)
     args = parser.parse_args()
     output = safe_output(args.salida, args.base)
     names = ('cola_comas.csv', 'comas_sin_ficha.csv', 'resumen.json')
     destinations = {(output / name).resolve() for name in names}
-    if destinations & {args.base.resolve(), args.revisiones.resolve()}:
+    if destinations & ({args.base.resolve()} | {p.resolve() for p in args.revisiones}):
         raise ValueError('No se puede sobrescribir una entrada')
-    package = json.loads(args.revisiones.read_text(encoding='utf-8'))
-    check_sources(package)
-    queue = build_queue(read_rows(args.base), package)
+    packages = [json.loads(p.read_text(encoding='utf-8')) for p in args.revisiones]
+    rows = read_rows(args.base)
+    # Cada lote debe ser válido por sí solo: otro no puede suplir sus omisiones.
+    for item in packages:
+        check_sources(item)
+        validate_reviews(rows, item)
+    package = combine_packages(packages)
+    queue = build_queue(rows, package)
     pending = [q for q in queue if q['Estado_Lectura'] == PENDING]
     for name, data in [('cola_comas.csv', queue), ('comas_sin_ficha.csv', pending)]:
         with (output / name).open('w', newline='', encoding='utf-8-sig') as f:
@@ -136,7 +174,10 @@ def main():
     summary = dict(Limites_Subgrupo=len(queue), Limites_Con_Ficha=len(queue) - len(pending),
                    Limites_Sin_Ficha=len(pending), Padres_Con_Ficha=len(package['Padres']),
                    Alertas_Cerradas=0, SHA256_Base=hashlib.sha256(args.base.read_bytes()).hexdigest(),
-                   SHA256_Revisiones=hashlib.sha256(args.revisiones.read_bytes()).hexdigest(),
+                   SHA256_Revisiones=(hashlib.sha256(args.revisiones[0].read_bytes()).hexdigest()
+                                     if len(args.revisiones) == 1 else None),
+                   SHA256_Lotes={str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in args.revisiones},
+                   Lotes=len(args.revisiones),
                    Limite='Seguimiento de lectura, no cierre de alertas ni certificación de padres completos. Los límites no revisados no se validan por proximidad.')
     (output / 'resumen.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(summary, ensure_ascii=False, indent=2))
