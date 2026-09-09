@@ -86,9 +86,23 @@ puntuación, **167 terminan en coma antes de otro actor ya separado en el mismo 
 También se distinguen pies/encabezados y ocho indicios de palabra posiblemente desplazada
 al párrafo anterior. Son candidatos para cotejo, no reparaciones automáticas.
 
-**1.780 pruebas locales pasan**, incluidas23 de la nueva herramienta independiente.
+**En el diagnóstico inicial pasaron1.780 pruebas**, incluidas23 de su herramienta independiente.
 Datos, curación, QA y manifiesto permanecen idénticos; **ninguna alerta cerrada**.
 [Informe y evidencia de las36 lecturas](docs/DIAGNOSTICO_FINALES_2026-09-08.md).
+
+### Seguimiento: primer lote de comas
+
+**40 límites existentes revisados en36 padres leídos completos;127 límites del subgrupo
+siguen sin ficha bilateral.** Los sujetos respaldan las separaciones examinadas; no
+hicieron falta nuevos cortes. Las comas y reservas textuales/de cargo permanecen literales.
+
+La nueva cola distingue **lectura realizada** de **alerta cerrada**: siguen465 filas
+alertadas. Se conservan el daño de2667, el duplicado de2723, el residuo de2535 y los demás
+pendientes. **1.795 pruebas locales pasan (+15); los27 archivos versionados de datos
+son idénticos**, incluida TPM externa. El pipeline y su QA siguen siendo los de LOOP32.
+
+[Informe del lote1](docs/REVISION_COMAS_LOTE1_2026-09-08.md) ·
+[127 límites sin ficha](docs/revision_comas_lote1_2026-09-08/comas_sin_ficha.csv).
 
 ## Ejecutar todo el pipeline
 
