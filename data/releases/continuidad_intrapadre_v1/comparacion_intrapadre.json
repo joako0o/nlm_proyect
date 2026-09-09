@@ -1,0 +1,180 @@
+{
+  "Pasa": true,
+  "Perfil": "intrapadre-v1",
+  "Baseline": "LOOP32",
+  "Filas": 9691,
+  "Grupos_Antes": 9257,
+  "Grupos_Despues": 9255,
+  "Uniones_Exactas": [
+    [
+      "RPM-2009-11-12:2796:2",
+      "RPM-2009-11-12:2796:3"
+    ],
+    [
+      "RPM-2010-03-18:3012:2",
+      "RPM-2010-03-18:3012:3"
+    ]
+  ],
+  "Celdas_Relacionales_Modificadas": [
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2796:3",
+      "Campo": "Relacion_Turno",
+      "Antes": "INICIO_EXPLICITO",
+      "Despues": "CONTINUIDAD_INTRAPADRE_REVISADA"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2796:3",
+      "Campo": "ID_Antecedente_Continuidad",
+      "Antes": null,
+      "Despues": "RPM-2009-11-12:2796:2"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3012:3",
+      "Campo": "Relacion_Turno",
+      "Antes": "INICIO_EXPLICITO",
+      "Despues": "CONTINUIDAD_INTRAPADRE_REVISADA"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3012:3",
+      "Campo": "ID_Antecedente_Continuidad",
+      "Antes": null,
+      "Despues": "RPM-2010-03-18:3012:2"
+    }
+  ],
+  "Celdas_ID_Turno_Modificadas": [
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2796:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T70",
+      "Despues": "RPM-2009-11-12:T69"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2797:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T70",
+      "Despues": "RPM-2009-11-12:T69"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2798:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T71",
+      "Despues": "RPM-2009-11-12:T70"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2799:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T72",
+      "Despues": "RPM-2009-11-12:T71"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2799:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T73",
+      "Despues": "RPM-2009-11-12:T72"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2800:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T73",
+      "Despues": "RPM-2009-11-12:T72"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2801:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T74",
+      "Despues": "RPM-2009-11-12:T73"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2802:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2009-11-12:T75",
+      "Despues": "RPM-2009-11-12:T74"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3012:3",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T71",
+      "Despues": "RPM-2010-03-18:T70"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3013:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T72",
+      "Despues": "RPM-2010-03-18:T71"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3014:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T73",
+      "Despues": "RPM-2010-03-18:T72"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3015:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T74",
+      "Despues": "RPM-2010-03-18:T73"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3016:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T75",
+      "Despues": "RPM-2010-03-18:T74"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3017:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T76",
+      "Despues": "RPM-2010-03-18:T75"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3017:2",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T77",
+      "Despues": "RPM-2010-03-18:T76"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3018:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T77",
+      "Despues": "RPM-2010-03-18:T76"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3019:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T78",
+      "Despues": "RPM-2010-03-18:T77"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3020:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T79",
+      "Despues": "RPM-2010-03-18:T78"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3021:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T80",
+      "Despues": "RPM-2010-03-18:T79"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3022:1",
+      "Campo": "ID_Turno",
+      "Antes": "RPM-2010-03-18:T81",
+      "Despues": "RPM-2010-03-18:T80"
+    }
+  ],
+  "Filas_Con_Conjunto_De_Companeros_Distinto": [
+    "RPM-2009-11-12:2796:2",
+    "RPM-2009-11-12:2796:3",
+    "RPM-2009-11-12:2797:1",
+    "RPM-2010-03-18:3012:2",
+    "RPM-2010-03-18:3012:3"
+  ],
+  "Otros_Campos_Modificados": 0,
+  "Grupos_Previos_Divididos": 0,
+  "Alertas_Antes": 465,
+  "Alertas_Despues": 465,
+  "Nota": "Los IDs numéricos se renumeran. Cambian los compañeros de cinco filas, no sus textos. Las tres filas del escenario previo sólo contaban sustituciones hacia la etiqueta izquierda.",
+  "SHA256_Baseline": "f9d76860d86500a8d3b928eb9e9f6849c74f9e4480df0fdaa381d090e69ddcd2",
+  "SHA256_Candidato": "86e0b96fd433f4ce9ee0da427aa6e201d29103ece6ad3a7aabddc6cd18d65237"
+}

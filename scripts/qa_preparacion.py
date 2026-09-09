@@ -24,6 +24,8 @@ import build_base_referencia as builder
 from crear_consolidado_final import SOURCE_COLUMNS
 from continuity import EXPLICIT, boundary, SECTION, normalize
 from reviewed_continuity import load_reviewed_links, validate_reviewed_links, RELATION
+from reviewed_intrapara_continuity import load_intrapara_links, validate_intrapara_links, RELATION as INTRA_RELATION
+import os
 from curation import load_role_reviews, REVIEW_SOURCES, load_speaker_reviews, validate_speaker_reviews, SPEAKER_REVIEW_SOURCE
 from qa_gate_f0 import audit as audit_tpm, load_base, load_tpm
 
@@ -136,7 +138,7 @@ def validate_continuity(rows):
                 errors.append(f'ID {rid}: continuidad atraviesa barrera')
         elif previous and previous.get('ID_Turno') == turn:
             errors.append(f'ID {rid}: turno compartido sin antecedente')
-        if row.get('Relacion_Turno')==RELATION and (row.get('Tipo_Acta')
+        if row.get('Relacion_Turno') in (RELATION, INTRA_RELATION) and (row.get('Tipo_Acta')
                 or SECTION.search(normalize(row['Texto']))
                 or has_context_warning(row.get('Motivos_Revision'))
                 or 'POSIBLE_OTRO_HABLANTE_O_MENCION' in (row.get('Motivos_Revision') or '')):
@@ -176,6 +178,9 @@ def main():
     errors.extend(validate_speaker_reviews(rows,speaker_reviews))
     reviewed_links=load_reviewed_links({r["ID"]:r for r in raw})
     errors.extend(validate_reviewed_links(rows,reviewed_links))
+    intra_path = os.environ.get('NLM_INTRAPARA_REVIEWS')
+    intrapara_links = load_intrapara_links({r['ID']:r for r in raw}, intra_path) if intra_path else {}
+    errors.extend(validate_intrapara_links(rows, intrapara_links))
     mention_reviews=load_mention_reviews({r["ID"]:r for r in raw})
     mention_errors, mention_annotations=validate_mention_reviews(rows,mention_reviews)
     errors.extend(mention_errors)
@@ -217,6 +222,7 @@ def main():
         'menciones_actuales_documentadas':len(mention_annotations),
         'lecturas_actuales_por_estado':dict(collections.Counter(e['Estado_Lectura_Dirigida'] for e in mention_annotations.values())),
         'continuidades_hablantes_revisadas':len(reviewed_links),
+        'continuidades_intrapadre_revisadas':len(intrapara_links),
         'hablantes_revision_documentada':sum(r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE for r in rows),
         'cargos_revision_documentada':sum(r['Fuente_Rol'] in REVIEW_SOURCES for r in rows),
         'tipos_acta':dict(collections.Counter(r['Tipo_Acta'] or 'INTERVENCION_SIN_TIPO_INSTITUCIONAL' for r in rows)),
@@ -281,6 +287,9 @@ def main():
     manifest={'python':platform.python_version(),'dependencias':{name:importlib.metadata.version(name) for name in ['openpyxl','pypdf']},
               'sha256_entradas_codigo':{str(p.relative_to(ROOT)):digest(p) for p in files},
               'sha256_salidas':{p.name:digest(p) for p in sorted(out.iterdir()) if p.is_file() and p.name!='manifiesto_preparacion.json'}}
+    manifest['perfil_continuidad'] = 'intrapadre-v1' if intra_path else 'legacy'
+    if intra_path:
+        manifest['pruebas_intrapadre'] = {'archivo': str(Path(intra_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(intra_path))}
     (out/'manifiesto_preparacion.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
     return int(bool(errors))
