@@ -1025,6 +1025,34 @@
           "Justificacion": "Letras transpuestas: 'puntuarles' por 'puntuales'. Medido: 'puntuarles' aparece 1 vez en todo el corpus y 'puntuales' 264. La palabra mal escrita no existe."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4827:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "El Gerente de Análisis Macroeconómíco señor Claudio Soto prosigue",
+          "Despues": "El Gerente de Análisis Macroeconómico señor Claudio Soto prosigue",
+          "Contexto": "razón por la cual no debiera registrarse una reaceleración en la acumulación de inventarios, como tampoco una disminución, a menos que las perspectivas globales lo requieran. El Gerente de Análisis Macroeconómíco señor Claudio Soto prosigue con su presentación, refiriéndose a las proyecciones.",
+          "Justificacion": "Tilde de más en la segunda i: 'Macroeconómíco' no es palabra. Medido: aparece 6 veces en el corpus contra 996 de 'Macroeconómico'. Sin ambigüedad."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "la masa salarial ha ¡do atenuando su ritmo de expansión",
+          "Despues": "la masa salarial ha ido atenuando su ritmo de expansión",
+          "Contexto": "Respecto del consumo habitual, señala que la masa salarial ha ¡do atenuando su ritmo de expansión al anotar tasas de crecimiento levemente superiores al 5%",
+          "Justificacion": "Signo de exclamación de apertura en lugar de la i. Es la misma confusión de glifo ya corregida en 'bajo la presidencia de! titular'->'del titular'. Después del auxiliar 'ha' sólo cabe el participio 'ido'. Medido: 'ha ¡do' aparece 6 veces y 'ha ido' 170."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "se registraron caídas en los perecióles y la carne",
+          "Despues": "se registraron caídas en los perecibles y la carne",
+          "Contexto": "Añade que en cuanto a transporte, esta se debió principalmente por la rebaja de los pasajes de avión, mientras que en la parte de alimentos se registraron caídas en los perecióles y la carne.",
+          "Justificacion": "O acentuada en lugar de be en la misma posición: 'perecióles' no es palabra. Medido: aparece 10 veces en el corpus contra 166 de 'perecibles'."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
