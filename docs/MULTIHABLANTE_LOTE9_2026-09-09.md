@@ -210,6 +210,7 @@ así que la salida se ve completa sin estarlo.
 | 1–5 v3 | 2005-07-12 | 50 | una sola voz |
 | — | 2005-07-12 | 5 | una sola voz · **sesión cerrada 52/52** |
 | 1–5 v4 | 2005-06-09 | 38 | una sola voz · **sesión cerrada 38/38** |
+| 6–13 | 2013-11-19 | 56 | una sola voz · **sesión cerrada 56/56** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
@@ -236,6 +237,15 @@ Vicuña, Herrera, Jadresic y Schmidt-Hebbel, **cada uno en su propia fila**; los
 comentan y luego votan uno por uno. Las filas `1:1`, `28:2`, `55:1` y `56:1` son
 institucionales (actor «Consejo del Banco Central de Chile»): lista de asistencia,
 reanudación, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada.
+
+**Caso particular en `5892:3` (sesión 2013-11-19).** El actor es Felipe Larraín Bascuñán
+pero quien habla físicamente es el Presidente Vergara, que lee el planteamiento escrito del
+Ministro — lo anuncia la fila anterior: «procederá a su lectura, de manera que quede inserto
+en el Acta». El motor ya la trae marcada `TEXTO_ESCRITO_LEIDO_POR_TERCERO` y la atribución al
+autor es la correcta. Es una fila con dos personas involucradas, pero **no es una segunda voz
+pegada**: es un texto escrito, deliberadamente atribuido a su autor y ya alertado. No se
+recorta. Conviene tenerla presente porque es el pariente estructural más cercano de los tres
+casos de dos voces, y está bien resuelto.
 
 Para leer una sesión entera al margen del plan:
 
