@@ -514,6 +514,111 @@
           "Justificacion": "Espacio intruso que parte la palabra 'Tasa' justo después del guion del código de acuerdo. Mismo artefacto documentado en '115-01-071113-T a s a' de la sesión 2007-11-13."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4336:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_SOBRANTE",
+          "Antes": "salidas de bonos y de instrumentos de renta de variable",
+          "Despues": "salidas de bonos y de instrumentos de renta variable",
+          "Contexto": "en tanto que en las economías emergentes se han producido salidas de bonos y de instrumentos de renta de variable, particularmente de América Latina.",
+          "Justificacion": "Preposición intrusa. La misma fila trae la forma correcta párrafos antes: 'también se han registrado salidas de instrumentos de renta variable, en línea con los movimientos de las bolsas'."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4342:2",
+      "Fecha": "2011-10-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "se utilicen fondos de los banpos, los gobiernos y del FEEF",
+          "Despues": "se utilicen fondos de los bancos, los gobiernos y del FEEF",
+          "Contexto": "Explica que la idea central es que se utilicen fondos de los banpos, los gobiernos y del FEEF para tal efecto",
+          "Justificacion": "La pe ocupa el lugar de la ce. 'Banpos' no es palabra; la serie 'bancos, gobiernos y FEEF' cierra con los tres actores que el párrafo viene discutiendo."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "aún no hay una posición oficial 'f respecto del requerimiento de capital",
+          "Despues": "aún no hay una posición oficial respecto del requerimiento de capital",
+          "Contexto": "que si bien aún no hay una posición oficial 'f respecto del requerimiento de capital que se le exigiría a cada uno de los bancos",
+          "Justificacion": "Residuo de glifo: apóstrofo y efe sueltos entre 'oficial' y 'respecto'. La oración se lee completa sin ellos; no aportan nada y no son parte de ninguna palabra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4344:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ajustes a la baja en América Latina, Asia, Oceania y Europa emergente",
+          "Despues": "ajustes a la baja en América Latina, Asia, Oceanía y Europa emergente",
+          "Contexto": "En cuanto a los movimientos futuros, informa que se esperan ajustes a la baja en América Latina, Asia, Oceania y Europa emergente, y mantenciones en las economías desarrolladas.",
+          "Justificacion": "Falta la tilde en 'Oceanía'. No es una reconstrucción ambigua: el topónimo tiene una sola grafía en español y la serie es una enumeración de regiones, así que no hay otra lectura posible. Distinto de los casos que marco, donde faltaba una letra y cabían dos palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4353:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que agentes no comerciales se deshagan se sus posiciones por razones",
+          "Despues": "que agentes no comerciales se deshagan de sus posiciones por razones",
+          "Contexto": "lo cual reflejaría que el consumo de cobre en China estaría desacelerándose de manera importante, pudiendo dar pie a que agentes no comerciales se deshagan se sus posiciones por razones que van más allá de la volatilidad observada",
+          "Justificacion": "La ese ocupa el lugar de la de. 'Deshacerse de' es una construcción pronominal fija y 'se deshagan se sus' no admite otra lectura: es un glifo mal leído, no una reconstrucción."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4360:2",
+      "Fecha": "2011-10-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "una magnitud bastante más acotada que ei registrado en el año 2008",
+          "Despues": "una magnitud bastante más acotada que el registrado en el año 2008",
+          "Contexto": "también se advierte un movimiento al alza en este episodio, pero de una magnitud bastante más acotada que ei registrado en el año 2008.",
+          "Justificacion": "I latina en lugar de ele: 'ei' no es palabra. El artículo es obligado porque el mismo enunciado trae 'en el año 2008' inmediatamente después."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4360:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "ya que los CDS han subido alrededor 70 puntos base",
+          "Despues": "ya que los CDS han subido alrededor de 70 puntos base",
+          "Contexto": "considera que las turbulencias financieras externas han tenido un impacto que no se puede calificar de acotado en las medidas de riesgo para Chile, ya que los CDS han subido alrededor 70 puntos base.",
+          "Justificacion": "Preposición omitida: 'alrededor' exige 'de' antes de la cantidad. La forma completa aparece 2 veces en esta misma sesión (filas 4344, 4366), así que hay corroboración en el acta y no se está inventando nada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4363:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "los indicadores de consumo muestran una atenuación en su ritmo expansión",
+          "Despues": "los indicadores de consumo muestran una atenuación en su ritmo de expansión",
+          "Contexto": "A continuación, el señor Claudio Soto menciona que los indicadores de consumo muestran una atenuación en su ritmo expansión. A título ejemplar, comenta que las importaciones de bienes de consumo",
+          "Justificacion": "Preposición omitida. La forma completa está en la misma fila, dos oraciones después: 'ahora exhiben una cierta atenuación en su ritmo de expansión'. Se repone la que el acta ya trae."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -852,6 +957,72 @@
       "Marca": "NO_REQUIERE_COTEJO",
       "Texto_Original_Fragmento": "Se levanta la Sesión a las 18.00 horas.",
       "Motivo": "NO_ES_DEFECTO. '18.00' con punto es una forma válida de escribir la hora en español, aunque la sesión use '13:30' y '16:00' con dos puntos en otras filas. Es inconsistencia de formato, no lectura óptica."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4338:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "Continuando con su exposición, el Gerente de Análisis Internacional plantea ha estado enfrentando la crisis a través de cinco canales. que Europa Precisa que el primero de ellos",
+      "Motivo": "El orden de las palabras está transpuesto: debería ser 'plantea que Europa ha estado enfrentando la crisis a través de cinco canales. Precisa que el primero...'. Parece un desplazamiento de líneas en el escaneo. Reordenar palabras es reconstruir, no corregir un glifo: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4338:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "ya que la escala es bastante más reducida en el caso de las economías En todo caso, se compromete a revisar las cifras expuestas",
+      "Motivo": "La oración queda truncada: falta el remate después de 'las economías' (probablemente 'emergentes.'). Es contenido ausente, no un carácter mal leído: sólo el acta puede decir qué falta."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4338:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "institución franco belga cuya matriz que está en Francia",
+      "Motivo": "Sobra un 'que'. Podría ser 'cuya matriz está en Francia' o 'cuya matriz, que está en Francia,...'. Dos lecturas."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4334:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "y la Secretario General, doña Marlys Pabst Cortés",
+      "Motivo": "'la Secretario' debería ser 'la Secretaria'. 'Secretaria General' aparece 0 veces en la fila, así que no hay forma correcta que respalde la enmienda."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4342:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "aclara que este aún esta en discusión, esperándose una definición",
+      "Motivo": "'esta' debería ser 'está'. 'está' aparece 0 veces en la fila: sin corroboración no se repone."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4342:2",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "el Long-Term Refinancing Operations (LTRO), cuyo monto vigente alcanza al día de hoy a US$ 384 billones",
+      "Motivo": "El LTRO es una facilidad del Banco Central Europeo y sus montos se expresan en euros; el resto de la fila usa € para el FEEF. 'US$' es probablemente un error de transcripción, pero tocar una cifra es falsear la fuente: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4341:4",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "van en ayuda de los países en problemas, en este caso, a Grecia, Portugal Irlanda, contra bonos de primera emisión",
+      "Motivo": "Falta la coma entre 'Portugal' e 'Irlanda'. Agregar un signo ausente es editorializar."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4350:2",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "Hace notar que ello da cuenta de una fragilidad del sistema productivo",
+      "Motivo": "La fila termina sin punto y la siguiente (4350:3) abre un hablante distinto - Sebastián Claro -, así que no es un corte sano a mitad de oración: falta el signo de cierre. Reponer un signo ausente es editorializar, se marca. Contraste: 4347:1/4347:2 sí es una partida sana, Vergara termina en coma con FINAL_SIN_PUNTUACION y Herrera continúa en minúscula."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4366:3",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "manifiesta que la producción metalúrgica, en general, se ha estancado. Sebastián Sobre el particular, el señor Soto añade que",
+      "Motivo": "'Sebastián' queda huérfano entre dos oraciones completas. Casi seguro es el resto de 'El Consejero señor Sebastián Claro...' y la pregunta que venía detrás se perdió, pero no se sabe qué más falta: borrarlo sería destruir evidencia y reponerlo sería inventarla. Se marca para cotejo."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4364:2",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Texto_Original_Fragmento": "El señor Claudios Soto responde que hay un debate entre la Cámara de la Construcción",
+      "Motivo": "'Claudios' debería ser 'Claudio': 'Claudio Soto' aparece 1.273 veces en el corpus y 'Claudios Soto' una sola. Aun estando probado el defecto, es un nombre propio: la identidad ya está resuelta en Actor_Final (Claudio Soto Gamboa), así que se marca y no se toca. La fila ya traía NOMBRE_EN_DISCURSO_POR_VERIFICAR."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4364:3",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Texto_Original_Fragmento": "especifica que los datos de la Cámara de la Constricción darían cuenta que la actividad de este sector está muy lenta",
+      "Motivo": "'Constricción' en lugar de 'Construcción'. La forma correcta aparece 2 veces en el corpus, una de ellas en la fila inmediatamente anterior (4364:2, 'la Cámara de la Construcción'), pero es el nombre de una institución: mismo criterio que los nombres de persona, se marca y no se reescribe."
     }
   ],
   "Marcas_Adicionales": [

@@ -62,6 +62,7 @@ TIPOS_VALIDOS = {
     'PUNTUACION',             # puntuación ausente o duplicada
     'PALABRA_OMITIDA',        # «alta base comparación» -> «alta base de comparación»
     'SALTOS_DE_LINEA',        # una palabra por línea, artefacto de justificación del PDF
+    'PALABRA_SOBRANTE',       # «renta de variable» -> «renta variable»
 }
 
 # Vocabulario de la columna Cotejar_PDF. Cada valor dice qué hay que mirar en
