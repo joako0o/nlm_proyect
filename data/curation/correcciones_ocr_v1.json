@@ -547,6 +547,13 @@
           "Despues": "aún no hay una posición oficial respecto del requerimiento de capital",
           "Contexto": "que si bien aún no hay una posición oficial 'f respecto del requerimiento de capital que se le exigiría a cada uno de los bancos",
           "Justificacion": "Residuo de glifo: apóstrofo y efe sueltos entre 'oficial' y 'respecto'. La oración se lee completa sin ellos; no aportan nada y no son parte de ninguna palabra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "aclara que este aún esta en discusión, esperándose una definición",
+          "Despues": "aclara que este aún está en discusión, esperándose una definición",
+          "Contexto": "El señor Lehmann menciona que otro canal es la capitalización de la banca para protegerla de pérdidas. Sobre el particular, aclara que este aún esta en discusión, esperándose una definición en la reunión que sostendrán los principales líderes de la Zona Euro",
+          "Justificacion": "Tilde faltante. 'Este' es el sujeto y la oración no admite otra lectura: no hay otro verbo posible. Se aplica la sección 1 del criterio (un carácter equivocado donde debería ir otro), no la sección 2 (palabra omitida, que sí exige corroboración). Este caso se había marcado antes por error aplicando la regla de corroboración; se retira esa marca y se corrige."
         }
       ]
     },
@@ -617,6 +624,27 @@
           "Despues": "los indicadores de consumo muestran una atenuación en su ritmo de expansión",
           "Contexto": "A continuación, el señor Claudio Soto menciona que los indicadores de consumo muestran una atenuación en su ritmo expansión. A título ejemplar, comenta que las importaciones de bienes de consumo",
           "Justificacion": "Preposición omitida. La forma completa está en la misma fila, dos oraciones después: 'ahora exhiben una cierta atenuación en su ritmo de expansión'. Se repone la que el acta ya trae."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4384:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "la desaceleración de la demanda agregada prevista hacía fines de año",
+          "Despues": "la desaceleración de la demanda agregada prevista hacia fines de año",
+          "Contexto": "El Vicepresidente señor Manuel Marfán plantea que le merece duda el supuesto de que la desaceleración de la demanda agregada prevista hacía fines de año solo obedecerá a un ajuste de los inventarios.",
+          "Justificacion": "Tilde indebida. 'Hacía' es el imperfecto de hacer y necesitaría un verbo finito al que sujetarse; aquí 'prevista' es participio, así que la única lectura posible es la preposición. Sección 1 del criterio: la oración no admite otra lectura."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "era natural prever de los agentes económicos moderarían su gasto",
+          "Despues": "era natural prever que los agentes económicos moderarían su gasto",
+          "Contexto": "Manifiesta que frente a la gran incertidumbre del último tiempo, era natural prever de los agentes económicos moderarían su gasto y con ello lo haría la actividad.",
+          "Justificacion": "Conjunción sustituida. 'Prever de' no rige una subordinada con verbo conjugado. Corroborado con el corpus: 'prever que' aparece 33 veces y 'prever de' sólo 2 en todo el consolidado, una de ellas esta misma errata; dentro de la sesión 'prever que' está en 4366:1."
         }
       ]
     }
@@ -981,12 +1009,6 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "y la Secretario General, doña Marlys Pabst Cortés",
       "Motivo": "'la Secretario' debería ser 'la Secretaria'. 'Secretaria General' aparece 0 veces en la fila, así que no hay forma correcta que respalde la enmienda."
-    },
-    {
-      "ID_Intervencion": "RPM-2011-10-13:4342:2",
-      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
-      "Texto_Original_Fragmento": "aclara que este aún esta en discusión, esperándose una definición",
-      "Motivo": "'esta' debería ser 'está'. 'está' aparece 0 veces en la fila: sin corroboración no se repone."
     },
     {
       "ID_Intervencion": "RPM-2011-10-13:4342:2",

@@ -32,6 +32,28 @@ otra lectura.
 | `El / Consejero / señor / Marfán, / sobre / el…` | todo en una línea | artefacto de justificación del PDF; se reúne sin alterar una letra |
 | `17.30 horas.` colgado entre el Comunicado y su aprobación | se elimina | marca horaria suelta sin sujeto ni verbo; el cierre ya consigna las 18:00 |
 
+### 1 bis. La tilde entra aquí, no en la sección 2
+
+`estaciónales` → `estacionales` está arriba y no pidió corroboración: la
+regla de la sección 1 es que **la oración no admita otra lectura**, no que la
+forma correcta aparezca en otra parte. Un acento mal puesto o faltante
+pertenece a esta sección cuando la gramática deja una sola opción:
+
+| verbatim | corregido | por qué |
+|---|---|---|
+| `este aún esta en discusión` | `este aún está en discusión` | «este» es el sujeto; no hay otro verbo posible |
+| `la demanda agregada prevista hacía fines de año` | `prevista hacia fines de año` | «prevista» es participio, no hay verbo finito al que sujetar «hacía» |
+| `Asia, Oceania y Europa emergente` | `Oceanía` | el topónimo tiene una sola grafía; no es una reconstrucción |
+
+Esto se aplicó mal una vez: `este aún esta en discusión` (`4342:2`, ronda
+141) se marcó para cotejo argumentando que «está» no aparecía en la fila. Eso
+es aplicar la regla de la sección 2 a un caso de la sección 1. La marca se
+retiró en la ronda 144 y se corrigió.
+
+**Límite:** si la tilde cambia el significado y ambas lecturas son
+gramaticales, no es sección 1 — es duda, y se marca. Y si lo que falta es una
+**letra** y caben dos palabras, tampoco: eso es sección 2.
+
 ## 2. Se corrige: palabra omitida, **sólo con corroboración**
 
 Falta una palabra. Se repone **únicamente si la forma correcta está en la
