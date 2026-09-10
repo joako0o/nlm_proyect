@@ -215,6 +215,7 @@ así que la salida se ve completa sin estarlo.
 | 21–29 | 2007-12-13 | 80 | una sola voz · **sesión cerrada 80/80** |
 | 30–34 | 2005-08-11 | 56 | una sola voz · **sesión cerrada 56/56** |
 | 35–43 | 2007-10-11 | 71 | una sola voz · **sesión cerrada 71/71** |
+| 44–51 | 2014-01-16 | 53 | una sola voz · **sesión cerrada 53/53** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
@@ -250,6 +251,14 @@ autor es la correcta. Es una fila con dos personas involucradas, pero **no es un
 pegada**: es un texto escrito, deliberadamente atribuido a su autor y ya alertado. No se
 recorta. Conviene tenerla presente porque es el pariente estructural más cercano de los tres
 casos de dos voces, y está bien resuelto.
+
+**`TEXTO_ESCRITO_LEIDO_POR_TERCERO`: 12 filas en el corpus.** En una sola fila el autor
+y el lector son personas distintas. Verificadas hasta ahora `5892:3` (Larraín, leído por
+Vergara, sesión 2013-11-19) y `5999:3` (Larraín de nuevo, leído por Vergara, sesión
+2014-01-16, texto entre comillas y anuncio previo en `5999:2`). Las dos están bien: el
+motor las alerta y las atribuye al autor. **No son segundas voces pegadas y no se
+recortan.** Son el pariente estructural más cercano de los tres casos de dos voces, y
+conviene tenerlas presentes por si aparece una sin la alerta.
 
 **El lector de rondas trunca por la cabeza, no por la cola.** `leer N` emite hasta
 18.000 caracteres y la consola los corta por el principio, así que la primera fila de
