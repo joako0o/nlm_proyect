@@ -24,7 +24,7 @@ V7 = pathlib.Path('data/releases/continuidad_procedimental_v7/consolidado_base_r
 LECT = pathlib.Path('docs/continuidad_lote9_2026-09-09/lecturas.json')
 PLAN = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.json')
 LIM = 18000
-CORTE_TEXTO = 15000
+CORTE_TEXTO = 17500
 
 
 def cab(r, parte=''):
@@ -104,7 +104,7 @@ def leer(n):
         f = por_id[it['id']]
         t = f['Texto']
         if it['parte']:
-            k = int(it['parte'].split()[2].split('/')[0]) - 1
+            k = int(it['parte'].split('/')[0].split()[-1]) - 1
             t = t[k * CORTE_TEXTO:(k + 1) * CORTE_TEXTO]
         total += len(t) + 90
         print('#### [%d] %s%s | %s | %s | %d ch | %s'
