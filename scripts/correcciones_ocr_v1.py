@@ -62,13 +62,26 @@ def cargar() -> dict:
     return json.loads(REGISTRO.read_text(encoding='utf-8'))
 
 
-def aplicar_a_texto(texto: str, operaciones: list[dict], rid: str) -> tuple[str, list[str]]:
-    """Devuelve el texto corregido y los problemas encontrados."""
+def aplicar_a_texto(texto: str, operaciones: list[dict], rid: str,
+                    virgen: str | None = None) -> tuple[str, list[str]]:
+    """Devuelve el texto corregido y los problemas encontrados.
+
+    Cuando se pasa ``virgen``, cada ``Antes`` debe resolverse además contra el
+    texto original de la fila, no sólo contra el estado intermedio. Eso impide
+    que dos operaciones de una misma fila se pisen: la segunda no puede
+    depender de lo que la primera ya modificó.
+    """
     problemas: list[str] = []
     salida = texto
     for n, op in enumerate(operaciones, 1):
         antes, despues = op['Antes'], op['Despues']
         esperadas = int(op.get('Ocurrencias', 1))
+        if virgen is not None and virgen.count(antes) != esperadas:
+            problemas.append(
+                f'{rid} op{n} ({op["Tipo"]}): «{antes}» no aparece {esperadas} '
+                f'veces en el texto virgen de la fila; las operaciones de una '
+                f'misma entrada no deben depender unas de otras')
+            continue
         reales = salida.count(antes)
         if reales != esperadas:
             problemas.append(
@@ -106,7 +119,8 @@ def validar(reg: dict | None = None, base: Path = BASE) -> tuple[bool, list[str]
         if not ops:
             problemas.append(f'{rid}: entrada sin operaciones')
             continue
-        salida, probs = aplicar_a_texto(fila['Texto'] or '', ops, rid)
+        salida, probs = aplicar_a_texto(fila['Texto'] or '', ops, rid,
+                                        virgen=fila['Texto'] or '')
         problemas.extend(probs)
         if not probs:
             if salida == (fila['Texto'] or ''):

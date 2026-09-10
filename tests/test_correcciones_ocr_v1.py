@@ -107,6 +107,26 @@ class TestRegistroCurado(unittest.TestCase):
         self.assertFalse(ok)
         self.assertTrue(any('Reglas_Automaticas' in p for p in problemas))
 
+    def test_operaciones_de_una_fila_no_pueden_pisarse(self):
+        """Regresión: una operación cuyo ``Antes`` sólo existe después de aplicar
+        otra de la misma fila debe rechazarse. Fue un error real en 943:1."""
+        reg = json.loads(json.dumps(self.reg))
+        rid = 'RPM-2006-10-12:943:1'
+        entrada = next(e for e in reg['Correcciones'] if e['ID_Intervencion'] == rid)
+        texto = self.filas[rid]['Texto']
+        entrada['Operaciones'] = [
+            {'Tipo': 'PUNTUACION', 'Antes': 'la inflación proyectada.”',
+             'Despues': 'la inflación proyectada.', 'Contexto': 'x', 'Justificacion': 'y'},
+            {'Tipo': 'RESIDUO_PAGINACION',
+             'Antes': 'la inflación proyectada.\n17.30 horas.',
+             'Despues': 'la inflación proyectada.', 'Contexto': 'x', 'Justificacion': 'y'},
+        ]
+        self.assertNotIn('la inflación proyectada.\n17.30 horas.', texto,
+                         'el caso de prueba dejó de ser un caso de prueba')
+        ok, problemas, _ = m.validar(reg, m.BASE)
+        self.assertFalse(ok)
+        self.assertTrue(any('texto virgen' in p for p in problemas), problemas)
+
     def test_revisiones_descartadas_tienen_motivo(self):
         self.assertTrue(self.reg['Revisiones_Sin_Correccion'])
         for r in self.reg['Revisiones_Sin_Correccion']:

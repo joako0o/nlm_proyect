@@ -120,6 +120,146 @@
           "Justificacion": "Artefacto de justificacion del PDF: una palabra por linea durante doce palabras. El resto de la fila y de la sesion corta en el ancho normal. Se reune el texto sin alterar una sola letra."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:910:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "los\nsupuestos de los cuales no contamos con mayor información de qué porcentaje de lo producido\ncon valor agregado se exporto",
+          "Despues": "los\nsupuestos de los cuales no contamos con mayor información de qué porcentaje de lo producido\ncon valor agregado se exportó",
+          "Contexto": "en tercer lugar, los supuestos de los cuales no contamos con mayor información de qué porcentaje de lo producido con valor agregado se exporto.",
+          "Justificacion": "Pretérito indefinido: 'se exportó'. Sin tilde, 'exporto' es primera persona del presente y no tiene sujeto posible en la oracion. La oracion es indirecta y ya lleva tilde diacritica en 'qué', lo que confirma que el acento se perdió por lectura óptica y no por criterio del transcriptor."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:911:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que le gustarla tener una percepción",
+          "Despues": "que le gustaría tener una percepción",
+          "Contexto": "el Consejero señor Marfán señala que en otras oportunidades ha efectuado este mismo comentario y que le gustarla tener una percepción de los órdenes de magnitud involucrados",
+          "Justificacion": "La ele ocupa el lugar de la i en el condicional 'gustaría'. La misma fila usa el condicional correctamente más adelante: 'sería lo adecuado'."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:934:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "SALTOS_DE_LINEA",
+          "Antes": "prolongado\ndel\nesperado.\nAsimismo,\nmenciona\nel\nseñor García,\nque\ntodo\nesto,\ndesgraciadamente,",
+          "Despues": "prolongado del esperado. Asimismo, menciona el señor García, que todo esto, desgraciadamente,",
+          "Contexto": "cuando se ha desacelerado, también lo ha hecho por un tiempo más prolongado / del / esperado. / Asimismo, / menciona / el / señor García, / que / todo / esto, / desgraciadamente, ha ido más allá de lo que se esperaba.",
+          "Justificacion": "Artefacto de justificación del PDF: una palabra por línea. Segundo caso en esta sesión, después de 904:1. Se reúne el texto sin alterar una letra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:935:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "con todo y dado\nios datos de coyuntura",
+          "Despues": "con todo y dado\nlos datos de coyuntura",
+          "Contexto": "Finalmente, indica el señor Jadresic, que con todo y dado ios datos de coyuntura, se podría decir que éstos se han acentuado.",
+          "Justificacion": "La i ocupa el lugar de la ele en el artículo 'los'. Es un artefacto sistemático del escaneo de esta época: aparece 9 veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:936:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Andrés Velasco Brañes",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "¿cuál es la diferencia entre pausa y\nestado estacional?.",
+          "Despues": "¿cuál es la diferencia entre pausa y\nestado estacionario?.",
+          "Contexto": "la idea de mantener una especie de estado estacionario al cual se converge, se vuelve muy difícil de asir. ¿Qué quiere decir cuándo un desarrollo es muy largo?, ¿qué quiere decir una pausa?, ¿cuál es la diferencia entre pausa y estado estacional?.",
+          "Justificacion": "La misma fila escribe 'estado estacionario' dos veces, una antes y una después de esta ocurrencia. 'estacional' es una lectura óptica truncada de 'estacionario'. No se inventa: se repite la forma que la propia fila trae."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "“en el escenario central se contemplan\nmás alzas\"",
+          "Despues": "“en el escenario central se contemplan\nmás alzas”",
+          "Contexto": "mantener lo que se le comunica al mercado en un lenguaje del tenor que “en el escenario central se contemplan más alzas\", resulta inconveniente por tres razones",
+          "Justificacion": "La cita abre con comilla tipográfica angular y cierra con comilla recta. Se cierra con el mismo carácter con que abrió. Mismo artefacto que en 'Aaa\" (2012-09-13) y 'tequila\" (2012-09-13)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:940:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "proceso que podría observase ya a partir del\ncuarto trimestre",
+          "Despues": "proceso que podría observarse ya a partir del\ncuarto trimestre",
+          "Contexto": "en el sentido de proyectar una reaceleración del crecimiento para el año entrante, proceso que podría observase ya a partir del cuarto trimestre de este año",
+          "Justificacion": "Después del condicional 'podría' sólo cabe infinitivo: 'observarse'. Falta la erre del pronombre átono. Es un carácter omitido, no una reconstrucción."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "cuarto trimestre de este año. de acuerdo al Informe",
+          "Despues": "cuarto trimestre de este año, de acuerdo al Informe",
+          "Contexto": "proceso que podría observase ya a partir del cuarto trimestre de este año. de acuerdo al Informe que ha presentado la Gerencia de División Estudios.",
+          "Justificacion": "El punto corta la oración y lo que sigue abre en minúscula ('de acuerdo'), lo que prueba que el punto sobra. La minúscula es la evidencia dentro de la propia fila; se cambia por coma sin tocar una letra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:941:1",
+      "Fecha": "2006-10-12",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que estos factores habrá que\nponderados en nuestras decisiones futuras",
+          "Despues": "que estos factores habrá que\nponderarlos en nuestras decisiones futuras",
+          "Contexto": "Señala el señor Vicepresidente, que estos factores habrá que ponderados en nuestras decisiones futuras, en esta reunión y, en otras, por mantener la tasa de política monetaria.",
+          "Justificacion": "'ponderados' por 'ponderarlos': la de ocupa el lugar de la erre en una sustitución de un solo carácter. Después de 'habrá que' sólo cabe infinitivo con pronombre."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:942:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "SALTOS_DE_LINEA",
+          "Antes": "El\nPresidente señor Vittorio\nCorbo,\nmanifiesta que concuerda\ncon\nlos\nantecedentes de la minuta",
+          "Despues": "El Presidente señor Vittorio Corbo, manifiesta que concuerda con los antecedentes de la minuta",
+          "Contexto": "El / Presidente señor Vittorio / Corbo, / manifiesta que concuerda / con / los / antecedentes de la minuta presentada por la Gerencia de División Estudios",
+          "Justificacion": "Tercer caso del artefacto de justificación del PDF en esta sesión, después de 904:1 y 934:1. Se reúne el texto sin alterar una letra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:943:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "sus implicancias sobre la inflación proyectada.”\n17.30 horas.\nEl Consejo aprueba el texto del Comunicado.",
+          "Despues": "sus implicancias sobre la inflación proyectada.\nEl Consejo aprueba el texto del Comunicado.",
+          "Contexto": "Esto, sin embargo, dependerá de la nueva información que se acumule y sus implicancias sobre la inflación proyectada.” / 17.30 horas. / El Consejo aprueba el texto del Comunicado. / Se levanta la Sesión a las 18:00 horas.",
+          "Justificacion": "Dos defectos contiguos, resueltos en una sola operación para que el 'Antes' exista en el texto virgen. (1) Comilla de cierre huérfana: el bloque del Comunicado abre con la palabra 'Comunicado' y nunca trae comilla de apertura (verificado: 0 ocurrencias en la fila); se elimina la huérfana porque agregar la que falta sería inventar un carácter. (2) Marca horaria suelta '17.30 horas.', sin sujeto ni verbo, colgada entre el Comunicado y su aprobación; el cierre ya consigna su hora ('Se levanta la Sesión a las 18:00 horas'), así que no se pierde información."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -182,6 +322,71 @@
       "ID_Intervencion": "RPM-2006-10-12:899:1",
       "Texto_Original_Fragmento": "consulta cuál es el delta en dólares que el Banco Central asigna al Transantiago",
       "Motivo": "NO_ES_DEFECTO. 'delta' es la palabra que uso el Ministro de Hacienda. Corregirla seria editar el discurso."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:906:1",
+      "Texto_Original_Fragmento": "el Gerente de Análisis Financiero señor Igal Magendzo",
+      "Motivo": "INCONSISTENCIA_DE_FUENTE, no OCR. El acta 879:1 lo lista como Gerente de Análisis Macroeconómico y las filas 910:1 y 924:1 repiten ese cargo. El cargo del discurso está mal en el original; el campo Actor_Final es correcto y no se toca la prosa. Correspondería la alerta CARGO_EN_DISCURSO_POR_VERIFICAR, que esta fila no trae."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:914:1",
+      "Texto_Original_Fragmento": "una visión amplia de China que tiene que se vincula con el tipo de cambio real de equilibrio",
+      "Motivo": "AMBIGUO. 'que tiene que se vincula' está dañado, pero admite más de una reconstrucción y exigiría inventar palabras."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:914:1",
+      "Texto_Original_Fragmento": "exactamente de donde viene el sistema estructural",
+      "Motivo": "NO_ES_OCR. La fila 911:1 habla de 'cambio estructural', pero 'sistema' y 'cambio' no comparten trazo: no es una confusión óptica plausible. Es un error de transcripción de fondo y corregirlo sería reescribir."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:916:1",
+      "Texto_Original_Fragmento": "la inflación entre 2 y 10 años que se deriva de los precios está anclada al 10%",
+      "Motivo": "NO_SE_TOCA. La cifra es inverosímil frente a una meta de 3%, pero es un dato declarado en la sesión. Tocar un número de la fuente es falsearla, no corregir OCR."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:926:1",
+      "Texto_Original_Fragmento": "es más contractiva la política monetaria en ese horizonte",
+      "Motivo": "NO_ES_OCR. 'contractiva' aparece igual en 887:1 y en 929:1: es el uso consistente del transcriptor, no una lectura óptica fallida."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:929:1",
+      "Texto_Original_Fragmento": "señala que no ve el efecto de petróleo",
+      "Motivo": "LIMITE. Falta 'del', pero 'efecto de petróleo' también se lee como compuesto nominal. No hay otra ocurrencia de la fórmula en la fila que dirima. Se deja verbatim."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:932:1",
+      "Texto_Original_Fragmento": "El peso estuvo estable con respecto el dólar y mostró una leve apreciación (1%)",
+      "Motivo": "LIMITE. Falta la preposición en 'con respecto al dólar', pero medí la sesión completa y 'con respecto al' aparece 0 veces: no hay forma correcta en el documento que respalde la enmienda. Criterio: palabra omitida sólo se repone cuando la forma correcta está en la fila o en la sesión."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:934:1",
+      "Texto_Original_Fragmento": "que el PIB de distintos recursos anuales para el año 2006 se corrige 3 décimas a la baja",
+      "Motivo": "AMBIGUO. 'distintos recursos anuales' no cierra semánticamente y admite varias reconstrucciones."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:934:1",
+      "Texto_Original_Fragmento": "y el pozo concentrado durante el segundo semestre",
+      "Motivo": "AMBIGUO. Podría ser 'peso', 'puesto' o 'plazo'. Tres candidatas: no es inequívoco."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:935:1",
+      "Texto_Original_Fragmento": "lo que les debe preocupar para proyectar el precio, ya dejó de ser claro en relación a cuál será el signo del próximo cambio en la tasa",
+      "Motivo": "AMBIGUO. 'el precio' no encaja con el resto de la oración, pero reconstruirlo exigiría inventar el sustantivo."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:936:1",
+      "Texto_Original_Fragmento": "¿Qué quiere decir cuándo un desarrollo es muy largo?",
+      "Motivo": "NO_SE_TOCA. Probablemente sea 'desfase' (la fila 934:1 habla de 'los cambios de desfase'), pero 'desarrollo' y 'desfase' no comparten trazo: no es confusión óptica y el cambio sería demasiado grande para una corrección de OCR."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:939:1",
+      "Texto_Original_Fragmento": "en cuanto a que el Comunicado refleje que, probablemente la pausa será más prolongada que lo de anticipábamos hace solo un mes atrás",
+      "Motivo": "AMBIGUO. 'lo de anticipábamos' está dañado y lo probable es 'lo que anticipábamos', pero pasar de 'de' a 'que' exige dos cambios de carácter: no es una confusión óptica de un solo glifo."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:941:1",
+      "Texto_Original_Fragmento": "un conjunto de fenómenos que se han dado con más fuerza en el último mes que va a ser necesario monitorear y de los cuales sería, incluso el futuro de la política monetaria",
+      "Motivo": "AMBIGUO. 'de los cuales sería' probablemente sea 'dependería', pero la reconstrucción exige inventar el verbo. Se deja verbatim."
     }
   ]
 }
