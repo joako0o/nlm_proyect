@@ -201,6 +201,7 @@ completa sin estarlo.
 | 1 | 2005-01-11 | 4 | una sola voz |
 | 2 | 2005-01-11 | 4 | una sola voz |
 | 3 | 2005-01-11 | 5 | una sola voz |
+| — | 2005-01-11 | 44 | una sola voz · **sesión cerrada 58/58** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
@@ -219,6 +220,20 @@ fundamentan cada uno su voto por 25 pb. `57:1` es una fila **institucional** —
 «Consejo del Banco Central de Chile»—: registra el retiro del Ministro y de la Asesora,
 el texto del Comunicado, su aprobación, el cierre y el bloque de firmas con sus residuos
 de OCR, que se conservan tal cual. `5:1` es continuación de la exposición de Pablo García.
+
+**La sesión 2005-01-11 quedó completa (58 filas).** Las 44 que faltaban estaban repartidas
+en las bandas B, C y D del plan, así que se leyeron aparte por sesión. Es una discusión de
+IPoM con intercambio rápido: el Ministro consulta y responden García, Valdés, Lehmann,
+Vicuña, Herrera, Jadresic y Schmidt-Hebbel, **cada uno en su propia fila**; los Consejeros
+comentan y luego votan uno por uno. Las filas `1:1`, `28:2`, `55:1` y `56:1` son
+institucionales (actor «Consejo del Banco Central de Chile»): lista de asistencia,
+reanudación, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada.
+
+Para leer una sesión entera al margen del plan:
+
+```
+.venv/bin/python scripts/rondas_lectura_lote9.py sesion AAAA-MM-DD [desde]
+```
 
 Para anotar una ronda leída:
 

@@ -208,6 +208,32 @@ def registrar(n, hallazgo, justificacion):
           % (n, nuevos, hallazgo, len(casos)))
 
 
+def sesion(fecha, desde=0, limite=LIM):
+    """Imprime las filas pendientes de una sesion, en orden de acta, hasta llenar un tramo."""
+    todas = filas()
+    pend, _ = pendientes(todas)
+    sel = [r for r in pend if str(r['Fecha'])[:10] == fecha]
+    sel.sort(key=lambda r: r['ID_Intervencion'])
+    resto = sel[desde:]
+    total = len(sel)
+    n = 0
+    k = desde
+    for r in resto:
+        t = r['Texto']
+        c = len(t) + 90
+        if n and n + c > limite:
+            break
+        n += c
+        print('#### %s | %s | %s | %d ch | %s'
+              % (r['ID_Intervencion'], r['Actor_Final'], str(r['Fecha'])[:10],
+                 len(t), r.get('Motivos_Revision') or 'sin motivos'))
+        print(t)
+        print()
+        k += 1
+    print('--- SESION %s | %d de %d pendientes | leidas en este tramo: %d..%d | %s chars | quedan %d ---'
+          % (fecha, total, total, desde, k - 1, f'{n:,}', total - k))
+
+
 def estado():
     doc = json.loads(PLAN.read_text(encoding='utf-8'))
     todas = filas()
@@ -235,6 +261,8 @@ if __name__ == '__main__':
         leer(int(sys.argv[2]))
     elif sys.argv[1] == 'estado':
         estado()
+    elif sys.argv[1] == 'sesion':
+        sesion(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 0)
     elif sys.argv[1] == 'registrar':
         registrar(int(sys.argv[2]), sys.argv[3], sys.argv[4])
     else:

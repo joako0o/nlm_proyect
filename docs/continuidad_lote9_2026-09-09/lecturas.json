@@ -5883,7 +5883,447 @@
       "Universo": "PLAN_RONDAS_BANDA_A",
       "Ronda_Plan": 3,
       "Justificacion": "Cinco tramos, un solo hablante cada uno. Ovalle (51:1), Desormeaux (52:1) y Corbo (54:1) fundamentan cada uno su voto por 25 puntos base. 57:1 es una fila institucional -actor Consejo del Banco Central de Chile-, no personal: registra el retiro del Ministro y de la Asesora, el texto del Comunicado, su aprobacion, el cierre de la sesion y el bloque de firmas con sus residuos de OCR. 5:1 es la continuacion de la exposicion de Pablo Garcia (costos, escenarios de riesgo, balance de riesgos), no una segunda voz. Ninguna segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:1:1": {
+      "ID_Intervencion": "RPM-2005-01-11:1:1",
+      "ID_Padre": "1",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1260,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:2:1": {
+      "ID_Intervencion": "RPM-2005-01-11:2:1",
+      "ID_Padre": "2",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:7:1": {
+      "ID_Intervencion": "RPM-2005-01-11:7:1",
+      "ID_Padre": "7",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 236,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:8:1": {
+      "ID_Intervencion": "RPM-2005-01-11:8:1",
+      "ID_Padre": "8",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 463,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:9:1": {
+      "ID_Intervencion": "RPM-2005-01-11:9:1",
+      "ID_Padre": "9",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 243,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:10:1": {
+      "ID_Intervencion": "RPM-2005-01-11:10:1",
+      "ID_Padre": "10",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 135,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:11:1": {
+      "ID_Intervencion": "RPM-2005-01-11:11:1",
+      "ID_Padre": "11",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 245,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:12:1": {
+      "ID_Intervencion": "RPM-2005-01-11:12:1",
+      "ID_Padre": "12",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:13:1": {
+      "ID_Intervencion": "RPM-2005-01-11:13:1",
+      "ID_Padre": "13",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 622,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:14:1": {
+      "ID_Intervencion": "RPM-2005-01-11:14:1",
+      "ID_Padre": "14",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 822,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:15:1": {
+      "ID_Intervencion": "RPM-2005-01-11:15:1",
+      "ID_Padre": "15",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 300,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:16:1": {
+      "ID_Intervencion": "RPM-2005-01-11:16:1",
+      "ID_Padre": "16",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 388,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:17:1": {
+      "ID_Intervencion": "RPM-2005-01-11:17:1",
+      "ID_Padre": "17",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 200,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:18:1": {
+      "ID_Intervencion": "RPM-2005-01-11:18:1",
+      "ID_Padre": "18",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 666,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:19:1": {
+      "ID_Intervencion": "RPM-2005-01-11:19:1",
+      "ID_Padre": "19",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 310,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:20:1": {
+      "ID_Intervencion": "RPM-2005-01-11:20:1",
+      "ID_Padre": "20",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 235,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:21:1": {
+      "ID_Intervencion": "RPM-2005-01-11:21:1",
+      "ID_Padre": "21",
+      "Actor": "Ricardo Vicuña Poblete",
+      "Caracteres": 616,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:22:1": {
+      "ID_Intervencion": "RPM-2005-01-11:22:1",
+      "ID_Padre": "22",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 388,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:23:1": {
+      "ID_Intervencion": "RPM-2005-01-11:23:1",
+      "ID_Padre": "23",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 709,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:24:1": {
+      "ID_Intervencion": "RPM-2005-01-11:24:1",
+      "ID_Padre": "24",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 354,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:25:1": {
+      "ID_Intervencion": "RPM-2005-01-11:25:1",
+      "ID_Padre": "25",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 332,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:26:1": {
+      "ID_Intervencion": "RPM-2005-01-11:26:1",
+      "ID_Padre": "26",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 109,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:27:1": {
+      "ID_Intervencion": "RPM-2005-01-11:27:1",
+      "ID_Padre": "27",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 147,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:28:1": {
+      "ID_Intervencion": "RPM-2005-01-11:28:1",
+      "ID_Padre": "28",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 128,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:28:2": {
+      "ID_Intervencion": "RPM-2005-01-11:28:2",
+      "ID_Padre": "28",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 261,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:29:1": {
+      "ID_Intervencion": "RPM-2005-01-11:29:1",
+      "ID_Padre": "29",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 599,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:31:1": {
+      "ID_Intervencion": "RPM-2005-01-11:31:1",
+      "ID_Padre": "31",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 346,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:32:1": {
+      "ID_Intervencion": "RPM-2005-01-11:32:1",
+      "ID_Padre": "32",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 1473,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:33:1": {
+      "ID_Intervencion": "RPM-2005-01-11:33:1",
+      "ID_Padre": "33",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 1134,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:35:1": {
+      "ID_Intervencion": "RPM-2005-01-11:35:1",
+      "ID_Padre": "35",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Caracteres": 1131,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:37:1": {
+      "ID_Intervencion": "RPM-2005-01-11:37:1",
+      "ID_Padre": "37",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 460,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:39:1": {
+      "ID_Intervencion": "RPM-2005-01-11:39:1",
+      "ID_Padre": "39",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 1047,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:40:1": {
+      "ID_Intervencion": "RPM-2005-01-11:40:1",
+      "ID_Padre": "40",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 69,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:41:1": {
+      "ID_Intervencion": "RPM-2005-01-11:41:1",
+      "ID_Padre": "41",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Caracteres": 1143,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:43:1": {
+      "ID_Intervencion": "RPM-2005-01-11:43:1",
+      "ID_Padre": "43",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 748,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:44:1": {
+      "ID_Intervencion": "RPM-2005-01-11:44:1",
+      "ID_Padre": "44",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 934,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:45:1": {
+      "ID_Intervencion": "RPM-2005-01-11:45:1",
+      "ID_Padre": "45",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 184,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:46:1": {
+      "ID_Intervencion": "RPM-2005-01-11:46:1",
+      "ID_Padre": "46",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 689,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:47:1": {
+      "ID_Intervencion": "RPM-2005-01-11:47:1",
+      "ID_Padre": "47",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 71,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:48:1": {
+      "ID_Intervencion": "RPM-2005-01-11:48:1",
+      "ID_Padre": "48",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 463,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:49:1": {
+      "ID_Intervencion": "RPM-2005-01-11:49:1",
+      "ID_Padre": "49",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:53:1": {
+      "ID_Intervencion": "RPM-2005-01-11:53:1",
+      "ID_Padre": "53",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 472,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:55:1": {
+      "ID_Intervencion": "RPM-2005-01-11:55:1",
+      "ID_Padre": "55",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 101,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
+    },
+    "RPM-2005-01-11:56:1": {
+      "ID_Intervencion": "RPM-2005-01-11:56:1",
+      "ID_Padre": "56",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 195,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2005-01-11",
+      "Justificacion": "Sesion 2005-01-11 leida completa. Es una discusion de IPoM con intercambio rapido: el Ministro consulta y responden Garcia, Valdes, Lehmann, Vicuna, Herrera, Jadresic y Schmidt-Hebbel, cada uno en su propia fila. Los Consejeros comentan y luego votan. Las filas 1:1, 28:2, 55:1 y 56:1 son institucionales (actor Consejo del Banco Central): lista de asistencia, reanudacion, acuerdo y texto del acuerdo. Ninguna fila trae una segunda voz pegada al final."
     }
   },
-  "Total_Leidas": 428
+  "Total_Leidas": 472
 }
