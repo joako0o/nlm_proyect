@@ -147,3 +147,42 @@ Registro curado, validador y corrida para los tres cortes de atribución
 justificación, más el resultado de validación de cada barrido.
 `docs/multihablante_v7_2026-09-09/inventario_multihablante_v7.csv` — las 643 filas con al
 menos otra persona de la asistencia, con `Leidas_En_Este_Lote: 410`.
+
+## Plan de rondas para el resto del corpus
+
+Quedan **9.308 filas** por leer (9.723 del corpus menos las 415 ya registradas),
+**13.003.690 caracteres** a emitir. A 18.000 caracteres por llamada son **842 rondas**.
+
+El criterio de orden es **largo decreciente**: una segunda voz pegada al final de una
+fila necesita espacio, y los tres positivos conocidos miden 684, 849 y 1.275 caracteres.
+Las filas largas van primero, así el plan se puede cortar en cualquier punto habiendo
+cubierto lo de mayor riesgo. Las filas que no caben en un tramo se parten en varias
+rondas (parte 1/2, …).
+
+Se probó filtrar por «frontera de cambio de actor», que es donde caería una segunda voz
+pegada: son **8.935 de 9.723 filas**, así que no reduce nada. El corte por largo tampoco
+reduce mucho —el promedio del corpus es 1.283 caracteres por fila—: con umbral ≥400
+quedan 5.209 filas y 658 rondas.
+
+| umbral | filas | rondas |
+|---|---:|---:|
+| todas | 9.308 | 723 |
+| ≥400 ch | 5.209 | 658 |
+| ≥600 ch | 4.161 | 625 |
+| ≥800 ch | 3.497 | 596 |
+
+Se tomó el plan completo ordenado, no un umbral: el umbral sólo ahorraría 127 rondas y
+dejaría sin leer 4.099 filas.
+
+`docs/continuidad_lote9_2026-09-09/plan_rondas.json` guarda el orden y la agrupación (1,1 MB,
+sin duplicar los textos: se leen del xlsx v7). Para recorrerlo:
+
+```
+.venv/bin/python scripts/rondas_lectura_lote9.py estado
+.venv/bin/python scripts/rondas_lectura_lote9.py leer 1
+```
+
+Cada ronda imprimida lleva el índice de su última fila, que es lo que permite detectar un
+truncamiento: el techo real de una llamada está entre 19.267 y 20.501 caracteres emitidos,
+y el recorte **vacía el medio conservando la cola**, así que la salida se ve completa sin
+estarlo.
