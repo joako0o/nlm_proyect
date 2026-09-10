@@ -1,18 +1,22 @@
 #!/usr/bin/env python
-"""Plan de rondas de lectura del eje multihablante, y lector de una ronda.
+"""Plan de rondas de lectura del eje multihablante, version 2.
+
+Dos cambios respecto de la version 1:
+
+1. Las rondas son coherentes por sesion. Leer filas sueltas de reuniones distintas
+   no deja juzgar si una segunda voz quedo pegada: para eso hace falta ver el flujo
+   de hablantes alrededor. Se ordena por banda de largo y, dentro de la banda, por
+   fecha e ID.
+
+2. Se publica un manifiesto legible (CSV) con los IDs de cada ronda, para que el
+   alcance sea visible antes de empezar.
 
 Uso:
-    python .cache/rondas.py plan              # genera docs/continuidad_lote9_2026-09-09/plan_rondas.json
-    python .cache/rondas.py leer N            # imprime la ronda N
-    python .cache/rondas.py estado            # progreso
-
-Criterio de orden: largo decreciente. Una segunda voz pegada al final de una fila
-necesita espacio; los tres positivos conocidos miden 684, 849 y 1.275 caracteres,
-asi que las filas largas van primero y el plan se puede cortar en cualquier punto
-habiendo cubierto lo de mayor riesgo.
-
-Las filas que no caben en un tramo se parten en varias rondas (Parte 1/2, ...).
+    python scripts/rondas_lectura_lote9.py plan
+    python scripts/rondas_lectura_lote9.py leer N
+    python scripts/rondas_lectura_lote9.py estado
 """
+import csv
 import json
 import pathlib
 import sys
@@ -23,8 +27,16 @@ from diagnosticar_finales import read_rows  # noqa: E402
 V7 = pathlib.Path('data/releases/continuidad_procedimental_v7/consolidado_base_referencia.xlsx')
 LECT = pathlib.Path('docs/continuidad_lote9_2026-09-09/lecturas.json')
 PLAN = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.json')
+MANIF = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.csv')
 LIM = 18000
 CORTE_TEXTO = 17500
+
+BANDAS = [
+    ('A', 1500, 10 ** 9, 'muy largas'),
+    ('B', 800, 1500, 'largas'),
+    ('C', 400, 800, 'medianas'),
+    ('D', 0, 400, 'cortas'),
+]
 
 
 def cab(r, parte=''):
@@ -47,49 +59,90 @@ def pendientes(rows):
     return [r for r in rows if r['ID_Intervencion'] not in leidas], leidas
 
 
+def orden(rows):
+    """Banda de largo primero, sesion despues."""
+    out = []
+    for letra, lo, hi, _ in BANDAS:
+        sel = [r for r in rows if lo <= len(r['Texto']) < hi]
+        sel.sort(key=lambda r: (str(r['Fecha'])[:10], r['ID_Intervencion']))
+        for r in sel:
+            out.append((letra, r))
+    return out
+
+
 def construir():
     rows = filas()
     pend, leidas = pendientes(rows)
+
     items = []
-    for r in sorted(pend, key=lambda x: -len(x['Texto'])):
+    for letra, r in orden(pend):
         t = r['Texto']
         if len(t) <= CORTE_TEXTO:
-            items.append((r, t, ''))
+            items.append((letra, r, t, ''))
         else:
             n = -(-len(t) // CORTE_TEXTO)
             for k in range(n):
-                items.append((r, t[k * CORTE_TEXTO:(k + 1) * CORTE_TEXTO],
+                items.append((letra, r, t[k * CORTE_TEXTO:(k + 1) * CORTE_TEXTO],
                               ' (parte %d/%d)' % (k + 1, n)))
 
     rondas, actual, n = [], [], 0
-    for r, t, parte in items:
+    for letra, r, t, parte in items:
         c = len(t) + len(cab(r, parte)) + 2
         if actual and n + c > LIM:
             rondas.append(actual)
             actual, n = [], 0
-        actual.append({'id': r['ID_Intervencion'], 'parte': parte, 'chars': len(t)})
+        actual.append({'id': r['ID_Intervencion'], 'parte': parte, 'chars': len(t),
+                       'banda': letra, 'fecha': str(r['Fecha'])[:10],
+                       'actor': r['Actor_Final']})
         n += c
     if actual:
         rondas.append(actual)
 
     doc = {
-        'Version': 1,
-        'Criterio': 'Largo decreciente; las filas que no caben se parten en varias rondas.',
+        'Version': 2,
+        'Criterio': ('Banda de largo (A>=1500, B 800-1499, C 400-799, D<400) y dentro de '
+                     'cada banda por fecha e ID, para que cada ronda sea una sesion '
+                     'coherente. Las filas que no caben se parten en varias rondas.'),
         'Limite_Chars_Por_Ronda': LIM,
         'Base': str(V7),
         'Filas_Corpus': len(rows),
         'Filas_Ya_Leidas': len(leidas),
         'Filas_Pendientes': len(pend),
+        'Bandas': [{'Banda': b, 'Desde': lo, 'Hasta': (hi if hi < 10 ** 9 else None),
+                    'Descripcion': d,
+                    'Filas': sum(1 for r in pend if lo <= len(r['Texto']) < hi)}
+                   for b, lo, hi, d in BANDAS],
         'Rondas': [{'Ronda': k + 1, 'Filas': len(x),
                     'Chars': sum(i['chars'] for i in x),
-                    'IDs': sorted({i['id'] for i in x}),
+                    'Bandas': sorted({i['banda'] for i in x}),
+                    'Sesiones': sorted({i['fecha'] for i in x}),
+                    'IDs': [i['id'] for i in x],
                     'Items': x} for k, x in enumerate(rondas)],
     }
     PLAN.parent.mkdir(parents=True, exist_ok=True)
     PLAN.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding='utf-8')
-    print('plan escrito en', PLAN)
-    print('rondas: %d | filas pendientes: %s | ya leidas: %s'
+
+    with MANIF.open('w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['Ronda', 'Bandas', 'Tramos', 'Chars', 'Sesiones',
+                    'Primera_Fecha', 'Ultima_Fecha', 'IDs'])
+        for r in doc['Rondas']:
+            w.writerow([r['Ronda'], '+'.join(r['Bandas']), r['Filas'], r['Chars'],
+                        len(r['Sesiones']), r['Sesiones'][0], r['Sesiones'][-1],
+                        ' '.join(r['IDs'])])
+
+    print('plan    :', PLAN)
+    print('manifiesto:', MANIF)
+    print('rondas %d | pendientes %s | ya leidas %s'
           % (len(rondas), f'{len(pend):,}', f'{len(leidas):,}'))
+    print()
+    print('%-6s %-14s %8s %8s' % ('banda', 'rango', 'filas', 'rondas'))
+    ini = 1
+    for b in doc['Bandas']:
+        nr = sum(1 for r in doc['Rondas'] if r['Bandas'] == [b['Banda']])
+        rng = ('%d+' % b['Desde']) if b['Hasta'] is None else '%d-%d' % (b['Desde'], b['Hasta'] - 1)
+        print('%-6s %-14s %8s %8d' % (b['Banda'] + ' ' + b['Descripcion'], rng,
+                                      f"{b['Filas']:,}", nr))
     return doc
 
 
@@ -106,27 +159,33 @@ def leer(n):
         if it['parte']:
             k = int(it['parte'].split('/')[0].split()[-1]) - 1
             t = t[k * CORTE_TEXTO:(k + 1) * CORTE_TEXTO]
-        total += len(t) + 90
+        total += len(t)
         print('#### [%d] %s%s | %s | %s | %d ch | %s'
               % (n, it['id'], it['parte'], f['Actor_Final'], str(f['Fecha'])[:10],
                  len(t), f.get('Motivos_Revision') or 'sin motivos'))
         print(t)
         print()
-    print('--- RONDA %d/%d | %d tramos | %s chars texto | ~%s emitidos ---'
-          % (n, len(doc['Rondas']), r['Filas'], f'{total:,}', f'{total:,}'))
+    print('--- RONDA %d/%d | banda %s | %d tramos | %s chars | ult. fila %s ---'
+          % (n, len(doc['Rondas']), '+'.join(r['Bandas']), r['Filas'],
+             f'{total:,}', r['Items'][-1]['id'] + r['Items'][-1]['parte']))
 
 
 def estado():
     doc = json.loads(PLAN.read_text(encoding='utf-8'))
     todas = filas()
     pend, leidas = pendientes(todas)
-    print('corpus            :', f"{len(todas):,}")
-    print('leidas registradas:', f"{len(leidas):,}")
-    print('pendientes hoy    :', f"{len(pend):,}")
-    print('rondas del plan   :', len(doc['Rondas']))
     ids_plan = {i for r in doc['Rondas'] for i in r['IDs']}
+    print('corpus            :', f'{len(todas):,}')
+    print('leidas registradas:', f'{len(leidas):,}')
+    print('pendientes hoy    :', f'{len(pend):,}')
+    print('rondas del plan   :', len(doc['Rondas']))
     print('filas del plan    :', f'{len(ids_plan):,}')
     print('fuera del plan    :', f'{len({r["ID_Intervencion"] for r in pend} - ids_plan):,}')
+    por_banda = {}
+    for r in doc['Rondas']:
+        por_banda.setdefault('+'.join(r['Bandas']), []).append(r['Ronda'])
+    for b, ns in sorted(por_banda.items()):
+        print('  banda %-4s rondas %d..%d (%d)' % (b, min(ns), max(ns), len(ns)))
 
 
 if __name__ == '__main__':
