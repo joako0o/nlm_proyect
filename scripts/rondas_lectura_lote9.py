@@ -319,14 +319,24 @@ def estado():
     print('sesiones completas:', len(hechas))
     print()
     print('%-12s %10s %6s %9s %s' % ('sesion', 'rondas', 'filas', 'chars', 'estado'))
-    for f in list(ses)[:12]:
+    print('--- sesiones cerradas (orden del plan) ---')
+    for f in [x for x in ses if x in set(hechas)][:12]:
+        ns = ses[f]
+        bloque = doc['Rondas'][min(ns)-1:max(ns)]
+        print('%-12s %10s %6d %9s %s' % (
+            f, '%d-%d' % (min(ns), max(ns)),
+            sum(len(r['IDs']) for r in bloque),
+            f"{sum(r['Chars'] for r in bloque):,}", 'COMPLETA'))
+    print('--- próximas sesiones pendientes (orden del plan) ---')
+    for f in [x for x in ses if x not in set(hechas)][:12]:
         ns = ses[f]
         bloque = doc['Rondas'][min(ns)-1:max(ns)]
         ids = [i for r in bloque for i in r['IDs']]
         ok = all(i in leidas for i in ids)
         print('%-12s %10s %6d %9s %s' % (
             f, '%d-%d' % (min(ns), max(ns)), len(ids),
-            f"{sum(r['Chars'] for r in bloque):,}", 'COMPLETA' if ok else 'pendiente'))
+            f"{sum(r['Chars'] for r in bloque):,}",
+            'COMPLETA' if ok else f'pendiente {sum(i in leidas for i in ids)}/{len(ids)}'))
 
 
 if __name__ == '__main__':
