@@ -6,7 +6,9 @@
     "Columna_Nueva": "Texto_Corregido",
     "Reglas_Automaticas": false,
     "Residuos_Fuente": "ELIMINAR",
-    "Nota": "Cada correccion esta curada a mano sobre una fila leida completa. Una entrada exige Contexto y Justificacion. El validador exige que 'Antes' aparezca en el texto verbatim exactamente las veces declaradas; si no aparece, la corrida falla en vez de adivinar. Revisiones_Sin_Correccion guarda lo que se miro y se descarto, con el motivo: es la prueba de que no se paso una regla ciega."
+    "Nota": "Cada correccion esta curada a mano sobre una fila leida completa. Una entrada exige Contexto y Justificacion. El validador exige que 'Antes' aparezca en el texto verbatim exactamente las veces declaradas; si no aparece, la corrida falla en vez de adivinar. Revisiones_Sin_Correccion guarda lo que se miro y se descarto, con el motivo: es la prueba de que no se paso una regla ciega.",
+    "Columna_Cotejo": "Cotejar_PDF",
+    "Nota_Cotejo": "Lo que el texto no alcanza a resolver queda marcado en Cotejar_PDF con vocabulario controlado, en vez de adivinarse o de perderse. NOMBRE_PROPIO_POR_COTEJAR, CARGO_EN_DISCURSO_POR_COTEJAR, CIFRA_INCONSISTENTE_POR_COTEJAR, RECONSTRUCCION_AMBIGUA_POR_COTEJAR, SIGNO_AUSENTE_POR_COTEJAR, RESERVA_ABIERTA_POR_COTEJO. La alerta TEXTO_DANADO_POR_COTEJAR del motor se arrastra sola. NO_REQUIERE_COTEJO se registra pero no genera marca: deja constancia de que el caso se resolvió."
   },
   "Correcciones": [
     {
@@ -336,157 +338,220 @@
     {
       "ID_Intervencion": "RPM-2006-10-12:892:1",
       "Texto_Original_Fragmento": "Ello por cierto beneficia al país, pero si está vinculado a otro fenómeno, el neto puede no ser tan auspicioso.",
-      "Motivo": "NO_ES_DEFECTO. 'si' es conjuncion condicional, no adverbio de afirmacion. Ponerle tilde cambiaria el sentido de la oracion."
+      "Motivo": "NO_ES_DEFECTO. 'si' es conjuncion condicional, no adverbio de afirmacion. Ponerle tilde cambiaria el sentido de la oracion.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:881:1",
       "Texto_Original_Fragmento": "en el margen han habido salidas",
-      "Motivo": "NO_ES_OCR. Es un solecismo del hablante, no un error de lectura optica. Corregirlo seria editar el discurso."
+      "Motivo": "NO_ES_OCR. Es un solecismo del hablante, no un error de lectura optica. Corregirlo seria editar el discurso.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:881:1",
       "Texto_Original_Fragmento": "tanto el Conference Support como la Universidad de Michigan",
-      "Motivo": "SIN_VERIFICAR. Probablemente sea 'The Conference Board', pero es un nombre propio y no hay fuente que lo acredite en este turno. Se deja verbatim."
+      "Motivo": "SIN_VERIFICAR. Probablemente sea 'The Conference Board', pero es un nombre propio y no hay fuente que lo acredite en este turno. Se deja verbatim.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:884:1",
       "Texto_Original_Fragmento": "conserva más menos ese nivel hacia delante",
-      "Motivo": "AMBIGUO. Podria ser 'más o menos' con la o perdida, pero tambien una muletilla del hablante. No es inequivoco."
+      "Motivo": "AMBIGUO. Podria ser 'más o menos' con la o perdida, pero tambien una muletilla del hablante. No es inequivoco.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:887:1",
       "Texto_Original_Fragmento": "ciertamente era contractivo un aumento y expansivo un alza",
-      "Motivo": "AMBIGUO. La oposicion semantica no cierra; reconstruir la frase exigiria inventar palabras."
+      "Motivo": "AMBIGUO. La oposicion semantica no cierra; reconstruir la frase exigiria inventar palabras.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
-      "ID_Intervencion": "RPM-2006-10-12:881:1 / 882:1",
+      "ID_Intervencion": "RPM-2006-10-12:881:1 / RPM-2006-10-12:882:1",
       "Texto_Original_Fragmento": "algo por debajo de los US$ 58 el barril (881:1) / ha caído en torno a US$ 66 el barril (882:1)",
-      "Motivo": "INCONSISTENCIA_DE_FUENTE. Dos cifras distintas para el mismo precio en la misma sesion. Es un dato del documento, no un defecto de OCR: se conserva verbatim y se anota."
+      "Motivo": "INCONSISTENCIA_DE_FUENTE. Dos cifras distintas para el mismo precio en la misma sesion. Es un dato del documento, no un defecto de OCR: se conserva verbatim y se anota.",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:896:1",
       "Texto_Original_Fragmento": "Las medidas multilaterales, TCM, TCM-5 y TCM-X tuvieron variaciones de -0,9%, -1,1 y -0,8%",
-      "Motivo": "NO_ES_DEFECTO. TCM es la abreviatura de Tipo de Cambio Multilateral. Es el falso positivo que explico las 6 coincidencias de 'tcm tcm' en el escaneo automatico: una regla ciega las habria destruido."
+      "Motivo": "NO_ES_DEFECTO. TCM es la abreviatura de Tipo de Cambio Multilateral. Es el falso positivo que explico las 6 coincidencias de 'tcm tcm' en el escaneo automatico: una regla ciega las habria destruido.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:896:1",
       "Texto_Original_Fragmento": "Al antes comentando incremento en las colocaciones de bonos de empresas",
-      "Motivo": "AMBIGUO. Podria ser 'Al antes comentado incremento' o 'Al ya comentado incremento'. Dos reconstrucciones posibles: no es inequivoco."
+      "Motivo": "AMBIGUO. Podria ser 'Al antes comentado incremento' o 'Al ya comentado incremento'. Dos reconstrucciones posibles: no es inequivoco.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:896:1",
       "Texto_Original_Fragmento": "tuvieron variaciones de -0,9%, -1,1 y -0,8%, respectivamente",
-      "Motivo": "NO_SE_TOCA. Falta el signo % detras de -1,1, pero agregar un simbolo que no esta en la fuente es editorializar, no corregir OCR."
+      "Motivo": "NO_SE_TOCA. Falta el signo % detras de -1,1, pero agregar un simbolo que no esta en la fuente es editorializar, no corregir OCR.",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:904:1",
       "Texto_Original_Fragmento": "que es la que se utiliza en otros lugares cuando se le cobra el consumidor para determinado plazo",
-      "Motivo": "AMBIGUO. Probablemente falte 'al', pero no hay otra ocurrencia de la formula en la fila que la respalde. No es inequivoco."
+      "Motivo": "AMBIGUO. Probablemente falte 'al', pero no hay otra ocurrencia de la formula en la fila que la respalde. No es inequivoco.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:902:1",
       "Texto_Original_Fragmento": "consulta si existe algún indicador por ejemplo, de tasa media de oferta",
-      "Motivo": "NO_SE_TOCA. Falta una coma detras de 'indicador'. Es puntuacion, no lectura optica."
+      "Motivo": "NO_SE_TOCA. Falta una coma detras de 'indicador'. Es puntuacion, no lectura optica.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:899:1",
       "Texto_Original_Fragmento": "consulta cuál es el delta en dólares que el Banco Central asigna al Transantiago",
-      "Motivo": "NO_ES_DEFECTO. 'delta' es la palabra que uso el Ministro de Hacienda. Corregirla seria editar el discurso."
+      "Motivo": "NO_ES_DEFECTO. 'delta' es la palabra que uso el Ministro de Hacienda. Corregirla seria editar el discurso.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:906:1",
       "Texto_Original_Fragmento": "el Gerente de Análisis Financiero señor Igal Magendzo",
-      "Motivo": "INCONSISTENCIA_DE_FUENTE, no OCR. El acta 879:1 lo lista como Gerente de Análisis Macroeconómico y las filas 910:1 y 924:1 repiten ese cargo. El cargo del discurso está mal en el original; el campo Actor_Final es correcto y no se toca la prosa. Correspondería la alerta CARGO_EN_DISCURSO_POR_VERIFICAR, que esta fila no trae."
+      "Motivo": "INCONSISTENCIA_DE_FUENTE, no OCR. El acta 879:1 lo lista como Gerente de Análisis Macroeconómico y las filas 910:1 y 924:1 repiten ese cargo. El cargo del discurso está mal en el original; el campo Actor_Final es correcto y no se toca la prosa. Correspondería la alerta CARGO_EN_DISCURSO_POR_VERIFICAR, que esta fila no trae.",
+      "Marca": "CARGO_EN_DISCURSO_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:914:1",
       "Texto_Original_Fragmento": "una visión amplia de China que tiene que se vincula con el tipo de cambio real de equilibrio",
-      "Motivo": "AMBIGUO. 'que tiene que se vincula' está dañado, pero admite más de una reconstrucción y exigiría inventar palabras."
+      "Motivo": "AMBIGUO. 'que tiene que se vincula' está dañado, pero admite más de una reconstrucción y exigiría inventar palabras.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:914:1",
       "Texto_Original_Fragmento": "exactamente de donde viene el sistema estructural",
-      "Motivo": "NO_ES_OCR. La fila 911:1 habla de 'cambio estructural', pero 'sistema' y 'cambio' no comparten trazo: no es una confusión óptica plausible. Es un error de transcripción de fondo y corregirlo sería reescribir."
+      "Motivo": "NO_ES_OCR. La fila 911:1 habla de 'cambio estructural', pero 'sistema' y 'cambio' no comparten trazo: no es una confusión óptica plausible. Es un error de transcripción de fondo y corregirlo sería reescribir.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:916:1",
       "Texto_Original_Fragmento": "la inflación entre 2 y 10 años que se deriva de los precios está anclada al 10%",
-      "Motivo": "NO_SE_TOCA. La cifra es inverosímil frente a una meta de 3%, pero es un dato declarado en la sesión. Tocar un número de la fuente es falsearla, no corregir OCR."
+      "Motivo": "NO_SE_TOCA. La cifra es inverosímil frente a una meta de 3%, pero es un dato declarado en la sesión. Tocar un número de la fuente es falsearla, no corregir OCR.",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:926:1",
       "Texto_Original_Fragmento": "es más contractiva la política monetaria en ese horizonte",
-      "Motivo": "NO_ES_OCR. 'contractiva' aparece igual en 887:1 y en 929:1: es el uso consistente del transcriptor, no una lectura óptica fallida."
+      "Motivo": "NO_ES_OCR. 'contractiva' aparece igual en 887:1 y en 929:1: es el uso consistente del transcriptor, no una lectura óptica fallida.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:929:1",
       "Texto_Original_Fragmento": "señala que no ve el efecto de petróleo",
-      "Motivo": "LIMITE. Falta 'del', pero 'efecto de petróleo' también se lee como compuesto nominal. No hay otra ocurrencia de la fórmula en la fila que dirima. Se deja verbatim."
+      "Motivo": "LIMITE. Falta 'del', pero 'efecto de petróleo' también se lee como compuesto nominal. No hay otra ocurrencia de la fórmula en la fila que dirima. Se deja verbatim.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:932:1",
       "Texto_Original_Fragmento": "El peso estuvo estable con respecto el dólar y mostró una leve apreciación (1%)",
-      "Motivo": "LIMITE. Falta la preposición en 'con respecto al dólar', pero medí la sesión completa y 'con respecto al' aparece 0 veces: no hay forma correcta en el documento que respalde la enmienda. Criterio: palabra omitida sólo se repone cuando la forma correcta está en la fila o en la sesión."
+      "Motivo": "LIMITE. Falta la preposición en 'con respecto al dólar', pero medí la sesión completa y 'con respecto al' aparece 0 veces: no hay forma correcta en el documento que respalde la enmienda. Criterio: palabra omitida sólo se repone cuando la forma correcta está en la fila o en la sesión.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:934:1",
       "Texto_Original_Fragmento": "que el PIB de distintos recursos anuales para el año 2006 se corrige 3 décimas a la baja",
-      "Motivo": "AMBIGUO. 'distintos recursos anuales' no cierra semánticamente y admite varias reconstrucciones."
+      "Motivo": "AMBIGUO. 'distintos recursos anuales' no cierra semánticamente y admite varias reconstrucciones.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:934:1",
       "Texto_Original_Fragmento": "y el pozo concentrado durante el segundo semestre",
-      "Motivo": "AMBIGUO. Podría ser 'peso', 'puesto' o 'plazo'. Tres candidatas: no es inequívoco."
+      "Motivo": "AMBIGUO. Podría ser 'peso', 'puesto' o 'plazo'. Tres candidatas: no es inequívoco.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:935:1",
       "Texto_Original_Fragmento": "lo que les debe preocupar para proyectar el precio, ya dejó de ser claro en relación a cuál será el signo del próximo cambio en la tasa",
-      "Motivo": "AMBIGUO. 'el precio' no encaja con el resto de la oración, pero reconstruirlo exigiría inventar el sustantivo."
+      "Motivo": "AMBIGUO. 'el precio' no encaja con el resto de la oración, pero reconstruirlo exigiría inventar el sustantivo.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:936:1",
       "Texto_Original_Fragmento": "¿Qué quiere decir cuándo un desarrollo es muy largo?",
-      "Motivo": "NO_SE_TOCA. Probablemente sea 'desfase' (la fila 934:1 habla de 'los cambios de desfase'), pero 'desarrollo' y 'desfase' no comparten trazo: no es confusión óptica y el cambio sería demasiado grande para una corrección de OCR."
+      "Motivo": "NO_SE_TOCA. Probablemente sea 'desfase' (la fila 934:1 habla de 'los cambios de desfase'), pero 'desarrollo' y 'desfase' no comparten trazo: no es confusión óptica y el cambio sería demasiado grande para una corrección de OCR.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:939:1",
       "Texto_Original_Fragmento": "en cuanto a que el Comunicado refleje que, probablemente la pausa será más prolongada que lo de anticipábamos hace solo un mes atrás",
-      "Motivo": "AMBIGUO. 'lo de anticipábamos' está dañado y lo probable es 'lo que anticipábamos', pero pasar de 'de' a 'que' exige dos cambios de carácter: no es una confusión óptica de un solo glifo."
+      "Motivo": "AMBIGUO. 'lo de anticipábamos' está dañado y lo probable es 'lo que anticipábamos', pero pasar de 'de' a 'que' exige dos cambios de carácter: no es una confusión óptica de un solo glifo.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-10-12:941:1",
       "Texto_Original_Fragmento": "un conjunto de fenómenos que se han dado con más fuerza en el último mes que va a ser necesario monitorear y de los cuales sería, incluso el futuro de la política monetaria",
-      "Motivo": "AMBIGUO. 'de los cuales sería' probablemente sea 'dependería', pero la reconstrucción exige inventar el verbo. Se deja verbatim."
+      "Motivo": "AMBIGUO. 'de los cuales sería' probablemente sea 'dependería', pero la reconstrucción exige inventar el verbo. Se deja verbatim.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-01-12:527:1",
       "Texto_Original_Fragmento": "Gerente de Investigación Económica, don Kiaus Schmidt-Hebbei Dunker",
-      "Motivo": "NO_SE_TOCA, y es un límite de política que conviene revisar. El nombre real es Klaus Schmidt-Hebbel Dunker y las dos desviaciones son exactamente el glifo que sí corrijo en otros lados (i por l). Pero hay una instrucción vigente de tratar las variantes de nombre como tratamiento documental y no resolver alias por intuición — es la regla que mantiene 'Claudia Raddatz' y 'Claudios Soto' tal cual. Corregir la grafía de un nombre propio cruzaría esa línea, así que se deja verbatim y se señala al usuario."
+      "Motivo": "NO_SE_TOCA, y es un límite de política que conviene revisar. El nombre real es Klaus Schmidt-Hebbel Dunker y las dos desviaciones son exactamente el glifo que sí corrijo en otros lados (i por l). Pero hay una instrucción vigente de tratar las variantes de nombre como tratamiento documental y no resolver alias por intuición — es la regla que mantiene 'Claudia Raddatz' y 'Claudios Soto' tal cual. Corregir la grafía de un nombre propio cruzaría esa línea, así que se deja verbatim y se señala al usuario.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-01-12:527:1",
       "Texto_Original_Fragmento": "Fecha Sesión de Política Monetaria del mes de julio de 2006.",
-      "Motivo": "NO_SE_TOCA. Es un campo del formulario fuente, no un residuo de paginación ni de firma. Lleva información y la fila 528:1 la desarrolla; eliminarlo sería perder contenido, no limpiar."
+      "Motivo": "NO_SE_TOCA. Es un campo del formulario fuente, no un residuo de paginación ni de firma. Lleva información y la fila 528:1 la desarrolla; eliminarlo sería perder contenido, no limpiar.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-01-12:527:1",
       "Texto_Original_Fragmento": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 87",
-      "Motivo": "NO_SE_TOCA. Encabezado en versales sin tildes: convención tipográfica del documento fuente, no lectura óptica fallida."
+      "Motivo": "NO_SE_TOCA. Encabezado en versales sin tildes: convención tipográfica del documento fuente, no lectura óptica fallida.",
+      "Marca": "NO_REQUIERE_COTEJO"
     },
     {
       "ID_Intervencion": "RPM-2006-01-12:531:1",
       "Texto_Original_Fragmento": "un ajuste desordenado en el desbalance de gastos en Estados Unidos de América, que llevan aumentos significativos e inesperados en las tasas de interés",
-      "Motivo": "AMBIGUO. Probablemente sea 'que llevaría a aumentos', pero la reconstrucción exige cambiar dos palabras."
+      "Motivo": "AMBIGUO. Probablemente sea 'que llevaría a aumentos', pero la reconstrucción exige cambiar dos palabras.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-01-12:531:1",
       "Texto_Original_Fragmento": "se esperaba un crecimiento de 9,3% para esta economía en 2005, y finalmente habría sido un 9,8.",
-      "Motivo": "NO_SE_TOCA. Falta el signo % detrás de 9,8, pero agregar un símbolo ausente es editorializar."
+      "Motivo": "NO_SE_TOCA. Falta el signo % detrás de 9,8, pero agregar un símbolo ausente es editorializar.",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
     },
     {
       "ID_Intervencion": "RPM-2006-01-12:533:1",
       "Texto_Original_Fragmento": "esperándose una reversión solo gradual para los próximos años",
-      "Motivo": "NO_ES_OCR. 'solo' sin tilde y 'sólo' con tilde conviven en la misma fila. Desde la Ortografía de 2010 el adverbio no exige tilde: es inconsistencia de estilo del documento, no lectura óptica."
+      "Motivo": "NO_ES_OCR. 'solo' sin tilde y 'sólo' con tilde conviven en la misma fila. Desde la Ortografía de 2010 el adverbio no exige tilde: es inconsistencia de estilo del documento, no lectura óptica.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    }
+  ],
+  "Marcas_Adicionales": [
+    {
+      "ID_Intervencion": "RPM-2006-07-13:780:2",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 780 abierta: RESERVA_COTEJO_INICIO. Hay que localizar en el acta RPM95 del 13-07-2006 la transición entre el voto de De Gregorio y el inicio de Corbo."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:780:3",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 780 abierta: mismo cotejo que 780:2."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2661:6",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 2661 abierta: RESERVA_CONFIRMACION_NARRADA. La confirmación de Lehmann está narrada sin palabras ni modalidad; sólo el acta puede decir si hubo voz, pausa o gesto."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2661:7",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 2661 abierta: mismo cotejo que 2661:6."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5252:3",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 5252 abierta: RESERVA_LIMITE_ACTA_PERSONA. La frontera entre la voz narrativa del acta y el aviso de Marfán no se resuelve sin la fuente."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5252:4",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 5252 abierta: mismo cotejo que 5252:3."
     }
   ]
 }

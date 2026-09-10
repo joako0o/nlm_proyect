@@ -42,6 +42,31 @@ Invierte la instrucción anterior de «no corrijas OCR». Ahora:
 4. **Residuos de fuente eliminados** en `Texto_Corregido`: números de página,
    marcas horarias sueltas, símbolos ilegibles, firmas truncadas.
 
+### La marca de cotejo
+
+Lo que el texto no alcanza a resolver **no se adivina ni se pierde**: queda
+marcado en la columna `Cotejar_PDF` con vocabulario controlado. Es la lista de
+trabajo para cuando se tenga el PDF original a la vista.
+
+| marca | qué hay que mirar |
+|---|---|
+| `NOMBRE_PROPIO_POR_COTEJAR` | grafía de un nombre propio |
+| `CARGO_EN_DISCURSO_POR_COTEJAR` | cargo en la prosa que no cuadra con la nómina del acta |
+| `CIFRA_INCONSISTENTE_POR_COTEJAR` | cifra que contradice a otra fila o es inverosímil |
+| `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` | texto dañado con más de una lectura posible |
+| `SIGNO_AUSENTE_POR_COTEJAR` | falta un `%`, una coma, una tilde |
+| `RESERVA_ABIERTA_POR_COTEJO` | las tres reservas 780, 2661, 5252 |
+| `TEXTO_DANADO_POR_COTEJAR` | se arrastra sola desde la alerta del motor |
+| `NO_REQUIERE_COTEJO` | caso resuelto: se registra, **no** genera marca |
+
+Cada `Revisiones_Sin_Correccion` lleva `Marca` obligatoria; el validador
+rechaza cualquier valor fuera del vocabulario. Al 2026-09-10: 75 filas
+marcadas (13 reconstrucción ambigua, 51 texto dañado, 6 reservas, 3 cifras,
+2 nombres, 2 signos, 1 cargo).
+
+**Regla de oro: un nombre propio nunca se corrige, se marca.** La resolución
+de identidad vive en `Actor_Final` y no se toca.
+
 ### Criterio operativo
 
 - **Carácter mal leído** (una letra por otra, un signo por una letra, tilde

@@ -9,14 +9,18 @@ Política fijada por el usuario (2026-09-10):
   fila leída completa, con su contexto y su justificación.
 * Los residuos del documento fuente (números de página, símbolos sueltos,
   firmas truncadas) **se eliminan** en ``Texto_Corregido``.
+* Lo que no se pudo resolver a partir del texto va marcado en una tercera
+  columna, ``Cotejar_PDF``, con vocabulario controlado: es la lista de trabajo
+  para cuando se tenga el PDF original a la vista.
 
 Contratos que valida antes de escribir:
 
-1. ``Antes`` debe aparecer en ``Texto`` exactamente las veces declaradas
-   (por omisión, una). Si no aparece, la corrida falla: no se adivina.
-2. Una fila sin operaciones no genera ``Texto_Corregido``.
-3. ``Texto`` sale byte a byte igual al de entrada.
-4. Aplicar dos veces da el mismo resultado (idempotencia).
+1. ``Antes`` debe aparecer en el texto virgen de la fila exactamente las veces
+   declaradas. Si no aparece, la corrida falla: no se adivina.
+2. Dos operaciones de una misma entrada no pueden pisarse: el ``Antes`` de
+   cada una se comprueba contra el texto virgen, no contra el intermedio.
+3. Una fila sin operaciones no genera ``Texto_Corregido``.
+4. Toda revisión descartada lleva ``Marca``, tomada del vocabulario.
 
 Uso::
 
@@ -29,17 +33,20 @@ import argparse
 import hashlib
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
-from openpyxl import load_workbook, Workbook
+from openpyxl import load_workbook
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from diagnosticar_finales import read_rows  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 REGISTRO = RAIZ / 'data' / 'curation' / 'correcciones_ocr_v1.json'
-BASE = RAIZ / 'data' / 'releases' / 'continuidad_procedimental_v7' / 'consolidado_base_referencia_final.xlsx'
+BASE = (RAIZ / 'data' / 'releases' / 'continuidad_procedimental_v7'
+        / 'consolidado_base_referencia_final.xlsx')
 COLUMNA = 'Texto_Corregido'
+COLUMNA_COTEJO = 'Cotejar_PDF'
 
 TIPOS_VALIDOS = {
     'PALABRA_DUPLICADA',      # «las las tasas» -> «las tasas»
@@ -56,6 +63,21 @@ TIPOS_VALIDOS = {
     'PALABRA_OMITIDA',        # «alta base comparación» -> «alta base de comparación»
     'SALTOS_DE_LINEA',        # una palabra por línea, artefacto de justificación del PDF
 }
+
+# Vocabulario de la columna Cotejar_PDF. Cada valor dice qué hay que mirar en
+# el PDF original y por qué el texto no alcanza para resolverlo.
+MARCAS_VALIDAS = {
+    'NOMBRE_PROPIO_POR_COTEJAR',
+    'CARGO_EN_DISCURSO_POR_COTEJAR',
+    'CIFRA_INCONSISTENTE_POR_COTEJAR',
+    'RECONSTRUCCION_AMBIGUA_POR_COTEJAR',
+    'SIGNO_AUSENTE_POR_COTEJAR',
+    'RESERVA_ABIERTA_POR_COTEJO',
+    'NO_REQUIERE_COTEJO',
+}
+
+# La alerta del motor ya dice «por cotejar»: se arrastra sola a la columna.
+MOTIVO_QUE_MARCA = 'TEXTO_DANADO_POR_COTEJAR'
 
 
 def cargar() -> dict:
@@ -98,15 +120,17 @@ def aplicar_a_texto(texto: str, operaciones: list[dict], rid: str,
     return salida, problemas
 
 
-def validar(reg: dict | None = None, base: Path = BASE) -> tuple[bool, list[str], dict]:
+def validar(reg: dict | None = None, base: Path = BASE):
     reg = reg or cargar()
     filas = {r['ID_Intervencion']: r for r in read_rows(base)}
     problemas: list[str] = []
     corregidas: dict[str, str] = {}
+    marcas: dict[str, list[str]] = defaultdict(list)
 
-    if reg.get('Politica', {}).get('Texto_Verbatim') != 'INTACTO':
+    pol = reg.get('Politica', {})
+    if pol.get('Texto_Verbatim') != 'INTACTO':
         problemas.append('la política debe declarar Texto_Verbatim = INTACTO')
-    if reg.get('Politica', {}).get('Reglas_Automaticas') is not False:
+    if pol.get('Reglas_Automaticas') is not False:
         problemas.append('la política debe declarar Reglas_Automaticas = false')
 
     for entrada in reg.get('Correcciones', []):
@@ -128,11 +152,41 @@ def validar(reg: dict | None = None, base: Path = BASE) -> tuple[bool, list[str]
             else:
                 corregidas[rid] = salida
 
-    return (not problemas), problemas, corregidas
+    for rev in reg.get('Revisiones_Sin_Correccion', []):
+        marca = rev.get('Marca')
+        if marca not in MARCAS_VALIDAS:
+            problemas.append(
+                f"{rev.get('ID_Intervencion')}: Marca {marca!r} fuera del "
+                f'vocabulario {sorted(MARCAS_VALIDAS)}')
+            continue
+        for rid in [x.strip() for x in rev['ID_Intervencion'].split('/')]:
+            if rid and rid not in filas:
+                problemas.append(f'{rid}: marcado para cotejo pero no existe en la base')
+                continue
+            if marca != 'NO_REQUIERE_COTEJO' and marca not in marcas[rid]:
+                marcas[rid].append(marca)
+
+    for extra in reg.get('Marcas_Adicionales', []):
+        rid = extra['ID_Intervencion']
+        if rid not in filas:
+            problemas.append(f'{rid}: no existe en la base')
+            continue
+        if extra.get('Marca') not in MARCAS_VALIDAS:
+            problemas.append(f"{rid}: Marca {extra.get('Marca')!r} fuera del vocabulario")
+            continue
+        if extra['Marca'] != 'NO_REQUIERE_COTEJO' and extra['Marca'] not in marcas[rid]:
+            marcas[rid].append(extra['Marca'])
+
+    for rid, fila in filas.items():
+        if MOTIVO_QUE_MARCA in (fila.get('Motivos_Revision') or ''):
+            if MOTIVO_QUE_MARCA not in marcas[rid]:
+                marcas[rid].append(MOTIVO_QUE_MARCA)
+
+    return (not problemas), problemas, corregidas, dict(marcas)
 
 
 def construir(base: Path, destino: Path) -> int:
-    ok, problemas, corregidas = validar(base=base)
+    ok, problemas, corregidas, marcas = validar(base=base)
     if not ok:
         for p in problemas:
             print('ERROR:', p)
@@ -142,23 +196,37 @@ def construir(base: Path, destino: Path) -> int:
     ws = wb['Consolidado']
     cabecera = [c.value for c in ws[1]]
     idx_id = cabecera.index('ID_Intervencion') + 1
-    nueva = len(cabecera) + 1
-    ws.cell(row=1, column=nueva, value=COLUMNA)
-    n = 0
+    col_txt, col_mar = len(cabecera) + 1, len(cabecera) + 2
+    ws.cell(row=1, column=col_txt, value=COLUMNA)
+    ws.cell(row=1, column=col_mar, value=COLUMNA_COTEJO)
+    n_txt = n_mar = 0
     for r in range(2, ws.max_row + 1):
         rid = ws.cell(row=r, column=idx_id).value
         if rid in corregidas:
-            ws.cell(row=r, column=nueva, value=corregidas[rid])
-            n += 1
+            ws.cell(row=r, column=col_txt, value=corregidas[rid])
+            n_txt += 1
+        if rid in marcas:
+            ws.cell(row=r, column=col_mar, value=';'.join(sorted(marcas[rid])))
+            n_mar += 1
     destino.mkdir(parents=True, exist_ok=True)
     wb.save(destino / 'consolidado_texto_corregido.xlsx')
+    por_marca: dict[str, int] = defaultdict(int)
+    for v in marcas.values():
+        for m in v:
+            por_marca[m] += 1
     (destino / 'correcciones_aplicadas.json').write_text(
-        json.dumps({'Total_Filas_Corregidas': n,
+        json.dumps({'Total_Filas_Corregidas': n_txt,
                     'Total_Operaciones': sum(len(e['Operaciones'])
                                              for e in cargar()['Correcciones']),
-                    'Filas': sorted(corregidas)},
+                    'Total_Filas_Marcadas_Para_Cotejo': n_mar,
+                    'Marcas_Por_Tipo': dict(sorted(por_marca.items())),
+                    'Filas_Corregidas': sorted(corregidas),
+                    'Filas_Marcadas': sorted(marcas)},
                    ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f'filas con Texto_Corregido: {n}')
+    print(f'filas con {COLUMNA}: {n_txt}')
+    print(f'filas con {COLUMNA_COTEJO}: {n_mar}')
+    for m, c in sorted(por_marca.items()):
+        print(f'  {c:5d}  {m}')
     print(f'escrito en {destino}')
     return 0
 
@@ -171,10 +239,11 @@ def main() -> int:
     ap.add_argument('--validar', action='store_true')
     a = ap.parse_args()
     if a.validar:
-        ok, problemas, corregidas = validar(base=a.base)
+        ok, problemas, corregidas, marcas = validar(base=a.base)
         for p in problemas:
             print('ERROR:', p)
-        print(f'validacion: {"OK" if ok else "FALLO"} | filas corregibles: {len(corregidas)}')
+        print(f'validacion: {"OK" if ok else "FALLO"} | filas corregibles: '
+              f'{len(corregidas)} | filas marcadas para cotejo: {len(marcas)}')
         print('sha256 base:', hashlib.sha256(a.base.read_bytes()).hexdigest())
         return 0 if ok else 1
     return construir(a.base, a.destino)
