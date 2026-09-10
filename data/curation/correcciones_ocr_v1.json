@@ -430,6 +430,90 @@
           "Justificacion": "Falta la ese del artículo. La misma fila trae la forma correcta dos oraciones después: 'El caso es que las expectativas no se desanclaron'."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:570:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "agradece el análisis del staff-, y señala",
+          "Despues": "agradece el análisis del staff, y señala",
+          "Contexto": "El Consejero señor Manuel Marfán, como siempre, agradece el análisis del staff-, y señala que en esta oportunidad los beneficia por la preparación del Informe de Política Monetaria",
+          "Justificacion": "Guion suelto pegado a la coma. No cumple función de separación ni de rango."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "las opiniones estas divididas",
+          "Despues": "las opiniones están divididas",
+          "Contexto": "los precios de los activos tienen implícita una trayectoria de la tasa de política monetaria en el mediano plazo que es consistente con el escenario central en torno a cuatro y cinco alzas de 25 puntos base para este año, y para esta oportunidad, en particular, las opiniones estas divididas.",
+          "Justificacion": "Falta la tilde del verbo 'estar'. La misma fila lo escribe bien varias veces: 'están dentro de la trayectoria', 'las expectativas son que'."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "cuando lo correcto hubiera sido subirl a; vis a vis",
+          "Despues": "cuando lo correcto hubiera sido subirla; vis a vis",
+          "Contexto": "el argumento principal, que a su juicio inclina la balanza, es la consideración del error de tipo dos, es decir cuál es el costo en que se incurriría de mantener la tasa, cuando lo correcto hubiera sido subirl a; vis a vis cuál es el costo de subir la tasa cuando lo correcto hubiera sido mantenerl a.",
+          "Justificacion": "Espacio intruso que parte el pronombre átono. Dos ocurrencias del mismo artefacto en la misma oración ('subirl a' y 'mantenerl a'); se corrigen por separado."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "cuando lo correcto hubiera sido mantenerl a. En el primer caso",
+          "Despues": "cuando lo correcto hubiera sido mantenerla. En el primer caso",
+          "Contexto": "vis a vis cuál es el costo de subir la tasa cuando lo correcto hubiera sido mantenerl a. En el primer caso, un costo importante de mantener",
+          "Justificacion": "Segunda ocurrencia del mismo artefacto, con el contexto necesario para que el 'Antes' sea único dentro de la fila."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:572:1",
+      "Fecha": "2006-01-12",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "nuestra proyección de inflación en un horizonte de 1 2 - 2 4 meses",
+          "Despues": "nuestra proyección de inflación en un horizonte de 12 - 24 meses",
+          "Contexto": "para cumplir con nuestra meta de inflación, expresada en términos de convergencia, nuestra proyección de inflación en un horizonte de 1 2 - 2 4 meses, la mantención de la tasa de política monetaria sería más consistente con este objetivo",
+          "Justificacion": "Espacios intrusos dentro de los dos números. La forma correcta está en la sesión: 569:1 dice 'los valores esperados por el mercado para los próximos 12 a 24 meses apuntan al 3%' y 574:1 'en el horizonte habitual de política de 12 a 24 meses'."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:573:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "éste ha vuelto ha incrementarse después de haber experimentado",
+          "Despues": "éste ha vuelto a incrementarse después de haber experimentado",
+          "Contexto": "En lo que se refiere al precio del petróleo, éste ha vuelto ha incrementarse después de haber experimentado una importante corrección a la baja en los meses anteriores",
+          "Justificacion": "Dos 'ha' seguidos son imposibles: el segundo es la preposición 'a'. 'Ha vuelto a incrementarse' es la única lectura gramatical."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Por otra parte, ios agregados financieros vuelven a retomar un alto dinamismo",
+          "Despues": "Por otra parte, los agregados financieros vuelven a retomar un alto dinamismo",
+          "Contexto": "Por otra parte, ios agregados financieros vuelven a retomar un alto dinamismo y las tasas de interés revierten parte del incremento observado",
+          "Justificacion": "La i ocupa el lugar de la ele en el artículo. Es el artefacto sistemático más frecuente del corpus después de 'cambiaría': 91 ocurrencias en 89 filas."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:574:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "87-01-060112-T asa de Política Monetaria",
+          "Despues": "87-01-060112-Tasa de Política Monetaria",
+          "Contexto": "el Consejo, por la mayoría de sus miembros, adopta el siguiente Acuerdo: 87-01-060112-T asa de Política Monetaria.",
+          "Justificacion": "Espacio intruso que parte la palabra 'Tasa' justo después del guion del código de acuerdo. Mismo artefacto documentado en '115-01-071113-T a s a' de la sesión 2007-11-13."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -720,6 +804,54 @@
       "Marca": "NO_REQUIERE_COTEJO",
       "Texto_Original_Fragmento": "y, las estadísticas duras dicen que la inflación subyacente hasta ese momento",
       "Motivo": "NO_ES_OCR. Coma antes de conjunción: puntuación del transcriptor, no lectura óptica."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:571:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "el paso del ritmo de ajuste de cinco pausas consecutivas a uno de dos pausas seguidas no es fácil de explicar",
+      "Motivo": "Dice 'cinco pausas consecutivas' donde el contexto exige 'cinco alzas consecutivas': la misma fila dice más arriba 'después de cinco alzas consecutivas interrumpidas por una pausa', y 557:1 habla de 'cinco alzas consecutivas, seguidas de dos pausas'. Es un error de fondo del documento o de la transcripción, no un glifo mal leído: se marca, no se reescribe."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:571:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "se empiezan a copar las holguras de capacidad en economía y los costos laborales unitarios se aceleran",
+      "Motivo": "Falta el artículo ('en la economía'). Sin forma correcta en la fila que la respalde."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:570:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "la decisión de política si tiende a acentuar esa brecha o a reducida, no son de costos simétricos",
+      "Motivo": "'o a reducida' debería ser 'o a reducirla', pero la reconstrucción exige decidir además el sujeto de 'no son de costos simétricos'. Se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:570:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "pero que no son de alto riesgo dado los montos pequeños",
+      "Motivo": "'dado los montos' debería ser 'dados los montos'. Segundo caso del mismo tipo en esta sesión (563:1). 'dados los' no aparece en la fila."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:567:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "Indudablemente señala, lo anterior afectó a la economía chilena",
+      "Motivo": "NO_ES_OCR. Coma tras el adverbio: puntuación del transcriptor."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:573:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "Este mayor crecimiento no es sólo por la revisiones de éste en China",
+      "Motivo": "'la revisiones' debería ser 'las revisiones'. 'las revisiones' aparece 0 veces en la fila. Sin corroboración no se repone."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:572:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "las presiones sobre los precios de una actividad y demanda creciendo dudosamente",
+      "Motivo": "'creciendo dudosamente' no cierra con el argumento (De Gregorio sostiene que la actividad está firme). Podría ser 'fuertemente' o 'sólidamente'. Se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:574:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "Se levanta la Sesión a las 18.00 horas.",
+      "Motivo": "NO_ES_DEFECTO. '18.00' con punto es una forma válida de escribir la hora en español, aunque la sesión use '13:30' y '16:00' con dos puntos en otras filas. Es inconsistencia de formato, no lectura óptica."
     }
   ],
   "Marcas_Adicionales": [
