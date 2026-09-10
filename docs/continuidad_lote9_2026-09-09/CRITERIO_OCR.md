@@ -91,11 +91,19 @@ fuente y corregirlo fila por fila sería reescribir el acta. Medido:
 | `,.` al final de fila tras la fórmula de cierre (`A continuación,.` / `No habiendo más comentarios,.` / `Continuando con la votación,.`) | 98 en total, 95 de esa forma | **NO se corrige.** Es el artefacto estructural con que el acta corta la fórmula de transición |
 | `— ,` (raya de cierre seguida de espacio y coma) | 85, contra 31 de `—,` | **NO se corrige.** Es la convención tipográfica del acta para los incisos |
 | `IMCE` | 74 | **NO se corrige.** Es el indicador real; `del IME` y `el IME` aparecen 0 veces |
+| `la Secretario General, doña Marlys Pabst Cortés` | 77 contra 0 de `la Secretaria General` | **NO se corrige.** Es la fórmula uniforme del acta en todas las sesiones, no una errata de fila. Mismo tratamiento que `contractiva`. Y es un cargo ligado a un nombre propio, que nunca se reescribe |
 
 El mismo patrón en **una sola** fila y fuera de su forma habitual sí es
 defecto: `la Zona Euro,. Al respecto` (`4390:1`) tiene la coma suelta a mitad
 de fila, no tras la fórmula de cierre, y se corrigió. La diferencia no está en
 el símbolo sino en si el corpus lo hace así siempre o sólo ahí.
+
+Esto también se aplicó mal una vez, en sentido contrario a la sección 1 bis:
+`la Secretario General` (`4334:1`, ronda 141) se marcó para cotejo con el
+argumento de que «Secretaria General» no aparecía en la fila. Medido después
+en todo el corpus, la forma del acta aparece **77 veces** y la «corregida»
+**0 veces**: no hay errata que cotejar, es el uso uniforme de la fuente. La
+marca se retiró en la ronda 148.
 
 ## 4. NO se corrige: es real
 

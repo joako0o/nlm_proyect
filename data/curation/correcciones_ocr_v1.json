@@ -745,6 +745,34 @@
           "Justificacion": "Ele en lugar de i: 'cl' por 'ci'. Medido: 'profundizaclón' aparece 1 vez en todo el corpus y 'profundización' 42. La palabra mal escrita no existe."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5754:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "doña Tatiana Vargas Manzo: Economista Senior, doña Ivonne Vera Reichert",
+          "Despues": "doña Tatiana Vargas Manzo; Economista Senior, doña Ivonne Vera Reichert",
+          "Contexto": "Economista Senior, doña Tatiana Vargas Manzo: Economista Senior, doña Ivonne Vera Reichert; Asesor de la Presidencia, don Víctor Riquelme Peñaloza",
+          "Justificacion": "Dos puntos en lugar de punto y coma. La lista de asistentes de esta misma fila separa cada cargo con punto y coma 15 veces; éste es el único dos puntos dentro de la enumeración (los otros dos están en 'Asisten también:' y abren la lista). La forma correcta está en la misma fila."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5760:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "un porcentaje muy bajo del mercado esperaba en el mes enero pasado",
+          "Despues": "un porcentaje muy bajo del mercado esperaba en el mes de enero pasado",
+          "Contexto": "comenta que de acuerdo con una encuesta realizada por Bloomberg en este sentido, un porcentaje muy bajo del mercado esperaba en el mes enero pasado que se materializara a contar del presente mes",
+          "Justificacion": "Preposición omitida. La forma completa está dos veces en la misma fila: 'en el mes de agosto se estimaba' y 'a contar del mes de enero de 2014'."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1103,12 +1131,6 @@
       "Motivo": "Sobra un 'que'. Podría ser 'cuya matriz está en Francia' o 'cuya matriz, que está en Francia,...'. Dos lecturas."
     },
     {
-      "ID_Intervencion": "RPM-2011-10-13:4334:1",
-      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
-      "Texto_Original_Fragmento": "y la Secretario General, doña Marlys Pabst Cortés",
-      "Motivo": "'la Secretario' debería ser 'la Secretaria'. 'Secretaria General' aparece 0 veces en la fila, así que no hay forma correcta que respalde la enmienda."
-    },
-    {
       "ID_Intervencion": "RPM-2011-10-13:4342:2",
       "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
       "Texto_Original_Fragmento": "el Long-Term Refinancing Operations (LTRO), cuyo monto vigente alcanza al día de hoy a US$ 384 billones",
@@ -1149,6 +1171,18 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "que las expectativas inflacionarias para los próximos 24 meses se han en torno a 3%",
       "Motivo": "Falta el participio entre 'se han' y 'en torno a 3%'. Caben varios: 'se han mantenido', 'se han situado', 'se han ubicado', 'se han anclado'. Medí y la fórmula 'se han mantenido en torno a' aparece 0 veces en la sesión y 0 veces en todo el corpus, así que la sección 2 del criterio no permite reponer nada: sin forma correcta en el documento, se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5757:1",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "la variación de 0,98 registrada por el índice S&P 500 en la última semana",
+      "Motivo": "Falta el signo de porcentaje después de 0,98. Sin él no se sabe si es 0,98%, 0,98 puntos o un índice. Reponer un signo ausente es editorializar: se marca. Además la pregunta compara esa cifra con el promedio semanal del período, y sin unidad la comparación no se puede validar."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5760:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "la rupia de Indonesia, que ha tenido un comportamiento sistemático a depreciarse y una leve reversión en la punta",
+      "Motivo": "'Comportamiento sistemático a depreciarse' no cierra: la preposición 'a' no rige con 'comportamiento'. Caben al menos 'una tendencia sistemática a depreciarse' y 'un comportamiento sistemático de depreciación'. Dos reconstrucciones distintas, se marca."
     }
   ],
   "Marcas_Adicionales": [
