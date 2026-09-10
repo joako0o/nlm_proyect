@@ -22125,7 +22125,238 @@
       "Universo": "PLAN_RONDAS_BANDA_B",
       "Ronda_Plan": 158,
       "Justificacion": "Ronda 158 (6 filas, Sesión 185). Una sola voz: 4827:1 es la exposición larga de Soto (13.126 ch) y las intervenciones de Vergara, Marshall, Claro y Vial van cada una en su propia fila con su actor.\n\nOBSERVACION DE FRONTERA que conviene dejar consignada: 4826:2 (Vicuña) termina en 'A continuación,.' y 4827:1 (Soto) arranca en minúscula con 'el señor Claudio Soto señala'. O sea la fórmula de transición quedó asignada a la fila de Vicuña aunque semánticamente introduce la de Soto. Es un artefacto de cómo la fuente corta las filas, no un defecto de texto, y arreglarlo pertenece al eje de ID_Turno, no al de lectura: no se toca.\n\nContenido: la acumulación de inventarios bajó de 2% a cerca de 1% del PIB y los niveles actuales son coherentes con los promedios históricos; demanda interna del segundo trimestre corregida al alza de 5,2% a 5,7%; IPC de abril 0,1% y anual 3,5%; la trayectoria de inflación iría de 3,4% en mayo a 3,7% en agosto y volvería a 3,4% en octubre; la curva forward ya no anticipa alzas sino un incremento recién en la primera parte de 2013; Marshall y Vergara piden no sobrerreaccionar a eventos de cortísimo plazo.\n\n3 correcciones y 0 marcas, todas de glifo mal leído y todas medidas: 'Macroeconómíco' (6 contra 996), 'ha ¡do' por 'ha ido' (6 contra 170, un signo de exclamación en lugar de la i) y 'perecióles' por 'perecibles' (10 contra 166)."
+    },
+    "RPM-2012-05-17:4832:2": {
+      "ID_Intervencion": "RPM-2012-05-17:4832:2",
+      "ID_Padre": "4832",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 1555,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4833:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4833:1",
+      "ID_Padre": "4833",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 310,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4833:2": {
+      "ID_Intervencion": "RPM-2012-05-17:4833:2",
+      "ID_Padre": "4833",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 144,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4833:3": {
+      "ID_Intervencion": "RPM-2012-05-17:4833:3",
+      "ID_Padre": "4833",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 200,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4834:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4834:1",
+      "ID_Padre": "4834",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 221,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4835:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4835:1",
+      "ID_Padre": "4835",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 6257,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4836:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4836:1",
+      "ID_Padre": "4836",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 173,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4837:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4837:1",
+      "ID_Padre": "4837",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 1435,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 159,
+      "Justificacion": "Ronda 159 (8 filas, Sesión 185 - reanudación y opciones). Una sola voz: Herrera responde a Vergara en 4832:2 y presenta las opciones en 4835:1 (6.257 ch), con Soto y Cowan en filas propias; 4833:3 es la fila institucional del Consejo (reanudación a las 15:30 con la incorporación del Ministro Larraín y del Asesor Cerda) y 4834:1 y 4836:1 son pases de la palabra.\n\nContenido: las opciones eran mantener en 5% o subir 25 puntos base a 5,25%; la recomendación es mantener porque la brecha de capacidad está cerrada, los riesgos de corto plazo parecen acotados y es la expectativa mayoritaria del mercado. Cowan añade que el lapso que abrió el BCE con su inyección de liquidez se cerró y que las alzas de tasas complican el feedback entre el sector público y el privado.\n\n1 corrección y 0 marcas: 'mercado labora!' por 'mercado laboral', un signo de exclamación de cierre en lugar de la ele final. Es el tercer caso de la misma familia de glifos que ya corregí ('de! titular'->'del titular' y 'ha ¡do'->'ha ido')."
+    },
+    "RPM-2012-05-17:4839:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4839:1",
+      "ID_Padre": "4839",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 8497,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 160,
+      "Justificacion": "Ronda 160 (4 filas, Sesión 185 - votación). Una sola voz: el Ministro Larraín expone en 4839:1 (8.497 ch), Vial en 4841:1 y Claro en 4843:1, cada uno en su propia fila, con el pase de la palabra de Vergara en 4842:1.\n\nContenido: CDS de España sobre 550 puntos base en máximo histórico; la Zona Euro creció 0% en el primer trimestre e Italia cayó 0,8% por tercer trimestre consecutivo; China desacelerándose a 8,1%; el cobre cayó 5% y el Brent 7% desde la RPM anterior; en Chile el IMACEC de marzo fue 5,2% y la inflación bajó a 3,5%; el Ministro y los dos Consejeros coinciden en mantener la TPM en 5%.\n\n3 correcciones y 0 marcas: 'índica' por 'indica' (45 contra 2.366), 'un13%' por 'un 13%' (el espacio correcto está en la misma fila, en 'un 11,9%'), y 'financíamiento' por 'financiamiento', que aparece 3 veces en 4843:1 y por eso la operación declara Ocurrencias: 3 en vez de dividirse en tres que se pisarían."
+    },
+    "RPM-2012-05-17:4841:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4841:1",
+      "ID_Padre": "4841",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 3559,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 160,
+      "Justificacion": "Ronda 160 (4 filas, Sesión 185 - votación). Una sola voz: el Ministro Larraín expone en 4839:1 (8.497 ch), Vial en 4841:1 y Claro en 4843:1, cada uno en su propia fila, con el pase de la palabra de Vergara en 4842:1.\n\nContenido: CDS de España sobre 550 puntos base en máximo histórico; la Zona Euro creció 0% en el primer trimestre e Italia cayó 0,8% por tercer trimestre consecutivo; China desacelerándose a 8,1%; el cobre cayó 5% y el Brent 7% desde la RPM anterior; en Chile el IMACEC de marzo fue 5,2% y la inflación bajó a 3,5%; el Ministro y los dos Consejeros coinciden en mantener la TPM en 5%.\n\n3 correcciones y 0 marcas: 'índica' por 'indica' (45 contra 2.366), 'un13%' por 'un 13%' (el espacio correcto está en la misma fila, en 'un 11,9%'), y 'financíamiento' por 'financiamiento', que aparece 3 veces en 4843:1 y por eso la operación declara Ocurrencias: 3 en vez de dividirse en tres que se pisarían."
+    },
+    "RPM-2012-05-17:4842:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4842:1",
+      "ID_Padre": "4842",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 160,
+      "Justificacion": "Ronda 160 (4 filas, Sesión 185 - votación). Una sola voz: el Ministro Larraín expone en 4839:1 (8.497 ch), Vial en 4841:1 y Claro en 4843:1, cada uno en su propia fila, con el pase de la palabra de Vergara en 4842:1.\n\nContenido: CDS de España sobre 550 puntos base en máximo histórico; la Zona Euro creció 0% en el primer trimestre e Italia cayó 0,8% por tercer trimestre consecutivo; China desacelerándose a 8,1%; el cobre cayó 5% y el Brent 7% desde la RPM anterior; en Chile el IMACEC de marzo fue 5,2% y la inflación bajó a 3,5%; el Ministro y los dos Consejeros coinciden en mantener la TPM en 5%.\n\n3 correcciones y 0 marcas: 'índica' por 'indica' (45 contra 2.366), 'un13%' por 'un 13%' (el espacio correcto está en la misma fila, en 'un 11,9%'), y 'financíamiento' por 'financiamiento', que aparece 3 veces en 4843:1 y por eso la operación declara Ocurrencias: 3 en vez de dividirse en tres que se pisarían."
+    },
+    "RPM-2012-05-17:4843:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4843:1",
+      "ID_Padre": "4843",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 5365,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 160,
+      "Justificacion": "Ronda 160 (4 filas, Sesión 185 - votación). Una sola voz: el Ministro Larraín expone en 4839:1 (8.497 ch), Vial en 4841:1 y Claro en 4843:1, cada uno en su propia fila, con el pase de la palabra de Vergara en 4842:1.\n\nContenido: CDS de España sobre 550 puntos base en máximo histórico; la Zona Euro creció 0% en el primer trimestre e Italia cayó 0,8% por tercer trimestre consecutivo; China desacelerándose a 8,1%; el cobre cayó 5% y el Brent 7% desde la RPM anterior; en Chile el IMACEC de marzo fue 5,2% y la inflación bajó a 3,5%; el Ministro y los dos Consejeros coinciden en mantener la TPM en 5%.\n\n3 correcciones y 0 marcas: 'índica' por 'indica' (45 contra 2.366), 'un13%' por 'un 13%' (el espacio correcto está en la misma fila, en 'un 11,9%'), y 'financíamiento' por 'financiamiento', que aparece 3 veces en 4843:1 y por eso la operación declara Ocurrencias: 3 en vez de dividirse en tres que se pisarían."
+    },
+    "RPM-2012-05-17:4844:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4844:1",
+      "ID_Padre": "4844",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 168,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4845:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4845:1",
+      "ID_Padre": "4845",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 6186,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4846:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4846:1",
+      "ID_Padre": "4846",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4847:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4847:1",
+      "ID_Padre": "4847",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 3531,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4848:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4848:1",
+      "ID_Padre": "4848",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 3941,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4849:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4849:1",
+      "ID_Padre": "4849",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 153,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4849:2": {
+      "ID_Intervencion": "RPM-2012-05-17:4849:2",
+      "ID_Padre": "4849",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 178,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4849:3": {
+      "ID_Intervencion": "RPM-2012-05-17:4849:3",
+      "ID_Padre": "4849",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2126,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
+    },
+    "RPM-2012-05-17:4850:1": {
+      "ID_Intervencion": "RPM-2012-05-17:4850:1",
+      "ID_Padre": "4850",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 83,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 161,
+      "Justificacion": "Ronda 161 (9 filas). Cierra la Sesión 185 del 17-05-2012. Una sola voz: Marshall (4845:1), Marfán (4847:1) y Vergara (4848:1) fundamentan su voto cada uno en su propia fila, con los pases de la palabra de Vergara en filas independientes; 4849:1 es el voto de Vergara y 4849:2 la constancia de unanimidad; 4849:3 y 4850:1 son las filas institucionales del Consejo con el Acuerdo 185-01-120517, el Comunicado y el cierre a las 17:10.\n\n4849:2 trae DUPLICADO_NO_FORMULA y es el mismo falso positivo ya consignado en 5812:2: 4849:1 es el voto individual y 4849:2 la constancia del acuerdo unánime. Dos actos distintos, no un duplicado.\n\nContenido: acuerdo unánime de mantener la TPM en 5,0% anual. Marfán advierte que las remuneraciones reales crecen sobre la productividad de tendencia y que su velocidad es preocupante porque los mercados laborales ya están tensionados; Vergara sintetiza las dos fuerzas opuestas (externo negativo, interno dinámico).\n\n2 correcciones y 0 marcas. Una es 'las materia primas' por 'las materias primas', corroborada en la misma fila. La otra es un hallazgo: en 4849:3 hay un pie de página del PDF -'Página 31 de 31'- incrustado a mitad de oración, entre 'los' e 'indicadores'.\n\nMEDICION QUE DEJA TAREA ANOTADA: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus y 21 de esas filas son de la sesión 2012-04-17, que todavía no he leído. O sea cuando llegue a esa sesión va a haber que limpiar unos 25 residuos de paginación. Lo dejé escrito en el criterio."
     }
   },
-  "Total_Leidas": 1909
+  "Total_Leidas": 1930
 }

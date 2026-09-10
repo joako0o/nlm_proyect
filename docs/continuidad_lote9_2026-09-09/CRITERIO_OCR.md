@@ -32,6 +32,13 @@ otra lectura.
 | `El / Consejero / señor / Marfán, / sobre / el…` | todo en una línea | artefacto de justificación del PDF; se reúne sin alterar una letra |
 | `17.30 horas.` colgado entre el Comunicado y su aprobación | se elimina | marca horaria suelta sin sujeto ni verbo; el cierre ya consigna las 18:00 |
 
+**Tarea pendiente medida:** el pie de página `Página N de N` aparece **26
+veces en 22 filas** del corpus. Ya se eliminaron dos (`4849:3` y `5221:3`; la
+segunda se encontró tarde, después de leer la sesión 2012-11-13). Quedan **20
+filas en la sesión 2012-04-17**, todavía sin leer. Al llegar a esa sesión hay
+que contarlas y limpiarlas todas: es un residuo de paginación y la política lo
+autoriza sin ambigüedad.
+
 ### 1 bis. La tilde entra aquí, no en la sección 2
 
 `estaciónales` → `estacionales` está arriba y no pidió corroboración: la

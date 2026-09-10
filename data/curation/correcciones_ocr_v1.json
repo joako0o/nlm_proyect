@@ -1053,6 +1053,98 @@
           "Justificacion": "O acentuada en lugar de be en la misma posición: 'perecióles' no es palabra. Medido: aparece 10 veces en el corpus contra 166 de 'perecibles'."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4835:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "las condiciones en el mercado labora! se mantienen estrechas",
+          "Despues": "las condiciones en el mercado laboral se mantienen estrechas",
+          "Contexto": "En cuanto a Chile, destaca que las tasas de crecimiento del PIB y de la demanda durante el primer trimestre resultaron algo superiores a lo previsto en el IPoM de marzo pasado, pero que no se han alejado significativamente del 5% anual. Agrega que las condiciones en el mercado labora! se mantienen estrechas, aunque la creación de empleo y los salarios nominales no muestran una aceleración adicional.",
+          "Justificacion": "Signo de exclamación de cierre en lugar de la ele final. Es la misma confusión de glifo ya corregida en 'bajo la presidencia de! titular'->'del titular' y en 'ha ¡do'->'ha ido'. Medido: 'mercado labora!' aparece una sola vez en el corpus y 'mercado laboral' cientos de veces; la palabra truncada no existe."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4839:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "De hecho, índica que en la Reunión del mes de abril",
+          "Despues": "De hecho, indica que en la Reunión del mes de abril",
+          "Contexto": "ante lo cual el Banco Central de ese país ha respondido con una disminución gradual de la TPM para estimular la economía. De hecho, índica que en la Reunión del mes de abril, la tasa fue rebajada en 75 puntos base, llegando a 9,0% anual.",
+          "Justificacion": "Tilde en la sílaba equivocada: 'índica' no es palabra. Medido: aparece 45 veces en el corpus contra 2.366 de 'indica que'. Es la misma errata ya corregida en 5762:1."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "tras un 11,9% en marzo y un13% en febrero",
+          "Despues": "tras un 11,9% en marzo y un 13% en febrero",
+          "Contexto": "y que, a su vez, la producción industrial creció 9,3% en doce meses durante abril, tras un 11,9% en marzo y un13% en febrero, mientras que las ventas minoristas se desaceleraron",
+          "Justificacion": "Falta el espacio entre el artículo y la cifra. La propia oración trae 'un 11,9%' con espacio inmediatamente antes, así que la forma correcta está en la misma fila. Medido: 'un13%' aparece una sola vez en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4843:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "financíamiento",
+          "Despues": "financiamiento",
+          "Ocurrencias": 3,
+          "Contexto": "el costo de financíamiento bancario y soberano se encuentra en niveles récord / sin afectar mayormente su acceso a financíamiento o los precios / constituye una fuente relevante de financíamiento de capital de trabajo",
+          "Justificacion": "Tilde de más: 'financiamiento' es llana terminada en vocal y no lleva tilde. Aparece 3 veces en esta misma fila y las tres son el mismo defecto, por eso se declara Ocurrencias: 3. Medido en el corpus: 'financíamiento' contra 'financiamiento' sin tilde, que es abrumadoramente mayoritario."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4845:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "los precios de las materia primas han caído",
+          "Despues": "los precios de las materias primas han caído",
+          "Contexto": "En este contexto, plantea que los precios de las materia primas han caído, y que particularmente significativo ha resultado el ajuste en el precio del petróleo",
+          "Justificacion": "Falta la ese del plural. Corroborado en la misma fila, que más adelante escribe 'la evolución observada por los precios de las materias primas'. Medido en el corpus: 'las materia primas' aparece 1 vez y 'las materias primas' 203."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4849:3",
+      "Fecha": "2012-05-17",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "En los últimos meses, los Página 31 de 31 indicadores económicos de Estados Unidos",
+          "Despues": "En los últimos meses, los indicadores económicos de Estados Unidos",
+          "Contexto": "En los mercados globales, la volatilidad y aversión al riesgo se han incrementado. En los últimos meses, los Página 31 de 31 indicadores económicos de Estados Unidos, China y otras economías emergentes han mostrado un desempeño más débil",
+          "Justificacion": "Pie de página del PDF original incrustado a mitad de oración, entre 'los' e 'indicadores'. No pertenece al texto: la oración se lee completa sin él. La política de corrección autoriza explícitamente eliminar la numeración de páginas. Medido: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus, 20 de ellas en la sesión 2012-04-17 que aún está pendiente, 1 aquí y 1 en 5221:3."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-11-13:5221:3",
+      "Fecha": "2012-11-13",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "permanecen alineadas con la meta. Página 30 de 30 El Consejo reafirma",
+          "Despues": "permanecen alineadas con la meta. El Consejo reafirma",
+          "Contexto": "Las expectativas inflacionarias en el horizonte de política permanecen alineadas con la meta. Página 30 de 30 El Consejo reafirma su compromiso de conducir la política monetaria con flexibilidad",
+          "Justificacion": "Pie de página del PDF original incrustado entre dos oraciones completas. Se me pasó al leer la sesión 2012-11-13 (rondas 107-113) porque en ese momento todavía no había medido el patrón; lo encontré ahora al contar las ocurrencias de 'Página N de N' en todo el corpus. Es un residuo de paginación, que la política de corrección autoriza eliminar."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
