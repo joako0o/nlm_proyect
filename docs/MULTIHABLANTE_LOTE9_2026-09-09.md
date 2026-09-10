@@ -167,17 +167,22 @@ Las **sesiones se ordenan por riesgo**: su fila más larga primero. Una segunda 
 necesita espacio y los tres positivos conocidos miden 684, 849 y 1.275 caracteres. Dentro de
 cada sesión las filas van en orden de acta.
 
-**132 sesiones en el corpus, 131 con algo pendiente, 9.251 filas, 812 rondas.** Cada reunión
+**Plan v4: 856 rondas, ninguna cruza de reunión.** El empaquetado v3 llenaba las rondas
+sin respetar el límite de sesión y **108 de 812 rondas mezclaban dos reuniones** — justo lo
+que el orden por reunión venía a evitar. Cerrar la ronda al cambiar de sesión cuesta 44
+rondas más (812 → 856) y vale la pena.
+
+**132 sesiones en el corpus, 9.205 filas pendientes, 856 rondas.** Cada reunión
 toma entre 2 y 10 rondas, mediana **6**. Verificado: 9.251 filas en el plan, 0 fuera.
 
 | sesión | rondas | filas | chars |
 |---|---|---:|---:|
-| 2005-07-12 | 1–6 | 54 | 76.848 |
-| 2005-06-09 | 7–10 | 37 | 65.604 |
-| 2013-11-19 | 11–18 | 55 | 108.608 |
-| 2014-05-15 | 19–25 | 64 | 102.918 |
-| 2007-12-13 | 26–33 | 71 | 122.518 |
-| 2005-08-11 | 34–38 | 58 | 65.373 |
+| 2005-06-09 | 1–5 | 39 | 67.502 |
+| 2013-11-19 | 6–13 | 54 | 107.001 |
+| 2014-05-15 | 14–20 | 64 | 103.051 |
+| 2007-12-13 | 21–29 | 72 | 123.992 |
+| 2005-08-11 | 30–34 | 56 | 63.680 |
+| 2007-10-11 | 35–43 | 67 | 117.394 |
 
 `plan_rondas.csv` lista ronda por ronda la sesión, las bandas, los tramos, los caracteres y
 los IDs.
@@ -187,6 +192,7 @@ los IDs.
 .venv/bin/python scripts/rondas_lectura_lote9.py leer 1      # una ronda del plan
 .venv/bin/python scripts/rondas_lectura_lote9.py sesion AAAA-MM-DD   # una sesión entera
 .venv/bin/python scripts/rondas_lectura_lote9.py registrar N UNA_SOLA_VOZ "justificacion"
+.venv/bin/python scripts/rondas_lectura_lote9.py registrar_sesion AAAA-MM-DD UNA_SOLA_VOZ "justificacion"
 ```
 
 Cada ronda cierra imprimiendo el índice de su última fila: el techo real de una llamada está
@@ -201,6 +207,8 @@ así que la salida se ve completa sin estarlo.
 | 2 | 2005-01-11 | 4 | una sola voz |
 | 3 | 2005-01-11 | 5 | una sola voz |
 | — | 2005-01-11 | 44 | una sola voz · **sesión cerrada 58/58** |
+| 1–5 v3 | 2005-07-12 | 50 | una sola voz |
+| — | 2005-07-12 | 5 | una sola voz · **sesión cerrada 52/52** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una

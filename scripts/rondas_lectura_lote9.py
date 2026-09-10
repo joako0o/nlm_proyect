@@ -105,12 +105,16 @@ def construir():
                 items.append((letra, r, t[k * CORTE_TEXTO:(k + 1) * CORTE_TEXTO],
                               ' (parte %d/%d)' % (k + 1, n)))
 
-    rondas, actual, n = [], [], 0
+    rondas, actual, n, previa = [], [], 0, None
     for letra, r, t, parte in items:
         c = len(t) + len(cab(r, parte)) + 2
-        if actual and n + c > LIM:
+        fecha = str(r['Fecha'])[:10]
+        # Nunca cruzar de sesion: 108 de 812 rondas lo hacian y eso rompe la unidad
+        # de revision, que es el motivo de ordenar por reunion.
+        if actual and (n + c > LIM or fecha != previa):
             rondas.append(actual)
             actual, n = [], 0
+        previa = fecha
         actual.append({'id': r['ID_Intervencion'], 'parte': parte, 'chars': len(t),
                        'banda': letra, 'fecha': str(r['Fecha'])[:10],
                        'actor': r['Actor_Final']})
@@ -119,7 +123,7 @@ def construir():
         rondas.append(actual)
 
     doc = {
-        'Version': 3,
+        'Version': 4,
         'Criterio': ('Sesion por sesion. Las sesiones se ordenan por riesgo -su fila mas '
                      'larga primero- y dentro de cada sesion las filas van en orden de acta. '
                      'Las filas que no caben en un tramo se parten en varias rondas.'),
@@ -265,6 +269,36 @@ def sesion(fecha, desde=0, limite=LIM):
           % (fecha, total, total, desde, k - 1, f'{n:,}', total - k))
 
 
+def registrar_sesion(fecha, hallazgo, justificacion):
+    """Anota todas las filas pendientes de una sesion ya leida."""
+    lect = json.loads(LECT.read_text(encoding='utf-8'))
+    casos = lect['Casos']
+    n = 0
+    for r in filas():
+        if str(r['Fecha'])[:10] != fecha:
+            continue
+        rid = r['ID_Intervencion']
+        if rid in casos:
+            continue
+        casos[rid] = {
+            'ID_Intervencion': rid,
+            'ID_Padre': rid.split(':')[1],
+            'Actor': r['Actor_Final'],
+            'Caracteres': len(r['Texto']),
+            'Hallazgo': hallazgo,
+            'Lectura': 'COMPLETA',
+            'Universo': 'SESION_' + fecha,
+            'Justificacion': justificacion,
+        }
+        n += 1
+    lect['Total_Leidas'] = len(casos)
+    lect['Filas_Con_Dos_Voces_Confirmadas'] = sorted(
+        k for k, v in casos.items()
+        if (v.get('Hallazgo') or v.get('Hallazgo_Cola_Entrega')) == 'DOS_VOCES')
+    LECT.write_text(json.dumps(lect, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print('sesion %s: %d filas anotadas como %s | total leidas %d' % (fecha, n, hallazgo, len(casos)))
+
+
 def estado():
     doc = json.loads(PLAN.read_text(encoding='utf-8'))
     todas = filas()
@@ -306,6 +340,8 @@ if __name__ == '__main__':
         estado()
     elif sys.argv[1] == 'sesion':
         sesion(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 0)
+    elif sys.argv[1] == 'registrar_sesion':
+        registrar_sesion(sys.argv[2], sys.argv[3], sys.argv[4])
     elif sys.argv[1] == 'registrar':
         registrar(int(sys.argv[2]), sys.argv[3], sys.argv[4])
     else:
