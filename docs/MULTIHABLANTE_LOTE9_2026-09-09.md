@@ -258,6 +258,7 @@ en una cláusula, sin desarrollarse:
 | 129–134 | 2006-10-12 | 66 | una sola voz en las 66 filas del plan · **sesión cerrada 68/68** |
 | 135–140 | 2006-01-12 | 47 | una sola voz en las 47 filas del plan · **sesión cerrada 50/50** |
 | 141–147 | 2011-10-13 | 82 | una sola voz en las 82 filas del plan · **sesión cerrada 86/86** · 14 filas con 19 correcciones OCR, 11 marcas |
+| 148–154 | 2013-09-12 | 69 | una sola voz en las 69 filas del plan · **sesión cerrada 72/72** · 12 filas con 18 correcciones OCR, 9 marcas |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una

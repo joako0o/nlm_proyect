@@ -920,6 +920,41 @@
           "Justificacion": "Tres glifos sueltos después del punto de cierre: una hache, un acento circunflejo y un segundo punto. La oración ya está cerrada por su propio punto, así que el resto no aporta nada. Aparece una sola vez en el corpus."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5802:3",
+      "Fecha": "2013-09-12",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "En el resultado del mes agosto destacó el aumento en el precio de la gasolina",
+          "Despues": "En el resultado del mes de agosto destacó el aumento en el precio de la gasolina",
+          "Contexto": "La inflación registró una variación mensual de 0,2% en agosto y de 2,2% en doce meses. En el resultado del mes agosto destacó el aumento en el precio de la gasolina, que tuvo la mayor incidencia en ese período.",
+          "Justificacion": "Preposición omitida. Corroborado tres veces: 'mes de agosto' aparece 1 vez en esta misma fila y 17 veces en la sesión; en el corpus 'del mes de agosto' aparece 62 veces y 'del mes agosto' una sola, que es ésta."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "en el componente de transables. / ' La inflación subyacente también se mantiene acotada",
+          "Despues": "en el componente de transables. La inflación subyacente también se mantiene acotada",
+          "Contexto": "por lo que el aumento del IPC en agosto se explica por la inflación de 0,5% en el componente de transables. / ' La inflación subyacente también se mantiene acotada, ya que el IPCX y el IPCX1 se encuentran en niveles de 1,6% y 2%",
+          "Justificacion": "Barra y apóstrofo sueltos entre el punto de cierre y la oración siguiente, que arranca en mayúscula. No forman palabra ni símbolo. Aparecen una sola vez en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5803:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "la balanza se inclina por medidas de política monetaria y cambiaría orientadas a frenar la depreciación",
+          "Despues": "la balanza se inclina por medidas de política monetaria y cambiaria orientadas a frenar la depreciación",
+          "Contexto": "llama la atención que la balanza se inclina por medidas de política monetaria y cambiaría orientadas a frenar la depreciación de las monedas y la inflación, en un claro contrapunto con las economías avanzadas",
+          "Justificacion": "El adjetivo 'cambiaria' no lleva tilde; con tilde es la primera persona del condicional de cambiar, que aquí no tiene sujeto. Es la errata sistemática más frecuente del corpus (204 apariciones en singular) y el contexto no admite la lectura verbal."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1360,6 +1395,18 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "de manera que procederá a darle lectura, con el objeto que quede inserto en el Acta de esta Sesión: ( ■",
       "Motivo": "La fila está truncada (FINAL_SIN_PUNTUACION) justo en este punto y termina en '( ■'. El cuadrado negro es basura del escaneo (aparece 22 veces en el corpus), pero el paréntesis de apertura podría ser real y su contenido haberse perdido en el corte: la fila siguiente, 5802:3, abre directo con la cita del Ministro entre comillas. Borrar el paréntesis destruiría la evidencia de que ahí empezaba un inciso; dejarlo es dejar un signo huérfano. Se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5802:3",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "se espera un crecimiento para 2013 de 4,3%, menor al 4,4% de la encuesta de julio y al 4,6% esperado en junio pasado El consumo sigue creciendo, sostenido por la robustez del mercado laboral",
+      "Motivo": "Falta el punto entre 'junio pasado' y 'El consumo'. La segunda oración arranca en mayúscula, así que el signo falta con certeza, pero reponerlo es editorializar: se marca, igual que 'IPoM Acota' en 5787:1 y el final sin punto de 4350:2."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5810:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "en virtud de ese aumento del empleo, difícilmente se puede señalar que las condiciones se mantienen estrechas, ya que son más estrechas en el mercado laboral",
+      "Motivo": "La oración se contradice: 'difícilmente se puede señalar que se mantienen estrechas, ya que son MÁS estrechas'. Por el argumento -el empleo creció 2,5% anual, luego el mercado estaría menos apretado- la palabra debería ser 'menos estrechas' o 'no tan estrechas', pero cambiar un adverbio de sentido es reescribir el argumento del Consejero, no corregir un glifo. Caben al menos dos reparaciones: se marca."
     }
   ],
   "Marcas_Adicionales": [
