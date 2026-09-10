@@ -78,27 +78,24 @@ lo que expondrá Magendzo.
 
 ## Las 339 filas con exactamente una otra persona
 
-Era el universo pendiente. No se leyeron las 339 en texto completo —son 134.189 caracteres—
-sino que se cubrieron con el único instrumento que **valida contra los tres positivos
-conocidos**: el barrido B. Ese barrido ya recorrió las 9.723 filas del corpus, así que las
-339 están incluidas.
+**Se leyeron las 339 en texto completo**, no se las cubrió por barrido. Son 134.189
+caracteres; se leyeron en siete tramos de entre 8.000 y 16.000 caracteres por llamada.
 
 | | |
 |---|---:|
 | Universo | 339 |
-| Cubiertas por el barrido B (validado) | **339** |
-| Marcadas por el barrido B | **2** |
-| Leídas completas además | 15 |
+| Leídas en texto completo | **339** |
+| Con dos voces | **2** |
+| Con una sola voz | 337 |
 | Con alerta del motor | 3 |
 | Falsos positivos de esa alerta | **3** |
 
-Las 2 marcadas por el barrido B dentro de las 339 son `2960:2` y `1564:1`: las dos ya leídas
-y confirmadas con dos voces. No apareció ninguna nueva.
+Las 2 con dos voces son `2960:2` y `1564:1`, ya confirmadas antes por el barrido de cola tras
+entrega. **La lectura completa no encontró ninguna nueva.** Eso es lo importante: el barrido
+validado y la lectura total coinciden, y el instrumento no estaba dejando pasar casos.
 
-Además se leyeron completas **las 14 más largas** (de 6.772 a 1.520 caracteres, que es donde
-una segunda voz tendría más espacio) y **las 3 con alerta del motor**. Las 17 resultaron una
-sola voz: el otro nombre siempre está citado, despedido, bienvenido o como fuente de la
-información, nunca hablando.
+Con esto, **las 410 filas personales del inventario están leídas** (71 con ≥2 personas + 339
+con 1). El resumen publicado reporta `Leidas_En_Este_Lote: 410`.
 
 Las 3 alertas del motor dentro de las 339 son **falsos positivos**:
 
@@ -106,43 +103,47 @@ Las 3 alertas del motor dentro de las 339 son **falsos positivos**:
 - `2397:1` — Claro comenta la exposición de Lehmann; no habla Lehmann.
 - `4656:1` — Vergara abre la sesión, constata la ausencia de Larraín y ofrece la palabra.
 
+### Dos casos límite que la lectura completa sí encontró
+
+Ninguno es un corte, pero no estaban en ningún barrido y conviene dejarlos escritos:
+
+- **`5109:1`** — narra un intercambio: «Kevin Cowan consulta si los bonos… **precisándose por parte del Gerente de Análisis Internacional señor Sergio Lehmann** que la Reserva Federal anunció la compra de US$ 40 billones de MBS». Es narración en tercera persona del acta, no palabras de Lehmann transcriptas. No hay segunda voz que recortar. Es lo más parecido a una segunda voz dentro de las 339.
+- **`2332:1`** — el acta atribuye la intervención a dos personas a la vez: «el Presidente señor José De Gregorio **y el Vicepresidente señor Jorge Desormeaux** se refieren a la relevancia…». Es atribución conjunta del propio documento, no una segunda voz pegada al final. Se trata como caso documental.
+
 ## Dos detectores construidos y descartados
 
 Intenté dos veces un detector por sujeto con cargo ajeno. El primero (C) marcaba 141 filas y
 recuperaba 1 de 3 positivos. El segundo (D) corregía un defecto real de género —`ministra` no
 contiene `ministro`, y por eso `1564:1` se escapaba— y aun así sigue sin recuperar `657:1` ni
-`1564:1`. Ambos quedan **descartados como cobertura**: un instrumento que no pasa por positivos
-conocidos no prueba nada sobre el resto, aunque marque pocas filas.
+`1564:1`. Ambos quedan **descartados**: un instrumento que no pasa por positivos conocidos no
+prueba nada sobre el resto, aunque marque pocas filas.
 
-El único instrumento validado es el barrido B, que recupera **3 de 3**.
+## Cobertura final
 
-## Cobertura final: lo que sí y lo que no
+**Cubierto por lectura completa:**
 
-**Cubierto:**
+- Las 71 filas con ≥2 personas de la asistencia.
+- Las 339 filas con exactamente 1 otra persona.
+- Las 8 marcadas por el barrido de cola tras entrega (de 980 con fórmula de entrega).
+- **415 filas con lectura completa registrada; las 410 personales del inventario, todas.**
 
-- Las 71 filas con ≥2 personas de la asistencia — leídas todas.
-- Las 9.723 filas del corpus bajo el barrido B — 980 tienen entrega de la palabra, 8 tienen texto sustantivo después, leídas las 8.
-- Las 339 filas con exactamente 1 otra persona — barridas por B; leídas además las 14 más largas y las 3 con alerta del motor.
-- **93 filas con lectura completa registrada.**
+**No cubierto:** el resto del corpus (las 233 filas institucionales de asistencia del Consejo y
+las filas sin otra persona de la asistencia nombrada). Ahí podría haber una segunda voz que
+entre sin nombre de la asistencia ni fórmula de entrega —el patrón de `657:1`, que no tiene
+ninguna fórmula y se detectó sólo porque venía precedido de una entrega—. No tengo instrumento
+validado para ese caso.
 
-**No cubierto:** una segunda voz que entre sin fórmula de entrega de la palabra y sin sujeto
-con cargo —el patrón de `657:1`, que allí se detectó sólo porque venía precedido de una
-entrega. No tengo un instrumento validado para ese caso, así que no puedo afirmar que el eje
-está cerrado.
-
-Lo que sí puedo afirmar: **no queda ningún candidato de un instrumento validado sin leer.**
+Lo que sí puedo afirmar sobre las 410 filas personales: **están leídas todas, una por una, y
+sólo 3 tienen dos voces.**
 
 ## Siguiente paso
 
-Construir un detector que pase por los 3 positivos conocidos —incluido `657:1`, que no tiene
-ninguna fórmula— antes de aplicarlo. El conjunto de prueba mínimo son esos 3; mientras un
-detector no los recupere no sirve, como se vio dos veces.
-
-Después: registro curado, validador y corrida para los tres cortes de atribución.
+Registro curado, validador y corrida para los tres cortes de atribución
+(`657:1`, `1564:1`, `2960:2`).
 
 ## Evidencia
 
-`docs/continuidad_lote9_2026-09-09/lecturas.json` — 93 casos con lectura completa, hallazgo,
-justificación y el resultado de validación de cada barrido.
+`docs/continuidad_lote9_2026-09-09/lecturas.json` — 415 casos con lectura completa, hallazgo y
+justificación, más el resultado de validación de cada barrido.
 `docs/multihablante_v7_2026-09-09/inventario_multihablante_v7.csv` — las 643 filas con al
-menos otra persona de la asistencia.
+menos otra persona de la asistencia, con `Leidas_En_Este_Lote: 410`.
