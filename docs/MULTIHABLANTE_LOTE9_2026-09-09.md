@@ -76,30 +76,73 @@ es entrega de la palabra sino «da paso a una evolución/reacción»; en `747:1`
 cola es del propio Presidente; en `1556:1` la cola es parte de la misma oración que enumera
 lo que expondrá Magendzo.
 
-## Cobertura: lo que sí y lo que no
+## Las 339 filas con exactamente una otra persona
 
-**Cubierto:** las 71 filas con ≥2 personas de la asistencia, y las 9.723 filas del corpus
-bajo el barrido B (980 contienen una entrega de la palabra; 8 tienen texto sustantivo
-después).
+Era el universo pendiente. No se leyeron las 339 en texto completo —son 134.189 caracteres—
+sino que se cubrieron con el único instrumento que **valida contra los tres positivos
+conocidos**: el barrido B. Ese barrido ya recorrió las 9.723 filas del corpus, así que las
+339 están incluidas.
 
-**No cubierto:** las 339 filas personales con exactamente **una** otra persona de la
-asistencia, y el resto del corpus bajo un instrumento que detecte segunda voz sin fórmula de
-entrega. El barrido C iba a ser ese instrumento y no validó.
+| | |
+|---|---:|
+| Universo | 339 |
+| Cubiertas por el barrido B (validado) | **339** |
+| Marcadas por el barrido B | **2** |
+| Leídas completas además | 15 |
+| Con alerta del motor | 3 |
+| Falsos positivos de esa alerta | **3** |
 
-Decir que el eje está cerrado sería falso. Lo que está cerrado es: no queda ningún candidato
-de los dos barridos válidos sin leer.
+Las 2 marcadas por el barrido B dentro de las 339 son `2960:2` y `1564:1`: las dos ya leídas
+y confirmadas con dos voces. No apareció ninguna nueva.
+
+Además se leyeron completas **las 14 más largas** (de 6.772 a 1.520 caracteres, que es donde
+una segunda voz tendría más espacio) y **las 3 con alerta del motor**. Las 17 resultaron una
+sola voz: el otro nombre siempre está citado, despedido, bienvenido o como fuente de la
+información, nunca hablando.
+
+Las 3 alertas del motor dentro de las 339 son **falsos positivos**:
+
+- `1338:3` — Jadresic pide la palabra y expone; Magendzo aparece citado («comentó que los datos apuntan a 3%»).
+- `2397:1` — Claro comenta la exposición de Lehmann; no habla Lehmann.
+- `4656:1` — Vergara abre la sesión, constata la ausencia de Larraín y ofrece la palabra.
+
+## Dos detectores construidos y descartados
+
+Intenté dos veces un detector por sujeto con cargo ajeno. El primero (C) marcaba 141 filas y
+recuperaba 1 de 3 positivos. El segundo (D) corregía un defecto real de género —`ministra` no
+contiene `ministro`, y por eso `1564:1` se escapaba— y aun así sigue sin recuperar `657:1` ni
+`1564:1`. Ambos quedan **descartados como cobertura**: un instrumento que no pasa por positivos
+conocidos no prueba nada sobre el resto, aunque marque pocas filas.
+
+El único instrumento validado es el barrido B, que recupera **3 de 3**.
+
+## Cobertura final: lo que sí y lo que no
+
+**Cubierto:**
+
+- Las 71 filas con ≥2 personas de la asistencia — leídas todas.
+- Las 9.723 filas del corpus bajo el barrido B — 980 tienen entrega de la palabra, 8 tienen texto sustantivo después, leídas las 8.
+- Las 339 filas con exactamente 1 otra persona — barridas por B; leídas además las 14 más largas y las 3 con alerta del motor.
+- **93 filas con lectura completa registrada.**
+
+**No cubierto:** una segunda voz que entre sin fórmula de entrega de la palabra y sin sujeto
+con cargo —el patrón de `657:1`, que allí se detectó sólo porque venía precedido de una
+entrega. No tengo un instrumento validado para ese caso, así que no puedo afirmar que el eje
+está cerrado.
+
+Lo que sí puedo afirmar: **no queda ningún candidato de un instrumento validado sin leer.**
 
 ## Siguiente paso
 
-Construir un detector de segunda voz que **valide contra los tres casos confirmados** antes
-de usarse, y aplicarlo al corpus. Los tres positivos conocidos son el conjunto de prueba
-mínimo; un detector que no los recupere no sirve, como se vio con el barrido C.
+Construir un detector que pase por los 3 positivos conocidos —incluido `657:1`, que no tiene
+ninguna fórmula— antes de aplicarlo. El conjunto de prueba mínimo son esos 3; mientras un
+detector no los recupere no sirve, como se vio dos veces.
 
 Después: registro curado, validador y corrida para los tres cortes de atribución.
 
 ## Evidencia
 
-`docs/continuidad_lote9_2026-09-09/lecturas.json` — 78 casos con lectura completa, hallazgo,
+`docs/continuidad_lote9_2026-09-09/lecturas.json` — 93 casos con lectura completa, hallazgo,
 justificación y el resultado de validación de cada barrido.
 `docs/multihablante_v7_2026-09-09/inventario_multihablante_v7.csv` — las 643 filas con al
 menos otra persona de la asistencia.
