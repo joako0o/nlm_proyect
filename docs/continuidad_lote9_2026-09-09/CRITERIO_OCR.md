@@ -114,6 +114,9 @@ Los falsos positivos más peligrosos. Un detector automático los destruye.
 | `Bío Bío` | **topónimo**. Aparece como «palabra duplicada» |
 | `TCM, TCM-5 y TCM-X` | **abreviatura** de Tipo de Cambio Multilateral. Son las 6 coincidencias de «tcm tcm» del escaneo |
 | `IPCX`, `IPCX1`, `IPCSAE`, `BCP-2`, `BCU-5` | nombres de indicadores |
+| `IMCE` | indicador real. Aparece 74 veces; `del IME` y `el IME` aparecen 0 |
+| `M1A` | agregado monetario real, no un `MI` mal leído |
+| `tasa de instancia` | **el caso más peligroso encontrado.** Parece errata de «tasa de interés», pero aparece **58 veces en 53 filas** entre 2005 y 2009 y era el nombre histórico de la tasa de política monetaria. La fila `273:1` lo dice sola: «decidió elevar la tasa de instancia monetaria, **como se llamaba**» |
 | `ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA` | encabezado en versales sin tildes: convención tipográfica de la fuente |
 | `Fecha Sesión de Política Monetaria del mes de julio de 2006.` | campo del formulario fuente, no residuo. Lleva información |
 

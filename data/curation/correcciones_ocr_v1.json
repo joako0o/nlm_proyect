@@ -773,6 +773,69 @@
           "Justificacion": "Preposición omitida. La forma completa está dos veces en la misma fila: 'en el mes de agosto se estimaba' y 'a contar del mes de enero de 2014'."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5762:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mediante swaps cambíanos por la suma",
+          "Despues": "mediante swaps cambiarios por la suma",
+          "Contexto": "lo cual se efectuará mediante swaps cambíanos por la suma de US$500 millones de lunes a jueves y US$1 billón los días viernes",
+          "Justificacion": "Ene por ere. 'Cambíanos' no es palabra; el término es 'swaps cambiarios'. Medido: 'cambíanos' aparece 19 veces y 'cambiarios' 39, así que es una confusión sistemática de glifo, de la clase que el criterio manda corregir."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en Estados Unidos de América, ia Zona Euro, Alemania",
+          "Despues": "en Estados Unidos de América, la Zona Euro, Alemania",
+          "Contexto": "el cuadro que resume las distintas cifras esperadas y efectivas de actividad en Estados Unidos de América, ia Zona Euro, Alemania, Japón, China y Brasil",
+          "Justificacion": "I latina por ele. Medido: 'ia Zona Euro' aparece 2 veces y 'la Zona Euro' 720. Es la misma confusión ya corregida en 'indica ai señor Ministro'->'al señor'."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Por otra parte, índica que uno de los elementos",
+          "Despues": "Por otra parte, indica que uno de los elementos",
+          "Contexto": "Por otra parte, índica que uno de los elementos que ha incidido en la caída en la tasa de desempleo de Estados Unidos de América se relaciona con la menor participación de los jóvenes",
+          "Justificacion": "Tilde en la sílaba equivocada: 'índica' no es palabra. Medido: aparece 45 veces en el corpus contra 2.366 de 'indica que'. Confusión sistemática y sin ambigüedad."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "a 2,5%; 3,8% y 1,2%, s - f ' respectivamente",
+          "Despues": "a 2,5%; 3,8% y 1,2%, respectivamente",
+          "Contexto": "Destaca que el crecimiento para Estados Unidos de América, Japón y la Zona Euro se han corregido al alza, a 2,5%; 3,8% y 1,2%, s - f ' respectivamente, y que lo mismo ocurre tratándose de Suiza, Canadá y Australia.",
+          "Justificacion": "Basura de glifo entre la última cifra y 'respectivamente': una ese, un guión, una efe y un apóstrofo sueltos. No forman palabra ni símbolo y la oración se lee completa sin ellos. Es un residuo de la fuente, que la política de corrección manda eliminar."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5765:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "de sus importaciones. 9 En cuanto a Latinoamérica",
+          "Despues": "de sus importaciones. En cuanto a Latinoamérica",
+          "Contexto": "e incrementos algo menores de sus importaciones. 9 En cuanto a Latinoamérica, expresa que las perspectivas manufactureras de México y Brasil",
+          "Justificacion": "Dígito 9 suelto entre dos oraciones: numeración de página o de nota del PDF original. Aparece una sola vez en el corpus y no pertenece a ninguna cifra del contexto (las cifras de la fila son porcentajes y años). Residuo de paginación."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5770:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "las medidas que se han adoptado en Turquía. /",
+          "Despues": "las medidas que se han adoptado en Turquía.",
+          "Contexto": "El Presidente señor Rodrigo Vergara solicita que se revise en detalle las medidas que se han adoptado en Turquía. /",
+          "Justificacion": "Barra suelta al final de la fila, después del punto de cierre. Medido: aparece una sola vez en todo el corpus. No es puntuación ni abreviatura; es un residuo del original."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1183,6 +1246,12 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "la rupia de Indonesia, que ha tenido un comportamiento sistemático a depreciarse y una leve reversión en la punta",
       "Motivo": "'Comportamiento sistemático a depreciarse' no cierra: la preposición 'a' no rige con 'comportamiento'. Caben al menos 'una tendencia sistemática a depreciarse' y 'un comportamiento sistemático de depreciación'. Dos reconstrucciones distintas, se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5766:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "agregando que si tuviera un significado parecido al en Chile, constituiría un anticipo de una caída importante del consumo",
+      "Motivo": "'Parecido al en Chile' está roto. Caben 'parecido al de Chile', 'parecido al que tiene en Chile' y 'parecido al índice en Chile'. Tres reconstrucciones distintas y la fórmula aparece una sola vez en el corpus: se marca."
     }
   ],
   "Marcas_Adicionales": [
