@@ -1,0 +1,81 @@
+{
+  "Pares_Lote6": 71,
+  "Pares_Visibles_En_V7": 100,
+  "Pares_Salidos_Del_Inventario_Por_Agrupacion": 31,
+  "Salidos_Por_Enlace_V6": [
+    [
+      "RPM-2010-01-14:2863:2",
+      "RPM-2010-01-14:2863:3"
+    ],
+    [
+      "RPM-2011-01-13:3646:2",
+      "RPM-2011-01-13:3646:3"
+    ]
+  ],
+  "Salidos_Por_Corte_V7": [
+    4973,
+    5039,
+    5159,
+    5221,
+    5267,
+    5330,
+    5398,
+    5453,
+    5514,
+    5566,
+    5634,
+    5699,
+    5752,
+    5812,
+    5857,
+    5903,
+    5962,
+    6006,
+    6055,
+    6179,
+    6234,
+    6340,
+    6438,
+    6484,
+    6517,
+    6547,
+    6754,
+    6806,
+    6863
+  ],
+  "Estados": {
+    "SIN_ADJUDICACION_EN_ESTE_INVENTARIO": 24,
+    "RESERVA_COTEJO_INICIO": 1,
+    "RESERVA_CONFIRMACION_NARRADA": 1,
+    "ENLACE_INTRAPADRE_APLICADO_V6": 2,
+    "SEPARACION_RESPALDADA_PREVIAMENTE": 10,
+    "SEPARACION_FUNCIONAL_V4": 3,
+    "SEPARACION_FUNCIONAL_APLICADA_V5": 29,
+    "SEPARACION_FUNCIONAL_V5_INTERNA": 29,
+    "RESERVA_LIMITE_ACTA_PERSONA": 1
+  },
+  "Causas_De_Los_Sin_Adjudicar": {
+    "AMBOS_EXTREMOS_SIN_FUENTE_PROPAGABLE": 3,
+    "ALERTA_CONTEXTUAL_VIGENTE": 7,
+    "POSIBLE_OTRA_VOZ": 1,
+    "SIN_BARRERA_ESTRUCTURAL_IDENTIFICADA": 1,
+    "DERECHA_SIN_FUENTE_PROPAGABLE": 4,
+    "DERECHA_ES_DOCUMENTO_LEIDO_POR_TERCERO": 8
+  },
+  "Filas": 9723,
+  "Grupos_Antes": 9234,
+  "Grupos_Despues": 9234,
+  "Alertas_Antes": 467,
+  "Alertas_Despues": 484,
+  "Alertas_Cerradas": 0,
+  "Reservas_Abiertas": [
+    "RPM-2006-07-13:780:2",
+    "RPM-2009-08-13:2661:6",
+    "RPM-2012-12-13:5252:3"
+  ],
+  "SHA256_V5": "4da18c4e86f583fdf4d5d0cd9be49b9aac20fb40379cd391b5f4c7763cf9e168",
+  "SHA256_V6": "1dfce989aa1ded2fb4bc99557750c48bd3d01ee5a690708044a659065e45c7c4",
+  "SHA256_V7": "84889a846ec0b3a2fce88d37f1d5a0a3676b33dcd962c428de7cdbb3c992d9a7",
+  "SHA256_Lecturas_Lote8": "5e1969a0509e081f9f7b7ac9fee256147d4e21a75a7a45b15bd1b07adae87b82",
+  "Nota": "29 pares dejaron de ser límites al separarse aporte personal y constancia en v7; las tres reservas del lote6 siguen abiertas. Los pares sin adjudicación no son errores ni casos nunca leídos y no estiman la cobertura semántica del corpus."
+}

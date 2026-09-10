@@ -16,7 +16,7 @@ v1–v6 no se tocaron.
 | XLSX final v7 | `d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75` |
 | Registro | `data/curation/refinamiento_funcional_v5.json`, SHA `a0afd806…6901` |
 | Lectura | `docs/continuidad_lote8_2026-09-09/lecturas.json`, SHA `5e1969a0…7b82` |
-| Suite | **2146 tests OK** en 520,5 s |
+| Suite | **2155 tests OK** en 539,0 s |
 | Controles bloqueantes | `pasa_controles_bloqueantes: True`, `errores: []` |
 | Puerta F0 | `pasa: true` — 132 sesiones, 55 actores, 54 personas, 310 fórmulas |
 
@@ -130,14 +130,58 @@ PYTHONPATH=scripts PYTHONHASHSEED=0 .venv/bin/python scripts/preparar_data.py \
 
 El perfil predeterminado sigue siendo `procedimental-v5`; v7 es siempre explícito.
 
+## Inventario actualizado
+
+`docs/procedimental_v7_2026-09-09/` (`inventario_estado_v7.csv`, `resumen.json`), generado
+por `scripts/inventario_procedimental_v7.py`. Rinde la cuenta completa de los 71 pares del
+lote6 más los 29 límites internos que crea el corte: **100 filas**.
+
+| Estado | Pares |
+|---|---:|
+| `SEPARACION_FUNCIONAL_APLICADA_V5` (agrupado en v7) | **29** |
+| `SEPARACION_FUNCIONAL_V5_INTERNA` (límite nuevo del corte) | **29** |
+| `SIN_ADJUDICACION_EN_ESTE_INVENTARIO` | **24** |
+| `SEPARACION_RESPALDADA_PREVIAMENTE` | 10 |
+| `SEPARACION_FUNCIONAL_V4` | 3 |
+| `ENLACE_INTRAPADRE_APLICADO_V6` | 2 |
+| Reservas (`780`, `2661`, `5252`) | 3 |
+| **Total** | **100** |
+
+Los 24 sin adjudicar llevan su causa medida, ninguno en blanco:
+
+| Causa | Pares |
+|---|---:|
+| `DERECHA_ES_DOCUMENTO_LEIDO_POR_TERCERO` | 8 |
+| `ALERTA_CONTEXTUAL_VIGENTE` | 7 |
+| `DERECHA_SIN_FUENTE_PROPAGABLE` | 4 |
+| `AMBOS_EXTREMOS_SIN_FUENTE_PROPAGABLE` | 3 |
+| `POSIBLE_OTRA_VOZ` | 1 |
+| `SIN_BARRERA_ESTRUCTURAL_IDENTIFICADA` (`2685`) | 1 |
+
+Los 29 límites internos (`NNNN:1→NNNN:2`) son el propio corte y **deben seguir separados**:
+la constancia es `INSTITUCIONAL` y no se une al aporte personal. El inventario lo declara
+explícitamente para que no se lea como un enlace pendiente.
+
+## Corrección al triaje del lote7
+
+Al construir el inventario apareció un defecto en el triaje que había publicado: guardaba el
+**extremo derecho** del par en cuatro causas y el **izquierdo** en las otras tres, así que su
+primer campo no servía como clave de par. Los conteos por causa eran correctos — cada par
+aparece una sola vez — pero no se podía cruzar con el inventario.
+
+Se reescribió como `scripts/triaje_lote7.py`, que emite ambos extremos en cada registro y
+falla cerrado si la clasificación cambia. Regenerado en
+`docs/continuidad_lote7_2026-09-09/triaje_53.json` (versión 2): los conteos son **idénticos**
+a la versión 1 (29/8/7/4/3/1/1), lo que confirma que sólo cambió la forma del registro.
+
+## Suite
+
+**2155 tests OK** en 539,0 s (2146 al publicar la entrega + 9 del inventario v7).
+
 ## Lo que queda abierto
 
-Las 24 filas sin adjudicar restantes del triaje del lote7 conservan su causa en
-`docs/CONTINUIDAD_LOTE7_2026-09-09.md`: 8 requieren resolver antes una alerta de texto
-dañado, 14 son separaciones correctas por diseño, una (`2685`) es una barrera de regla
-medida y otra es una mención.
+Las 24 filas sin adjudicar conservan su causa medida. Ocho requieren resolver antes una
+alerta de texto dañado, catorce son separaciones correctas por diseño o sin fuente
+propagable, una (`2685`) es una barrera de regla medida y otra es una mención.
 
 Las reservas `780`, `2661` y `5252` siguen abiertas y visibles.
-
-El lote8 registró además 8 filas cuya derecha es `LECTOR_DOCUMENTO_REVISADO` y 4 con
-`CONTEXTO_REVISADO` sin fuente propagable; ninguna se tocó.
