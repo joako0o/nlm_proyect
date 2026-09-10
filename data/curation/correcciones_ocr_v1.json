@@ -260,6 +260,76 @@
           "Justificacion": "Dos defectos contiguos, resueltos en una sola operación para que el 'Antes' exista en el texto virgen. (1) Comilla de cierre huérfana: el bloque del Comunicado abre con la palabra 'Comunicado' y nunca trae comilla de apertura (verificado: 0 ocurrencias en la fila); se elimina la huérfana porque agregar la que falta sería inventar un carácter. (2) Marca horaria suelta '17.30 horas.', sin sujeto ni verbo, colgada entre el Comunicado y su aprobación; el cierre ya consigna su hora ('Se levanta la Sesión a las 18:00 horas'), así que no se pierde información."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:531:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El iSM, índice gerentes de compra",
+          "Despues": "El ISM, índice gerentes de compra",
+          "Contexto": "Asimismo, las solicitudes de beneficio de desempleo han mostrado una trayectoria en los últimos meses más bien hacia la baja. El iSM, índice gerentes de compra, por su parte, se ha mantenido positivo",
+          "Justificacion": "Sigla en mayúsculas: la i minúscula ocupa el lugar de la I mayúscula. Mismo artefacto que 'MI' por 'M1' en 896:1 y 'ios' por 'los' en 935:1. La glosa que sigue ('índice gerentes de compra') confirma de qué indicador se habla."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "En relación al Indice de Gerentes de Compra",
+          "Despues": "En relación al Índice de Gerentes de Compra",
+          "Contexto": "En relación al Indice de Gerentes de Compra, tanto de los sectores manufacturero como de servicios, el desempeño ha sido favorable.",
+          "Justificacion": "Falta la tilde en la I mayúscula. La misma fila trae la forma correcta más abajo: 'El índice de Gerentes de Compra también ha mostrado una trayectoria positiva'. El español exige la tilde también en mayúscula."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "Menciona los inventarios de petróleo se han mantenido en niveles adecuados",
+          "Despues": "Menciona que los inventarios de petróleo se han mantenido en niveles adecuados",
+          "Contexto": "Agrega, que el promedio efectivo a la fecha está en US$ 63,5 el barril. Menciona los inventarios de petróleo se han mantenido en niveles adecuados, en particular el Heating Oil",
+          "Justificacion": "Falta la conjunción 'que' del régimen 'mencionar que'. La misma fila trae la fórmula completa: 'Menciona además, que las presiones de precio en economías desarrolladas se mantienen contenidas'. No se inventa: se repite la forma que la propia fila usa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:533:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "£1 peso se ha apreciado de manera significativa",
+          "Despues": "El peso se ha apreciado de manera significativa",
+          "Contexto": "Por otro lado, el crédito a personas y empresas sigue expandiéndose con vigor y, el crecimiento anual de los distintos agregados monetarios ha vuelto a incrementarse. £1 peso se ha apreciado de manera significativa, tanto en términos reales como nominales, desde el cierre del último IPoM.",
+          "Justificacion": "El signo de libra y el dígito 1 ocupan el lugar de la E y la ele de 'El'. La oración no admite otra lectura: '£1 peso' no es una cifra posible delante de 'se ha apreciado'."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "un crecimiento de entre 5%% y 6%%",
+          "Despues": "un crecimiento de entre 5% y 6%",
+          "Contexto": "se estima que la actividad habría crecido 6,3% en el 2005, esperándose para el 2006 una convergencia gradual hacia una expansión de tendencia, llegando a un crecimiento de entre 5%% y 6%%",
+          "Justificacion": "Símbolo de porcentaje duplicado en las dos cifras. La misma fila escribe '6,3% anual' y '4% del PIB' con un solo signo."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "La productividad de! trabajo se mantuvo estable",
+          "Despues": "La productividad del trabajo se mantuvo estable",
+          "Contexto": "Este patrón de crecimiento agregado responde al desarrollo natural del ciclo económico luego de ocho trimestres de expansión. La productividad de! trabajo se mantuvo estable en el segundo semestre de 2005",
+          "Justificacion": "El signo de admiración ocupa el lugar de la ele de la contracción 'del'. Mismo artefacto que en 879:1, 881:1 y 896:1 de la sesión 2006-10-12."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "tras un aumento significativo en parte del tercer y cuatro trimestre",
+          "Despues": "tras un aumento significativo en parte del tercer y cuarto trimestre",
+          "Contexto": "Los vaivenes de los precios de algunos productos perecibles han inducido un alto grado de volatilidad en la inflación en el último tiempo. Indica el señor García, que tras un aumento significativo en parte del tercer y cuatro trimestre, se observa una normalización de estos precios",
+          "Justificacion": "Falta la erre en 'cuarto'. La misma fila trae la forma correcta: 'en el cuarto trimestre del año pasado'. La serie 'tercer y cuatro' tampoco cierra: los ordinales van tercero y cuarto."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "la inflación anual del IRC debiese ubicarse por debajo de 3%",
+          "Despues": "la inflación anual del IPC debiese ubicarse por debajo de 3%",
+          "Contexto": "En cambio, la inflación anual del IRC debiese ubicarse por debajo de 3% por varios trimestres de este año y el próximo, incluso cerca de 2% en meses puntuales",
+          "Justificacion": "La erre ocupa el lugar de la pe. Medido en las 9.723 filas: 'IRC' aparece 61 veces y 'IRCX1' 10, siempre en contexto de índice de precios; 'IPC' y sus variantes aparecen 1.867 veces. Es una confusión sistemática P por R del escaneo, no una sigla distinta. En esta fila el párrafo siguiente dice que 'la inflación converge a 3%'. Las otras ~70 ocurrencias se corregirán al leer sus filas, no por regla global."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -387,6 +457,36 @@
       "ID_Intervencion": "RPM-2006-10-12:941:1",
       "Texto_Original_Fragmento": "un conjunto de fenómenos que se han dado con más fuerza en el último mes que va a ser necesario monitorear y de los cuales sería, incluso el futuro de la política monetaria",
       "Motivo": "AMBIGUO. 'de los cuales sería' probablemente sea 'dependería', pero la reconstrucción exige inventar el verbo. Se deja verbatim."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:527:1",
+      "Texto_Original_Fragmento": "Gerente de Investigación Económica, don Kiaus Schmidt-Hebbei Dunker",
+      "Motivo": "NO_SE_TOCA, y es un límite de política que conviene revisar. El nombre real es Klaus Schmidt-Hebbel Dunker y las dos desviaciones son exactamente el glifo que sí corrijo en otros lados (i por l). Pero hay una instrucción vigente de tratar las variantes de nombre como tratamiento documental y no resolver alias por intuición — es la regla que mantiene 'Claudia Raddatz' y 'Claudios Soto' tal cual. Corregir la grafía de un nombre propio cruzaría esa línea, así que se deja verbatim y se señala al usuario."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:527:1",
+      "Texto_Original_Fragmento": "Fecha Sesión de Política Monetaria del mes de julio de 2006.",
+      "Motivo": "NO_SE_TOCA. Es un campo del formulario fuente, no un residuo de paginación ni de firma. Lleva información y la fila 528:1 la desarrolla; eliminarlo sería perder contenido, no limpiar."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:527:1",
+      "Texto_Original_Fragmento": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 87",
+      "Motivo": "NO_SE_TOCA. Encabezado en versales sin tildes: convención tipográfica del documento fuente, no lectura óptica fallida."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:531:1",
+      "Texto_Original_Fragmento": "un ajuste desordenado en el desbalance de gastos en Estados Unidos de América, que llevan aumentos significativos e inesperados en las tasas de interés",
+      "Motivo": "AMBIGUO. Probablemente sea 'que llevaría a aumentos', pero la reconstrucción exige cambiar dos palabras."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:531:1",
+      "Texto_Original_Fragmento": "se esperaba un crecimiento de 9,3% para esta economía en 2005, y finalmente habría sido un 9,8.",
+      "Motivo": "NO_SE_TOCA. Falta el signo % detrás de 9,8, pero agregar un símbolo ausente es editorializar."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:533:1",
+      "Texto_Original_Fragmento": "esperándose una reversión solo gradual para los próximos años",
+      "Motivo": "NO_ES_OCR. 'solo' sin tilde y 'sólo' con tilde conviven en la misma fila. Desde la Ortografía de 2010 el adverbio no exige tilde: es inconsistencia de estilo del documento, no lectura óptica."
     }
   ]
 }

@@ -103,6 +103,11 @@ explícitamente «por si acaso». El branch está fijo en
 
 ## Trampas ya pagadas
 
+- `registrar N` anota **toda la ronda**, leída o no. Si sólo se leyó parte de
+  una ronda, hay que retirar las filas no leídas de `Casos` en
+  `lecturas.json` antes de commitear. Pagado el 2026-09-10: se anotó la ronda
+  136 completa habiendo leído una sola de sus 11 filas; se retiraron las 10.
+  **Regla: nunca anotar una ronda que no se leyó entera.**
 - La salida de bash se trunca por el **medio**, conservando cabeza y cola.
   Nunca encadenar una lectura grande con un listado en la misma llamada.
 - Nunca pasar el lector por `head -c` / `tail -c`.
