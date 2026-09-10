@@ -836,6 +836,34 @@
           "Justificacion": "Barra suelta al final de la fila, después del punto de cierre. Medido: aparece una sola vez en todo el corpus. No es puntuación ni abreviatura; es un residuo del original."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5773:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "el contraste entre las políticas monetarias y cambiarías de los países emergentes",
+          "Despues": "el contraste entre las políticas monetarias y cambiarias de los países emergentes",
+          "Contexto": "Asimismo, hace notar que el contraste entre las políticas monetarias y cambiarías de los países emergentes en relación con los países desarrollados se torna cada vez más evidente.",
+          "Justificacion": "El adjetivo 'cambiarias' no lleva tilde; con tilde sería la segunda persona del condicional de cambiar, que aquí no tiene sujeto posible. Medido en el corpus: 'cambiarías' aparece 53 veces y 'cambiarias' 19, o sea la forma mal acentuada es mayoritaria, pero el contexto de esta fila no admite la lectura verbal. Es la misma errata sistemática ya corregida 204 veces en singular."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5778:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "superando incluso su promedio histórico. ^ / ■ -i El señor Claudio Soto procede",
+          "Despues": "superando incluso su promedio histórico. El señor Claudio Soto procede",
+          "Contexto": "porque dicho fenómeno se observó con particular intensidad el año pasado, superando incluso su promedio histórico. ^ / ■ -i El señor Claudio Soto procede a responder algunas consultas del Presidente señor Rodrigo Vergara",
+          "Justificacion": "Cuatro glifos sueltos entre el punto de cierre y la oración siguiente: acento circunflejo, barra, cuadrado negro y guión-i. No forman palabra, símbolo ni cifra. Es basura del escaneo entre dos oraciones que se leen completas sin ella."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1252,6 +1280,12 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "agregando que si tuviera un significado parecido al en Chile, constituiría un anticipo de una caída importante del consumo",
       "Motivo": "'Parecido al en Chile' está roto. Caben 'parecido al de Chile', 'parecido al que tiene en Chile' y 'parecido al índice en Chile'. Tres reconstrucciones distintas y la fórmula aparece una sola vez en el corpus: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5770:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "se han ajustado al alza ante expectativas de aumentos del precio de la leche y la carne. y El señor Sergio Lehmann agrega que los movimientos de futuros",
+      "Motivo": "Una 'y' minúscula quedó colgada después de un punto. Algo está mal, pero hay dos reparaciones distintas y dan textos distintos: borrar la 'y' (queda 'la carne. El señor...') o convertir el punto en coma (queda 'la carne, y el señor...'). Elegir una sería decidir por el acta. Aparece una sola vez en el corpus: se marca."
     }
   ],
   "Marcas_Adicionales": [
