@@ -346,6 +346,90 @@
           "Justificacion": "La i ocupa el lugar de la ele en la contracción 'al'. Mismo artefacto que en RPM-2006-10-12:881:1 ('en lo que dice relación ai precio del petróleo'). El régimen es 'indicar algo a alguien': no admite otra lectura."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:550:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "no tiene por que ser la misma tasa de interés real",
+          "Despues": "no tiene por qué ser la misma tasa de interés real",
+          "Contexto": "El Consejero señor Manuel Marfán, señala que la tasa de interés real que equilibra la balanza de pagos no tiene por que ser la misma tasa de interés real que permite converger el crecimiento.",
+          "Justificacion": "La locución 'tener por qué' lleva tilde diacrítica en 'qué': introduce una subordinada sustantiva, no una causal. Sin tilde, 'por que' sólo cabe en 'optar por que' y construcciones equivalentes, que no es el caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:557:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "el peso ha mostrado una leve depreciación respecto de! dólar",
+          "Despues": "el peso ha mostrado una leve depreciación respecto del dólar",
+          "Contexto": "Luego de la significativa apreciación de noviembre, el peso ha mostrado una leve depreciación respecto de! dólar (equivalente a 1,5% en los tres días previos a cada reunión).",
+          "Justificacion": "El signo de admiración ocupa el lugar de la ele de la contracción 'del'. Mismo artefacto que en 879:1, 881:1, 896:1 y 933:1."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "(¡i) que la economía ya no requiere de un impulso importante y (iii)",
+          "Despues": "(ii) que la economía ya no requiere de un impulso importante y (iii)",
+          "Contexto": "se puede argumentar a favor de aumentar la Tasa de Política Monetaria considerando (i) que todavía está por debajo de niveles de tasas que se evalúan como neutrales; (¡i) que la economía ya no requiere de un impulso importante y (iii) la conveniencia de realizar este ajuste de manera gradual.",
+          "Justificacion": "Es una enumeración (i), (ii), (iii): el punto de apertura (i) está bien, el segundo miembro salió con signo de admiración invertido en lugar de la segunda i, y el tercero está correcto. La serie misma es la evidencia; no se inventa nada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "Concluye el Señor Schmidt- Hebbel manifestando",
+          "Despues": "Concluye el Señor Schmidt-Hebbel manifestando",
+          "Contexto": "Concluye el Señor Schmidt- Hebbel manifestando que, a la luz de lo expuesto, es aconsejable que se proceda a un alza de 25 puntos base en la tasa de política monetaria.",
+          "Justificacion": "Espacio intruso después del guion del apellido. La misma fila lo escribe sin espacio en la apertura: 'El Gerente de Investigación Económica, señor Klaus Schmidt-Hebbel'. El campo Actor_Final de esta misma fila también trae la forma correcta."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:562:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Ello debe compararse con 5 alzas en las últimas 6 Reuniones de Política Monetaria..",
+          "Despues": "Ello debe compararse con 5 alzas en las últimas 6 Reuniones de Política Monetaria.",
+          "Contexto": "Hace presente que lo que se está anunciando hoy es un cambio en el ritmo de alzas de la tasa de política monetaria, orientadas a 4 a 5 alzas para el año 2006. Ello debe compararse con 5 alzas en las últimas 6 Reuniones de Política Monetaria.. Le parece que este cambio de ritmo se puede lograr por dos vías",
+          "Justificacion": "Punto duplicado al cierre de la oración. La oración siguiente abre en mayúscula, así que basta un punto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:563:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Nicolás Eyzaguirre Guzmán",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "en materia de intervención cambiaría como en términos de baja de tasas",
+          "Despues": "en materia de intervención cambiaria como en términos de baja de tasas",
+          "Contexto": "desde el Ministerio de Hacienda se estuvo planteando la necesidad de ser más proactivo, tanto en materia de intervención cambiaría como en términos de baja de tasas",
+          "Justificacion": "Tilde mal puesta. 'Intervención cambiaria' es un término fijo y después de un sustantivo no cabe el condicional 'cambiaría'. Es el defecto sistemático más frecuente del corpus: 'cambiaría' por 'cambiaria' aparece 204 veces."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "se desanclaran la expectativas",
+          "Despues": "se desanclaran las expectativas",
+          "Contexto": "se nos argumentó, constantemente, que corríamos el riesgo de que el tipo de cambio subiera demasiado y se desanclaran la expectativas, cuestión que era un riesgo real",
+          "Justificacion": "Falta la ese del artículo. La misma fila trae la forma correcta dos oraciones después: 'El caso es que las expectativas no se desanclaron'."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -552,6 +636,90 @@
       "Marca": "NO_REQUIERE_COTEJO",
       "Texto_Original_Fragmento": "las proyecciones de los bancos de inversión y, en particular, del Banco Central de Chile resulta mejor que los precios de futuro",
       "Motivo": "NO_ES_OCR. Discordancia de número ('resulta' por 'resultan'): gramática del hablante, no lectura óptica."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:557:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "el crecimiento de los agregados monetarios ha vuelto a repuntar, en especial el del M1A",
+      "Motivo": "NO_ES_DEFECTO, y es un caso que habría caído con una regla automática. 'M1A' es un agregado monetario real del Banco Central de Chile, distinto de M1. Verificado: en esta fila 'M1' aparece una sola vez y es precisamente dentro de 'M1A'. Una regla que normalizara MI/M1 lo habría destruido; es el mismo tipo de falso positivo que 'TCM' y 'Bío Bío'."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:557:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "podría entenderse como una sobrerreacción del Banco Central de Chile",
+      "Motivo": "NO_ES_DEFECTO. 'sobrerreacción' con doble erre es la grafía correcta tras el prefijo 'sobre-'. Aparece dos veces en la misma fila, de forma consistente."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "Primero, en las condición externas, se revisó al alza el crecimiento mundial",
+      "Motivo": "Falta el plural ('condiciones'). Medí la fila completa: 'condiciones externas' aparece 0 veces, así que no hay forma correcta en el documento que respalde la enmienda. Criterio: palabra omitida sólo se repone con corroboración."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "que complementan los condiciones también muy expansivas por el lado de los precios financieros",
+      "Motivo": "Discordancia de género ('los condiciones'). 'las condiciones' aparece 0 veces en la fila. Sin corroboración no se repone."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "implican que la brecha de producto se está tornando de negativa a positiva (en el algún momento de 2006)",
+      "Motivo": "Sobra el artículo ('en el algún momento'). 'en algún momento' aparece 0 veces en la fila. Podría ser 'en algún momento' o 'en el primer momento': dos lecturas."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "pero este guarismo, consensuadamente se está descontado por el alto componente de ruido que presenta esta variable",
+      "Motivo": "'se está descontado' no cierra: podría ser 'se está descontando' o 'está descontado'. Dos lecturas, se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "o transmitir la información que el Banco Central ha cambiado su función de política monetaria Además, una segunda pausa",
+      "Motivo": "Falta el punto antes de 'Además'. Agregar un signo ausente es editorializar: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:559:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "Primero; se deshizo el temor de una caída brusca en actividad y crecimiento",
+      "Motivo": "NO_ES_DEFECTO. La enumeración usa punto y coma de forma consistente en toda la fila: Primero; Segundo; Tercero; Cuarto; Quinto; Sexto; Séptimo;. Es estilo del transcriptor, no lectura óptica."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:561:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "a pesar de que han habido aspectos contradictorios",
+      "Motivo": "NO_ES_OCR. Solecismo del hablante ('han habido'). Corregirlo sería editar el discurso."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:527:1",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Texto_Original_Fragmento": "don Kiaus Schmidt-Hebbei Dunker (acta) frente a Klaus Schmidt-Hebbel Dunker (Actor_Final de 559:1 y 559:1 en la prosa)",
+      "Motivo": "EVIDENCIA NUEVA, refuerza la marca ya puesta en 527:1. El campo Actor_Final de la fila 559:1 y su propia prosa traen el nombre bien escrito: 'señor Klaus Schmidt-Hebbel'. Es decir, el roster ya tiene la forma correcta y es sólo la prosa del acta la que está mal leída. Aun así no se corrige: la resolución de identidad vive en Actor_Final y no se toca; la decisión queda para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:563:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "Agrega, que dado los rezagos de la política monetaria, la decisión que se adopte hoy, no le afecta al Gobierno",
+      "Motivo": "'dado los rezagos' debería ser 'dados los rezagos', pero 'dados los' no aparece en la fila y no hay forma de saber si es letra perdida o concordancia del hablante. Sin corroboración no se repone."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:565:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "está cierto que el Banco tomó la decisión con la mejor información que contaba",
+      "Motivo": "Falta 'con' ('la mejor información con que contaba'). 'con que contaba' no aparece en la fila. Se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:563:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "con una inflación del IPC headline debajo del 3%",
+      "Motivo": "NO_ES_DEFECTO. 'headline' es anglicismo técnico de uso normal en estas minutas, igual que 'outlier' en 538:1."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:563:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "y, las estadísticas duras dicen que la inflación subyacente hasta ese momento",
+      "Motivo": "NO_ES_OCR. Coma antes de conjunción: puntuación del transcriptor, no lectura óptica."
     }
   ],
   "Marcas_Adicionales": [
