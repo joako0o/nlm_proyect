@@ -80,6 +80,23 @@ misma fila o en la misma sesión**. Si no está, se marca para cotejar.
 | `pero si está vinculado a otro fenómeno` | `si` condicional **correcto**; ponerle tilde cambia el sentido |
 | `solo` y `sólo` conviviendo en la misma fila | desde la Ortografía de 2010 el adverbio no exige tilde: es estilo, no OCR |
 
+### 3 bis. NO se corrige: el defecto es del corpus entero, no de la fila
+
+Antes de corregir un patrón sospechoso, **contarlo en todo el consolidado**.
+Si aparece decenas de veces de la misma forma, es una característica de la
+fuente y corregirlo fila por fila sería reescribir el acta. Medido:
+
+| patrón | cuenta | decisión |
+|---|---|---|
+| `,.` al final de fila tras la fórmula de cierre (`A continuación,.` / `No habiendo más comentarios,.` / `Continuando con la votación,.`) | 98 en total, 95 de esa forma | **NO se corrige.** Es el artefacto estructural con que el acta corta la fórmula de transición |
+| `— ,` (raya de cierre seguida de espacio y coma) | 85, contra 31 de `—,` | **NO se corrige.** Es la convención tipográfica del acta para los incisos |
+| `IMCE` | 74 | **NO se corrige.** Es el indicador real; `del IME` y `el IME` aparecen 0 veces |
+
+El mismo patrón en **una sola** fila y fuera de su forma habitual sí es
+defecto: `la Zona Euro,. Al respecto` (`4390:1`) tiene la coma suelta a mitad
+de fila, no tras la fórmula de cierre, y se corrigió. La diferencia no está en
+el símbolo sino en si el corpus lo hace así siempre o sólo ahí.
+
 ## 4. NO se corrige: es real
 
 Los falsos positivos más peligrosos. Un detector automático los destruye.

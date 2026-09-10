@@ -20728,7 +20728,139 @@
       "Universo": "PLAN_RONDAS_BANDA_D",
       "Ronda_Plan": 144,
       "Justificacion": "Ronda 144 (9 filas, cierra la primera parte de la Sesión 177). Una sola voz: Soto cierra su presentación, luego hablan Claro, Herrera y Marfán cada uno en su propia fila, y De Gregorio suspende la Reunión hasta las 16 horas. 4384:3 es una fila institucional del Consejo (reanudación a las 16:00 con la incorporación del Ministro Felipe Larraín), no una intervención.\n\nContenido: IPC esperado 0,3% en octubre y 3,3-3,4% para el año contra 3,5% interno; expectativas a dos años en 3%; compensación inflacionaria 5 en 5 por sobre 3% 'incorporando una suerte de premios'; tasas largas BCP y BCU con caída muy significativa explicada por búsqueda de refugio; Herrera reporta la percepción de los bancos de inversión en Nueva York.\n\n2 correcciones en 4384:1 (hacía->hacia, prever de->prever que con 'prever que' 33 veces contra 2 en el corpus).\n\nCORRECCION DE UNA DECISION MIA ANTERIOR: la ronda pasada marqué 'aún esta en discusión' (4342:2) argumentando que 'está' no aparecía en la fila. Eso fue aplicar la regla de la sección 2 (palabra omitida, que exige corroboración) a un caso de la sección 1 (carácter equivocado donde debería ir otro, donde basta que la oración no admita otra lectura - el propio criterio lista 'estaciónales'->'estacionales' sin exigir corroboración). 'Este' es el sujeto y 'está' es el único verbo posible. Retiré la marca y puse la corrección en su lugar."
+    },
+    "RPM-2011-10-13:4386:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4386:1",
+      "ID_Padre": "4386",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 13278,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 145,
+      "Justificacion": "Ronda 145: una sola fila de 13.278 caracteres, la presentación de las Opciones de Política Monetaria de Luis Óscar Herrera. Una sola voz de punta a punta: es una exposición continua del mismo actor, sin ninguna pregunta ni comentario intercalado, exactamente el caso que el mandato pide mantener agrupado.\n\nContenido: dos opciones sobre la mesa - mantener la TPM en 5,25% comunicando un balance de riesgos más negativo, o recortar 25 puntos base a 5,00% con sesgo negativo. La recomendación es mantener. PIB de consenso recortado 2 décimas a 6,3% en 2011 y 4,5% en 2012; la evidencia del traspaso externo a la economía chilena es 'tenue' y se confunde con el impulso previo; el riesgo de mantener se atenúa porque las tasas largas ya cayeron.\n\n0 correcciones y 1 marca. La marca es interesante porque ilustra el criterio: 'las expectativas inflacionarias para los próximos 24 meses se han en torno a 3%' - falta el participio, y caben 'mantenido', 'situado', 'ubicado' o 'anclado'. La fórmula 'se han mantenido en torno a' aparece 0 veces en la sesión y 0 en todo el corpus, así que la sección 2 (palabra omitida, sólo con corroboración) prohíbe reponer. Distinto de 'ritmo de expansión' de la ronda anterior, que estaba dos oraciones más abajo en la misma fila."
+    },
+    "RPM-2011-10-13:4388:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4388:1",
+      "ID_Padre": "4388",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 7321,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 146,
+      "Justificacion": "Ronda 146 (5 filas). Una sola voz: el Ministro Felipe Larraín expone en 4388:1 (7.321 ch) y después Vergara (4390:1) y Claro (4392:1) fundamentan su voto, cada uno en su propia fila, con las fórmulas de De Gregorio dando y agradeciendo la palabra (4391:1, 4393:1) como filas independientes. Un pase de la palabra no es una intervención, así que esas dos filas no se fusionan con nada.\n\nContenido: CDS de Italia en 436 puntos base, 197 sobre comienzos de año; Francia en su peak histórico; Estados Unidos creó 103.000 empleos contra 73.000 esperados; IMACEC de agosto 4,6% tras 4% en julio y 8,4% en el primer semestre; Presupuesto 2012 con alza real de 5%; Larraín pide mantener y cambiar el sesgo del Comunicado. Vergara y Claro votan mantener la TPM en 5,25% y discuten cómo redactar el sesgo.\n\n2 correcciones de coma y una medición que conviene dejar escrita: el patrón ',.' aparece 98 veces en el corpus y 95 son la fórmula de cierre de fila colgada ('A continuación,.') - eso es un artefacto estructural del acta y NO se corrige fila por fila. El de 4390:1 es de otra clase: la coma queda a mitad de fila después de 'Zona Euro'. Se corrigió ése y no los otros."
+    },
+    "RPM-2011-10-13:4390:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4390:1",
+      "ID_Padre": "4390",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 3831,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 146,
+      "Justificacion": "Ronda 146 (5 filas). Una sola voz: el Ministro Felipe Larraín expone en 4388:1 (7.321 ch) y después Vergara (4390:1) y Claro (4392:1) fundamentan su voto, cada uno en su propia fila, con las fórmulas de De Gregorio dando y agradeciendo la palabra (4391:1, 4393:1) como filas independientes. Un pase de la palabra no es una intervención, así que esas dos filas no se fusionan con nada.\n\nContenido: CDS de Italia en 436 puntos base, 197 sobre comienzos de año; Francia en su peak histórico; Estados Unidos creó 103.000 empleos contra 73.000 esperados; IMACEC de agosto 4,6% tras 4% en julio y 8,4% en el primer semestre; Presupuesto 2012 con alza real de 5%; Larraín pide mantener y cambiar el sesgo del Comunicado. Vergara y Claro votan mantener la TPM en 5,25% y discuten cómo redactar el sesgo.\n\n2 correcciones de coma y una medición que conviene dejar escrita: el patrón ',.' aparece 98 veces en el corpus y 95 son la fórmula de cierre de fila colgada ('A continuación,.') - eso es un artefacto estructural del acta y NO se corrige fila por fila. El de 4390:1 es de otra clase: la coma queda a mitad de fila después de 'Zona Euro'. Se corrigió ése y no los otros."
+    },
+    "RPM-2011-10-13:4391:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4391:1",
+      "ID_Padre": "4391",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 154,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 146,
+      "Justificacion": "Ronda 146 (5 filas). Una sola voz: el Ministro Felipe Larraín expone en 4388:1 (7.321 ch) y después Vergara (4390:1) y Claro (4392:1) fundamentan su voto, cada uno en su propia fila, con las fórmulas de De Gregorio dando y agradeciendo la palabra (4391:1, 4393:1) como filas independientes. Un pase de la palabra no es una intervención, así que esas dos filas no se fusionan con nada.\n\nContenido: CDS de Italia en 436 puntos base, 197 sobre comienzos de año; Francia en su peak histórico; Estados Unidos creó 103.000 empleos contra 73.000 esperados; IMACEC de agosto 4,6% tras 4% en julio y 8,4% en el primer semestre; Presupuesto 2012 con alza real de 5%; Larraín pide mantener y cambiar el sesgo del Comunicado. Vergara y Claro votan mantener la TPM en 5,25% y discuten cómo redactar el sesgo.\n\n2 correcciones de coma y una medición que conviene dejar escrita: el patrón ',.' aparece 98 veces en el corpus y 95 son la fórmula de cierre de fila colgada ('A continuación,.') - eso es un artefacto estructural del acta y NO se corrige fila por fila. El de 4390:1 es de otra clase: la coma queda a mitad de fila después de 'Zona Euro'. Se corrigió ése y no los otros."
+    },
+    "RPM-2011-10-13:4392:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4392:1",
+      "ID_Padre": "4392",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 5583,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 146,
+      "Justificacion": "Ronda 146 (5 filas). Una sola voz: el Ministro Felipe Larraín expone en 4388:1 (7.321 ch) y después Vergara (4390:1) y Claro (4392:1) fundamentan su voto, cada uno en su propia fila, con las fórmulas de De Gregorio dando y agradeciendo la palabra (4391:1, 4393:1) como filas independientes. Un pase de la palabra no es una intervención, así que esas dos filas no se fusionan con nada.\n\nContenido: CDS de Italia en 436 puntos base, 197 sobre comienzos de año; Francia en su peak histórico; Estados Unidos creó 103.000 empleos contra 73.000 esperados; IMACEC de agosto 4,6% tras 4% en julio y 8,4% en el primer semestre; Presupuesto 2012 con alza real de 5%; Larraín pide mantener y cambiar el sesgo del Comunicado. Vergara y Claro votan mantener la TPM en 5,25% y discuten cómo redactar el sesgo.\n\n2 correcciones de coma y una medición que conviene dejar escrita: el patrón ',.' aparece 98 veces en el corpus y 95 son la fórmula de cierre de fila colgada ('A continuación,.') - eso es un artefacto estructural del acta y NO se corrige fila por fila. El de 4390:1 es de otra clase: la coma queda a mitad de fila después de 'Zona Euro'. Se corrigió ése y no los otros."
+    },
+    "RPM-2011-10-13:4393:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4393:1",
+      "ID_Padre": "4393",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 169,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 146,
+      "Justificacion": "Ronda 146 (5 filas). Una sola voz: el Ministro Felipe Larraín expone en 4388:1 (7.321 ch) y después Vergara (4390:1) y Claro (4392:1) fundamentan su voto, cada uno en su propia fila, con las fórmulas de De Gregorio dando y agradeciendo la palabra (4391:1, 4393:1) como filas independientes. Un pase de la palabra no es una intervención, así que esas dos filas no se fusionan con nada.\n\nContenido: CDS de Italia en 436 puntos base, 197 sobre comienzos de año; Francia en su peak histórico; Estados Unidos creó 103.000 empleos contra 73.000 esperados; IMACEC de agosto 4,6% tras 4% en julio y 8,4% en el primer semestre; Presupuesto 2012 con alza real de 5%; Larraín pide mantener y cambiar el sesgo del Comunicado. Vergara y Claro votan mantener la TPM en 5,25% y discuten cómo redactar el sesgo.\n\n2 correcciones de coma y una medición que conviene dejar escrita: el patrón ',.' aparece 98 veces en el corpus y 95 son la fórmula de cierre de fila colgada ('A continuación,.') - eso es un artefacto estructural del acta y NO se corrige fila por fila. El de 4390:1 es de otra clase: la coma queda a mitad de fila después de 'Zona Euro'. Se corrigió ése y no los otros."
+    },
+    "RPM-2011-10-13:4394:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4394:1",
+      "ID_Padre": "4394",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 5988,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 147,
+      "Justificacion": "Ronda 147 (6 filas). Cierra la Sesión 177 del 13-10-2011. Una sola voz: Marshall (4394:1) y Marfán (4396:1) fundamentan su voto cada uno en su propia fila, De Gregorio hace lo propio en 4397:1 y allí mismo consigna el acuerdo por unanimidad, y 4398:1 y 4399:1 son las filas institucionales del Consejo con el Acuerdo 177-01-111013, el Comunicado y el cierre de la Sesión a las 17:35. Las filas del Consejo no llevan segunda voz: es un patrón ya verificado en otras sesiones.\n\nContenido: acuerdo unánime de mantener la TPM en 5,25% anual. Marshall y Marfán votan mantener; Marfán considera inconveniente alterar el sesgo del Comunicado y De Gregorio coincide en que no es algo inminente, pero pide que el Comunicado diga que el Banco actuará con flexibilidad si se materializa un escenario peor.\n\n6 correcciones, las cuatro primeras de glifo mal leído: 'eI' por 'el', una i latina suelta tras el punto, 'en tomo a' por 'en torno a' (24 contra 1.678 en el corpus, confusión sistemática como 'ios' por 'los') y 'profundizaclón' por 'profundización' (1 contra 42). Más 'volatilidad cambiaría' por 'cambiaria', la errata más frecuente del corpus con 204 apariciones, y 'porqué' por 'por qué'.\n\nDos discordancias de número que NO se tocan porque son gramática del hablante, no lectura óptica: 'creciendo a tasas apreciables, si bien menores que los de otros períodos' y 'las expectativas ... permanecen próximos a la meta'."
+    },
+    "RPM-2011-10-13:4395:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4395:1",
+      "ID_Padre": "4395",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 174,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 147,
+      "Justificacion": "Ronda 147 (6 filas). Cierra la Sesión 177 del 13-10-2011. Una sola voz: Marshall (4394:1) y Marfán (4396:1) fundamentan su voto cada uno en su propia fila, De Gregorio hace lo propio en 4397:1 y allí mismo consigna el acuerdo por unanimidad, y 4398:1 y 4399:1 son las filas institucionales del Consejo con el Acuerdo 177-01-111013, el Comunicado y el cierre de la Sesión a las 17:35. Las filas del Consejo no llevan segunda voz: es un patrón ya verificado en otras sesiones.\n\nContenido: acuerdo unánime de mantener la TPM en 5,25% anual. Marshall y Marfán votan mantener; Marfán considera inconveniente alterar el sesgo del Comunicado y De Gregorio coincide en que no es algo inminente, pero pide que el Comunicado diga que el Banco actuará con flexibilidad si se materializa un escenario peor.\n\n6 correcciones, las cuatro primeras de glifo mal leído: 'eI' por 'el', una i latina suelta tras el punto, 'en tomo a' por 'en torno a' (24 contra 1.678 en el corpus, confusión sistemática como 'ios' por 'los') y 'profundizaclón' por 'profundización' (1 contra 42). Más 'volatilidad cambiaría' por 'cambiaria', la errata más frecuente del corpus con 204 apariciones, y 'porqué' por 'por qué'.\n\nDos discordancias de número que NO se tocan porque son gramática del hablante, no lectura óptica: 'creciendo a tasas apreciables, si bien menores que los de otros períodos' y 'las expectativas ... permanecen próximos a la meta'."
+    },
+    "RPM-2011-10-13:4396:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4396:1",
+      "ID_Padre": "4396",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1406,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 147,
+      "Justificacion": "Ronda 147 (6 filas). Cierra la Sesión 177 del 13-10-2011. Una sola voz: Marshall (4394:1) y Marfán (4396:1) fundamentan su voto cada uno en su propia fila, De Gregorio hace lo propio en 4397:1 y allí mismo consigna el acuerdo por unanimidad, y 4398:1 y 4399:1 son las filas institucionales del Consejo con el Acuerdo 177-01-111013, el Comunicado y el cierre de la Sesión a las 17:35. Las filas del Consejo no llevan segunda voz: es un patrón ya verificado en otras sesiones.\n\nContenido: acuerdo unánime de mantener la TPM en 5,25% anual. Marshall y Marfán votan mantener; Marfán considera inconveniente alterar el sesgo del Comunicado y De Gregorio coincide en que no es algo inminente, pero pide que el Comunicado diga que el Banco actuará con flexibilidad si se materializa un escenario peor.\n\n6 correcciones, las cuatro primeras de glifo mal leído: 'eI' por 'el', una i latina suelta tras el punto, 'en tomo a' por 'en torno a' (24 contra 1.678 en el corpus, confusión sistemática como 'ios' por 'los') y 'profundizaclón' por 'profundización' (1 contra 42). Más 'volatilidad cambiaría' por 'cambiaria', la errata más frecuente del corpus con 204 apariciones, y 'porqué' por 'por qué'.\n\nDos discordancias de número que NO se tocan porque son gramática del hablante, no lectura óptica: 'creciendo a tasas apreciables, si bien menores que los de otros períodos' y 'las expectativas ... permanecen próximos a la meta'."
+    },
+    "RPM-2011-10-13:4397:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4397:1",
+      "ID_Padre": "4397",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 6994,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 147,
+      "Justificacion": "Ronda 147 (6 filas). Cierra la Sesión 177 del 13-10-2011. Una sola voz: Marshall (4394:1) y Marfán (4396:1) fundamentan su voto cada uno en su propia fila, De Gregorio hace lo propio en 4397:1 y allí mismo consigna el acuerdo por unanimidad, y 4398:1 y 4399:1 son las filas institucionales del Consejo con el Acuerdo 177-01-111013, el Comunicado y el cierre de la Sesión a las 17:35. Las filas del Consejo no llevan segunda voz: es un patrón ya verificado en otras sesiones.\n\nContenido: acuerdo unánime de mantener la TPM en 5,25% anual. Marshall y Marfán votan mantener; Marfán considera inconveniente alterar el sesgo del Comunicado y De Gregorio coincide en que no es algo inminente, pero pide que el Comunicado diga que el Banco actuará con flexibilidad si se materializa un escenario peor.\n\n6 correcciones, las cuatro primeras de glifo mal leído: 'eI' por 'el', una i latina suelta tras el punto, 'en tomo a' por 'en torno a' (24 contra 1.678 en el corpus, confusión sistemática como 'ios' por 'los') y 'profundizaclón' por 'profundización' (1 contra 42). Más 'volatilidad cambiaría' por 'cambiaria', la errata más frecuente del corpus con 204 apariciones, y 'porqué' por 'por qué'.\n\nDos discordancias de número que NO se tocan porque son gramática del hablante, no lectura óptica: 'creciendo a tasas apreciables, si bien menores que los de otros períodos' y 'las expectativas ... permanecen próximos a la meta'."
+    },
+    "RPM-2011-10-13:4398:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4398:1",
+      "ID_Padre": "4398",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2533,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 147,
+      "Justificacion": "Ronda 147 (6 filas). Cierra la Sesión 177 del 13-10-2011. Una sola voz: Marshall (4394:1) y Marfán (4396:1) fundamentan su voto cada uno en su propia fila, De Gregorio hace lo propio en 4397:1 y allí mismo consigna el acuerdo por unanimidad, y 4398:1 y 4399:1 son las filas institucionales del Consejo con el Acuerdo 177-01-111013, el Comunicado y el cierre de la Sesión a las 17:35. Las filas del Consejo no llevan segunda voz: es un patrón ya verificado en otras sesiones.\n\nContenido: acuerdo unánime de mantener la TPM en 5,25% anual. Marshall y Marfán votan mantener; Marfán considera inconveniente alterar el sesgo del Comunicado y De Gregorio coincide en que no es algo inminente, pero pide que el Comunicado diga que el Banco actuará con flexibilidad si se materializa un escenario peor.\n\n6 correcciones, las cuatro primeras de glifo mal leído: 'eI' por 'el', una i latina suelta tras el punto, 'en tomo a' por 'en torno a' (24 contra 1.678 en el corpus, confusión sistemática como 'ios' por 'los') y 'profundizaclón' por 'profundización' (1 contra 42). Más 'volatilidad cambiaría' por 'cambiaria', la errata más frecuente del corpus con 204 apariciones, y 'porqué' por 'por qué'.\n\nDos discordancias de número que NO se tocan porque son gramática del hablante, no lectura óptica: 'creciendo a tasas apreciables, si bien menores que los de otros períodos' y 'las expectativas ... permanecen próximos a la meta'."
+    },
+    "RPM-2011-10-13:4399:1": {
+      "ID_Intervencion": "RPM-2011-10-13:4399:1",
+      "ID_Padre": "4399",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 147,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 147,
+      "Justificacion": "Ronda 147 (6 filas). Cierra la Sesión 177 del 13-10-2011. Una sola voz: Marshall (4394:1) y Marfán (4396:1) fundamentan su voto cada uno en su propia fila, De Gregorio hace lo propio en 4397:1 y allí mismo consigna el acuerdo por unanimidad, y 4398:1 y 4399:1 son las filas institucionales del Consejo con el Acuerdo 177-01-111013, el Comunicado y el cierre de la Sesión a las 17:35. Las filas del Consejo no llevan segunda voz: es un patrón ya verificado en otras sesiones.\n\nContenido: acuerdo unánime de mantener la TPM en 5,25% anual. Marshall y Marfán votan mantener; Marfán considera inconveniente alterar el sesgo del Comunicado y De Gregorio coincide en que no es algo inminente, pero pide que el Comunicado diga que el Banco actuará con flexibilidad si se materializa un escenario peor.\n\n6 correcciones, las cuatro primeras de glifo mal leído: 'eI' por 'el', una i latina suelta tras el punto, 'en tomo a' por 'en torno a' (24 contra 1.678 en el corpus, confusión sistemática como 'ios' por 'los') y 'profundizaclón' por 'profundización' (1 contra 42). Más 'volatilidad cambiaría' por 'cambiaria', la errata más frecuente del corpus con 204 apariciones, y 'porqué' por 'por qué'.\n\nDos discordancias de número que NO se tocan porque son gramática del hablante, no lectura óptica: 'creciendo a tasas apreciables, si bien menores que los de otros períodos' y 'las expectativas ... permanecen próximos a la meta'."
     }
   },
-  "Total_Leidas": 1782
+  "Total_Leidas": 1794
 }

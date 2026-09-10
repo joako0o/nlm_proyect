@@ -647,6 +647,104 @@
           "Justificacion": "Conjunción sustituida. 'Prever de' no rige una subordinada con verbo conjugado. Corroborado con el corpus: 'prever que' aparece 33 veces y 'prever de' sólo 2 en todo el consolidado, una de ellas esta misma errata; dentro de la sesión 'prever que' está en 4366:1."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4390:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "producto de acuerdos preliminares en la Zona Euro,. Al respecto",
+          "Despues": "producto de acuerdos preliminares en la Zona Euro. Al respecto",
+          "Contexto": "En primer término, plantea que las noticias del exterior no han sido buenas, más allá de la mayor tranquilidad relativa de los últimos días producto de acuerdos preliminares en la Zona Euro,. Al respecto, señala que se mantienen las tensiones financieras en Europa",
+          "Justificacion": "Coma suelta antes del punto de cierre. Medí el patrón ',.' en todo el corpus: aparece 98 veces y 95 de ellas son la fórmula de cierre de fila colgada ('A continuación,.', 'No habiendo más comentarios,.', 'Continuando con la votación,.'), que es un artefacto estructural del acta y no se toca. Este caso es distinto: la coma y el punto quedan a mitad de fila después de un sintagma común, así que es un símbolo suelto aislado, de la misma clase que el 'staff-,' y el apóstrofo-efe que ya se corrigieron."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4388:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "el señor Felipe Larraín destaca, que el 30 de septiembre pasado",
+          "Despues": "el señor Felipe Larraín destaca que el 30 de septiembre pasado",
+          "Contexto": "A continuación, el señor Felipe Larraín destaca, que el 30 de septiembre pasado, el Ministerio de Hacienda presentó el Proyecto de Ley de Presupuesto",
+          "Justificacion": "Coma intrusa entre el verbo y la subordinada. Medido en todo el consolidado: 'destaca que' aparece 772 veces y 'destaca, que' una sola. La oración no admite otra lectura y la forma correcta es abrumadoramente mayoritaria."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4394:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "agradeciendo al staff eI apoyo brindado",
+          "Despues": "agradeciendo al staff el apoyo brindado",
+          "Contexto": "El Consejero señor Enrique Marshall inicia su intervención, agradeciendo al staff eI apoyo brindado en esta oportunidad.",
+          "Justificacion": "I mayúscula en lugar de ele minúscula. 'eI' no es palabra. Es la misma confusión de glifo ya corregida en '£1 peso'->'El peso'; medido, 'eI ' aparece 6 veces en el corpus."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "reaccionar más adelante. i Asimismo, el Consejero",
+          "Despues": "reaccionar más adelante. Asimismo, el Consejero",
+          "Contexto": "Enfatiza que ello, en ningún caso, resta flexibilidad para reaccionar más adelante. i Asimismo, el Consejero señor Enrique Marshall hace presente que las condiciones monetarias se han relajado",
+          "Justificacion": "I latina suelta al comienzo de la oración, entre el punto y 'Asimismo'. La oración se lee completa sin ella. Mismo caso que el apóstrofo-efe de 4342:2 y el guión de 'staff-,'."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4396:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "una elevada volatilidad cambiaría",
+          "Despues": "una elevada volatilidad cambiaria",
+          "Contexto": "En segundo lugar, y en relación con la economía nacional, menciona que el último mes se ha caracterizado por una elevada volatilidad cambiaría.",
+          "Justificacion": "El adjetivo 'cambiaria' no lleva tilde; con tilde es el condicional del verbo cambiar y aquí modifica a 'volatilidad'. Es la confusión sistemática más frecuente del corpus: 'cambiaría' por 'cambiaria' aparece 204 veces y siempre se ha corregido cuando la fila lo permite. Esta fila no trae la forma correcta, pero el adjetivo es el único que cabe."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4397:1",
+      "Fecha": "2011-10-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ya que sigue en tomo a su meta",
+          "Despues": "ya que sigue en torno a su meta",
+          "Contexto": "Agrega que la inflación, por su parte, ha estado dentro de rangos esperados, ya que sigue en tomo a su meta y los índices subyacentes aún se encuentran contenidos.",
+          "Justificacion": "Eme en lugar de ene. Medido en el consolidado: 'en tomo a' aparece 24 veces y 'en torno a' 1.678. Es una confusión sistemática de glifo, de la misma clase que 'ios' por 'los' (91 veces), que el criterio manda corregir."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "sería muy raro también justificar porqué no se baja la tasa hoy",
+          "Despues": "sería muy raro también justificar por qué no se baja la tasa hoy",
+          "Contexto": "De otra manera, plantea que sería muy raro también justificar porqué no se baja la tasa hoy, si se llegara a decir que lo más probable es que se bajará la tasa.",
+          "Justificacion": "'Porqué' sustantivo exigiría artículo ('el porqué'); sin él la única lectura es el interrogativo 'por qué'. Medido: 'por qué' 90 veces y 'porqué' 13 en el corpus, así que no es un patrón sistemático del transcriptor sino un caso aislado, y la oración no admite otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4398:1",
+      "Fecha": "2011-10-13",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "La profundizaclón de las tendencias observadas",
+          "Despues": "La profundización de las tendencias observadas",
+          "Contexto": "La profundizaclón de las tendencias observadas en la economía internacional podría configurar un entorno externo más adverso que el contemplado en el escenario base del IPoM",
+          "Justificacion": "Ele en lugar de i: 'cl' por 'ci'. Medido: 'profundizaclón' aparece 1 vez en todo el corpus y 'profundización' 42. La palabra mal escrita no existe."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1045,6 +1143,12 @@
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Texto_Original_Fragmento": "especifica que los datos de la Cámara de la Constricción darían cuenta que la actividad de este sector está muy lenta",
       "Motivo": "'Constricción' en lugar de 'Construcción'. La forma correcta aparece 2 veces en el corpus, una de ellas en la fila inmediatamente anterior (4364:2, 'la Cámara de la Construcción'), pero es el nombre de una institución: mismo criterio que los nombres de persona, se marca y no se reescribe."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4386:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "que las expectativas inflacionarias para los próximos 24 meses se han en torno a 3%",
+      "Motivo": "Falta el participio entre 'se han' y 'en torno a 3%'. Caben varios: 'se han mantenido', 'se han situado', 'se han ubicado', 'se han anclado'. Medí y la fórmula 'se han mantenido en torno a' aparece 0 veces en la sesión y 0 veces en todo el corpus, así que la sección 2 del criterio no permite reponer nada: sin forma correcta en el documento, se marca."
     }
   ],
   "Marcas_Adicionales": [
