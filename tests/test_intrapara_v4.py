@@ -80,8 +80,10 @@ class IntraparaV4Tests(unittest.TestCase):
         self.assertEqual(required_intrapara('procedimental-v6'), 'intrapadre-v4')
         self.assertEqual(required_intrapara('procedimental-v5'), 'intrapadre-v3')
         self.assertEqual(required_intrapara('funcional-v4'), 'intrapadre-v3')
+        # v7 existe desde el lote8 y exige el mismo acumulado que v6.
+        self.assertEqual(required_intrapara('procedimental-v7'), 'intrapadre-v4')
         with self.assertRaises(ValueError):
-            required_intrapara('procedimental-v7')
+            required_intrapara('procedimental-v99')
 
     def test_selection_on_v5_is_exactly_the_lote6_cases(self):
         self.assertEqual(len(selection(self.v5)), 5)

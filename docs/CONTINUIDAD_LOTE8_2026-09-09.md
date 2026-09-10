@@ -1,8 +1,12 @@
 # Lote 8 — clúster de constancias de Vergara (2026-09-09)
 
-## Estado
+> **Actualización:** este lote se implementó y publicó como entrega
+> `procedimental-v7`. Ver `docs/PROCEDIMENTAL_V7_2026-09-09.md`. El documento
+> siguiente describe la lectura tal como se cerró antes de aplicar los cortes.
 
-**Lectura y decisión completas. Nada aplicado.**
+## Estado al cierre de la lectura
+
+**Lectura y decisión completas. Nada aplicado todavía.**
 
 `docs/continuidad_lote8_2026-09-09/lecturas.json` registra el texto completo de los 29
 padres del clúster, sus hashes de fuente, el intervalo exacto de corte, la constancia y el

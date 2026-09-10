@@ -19,6 +19,7 @@ from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOUR
 from reviewed_continuity import load_reviewed_links
 from intrapara_profiles import load_intrapara_links
 from functional_refinements import active_refinements, refine_segments, refined_institutions
+from functional_refinements_v5 import active_refinements as active_refinements_v5
 from reviewed_procedural_v5 import active_reviews as active_procedural, apply_reviews as apply_procedural
 import os
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
@@ -1182,6 +1183,11 @@ def main():
     reviewed_speakers = load_speaker_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
     reviewed_institutions = load_institutional_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     functional = active_refinements({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    # v5 extiende el mismo criterio a 29 padres más; los conjuntos no se superponen.
+    functional_v5 = active_refinements_v5({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    if set(functional) & set(functional_v5):
+        raise ValueError('Un padre no puede recibir dos refinamientos funcionales')
+    functional_all = {**functional, **functional_v5}
     typed_institutions = refined_institutions(reviewed_institutions, functional)
     DATA_PROC.mkdir(parents=True, exist_ok=True)
     # ---- process ----
@@ -1207,7 +1213,7 @@ def main():
             raise ValueError(f'Texto truncado sin recuperación: {parent_id}')
         state = session_states.setdefault(date, {'date': date})
         seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id),reviewed_documents.get(parent_id),reviewed_institutions.get(parent_id))
-        seg_texts=refine_segments(parent_id, seg_texts, functional)
+        seg_texts=refine_segments(parent_id, seg_texts, functional_all)
         _seg_per_parent[parent_id]+=len(seg_texts)
         block_number=0
         for segment_number, (text, segment_actor, segment_method) in enumerate(seg_texts, 1):

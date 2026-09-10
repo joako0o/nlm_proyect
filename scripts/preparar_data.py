@@ -33,18 +33,22 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     # El perfil predeterminado sigue siendo procedimental-v5 (entrega histórica
     # vigente al cierre de lote5). v6 es aditivo y siempre explícito.
-    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2', 'intrapadre-v3', 'funcional-v4', 'procedimental-v5', 'procedimental-v6'), default='procedimental-v5')
+    parser.add_argument('--perfil', choices=('legacy', 'intrapadre-v1', 'intrapadre-v2', 'intrapadre-v3', 'funcional-v4', 'procedimental-v5', 'procedimental-v6', 'procedimental-v7'), default='procedimental-v5')
     parser.add_argument('--destino', type=Path)
     args = parser.parse_args(argv)
     versioned = args.perfil != 'legacy'
-    procedural = args.perfil in ('procedimental-v5', 'procedimental-v6')
-    functional = args.perfil in ('funcional-v4', 'procedimental-v5', 'procedimental-v6')
+    procedural = args.perfil in ('procedimental-v5', 'procedimental-v6', 'procedimental-v7')
+    functional = args.perfil in ('funcional-v4', 'procedimental-v5', 'procedimental-v6', 'procedimental-v7')
+    # v7 agrega el refinamiento funcional v5 (veintinueve constancias de Vergara).
+    functional_v5 = args.perfil == 'procedimental-v7'
     # Pruebas intrapadre acumuladas que exige cada perfil de construcción.
-    intrapara = {'funcional-v4': '3', 'procedimental-v5': '3', 'procedimental-v6': '4'}
+    intrapara = {'funcional-v4': '3', 'procedimental-v5': '3', 'procedimental-v6': '4',
+                 'procedimental-v7': '4'}
     version = intrapara[args.perfil] if functional else args.perfil.removeprefix('intrapadre-v') if versioned else None
     if args.destino and not versioned:
         parser.error('--destino sólo se admite con perfiles versionados')
-    default_release = {'procedimental-v6': 'data/releases/continuidad_procedimental_v6',
+    default_release = {'procedimental-v7': 'data/releases/continuidad_procedimental_v7',
+                       'procedimental-v6': 'data/releases/continuidad_procedimental_v6',
                        'procedimental-v5': 'data/releases/continuidad_procedimental_v5',
                        'funcional-v4': 'data/releases/funcional_v4'}
     default_target = ROOT / (default_release[args.perfil] if functional else f'data/releases/continuidad_intrapadre_v{version}')
@@ -58,6 +62,7 @@ def main(argv=None):
         # No permitir activación ambiental accidental en el perfil histórico.
         env.pop('NLM_INTRAPARA_REVIEWS', None)
         env.pop('NLM_FUNCTIONAL_REVIEWS', None)
+        env.pop('NLM_FUNCTIONAL_V5_REVIEWS', None)
         env.pop('NLM_PROCEDURAL_REVIEWS', None)
         env.pop('NLM_PERFIL_CONSTRUCCION', None)
         if versioned:
@@ -67,9 +72,12 @@ def main(argv=None):
             env['NLM_PROCEDURAL_REVIEWS'] = str(ROOT / 'data/curation/continuidades_procedimentales_v5.json')
         if functional:
             env['NLM_FUNCTIONAL_REVIEWS'] = str(ROOT / 'data/curation/refinamiento_funcional_v4.json')
+        if functional_v5:
+            env['NLM_FUNCTIONAL_V5_REVIEWS'] = str(ROOT / 'data/curation/refinamiento_funcional_v5.json')
         if versioned:
             env['NLM_INTRAPARA_REVIEWS'] = str(ROOT / f'data/curation/continuidades_intrapadre_v{version}.json')
-        gate = ('scripts/compare_procedural_v6.py' if args.perfil == 'procedimental-v6'
+        gate = ('scripts/compare_functional_v7.py' if functional_v5
+                else 'scripts/compare_procedural_v6.py' if args.perfil == 'procedimental-v6'
                 else 'scripts/compare_procedural_v5.py' if procedural
                 else 'scripts/compare_functional_v4.py' if functional
                 else (f'scripts/compare_intrapara_v{version}.py' if version in ('2','3') else 'scripts/compare_intrapara_release.py'))
@@ -85,7 +93,8 @@ def main(argv=None):
         for args in commands:
             print('\n>>>', ' '.join(args), flush=True)
             subprocess.run([sys.executable, *args], cwd=ROOT, env=env, check=True)
-        expected_outputs = OUTPUTS + (('comparacion_procedimental.json',) if procedural else ('comparacion_funcional.json','linaje_funcional.csv') if functional else ('comparacion_intrapadre.json',) if versioned else ())
+        # v7 es procedimental pero su gate es el comparador funcional: emite linaje.
+        expected_outputs = OUTPUTS + (('comparacion_procedimental.json',) if procedural and not functional_v5 else ('comparacion_funcional.json','linaje_funcional.csv') if functional else ('comparacion_intrapadre.json',) if versioned else ())
         for name in expected_outputs:
             if not (stage/name).is_file():
                 raise RuntimeError(f'Falta salida validada: {name}')

@@ -28,7 +28,7 @@ def load_intrapara_links(raw, path):
 # Perfil intrapadre acumulado que exige cada perfil de construcción. v6 usa v4
 # (diecisiete pruebas); los perfiles históricos siguen exigiendo v3 (quince).
 REQUIRED_INTRAPARA = {'funcional-v4': 'intrapadre-v3', 'procedimental-v5': 'intrapadre-v3',
-                      'procedimental-v6': 'intrapadre-v4'}
+                      'procedimental-v6': 'intrapadre-v4', 'procedimental-v7': 'intrapadre-v4'}
 
 
 def required_intrapara(perfil=None):
