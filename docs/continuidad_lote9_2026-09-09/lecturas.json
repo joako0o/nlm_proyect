@@ -23291,7 +23291,227 @@
       "Universo": "PLAN_RONDAS_BANDA_D",
       "Ronda_Plan": 169,
       "Justificacion": "Ronda 169, 3 filas leidas completas (1468:1 de Corbo, 1469:1 con el Acuerdo 113-01 y el Comunicado, 1470:1 con el cierre y las firmas). Ultima ronda de la sesion 2007-09-13. Eje OCR: 2 correcciones en 1 fila y 1 revision descartada. Correcciones en 1469:1: 'perecióles' por 'perecibles' declarando Ocurrencias 2 porque las dos apariciones de la fila son el mismo defecto (10 contra 166 en el corpus, con la forma buena 1 vez en la fila y 8 en la sesion; mismo defecto corregido en 4827:1 en la ronda 158, y quedan 7 filas en otras sesiones que se haran en sus rondas); y 'IPCXI' por 'IPCX1', letra I por digito 1, porque el indicador se llama IPCX1 y no existe un IPCXI romano en la nomenclatura del Banco (6 contra 458, y la construccion exacta 'la inflación subyacente IPCX1' aparece 24 veces; 3 veces IPCX1 en la sesion), con las otras 5 ocurrencias listadas para sus rondas. Descartada: el bloque de firmas de 1470:1 no es una firma truncada ni un residuo, los nombres estan completos y coinciden con Actor_Final. Sin dos voces: 1469:1 y 1470:1 son filas institucionales del Consejo, que no llevan segunda voz."
+    },
+    "RPM-2008-08-14:1978:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1978:1",
+      "ID_Padre": "1978",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1543,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1979:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1979:1",
+      "ID_Padre": "1979",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 211,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1980:2": {
+      "ID_Intervencion": "RPM-2008-08-14:1980:2",
+      "ID_Padre": "1980",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2093,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1981:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1981:1",
+      "ID_Padre": "1981",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 94,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1981:2": {
+      "ID_Intervencion": "RPM-2008-08-14:1981:2",
+      "ID_Padre": "1981",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2114,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1982:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1982:1",
+      "ID_Padre": "1982",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 525,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1983:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1983:1",
+      "ID_Padre": "1983",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 138,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1983:2": {
+      "ID_Intervencion": "RPM-2008-08-14:1983:2",
+      "ID_Padre": "1983",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1597,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1984:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1984:1",
+      "ID_Padre": "1984",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 119,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1984:2": {
+      "ID_Intervencion": "RPM-2008-08-14:1984:2",
+      "ID_Padre": "1984",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 221,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1985:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1985:1",
+      "ID_Padre": "1985",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 155,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1986:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1986:1",
+      "ID_Padre": "1986",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 176,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1987:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1987:1",
+      "ID_Padre": "1987",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 408,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1988:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1988:1",
+      "ID_Padre": "1988",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 369,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1989:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1989:1",
+      "ID_Padre": "1989",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 593,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1990:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1990:1",
+      "ID_Padre": "1990",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 870,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1991:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1991:1",
+      "ID_Padre": "1991",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 792,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1992:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1992:1",
+      "ID_Padre": "1992",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 435,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1993:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1993:1",
+      "ID_Padre": "1993",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 710,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
+    },
+    "RPM-2008-08-14:1994:1": {
+      "ID_Intervencion": "RPM-2008-08-14:1994:1",
+      "ID_Padre": "1994",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 104,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 170,
+      "Justificacion": "Ronda 170, 20 filas leidas completas (1978:1 a 1994:1), abre la sesion 2008-08-14, Sesion 126 de Politica Monetaria, presidente Jose De Gregorio, Ministro Andres Velasco. La sesion tiene 98 filas en el xlsx y 2 ya estaban leidas de antes (1980:1 y 2006:1), por eso la ronda salta 1980:1 y 1981:1. Eje OCR: 3 correcciones y 3 marcas. Correcciones: 'celebrada e l 4 de agosto' por 'el' en 1978:1, espacio intrapalabra (2 contra 126); 'más menos 3% ó 4%' por 'más o menos' en 1982:1, locucion cerrada con la forma buena 2 veces en la sesion y 99 en el corpus contra 44, segundo caso tras 1408:1; y 'similar ai que han tenido' por 'al' en 1987:1, ele por i, 'ai' no es palabra, mismo glifo que en 1408:1. Marcas: la tilde de '3% ó 4%' NO es defecto porque entre cifras era obligatoria hasta 2010 y esta acta es de 2008 ('% ó ' 12 veces, todas entre 2005 y 2011); 'el precio petróleo' no se corrige porque es un compuesto nominal legitimo del lenguaje economico y reaparece 8 veces en 7 sesiones entre 2006 y 2015, y ningun escaner produce la misma omision en documentos con nueve anos de diferencia, asi que es rasgo del transcriptor; y 'Manuel Marf án' es nombre propio, segundo caso seguido tras 'Klaus Schmidt- Hebbel'. Sin dos voces: 1980:2, 1981:2, 1983:2 y 1984:2 son la continuacion de la exposicion de Lehmann interrumpida por una pregunta corta de Desormeaux o De Gregorio, cada uno en su propia fila; el resto son intervenciones breves de un solo hablante."
     }
   },
-  "Total_Leidas": 2015
+  "Total_Leidas": 2035
 }

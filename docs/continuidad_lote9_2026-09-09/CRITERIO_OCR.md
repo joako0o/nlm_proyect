@@ -108,6 +108,28 @@ en `1462:1`. `IPOM` (59) no se tocó: es una renderización coherente. **La
 pregunta no es cuántas veces aparece la variante, sino si es una grafía
 sistemática o una errata aislada.**
 
+### 3 ter. El discriminador: ¿la forma defectuosa es ortográficamente imposible?
+
+Contar no basta, porque `cambiaría` (241), `ios` (92) e `índica` (45) también
+se repiten por todo el corpus y **sí** se corrigen. Lo que separa los dos
+grupos no es la frecuencia:
+
+| la forma defectuosa… | ejemplos | decisión |
+|---|---|---|
+| **es ortográficamente imposible** (no existe esa palabra, esa tilde o ese glifo) | `cambiaría` por el adjetivo, `ios`, `índica`, `de!`, `lineas`, `vísta`, `perecióles`, `IPCXI` | **se corrige**, sin importar cuántas veces se repita |
+| **es una construcción legítima aunque minoritaria** | `la Secretario General` (77), `precio petróleo` (8 en 7 sesiones), `IMACEC`/`Imacec`, `Economista Sénior`, `tasa de instancia` | **no se corrige**: es el uso de quien transcribe |
+
+Y hay una señal adicional que confirma el segundo grupo: **un defecto de
+escaneo no se reproduce idéntico en documentos escaneados con años de
+diferencia**. `el precio petróleo` aparece 8 veces en 7 sesiones entre 2006 y
+2015 (`630:1`, `992:1`, `1572:2`, `1697:2`, `1982:1`, `4242:1`, `6872:1`).
+Ningún escáner hace eso; los tipógrafos sí. Marcado en `1982:1` (ronda 170).
+
+Lo mismo rige para la ortografía **vigente en la fecha del acta**: la tilde de
+`ó` entre cifras (`3% ó 4%`) era obligatoria hasta 2010 y esta acta es de 2008.
+`% ó ` aparece 12 veces, todas entre 2005 y 2011. No es defecto. Mismo caso que
+`Economista Sénior` con tilde en las actas de 2007.
+
 El mismo patrón en **una sola** fila y fuera de su forma habitual sí es
 defecto: `la Zona Euro,. Al respecto` (`4390:1`) tiene la coma suelta a mitad
 de fila, no tras la fórmula de cierre, y se corrigió. La diferencia no está en

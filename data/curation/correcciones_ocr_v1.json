@@ -1678,6 +1678,48 @@
           "Justificacion": "Letra I por el dígito 1: el indicador se llama 'IPCX1' y no existe un 'IPCXI' en numeración romana dentro de la nomenclatura del Banco. Medido: 'IPCXI' aparece 6 veces en 6 filas frente a 'IPCX1' 458, y la construcción exacta 'la inflación subyacente IPCX1' aparece 24 veces en el corpus; dentro de la sesión, 'IPCX1' aparece 3 veces. La reparación es única. Las otras 5 ocurrencias de 'IPCXI' están en 1352:1, 1402:1, 1520:1, 1569:1 y 1641:1, de sesiones distintas, y se corregirán en sus rondas."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1978:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "celebrada e l 4 de agosto de 2008",
+          "Despues": "celebrada el 4 de agosto de 2008",
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 126 celebrada e l 4 de agosto de 2008 _____________ En Santiago de Chile, a 14 de agosto de 2008, siendo la",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: 'el' está partido en dos. Se reúne sin alterar una letra. Medido: 'celebrada e l' aparece 2 veces en el corpus frente a 'celebrada el' 126."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1982:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "Señala que se está hablando de un déficit de más menos 3% ó 4%",
+          "Despues": "Señala que se está hablando de un déficit de más o menos 3% ó 4%",
+          "Contexto": "a comercial aparecería deficitaria en 1% menos y ello es efecto exclusivo del precio petróleo. Señala que se está hablando de un déficit de más menos 3% ó 4%.",
+          "Justificacion": "Falta la conjunción de la locución fija: es 'más o menos', no 'más menos'. La locución es cerrada y no admite esa variante, y la forma correcta está corroborada en la sesión (2 veces) y aparece 99 veces en el corpus contra 44 de 'más menos'. Como las dos formas conviven, es transcripción inconsistente y no un criterio uniforme de la fuente. Segundo caso: el primero fue RPM-2007-09-13:1408:1 en la ronda 162. No se toca la tilde de 'ó', que era obligatoria entre cifras hasta 2010."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1987:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "el monto de pérdidas que han tenido los bancos en Europa, es bastante similar ai que han tenido",
+          "Despues": "el monto de pérdidas que han tenido los bancos en Europa, es bastante similar al que han tenido",
+          "Contexto": "o distinta y hay una situación del sector bancario que es relativamente parecida, por lo menos el monto de pérdidas que han tenido los bancos en Europa, es bastante similar ai que han tenido en Estados Unidos de América.",
+          "Justificacion": "Ele por i: 'ai' no es una palabra del español y la oración no admite otra lectura. Sección 1, que no exige corroboración. Medido: 'similar ai que han tenido' aparece 1 vez en todo el corpus. Es el mismo glifo ya corregido en RPM-2007-09-13:1408:1 en la ronda 162."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -2238,6 +2280,24 @@
       "Texto_Original_Fragmento": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a las 18.10 horas. JOSÉ DE GREGORIO REBECO Vicepresidente JORGE DESORMEAUX JIMÉNEZ Consejero.",
       "Motivo": "SE MIRA Y SE DESCARTA. El bloque de firmas cierra el acta con el Vicepresidente y un Consejero en versalitas, sin puntos ni saltos que lo separen. Es la forma del acta, no un residuo de escaneo ni una firma truncada: los nombres están completos y coinciden con Actor_Final de la sesión. No hay nada que corregir ni que cotejar.",
       "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1982:1",
+      "Texto_Original_Fragmento": "un déficit de más menos 3% ó 4%",
+      "Motivo": "LA TILDE DE 'ó' NO ES DEFECTO, y se deja para que nadie la quite. Entre cifras la tilde era obligatoria según la ortografía vigente hasta 2010, para evitar confundir la o con el cero; esta acta es de 2008. Medido: '% ó ' aparece 12 veces en el corpus y todas en actas de 2005 a 2011, contra 68 de '% o ' que se concentran en fechas posteriores. Mismo criterio que 'Economista Sénior' con tilde en las actas de 2007.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1982:1",
+      "Texto_Original_Fragmento": "si se eliminara el precio petróleo a propósito de la pregunta que surgió",
+      "Motivo": "NO SE CORRIGE, y el caso vale como criterio. Falta el 'del', pero 'precio petróleo' no es una errata ortográfica sino un compuesto nominal legítimo del lenguaje económico, igual que 'riesgo país' o 'tasa de instancia'. Además reaparece 8 veces en 7 sesiones distintas entre 2006 y 2015 (630:1, 992:1, 1572:2, 1697:2, esta, 4242:1, 6872:1): ningún escáner produce la misma omisión en documentos escaneados con nueve años de diferencia, así que es un rasgo de quien transcribe y no del escaneo. Se distingue de 'cambiaría' o de 'ios', que sí se corrigen porque la forma defectuosa es ortográficamente imposible.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1992:1",
+      "Texto_Original_Fragmento": "o que puede ser tal vez lo que dice el Consejero Manuel Marf án",
+      "Motivo": "NOMBRE_PROPIO. Espacio dentro del apellido: 'Marf án' por 'Marfán'. Defecto probado (1 contra 1.505 en el corpus; 15 veces la forma buena dentro de esta misma sesión) y reparación única, pero un nombre propio nunca se corrige, sólo se marca. Segundo caso seguido después de 'Klaus Schmidt- Hebbel' en la ronda 167: en los dos se eliminaría un espacio de escaneo sin alterar ninguna letra del nombre, así que si se decide relajar la regla se corrigen los dos juntos.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
