@@ -29,6 +29,13 @@ Cola visible del plan: `2006-01-12` (135–140, 47) · `2011-10-13` (141–147, 
 
 Ver el resto: `.venv/bin/python scripts/rondas_lectura_lote9.py estado`.
 
+## Leer primero
+
+1. Este archivo (`REANUDAR.md`): dónde estamos y cómo se trabaja.
+2. **`CRITERIO_OCR.md`**: los casos reales ya decididos, con el porqué. La
+   regla abstracta no basta; ahí está qué se corrige, qué se marca y qué no
+   se toca, con ejemplos del corpus. **Obligatorio para una sesión paralela.**
+
 ## Política vigente (fijada por el usuario, 2026-09-10)
 
 Invierte la instrucción anterior de «no corrijas OCR». Ahora:
