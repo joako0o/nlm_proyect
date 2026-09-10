@@ -196,6 +196,18 @@ completa sin estarlo.
 
 ### Progreso
 
-| ronda | fecha | filas | resultado |
+| ronda | sesión | filas | resultado |
 |---|---|---:|---|
-| 1–8 | — | — | pendientes |
+| 1 | 2005-01-11 | 4 | una sola voz |
+
+Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
+del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
+Minuta. El Ministro de Hacienda aparece citado en los tres primeros tramos —«lo expuesto
+por el señor Ministro», «el Ministro en el fondo decía», «dudas parecidas a las del señor
+Ministro»—, pero es discurso referido, no palabras suyas transcriptas. Ninguna segunda voz.
+
+Para anotar una ronda leída:
+
+```
+.venv/bin/python scripts/rondas_lectura_lote9.py registrar N HALLAZGO "justificacion"
+```

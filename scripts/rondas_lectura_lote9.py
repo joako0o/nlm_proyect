@@ -170,6 +170,44 @@ def leer(n):
              f'{total:,}', r['Items'][-1]['id'] + r['Items'][-1]['parte']))
 
 
+def registrar(n, hallazgo, justificacion):
+    """Anota en lecturas.json las filas de una ronda ya leida."""
+    doc_plan = json.loads(PLAN.read_text(encoding='utf-8'))
+    if not 1 <= n <= len(doc_plan['Rondas']):
+        raise SystemExit('ronda fuera de rango: 1..%d' % len(doc_plan['Rondas']))
+    ronda = doc_plan['Rondas'][n - 1]
+    por_id = {x['ID_Intervencion']: x for x in filas()}
+
+    lect = json.loads(LECT.read_text(encoding='utf-8'))
+    casos = lect['Casos']
+    nuevos = 0
+    for it in ronda['Items']:
+        rid = it['id']
+        if rid in casos:
+            print('  ya estaba:', rid)
+            continue
+        f = por_id[rid]
+        casos[rid] = {
+            'ID_Intervencion': rid,
+            'ID_Padre': rid.split(':')[1],
+            'Actor': f['Actor_Final'],
+            'Caracteres': len(f['Texto']),
+            'Hallazgo': hallazgo,
+            'Lectura': 'COMPLETA',
+            'Universo': 'PLAN_RONDAS_BANDA_' + it['banda'],
+            'Ronda_Plan': n,
+            'Justificacion': justificacion,
+        }
+        nuevos += 1
+    lect['Total_Leidas'] = len(casos)
+    lect['Filas_Con_Dos_Voces_Confirmadas'] = sorted(
+        k for k, v in casos.items()
+        if (v.get('Hallazgo') or v.get('Hallazgo_Cola_Entrega')) == 'DOS_VOCES')
+    LECT.write_text(json.dumps(lect, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print('ronda %d: %d filas anotadas como %s | total leidas %d'
+          % (n, nuevos, hallazgo, len(casos)))
+
+
 def estado():
     doc = json.loads(PLAN.read_text(encoding='utf-8'))
     todas = filas()
@@ -197,5 +235,7 @@ if __name__ == '__main__':
         leer(int(sys.argv[2]))
     elif sys.argv[1] == 'estado':
         estado()
+    elif sys.argv[1] == 'registrar':
+        registrar(int(sys.argv[2]), sys.argv[3], sys.argv[4])
     else:
         raise SystemExit(__doc__)
