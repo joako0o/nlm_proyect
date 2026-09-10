@@ -252,6 +252,7 @@ en una cláusula, sin desarrollarse:
 | 87–91 | 2014-12-11 | 38 | una sola voz · **sesión cerrada 38/38** |
 | 92–98 | 2008-02-07 | 68 | una sola voz · **sesión cerrada 68/68** |
 | 99–106 | 2007-11-13 | 76 | una sola voz en las 70 filas del plan · **sesión cerrada 76/76** |
+| 107–113 | 2012-11-13 | 76 | una sola voz · **sesión cerrada 76/76** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
