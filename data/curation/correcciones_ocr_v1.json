@@ -864,6 +864,62 @@
           "Justificacion": "Cuatro glifos sueltos entre el punto de cierre y la oración siguiente: acento circunflejo, barra, cuadrado negro y guión-i. No forman palabra, símbolo ni cifra. Es basura del escaneo entre dos oraciones que se leen completas sin ella."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5787:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "sobre la situación para comprar artículos del hogar, f ' ' En lo relativo",
+          "Despues": "sobre la situación para comprar artículos del hogar. En lo relativo",
+          "Contexto": "mientras que variaron levemente aquellas referidas a la percepción sobre el país, el futuro en general y sobre la situación para comprar artículos del hogar, f ' ' En lo relativo a algunas variables relevantes para las condiciones de acceso al mercado crediticio",
+          "Justificacion": "Tres glifos sueltos -una efe y dos apóstrofos- entre la coma y la oración siguiente. No forman palabra ni símbolo. Se eliminan y la coma pasa a punto porque 'En lo relativo' abre oración nueva en mayúscula; es la única puntuación que deja el texto legible sin agregar ni quitar palabras."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "la demanda final ha sido revisada levemente desde un 5,6% a un 5.5%",
+          "Despues": "la demanda final ha sido revisada levemente desde un 5,6% a un 5,5%",
+          "Contexto": "Sin embargo, la demanda final ha sido revisada levemente desde un 5,6% a un 5.5%, la que se explica por una ligera corrección en el consumo privado desde 5,8% hasta 5,7%, por un menor consumo de servicios.",
+          "Justificacion": "Punto decimal en lugar de coma. Medido dentro de la misma fila: hay 8 decimales escritos con coma (4,4% 4,0% 5,6% 5,8% 5,7% 4,2% 4,1%) y éste es el único con punto. La propia oración trae '5,6%' justo antes."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "las expectativas de las empresas han tenido a estabilizarse",
+          "Despues": "las expectativas de las empresas han tendido a estabilizarse",
+          "Contexto": "Comenta que las expectativas de las empresas han tenido a estabilizarse con perspectivas a nivel sectorial algo mejores en industria y comercio",
+          "Justificacion": "Falta la de de 'tendido'. 'Tener a' no es construcción del español y 'tender a' es la única lectura. Corroborado dos veces: 'tendido' aparece 2 veces en esta misma fila, y en el corpus 'han tendido a' aparece 311 veces contra 16 de 'han tenido a'."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5793:1",
+      "Fecha": "2013-09-12",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "un grado de desintegración de la economía chilena respecto del resto mundo",
+          "Despues": "un grado de desintegración de la economía chilena respecto del resto del mundo",
+          "Contexto": "Indica que ello podría obedecer a un grado de desintegración de la economía chilena respecto del resto mundo; no obstante, que la serie de tiempo correspondiente no da cuenta de ello.",
+          "Justificacion": "Artículo-contracto omitido. Corroborado en la sesión: 'resto del mundo' aparece 3 veces en 2013-09-12 (filas 5771, 5807 y 5811) y 129 veces en el corpus, contra 1 sola de 'resto mundo', que es ésta."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5798:2",
+      "Fecha": "2013-09-12",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "las opciones de política monetaria. H ^ .",
+          "Despues": "las opciones de política monetaria.",
+          "Contexto": "siendo las 13:15 horas, el Presidente señor Rodrigo Vergara suspende la presente Reunión y deja constancia que ella se reiniciará a las 15:30 horas para tratar lo referente a las opciones de política monetaria. H ^ .",
+          "Justificacion": "Tres glifos sueltos después del punto de cierre: una hache, un acento circunflejo y un segundo punto. La oración ya está cerrada por su propio punto, así que el resto no aporta nada. Aparece una sola vez en el corpus."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1286,6 +1342,24 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "se han ajustado al alza ante expectativas de aumentos del precio de la leche y la carne. y El señor Sergio Lehmann agrega que los movimientos de futuros",
       "Motivo": "Una 'y' minúscula quedó colgada después de un punto. Algo está mal, pero hay dos reparaciones distintas y dan textos distintos: borrar la 'y' (queda 'la carne. El señor...') o convertir el punto en coma (queda 'la carne, y el señor...'). Elegir una sería decidir por el acta. Aparece una sola vez en el corpus: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5787:1",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Texto_Original_Fragmento": "situándose dentro de los rangos de proyección contemplados en la Reunión pasada y en el cierre del último IPoM Acota que con ello, la tasa de variación interanual se mantuvo en 2,2%",
+      "Motivo": "Falta el punto entre 'IPoM' y 'Acota'. La segunda oración arranca en mayúscula, así que el signo falta con certeza, pero reponer un signo ausente es editorializar: se marca, igual que el final sin punto de 4350:2."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5787:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "Precisa que así lo refleja un porcentaje de sobre un 80% de las respuestas de la Encuesta de Expectativas Económicas",
+      "Motivo": "'Un porcentaje de sobre un 80%' está roto. Caben 'un porcentaje de sobre un 80%' con 'de' sobrante, 'un porcentaje superior a un 80%' y 'un porcentaje de algo sobre un 80%'. La fórmula aparece una sola vez en el corpus: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-09-12:5802:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "de manera que procederá a darle lectura, con el objeto que quede inserto en el Acta de esta Sesión: ( ■",
+      "Motivo": "La fila está truncada (FINAL_SIN_PUNTUACION) justo en este punto y termina en '( ■'. El cuadrado negro es basura del escaneo (aparece 22 veces en el corpus), pero el paréntesis de apertura podría ser real y su contenido haberse perdido en el corte: la fila siguiente, 5802:3, abre directo con la cita del Ministro entre comillas. Borrar el paréntesis destruiría la evidencia de que ahí empezaba un inciso; dejarlo es dejar un signo huérfano. Se marca."
     }
   ],
   "Marcas_Adicionales": [
