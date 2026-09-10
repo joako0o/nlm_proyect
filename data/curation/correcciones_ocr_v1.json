@@ -1369,6 +1369,174 @@
           "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'perm ite' aparece 1 vez y 'permite' 280."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1434:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "los indicadores de dem anda del mes de julio",
+          "Despues": "los indicadores de demanda del mes de julio",
+          "Contexto": "observado en los últimos meses. Hace presente también, que el crecimiento de la actividad y de los indicadores de dem anda del mes de julio fue menor que lo observado en meses previos y que lo anticipado en el",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'dem anda' aparece 4 veces y 'demanda' 2.901."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "la volatilidad de esta información es alta, especialm ente considerando",
+          "Despues": "la volatilidad de esta información es alta, especialmente considerando",
+          "Contexto": "do en meses previos y que lo anticipado en el escenario base del IPoM. No obstante, señala que la volatilidad de esta información es alta, especialm ente considerando el efecto calendario. Todo ello lleva a que la información del mes de",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'especialm ente' aparece 2 veces y 'especialmente' 942."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "mostraron tasas de crecim iento anual menores",
+          "Despues": "mostraron tasas de crecimiento anual menores",
+          "Contexto": "actividad está sesgado a la baja. Así, los indicadores de actividad y demanda del mes de julio mostraron tasas de crecim iento anual menores que las de meses anteriores, en parte por el desempeño de sectores es",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'crecim iento' aparece 9 veces y 'crecimiento' 5.755."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "crecimiento anual similar al exhibido en los últim os meses",
+          "Despues": "crecimiento anual similar al exhibido en los últimos meses",
+          "Contexto": "ersión mantuvieron su dinamismo y los indicadores de edificación, IMACON, permanecieron con un crecimiento anual similar al exhibido en los últim os meses, de 5,4%, mientras las colocaciones hipotecarias siguen dinámicas. La",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'últim os meses' aparece 1 vez y 'últimos meses' 601."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1438:2",
+      "Fecha": "2007-09-13",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "la estrechez de las lineas de crédito en el exterior",
+          "Despues": "la estrechez de las líneas de crédito en el exterior",
+          "Contexto": "u opinión, este ejemplo cuestiona la hipótesis de que el origen del fenómeno tiene que ver con la estrechez de las lineas de crédito en el exterior, que en el caso de Chile sí se produjo por el efecto de las inversion",
+          "Justificacion": "Tilde ausente: 'líneas' lleva tilde siempre. Medido en el corpus: 'lineas de crédito' 2 veces (ambas en esta sesión, 1438:2 y 1444:1) frente a 'líneas' 118. Es un caso de la sección 1, que no exige corroboración: la oración no admite otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1444:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "cuando se trató de obtener las lineas de créditos correspondientes",
+          "Despues": "cuando se trató de obtener las líneas de créditos correspondientes",
+          "Contexto": "Por consiguiente, podría haber un elemento de cambio que probablemente sorprendió a la banca y cuando se trató de obtener las lineas de créditos correspondientes no era el momento oportuno.",
+          "Justificacion": "Tilde ausente. 'línea' es palabra llana terminada en vocal con hiato: siempre lleva tilde; 'lineas' no existe en español. Sección 1, no exige corroboración. Medido: 'lineas' sin tilde aparece 6 veces (1438:2, 1444:1, 2725:1, 2770:2, 2814:3, 3107:2) frente a 'líneas' 118."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1445:2",
+      "Fecha": "2007-09-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "que resulta clave desde el punto de vísta de la evolución",
+          "Despues": "que resulta clave desde el punto de vista de la evolución",
+          "Contexto": "imiento moderado que pierde dinamismo, del orden de 4%. En consecuencia, cree que este sector, que resulta clave desde el punto de vísta de la evolución de la economía, debe ser monitoriado en forma permanente.",
+          "Justificacion": "Tilde indebida: 'vista' es llana terminada en vocal, no lleva tilde nunca. Medido: 'vísta' 5 veces (1394:1, 1445:2, 2001:1 como 'prevísta', 6382:1, 6797:1) frente a 'vista' 499, y 'punto de vista' correctamente escrito 221. Como las dos formas coexisten, es transcripción inconsistente y no criterio uniforme de la fuente: se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1449:3",
+      "Fecha": "2007-09-13",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "Rodrigo Valdés señala que ello no ocurre asi, ya que llegan más permisos",
+          "Despues": "Rodrigo Valdés señala que ello no ocurre así, ya que llegan más permisos",
+          "Contexto": "El Gerente de División Estudios Rodrigo Valdés señala que ello no ocurre asi, ya que llegan más permisos que los otorgados y, por lo tanto, la cifras de hace tres meses se in",
+          "Justificacion": "Tilde ausente: 'asi' sin tilde no es una palabra del español. Sección 1, no exige corroboración. Medido: 'no ocurre asi' 1 vez frente a 'así' 1.200 en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1450:2",
+      "Fecha": "2007-09-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "se consideró el d ía 17 como laboral para el efecto calendario",
+          "Despues": "se consideró el día 17 como laboral para el efecto calendario",
+          "Contexto": "manda, el Vicepresidente señor De Gregorio consulta si en la proyección del IPoM de septiembre se consideró el d ía 17 como laboral para el efecto calendario.",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'd ía' aparece 1 vez y 'el día 17' 8, una de ellas en esta misma sesión."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1453:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "una ecuación de salarios. Sin embargo, explico que no fue posible obtenerla",
+          "Despues": "una ecuación de salarios. Sin embargo, explicó que no fue posible obtenerla",
+          "Contexto": "istía alguna correlación de estos datos con la inflación para poder construir a partir de ello una ecuación de salarios. Sin embargo, explico que no fue posible obtenerla.",
+          "Justificacion": "Tilde ausente. El sujeto de la fila es 'El Gerente de Análisis Macroeconómico' y todo el párrafo está en estilo indirecto en tercera persona ('señala que realizó'), de modo que la forma verbal es 'explicó', pretérito, y no 'explico', primera persona del presente: la oración no admite otra lectura. Medido: 'explico' sin tilde aparece 1 sola vez en todo el corpus (esta) frente a 'explicó' 25, y 'explicó que' 3."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1459:2",
+      "Fecha": "2007-09-13",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "sobre el nivel de la Tasa de Politica Monetaria, cabe evaluar",
+          "Despues": "sobre el nivel de la Tasa de Política Monetaria, cabe evaluar",
+          "Contexto": "inalmente, menciona el Gerente de División Estudios señor Rodrigo Valdés que dada una decisión sobre el nivel de la Tasa de Politica Monetaria, cabe evaluar la conveniencia de moderar o no el sesgo que ha tenido el comunicado ",
+          "Justificacion": "Tilde ausente. Medido: 'de Politica Monetaria' sin tilde aparece 8 veces en todo el corpus frente a 'de Política Monetaria' 3.163, y dentro de esta sesión 1 contra 39. La sección 1 no exige corroboración, y además las dos formas coexisten, así que es transcripción inconsistente y no criterio uniforme de la fuente."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "un movimiento cambiarlo que atenúe los efectos deflacionarios",
+          "Despues": "un movimiento cambiario que atenúe los efectos deflacionarios",
+          "Contexto": "no venga acompañado de un empeoramiento de las condiciones financieras relevantes para Chile y un movimiento cambiarlo que atenúe los efectos deflacionarios de una actividad más débil. Finalmente, indica que no hay evidencia c",
+          "Justificacion": "'cambiarlo' por 'cambiario': la ele por la i es una confusión ya documentada. En este caso la sección 2 sí permite reponer, porque la forma correcta está corroborada en la sesión: 'cambiario' aparece 2 veces en 2007-09-13 (1436:2 'el mercado cambiario' y 1457:2 'un impacto cambiario'), ambas como adjetivo de tipo de cambio, y 157 veces en el corpus. Sintácticamente no hay otra lectura: 'un movimiento cambiarlo' no es gramatical. Es el mismo defecto que 'asuntos cambiarlos' en 1422:1, que quedó marcado porque allí 'cambiarios' aparece 0 veces en la fila y 0 en la sesión: misma regla, desenlace distinto por la medición."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "poco coherente con la propia presentación del IPoM. que consignó que el Banco Central",
+          "Despues": "poco coherente con la propia presentación del IPoM, que consignó que el Banco Central",
+          "Contexto": "mentos de 25 puntos base cada vez. Asimismo, un aumento de 50 puntos base también arriesga ser poco coherente con la propia presentación del IPoM. que consignó que el Banco Central de Chile trataría de evitar acciones que pudieran arriesgar una sobre",
+          "Justificacion": "Punto donde corresponde una coma: lo sigue 'que' en minúscula, de modo que la oración continúa y no hay otra lectura posible. Medido: 'IPoM. que consignó' aparece 1 sola vez. Mismo criterio ya aplicado y aceptado en RPM-2006-10-12:940:1 ('cuarto trimestre de este año. de acuerdo al Informe' por coma). No se agrega ni se suprime una palabra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1460:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "las proyecciones de crecim iento de Chile en 2008-2009",
+          "Despues": "las proyecciones de crecimiento de Chile en 2008-2009",
+          "Contexto": "implicancias para la economía chilena, la skewness, riesgos hacia abajo, de la distribución de las proyecciones de crecim iento de Chile en 2008-2009 se ha intensificado. Si a eso se agrega la leve, pero negativa correc",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'crecim iento' aparece 2 veces en el corpus y 1 en esta fila, frente a 'crecimiento' 5.755, con 5 ocurrencias en esta misma fila y 56 en la sesión."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "que justificaría acumular más información antes de cam biar la tasa de política",
+          "Despues": "que justificaría acumular más información antes de cambiar la tasa de política",
+          "Contexto": "ñor Gerente, es un escenario clásico de mayor incertidumbre respecto de las novedades últimas, que justificaría acumular más información antes de cam biar la tasa de política. Agrega el señor Gerente que contra esta opción y a favor de la opció",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'cam biar' aparece 2 veces en el corpus y 1 en esta fila, frente a 'cambiar' 711, con 6 ocurrencias en esta misma sesión."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1851,6 +2019,42 @@
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Texto_Original_Fragmento": "El Consejero señor Enrique Marshali comenta que también debe incluirse algo de lo señalado",
       "Motivo": "'Marshali' con i final en lugar de 'Marshall'. Medido: 'Marshali' aparece 5 veces en el corpus y 'Marshall' 1.243, y el Actor_Final de la propia fila dice 'Enrique Marshall Rivera'. El defecto está probado pero es un nombre propio: se marca y no se reescribe. La fila ya traía NOMBRE_EN_DISCURSO_POR_VERIFICAR."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1434:1",
+      "Texto_Original_Fragmento": "esta situación se ha intensificado en el últimos dos días",
+      "Motivo": "DOS REPARACIONES DISTINTAS, y la forma correcta no está corroborada en la fila ni en la sesión. 'el últimos dos días' es agramatical, así que el defecto está en 'el' o en 'últimos': o 'en el último dos días' (0 veces en el corpus, y sigue siendo agramatical) o 'en los últimos dos días' (14 veces en el corpus, pero 0 en la fila y 0 en la sesión 2007-09-13). La sección 2 exige que la forma correcta aparezca en la fila o en la sesión antes de reponer; aquí no aparece, y las dos reparaciones dan textos distintos. Se marca en vez de elegir.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1434:1",
+      "Texto_Original_Fragmento": "En el caso del los IREM, este crecimiento es mucho mayor",
+      "Motivo": "'del los' es una contracción imposible (del = de + el), pero las dos salidas son gramaticales, están atestiguadas y dan textos distintos: 'de los IREM' (0 en la fila y 0 en la sesión; 2 en el corpus) o 'del IREM' (1 en la fila —'el crecimiento del IREM llegó a 8,1%'—, 1 en la sesión y 5 en el corpus). Sin el PDF no se puede decidir entre singular y plural. Se marca.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1434:1",
+      "Texto_Original_Fragmento": "Señala el señor Madgenzo, que los indicadores de consumo",
+      "Motivo": "NOMBRE_PROPIO. 'Madgenzo' por 'Magendzo' es un defecto probado: 18 ocurrencias en 12 filas de las sesiones 2006-11-16, 2006-12-14 y 2007-09-13 frente a 'Magendzo' 416. Aun así, un nombre propio no se reescribe: se marca. Mismo criterio que 'Ruiz-Tagle', 'Marshali' y 'Lehmann Brothers'.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1436:2",
+      "Texto_Original_Fragmento": "esos dólares vuelven después al mercado wall forward",
+      "Motivo": "'wall forward' no es un término financiero. Medido: 'wall forward' aparece 1 sola vez en todo el corpus; 'mercado forward' 4, 'al mercado forward' 0 y 'swap forward' 0. Es una palabra suelta que admite al menos dos reparaciones distintas ('mercado forward' o 'swap forward'), y ninguna está corroborada en la fila ni en la sesión. Se marca en vez de adivinar.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1449:3",
+      "Texto_Original_Fragmento": "por lo tanto, la cifras de hace tres meses se incrementa en el tiempo",
+      "Motivo": "ERROR DE CONCORDANCIA DEL ACTA, no un defecto óptico: se deja. Además admite dos reparaciones que dan textos distintos ('las cifras ... se incrementan' o 'la cifra ... se incrementa'), y el verbo está en singular, lo que apunta a la segunda. Medido: 'la cifras' aparece 4 veces en el corpus, 'las cifras' 992 y 'la cifra' 194, así que tampoco es un patrón con una salida única. Sección 3: lo que no es óptico no se toca. El PDF mostraría lo mismo, porque el error es del acta.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1459:2",
+      "Texto_Original_Fragmento": "Los indicadores salaríales tuvieron una aceleración importante el último mes",
+      "Motivo": "NO ES DEFECTO, y se deja para que nadie lo 'corrija' después. 'salaríales' con tilde es la forma correcta: 'salarial' es aguda, su plural 'salaríales' es esdrújula y toda esdrújula lleva tilde. Lo anómalo es lo contrario: en el corpus 'salaríales' aparece 2 veces (982:1 y esta) y 'salariales' sin tilde 45. No se toca ninguna de las dos: no es un defecto óptico y normalizar 45 casos por criterio ortográfico sería una regla general, que está excluida.",
+      "Marca": "NO_REQUIERE_COTEJO"
     }
   ],
   "Marcas_Adicionales": [
