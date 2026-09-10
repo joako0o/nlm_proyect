@@ -221,6 +221,7 @@ así que la salida se ve completa sin estarlo.
 | 65–69 | 2006-09-07 | 53 | una sola voz · **sesión cerrada 53/53** |
 | 70–74 | 2006-11-16 | 45 | una sola voz · **sesión cerrada 45/45** |
 | 75–79 | 2008-04-10 | 43 | una sola voz · **sesión cerrada 43/43** |
+| 80–86 | 2014-09-11 | 61 | una sola voz · **sesión cerrada 61/61** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
