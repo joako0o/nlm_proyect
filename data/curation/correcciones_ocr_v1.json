@@ -332,6 +332,20 @@
           "Justificacion": "La erre ocupa el lugar de la pe. Medido en las 9.723 filas: 'IRC' aparece 61 veces y 'IRCX1' 10, siempre en contexto de índice de precios; 'IPC' y sus variantes aparecen 1.867 veces. Es una confusión sistemática P por R del escaneo, no una sigla distinta. En esta fila el párrafo siguiente dice que 'la inflación converge a 3%'. Las otras ~70 ocurrencias se corregirán al leer sus filas, no por regla global."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:536:1",
+      "Fecha": "2006-01-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "señor Pablo García indica ai señor Ministro",
+          "Despues": "señor Pablo García indica al señor Ministro",
+          "Contexto": "El Gerente de Análisis Macroeconómico, señor Pablo García indica ai señor Ministro que dicha información la verificará para la reunión de la tarde",
+          "Justificacion": "La i ocupa el lugar de la ele en la contracción 'al'. Mismo artefacto que en RPM-2006-10-12:881:1 ('en lo que dice relación ai precio del petróleo'). El régimen es 'indicar algo a alguien': no admite otra lectura."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -520,6 +534,24 @@
       "Texto_Original_Fragmento": "esperándose una reversión solo gradual para los próximos años",
       "Motivo": "NO_ES_OCR. 'solo' sin tilde y 'sólo' con tilde conviven en la misma fila. Desde la Ortografía de 2010 el adverbio no exige tilde: es inconsistencia de estilo del documento, no lectura óptica.",
       "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:540:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "en el mercado futuro hay agentes que están colocando dinero y ello si bien no da una muestra de dispersión, que es la pregunta del señor Ministro, sí es cómo el promedio de los agentes que sí están dispuestos a apostar",
+      "Motivo": "La cláusula final no cierra sintácticamente y admite varias reconstrucciones ('sí es cómo...', 'sí da el promedio...'). Se marca para cotejar con el acta en vez de inventar."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:538:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "pensar en cifras en torno a US$ 3 le parece, a la luz de estos antecedentes, un poco outlier",
+      "Motivo": "NO_ES_DEFECTO. 'outlier' es un anglicismo técnico usado por el hablante, de uso normal en estas minutas."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:542:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Texto_Original_Fragmento": "las proyecciones de los bancos de inversión y, en particular, del Banco Central de Chile resulta mejor que los precios de futuro",
+      "Motivo": "NO_ES_OCR. Discordancia de número ('resulta' por 'resultan'): gramática del hablante, no lectura óptica."
     }
   ],
   "Marcas_Adicionales": [

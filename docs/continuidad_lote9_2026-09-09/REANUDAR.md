@@ -87,9 +87,9 @@ de identidad vive en `Actor_Final` y no se toca.
 ## Flujo por sesión
 
 ```
-.venv/bin/python .cache/leer_seguro.py N            # lista las filas de la ronda N
-.venv/bin/python .cache/leer_seguro.py N a:b        # imprime a..b completas + chars emitidos
-.venv/bin/python .cache/leer_seguro.py N k          # una fila completa
+.venv/bin/python scripts/leer_ronda.py N            # lista las filas de la ronda N
+.venv/bin/python scripts/leer_ronda.py N a:b        # imprime a..b completas + chars emitidos
+.venv/bin/python scripts/leer_ronda.py N k          # una fila completa
 ```
 
 1. Listar la ronda, sumar los caracteres, **elegir un rango de modo que lo
@@ -100,8 +100,8 @@ de identidad vive en `Actor_Final` y no se toca.
    separado.
 3. Verificar los fragmentos que se van a corregir contra el texto fuente antes
    de escribirlos (un solo script que los cuente todos).
-4. Escribir el lote en `.cache/lote_ocr_NNN.json` y fusionar:
-   `.venv/bin/python .cache/agregar_ocr.py .cache/lote_ocr_NNN.json`
+4. Escribir el lote en `.cache/lote_ocr_NNN.json` (el lote sí puede vivir en `.cache/`; las herramientas no) y fusionar:
+   `.venv/bin/python scripts/agregar_correcciones_ocr.py .cache/lote_ocr_NNN.json`
 5. Validar: `.venv/bin/python scripts/correcciones_ocr_v1.py --validar`
 6. Anotar la ronda:
    `.venv/bin/python scripts/rondas_lectura_lote9.py registrar N UNA_SOLA_VOZ "justificación"`
@@ -125,6 +125,14 @@ git ls-remote --heads origin arena/01a08804-nlm-proyect   # confirmar el SHA rem
 **Commit y push después de cada sesión cerrada.** El usuario lo pidió
 explícitamente «por si acaso». El branch está fijo en
 `arena/01a08804-nlm-proyect`; el PR es el **#5**.
+
+## Herramientas bajo control de versiones
+
+`scripts/leer_ronda.py` y `scripts/agregar_correcciones_ocr.py` estaban en
+`.cache/`, que está en `.gitignore` y **se pierde en cada reinicio del
+workspace**. Ocurrió dos veces. Ahora están en `scripts/` y versionadas. Los
+lotes `.cache/lote_ocr_NNN.json` sí pueden seguir ahí: son insumo desechable,
+su contenido queda en el registro.
 
 ## Trampas ya pagadas
 
