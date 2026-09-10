@@ -200,6 +200,7 @@ completa sin estarlo.
 |---|---|---:|---|
 | 1 | 2005-01-11 | 4 | una sola voz |
 | 2 | 2005-01-11 | 4 | una sola voz |
+| 3 | 2005-01-11 | 5 | una sola voz |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
@@ -212,6 +213,12 @@ Ronda 2 (padres 3, 42, 4, 50): Pablo García expone el Informe de Política Mone
 filas, no dos voces. Eyzaguirre habla en nombre propio en `42:1` y cita a Schmidt-Hebbel
 («al escuchar la intervención del señor Klaus Schmidt-Hebbel») y un artículo de Juan Andrés
 Fontaine; ambos son discurso referido. Marfán fundamenta su voto en `50:1`.
+
+Ronda 3 (padres 51, 52, 54, 57, 5) cierra la sesión. Ovalle, Desormeaux y Corbo
+fundamentan cada uno su voto por 25 pb. `57:1` es una fila **institucional** —actor
+«Consejo del Banco Central de Chile»—: registra el retiro del Ministro y de la Asesora,
+el texto del Comunicado, su aprobación, el cierre y el bloque de firmas con sus residuos
+de OCR, que se conservan tal cual. `5:1` es continuación de la exposición de Pablo García.
 
 Para anotar una ronda leída:
 
