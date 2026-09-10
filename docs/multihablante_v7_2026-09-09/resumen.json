@@ -1,0 +1,20 @@
+{
+  "Filas_V7": 9723,
+  "Filas_Con_Alguna_Otra_Persona": 643,
+  "Filas_Institucionales_Del_Consejo": 233,
+  "Hablantes_Personales_Con_Otras_Personas": 410,
+  "Personales_Por_Cantidad": {
+    "1": 339,
+    "2": 64,
+    "3": 5,
+    "4": 1,
+    "5": 1
+  },
+  "Personales_Con_Dos_O_Mas": 71,
+  "Personales_Con_Tres_O_Mas": 7,
+  "Con_Alerta_Del_Motor": 4,
+  "Sin_Ninguna_Alerta": 390,
+  "Leidas_En_Este_Lote": 3,
+  "SHA256_V7": "84889a846ec0b3a2fce88d37f1d5a0a3676b33dcd962c428de7cdbb3c992d9a7",
+  "Nota": "Universo a leer, no conjunto de errores: el motor sólo marca 22 filas en todo el corpus y este barrido encuentra 410 hablantes personales con al menos otra persona de la asistencia. Contar nombres no decide nada; una mención, una bienvenida o una entrega de la palabra no son intervención."
+}
