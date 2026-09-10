@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "Fecha": "2026-09-10",
+  "Politica": {
+    "Texto_Verbatim": "INTACTO",
+    "Columna_Nueva": "Texto_Corregido",
+    "Reglas_Automaticas": false,
+    "Residuos_Fuente": "ELIMINAR",
+    "Nota": "Cada correccion esta curada a mano sobre una fila leida completa. Una entrada exige Contexto y Justificacion. El validador exige que 'Antes' aparezca en el texto verbatim exactamente las veces declaradas; si no aparece, la corrida falla en vez de adivinar. Revisiones_Sin_Correccion guarda lo que se miro y se descarto, con el motivo: es la prueba de que no se paso una regla ciega."
+  },
+  "Correcciones": [
+    {
+      "ID_Intervencion": "RPM-2006-10-12:879:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "bajo la presidencia de! titular",
+          "Despues": "bajo la presidencia del titular",
+          "Contexto": "se reúne el Consejo del Banco Central de Chile, bajo la presidencia de! titular don Vittorio Corbo Lioi",
+          "Justificacion": "El signo de admiracion ocupa el lugar de la ele de la contraccion 'del'. La formula de apertura de acta es fija en todo el corpus: 'bajo la presidencia del titular don'."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:881:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "el precio del cobre desciende en linea con lo esperado",
+          "Despues": "el precio del cobre desciende en línea con lo esperado",
+          "Contexto": "lo que representa una caída del 12% respecto del cierre del mes anterior. Por su parte, el precio del cobre desciende en linea con lo esperado.",
+          "Justificacion": "Falta la tilde en 'linea'. La misma fila escribe 'en línea con el comportamiento' mas adelante, con tilde."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "menores registros inflacionarios e;",
+          "Despues": "menores registros inflacionarios e",
+          "Contexto": "se presentaron inicialmente caídas que se asociaron a menores registros inflacionarios e; indicadores de actividad más débiles en Estados Unidos de América",
+          "Justificacion": "Punto y coma intruso detras de la conjuncion 'e'. La oracion continua en la linea siguiente sin cierre sintactico."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "En lo que dice relación ai precio del petróleo",
+          "Despues": "En lo que dice relación al precio del petróleo",
+          "Contexto": "En lo que dice relación ai precio del petróleo, como se ha señalado, ha sido una de las principales novedades del mes",
+          "Justificacion": "'ai' no es palabra; la formula es 'en lo que dice relación al'. La i ocupa el lugar de la ele."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "la trayectoria proyectada para el precio de!",
+          "Despues": "la trayectoria proyectada para el precio del",
+          "Contexto": "En función de estos antecedentes, se ha modificado la trayectoria proyectada para el precio de! petróleo.",
+          "Justificacion": "El signo de admiracion ocupa el lugar de la ele de 'del'. Mismo artefacto que en 879:1."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:884:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "el precio promedio sería de LJS$ 2 por debajo",
+          "Despues": "el precio promedio sería de US$ 2 por debajo",
+          "Contexto": "para este año en particular, el precio promedio sería de LJS$ 2 por debajo de lo que se había previsto en septiembre",
+          "Justificacion": "'LJS$' es una lectura optica de 'US$': la ele y la jota ocupan el lugar de la u y la ese. La misma fila escribe 'US$ 65 - US$ 70', 'US$ 61 el barril' y 'US$ 58 el barril' correctamente."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:896:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "las expectativas de inflación de! sector privado",
+          "Despues": "las expectativas de inflación del sector privado",
+          "Contexto": "Por su lado, las expectativas de inflación de! sector privado muestran una caída importante en las de corto plazo",
+          "Justificacion": "El signo de admiracion ocupa el lugar de la ele de la contraccion 'del'. Mismo artefacto que en 879:1 y 881:1 de esta sesion."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "nuevamente afectada a la baja por factores estaciónales",
+          "Despues": "nuevamente afectada a la baja por factores estacionales",
+          "Contexto": "la tasa de interés promedio ponderada de los créditos de consumo cayó respecto del mes anterior, nuevamente afectada a la baja por factores estaciónales",
+          "Justificacion": "'estacional' es palabra grave terminada en l: no lleva tilde. La tilde intrusa cae sobre la o."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "la del MI que se ubicó en 16,1%",
+          "Despues": "la del M1 que se ubicó en 16,1%",
+          "Contexto": "Las tasas de crecimiento anual de los agregados monetarios aumentaron en septiembre, en especial la del MI que se ubicó en 16,1% (13,1% en agosto).",
+          "Justificacion": "El contexto es explicito: 'agregados monetarios'. M1 es el agregado; la i mayuscula es una lectura optica del digito 1. La fila cita ademas BCP-2, BCU-5 y BCU-10 con digitos correctos, lo que confirma que solo esta ocurrencia se leyo mal."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "las cifras continúan siendo negativas por la alta base\ncomparación, lo que",
+          "Despues": "las cifras continúan siendo negativas por la alta base de comparación, lo que",
+          "Contexto": "En términos de variación anual, no obstante, las cifras continúan siendo negativas por la alta base comparación, lo que se hará más notorio en octubre.",
+          "Justificacion": "Falta la preposicion. La misma fila escribe la formula completa mas adelante: 'dada la alta base de comparación de septiembre de 2005'. No se inventa nada: se repite la forma que el propio texto trae."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:904:1",
+      "Fecha": "2006-10-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "SALTOS_DE_LINEA",
+          "Antes": "El\nConsejero\nseñor\nMarfán,\nsobre\nel\nmismo\ntema,\nseñala\nque\nla\nSuperintendencia",
+          "Despues": "El Consejero señor Marfán, sobre el mismo tema, señala que la Superintendencia",
+          "Contexto": "El / Consejero / señor / Marfán, / sobre / el / mismo / tema, / señala / que / la / Superintendencia de Bancos e Instituciones Financieras debería empezar a recabar",
+          "Justificacion": "Artefacto de justificacion del PDF: una palabra por linea durante doce palabras. El resto de la fila y de la sesion corta en el ancho normal. Se reune el texto sin alterar una sola letra."
+        }
+      ]
+    }
+  ],
+  "Revisiones_Sin_Correccion": [
+    {
+      "ID_Intervencion": "RPM-2006-10-12:892:1",
+      "Texto_Original_Fragmento": "Ello por cierto beneficia al país, pero si está vinculado a otro fenómeno, el neto puede no ser tan auspicioso.",
+      "Motivo": "NO_ES_DEFECTO. 'si' es conjuncion condicional, no adverbio de afirmacion. Ponerle tilde cambiaria el sentido de la oracion."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:881:1",
+      "Texto_Original_Fragmento": "en el margen han habido salidas",
+      "Motivo": "NO_ES_OCR. Es un solecismo del hablante, no un error de lectura optica. Corregirlo seria editar el discurso."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:881:1",
+      "Texto_Original_Fragmento": "tanto el Conference Support como la Universidad de Michigan",
+      "Motivo": "SIN_VERIFICAR. Probablemente sea 'The Conference Board', pero es un nombre propio y no hay fuente que lo acredite en este turno. Se deja verbatim."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:884:1",
+      "Texto_Original_Fragmento": "conserva más menos ese nivel hacia delante",
+      "Motivo": "AMBIGUO. Podria ser 'más o menos' con la o perdida, pero tambien una muletilla del hablante. No es inequivoco."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:887:1",
+      "Texto_Original_Fragmento": "ciertamente era contractivo un aumento y expansivo un alza",
+      "Motivo": "AMBIGUO. La oposicion semantica no cierra; reconstruir la frase exigiria inventar palabras."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:881:1 / 882:1",
+      "Texto_Original_Fragmento": "algo por debajo de los US$ 58 el barril (881:1) / ha caído en torno a US$ 66 el barril (882:1)",
+      "Motivo": "INCONSISTENCIA_DE_FUENTE. Dos cifras distintas para el mismo precio en la misma sesion. Es un dato del documento, no un defecto de OCR: se conserva verbatim y se anota."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:896:1",
+      "Texto_Original_Fragmento": "Las medidas multilaterales, TCM, TCM-5 y TCM-X tuvieron variaciones de -0,9%, -1,1 y -0,8%",
+      "Motivo": "NO_ES_DEFECTO. TCM es la abreviatura de Tipo de Cambio Multilateral. Es el falso positivo que explico las 6 coincidencias de 'tcm tcm' en el escaneo automatico: una regla ciega las habria destruido."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:896:1",
+      "Texto_Original_Fragmento": "Al antes comentando incremento en las colocaciones de bonos de empresas",
+      "Motivo": "AMBIGUO. Podria ser 'Al antes comentado incremento' o 'Al ya comentado incremento'. Dos reconstrucciones posibles: no es inequivoco."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:896:1",
+      "Texto_Original_Fragmento": "tuvieron variaciones de -0,9%, -1,1 y -0,8%, respectivamente",
+      "Motivo": "NO_SE_TOCA. Falta el signo % detras de -1,1, pero agregar un simbolo que no esta en la fuente es editorializar, no corregir OCR."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:904:1",
+      "Texto_Original_Fragmento": "que es la que se utiliza en otros lugares cuando se le cobra el consumidor para determinado plazo",
+      "Motivo": "AMBIGUO. Probablemente falte 'al', pero no hay otra ocurrencia de la formula en la fila que la respalde. No es inequivoco."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:902:1",
+      "Texto_Original_Fragmento": "consulta si existe algún indicador por ejemplo, de tasa media de oferta",
+      "Motivo": "NO_SE_TOCA. Falta una coma detras de 'indicador'. Es puntuacion, no lectura optica."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-10-12:899:1",
+      "Texto_Original_Fragmento": "consulta cuál es el delta en dólares que el Banco Central asigna al Transantiago",
+      "Motivo": "NO_ES_DEFECTO. 'delta' es la palabra que uso el Ministro de Hacienda. Corregirla seria editar el discurso."
+    }
+  ]
+}
