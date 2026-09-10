@@ -83,6 +83,18 @@ def scan(rows):
     return out
 
 
+LOTE9 = ROOT / 'docs/continuidad_lote9_2026-09-09/lecturas.json'
+
+
+def lecturas_lote9():
+    # Hallazgo por fila, tomado del paquete de lectura del lote9.
+    if not LOTE9.is_file():
+        return {}
+    casos = json.loads(LOTE9.read_text())['Casos']
+    return {rid: (caso.get('Hallazgo') or caso.get('Hallazgo_Cola_Entrega') or '')
+            for rid, caso in casos.items()}
+
+
 LECTURAS = {
     'RPM-2006-06-15:676:1': (
         'UNA_SOLA_VOZ_MENCIONES_Y_TRASPASO',
@@ -112,11 +124,11 @@ def main(argv=None):
         raise ValueError('La entrega v7 cambió')
     rows = read_rows(V7)
     vista = scan(rows)
+    lecturas = lecturas_lote9()
     for r in vista:
-        lectura = LECTURAS.get(r['ID_Intervencion'])
-        if lectura:
+        if r['ID_Intervencion'] in lecturas:
             r['Leida_En_Lote9'] = 'SI'
-            r['Veredicto'] = lectura[0]
+            r['Veredicto'] = lecturas[r['ID_Intervencion']]
     out.mkdir(parents=True)
     with (out / 'inventario_multihablante_v7.csv').open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=CAMPOS, quoting=csv.QUOTE_ALL)
@@ -134,7 +146,8 @@ def main(argv=None):
         'Personales_Con_Tres_O_Mas': sum(1 for r in personales if r['Otras_Personas_Roster'] >= 3),
         'Con_Alerta_Del_Motor': sum(1 for r in personales if r['Alerta_Motor'] == 'SI'),
         'Sin_Ninguna_Alerta': sum(1 for r in personales if not r['Motivos_Revision']),
-        'Leidas_En_Este_Lote': len(LECTURAS),
+        'Leidas_En_Este_Lote': sum(1 for r in vista if r['Leida_En_Lote9'] == 'SI'),
+        'Leidas_Con_Dos_Voces': sorted(rid for rid, h in lecturas.items() if h == 'DOS_VOCES'),
         'SHA256_V7': V7_SHA,
         'Nota': ('Universo a leer, no conjunto de errores: el motor sólo marca 22 filas en todo '
                  'el corpus y este barrido encuentra 410 hablantes personales con al menos otra '

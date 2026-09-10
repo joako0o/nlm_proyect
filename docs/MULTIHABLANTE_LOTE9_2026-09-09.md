@@ -3,77 +3,103 @@
 ## Por qué existe este lote
 
 Todo el trabajo anterior parte del inventario de **límites entre filas**
-(`auditar_continuidad_turnos`): pares de filas adyacentes que no están agrupadas. Ese eje
-no cubre el caso de **una sola fila que contiene más de un hablante**, que es el otro eje
-del encargo.
+(`auditar_continuidad_turnos`). Ese eje no cubre el caso de **una sola fila que contiene más
+de un hablante**, que es el otro eje del encargo.
 
-La única señal que el motor produce sobre ese eje es
-`POSIBLE_OTRO_HABLANTE_O_MENCION`, y aparece en **22 filas** de 9.723. Un barrido
-independiente sobre la lista de asistencia encuentra **410**. La diferencia es el motivo de
-este lote: no se puede usar la alerta del motor como si fuera el universo.
+La única señal que el motor produce sobre ese eje es `POSIBLE_OTRO_HABLANTE_O_MENCION`, y
+aparece en **22 filas** de 9.723. No se puede usar como si fuera el universo.
 
-## Medición
+## Tres barridos independientes
 
-`scripts/inventario_multihablante_v7.py` →
-`docs/multihablante_v7_2026-09-09/` (`inventario_multihablante_v7.csv`, `resumen.json`).
+| Barrido | Instrumento | Universo | Leídas | Dos voces |
+|---|---|---:|---:|---:|
+| A. Nombres del roster | personas de la asistencia presentes en la fila | 71 con ≥2 | **71** | 1 |
+| B. Cola tras entrega | texto sustantivo después de «ofrece/concede la palabra» | 8 de 980 | **8** | 3 |
+| C. Sujeto por cargo | sujeto con cargo ajeno + verbo de habla | 141 | — | **no válido** |
 
-Para cada fila recorre la lista de asistencia de su sesión, canoniza cada nombre con
-`resolve_name` y cuenta cuántas personas distintas del actor de la fila aparecen en el
-texto. Canonizar es necesario: el roster trae variantes OCR de una misma persona
-(`sergio lehmann beresi`, `sergio lehmann b`, `sergio lehmann`, `lehmann` son una sola), y
-sin eso el conteo se infla.
+**Total: 78 filas leídas completas.** Los tres casos con dos voces salen del barrido B.
 
-| | |
-|---|---:|
-| Filas en v7 | 9.723 |
-| Con al menos otra persona de la asistencia | 643 |
-| — institucionales del Consejo (listas de asistencia) | 233 |
-| — **hablantes personales** | **410** |
-| Personales con ≥2 otras personas | **71** |
-| Personales con ≥3 | 7 |
-| Personales con alerta del motor | 4 |
-| Personales sin ninguna alerta | 390 |
-| Leídas en este lote | **3** |
+Un dato que justifica haber hecho el segundo barrido: de las 8 filas del barrido B, cinco no
+aparecen en absoluto en el inventario por nombres (no mencionan a nadie de la asistencia), y
+las otras dos —`2960:2` y `1564:1`, dos de los tres casos reales— sí aparecen pero con **una
+sola** otra persona, así que quedaban fuera de las 71 priorizadas. El barrido por nombres,
+solo, no las habría encontrado: en ambas la segunda voz entra por cargo («El Gerente de
+División Política Financiera manifiesta…», «Menciona la señora Ministra…»), no por nombre.
 
-Distribución de los 410 por cantidad de otras personas: 1 → 339, 2 → 64, 3 → 5, 4 → 1, 5 → 1.
+El barrido C **no se usa como cobertura**. Encuentra 141 filas pero recupera sólo 1 de los 3
+casos ya confirmados: no detecta `657:1` ni `1564:1`. Un instrumento que falla contra
+positivos conocidos no prueba nada sobre el resto, así que se descarta en vez de presentarse
+como revisado.
 
-## Qué muestran las tres lecturas
+## Los tres casos con dos voces
 
-Leí completas las tres filas con más personas, que son también las más largas. **Las tres
-son una sola voz.**
+Los tres tienen la misma estructura: **el inicio de la intervención del siguiente hablante
+quedó pegado al final de la fila anterior**, y la fila siguiente ya está atribuida a ese
+segundo hablante y continúa lo que empezó.
 
-**`RPM-2006-06-15:676:1`** (Corbo, 5 personas, 1.308 caracteres). Informa la ausencia de
-Velasco, fija la fecha de diciembre, da la bienvenida a Álvarez Vallejos, señala que García
-fue invitado y anuncia que expondrán Lehmann y Magendzo. Los cinco nombres son menciones,
-una llegada y una entrega de la palabra. Ninguno interviene.
+**`RPM-2006-05-11:657:1`** (Corbo, 684 caracteres). Anuncia quiénes expondrán, ofrece la
+palabra a Lehmann «para que inicie la exposición», y la fila sigue:
 
-**`RPM-2014-02-18:6009:1`** (Vergara, 4 personas, 1.451 caracteres). Bienvenida a García
-Silva, felicitación a Marshall, despedida de Soto, fecha de agosto, palabra a Ricaurte.
-Apertura de sesión completa en una sola voz.
+> «Respecto al crecimiento mundial, la situación de China, que ha mostrado una dinámica mayor
+> a la que se anticipaba, ha llevado a revisar el crecimiento mundial, en una décima…»
 
-**`RPM-2012-02-14:4574:1`** (Vergara, 3 personas, 1.228 caracteres). Bienvenida a Vial,
-renovación de Marfán, fecha de agosto, constancia del mensaje de Larraín, paso a Ricaurte.
-El motor la marcó con `POSIBLE_OTRO_HABLANTE_O_MENCION`; leída completa, no hay segunda voz.
-Es un falso positivo de la alerta.
+`657:2` ya es Sergio Lehmann y abre con «Hace presente el señor Lehmann, que respecto al
+precio del cobre…». La primera oración de su exposición está en la fila de Corbo.
 
-Las tres confirman la regla ya vigente: una mención, una bienvenida, una llegada o una
-entrega de la palabra no son intervención. No se aplicó ningún corte.
+**`RPM-2007-11-13:1564:1`** (Corbo, 849 caracteres). Agradece a Jadresic, ofrece la palabra a
+la Ministra Subrogante María Olivia Recart, y la fila sigue con 686 caracteres de exposición
+de ella («Menciona la señora Ministra que va a destacar tres elementos centrales…»).
+`1564:2` ya es Recart y abre con «En segundo lugar indica la señora Recart…».
 
-## Lo que esto no dice
+**`RPM-2010-02-11:2960:2`** (De Gregorio, 1.275 caracteres). Agradece a Beltrán de Ramón,
+concede la palabra a Kevin Cowan, y la fila sigue con 1.102 caracteres de exposición de Cowan
+(«El Gerente de División Política Financiera manifiesta creer que…»). `2960:3` ya es Kevin
+Cowan y abre con «Por otra parte, el señor Cowan señala estimar que…».
 
-**No dice que las otras 407 estén bien.** Leí 3 de 410, y las 3 que leí son las más fáciles:
-apertura de sesión, estructura repetida, nombres en serie. El resto incluye filas largas de
-análisis económico donde un segundo consejero puede intervenir sin que el acta lo introduzca
-con la fórmula habitual, que es justo lo que el detector no cubre.
+En los tres, el tramo final está atribuido al hablante equivocado. **No se aplicó ningún
+corte**: es un cambio de atribución entre hablantes, no un refinamiento funcional, y
+requiere su propio registro curado, validador y corrida.
 
-Tampoco es un conjunto de errores. Contar nombres es deliberadamente sensible de más: un
-párrafo que cita a cinco economistas extranjeros no tiene cinco hablantes.
+## Las otras 75
 
-## Siguiente paso acotado
+**70 de las 71 del barrido A son una sola voz.** Son aperturas de sesión: ausencias del
+Ministro de Hacienda, bienvenidas a consejeros nuevos, fijación de la fecha siguiente,
+anuncio de quién expondrá y entrega de la palabra. Los nombres presentes son menciones,
+llegadas y traspasos; ninguno interviene en la fila. Es la regla ya vigente.
 
-Leer las **68 filas restantes con ≥2 personas** (71 menos las 3 leídas), priorizando las 7
-con ≥3. Es un universo finito y medido, no una revisión del corpus completo. Cada una
-requiere la lectura completa del padre, no de la fila suelta, porque la atribución depende
-de quién tenía la palabra antes.
+Una de ellas, `RPM-2012-02-14:4574:1`, lleva `POSIBLE_OTRO_HABLANTE_O_MENCION` y leída
+completa es un **falso positivo**: bienvenida a Vial, renovación de Marfán, fecha de agosto,
+constancia del mensaje de Larraín y paso a Ricaurte.
 
-No se generalizó ninguna regla a partir de estas tres lecturas.
+De las 8 del barrido B, 5 son falsos positivos medidos: en `3340:1` y `5584:1` «da paso a» no
+es entrega de la palabra sino «da paso a una evolución/reacción»; en `747:1` y `1706:1` la
+cola es del propio Presidente; en `1556:1` la cola es parte de la misma oración que enumera
+lo que expondrá Magendzo.
+
+## Cobertura: lo que sí y lo que no
+
+**Cubierto:** las 71 filas con ≥2 personas de la asistencia, y las 9.723 filas del corpus
+bajo el barrido B (980 contienen una entrega de la palabra; 8 tienen texto sustantivo
+después).
+
+**No cubierto:** las 339 filas personales con exactamente **una** otra persona de la
+asistencia, y el resto del corpus bajo un instrumento que detecte segunda voz sin fórmula de
+entrega. El barrido C iba a ser ese instrumento y no validó.
+
+Decir que el eje está cerrado sería falso. Lo que está cerrado es: no queda ningún candidato
+de los dos barridos válidos sin leer.
+
+## Siguiente paso
+
+Construir un detector de segunda voz que **valide contra los tres casos confirmados** antes
+de usarse, y aplicarlo al corpus. Los tres positivos conocidos son el conjunto de prueba
+mínimo; un detector que no los recupere no sirve, como se vio con el barrido C.
+
+Después: registro curado, validador y corrida para los tres cortes de atribución.
+
+## Evidencia
+
+`docs/continuidad_lote9_2026-09-09/lecturas.json` — 78 casos con lectura completa, hallazgo,
+justificación y el resultado de validación de cada barrido.
+`docs/multihablante_v7_2026-09-09/inventario_multihablante_v7.csv` — las 643 filas con al
+menos otra persona de la asistencia.
