@@ -955,6 +955,76 @@
           "Justificacion": "El adjetivo 'cambiaria' no lleva tilde; con tilde es la primera persona del condicional de cambiar, que aquí no tiene sujeto. Es la errata sistemática más frecuente del corpus (204 apariciones en singular) y el contexto no admite la lectura verbal."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4794:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "la aplicación de planes de ajuste fiscal, tensíonando los mercados",
+          "Despues": "la aplicación de planes de ajuste fiscal, tensionando los mercados",
+          "Contexto": "En primer término, señala que el clima político en Europa dificultaría la aplicación de planes de ajuste fiscal, tensíonando los mercados.",
+          "Justificacion": "Tilde en la sílaba equivocada: 'tensíonando' no es palabra. El gerundio de 'tensionar' es llano y no lleva tilde. La oración no admite otra lectura (sección 1 del criterio) y la forma correcta aparece 2 veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4798:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "se encuentran en los máximos históricos: y que los de Italia",
+          "Despues": "se encuentran en los máximos históricos; y que los de Italia",
+          "Contexto": "Agrega que los aumentos son más moderados en Estados Unidos de América, el Reino Unido y Alemania; que Australia y Nueva Zelanda también exhiben incrementos; que los de España se encuentran en los máximos históricos: y que los de Italia también se aproximan a su récord histórico respectivo.",
+          "Justificacion": "Dos puntos en lugar de punto y coma dentro de una enumeración. La propia fila separa los cuatro miembros de la serie con punto y coma ('...y Alemania; que Australia... incrementos; que los de España...'); éste es el único dos puntos y corta la serie justo antes del último miembro. Mismo caso que el de 'Tatiana Vargas Manzo:' en 5754:1."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4811:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "que las colocaciones hipotecarías, después de haber mostrado sistemáticamente datos negativos",
+          "Despues": "que las colocaciones hipotecarias, después de haber mostrado sistemáticamente datos negativos",
+          "Contexto": "que las ventas de viviendas fueron más bajas que en meses anteriores; que los precios de las viviendas han continuando descendiendo; que las colocaciones hipotecarías, después de haber mostrado sistemáticamente datos negativos, se encuentran planas",
+          "Justificacion": "El adjetivo 'hipotecarias' no lleva tilde; con tilde sería la segunda persona del condicional de hipotecar, que aquí no tiene sujeto. Medido: 'hipotecarías' aparece 1 vez y 'hipotecarias' 68. Misma clase que 'cambiaría' por 'cambiaria'."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que los precios de las viviendas han continuando descendiendo",
+          "Despues": "que los precios de las viviendas han continuado descendiendo",
+          "Contexto": "Sobre el particular, precisa que las ventas de viviendas fueron más bajas que en meses anteriores; que los precios de las viviendas han continuando descendiendo",
+          "Justificacion": "Ene en lugar de de en el participio: después de 'han' sólo cabe participio, no gerundio. Medido: 'han continuando' aparece 2 veces en el corpus y 'han continuado' 180."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "se advierte en Asia y Oceania, esta última afectada en algún grado",
+          "Despues": "se advierte en Asia y Oceanía, esta última afectada en algún grado",
+          "Contexto": "especifica que en el caso de América Latina, se observa una trayectoria inferior a la exhibida en la Reunión de Política Monetaria pasada y que una situación similar se advierte en Asia y Oceania, esta última afectada en algún grado, por la decisión de Australia.",
+          "Justificacion": "Falta la tilde del topónimo. Medido: 'Oceania' aparece 18 veces y 'Oceanía' 6, o sea las dos formas conviven: eso es la firma de una transcripción inconsistente, no de una convención de la fuente (una convención sería uniforme, como 'la Secretario General' con 77 contra 0). El topónimo tiene una sola grafía en español. Es el mismo caso ya corregido en 4344:1."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4816:1",
+      "Fecha": "2012-05-17",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ya que aparte de algunas tensiones puntuarles en algunos mercados",
+          "Despues": "ya que aparte de algunas tensiones puntuales en algunos mercados",
+          "Contexto": "se puede concluir que, en general, la evaluación efectuada entonces no se ha materializado, ya que aparte de algunas tensiones puntuarles en algunos mercados, la crisis externa no ha afectado el dinamismo de la economía doméstica",
+          "Justificacion": "Letras transpuestas: 'puntuarles' por 'puntuales'. Medido: 'puntuarles' aparece 1 vez en todo el corpus y 'puntuales' 264. La palabra mal escrita no existe."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1407,6 +1477,12 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Texto_Original_Fragmento": "en virtud de ese aumento del empleo, difícilmente se puede señalar que las condiciones se mantienen estrechas, ya que son más estrechas en el mercado laboral",
       "Motivo": "La oración se contradice: 'difícilmente se puede señalar que se mantienen estrechas, ya que son MÁS estrechas'. Por el argumento -el empleo creció 2,5% anual, luego el mercado estaría menos apretado- la palabra debería ser 'menos estrechas' o 'no tan estrechas', pero cambiar un adverbio de sentido es reescribir el argumento del Consejero, no corregir un glifo. Caben al menos dos reparaciones: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4792:1",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Texto_Original_Fragmento": "don Joaquín Vial Ruíz-Tagle",
+      "Motivo": "'Ruíz' con tilde. El apellido correcto es 'Ruiz-Tagle': aparece 49 veces sin tilde en el corpus y una sola con ella, que es ésta, y el propio Actor_Final de la fila dice 'Joaquín Vial Ruiz-Tagle'. El defecto está probado, pero es un nombre propio: la identidad ya está resuelta en Actor_Final, así que se marca y no se reescribe. Es el mismo criterio de 'Kiaus Schmidt-Hebbei' en 527:1."
     }
   ],
   "Marcas_Adicionales": [
