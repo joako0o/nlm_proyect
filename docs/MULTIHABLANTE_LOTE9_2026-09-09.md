@@ -199,12 +199,19 @@ completa sin estarlo.
 | ronda | sesión | filas | resultado |
 |---|---|---:|---|
 | 1 | 2005-01-11 | 4 | una sola voz |
+| 2 | 2005-01-11 | 4 | una sola voz |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
 Minuta. El Ministro de Hacienda aparece citado en los tres primeros tramos —«lo expuesto
 por el señor Ministro», «el Ministro en el fondo decía», «dudas parecidas a las del señor
 Ministro»—, pero es discurso referido, no palabras suyas transcriptas. Ninguna segunda voz.
+
+Ronda 2 (padres 3, 42, 4, 50): Pablo García expone el Informe de Política Monetaria en
+`3:1` (8.224 ch) y **continúa en `4:1`** (4.184 ch) — es la misma exposición partida en dos
+filas, no dos voces. Eyzaguirre habla en nombre propio en `42:1` y cita a Schmidt-Hebbel
+(«al escuchar la intervención del señor Klaus Schmidt-Hebbel») y un artículo de Juan Andrés
+Fontaine; ambos son discurso referido. Marfán fundamenta su voto en `50:1`.
 
 Para anotar una ronda leída:
 
