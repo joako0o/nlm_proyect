@@ -60,14 +60,34 @@ def pendientes(rows):
 
 
 def orden(rows):
-    """Banda de largo primero, sesion despues."""
+    """Sesion por sesion. Las sesiones van por riesgo (su fila mas larga primero) y
+    dentro de cada sesion las filas van en orden de acta.
+
+    Medido: reunion por reunion cuesta 810 rondas contra 826 del orden por bandas,
+    o sea que no hay penalizacion por legibilidad. Y ordenar las sesiones por su fila
+    mas larga conserva la priorizacion por riesgo: una segunda voz pegada necesita
+    espacio, y los tres positivos conocidos miden 684, 849 y 1.275 caracteres.
+    """
+    por_fecha = {}
+    for r in rows:
+        por_fecha.setdefault(str(r['Fecha'])[:10], []).append(r)
+
+    def riesgo(f):
+        return -max(len(x['Texto']) for x in por_fecha[f])
+
     out = []
-    for letra, lo, hi, _ in BANDAS:
-        sel = [r for r in rows if lo <= len(r['Texto']) < hi]
-        sel.sort(key=lambda r: (str(r['Fecha'])[:10], r['ID_Intervencion']))
-        for r in sel:
-            out.append((letra, r))
+    for f in sorted(por_fecha, key=lambda x: (riesgo(x), x)):
+        for r in sorted(por_fecha[f], key=lambda r: r['ID_Intervencion']):
+            out.append((banda_de(r), r))
     return out
+
+
+def banda_de(r):
+    n = len(r['Texto'])
+    for letra, lo, hi, _ in BANDAS:
+        if lo <= n < hi:
+            return letra
+    return 'D'
 
 
 def construir():
@@ -99,10 +119,10 @@ def construir():
         rondas.append(actual)
 
     doc = {
-        'Version': 2,
-        'Criterio': ('Banda de largo (A>=1500, B 800-1499, C 400-799, D<400) y dentro de '
-                     'cada banda por fecha e ID, para que cada ronda sea una sesion '
-                     'coherente. Las filas que no caben se parten en varias rondas.'),
+        'Version': 3,
+        'Criterio': ('Sesion por sesion. Las sesiones se ordenan por riesgo -su fila mas '
+                     'larga primero- y dentro de cada sesion las filas van en orden de acta. '
+                     'Las filas que no caben en un tramo se parten en varias rondas.'),
         'Limite_Chars_Por_Ronda': LIM,
         'Base': str(V7),
         'Filas_Corpus': len(rows),
@@ -115,6 +135,7 @@ def construir():
         'Rondas': [{'Ronda': k + 1, 'Filas': len(x),
                     'Chars': sum(i['chars'] for i in x),
                     'Bandas': sorted({i['banda'] for i in x}),
+                    'Sesion': x[0]['fecha'],
                     'Sesiones': sorted({i['fecha'] for i in x}),
                     'IDs': [i['id'] for i in x],
                     'Items': x} for k, x in enumerate(rondas)],
@@ -136,13 +157,23 @@ def construir():
     print('rondas %d | pendientes %s | ya leidas %s'
           % (len(rondas), f'{len(pend):,}', f'{len(leidas):,}'))
     print()
-    print('%-6s %-14s %8s %8s' % ('banda', 'rango', 'filas', 'rondas'))
-    ini = 1
-    for b in doc['Bandas']:
-        nr = sum(1 for r in doc['Rondas'] if r['Bandas'] == [b['Banda']])
-        rng = ('%d+' % b['Desde']) if b['Hasta'] is None else '%d-%d' % (b['Desde'], b['Hasta'] - 1)
-        print('%-6s %-14s %8s %8d' % (b['Banda'] + ' ' + b['Descripcion'], rng,
-                                      f"{b['Filas']:,}", nr))
+    ses = {}
+    for r in doc['Rondas']:
+        ses.setdefault(r['Sesion'], []).append(r['Ronda'])
+    print()
+    print('sesiones: %d | rondas por sesion: min %d, mediana %d, max %d'
+          % (len(ses), min(len(v) for v in ses.values()),
+             sorted(len(v) for v in ses.values())[len(ses) // 2],
+             max(len(v) for v in ses.values())))
+    print()
+    print('%-12s %5s %6s %8s %s' % ('sesion', 'ronda', 'filas', 'chars', 'hasta'))
+    for f in list(ses)[:8]:
+        ns = ses[f]
+        rr = doc['Rondas'][ns[0] - 1]
+        print('%-12s %5s %6d %8s %s' % (f, '%d-%d' % (min(ns), max(ns)),
+                                        sum(x['Filas'] for x in doc['Rondas'][ns[0]-1:ns[-1]]),
+                                        f"{sum(x['Chars'] for x in doc['Rondas'][ns[0]-1:ns[-1]]):,}",
+                                        'ronda %d' % max(ns)))
     return doc
 
 
@@ -245,11 +276,23 @@ def estado():
     print('rondas del plan   :', len(doc['Rondas']))
     print('filas del plan    :', f'{len(ids_plan):,}')
     print('fuera del plan    :', f'{len({r["ID_Intervencion"] for r in pend} - ids_plan):,}')
-    por_banda = {}
+    ses = {}
     for r in doc['Rondas']:
-        por_banda.setdefault('+'.join(r['Bandas']), []).append(r['Ronda'])
-    for b, ns in sorted(por_banda.items()):
-        print('  banda %-4s rondas %d..%d (%d)' % (b, min(ns), max(ns), len(ns)))
+        ses.setdefault(r['Sesion'], []).append(r['Ronda'])
+    hechas = [f for f in ses if all(
+        i in leidas for r in doc['Rondas'][min(ses[f])-1:max(ses[f])] for i in r['IDs'])]
+    print('sesiones del plan :', len(ses))
+    print('sesiones completas:', len(hechas))
+    print()
+    print('%-12s %10s %6s %9s %s' % ('sesion', 'rondas', 'filas', 'chars', 'estado'))
+    for f in list(ses)[:12]:
+        ns = ses[f]
+        bloque = doc['Rondas'][min(ns)-1:max(ns)]
+        ids = [i for r in bloque for i in r['IDs']]
+        ok = all(i in leidas for i in ids)
+        print('%-12s %10s %6d %9s %s' % (
+            f, '%d-%d' % (min(ns), max(ns)), len(ids),
+            f"{sum(r['Chars'] for r in bloque):,}", 'COMPLETA' if ok else 'pendiente'))
 
 
 if __name__ == '__main__':

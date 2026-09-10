@@ -148,51 +148,50 @@ justificación, más el resultado de validación de cada barrido.
 `docs/multihablante_v7_2026-09-09/inventario_multihablante_v7.csv` — las 643 filas con al
 menos otra persona de la asistencia, con `Leidas_En_Este_Lote: 410`.
 
-## Plan de rondas para el resto del corpus
+## Plan de rondas: reunión por reunión
 
-Quedan **9.308 filas** por leer (9.723 del corpus menos las 415 ya registradas),
-**13.003.690 caracteres** a emitir. A 18.000 caracteres por llamada son **826 rondas**.
+**Revisión reunión por reunión.** Medido, no sale más caro:
 
-Dos decisiones de diseño:
+| orden | rondas |
+|---|---:|
+| cronológico | 813 |
+| por volumen de la sesión | 816 |
+| **por riesgo, sesión por sesión** | **810** |
+| por bandas de largo (plan anterior) | 826 |
 
-**1. Orden por banda de largo, y dentro de la banda por sesión.** Una segunda voz
-pegada al final necesita espacio —los tres positivos conocidos miden 684, 849 y 1.275
-caracteres—, así que las filas largas van primero y el plan se puede cortar en
-cualquier punto habiendo cubierto lo de mayor riesgo. Pero leer filas sueltas de
-reuniones distintas no deja juzgar si una voz quedó pegada: para eso hace falta ver el
-flujo de hablantes alrededor. Por eso dentro de cada banda se ordena por fecha e ID y
-cada ronda resulta una sesión coherente.
+O sea que la legibilidad no cuesta rondas. El plan anterior partía cada reunión en tres
+pedazos repartidos a lo largo de 800 rondas, y eso impedía juzgar el flujo de hablantes —
+que es justo lo que hace falta para ver si una voz quedó pegada.
 
-**2. Manifiesto visible.** `plan_rondas.csv` lista, ronda por ronda, la banda, los tramos,
-los caracteres, las fechas y los IDs. El alcance se puede revisar antes de empezar.
+Las **sesiones se ordenan por riesgo**: su fila más larga primero. Una segunda voz pegada
+necesita espacio y los tres positivos conocidos miden 684, 849 y 1.275 caracteres. Dentro de
+cada sesión las filas van en orden de acta.
 
-| banda | rango | filas | rondas |
+**132 sesiones en el corpus, 131 con algo pendiente, 9.251 filas, 812 rondas.** Cada reunión
+toma entre 2 y 10 rondas, mediana **6**. Verificado: 9.251 filas en el plan, 0 fuera.
+
+| sesión | rondas | filas | chars |
 |---|---|---:|---:|
-| A · muy largas | ≥1.500 ch | 2.366 | 1–614 |
-| B · largas | 800–1.499 ch | 1.131 | 616–692 |
-| C · medianas | 400–799 ch | 1.712 | 694–756 |
-| D · cortas | <400 ch | 4.099 | 758–826 |
+| 2005-07-12 | 1–6 | 54 | 76.848 |
+| 2005-06-09 | 7–10 | 37 | 65.604 |
+| 2013-11-19 | 11–18 | 55 | 108.608 |
+| 2014-05-15 | 19–25 | 64 | 102.918 |
+| 2007-12-13 | 26–33 | 71 | 122.518 |
+| 2005-08-11 | 34–38 | 58 | 65.373 |
 
-Las filas que no caben en un tramo se parten en varias rondas (parte 1/2, …); las rondas
-615, 693 y 757 son las costuras entre bandas.
-
-Dos filtros que se probaron y no sirvieron:
-
-- **Frontera de cambio de actor** —donde caería una segunda voz pegada—: son **8.935 de
-  9.723 filas**. No reduce nada.
-- **Corte por largo**: el promedio del corpus es 1.283 caracteres por fila, así que con
-  umbral ≥400 quedan 5.209 filas y 658 rondas. Ahorraría 168 rondas dejando 4.099 filas
-  sin leer. Se prefirió el plan completo ordenado.
+`plan_rondas.csv` lista ronda por ronda la sesión, las bandas, los tramos, los caracteres y
+los IDs.
 
 ```
-.venv/bin/python scripts/rondas_lectura_lote9.py estado
-.venv/bin/python scripts/rondas_lectura_lote9.py leer 1
+.venv/bin/python scripts/rondas_lectura_lote9.py estado      # progreso y próximas sesiones
+.venv/bin/python scripts/rondas_lectura_lote9.py leer 1      # una ronda del plan
+.venv/bin/python scripts/rondas_lectura_lote9.py sesion AAAA-MM-DD   # una sesión entera
+.venv/bin/python scripts/rondas_lectura_lote9.py registrar N UNA_SOLA_VOZ "justificacion"
 ```
 
-Cada ronda impresa cierra con el índice de su última fila, que es lo que permite detectar
-un truncamiento: el techo real de una llamada está entre 19.267 y 20.501 caracteres
-emitidos, y el recorte **vacía el medio conservando la cola**, así que la salida se ve
-completa sin estarlo.
+Cada ronda cierra imprimiendo el índice de su última fila: el techo real de una llamada está
+entre 19.267 y 20.501 caracteres emitidos y el recorte **vacía el medio conservando la cola**,
+así que la salida se ve completa sin estarlo.
 
 ### Progreso
 
