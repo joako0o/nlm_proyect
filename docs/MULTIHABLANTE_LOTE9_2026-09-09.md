@@ -213,6 +213,7 @@ así que la salida se ve completa sin estarlo.
 | 6–13 | 2013-11-19 | 56 | una sola voz · **sesión cerrada 56/56** |
 | 14–20 | 2014-05-15 | 65 | una sola voz · **sesión cerrada 65/65** |
 | 21–29 | 2007-12-13 | 80 | una sola voz · **sesión cerrada 80/80** |
+| 30–34 | 2005-08-11 | 56 | una sola voz · **sesión cerrada 56/56** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
@@ -248,6 +249,13 @@ autor es la correcta. Es una fila con dos personas involucradas, pero **no es un
 pegada**: es un texto escrito, deliberadamente atribuido a su autor y ya alertado. No se
 recorta. Conviene tenerla presente porque es el pariente estructural más cercano de los tres
 casos de dos voces, y está bien resuelto.
+
+**El lector de rondas trunca por la cabeza, no por la cola.** `leer N` emite hasta
+18.000 caracteres y la consola los corta por el principio, así que la primera fila de
+una ronda larga puede registrarse sin haberse leído su comienzo. Por eso existe
+`.cache/leer_seguro.py N [i | a:b]`: sin índice lista las filas de la ronda con su
+largo, y con índice imprime una fila o un rango completos. Toda fila cuya cabeza no se
+vio debe releerse por ese camino. Verificado en `1604:2`, `1611:1`, `314:1` y `361:1`.
 
 Para leer una sesión entera al margen del plan:
 
