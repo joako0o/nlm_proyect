@@ -1145,6 +1145,83 @@
           "Justificacion": "Pie de página del PDF original incrustado entre dos oraciones completas. Se me pasó al leer la sesión 2012-11-13 (rondas 107-113) porque en ese momento todavía no había medido el patrón; lo encontré ahora al contar las ocurrencias de 'Página N de N' en todo el corpus. Es un residuo de paginación, que la política de corrección autoriza eliminar."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1408:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "desde junio ai 11 de septiembre de este año",
+          "Despues": "desde junio al 11 de septiembre de este año",
+          "Contexto": "El Gerente señor Lehmann da cuenta de lo que ha sido la evolución de las tasas de política monetaria en distintas economías, desde junio ai 11 de septiembre de este año",
+          "Justificacion": "I latina en lugar de ele en la contracción. Es la misma confusión ya corregida en 'indica ai señor Ministro'->'al señor Ministro'. Aparece una sola vez en el corpus."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "no representan un cambio significativo respecto a Consensúa Economic Forecast",
+          "Despues": "no representan un cambio significativo respecto a Consensus Economic Forecast",
+          "Contexto": "En cuanto a las proyecciones para el crecimiento mundial, señala que no representan un cambio significativo respecto a Consensúa Economic Forecast.",
+          "Justificacion": "La fuente está mal escrita. La forma correcta está en la misma fila, unos párrafos antes: 'la proyección basada en Consensus Economic Forecast y los bancos de inversión'. En el corpus 'Consensus Economic Forecast' aparece 3 veces y 'Consensúa' una sola."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "se observa la evolución que ha tenido el precio del petróleo BTI",
+          "Despues": "se observa la evolución que ha tenido el precio del petróleo WTI",
+          "Contexto": "respecto a algunos precios de commodities, se observa la evolución que ha tenido el precio del petróleo BTI, que está alrededor de US$ 80",
+          "Justificacion": "Be en lugar de uve doble. Medido: 'BTI' aparece 4 veces en el corpus y las cuatro son exactamente 'el (precio del) petróleo BTI' en contexto de precio, contra 153 de 'WTI'. Cuando la fuente quiere decir Brent lo escribe completo: 'Brent' aparece 137 veces. Es una confusión de glifo sistemática, de la clase que el criterio manda corregir."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "el aumento ha sido más menos de 30% en los últimos treinta días",
+          "Despues": "el aumento ha sido más o menos de 30% en los últimos treinta días",
+          "Contexto": "Agrega el señor Gerente que en el caso particular del trigo, el aumento ha sido más menos de 30% en los últimos treinta días y 10 %, en el caso del petróleo.",
+          "Justificacion": "Falta la conjunción de la locución fija 'más o menos'. Corroborado: 'más o menos' aparece 1 vez en esta misma sesión y 99 veces en el corpus; 'más menos' aparece sólo 2 veces en todo el consolidado y ambas en esta fila."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "la proyección que se tenía hace más menos un mes atrás",
+          "Despues": "la proyección que se tenía hace más o menos un mes atrás",
+          "Contexto": "se presenta en primer lugar cuál es la proyección respecto a la tasa de política monetaria a diciembre de este año, versus la proyección que se tenía hace más menos un mes atrás, el 10 de agosto",
+          "Justificacion": "Misma locución que la operación anterior, segunda ocurrencia en esta fila. Se corrige por separado porque los dos 'Antes' son cadenas distintas y no se pisan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1410:2",
+      "Fecha": "2007-09-13",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "que tener liquidez en el m ercado internacional representa un valor",
+          "Despues": "que tener liquidez en el mercado internacional representa un valor",
+          "Contexto": "puede concluir que el tema actual es que tener liquidez en el m ercado internacional representa un valor",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo. Medido: 'm ercado' aparece 6 veces en el corpus y 'mercado' 6.126."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "Indica que a pesar de estos cambios m etodológicos dichos bonos",
+          "Despues": "Indica que a pesar de estos cambios metodológicos dichos bonos",
+          "Contexto": "Indica que a pesar de estos cambios m etodológicos dichos bonos están más o menos a la par.",
+          "Justificacion": "Mismo artefacto. Medido: 'm etodológicos' aparece 1 vez en el corpus y 'metodológicos' 20. Nótese que la misma oración trae 'más o menos' escrito correctamente, lo que confirma que la locución de la fila anterior sí lleva la conjunción."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1411:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "desconoce si efectivam ente los CDS excluyen o no a las empresas públicas",
+          "Despues": "desconoce si efectivamente los CDS excluyen o no a las empresas públicas",
+          "Contexto": "Comenta el Consejero señor Marfán que desconoce si efectivam ente los CDS excluyen o no a las empresas públicas.",
+          "Justificacion": "Espacio intrapalabra. Medido: 'efectivam ente' aparece 2 veces en el corpus y 'efectivamente' 309."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1603,6 +1680,18 @@
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Texto_Original_Fragmento": "don Joaquín Vial Ruíz-Tagle",
       "Motivo": "'Ruíz' con tilde. El apellido correcto es 'Ruiz-Tagle': aparece 49 veces sin tilde en el corpus y una sola con ella, que es ésta, y el propio Actor_Final de la fila dice 'Joaquín Vial Ruiz-Tagle'. El defecto está probado, pero es un nombre propio: la identidad ya está resuelta en Actor_Final, así que se marca y no se reescribe. Es el mismo criterio de 'Kiaus Schmidt-Hebbei' en 527:1."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1408:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "La volatilidad que se presenta a partir de los indicadores de bolsa S&P en Estados Unidos y el Bigs muestran la volatilidad que se recoge a partir de las bolsas de economías emergentes",
+      "Motivo": "'El Bigs' no es identificable. Podría ser 'los BRICs', un índice de volatilidad o una sigla truncada, y la oración además cambia de número ('el Bigs muestran'). Aparece una sola vez en todo el corpus y no hay forma correcta en el documento que permita reponer nada: se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1408:1",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Texto_Original_Fragmento": "comenta lo que han hecho JPMorgan, Deutsche Bank. Lehmann Brothers para 2007 y 2008",
+      "Motivo": "'Lehmann Brothers' con dos enes. Medido: 'Lehman Brothers' aparece 14 veces en el corpus y 'Lehmann Brothers' 4. Es muy probable que la doble ene venga del apellido del propio expositor, Sergio Lehmann Beresi, que aparece en la misma fila. Aun así es un nombre propio: se marca y no se reescribe. Además el punto después de 'Deutsche Bank' debería ser coma, pero eso es un signo ausente y también queda para cotejo."
     }
   ],
   "Marcas_Adicionales": [
