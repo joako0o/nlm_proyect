@@ -199,6 +199,33 @@ Cada ronda cierra imprimiendo el índice de su última fila: el techo real de un
 entre 19.267 y 20.501 caracteres emitidos y el recorte **vacía el medio conservando la cola**,
 así que la salida se ve completa sin estarlo.
 
+### Criterio de dos voces, corregido en la sesión 2007-11-13
+
+El criterio que se venía aplicando —«dos voces requiere que las palabras del segundo
+hablante estén literalmente en el texto»— **es incorrecto y se retira**. Medido sobre el
+xlsx, los tres casos confirmados están todos en tercera persona narrada, ninguno con
+palabras textuales:
+
+| fila | total ch | entrega del turno | contenido del 2º hablante |
+|---|---:|---:|---:|
+| `RPM-2006-05-11:657:1` | 684 | 457 | **227** |
+| `RPM-2007-11-13:1564:1` | 849 | 162 | **687** |
+| `RPM-2010-02-11:2960:2` | 1.275 | 172 | **1.103** |
+
+El criterio correcto es: **la fila contiene un bloque sustantivo de exposición del
+segundo hablante que continúa en una fila atribuida a él**. En `1564:1` el bloque abre
+con «Menciona la señora Ministra que va a destacar tres elementos centrales… En primer
+lugar…» y la fila siguiente, atribuida a Recart, empieza con «**En segundo lugar**
+indica la señora Recart». Esa continuidad es la prueba estructural.
+
+Quedan fuera, por tanto, las filas donde el aporte ajeno solo se *refiere* o se responde
+en una cláusula, sin desarrollarse:
+
+- `RPM-2006-09-07:851:1` — «Ante un comentario del Gerente señor Magendzo…»: el
+  comentario se menciona, su contenido no se reproduce.
+- `RPM-2008-04-10:1764:1` — «El señor Gerente responde que efectivamente se refiere a
+  dicho subsidio»: una cláusula, no exposición.
+
 ### Progreso
 
 | ronda | sesión | filas | resultado |
@@ -224,6 +251,7 @@ así que la salida se ve completa sin estarlo.
 | 80–86 | 2014-09-11 | 61 | una sola voz · **sesión cerrada 61/61** |
 | 87–91 | 2014-12-11 | 38 | una sola voz · **sesión cerrada 38/38** |
 | 92–98 | 2008-02-07 | 68 | una sola voz · **sesión cerrada 68/68** |
+| 99–106 | 2007-11-13 | 76 | una sola voz en las 70 filas del plan · **sesión cerrada 76/76** |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
