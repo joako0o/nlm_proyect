@@ -23258,7 +23258,40 @@
       "Universo": "PLAN_RONDAS_BANDA_A",
       "Ronda_Plan": 168,
       "Justificacion": "Ronda 168, 3 filas leidas completas (1465:1 de Marfan, 1466:1 de Desormeaux, 1467:1 de De Gregorio), sesion 2007-09-13. Eje OCR: 5 correcciones en 4 filas (una tardia en sesion ya cerrada) y 2 marcas. Correcciones: 'fiy to safety' por 'flight to safety' en 1465:1 ('fiy' no es palabra en ningun idioma y el termino aparece 3 veces en el corpus; segundo caso, el primero fue 1425:1 en la ronda 163); 'sim ilar' por 'similar' en 1466:1 (3 contra 1.007) y 'IPoM. con tasas' por coma, porque lo sigue una minuscula y hay precedente en 940:1 y 1459:2; y el residuo 's/70c/(' por 'shock' en 1467:1, cuya lectura no es suposicion sino que esta probada por el propio corpus: la misma cadena aparece 3 veces y en 1536:1 convive con 'shocks' bien escrito en la misma frase y en posicion paralela, ademas de que 'shock' esta 1 vez en la fila y 12 en la sesion. Por eso se corrigio tambien 1536:1 como correccion tardia de la sesion 2007-11-13 ya cerrada; la tercera ocurrencia, 2042:1 de 2008-08-14, queda para su ronda. Marcas: 'La rotación del tipo de cambio' en 1467:1 casi seguro es 'flotación' (el corpus la usa 14 veces siempre para el regimen cambiario y 'rotación del tipo de cambio' no es un concepto), pero 'flotación' aparece 0 veces en la fila y 0 en la sesion y la reparacion cambia tres letras, asi que la regla de corroboracion manda marcar, igual que con 'asuntos cambiarlos' y 'en el últimos dos días'; y 'IMACEC' no se corrige porque conviven dos grafiias de peso parecido (263 contra 224) y elegir una seria normalizar por estilo, a diferencia de 'IPom' e 'IpoM' que suman 1 y 5 contra 2.477. Sin dos voces: las tres filas son la exposicion y el voto de un solo Consejero cada una."
+    },
+    "RPM-2007-09-13:1468:1": {
+      "ID_Intervencion": "RPM-2007-09-13:1468:1",
+      "ID_Padre": "1468",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 3308,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 169,
+      "Justificacion": "Ronda 169, 3 filas leidas completas (1468:1 de Corbo, 1469:1 con el Acuerdo 113-01 y el Comunicado, 1470:1 con el cierre y las firmas). Ultima ronda de la sesion 2007-09-13. Eje OCR: 2 correcciones en 1 fila y 1 revision descartada. Correcciones en 1469:1: 'perecióles' por 'perecibles' declarando Ocurrencias 2 porque las dos apariciones de la fila son el mismo defecto (10 contra 166 en el corpus, con la forma buena 1 vez en la fila y 8 en la sesion; mismo defecto corregido en 4827:1 en la ronda 158, y quedan 7 filas en otras sesiones que se haran en sus rondas); y 'IPCXI' por 'IPCX1', letra I por digito 1, porque el indicador se llama IPCX1 y no existe un IPCXI romano en la nomenclatura del Banco (6 contra 458, y la construccion exacta 'la inflación subyacente IPCX1' aparece 24 veces; 3 veces IPCX1 en la sesion), con las otras 5 ocurrencias listadas para sus rondas. Descartada: el bloque de firmas de 1470:1 no es una firma truncada ni un residuo, los nombres estan completos y coinciden con Actor_Final. Sin dos voces: 1469:1 y 1470:1 son filas institucionales del Consejo, que no llevan segunda voz."
+    },
+    "RPM-2007-09-13:1469:1": {
+      "ID_Intervencion": "RPM-2007-09-13:1469:1",
+      "ID_Padre": "1469",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2548,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 169,
+      "Justificacion": "Ronda 169, 3 filas leidas completas (1468:1 de Corbo, 1469:1 con el Acuerdo 113-01 y el Comunicado, 1470:1 con el cierre y las firmas). Ultima ronda de la sesion 2007-09-13. Eje OCR: 2 correcciones en 1 fila y 1 revision descartada. Correcciones en 1469:1: 'perecióles' por 'perecibles' declarando Ocurrencias 2 porque las dos apariciones de la fila son el mismo defecto (10 contra 166 en el corpus, con la forma buena 1 vez en la fila y 8 en la sesion; mismo defecto corregido en 4827:1 en la ronda 158, y quedan 7 filas en otras sesiones que se haran en sus rondas); y 'IPCXI' por 'IPCX1', letra I por digito 1, porque el indicador se llama IPCX1 y no existe un IPCXI romano en la nomenclatura del Banco (6 contra 458, y la construccion exacta 'la inflación subyacente IPCX1' aparece 24 veces; 3 veces IPCX1 en la sesion), con las otras 5 ocurrencias listadas para sus rondas. Descartada: el bloque de firmas de 1470:1 no es una firma truncada ni un residuo, los nombres estan completos y coinciden con Actor_Final. Sin dos voces: 1469:1 y 1470:1 son filas institucionales del Consejo, que no llevan segunda voz."
+    },
+    "RPM-2007-09-13:1470:1": {
+      "ID_Intervencion": "RPM-2007-09-13:1470:1",
+      "ID_Padre": "1470",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 158,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 169,
+      "Justificacion": "Ronda 169, 3 filas leidas completas (1468:1 de Corbo, 1469:1 con el Acuerdo 113-01 y el Comunicado, 1470:1 con el cierre y las firmas). Ultima ronda de la sesion 2007-09-13. Eje OCR: 2 correcciones en 1 fila y 1 revision descartada. Correcciones en 1469:1: 'perecióles' por 'perecibles' declarando Ocurrencias 2 porque las dos apariciones de la fila son el mismo defecto (10 contra 166 en el corpus, con la forma buena 1 vez en la fila y 8 en la sesion; mismo defecto corregido en 4827:1 en la ronda 158, y quedan 7 filas en otras sesiones que se haran en sus rondas); y 'IPCXI' por 'IPCX1', letra I por digito 1, porque el indicador se llama IPCX1 y no existe un IPCXI romano en la nomenclatura del Banco (6 contra 458, y la construccion exacta 'la inflación subyacente IPCX1' aparece 24 veces; 3 veces IPCX1 en la sesion), con las otras 5 ocurrencias listadas para sus rondas. Descartada: el bloque de firmas de 1470:1 no es una firma truncada ni un residuo, los nombres estan completos y coinciden con Actor_Final. Sin dos voces: 1469:1 y 1470:1 son filas institucionales del Consejo, que no llevan segunda voz."
     }
   },
-  "Total_Leidas": 2012
+  "Total_Leidas": 2015
 }

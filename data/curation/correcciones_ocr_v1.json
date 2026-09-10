@@ -1656,6 +1656,28 @@
           "Justificacion": "La cadena 's/70c/(' es basura de OCR que ocupa el lugar de la palabra 'shock': s por s, / por h, 70 por ho, /( por k. La lectura no es una suposición mía: la misma cadena aparece 3 veces en el corpus y en RPM-2007-11-13:1536:1 convive con la forma bien escrita en la misma frase y en posición paralela ('sensible a shocks de términos de intercambio que a s/70c/(s financieros'), lo que la prueba. Además 'shock' aparece 647 veces en el corpus, 12 en esta sesión y 1 en esta misma fila ('absorber adecuadamente dichos shocks'), así que la forma correcta está corroborada donde exige el criterio. Corrección tardía: esta fila pertenece a la sesión 2007-11-13, cerrada en las rondas 62-68. Se corrige ahora porque la medición del residuo 's/70c/(' en la ronda 168 mostró que es sistemático y que en esta misma fila la forma correcta está escrita literalmente a cuatro palabras de distancia. Queda una tercera ocurrencia en RPM-2008-08-14:2042:1, en una sesión aún no leída, que se corregirá en su ronda."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1469:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "perecióles",
+          "Despues": "perecibles",
+          "Ocurrencias": 2,
+          "Contexto": "los precios de algunos alimentos, tanto perecióles como no perecióles / Estos últimos también han contribuido a incrementar la inflación subyacente",
+          "Justificacion": "B por ó. 'Perecióles' no es palabra: el adjetivo es 'perecibles'. Aparece 2 veces en esta misma fila y las dos son el mismo defecto, por eso se declara Ocurrencias: 2. Medido: 'perecióles' aparece 10 veces en 9 filas del corpus frente a 'perecibles' 166, con 1 ocurrencia de la forma buena en esta misma fila ('excluye combustibles, perecibles y algunos servicios regulados') y 8 en la sesión. Es el mismo defecto ya corregido en RPM-2012-05-17:4827:1 en la ronda 158. Quedan 7 filas más con 'perecióles' en otras sesiones, que se corregirán en sus rondas."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "la inflación subyacente IPCXI (que excluye combustibles",
+          "Despues": "la inflación subyacente IPCX1 (que excluye combustibles",
+          "Contexto": "omo no perecióles. Estos últimos también han contribuido a incrementar la inflación subyacente IPCXI (que excluye combustibles, perecibles y algunos servicios regulados). Las ",
+          "Justificacion": "Letra I por el dígito 1: el indicador se llama 'IPCX1' y no existe un 'IPCXI' en numeración romana dentro de la nomenclatura del Banco. Medido: 'IPCXI' aparece 6 veces en 6 filas frente a 'IPCX1' 458, y la construcción exacta 'la inflación subyacente IPCX1' aparece 24 veces en el corpus; dentro de la sesión, 'IPCX1' aparece 3 veces. La reparación es única. Las otras 5 ocurrencias de 'IPCXI' están en 1352:1, 1402:1, 1520:1, 1569:1 y 1641:1, de sesiones distintas, y se corregirán en sus rondas."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -2210,6 +2232,12 @@
       "Texto_Original_Fragmento": "La rotación del tipo de cambio, el compromiso con la meta de inflación y la política fiscal",
       "Motivo": "CASI SEGURO ES 'flotación', pero se marca porque la forma correcta no está corroborada donde el criterio exige. 'Rotación del tipo de cambio' no es un concepto económico, y el corpus usa 'flotación' 14 veces, siempre para el régimen cambiario ('flotación cambiaria', 'régimen de flotación', 'libre flotación'), mientras las otras 5 ocurrencias de 'rotación' son usos legítimos (rotación de portafolios, rotación del crecimiento). Pero 'flotación' aparece 0 veces en esta fila y 0 en la sesión 2007-09-13, y la reparación cambia tres letras ('flo'), que es una intervención mayor que un glifo o una tilde. La regla de corroboración es a nivel de fila y sesión por diseño y se aplicó igual a 'asuntos cambiarlos' y a 'en el últimos dos días'. Se deja constancia de la medición para que la decisión sea reversible.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1470:1",
+      "Texto_Original_Fragmento": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a las 18.10 horas. JOSÉ DE GREGORIO REBECO Vicepresidente JORGE DESORMEAUX JIMÉNEZ Consejero.",
+      "Motivo": "SE MIRA Y SE DESCARTA. El bloque de firmas cierra el acta con el Vicepresidente y un Consejero en versalitas, sin puntos ni saltos que lo separen. Es la forma del acta, no un residuo de escaneo ni una firma truncada: los nombres están completos y coinciden con Actor_Final de la sesión. No hay nada que corregir ni que cotejar.",
+      "Marca": "NO_REQUIERE_COTEJO"
     }
   ],
   "Marcas_Adicionales": [

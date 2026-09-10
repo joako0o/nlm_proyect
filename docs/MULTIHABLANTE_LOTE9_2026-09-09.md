@@ -260,6 +260,7 @@ en una cláusula, sin desarrollarse:
 | 141–147 | 2011-10-13 | 82 | una sola voz en las 82 filas del plan · **sesión cerrada 86/86** · 14 filas con 19 correcciones OCR, 11 marcas |
 | 148–154 | 2013-09-12 | 69 | una sola voz en las 69 filas del plan · **sesión cerrada 72/72** · 12 filas con 18 correcciones OCR, 9 marcas |
 | 155–161 | 2012-05-17 | 67 | una sola voz en las 67 filas del plan · **sesión cerrada 71/71** · 10 filas con 15 correcciones OCR, 1 marca |
+| 162–169 | 2007-09-13 | 85 | una sola voz en las 85 filas del plan · **sesión cerrada 88/88** · 26 filas con 48 correcciones OCR (49 sustituciones), 11 marcas de cotejo y 6 revisiones descartadas |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una

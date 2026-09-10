@@ -99,6 +99,14 @@ fuente y corregirlo fila por fila sería reescribir el acta. Medido:
 | `— ,` (raya de cierre seguida de espacio y coma) | 85, contra 31 de `—,` | **NO se corrige.** Es la convención tipográfica del acta para los incisos |
 | `IMCE` | 74 | **NO se corrige.** Es el indicador real; `del IME` y `el IME` aparecen 0 veces |
 | `la Secretario General, doña Marlys Pabst Cortés` | 77 contra 0 de `la Secretaria General` | **NO se corrige.** Es la fórmula uniforme del acta en todas las sesiones, no una errata de fila. Mismo tratamiento que `contractiva`. Y es un cargo ligado a un nombre propio, que nunca se reescribe |
+| `IMACEC` en versalitas | 263, contra 224 de `Imacec` | **NO se corrige.** Conviven dos grafías de la misma sigla con peso parecido y ninguna es «la» forma del corpus. Elegir una sería normalizar por estilo unas 260 ocurrencias, y eso es una regla general. Marcado en `1469:1` (ronda 169) |
+
+El contraste con las siglas que **sí** se corrigieron en la misma ronda es la
+línea operativa: `IPom` (1 vez) e `IpoM` (5) contra `IPoM` (2.477) no son una
+grafía alternativa sino casos sueltos de una errata, y por eso se corrigieron
+en `1462:1`. `IPOM` (59) no se tocó: es una renderización coherente. **La
+pregunta no es cuántas veces aparece la variante, sino si es una grafía
+sistemática o una errata aislada.**
 
 El mismo patrón en **una sola** fila y fuera de su forma habitual sí es
 defecto: `la Zona Euro,. Al respecto` (`4390:1`) tiene la coma suelta a mitad
@@ -167,7 +175,30 @@ Más de una lectura posible ⇒ `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`. Ejemplos
 reales: `el pozo concentrado` (¿peso? ¿puesto? ¿plazo?), `Al antes comentando
 incremento`, `lo de anticipábamos`, `de los cuales sería`, `un desarrollo es
 muy largo` (probablemente «desfase», pero el cambio es demasiado grande),
-`distintos recursos anuales`.
+`distintos recursos anuales`, `en el últimos dos días` (¿`el último` o
+`los últimos`? la forma buena aparece 0 veces en la fila y en la sesión),
+`En el caso del los IREM` (¿`de los` o `del`? ambas atestiguadas),
+`mercado wall forward` (¿`mercado forward` o `swap forward`?),
+`La rotación del tipo de cambio` (casi seguro `flotación`, pero `flotación`
+aparece 0 veces en la fila y en la sesión y la reparación cambia tres letras).
+
+### 8 bis. Antes de marcar un residuo, buscarlo en todo el corpus
+
+Un residuo de glifos puede parecer irrecuperable y no serlo. `s/70c/(`
+(`1467:1`, ronda 169) se leía como basura, pero aparece **3 veces** en el
+consolidado y en `RPM-2007-11-13:1536:1` convive con la forma bien escrita en
+la misma frase y en posición paralela: «sensible a **shocks** de términos de
+intercambio que a **s/70c/(s** financieros». Eso prueba la lectura
+(`s`→s, `/`→h, `70`→ho, `/(`→k) con evidencia del propio documento, no con
+vocabulario mío. Se corrigió en `1467:1` y en `1536:1`; la tercera ocurrencia,
+`RPM-2008-08-14:2042:1`, queda para su ronda.
+
+**Regla:** un residuo que ocupa el lugar de una palabra no se elimina ni se
+marca sin antes contar sus ocurrencias en el corpus. Si aparece más de una vez,
+alguna puede estar al lado de la forma correcta y zanjar la lectura. Eliminar
+en cambio sigue siendo lo correcto cuando el residuo no reemplaza a ninguna
+palabra (`s - f '`, `^ / ■ -i`, `f ' '`, `/ '`, `H ^ .`, numeración de página).
+
 
 ---
 
