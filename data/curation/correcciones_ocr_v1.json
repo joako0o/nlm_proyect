@@ -1222,6 +1222,153 @@
           "Justificacion": "Espacio intrapalabra. Medido: 'efectivam ente' aparece 2 veces en el corpus y 'efectivamente' 309."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1413:3",
+      "Fecha": "2007-09-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "éstos estarían algo más bajos y seria un buen momento para adquirirlos",
+          "Despues": "éstos estarían algo más bajos y sería un buen momento para adquirirlos",
+          "Contexto": "El Vicepresidente señor José De Gregorio consulta si efectivamente hubiera una brecha muy grande por liquidez entre crédito default swap, y los bonos del Tesoro chileno, éstos estarían algo más bajos y seria un buen momento para adquirirlos.",
+          "Justificacion": "Tilde faltante. 'Seria' es el adjetivo femenino y aquí hace falta el condicional: la oración no admite otra lectura (sección 1). 'Sería' aparece 1.255 veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1420:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "lo que le preocupa tiene que ver con un tem a de liquidez",
+          "Despues": "lo que le preocupa tiene que ver con un tema de liquidez",
+          "Contexto": "Agrega que en línea con lo que señaló el Gerente señor De Ramón y también el Consejero señor Marfán, lo que le preocupa tiene que ver con un tem a de liquidez",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'tem a' aparece 1 vez en el corpus y 'tema' 1.258."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "No es lo que habitualm ente se utiliza",
+          "Despues": "No es lo que habitualmente se utiliza",
+          "Contexto": "El típico indicador de credit default swap está medido respecto a la tasa Libor. No es lo que habitualm ente se utiliza, y si uno lo convierte respecto a precios",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'habitualm ente' aparece 1 vez y 'habitualmente' 84."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1422:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "si nuestro CDS tiene o no liquidez suficiente porque tam bién podría ser",
+          "Despues": "si nuestro CDS tiene o no liquidez suficiente porque también podría ser",
+          "Contexto": "Una, si nuestro CDS tiene o no liquidez suficiente porque tam bién podría ser que Chile es tan pequeño que esto sea una punta que no se mueve",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'tam bién' aparece 9 veces en el corpus y 'también' 4.809."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "que esto sea una punta que no se mueve, sim plem ente porque no se transa",
+          "Despues": "que esto sea una punta que no se mueve, simplemente porque no se transa",
+          "Contexto": "porque tam bién podría ser que Chile es tan pequeño que esto sea una punta que no se mueve, sim plem ente porque no se transa",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'sim plem ente' aparece 2 veces y 'simplemente' 95."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "el señor Valdés se pregunta si acaso el riesgo soberano es el m ejor indicador",
+          "Despues": "el señor Valdés se pregunta si acaso el riesgo soberano es el mejor indicador",
+          "Contexto": "Entonces, el señor Valdés se pregunta si acaso el riesgo soberano es el m ejor indicador, concluyendo que sin duda lo es",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'm ejor' aparece 2 veces y 'mejor' 1.244."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1423:1",
+      "Fecha": "2007-09-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "este gráfico que ha ocupado parte importante de la Reunión de Politica Monetaria",
+          "Despues": "este gráfico que ha ocupado parte importante de la Reunión de Política Monetaria",
+          "Contexto": "En todo caso, este gráfico que ha ocupado parte importante de la Reunión de Politica Monetaria debiera estar claram ente contenido en la Minuta de esta Sesión.",
+          "Justificacion": "Tilde faltante. Medido: 'Politica Monetaria' sin tilde aparece 8 veces en el corpus y 'Política Monetaria' 3.205. La palabra no admite otra lectura."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "debiera estar claram ente contenido en la Minuta de esta Sesión",
+          "Despues": "debiera estar claramente contenido en la Minuta de esta Sesión",
+          "Contexto": "este gráfico que ha ocupado parte importante de la Reunión de Politica Monetaria debiera estar claram ente contenido en la Minuta de esta Sesión",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'claram ente' aparece 1 vez y 'claramente' 469."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1425:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "consulta porqué la tasa de interés Libor está subiendo",
+          "Despues": "consulta por qué la tasa de interés Libor está subiendo",
+          "Contexto": "El Consejero señor Manuel Marfán consulta porqué la tasa de interés Libor está subiendo, en circunstancia que las tasas de los instrumentos más seguros debieran caer",
+          "Justificacion": "'Porqué' sustantivo exigiría artículo; sin él la única lectura es el interrogativo. Medido: 'consulta porqué' aparece 1 vez y 'consulta por qué' 10. Es el mismo caso ya corregido en 4397:1."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "esta situación no es producto del fiy to safety sino más bien",
+          "Despues": "esta situación no es producto del flight to safety sino más bien",
+          "Contexto": "Señala el Consejero señor Marfán que esta situación no es producto del fiy to safety sino más bien de otras explicaciones principalmente de problemas de liquidez.",
+          "Justificacion": "'Fiy' no es palabra en ningún idioma: es 'flight' mal leído. La locución 'flight to safety' aparece 3 veces en el corpus escrita correctamente y es el término financiero fijo para la huida hacia activos refugio, que es justo el concepto que la oración discute."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1429:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "de manera que sim plem ente quiere llamar la atención",
+          "Despues": "de manera que simplemente quiere llamar la atención",
+          "Contexto": "de manera que sim plem ente quiere llamar la atención con respecto a que el actual escenario podría ser desplazado por uno más adverso en el futuro",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Segunda ocurrencia de este artefacto en la sesión."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1431:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "un elemento que refuerza este escenario algo m ás optimista",
+          "Despues": "un elemento que refuerza este escenario algo más optimista",
+          "Contexto": "Agrega que le parece que hay que considerar también que un elemento que refuerza este escenario algo m ás optimista es la situación de los bancos",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'm ás optimista' aparece 1 vez y 'más optimista' 62."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "que aún en un escenario ultra pesim ista en que hubiese",
+          "Despues": "que aún en un escenario ultra pesimista en que hubiese",
+          "Contexto": "En relación con el tema de la solvencia, que aún en un escenario ultra pesim ista en que hubiese que efectuar castigos, el impacto en los bancos no sería más allá de lo que se percibe",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'pesim ista' aparece 1 vez y 'pesimista' 191."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "lo que perm ite dimensionar la situación actual",
+          "Despues": "lo que permite dimensionar la situación actual",
+          "Contexto": "no se sabe si es medio o un punto porcentual, en términos de Basilea, lo que perm ite dimensionar la situación actual con respecto a crisis anteriores",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'perm ite' aparece 1 vez y 'permite' 280."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -1692,6 +1839,18 @@
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Texto_Original_Fragmento": "comenta lo que han hecho JPMorgan, Deutsche Bank. Lehmann Brothers para 2007 y 2008",
       "Motivo": "'Lehmann Brothers' con dos enes. Medido: 'Lehman Brothers' aparece 14 veces en el corpus y 'Lehmann Brothers' 4. Es muy probable que la doble ene venga del apellido del propio expositor, Sergio Lehmann Beresi, que aparece en la misma fila. Aun así es un nombre propio: se marca y no se reescribe. Además el punto después de 'Deutsche Bank' debería ser coma, pero eso es un signo ausente y también queda para cotejo."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1422:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "La otra duda es que para asuntos cambiarlos exclusivamente, tiende a pensar que importa más la tasa",
+      "Motivo": "'Cambiarlos' debería ser 'cambiarios' (sustitución de i por ele, una confusión documentada en este corpus). Pero 'cambiarlos' es una palabra real y la forma correcta aparece 0 veces en esta fila y 0 veces en toda la sesión 2007-09-13, así que la sección 2 del criterio no permite reponer nada. Se marca. Distinto de 'cambiaría' por 'cambiaria', que sí se corrige porque ahí la forma correcta está disponible."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1424:2",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Texto_Original_Fragmento": "El Consejero señor Enrique Marshali comenta que también debe incluirse algo de lo señalado",
+      "Motivo": "'Marshali' con i final en lugar de 'Marshall'. Medido: 'Marshali' aparece 5 veces en el corpus y 'Marshall' 1.243, y el Actor_Final de la propia fila dice 'Enrique Marshall Rivera'. El defecto está probado pero es un nombre propio: se marca y no se reescribe. La fila ya traía NOMBRE_EN_DISCURSO_POR_VERIFICAR."
     }
   ],
   "Marcas_Adicionales": [
