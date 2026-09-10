@@ -1537,6 +1537,125 @@
           "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'cam biar' aparece 2 veces en el corpus y 1 en esta fila, frente a 'cambiar' 711, con 6 ocurrencias en esta misma sesión."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1461:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "en países como México, Brasil, Argentina, no se ha visto hasta hora al menos",
+          "Despues": "en países como México, Brasil, Argentina, no se ha visto hasta ahora al menos",
+          "Contexto": " que una buena prueba de ello es algo que se habló en la mañana, y que se refiere al hecho que en países como México, Brasil, Argentina, no se ha visto hasta hora al menos, un aumento en estas tasas, en estos spreads de las tasas onshore res",
+          "Justificacion": "Falta la 'a' inicial: 'hora' por 'ahora'. La oración no admite otra lectura ('hasta hora' no es una locución). Medido: 'hasta hora' aparece 1 sola vez en todo el corpus frente a 'hasta ahora' 302, y la forma correcta está corroborada en la propia fila (1 vez) y en la sesión (6)."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "el resto del mundo. Por Otra parte, agrega el Gerente señor Jadresic",
+          "Despues": "el resto del mundo. Por otra parte, agrega el Gerente señor Jadresic",
+          "Contexto": "rticular, se va a ver las revisiones en las proyecciones de crecimiento en Estados Unidos y en el resto del mundo. Por Otra parte, agrega el Gerente señor Jadresic, que también esto da algo de tiempo para ver qué pasa internamente co",
+          "Justificacion": "Mayúscula indebida en 'Otra': 'Por' abre oración y por eso va en mayúscula, pero 'otra' no. La reparación es única. Medido: 'Por Otra parte' aparece 1 sola vez en el corpus frente a 'Por otra parte' 762, con 8 ocurrencias en esta misma sesión."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1461:2",
+      "Fecha": "2007-09-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hace presente el suavizamiento del crecimiento local y la apreciación cambiaría que estima",
+          "Despues": "hace presente el suavizamiento del crecimiento local y la apreciación cambiaria que estima",
+          "Contexto": "e turbulencias financieras más graves de las que se han visto hasta ahora. En segundo término, hace presente el suavizamiento del crecimiento local y la apreciación cambiaría que estima compensan lo que se está viendo por el lado salarial que se había ant",
+          "Justificacion": "Tilde mal puesta. 'cambiaria' es adjetivo y no lleva tilde; con tilde es el condicional del verbo cambiar, que aquí no tiene sujeto posible porque la palabra modifica a 'apreciación'. Es la confusión sistemática más frecuente del corpus: 'cambiaría' aparece 241 veces y 'cambiaria' 72, y 'apreciación cambiaría' 50 frente a 'apreciación cambiaria' 13. Sección 1: las letras son idénticas y sólo sobra la tilde, así que no exige corroboración. Mismo criterio ya aplicado en 563:1 y 4396:1."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1462:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Andrés Velasco Brañes",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "tiene estrecha relación con lo que se adoptó con el IPom, y sería inusual",
+          "Despues": "tiene estrecha relación con lo que se adoptó con el IPoM, y sería inusual",
+          "Contexto": "pecto a la tasa de interés, con el debido respeto que le merecen los procedimientos del Banco, tiene estrecha relación con lo que se adoptó con el IPom, y sería inusual que la decisión que se tome hoy no fuese coherente con lo que se dijo",
+          "Justificacion": "Sigla mal escrita. La forma del corpus es 'IPoM': aparece 2.477 veces, frente a 'IPom' 1 (esta), 'IpoM' 5 y 'IPOM' 59. Como conviven cuatro variantes, es transcripción inconsistente y no un criterio uniforme de la fuente; la reparación es única. 'IPOM' en versalitas no se toca: es una grafía aceptable."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "que no estaban presentes en el IpoM, en especial los combustibles",
+          "Despues": "que no estaban presentes en el IPoM, en especial los combustibles",
+          "Contexto": "munique que la decisión que se tome hoy ya incorpora ciertos shocks adicionales a los precios, que no estaban presentes en el IpoM, en especial los combustibles. Señala además que le parece crucial que la percepción de mayores rie",
+          "Justificacion": "Segunda variante de la misma sigla en esta misma fila: 'IpoM' por 'IPoM' (2.477 contra 5 en el corpus). Reparación única."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1465:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "menciona que los efectos del fiy to safety están incidiendo en el riesgo soberano chileno",
+          "Despues": "menciona que los efectos del flight to safety están incidiendo en el riesgo soberano chileno",
+          "Contexto": "y también, como se discutió, con algún rebote en el mercado forward chileno. Como quinto punto menciona que los efectos del fiy to safety están incidiendo en el riesgo soberano chileno aunque la economía chilena continúa sólidamente como la de menor ries",
+          "Justificacion": "'fiy' no es una palabra en español ni en inglés, así que la oración no admite otra lectura; el término es 'flight to safety', que aparece 3 veces en el corpus. Medido: 'fiy to safety' aparece 2 veces, esta y RPM-2007-09-13:1425:1, ya corregida en la ronda 163 con el mismo criterio."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1466:1",
+      "Fecha": "2007-09-13",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "una economía sin holguras de capacidad y que crecerá a un ritmo sim ilar a su tendencia",
+          "Despues": "una economía sin holguras de capacidad y que crecerá a un ritmo similar a su tendencia",
+          "Contexto": "iderar estos factores, se mantiene vigente plenamente el escenario central de IPoM que plantea una economía sin holguras de capacidad y que crecerá a un ritmo sim ilar a su tendencia en los próximos trimestres. Indica el señor Consejero que todo esto e",
+          "Justificacion": "Espacio intrapalabra, artefacto del escaneo: la palabra está partida en dos. No es una reconstrucción, se reúne sin alterar una letra. Medido: 'sim ilar' aparece 3 veces en el corpus y 1 en esta fila, frente a 'similar' 1.007, con 2 ocurrencias en esta misma fila y 9 en la sesión."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "el panorama futuro sigue encuadrado dentro del escenario base o central del IPoM. con tasas de inflación solo ligeramente",
+          "Despues": "el panorama futuro sigue encuadrado dentro del escenario base o central del IPoM, con tasas de inflación solo ligeramente",
+          "Contexto": "ecios de los alimentos perecibles y la gasolina. Sin embargo, estima que pese a esta sorpresa, el panorama futuro sigue encuadrado dentro del escenario base o central del IPoM. con tasas de inflación solo ligeramente más elevadas en los próximos meses. Señala que la sorpresa más bien h",
+          "Justificacion": "Punto donde corresponde una coma: lo sigue 'con' en minúscula y la oración continúa, así que la reparación es única y no se agrega ni se suprime una palabra. Medido: 'IPoM. con tasas' aparece 1 sola vez. Mismo criterio ya aplicado en RPM-2006-10-12:940:1 y en RPM-2007-09-13:1459:2."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1467:1",
+      "Fecha": "2007-09-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "mayores turbulencias financieras podrían resultar en un s/70c/( financiero negativo",
+          "Despues": "mayores turbulencias financieras podrían resultar en un shock financiero negativo",
+          "Contexto": "incipal fuente de aumento de inflación en lo que va corrido del año. En segundo lugar, agrega, mayores turbulencias financieras podrían resultar en un s/70c/( financiero negativo sobre la economía emergente, en momento en que los inversionistas bus",
+          "Justificacion": "La cadena 's/70c/(' es basura de OCR que ocupa el lugar de la palabra 'shock': s por s, / por h, 70 por ho, /( por k. La lectura no es una suposición mía: la misma cadena aparece 3 veces en el corpus y en RPM-2007-11-13:1536:1 convive con la forma bien escrita en la misma frase y en posición paralela ('sensible a shocks de términos de intercambio que a s/70c/(s financieros'), lo que la prueba. Además 'shock' aparece 647 veces en el corpus, 12 en esta sesión y 1 en esta misma fila ('absorber adecuadamente dichos shocks'), así que la forma correcta está corroborada donde exige el criterio."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1536:1",
+      "Fecha": "2007-11-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "ha sido más bien sensible a shocks de términos de intercambio que a s/70c/(s financieros",
+          "Despues": "ha sido más bien sensible a shocks de términos de intercambio que a shocks financieros",
+          "Contexto": "nza por la cantidad de reservas que tiene y su superávit en cuenta corriente. Agrega que Chile ha sido más bien sensible a shocks de términos de intercambio que a s/70c/(s financieros en los últimos años, a diferencia de esos otros países.",
+          "Justificacion": "La cadena 's/70c/(' es basura de OCR que ocupa el lugar de la palabra 'shock': s por s, / por h, 70 por ho, /( por k. La lectura no es una suposición mía: la misma cadena aparece 3 veces en el corpus y en RPM-2007-11-13:1536:1 convive con la forma bien escrita en la misma frase y en posición paralela ('sensible a shocks de términos de intercambio que a s/70c/(s financieros'), lo que la prueba. Además 'shock' aparece 647 veces en el corpus, 12 en esta sesión y 1 en esta misma fila ('absorber adecuadamente dichos shocks'), así que la forma correcta está corroborada donde exige el criterio. Corrección tardía: esta fila pertenece a la sesión 2007-11-13, cerrada en las rondas 62-68. Se corrige ahora porque la medición del residuo 's/70c/(' en la ronda 168 mostró que es sistemático y que en esta misma fila la forma correcta está escrita literalmente a cuatro palabras de distancia. Queda una tercera ocurrencia en RPM-2008-08-14:2042:1, en una sesión aún no leída, que se corregirá en su ronda."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -2055,6 +2174,42 @@
       "Texto_Original_Fragmento": "Los indicadores salaríales tuvieron una aceleración importante el último mes",
       "Motivo": "NO ES DEFECTO, y se deja para que nadie lo 'corrija' después. 'salaríales' con tilde es la forma correcta: 'salarial' es aguda, su plural 'salaríales' es esdrújula y toda esdrújula lleva tilde. Lo anómalo es lo contrario: en el corpus 'salaríales' aparece 2 veces (982:1 y esta) y 'salariales' sin tilde 45. No se toca ninguna de las dos: no es un defecto óptico y normalizar 45 casos por criterio ortográfico sería una regla general, que está excluida.",
       "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1461:1",
+      "Texto_Original_Fragmento": "comparte la recomendación de la Gerencia de División Estudios de aumentar en 25% la Tasa de Política Monetaria",
+      "Motivo": "ERROR DE DATO DEL ACTA, no un defecto óptico: el símbolo % está nítido y la recomendación fue de 25 puntos base, no del 25%. Medido: '25% la Tasa de Política Monetaria' aparece 1 sola vez, mientras '25 puntos base' aparece 1.105 veces en el corpus y 27 en esta misma sesión, donde todas las demás intervenciones dicen 'puntos base'. Un error de fuente se marca y nunca se reescribe.",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1462:1",
+      "Texto_Original_Fragmento": "el Gerente de Investigación Económica, señor Klaus Schmidt- Hebbel, una situación en la cual",
+      "Motivo": "NOMBRE_PROPIO. Espacio después del guion: 'Schmidt- Hebbel' por 'Schmidt-Hebbel'. El defecto está probado (5 contra 122 en el corpus; 5 veces la forma buena dentro de esta misma sesión) y la reparación sería única, pero el criterio es que un nombre propio nunca se corrige, sólo se marca, aun cuando se conozca la forma correcta. Se deja constancia de que aquí no se altera ninguna letra del nombre, sólo se eliminaría un espacio de escaneo, por si se decide relajar esa regla.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1462:1",
+      "Texto_Original_Fragmento": "se resumen en dos palabras; riesgo e incertidumbre, tanto en el escenario externo como en el interno",
+      "Motivo": "PUNTO Y COMA donde la norma pide dos puntos. Se deja: no es un defecto óptico (el OCR no confunde ';' con ':'), es una elección del tipógrafo del acta, y la lectura no se daña. Medido: la construcción con dos puntos aparece 0 veces en el corpus, así que no hay forma canónica a la que ajustarse.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1462:1",
+      "Texto_Original_Fragmento": "puesto que dada las descomunales incertidumbres que se enfrentan",
+      "Motivo": "ERROR DE CONCORDANCIA DEL ACTA ('dada' por 'dadas'), no óptico. Sección 3: lo que no es óptico no se toca. El PDF mostraría lo mismo.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1465:1",
+      "Texto_Original_Fragmento": "el bajo IMACEC de julio, en tanto, tiene una explicación casuística",
+      "Motivo": "NO SE CORRIGE. Conviven dos grafías de la misma sigla con peso parecido: 'IMACEC' en versalitas 263 veces e 'Imacec' 224. Ninguna es la forma del corpus y ambas son renderizaciones coherentes, así que elegir una seria normalizar por criterio de estilo unas 260 ocurrencias, que es una regla general y esta excluida. Se distingue del caso de 'IPom' e 'IpoM' corregidos en 1462:1: alli las variantes suman 1 y 5 ocurrencias contra 2.477 de 'IPoM', es decir no son una grafía alternativa sino casos sueltos.",
+      "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1467:1",
+      "Texto_Original_Fragmento": "La rotación del tipo de cambio, el compromiso con la meta de inflación y la política fiscal",
+      "Motivo": "CASI SEGURO ES 'flotación', pero se marca porque la forma correcta no está corroborada donde el criterio exige. 'Rotación del tipo de cambio' no es un concepto económico, y el corpus usa 'flotación' 14 veces, siempre para el régimen cambiario ('flotación cambiaria', 'régimen de flotación', 'libre flotación'), mientras las otras 5 ocurrencias de 'rotación' son usos legítimos (rotación de portafolios, rotación del crecimiento). Pero 'flotación' aparece 0 veces en esta fila y 0 en la sesión 2007-09-13, y la reparación cambia tres letras ('flo'), que es una intervención mayor que un glifo o una tilde. La regla de corroboración es a nivel de fila y sesión por diseño y se aplicó igual a 'asuntos cambiarlos' y a 'en el últimos dos días'. Se deja constancia de la medición para que la decisión sea reversible.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
