@@ -84,8 +84,25 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1140
-MIN_OPERACIONES = 1654
+MIN_CORREGIDAS = 1345
+MIN_OPERACIONES = 2160
+
+# §18: espacio indebidamente insertado antes de , . ; %. La familia medía 546
+# ocurrencias en la base y bajó a 19. Las 19 que quedan están bloqueadas por la
+# ventana de una operación ya registrada: resolverlas exige EXTENDER esa
+# operación, no apilarle otra encima (§15). El techo está aquí para que la
+# familia no vuelva a crecer y para que tocar el residuo sea visible.
+ESPACIO_ANTES_DE_SIGNO_MAX = 19
+RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
+    'RPM-2005-02-10:66:1', 'RPM-2005-02-10:67:1', 'RPM-2005-03-10:147:1',
+    'RPM-2005-03-10:149:1', 'RPM-2006-04-13:653:1', 'RPM-2007-08-09:1366:1',
+    'RPM-2007-09-13:1408:1', 'RPM-2008-05-08:1815:2', 'RPM-2008-06-10:1856:1',
+    'RPM-2008-09-04:2070:1', 'RPM-2009-02-12:2319:1', 'RPM-2009-02-12:2319:2',
+    'RPM-2010-04-15:3063:1', 'RPM-2010-12-16:3619:1', 'RPM-2011-05-12:3996:1',
+    'RPM-2011-06-14:4100:1', 'RPM-2013-05-16:5526:1', 'RPM-2015-08-13:6924:1',
+    'RPM-2015-08-13:6952:1',
+}
+
 
 # Las marcas abiertas SÍ pueden bajar, y está bien que bajen: cotejar una fila
 # contra el PDF original y comprobar que el corpus era fiel la mueve a
@@ -260,6 +277,37 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         """«6%%» no es notación posible; se leyeron las 6 ocurrencias del corpus."""
         n = sum(t.count('%%') for t in self.salida.values())
         self.assertEqual(n, 0, f'quedan {n} signos de porcentaje duplicados')
+
+    def test_el_espacio_antes_de_signo_se_quito(self):
+        """§18: 546 ocurrencias en la base → 19 en la salida.
+
+        El residuo no es olvido: esas 19 caen dentro de la ventana de una
+        operación ya registrada, y resolverlas exige extender esa operación en
+        vez de apilarle otra encima (§15). El conjunto está fijado para que
+        resolver una obligue a bajar el techo, y para que aparecer una nueva se
+        vea enseguida.
+        """
+        import aplicar_espacios_puntuacion as esp
+        vivos = {rid for rid, t in self.salida.items() if esp.ocurrencias(t)}
+        n = sum(len(esp.ocurrencias(t)) for t in self.salida.values())
+        self.assertLessEqual(n, ESPACIO_ANTES_DE_SIGNO_MAX,
+                             f'la familia volvió a crecer: {n} ocurrencias')
+        self.assertEqual(vivos, RESIDUO_ESPACIO_ANTES_DE_SIGNO,
+                         'cambió el conjunto de filas con residuo')
+
+    def test_las_operaciones_de_espacio_solo_quitan_espacios(self):
+        """Una operación de este tipo no puede tocar ninguna letra ni ninguna
+        cifra. Si lo hace, está borrando texto en vez de quitar un blanco."""
+        import re
+        malas = []
+        for e in self.reg['Correcciones']:
+            for op in e['Operaciones']:
+                if op['Tipo'] != 'ESPACIO_INDEBIDO':
+                    continue
+                if re.sub(r'\s+', '', op['Antes']) != re.sub(r'\s+', '', op['Despues']):
+                    malas.append((e['ID_Intervencion'], op['Antes'][:40]))
+        self.assertEqual(malas, [], f'operaciones que alteran texto: {malas[:3]}')
+
 
     def test_las_cifras_ambiguas_quedan_marcadas_no_adivinadas(self):
         """Donde el OCR separó cifras y el valor no es recuperable sin el original,

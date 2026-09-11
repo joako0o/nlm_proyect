@@ -932,3 +932,88 @@ ciego y ahora la detecta y se niega, porque cerrar una de esas entradas cerrarí
 fila sin que nadie lo haya pedido.
 
 Quedan 189 filas marcadas que necesitan los PDFs de sus sesiones.
+
+## 18. Espacio antes del signo: la familia que estaba fuera del alcance
+
+§17 dejó una regla: un detector con un alcance declarado sigue ciego fuera de él, y el
+silencio no se nota. El §15 trabajaba sobre pares de letras y no vio los dígitos. La misma
+pregunta aplicada a la puntuación destapó la familia más grande de todas.
+
+### El barrido
+
+| patrón | ocurrencias | filas |
+|---|---:|---:|
+| espacio antes de `,` | 344 | 218 |
+| espacio antes de `.` | 150 | 124 |
+| espacio antes de `;` | 21 | 19 |
+| espacio antes de `%` | 31 | 27 |
+| paréntesis sin par | 80 | 45 |
+| sin espacio tras `.` | 45 | 36 |
+| sin espacio tras `,` | 35 | 29 |
+| punto duplicado `..` | 3 | 3 |
+| `,,` / `;;` / `::` / `%%` | **0** | 0 |
+
+Dos de esas líneas son trampa, y **sin espacio tras `.` lo es en las dos direcciones**. La
+mayoría es legítima: domina `EE.UU.`, y también `S.E.`, `v.gr.` y `2005.IV` (la notación del
+trimestre). Pero entre las 45 hay casos reales de espacio faltante —`mercados.En segundo
+término`, `asiática.Hace presente`, `variación.Estas cifras`— y basura de OCR (`e.n Ií ~ea`,
+`.LI I`). Un reemplazo global habría roto todas las abreviaturas del corpus; hay que leerlas
+una por una. Queda pendiente. Y el punto duplicado son sólo 3 casos, otra familia.
+
+### La evidencia, antes de tocar nada
+
+El barrido no dice si el espacio viene del original o del OCR. Los dos PDFs del repositorio
+sí lo dicen:
+
+| patrón | PDF 2005-06-09 | PDF 2005-07-12 | filas del corpus de esas sesiones |
+|---|---:|---:|---:|
+| letra + `,` | 0 | 0 | 0 |
+| letra + `.` | 0 | 0 | 0 |
+| letra + `;` | 1 | 0 | 0 |
+| `—` + `,` / `—` + `.` | 0 | 0 | 0 |
+| dígito + `,` | 0 | 0 | 0 |
+| dígito + `.` | 0 | 2 | 2 |
+| espacio antes de `%` | 0 | 0 | 0 |
+
+Los documentos no traen el espacio, y las 90 filas del corpus de esas dos sesiones
+coinciden con su PDF casi exactamente. La familia no es una característica del acta.
+
+### El pase
+
+Herramienta nueva: `scripts/aplicar_espacios_puntuacion.py`. **546 ocurrencias en la base
+→ 19 en la salida**, 510 operaciones `ESPACIO_INDEBIDO`, y `Texto` intacto en las 9.723.
+
+Dos decisiones de diseño que importan:
+
+- **Fusionar, no apilar.** Con ~510 ocurrencias en ~320 filas, muchas caen a pocos
+  caracteres de distancia y una ventana de contexto fija las haría chocar entre sí y con
+  operaciones ya registradas. La herramienta agrupa las cercanas en una sola operación.
+- **El control de solape va sobre la ventana que se escribe.** La primera versión comparaba
+  el tramo núcleo `(ini, fin)` pero escribía la ventana ensanchada `(x, y)`, y
+  `revisar_parche` rechazó el lote con 7 choques. La red de seguridad funcionó: el lote no
+  se escribió. El control se movió a la ventana real.
+
+Verificación independiente sobre el release leído desde disco: de las 510 operaciones,
+**0 alteran algo que no sea un espacio** (misma secuencia de caracteres no-blancos antes y
+después), y **ningún blanco de los 517 era un salto de línea**, así que la operación es
+homogénea y no puede unir dos palabras.
+
+### Lo que quedó, y por qué
+
+- **19 ocurrencias en 19 filas.** Caen dentro de la ventana de una operación ya registrada;
+  resolverlas exige **extender** esa operación, no apilarle otra encima (§15). El conjunto
+  está fijado en el test: resolver una obliga a bajar el techo, y que aparezca una nueva se
+  ve enseguida.
+- **`RPM-2006-04-13:653:1`** excluida a propósito: dice «e v ia m e n te ,», que es una
+  palabra letra a letra (§11) además del espacio. Arreglar sólo la coma dejaría la fila
+  medio corregida.
+- **Punto duplicado (3), residuos `/ .` (7), paréntesis sin par (80):** familias distintas,
+  no tocadas.
+
+Un bug propio que apareció al escribir los tests: el filtro de signo duplicado miraba sólo
+el carácter anterior, así que dejaba pasar `uno ,, dos`. Ahora mira los dos lados. No
+cambió ninguna cifra del pase —el corpus no tiene signos duplicados— pero el filtro era
+incorrecto y el test lo encontró.
+
+Estado tras §18: **1.345 filas corregidas, 2.160 operaciones, 189 marcadas, `Texto` intacto
+en las 9.723**, sha base `d0b64842…` sin cambio.
