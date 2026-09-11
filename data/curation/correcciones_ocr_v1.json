@@ -2631,6 +2631,27 @@
           "Justificacion": "Tilde por i en el adjetivo plural, sección 3 ter. MEDICION CORREGIDA: 'cambiarías' con ese aparece 53 veces en el corpus, y esas 53 están DENTRO de las 241 que se venían citando para 'cambiaría', porque la cadena corta es substring de la larga. O sea la familia se reparte en 188 singulares y 53 plurales, no 241 singulares. Es la misma trampa de contar sin delimitar que 'breca' dentro de 'sobrecalentamiento' y 'ratando' dentro de 'tratando'."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1224:2",
+      "Fecha": "2007-05-10",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mientras que el IRC, al menos,",
+          "Despues": "mientras que el IPC, al menos,",
+          "Contexto": "que en el margen se observa que se ha estabilizado, particularmente el IPC subyacente en 1,9%, mientras que el IRC, al menos, el que se anticipa para el siguiente mes, también estaría en la misma cifra, es decir, si bien",
+          "Justificacion": "IRC por IPC. La P se lee como R: la misma fila escribe \"el IPC subyacente en 1,9%\" justo antes y luego contrasta con el indice general. La sigla IRC no existe en el corpus como tal."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "lo que observamos hace mes, incluso",
+          "Despues": "lo que observamos hace un mes, incluso",
+          "Contexto": " lo observado en otras reuniones. En el caso del petróleo, que está en precios muy similares a lo que observamos hace mes, incluso por debajo de US$ 1 aproximadamente, la trayectoria que estamos proye",
+          "Justificacion": "Falta el articulo: \"hace mes\" no es construccion posible en espanol. Corroboracion abrumadora: \"hace un mes\" aparece 254 veces en el corpus; \"hace mes\" suelto, solo aqui (las otras 5 apariciones medidas son \"hace meses\", que la contiene como subcadena)."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -3347,6 +3368,12 @@
       "Texto_Original_Fragmento": "Se levanta la Sesión a las 17:00 horas. E MARSHALL RIVERA RODRIGO VERGARA MONTES Vicepresidente Presidente.",
       "Motivo": "FIRMA TRUNCADA Y NOMBRE PROPIO: SE MARCA Y NO SE REPONE. La firma del Vicepresidente quedó como 'E MARSHALL RIVERA', sin el nombre. El nombre completo está documentado: la fila de asistencia de esta misma sesión (6918:1) dice 'don Enrique Marshall Rivera' y 'ENRIQUE MARSHALL RIVERA' aparece 4 veces en el corpus. PERO medido con cuidado, 'E MARSHALL RIVERA' aparece 15 veces: es la firma manuscrita escaneada mes a mes y el OCR la lee igual de mal cada vez, igual que los otros bloques de firma del corpus, que están todos dañados ('VITTORIO CORBO LIOI', ')RIO CORBO LIOI', 'rORTO CORBO LIOIV', 'j o r g e DESORMEAUX JIMÉNEZ', 'EN9ÍQUE MARSHAL...'). La sección 5 dice que un nombre propio nunca se reescribe, sólo se marca, y eso rige aunque el vocabulario de tipos incluya FIRMA_TRUNCADA, que por eso sigue sin usarse: repararla sería decidir la grafía de un nombre. Queda como pregunta abierta para el usuario, igual que el espacio intrapalabra dentro de un nombre propio.",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1224:2",
+      "Texto_Original_Fragmento": "incluso por debajo de US$ 1 aproximadamente",
+      "Motivo": "CIFRA_INCONSISTENTE. El petroleo se describe en la misma fila entre US$ 62 y US$ 65 el barril, de modo que \"por debajo de US$ 1\" puede leerse como \"un dolar por debajo\" (lectura coherente con \"precios muy similares\") o como un US$ 61 al que se le cayeron digitos. Ambas lecturas son viables, no hay forma de decidir sin el PDF.",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [

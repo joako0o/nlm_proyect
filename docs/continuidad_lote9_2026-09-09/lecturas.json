@@ -25075,7 +25075,117 @@
       "Universo": "PLAN_RONDAS_BANDA_D",
       "Ronda_Plan": 183,
       "Justificacion": "Ronda 183, 7 filas leidas completas (6973:1 a 6979:1). Ultima ronda de la sesion 2015-08-13. Eje OCR: 5 correcciones en 3 filas y 2 marcas. Correcciones: 'política cambiaría' por 'cambiaria' en 6974:1 y 'esto es cambiarías' por 'cambiarias' en 6977:1, seccion 3 ter; 'debiera der' por 'debiera ser' en 6974:1, con la mejor corroboracion posible porque la forma buena aparece en la misma fila (1 vez), 1 en la sesion y 90 en el corpus; 'un retomo a prácticas' por 'retorno' en 6976:1, donde 'retomo' es forma verbal real pero despues del articulo 'un' solo cabe un sustantivo, asi que en ese lugar es gramaticalmente imposible, mismo razonamiento que 'cambiaría'; y 'se ha tomado más sombrío' por 'tornado' en 6976:1, que se corrige y no se marca porque con la forma defectuosa la oracion no es gramatical y el candidato es uno solo, a diferencia de 'control de endeudamiento' que si se marco porque 'un alza en el control de endeudamiento' si se puede leer. Marcas: un punto seguido ausente antes de 'En' en 6978:1; y la firma truncada 'E MARSHALL RIVERA' en 6979:1, que se marca y no se repone aunque el nombre completo este documentado (la fila de asistencia 6918:1 dice 'don Enrique Marshall Rivera' y la forma completa aparece 4 veces en el corpus), porque medida con cuidado 'E MARSHALL RIVERA' aparece 15 veces: es la firma manuscrita escaneada mes a mes y el OCR la lee igual de mal cada vez, como todos los bloques de firma del corpus ('VITTORIO CORBO LIOI', ')RIO CORBO LIOI', 'rORTO CORBO LIOIV', 'j o r g e DESORMEAUX JIMÉNEZ'). Repararla seria decidir la grafia de un nombre propio, que la seccion 5 lo prohibe; por eso el tipo FIRMA_TRUNCADA del vocabulario sigue sin usarse, y queda como pregunta abierta. MEDICION CORREGIDA: 'cambiarías' con ese aparece 53 veces y esas 53 estan DENTRO de las 241 citadas para 'cambiaría', porque la cadena corta es substring de la larga; la familia se reparte en 188 singulares y 53 plurales. Misma trampa que 'breca' dentro de 'sobrecalentamiento'. Sin dos voces: 6974:1, 6976:1 y 6977:1 son los votos de tres Consejeros y las demas son transiciones y filas institucionales."
+    },
+    "RPM-2007-05-10:1222:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1222:1",
+      "ID_Padre": "1222",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1535,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1224:2": {
+      "ID_Intervencion": "RPM-2007-05-10:1224:2",
+      "ID_Padre": "1224",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 8611,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1225:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1225:1",
+      "ID_Padre": "1225",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 115,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1226:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1226:1",
+      "ID_Padre": "1226",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 93,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1227:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1227:1",
+      "ID_Padre": "1227",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 823,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1227:2": {
+      "ID_Intervencion": "RPM-2007-05-10:1227:2",
+      "ID_Padre": "1227",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 209,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1227:3": {
+      "ID_Intervencion": "RPM-2007-05-10:1227:3",
+      "ID_Padre": "1227",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1013,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1228:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1228:1",
+      "ID_Padre": "1228",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 1209,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1229:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1229:1",
+      "ID_Padre": "1229",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 692,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
+    },
+    "RPM-2007-05-10:1230:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1230:1",
+      "ID_Padre": "1230",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 515,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 184,
+      "Justificacion": "10 filas leidas completas, sesion 2007-05-10. Una sola voz en todas: acta inicial (1222:1), Lehmann (1224:2, 1227:1, 1227:3), entrega de la palabra de Corbo (1225:1, que es mencion y no intervencion), Marfan (1226:1), Marshall (1227:2, 1230:1), Corbo (1228:1), Desormeaux (1229:1). OCR: 2 correcciones en 1224:2 (IRC por IPC, 'hace mes' por 'hace un mes') y 1 marca de cifra. Decisiones documentadas: 'abono' en 1229:1 se deja (la oracion se lee y es metafora valida); el residuo 'A continuacion,.' de 1230:1 se deja porque aparece 76 veces en 76 filas y es decision de bloque, no de fila."
     }
   },
-  "Total_Leidas": 2177
+  "Total_Leidas": 2187
 }
