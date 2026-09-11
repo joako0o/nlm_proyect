@@ -3670,6 +3670,22 @@
           "Ocurrencias": 1,
           "Contexto": "el Consejero señor Claro que cree que desde un punto de vista comunicacional lo fundam ental es generar una señal de confianza . En nuestro caso , c",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 165 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " datos de actividad domestica y las perspecti",
+          "Despues": " datos de actividad doméstica y las perspecti",
+          "Ocurrencias": 1,
+          "Contexto": " la evidencia acumulada sobre la economía internacional, los datos de actividad domestica y las perspectivas de inflación a corto y mediano plazo",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "en todo caso, desea hacer explicito que esta decisi",
+          "Despues": "en todo caso, desea hacer explícito que esta decisi",
+          "Ocurrencias": 1,
+          "Contexto": "a Tasa de Política Monetaria en 100 puntos base. Indica que en todo caso, desea hacer explicito que esta decisión constituye una corrección discreta so",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -4127,6 +4143,14 @@
           "Ocurrencias": 1,
           "Contexto": " Central a plazos de dos años o más, u otras iniciativas, como una intervención cambiaría, podría justificarse en caso que se juzgue que el nesgo de ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " de la demanda. Por ultimo, hace presente ",
+          "Despues": " de la demanda. Por último, hace presente ",
+          "Ocurrencias": 1,
+          "Contexto": "por mayores restricciones de oferta como por una contracción de la demanda. Por ultimo, hace presente que las expectativas sobre la trayectori",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -5733,6 +5757,14 @@
           "Ocurrencias": 1,
           "Contexto": "s expectativas en la desaceleración de Estados Unidos de América o en el ajuste cambiarlo es a estas alturas alto, especialmente en un contexto como ",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "a una débil demanda domestica. No obstante, s",
+          "Despues": "a una débil demanda doméstica. No obstante, s",
+          "Ocurrencias": 1,
+          "Contexto": "menor dinamismo en la actividad doméstica no parece deberse a una débil demanda domestica. No obstante, señala que es razonable pensar que la men",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -9201,6 +9233,14 @@
           "Despues": "”",
           "Contexto": "gentes. Indica que si se revisa el gráfico de la “uno en uno\" de los bonos, que tiene una mirada bastante disti",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "e que relativiza el titulo, lo que no sign",
+          "Despues": "e que relativiza el título, lo que no sign",
+          "Ocurrencias": 1,
+          "Contexto": " respecto de la swap, que dice que sube, tema que él advierte que relativiza el titulo, lo que no significa que el mercado de manera unánime e",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -11336,6 +11376,14 @@
           "Ocurrencias": 2,
           "Contexto": " largo plazo se corrige en menor medida. De otro lado, el fenómeno de \"El Niño\" ha provocado lluvias en Brasil, sequía en Co",
           "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ue presiona al alza al indice FAO alimentos en el",
+          "Despues": "ue presiona al alza al índice FAO alimentos en el",
+          "Ocurrencias": 1,
+          "Contexto": " en Colombia y en otros países, afectando las cosechas, lo que presiona al alza al indice FAO alimentos en el mes de octubre con aumentos en todos lo",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -11584,6 +11632,14 @@
           "Ocurrencias": 1,
           "Contexto": "endo inferior a los valores de fines de 2004. Por sectores, la producción de las ramas asociadas ai sector exportador creció solo 2,7% anual, aunque fuertemente influida p",
           "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "to anual, en tanto, llego a 3,2%, equivalente a ",
+          "Despues": "to anual, en tanto, llegó a 3,2%, equivalente a ",
+          "Ocurrencias": 1,
+          "Contexto": " cambios respecto del trimestre móvil anterior. El crecimiento anual, en tanto, llego a 3,2%, equivalente a 180 mil puestos de trabajo. Por categorí",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -14291,6 +14347,14 @@
           "Ocurrencias": 1,
           "Contexto": "ticipado. Hace el alcance que las cifras antedichas corresponden al promedio de ios meses de enero y febrero, de tal forma de neutralizar e",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " depreciación en el ultimo mes, ubicándose",
+          "Despues": " depreciación en el último mes, ubicándose",
+          "Ocurrencias": 1,
+          "Contexto": "ovimientos registrados por el yuan, destaca su significativa depreciación en el ultimo mes, ubicándose al centro de su banda de +/-1%. A conti",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -17446,6 +17510,14 @@
           "Ocurrencias": 1,
           "Contexto": "a economía que hay detrás, específicamente lo que dice relación con que hay tal íncertidumbre respecto de lo que va a acontecer con la FLAP, o que la",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "distinto del que se tenia hace un mes, y ",
+          "Despues": "distinto del que se tenía hace un mes, y ",
+          "Ocurrencias": 1,
+          "Contexto": "o caso, es que el tipo de cambio real hoy es dramáticamente distinto del que se tenia hace un mes, y si bien es cierto que no hay un desaline",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     },
@@ -19424,6 +19496,306 @@
           "Ocurrencias": 1,
           "Contexto": "nterno de inversión no minera pública supone habitualmente una ejecución presupuestaria bastante menor que la que contempla el Ministerio de Ha",
           "Justificacion": "Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:503:1",
+      "Fecha": "2005-11-10",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "elera, superando ya el limite más alto del rango meta.",
+          "Despues": "elera, superando ya el límite más alto del rango meta.",
+          "Ocurrencias": 1,
+          "Contexto": "bustibles y de algunos bienes perecibles, la inflación se acelera, superando ya el limite más alto del rango meta. Señala el señor Presidente, que hasta a",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1045:1",
+      "Fecha": "2007-01-11",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "e de acuerdo con el diagnostico que se ha hecho",
+          "Despues": "e de acuerdo con el diagnóstico que se ha hecho",
+          "Ocurrencias": 1,
+          "Contexto": " Vicepresidente señor José De Gregorio, señala estar bastante de acuerdo con el diagnostico que se ha hecho, y quiere reiterar lo que se ha señalad",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1074:1",
+      "Fecha": "2007-02-08",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "el escenario que se tenia hace uno y dos ",
+          "Despues": "el escenario que se tenía hace uno y dos ",
+          "Ocurrencias": 1,
+          "Contexto": "El Vicepresidente don José De Gregorio menciona que ese era el escenario que se tenia hace uno y dos años atrás y que venía muy fuerte. Despu",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2092:1",
+      "Fecha": "2008-09-04",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "a importante en las ultimas Reuniones. Mani",
+          "Despues": "a importante en las últimas Reuniones. Mani",
+          "Ocurrencias": 1,
+          "Contexto": " y donde la Tasa de Política Monetaria ha aumentado de manera importante en las ultimas Reuniones. Manifiesta el señor Consejero que, en su opi",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2277:1",
+      "Fecha": "2009-01-08",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "preciado del que se tenia en la Reunión d",
+          "Despues": "preciado del que se tenía en la Reunión d",
+          "Ocurrencias": 1,
+          "Contexto": "ones se supone un tipo de cambio que parte de un nivel más apreciado del que se tenia en la Reunión de Política Monetaria anterior, pero que ",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2465:1",
+      "Fecha": "2009-04-09",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " desde -1,4% que se tenia en marzo, hasta",
+          "Despues": " desde -1,4% que se tenía en marzo, hasta",
+          "Ocurrencias": 1,
+          "Contexto": " están corrigiendo las proyecciones para el primer trimestre desde -1,4% que se tenia en marzo, hasta -2,6%. Señala que esto último está bast",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2594:1",
+      "Fecha": "2009-06-16",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "on la existencia de un limite positivo de la Tasa de P",
+          "Despues": "on la existencia de un límite positivo de la Tasa de P",
+          "Ocurrencias": 1,
+          "Contexto": "ado de la estructura de tasas de mercado, para compensarse con la existencia de un limite positivo de la Tasa de Política Monetaria se requiere afectar má",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2653:1",
+      "Fecha": "2009-07-09",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "rca de lo que sería su limite inferior, el cual, a su ",
+          "Despues": "rca de lo que sería su límite inferior, el cual, a su ",
+          "Ocurrencias": 1,
+          "Contexto": "a de tasas es limitado, en razón de que ésta se encuentra cerca de lo que sería su limite inferior, el cual, a su juicio, y de acuerdo con los antecedente",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2678:1",
+      "Fecha": "2009-08-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "que la que el Banco tenia el mes pasado, ",
+          "Despues": "que la que el Banco tenía el mes pasado, ",
+          "Ocurrencias": 1,
+          "Contexto": "ás era implícitamente mejor por el lado de las proyecciones que la que el Banco tenia el mes pasado, razón por la cual la cifra del IMACEC no",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2705:6",
+      "Fecha": "2009-09-08",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ierto repunte en la ultimas cuatro observac",
+          "Despues": "ierto repunte en la últimas cuatro observac",
+          "Ocurrencias": 1,
+          "Contexto": "Claudio Soto señala que registra bastante volatilidad y un cierto repunte en la ultimas cuatro observaciones. Para finalizar, el Gerente de Aná",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2768:2",
+      "Fecha": "2009-11-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "especto a lo que se tenia en el último IP",
+          "Despues": "especto a lo que se tenía en el último IP",
+          "Ocurrencias": 1,
+          "Contexto": "Análisis Internacional destaca que algo que ha sorprendido respecto a lo que se tenia en el último IPoM y respecto de las trayectorias del pr",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2824:1",
+      "Fecha": "2009-12-15",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "plana que lo que se tenia en noviembre, p",
+          "Despues": "plana que lo que se tenía en noviembre, p",
+          "Ocurrencias": 1,
+          "Contexto": " de 2010 y una de 2,9 - 3% a diciembre del próximo año, más plana que lo que se tenia en noviembre, pero algo más empinada respecto de lo que",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3292:1",
+      "Fecha": "2010-08-12",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ción en el mundo. A titulo de paréntesis, ",
+          "Despues": "ción en el mundo. A título de paréntesis, ",
+          "Ocurrencias": 1,
+          "Contexto": "cuanto a que pareciera que hay menores perspectivas de inflación en el mundo. A titulo de paréntesis, menciona que ello se parece a lo que dec",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3465:1",
+      "Fecha": "2010-10-14",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "adamente, es decir, en el limite de los rangos de valores de e",
+          "Despues": "adamente, es decir, en el límite de los rangos de valores de e",
+          "Ocurrencias": 1,
+          "Contexto": "ión, lo cual ubica el tipo de cambio real spot en 87 aproximadamente, es decir, en el limite de los rangos de valores de equilibrio de largo plazo de los modelos ",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3832:1",
+      "Fecha": "2011-03-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "n en ese rango. Por ultimo, hace presente ",
+          "Despues": "n en ese rango. Por último, hace presente ",
+          "Ocurrencias": 1,
+          "Contexto": "rtamiento bastante parecido y muy acotado, moviéndose también en ese rango. Por ultimo, hace presente que los CDS de Japón alcanzan a 110pb, a",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4211:1",
+      "Fecha": "2011-07-14",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "a la fecha del 2 de agosto, limite para que pueda eleva",
+          "Despues": "a la fecha del 2 de agosto, límite para que pueda eleva",
+          "Ocurrencias": 1,
+          "Contexto": "mía global. En cuanto a Estados Unidos, subraya que se acerca la fecha del 2 de agosto, limite para que pueda elevarse la autorización de endeudamiento del",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4911:1",
+      "Fecha": "2012-07-12",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "o el incremento del gasto publico, que se duplicó",
+          "Despues": "o el incremento del gasto público, que se duplicó",
+          "Ocurrencias": 1,
+          "Contexto": "umento de la construcción en la zona de Antofagasta; así como el incremento del gasto publico, que se duplicó en los últimos 10 años. En su opinión, ",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6095:1",
+      "Fecha": "2014-03-13",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "eserva Federal. Por ultimo, expresa que la",
+          "Despues": "eserva Federal. Por último, expresa que la",
+          "Ocurrencias": 1,
+          "Contexto": "e un retiro gradual del estímulo monetario por parte de la Reserva Federal. Por ultimo, expresa que las tasas de interés de largo plazo aument",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6099:1",
+      "Fecha": "2014-03-13",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "e de lo esperado. A titulo de segundo ante",
+          "Despues": "e de lo esperado. A título de segundo ante",
+          "Ocurrencias": 1,
+          "Contexto": " y mayor consumo, lo que puede materializarse más rápidamente de lo esperado. A titulo de segundo antecedente, señala que la situación de Euro",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-11-12:7135:1",
+      "Fecha": "2015-11-12",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ión. Expresa que el diagnostico no ha cambiado ",
+          "Despues": "ión. Expresa que el diagnóstico no ha cambiado ",
+          "Ocurrencias": 1,
+          "Contexto": "n reitera que no hay un sobredimensionamiento de la información. Expresa que el diagnostico no ha cambiado respecto de un par de meses atrás en cua",
+          "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
         }
       ]
     }

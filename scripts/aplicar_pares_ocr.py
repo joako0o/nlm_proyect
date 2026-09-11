@@ -41,6 +41,28 @@ import correcciones_ocr_v1 as core  # noqa: E402
 from diagnosticar_finales import read_rows  # noqa: E402
 
 
+LETRA = set('ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚÜÑabcdefghijklmnopqrstuvwxyzáéíóúüñ')
+
+
+def ocurrencias(texto: str, frag: str) -> list[int]:
+    """Posiciones de ``frag`` en ``texto`` respetando frontera de palabra.
+
+    Imprescindible: sin frontera, el par ``ultimo`` -> ``último`` empareja dentro
+    de ``multimodal`` y lo convierte en ``múltimodal``, que está mal (el prefijo
+    multi- no se acentúa). Ocurrió de verdad en 4 operaciones de §16 grupo B1 y
+    hubo que retirarlas. Los conteos por substring sin delimitar ya habían
+    mordido antes en otras partes del proyecto.
+    """
+    out, pos = [], texto.find(frag)
+    while pos >= 0:
+        antes = texto[pos - 1] if pos > 0 else ' '
+        despues = texto[pos + len(frag)] if pos + len(frag) < len(texto) else ' '
+        if antes not in LETRA and despues not in LETRA:
+            out.append(pos)
+        pos = texto.find(frag, pos + 1)
+    return out
+
+
 def construir(pares: dict[str, str], tipo: str, justificacion: str,
               aplicar: bool) -> int:
     reg = core.cargar()
@@ -60,7 +82,7 @@ def construir(pares: dict[str, str], tipo: str, justificacion: str,
     viva = defaultdict(int)
     for rid, t in salida.items():
         for malo in orden:
-            viva[malo] += t.count(malo)
+            viva[malo] += len(ocurrencias(t, malo))
     print('apariciones vivas en la salida: %d | formas: %d'
           % (sum(viva.values()), sum(1 for m in orden if viva[m])))
     sin = [m for m in orden if viva[m] == 0]
@@ -82,16 +104,17 @@ def construir(pares: dict[str, str], tipo: str, justificacion: str,
     por_fila = defaultdict(list)
     for rid, t in sorted(base.items()):
         for malo in orden:
-            buenas = salida[rid].count(malo)
+            buenas = len(ocurrencias(salida[rid], malo))
             if not buenas:
                 continue
-            coladas, pos = 0, t.find(malo)
-            while pos >= 0 and coladas < buenas:
+            coladas = 0
+            for pos in ocurrencias(t, malo):
+                if coladas >= buenas:
+                    break
                 f0, f1 = pos, pos + len(malo)
                 if not resuelta(rid, f0, f1, malo):
                     por_fila[rid].append((f0, f1, pares[malo]))
                     coladas += 1
-                pos = t.find(malo, pos + 1)
 
     ops, saltadas = [], 0
     for rid, items in sorted(por_fila.items()):
@@ -174,10 +197,8 @@ def extender_cubiertas(pares: dict[str, str], nota: str) -> int:
     for rid, entrada in exis.items():
         t = base[rid]
         for malo, bueno in pares.items():
-            pos = t.find(malo)
-            while pos >= 0:
+            for pos in ocurrencias(t, malo):
                 f0, f1 = pos, pos + len(malo)
-                pos = t.find(malo, pos + 1)
                 cubre = x = y = None
                 for o in entrada['Operaciones']:
                     j = t.find(o['Antes'])
