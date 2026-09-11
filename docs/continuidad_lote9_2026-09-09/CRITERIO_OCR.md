@@ -729,3 +729,61 @@ saltan las demás. Hay que enumerar todas las apariciones y quedarse con las viv
 
 Pendiente de esta sección: los candidatos de acento reales listados arriba, y los 5.917
 hapax, que no son una lista de trabajo sino ruido hasta que haya lexicón.
+
+---
+
+## 16. Acentos: arbitrar los 1.094 candidatos del escáner
+
+§15 dejó el detector de acentos como inutilizable «sin lexicón». El lexicón existe: es
+conocimiento de ortografía española, y se aplicó caso por caso sobre los **190 pares
+distintos (1.094 apariciones)** que produce el escáner. El rendimiento real:
+
+| clase | apariciones | tratamiento |
+|---|---:|---|
+| acento espurio: con esa tilde la palabra no existe | **155** | corregido |
+| falta la tilde y decide la oración | ~150 | pendiente, exige contexto |
+| par mínimo legítimo del español | ~790 | **no se toca** |
+| nombre propio con acento divergente | 51 filas | marcado, no corregido |
+
+**Corregido (155 → 0).** `índica`→`indica` 42, `financíamiento`/`financiamíento`/
+`fínanciamiento`→`financiamiento` 13, `nomínales` 6, `íncertidumbre`/`incertídumbre` 8,
+`índexación`/`Índexación`/`indexacíón`→`indexación` 11, `Macroeconómíco`/`macroeconómíca` 6,
+`maquinaría(s)` 3, `mayorítaria(mente)` 4, `desestacíonalizado(s)` 2, `desapalancamíento` 2,
+`vísta` 3, `margínales`/`margínalmente` 4, `potencíales` 3, `salaríales` 2, `contrarío` 4,
+`recesíón` 2, y 26 formas de una aparición (`medíante`, `claúsulas`, `trímestre`,
+`comportamíento`, `dícha`, `tambíén`, `coíncídente`, `sosteníble`, `cambíario`,
+`expansivídad`/`expansívidad`, `atríbuible`, `ínicialmente`, `monítoreo`, `perecíbles`,
+`anualízado(s)`, `materialíce`, `comparacíón`, `noticías`, `tendencías`, `Bancaríos`,
+`Adícionalmente`, `Adicíonalmente`).
+
+**Lo que no se toca, y por qué.** `éstos`/`Éstos`/`Éstas`/`Aquéllas` (144): la tilde
+diacrítica en demostrativos dejó de ser obligatoria en 2010, no es un error. `período`/
+`periodo` (786/76): **ambas son válidas** según la RAE. `cuánto`, `dónde`, `cuándo`,
+`quién`, `quiénes`: acentos interrogativos legítimos. Todos los pretéritos —`terminó`,
+`cambió`, `inició`, `incrementó`, `previó`, `marcó`, `argumentó`, `motivó`, `trabajó`,
+`promedió`, `retornó`, `impulsó`, `impactó`, `traspasó`, `retiró`, `desarrolló`, `estudió`,
+`frenó`, `precisó`, `centró`, `contagió`, `completó`, `sesgó`, `gastó`, `costó`,
+`deterioró`, `tornó`, `cursó`, `restó`, `sustentó`, `rebalanceó`— son formas verbales
+correctas. Y cuatro que **sí existen como verbo o adjetivo** y por eso se excluyeron del
+lote aun pareciendo dañadas: `solícita` (adjetivo), `varías`, `contraría`,
+`complementarías` (verbos). `POLITICA`/`SESION`/`POLiTICA` (30) están en el encabezado en
+mayúsculas del acta, donde la ausencia de tilde es aceptable.
+
+**Nombres propios: marcados, no corregidos.** `Oscar`/`Óscar` 10, `America`/`América` 10,
+`Angel`/`Ángel` 11, `Gíanelli`/`Gianellí`/`Gianelli` 7, `Marfan`/`Marfán` 2,
+`Garcia`/`García` 2, `Larrain`/`Larraín` 2, `Beltran`/`Beltrán` 2, `Beresí`, `Váldés`,
+`Sebastian`, `Arabía`, `Bascuñan`: **51 filas** con `NOMBRE_PROPIO_POR_COTEJAR`. La tilde
+divergente en un nombre es un cambio de grafía, y el criterio prohíbe adivinar grafías de
+nombres propios. Es distinto de §15, donde se eliminaba un espacio insertado *dentro* de
+la palabra sin tocar ninguna letra. Las marcas subieron de 135 a **184**.
+
+**Tres errores propios que corrigió la medición.** (1) El primer recuento de «sigue viva»
+se hacía por fila y no por ocurrencia. (2) Un dedupe por forma suprimía las repeticiones
+legítimas dentro de una misma fila: esas filas tienen de 2 a 4 apariciones y sólo se
+corregía la primera — se detectó porque la salida daba 6 cuando el detector ya decía 0.
+(3) `maquinaría` es substring de `maquinarías`, así que buscar la singular encontraba la
+plural ya resuelta.
+
+Estado: **1.025 filas corregidas, 1.476 operaciones, 184 marcadas, `Texto` intacto en las
+9.723**. Queda pendiente el grupo de ~150 donde la tilde la decide la oración: no se
+resuelve por frecuencia ni por escáner, hay que leer cada contexto.

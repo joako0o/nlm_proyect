@@ -57,6 +57,20 @@ FORMAS_EN_CERO = {
     # §12
     'fiy to quality': '§10/§12 (fiy -> fly)',
     'fIy to quality': '§10/§12 (fIy -> fly)',
+    # §16 — acento espurio: con esa tilde la palabra no existe
+    'índica': '§16 (acento espurio)',
+    'financíamiento': '§16 (acento espurio)',
+    'nomínales': '§16 (acento espurio)',
+    'íncertidumbre': '§16 (acento espurio)',
+    'índexación': '§16 (acento espurio)',
+    'Índexación': '§16 (acento espurio)',
+    'Macroeconómíco': '§16 (acento espurio)',
+    'vísta': '§16 (acento espurio)',
+    'medíante': '§16 (acento espurio)',
+    'tambíén': '§16 (acento espurio)',
+    'perecíbles': '§16 (acento espurio)',
+    'desapalancamíento': '§16 (acento espurio)',
+
     # §11 y anteriores
     'IRC': '§1 (IRC -> IPC)',
     'nesgo': '§1 (nesgo -> riesgo)',
@@ -70,9 +84,9 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 921
-MIN_MARCADAS = 135
-MIN_OPERACIONES = 1334
+MIN_CORREGIDAS = 1025
+MIN_MARCADAS = 184
+MIN_OPERACIONES = 1476
 MIN_IPCX = 656       # IPCX legítimo preservado + el restaurado por §14
 MIN_IPCX1 = 480
 
@@ -191,6 +205,23 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                     if not (op.get(campo) or '').strip():
                         vacias.append(f'{rid} op{n}: falta {campo}')
         self.assertEqual([], vacias[:20])
+
+    def test_los_pares_minimos_legitimos_no_se_tocaron(self):
+        """La otra mitad de §16: lo que NO se corrige.
+
+        El escáner de acentos da 1.094 candidatos y el grueso son pares mínimos
+        legítimos del español. Corregirlos sería destruir texto válido, y es el
+        error más fácil de cometer con un detector de acentos. Estos conteos son
+        un suelo: si bajan, una pasada se está comiendo formas correctas.
+        """
+        piso = {'éstos': 137, 'cuánto': 128, 'terminó': 29, 'período': 786,
+                'dónde': 41, 'cambió': 21, 'hacía': 32, 'inició': 23}
+        for forma, minimo in piso.items():
+            n = sum(t.count(forma) for t in self.salida.values())
+            self.assertGreaterEqual(
+                n, minimo,
+                f'«{forma}» bajó a {n} (< {minimo}): es una forma legítima, '
+                f'no un defecto; una pasada la está corrigiendo de más')
 
     def test_no_quedan_palabras_partidas(self):
         """La pasada transversal de §15: 317 pares de palabra partida -> 0.

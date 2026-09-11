@@ -1522,6 +1522,14 @@
           "Despues": "poco coherente con la propia presentación del IPoM, que consignó que el Banco Central",
           "Contexto": "mentos de 25 puntos base cada vez. Asimismo, un aumento de 50 puntos base también arriesga ser poco coherente con la propia presentación del IPoM. que consignó que el Banco Central de Chile trataría de evitar acciones que pudieran arriesgar una sobre",
           "Justificacion": "Punto donde corresponde una coma: lo sigue 'que' en minúscula, de modo que la oración continúa y no hay otra lectura posible. Medido: 'IPoM. que consignó' aparece 1 sola vez. Mismo criterio ya aplicado y aceptado en RPM-2006-10-12:940:1 ('cuarto trimestre de este año. de acuerdo al Informe' por coma). No se agrega ni se suprime una palabra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": ". • Los indicadores salaríales tuvieron una ac",
+          "Despues": ". • Los indicadores salariales tuvieron una ac",
+          "Ocurrencias": 1,
+          "Contexto": "a volvieron a aumentar y algunas se ubican hoy en torno a 4%. • Los indicadores salaríales tuvieron una aceleración importante el último mes, mien",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 45 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -3441,6 +3449,22 @@
           "Ocurrencias": 1,
           "Contexto": "ado del cobre destaca, principalmente, la mantención de una alta demanda de las econom ías emergentes. Asimismo,señala que ante la reducción en la",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2935 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ñor Gerente que las noticías son claramente ",
+          "Despues": "ñor Gerente que las noticias son claramente ",
+          "Ocurrencias": 1,
+          "Contexto": "rte, respecto a los precios de las viviendas, menciona el señor Gerente que las noticías son claramente negativas, ya que todo indica una fuerte",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 944 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "n en lo que son las tendencías\ninflacionarias.",
+          "Despues": "n en lo que son las tendencias\ninflacionarias.",
+          "Ocurrencias": 1,
+          "Contexto": " en Estados Unidos de América, presentaron una leve reversión en lo que son las tendencías inflacionarias. Sin embargo, el IPC se mantiene en tasa",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 225 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -3828,6 +3852,14 @@
           "Ocurrencias": 1,
           "Contexto": "zó a ocurrir un poco antes. Añade que en el caso de las bolsas de las economías desarro lladas, éstas no se vieron afectadas por la crisis asiática, s",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 650 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " Continuando con la comparacíón entre ambas cri",
+          "Despues": " Continuando con la comparación entre ambas cri",
+          "Ocurrencias": 1,
+          "Contexto": " impactadas en dicha crisis fueron las economías emergentes. Continuando con la comparacíón entre ambas crisis, el señor Sergio Lehmann menciona qu",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 234 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -4799,6 +4831,14 @@
           "Ocurrencias": 1,
           "Contexto": "eciación del peso y algunos factores puntuales, y las expectativas se mantienen en tomo a 3% anual. Hace presente que este escenario, como se consign",
           "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "teria de inflación, índica que el registro",
+          "Despues": "teria de inflación, indica que el registro",
+          "Ocurrencias": 1,
+          "Contexto": "mbargo, sigue en niveles bajos en términos históricos. En materia de inflación, índica que el registro del mes de marzo sorprendió nuevamente ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -4945,6 +4985,14 @@
           "Ocurrencias": 1,
           "Contexto": "habido cambios estructurales. No se sabe cuánto tiempo van a durar, pero hay un am biente general en el mundo de tasas de interés más bajas y eso",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 87 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "nomías tienen tasas nomínales más bajas que C",
+          "Despues": "nomías tienen tasas nominales más bajas que C",
+          "Ocurrencias": 1,
+          "Contexto": "gentes que son listadas habitualmente, un tercio de esas economías tienen tasas nomínales más bajas que Chile y dos tercios las tienen más altas.",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -5614,6 +5662,14 @@
           "Ocurrencias": 3,
           "Contexto": "ificar con los argumentos contrarios. Indica principalmente, que la apreciación cambiarla ya ha sido de una magnitud tal que generará probablemente e",
           "Justificacion": "cambiarla por cambiaria. Misma familia y mismo defecto. Medido: 8 apariciones (todas dentro de \"cambiarlas\"), todas adjetivas y revisadas una por una: \"paridades cambiarlas\" 4 veces, \"implicancias cambiarlas\" 2, \"expectativas cambiarlas\" 1, \"coberturas cambiarlas\" 1. \"cambiarias\" ya aparece 19 veces en el corpus."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "es. Adicionalmente, índica que aumentar la",
+          "Despues": "es. Adicionalmente, indica que aumentar la",
+          "Ocurrencias": 1,
+          "Contexto": "olítica Monetaria y eliminar el sesgo, sean opciones similares. Adicionalmente, índica que aumentar la Tasa de Política Monetaria manteniendo ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -7154,6 +7210,22 @@
           "Ocurrencias": 1,
           "Contexto": "depósitos en dólares por parte de privados, a lo que se suman las restricciones cambiarías impuestas en ese país y un cierto temor a la pesificación ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "iaron el proceso de desapalancamíento antes de la cri",
+          "Despues": "iaron el proceso de desapalancamiento antes de la cri",
+          "Ocurrencias": 1,
+          "Contexto": "en el año 2009, señalando que quienes son arrendatarios iniciaron el proceso de desapalancamíento antes de la crisis, mientras que los propietarios de vi",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 25 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ncian un proceso de desapalancamíento que está en des",
+          "Despues": "ncian un proceso de desapalancamiento que está en des",
+          "Ocurrencias": 1,
+          "Contexto": "l año 2009. A título de resumen, indica que las cifras evidencian un proceso de desapalancamíento que está en desarrollo y que se prolongará por un tiemp",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 26 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -7184,6 +7256,14 @@
           "Ocurrencias": 3,
           "Contexto": "principalmente sobre el tipo de cambio nominal en la medida que la flexibilidad cambiaría y el objetivo de mantener la inflación requieren de un ajus",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ses, por el tipo de financíamiento externo que se ",
+          "Despues": "ses, por el tipo de financiamiento externo que se ",
+          "Ocurrencias": 1,
+          "Contexto": "de estas variables se ha dado de manera similar en otros países, por el tipo de financíamiento externo que se observa y por la trayectoria que ha toma",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -7387,6 +7467,14 @@
           "Ocurrencias": 1,
           "Contexto": "s crediticios, el seguimiento de algunos sectores específicos y la flexibilidad cambiaría. En lo concerniente a la política monetaria, concuerda con ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "n. En este sentido, índica que si bien las",
+          "Despues": "n. En este sentido, indica que si bien las",
+          "Ocurrencias": 1,
+          "Contexto": ", el más relevante a observar es el dinamismo de la inversión. En este sentido, índica que si bien las cuentas externas de la economía chilena",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -7567,6 +7655,14 @@
           "Ocurrencias": 1,
           "Contexto": "ca monetaria y con ello se contribuiría a frenar las presiones a la apreciación cambiaría, incentivando al sector exportador y permitiendo contrarres",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "n. En este sentido, índica que de acuerdo ",
+          "Despues": "n. En este sentido, indica que de acuerdo ",
+          "Ocurrencias": 1,
+          "Contexto": "mayor claridad síntomas de una desaceleración de la inversión. En este sentido, índica que de acuerdo con el último Catastro de la Corporación",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -8019,6 +8115,14 @@
           "Ocurrencias": 1,
           "Contexto": " las observadas un semestre atrás, en línea con la rebaja de la TPM. En materia cambiaría, destaca que el tipo de cambio se depreció $3 desde la RPM ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "nto de los salarios nomínales disminuye desde",
+          "Despues": "nto de los salarios nominales disminuye desde",
+          "Ocurrencias": 1,
+          "Contexto": " de un cuarto de la muestra de salarios, la tasa de crecimiento de los salarios nomínales disminuye desde 6,3% a 5,7%.",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -10411,6 +10515,14 @@
           "Ocurrencias": 1,
           "Contexto": "idad que se amplían en el piano interno, lo cual debiera inclinar la decisión de! día de hoy, hacia la mantención de la tasa de política ",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "n mayormente de las claúsulas habituales de i",
+          "Despues": "n mayormente de las cláusulas habituales de i",
+          "Ocurrencias": 1,
+          "Contexto": "on su variación anual, observaron incrementos que no difieren mayormente de las claúsulas habituales de indexación, e incluso redujeron su veloci",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 68 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -10464,6 +10576,14 @@
           "Ocurrencias": 1,
           "Contexto": ", como son la apreciación del peso, la normalización de shocks previos en precios de perecióles y la reducción del impuesto de timbres y estampil",
           "Justificacion": "perecióles por perecibles. Defecto sistematico descubierto en la ronda 185 y medido en todo el corpus: 10 apariciones en 9 filas, todas con el mismo dano (la b leida como o con tilde). \"perecióles\" no es palabra del espanol; \"perecibles\" aparece 166 veces en 123 filas. Los 10 contextos se revisaron uno por uno y todos son \"alimentos perecibles\", \"bienes perecibles\", \"los perecibles\" o \"tanto perecibles como no perecibles\". Precision 100%, sin falsos positivos posibles."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " las necesidades de financíamiento externo, por lo",
+          "Despues": " las necesidades de financiamiento externo, por lo",
+          "Ocurrencias": 1,
+          "Contexto": "o por sus implicancias para el déficit de cuenta corriente y las necesidades de financíamiento externo, por lo que en su opinión, para abordar este te",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -10963,6 +11083,14 @@
           "Ocurrencias": 1,
           "Contexto": "ebajó recientemente la calificación crediticia de Irlanda al nivel de \"bono basura\", corriendo la misma suerte de Portugal y Gre",
           "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ión de los salarios nomínales y reales, que c",
+          "Despues": "ión de los salarios nominales y reales, que c",
+          "Ocurrencias": 1,
+          "Contexto": "s últimos meses, a pesar de que en mayo hubo una desaceleración de los salarios nomínales y reales, que crecieron 5,3 y 2,0%, respectivamente. Ad",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -11535,6 +11663,14 @@
           "Ocurrencias": 1,
           "Contexto": "s, muestra una desaceleración, y el costo de la mano de obra crece a un ritmo contenido, similar ai de los meses anteriores, lo que resulta concordante con la evolución de",
           "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " el ámbito interno, índica el Consejero se",
+          "Despues": " el ámbito interno, indica el Consejero se",
+          "Ocurrencias": 1,
+          "Contexto": "to la cifra para el próximo año, se corrige hacia arriba. En el ámbito interno, índica el Consejero señor Marshall, las condiciones financiera",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -11633,6 +11769,14 @@
           "Ocurrencias": 1,
           "Contexto": "endo subyacente en los rangos negativos y que el índice total está en cero, la proyección de Consesus Forecast muestra que habrá un aumento, lo que está relacionado con ",
           "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "te. Por otra parte, índica que el precio d",
+          "Despues": "te. Por otra parte, indica que el precio d",
+          "Ocurrencias": 1,
+          "Contexto": " 2006, pero posteriormente el proceso se revirtió parcialmente. Por otra parte, índica que el precio del cobre aumentó más de 15% en el mes, a",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -11656,6 +11800,14 @@
           "Ocurrencias": 1,
           "Contexto": " puedan hacer, pero no respecto a la estabilidad financiera, como tampoco a los fundam entos más básicos relacionados con la capacidad de pago y el ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 224 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "e ver con una mayor íncertidumbre, respecto a la ",
+          "Despues": "e ver con una mayor incertidumbre, respecto a la ",
+          "Ocurrencias": 1,
+          "Contexto": "cto a sus escenarios extremos. Comenta que más bien tiene que ver con una mayor íncertidumbre, respecto a la evolución de la economía mundial en los ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -11865,6 +12017,14 @@
           "Ocurrencias": 1,
           "Contexto": "ndamentalmente derivado de una cierta normalización en la refinación en Estados U nidos de América. Por otra parte, el Gerente de Análisis Inte",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2781 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "eferirse a precios, índica que la informac",
+          "Despues": "eferirse a precios, indica que la informac",
+          "Ocurrencias": 1,
+          "Contexto": " datos negativos. El Gerente de Análisis Internacional, al referirse a precios, índica que la información ha sido mixta, positiva si se mira e",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -12538,6 +12698,14 @@
           "Ocurrencias": 1,
           "Contexto": "iento de la situación de Medio Oriente y problemas de distribución en países no O PEP (Rusia). De esta forma, se revisan al alza las proyecci",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 49 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " anualízado)",
+          "Despues": " anualizado)",
+          "Ocurrencias": 1,
+          "Contexto": "ión al alza del PIB del cuarto trim estre del 2004 (3,8% t/t anualízado), indicadores que dan cuenta de la forta",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 109 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -14088,6 +14256,14 @@
           "Ocurrencias": 1,
           "Contexto": "municado, recomienda moderar en alguna medida el tenor de lo que se espera para ios próximos meses. Por lo demás, menciona que la preparaci",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "magnitud del ajuste cambíario observado, esti",
+          "Despues": "magnitud del ajuste cambiario observado, esti",
+          "Ocurrencias": 1,
+          "Contexto": "ta de inflación. No obstante lo expresado y considerando la magnitud del ajuste cambíario observado, estima que sus efectos e implicancias deben ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 213 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -15440,6 +15616,14 @@
           "Ocurrencias": 1,
           "Contexto": "esumiendo su comentario, el señor Ministro destaca los siguientes aspectos: que efectivam ente estima que existe un cierre de brechas más acelerado de",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 310 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "e no perder esto de vísta, ese incremento",
+          "Despues": "e no perder esto de vista, ese incremento",
+          "Ocurrencias": 1,
+          "Contexto": "C, pero como se ha dicho en esta reunión, y es muy importante no perder esto de vísta, ese incremento se ha concentrado principalmente en tre",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 501 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -15526,6 +15710,22 @@
           "Ocurrencias": 1,
           "Contexto": "Monetaria anterior. Señala que en relación a los precios internacionales de los alim entos, éstos no mostraron nuevas sorpresas en el último mes. ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 968 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " futura. En efecto, índica que las proyecc",
+          "Despues": " futura. En efecto, indica que las proyecc",
+          "Ocurrencias": 1,
+          "Contexto": "aria hoy, tiene que ver con las perspectivas de la inflación futura. En efecto, índica que las proyecciones de corto plazo apuntan a una acele",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "zo. Adicionalmente, índica que la compensa",
+          "Despues": "zo. Adicionalmente, indica que la compensa",
+          "Ocurrencias": 1,
+          "Contexto": "mbio en los precios, la que se percibe mayor en el corto plazo. Adicionalmente, índica que la compensación inflacionaria uno en uno también se",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5182 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -16021,6 +16221,14 @@
           "Ocurrencias": 1,
           "Contexto": "n los próximos meses, y según la definición del NBER, se podría entender que la econom ía empieza a salir de la etapa recesiva una vez que las tr",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2981 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "lisis Internacional índica, en primer térm",
+          "Despues": "lisis Internacional indica, en primer térm",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional índica, en primer término, que la actividad mundial experiment",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -16673,6 +16881,14 @@
           "Ocurrencias": 1,
           "Contexto": "eralizadas, aunque tal vez un poco más heterogéneas desde el punto de vista del consum idor en relación con las empresas. Subraya el caso de Corea,",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 33 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " que las confianzas tambíén han continuado ",
+          "Despues": " que las confianzas también han continuado ",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Sergio Lehmann hace presente que las confianzas tambíén han continuado recuperándose. Menciona algunos casos en",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 4823 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     },
@@ -16748,6 +16964,1654 @@
           "Ocurrencias": 1,
           "Contexto": "ición cautelosa. A su juicio, el punto de partida es muy relevante a la hora de tom ar la decisión. Destaca que la TPM real, considerando la i",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 193 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:288:7",
+      "Fecha": "2005-06-09",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "o se está viendo lo contrarío, en un contexto",
+          "Despues": "o se está viendo lo contrario, en un contexto",
+          "Ocurrencias": 1,
+          "Contexto": "que haberse producido un aumento de tales costos, sin embargo se está viendo lo contrarío, en un contexto en que, esos costos están creciendo muy",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 271 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:645:1",
+      "Fecha": "2006-04-13",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "tica monetaria; las potencíales opciones inflac",
+          "Despues": "tica monetaria; las potenciales opciones inflac",
+          "Ocurrencias": 1,
+          "Contexto": "s en ambos lados. Entre las discutibles está la tasa de política monetaria; las potencíales opciones inflacionarias que pueden provenir del rápido ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 72 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:708:1",
+      "Fecha": "2006-06-15",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "l precio del cobre, índica que éste ha est",
+          "Despues": "l precio del cobre, indica que éste ha est",
+          "Ocurrencias": 1,
+          "Contexto": "entre dos tipos de argumentos. En primer lugar en relación al precio del cobre, índica que éste ha estado bajando y la verdad es que esto se e",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:780:1",
+      "Fecha": "2006-07-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "mucho más abiertas. índica el señor Vicepr",
+          "Despues": "mucho más abiertas. indica el señor Vicepr",
+          "Ocurrencias": 1,
+          "Contexto": "entado para esta reunión, revela que las opciones hoy están mucho más abiertas. índica el señor Vicepresidente que no se referirá en detalle a",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:982:1",
+      "Fecha": "2006-11-16",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "sminuir.\nLos costos salaríales exhiben tasas d",
+          "Despues": "sminuir.\nLos costos salariales exhiben tasas d",
+          "Ocurrencias": 1,
+          "Contexto": "n el último tiempo, y las tasas de desocupación vuelven a disminuir. Los costos salaríales exhiben tasas de variación acotadas. Indica que en sept",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 45 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1053:1",
+      "Fecha": "2007-01-11",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "erior. Sin embargo, índica el señor Marfán",
+          "Despues": "erior. Sin embargo, indica el señor Marfán",
+          "Ocurrencias": 1,
+          "Contexto": "eríodo, lo que introduce alguna complejidad al argumento anterior. Sin embargo, índica el señor Marfán, el Banco debe ser autoconsistente entr",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1067:1",
+      "Fecha": "2007-02-08",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " es una variable de íncertidumbre que está ahí y ",
+          "Despues": " es una variable de incertidumbre que está ahí y ",
+          "Ocurrencias": 1,
+          "Contexto": "evancia para el tipo de cambio. Agrega el señor De Ramón que es una variable de íncertidumbre que está ahí y que debilita al peso, entonces habría qu",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1096:1",
+      "Fecha": "2007-02-08",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "s para instrumentos nomínales de mediano y la",
+          "Despues": "s para instrumentos nominales de mediano y la",
+          "Ocurrencias": 1,
+          "Contexto": "eshizo en las semanas siguientes. En la actualidad, las tasas para instrumentos nomínales de mediano y largo plazo se ubican por debajo de los ni",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1110:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "laus Schmidt-Hebbel índica que, a su juici",
+          "Despues": "laus Schmidt-Hebbel indica que, a su juici",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Investigación Económica, señor Klaus Schmidt-Hebbel índica que, a su juicio, un elemento que se señala en la prese",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1158:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "de inflación que se materialíce en los próximos",
+          "Despues": "de inflación que se materialice en los próximos",
+          "Ocurrencias": 1,
+          "Contexto": "os meses. Es decir, se trata de riesgos de que el escenario de inflación que se materialíce en los próximos trimestres difiera marcadamente de las ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 64 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " los datos sino que medíante opiniones en un",
+          "Despues": " los datos sino que mediante opiniones en un",
+          "Ocurrencias": 1,
+          "Contexto": "ido informadas no solo a partir de una lectura y análisis de los datos sino que medíante opiniones en un documento formal del Consejo. Finalment",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 44 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1307:1",
+      "Fecha": "2007-06-14",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "l IPC. Sin embargo, índica, lo más probabl",
+          "Despues": "l IPC. Sin embargo, indica, lo más probabl",
+          "Ocurrencias": 1,
+          "Contexto": "rvar la proyección de inflación basada en los componentes del IPC. Sin embargo, índica, lo más probable es que estas mediciones sigan registra",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-08-09:1400:1",
+      "Fecha": "2007-08-09",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": ", podrían generarse potencíales presiones futur",
+          "Despues": ", podrían generarse potenciales presiones futur",
+          "Ocurrencias": 1,
+          "Contexto": "ernativamente a los rezagos en la relación empleo - salarios, podrían generarse potencíales presiones futuras aunque hoy eso solo se observaría en ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 72 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1634:1",
+      "Fecha": "2008-01-10",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "s: En primer lugar, índica que el shock ti",
+          "Despues": "s: En primer lugar, indica que el shock ti",
+          "Ocurrencias": 1,
+          "Contexto": "rado de cautela tiene en su opinión, tres grandes componentes: En primer lugar, índica que el shock tiene un componente transitorio y puntual ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "nsiva, y no todo lo contrarío. Por un lado, s",
+          "Despues": "nsiva, y no todo lo contrario. Por un lado, s",
+          "Ocurrencias": 1,
+          "Contexto": "encia que sugiere que la Política Monetaria está siendo expansiva, y no todo lo contrarío. Por un lado, señala el señor Consejero que desde fines",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 271 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1651:1",
+      "Fecha": "2008-02-07",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "o del día anterior. índica que el tipo de ",
+          "Despues": "o del día anterior. indica que el tipo de ",
+          "Ocurrencias": 1,
+          "Contexto": "anzó cotizaciones de hasta $475, aumentando casi $9, respecto del día anterior. índica que el tipo de cambio real (TCR) se estima que promedió",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1663:2",
+      "Fecha": "2008-02-07",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ente señor Magendzo índica que gran parte ",
+          "Despues": "ente señor Magendzo indica que gran parte ",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Magendzo índica que gran parte de la volatilidad que se ha presentado e",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1770:1",
+      "Fecha": "2008-04-10",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ero señor Marshall, índica que la estimaci",
+          "Despues": "ero señor Marshall, indica que la estimaci",
+          "Ocurrencias": 1,
+          "Contexto": "ico Interino señor Claudio Soto sobre la consulta del Consejero señor Marshall, índica que la estimación que tiene el staff para la tasa actua",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2441:7",
+      "Fecha": "2009-04-09",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "or José De Gregorio índica que sí las cifr",
+          "Despues": "or José De Gregorio indica que sí las cifr",
+          "Ocurrencias": 1,
+          "Contexto": "Al respecto, el Presidente señor José De Gregorio índica que sí las cifras presentadas corresponden a variacione",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2567:1",
+      "Fecha": "2009-06-16",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ternos en el cuarto trímestre del 2008, espec",
+          "Despues": "ternos en el cuarto trimestre del 2008, espec",
+          "Ocurrencias": 1,
+          "Contexto": "al señala que se observa un fuerte ajuste de los créditos externos en el cuarto trímestre del 2008, especialmente en Asia emergente y América Lat",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 3601 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "muy en línea con el comportamíento del precio del ",
+          "Despues": "muy en línea con el comportamiento del precio del ",
+          "Ocurrencias": 1,
+          "Contexto": "es. En cuanto a los metales, indica que ellos se han movido muy en línea con el comportamíento del precio del cobre, que ha aumentado en 10% aproximad",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 736 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2580:2",
+      "Fecha": "2009-06-16",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "deseado. Añade, que dícha información es ",
+          "Despues": "deseado. Añade, que dicha información es ",
+          "Ocurrencias": 1,
+          "Contexto": "encuestados responde que las existencias están por sobre lo deseado. Añade, que dícha información es distinta de aquélla que dice relación co",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 736 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2668:3",
+      "Fecha": "2009-08-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ergía. Este último, índica, proyectó un -5",
+          "Despues": "ergía. Este último, indica, proyectó un -5",
+          "Ocurrencias": 1,
+          "Contexto": "ra que es algo mayor que lo que proyectaría el modelo con energía. Este último, índica, proyectó un -5% para junio, mientras que el IMACEC fue",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2696:1",
+      "Fecha": "2009-09-08",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "bién significativo, índica que continúan a",
+          "Despues": "bién significativo, indica que continúan a",
+          "Ocurrencias": 1,
+          "Contexto": "umo, que en el mes anterior habían registrado un repunte también significativo, índica que continúan altas en relación con las cifras del pres",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2794:2",
+      "Fecha": "2009-11-12",
+      "Actor": "Andrés Velasco Brañes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ión con que hay tal íncertidumbre respecto de lo ",
+          "Despues": "ión con que hay tal incertidumbre respecto de lo ",
+          "Ocurrencias": 1,
+          "Contexto": "a economía que hay detrás, específicamente lo que dice relación con que hay tal íncertidumbre respecto de lo que va a acontecer con la FLAP, o que la",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2796:1",
+      "Fecha": "2009-11-12",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "í hacen recordar la íncertidumbre en la velocidad",
+          "Despues": "í hacen recordar la incertidumbre en la velocidad",
+          "Ocurrencias": 1,
+          "Contexto": "torio y que no afecta las perspectivas de mediano plazo, y sí hacen recordar la íncertidumbre en la velocidad de la recuperación, tanto del mundo com",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2796:3",
+      "Fecha": "2009-11-12",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "e dos temas agregan íncertidumbre al escenario gl",
+          "Despues": "e dos temas agregan incertidumbre al escenario gl",
+          "Ocurrencias": 1,
+          "Contexto": " proveniente de las economías emergentes, y hace presente que dos temas agregan íncertidumbre al escenario global: la debilidad del dólar y el retiro",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2821:1",
+      "Fecha": "2009-12-15",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "dose a los spreads, índica que se ha hecho",
+          "Despues": "dose a los spreads, indica que se ha hecho",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Claudio Soto, refiriéndose a los spreads, índica que se ha hecho una separación por plazo, observándose ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3103:1",
+      "Fecha": "2010-05-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "mo año, sino que lo contrarío.",
+          "Despues": "mo año, sino que lo contrario.",
+          "Ocurrencias": 1,
+          "Contexto": "nsitorio y no debería comprometer lo que va a pasar el próximo año, sino que lo contrarío.",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 271 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3105:1",
+      "Fecha": "2010-05-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "to del terremoto en maquinarías y equipos y en ",
+          "Despues": "to del terremoto en maquinarias y equipos y en ",
+          "Ocurrencias": 1,
+          "Contexto": "hay una especie de bunching de corto plazo producto del efecto del terremoto en maquinarías y equipos y en importaciones de consumo. De todas forma",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 141 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3107:2",
+      "Fecha": "2010-05-13",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "íneas y que, por el contrarío, han tenido que",
+          "Despues": "íneas y que, por el contrario, han tenido que",
+          "Ocurrencias": 1,
+          "Contexto": "os y que, de hecho, ningún banco ha reportado problemas de líneas y que, por el contrarío, han tenido que renunciar a lineas externas. Respecto d",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 271 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3227:2",
+      "Fecha": "2010-07-15",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "do en períodos post recesíón.",
+          "Despues": "do en períodos post recesión.",
+          "Ocurrencias": 1,
+          "Contexto": "ededor de 350.000, y es muy superior, de hecho, a lo observado en períodos post recesíón.",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 222 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-05-12:4009:1",
+      "Fecha": "2011-05-12",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "plicancias sobre el financiamíento de Chile y sobr",
+          "Despues": "plicancias sobre el financiamiento de Chile y sobr",
+          "Ocurrencias": 1,
+          "Contexto": " tasas de mercado para la deuda americana, lo que tendría implicancias sobre el financiamíento de Chile y sobre el tipo de cambio, entre otros. En su ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4106:1",
+      "Fecha": "2011-06-14",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "y disponibilidad de financíamiento internacional. ",
+          "Despues": "y disponibilidad de financiamiento internacional. ",
+          "Ocurrencias": 1,
+          "Contexto": "tercambio, proyección del crecimiento de socios comerciales y disponibilidad de financíamiento internacional. No obstante, esta es una situación que d",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": ". En este contexto, índica que el balance ",
+          "Despues": ". En este contexto, indica que el balance ",
+          "Ocurrencias": 1,
+          "Contexto": " una situación que deberá continuar observándose con cuidado. En este contexto, índica que el balance de riesgos para la inflación aconseja co",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4114:1",
+      "Fecha": "2011-06-14",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "perimentado ajustes margínales. Informa que pa",
+          "Despues": "perimentado ajustes marginales. Informa que pa",
+          "Ocurrencias": 1,
+          "Contexto": "inflación; y que las expectativas para la TPM también han experimentado ajustes margínales. Informa que para esta Reunión, las opiniones de mercad",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 113 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4116:1",
+      "Fecha": "2011-06-14",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "sión crecientemente mayoritaría y que, en lo gr",
+          "Despues": "sión crecientemente mayoritaria y que, en lo gr",
+          "Ocurrencias": 1,
+          "Contexto": " un escenario de corto y de mediano plazo que tendría una visión crecientemente mayoritaría y que, en lo grueso, coincide con el del Consejo Agrega",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4117:1",
+      "Fecha": "2011-06-14",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": ". Hace presente que potencíales aumentos en la ",
+          "Despues": ". Hace presente que potenciales aumentos en la ",
+          "Ocurrencias": 1,
+          "Contexto": "omía chilena, la que podría apuntar en distintas direcciones. Hace presente que potencíales aumentos en la aversión al riesgo, caídas en los precio",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 72 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4121:1",
+      "Fecha": "2011-07-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "percepción de mayor incertídumbre. En segundo lug",
+          "Despues": "percepción de mayor incertidumbre. En segundo lug",
+          "Ocurrencias": 1,
+          "Contexto": "ego, predominan las caídas en los mercados financieros y la percepción de mayor incertídumbre. En segundo lugar, destaca que los indicadores de activ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4126:1",
+      "Fecha": "2011-07-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " A título ejemplar, índica que en Estados ",
+          "Despues": " A título ejemplar, indica que en Estados ",
+          "Ocurrencias": 1,
+          "Contexto": "n que son bastante más altas que en las economías avanzadas. A título ejemplar, índica que en Estados Unidos, el dato de creación de empleo pu",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4225:1",
+      "Fecha": "2011-08-18",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "e tasas de interés, índica que las tasas l",
+          "Despues": "e tasas de interés, indica que las tasas l",
+          "Ocurrencias": 1,
+          "Contexto": "el caso de Corea y China, que fueron negativos. En materia de tasas de interés, índica que las tasas largas han caído de manera muy significat",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4276:1",
+      "Fecha": "2011-08-18",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "iciones de acceso a fínanciamiento externo de la e",
+          "Despues": "iciones de acceso a financiamiento externo de la e",
+          "Ocurrencias": 1,
+          "Contexto": " han empeorado y que si bien no se han reflejado en las condiciones de acceso a fínanciamiento externo de la economía, sí dan cuenta de una fragilidad",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-09-15:4302:1",
+      "Fecha": "2011-09-15",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "a tasa de los bonos nomínales y reales del Ba",
+          "Despues": "a tasa de los bonos nominales y reales del Ba",
+          "Ocurrencias": 1,
+          "Contexto": "e se desatara la mayor turbulencia financiera externa; que la tasa de los bonos nomínales y reales del Banco Central han vuelto a caer; y que el ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4722:3",
+      "Fecha": "2012-03-15",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " enero, en términos nomínales, el índice de r",
+          "Despues": " enero, en términos nominales, el índice de r",
+          "Ocurrencias": 1,
+          "Contexto": "lado, los salarios están creciendo con mayor fuerza. Durante enero, en términos nomínales, el índice de remuneraciones creció 6,7% en 12 meses, t",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4958:1",
+      "Fecha": "2012-07-12",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "o. En este sentido, índica que las cifras ",
+          "Despues": "o. En este sentido, indica que las cifras ",
+          "Ocurrencias": 1,
+          "Contexto": "ntes recientes no modifican en forma relevante este escenario. En este sentido, índica que las cifras conocidas muestran una desaceleración al",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5135:1",
+      "Fecha": "2012-10-18",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "teria de inflación, índica que la variació",
+          "Despues": "teria de inflación, indica que la variació",
+          "Ocurrencias": 1,
+          "Contexto": "urso dada la evolución registrada en los últimos días. En materia de inflación, índica que la variación de 0,8% experimentada en el mes de sep",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5148:1",
+      "Fecha": "2012-10-18",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "e al plano externo, índica que no se obser",
+          "Despues": "e al plano externo, indica que no se obser",
+          "Ocurrencias": 1,
+          "Contexto": "a actividad local y la inflación bajo control. En lo atinente al plano externo, índica que no se observan grandes cambios y que persisten los ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5149:1",
+      "Fecha": "2012-10-18",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "gentes, así como la íncertidumbre que aún persist",
+          "Despues": "gentes, así como la incertidumbre que aún persist",
+          "Ocurrencias": 1,
+          "Contexto": "la recesión europea y la desaceleración de los mercados emergentes, así como la íncertidumbre que aún persiste. En este contexto, se estima necesario",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5287:1",
+      "Fecha": "2013-01-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "iciones de Créditos Bancaríos del Banco, las ",
+          "Despues": "iciones de Créditos bancarios del Banco, las ",
+          "Ocurrencias": 1,
+          "Contexto": "imismo, hace notar que de acuerdo con la Encuesta sobre Condiciones de Créditos Bancaríos del Banco, las condiciones de oferta de crédito se perc",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 126 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ones se corrigieran margínalmente a la baja. A tí",
+          "Despues": "ones se corrigieran marginalmente a la baja. A tí",
+          "Ocurrencias": 1,
+          "Contexto": "on lo implícito en el último IPoM, mientras que las proyecciones se corrigieran margínalmente a la baja. A título de último hecho destacado del mes, ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 282 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "n el mercado espera mayorítariamente la mantenc",
+          "Despues": "n el mercado espera mayoritariamente la mantenc",
+          "Ocurrencias": 1,
+          "Contexto": "rva forward se ha movido levemente al alza, para esta Reunión el mercado espera mayorítariamente la mantención de la TPM. El señor Claudio Soto pro",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "cimiento del IMACEC desestacíonalizado registró una te",
+          "Despues": "cimiento del IMACEC desestacionalizado registró una te",
+          "Ocurrencias": 1,
+          "Contexto": " noviembre resultó acorde con lo esperado. Agrega que el crecimiento del IMACEC desestacíonalizado registró una tendencia creciente desde comienzos del añ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 108 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5308:1",
+      "Fecha": "2013-01-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ñor Rodrigo Vergara índica la necesidad de",
+          "Despues": "ñor Rodrigo Vergara indica la necesidad de",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor Rodrigo Vergara índica la necesidad de efectuar un seguimiento de la evolución",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5322:1",
+      "Fecha": "2013-01-17",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "co de las reglas de índexación de los contrato",
+          "Despues": "co de las reglas de indexación de los contrato",
+          "Ocurrencias": 1,
+          "Contexto": " respecto de las alzas derivadas de aplicar el efecto mecánico de las reglas de índexación de los contratos de trabajo. En resumen, plantea que el",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5328:1",
+      "Fecha": "2013-01-17",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ros. En particular, índica que si bien hub",
+          "Despues": "ros. En particular, indica que si bien hub",
+          "Ocurrencias": 1,
+          "Contexto": " alcance que ello incluye también a los indicadores financieros. En particular, índica que si bien hubo un acuerdo parcial y transitorio en ma",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-03-14:5405:1",
+      "Fecha": "2013-03-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "icano, que registró ínicialmente una depreciació",
+          "Despues": "icano, que registró inicialmente una depreciació",
+          "Ocurrencias": 1,
+          "Contexto": "bre el particular, resalta la alta variabilidad del peso mexicano, que registró ínicialmente una depreciación del orden de 1% y que luego se revirti",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 50 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-03-14:5422:1",
+      "Fecha": "2013-03-14",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ran los patrones de índexación habituales. En ",
+          "Despues": "ran los patrones de indexación habituales. En ",
+          "Ocurrencias": 1,
+          "Contexto": "de inflación, y en este sentido, acota que los salarios superan los patrones de índexación habituales. En lo que concierne al tema cambiario, menc",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-03-14:5425:1",
+      "Fecha": "2013-03-14",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Gerente de Análisis Macroeconómíco prosigue con su",
+          "Despues": "Gerente de Análisis Macroeconómico prosigue con su",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Macroeconómíco prosigue con su presentación precisando que el IPC de f",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 1000 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-03-14:5432:1",
+      "Fecha": "2013-03-14",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "s de inversión y su financíamiento. A su juicio, h",
+          "Despues": "s de inversión y su financiamiento. A su juicio, h",
+          "Ocurrencias": 1,
+          "Contexto": "ino que también asociado a la dinámica que genera en términos de inversión y su financíamiento. A su juicio, hay elementos que son algo contradictorio",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-04-11:5508:1",
+      "Fecha": "2013-04-11",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "nfirman que la superexpansivídad de la política ",
+          "Despues": "nfirman que la superexpansividad de la política ",
+          "Ocurrencias": 1,
+          "Contexto": "e atraviesan los países desarrollados y, al mismo tiempo, confirman que la superexpansivídad de la política monetaria durará por un buen tiempo. Hac",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 129 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-05-16:5566:3",
+      "Fecha": "2013-05-16",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "urozona continúa en recesíón y mantiene una ",
+          "Despues": "urozona continúa en recesión y mantiene una ",
+          "Ocurrencias": 1,
+          "Contexto": "no, las condiciones financieras muestran alguna mejora. La Eurozona continúa en recesíón y mantiene una frágil situación fiscal y financiera, pe",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 222 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-07-11:5669:1",
+      "Fecha": "2013-07-11",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "or otras fuentes de financiamíento, la magnitud de",
+          "Despues": "or otras fuentes de financiamiento, la magnitud de",
+          "Ocurrencias": 1,
+          "Contexto": "to, plantea que si bien se aprecia un grado de sustitución por otras fuentes de financiamíento, la magnitud de esta sustitución no compensa la disminu",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-07-11:5671:1",
+      "Fecha": "2013-07-11",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " mercado se inclina mayoritaríamente a que se m",
+          "Despues": " mercado se inclina mayoritariamente a que se m",
+          "Ocurrencias": 1,
+          "Contexto": "o manifiesta que para esta Reunión de Política Monetaria, el mercado se inclina mayoritaríamente a que se mantendrá la TPM, mientras que para la Re",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-10-17:5827:1",
+      "Fecha": "2013-10-17",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "obre el particular, índica que en la recie",
+          "Despues": "obre el particular, indica que en la recie",
+          "Ocurrencias": 1,
+          "Contexto": " materia de tasas de interés en Estados Unidos de América. Sobre el particular, índica que en la reciente Reunión Anual organizada por el FMI ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-10-17:5830:1",
+      "Fecha": "2013-10-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "zón de lo anterior, índica que se ha corre",
+          "Despues": "zón de lo anterior, indica que se ha corre",
+          "Ocurrencias": 1,
+          "Contexto": "bo de algunos meses, los precios tienden a revertirse. En razón de lo anterior, índica que se ha corregido al alza la proyección del precio de",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-11-19:5861:1",
+      "Fecha": "2013-11-19",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "re ambos índices es atríbuible al precio de la",
+          "Despues": "re ambos índices es atribuible al precio de la",
+          "Ocurrencias": 1,
+          "Contexto": "ivo, no así el IPC subyacente. Comenta que la diferencia entre ambos índices es atríbuible al precio de la energía y se relaciona con las dificult",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 52 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-11-19:5891:1",
+      "Fecha": "2013-11-19",
+      "Actor": "Kevin Cowan Logan",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " sino que en las de financíamiento de largo plazo ",
+          "Despues": " sino que en las de financiamiento de largo plazo ",
+          "Ocurrencias": 1,
+          "Contexto": " de financiamiento, no solamente en dólares estadounidenses, sino que en las de financíamiento de largo plazo en moneda local. Por otra parte, ciertos",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-12-12:5911:1",
+      "Fecha": "2013-12-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "En segundo término, índica que el precio d",
+          "Despues": "En segundo término, indica que el precio d",
+          "Ocurrencias": 1,
+          "Contexto": "almente por el dato de empleo de Estados Unidos de América. En segundo término, índica que el precio del cobre registró una leve alza debido a",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-12-12:5924:1",
+      "Fecha": "2013-12-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "equipos en términos desestacíonalízados, mientras que e",
+          "Despues": "equipos en términos desestacionalizados, mientras que e",
+          "Ocurrencias": 1,
+          "Contexto": "otoria caída que exhiben las importaciones de maquinarias y equipos en términos desestacíonalízados, mientras que en términos interanuales, en tanto, esta ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 56 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-12-12:5947:1",
+      "Fecha": "2013-12-12",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "PoM. Por otro lado, índica que la deprecia",
+          "Despues": "PoM. Por otro lado, indica que la deprecia",
+          "Ocurrencias": 1,
+          "Contexto": "ía se ha desacelerado, tal como se había contemplado en el IPoM. Por otro lado, índica que la depreciación del peso chileno ha contribuido a e",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:5989:2",
+      "Fecha": "2014-01-16",
+      "Actor": "Enrique Orellana Cifuentes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "observa un panorama coíncídente con el consigna",
+          "Despues": "observa un panorama coincidente con el consigna",
+          "Ocurrencias": 1,
+          "Contexto": "eñor Enrique Orellana señala que, en términos generales, se observa un panorama coíncídente con el consignado precedentemente. Hace presente que la",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 47 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:5999:3",
+      "Fecha": "2014-01-16",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "a del componente de maquinarías y equipos, como",
+          "Despues": "a del componente de maquinarias y equipos, como",
+          "Ocurrencias": 1,
+          "Contexto": "e contracción, explicada fundamentalmente por la fuerte caída del componente de maquinarías y equipos, como se puede deducir en base a la evolución",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 141 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:6000:1",
+      "Fecha": "2014-01-16",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "s con una tendencia sosteníble a mediano plazo",
+          "Despues": "s con una tendencia sostenible a mediano plazo",
+          "Ocurrencias": 1,
+          "Contexto": "asto de los consumidores sigue creciendo a tasas consistentes con una tendencia sosteníble a mediano plazo, respaldado en la favorable evolución d",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 75 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-02-18:6015:4",
+      "Fecha": "2014-02-18",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " En primer término, índica que la reciente",
+          "Despues": " En primer término, indica que la reciente",
+          "Ocurrencias": 1,
+          "Contexto": " las principales noticias en materia de actividad y precios. En primer término, índica que la reciente actualización del World Economic Outloo",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-02-18:6019:2",
+      "Fecha": "2014-02-18",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ñor Miguel Ricaurte índica que el alza del",
+          "Despues": "ñor Miguel Ricaurte indica que el alza del",
+          "Ocurrencias": 1,
+          "Contexto": " no así las de largo plazo. Al concluir su exposición, el señor Miguel Ricaurte índica que el alza del precio de la gasolina ha llevado a corr",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6113:1",
+      "Fecha": "2014-03-13",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "cancia de una mayor expansivídad de la política ",
+          "Despues": "cancia de una mayor expansividad de la política ",
+          "Ocurrencias": 1,
+          "Contexto": "yor brecha y a menores presiones inflacionarias con la implicancia de una mayor expansivídad de la política monetaria. Por otro lado, el riesgo en m",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 129 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6132:3",
+      "Fecha": "2014-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Gerente de Análisis Macroeconómíco señor Miguel Fu",
+          "Despues": "Gerente de Análisis Macroeconómico señor Miguel Fu",
+          "Ocurrencias": 1,
+          "Contexto": " da paso a la exposición del escenario interno, a cargo del Gerente de Análisis Macroeconómíco señor Miguel Fuentes.",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 1000 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6133:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Gerente de Análisis Macroeconómíco, que fue acorda",
+          "Despues": "Gerente de Análisis Macroeconómico, que fue acorda",
+          "Ocurrencias": 1,
+          "Contexto": "para agradecer al Consejo por su designación en el cargo de Gerente de Análisis Macroeconómíco, que fue acordada en la Sesión celebrada esta mañana, a",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 1000 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Gerente de Análisis Macroeconómíco de la Instituci",
+          "Despues": "Gerente de Análisis Macroeconómico de la Instituci",
+          "Ocurrencias": 1,
+          "Contexto": "Claudio Soto, quien desempeñara anteriormente la función de Gerente de Análisis Macroeconómíco de la Institución en carácter de su superior directo, y",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 1004 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6144:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "a las proyecciones, índica que en línea co",
+          "Despues": "a las proyecciones, indica que en línea co",
+          "Ocurrencias": 1,
+          "Contexto": "ciente exceso respecto del nivel óptimo. En lo concerniente a las proyecciones, índica que en línea con el IMACEC del mes de febrero, mayor qu",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6151:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Gerente de Análisis Macroeconómíco señor Miguel Fu",
+          "Despues": "Gerente de Análisis Macroeconómico señor Miguel Fu",
+          "Ocurrencias": 1,
+          "Contexto": "Presidente señor Rodrigo Vergara agradece la exposición del Gerente de Análisis Macroeconómíco señor Miguel Fuentes. Hace notar que la balanza comerci",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 1000 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6175:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " la dependencia del financiamíento externo en mome",
+          "Despues": " la dependencia del financiamiento externo en mome",
+          "Ocurrencias": 1,
+          "Contexto": "encia, esto constituye un desarrollo positivo, ya que reduce la dependencia del financiamíento externo en momentos en que se avizora un ajuste gradual",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6177:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "n observado ajustes margínales en el último ti",
+          "Despues": "n observado ajustes marginales en el último ti",
+          "Ocurrencias": 1,
+          "Contexto": "ás. Hace notar que las condiciones financieras domésticas han observado ajustes margínales en el último tiempo, algunos de los cuales parecen resp",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 113 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6179:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "a una posible mayor expansívidad de la política ",
+          "Despues": "a una posible mayor expansividad de la política ",
+          "Ocurrencias": 1,
+          "Contexto": "Política Monetaria en 4,0% anual, como también el sesgo hacia una posible mayor expansívidad de la política monetaria consignado en el Comunicado an",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 129 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6269:1",
+      "Fecha": "2014-06-12",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " una mayor tasa de síndicalización, un may",
+          "Despues": " una mayor tasa de sindicalización, un may",
+          "Ocurrencias": 1,
+          "Contexto": "sariales podría obedecer a que el sector financiero presenta una mayor tasa de síndicalización, un mayor número de trabajadores sujetos a cont",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6269:2",
+      "Fecha": "2014-06-12",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "eñor Miguel Fuentes índica que el reporte ",
+          "Despues": "eñor Miguel Fuentes indica que el reporte ",
+          "Ocurrencias": 1,
+          "Contexto": "Sobre el particular, el señor Miguel Fuentes índica que el reporte del INE destaca el pago de premios por d",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6279:1",
+      "Fecha": "2014-06-12",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " con la expectativa mayorítaria de mercado, raz",
+          "Despues": " con la expectativa mayoritaria de mercado, raz",
+          "Ocurrencias": 1,
+          "Contexto": "tácticos, indica que la decisión de mantener la TPM coincide con la expectativa mayorítaria de mercado, razón por la que no debería afectar la curv",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6293:1",
+      "Fecha": "2014-06-12",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "emás, los costos de fínanciamiento se encuentran e",
+          "Despues": "emás, los costos de financiamiento se encuentran e",
+          "Ocurrencias": 1,
+          "Contexto": " tasas de largo plazo se mantienen particularmente bajas. Además, los costos de fínanciamiento se encuentran en niveles que no se habían visto en vari",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6300:1",
+      "Fecha": "2014-07-15",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "predominio de alzas margínales en las economía",
+          "Despues": "predominio de alzas marginales en las economía",
+          "Ocurrencias": 1,
+          "Contexto": "servándose leves caídas en algunas economías emergentes, un predominio de alzas margínales en las economías de la periferia de Europa y mayor ries",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 113 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6307:1",
+      "Fecha": "2014-07-15",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "da por una reciente incertídumbre financiera deri",
+          "Despues": "da por una reciente incertidumbre financiera deri",
+          "Ocurrencias": 1,
+          "Contexto": "señor Enrique Marshall señala que Europa se encuentra afectada por una reciente incertídumbre financiera derivada de situaciones puntuales y que Amér",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 861 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6308:1",
+      "Fecha": "2014-07-15",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " señor Pablo García índica que desde el pu",
+          "Despues": " señor Pablo García indica que desde el pu",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Pablo García índica que desde el punto de vista del rebalanceo global, Chin",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6311:1",
+      "Fecha": "2014-07-15",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ía y de arriendo de maquinaría, exhibe una caí",
+          "Despues": "ía y de arriendo de maquinaria, exhibe una caí",
+          "Ocurrencias": 1,
+          "Contexto": " a la inversión, que representan las actividades de ingeniería y de arriendo de maquinaría, exhibe una caída en doce meses; y que el indicador de ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 218 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-08-14:6362:1",
+      "Fecha": "2014-08-14",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " materia de empleo, índica que la tasa de ",
+          "Despues": " materia de empleo, indica que la tasa de ",
+          "Ocurrencias": 1,
+          "Contexto": "esente año, versus el -0,7% contemplado en dicho Informe. En materia de empleo, índica que la tasa de desempleo aumentó hasta 6,5% en el mes d",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-08-14:6378:1",
+      "Fecha": "2014-08-14",
+      "Actor": "Claudio Raddatz Kiefer",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "s últimos Informes. Adícionalmente, en cuanto a po",
+          "Despues": "s últimos Informes. Adicionalmente, en cuanto a po",
+          "Ocurrencias": 1,
+          "Contexto": "ancialmente el panorama de riesgos frente al planteado en los últimos Informes. Adícionalmente, en cuanto a potenciales riesgos asociados a movimiento",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 71 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-08-14:6382:1",
+      "Fecha": "2014-08-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "e desde el punto de vísta de los precios,",
+          "Despues": "e desde el punto de vista de los precios,",
+          "Ocurrencias": 1,
+          "Contexto": "sos naturales y la demanda interna. Por otro lado, señala que desde el punto de vísta de los precios, no se han producido sorpresas al alza, ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 501 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-01-15:6594:2",
+      "Fecha": "2015-01-15",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " Las condiciones de financiamíento local reflejan ",
+          "Despues": " Las condiciones de financiamiento local reflejan ",
+          "Ocurrencias": 1,
+          "Contexto": "o se redujo y los salarios nominales mantienen su dinamismo. Las condiciones de financiamíento local reflejan el impacto del estímulo monetario. La in",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-02-12:6627:1",
+      "Fecha": "2015-02-12",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " para aquellas cuyo financíamiento está más ligado",
+          "Despues": " para aquellas cuyo financiamiento está más ligado",
+          "Ocurrencias": 1,
+          "Contexto": "íos importantes para las economías emergentes, especialmente para aquellas cuyo financíamiento está más ligado al mercado dólar y cuyo ciclo económico",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-02-12:6636:2",
+      "Fecha": "2015-02-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " Las condiciones de financíamiento local reflejan ",
+          "Despues": " Las condiciones de financiamiento local reflejan ",
+          "Ocurrencias": 1,
+          "Contexto": "se redujo y los salarios nominales mantuvieron su dinamismo. Las condiciones de financíamiento local reflejan el impacto del estímulo monetario. El Co",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6681:1",
+      "Fecha": "2015-03-19",
+      "Actor": "Alberto Arenas de Mesa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "una necesidad de un monítoreo constante sobre",
+          "Despues": "una necesidad de un monitoreo constante sobre",
+          "Ocurrencias": 1,
+          "Contexto": " posibles movimientos al alza en el tipo de cambio plantean una necesidad de un monítoreo constante sobre la inflación. Agrega que después de los",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 24 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6767:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "los próximos meses. Adicíonalmente, hace referenci",
+          "Despues": "los próximos meses. Adicionalmente, hace referenci",
+          "Ocurrencias": 1,
+          "Contexto": "e crecimiento del PIB Resto superarán difícilmente el 3% en los próximos meses. Adicíonalmente, hace referencia al Informe de Percepciones de Negocios",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 71 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6778:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "láusulas usuales de índexación, se observa que",
+          "Despues": "láusulas usuales de indexación, se observa que",
+          "Ocurrencias": 1,
+          "Contexto": "l ajustar el crecimiento de los salarios nominales por las cláusulas usuales de índexación, se observa que los salarios reales se han desacelerado",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6779:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "la incidencia de la índexación en el crecimien",
+          "Despues": "la incidencia de la indexación en el crecimien",
+          "Ocurrencias": 1,
+          "Contexto": "s últimas Reuniones se han expuesto diversos análisis sobre la incidencia de la índexación en el crecimiento de los salarios nominales. Por otra p",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6786:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "de los alimentos no perecíbles son bastante pe",
+          "Despues": "de los alimentos no perecibles son bastante pe",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Pablo García expresa que los precios de los alimentos no perecíbles son bastante persistentes, razón por la que le sorprend",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 176 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6791:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ensar que el efecto Índexación había desaparec",
+          "Despues": "ensar que el efecto indexación había desaparec",
+          "Ocurrencias": 1,
+          "Contexto": "erda que durante los años 2000 hubo episodios que hicieron pensar que el efecto Índexación había desaparecido. No obstante, sigue existiendo. De h",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6792:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "aro se refiere a la Índexación de los salarios",
+          "Despues": "aro se refiere a la indexación de los salarios",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Sebastián Claro se refiere a la Índexación de los salarios y manifiesta un grado de escepticismo e",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": ", el coeficiente de Índexación implícito es ba",
+          "Despues": ", el coeficiente de indexación implícito es ba",
+          "Ocurrencias": 1,
+          "Contexto": "escepticismo en cuanto al análisis presentado. En su opinión, el coeficiente de Índexación implícito es bastante mayor que el 0,3 que se ha señala",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 157 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ce que con una alta Índexación y salarios real",
+          "Despues": "ce que con una alta indexación y salarios real",
+          "Ocurrencias": 1,
+          "Contexto": " bastante mayor que el 0,3 que se ha señalado, aunque reconoce que con una alta Índexación y salarios reales elevados, el impacto sobre el empleo ",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 157 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "an por efecto de la Índexación, ya que ello su",
+          "Despues": "an por efecto de la indexación, ya que ello su",
+          "Ocurrencias": 1,
+          "Contexto": "Manifiesta su preocupación por que los salarios reales crezcan por efecto de la Índexación, ya que ello sugiere una convergencia más lenta de la i",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 157 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6797:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": ". Desde el punto de vísta macro, manifies",
+          "Despues": ". Desde el punto de vista macro, manifies",
+          "Ocurrencias": 1,
+          "Contexto": " satisfacción para él por haber formado parte de su creación. Desde el punto de vísta macro, manifiesta compartir plenamente el juicio que la",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 501 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6805:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "amentalmente por la índexación salarial no es ",
+          "Despues": "amentalmente por la indexación salarial no es ",
+          "Ocurrencias": 1,
+          "Contexto": "ión. En su opinión, el hecho que su aumento se explique fundamentalmente por la índexación salarial no es garantía de que vuelva en un plazo razon",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6808:1",
+      "Fecha": "2015-05-14",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " otros elementos no atríbuibles únicamente a l",
+          "Despues": " otros elementos no atribuibles únicamente a l",
+          "Ocurrencias": 1,
+          "Contexto": "interrogante de si ello es suficiente como historia o si hay otros elementos no atríbuibles únicamente a la parte externa.",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 52 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6985:2",
+      "Fecha": "2015-09-15",
+      "Actor": "Diego Gianelli Gómez",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "to de la conducción macroeconómíca de las autorida",
+          "Despues": "to de la conducción macroeconómica de las autorida",
+          "Ocurrencias": 1,
+          "Contexto": "e, destaca dos eventos que pusieron una cuota de duda respecto de la conducción macroeconómíca de las autoridades chinas: la depreciación de su moneda",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 190 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7025:1",
+      "Fecha": "2015-09-15",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "do a 5% en términos anualízados, levemente por",
+          "Despues": "do a 5% en términos anualizados, levemente por",
+          "Ocurrencias": 1,
+          "Contexto": "ala que esta volvió a acelerarse en el mes de agosto, llegando a 5% en términos anualízados, levemente por sobre lo anticipado, debido a la sorpre",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 109 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-10-15:7104:1",
+      "Fecha": "2015-10-15",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "rios responden a la indexacíón habitual, así c",
+          "Despues": "rios responden a la indexación habitual, así c",
+          "Ocurrencias": 1,
+          "Contexto": "sencia, un fenómeno cambiario y que los vaivenes de los salarios responden a la indexacíón habitual, así como a la existencia de holguras acotadas",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-12-17:7195:1",
+      "Fecha": "2015-12-17",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": " a política fiscal, índica que el nivel de",
+          "Despues": " a política fiscal, indica que el nivel de",
+          "Ocurrencias": 1,
+          "Contexto": "to para adquirir artículos para el hogar. En lo concerniente a política fiscal, índica que el nivel de gasto fiscal comprometido por el Minist",
+          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
         }
       ]
     }
@@ -17513,6 +19377,261 @@
       "ID_Intervencion": "RPM-2007-07-12:1310:1",
       "Texto_Original_Fragmento": "don Enrique Marshall Rivera. Herrera. Asiste la señora Ministra",
       "Motivo": "NOMBRE_PROPIO. En la nomina de asistencia, entre \"don Enrique Marshall Rivera.\" y \"Asiste la señora Ministra\" aparece suelta la palabra \"Herrera.\". Es un apellido real y frecuente en el corpus (533 apariciones), asi que por la seccion 5 no se corrige ni se elimina: se marca para cotejar con el PDF si corresponde a una persona omitida en la nomina o a un residuo.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:1:1",
+      "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:46:1",
+      "Texto_Original_Fragmento": "lítica Financiera, señor Luis Oscar Herrera, en relació",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:140:1",
+      "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:179:1",
+      "Texto_Original_Fragmento": "lítica Financiera, señor Luis Oscar Herrera, señala que",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:185:1",
+      "Texto_Original_Fragmento": "go plazo, tanto las de Tesoro Americano como las de Europ",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:212:3",
+      "Texto_Original_Fragmento": "El Consejero señor Marfan, señala, que le par",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:279:1",
+      "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:280:6",
+      "Texto_Original_Fragmento": "lítica Financiera, señor Luis Oscar Herrera, señala que",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:296:1",
+      "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:305:6",
+      "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera, señala que",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:312:1",
+      "Texto_Original_Fragmento": " y Ministro de Fe, don Miguel Angel Nacrur Gazali; Gere",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:358:1",
+      "Texto_Original_Fragmento": "lítica Financiera, señor Luis Oscar Herrera, señala que",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-09-08:367:1",
+      "Texto_Original_Fragmento": " y Ministro de Fe, don Miguel Angel Nacrur Gazali; Gere",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-09-08:395:1",
+      "Texto_Original_Fragmento": "El Consejero señor Manuel Marfan, agradece el anális",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:450:1",
+      "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:626:1",
+      "Texto_Original_Fragmento": "rnacional, don Sergio Lehmann Beresí; Gerente de Mercado",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:858:1",
+      "Texto_Original_Fragmento": "visión Estudios señor Rodrigo Váldés, hace presente que ",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1461:1",
+      "Texto_Original_Fragmento": " tasa de los bonos del Tesoro Americano, de tal manera qu",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1745:1",
+      "Texto_Original_Fragmento": " División Estudios, don Pablo Garcia Silva; Gerente de D",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2218:1",
+      "Texto_Original_Fragmento": "División Estudios señor Pablo Garcia, complementando est",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2508:1",
+      "Texto_Original_Fragmento": "a brecha de capital. Bank o f America, en cambio, no lo h",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3092:1",
+      "Texto_Original_Fragmento": "que la Canciller de ese país, Angela Merkel, expresaba ",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3448:1",
+      "Texto_Original_Fragmento": "anterior, y es que “corporate America is very strong” y r",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3449:1",
+      "Texto_Original_Fragmento": "s de los activos de corporate America estén reflejando ef",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3881:3",
+      "Texto_Original_Fragmento": "stro de Hacienda señor Felipe Larrain.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-04-12:3940:1",
+      "Texto_Original_Fragmento": "El Consejero señor Sebastian Claro consulta si e",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-04-12:3959:2",
+      "Texto_Original_Fragmento": "stro de Hacienda señor Felipe Larrain.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4338:1",
+      "Texto_Original_Fragmento": "americanos JP Morgan, Bank of America y Citigroup también",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4659:2",
+      "Texto_Original_Fragmento": "ona a JPMorgan Chase, Bank of America y Citigroup. Asimis",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4736:2",
+      "Texto_Original_Fragmento": "s correspondientes al Bank of America y Citigroup. Con re",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2012-08-16:4990:1",
+      "Texto_Original_Fragmento": "a la Canciller alemana señora Angela Merkel y se ha oto",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2012-09-13:5053:1",
+      "Texto_Original_Fragmento": "r la Canciller alemana señora Angela Merkel de apoyar l",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5280:1",
+      "Texto_Original_Fragmento": "ido a una menor producción en Arabía Saudita, Irak y el ",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5334:1",
+      "Texto_Original_Fragmento": "ue milita la Canciller señora Angela Merkel, introducie",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5355:1",
+      "Texto_Original_Fragmento": "e la canciller alemana señora Angela Merkel ya no parec",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5387:1",
+      "Texto_Original_Fragmento": "ntes de la operación de Anglo American, eventos que acont",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-07-11:5636:1",
+      "Texto_Original_Fragmento": "acienda, señor Felipe Larraín Bascuñan. Asisten también: G",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-08-13:5703:1",
+      "Texto_Original_Fragmento": "e la Canciller alemana señora Angela Merkel ha desestim",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-10-17:5816:1",
+      "Texto_Original_Fragmento": "sa que en Alemania, la señora Angela Merkel se impuso e",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-11-19:5861:1",
+      "Texto_Original_Fragmento": "na, liderada por la Canciller Angela Merkel, y sus futu",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6069:1",
+      "Texto_Original_Fragmento": "P Billiton, Río Tinto y Anglo American esperan una caída ",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6644:1",
+      "Texto_Original_Fragmento": "1 puntos base. El señor Diego Gianellí prosigue con su exp",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6655:2",
+      "Texto_Original_Fragmento": "El señor Diego Gianellí anticipa que.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6730:1",
+      "Texto_Original_Fragmento": "El señor Beltran de Ramón señala que",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6755:1",
+      "Texto_Original_Fragmento": "isis Internacional, don Diego Gianellí Gómez; Asesor del M",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6852:1",
+      "Texto_Original_Fragmento": "El señor Beltran de Ramón plantea qu",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-07-14:6867:1",
+      "Texto_Original_Fragmento": "tros aspectos. El señor Diego Gíanelli destaca que el cita",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-07-14:6871:1",
+      "Texto_Original_Fragmento": " Canciller de Alemania señora Angela Merkel es la gran ",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6982:1",
+      "Texto_Original_Fragmento": "s y Bloomberg. El señor Diego Gíanelli destaca que la alta",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6984:2",
+      "Texto_Original_Fragmento": "El señor Diego Gíanelli prosigue con su pre",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6985:2",
+      "Texto_Original_Fragmento": "El señor Diego Gíanelli continúa con su pre",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
     }
   ],
