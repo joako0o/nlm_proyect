@@ -44,6 +44,8 @@ en bloque porque la política es fila por fila, sin reglas automáticas.
 | `yeso` por `y eso` (espacio perdido) | **13 veces en 12 filas**, todas el mismo defecto | **12 ocurrencias en 11 filas**. Corregida la de `2001:1` en la ronda 171 |
 | `nesgo` por `riesgo` | **29 veces en 29 filas**, y las 29 son hueco de `riesgo`, nunca de `sesgo` | **28 ocurrencias en 28 filas**. Corregida la de `2043:1` en la ronda 177. Ya estaba como ejemplo en la tabla de la sección 1 |
 | oración de plantilla repetida con el mismo defecto | `de la mayoría las monedas frente al dólar` aparece **3 veces**: `6867:1` y `6876:1` (2015-07-14) y `6920:1` (2015-08-13) | **2 filas en 2015-07-14**, sin leer. Corregida la de `6920:1` en la ronda 178 |
+| `en tomo a` por `en torno a` (erre perdida) | **24 veces** en el corpus; `en torno a` aparece **1.678** | **23 ocurrencias**. Corregida la de `6941:1` en la ronda 179 |
+| punto como separador decimal | `0.9` aparece **3 veces**: `6937:1` y dos en `2088:1` (2008-09-04). El patrón dígito.dígito aparece 388 veces pero casi todas son miles (`US$ 2.969`) u horas (`17.10 hrs.`) | **2 ocurrencias en `2088:1`**, sin leer. Corregida la de `6937:1` en la ronda 179 |
 
 El último caso merece atención porque parece un patrón legítimo y no lo es.
 Que una cadena aparezca varias veces no la hace correcta: aquí el área repite
@@ -89,6 +91,41 @@ retiró en la ronda 144 y se corrigió.
 **Límite:** si la tilde cambia el significado y ambas lecturas son
 gramaticales, no es sección 1 — es duda, y se marca. Y si lo que falta es una
 **letra** y caben dos palabras, tampoco: eso es sección 2.
+
+### 1 ter. Espacio dentro de una palabra: se reúne y se tipa `PALABRA_PARTIDA`
+
+El OCR parte palabras con un espacio intrapalabra: `M arket`, `m ateria`,
+`crecim iento`, `sim plem ente`, `efectivam ente`, `subirl a`. Se reúnen **sin
+alterar una letra**, igual que la tilde de la sección 1: no hay lectura
+alternativa que proteger, así que no se pide corroboración. Cuando la palabra
+resultante no aparece en el corpus (`debido a la m ayor demanda`) se corrige
+igual, porque lo único que se hizo fue quitar un espacio.
+
+**El tipo importa y estuvo mal puesto.** Hay tres tipos distintos y se
+confunden con facilidad:
+
+| tipo | cuándo | ejemplo |
+|---|---|---|
+| `PALABRA_PARTIDA` | el espacio cae **entre dos letras** de una palabra | `m ateria` → `materia` |
+| `ESPACIO_INDEBIDO` | el espacio cae **junto a un signo** | `simultánea , en cambio` → `simultánea, en cambio` |
+| `ESPACIO_FALTANTE` | el espacio **falta** | `un13%` → `un 13%` |
+
+En la ronda 179 se auditó el registro entero y **32 operaciones estaban tipadas
+`ESPACIO_INDEBIDO` siendo `PALABRA_PARTIDA`**, más una (`un13%`) que era
+`ESPACIO_FALTANTE`. Las 33 se reclasificaron. Un `Antes` y un `Despues` que
+coinciden al quitarles todos los espacios no bastan para decidir: hay que mirar
+**qué hay a cada lado del espacio**.
+
+### 1 quáter. Una fila duplicada entera
+
+`6926:2` (2015-08-13) medía 341 caracteres y era **exactamente** frase + espacio
++ frase, con la frase de 170 repetida dos veces. Verificado carácter por
+carácter, no a ojo. Es la **única** fila de las 9.723 con una oración de más de
+40 caracteres repetida dos veces seguidas, y la misma oración aparece
+correctamente, una sola vez, en otras 8 filas de 2015. Con la forma buena
+documentada ocho veces no hay lectura en que la repetición sea intencional: es
+una fórmula de transición del acta, no un énfasis. Se eliminó la segunda copia
+sin tocar una letra de la primera, tipo `PALABRA_DUPLICADA`.
 
 ## 2. Se corrige: palabra omitida, **sólo con corroboración**
 
