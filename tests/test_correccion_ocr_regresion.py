@@ -84,8 +84,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1346
-MIN_OPERACIONES = 2165
+MIN_CORREGIDAS = 1368
+MIN_OPERACIONES = 2201
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -106,7 +106,7 @@ RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
 # bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
 # cierres ya documentados; si no, borrar revisiones del registro se vería como
 # una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
-MIN_CASOS_ADJUDICADOS = 191   # 157 abiertas + 34 cerradas al cierre del §19
+MIN_CASOS_ADJUDICADOS = 192   # 158 abiertas + 34 cerradas al cierre del §21
 MIN_CIERRES_COTEJO = 34
 
 # §19: punto pegado a letra. De las 45 ocurrencias, 36 son abreviatura legítima
@@ -315,6 +315,32 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                 if re.sub(r'\s+', '', op['Antes']) != re.sub(r'\s+', '', op['Despues']):
                     malas.append((e['ID_Intervencion'], op['Antes'][:40]))
         self.assertEqual(malas, [], f'operaciones que alteran texto: {malas[:3]}')
+
+    def test_la_barra_por_letra_desaparecio_sin_tocar_los_usos_legitimos(self):
+        """§21: la OCR escribe «v», «l» e «I» como «/».
+
+        El riesgo no era corregirlas sino arrasar con la barra legítima, que en
+        este corpus es frecuente: ``y/o``, ``peso/dólar``, ``trimestre/trimestre``,
+        ``t/t``, ``a/a``. El test fija las dos puntas: cero formas dañadas y los
+        usos legítimos intactos respecto de la base.
+        """
+        danadas = ['obsen/ado', 'obsen/ada', 'obsen/ando', 'obsen/an', 'obsen/a',
+                   'obsen/ó', 'Resen/a', 'resen/as', 'cun/a', 'inten/ención',
+                   'sw/aps', 'Financia/', 'se/ection', 'Defau/t', '/PoM', '/poM']
+        vivos = [k for k in danadas if any(k in t for t in self.salida.values())]
+        self.assertEqual(vivos, [], f'formas con barra por letra sin corregir: {vivos}')
+
+        # «y/o» baja de 39 a 38 y está bien: la número 39 estaba dentro de
+        # «7ay/or», que es «Taylor» dañado (regla de Taylor) y se corrigió antes
+        # de este pase. No es un uso legítimo perdido, es basura que se fue.
+        caidas_permitidas = {'y/o': 1}
+        for legitimo in ('y/o', 'peso/dólar', 'trimestre/trimestre', 't/t', 'a/a',
+                         'público/privado', 'WTI/Brent'):
+            antes = sum((self.base.get(i) or {}).get('Texto', '').count(legitimo)
+                        for i in self.salida)
+            despues = sum(t.count(legitimo) for t in self.salida.values())
+            self.assertEqual(antes - despues, caidas_permitidas.get(legitimo, 0),
+                             f'«{legitimo}» cambió: {antes} -> {despues}')
 
     def test_el_punto_pegado_a_letra_solo_queda_en_abreviaturas_y_marcas(self):
         """§19: 45 ocurrencias en la base, 40 en la salida.

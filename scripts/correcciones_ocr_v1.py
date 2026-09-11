@@ -91,6 +91,10 @@ MOTIVO_QUE_MARCA = 'TEXTO_DANADO_POR_COTEJAR'
 TERMINOS_FORANEOS = {
     'fly',   # «fly to quality»: el corpus sólo trae «flight to quality», y las
              # 9 correcciones «fiy»/«fIy» -> «fly» son justamente eso (§10).
+    'selection',   # «selection bias»: el corpus virgen trae la forma dañada
+                   # «se/ection bias» dos veces y nunca la correcta, así que el
+                   # vocabulario no la contiene. La barra sustituye a la «l»,
+                   # igual que en «Defau/t» -> «Default» (§21).
 }
 
 _TOKEN = None  # se compila en _vocabulario()

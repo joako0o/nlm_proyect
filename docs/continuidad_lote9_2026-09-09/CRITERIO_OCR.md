@@ -1148,6 +1148,68 @@ puestas, el texto quedó denso y el margen mínimo de 10 caracteres chocaba casi
 prueban 0, 2, 4, 7 y luego los de antes; eso solo resolvió 6, pero sin eso no se resolvía
 ninguna.
 
-Estado tras §20: **1.346 filas corregidas, 2.171 operaciones, 193 marcadas, `Texto` intacto
-en las 9.723**, sha base `d0b64842…` sin cambio. El espacio antes de signo queda en 4 de 551,
-y las 510 operaciones `ESPACIO_INDEBIDO` siguen sin alterar nada que no sea un espacio.
+## 21. La barra: una letra que la OCR escribe como «/»
+
+Iba a cerrar los residuos `/ .`. Las notas del lote decían «7 casos en `RPM-2005-07-12:265:1`».
+Medido: **36 en la base, 30 vivos en la salida, repartidos entre 2007 y 2015, y ninguno en esa
+sesión**. Es el tercer número rancio que una nota arrastraba; los otros dos fueron «0 de 184» y
+el «63 %». Una nota de progreso no es una medición.
+
+Al clasificar las barras por lo que tienen a cada lado apareció otra cosa mucho más grande: la
+OCR escribe **`v`, `l` e `I` como `/`**.
+
+| forma dañada | n | correcta |
+|---|---:|---|
+| `obsen/ado`, `obsen/ada`, `obsen/ando`, `obsen/an`, `obsen/a`, `obsen/ó` | 10 | `observar` |
+| `Resen/a`, `resen/as` | 4 | `Reserva` |
+| `cun/a` | 2 | `curva` |
+| `inten/ención` | 1 | `intervención` |
+| `sw/aps` | 1 | `swaps` |
+| `Financia/` | 2 | `Financial` |
+| `se/ection` | 2 | `selection` |
+| `Defau/t` | 1 | `Default` |
+| `el /PoM`, `el /poM`, `el/PoM`, `del/PoM` | 6 | `IPoM` |
+
+28 correcciones donde **una sola sustitución produce una palabra del corpus**, más 2 `el/PoM` y
+`del/PoM` donde además se había perdido el espacio. La familia quedó en **0**.
+
+### Lo que había que NO tocar
+
+Junto al defecto conviven usos legítimos de la barra, y son mayoritarios: `y/o` 38,
+`trimestre/trimestre` 27, `peso/dólar` 20, `yuan/dólar` 4, `t/t` 3, `a/a` 3, `sube/baja`,
+`público/privado`, `WTI/Brent`, `AAA/Aaa`, `US$/libra`, `+/-`, `2008/2009`, `v/s`. Un reemplazo
+global de la barra habría destruido todo eso. El test nuevo fija las dos puntas: cero formas
+dañadas **y** los usos legítimos sin cambio.
+
+### Dos rechazos del validador, con veredictos distintos
+
+`revisar_reemplazos()` rechazó `Interest` y `selection` por foráneos. Se resolvieron distinto:
+
+- **`selection` se añadió a `TERMINOS_FORANEOS`.** El corpus trae la forma dañada `se/ection
+  bias` dos veces y nunca la correcta, así que el vocabulario no la tiene; la barra sustituye a
+  la `l`, igual que en `Defau/t` → `Default`.
+- **`Interest` NO se añadió.** Aparece **0 veces** en el corpus virgen, así que no hay forma
+  interna de confirmar la grafía; además la misma palabra tiene un segundo defecto (`Poliey`) y
+  el término completo es ambiguo (`Zero Interest Rate Policy` lleva un `Rate` que no está). Se
+  marcó `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` en vez de corregir.
+
+La regla que separa los dos casos: **un término foráneo se acepta cuando el corpus contiene la
+forma dañada y la sustitución es la misma que ya está probada en otra parte. No se acepta
+cuando la única evidencia es que uno sabe cómo se escribe.**
+
+### Dos vocabularios que confundí
+
+Inventé `LETRA_ERRONEA` cuando el tipo correcto era `LETRA_CONFUNDIDA`, y marqué con
+`TEXTO_DANADO_POR_COTEJAR`, que es un valor de `Motivos_Revision` y no del vocabulario de
+`Cotejar_PDF`. Los dos los rechazó la validación antes de escribir. Hay **15 tipos** y **7
+marcas**, cerrados; cuando uno no encaja, la respuesta es releer la lista, no agrandarla.
+
+### El test nuevo encontró algo, y el equivocado era el test
+
+Al primer intento falló: `«y/o» cambió: 39 -> 38`. Investigué antes de aflojarlo: el `y/o` que
+faltaba estaba **dentro de `7ay/or`**, que es «Taylor» dañado (regla de Taylor) y se había
+corregido antes. La baja es correcta; lo que estaba mal era mi expectativa. Ahora el test la
+declara explícitamente como caída permitida, con la razón.
+
+Estado tras §21: **1.368 filas corregidas, 2.201 operaciones, 194 marcadas (158 abiertas + 34
+cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio.
