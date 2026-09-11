@@ -4672,6 +4672,14 @@
           "Ocurrencias": 1,
           "Contexto": "siones de una inflación escondida. Una inflación baja, pero con una apreciación cambiarla puede ser también síntoma de sobrecalentamiento. Indica que",
           "Justificacion": "cambiarla por cambiaria. Misma familia y mismo defecto. Medido: 8 apariciones (todas dentro de \"cambiarlas\"), todas adjetivas y revisadas una por una: \"paridades cambiarlas\" 4 veces, \"implicancias cambiarlas\" 2, \"expectativas cambiarlas\" 1, \"coberturas cambiarlas\" 1. \"cambiarias\" ya aparece 19 veces en el corpus."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "yieId",
+          "Despues": "yield",
+          "Ocurrencias": 1,
+          "Contexto": " se nos crea que nosotros estamos señalando cuál es la pendiente hacia futuro de esa yieId curve. En ese sentido, le parecen importantes los aspectos ",
+          "Justificacion": "yieId por yield: la l minuscula se leyo como I mayuscula. Medido: \"yield\" aparece 11 veces en el corpus y \"yieId\" una sola, en \"esa yieId curve\"."
         }
       ]
     },
@@ -8735,6 +8743,14 @@
           "Despues": "”",
           "Contexto": "calificación soberana de la Unión Europea desde “AAA” a “AA+\"; ratificó a Alemania en “AAA”; elevó la de México",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": " a fines de junio del año 2013, se habría incrementado en casi un 70% desde el año 201O. En lo referente al shadow banking, señala que el Consejo d",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
         }
       ]
     },
@@ -9833,6 +9849,284 @@
           "Justificacion": "perecióles por perecibles. Defecto sistematico descubierto en la ronda 185 y medido en todo el corpus: 10 apariciones en 9 filas, todas con el mismo dano (la b leida como o con tilde). \"perecióles\" no es palabra del espanol; \"perecibles\" aparece 166 veces en 123 filas. Los 10 contextos se revisaron uno por uno y todos son \"alimentos perecibles\", \"bienes perecibles\", \"los perecibles\" o \"tanto perecibles como no perecibles\". Precision 100%, sin falsos positivos posibles."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1213:1",
+      "Fecha": "2007-04-12",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/1onetaria",
+          "Despues": "Monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "e bajas futuras se mantiene, en esta ocasión recomienda mantener la Tasa de Política í\\/1onetaria y esperar una o dos reuniones más para recabar nuevos antec",
+          "Justificacion": "í\\/1onetaria por Monetaria. La formula \"Tasa de Política Monetaria\" aparece 1.411 veces en el corpus, incluida esta misma fila en otras partes; aqui la M se leyo como \"í\\/1\". No hay lectura alternativa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1249:1",
+      "Fecha": "2007-05-10",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "cambIario",
+          "Despues": "cambiario",
+          "Ocurrencias": 1,
+          "Contexto": "aber frente a escenarios alternativos próximos, si lo que está pasando en el mercado cambIario es un fenómeno chileno y cuánto de ello es el reflejo de lo",
+          "Justificacion": "cambIario por cambiario: la i se leyo como I mayuscula. Medido: \"cambiario\" aparece 157 veces y \"cambIario\" una sola, en \"el mercado cambIario\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1798:1",
+      "Fecha": "2008-05-08",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "i1iquidez",
+          "Despues": "iliquidez",
+          "Ocurrencias": 1,
+          "Contexto": "o, consulta cuál es el termómetro que se debería usar para saber cuál es el grado de i1iquidez existente.",
+          "Justificacion": "i1iquidez por iliquidez: la l se leyo como el digito 1. Medido: \"iliquidez\" aparece 10 veces y \"i1iquidez\" una sola."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2682:1",
+      "Fecha": "2009-08-13",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "7ay/or",
+          "Despues": "Taylor",
+          "Ocurrencias": 1,
+          "Contexto": ". En consecuencia, el movimiento marginal de la TPM que se deduciría de una regla de 7ay/or sería a la baja y de forma significativa. Agrega que, dado ",
+          "Justificacion": "7ay/or por Taylor. Medido: \"Taylor\" aparece 33 veces en el corpus y \"7ay\" una sola, en \"una regla de 7ay/or sería a la baja\"; se trata de la regla de Taylor, y la barra es una i mal leida."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3063:1",
+      "Fecha": "2010-04-15",
+      "Actor": "Kevin Cowan Logan",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "f1exibilización",
+          "Despues": "flexibilización",
+          "Ocurrencias": 1,
+          "Contexto": "Sin embargo, destaca que respecto de los préstamos a hogares se ve, en general , una f1exibilización de las condiciones crediticias de manera algo similar a lo ",
+          "Justificacion": "f1exibilización por flexibilización: la l se leyo como el digito 1. La palabra es inequivoca y el contexto (\"una f1exibilización de las condiciones crediticias\") no admite otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:5968:1",
+      "Fecha": "2014-01-16",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "proxImos",
+          "Despues": "próximos",
+          "Ocurrencias": 1,
+          "Contexto": "participación laboral debería tender a estabilizarse en torno a estos valores en los proxImos años. En consecuencia, parte importante de ese elemento de ",
+          "Justificacion": "proxImos por próximos: la i se leyo como I mayuscula y ademas falta la tilde. Medido: \"próximos\" aparece 1.172 veces en el corpus y \"proxImos\" una sola, en \"en los proxImos años\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6332:1",
+      "Fecha": "2014-07-15",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "opIrnon",
+          "Despues": "opinión",
+          "Ocurrencias": 1,
+          "Contexto": "e la Gerencia de División Estudios y del staff de la 1nstitución. Expresa que, en su opIrnon, la desaceleración de la economía continúa sorprendiendo y ",
+          "Justificacion": "opIrnon por opinión. No es palabra y la formula \"en su opinión\" es de las mas frecuentes del corpus (1.867 apariciones de \"opinión\"); el contexto \"Expresa que, en su opIrnon, la desaceleración\" no admite otra lectura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1nstitución",
+          "Despues": "Institución",
+          "Ocurrencias": 1,
+          "Contexto": " y opiniones de los personeros de la Gerencia de División Estudios y del staff de la 1nstitución. Expresa que, en su opIrnon, la desaceleración de la econom",
+          "Justificacion": "1nstitución por Institución: la I mayuscula inicial se leyo como el digito 1. El contexto es \"del staff de la 1nstitución\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6395:1",
+      "Fecha": "2014-09-11",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 3,
+          "Contexto": "n más bien con premios por plazo. Añade que en las economías emergentes, las tasas a 1O años plazo en moneda local exhibieron movimientos predomina",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6397:1",
+      "Fecha": "2014-09-11",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": "io del hierro presentó un aumento muy relevante entre los años 2007 y mediados del 201O o 2011, y luego una caída muy pronunciada, dando cuenta de ",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6399:1",
+      "Fecha": "2014-09-11",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": "jemplar, plantea que el precio actual de la soya es similar al observado en el año 201O o 2011 con ocasión de los problemas agrícolas que afectaron",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6424:1",
+      "Fecha": "2014-09-11",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": "argo plazo siguen en niveles muy bajos en comparación histórica y que aquellas a 5 y 1O años plazo, nominales y reajustables, aumentaron hasta 40 p",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6428:1",
+      "Fecha": "2014-09-11",
+      "Actor": "Alberto Arenas de Mesa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1nstituto",
+          "Despues": "Instituto",
+          "Ocurrencias": 1,
+          "Contexto": "a baja. Hace presente que los salarios nominales del mes de julio, reportados por el 1nstituto Nacional de Estadísticas, aumentaron su crecimiento anual. ",
+          "Justificacion": "1nstituto por Instituto: la I inicial se leyo como el digito 1. Medido: la formula \"Instituto Nacional de Estadísticas\" aparece 75 veces en el corpus y \"1nstituto\" una sola."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6490:1",
+      "Fecha": "2014-11-18",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "economIca",
+          "Despues": "económica",
+          "Ocurrencias": 1,
+          "Contexto": "dicho precio. En lo que concierne al dólar, se ha destacado la creciente divergencia economIca entre Estados Unidos de América y el resto del mundo, y el ",
+          "Justificacion": "economIca por económica: la i se leyo como I mayuscula y falta la tilde. Medido: \"económica\" aparece 667 veces y \"economIca\" una sola, en \"la creciente divergencia economIca entre Estados Unidos de América\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6498:1",
+      "Fecha": "2014-11-18",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": "que el modelo interno da cuenta de un reciente aumento de premios en las tasas a 2 y 1O años, pese a la estabilidad que exhibe el nivel de las mism",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6515:1",
+      "Fecha": "2014-11-18",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "opin1on",
+          "Despues": "opinión",
+          "Ocurrencias": 1,
+          "Contexto": "nte cuando estos son procesados en su conjunto. Por lo expresado, corresponde, en su opin1on, hacer una pausa, lo que es coherente con lo que se ha comu",
+          "Justificacion": "opin1on por opinión: la i se leyo como el digito 1 y falta la tilde. Formula \"en su opinión\", 1.867 apariciones."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-12-11:6538:1",
+      "Fecha": "2014-12-11",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "op1nion",
+          "Despues": "opinión",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor Rodrigo Vergara agradece la op1nion del Ministro de Hacienda señor Alberto Arenas y conforme al",
+          "Justificacion": "op1nion por opinión: la i se leyo como el digito 1 y falta la tilde. Contexto \"agradece la op1nion del Ministro\", sin lectura alternativa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-10-15:7065:1",
+      "Fecha": "2015-10-15",
+      "Actor": "Diego Gianelli Gómez",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": "toma su presentación indicando que las tasas cortas -a 2 años- y las tasas largas -a 1O años- de las economías avanzadas se encuentran en niveles m",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-11-12:7137:1",
+      "Fecha": "2015-11-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "1O",
+          "Despues": "10",
+          "Ocurrencias": 1,
+          "Contexto": "n no minero público, que no se condice con el crecimiento de la inversión pública de 1O o 20% este año. Observa que de acuerdo con lo graficado, su",
+          "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -10584,6 +10878,12 @@
       "ID_Intervencion": "RPM-2007-05-10:1232:1",
       "Texto_Original_Fragmento": "al cierre estadístico del IPoMáe\\ mes de mayo",
       "Motivo": "TEXTO_DANADO. La cadena \"IPoMáe\\ \" no es palabra ni sigla: contiene una contrabarra y una vocal con tilde donde la formula del corpus dice \"del IPoM del mes de mayo\". La lectura probable es \"del IPoM del mes de mayo\", que es la formula que usa la misma oracion cuarenta palabras antes (\"al cierre del IPoM del mes de enero\"), pero no hay forma de saber si lo que se perdio fue \"del\", \"de\" u otra cosa, y reponer una palabra entera a partir de tres caracteres danados seria inventar.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1312:1",
+      "Texto_Original_Fragmento": "los efectos fIy to quality",
+      "Motivo": "RECONSTRUCCION_AMBIGUA. La i se leyo como I mayuscula, pero hay dos reconstrucciones viables y distintas: el arreglo minimo del glifo da \"fly to quality\", que no aparece ninguna vez en el corpus, mientras que la expresion financiera estandar \"flight to quality\" aparece 21 veces. Elegir \"flight\" exige insertar cuatro letras, que es reconstruir y no corregir un glifo. Se deja sin tocar y se marca para cotejo con el PDF.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],

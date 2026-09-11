@@ -449,6 +449,31 @@ Lo que **no** se hizo en bloque, y por qué:
   desequilibrio no hay prueba de defecto. Convertirlas sería normalización
   tipográfica, no reparación.
 
+## 10. Confusión de glifos parecidos (i / I / l / 1 / 0 / O)
+
+Es una familia de defectos real y transversal, pero **no admite una regla ciega**: el mismo
+patrón captura formas legítimas. Se corrigió caso por caso (23 ocurrencias en 20 filas,
+ronda 186), con dos condiciones simultáneas: que la forma correcta esté atestiguada en el
+corpus y que no haya más de un candidato.
+
+Corregidos: `yieId`→`yield` (11:1), `cambIario`→`cambiario` (157:1), `i1iquidez`→`iliquidez`
+(10:1), `f1exibilización`, `proxImos`→`próximos` (1.172:1), `opIrnon`→`opinión` (1.867:1),
+`economIca`→`económica` (667:1), `opin1on` y `op1nion`→`opinión`, `1O`→`10` (10 apariciones,
+tres de ellas dentro de años: `201O`→`2010`), `1nstitución`→`Institución`,
+`1nstituto`→`Instituto` (75:1 para la fórmula completa), `7ay/or`→`Taylor` (33:1),
+`í\/1onetaria`→`Monetaria` (1.411:1 para «Tasa de Política Monetaria»).
+
+**Excluidos por ser legítimos, medido:** `3pp` (3) y `1pp` (1) son puntos porcentuales
+(«0,3pp. mayor que el del Informe»), no dígitos mal leídos; y las mayúsculas internas de
+nombres reales (`UniCredit` 6, `BancoEstado` 3, `McGuire` 2, `EuroCoin` 1) no son defectos.
+Una regla sobre «mayúscula dentro de palabra» los habría roto.
+
+**Cuando el arreglo mínimo y la forma atestiguada discrepan, se marca y no se elige.** Caso
+`RPM-2007-07-12:1312:1`: «efectos `fIy` to quality». Corregir sólo el glifo da «fly to
+quality», que no aparece ninguna vez en el corpus; la expresión financiera estándar es
+«flight to quality», que aparece 21 veces, pero escribirla exige insertar cuatro letras, lo
+que es reconstruir. Marcada `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` y dejada intacta.
+
 ## El procedimiento que no se salta
 
 1. Leer la fila **completa**. Nunca corregir desde el fragmento.
