@@ -91,6 +91,28 @@ misma fila o en la misma sesión**. Si no está, se marca para cotejar.
 | `El peso estuvo estable con respecto el dólar` | **NO se corrige**, se marca | medí la sesión completa: `con respecto al` aparece **0 veces**. No hay forma correcta en el documento que respalde la enmienda |
 | `cuando se le cobra el consumidor` | **NO se corrige**, se marca | no hay otra ocurrencia de la fórmula en la fila |
 
+### 2 bis. La corroboración sólo se pide si la forma defectuosa es una palabra real
+
+La regla de arriba existe para no inventar: si lo que quedó en el texto
+**puede leerse de otra manera**, hace falta que el documento respalde la
+enmienda. Pero cuando la forma defectuosa **no es una palabra**, no hay lectura
+alternativa que proteger y el caso vuelve a la sección 1, que no exige
+corroboración:
+
+| la forma defectuosa | ¿es palabra? | decisión |
+|---|---|---|
+| `ratando`, `fiy to safety`, `ios`, `ai`, `de!`, `ha ¡do`, `cambíanos` | **no** | **se corrige**, con la medición como respaldo |
+| `cambiarlo`, `rotación`, `fusión`, `marco`, `cambiarlos`, `hora` | **sí** | se corrige **sólo** con corroboración en fila o sesión; si no, se marca |
+
+Aplicado tres veces: `fiy to safety` → `flight to safety` (`1425:1`, ronda 163),
+`fiy to safety` de nuevo (`1465:1`, ronda 168) y `está ratando de argumentar` →
+`tratando` (`2003:1`, ronda 172). En los tres, la forma defectuosa no existe en
+ningún idioma y el candidato es único.
+
+Ojo con medir bien: `'ratando'` da 28 coincidencias en el corpus, pero 27 son el
+**interior de `tratando`**. Contar una subcadena sin delimitarla infla el número
+y puede hacer parecer mayoritario un defecto que aparece una vez.
+
 ## 3. NO se corrige: no es lectura óptica
 
 | caso | por qué |

@@ -23667,7 +23667,51 @@
       "Universo": "PLAN_RONDAS_BANDA_B",
       "Ronda_Plan": 171,
       "Justificacion": "Ronda 171, 14 filas leidas completas (1994:2 a 2002:1), sesion 2008-08-14 en curso. HALLAZGO NUEVO: RPM-2008-08-14:1995:1 esta atribuida a Jorge Desormeaux pero unos 2.300 de sus 2.791 caracteres son exposicion del Gerente de Analisis Internacional Sergio Lehmann: el texto lo nombra cinco veces ('Señala el señor Gerente', 'indica que la caida es de casi 20 puntos base', 'Menciona el señor Gerente que respecto a mercados emergentes', 'Muestra en la grafica los flujos netos acumulados', 'indica el señor Gerente que estos han tendido a retroceder') y describe acciones de quien presenta, no de quien comenta. La fila no traia ninguna alerta, es decir el detector no la levanto. No cumple la prueba de 'continuar en una fila atribuida a el' (la siguiente fila de Lehmann, 2001:1, es sobre trigo y maiz), pero la evidencia interna es mas fuerte que esa prueba: no es discurso referido sino transcripcion bajo el actor equivocado. Cuarta fila candidata a corte junto a 657:1, 1564:1 y 2960:2. Eje OCR: 10 correcciones en 4 filas y 1 marca. Lo mas importante: 'IRC' por 'IPC', erre por pe, 6 veces en 1994:2 y 71 veces en 46 filas de 32 sesiones entre 2005 y 2010, todas en contexto de inflacion; es el tercer defecto sistematico del corpus despues de 'cambiaría' y 'ios'. Ademas: 'ios datos truncados' por 'los'; la 'u' suelta tras el punto final de 1994:2, unico caso del corpus; 'Subsecreta ria' por 'Subsecretaria'; 'eIIPOM' por 'el IPoM'; 'ímportante' y 'prevísta' sin tilde; 'exactam ente' reunida; y dos espacios faltantes, 'individualmente,se' y 'caer yeso' por 'y eso', defecto que aparece 13 veces en 12 filas."
+    },
+    "RPM-2008-08-14:2003:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2003:1",
+      "ID_Padre": "2003",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 291,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 172,
+      "Justificacion": "Ronda 172, 4 filas leidas completas (2003:1, 2003:2, 2004:1, 2005:1), sesion 2008-08-14 en curso. Eje OCR: 4 correcciones en 1 fila y 4 marcas. Correcciones en 2003:1: 'está ratando de argumentar' por 'tratando', donde la te inicial se perdio y 'ratando' no es palabra, asi que el unico candidato es 'tratando' (23 veces 'tratando de' en el corpus); esto es seccion 1 y no 2 porque la corroboracion solo se exige cuando la forma defectuosa es una palabra real y existe por tanto una lectura alternativa, mismo criterio de 'fiy to safety' en la ronda 163; 'fenó menos' por 'fenomenos' (1 contra 124); 'simultánea , en cambio' sin el espacio antes de la coma; y el residuo './ -' al final de la fila, unico caso del corpus, que se elimina y deja la oracion cerrada con su punto. Marcas: 'pero lo que sí cierto es que' admite dos reparaciones distintas, reponer el verbo o leer una pausa, y 'lo que sí es cierto' aparece 0 veces en el corpus; 'la Bolsa de Shangai' es toponimo con tres grafiias y ninguna dominante (2, 3 y 5); 'la demanda China' con mayuscula toca la grafia de un nombre propio (1 contra 5), mismo criterio que 'Beltrán De Ramón'; y 'un marco importante' casi seguro es 'margen' pero la forma correcta aparece 0 veces en fila y sesion. Sin dos voces: 2003:1 es Garcia y 2003:2 es Lehmann continuando su exposicion, cada uno en su fila; 2004:1 es De Gregorio y 2005:1 es Velasco, ambos en nombre propio."
+    },
+    "RPM-2008-08-14:2003:2": {
+      "ID_Intervencion": "RPM-2008-08-14:2003:2",
+      "ID_Padre": "2003",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2503,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 172,
+      "Justificacion": "Ronda 172, 4 filas leidas completas (2003:1, 2003:2, 2004:1, 2005:1), sesion 2008-08-14 en curso. Eje OCR: 4 correcciones en 1 fila y 4 marcas. Correcciones en 2003:1: 'está ratando de argumentar' por 'tratando', donde la te inicial se perdio y 'ratando' no es palabra, asi que el unico candidato es 'tratando' (23 veces 'tratando de' en el corpus); esto es seccion 1 y no 2 porque la corroboracion solo se exige cuando la forma defectuosa es una palabra real y existe por tanto una lectura alternativa, mismo criterio de 'fiy to safety' en la ronda 163; 'fenó menos' por 'fenomenos' (1 contra 124); 'simultánea , en cambio' sin el espacio antes de la coma; y el residuo './ -' al final de la fila, unico caso del corpus, que se elimina y deja la oracion cerrada con su punto. Marcas: 'pero lo que sí cierto es que' admite dos reparaciones distintas, reponer el verbo o leer una pausa, y 'lo que sí es cierto' aparece 0 veces en el corpus; 'la Bolsa de Shangai' es toponimo con tres grafiias y ninguna dominante (2, 3 y 5); 'la demanda China' con mayuscula toca la grafia de un nombre propio (1 contra 5), mismo criterio que 'Beltrán De Ramón'; y 'un marco importante' casi seguro es 'margen' pero la forma correcta aparece 0 veces en fila y sesion. Sin dos voces: 2003:1 es Garcia y 2003:2 es Lehmann continuando su exposicion, cada uno en su fila; 2004:1 es De Gregorio y 2005:1 es Velasco, ambos en nombre propio."
+    },
+    "RPM-2008-08-14:2004:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2004:1",
+      "ID_Padre": "2004",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 1195,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 172,
+      "Justificacion": "Ronda 172, 4 filas leidas completas (2003:1, 2003:2, 2004:1, 2005:1), sesion 2008-08-14 en curso. Eje OCR: 4 correcciones en 1 fila y 4 marcas. Correcciones en 2003:1: 'está ratando de argumentar' por 'tratando', donde la te inicial se perdio y 'ratando' no es palabra, asi que el unico candidato es 'tratando' (23 veces 'tratando de' en el corpus); esto es seccion 1 y no 2 porque la corroboracion solo se exige cuando la forma defectuosa es una palabra real y existe por tanto una lectura alternativa, mismo criterio de 'fiy to safety' en la ronda 163; 'fenó menos' por 'fenomenos' (1 contra 124); 'simultánea , en cambio' sin el espacio antes de la coma; y el residuo './ -' al final de la fila, unico caso del corpus, que se elimina y deja la oracion cerrada con su punto. Marcas: 'pero lo que sí cierto es que' admite dos reparaciones distintas, reponer el verbo o leer una pausa, y 'lo que sí es cierto' aparece 0 veces en el corpus; 'la Bolsa de Shangai' es toponimo con tres grafiias y ninguna dominante (2, 3 y 5); 'la demanda China' con mayuscula toca la grafia de un nombre propio (1 contra 5), mismo criterio que 'Beltrán De Ramón'; y 'un marco importante' casi seguro es 'margen' pero la forma correcta aparece 0 veces en fila y sesion. Sin dos voces: 2003:1 es Garcia y 2003:2 es Lehmann continuando su exposicion, cada uno en su fila; 2004:1 es De Gregorio y 2005:1 es Velasco, ambos en nombre propio."
+    },
+    "RPM-2008-08-14:2005:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2005:1",
+      "ID_Padre": "2005",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 808,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 172,
+      "Justificacion": "Ronda 172, 4 filas leidas completas (2003:1, 2003:2, 2004:1, 2005:1), sesion 2008-08-14 en curso. Eje OCR: 4 correcciones en 1 fila y 4 marcas. Correcciones en 2003:1: 'está ratando de argumentar' por 'tratando', donde la te inicial se perdio y 'ratando' no es palabra, asi que el unico candidato es 'tratando' (23 veces 'tratando de' en el corpus); esto es seccion 1 y no 2 porque la corroboracion solo se exige cuando la forma defectuosa es una palabra real y existe por tanto una lectura alternativa, mismo criterio de 'fiy to safety' en la ronda 163; 'fenó menos' por 'fenomenos' (1 contra 124); 'simultánea , en cambio' sin el espacio antes de la coma; y el residuo './ -' al final de la fila, unico caso del corpus, que se elimina y deja la oracion cerrada con su punto. Marcas: 'pero lo que sí cierto es que' admite dos reparaciones distintas, reponer el verbo o leer una pausa, y 'lo que sí es cierto' aparece 0 veces en el corpus; 'la Bolsa de Shangai' es toponimo con tres grafiias y ninguna dominante (2, 3 y 5); 'la demanda China' con mayuscula toca la grafia de un nombre propio (1 contra 5), mismo criterio que 'Beltrán De Ramón'; y 'un marco importante' casi seguro es 'margen' pero la forma correcta aparece 0 veces en fila y sesion. Sin dos voces: 2003:1 es Garcia y 2003:2 es Lehmann continuando su exposicion, cada uno en su fila; 2004:1 es De Gregorio y 2005:1 es Velasco, ambos en nombre propio."
     }
   },
-  "Total_Leidas": 2049
+  "Total_Leidas": 2053
 }

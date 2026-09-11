@@ -1819,6 +1819,41 @@
           "Justificacion": "Espacio intrapalabra: 'exactam ente' está partida en dos. Se reúne sin alterar una letra. Medido: 'exactam ente' aparece 1 vez en el corpus y 'exactamente' 64."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2003:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "no se está ratando de argumentar un efecto causal",
+          "Despues": "no se está tratando de argumentar un efecto causal",
+          "Contexto": "El Gerente de la División Estudios señor Pablo García estima que no se está ratando de argumentar un efecto causal, pero lo que sí cierto es que estos dos fenó menos pueden estar ocurr",
+          "Justificacion": "Falta la te inicial: 'ratando' no es una palabra del español, así que el único candidato es 'tratando' y la oración no admite otra lectura. Esto es sección 1 y no sección 2: la corroboración en la fila o en la sesión se exige cuando la forma defectuosa es una palabra real y por tanto existe una lectura alternativa, como en 'cambiarlo', 'rotación' o 'fusión'. Medido: 'ratando' suelto aparece 1 vez (las otras 27 coincidencias son el interior de 'tratando'), y 'tratando de' aparece 23 veces en el corpus. Mismo criterio que 'fiy to safety' por 'flight to safety' en la ronda 163."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "pero lo que sí cierto es que estos dos fenó menos pueden estar ocurriendo",
+          "Despues": "pero lo que sí cierto es que estos dos fenómenos pueden estar ocurriendo",
+          "Contexto": "sión Estudios señor Pablo García estima que no se está ratando de argumentar un efecto causal, pero lo que sí cierto es que estos dos fenó menos pueden estar ocurriendo de manera simultánea , en cambio, la expectativa hace cambiar posicio",
+          "Justificacion": "Espacio intrapalabra: 'fenó menos' es 'fenómenos' partida en dos. Se reúne sin alterar una letra. Medido: 'fenó menos' aparece 1 vez en el corpus y 'fenómenos' 124."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "pueden estar ocurriendo de manera simultánea , en cambio, la expectativa",
+          "Despues": "pueden estar ocurriendo de manera simultánea, en cambio, la expectativa",
+          "Contexto": "está ratando de argumentar un efecto causal, pero lo que sí cierto es que estos dos fenó menos pueden estar ocurriendo de manera simultánea , en cambio, la expectativa hace cambiar posiciones y hace cambiar precios. ./ -",
+          "Justificacion": "Espacio antes de la coma. La reparación es única y no altera ninguna letra. Medido: 'simultánea , en cambio' aparece 1 vez en el corpus."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "la expectativa hace cambiar posiciones y hace cambiar precios. ./ -",
+          "Despues": "la expectativa hace cambiar posiciones y hace cambiar precios.",
+          "Contexto": "í cierto es que estos dos fenó menos pueden estar ocurriendo de manera simultánea , en cambio, la expectativa hace cambiar posiciones y hace cambiar precios. ./ -",
+          "Justificacion": "Residuo de glifos al final de la fila: './ -' no forma nada. Es la única fila de todo el corpus que termina así. Se elimina sin tocar el resto; la oración ya cierra con su punto, así que la alerta FINAL_SIN_PUNTUACION deja de tener objeto. Mismo tratamiento que la 'u' suelta de 1994:2 en la ronda 171."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -2402,6 +2437,30 @@
       "ID_Intervencion": "RPM-2008-08-14:1994:2",
       "Texto_Original_Fragmento": "si se sumasen las probabilidades que se derivan de este gráfico, que es la fusión de distribución a partir de opciones",
       "Motivo": "CASI SEGURO ES 'función', pero se marca. 'La función de distribución a partir de opciones' es el término estadístico correcto y 'fusión de distribución' no significa nada; pero 'función' y 'fusión' son las dos palabras reales, la reparación cambia letras (ción por sión) y la forma correcta aparece 4 veces en el corpus y 0 veces en la fila y 0 en la sesión. La regla de corroboración es a nivel de fila y sesión, y se aplicó igual a 'La rotación del tipo de cambio' en la ronda 168.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2003:1",
+      "Texto_Original_Fragmento": "un efecto causal, pero lo que sí cierto es que estos dos fenómenos",
+      "Motivo": "DOS REPARACIONES DISTINTAS. Falta algo entre 'sí' y 'cierto', y caben al menos dos salidas que dan textos diferentes: reponer el verbo ('pero lo que sí es cierto es que estos dos fenómenos...') o leer una pausa ('pero lo que sí, cierto es que...'), que también es gramatical. Medido: 'lo que sí es cierto' aparece 0 veces en todo el corpus, así que no hay forma canónica a la que ajustarse. Se marca en vez de elegir.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2003:2",
+      "Texto_Original_Fragmento": "percepciones producto de transacciones en la Bolsa de Shangai",
+      "Motivo": "NOMBRE_PROPIO. Topónimo con tres grafías en el corpus y ninguna dominante: 'Shangai' 2 veces, 'Shanghai' 3 y 'Shanghái' 5 (la forma que recoge la ortografía española). Defecto probado y reparación probablemente única, pero un nombre propio nunca se corrige, sólo se marca.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2003:2",
+      "Texto_Original_Fragmento": "que dan cuenta que la demanda China continúa bastante sólida",
+      "Motivo": "NOMBRE_PROPIO. 'China' va en mayúscula porque es el nombre del país, aunque aquí funcione como adjetivo y la norma pida minúscula. Medido: 'demanda China' aparece 1 vez y 'demanda china' 5, así que hay transcripción inconsistente y no un criterio uniforme. Se marca y no se corrige porque toca la grafía de un nombre propio. Mismo criterio que 'Beltrán De Ramón' con mayúscula (135 contra 249), que también se dejó.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2005:1",
+      "Texto_Original_Fragmento": "mucha gente que subió el precio, si tuviera un marco importante tendría que bajar dicho precio",
+      "Motivo": "CASI SEGURO ES 'margen', pero se marca. 'Marco' y 'margen' son las dos palabras reales, la reparación cambia letras, y la forma correcta no está corroborada donde el criterio exige: 'un margen importante' aparece 0 veces en el corpus, 0 en la fila y 0 en la sesión, y 'margen importante' sólo 1 vez en todo el corpus. Mismo criterio que 'La rotación del tipo de cambio' en la ronda 168 y 'la fusión de distribución' en la 171.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
