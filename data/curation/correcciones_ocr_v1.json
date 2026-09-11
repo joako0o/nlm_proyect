@@ -1720,6 +1720,105 @@
           "Justificacion": "Ele por i: 'ai' no es una palabra del español y la oración no admite otra lectura. Sección 1, que no exige corroboración. Medido: 'similar ai que han tenido' aparece 1 vez en todo el corpus. Es el mismo glifo ya corregido en RPM-2007-09-13:1408:1 en la ronda 162."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1994:2",
+      "Fecha": "2008-08-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Contexto": " América las tendencias aumentan ligeramente y exhibe el IPC. Indica que hoy día se publicó el IRC Core para el mes de junio, el que muestra un aumento por sobre lo que",
+          "Justificacion": "Erre por pe. En esta fila las 6 apariciones son el índice de precios al consumidor de Estados Unidos ('el IRC Core', 'el IRC headline', 'el IRC más alto desde el año 1991', 'el IRC está por sobre 4% en la Zona Euro'), y no existe un índice llamado IRC: la forma buena es 'IPC', que aparece 1.867 veces en el corpus y 16 en esta misma sesión. Se declara Ocurrencias: 6 porque las seis son el mismo defecto. DEFECTO SISTEMATICO: 'IRC' aparece 71 veces en 46 filas de 32 sesiones, todas entre 2005-04-07 y 2010-02-11, y las 71 son contexto de inflación incluso cuando la palabra no está cerca ('un par de IRC más bajos', 'el IRC de octubre fue menor', 'la publicación del IRC'); 10 de ellas son 'IRCX' por 'IPCX'. Quedan 65 ocurrencias en 45 filas por corregir.",
+          "Ocurrencias": 6
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "también están mostrando un pequeño salto en el PCE y ios datos truncados",
+          "Despues": "también están mostrando un pequeño salto en el PCE y los datos truncados",
+          "Contexto": "dieron a caer respecto al cierre de ayer. Señala el señor Gerente que los datos de deflactores también están mostrando un pequeño salto en el PCE y ios datos truncados. Agrega que la distribución truncada, así como el PCE Core también ti",
+          "Justificacion": "I por ele. 'ios' no es palabra. Medido: 'ios' aparece 92 veces en el corpus y 'los' 30.883. Es el defecto sistemático ya documentado, segundo glifo más frecuente del corpus después de 'cambiaría'. La forma correcta no aparece en la fila ni en la sesión, pero la sección 1 no exige corroboración: el glifo está mal leído y la oración no admite otra lectura."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "más allá de lo que lo ha hecho la tasa nominal. u",
+          "Despues": "más allá de lo que lo ha hecho la tasa nominal.",
+          "Contexto": "ado a reducciones en compensaciones inflacionarias. Menciona que de hecho la tasa real aumenta más allá de lo que lo ha hecho la tasa nominal. u",
+          "Justificacion": "Residuo de una sola letra suelta después del punto final. No forma nada y no es una palabra omitida: es la única fila de todo el corpus que termina en '. u'. Se elimina sin tocar el resto. Con esto la fila queda correctamente cerrada y la alerta FINAL_SIN_PUNTUACION deja de tener objeto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2000:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "una minuta que les proporcionó la señora Subsecreta ria señalaba",
+          "Despues": "una minuta que les proporcionó la señora Subsecretaria señalaba",
+          "Contexto": "rente de la División de Estudios señor Pablo García señala que con respecto al precio del pan, una minuta que les proporcionó la señora Subsecreta ria señalaba que por el lado de la industria del pan, lo que había ocurrido era la",
+          "Justificacion": "Espacio intrapalabra: 'Subsecreta ria' es 'Subsecretaria' partida en dos. Se reúne sin alterar una letra. Medido con honestidad: la forma femenina exacta aparece 0 veces en el corpus, pero 'subsecretario' en masculino aparece 52 y el artículo 'la señora' impone el femenino; además no se cambia ninguna letra, sólo se quita el espacio del escaneo, que es el núcleo de la sección 1 bis."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2001:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "efectivamente lo que se estaba observando en mayo en eIIPOM, eran precios mucho más altos",
+          "Despues": "efectivamente lo que se estaba observando en mayo en el IPoM, eran precios mucho más altos",
+          "Contexto": "ando el tema del trigo y del maíz, solamente quiere adelantar un poco la discusión. Indica que efectivamente lo que se estaba observando en mayo en eIIPOM, eran precios mucho más altos tanto para el trigo como para el maíz. En el caso del trigo, menciona",
+          "Justificacion": "La ele se leyó como i mayúscula y el espacio se perdió: 'eIIPOM' es 'el IPoM' soldado. El token 'eIIPOM' no es palabra y aparece 1 sola vez en todo el corpus; la reparación es única y la forma buena aparece 1.539 veces ('el IPoM'), 3 de ellas en esta sesión."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "se tiene que el precio del WTI ha caído de manera ímportante",
+          "Despues": "se tiene que el precio del WTI ha caído de manera importante",
+          "Contexto": "los combustibles, señala el señor Gerente que, mirando cada uno de los precios individualmente,se tiene que el precio del WTI ha caído de manera ímportante y esto ha estado asociado también a niveles de inventarios algo más h",
+          "Justificacion": "Tilde indebida: 'importante' es llana terminada en vocal y no lleva tilde. Medido: 'manera ímportante' aparece 1 vez y 'manera importante' 203, con 2 en esta misma sesión. Sección 1."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "mirando cada uno de los precios individualmente,se tiene que el precio del WTI",
+          "Despues": "mirando cada uno de los precios individualmente, se tiene que el precio del WTI",
+          "Contexto": "con más precisión durante el día. En el caso de los combustibles, señala el señor Gerente que, mirando cada uno de los precios individualmente,se tiene que el precio del WTI ha caído de manera ímportante y esto ha estado asociado también a niv",
+          "Justificacion": "Falta el espacio después de la coma. La reparación es única y no se altera ninguna letra. Medido: en todo el corpus hay 35 casos de coma pegada a la palabra siguiente, así que es un defecto sistemático de pérdida de espacio, del mismo tipo que 'yeso' por 'y eso'."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "las posiciones de inversionistas o fondos han tendido a caer yeso probablemente ha ayudado",
+          "Despues": "las posiciones de inversionistas o fondos han tendido a caer y eso probablemente ha ayudado",
+          "Contexto": " petróleo. Simplemente para el récord, indica el señor Gerente, que es importante destacar que las posiciones de inversionistas o fondos han tendido a caer yeso probablemente ha ayudado o ha ido en una línea con elementos más fundamentales que están asoci",
+          "Justificacion": "Dos palabras soldadas por pérdida del espacio: 'y eso'. Medido: 'yeso' aparece 13 veces en 12 filas del corpus, todas el mismo defecto ('alto yeso tiene que tener algún efecto', 'preocupación mayor yeso es lo que predomina'), frente a 'y eso' 178. DEFECTO SISTEMATICO: quedan 12 ocurrencias en 11 filas por corregir."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "asociados a demanda prevísta en unidades desarrolladas más débiles",
+          "Despues": "asociados a demanda prevista en unidades desarrolladas más débiles",
+          "Contexto": " yeso probablemente ha ayudado o ha ido en una línea con elementos más fundamentales que están asociados a demanda prevísta en unidades desarrolladas más débiles. Agrega que respecto a las posiciones largas netas, se vieron muy imp",
+          "Justificacion": "Tilde indebida: 'prevista' es llana terminada en vocal. Medido: 'prevísta' aparece 1 vez en el corpus frente a 'prevista' 213. Mismo criterio que 'vísta' por 'vista' corregido en RPM-2007-09-13:1445:2."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2002:1",
+      "Fecha": "2008-08-14",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "porque no sabe exactam ente cuál es la unidad, pero respecto del tamaño",
+          "Despues": "porque no sabe exactamente cuál es la unidad, pero respecto del tamaño",
+          "Contexto": " no se nota mayor impacto. Comenta que a lo mejor vale la pena analizarlo con mayor detención, porque no sabe exactam ente cuál es la unidad, pero respecto del tamaño del mercado, la actividad en el año 2004 fue tan grande como la que s",
+          "Justificacion": "Espacio intrapalabra: 'exactam ente' está partida en dos. Se reúne sin alterar una letra. Medido: 'exactam ente' aparece 1 vez en el corpus y 'exactamente' 64."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -2298,6 +2397,12 @@
       "Texto_Original_Fragmento": "o que puede ser tal vez lo que dice el Consejero Manuel Marf án",
       "Motivo": "NOMBRE_PROPIO. Espacio dentro del apellido: 'Marf án' por 'Marfán'. Defecto probado (1 contra 1.505 en el corpus; 15 veces la forma buena dentro de esta misma sesión) y reparación única, pero un nombre propio nunca se corrige, sólo se marca. Segundo caso seguido después de 'Klaus Schmidt- Hebbel' en la ronda 167: en los dos se eliminaría un espacio de escaneo sin alterar ninguna letra del nombre, así que si se decide relajar la regla se corrigen los dos juntos.",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1994:2",
+      "Texto_Original_Fragmento": "si se sumasen las probabilidades que se derivan de este gráfico, que es la fusión de distribución a partir de opciones",
+      "Motivo": "CASI SEGURO ES 'función', pero se marca. 'La función de distribución a partir de opciones' es el término estadístico correcto y 'fusión de distribución' no significa nada; pero 'función' y 'fusión' son las dos palabras reales, la reparación cambia letras (ción por sión) y la forma correcta aparece 4 veces en el corpus y 0 veces en la fila y 0 en la sesión. La regla de corroboración es a nivel de fila y sesión, y se aplicó igual a 'La rotación del tipo de cambio' en la ronda 168.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [

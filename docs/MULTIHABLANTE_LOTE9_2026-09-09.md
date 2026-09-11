@@ -60,6 +60,32 @@ En los tres, el tramo final está atribuido al hablante equivocado. **No se apli
 corte**: es un cambio de atribución entre hablantes, no un refinamiento funcional, y
 requiere su propio registro curado, validador y corrida.
 
+### Un cuarto caso, con otra firma (ronda 171)
+
+**`RPM-2008-08-14:1995:1`** (atribuida a Jorge Desormeaux, 2.791 caracteres). Los primeros
+~500 caracteres sí son suyos («El Vicepresidente señor Jorge Desormeaux menciona que el
+mensaje de algunos reportes de bancos de inversiones…»). El resto, unos 2.300 caracteres, es
+exposición de Sergio Lehmann, y el propio texto lo dice cinco veces:
+
+> «Señala el señor Gerente que en Japón y Europa las tasas han tendido a caer…»
+> «Menciona el señor Gerente que respecto a mercados emergentes las bolsas han tendido a caer…»
+> «Muestra en la gráfica los flujos netos acumulados en doce meses promedio por región…»
+> «Respecto a precios de commodities, indica el señor Gerente que éstos han tendido a retroceder.»
+
+Dos diferencias con los tres anteriores, y las dos importan:
+
+1. **No continúa en una fila atribuida a Lehmann.** La prueba que validó a los otros tres
+   («el bloque continúa en una fila atribuida a él») aquí no se cumple: la siguiente fila de
+   Lehmann, `2001:1`, trata de trigo y maíz. La evidencia es interna: la fila nombra al otro
+   hablante y describe acciones de quien presenta, no de quien comenta. No es discurso
+   referido.
+2. **El detector no la levantó.** La fila no traía ningún motivo de revisión. Los tres casos
+   anteriores sí aparecían en algún barrido; este apareció leyendo.
+
+Punto de corte propuesto: antes de «Señala el señor Gerente que en Japón y Europa las tasas
+han tendido a caer». **Corte no aplicado**, igual que en los otros tres.
+
+
 ## Las otras 75
 
 **70 de las 71 del barrido A son una sola voz.** Son aperturas de sesión: ausencias del

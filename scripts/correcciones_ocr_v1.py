@@ -59,6 +59,7 @@ TIPOS_VALIDOS = {
     'RESIDUO_PAGINACION',     # dígito de página al final de la fila
     'FIRMA_TRUNCADA',         # «IQUE MARSHALL RIVERA» -> «ENRIQUE MARSHALL RIVERA»
     'ESPACIO_INDEBIDO',       # «Poblete ;» -> «Poblete;»
+    'ESPACIO_FALTANTE',       # «caer yeso» -> «caer y eso», «individualmente,se» -> «individualmente, se»
     'PUNTUACION',             # puntuación ausente o duplicada
     'PALABRA_OMITIDA',        # «alta base comparación» -> «alta base de comparación»
     'SALTOS_DE_LINEA',        # una palabra por línea, artefacto de justificación del PDF

@@ -22,7 +22,7 @@ otra lectura.
 | `bajo la presidencia de! titular` | `del titular` | el `!` ocupa el lugar de la ele; la fórmula de apertura de acta es fija en todo el corpus |
 | `£1 peso se ha apreciado` | `El peso se ha apreciado` | `£` y `1` por `E` y `l`; «£1 peso» no es cifra posible antes de «se ha apreciado» |
 | `indica ai señor Ministro` | `al señor Ministro` | la i por la ele en la contracción |
-| `los cambios en ios precios` | `en los precios` | la i por la ele; aparece 91 veces en el corpus |
+| `los cambios en ios precios` | `en los precios` | la i por la ele; aparece 92 veces en el corpus contra 30.883 de `los` |
 | `la del MI que se ubicó en 16,1%` | `la del M1` | el contexto dice «agregados monetarios»; la i mayúscula es el dígito 1 |
 | `la inflación anual del IRC` | `del IPC` | medido: `IRC` 61 veces e `IRCX1` 10, siempre en contexto de índice de precios; `IPC` 1.867. Es una confusión sistemática P→R |
 | `el precio promedio sería de LJS$ 2` | `de US$ 2` | la misma fila escribe `US$ 65`, `US$ 61` y `US$ 58` correctos |
@@ -32,12 +32,28 @@ otra lectura.
 | `El / Consejero / señor / Marfán, / sobre / el…` | todo en una línea | artefacto de justificación del PDF; se reúne sin alterar una letra |
 | `17.30 horas.` colgado entre el Comunicado y su aprobación | se elimina | marca horaria suelta sin sujeto ni verbo; el cierre ya consigna las 18:00 |
 
-**Tarea pendiente medida:** el pie de página `Página N de N` aparece **26
-veces en 22 filas** del corpus. Ya se eliminaron dos (`4849:3` y `5221:3`; la
-segunda se encontró tarde, después de leer la sesión 2012-11-13). Quedan **20
-filas en la sesión 2012-04-17**, todavía sin leer. Al llegar a esa sesión hay
-que contarlas y limpiarlas todas: es un residuo de paginación y la política lo
-autoriza sin ambigüedad.
+**Tareas pendientes medidas.** Tres defectos sistemáticos del corpus están
+medidos y documentados, pero sólo se corrigen en las filas ya leídas; el resto
+queda pendiente y hay que liquidarlo. Ninguno admite duda, y ninguno se aplica
+en bloque porque la política es fila por fila, sin reglas automáticas.
+
+| defecto | medición | pendiente |
+|---|---|---|
+| `Página N de N` al pie | 26 veces en 22 filas | **20 filas en 2012-04-17**, sin leer. Ya se limpiaron `4849:3` y `5221:3` |
+| `IRC` por `IPC` (erre por pe) | **71 veces en 46 filas** de 32 sesiones, todas entre 2005-04-07 y 2010-02-11; 10 de ellas son `IRCX` por `IPCX` | **65 ocurrencias en 45 filas**. Corregidas las 6 de `1994:2` en la ronda 171 |
+| `yeso` por `y eso` (espacio perdido) | **13 veces en 12 filas**, todas el mismo defecto | **12 ocurrencias en 11 filas**. Corregida la de `2001:1` en la ronda 171 |
+
+Del `IRC` se verificó caso por caso que las **71** son contexto de índice de
+precios, incluidas las 18 donde la palabra «inflación» no aparece cerca: «un
+par de IRC más bajos», «cuatro IRC cerca de 1%», «el IRC de octubre fue menor»,
+«la publicación del IRC», «su convergencia hacia un 3% será más lenta que la
+del IRC». Y el corte temporal es una pista: ninguna aparición es posterior a
+2010-02-11, lo que apunta a un lote de escaneo concreto.
+
+La pérdida de espacio es una familia propia, con su tipo
+`ESPACIO_FALTANTE`: `caer yeso` (13), coma pegada a la palabra siguiente
+(35 en el corpus). Es el espejo de `ESPACIO_INDEBIDO`, que cubre la palabra
+partida en dos. En los dos casos la reparación es única y no altera una letra.
 
 ### 1 bis. La tilde entra aquí, no en la sección 2
 
