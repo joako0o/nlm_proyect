@@ -2652,6 +2652,1830 @@
           "Justificacion": "Falta el articulo: \"hace mes\" no es construccion posible en espanol. Corroboracion abrumadora: \"hace un mes\" aparece 254 veces en el corpus; \"hace mes\" suelto, solo aqui (las otras 5 apariciones medidas son \"hace meses\", que la contiene como subcadena)."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:211:1",
+      "Fecha": "2005-04-07",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "lternativas de inflación subyacente, esto es, el IPCX2 y las medias podadas del IRC, IPCX e IPCX1, presentaron trayectorias al alza, continuand",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:226:1",
+      "Fecha": "2005-05-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 5,
+          "Contexto": "los combustibles. Éste se ha dejado sentir con fuerza en la inflación anual del IRC durante los tres últimos meses, y continuará haciéndolo en ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:297:2",
+      "Fecha": "2005-07-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "guladas del mayor precio de los combustibles, con lo que la inflación anual del IRC ya supera lo previsto en el Informe de Política Monetaria A",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "edida por el imacec aumentó 6,4%, con lo que su velocidad de expansión se ubicó en tomo al 5% anual. Este resultado se explicó, principalmente, por e",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:302:1",
+      "Fecha": "2005-07-12",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "ón mensual, entonces las tasas reales ex ante no cambian. Si esta velocidad del IRC sí cambia, su efecto dependerá de cómo sea la canasta del q",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:302:2",
+      "Fecha": "2005-07-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "que si se mantiene constante la tasa de política en UF, pero hay un aumento del IRC hacia futuro, se pregunta si ello claramente significaría q",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:303:1",
+      "Fecha": "2005-07-12",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "eñor Esteban Jadresic, señala que la inflación mensual acumulada para el IPCX e IRCX1, en todos los casos es la misma, esto es, 1,6% y, no hay ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:314:1",
+      "Fecha": "2005-08-11",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": " petróleo y alzas en tarifas de servicios públicos han elevado la inflación del IRC hacia 3% antes de lo esperado, esperándose que llegue a cif",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:454:1",
+      "Fecha": "2005-11-10",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "ue el efecto inflacionario de esta diferencia sería muy menor. La inflación del IRC superó lo previsto en la última RPM en tres décimas, con bu",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-12-13:525:1",
+      "Fecha": "2005-12-13",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "medidas de inflación subyacente al centro del rango meta y con la inflación del IRC subiendo transitoriamente en el corto plazo por sobre 4%. L",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-02-09:576:4",
+      "Fecha": "2006-02-09",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "etróleo y la depreciación del peso han afectado la variación anual esperada del IRC para los próximos meses en algo más de medio punto, debido ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:660:2",
+      "Fecha": "2006-05-11",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 6,
+          "Contexto": "subyacente IPCX1 fue similar a la considerada en enero. La inflación mensual de IRC estuvo en gran parte determinada por los cambios en el prec",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:728:1",
+      "Fecha": "2006-06-15",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "mente, en línea con la mayor inflación de los últimos meses. • La inflación del IRC se ubicó en abril dentro de lo esperado (3,7%). El IPCX1, q",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:847:1",
+      "Fecha": "2006-09-07",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "vadas, las que solo consideran un aumento transitorio de la inflación anual del IRC. Así, para fines del horizonte de proyección, la inflación ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:867:1",
+      "Fecha": "2006-09-07",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "un ritmo estable) y que la tasa de desempleo se ha reducido. • La inflación del IRC de junio se ubicó dentro de lo esperado (3,8% anual), pero ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:946:1",
+      "Fecha": "2006-11-16",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "PC que fue -0,5%, resultando la variación de ese índice en 12 meses en 1,3%; el IRC core en 0,1%, y la variación en doce meses se ubicó en 2,7%",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1002:2",
+      "Fecha": "2006-12-14",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "antía respecto de lo previsto hace un mes. Señala, que la inflación mensual del IRC resultó negativa por segundo mes consecutivo, nuevamente pr",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:991:1",
+      "Fecha": "2006-12-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "obre 1%, siendo lo más importante la caída en el precio de los combustibles. El IRC Core, por su parte, se ha mantenido en niveles en torno a 3",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1090:4",
+      "Fecha": "2007-02-08",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "ecios financieros y las encuestas a mesas los días previos a la divulgación del IRC e Imacec daban una probabilidad a un recorte adicional, aun",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1159:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": " es altamente probable que hacia mediados de año se tenga reacciones anuales de IRC significativamente por debajo de la meta, en torno a 1% anu",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1184:2",
+      "Fecha": "2007-04-12",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "a de un aumento del dinamismo de la actividad interna, y la inflación anual del IRC se ubica algo por debajo de 3%. Los mayores cambios en el m",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1209:4",
+      "Fecha": "2007-04-12",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "nión anterior, aunque con menor IPCX1 y mayor precio de alimentos. Con ello, el IRC se ubica muy cerca de lo proyectado en el IPoM, con algo má",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1211:1",
+      "Fecha": "2007-04-12",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "bles. Manifiesta el señor Gerente de División Operaciones Financieras que dicho nesgo es importante y hay que monitorearlo, pero tampoco hay que ",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1216:1",
+      "Fecha": "2007-04-12",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "ombustibles y las expectativas de inflación de largo plazo siguen bien ancladas en tomo a la meta. Hace presente el señor Marshall que para la decisi",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1266:1",
+      "Fecha": "2007-06-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "terés, no muestra expectativas de inflación más altas, sino que aparece como un nesgo ante las cifras de actividad más dinámicas que lo previsto.",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1297:4",
+      "Fecha": "2007-06-14",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "os combustibles contribuyeron de modo importante a la sorpresa de inflación del IRC, al aumentar más que lo esperado. La evaluación de estas no",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1302:1",
+      "Fecha": "2007-06-14",
+      "Actor": "Andrés Velasco Brañes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": " algunos casos de dos meses, apunta hacia una actividad más vigorosa y un mayor nesgo del resurgimiento del fenómeno inflacionario. Como segundo ",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1352:1",
+      "Fecha": "2007-07-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 2,
+          "Contexto": "orme de Política Monetaria y resulta necesaria para que la inflación proyectada en tomo a dos años se ubique en 3%. El escenario externo relevante pa",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-10-11:1520:1",
+      "Fecha": "2007-10-11",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "as. Las expectativas de inflación a mediano y largo plazo se mantienen ancladas en tomo a 3% anual, lo que es coherente con un aumento transitorio de",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1562:1",
+      "Fecha": "2007-11-13",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "s con dos semanas atrás. Estima que esta situación podría mejorar con un par de IRC más bajos de lo esperado, ya que en su opinión este hecho s",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1563:1",
+      "Fecha": "2007-11-13",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "gía, lo que le parece un indicador favorable. Considera positivo también que el IRC de octubre fue menor a lo esperado, pero no así que la infl",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1565:2",
+      "Fecha": "2007-11-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "vamente el panorama inflacionario. Próximamente, la inflación anual se situaría en tomo al 7% y permanecería en ese nivel por varios meses. Menciona ",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-12-13:1587:2",
+      "Fecha": "2007-12-13",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "anto al momento de la reunión pasada como la semana previa a la publicación del IRC. De igual forma, comenta que la Encuesta de Expectativas de",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-12-13:1602:1",
+      "Fecha": "2007-12-13",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": " mantiene en torno a 5,8% desde septiembre, mismo lapso en que la inflación del IRC aumentó desde 5,8 a 7,4%, aunque el escenario de corto plaz",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1623:2",
+      "Fecha": "2008-01-10",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": ", entrando en el rango de tolerancia hacia principios del año 2009 y fluctuando en tomo a un 3% durante ese año y hasta fines del horizonte de proyec",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": " los próximos meses, pero su convergencia hacia un 3% será más lenta que la del IRC. Lo anterior, porque la inercia inflacionaria es mayor en l",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1672:1",
+      "Fecha": "2008-02-07",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": " enero. Comenta que a ello se agrega una apreciación del tipo de cambio nominal en tomo a 5%, probablemente derivada, en gran parte, de la reducción ",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1685:1",
+      "Fecha": "2008-02-07",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "ue el tipo de cambio se ha apreciado significativamente. La inflación anual del IRC continuará aumentando en los próximos meses. Las expectativ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1718:12",
+      "Fecha": "2008-03-13",
+      "Actor": "Andrés Velasco Brañes",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "el crecimiento de la fuerza de trabajo ha sido y sigue siendo inusualmente alto yeso tiene que tener algún efecto sobre la tendencia de crecimie",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1747:1",
+      "Fecha": "2008-04-10",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "diciones crediticias, pero en su Comunicado da cuenta de una preocupación mayor yeso es lo que predomina en su mantención de la Tasa de Política",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1776:1",
+      "Fecha": "2008-04-10",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "tar una tasa de inflación en torno a 6% hacia septiembre de este año, tanto del IRC como de las medidas subyacentes. Agrega que las proyeccione",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1809:2",
+      "Fecha": "2008-05-08",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "ión de precios de alimentos en forma detallada, con la evolución internacional, yeso justamente permitirá validar o no la hipótesis de que en Ch",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1817:1",
+      "Fecha": "2008-05-08",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "indica que el escenario base de proyección considera que la inflación anual del IRC comenzará, a partir de sus niveles actuales, a converger pa",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1820:1",
+      "Fecha": "2008-05-08",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "trata de un shock que ya sucedió, probablemente se está en un momento en que el IRC va a ubicarse debajo de la inflación y estará anficipando q",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2050:2",
+      "Fecha": "2008-09-04",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "nn manifiesta que efectivamente está muy en línea con el promedio de la década, yeso se debe fundamentalmente a lo que se está observando en las",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2054:1",
+      "Fecha": "2008-09-04",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": " si se observan los futuros de crack spread, éstos se revierten muy rápidamente yeso debie ra notarse en un plazo corto, ya que la gasolina se a",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-11-13:2138:1",
+      "Fecha": "2008-11-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "n septiembre. Menciona que así, para comienzos del 2010, la inflación anual del IRC se ubicará en torno a 3%. Por su parte, la inflación IPCX1,",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2206:1",
+      "Fecha": "2008-12-11",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "evisto en la Actualización de Proyecciones de noviembre, la inflación anual del IRC, IPCX e IPCX1 se mantendrá alta en lo inmediato, pero comen",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2263:2",
+      "Fecha": "2009-01-08",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "a un aumento importante de la percepción de existencias, por sobre las deseadas yeso se mantiene en el dato en el margen. Comenta que el último ",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2293:2",
+      "Fecha": "2009-01-08",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "e son prematuros, y que también lo es darle total crédito a la hipótesis que el nesgo de inflación ha desaparecido. Manifiesta el señor Consejero",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-02-12:2344:2",
+      "Fecha": "2009-02-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "umento de la velocidad algo menor que lo que se estaba suponiendo para el IPoM, yeso explica la corrección de aproximadamente el 0,7% para el pr",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-02-12:2349:2",
+      "Fecha": "2009-02-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "lio próximos, empiezan a devolverse las rebajas del impuesto a los combustibles yeso haría elevar algo la inflación dellPC por sobre la deIIPCX.",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2387:2",
+      "Fecha": "2009-03-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "lo que recoge es suponer que esas economías se mantienen flat hacia el año 2010 yeso sería coherente con un crecim iento de 0% tanto para Estado",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2396:2",
+      "Fecha": "2009-03-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 1,
+          "Contexto": "stán con un premio asociado al riesgo interbancario que no tenían en el pasado, yeso produce que ese indicador, al menos hoy día, aparezca clara",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2463:1",
+      "Fecha": "2009-04-09",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "o y parte de financiamiento privado, son aproximadamente 50 mil. En total suman en tomo a 120.000 a 130.000. El señor Céspedes indica que el dato que",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2481:1",
+      "Fecha": "2009-04-09",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "a bastante baja par la inflación Core del IPCX y el IPCX1 que se compensa en el IRC total. Agrega que no se tienen registros mensuales de IRC m",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2497:1",
+      "Fecha": "2009-04-09",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "rman la tendencia descendente de la inflación, lo que se verifica tanto para el IRC como para las medidas subyacentes, e indica que los salario",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2498:1",
+      "Fecha": "2009-04-09",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "to mundial para el 2010 - para los socios comerciales - se tiende a estabilizar en tomo a 2%; y la información revela que el crecimiento negativo del",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2499:1",
+      "Fecha": "2009-04-09",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": " mundial podría estar cerca de un punto de inflexión. Sin embargo, la gran duda en tomo a las posibilidades de una recuperación de la economía mundia",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2519:2",
+      "Fecha": "2009-05-07",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "yeso",
+          "Despues": "y eso",
+          "Ocurrencias": 2,
+          "Contexto": "iderando la coyuntura, está asociado al hecho que los PMI han estado aumentando yeso hace prever una demanda por el metal que pudiese aumentar. ",
+          "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2539:1",
+      "Fecha": "2009-05-07",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "hacia el mediano plazo, a pesar de las perspectivas de variación interanual del IRC muy reducidas hacia el segundo semestre de este año. Antes ",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2545:1",
+      "Fecha": "2009-05-07",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "n el frente externo, los mercados financieros denotan una mayor inclinación por nesgo, en tanto que los precios de las materias primas han vuelto",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2586:1",
+      "Fecha": "2009-06-16",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "y destacando que de los últimos siete registros mensuales, seis de éstos marcan IRC negativos. Señala, que las mayores sorpresas inflacionarias",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2587:1",
+      "Fecha": "2009-06-16",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "ntará el precio específico de los combustibles y llevará al alza el registro de IRC total y a probables registros negativos del IRCX1. En julio",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2588:2",
+      "Fecha": "2009-06-16",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "ses, estos van a seguir teniendo una incidencia negativa en las variaciones del IRC en doce meses. Reafirma lo indicado, mencionando que hay un",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2644:2",
+      "Fecha": "2009-07-09",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "cedentes preliminares basados nuevamente en ejercicios en torno al escenario de nesgo del IPoM, muestran que los plazos a los cuales la TPM debie",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2651:1",
+      "Fecha": "2009-07-09",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": " Los desequilibrios globales, por lo tanto, siguen latentes, lo que mantiene el nesgo de un empeoramiento de la economía mundial. En lo referente",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2666:3",
+      "Fecha": "2009-08-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "a lo cual el señor Lehmann responde que existen tasas de nesgo a distintos periodos En todo caso, el Gerente señor Lehmann",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2676:2",
+      "Fecha": "2009-08-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": " torno a 30%, algo por sobre de lo que podría predecir el modelo de demanda por nesgo. En relación con las expectativas, el señor Claudio Soto in",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2681:1",
+      "Fecha": "2009-08-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": " embargo, sostiene que, por otro lado, la materialización de mayores niveles de nesgo de crédito local asociados al ciclo económico, junto con un",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2685:3",
+      "Fecha": "2009-08-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "l señor Marshall estima que en el cuadro que se enfrenta , mucho ayudaría si el nesgo de crédito de las nuevas operaciones es evaluado con el cor",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2686:1",
+      "Fecha": "2009-08-13",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "mo una intervención cambiaría, podría justificarse en caso que se juzgue que el nesgo de equivocarse al ampliar el estímulo monetario con la info",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2707:1",
+      "Fecha": "2009-09-08",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": " mantenido estables en las últimas semanas, siguen constituyendo un elemento de nesgo. El Consejero señor Claro subraya que la evolución del merc",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2711:2",
+      "Fecha": "2009-09-08",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "ta y sugieren que los registros bajos serán transitorios, en tanto que el mayor nesgo hoy día es que la inflación permanezca debajo de la meta má",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2725:5",
+      "Fecha": "2009-10-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "riesgo soberano, prosigue, han caído levemente, reflejo de un mayor apetito por nesgo y de un mayor interés por invertir, particularmente en econ",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2749:1",
+      "Fecha": "2009-10-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "rmite llegar a dicha conclusión. Añade que existen, por supuesto, escenarios de nesgo que pueden llevar a una trayectoria como la implícita según",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2780:1",
+      "Fecha": "2009-11-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 4,
+          "Contexto": "a senda al alza el próximo mes, dado que la inflación de octubre fue 0%. Con el IRC de octubre que no varió, se tiene un IRC interanual de -1.9",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2799:1",
+      "Fecha": "2009-11-12",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "Expectativas Económicas, lo que sugiere que ello podría responder a premios por nesgo asociados a la posibilidad de un retiro anticipado de la fa",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-02-11:2939:1",
+      "Fecha": "2010-02-11",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 2,
+          "Contexto": "s el IPC total, pero que, de todas maneras, resulta importante mencionar que el IRCX1 en la proyección del Banco continúa con variaciones anual",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-02-11:2940:1",
+      "Fecha": "2010-02-11",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "all indica que, de hecho, la brecha que comienza a producirse entre el IPC y el IRCX1 tiende a aumentar y que ello no constituye un buen dato p",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-02-11:2941:1",
+      "Fecha": "2010-02-11",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IRC",
+          "Despues": "IPC",
+          "Ocurrencias": 1,
+          "Contexto": "ro señor Sebastián Claro agrega que resulta necesario entender la evolución del IRCX1, porque en los últimos dos años se ha producido un desvío",
+          "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3071:3",
+      "Fecha": "2010-04-15",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "do desde el cierre de fines de febrero. Actualmente, el tipo de cambio se ubica en tomo a los $520, lo que representa una caída de 1,8% respecto de d",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3106:1",
+      "Fecha": "2010-05-13",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "ión se afirmó que la crisis griega se reflejó en un leve aumento del precio por nesgo en Chile y porque si bien la mayoría de las mediciones en C",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3131:1",
+      "Fecha": "2010-06-15",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "stado centrada necesariamente en la exposición de los bancos norteamericanos al nesgo soberano europeo o a los préstamos interbancarios europeos,",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3134:1",
+      "Fecha": "2010-06-15",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional prosigue, señalando que los premios por nesgo de países emergentes tendieron a aumentar, pero de manera a",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3197:1",
+      "Fecha": "2010-06-15",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "bieran ser acotados, la materialización de un escenario adverso podría poner en nesgo la recuperación. A su vez, comenta que el ambiente de mayor",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3201:1",
+      "Fecha": "2010-06-15",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "rollos externos, sugiere un curso de normalización más cauteloso, que reduce el nesgo de modificaciones o reversiones posteriores, pero que aumen",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3287:1",
+      "Fecha": "2010-08-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Sergio Lehmann destaca que, en este contexto, las percepciones de nesgo tendieron a caer después de darse a conocer los resultados ",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3310:4",
+      "Fecha": "2010-08-12",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "nión del Gerente de División Estudios señor Pablo García, para ese escenario de nesgo, más que la cifra en sí, es importante evaluar el perfil qu",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-01-13:3652:1",
+      "Fecha": "2011-01-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "los spreads de los bancos alemanes, en tanto, no registran cambios, a pesar del nesgo que enfrentan desde el momento que la mayoría ha adquirido ",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-02-17:3812:1",
+      "Fecha": "2011-02-17",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": " manera preocupante con anterioridad. Por último, señala que los indicadores de nesgo financiero de las economías desarrolladas se mantienen elev",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-05-12:4053:1",
+      "Fecha": "2011-05-12",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 2,
+          "Contexto": "enido relativamente estable y que, respecto del último IPoM, registra una caída en tomo a 1,5% en términos multilaterales. No obstante lo anterior, e",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4734:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 2 de 26 ",
+          "Despues": " ",
+          "Contexto": "taria correspondiente al mes de octubre de 2012 se celebre el día 18 de ese mes. Sesión N° 184 Página 2 de 26 Asimismo, deja constancia que el Ministro de Hacienda señor ",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4736:2",
+      "Fecha": "2012-04-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 3 de 26 ",
+          "Despues": " ",
+          "Contexto": "s han sido moderadas, reflejando que la tensión es mayor en los países europeos. Sesión N° 184 Página 3 de 26 El señor Sergio Lehmann hace notar que la mayor preocupación",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4736:4",
+      "Fecha": "2012-04-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 4 de 26 ",
+          "Despues": " ",
+          "Contexto": "la presente jornada, no registró variación, en circunstancias que se proyectó un Sesión N° 184 Página 4 de 26 aumento de 0,3%; que la creación de empleo también estuvo po",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4741:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 5 de 26 ",
+          "Despues": " ",
+          "Contexto": "endido a aumentar. Informa que una situación similar se observa en la Zona Euro, Sesión N° 184 Página 5 de 26 donde el PMI servicios, la encuesta ZEW y la encuesta ESI ha",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        },
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 6 de 26 ",
+          "Despues": " ",
+          "Contexto": "mostrado una cierta reversión en los últimos trimestres, ha tendido a detenerse. Sesión N° 184 Página 6 de 26 En materia de brechas de PIB, exhibe el heat map correspondi",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4746:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 7 de 26 ",
+          "Despues": " ",
+          "Contexto": ", que lo haría en 75 puntos base en la reunión programada para el día siguiente. Sesión N° 184 Página 7 de 26 También en consonancia con lo precedentemente expuesto, el s",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4753:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 8 de 26",
+          "Despues": "",
+          "Contexto": "ergio Lehmann y, a continuación, ofrece la palabra para consultas o comentarios. Sesión N° 184 Página 8 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4756:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 9 de 26 ",
+          "Despues": " ",
+          "Contexto": "s que excluyen automóviles, dan cuenta de una reaceleración. Destaca que ello es Sesión N° 184 Página 9 de 26 coherente con los indicadores del Instituto Nacional de Esta",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4760:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 10 de 26 ",
+          "Despues": " ",
+          "Contexto": "de alguna manera, con la visión al interior de la Gerencia de División Estudios. Sesión N° 184 Página 10 de 26 Hace presente que el segundo antecedente dice relación con u",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4762:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 11 de 26 ",
+          "Despues": " ",
+          "Contexto": "ración de las colocaciones de consumo durante la primera parte del presente año. Sesión N° 184 Página 11 de 26 Por otra parte, informa que las tasas de colocación exhiben ",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4766:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 12 de 26",
+          "Despues": "",
+          "Contexto": "ios, descontadas las cláusulas de indexación, crecen por sobre la productividad. Sesión N° 184 Página 12 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4770:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 13 de 26",
+          "Despues": "",
+          "Contexto": "el invierno, con otro respecto de los precios internacionales y de los márgenes. Sesión N° 184 Página 13 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4771:2",
+      "Fecha": "2012-04-17",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 14 de 26",
+          "Despues": "",
+          "Contexto": "na leve alza, hasta niveles no muy distintos de los vigentes al cierre del IPoM. Sesión N° 184 Página 14 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4778:2",
+      "Fecha": "2012-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "Sesión N° 184 Página 15 de 26 ",
+          "Despues": "",
+          "Contexto": "Sesión N° 184 Página 15 de 26 Por no haber otras preguntas o comentarios, el Presidente se",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4780:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 16 de 26 ",
+          "Despues": " ",
+          "Contexto": "opción, esto es, mantenerla en 5% anual, en razón de los siguientes fundamentos. Sesión N° 184 Página 16 de 26 En primer término, indica que el IPoM de marzo contempla un ",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        },
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 17 de 26 ",
+          "Despues": " ",
+          "Contexto": "en en esta oportunidad, lo que lleva a no recomendar la opción de elevar la TPM. Sesión N° 184 Página 17 de 26 Hace presente que las expectativas privadas tampoco proyecta",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4782:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 18 de 26",
+          "Despues": "",
+          "Contexto": "endación formulada por la Gerencia en el sentido de mantener la TPM en 5% anual. Sesión N° 184 Página 18 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4784:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 19 de 26",
+          "Despues": "",
+          "Contexto": "guiendo con la votación, concede la palabra al Consejero señor Enrique Marshall. Sesión N° 184 Página 19 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4784:2",
+      "Fecha": "2012-04-17",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 20 de 26 ",
+          "Despues": " ",
+          "Contexto": "r condiciones de oferta que se han tornado más restrictivas en el último tiempo. Sesión N° 184 Página 20 de 26 En materia de inflación, manifiesta que el último registro m",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4787:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 21 de 26 ",
+          "Despues": " ",
+          "Contexto": " al comienzo de la Minuta de Opciones, a los que añade los siguientes elementos. Sesión N° 184 Página 21 de 26 En lo referente a la economía internacional, hace presente q",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        },
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 22 de 26",
+          "Despues": "",
+          "Contexto": " monetaria en su nivel actual y por mantener inalterado el sesgo del Comunicado. Sesión N° 184 Página 22 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4788:2",
+      "Fecha": "2012-04-17",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 23 de 26",
+          "Despues": "",
+          "Contexto": " acuerda por unanimidad de los señores Consejeros mantener la TPM en 5,0% anual. Sesión N° 184 Página 23 de 26",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4789:1",
+      "Fecha": "2012-04-17",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 24 de 26 ",
+          "Despues": " ",
+          "Contexto": "ndencia en cuanto a la recuperación del país, si bien tal recuperación es lenta. Sesión N° 184 Página 24 de 26 En cuanto a China, advierte que se está generando preocupaci",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        },
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": " Sesión N° 184 Página 25 de 26 ",
+          "Despues": " ",
+          "Contexto": "s y educación, contrarrestado parcialmente por la disminución de transporte. Con Sesión N° 184 Página 25 de 26 todo, manifiesta que en la evolución de la inflación de los ",
+          "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-09-13:5049:1",
+      "Fecha": "2012-09-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "o, recuerda que la inflación cayó de manera relativamente rápida, desde niveles en tomo a 7,5% a 8%, a una velocidad mayor que la esperada por el mer",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-09-13:5066:1",
+      "Fecha": "2012-09-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "al de 0,4%, da cuenta del tercer mes consecutivo de variaciones de dicho índice en tomo a su trayectoria de tendencia y contrasta además con los regi",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5257:3",
+      "Fecha": "2012-12-13",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "imestre julio-septiembre. Por su parte, los salarios reales continúan creciendo en tomo al 3% anual, en línea con el aumento en la productividad medi",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-07-11:5694:1",
+      "Fecha": "2013-07-11",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "se muestra en un proceso de normalización, en línea con expectativas de mercado en tomo al 3% en el horizonte de política. En lo concerniente a la TP",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-02-18:6040:1",
+      "Fecha": "2014-02-18",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "a última RPM; que las expectativas en el horizonte relevante de política siguen en tomo a 3% anual; y, que las medidas de salarios nominales mantuvie",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6064:1",
+      "Fecha": "2014-03-13",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "mbia, cuyas monedas se han depreciado, pero que exhiben caídas en sus primas de nesgo y en sus tasas de interés de mercado; el segundo, en tanto,",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-04-17:6166:1",
+      "Fecha": "2014-04-17",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "eciación del peso y algunos factores puntuales, y las expectativas se mantienen en tomo a 3% anual. Hace presente que este escenario, como se consign",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6252:1",
+      "Fecha": "2014-06-12",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nesgo",
+          "Despues": "riesgo",
+          "Ocurrencias": 1,
+          "Contexto": "ica y Europa, se advierte mayor tranquilidad en los mercados, y los premios por nesgo y la volatilidad han disminuido. No obstante, advierte sobr",
+          "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6278:1",
+      "Fecha": "2014-06-12",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "l 3% anual. Hace presente que, con vaivenes, el tipo de cambio nominal se ubicó en tomo a $550 por dólar estadounidense, en tanto que el tipo de camb",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7031:1",
+      "Fecha": "2015-09-15",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en tomo a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "iesta que su mayor preocupación se concentra en la inflación, que se mantendría en tomo a 5% hasta el mes de febrero de 2016 y que descansa en alguno",
+          "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
