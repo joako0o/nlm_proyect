@@ -1889,6 +1889,76 @@
      "Justificacion": "Espacio antes del signo de porcentaje. La reparación es única y no altera ninguna letra. La misma fila es inconsistente: unas líneas más adelante escribe '(8,9% el mes anterior)' sin espacio. Medido: '7,2 %' aparece 1 vez en el corpus."
     }
    ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2024:1",
+   "Fecha": "2008-08-14",
+   "Actor": "Andrés Velasco Brañes",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "pudiera ser que efectivamente puedan aumentar su producción. U)",
+     "Despues": "pudiera ser que efectivamente puedan aumentar su producción.",
+     "Contexto": "ctricidad relativamente razonable, que hoy no tienen, o con un diesel a un precio conveniente, pudiera ser que efectivamente puedan aumentar su producción. U)",
+     "Justificacion": "Residuo de glifos al final de la fila: 'U)' suelto no forma nada. MEDIDO CON CUIDADO porque la cadena engaña: 'U)' aparece 14 veces en el corpus pero 8 de ellas son el cierre legítimo de una sigla ('BCU' 2 veces, 'CLU' 5 y 'NAIRU' 1), que no se tocan. Los otros 6 son residuos sueltos: 310:1, 1379:1, 1484:1, 1817:1, 1847:1 (que trae 'U U)') y esta. Una regla ciega de borrar 'U)' habría roto ocho siglas."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2028:1",
+   "Fecha": "2008-08-14",
+   "Actor": "Claudio Soto Gamboa",
+   "Operaciones": [
+    {
+     "Tipo": "ACENTO_FALTANTE",
+     "Antes": "un cambio en la descomposición del empleo en temas etareos, con más empleo juvenil",
+     "Despues": "un cambio en la descomposición del empleo en temas etáreos, con más empleo juvenil",
+     "Contexto": " cuenta propia es más alta. Agrega que la Asociación Chilena de Seguridad da cuenta también de un cambio en la descomposición del empleo en temas etareos, con más empleo juvenil y de personas que han tenido más acceso a la educación y que, por lo ",
+     "Justificacion": "Tilde ausente. 'etareos' sin tilde no es palabra: lo que existe es 'etáreo' (del éter), que aquí no tiene sentido, y el adjetivo de edad es 'etáreo'/'etáreos' con tilde. La oración no admite otra lectura, así que es sección 1 y no pide corroboración. Medido: 'etareos' aparece 1 vez en el corpus."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2029:1",
+   "Fecha": "2008-08-14",
+   "Actor": "Andrés Velasco Brañes",
+   "Operaciones": [
+    {
+     "Tipo": "PALABRA_ERRONEA",
+     "Antes": "pero no explicaría porqué se produce un pequeño efecto de reversión",
+     "Despues": "pero no explicaría por qué se produce un pequeño efecto de reversión",
+     "Contexto": "l comentario anterior explicaría el porqué el empleo asalariado se había estado fortaleciendo, pero no explicaría porqué se produce un pequeño efecto de reversión. Menciona que, en su opinión, resultaba improbable que el empleo por ",
+     "Justificacion": "'porqué' es un sustantivo y exige artículo; aquí no lo lleva y la construcción es interrogativa indirecta, así que corresponde 'por qué' en dos palabras. Medido: 'porqué' aparece 13 veces y 'por qué' 90, y como las dos formas conviven es transcripción inconsistente y no criterio uniforme. Mismo criterio aplicado a 'consulta porqué' en RPM-2007-09-13:1420:1, ronda 163. No se toca el 'el porqué' de la oración anterior de esta misma fila: ahí sí lleva artículo y es el sustantivo, aunque le falte el 'de que', que es un solecismo y no un defecto óptico."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2031:3",
+   "Fecha": "2008-08-14",
+   "Actor": "Andrés Velasco Brañes",
+   "Operaciones": [
+    {
+     "Tipo": "ACENTO_INDEBIDO",
+     "Antes": "y la otra es qué ocurre cuándo se está dentro de la banda",
+     "Despues": "y la otra es qué ocurre cuando se está dentro de la banda",
+     "Contexto": "ste asunto, hay dos cosas que son distintas. Una, es qué pasa cuando se está fuera de la banda y la otra es qué ocurre cuándo se está dentro de la banda y lo que podría haber, al menos para la gasolina, es un switch que en",
+     "Justificacion": "Tilde indebida: el 'cuando' que introduce la subordinada no es interrogativo y no lleva tilde; el 'qué' anterior sí la conserva. Medido: 'cuándo' aparece 31 veces en el corpus frente a 'cuando' 928. Sólo se corrige esta ocurrencia, que es la que está en posición subordinada."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2034:1",
+   "Fecha": "2008-08-14",
+   "Actor": "Jorge Desormeaux Jiménez",
+   "Operaciones": [
+    {
+     "Tipo": "PALABRA_ERRONEA",
+     "Antes": "y, en particular, que el Euro se ha depreciado desde abril, alrededor de un 7%",
+     "Despues": "y, en particular, que el euro se ha depreciado desde abril, alrededor de un 7%",
+     "Contexto": "caído el precio del cobre, y el segundo que también han cambiado las paridades internacionales y, en particular, que el Euro se ha depreciado desde abril, alrededor de un 7%.",
+     "Justificacion": "Los nombres de moneda son sustantivos comunes y van en minúscula. Medido: 'el euro' aparece 107 veces en el corpus y 'el Euro' 35, así que conviven las dos formas y la minúscula es claramente mayoritaria: transcripción inconsistente, no criterio uniforme. No se confunde con 'Zona Euro' (401 veces), que es el nombre propio del área y no se toca. A diferencia de 'la demanda China', marcada en la ronda 172, aquí no se altera la grafía de un nombre propio."
+    }
+   ]
   }
  ],
  "Revisiones_Sin_Correccion": [
@@ -2503,6 +2573,36 @@
    "Texto_Original_Fragmento": "(en torno a 70%), Agrega el expositor / desde 6% a 8%, Indica el señor Soto / la evolución de la inversión, Por el lado de la demanda",
    "Motivo": "FALTA EL PUNTO ANTES DE MAYÚSCULA, tres veces en esta misma fila, y no se inserta nunca: la sección 7 lo marca y no lo repone, porque añadir un signo es reescribir y el PDF puede traer otra cosa. Los tres casos son idénticos: una coma seguida de una palabra en mayúscula que abre oración ('), Agrega el expositor', 'a 8%, Indica el señor Soto', 'la inversión, Por el lado'). Medido: cada una de las tres cadenas aparece 1 sola vez en el corpus.",
    "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2011:4",
+   "Texto_Original_Fragmento": "y que constituye una redisposición estructural en la economía",
+   "Motivo": "DOS CANDIDATOS, los dos palabras reales y los dos plausibles: 'redistribución' (2 veces en el corpus) o 'recomposición' (34 veces, y esta misma fila usa 'recomposición' más adelante). 'Redisposición' no es palabra, pero justamente por eso no hay una sola salida. Ninguna de las dos formas aparece en la fila ni en la sesión. Se marca en vez de elegir.",
+   "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2024:1",
+   "Texto_Original_Fragmento": "esta afirmación es muy importante desagregaba, puesto que existen lugares en que esa situación debiera ocurrir",
+   "Motivo": "DOS CANDIDATOS. 'desagregaba' es una forma verbal real pero aquí no es gramatical, así que hay que reponer; las salidas son 'desagregarla' y 'desagregar', y las dos funcionan ('esta afirmación es muy importante desagregarla' o '...importante desagregar'). Medido: 'desagregarla' aparece 0 veces en todo el corpus, 0 en la fila y 0 en la sesión, así que tampoco hay respaldo documental para preferir una. Se marca.",
+   "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2014:1",
+   "Texto_Original_Fragmento": "un trabajo conjunto de los economistas señores Roberto Álvarez y Alvaro García",
+   "Motivo": "SE MIRA Y SE DESCARTA. 'Alvaro' sin tilde es ortográficamente incorrecto, pero medido en el corpus la fuente lo escribe así siempre: 'Alvaro' 2 veces (esta y 2371:1) y 'Álvaro' 0. Cuando la forma supuestamente mala es uniforme en todo el corpus no hay errata que cotejar: el PDF mostraría lo mismo. Es la lección de 'la Secretario General' (4334:1, marca retirada en la ronda 148). Y es nombre propio, así que tampoco se reescribiría.",
+   "Marca": "NO_REQUIERE_COTEJO"
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2017:1",
+   "Texto_Original_Fragmento": "se observa que ha sido hiper sensible en su producción a los shocks energéticos",
+   "Motivo": "SE DEJA. La norma pide el prefijo soldado ('hipersensible'), pero no es un defecto óptico y la fuente escribe los prefijos separados de forma uniforme: 'post ' separado aparece 38 veces contra 1 de 'post-'. Normalizar prefijos por criterio ortográfico sería una regla general, que está excluida.",
+   "Marca": "NO_REQUIERE_COTEJO"
+  },
+  {
+   "ID_Intervencion": "RPM-2008-08-14:2029:2",
+   "Texto_Original_Fragmento": "sobre la trayectoria de precios relativos en el año 2000, un año post sequía",
+   "Motivo": "SE DEJA, por la misma razón que 'hiper sensible': el prefijo 'post' va separado en toda la fuente (38 veces contra 1 de 'post-'), así que es su convención y no una errata de fila. 'postsequía' aparece 0 veces en el corpus.",
+   "Marca": "NO_REQUIERE_COTEJO"
   }
  ],
  "Marcas_Adicionales": [

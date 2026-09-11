@@ -259,6 +259,19 @@ alguna puede estar al lado de la forma correcta y zanjar la lectura. Eliminar
 en cambio sigue siendo lo correcto cuando el residuo no reemplaza a ninguna
 palabra (`s - f '`, `^ / ■ -i`, `f ' '`, `/ '`, `H ^ .`, numeración de página).
 
+### 8 ter. Contar también antes de **eliminar**: la cadena puede ser legítima
+
+El caso contrario existe y es más peligroso, porque eliminar texto bueno no
+deja rastro. `U)` aparece **14 veces** en el corpus y a simple vista es basura,
+pero **8 de esas 14 son el cierre legítimo de una sigla**: `(BCU)` 2 veces,
+`(CLU)` 5 y `(NAIRU)` 1. Sólo 6 son residuos sueltos (`310:1`, `1379:1`,
+`1484:1`, `1817:1`, `1847:1` que trae `U U)`, y `2024:1`). Una regla ciega de
+borrar `U)` habría destruido ocho siglas reales.
+
+**Regla:** antes de eliminar una cadena, contarla y mirar **todas** sus
+ocurrencias con contexto. Se elimina la ocurrencia que no forma nada, no la
+cadena.
+
 
 ---
 
