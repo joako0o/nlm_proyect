@@ -9623,6 +9623,111 @@
           "Justificacion": "Apellido partido por un espacio: \"Marf án\" por \"Marfán\". La prueba de la seccion 5 se cumple de sobra: \"Marfán\" aparece 1.505 veces en el corpus y \"Marf án\" una sola, y la lista de asistencia de esta misma sesion trae \"don Manuel Marfán Lewis\". No se resuelve una identidad dudosa ni se inventa una grafia: se reune la unica que existe."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:198:1",
+      "Fecha": "2005-03-10",
+      "Actor": "María Elena Ovalle Molina",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"",
+          "Despues": "”",
+          "Contexto": "senta, con la meta inflacionaria en el horizonte habitual de política.\"",
+          "Justificacion": "La fila tiene 2 aperturas “ y 1 cierre ”, de modo que queda una apertura sin cerrar y esta comilla recta es la ultima del renglon: es el cierre que falta. La prueba es interna al propio texto, no hace falta el PDF."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1149:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Andrés Velasco Brañes",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "\"",
+          "Despues": "",
+          "Contexto": "utido sobre el particular y quizás tengamos una discusión nuevamente. \"Señala que quiere hacer un ejercicio mental que consist",
+          "Justificacion": "Comilla huerfana: no tiene pareja en la fila ni en las seis filas vecinas de la sesion (medido: todas con cero comillas) y esta delante de una oracion narrativa (\"Señala que quiere hacer un ejercicio mental\"), no de una cita. Es residuo de origen, y las comillas huerfanas estan en la lista de residuos a eliminar."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5330:3",
+      "Fecha": "2013-01-17",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"",
+          "Despues": "”",
+          "Contexto": "oeconómicas internas y externas sobre las perspectivas inflacionarias.\"",
+          "Justificacion": "Comilla recta al cierre del Comunicado. Medido en todo el corpus: \"perspectivas inflacionarias.”\" aparece 31 veces y \"perspectivas inflacionarias.\"\" 6. El cierre es inequivoco por frecuencia y por posicion: es la ultima linea del Comunicado."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-05-16:5562:1",
+      "Fecha": "2013-05-16",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "\"",
+          "Despues": "",
+          "Contexto": "xpresa que las noticias del mes no modifican sustancialmente el cuadro\" externo, pero sí brindan apoyo a la visión de que el c",
+          "Justificacion": "Comilla huerfana interpuesta dentro de un sintagma: \"no modifican sustancialmente el cuadro\" externo\". Separa el sustantivo de su adjetivo y no tiene pareja en la fila. Es residuo de origen."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6438:3",
+      "Fecha": "2014-09-11",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " \"",
+          "Despues": " “",
+          "Contexto": "ectura al texto del Comunicado, que es del siguiente tenor: Comunicado \"En su reunión mensual de política monetaria, el Consejo",
+          "Justificacion": "Comilla recta que abre la cita del Comunicado. Medido en todo el corpus: la formula \"Comunicado\" va seguida de “ 99 veces y de una recta solo 6. La apertura es inequivoca y la corroboracion es del propio corpus, no de la intuicion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6517:3",
+      "Fecha": "2014-11-18",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"",
+          "Despues": "“",
+          "Contexto": "ctura al texto del Comunicado, que es del siguiente tenor: Comunicado \"En su reunión mensual de política monetaria, el Consejo",
+          "Justificacion": "Comilla recta que abre la cita del Comunicado. Medido en todo el corpus: la formula \"Comunicado\" va seguida de “ 99 veces y de una recta solo 6. La apertura es inequivoca y la corroboracion es del propio corpus, no de la intuicion."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-12-11:6547:3",
+      "Fecha": "2014-12-11",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " \"",
+          "Despues": " “",
+          "Contexto": "ectura al texto del Comunicado, que es del siguiente tenor: Comunicado \"En su reunión mensual de política monetaria, el Consejo",
+          "Justificacion": "Comilla recta que abre la cita del Comunicado. Medido en todo el corpus: la formula \"Comunicado\" va seguida de “ 99 veces y de una recta solo 6. La apertura es inequivoca y la corroboracion es del propio corpus, no de la intuicion."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": ".\"",
+          "Despues": ".”",
+          "Contexto": "roeconómicas internas y externas sobre las perspectivas inflacionarias.\"",
+          "Justificacion": "Comilla recta al cierre del Comunicado. Medido en todo el corpus: \"perspectivas inflacionarias.”\" aparece 31 veces y \"perspectivas inflacionarias.\"\" 6. El cierre es inequivoco por frecuencia y por posicion: es la ultima linea del Comunicado."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -10345,6 +10450,30 @@
       "Texto_Original_Fragmento": "incluso por debajo de US$ 1 aproximadamente",
       "Motivo": "CIFRA_INCONSISTENTE. El petroleo se describe en la misma fila entre US$ 62 y US$ 65 el barril, de modo que \"por debajo de US$ 1\" puede leerse como \"un dolar por debajo\" (lectura coherente con \"precios muy similares\") o como un US$ 61 al que se le cayeron digitos. Ambas lecturas son viables, no hay forma de decidir sin el PDF.",
       "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2417:1",
+      "Texto_Original_Fragmento": "componentes de serrucho\".",
+      "Motivo": "Comilla de cierre sin apertura en la fila. \"serrucho\" es un coloquialismo que plausiblemente va entrecomillado en el original, pero falta la apertura y reponerla seria inventar. Sin reconstruccion unica.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2430:1",
+      "Texto_Original_Fragmento": "aplicando \"mecánicamente ese indicador",
+      "Motivo": "Comilla de apertura sin cierre en la fila. No se sabe si entrecomilla solo \"mecanicamente\" o un trecho mas largo, y eliminarla borraria una marca que en el original probablemente existe. Sin reconstruccion unica.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4064:1",
+      "Texto_Original_Fragmento": "-4 . f . • \" ' A)",
+      "Motivo": "La comilla forma parte de una corrida de basura optica al final del renglon (\"-4 . f . • \" ' A)\"), que es un artefacto de pie de pagina. Eliminar solo la comilla dejaria el resto de la corrida; el bloque entero necesita su propia decision. Sin reconstruccion unica.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4510:1",
+      "Texto_Original_Fragmento": "apuesta por un recorte. r \" Sobre las opciones",
+      "Motivo": "Comilla huerfana dentro de una corrida danada (\"recorte. r \" Sobre\"). La r suelta y la comilla son parte del mismo artefacto; corregir una sin la otra dejaria el renglon igual de roto. Sin reconstruccion unica.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
