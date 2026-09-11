@@ -297,6 +297,39 @@ tratamiento documental — es la regla que mantiene «Claudia Raddatz»,
 Se marca `NOMBRE_PROPIO_POR_COTEJAR` y se registra el motivo. Corregir la
 grafía de un nombre es una decisión sobre identidad, no sobre un carácter.
 
+### 5 bis. La única excepción: **reunir** un nombre que el corpus ya escribe bien
+
+La regla de arriba prohíbe **resolver** (decidir que «Claudios Soto» es
+«Claudio Soto») e **inventar** (poner una grafía que no consta en ninguna
+parte). No prohíbe una tercera cosa, distinta: **reunir** un nombre que el
+scanner partió, cuando el propio corpus trae la forma correcta referida a la
+misma persona.
+
+La prueba, y es la que autoriza o bloquea el caso:
+
+> **¿La forma correcta aparece en el corpus, o en la lista de asistencia de la
+> sesión, referida a la misma persona?** Si sí → se reúne. Si no → se marca.
+
+| caso | forma correcta en el corpus | decisión |
+|---|---|---|
+| `Schmidt- Hebbel` (5) | `Schmidt-Hebbel` **122** + lista de asistencia «don Klaus Schmidt-Hebbel Dunker» | **reunir** |
+| `Schmidt-⏎Hebbel` (1) | idem | **reunir** |
+| `Marf án` (1) | `Marfán` **1.505** + «don Manuel Marfán Lewis» | **reunir** |
+| `Claudios Soto` | `Claudio Soto` **no aparece en ninguna parte** | **marcar** |
+| `don Kiaus Schmidt-Hebbei` | la forma correcta existe, pero aquí hay que **cambiar letras**, no quitar un espacio | **marcar** |
+
+Las dos últimas filas son las que contienen la excepción. `Claudios Soto` no
+pasa porque no hay testigo. `Kiaus Schmidt-Hebbei` no pasa porque reunir no
+alcanza: habría que decidir que la `K` es `Kl` y la `ei` final es `el`, y eso
+ya es reescribir la grafía.
+
+La excepción sólo cubre **quitar un espacio o un salto de línea** dentro de un
+nombre. Nunca cambiar una letra.
+
+Dos datos que sostienen que el riesgo es bajo: las 7 ocurrencias totales, y
+`Actor_Final` — la columna que de verdad consume la tarea de identificar
+hablantes — ya estaba correcta en las 6 filas afectadas.
+
 ## 6. NO se corrige: datos de la fuente
 
 | caso | por qué |
@@ -371,6 +404,50 @@ respuestas opuestas, y en las dos gana el conteo.
 
 
 ---
+
+## 9. Pase en bloque: sólo con precisión medida por regla
+
+Un defecto sistemático es el que el scanner produce siempre igual, así que se
+repite idéntico en decenas de filas. Corregirlo fila por fila al leer cuesta
+~13 filas por turno; en bloque cuesta uno. Pero **la precisión no es del lote,
+es de cada regla**, y hay que medirla antes:
+
+| regla | ocurrencias | falsos positivos | precisión | decisión |
+|---|---|---|---|---|
+| `IRC`→`IPC` | 71 | 0 | 100 % | bloque |
+| `nesgo`→`riesgo` | 29 | 0 | 100 % | bloque |
+| `yeso`→`y eso` | 13 | 0 | 100 % | bloque |
+| `en tomo a(l)`→`en torno a(l)` | 24 | 0 | 100 % | bloque |
+| `Página N de N` | 26 | 0 | 100 % | bloque |
+| `cambiaría`→`cambiaria` | 241 | **3** | 98,8 % | bloque **con exclusión** |
+| `cambiarl[oa]s?`→`cambiari[oa]s?` | 89 | **6** | 93,3 % | bloque **con exclusión** |
+
+Las 9 excluidas son formas verbales legítimas que una regla ciega habría
+corrompido: «cuánto **cambiaría** la estimación», «no **cambiaría** el sesgo»,
+«habría que **cambiarlos** por papeles», «no puede **cambiarlo**». El
+discriminador mecánico es la palabra que precede (`no`, `cuánto`, `hay que`,
+`para`, `puede`…) y se verificó que **ninguna fila mezcla** la forma verbal con
+la adjetiva, lo que permite excluir por fila entera.
+
+Tres reglas del procedimiento en bloque:
+
+1. **Medir la forma suelta y la delimitada.** `cambiaría` suelto son 241 pero
+   `\bcambiaría\b` son 188: la diferencia está dentro de `cambiarías`, y
+   reemplazar la corta arregla también la larga. Lo mismo con `IRC`/`IRCX1` y
+   `en tomo a`/`en tomo al`. Y al revés: `\bcambiar[íi]a\b` captura también la
+   forma **correcta** `cambiaria`, así que ese patrón no sirve.
+2. **Verificar de punta a punta contra la release**, no contra el registro:
+   contar qué queda del defecto y qué creció en la forma buena, y comprobar que
+   las formas legítimas excluidas **siguen intactas**.
+3. **Cada nivel va en su propio commit**, con el conteo antes y después.
+
+Lo que **no** se hizo en bloque, y por qué:
+
+- `A continuación,.` — **76 filas**. Es decisión de bloque por tamaño, pero hay
+  instrucción expresa de dejarlo intacto. Sigue pendiente.
+- 66 comillas rectas que forman pares enteramente rectos o quedan huérfanas: sin
+  desequilibrio no hay prueba de defecto. Convertirlas sería normalización
+  tipográfica, no reparación.
 
 ## El procedimiento que no se salta
 

@@ -1599,6 +1599,14 @@
           "Despues": "que no estaban presentes en el IPoM, en especial los combustibles",
           "Contexto": "munique que la decisión que se tome hoy ya incorpora ciertos shocks adicionales a los precios, que no estaban presentes en el IpoM, en especial los combustibles. Señala además que le parece crucial que la percepción de mayores rie",
           "Justificacion": "Segunda variante de la misma sigla en esta misma fila: 'IpoM' por 'IPoM' (2.477 contra 5 en el corpus). Reparación única."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Schmidt- Hebbel",
+          "Despues": "Schmidt-Hebbel",
+          "Ocurrencias": 1,
+          "Contexto": "icio, en lo que muy bien mencionó el Gerente de Investigación Económica, señor Klaus Schmidt- Hebbel, una situación en la cual los riesgos para el crecimiento del PI",
+          "Justificacion": "Apellido partido por un espacio despues del guion. La seccion 5 prohibe RESOLVER o INVENTAR un nombre propio, y aqui no se hace ninguna de las dos cosas: se reune un nombre que el propio corpus escribe correctamente 122 veces contra 5 partidas, y que la lista de asistencia de las actas trae completo (\"don Klaus Schmidt-Hebbel Dunker\"). Prueba aplicada, que es la que autoriza la excepcion: la forma correcta existe en el corpus referida a la misma persona. Un caso como \"Claudios Soto\" no la pasaria, porque \"Claudio Soto\" no aparece en ninguna parte."
         }
       ]
     },
@@ -3319,6 +3327,14 @@
           "Despues": "”",
           "Contexto": "nciera internacional, en vez de constituir el “turning point\" de la crisis, como lo calificó Stan Fischer hace ",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Schmidt-\nHebbel",
+          "Despues": "Schmidt-Hebbel",
+          "Ocurrencias": 1,
+          "Contexto": ", por encima del 3%. Hace presente el Gerente de Investigación Económica señor Klaus Schmidt- Hebbel, que son absolutamente contrapuestas las implicancias para la po",
+          "Justificacion": "Mismo apellido, partido por un salto de linea despues del guion. Misma prueba: \"Schmidt-Hebbel\" aparece 122 veces en el corpus y la lista de asistencia lo trae completo. No se resuelve ni se inventa nada."
         }
       ]
     },
@@ -9545,6 +9561,66 @@
           "Despues": "",
           "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a las 17:10 horas. ' SEBASTIÁN CLARO EDWARDS RODRIGO VERGARA MONTES Vicepresid",
           "Justificacion": "Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre \"Se levanta la Sesion a las HH:MM horas\", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como \"ENRIQUE MARSHALL RIVERA\" 4 veces, como \"E MARSHALL RIVERA\" 15 veces y como \"EI)fRIQUE MARSHALL RIVERA\"; otros bloques quedan como \"rORTO CORBO LIOIV\" o \"J U A f ^ T E B ^ LAVÁL ZALDÍVAR li\". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1056:1",
+      "Fecha": "2007-01-11",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Schmidt- Hebbel",
+          "Despues": "Schmidt-Hebbel",
+          "Ocurrencias": 1,
+          "Contexto": "uales han descrito muy bien tanto el Gerente de Investigación Financiera señor Klaus Schmidt- Hebbel, como el Consejero señor Jorge Desormeaux. Sin embargo, también ",
+          "Justificacion": "Apellido partido por un espacio despues del guion. La seccion 5 prohibe RESOLVER o INVENTAR un nombre propio, y aqui no se hace ninguna de las dos cosas: se reune un nombre que el propio corpus escribe correctamente 122 veces contra 5 partidas, y que la lista de asistencia de las actas trae completo (\"don Klaus Schmidt-Hebbel Dunker\"). Prueba aplicada, que es la que autoriza la excepcion: la forma correcta existe en el corpus referida a la misma persona. Un caso como \"Claudios Soto\" no la pasaria, porque \"Claudio Soto\" no aparece en ninguna parte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1090:6",
+      "Fecha": "2007-02-08",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Schmidt- Hebbel",
+          "Despues": "Schmidt-Hebbel",
+          "Ocurrencias": 1,
+          "Contexto": "Señala el Gerente de Investigación Económica, señor Klaus Schmidt- Hebbel que desde la Reunión de Política Monetaria del 11 de enero, se h",
+          "Justificacion": "Apellido partido por un espacio despues del guion. La seccion 5 prohibe RESOLVER o INVENTAR un nombre propio, y aqui no se hace ninguna de las dos cosas: se reune un nombre que el propio corpus escribe correctamente 122 veces contra 5 partidas, y que la lista de asistencia de las actas trae completo (\"don Klaus Schmidt-Hebbel Dunker\"). Prueba aplicada, que es la que autoriza la excepcion: la forma correcta existe en el corpus referida a la misma persona. Un caso como \"Claudios Soto\" no la pasaria, porque \"Claudio Soto\" no aparece en ninguna parte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1633:2",
+      "Fecha": "2008-01-10",
+      "Actor": "Leonardo Hernández Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Schmidt- Hebbel",
+          "Despues": "Schmidt-Hebbel",
+          "Ocurrencias": 1,
+          "Contexto": "tos que se han presentado. Indica que comparte lo expresado por los Gerentes señores Schmidt- Hebbel y De Ramón, y que solo desea enfatizar que no comparte del todo ",
+          "Justificacion": "Apellido partido por un espacio despues del guion. La seccion 5 prohibe RESOLVER o INVENTAR un nombre propio, y aqui no se hace ninguna de las dos cosas: se reune un nombre que el propio corpus escribe correctamente 122 veces contra 5 partidas, y que la lista de asistencia de las actas trae completo (\"don Klaus Schmidt-Hebbel Dunker\"). Prueba aplicada, que es la que autoriza la excepcion: la forma correcta existe en el corpus referida a la misma persona. Un caso como \"Claudios Soto\" no la pasaria, porque \"Claudio Soto\" no aparece en ninguna parte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:1992:1",
+      "Fecha": "2008-08-14",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Marf án",
+          "Despues": "Marfán",
+          "Ocurrencias": 1,
+          "Contexto": " financieros internacionales o que puede ser tal vez lo que dice el Consejero Manuel Marf án.",
+          "Justificacion": "Apellido partido por un espacio: \"Marf án\" por \"Marfán\". La prueba de la seccion 5 se cumple de sobra: \"Marfán\" aparece 1.505 veces en el corpus y \"Marf án\" una sola, y la lista de asistencia de esta misma sesion trae \"don Manuel Marfán Lewis\". No se resuelve una identidad dudosa ni se inventa una grafia: se reune la unica que existe."
         }
       ]
     }
