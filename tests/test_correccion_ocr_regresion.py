@@ -214,7 +214,11 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         error más fácil de cometer con un detector de acentos. Estos conteos son
         un suelo: si bajan, una pasada se está comiendo formas correctas.
         """
-        piso = {'éstos': 137, 'cuánto': 128, 'terminó': 29, 'período': 786,
+        # Suelos medidos POR TOKEN en la salida. No sirven los conteos por
+        # substring: 'cuánto' da 128 por substring porque incluye 'cuántos', y
+        # 'período' da 786 porque incluye 'períodos'. Con esos números el test
+        # fallaba sin que se hubiera dañado nada.
+        piso = {'éstos': 137, 'cuánto': 124, 'terminó': 20, 'período': 661,
                 'dónde': 41, 'cambió': 21, 'hacía': 32, 'inició': 23,
                 # §16 grupo B: leídas una por una y declaradas correctas
                 'continua': 16, 'publica': 13, 'seria': 7, 'multimodal': 4}
