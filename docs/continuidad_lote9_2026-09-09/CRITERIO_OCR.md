@@ -665,3 +665,67 @@ faltaba `IPX1`. **Cuando dos defectos caen dentro del mismo tramo, se extiende l
 otra** — la misma regla que resolvió `1321:1`.
 
 En total: 49 operaciones en 31 filas.
+
+---
+
+## 15. Primera pasada transversal completa: palabras partidas (317 → 0)
+
+Hasta aquí las pasadas salían de lo que iba apareciendo al leer. Esta es la primera
+hecha sobre **las 9.723 filas de una vez**, y el motivo es una medición: de las filas
+corregidas, **526 de 831 (63 %) caían en filas que todavía no se habían leído**. Lo que
+encuentra los defectos es lo transversal, no la lectura secuencial.
+
+**La regla.** Dos tokens vecinos separados por un solo espacio, cuya concatenación es una
+palabra frecuente del corpus (>= 20 apariciones) y donde **ninguna de las dos mitades por
+separado es una palabra corriente** (< 50). Si una mitad fuera común, el espacio sería
+real. Medido: 317 pares en la base, 0 en la salida.
+
+**Nombres propios.** Se corrigieron `Desorm eaux`→`Desormeaux` (444), `Zurbuc hen`→
+`Zurbuchen` (100), `Claud io`→`Claudio` (1.350), `Am érica`→`América` (2.589),
+`E lena`→`Elena` (32), `C onsejo`→`Consejo` (1.433). No es la resolución de alias que el
+criterio prohíbe: la forma correcta está atestiguada y lo único que se elimina es un
+espacio que el escaneo insertó **dentro** de la palabra. No se adivina ninguna grafía.
+
+### Tres mediciones negativas que hay que registrar
+
+1. **La rareza no discrimina.** Hay 5.917 hapax de largo >= 7 (5.435 en minúscula) y casi
+   todos son palabras reales y raras (`abstuvo`, `ablandó`, `Abenomics`). Es el segundo
+   generador automático que se mide y se descarta, después del pre-escáner (14/31, 45 %).
+2. **El detector de acentos no es usable.** Encuentra 1.022 candidatos en 820 filas, pero
+   la mayoría son pares mínimos legítimos del español que difieren sólo en acento
+   (`terminó`/`término`, `cambió`/`cambio`, `dónde`/`donde`). Sin lexicón no hay forma
+   barata de decidirlos. Reales entre ellos: `nomínales`, `anualízado`, `estimulo`,
+   `Adicíonalmente`, `Adícionalmente` — quedan **pendientes**, no se aplican.
+3. **`re.finditer` no solapa, y eso falsea cualquier detector de pares.** En «un crecim
+   iento» empareja `un`+`crecim`, los consume, y la pareja real nunca se evalúa. Con el
+   regex el detector llegó a reportar **«0 candidatos» cuando todavía quedaban 3 `crecim
+   iento`, 5 `trim estre` y 3 `econom ías` en la salida**. Hay que recorrer posiciones de
+   token. **Y el detector no es la prueba: la prueba es contar sobre el release.**
+
+### Cuando dos defectos caen en el mismo tramo
+
+Once casos no admitían operación nueva porque una ya registrada cubría el sitio. Dos
+subcasos, y la diferencia importa:
+
+* **Cobertura total** y la forma dañada ya no está en el `Despues` → ya resuelto, no tocar.
+* **Cobertura parcial** — la operación corta a mitad de palabra (`…trim es`) → la división
+  **sobrevive** aunque el fragmento no aparezca literal en el `Despues`. Hay que extender
+  la operación: nuevo `Antes` = unión de tramos, nuevo `Despues` = trozo izquierdo +
+  `Despues` viejo + trozo derecho, y sobre eso aplicar la unión.
+
+Un tercer error, del mismo family: cuando una fila tiene **varias** apariciones del mismo
+defecto y una operación previa ya resolvió la primera, `t.find()` mapea todas a esa y se
+saltan las demás. Hay que enumerar todas las apariciones y quedarse con las vivas.
+
+### Lo que esto cambió en el procedimiento
+
+| | antes | ahora |
+|---|---|---|
+| filas corregidas | 831 | **921** |
+| operaciones | 1.069 | **1.334** |
+| auditoría | ninguna | `revision_operaciones.tsv` con las 1.334 |
+| control del `Despues` | sólo «que algo cambie» | toda palabra introducida debe existir en el corpus |
+| regresión | 3 tests mencionaban formas dañadas | 11 tests que fijan las basales |
+
+Pendiente de esta sección: los candidatos de acento reales listados arriba, y los 5.917
+hapax, que no son una lista de trabajo sino ruido hasta que haya lexicón.

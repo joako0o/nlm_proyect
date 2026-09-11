@@ -117,20 +117,29 @@ def detector_partida(salida: dict, freq: Counter, min_frec: int, limite: int) ->
 
     Se exige que la palabra junta sea frecuente y que las dos mitades por
     separado no lo sean: si una mitad es una palabra común, el espacio es real.
+
+    **No se puede hacer con un regex de pares.** ``re.finditer`` no solapa: en
+    «un crecim iento» empareja ``un``+``crecim``, consume ambos y la pareja
+    ``crecim``+``iento`` nunca se evalúa. Medido: con el regex el detector daba
+    «0 candidatos» cuando todavía quedaban 3 ``crecim iento``, 5 ``trim estre``
+    y 3 ``econom ías`` en la salida. Hay que recorrer posiciones de token.
     """
     print(f'--- detector partida (palabra junta con frecuencia >= {min_frec}) ---')
     casos = []
     for rid in sorted(salida):
         t = salida[rid]
-        for m in re.finditer(r'([A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}) ([A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,})', t):
-            a, b = m.group(1), m.group(2)
-            junta = a + b
+        toks = list(TOKEN.finditer(t))
+        for k in range(len(toks) - 1):
+            a, b = toks[k], toks[k + 1]
+            if t[a.end():b.start()] != ' ':
+                continue                      # no los separa un único espacio
+            junta = a.group() + b.group()
             if junta not in freq or freq[junta] < min_frec:
                 continue
             # si las dos mitades son palabras corrientes, el espacio es legítimo
-            if freq.get(a, 0) >= 50 or freq.get(b, 0) >= 50:
+            if freq.get(a.group(), 0) >= 50 or freq.get(b.group(), 0) >= 50:
                 continue
-            casos.append((rid, m.start(), a, b, junta, freq[junta], t))
+            casos.append((rid, a.start(), a.group(), b.group(), junta, freq[junta], t))
     vistos = defaultdict(int)
     for rid, i, a, b, junta, f, t in casos:
         vistos[junta] += 1

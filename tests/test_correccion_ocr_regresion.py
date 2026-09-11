@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import sys
 import unittest
+from collections import Counter
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -69,9 +70,9 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 831
+MIN_CORREGIDAS = 921
 MIN_MARCADAS = 135
-MIN_OPERACIONES = 1069
+MIN_OPERACIONES = 1334
 MIN_IPCX = 656       # IPCX legítimo preservado + el restaurado por §14
 MIN_IPCX1 = 480
 
@@ -190,6 +191,39 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                     if not (op.get(campo) or '').strip():
                         vacias.append(f'{rid} op{n}: falta {campo}')
         self.assertEqual([], vacias[:20])
+
+    def test_no_quedan_palabras_partidas(self):
+        """La pasada transversal de §15: 317 pares de palabra partida -> 0.
+
+        Contado por posiciones de token, no con un regex de pares: ``re.finditer``
+        no solapa y en «un crecim iento» consume ``un``+``crecim``, dejando la
+        pareja real sin evaluar. Ese bug hizo que el detector reportara «0
+        candidatos» cuando todavía quedaban 3 ``crecim iento`` en la salida.
+
+        Y no se cuentan substrings: ``so n`` cabe dentro de ``perso na`` y
+        ``ta n`` dentro de ``es ta n``, así que ``str.count`` infla.
+        """
+        import re
+        tok = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+')
+        freq = Counter()
+        for t in self.salida.values():
+            freq.update(tok.findall(t))
+        restantes = []
+        for rid in sorted(self.salida):
+            t = self.salida[rid]
+            ks = list(tok.finditer(t))
+            for k in range(len(ks) - 1):
+                a, b = ks[k], ks[k + 1]
+                if t[a.end():b.start()] != ' ':
+                    continue
+                junta = a.group() + b.group()
+                if junta not in freq or freq[junta] < 20:
+                    continue
+                if freq.get(a.group(), 0) >= 50 or freq.get(b.group(), 0) >= 50:
+                    continue
+                restantes.append(f'{rid}: «{a.group()} {b.group()}» -> «{junta}»')
+        self.assertEqual([], restantes[:20],
+                         f'{len(restantes)} palabras partidas siguen en la salida:')
 
     def test_las_marcas_usan_el_vocabulario_cerrado(self):
         for marcas in self.marcas.values():
