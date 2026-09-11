@@ -24184,7 +24184,172 @@
       "Universo": "PLAN_RONDAS_BANDA_D",
       "Ronda_Plan": 174,
       "Justificacion": "Ronda 174, 33 filas leidas completas (2011:4 a 2034:1), sesion 2008-08-14 en curso. Eje OCR: 5 correcciones en 5 filas y 5 marcas. Correcciones: el residuo 'U)' al final de 2024:1, medido con cuidado porque la cadena aparece 14 veces en el corpus pero 8 son el cierre legitimo de una sigla (BCU, CLU, NAIRU) y solo 6 son residuos sueltos, de modo que una regla ciega habria rocho ocho siglas; 'temas etareos' por 'etáreos' en 2028:1, porque 'etareos' sin tilde no es palabra y 'etáreo' es otra cosa; 'explicaría porqué se produce' por 'por qué' en 2029:1, sin articulo y en construccion interrogativa (13 contra 90, las dos formas conviven), sin tocar el 'el porqué' de la oracion anterior que si es sustantivo; 'qué ocurre cuándo se está' por 'cuando' en 2031:3, subordinada y no interrogativa (31 contra 928); y 'el Euro se ha depreciado' por 'el euro' en 2034:1, nombre de moneda en minuscula (10 contra 57), sin tocar 'Zona Euro' que es nombre propio y aparece 401 veces. Marcas: 'redisposición' admite 'redistribución' (2) o 'recomposición' (34, palabra que la misma fila usa despues); 'muy importante desagregaba' admite 'desagregarla' o 'desagregar' y la primera aparece 0 veces en el corpus; 'Alvaro García' se descarta porque la fuente lo escribe sin tilde siempre (2 contra 0) y entonces no hay errata que cotejar, leccion de 4334:1; y 'hiper sensible' y 'post sequía' se dejan porque la fuente separa los prefijos de forma uniforme (38 contra 1) y normalizarlos seria una regla general. Sin dos voces: 2027:1 termina en coma y 2027:2 abre en minuscula con la confirmacion de Soto, division sana del acta por cambio de hablante dentro de la oracion; el resto son intervenciones cortas de un solo hablante cada una."
+    },
+    "RPM-2008-08-14:2034:2": {
+      "ID_Intervencion": "RPM-2008-08-14:2034:2",
+      "ID_Padre": "2034",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 940,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2035:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2035:1",
+      "ID_Padre": "2035",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 130,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2035:2": {
+      "ID_Intervencion": "RPM-2008-08-14:2035:2",
+      "ID_Padre": "2035",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2035:3": {
+      "ID_Intervencion": "RPM-2008-08-14:2035:3",
+      "ID_Padre": "2035",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 182,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2036:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2036:1",
+      "ID_Padre": "2036",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 7012,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2037:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2037:1",
+      "ID_Padre": "2037",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 181,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2038:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2038:1",
+      "ID_Padre": "2038",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 6228,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2039:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2039:1",
+      "ID_Padre": "2039",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 157,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 175,
+      "Justificacion": "Ronda 175, 8 filas leidas completas (2034:2 a 2039:1), sesion 2008-08-14 en curso. Eje OCR: 3 correcciones en 2 filas y 1 marca doble. Correcciones: 'contra el Euro y otras monedas' por 'el euro' en 2034:2, segundo caso tras 2034:1 (107 contra 35, sin tocar 'Zona Euro' que aparece 761 veces); 'los salari os nominales' por 'salarios' en 2038:1 (2 contra 1.183); y el residuo 'M)' entre dos oraciones de 2038:1, que es el caso mas extremo hasta ahora de la seccion 8 ter: la cadena 'M)' aparece unas 78 veces en el corpus y todas menos esta son el cierre legitimo de una sigla real (IPoM, TPM, RPM, IREM, TCM, ICOM), o sea 1 residuo contra 77 usos legítimos, y una regla ciega habria destruido setenta y siete siglas. Marca doble en 2038:1: 'control de endeudamiento' casi seguro es 'costo' (1 vez en todo el corpus, 0 en fila y sesion) y 'los implementos de las tasas de interés' casi seguro es 'incrementos' (238 contra 1), pero en los dos la forma defectuosa es palabra real y la correcta da 0 en fila y sesion, asi que la seccion 2 manda marcar; quedan las mediciones escritas para que sea reversible. Se dejan como anglicismos 'stance', 'forward looking', 'timing' y 'binding', y como solecismos 'han habido sorpresas' y 'el diagnóstico ... indican'. Sin dos voces: 2036:1 es la presentacion de Opciones de Politica Monetaria de Garcia, 2038:1 la intervencion propia del Ministro Velasco y las demas son turnos cortos de un solo hablante; 2035:2 es la fila institucional del Consejo que reanuda la Sesion 126."
+    },
+    "RPM-2008-08-14:2040:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2040:1",
+      "ID_Padre": "2040",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 4932,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 176,
+      "Justificacion": "Ronda 176, 3 filas leidas completas (2040:1 de Claro, 2041:1 de Marshall, 2042:1 de Marfan), sesion 2008-08-14. Eje OCR: 4 correcciones en 2 filas y 1 marca. Correcciones: 'de ios hogares' por 'los hogares' en 2041:1 (2 contra 110); la letra suelta 'V' entre dos oraciones de 2041:1, medida con la seccion 8 ter, donde el reparto es el inverso del caso 'M)': ' V ' aparece 13 veces y 11 son residuos contra solo 2 usos legitimos de la letra como figura ('una V porque no hay un rebote', 'entre la V y la W'), de modo que la medicion manda en cada caso; el residuo 's/70c/(' por 'shock' en 2042:1, tercera y ultima ocurrencia, con lo que queda liquidado el defecto (las otras dos se corrigieron en la ronda 168); y la coma suelta de 'una década,. Agrega' en 2042:1, que no es el artefacto de las formulas de cierre: coma+punto aparece 98 veces en el corpus, 95 tras una formula de transicion y solo 3 fuera (4390:1 ya corregido como precedente, este, y 1731:2 que queda para su ronda). Marca: 'sobre la base de este argumento. U leerá nuevamente' tiene dos defectos encimados y no hay reparacion unica, porque si se quitara solo la 'U' quedaria un verbo en minuscula despues de punto y cambiar el punto por coma lo prohibe la seccion 7; se marca la frase entera en vez de reparar a medias. Sin dos voces: las tres filas son la exposicion y el voto de un solo Consejero cada una."
+    },
+    "RPM-2008-08-14:2041:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2041:1",
+      "ID_Padre": "2041",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 6969,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 176,
+      "Justificacion": "Ronda 176, 3 filas leidas completas (2040:1 de Claro, 2041:1 de Marshall, 2042:1 de Marfan), sesion 2008-08-14. Eje OCR: 4 correcciones en 2 filas y 1 marca. Correcciones: 'de ios hogares' por 'los hogares' en 2041:1 (2 contra 110); la letra suelta 'V' entre dos oraciones de 2041:1, medida con la seccion 8 ter, donde el reparto es el inverso del caso 'M)': ' V ' aparece 13 veces y 11 son residuos contra solo 2 usos legitimos de la letra como figura ('una V porque no hay un rebote', 'entre la V y la W'), de modo que la medicion manda en cada caso; el residuo 's/70c/(' por 'shock' en 2042:1, tercera y ultima ocurrencia, con lo que queda liquidado el defecto (las otras dos se corrigieron en la ronda 168); y la coma suelta de 'una década,. Agrega' en 2042:1, que no es el artefacto de las formulas de cierre: coma+punto aparece 98 veces en el corpus, 95 tras una formula de transicion y solo 3 fuera (4390:1 ya corregido como precedente, este, y 1731:2 que queda para su ronda). Marca: 'sobre la base de este argumento. U leerá nuevamente' tiene dos defectos encimados y no hay reparacion unica, porque si se quitara solo la 'U' quedaria un verbo en minuscula despues de punto y cambiar el punto por coma lo prohibe la seccion 7; se marca la frase entera en vez de reparar a medias. Sin dos voces: las tres filas son la exposicion y el voto de un solo Consejero cada una."
+    },
+    "RPM-2008-08-14:2042:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2042:1",
+      "ID_Padre": "2042",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 4266,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 176,
+      "Justificacion": "Ronda 176, 3 filas leidas completas (2040:1 de Claro, 2041:1 de Marshall, 2042:1 de Marfan), sesion 2008-08-14. Eje OCR: 4 correcciones en 2 filas y 1 marca. Correcciones: 'de ios hogares' por 'los hogares' en 2041:1 (2 contra 110); la letra suelta 'V' entre dos oraciones de 2041:1, medida con la seccion 8 ter, donde el reparto es el inverso del caso 'M)': ' V ' aparece 13 veces y 11 son residuos contra solo 2 usos legitimos de la letra como figura ('una V porque no hay un rebote', 'entre la V y la W'), de modo que la medicion manda en cada caso; el residuo 's/70c/(' por 'shock' en 2042:1, tercera y ultima ocurrencia, con lo que queda liquidado el defecto (las otras dos se corrigieron en la ronda 168); y la coma suelta de 'una década,. Agrega' en 2042:1, que no es el artefacto de las formulas de cierre: coma+punto aparece 98 veces en el corpus, 95 tras una formula de transicion y solo 3 fuera (4390:1 ya corregido como precedente, este, y 1731:2 que queda para su ronda). Marca: 'sobre la base de este argumento. U leerá nuevamente' tiene dos defectos encimados y no hay reparacion unica, porque si se quitara solo la 'U' quedaria un verbo en minuscula despues de punto y cambiar el punto por coma lo prohibe la seccion 7; se marca la frase entera en vez de reparar a medias. Sin dos voces: las tres filas son la exposicion y el voto de un solo Consejero cada una."
+    },
+    "RPM-2008-08-14:2043:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2043:1",
+      "ID_Padre": "2043",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 5643,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 177,
+      "Justificacion": "Ronda 177, 4 filas leidas completas (2043:1 de Desormeaux, 2044:1 de De Gregorio, 2045:1 con el Acuerdo 126-01 y el Comunicado, 2046:1 con el cierre y las firmas). Ultima ronda de la sesion 2008-08-14. Eje OCR: 2 correcciones y 2 marcas. Correcciones: 'este nesgo ha sido reemplazado por otro' por 'riesgo' en 2043:1, donde falta el arranque 'rie' y el contexto lo zanja sin margen porque la frase anterior habla de los riesgos que han ido desapareciendo; medido, 'nesgo' aparece 29 veces en 29 filas y las 29 son hueco de 'riesgo', nunca de 'sesgo', asi que es el cuarto defecto sistematico del corpus y quedan 28 por corregir; y 'Por lo todo lo anterior' por 'Por todo lo anterior' en 2044:1, donde sobra el primer 'lo' y la reparacion es unica porque quitar el segundo daria una cadena agramatical y la formula aparece 37 veces. Marcas: 'implicancias cambiarlas' en 2044:1, misma familia ele por i que 'cambiaría' pero aqui la forma defectuosa es una construccion real del verbo cambiar y 'cambiarias' aparece 0 veces en fila y sesion, a diferencia de 'movimiento cambiarlo' en 1459:2 que si se corrigio porque alli 'cambiario' estaba 2 veces en la sesion; y 'JOSE DE GREGORIO REBECO' sin tilde en 2046:1, defecto visible en la misma linea que escribe 'JIMÉNEZ' con tilde (10 contra 19, conviven las dos grafiias, asi que a diferencia de 'Alvaro' aqui si hay errata que cotejar), pero es nombre propio y no se reescribe. Sin dos voces: 2045:1 y 2046:1 son filas institucionales del Consejo."
+    },
+    "RPM-2008-08-14:2044:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2044:1",
+      "ID_Padre": "2044",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 4843,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 177,
+      "Justificacion": "Ronda 177, 4 filas leidas completas (2043:1 de Desormeaux, 2044:1 de De Gregorio, 2045:1 con el Acuerdo 126-01 y el Comunicado, 2046:1 con el cierre y las firmas). Ultima ronda de la sesion 2008-08-14. Eje OCR: 2 correcciones y 2 marcas. Correcciones: 'este nesgo ha sido reemplazado por otro' por 'riesgo' en 2043:1, donde falta el arranque 'rie' y el contexto lo zanja sin margen porque la frase anterior habla de los riesgos que han ido desapareciendo; medido, 'nesgo' aparece 29 veces en 29 filas y las 29 son hueco de 'riesgo', nunca de 'sesgo', asi que es el cuarto defecto sistematico del corpus y quedan 28 por corregir; y 'Por lo todo lo anterior' por 'Por todo lo anterior' en 2044:1, donde sobra el primer 'lo' y la reparacion es unica porque quitar el segundo daria una cadena agramatical y la formula aparece 37 veces. Marcas: 'implicancias cambiarlas' en 2044:1, misma familia ele por i que 'cambiaría' pero aqui la forma defectuosa es una construccion real del verbo cambiar y 'cambiarias' aparece 0 veces en fila y sesion, a diferencia de 'movimiento cambiarlo' en 1459:2 que si se corrigio porque alli 'cambiario' estaba 2 veces en la sesion; y 'JOSE DE GREGORIO REBECO' sin tilde en 2046:1, defecto visible en la misma linea que escribe 'JIMÉNEZ' con tilde (10 contra 19, conviven las dos grafiias, asi que a diferencia de 'Alvaro' aqui si hay errata que cotejar), pero es nombre propio y no se reescribe. Sin dos voces: 2045:1 y 2046:1 son filas institucionales del Consejo."
+    },
+    "RPM-2008-08-14:2045:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2045:1",
+      "ID_Padre": "2045",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2205,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 177,
+      "Justificacion": "Ronda 177, 4 filas leidas completas (2043:1 de Desormeaux, 2044:1 de De Gregorio, 2045:1 con el Acuerdo 126-01 y el Comunicado, 2046:1 con el cierre y las firmas). Ultima ronda de la sesion 2008-08-14. Eje OCR: 2 correcciones y 2 marcas. Correcciones: 'este nesgo ha sido reemplazado por otro' por 'riesgo' en 2043:1, donde falta el arranque 'rie' y el contexto lo zanja sin margen porque la frase anterior habla de los riesgos que han ido desapareciendo; medido, 'nesgo' aparece 29 veces en 29 filas y las 29 son hueco de 'riesgo', nunca de 'sesgo', asi que es el cuarto defecto sistematico del corpus y quedan 28 por corregir; y 'Por lo todo lo anterior' por 'Por todo lo anterior' en 2044:1, donde sobra el primer 'lo' y la reparacion es unica porque quitar el segundo daria una cadena agramatical y la formula aparece 37 veces. Marcas: 'implicancias cambiarlas' en 2044:1, misma familia ele por i que 'cambiaría' pero aqui la forma defectuosa es una construccion real del verbo cambiar y 'cambiarias' aparece 0 veces en fila y sesion, a diferencia de 'movimiento cambiarlo' en 1459:2 que si se corrigio porque alli 'cambiario' estaba 2 veces en la sesion; y 'JOSE DE GREGORIO REBECO' sin tilde en 2046:1, defecto visible en la misma linea que escribe 'JIMÉNEZ' con tilde (10 contra 19, conviven las dos grafiias, asi que a diferencia de 'Alvaro' aqui si hay errata que cotejar), pero es nombre propio y no se reescribe. Sin dos voces: 2045:1 y 2046:1 son filas institucionales del Consejo."
+    },
+    "RPM-2008-08-14:2046:1": {
+      "ID_Intervencion": "RPM-2008-08-14:2046:1",
+      "ID_Padre": "2046",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 159,
+      "Hallazgo": "SIN_NUEVO_CASO",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 177,
+      "Justificacion": "Ronda 177, 4 filas leidas completas (2043:1 de Desormeaux, 2044:1 de De Gregorio, 2045:1 con el Acuerdo 126-01 y el Comunicado, 2046:1 con el cierre y las firmas). Ultima ronda de la sesion 2008-08-14. Eje OCR: 2 correcciones y 2 marcas. Correcciones: 'este nesgo ha sido reemplazado por otro' por 'riesgo' en 2043:1, donde falta el arranque 'rie' y el contexto lo zanja sin margen porque la frase anterior habla de los riesgos que han ido desapareciendo; medido, 'nesgo' aparece 29 veces en 29 filas y las 29 son hueco de 'riesgo', nunca de 'sesgo', asi que es el cuarto defecto sistematico del corpus y quedan 28 por corregir; y 'Por lo todo lo anterior' por 'Por todo lo anterior' en 2044:1, donde sobra el primer 'lo' y la reparacion es unica porque quitar el segundo daria una cadena agramatical y la formula aparece 37 veces. Marcas: 'implicancias cambiarlas' en 2044:1, misma familia ele por i que 'cambiaría' pero aqui la forma defectuosa es una construccion real del verbo cambiar y 'cambiarias' aparece 0 veces en fila y sesion, a diferencia de 'movimiento cambiarlo' en 1459:2 que si se corrigio porque alli 'cambiario' estaba 2 veces en la sesion; y 'JOSE DE GREGORIO REBECO' sin tilde en 2046:1, defecto visible en la misma linea que escribe 'JIMÉNEZ' con tilde (10 contra 19, conviven las dos grafiias, asi que a diferencia de 'Alvaro' aqui si hay errata que cotejar), pero es nombre propio y no se reescribe. Sin dos voces: 2045:1 y 2046:1 son filas institucionales del Consejo."
     }
   },
-  "Total_Leidas": 2096
+  "Total_Leidas": 2111
 }

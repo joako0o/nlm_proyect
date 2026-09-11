@@ -42,6 +42,7 @@ en bloque porque la política es fila por fila, sin reglas automáticas.
 | `Página N de N` al pie | 26 veces en 22 filas | **20 filas en 2012-04-17**, sin leer. Ya se limpiaron `4849:3` y `5221:3` |
 | `IRC` por `IPC` (erre por pe) | **71 veces en 46 filas** de 32 sesiones, todas entre 2005-04-07 y 2010-02-11; 10 de ellas son `IRCX` por `IPCX` | **65 ocurrencias en 45 filas**. Corregidas las 6 de `1994:2` en la ronda 171 |
 | `yeso` por `y eso` (espacio perdido) | **13 veces en 12 filas**, todas el mismo defecto | **12 ocurrencias en 11 filas**. Corregida la de `2001:1` en la ronda 171 |
+| `nesgo` por `riesgo` | **29 veces en 29 filas**, y las 29 son hueco de `riesgo`, nunca de `sesgo` | **28 ocurrencias en 28 filas**. Corregida la de `2043:1` en la ronda 177. Ya estaba como ejemplo en la tabla de la sección 1 |
 
 Del `IRC` se verificó caso por caso que las **71** son contexto de índice de
 precios, incluidas las 18 donde la palabra «inflación» no aparece cerca: «un
@@ -49,6 +50,11 @@ par de IRC más bajos», «cuatro IRC cerca de 1%», «el IRC de octubre fue men
 «la publicación del IRC», «su convergencia hacia un 3% será más lenta que la
 del IRC». Y el corte temporal es una pista: ninguna aparición es posterior a
 2010-02-11, lo que apunta a un lote de escaneo concreto.
+
+De `nesgo` se verificó una por una las **29**: «dicho nesgo es importante»,
+«inclinación por nesgo», «escenario de nesgo», «premios por nesgo», «poner en
+nesgo la recuperación», «primas de nesgo». Ninguna es hueco de `sesgo`, que
+aparece 800 veces pero en marcos distintos («sesgo al alza», «sin sesgo»).
 
 La pérdida de espacio es una familia propia, con su tipo
 `ESPACIO_FALTANTE`: `caer yeso` (13), coma pegada a la palabra siguiente
@@ -271,6 +277,15 @@ borrar `U)` habría destruido ocho siglas reales.
 **Regla:** antes de eliminar una cadena, contarla y mirar **todas** sus
 ocurrencias con contexto. Se elimina la ocurrencia que no forma nada, no la
 cadena.
+
+El caso inverso confirma que es la medición la que manda, no una regla previa.
+` V ` con espacios aparece **13 veces** y el reparto se invierte: **11 son
+residuos sueltos** (`206:3`, `1004:1`, `1013:3`, `2041:1`, `3597:1`, `3914:1`,
+`3939:1`, `4121:1`, `5066:1`, `5326:1`, `6009:4`) y sólo 2 son usos legítimos
+de la letra como figura («descarta que sea una V porque no hay un rebote», «un
+camino intermedio entre la V y la W»). Con `M)` era 1 residuo contra 77 siglas;
+con ` V ` son 11 residuos contra 2 figuras. Dos cadenas de una letra, dos
+respuestas opuestas, y en las dos gana el conteo.
 
 
 ---

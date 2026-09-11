@@ -287,6 +287,7 @@ en una cláusula, sin desarrollarse:
 | 148–154 | 2013-09-12 | 69 | una sola voz en las 69 filas del plan · **sesión cerrada 72/72** · 12 filas con 18 correcciones OCR, 9 marcas |
 | 155–161 | 2012-05-17 | 67 | una sola voz en las 67 filas del plan · **sesión cerrada 71/71** · 10 filas con 15 correcciones OCR, 1 marca |
 | 162–169 | 2007-09-13 | 85 | una sola voz en las 85 filas del plan · **sesión cerrada 88/88** · 26 filas con 48 correcciones OCR (49 sustituciones), 11 marcas de cotejo y 6 revisiones descartadas |
+| 170–177 | 2008-08-14 | 96 | una sola voz en las 96 filas del plan · **sesión cerrada 98/98** (2 filas ya estaban leídas) · **una fila nueva con dos voces: `1995:1`** · 20 filas con 35 correcciones OCR (40 sustituciones), 13 marcas de cotejo y 5 revisiones descartadas |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una
