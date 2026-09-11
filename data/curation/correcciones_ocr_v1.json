@@ -1199,6 +1199,13 @@
           "Despues": "la proyección que se tenía hace más o menos un mes atrás",
           "Contexto": "se presenta en primer lugar cuál es la proyección respecto a la tasa de política monetaria a diciembre de este año, versus la proyección que se tenía hace más menos un mes atrás, el 10 de agosto",
           "Justificacion": "Misma locución que la operación anterior, segunda ocurrencia en esta fila. Se corrige por separado porque los dos 'Antes' son cadenas distintas y no se pisan."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": " %",
+          "Despues": "%",
+          "Contexto": ", el aumento ha sido más menos de 30% en los últimos treinta días y 10 %, en el caso del petróleo. En el caso de la Zona Euro también se obser",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
         }
       ]
     },
@@ -2205,6 +2212,13 @@
           "Despues": "a lo que se suma la incertidumbre respecto de futuros movimientos de tasa por parte de la Reserva Federal",
           "Contexto": "ue el escenario actual para la economía mundial es muy riesgoso — y muy negativo para Chile— , a lo que suma la incertidumbre respecto de futuros movimientos de tasa por parte de la Reserva Federal y la incidencia de los ajustes en la economía china.",
           "Justificacion": "Falta el pronombre 'se': sin él la oración queda sin objeto y no se sostiene. Corroborada: 'a lo que se suma' aparece 4 veces en esta misma sesión y 45 en el corpus."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": " ,",
+          "Despues": ",",
+          "Contexto": " para la economía mundial es muy riesgoso — y muy negativo para Chile— , a lo que suma la incertidumbre respecto de futuros movimientos de tas",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
         }
       ]
     },
@@ -7599,6 +7613,13 @@
           "Ocurrencias": 1,
           "Contexto": "a neutral — lo que está provocando o podría llegar a provocar aún más tensiones cambiarías— , mientras que las desarrolladas, a pesar de que sus tasa",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": " ,",
+          "Despues": ",",
+          "Contexto": "tá provocando o podría llegar a provocar aún más tensiones cambiarías— , mientras que las desarrolladas, a pesar de que sus tasas registrarían",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
         }
       ]
     },
@@ -11463,6 +11484,13 @@
           "Despues": " la oferta. Por el la",
           "Contexto": "ue los bancos han reportado un panorama mixto por el lado de la oferta . Por el lado de la demanda, el señor Cowan señala que se registra un d",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "al , u",
+          "Despues": "al, u",
+          "Contexto": "rgo, destaca que respecto de los préstamos a hogares se ve, en general , una f1exibilización de las condiciones crediticias de manera algo sim",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
         }
       ]
     },
@@ -11734,6 +11762,13 @@
           "Ocurrencias": 1,
           "Contexto": "consecuencia, no solo tiene que ver con el tamaño de las tasas reales, sino que tamb ién es muy concurrente el impacto de las tasas sobre el con",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 4819 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": " .",
+          "Despues": ".",
+          "Contexto": "una \"U\" invertida, pero la inflación tamb ién presenta esa misma forma . En consecuencia, no solo tiene que ver con el tamaño de las tasas rea",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
         }
       ]
     },
@@ -15368,10 +15403,10 @@
         {
           "Tipo": "PALABRA_PARTIDA",
           "Antes": "ta financiera en el prim er mes del año— , ",
-          "Despues": "ta financiera en el primer mes del año— , ",
+          "Despues": "ta financiera en el primer mes del año—, ",
           "Ocurrencias": 1,
           "Contexto": "a Otra Inversión — la cual determinó el resultado de la cuenta financiera en el prim er mes del año— , cuyo resultado se obtuvo por aumentos de",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1739 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1739 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
@@ -16080,6 +16115,13 @@
           "Despues": "sión fija—, el catast",
           "Contexto": "uanto al componente de obras de ingeniería — 27% de la inversión fija— , el catastro de inversión de la Corporación de Desarrollo Tecnológico ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "o— , c",
+          "Despues": "o—, c",
+          "Contexto": "ión y obras de ingeniería —51% de la form ación bruta de capital fijo— , con un crecimiento importante respecto de trimestres anteriores. Resp",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
         }
       ]
     },
@@ -16107,10 +16149,10 @@
         {
           "Tipo": "PALABRA_PARTIDA",
           "Antes": "DELCO, en el cuarto trim estre— . En el valor ",
-          "Despues": "DELCO, en el cuarto trimestre— . En el valor ",
+          "Despues": "DELCO, en el cuarto trimestre—. En el valor ",
           "Ocurrencias": 1,
           "Contexto": "m estre— y de emisiones de bonos del sector bancario y de CODELCO, en el cuarto trim estre— . En el valor acumulado, cabe señalar el incremento de",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2975 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2975 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         },
         {
           "Tipo": "PALABRA_PARTIDA",
@@ -16215,9 +16257,9 @@
         {
           "Tipo": "ESPACIO_INDEBIDO",
           "Antes": "lcanza a 2 ,5 % . En cuan",
-          "Despues": "lcanza a 2,5% . En cuan",
+          "Despues": "lcanza a 2,5%. En cuan",
           "Contexto": "-5. Si se extrae la zona dólar de la canasta, la variación alcanza a 2 ,5 % . En cuanto a las perspectivas para el tipo de cambio, los resultados",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         }
       ]
     },
@@ -16623,10 +16665,10 @@
         {
           "Tipo": "PALABRA_PARTIDA",
           "Antes": "to de la reunión de ju lio , las tasas de ",
-          "Despues": "to de la reunión de julio , las tasas de ",
+          "Despues": "to de la reunión de julio, las tasas de ",
           "Ocurrencias": 1,
           "Contexto": "icional el 2008. Comparado con los valores vigentes al momento de la reunión de ju lio , las tasas de los documentos nominales no mostraron ma",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 529 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 529 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         },
         {
           "Tipo": "PALABRA_PARTIDA",
@@ -16983,10 +17025,10 @@
         {
           "Tipo": "PALABRA_PARTIDA",
           "Antes": "da importante en el prec io del trigo , el ",
-          "Despues": "da importante en el precio del trigo , el ",
+          "Despues": "da importante en el precio del trigo, el ",
           "Ocurrencias": 1,
           "Contexto": "r. Informa también que respe cto a granos se observa una caída importante en el prec io del trigo , el del maíz está relativamente estable y el",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 3328 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 3328 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         },
         {
           "Tipo": "PALABRA_PARTIDA",
@@ -18396,10 +18438,10 @@
         {
           "Tipo": "PALABRA_PARTIDA",
           "Antes": "WTI yel Brent , sin emba rgo, en un período ",
-          "Despues": "WTI yel Brent , sin embargo, en un período ",
+          "Despues": "WTI yel Brent, sin embargo, en un período ",
           "Ocurrencias": 1,
           "Contexto": "bien se han producido ciertas discrepancias entre el precio WTI yel Brent , sin emba rgo, en un período de tres meses éstos se muestran alineado",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1376 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1376 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         },
         {
           "Tipo": "PALABRA_PARTIDA",
@@ -20506,10 +20548,10 @@
         {
           "Tipo": "ACENTO_FALTANTE",
           "Antes": "ntes, presentes , y podrian, ya sea porque ",
-          "Despues": "ntes, presentes , y podrían, ya sea porque ",
+          "Despues": "ntes, presentes, y podrían, ya sea porque ",
           "Ocurrencias": 1,
           "Contexto": "n tiende a caer, las presiones inflacionarias continúan latentes, presentes , y podrian, ya sea porque el IPP está aumentando por las presiones",
-          "Justificacion": "Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra."
+          "Justificacion": "Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
@@ -24624,9 +24666,9 @@
         {
           "Tipo": "ESPACIO_INDEBIDO",
           "Antes": "sería de 3 .6 % . El seño",
-          "Despues": "sería de 3.6% . El seño",
+          "Despues": "sería de 3.6%. El seño",
           "Contexto": "do también por el mercado, y que la variación anual del IPC sería de 3 .6 % . El señor Claudio Soto manifiesta, además, que con el actual perfil ",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         }
       ]
     },
@@ -24895,9 +24937,9 @@
         {
           "Tipo": "ESPACIO_INDEBIDO",
           "Antes": "en de - 22 % . En lo r",
-          "Despues": "en de - 22% . En lo r",
+          "Despues": "en de - 22%. En lo r",
           "Contexto": "e su precio y los inventarios es relativamente bajo, del orden de - 22 % . En lo relativo al índice FAO, señala que de acuerdo con los contrat",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15)."
         }
       ]
     },

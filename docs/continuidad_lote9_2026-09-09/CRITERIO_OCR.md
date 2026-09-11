@@ -1093,3 +1093,61 @@ Estado tras §19: **1.346 filas corregidas, 2.165 operaciones, 193 marcadas (157
 cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio. La familia punto
 pegado a letra queda en 40, todas abreviatura legítima o fila marcada, y el test exige que
 cualquier punto pegado nuevo sea una de las dos cosas.
+
+## 20. Cerrar el residuo del §18, y dos bugs que aparecieron al intentarlo
+
+§18 dejó 19 ocurrencias con la promesa de que resolverlas exigía extender operaciones. Con
+`enmendar_operacion.py` ya escrito, se pudo intentar. El residuo bajó de **19 a 4**, y la
+familia completa de **551 a 4**. Aparecieron dos bugs, los dos míos, y los dos los encontró
+una red que ya estaba puesta.
+
+### Bug 1: `finditer` otra vez, en la herramienta nueva
+
+`ocurrencias()` usaba grupos capturados, `(\S)(\s+)([,.;%])`. El signo queda **consumido** por
+el match, y `re.finditer` no lo vuelve a ofrecer como carácter anterior del siguiente. En
+«alcanza a 2 ,5 % . En cuanto» el detector veía `' ,'` y `' %'` y **se perdía el `' .'`**: el
+`%` ya estaba gastado.
+
+Es literalmente la lección de §15 —«nunca construyas un detector de candidatos con un regex
+de varios grupos»— reaparecida en una herramienta escrita después de haberla documentado.
+Saber la lección no inmuniza contra ella; lo que inmuniza es el test. Se corrigió con
+lookahead y lookbehind, `(?<=\S)\s+(?=[,.;%])`, que no consume los bordes, y quedó un test
+que fija las tres ocurrencias de esa cadena. La base pasó de 546 a **551** ocurrencias: el
+detector viejo no las veía.
+
+### Bug 2: `replace` quita el primer espacio, no el que uno quiere
+
+Para las ocurrencias que caían dentro de una operación de otro tipo (palabra partida, tilde)
+la enmienda consiste en quitar ese espacio del `Despues`. La primera versión localizaba un
+contexto único y hacía `contexto.replace(' ', '', 1)`. En
+`'ta financiera en el prim er mes del año— , '` el contexto era `'mes del año— , '` y el
+primer espacio es el de **«mes del»**: el resultado fue `'mesdel'`.
+
+Tres operaciones salieron así: `mesdel`, `preciodel`, `yelBrent`. **Ninguna llegó al
+release**: `revisar_reemplazos()` las rechazó porque el reemplazo introducía una palabra que
+no está en el corpus. La validación dio `FALLO` y el registro se restauró desde HEAD. El
+arreglo es quitar el espacio **por posición** dentro del contexto, no por `replace`.
+
+La moraleja no es «tuve cuidado», es al revés: no lo tuve, y lo que salvó el gold standard
+fue un control escrito varios lotes antes para otro propósito. **Los controles que se
+escriben pensando en un riesgo terminan cubriendo otros.**
+
+### El residuo de 4
+
+- `RPM-2006-04-13:653:1`: «p re v ia m e n te ,» es una palabra letra a letra (§11). Arreglar
+  sólo la coma dejaría la fila medio corregida.
+- `RPM-2015-08-13:6952:1`: cae en un tramo de basura (`servicios. , . . , Anaí ? ! £ , Ias
+  medldas`) que necesita cotejo, no un arreglo de espacio.
+- `RPM-2009-02-12:2319:1` y `RPM-2010-12-16:3619:1`: la ocurrencia está libre, pero **toda
+  ventana lo bastante larga para ser única alcanza a una operación vecina**, y las dos
+  restricciones chocan. Resolverlas exige modificar el `Antes` de la vecina, que es justo lo
+  que la ancla al texto virgen.
+
+También hizo falta bajar los márgenes de búsqueda de ventana: con las operaciones del §18 ya
+puestas, el texto quedó denso y el margen mínimo de 10 caracteres chocaba casi siempre. Se
+prueban 0, 2, 4, 7 y luego los de antes; eso solo resolvió 6, pero sin eso no se resolvía
+ninguna.
+
+Estado tras §20: **1.346 filas corregidas, 2.171 operaciones, 193 marcadas, `Texto` intacto
+en las 9.723**, sha base `d0b64842…` sin cambio. El espacio antes de signo queda en 4 de 551,
+y las 510 operaciones `ESPACIO_INDEBIDO` siguen sin alterar nada que no sea un espacio.

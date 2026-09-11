@@ -87,20 +87,16 @@ COMILLAS_RECTAS_MAX = 5
 MIN_CORREGIDAS = 1346
 MIN_OPERACIONES = 2165
 
-# §18: espacio indebidamente insertado antes de , . ; %. La familia medía 546
-# ocurrencias en la base y bajó a 19. Las 19 que quedan están bloqueadas por la
-# ventana de una operación ya registrada: resolverlas exige EXTENDER esa
-# operación, no apilarle otra encima (§15). El techo está aquí para que la
-# familia no vuelva a crecer y para que tocar el residuo sea visible.
-ESPACIO_ANTES_DE_SIGNO_MAX = 19
+# §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
+# 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
+# otra familia), otra cae en un tramo de basura que necesita cotejo, y dos no se
+# pueden resolver sin modificar el Antes de una operación vecina, que es lo que
+# la ancla al texto virgen. El techo está aquí para que la familia no vuelva a
+# crecer y para que tocar el residuo sea visible.
+ESPACIO_ANTES_DE_SIGNO_MAX = 4
 RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
-    'RPM-2005-02-10:66:1', 'RPM-2005-02-10:67:1', 'RPM-2005-03-10:147:1',
-    'RPM-2005-03-10:149:1', 'RPM-2006-04-13:653:1', 'RPM-2007-08-09:1366:1',
-    'RPM-2007-09-13:1408:1', 'RPM-2008-05-08:1815:2', 'RPM-2008-06-10:1856:1',
-    'RPM-2008-09-04:2070:1', 'RPM-2009-02-12:2319:1', 'RPM-2009-02-12:2319:2',
-    'RPM-2010-04-15:3063:1', 'RPM-2010-12-16:3619:1', 'RPM-2011-05-12:3996:1',
-    'RPM-2011-06-14:4100:1', 'RPM-2013-05-16:5526:1', 'RPM-2015-08-13:6924:1',
-    'RPM-2015-08-13:6952:1',
+    'RPM-2006-04-13:653:1', 'RPM-2009-02-12:2319:1',
+    'RPM-2010-12-16:3619:1', 'RPM-2015-08-13:6952:1',
 }
 
 

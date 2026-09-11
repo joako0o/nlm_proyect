@@ -53,15 +53,19 @@ def ocurrencias(texto: str) -> list[tuple[int, int]]:
     """Devuelve (inicio_del_blanco, fin_del_signo) para cada espacio indebidamente
     colocado antes de ``,`` ``.`` o ``;``."""
     out = []
-    for m in re.finditer(r'(\S)(\s+)([,.;%])', texto):
-        prev, sp, punc = m.group(1), m.group(2), m.group(3)
-        fin = m.end()
+    # Lookahead y lookbehind, no grupos capturados: con ``(\S)(\s+)([,.;%])`` el
+    # signo queda consumido por el match y ``re.finditer`` no lo vuelve a ofrecer
+    # como carácter anterior del siguiente. En «2 ,5 % .» eso perdía el tercer
+    # espacio. Es la misma lección de §15 sobre finditer, reaparecida aquí.
+    for m in re.finditer(r'(?<=\S)\s+(?=[,.;%])', texto):
+        ini, fin = m.start(), m.end() + 1        # fin incluye el signo
+        prev, punc = texto[m.start() - 1], texto[m.end()]
         # Signo duplicado, y en el caso del punto también los suspensivos: son
         # otra familia y quitar el espacio dejaría «,,» o «..». Se miran los dos
         # lados; la primera versión miraba sólo el anterior y dejaba pasar «,,».
         if prev == punc or texto[fin:fin + 1] == punc:
             continue
-        out.append((m.start(2), fin))
+        out.append((ini, fin))
     return out
 
 
@@ -125,7 +129,7 @@ def main() -> int:
             # Los márgenes crecen, así que en cuanto uno solapa, los mayores
             # también: se salta el grupo entero.
             antes = despues = None
-            for margen in (10, 20, 35, 60, 110, 200):
+            for margen in (0, 2, 4, 7, 10, 20, 35, 60, 110, 200):
                 x, y = max(0, ini - margen), min(len(t), fin + margen)
                 if any(x < b and a_ < y for a_, b in ocupados):
                     break

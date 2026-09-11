@@ -5,7 +5,7 @@ vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 - filas corregidas: **1346**
-- operaciones: **2165**
+- operaciones: **2171**
 - filas marcadas para cotejo: **193**
 - sha256 de la base: `d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75`
 
@@ -13,7 +13,7 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 | tipo | operaciones |
 |---|---:|
-| `ESPACIO_INDEBIDO` | 509 |
+| `ESPACIO_INDEBIDO` | 515 |
 | `LETRA_CONFUNDIDA` | 446 |
 | `ACENTO_INDEBIDO` | 348 |
 | `PALABRA_PARTIDA` | 320 |
@@ -125,8 +125,8 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 1. **PALABRA_PARTIDA**
    - antes: `WTI yel Brent , sin emba rgo, en un período `
-   - después: `WTI yel Brent , sin embargo, en un período `
-   - por qué: Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1376 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA.
+   - después: `WTI yel Brent, sin embargo, en un período `
+   - por qué: Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1376 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Se enmienda además para quitar el espacio antes del signo, que cae dentro del mismo tramo: apilar una operación nueva habría dejado dos tramos solapados sin orden de aplicación posible (§15).
 2. **PALABRA_PARTIDA**
    - antes: `vamente estable, no obsta nte que los inventa`
    - después: `vamente estable, no obstante que los inventa`

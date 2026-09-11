@@ -40,6 +40,16 @@ class TestOcurrencias(unittest.TestCase):
     def test_un_punto_normal_no_es_ocurrencia(self):
         self.assertEqual(esp.ocurrencias('Agrega que no. Luego sigue'), [])
 
+    def test_no_pierde_ocurrencias_consecutivas(self):
+        """§20: con grupos capturados el signo queda consumido por el match y
+        ``re.finditer`` no lo vuelve a ofrecer como carácter anterior del
+        siguiente, así que «2 ,5 % .» perdía el tercer espacio. Es la misma
+        lección de §15 sobre finditer, reaparecida en esta herramienta.
+        """
+        t = 'alcanza a 2 ,5 % . En cuanto'
+        self.assertEqual([t[i:j] for i, j in esp.ocurrencias(t)],
+                         [' ,', ' %', ' .'])
+
     def test_devuelve_posiciones_utilizables(self):
         t = 'abc , def'
         (i, j), = esp.ocurrencias(t)
