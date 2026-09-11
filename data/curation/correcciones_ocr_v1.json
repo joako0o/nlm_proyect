@@ -2782,6 +2782,14 @@
           "Ocurrencias": 1,
           "Contexto": "turos ha seguido plana y en niveles altos, estableciendo expectativas de que la act ual situación del mercado del petróleo se prolongue durante",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1253 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "incremento gradual, en linea con lo previsto. Lo",
+          "Despues": "incremento gradual, en línea con lo previsto. Lo",
+          "Ocurrencias": 1,
+          "Contexto": "edidas de la tendencia inflacionaria continúan mostrando un incremento gradual, en linea con lo previsto. Los costos laborales unitarios continúan c",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -3093,6 +3101,14 @@
           "Ocurrencias": 2,
           "Contexto": "a de un aumento del dinamismo de la actividad interna, y la inflación anual del IRC se ubica algo por debajo de 3%. Los mayores cambios en el m",
           "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "inflación se ubican en linea con lo esperado en ",
+          "Despues": "inflación se ubican en línea con lo esperado en ",
+          "Ocurrencias": 1,
+          "Contexto": "njunto para el primer trimestre, tanto la actividad como la inflación se ubican en linea con lo esperado en el escenario central del IPoM del mes de",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -3169,6 +3185,22 @@
           "Ocurrencias": 1,
           "Contexto": "a ligera corrección al crecimiento para Estados Unidos de América, lo anterior de acuerdo al Consesus Forecast. Indica el señor Lehmann que en Asia y Europa se observan ",
           "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "lo que se encuentra en linea con el escenario ba",
+          "Despues": "lo que se encuentra en línea con el escenario ba",
+          "Ocurrencias": 1,
+          "Contexto": " del cobre, éste ha retrocedido casi un 10% durante el mes, lo que se encuentra en linea con el escenario base planteado en el último IPoM. Indica e",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "s cifras han estado en linea con lo que se antic",
+          "Despues": "s cifras han estado en línea con lo que se antic",
+          "Ocurrencias": 1,
+          "Contexto": "nfianza, y particularmente el PIB. En cuanto a inflación, las cifras han estado en linea con lo que se anticipaba. Destaca el señor Lehmann que se p",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -5941,6 +5973,14 @@
           "Ocurrencias": 1,
           "Contexto": " del Banco Central de Chile, es crucial distinguir en qué medida la apreciación cambiaría refleja esta mayor inflación internacional, o efectivamente",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "l año 2008 continúa\nen linea con la estimación a",
+          "Despues": "l año 2008 continúa\nen línea con la estimación a",
+          "Ocurrencias": 1,
+          "Contexto": ". Comenta el señor Consejero que la actividad interna para el año 2008 continúa en linea con la estimación anterior. Señala que por una parte, la ba",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -6370,6 +6410,14 @@
           "Ocurrencias": 1,
           "Contexto": "que podría tener altos costos. A medida que las expectativas mejoren, añade, el estimulo asociado al actual nivel de la TPM se hará sentir con c",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "n general, bastante en linea con lo anticipado, ",
+          "Despues": "n general, bastante en línea con lo anticipado, ",
+          "Ocurrencias": 1,
+          "Contexto": ". Dado lo anterior, la evolución del cuadro macro resulta, en general, bastante en linea con lo anticipado, por lo que la política de mantener un fu",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -9449,6 +9497,14 @@
           "Despues": "”",
           "Contexto": "ención de las condiciones crediticias desde “menos estrechas\" hacia “que se han ido normalizando”. Agrega que h",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "to en otros países, en linea con lo informado pr",
+          "Despues": "to en otros países, en línea con lo informado pr",
+          "Ocurrencias": 1,
+          "Contexto": " esta materia. Al respecto, hace presente que esto se ha visto en otros países, en linea con lo informado previamente por el Gerente de División Ope",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -12062,6 +12118,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Gerente de Análisis Internacional señala que tal como se había planteado ai inicio de la exposición, aparece la probabilidad de un aumento de tasa ",
           "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ro está más o menos en linea con el spread de lo",
+          "Despues": "ro está más o menos en línea con el spread de lo",
+          "Ocurrencias": 1,
+          "Contexto": "ona el señor Lehmann que ha tenido marginalmente un alza, pero está más o menos en linea con el spread de los bonos de empresas A. En cambio, los hi",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -14083,6 +14147,14 @@
           "Ocurrencias": 1,
           "Contexto": ". El Gerente de Análisis Macroeconómico continúa su presentación refiriéndose a ios mercados financieros. Al respecto, menciona que desde l",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "nservador, algo más en linea con la de la Reunió",
+          "Despues": "nservador, algo más en línea con la de la Reunió",
+          "Ocurrencias": 1,
+          "Contexto": "ca que en la proyección se considera un supuesto más bien conservador, algo más en linea con la de la Reunión pasada, esto es, con variaciones mensu",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -17744,6 +17816,14 @@
           "Ocurrencias": 1,
           "Contexto": "os y que, de hecho, ningún banco ha reportado problemas de líneas y que, por el contrarío, han tenido que renunciar a lineas externas. Respecto d",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 271 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " renunciar a lineas externas. Respe",
+          "Despues": " renunciar a líneas externas. Respe",
+          "Ocurrencias": 1,
+          "Contexto": " problemas de líneas y que, por el contrarío, han tenido que renunciar a lineas externas. Respecto de la pregunta sobre la FLAP, coment",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -20324,6 +20404,14 @@
           "Ocurrencias": 1,
           "Contexto": "na, muestra una brecha producto entre -5 y -7%, con la excepción de Suiza, cuya brecha de producto seria -1%. Agrega, que todos estos países exhiben inflaciones",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ambién un escenario en linea con el esperado en ",
+          "Despues": "ambién un escenario en línea con el esperado en ",
+          "Ocurrencias": 1,
+          "Contexto": "re. Menciona que las noticias por el lado externo muestran también un escenario en linea con el esperado en septiembre, e informa que en semanas rec",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
         }
       ]
     },
@@ -20399,6 +20487,194 @@
           "Ocurrencias": 1,
           "Contexto": "n el principio de Taylor, que para efectos de la tasa de política monetaria, la referida política seria ahora menos expansiva, en razón de que la tasa real se ",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:293:1",
+      "Fecha": "2005-06-09",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "do que la actividad económica continua creciendo con vigor y que",
+          "Despues": "do que la actividad económica continúa creciendo con vigor y que",
+          "Ocurrencias": 1,
+          "Contexto": "eñala que, las noticias económicas del último mes han mostrado que la actividad económica continua creciendo con vigor y que la inflación sigue gradualmente aproxim",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:310:3",
+      "Fecha": "2005-07-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "tando gradualmente, en linea con lo previsto. El",
+          "Despues": "tando gradualmente, en línea con lo previsto. El",
+          "Ocurrencias": 1,
+          "Contexto": "ecibles. Sin embargo, la tendencia inflacionaria sigue aumentando gradualmente, en linea con lo previsto. El Consejo reitera su compromiso de conduc",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1789:2",
+      "Fecha": "2008-05-08",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "dencia, lo que está en linea con el EuroCoin que",
+          "Despues": "dencia, lo que está en línea con el EuroCoin que",
+          "Ocurrencias": 1,
+          "Contexto": " Manifiesta que el PIB se ha desacelerado en términos de tendencia, lo que está en linea con el EuroCoin que de alguna manera anticipa la trayectori",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1853:2",
+      "Fecha": "2008-06-10",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "l señor Gerente que en linea con lo anterior, la",
+          "Despues": "l señor Gerente que en línea con lo anterior, la",
+          "Ocurrencias": 1,
+          "Contexto": "ayor preocupación por los incrementos de precios. Menciona el señor Gerente que en linea con lo anterior, las tasas de interés de largo plazo aument",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2240:1",
+      "Fecha": "2008-12-11",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "Señala también que, en linea con lo anterior y d",
+          "Despues": "Señala también que, en línea con lo anterior y d",
+          "Ocurrencias": 1,
+          "Contexto": "meses se vean datos de menor crecimiento y menor inflación. Señala también que, en linea con lo anterior y de acuerdo a la información proporcionada",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2389:2",
+      "Fecha": "2009-03-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "o de -0,4% que está en linea con lo que se ha da",
+          "Despues": "o de -0,4% que está en línea con lo que se ha da",
+          "Ocurrencias": 1,
+          "Contexto": "mérica Latina también, lo que da un crecimiento para el mundo de -0,4% que está en linea con lo que se ha dado a conocer por parte del Fondo Monetar",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2434:2",
+      "Fecha": "2009-03-12",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "cias internas están en linea con la tendencia de",
+          "Despues": "cias internas están en línea con la tendencia de",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Sebastián Claro comenta que las noticias internas están en linea con la tendencia destacada y discutida en la última Reunión",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2725:1",
+      "Fecha": "2009-10-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " embargo, que otras lineas de financiamien",
+          "Despues": " embargo, que otras líneas de financiamien",
+          "Ocurrencias": 1,
+          "Contexto": " en torno a los dos trillones de dólares, lo que supone, sin embargo, que otras lineas de financiamiento, que corresponden a las líneas swap c",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2755:1",
+      "Fecha": "2009-10-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "olucionado bastante en linea con lo anticipado, ",
+          "Despues": "olucionado bastante en línea con lo anticipado, ",
+          "Ocurrencias": 1,
+          "Contexto": "nrique Marshall estima que el escenario macroeconómico ha evolucionado bastante en linea con lo anticipado, por lo que los lineamientos de política ",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2770:2",
+      "Fecha": "2009-11-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "tores, como algunas lineas manufactureras,",
+          "Despues": "tores, como algunas líneas manufactureras,",
+          "Ocurrencias": 1,
+          "Contexto": " señala que las noticias son algo negativas en un par de sectores, como algunas lineas manufactureras, sobre todo las ligadas a recursos natur",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2814:3",
+      "Fecha": "2009-12-15",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "n octubre, bastante en linea con lo anticipado e",
+          "Despues": "n octubre, bastante en línea con lo anticipado e",
+          "Ocurrencias": 1,
+          "Contexto": "ón mes a mes a de 0,4% y una variación interanual de -0,9% en octubre, bastante en linea con lo anticipado el mes previo. Señala que entre los compo",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "e importante de las lineas vinculadas a in",
+          "Despues": "e importante de las líneas vinculadas a in",
+          "Ocurrencias": 1,
+          "Contexto": "e los componentes del Imacec destaca la recuperación bastante importante de las lineas vinculadas a inversión. Por el lado de la demanda, en t",
+          "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-10-17:5838:1",
+      "Fecha": "2013-10-17",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "o, esta parte de la economía continua funcionando bien. Agrega qu",
+          "Despues": "o, esta parte de la economía continúa funcionando bien. Agrega qu",
+          "Ocurrencias": 1,
+          "Contexto": "s importaciones de capital disminuyen, por lo que a su juicio, esta parte de la economía continua funcionando bien. Agrega que el consumo comenzaría a moderarse en l",
+          "Justificacion": "Tilde faltante, grupo B3 (complemento). «esta parte de la economía continua funcionando bien»: es el verbo continuar en tercera persona, no el adjetivo. El par anterior terminaba en «funcionan», truncado de «funcionando», y la comprobación de frontera de palabra lo rechazó correctamente; se rehace con la palabra completa."
         }
       ]
     }

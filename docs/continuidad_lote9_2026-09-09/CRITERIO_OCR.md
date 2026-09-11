@@ -787,3 +787,44 @@ plural ya resuelta.
 Estado: **1.025 filas corregidas, 1.476 operaciones, 184 marcadas, `Texto` intacto en las
 9.723**. Queda pendiente el grupo de ~150 donde la tilde la decide la oración: no se
 resuelve por frecuencia ni por escáner, hay que leer cada contexto.
+
+### §16 segunda parte: los grupos A y B
+
+El grupo de ~150 donde «decide la oración» se resolvió leyéndolo, y se dividió en tres.
+
+**Grupo A — 68 → 0.** Sin la tilde la forma no existe en español en ninguna acepción, así
+que no hay ambigüedad: `podria`/`podrian`/`serian`/`estaria`/`deberia`/`cabria`/
+`aumentaria` (condicionales), `economia`, `indices`, `mayoria`, `paises`, `ciclicas`,
+`geopoliticos`, `exposicion`, `todavia`, `habia`, `tenian`.
+
+**Grupo B — se leyeron las 110 apariciones y sólo 61 eran defecto.**
+
+| forma | leídas | defecto | legítimas, y por qué |
+|---|---:|---:|---|
+| `seria` | 40 | 33 | 7 son el adjetivo: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia» |
+| `estimulo` | 18 | 18 | ninguna: todas son el sustantivo |
+| `linea` | 19 | 19 | ninguna: todas son «en linea con» |
+| `lineas` | 6 | 6 | ninguna |
+| `continua` | 19 | **2** | 16 son el adjetivo: «la continua caída», «de manera continua», «la serie no es continua» |
+| `publica` | 13 | **0** | 13 son el verbo: «el INE no los publica», «que publica el Fondo» |
+| `tenia`, `limite`, `ultimo`, `titulo`, `diagnostico`, `domestica`, `llego`, `explicito`, `indice` | — | 29 | 2 subjuntivos de limitar («que limite las presiones») y 1 participio («década perdida») |
+
+**El detector de acentos acertaba en un 55 % de lo que proponía.** `publica` era 100 %
+falso positivo y `continua` un 89 %. Eso es lo que cuesta no leer: sin el paso humano,
+esas 49 operaciones habrían entrado y habrían dañado texto correcto.
+
+### Un error propio que la frontera de palabra destapó
+
+El par `ultimo` → `último` emparejaba **por substring** y entró dentro de
+`multimodal`, convirtiéndolo en `múltimodal` (el prefijo *multi-* no se acentúa). Fueron
+4 operaciones en 3 filas, retiradas del registro; `multimodal` vuelve a dar 4 en la
+salida, igual que en la base. La causa se corrigió en `scripts/aplicar_pares_ocr.py`:
+ahora exige frontera de palabra en el builder y en el extensor.
+
+Esa misma frontera destapó inmediatamente un segundo error, mío y no de la herramienta:
+un par escrito como `economía continua funcionan`, truncado de `funcionando`, fue
+rechazado porque la `d` final rompía la frontera. **El control nuevo funcionó: convirtió
+un defecto que habría entrado en silencio en un rechazo visible.**
+
+Estado tras §16 completo: **1.130 filas corregidas, 1.642 operaciones, 184 marcadas,
+`Texto` intacto en las 9.723.**

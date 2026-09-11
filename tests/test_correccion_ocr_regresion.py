@@ -84,9 +84,9 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1025
+MIN_CORREGIDAS = 1130
 MIN_MARCADAS = 184
-MIN_OPERACIONES = 1476
+MIN_OPERACIONES = 1642
 MIN_IPCX = 656       # IPCX legítimo preservado + el restaurado por §14
 MIN_IPCX1 = 480
 
@@ -215,9 +215,15 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         un suelo: si bajan, una pasada se está comiendo formas correctas.
         """
         piso = {'éstos': 137, 'cuánto': 128, 'terminó': 29, 'período': 786,
-                'dónde': 41, 'cambió': 21, 'hacía': 32, 'inició': 23}
+                'dónde': 41, 'cambió': 21, 'hacía': 32, 'inició': 23,
+                # §16 grupo B: leídas una por una y declaradas correctas
+                'continua': 16, 'publica': 13, 'seria': 7, 'multimodal': 4}
+        import re as _re
         for forma, minimo in piso.items():
-            n = sum(t.count(forma) for t in self.salida.values())
+            # por token, no por substring: «continua» cabe dentro de «continuar»
+            n = sum(1 for t in self.salida.values()
+                    for m in _re.finditer(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+', t)
+                    if m.group() == forma)
             self.assertGreaterEqual(
                 n, minimo,
                 f'«{forma}» bajó a {n} (< {minimo}): es una forma legítima, '
