@@ -828,3 +828,107 @@ un defecto que habría entrado en silencio en un rechazo visible.**
 
 Estado tras §16 completo: **1.130 filas corregidas, 1.642 operaciones, 184 marcadas,
 `Texto` intacto en las 9.723.**
+
+## 17. El primer cotejo ejecutado contra el PDF original
+
+Hasta aquí la columna `Cotejar_PDF` era una lista de preguntas sin respuesta posible: el
+repositorio tiene 2 actas en PDF y las 184 marcas se reparten en 146 sesiones. **Yo venía
+repitiendo que ninguna de las 184 caía en esas dos sesiones. Era falso.** Medido contra el
+release, 4 filas sí caen: `2005-06-09:279:1`, `2005-06-09:280:6`, `2005-07-12:296:1` y
+`2005-07-12:305:6`. El error venía de arrastrar un número de cuando el registro era más
+chico, sin volver a medirlo.
+
+### El método
+
+Extracción con `pypdf` (20 páginas y 72.171 caracteres; 25 y 81.300), normalización de
+espacios, y alineación de la fila contra el documento: se busca en el PDF una ancla tomada
+de la propia fila y se recorta una ventana del mismo largo, para que el `difflib` no
+compare contra el acta entera. Recortar la ventana importa: sin recorte, los segmentos
+`delete` que devuelve son el desborde de la ventana, no defectos, y se confunden con
+hallazgos.
+
+| fila | ratio | diferencias internas |
+|---|---|---|
+| `2005-06-09:279:1` | 1,00000 | 0 |
+| `2005-06-09:280:6` | 1,00000 | 0 |
+| `2005-07-12:305:6` | 1,00000 | 0 |
+| `2005-07-12:296:1` | 0,99862 | 1 defecto + 2 normalizaciones |
+
+### El veredicto sobre el nombre
+
+Las cuatro filas estaban marcadas por lo mismo: el corpus dice «Luis **Oscar** Herrera» y
+la forma mayoritaria del corpus es «Óscar». El documento de referencia escribe
+**«Luis Oscar Herrera» sin tilde**, dos veces en cada acta, y **«Óscar» aparece 0 veces**
+en los dos PDFs. El corpus era fiel; la divergencia con la forma mayoritaria no era
+evidencia de nada.
+
+**Regla que queda: que el corpus discrepe de su propia forma mayoritaria no es prueba de
+defecto. La única prueba es la fuente.** Las 4 marcas se cierran como
+`NO_REQUIERE_COTEJO` con el veredicto en el `Motivo`; el texto no se toca. La entrada se
+conserva en `Revisiones_Sin_Correccion`: cerrar una marca es registrar una respuesta, no
+borrar una pregunta.
+
+### Lo que la alineación destapó de rebote
+
+La fila `2005-07-12:296:1` no daba ratio 1, y la causa no era el nombre: el PDF dice
+«celebrada **el12** de julio de 2005» y el corpus «celebrada **e l1 2** de julio». El §15
+no podía verlo porque trabaja sobre pares de **letras**; aquí hay dígitos de por medio. Un
+detector con un alcance declarado sigue siendo ciego fuera de ese alcance, y el silencio no
+se nota.
+
+Y el PDF permitió decidir algo que de otro modo habría sido una conjetura: el acta de
+**2005-06-09**, de la misma serie y con el mismo encabezado formulaico, escribe
+«Celebrada **el 9** de junio de 2005» **con** espacio. Dos actas iguales, una con espacio y
+otra sin él: el espacio faltante es un artefacto de la capa de texto, no una variante del
+acta. Eso autoriza reponerlo.
+
+### La familia de defectos con dígitos
+
+Escaneada la salida efectiva con cuatro patrones (`letra suelta + dígito`, `el` pegado a
+dígito, dígito-espacio-dígito, letra pegada a dígito):
+
+| clase | n | tratamiento |
+|---|---:|---|
+| espacio faltante en el encabezado (`el10`, `el12`, `el15`, `el16`) | 5 | corregido, con la evidencia de 2005-06-09 |
+| `e l1 2` → `el 12` | 1 | corregido, cotejado contra el PDF |
+| `a100%` → `a 100%` | 1 | corregido; precedente registrado (`un13%` → `un 13%`) |
+| `%%` → `%` | 6 en 5 filas | corregido; las 6 leídas, ninguna admite lectura válida |
+| coma decimal convertida en espacio (`6 4%`, `0 6%`, `-8 3%`) | 8 | **marcadas**, no adivinadas |
+| `5 1/4`, `i4>` | 2 | **marcadas** |
+
+Las marcadas llevan `CIFRA_INCONSISTENTE_POR_COTEJAR`, salvo `i4>` que es
+`RECONSTRUCCION_AMBIGUA_POR_COTEJAR`. El patrón de fondo es que el OCR volvió espacio la
+coma decimal: «6 4%» es casi seguro «6,4%» porque la cifra paralela es «4,5%», pero *casi
+seguro* no alcanza, y adivinarlo sería editar el discurso. Quedan para cuando estén los
+PDFs de esas sesiones.
+
+### El invariante que estaba mal formulado
+
+`MIN_MARCADAS` era un piso sobre las marcas abiertas, con el comentario «nunca deben
+bajar». **Cerrar un cotejo las baja, y ése es el resultado correcto.** El piso premiaba
+dejar preguntas abiertas. Se reemplazó por dos: el total de casos adjudicados
+(abiertos + cerrados, 187) y los cierres documentados (34), que ésos sí sólo pueden crecer.
+
+Herramienta nueva: `scripts/cerrar_marcas_cotejadas.py`. `agregar_correcciones_ocr.py
+--parche` añade y extiende correcciones y añade revisiones, pero no actualizaba la `Marca`
+de una revisión ya registrada; sin esto el único camino era editar el registro a mano.
+Valida vocabulario, motivo no vacío, ambigüedad por fragmento, y sin `--aplicar` sólo informa.
+
+Estado tras §17: **1.140 filas corregidas, 1.654 operaciones, 189 filas en `Cotejar_PDF`,
+`Texto` intacto en las 9.723.**
+
+Las 189 no son lo mismo que las 187 revisiones del registro, y vale la pena dejar la
+cuenta escrita porque a primera vista no cuadra: hay **153 revisiones abiertas que
+corresponden a 133 filas distintas** (una fila puede cargar varias), más **7** marcas
+adicionales y **51** filas cuya base ya traía `TEXTO_DANADO_POR_COTEJAR`; la unión de los
+tres conjuntos da exactamente las 189 del release, verificadas como conjuntos idénticos y
+no sólo como cardinal. Los **34** cierres `NO_REQUIERE_COTEJO` no entran en esa cuenta:
+están excluidos de la columna a propósito.
+
+Dos cosas que salieron de hacer esa cuenta. Una entrada del registro tiene por
+`ID_Intervencion` dos filas separadas por `/`, y `construir()` las expande y marca ambas:
+es una función, no un defecto, pero `cerrar_marcas_cotejadas.py` la heredaba como punto
+ciego y ahora la detecta y se niega, porque cerrar una de esas entradas cerraría la otra
+fila sin que nadie lo haya pedido.
+
+Quedan 189 filas marcadas que necesitan los PDFs de sus sesiones.

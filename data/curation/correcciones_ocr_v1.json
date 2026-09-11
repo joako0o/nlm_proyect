@@ -2858,6 +2858,13 @@
           "Ocurrencias": 1,
           "Contexto": " energético. En particular, el actual nivel de las restricciones de gas natural equ ivale a cerca del 30% de los vigentes en abril, momento en qu",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 31 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "del PIB de 5%%-6%%.",
+          "Despues": "del PIB de 5%-6%.",
+          "Contexto": "so macroeconómico en Chile y el mundo, es coherente con una expansión del PIB de 5%%-6%%. Asimismo indica, que el desenvolvimiento de la economía chilena duran",
+          "Justificacion": "El signo de porcentaje sale duplicado tras la cifra. No existe lectura en que «%%» sea correcto: en el mismo párrafo las cifras vecinas llevan un solo signo. Se deja uno."
         }
       ]
     },
@@ -16712,6 +16719,13 @@
           "Ocurrencias": 1,
           "Contexto": "a del Vicepresidente don José De Gregorio Rebeco y de los Consejeros doña María E lena Ovalle Molina, don Jorge Desormeaux Jiménez y don Manue",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 32 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "Celebrada el10 de marzo de 2005",
+          "Despues": "Celebrada el 10 de marzo de 2005",
+          "Contexto": "A C T A CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 75 Celebrada el10 de marzo de 2005 En Santiago de Chile, a 10 de marzo de 2005, siendo las 11,30 horas, ",
+          "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
         }
       ]
     },
@@ -20677,6 +20691,126 @@
           "Justificacion": "Tilde faltante, grupo B3 (complemento). «esta parte de la economía continua funcionando bien»: es el verbo continuar en tercera persona, no el adjetivo. El par anterior terminaba en «funcionan», truncado de «funcionando», y la comprobación de frontera de palabra lo rechazó correctamente; se rehace con la palabra completa."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:296:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "celebrada e l1 2 de julio de 2005",
+          "Despues": "celebrada el 12 de julio de 2005",
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 80 celebrada e l1 2 de julio de 2005 En Santiago de Chile, a 12 de julio de 2005, siendo las 11,30 horas, ",
+          "Justificacion": "Cotejado contra data/raw/2005-07-12 - Actas.pdf: el documento dice «celebrada el12 de julio de 2005» y el corpus lo degradó a «e l1 2». La misma oración confirma el día («a 12 de julio de 2005») y el archivo se llama 2005-07-12. Se repone «el 12»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-02-10:58:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "Celebrada el10 de febrero de 2005",
+          "Despues": "Celebrada el 10 de febrero de 2005",
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 74 Celebrada el10 de febrero de 2005 En Santiago de Chile, a 10 de febrero de 2005, siendo las 11,30 horas",
+          "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2383:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "celebrada el12 de marzo de 2009",
+          "Despues": "celebrada el 12 de marzo de 2009",
+          "Contexto": "A LA SESIÓN DE POLÍTICA MONETARIA N° 136 ____________________________ celebrada el12 de marzo de 2009____________________________ En Santiago de Chile, a 12 de marzo de 20",
+          "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3023:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "celebrada el15 de abril de 2010",
+          "Despues": "celebrada el 15 de abril de 2010",
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 153 celebrada el15 de abril de 2010 En Santiago de Chile, a 15 de abril de 2010, siendo las 11:30 horas, ",
+          "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-11-16:3494:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "celebrada el16 de noviembre de",
+          "Despues": "celebrada el 16 de noviembre de",
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 162 celebrada el16 de noviembre de 2010 En Santiago de Chile, a 16 de noviembre de 2010, siendo las 11:3",
+          "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-02-12:6618:3",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "que sube a100%",
+          "Despues": "que sube a 100%",
+          "Contexto": "as espera una mantención de la TPM en la presente Reunión, porcentaje que sube a100% tratándose de la encuesta Bloomberg y la Encuesta de Operadores Finan",
+          "Justificacion": "Falta el espacio entre la preposición y la cifra: «a100%» no es una palabra. Mismo caso ya registrado en el corpus («un13% en febrero» → «un 13%»)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:4:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "entre 5% y 6%% el 2005",
+          "Despues": "entre 5% y 6% el 2005",
+          "Contexto": "8% el 2004, la economía chilena debería alcanzar tasas de crecimiento entre 5% y 6%% el 2005, para experimentar luego una suave desaceleración el 2006, de manera ",
+          "Justificacion": "El signo de porcentaje sale duplicado tras la cifra. No existe lectura en que «%%» sea correcto: en el mismo párrafo las cifras vecinas llevan un solo signo. Se deja uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:225:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "entre 5 1/4 y 6%%,",
+          "Despues": "entre 5 1/4 y 6%,",
+          "Contexto": " manera, se espera que la actividad económica crezca durante este año entre 5 1/4 y 6%%, con un mayor empuje de la demanda interna que en años recientes, en p",
+          "Justificacion": "El signo de porcentaje sale duplicado tras la cifra. No existe lectura en que «%%» sea correcto: en el mismo párrafo las cifras vecinas llevan un solo signo. Se deja uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1034:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ese año en 5%-6%%,",
+          "Despues": "ese año en 5%-6%,",
+          "Contexto": "cia del crecimiento del PIB en el año 2006, proyectado a comienzos de ese año en 5%-6%%, con respecto a lo que se estima ahora, aunque su incidencia se precis",
+          "Justificacion": "El signo de porcentaje sale duplicado tras la cifra. No existe lectura en que «%%» sea correcto: en el mismo párrafo las cifras vecinas llevan un solo signo. Se deja uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-04-11:5468:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "el maíz ha caído 13,9%%;",
+          "Despues": "el maíz ha caído 13,9%;",
+          "Contexto": "tante en el caso del maíz y la soya. Precisa que desde la última RPM, el maíz ha caído 13,9%%; la soya 5,8% y la gasolina 7,3%. Además, hace presente que el precio ",
+          "Justificacion": "El signo de porcentaje sale duplicado tras la cifra. No existe lectura en que «%%» sea correcto: en el mismo párrafo las cifras vecinas llevan un solo signo. Se deja uno."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -21481,26 +21615,26 @@
     {
       "ID_Intervencion": "RPM-2005-06-09:279:1",
       "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
-      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
-      "Motivo": "NOMBRE_PROPIO. En el fragmento aparece «Oscar» y la forma mayoritaria en el corpus es «Óscar». La diferencia es una tilde, es decir un cambio de grafía, y el criterio prohíbe adivinar la grafía de un nombre propio: por eso se marca para cotejar con el PDF original en vez de corregirse. No es el caso de §15, donde se eliminaba un espacio insertado dentro de la palabra sin tocar ninguna letra."
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Motivo": "COTEJADO CONTRA PDF. data/raw/2005-06-09 - Actas.pdf (20 páginas) escribe «don Luis Oscar Herrera Barriga» sin tilde; la forma «Óscar» aparece 0 veces en todo el documento. La fila es idéntica al tramo correspondiente del PDF: ratio 1,00000, 0 diferencias internas. No hay defecto de lectura óptica: el corpus es fiel al documento. Texto sin corregir."
     },
     {
       "ID_Intervencion": "RPM-2005-06-09:280:6",
       "Texto_Original_Fragmento": "lítica Financiera, señor Luis Oscar Herrera, señala que",
-      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
-      "Motivo": "NOMBRE_PROPIO. En el fragmento aparece «Oscar» y la forma mayoritaria en el corpus es «Óscar». La diferencia es una tilde, es decir un cambio de grafía, y el criterio prohíbe adivinar la grafía de un nombre propio: por eso se marca para cotejar con el PDF original en vez de corregirse. No es el caso de §15, donde se eliminaba un espacio insertado dentro de la palabra sin tocar ninguna letra."
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Motivo": "COTEJADO CONTRA PDF. data/raw/2005-06-09 - Actas.pdf escribe «señor Luis Oscar Herrera, señala que» sin tilde; «Óscar» aparece 0 veces en el documento. La fila es idéntica al tramo del PDF: ratio 1,00000, 0 diferencias internas. No hay defecto de lectura óptica. Texto sin corregir."
     },
     {
       "ID_Intervencion": "RPM-2005-07-12:296:1",
       "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera Barriga; Ge",
-      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
-      "Motivo": "NOMBRE_PROPIO. En el fragmento aparece «Oscar» y la forma mayoritaria en el corpus es «Óscar». La diferencia es una tilde, es decir un cambio de grafía, y el criterio prohíbe adivinar la grafía de un nombre propio: por eso se marca para cotejar con el PDF original en vez de corregirse. No es el caso de §15, donde se eliminaba un espacio insertado dentro de la palabra sin tocar ninguna letra."
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Motivo": "COTEJADO CONTRA PDF. data/raw/2005-07-12 - Actas.pdf (25 páginas) escribe «don Luis Oscar Herrera Barriga» sin tilde; «Óscar» aparece 0 veces. En el nombre la fila coincide con el documento, así que la marca se cierra sin corregir. El único defecto real de la fila estaba en la fecha: el PDF dice «celebrada el12 de julio» y el corpus «e l1 2»; ése ya se corrigió con esta misma evidencia (operación PALABRA_PARTIDA)."
     },
     {
       "ID_Intervencion": "RPM-2005-07-12:305:6",
       "Texto_Original_Fragmento": "Política Financiera, don Luis Oscar Herrera, señala que",
-      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
-      "Motivo": "NOMBRE_PROPIO. En el fragmento aparece «Oscar» y la forma mayoritaria en el corpus es «Óscar». La diferencia es una tilde, es decir un cambio de grafía, y el criterio prohíbe adivinar la grafía de un nombre propio: por eso se marca para cotejar con el PDF original en vez de corregirse. No es el caso de §15, donde se eliminaba un espacio insertado dentro de la palabra sin tocar ninguna letra."
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Motivo": "COTEJADO CONTRA PDF. data/raw/2005-07-12 - Actas.pdf escribe «don Luis Oscar Herrera, señala que» sin tilde; «Óscar» aparece 0 veces. La fila es idéntica al tramo del PDF: ratio 1,00000, 0 diferencias internas. No hay defecto de lectura óptica. Texto sin corregir."
     },
     {
       "ID_Intervencion": "RPM-2005-08-11:312:1",
@@ -21747,6 +21881,60 @@
       "Texto_Original_Fragmento": "El señor Diego Gíanelli continúa con su pre",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Motivo": "NOMBRE_PROPIO. En el fragmento aparece «Gíanelli» y la forma mayoritaria en el corpus es «Gianelli». La diferencia es una tilde, es decir un cambio de grafía, y el criterio prohíbe adivinar la grafía de un nombre propio: por eso se marca para cotejar con el PDF original en vez de corregirse. No es el caso de §15, donde se eliminaba un espacio insertado dentro de la palabra sin tocar ninguna letra."
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:225:1",
+      "Texto_Original_Fragmento": "económica crezca durante este año entre 5 1/4 y 6%%, con un mayor empuje de la demand",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «entre 5 1/4 y 6%%»: «5 1/4» admite «5¼», «5,25» o la forma literal. En la misma fila sí se corrigió «6%%» → «6%», que es unívoco."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1073:2",
+      "Texto_Original_Fragmento": "cero, es un crecimiento realmente malo. i4> Agrega el señor Ministro que lo que qui",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "GLIFO_DANADO. «un crecimiento realmente malo. i4> Agrega el señor Ministro»: la secuencia «i4>» no tiene reconstrucción posible a partir del corpus. Se necesita el PDF de la sesión."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-12-13:1576:2",
+      "Texto_Original_Fragmento": "cayeron respecto a dos días en torno a 1 2 - 1 5 puntos base. Indica que en Europa se ha",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «cayeron respecto a dos días en torno a 1 2 - 1 5 puntos base»: probablemente «12 - 15», pero también admite lectura decimal «1,2 - 1,5». La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1651:1",
+      "Texto_Original_Fragmento": "ervado en los meses previos, llegando a 6 4% anual en su medición total y a 4,5% anu",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «llegando a 6 4% anual en su medición total y a 4,5% anual»: el paralelismo con «4,5%» sugiere «6,4%», pero «64%» no se descarta. La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2237:2",
+      "Texto_Original_Fragmento": "país ha sido afortunado en los últimos 1 5 - 18 años, en que siempre en el Banco Centra",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «ha sido afortunado en los últimos 1 5 - 18 años»: probablemente «15 - 18 años». La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2402:1",
+      "Texto_Original_Fragmento": "0,1% y un noveno décil que la sitúa en 0 6% Comenta que a plazos mayores, parte de",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «un noveno décil que la sitúa en 0 6%»: probablemente «0,6%» por paralelismo con el «0,1%» anterior. La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2474:1",
+      "Texto_Original_Fragmento": "uarto trimestre atrasada, anualizada de -8 3%. Esa cifra es muy parecida a la de Bras",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «una caída en el cuarto trimestre atrasada, anualizada de -8 3%»: probablemente «-8,3%». La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2533:1",
+      "Texto_Original_Fragmento": "NE; la cifra desestacionalizada llegó a 9 3%, con una evolución mes a mes del empleo",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «la cifra desestacionalizada llegó a 9 3%»: probablemente «9,3%». La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-09-08:2694:1",
+      "Texto_Original_Fragmento": "de la Zona Euro, ya que el WEO proyecta 0 0%. el Banco 0,6% y un banco de inversión",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "CIFRA_AMBIGUA. «el WEO proyecta 0 0%. el Banco 0,6%»: probablemente «0,0%». Además «%. el» deja minúscula tras punto, que tampoco se puede resolver sin el original. La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
     }
   ],
   "Marcas_Adicionales": [

@@ -84,9 +84,18 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1130
-MIN_MARCADAS = 184
-MIN_OPERACIONES = 1642
+MIN_CORREGIDAS = 1140
+MIN_OPERACIONES = 1654
+
+# Las marcas abiertas SÍ pueden bajar, y está bien que bajen: cotejar una fila
+# contra el PDF original y comprobar que el corpus era fiel la mueve a
+# NO_REQUIERE_COTEJO. Eso es cerrar trabajo, no perderlo. Lo que nunca puede
+# bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
+# cierres ya documentados; si no, borrar revisiones del registro se vería como
+# una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
+MIN_CASOS_ADJUDICADOS = 187   # 153 abiertas + 34 cerradas al cierre del §17
+MIN_CIERRES_COTEJO = 34
+
 MIN_IPCX = 656       # IPCX legítimo preservado + el restaurado por §14
 MIN_IPCX1 = 480
 
@@ -191,9 +200,78 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
 
     def test_los_totales_no_retroceden(self):
         self.assertGreaterEqual(len(self.corregidas), MIN_CORREGIDAS)
-        self.assertGreaterEqual(len(self.marcas), MIN_MARCADAS)
         n_ops = sum(len(e['Operaciones']) for e in self.reg['Correcciones'])
         self.assertGreaterEqual(n_ops, MIN_OPERACIONES)
+
+    def test_los_casos_adjudicados_no_retroceden(self):
+        """Cerrar un cotejo baja las marcas abiertas: es el resultado esperado.
+
+        Lo que no puede bajar es el total de casos adjudicados ni los cierres ya
+        documentados. Sin este test, eliminar revisiones del registro subiría la
+        proporción de filas resueltas y nadie lo notaría.
+        """
+        rev = self.reg['Revisiones_Sin_Correccion']
+        cerradas = [r for r in rev if r['Marca'] == 'NO_REQUIERE_COTEJO']
+        abiertas = [r for r in rev if r['Marca'] != 'NO_REQUIERE_COTEJO']
+        self.assertGreaterEqual(len(rev), MIN_CASOS_ADJUDICADOS,
+                                f'quedan {len(rev)} revisiones (< {MIN_CASOS_ADJUDICADOS}): '
+                                'se perdieron casos del registro')
+        self.assertGreaterEqual(len(cerradas), MIN_CIERRES_COTEJO,
+                                f'{len(cerradas)} cierres (< {MIN_CIERRES_COTEJO})')
+        self.assertEqual(len(abiertas) + len(cerradas), len(rev),
+                         'toda revisión está abierta o cerrada; no hay tercer estado')
+        # Un cierre sin explicación es indistinguible de un borrado. El motivo más
+        # corto registrado mide 62 caracteres; 40 deja margen sin ser decorativo.
+        cortos = [r['ID_Intervencion'] for r in cerradas if len(r['Motivo'].strip()) < 40]
+        self.assertEqual(cortos, [], f'cierres sin justificación real: {cortos}')
+
+    def test_el_cotejo_contra_pdf_cerro_las_marcas_verificadas(self):
+        """Las actas de 2005-06-09 y 2005-07-12 están en data/raw/, así que esas
+        cuatro filas se pudieron cotejar de verdad: el documento escribe «Luis
+        Oscar Herrera» sin tilde y «Óscar» no aparece ninguna vez. El corpus era
+        fiel, de modo que la marca se cierra sin tocar el texto.
+        """
+        for rid in ('RPM-2005-06-09:279:1', 'RPM-2005-06-09:280:6',
+                    'RPM-2005-07-12:296:1', 'RPM-2005-07-12:305:6'):
+            self.assertNotIn(rid, self.marcas, f'{rid} sigue en Cotejar_PDF tras el cotejo')
+        for rid in ('RPM-2005-06-09:279:1', 'RPM-2005-07-12:305:6'):
+            self.assertIn('Luis Oscar Herrera', self.salida[rid])
+            self.assertNotIn('Luis Óscar Herrera', self.salida[rid],
+                             f'{rid}: se le añadió una tilde que el original no tiene')
+
+    def test_los_espacios_con_cifras_del_encabezado_se_repusieron(self):
+        """«celebrada el12» sale pegado en la capa de texto del PDF; el mismo
+        encabezado en el PDF de 2005-06-09 sale con espacio, lo que prueba que es
+        un artefacto y no una variante del acta.
+        """
+        esperados = {
+            'RPM-2005-07-12:296:1': 'celebrada el 12 de julio de 2005',
+            'RPM-2005-02-10:58:1': 'Celebrada el 10 de febrero de 2005',
+            'RPM-2005-03-10:140:1': 'Celebrada el 10 de marzo de 2005',
+            'RPM-2009-03-12:2383:1': 'celebrada el 12 de marzo de 2009',
+            'RPM-2010-04-15:3023:1': 'celebrada el 15 de abril de 2010',
+            'RPM-2010-11-16:3494:1': 'celebrada el 16 de noviembre de 2010',
+            'RPM-2015-02-12:6618:3': 'que sube a 100%',
+        }
+        for rid, forma in esperados.items():
+            self.assertIn(forma, self.salida[rid], f'{rid}: falta {forma!r}')
+
+    def test_no_quedan_porcientos_duplicados(self):
+        """«6%%» no es notación posible; se leyeron las 6 ocurrencias del corpus."""
+        n = sum(t.count('%%') for t in self.salida.values())
+        self.assertEqual(n, 0, f'quedan {n} signos de porcentaje duplicados')
+
+    def test_las_cifras_ambiguas_quedan_marcadas_no_adivinadas(self):
+        """Donde el OCR separó cifras y el valor no es recuperable sin el original,
+        la fila queda marcada: adivinar «6 4%» como «6,4%» sería editar el discurso.
+        """
+        for rid in ('RPM-2005-05-12:225:1', 'RPM-2007-02-08:1073:2',
+                    'RPM-2007-12-13:1576:2', 'RPM-2008-02-07:1651:1',
+                    'RPM-2008-12-11:2237:2', 'RPM-2009-03-12:2402:1',
+                    'RPM-2009-04-09:2474:1', 'RPM-2009-05-07:2533:1',
+                    'RPM-2009-09-08:2694:1'):
+            self.assertIn(rid, self.marcas, f'{rid}: cifra ambigua sin marcar')
+
 
     def test_toda_operacion_lleva_contexto_y_justificacion(self):
         """Ninguna corrección puede quedar sin trazabilidad."""
