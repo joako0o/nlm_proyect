@@ -21,6 +21,10 @@ Contratos que valida antes de escribir:
    cada una se comprueba contra el texto virgen, no contra el intermedio.
 3. Una fila sin operaciones no genera ``Texto_Corregido``.
 4. Toda revisión descartada lleva ``Marca``, tomada del vocabulario.
+5. Toda palabra que un ``Despues`` **introduce** debe existir en el corpus
+   virgen (ignorando acentos y mayúsculas) o estar en ``TERMINOS_FORANEOS``.
+   El ``Antes`` siempre estuvo controlado; el reemplazo no, y un ``Despues``
+   mal escrito pasaba en silencio.
 
 Uso::
 
@@ -80,6 +84,81 @@ MARCAS_VALIDAS = {
 
 # La alerta del motor ya dice «por cotejar»: se arrastra sola a la columna.
 MOTIVO_QUE_MARCA = 'TEXTO_DANADO_POR_COTEJAR'
+
+# Términos foráneos que una corrección puede introducir legítimamente aunque no
+# figuren en el corpus virgen. Cada uno está aquí por una razón verificada; si
+# aparece otro, hay que justificarlo igual.
+TERMINOS_FORANEOS = {
+    'fly',   # «fly to quality»: el corpus sólo trae «flight to quality», y las
+             # 9 correcciones «fiy»/«fIy» -> «fly» son justamente eso (§10).
+}
+
+_TOKEN = None  # se compila en _vocabulario()
+_PLEGADO: dict[str, set[str]] | None = None
+
+
+def _vocabulario(textos) -> tuple[set[str], set[str]]:
+    """Palabras del corpus virgen, en crudo y plegadas (sin acento ni caja).
+
+    El plegado es lo que permite aceptar «exportó» o «Subsecretaria» cuando el
+    corpus sólo trae «exporto» o «subsecretaria»: no son palabras inventadas,
+    son la misma palabra con la ortografía repuesta.
+    """
+    global _TOKEN
+    import re
+    import unicodedata
+    if _TOKEN is None:
+        _TOKEN = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}')
+
+    def plegar(s: str) -> str:
+        s = unicodedata.normalize('NFD', s)
+        s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
+        return s.lower()
+
+    crudo, plegado = set(), set()
+    for t in textos:
+        crudo.update(_TOKEN.findall(t))
+    plegado = {plegar(w) for w in crudo}
+    return crudo, plegado
+
+
+def revisar_reemplazos(reg: dict, textos) -> list[str]:
+    """Controla el lado ``Despues``, que hasta ahora nadie miraba.
+
+    ``validar`` comprobaba el ``Antes`` con rigor (que exista, que sea único, que
+    los tramos no se pisen) pero del reemplazo sólo exigía que algo cambiara: un
+    ``Despues`` mal escrito pasaba en silencio. Aquí cada palabra que una
+    operación **introduce** (presente en ``Despues`` y ausente en ``Antes``) debe
+    existir en el corpus virgen, o coincidir con una palabra del corpus ignorando
+    acentos y mayúsculas, o estar en ``TERMINOS_FORANEOS``.
+
+    Medido sobre el registro curado: 1.057 de 1.069 operaciones pasan sin ayuda;
+    las 12 restantes son «exportó», «etáreos», «Subsecretaria» y «fly» (×9), todas
+    cubiertas por el plegado o por la lista explícita.
+    """
+    crudo, plegado = _vocabulario(textos)
+
+    def plegar(s: str) -> str:
+        import unicodedata
+        s = unicodedata.normalize('NFD', s)
+        return ''.join(c for c in s if unicodedata.category(c) != 'Mn').lower()
+
+    problemas: list[str] = []
+    for entrada in reg.get('Correcciones', []):
+        rid = entrada['ID_Intervencion']
+        for n, op in enumerate(entrada.get('Operaciones') or [], 1):
+            antes = set(_TOKEN.findall(op['Antes']))
+            for tok in _TOKEN.findall(op['Despues']):
+                if tok in antes:
+                    continue
+                if tok in crudo or tok in TERMINOS_FORANEOS:
+                    continue
+                if plegar(tok) in plegado:
+                    continue
+                problemas.append(
+                    f'{rid} op{n} ({op["Tipo"]}): el reemplazo introduce «{tok}», '
+                    f'que no está en el corpus ni en TERMINOS_FORANEOS')
+    return problemas
 
 
 def cargar() -> dict:
@@ -183,6 +262,8 @@ def validar(reg: dict | None = None, base: Path = BASE):
         if MOTIVO_QUE_MARCA in (fila.get('Motivos_Revision') or ''):
             if MOTIVO_QUE_MARCA not in marcas[rid]:
                 marcas[rid].append(MOTIVO_QUE_MARCA)
+
+    problemas.extend(revisar_reemplazos(reg, [f['Texto'] or '' for f in filas.values()]))
 
     return (not problemas), problemas, corregidas, dict(marcas)
 
