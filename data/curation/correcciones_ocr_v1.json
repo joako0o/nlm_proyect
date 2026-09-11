@@ -3189,6 +3189,22 @@
      "Ocurrencias": 2,
      "Contexto": "orme de Política Monetaria y resulta necesaria para que la inflación proyectada en tomo a dos años se ubique en 3%. El escenario externo relevante pa",
      "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+    },
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "base a 5,25% anual. Comunicado ■'En su reunión mensual de polí",
+     "Despues": "base a 5,25% anual. Comunicado “En su reunión mensual de polí",
+     "Ocurrencias": 1,
+     "Contexto": "entar la tasa de interés de política monetaria en 25 puntos base a 5,25% anual. Comunicado ■'En su reunión mensual de política monetaria, el Consejo del Banco Cen",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nflación subyacente IPCXI (que excluye co",
+     "Despues": "nflación subyacente IPCX1 (que excluye co",
+     "Ocurrencias": 1,
+     "Contexto": "e los alimentos. Estos últimos también han incrementado la inflación subyacente IPCXI (que excluye combustibles, perecibles y algunos servici",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -3204,6 +3220,14 @@
      "Ocurrencias": 1,
      "Contexto": "as. Las expectativas de inflación a mediano y largo plazo se mantienen ancladas en tomo a 3% anual, lo que es coherente con un aumento transitorio de",
      "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nflación subyacente IPCXI (que excluye co",
+     "Despues": "nflación subyacente IPCX1 (que excluye co",
+     "Ocurrencias": 1,
+     "Contexto": "Los no perecibles también han contribuido a incrementar la inflación subyacente IPCXI (que excluye combustibles, perecibles y algunos servici",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -3302,6 +3326,14 @@
      "Ocurrencias": 1,
      "Contexto": " los próximos meses, pero su convergencia hacia un 3% será más lenta que la del IRC. Lo anterior, porque la inercia inflacionaria es mayor en l",
      "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": " la inflación anual dellPC se acercó a 8%.",
+     "Despues": " la inflación anual del IPC se acercó a 8%.",
+     "Ocurrencias": 1,
+     "Contexto": "lisis Macroeconómico hace presente que a fines del año 2007, la inflación anual dellPC se acercó a 8%. Por otra parte, el señor Gerente de Aná",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -3588,6 +3620,22 @@
      "Ocurrencias": 1,
      "Contexto": "lio próximos, empiezan a devolverse las rebajas del impuesto a los combustibles yeso haría elevar algo la inflación dellPC por sobre la deIIPCX.",
      "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "r algo la inflación dellPC por sobre la de",
+     "Despues": "r algo la inflación del IPC por sobre la de",
+     "Ocurrencias": 1,
+     "Contexto": "las rebajas del impuesto a los combustibles yeso haría elevar algo la inflación dellPC por sobre la deIIPCX.",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": " deIIPCX.",
+     "Despues": " del IPCX.",
+     "Ocurrencias": 1,
+     "Contexto": "bles yeso haría elevar algo la inflación dellPC por sobre la deIIPCX.",
+     "Justificacion": "Sigla dañada por el glifo I/l, segunda vuelta: en estas tres filas el defecto cae a pocos caracteres de otro ya corregido en la misma fila y las ventanas se pisaban, asi que se compone un fragmento estrecho o se extiende la operacion existente. Medido en el corpus: el IPoM 1.543, IPCX1 469, del IPCX ampliamente atestiguado."
     }
    ]
   },
@@ -6232,6 +6280,14 @@
      "Ocurrencias": 1,
      "Contexto": "nos sectores del país, resulta difícil argumentar a favor de un desalineamiento cambiarlo evidente en las condiciones macro actuales. A juicio del Co",
      "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "entral delineada en ellPoM, manifestando q",
+     "Despues": "entral delineada en el IPoM, manifestando q",
+     "Ocurrencias": 1,
+     "Contexto": "en esta ocasión es plenamente coherente con la trayectoria central delineada en ellPoM, manifestando que, en ese sentido, discrepa con la Minu",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -6368,6 +6424,14 @@
      "Ocurrencias": 1,
      "Contexto": "ión para las perspectivas inflacionarias, particularmente porque esta situación cambiarla continúa fluida y es incierto en qué nivel se asentará el p",
      "Justificacion": "cambiarla por cambiaria. Misma familia y mismo defecto. Medido: 8 apariciones (todas dentro de \"cambiarlas\"), todas adjetivas y revisadas una por una: \"paridades cambiarlas\" 4 veces, \"implicancias cambiarlas\" 2, \"expectativas cambiarlas\" 1, \"coberturas cambiarlas\" 1. \"cambiarias\" ya aparece 19 veces en el corpus."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "base en el caso del IPX e IPX1, respect",
+     "Despues": "base en el caso del IPCX e IPCX1, respect",
+     "Ocurrencias": 1,
+     "Contexto": "yacente se ajustan marginalmente al alza, en 40 y 20 puntos base en el caso del IPX e IPX1, respectivamente. Comenta, asimismo, que tras lo",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica. | Se extiende esta operacion (no se añade otra, porque las dos caen dentro del mismo tramo) para reparar «del IPX e IPX1» -> «del IPCX e IPCX1»: la C se perdio en las dos siglas. IPCX e IPCX1 son dos medidas de inflacion subyacente del Banco, ambas reales y ambas atestiguadas en el corpus (IPCX 649, IPCX1 469). Sigla dañada por el glifo I/l, segunda vuelta: en estas tres filas el defecto cae a pocos caracteres de otro ya corregido en la misma fila y las ventanas se pisaban, asi que se compone un fragmento estrecho o se extiende la operacion existente. Medido en el corpus: el IPoM 1.543, IPCX1 469, del IPCX ampliamente atestiguado."
     }
    ]
   },
@@ -8530,6 +8594,14 @@
      "Despues": "“",
      "Contexto": "lítica monetaria en 25 puntos base a 5,5% anual. Comunicado \"En su reunión mensual de política monetaria, el Co",
      "Justificacion": "Comilla recta que abre una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nflación subyacente IPCXI (que excluye co",
+     "Despues": "nflación subyacente IPCX1 (que excluye co",
+     "Ocurrencias": 1,
+     "Contexto": " de los alimentos no perecibles también ha incrementado la inflación subyacente IPCXI (que excluye combustibles, perecibles y algunos servici",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -8707,6 +8779,22 @@
      "Despues": "”",
      "Contexto": "ción proyectada se ubique en 3% en el horizonte de política.\"",
      "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+    },
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "días al nivel de la TPM vigente. ■ Ajustar el plan de emis",
+     "Despues": "días al nivel de la TPM vigente. Ajustar el plan de emis",
+     "Ocurrencias": 1,
+     "Contexto": "as bancarias, mediante la cual otorgará liquidez a 90 y 180 días al nivel de la TPM vigente. ■ Ajustar el plan de emisiones de Pagarés Descontables del Banco ",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    },
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "ra coherente con la decisión anterior. ■ Suspender, por todo lo",
+     "Despues": "ra coherente con la decisión anterior. Suspender, por todo lo",
+     "Ocurrencias": 1,
+     "Contexto": " del Banco Central (PDBC) a plazos menores de un año de manera coherente con la decisión anterior. ■ Suspender, por todo lo que resta del 2009, la emisión de títul",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
     }
    ]
   },
@@ -10098,6 +10186,14 @@
      "Ocurrencias": 1,
      "Contexto": "erca de 8%. En esto influyó una reversión estacional más lenta de los precios de los perecióles y aumentos significativos en una gama diversa de ",
      "Justificacion": "perecióles por perecibles. Defecto sistematico descubierto en la ronda 185 y medido en todo el corpus: 10 apariciones en 9 filas, todas con el mismo dano (la b leida como o con tilde). \"perecióles\" no es palabra del espanol; \"perecibles\" aparece 166 veces en 123 filas. Los 10 contextos se revisaron uno por uno y todos son \"alimentos perecibles\", \"bienes perecibles\", \"los perecibles\" o \"tanto perecibles como no perecibles\". Precision 100%, sin falsos positivos posibles."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "do la inflación del IPCXI (que excluye co",
+     "Despues": "do la inflación del IPCX1 (que excluye co",
+     "Ocurrencias": 1,
+     "Contexto": ". Las distintas medidas de tendencia inflacionaria, incluyendo la inflación del IPCXI (que excluye combustibles, perecibles y algunos servici",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -11787,6 +11883,14 @@
      "Ocurrencias": 1,
      "Contexto": "nes de sostener un crecimiento en torno superior a 7%. Asimismo, manifiesta que ios datos de PIB de los países latinoamericanos, correspond",
      "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+    },
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "ndustrial fue menor que lo anticipado. ry _<< ■ En Japón, el PIB fue may",
+     "Despues": "ndustrial fue menor que lo anticipado. En Japón, el PIB fue may",
+     "Ocurrencias": 1,
+     "Contexto": "eron mejores que lo esperado, y en Alemania, la producción industrial fue menor que lo anticipado. ry _<< ■ En Japón, el PIB fue mayor que lo previsto y revisado al alza; n",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
     }
    ]
   },
@@ -12765,6 +12869,14 @@
      "Ocurrencias": 1,
      "Contexto": "r esta información se ha optado desde hace algunos meses por revisar los promed ios de futuros a dos o tres años plazos, conforme al promed",
      "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": " también en el caso dellPC Gore. Agrega qu",
+     "Despues": " también en el caso del IPC Gore. Agrega qu",
+     "Ocurrencias": 1,
+     "Contexto": "do en otras ocasiones muestran una tendencia hacia el alza y también en el caso dellPC Gore. Agrega que desde el punto de vista de los deflact",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
     }
    ]
   },
@@ -13418,6 +13530,474 @@
      "Ocurrencias": 1,
      "Contexto": "a en 3% anual. En el ámbito externo, la mayor novedad ha sido la volatilidad de ios mercados financieros, asociada a los eventos en Grecia ",
      "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2005-03-10:149:1",
+   "Fecha": "2005-03-10",
+   "Actor": "Pablo García Silva",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "llones, respectivam ente—■ y un déficit en la c",
+     "Despues": "llones, respectivam ente— y un déficit en la c",
+     "Ocurrencias": 1,
+     "Contexto": "y de transferencias — que alcanzó a US$ 8.440 y US$ 1.050 millones, respectivam ente—■ y un déficit en la cuenta de renta — US$ 8.100 millones— . E",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2005-05-12:276:1",
+   "Fecha": "2005-05-12",
+   "Actor": "José De Gregorio Rebeco",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "centes asociadas al iPCX y al IPCX2. En ",
+     "Despues": "centes asociadas al IPCX y al IPCX2. En ",
+     "Ocurrencias": 1,
+     "Contexto": "ntes, sino que también el aumento de todas las medidas subyacentes asociadas al iPCX y al IPCX2. En consecuencia, la decisión de hoy debería",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2005-07-12:308:1",
+   "Fecha": "2005-07-12",
+   "Actor": "Manuel Marfán Lewis",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nflación subyacente ÍPCX1, en tanto, exhi",
+     "Despues": "nflación subyacente IPCX1, en tanto, exhi",
+     "Ocurrencias": 1,
+     "Contexto": " un escenario de mayor dinamismo de la demanda interna. La inflación subyacente ÍPCX1, en tanto, exhibe un comportamiento de acuerdo a lo pre",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2006-02-09:594:2",
+   "Fecha": "2006-02-09",
+   "Actor": "Consejo del Banco Central de Chile",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "n subyacente IPCX e ÍPCX1 (que excluyen c",
+     "Despues": "n subyacente IPCX e IPCX1 (que excluyen c",
+     "Ocurrencias": 1,
+     "Contexto": "ación anual se ubicó algo sobre 4% y las medidas de inflación subyacente IPCX e ÍPCX1 (que excluyen combustibles, perecibles y algunos servic",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2007-04-12:1220:2",
+   "Fecha": "2007-04-12",
+   "Actor": "Consejo del Banco Central de Chile",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": " primas también han aumentado. ■o J La información disponible sigu",
+     "Despues": " primas también han aumentado. La información disponible sigu",
+     "Ocurrencias": 1,
+     "Contexto": "bican por sobre lo proyectado. Los precios de otras materias primas también han aumentado. ■o J La información disponible sigue dando cuenta de un aumento del dinamis",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2007-06-14:1308:2",
+   "Fecha": "2007-06-14",
+   "Actor": "Consejo del Banco Central de Chile",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nflación subyacente IPCX 1 (que excluye co",
+     "Despues": "nflación subyacente IPCX1 (que excluye co",
+     "Ocurrencias": 1,
+     "Contexto": "a por el precio de los combustibles y por un repunte de la inflación subyacente IPCX 1 (que excluye combustibles, perecibles y algunos servici",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2007-07-12:1324:1",
+   "Fecha": "2007-07-12",
+   "Actor": "Igal Magendzo Weinberger",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "expansión continúan aumentando. ■,\\y Menciona también el Gere",
+     "Despues": "expansión continúan aumentando. Menciona también el Gere",
+     "Ocurrencias": 1,
+     "Contexto": "os mostró una caída generalizada, aunque sus velocidades de expansión continúan aumentando. ■,\\y Menciona también el Gerente señor Magendzo que en el mes de juni",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2007-07-12:1335:4",
+   "Fecha": "2007-07-12",
+   "Actor": "Igal Magendzo Weinberger",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "ocesamiento y otros que resultan mayores. fi",
+     "Despues": "ocesamiento y otros que resultan mayores.",
+     "Ocurrencias": 1,
+     "Contexto": "idiendo en el IPC conlleva costos de comercialización, de procesamiento y otros que resultan mayores. fi",
+     "Justificacion": "Residuo \"fi\" al final de la fila, tras una oración que cierra completa en \"mayores.\". La fila ya viene con motivo FINAL_SIN_PUNTUACION. No es texto: no hay palabra española \"fi\" y la oración anterior no lo necesita."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2007-11-13:1569:1",
+   "Fecha": "2007-11-13",
+   "Actor": "Consejo del Banco Central de Chile",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "egistro mensual del IPCXI (que excluye co",
+     "Despues": "egistro mensual del IPCX1 (que excluye co",
+     "Ocurrencias": 1,
+     "Contexto": "uctos relativamente volátiles también contribuyó a un bajo registro mensual del IPCXI (que excluye combustibles, perecibles y algunos servici",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-06-10:1904:1",
+   "Fecha": "2008-06-10",
+   "Actor": "Beltrán de Ramón Acevedo",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "n Estudios y de los seguros de inflación. ■J",
+     "Despues": "n Estudios y de los seguros de inflación.",
+     "Ocurrencias": 1,
+     "Contexto": "robable si se cumple la proyección de la Gerencia de División Estudios y de los seguros de inflación. ■J",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2008-07-10:1917:1",
+   "Fecha": "2008-07-10",
+   "Actor": "José De Gregorio Rebeco",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "idente, consulta si ellPP es mucho más in",
+     "Despues": "idente, consulta si el IPP es mucho más in",
+     "Ocurrencias": 1,
+     "Contexto": "El señor Presidente, consulta si ellPP es mucho más intensivo que ellPC y si es transable o no",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": " ellPC ",
+     "Despues": " el IPC ",
+     "Ocurrencias": 1,
+     "Contexto": "ñor Presidente, consulta si ellPP es mucho más intensivo que ellPC y si es transable o no, pues le llama la",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2009-02-12:2312:1",
+   "Fecha": "2009-02-12",
+   "Actor": "Manuel Marfán Lewis",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": " través de China al resto de Asia. Y ■",
+     "Despues": " través de China al resto de Asia.",
+     "Ocurrencias": 1,
+     "Contexto": "ón de Estados Unidos de América y de Europa esté afectando a través de China al resto de Asia. Y ■",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2009-04-09:2441:6",
+   "Fecha": "2009-04-09",
+   "Actor": "Sergio Lehmann Beresi",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "en doce meses menos negativas que lo ■ registrado en meses anteri",
+     "Despues": "en doce meses menos negativas que lo registrado en meses anteri",
+     "Ocurrencias": 1,
+     "Contexto": "ciona que la República de Corea también muestra variaciones en doce meses menos negativas que lo ■ registrado en meses anteriores, algo parecido a lo que sucede en M",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2009-05-07:2530:2",
+   "Fecha": "2009-05-07",
+   "Actor": "Claudio Soto Gamboa",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "gno claro de rebote en la actividad. / ■ ' / Agrega el señor Soto q",
+     "Despues": "gno claro de rebote en la actividad. Agrega el señor Soto q",
+     "Ocurrencias": 1,
+     "Contexto": "ea, todavía no se observaría en la proyección de abril un signo claro de rebote en la actividad. / ■ ' / Agrega el señor Soto que con este antecedente, más una serie d",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2009-05-07:2544:1",
+   "Fecha": "2009-05-07",
+   "Actor": "Sebastián Claro Edwards",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "ativas de inflación y actividad. / ■ Continuando con su exposici",
+     "Despues": "ativas de inflación y actividad. Continuando con su exposici",
+     "Ocurrencias": 1,
+     "Contexto": "una política monetaria más expansiva dada las menores expectativas de inflación y actividad. / ■ Continuando con su exposición, el Consejero señor Sebastián Claro s",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2010-03-18:2990:1",
+   "Fecha": "2010-03-18",
+   "Actor": "Claudio Soto Gamboa",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "n niveles bajos por desacumulación durante ■ el año pasado, o porqu",
+     "Despues": "n niveles bajos por desacumulación durante el año pasado, o porqu",
+     "Ocurrencias": 1,
+     "Contexto": " traten de recomponer sus stocks, ya sea porque los tenían en niveles bajos por desacumulación durante ■ el año pasado, o porque están aun más bajos, dado que hubo pér",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "e efectúe el cierre dellPoM, por lo que, da",
+     "Despues": "e efectúe el cierre del IPoM, por lo que, da",
+     "Ocurrencias": 1,
+     "Contexto": "ace presente que estos supuestos serán actualizados cuando se efectúe el cierre dellPoM, por lo que, dada la evolución en el tipo de cambio spo",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2010-03-18:2991:1",
+   "Fecha": "2010-03-18",
+   "Actor": "José De Gregorio Rebeco",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "ál era la inflación dellPC considerada en ",
+     "Despues": "ál era la inflación del IPC considerada en ",
+     "Ocurrencias": 1,
+     "Contexto": "El señor Presidente consulta cuál era la inflación dellPC considerada en ellPoM pasado.",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": " ellPoM ",
+     "Despues": " el IPoM ",
+     "Ocurrencias": 1,
+     "Contexto": "sidente consulta cuál era la inflación dellPC considerada en ellPoM pasado.",
+     "Justificacion": "Sigla dañada por el glifo I/l, segunda vuelta: en estas tres filas el defecto cae a pocos caracteres de otro ya corregido en la misma fila y las ventanas se pisaban, asi que se compone un fragmento estrecho o se extiende la operacion existente. Medido en el corpus: el IPoM 1.543, IPCX1 469, del IPCX ampliamente atestiguado."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2010-03-18:3000:1",
+   "Fecha": "2010-03-18",
+   "Actor": "Matías Bernier Bórquez",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "una disminución del stock neto en la ■V última semana, en el d",
+     "Despues": "una disminución del stock neto en la última semana, en el d",
+     "Ocurrencias": 1,
+     "Contexto": "k más bien permanente; no obstante, informa que se registró una disminución del stock neto en la ■V última semana, en el dato en el margen, lo cual sugiere que au",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2010-04-15:3049:2",
+   "Fecha": "2010-04-15",
+   "Actor": "Pablo García Silva",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nía en el escenario dellPoM.",
+     "Despues": "nía en el escenario del IPoM.",
+     "Ocurrencias": 1,
+     "Contexto": "tivamente va a llevar a más impulso respecto de lo que se tenía en el escenario dellPoM.",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2010-12-16:3619:1",
+   "Fecha": "2010-12-16",
+   "Actor": "Claudio Soto Gamboa",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "nes negativas y que ellPCX1 disminuyó por s",
+     "Despues": "nes negativas y que el IPCX1 disminuyó por s",
+     "Ocurrencias": 1,
+     "Contexto": "mente nula, que las medidas subyacentes registraron variaciones negativas y que ellPCX1 disminuyó por segundo mes consecutivo . Con respecto a ",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "ue se está cerrando ellPoM de diciembre, y",
+     "Despues": "ue se está cerrando el IPoM de diciembre, y",
+     "Ocurrencias": 1,
+     "Contexto": "o de precios de combustibles más alto, que es aquel con el que se está cerrando ellPoM de diciembre, y un tipo de cambio más bajo, coherente c",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "mbién la corrección dellPC y, en especial,",
+     "Despues": "mbién la corrección del IPC y, en especial,",
+     "Ocurrencias": 1,
+     "Contexto": "ctricas se descartará nuevamente en diciembre, explicando también la corrección dellPC y, en especial, la deIIPCX1 .",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    },
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": " deIIPCX1 ",
+     "Despues": " del IPCX1 ",
+     "Ocurrencias": 1,
+     "Contexto": ", explicando también la corrección dellPC y, en especial, la deIIPCX1 .",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2010-12-16:3634:1",
+   "Fecha": "2010-12-16",
+   "Actor": "Felipe Larraín Bascuñán",
+   "Operaciones": [
+    {
+     "Tipo": "LETRA_CONFUNDIDA",
+     "Antes": "1%, mientras que el IPX1 disminuyó 0,2%,",
+     "Despues": "1%, mientras que el IPCX1 disminuyó 0,2%,",
+     "Ocurrencias": 1,
+     "Contexto": "eñor Ministro informa que su variación mensual alcanzó a -0,1%, mientras que el IPX1 disminuyó 0,2%, con lo que las mediciones en doce meses",
+     "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2012-09-13:5072:1",
+   "Fecha": "2012-09-13",
+   "Actor": "Manuel Marfán Lewis",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "cita la opinión del staff sobre el tema. ■V",
+     "Despues": "cita la opinión del staff sobre el tema.",
+     "Ocurrencias": 1,
+     "Contexto": "nes sobre la inflación. En razón de este planteamiento, solicita la opinión del staff sobre el tema. ■V",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2012-09-13:5085:1",
+   "Fecha": "2012-09-13",
+   "Actor": "Joaquín Vial Ruiz-Tagle",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "as variables en los próximos meses. 4 / ■ En consideración a que aún no se",
+     "Despues": "as variables en los próximos meses. En consideración a que aún no se",
+     "Ocurrencias": 1,
+     "Contexto": "por lo que habrá que seguir muy de cerca la evolución de estas variables en los próximos meses. 4 / ■ En consideración a que aún no se perciben desviaciones significativas en",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2013-02-14:5389:1",
+   "Fecha": "2013-02-14",
+   "Actor": "Joaquín Vial Ruiz-Tagle",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "es más profunda que lo que se pensaba. i - /■ Además, alude al deter",
+     "Despues": "es más profunda que lo que se pensaba. Además, alude al deter",
+     "Ocurrencias": 1,
+     "Contexto": "que la recesión por la que están atravesando esas economías es más profunda que lo que se pensaba. i - /■ Además, alude al deterioro en el clima político en Europa, que",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2013-03-14:5445:1",
+   "Fecha": "2013-03-14",
+   "Actor": "Joaquín Vial Ruiz-Tagle",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "nergía. Por último, expresa que se ■ v acrecienta el riesgo polít",
+     "Despues": "nergía. Por último, expresa que se acrecienta el riesgo polít",
+     "Ocurrencias": 1,
+     "Contexto": "n el uso e importaciones de todo tipo de materias primas y energía. Por último, expresa que se ■ v acrecienta el riesgo político en Europa con claros indicios de fat",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2013-06-13:5632:1",
+   "Fecha": "2013-06-13",
+   "Actor": "Manuel Marfán Lewis",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "ían sobrepasado las brechas de capacidad. A su /■ Y juicio, resulta tranqu",
+     "Despues": "ían sobrepasado las brechas de capacidad. A su juicio, resulta tranqu",
+     "Ocurrencias": 1,
+     "Contexto": "la estrechez del mercado del trabajo y porque también se habían sobrepasado las brechas de capacidad. A su /■ Y juicio, resulta tranquilizador el hecho que los registros de i",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2013-08-13:5719:1",
+   "Fecha": "2013-08-13",
+   "Actor": "Claudio Soto Gamboa",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "rcibe por sobre los niveles deseados. — f ■",
+     "Despues": "rcibe por sobre los niveles deseados.",
+     "Ocurrencias": 1,
+     "Contexto": "es a los niveles históricos, en tanto que el comercio los percibe por sobre los niveles deseados. — f ■",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+    }
+   ]
+  },
+  {
+   "ID_Intervencion": "RPM-2013-09-12:5802:2",
+   "Fecha": "2013-09-12",
+   "Actor": "Rodrigo Vergara Montes",
+   "Operaciones": [
+    {
+     "Tipo": "SIMBOLO_SUELTO",
+     "Antes": "serto en el Acta de esta Sesión: ( ■",
+     "Despues": "serto en el Acta de esta Sesión: (",
+     "Ocurrencias": 1,
+     "Contexto": "ra que procederá a darle lectura, con el objeto que quede inserto en el Acta de esta Sesión: ( ■",
+     "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
     }
    ]
   }

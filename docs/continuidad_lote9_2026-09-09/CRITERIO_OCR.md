@@ -612,3 +612,56 @@ las dos se pisaban en dos caracteres. Se amplió a `ios gráficos, el efecto fiy
    palabra omitida. Si no está, se marca.
 5. Si dudas entre corregir y marcar: **marcar**. Marcar de más cuesta una
    línea; corregir de más falsea la fuente.
+
+---
+
+## 14. Siglas con `I` leída como `l`, y los 21 residuos `■` (ronda 192)
+
+Dos familias nuevas, medidas en toda la salida.
+
+### La familia `I`→`l` en siglas
+
+`IPCXI` 6, `dellPC` 5, `ellPoM` 5, `ÍPCX1` 2, `dellPoM` 2, `IPX1` 2, `IPCX 1` 1, `ellPP` 1, `ellPC` 7,
+`ellPCX1` 1, `IPX` 3, `iPCX` 1, `deIIPCX` 2. Ninguna tiene forma correcta con `l`, y todas tienen su
+equivalente ampliamente atestiguado: **`el IPC` 1.430, `el IPoM` 1.543, `IPCX` 649, `IPCX1` 469, `el IPP` 10**.
+Todas se corrigieron. Resultado: **las 13 formas a 0**; `IPCX` 649→656 y `IPCX1` 469→480.
+
+**Lo que se excluyó, deliberadamente.** `ellPEC`, `dellPEC` y `ellMCE` (fila `1719:4`) van juntas en la
+misma oración —«la Encuesta de Expectativas que hace ellMCE y ellPEC»— y `PEC` y `MCE` no son siglas que
+se puedan corroborar en el corpus. No hay reconstrucción única, así que **se dejan y se anotan**. Es la
+misma regla de §5 bis al revés: cuando la forma dañada apunta a algo que no puedo verificar, no adivino.
+
+**Dos trampas medidas.** (1) El **orden importa**: `deIIPCX` es prefijo de `deIIPCX1` y `IPX` es prefijo
+de `IPX1`; si el patrón corto va primero, se come al largo y deja un `1` suelto. Hay que ir de más largo
+a más corto. (2) **`IPCX` es legítimo**: aparece 180 veces suelto en contextos reales («el IPCX e IPCX1»,
+«la inflación del IPCX y del IPCX1»), porque `IPCX` e `IPCX1` son dos medidas de inflación subyacente
+distintas del Banco. Traté `IPCX` como defecto y casi destruyo 180 apariciones correctas. **Una sigla que
+parece incompleta puede ser una segunda sigla real: hay que contar la forma suelta y leer sus contextos
+antes de declararla dañada.**
+
+### Los 21 residuos `■`
+
+El tipo `SIMBOLO_SUELTO` existía justo para esto, y aun así quedaban 21 apariciones en 20 filas. La basura
+adyacente varía (`■o J`, `■,\y`, `■'`, `■J`, `■V`, `/ ■ ' /`, `4 / ■`, `i - /■`, `— f ■`, `ry _<< ■`), así
+que cada una se trató con su fragmento propio. **`■` pasó de 22 a 0.**
+
+Dos casos pidieron criterio aparte:
+- **`1352:1`**: el `■'` no es basura sino una **comilla de apertura**. Esa fila tiene `“`=0 y `”`=1, con la
+  de cierre al final («…en 25 puntos base.»). Se repuso `Comunicado “En su reunión…`, el mismo patrón que
+  se resolvió así en `6438:3`.
+- **`5802:2`**: se eliminó **sólo** el `■` y se dejó el paréntesis abierto («…esta Sesión: («), porque la
+  fila ya está marcada `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` con motivo `FINAL_SIN_PUNTUACION`. Inventar el
+  cierre habría tapado un final genuinamente incompleto.
+
+También se quitó el `fi` que cerraba `1335:4` tras una oración completa («…que resultan mayores.»).
+
+### Lo que enseñó esta ronda sobre el orden de aplicación
+
+Tres defectos quedaron sin corregir en la primera vuelta porque caían a pocos caracteres de otro ya
+corregido **en la misma fila** y las ventanas de `Antes` se pisaban. La solución no es forzar la
+sustitución, es **componer un fragmento más estrecho o extender la operación existente**. En `3703:1` la
+operación ya cubría `base en el caso del IPX e IPX1, respect` y había corregido `del IPX`→`del IPCX`; sólo
+faltaba `IPX1`. **Cuando dos defectos caen dentro del mismo tramo, se extiende la operación, no se añade
+otra** — la misma regla que resolvió `1321:1`.
+
+En total: 49 operaciones en 31 filas.
