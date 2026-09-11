@@ -6864,6 +6864,14 @@
           "Ocurrencias": 1,
           "Contexto": "mente importada; que todas ellas estaban percibiendo los impactos de la presión cambiaría sobre sus monedas y tenían inflaciones transables muy bajas",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H I L E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": " dicho déficit se encuentre financiado con capital y recursos propios. B A N C O C E N T R A L D E C H I L E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
         }
       ]
     },
@@ -10533,6 +10541,156 @@
           "Ocurrencias": 1,
           "Contexto": "de sus derivados, especialmente la gasolina, así como los de algunos alimentos, permanecen altos. k f La información disponible confirma un mayor crecimiento de la activid",
           "Justificacion": "Residuo de escaneo \"k f\" entre dos oraciones (\"permanecen altos. k f La información disponible\"). No es texto: son dos caracteres sueltos que no forman palabra ni pertenecen a ninguna de las dos oraciones, que por separado estan completas. Se elimina como simbolo suelto, igual que los residuos ya tratados en otras filas."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5268:1",
+      "Fecha": "2013-01-17",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "B A N C O C E N T R A L D E C H I L E ",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "B A N C O C E N T R A L D E C H I L E ACTA DE LA SESIÓN DE POLÍTICA MONETARIA N° 19",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5349:1",
+      "Fecha": "2013-02-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H I L E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": " a los alimentos y una mayor tolerancia a la apreciación de su moneda. B A N C O C E N T R A L D E C H I L E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5352:1",
+      "Fecha": "2013-02-14",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H I L E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "ann y, a continuación, ofrece la palabra para consultas y comentarios. B A N C O C E N T R A L D E C H I L E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5366:1",
+      "Fecha": "2013-02-14",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " i B A N C O C E N T R A L D E C H I L E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "medir las eventuales presiones inflacionarias en la economía nacional. i B A N C O C E N T R A L D E C H I L E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5367:1",
+      "Fecha": "2013-02-14",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H IL E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "ique lo que representan los valores del eje derecho de ambos gráficos. B A N C O C E N T R A L D E C H IL E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6730:2",
+      "Fecha": "2015-04-16",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H I L E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "ación que entregan las encuestas, porque responde a timings distintos. B A N C O C E N T R A L D E C H I L E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6733:1",
+      "Fecha": "2015-04-16",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " i B A N C O C E N T R A L D E C H I L E",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "t estructural. Acota que es una noticia que será seguida con atención. i B A N C O C E N T R A L D E C H I L E",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6747:1",
+      "Fecha": "2015-04-16",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " i B A N C O C E N T R A L D E C H I L E ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "undo de los emergentes, subclase de la cual Chile es parte obviamente. i B A N C O C E N T R A L D E C H I L E Manifiesta que en el plano local no hay grand",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6749:1",
+      "Fecha": "2015-04-16",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H I L E ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": " en países que se podrían calificar como de similares características. B A N C O C E N T R A L D E C H I L E Consigna que el ajuste en cuenta corriente ha",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6751:1",
+      "Fecha": "2015-04-16",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " B A N C O C E N T R A L D E C H I L E ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "o todos los últimos movimientos han apuntado en la dirección esperada. B A N C O C E N T R A L D E C H I L E Deja constancia que el último registro de inf",
+          "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
         }
       ]
     }

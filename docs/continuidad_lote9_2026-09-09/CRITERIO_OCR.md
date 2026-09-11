@@ -505,6 +505,32 @@ quality», que no aparece ninguna vez en el corpus; la expresión financiera est
 «flight to quality», que aparece 21 veces, pero escribirla exige insertar cuatro letras, lo
 que es reconstruir. Marcada `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` y dejada intacta.
 
+## 11. El encabezado de página letra por letra
+
+`B A N C O C E N T R A L D E C H I L E` —el encabezado del PDF, capturado letra
+por letra— aparece **11 veces en 11 filas** y la forma normal `BANCO CENTRAL DE
+CHILE` **ninguna**: cuando está presente, siempre viene así. Es residuo de la
+fuente y se elimina (misma familia que números de página, marcas de hora y
+firmas truncadas).
+
+Tres cosas que salieron al aplicarlo, y que son la razón de verificar contra la
+salida y no contra el registro:
+
+1. **Una variante puede ser subcadena de otra.** Buscar el encabezado completo y
+   el truncado `…D E C H` por separado dio 21 hallazgos sobre 11 reales: el
+   truncado está dentro del completo. La validación lo acusó y hubo que
+   emparejar por prefijo y dejar que la cola decida.
+2. **El espaciado de la cola varía.** Una fila (`5367:1`) tiene `…D E C H IL E`,
+   sin espacio entre `I` y `L`. Con una sola cola esperada, esa fila quedó con el
+   residuo `IL E` colgando. Se cubren las cuatro combinaciones.
+3. **El reemplazo debe decidir el espacio.** Si el encabezado está en medio del
+   texto queda **un** espacio; si está en un borde, ninguno. También se absorbe
+   un carácter de ruido pegado (`…nacional. i B A N C O…`): esas tres filas
+   llevan una `i` suelta delante.
+
+Verificado sobre la salida: encabezado **11 → 0**, residuo `IL E` **0**, y
+ninguna de las 11 filas quedó con espacio doble ni con espacio inicial o final.
+
 ## El procedimiento que no se salta
 
 1. Leer la fila **completa**. Nunca corregir desde el fragmento.
