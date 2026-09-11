@@ -1017,3 +1017,79 @@ incorrecto y el test lo encontró.
 
 Estado tras §18: **1.345 filas corregidas, 2.160 operaciones, 189 marcadas, `Texto` intacto
 en las 9.723**, sha base `d0b64842…` sin cambio.
+
+## 19. Punto pegado a letra: la familia que se arbitra leyendo, no con reglas
+
+§18 la dejó señalada como trampa en las dos direcciones. Son 45 ocurrencias y se clasifican
+por lo que precede al punto:
+
+| lo que precede | n | veredicto |
+|---|---:|---|
+| `EE.` | 27 | `EE.UU.`, legítimo |
+| ` S.` | 5 | `S.E.`, `S.A.`, legítimo |
+| `05.` | 2 | `2005.IV`, la notación del trimestre |
+| `(v.` | 1 | `v.gr.`, legítimo |
+| ` U.` | 1 | `U.F.`, legítimo |
+| **por leer** | **9** | se leyeron una por una |
+
+36 legítimas, 9 por leer. Un reemplazo global habría roto las 36; ésa era la trampa.
+
+### Las 9, una por una
+
+**Corregidas (5):**
+
+- `mercados.En segundo término` → espacio tras el punto. Lo confirma la mayúscula y la
+  estructura paralela: el mismo párrafo abre con «En primer lugar».
+- `asiática.Hace presente` y `variación.Estas cifras` → igual, mayúscula tras el punto.
+- `internacionalestará` → `internacional estará`, aparecida en la misma fila que la primera.
+- `crecimiento q.ue de acuerdo` → punto insertado dentro de la palabra.
+
+**Marcadas (4):** `e.n Ií ~ea con` (probablemente «en línea con», pero son tres glifos y dos
+saltos de línea a la vez), `todos lados. .LI I`, `3,7%. k ^l.y`, y `Financiera, ...don Luis
+Opazo Roco` —en una lista de asistencia donde todas las entradas siguen «Cargo, don Nombre
+Apellido;». Los puntos suspensivos son un cuerpo extraño, pero borrarlos supone saber que no
+sustituían nada.
+
+### El caso que cambia de sentido al leerlo
+
+`RPM-2014-06-12:6282:1` aparecía como una falta de espacio más: «se producirán.las caídas».
+El reflejo era reponer el espacio. **La oración no termina ahí**: sigue «las caídas de las
+tasas de interés en el mercado de préstamos a que se hizo mención, así como la compresión de
+spreads a plazos más largos», que es continuación, y «las» va en minúscula. El punto es
+**espurio**. Reponer el espacio habría convertido un signo que sobraba en un punto y aparte
+que no existe: un defecto de OCR reemplazado por un error de edición.
+
+Y había un segundo pliegue. En la base el tramo es «producirán ** .**las», con espacio *y*
+punto. El §18 quitó el espacio, que era lo que su regla veía, y dejó el punto al
+descubierto. Dos defectos en el mismo tramo: la regla de §15 dice extender la operación, no
+apilarle otra, porque dos tramos solapados sobre el mismo texto virgen no se pueden aplicar
+en ningún orden.
+
+### La herramienta que faltaba
+
+Esa regla no tenía herramienta. `agregar_correcciones_ocr.py --parche` actualiza el
+`Despues` cuando el `Antes` coincide, pero no puede cambiar el `Tipo`, y aquí cambia: quitar
+un espacio indebido y descubrir después que el signo también sobraba ya no es
+`ESPACIO_INDEBIDO`. Dejarla con ese tipo habría roto el invariante de §18 que exige que
+esas operaciones no alteren nada que no sea un espacio.
+
+`scripts/enmendar_operacion.py` (6 tests) enmienda `Tipo`, `Despues` y `Justificacion` de
+una operación identificada por `(ID_Intervencion, Antes)`, sin tocar el `Antes` —que es lo
+que la ancla al texto virgen— y sin crear una operación nueva.
+
+### Dos errores propios que sólo la aserción vio
+
+Dos de los fragmentos que iba a usar como `Antes` los había copiado de la **salida**, no del
+texto virgen, y no existían en la base. La aserción `t.count(pat) == 1` los rechazó antes de
+escribir nada; es la tercera vez que esa red salva el registro.
+
+El segundo es más desagradable: al imprimir el contexto para leerlo había hecho
+`.replace('\n', ' ')`, así que el tramo se veía como «creciendo e.n Ií ~ea con» cuando en la
+base es `'creciendo\ne.n\nIí ~ea con'`. **El mismo formateo que hace legible un contexto
+oculta los saltos de línea, y los saltos de línea son parte del defecto.** Para componer un
+`Antes` hay que mirar el `repr`, no la impresión.
+
+Estado tras §19: **1.346 filas corregidas, 2.165 operaciones, 193 marcadas (157 abiertas + 34
+cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio. La familia punto
+pegado a letra queda en 40, todas abreviatura legítima o fila marcada, y el test exige que
+cualquier punto pegado nuevo sea una de las dos cosas.

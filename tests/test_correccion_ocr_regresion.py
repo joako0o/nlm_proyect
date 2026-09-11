@@ -84,8 +84,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1345
-MIN_OPERACIONES = 2160
+MIN_CORREGIDAS = 1346
+MIN_OPERACIONES = 2165
 
 # §18: espacio indebidamente insertado antes de , . ; %. La familia medía 546
 # ocurrencias en la base y bajó a 19. Las 19 que quedan están bloqueadas por la
@@ -110,8 +110,20 @@ RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
 # bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
 # cierres ya documentados; si no, borrar revisiones del registro se vería como
 # una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
-MIN_CASOS_ADJUDICADOS = 187   # 153 abiertas + 34 cerradas al cierre del §17
+MIN_CASOS_ADJUDICADOS = 191   # 157 abiertas + 34 cerradas al cierre del §19
 MIN_CIERRES_COTEJO = 34
+
+# §19: punto pegado a letra. De las 45 ocurrencias, 36 son abreviatura legítima
+# (EE.UU., S.E., S.A., U.F., v.gr., 2005.IV) y 4 son basura que quedó marcada.
+# Las 5 que eran defecto real se corrigieron. Lo que queda tiene que seguir
+# siendo una de esas dos cosas: si aparece un punto pegado nuevo, o es una
+# abreviatura que hay que añadir a la lista, o es un defecto sin marcar.
+PUNTO_PEGADO_MAX = 40
+PUNTO_PEGADO_ABREV = {'EE.', ' S.', ' U.', '(v.', ' v.', '05.'}
+PUNTO_PEGADO_MARCADAS = {
+    'RPM-2008-04-10:1747:1', 'RPM-2008-06-10:1858:1',
+    'RPM-2011-03-17:3815:1', 'RPM-2014-06-12:6274:1',
+}
 
 MIN_IPCX = 656       # IPCX legítimo preservado + el restaurado por §14
 MIN_IPCX1 = 480
@@ -307,6 +319,29 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                 if re.sub(r'\s+', '', op['Antes']) != re.sub(r'\s+', '', op['Despues']):
                     malas.append((e['ID_Intervencion'], op['Antes'][:40]))
         self.assertEqual(malas, [], f'operaciones que alteran texto: {malas[:3]}')
+
+    def test_el_punto_pegado_a_letra_solo_queda_en_abreviaturas_y_marcas(self):
+        """§19: 45 ocurrencias en la base, 40 en la salida.
+
+        Las 40 son 36 abreviaturas legítimas más 4 filas de basura marcada. Las 5
+        que eran defecto real se corrigieron, y una de ellas (`6282:1`) no era
+        falta de espacio sino punto espurio: la oración seguía, así que reponer
+        el espacio habría inventado un punto y aparte.
+        """
+        import re
+        raras = []
+        n = 0
+        for rid, t in self.salida.items():
+            for m in re.finditer(r'\.[A-Za-zÁÉÍÓÚÑáéíóúñ]', t):
+                n += 1
+                if t[max(0, m.start() - 2):m.start() + 1] in PUNTO_PEGADO_ABREV:
+                    continue
+                if rid in PUNTO_PEGADO_MARCADAS and rid in self.marcas:
+                    continue
+                raras.append((rid, t[max(0, m.start() - 26):m.end() + 14]))
+        self.assertLessEqual(n, PUNTO_PEGADO_MAX, f'la familia creció: {n}')
+        self.assertEqual(raras, [], f'puntos pegados sin justificar: {raras[:3]}')
+
 
 
     def test_las_cifras_ambiguas_quedan_marcadas_no_adivinadas(self):

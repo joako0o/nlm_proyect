@@ -4148,6 +4148,13 @@
           "Despues": "a indicaba, China cum",
           "Contexto": "éstos están ponderados por el consumo de cobre, donde como ya indicaba , China cumple claramente un rol importante yeso pudiese estar teniendo",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "versus la crisis asiática.Hace presente",
+          "Despues": "versus la crisis asiática. Hace presente",
+          "Contexto": "lsas en economías emergentes y desarrolladas y de EMBI en esta crisis versus la crisis asiática.Hace presente que se ajustaron los gráficos de manera de poner ambas crisis en T en",
+          "Justificacion": "Falta el espacio tras el punto. «Hace» va en mayúscula, así que es inicio de oración."
         }
       ]
     },
@@ -4689,6 +4696,13 @@
           "Despues": "“",
           "Contexto": "\"La cifra de inflación de marzo de 0,1% mensual (y ",
           "Justificacion": "Comilla recta que abre una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "el IPCX1 no tuvo variación.Estas cifras sugieren",
+          "Despues": "el IPCX1 no tuvo variación. Estas cifras sugieren",
+          "Contexto": "s en transporte y recreación y cultura. El IPCX aumentó 0,1% ensual y el IPCX1 no tuvo variación.Estas cifras sugieren que la inflación está aún acotada. Es cierto que para abril se espera",
+          "Justificacion": "Falta el espacio tras el punto. «Estas» va en mayúscula, así que es inicio de oración."
         }
       ]
     },
@@ -22944,6 +22958,20 @@
           "Despues": "recimiento, y otros a",
           "Contexto": "ica trayectorias de tasa de política monetaria, inflación, crecimiento , y otros aspectos relevantes.",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "escenario internacionalestará focalizado",
+          "Despues": "escenario internacional estará focalizado",
+          "Contexto": "cambios respecto a lo que es habitual. En primer lugar, indica que el escenario internacionalestará focalizado sobre la situación financiera de los mercados.En segundo término, en ",
+          "Justificacion": "Falta el espacio entre dos palabras: «internacionalestará» no es una palabra del español y la única lectura es «internacional estará»."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "financiera de los mercados.En segundo término",
+          "Despues": "financiera de los mercados. En segundo término",
+          "Contexto": "ca que el escenario internacionalestará focalizado sobre la situación financiera de los mercados.En segundo término, en relación con la presentación de la situación doméstica, indica qu",
+          "Justificacion": "Falta el espacio tras el punto. Es inicio de oración: la mayúscula lo confirma y la estructura paralela también, porque el mismo párrafo abre con «En primer lugar»."
         }
       ]
     },
@@ -25045,11 +25073,11 @@
       "ID_Intervencion": "RPM-2014-06-12:6282:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "SIMBOLO_SUELTO",
           "Antes": "producirán .las caídas",
-          "Despues": "producirán.las caídas",
-          "Contexto": "tamente a 3,5% anual. En el intertanto, durante este mes se producirán .las caídas de las tasas de interés en el mercado de préstamos a que se",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Despues": "producirán las caídas",
+          "Contexto": "En el intertanto, durante este mes se producirán .las caídas de las tasas de interés en el mercado de préstamos a que se hizo mención, así como la compresión de spreads a plazos más largos.",
+          "Justificacion": "Enmienda de la operación del §18, que había quitado sólo el espacio y dejado «producirán.las». El punto es espurio, no un fin de oración: sigue «las caídas de las tasas de interés en el mercado de préstamos a que se hizo mención, así como la compresión de spreads a plazos más largos», que es continuación y no oración nueva, y «las» va en minúscula. Se quitan el espacio y el punto en la misma operación porque ambos caen dentro del mismo tramo del texto virgen; apilar una segunda operación habría dejado dos tramos solapados sin orden de aplicación posible (§15). Por eso cambia también el Tipo: ya no es sólo un espacio indebido."
         }
       ]
     },
@@ -25376,6 +25404,18 @@
           "Despues": "ía a 0,11%, en línea ",
           "Contexto": "eptiembre, en tanto que el IPC del mes de diciembre alcanzaría a 0,11% , en línea con lo anticipado por el mercado. Por su parte, la inflación",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5395:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "persiste un crecimiento q.ue de acuerdo con",
+          "Despues": "persiste un crecimiento que de acuerdo con",
+          "Contexto": "a desaceleración en la demanda ni en el producto y, por el contrario, persiste un crecimiento q.ue de acuerdo con la información disponible, no es sostenible en el mediano y largo pla",
+          "Justificacion": "Punto insertado dentro de la palabra: «q.ue» no existe y la única lectura es «que», que además es lo que pide la construcción «un crecimiento que, de acuerdo con la información disponible, no es sostenible»."
         }
       ]
     }
@@ -26502,6 +26542,30 @@
       "Texto_Original_Fragmento": "de la Zona Euro, ya que el WEO proyecta 0 0%. el Banco 0,6% y un banco de inversión",
       "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
       "Motivo": "CIFRA_AMBIGUA. «el WEO proyecta 0 0%. el Banco 0,6%»: probablemente «0,0%». Además «%. el» deja minúscula tras punto, que tampoco se puede resolver sin el original. La familia es sistemática en el corpus: el OCR convirtió comas decimales en espacios («6 4%», «0 6%», «-8 3%»). Sin el PDF de la sesión no se puede decidir entre lectura decimal y cifra pegada, así que se marca en vez de adivinar."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1747:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "GLIFO_DANADO. «las solicitudes de desempleo han ido creciendo e.n Ií ~ea con el mayor desempleo» (en la base hay además dos saltos de línea dentro del tramo). La lectura probable es «en línea con», dada la frecuencia de esa expresión en el corpus y las confusiones ya documentadas (I por l en §14, ~ por n), pero son tres glifos y dos saltos a la vez, y eso excede lo unívoco. Se marca en vez de reconstruir.",
+      "Texto_Original_Fragmento": "icitudes de desempleo han ido creciendo\ne.n\nIí ~ea con el mayor desempleo, y hoy, si bien el d"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1858:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "RESIDUO. «ya que es la misma forma en todos lados. .LI I»: tras el punto queda una secuencia «.LI I» sin lectura posible. No se puede saber si sustituía texto o si es basura de lectura sin el PDF de la sesión.",
+      "Texto_Original_Fragmento": "a información, ya que es la misma forma en todos lados. .LI I"
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3815:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "RESIDUO. En la lista de asistencia todas las entradas siguen «Cargo, don Nombre Apellido;» y ésta trae «Gerente de Estabilidad Financiera, ...don Luis Opazo Roco;». Los puntos suspensivos son un cuerpo extraño, pero borrarlos supone saber que no sustituían nada, y eso sólo lo acredita el original.",
+      "Texto_Original_Fragmento": "don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, ...don Luis Opazo Roco; Gerente Asesor de Comu"
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6274:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "RESIDUO. «cerraría el año en 4% y el IPCSAE en 3,7%. k ^l.y»: tras el punto queda «k ^l.y» sin lectura posible. Se necesita el PDF de la sesión.",
+      "Texto_Original_Fragmento": "o, la inflación cerraría el año en 4% y el IPCSAE en 3,7%. k ^l.y"
     }
   ],
   "Marcas_Adicionales": [

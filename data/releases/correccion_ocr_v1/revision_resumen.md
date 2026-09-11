@@ -4,39 +4,39 @@ Generado por `scripts/exportar_revision_ocr.py`. No es una fuente: es una
 vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
-- filas corregidas: **1345**
-- operaciones: **2160**
-- filas marcadas para cotejo: **189**
+- filas corregidas: **1346**
+- operaciones: **2165**
+- filas marcadas para cotejo: **193**
 - sha256 de la base: `d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75`
 
 ## Operaciones por tipo
 
 | tipo | operaciones |
 |---|---:|
-| `ESPACIO_INDEBIDO` | 510 |
+| `ESPACIO_INDEBIDO` | 509 |
 | `LETRA_CONFUNDIDA` | 446 |
 | `ACENTO_INDEBIDO` | 348 |
 | `PALABRA_PARTIDA` | 320 |
 | `ACENTO_FALTANTE` | 182 |
 | `PUNTUACION` | 106 |
-| `SIMBOLO_SUELTO` | 83 |
+| `SIMBOLO_SUELTO` | 85 |
 | `FIRMA_TRUNCADA` | 55 |
 | `RESIDUO_PAGINACION` | 27 |
 | `PALABRA_ERRONEA` | 26 |
+| `ESPACIO_FALTANTE` | 24 |
 | `PALABRA_OMITIDA` | 22 |
-| `ESPACIO_FALTANTE` | 20 |
 | `SALTOS_DE_LINEA` | 10 |
 | `PALABRA_DUPLICADA` | 3 |
 | `PALABRA_SOBRANTE` | 2 |
 
 ## Muestra aleatoria de 30 filas (semilla 20260911)
 
-### `RPM-2015-02-12:6636:2` — Consejo del Banco Central de Chile
+### `RPM-2015-02-12:6633:1` — Sebastián Claro Edwards
 
 1. **ACENTO_INDEBIDO**
-   - antes: ` Las condiciones de financíamiento local reflejan `
-   - después: ` Las condiciones de financiamiento local reflejan `
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2010-06-15:3206:1` — Consejo del Banco Central de Chile
 
@@ -93,12 +93,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `arshall agradece al staff el material pre`
    - por qué: Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 422 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA.
 
-### `RPM-2013-04-11:5515:1` — Consejo del Banco Central de Chile
+### `RPM-2013-04-11:5508:1` — Sebastián Claro Edwards
 
-1. **FIRMA_TRUNCADA**
-   - antes: ` RODRIGO VERGARA MONTES Presidente.`
-   - después: ``
-   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
+1. **ACENTO_INDEBIDO**
+   - antes: `nfirman que la superexpansivídad de la política `
+   - después: `nfirman que la superexpansividad de la política `
+   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 129 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
 
 ### `RPM-2011-02-17:3813:1` — Manuel Marfán Lewis
 
@@ -155,20 +155,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `una ecuación de salarios. Sin embargo, explicó que no fue posible obtenerla`
    - por qué: Tilde ausente. El sujeto de la fila es 'El Gerente de Análisis Macroeconómico' y todo el párrafo está en estilo indirecto en tercera persona ('señala que realizó'), de modo que la forma verbal es 'explicó', pretérito, y no 'explico', primera persona del presente: la oración no admite otra lectura. Medido: 'explico' sin tilde aparece 1 sola vez en todo el corpus (esta) frente a 'explicó' 25, y 'explicó que' 3.
 
-### `RPM-2014-06-12:6246:1` — Sergio Lehmann Beresi
+### `RPM-2014-06-12:6240:1` — Pablo García Silva
 
-1. **LETRA_CONFUNDIDA**
-   - antes: `mes de mayo, superior ai 9,5% anotado el mes p`
-   - después: `mes de mayo, superior al 9,5% anotado el mes p`
-   - por qué: "ai" por "al": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta "ai" en 26 filas, y "ai" no es una palabra del español. En cambio "al" aparece miles de veces y "al alza" 1.405 contra 3 de "ai alza". Se revisaron una por una las 26 apariciones y en todas el contexto exige "al" ("asociadas ai sector exportador", "converge ai mismo nivel", "autorizó ai Banco Central", "mayor ai previsto", "Agrega que, ai respecto", "superior ai 9,5%"). No hay ninguna fila en que "ai" sea otra cosa.
-2. **LETRA_CONFUNDIDA**
-   - antes: `smo, manifiesta que ios datos de PIB de`
-   - después: `smo, manifiesta que los datos de PIB de`
-   - por qué: "ios" por "los": la l se leyo como i, la misma regla que produce "ai" por "al" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de "los". "ios" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura.
-3. **SIMBOLO_SUELTO**
-   - antes: `ndustrial fue menor que lo anticipado. ry _<< ■ En Japón, el PIB fue may`
-   - después: `ndustrial fue menor que lo anticipado. En Japón, el PIB fue may`
-   - por qué: Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION.
+1. **ESPACIO_INDEBIDO**
+   - antes: `ri passu”— , para ser `
+   - después: `ri passu”—, para ser `
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
 ### `RPM-2009-03-12:2401:1` — Claudio Soto Gamboa
 
@@ -177,12 +169,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `e cotizó en torno a $610, valor similar `
    - por qué: S mayúscula en lugar del signo $. Medido: solo 2 apariciones en todo el corpus, "S5" y "S6", y ambas son montos en pesos donde solo cabe el signo: "la paridad peso/dólar alcanzó un valor máximo de S530" y "el dólar se cotizó en torno a S610". La misma fila 1323:1 usa "$520" unas lineas mas abajo.
 
-### `RPM-2013-05-16:5520:1` — Luis Óscar Herrera Barriga
+### `RPM-2013-04-11:5515:1` — Consejo del Banco Central de Chile
 
-1. **ACENTO_INDEBIDO**
-   - antes: `cambiaría`
-   - después: `cambiaria`
-   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
+1. **FIRMA_TRUNCADA**
+   - antes: ` RODRIGO VERGARA MONTES Presidente.`
+   - después: ``
+   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
 
 ### `RPM-2007-02-08:1090:4` — Rodrigo Valdés Pulido
 
@@ -220,32 +212,28 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `volviendo a valores normales. Agrega que el `
    - por qué: Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 90 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA.
 
-### `RPM-2014-11-18:6498:1` — Miguel Fuentes Díaz
+### `RPM-2014-11-18:6490:1` — Sebastián Claro Edwards
 
 1. **LETRA_CONFUNDIDA**
-   - antes: `1O`
-   - después: `10`
-   - por qué: 1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez ("tasas a 1O años plazo", "lámina Nº 1O", "US$ 3,1O la libra", "a 5 y 1O años", "a 2 y 1O años", "a 1O años", "de 1O o 20%"). Se verifico que no existen apariciones embebidas en otras palabras.
-2. **ESPACIO_INDEBIDO**
-   - antes: `ría de O,1 % y el de d`
-   - después: `ría de O,1% y el de d`
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+   - antes: `economIca`
+   - después: `económica`
+   - por qué: economIca por económica: la i se leyo como I mayuscula y falta la tilde. Medido: "económica" aparece 667 veces y "economIca" una sola, en "la creciente divergencia economIca entre Estados Unidos de América".
 
-### `RPM-2013-12-12:5905:1` — Consejo del Banco Central de Chile
+### `RPM-2013-11-19:5903:1` — Rodrigo Vergara Montes
 
-1. **ESPACIO_INDEBIDO**
-   - antes: `ña Poblete ; Gerente d`
-   - después: `ña Poblete; Gerente d`
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+1. **PUNTUACION**
+   - antes: `"`
+   - después: `”`
+   - por qué: Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte.
 
-### `RPM-2015-11-12:7154:1` — Rodrigo Vergara Montes
+### `RPM-2015-11-12:7148:4` — Mario Marcel Cullell
 
-1. **ESPACIO_INDEBIDO**
-   - antes: `ha brecha— . Por últim`
-   - después: `ha brecha—. Por últim`
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+1. **ACENTO_INDEBIDO**
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
-### `RPM-2013-05-16:5520:2` — Sergio Lehmann Beresi
+### `RPM-2013-05-16:5520:1` — Luis Óscar Herrera Barriga
 
 1. **ACENTO_INDEBIDO**
    - antes: `cambiaría`
@@ -275,26 +263,26 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `timo IPoM, y que la demanda interna sería algo menor por `
    - por qué: Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde.
 
-### `RPM-2015-06-11:6811:1` — Rodrigo Vergara Montes
+### `RPM-2015-05-14:6809:1` — Consejo del Banco Central de Chile
+
+1. **FIRMA_TRUNCADA**
+   - antes: ` MARSHALL RIVERA RODRIGO VERGARA MONTES Vicepresidente Presidente.`
+   - después: ``
+   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
+
+### `RPM-2014-02-18:6040:1` — Claudio Soto Gamboa
 
 1. **LETRA_CONFUNDIDA**
-   - antes: `ara ofrece la palabra ai Jefe del Departamento`
-   - después: `ara ofrece la palabra al Jefe del Departamento`
-   - por qué: "ai" por "al": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta "ai" en 26 filas, y "ai" no es una palabra del español. En cambio "al" aparece miles de veces y "al alza" 1.405 contra 3 de "ai alza". Se revisaron una por una las 26 apariciones y en todas el contexto exige "al" ("asociadas ai sector exportador", "converge ai mismo nivel", "autorizó ai Banco Central", "mayor ai previsto", "Agrega que, ai respecto", "superior ai 9,5%"). No hay ninguna fila en que "ai" sea otra cosa.
+   - antes: `en tomo a`
+   - después: `en torno a`
+   - por qué: en tomo a por "en torno a". Medido: 24 apariciones (20 "en tomo a" y 4 "en tomo al"), la r leida como m. "tomo" es palabra real (volumen) pero ningun contexto lo admite. "en torno a" aparece 1.678 veces.
 
-### `RPM-2014-02-18:6043:1` — Beltrán de Ramón Acevedo
+### `RPM-2015-03-19:6679:1` — Alberto Naudon Dell'Oro
 
-1. **PUNTUACION**
-   - antes: `"`
-   - después: `“`
-   - por qué: Comilla recta que abre una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte.
-
-### `RPM-2015-03-19:6681:1` — Alberto Arenas de Mesa
-
-1. **ACENTO_INDEBIDO**
-   - antes: `una necesidad de un monítoreo constante sobre`
-   - después: `una necesidad de un monitoreo constante sobre`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 24 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
+1. **ESPACIO_INDEBIDO**
+   - antes: ` internas— . No obstan`
+   - después: ` internas—. No obstan`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
 ### `RPM-2009-10-13:2717:2` — Jorge Desormeaux Jiménez
 
