@@ -25702,7 +25702,128 @@
       "Universo": "PLAN_RONDAS_BANDA_B",
       "Ronda_Plan": 190,
       "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1315:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1315:1",
+      "ID_Padre": "1315",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 972,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1316:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1316:1",
+      "ID_Padre": "1316",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 575,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1316:2": {
+      "ID_Intervencion": "RPM-2007-07-12:1316:2",
+      "ID_Padre": "1316",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 965,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1317:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1317:1",
+      "ID_Padre": "1317",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1186,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1318:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1318:1",
+      "ID_Padre": "1318",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 894,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1319:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1319:1",
+      "ID_Padre": "1319",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 607,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1320:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1320:1",
+      "ID_Padre": "1320",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 843,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1320:2": {
+      "ID_Intervencion": "RPM-2007-07-12:1320:2",
+      "ID_Padre": "1320",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 707,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1321:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1321:1",
+      "ID_Padre": "1321",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 415,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1322:2": {
+      "ID_Intervencion": "RPM-2007-07-12:1322:2",
+      "ID_Padre": "1322",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 2092,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1323:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1323:1",
+      "ID_Padre": "1323",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 7250,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 191,
+      "Justificacion": "Ronda 191 (11 filas, sesion 2007-07-12). Lectura completa. Destapo dos pares de glifos nuevos y una palabra partida repetida; 141 operaciones en 106 filas. (1) '!' en lugar de la ele final: 47 apariciones, todas dan palabra valida (de! 31, coyuntura! 2, a! 2, e! 2, diferencia!, rea!, genera!, anua!, metano!); revisadas las nueve formas y los cuatro casos limite en contexto. (2) 'ios' por 'los': 94 apariciones en la base contra 32.215 de 'los'; comprobada la palabra precedente en las 90 de la salida y en todas corresponde articulo. (3) 'S' por '$': solo 2 en todo el corpus (S530, S610), ambas montos en pesos. (4) 'llegarla' por 'llegaría' (1 contra 52): se midio que una regla general sobre -rla seria destructiva (mantenerla 59, dejarla 30, subirla 26 son legítimas). (5) 'subpri me' por 'subprime': 4 apariciones en 4 filas, se corrigieron las cuatro. (6) digito 4 suelto en 'de 4 los ingresos': sin regla general posible, el patron palabra+digito+palabra da 1.019 coincidencias casi todas legitimas. DOS ERRORES PROPIOS CORREGIDOS: componia los fragmentos desde la salida cuando el validador los aplica al texto virgen (un fragmento contenia 'IPC' que solo existe tras la operacion IRC->IPC), y una operacion nueva se pisaba con la de 'fiy'->'fly' porque el fragmento anterior empezaba justo en la s de 'ios' - se extendio esa operacion en vez de crear otra. Tambien se arreglo un f-string de scripts/revisar_reservas_complejas.py que escribia 'Las53 filas ... no son53 errores ni53 casos'; ahora el numero se deriva del contador. Sin cambios de actor."
     }
   },
-  "Total_Leidas": 2234
+  "Total_Leidas": 2245
 }

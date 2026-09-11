@@ -566,6 +566,41 @@ entre dos oraciones (`2839:2`) y la basura `B A 'i` al final de `5821:1`.
 **Sin decidir:** las corridas de guiones bajos `_____` (37 apariciones en 29 filas), línea de
 formulario del acta. No medidas ni tratadas.
 
+## 13. `!` por `l`, `ios` por `los`, y cómo se compone un fragmento
+
+**`X!` → `Xl`.** 47 apariciones; todas dan palabra válida al reponer la ele: `de!` 31,
+`coyuntura!` 2, `a!` 2, `e!` 2, `diferencia!`, `rea!`, `genera!`, `anua!`, `metano!`. Los cuatro
+casos límite se leyeron en contexto («en algo a! alza», «precisa que e! planteamiento»,
+«acceso a! financiamiento», «sobre e! Mecanismo»); ninguno es una exclamación.
+
+**`ios` → `los`.** 94 apariciones contra 32.215 de `los`. Misma regla `l`→`i` de §12. Se
+comprobó la palabra que precede a cada una: `de` 25, `en` 14, `que` 12, `a` 9, `para` 5,
+`todos` 3, `con` 2, `y` 2, `por` 2, y el resto tras `cuando`, `durante`, `analizan`,
+`septiembre,` o una comilla de apertura. En todas corresponde un artículo.
+
+**`S` por `$`:** sólo 2 en todo el corpus (`S530`, `S610`), ambas montos en pesos.
+
+**Sin regla posible:** el dígito suelto. «palabra + dígito + palabra» da **1.019** coincidencias
+y son abrumadoramente legítimas («a 5 años», «en 1 punto», «de 5%»). Se corrigió a mano el único
+caso real (`de 4 los ingresos`). Lo mismo con `-rla`: `mantenerla` 59, `dejarla` 30, `subirla` 26,
+`llevarla` 25, `bajarla` 23 son todas formas válidas; sólo `llegarla` (1 contra 52 de `llegaría`)
+es defecto.
+
+### Dos reglas para componer `Antes`
+
+1. **Se compone desde el texto virgen, no desde la salida.** El validador aplica las operaciones
+   a la base, así que un fragmento que contenga algo ya corregido por otra operación no aparece.
+   Pasó con un fragmento que llevaba `IPC`: en la base ese lugar dice `IRC`, y la operación
+   `IRC`→`IPC` del nivel 1 lo reescribe antes.
+2. **No basta con que los tramos no se solapen: hay que mirar si un `Antes` está contenido en
+   otro.** `IRC`→`IPC` no tiene contexto, así que reescribe *todas* sus apariciones, incluidas
+   las que caen dentro de mi fragmento. La comprobación correcta es de subcadena, no de posición.
+
+Y cuando dos defectos caen en el mismo tramo, **se extiende la operación existente en vez de
+crear otra**: en `1321:1` la operación `fiy`→`fly` empezaba justo en la `s` de `ios`, así que
+las dos se pisaban en dos caracteres. Se amplió a `ios gráficos, el efecto fiy…` →
+`los gráficos, el efecto fly…`.
+
 ## El procedimiento que no se salta
 
 1. Leer la fila **completa**. Nunca corregir desde el fragmento.
