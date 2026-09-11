@@ -1,14 +1,14 @@
 {
-  "Total_Filas_Corregidas": 118,
-  "Total_Operaciones": 198,
-  "Total_Filas_Marcadas_Para_Cotejo": 122,
+  "Total_Filas_Corregidas": 122,
+  "Total_Operaciones": 213,
+  "Total_Filas_Marcadas_Para_Cotejo": 124,
   "Marcas_Por_Tipo": {
     "CARGO_EN_DISCURSO_POR_COTEJAR": 1,
     "CIFRA_INCONSISTENTE_POR_COTEJAR": 5,
     "NOMBRE_PROPIO_POR_COTEJAR": 13,
     "RECONSTRUCCION_AMBIGUA_POR_COTEJAR": 43,
     "RESERVA_ABIERTA_POR_COTEJO": 6,
-    "SIGNO_AUSENTE_POR_COTEJAR": 11,
+    "SIGNO_AUSENTE_POR_COTEJAR": 13,
     "TEXTO_DANADO_POR_COTEJAR": 51
   },
   "Filas_Corregidas": [
@@ -129,7 +129,11 @@
     "RPM-2015-08-13:6926:1",
     "RPM-2015-08-13:6926:2",
     "RPM-2015-08-13:6937:1",
-    "RPM-2015-08-13:6941:1"
+    "RPM-2015-08-13:6941:1",
+    "RPM-2015-08-13:6943:1",
+    "RPM-2015-08-13:6944:1",
+    "RPM-2015-08-13:6947:1",
+    "RPM-2015-08-13:6952:1"
   ],
   "Filas_Marcadas": [
     "RPM-2005-04-07:202:1",
@@ -253,6 +257,8 @@
     "RPM-2015-06-11:6862:4",
     "RPM-2015-08-13:6918:1",
     "RPM-2015-08-13:6920:1",
+    "RPM-2015-08-13:6950:1",
+    "RPM-2015-08-13:6952:1",
     "RPM-2015-12-17:7182:2"
   ]
 }

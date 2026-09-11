@@ -207,6 +207,27 @@ grupos no es la frecuencia:
 | **es ortográficamente imposible** (no existe esa palabra, esa tilde o ese glifo) | `cambiaría` por el adjetivo, `ios`, `índica`, `de!`, `lineas`, `vísta`, `perecióles`, `IPCXI` | **se corrige**, sin importar cuántas veces se repita |
 | **es una construcción legítima aunque minoritaria** | `la Secretario General` (77), `precio petróleo` (8 en 7 sesiones), `IMACEC`/`Imacec`, `Economista Sénior`, `tasa de instancia` | **no se corrige**: es el uso de quien transcribe |
 
+**Toda la familia `cambiar*` va en el primer grupo.** No es sólo `cambiaría`:
+también `cambiarlas`, `cambiarlo`, `cambiarlos`. Las **8** ocurrencias de
+`cambiarlas` del corpus están en posición de adjetivo — `paridades cambiarlas`
+(4), `implicancias cambiarlas`, `expectativas cambiarlas`, `coberturas
+cambiarlas`, `tensiones financieras y cambiarlas` — y `cambiarias` aparece
+**19** veces en exactamente esos marcos: `paridades cambiarias`, `tensiones
+cambiarias`, `expectativas cambiarias`, `primas cambiarias`, `licitaciones
+cambiarias`. La diferencia es un solo glifo (ele o tilde por i) y el lugar
+admite una sola categoría gramatical.
+
+Esto costó una marca equivocada. En la ronda 175 se marcó `implicancias
+cambiarlas` (`2044:1`) por falta de corroboración en la fila y en la sesión, y
+en la 178 se corrigió `depreciación cambiaría` (`6920:1`) citando esta sección.
+**Las dos decisiones no podían ser correctas a la vez.** La que estaba mal era
+la marca: se corrigió en la ronda 180 y la marca de esa fila se achicó al único
+caso que sigue en pie, `control de endeudamiento`.
+
+**Regla de consistencia:** cuando el mismo defecto aparezca dos veces en
+sesiones distintas, buscar la otra decisión antes de decidir. Un criterio que
+se aplica de una forma en una fila y de otra en la siguiente no es un criterio.
+
 Y hay una señal adicional que confirma el segundo grupo: **un defecto de
 escaneo no se reproduce idéntico en documentos escaneados con años de
 diferencia**. `el precio petróleo` aparece 8 veces en 7 sesiones entre 2006 y

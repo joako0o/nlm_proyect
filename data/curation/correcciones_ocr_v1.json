@@ -2062,6 +2062,13 @@
           "Despues": "pues en el escenario más probable ello es lo que debiera seguir ocurriendo. Por todo lo anterior, el señor Presidente vota",
           "Contexto": "a tasa de interés en una magnitud significativa, 50 puntos base, manteniendo un sesgo al alza, pues en el escenario más probable ello es lo que debiera seguir ocurriendo. Por lo todo lo anterior, el señor Presidente vota por un alza de 50 puntos base.",
           "Justificacion": "Sobra el primer 'lo'. La reparación es única: quitar el segundo daría 'Por lo todo anterior', que no es gramatical, y 'Por todo lo anterior' es la fórmula de cierre fija del acta, que aparece 37 veces en el corpus. Como la cadena defectuosa no es gramatical y el candidato es uno solo, no hay lectura alternativa que proteger y no se pide corroboración en la fila o en la sesión."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "las turbulencias externas con implicancias cambiarlas de distinto ciclo",
+          "Despues": "las turbulencias externas con implicancias cambiarias de distinto ciclo",
+          "Contexto": "rio que existen muchos riesgos, los cuales fueron mencionados recientemente, como por ejemplo, las turbulencias externas con implicancias cambiarlas de distinto ciclo, cambios en precios de commodities, ajuste de la demanda interna en u",
+          "Justificacion": "SE CORRIGE AHORA Y SE RETIRA LA MARCA DE LA RONDA 175, donde se marcó este caso por falta de corroboración en la fila y en la sesión. Estaba mal marcado: es la misma familia que 'cambiaría' por 'cambiaria' que la sección 3 ter manda corregir sin corroboración, y la medición lo zanja. Las 8 ocurrencias de 'cambiarlas' del corpus están todas en posición de adjetivo ('paridades cambiarlas' 4 veces, 'implicancias cambiarlas', 'expectativas cambiarlas', 'coberturas cambiarlas', 'tensiones financieras y cambiarlas') y 'cambiarias' aparece 19 veces en exactamente esos marcos ('paridades cambiarias', 'tensiones cambiarias', 'expectativas cambiarias', 'primas cambiarias', 'licitaciones cambiarias'). La diferencia con 'cambiaría' es un solo glifo (ele por i) y el lugar admite una sola categoría. Quedan 7 ocurrencias pendientes."
         }
       ]
     },
@@ -2223,6 +2230,132 @@
           "Despues": "señala que el consumo privado se corrige a la baja en torno a cuatro décimas respecto del último IPoM",
           "Contexto": "ue con su presentación refiriéndose a la evolución de la demanda interna. Sobre el particular, señala que el consumo privado se corrige a la baja en tomo a cuatro décimas respecto del último IPoM, debido a las cifras más negativas del segundo trimestre y a una eval",
           "Justificacion": "Falta la erre: 'en tomo a' por 'en torno a'. 'tomo' es palabra real, así que la sección 2 bis pide corroboración en la fila o en la sesión, y la hay de sobra: 'en torno a' aparece 10 veces en esta misma sesión y 1.678 en el corpus. DEFECTO SISTEMATICO: 'en tomo a' aparece 24 veces en el corpus, así que quedan 23 ocurrencias pendientes."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6943:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que también han sufrido una depreciación cambiaría importante",
+          "Despues": "que también han sufrido una depreciación cambiaria importante",
+          "Contexto": "que un destino importante para las exportaciones industriales son los países latinoamericanos, que también han sufrido una depreciación cambiaría importante, a lo que se suman caídas de los precios en dólares de los productos,",
+          "Justificacion": "Tilde o ele por i en posición de adjetivo. La sección 3 ter manda corregir estas formas por muchas veces que se repitan, porque 'cambiaría'/'cambiarlas' son formas verbales y en este lugar sólo cabe el adjetivo. No se pide corroboración en la fila ni en la sesión para esta familia."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que han aminorado el efecto favorable de la depreciación cambiaría para el sector exportador chileno",
+          "Despues": "que han aminorado el efecto favorable de la depreciación cambiaria para el sector exportador chileno",
+          "Contexto": "ión cambiaría importante, a lo que se suman caídas de los precios en dólares de los productos, que han aminorado el efecto favorable de la depreciación cambiaría para el sector exportador chileno. Añade que los análisis internos confirman que los niveles de activid",
+          "Justificacion": "Tilde o ele por i en posición de adjetivo. La sección 3 ter manda corregir estas formas por muchas veces que se repitan, porque 'cambiaría'/'cambiarlas' son formas verbales y en este lugar sólo cabe el adjetivo. No se pide corroboración en la fila ni en la sesión para esta familia. Segunda ocurrencia en esta misma fila."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6944:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "El Consejero señor Pablo García consulta sí hay alguna razón objetiva para no divulgar",
+          "Despues": "El Consejero señor Pablo García consulta si hay alguna razón objetiva para no divulgar",
+          "Contexto": "El Consejero señor Pablo García consulta sí hay alguna razón objetiva para no divulgar los gráficos relativos al sector construcción en el próximo IPoM. Asi",
+          "Justificacion": "Tilde indebida: aquí 'si' es conjunción que introduce una interrogativa indirecta, no el adverbio de afirmación, y la oración no admite otra lectura. Corroborado además: 'consulta si hay' aparece 15 veces en el corpus y 'consulta sí hay' 2."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6947:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "destaca que la caída del 25% de la producción minera anunciada para año fiscal tiene un impacto notorio",
+          "Despues": "destaca que la caída del 25% de la producción minera anunciada para el año fiscal tiene un impacto notorio",
+          "Contexto": "junio 2015 - junio 2016 avala nuestra proyección más negativa para el sector. A este respecto, destaca que la caída del 25% de la producción minera anunciada para año fiscal tiene un impacto notorio sobre el PIB minería, con una incidencia de -2,4 puntos porcentuales ",
+          "Justificacion": "Falta el artículo: 'anunciada para año fiscal' no es gramatical y la reparación es única, porque el OCR omite y no agrega palabras. Corroborada donde el criterio exige: 'para el año fiscal' aparece 1 vez en esta misma sesión y 3 en el corpus. Mismo criterio que 'para año 2015' en 6920:1, ronda 178."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6952:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Miguel Fuentes Díaz",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "con la positiva en servicios. , . . , Anaí ? ! £ , Ias medldas de inflación subyacente permanecen elevadas",
+          "Despues": "con la positiva en servicios. Las medidas de inflación subyacente permanecen elevadas",
+          "Contexto": "a en IPCSAE fue prácticamente nula, debido a la compensación de la sorpresa negativa en bienes con la positiva en servicios. , . . , Anaí ? ! £ , Ias medldas de inflación subyacente permanecen elevadas destacando la medida MPV, que excluye los ítems más volátiles, que ti",
+          "Justificacion": "RESIDUO Y DOS PALABRAS DAÑADAS EN EL MISMO TRAMO, corregidos juntos porque se pisarían si se separaran. Entre dos oraciones hay una cadena de glifos que no forma nada (coma, punto, punto, coma, 'Anaí', interrogación, exclamación, signo de libra, coma; verificados por codepoint: 0x2c 0x2e 0x2e 0x2c 0x41 0x6e 0x61 0xed 0x3f 0x21 0xa3 0x2c) y a continuación 'Ias medldas' por 'Las medidas', con i mayúscula por ele y ele por i. MEDIDO: 'Anaí' aparece 1 sola vez en todo el corpus, 'medldas' 1 e 'Ias ' 1, así que no hay otro uso que proteja la cadena; y 'Las medidas' aparece 54 veces. La oración siguiente ya empieza con mayúscula implícita y no se repone ningún signo."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Resalta que su com portam iento ha mostrado bastante estabilidad en doce meses",
+          "Despues": "Resalta que su comportamiento ha mostrado bastante estabilidad en doce meses",
+          "Contexto": " tiende a tener una meior capacidad predictiva del IPC total, tanto a seis meses como a un año Resalta que su com portam iento ha mostrado bastante estabilidad en doce meses. En lo que respecta a la inflación de corto plazo, informa que se ha ",
+          "Justificacion": "Una sola palabra partida por DOS espacios: 'com portam iento' por 'comportamiento'. Se reúne sin alterar una letra, sección 1 ter."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "informa que se ha corregido en form a importante al alza, situándose en 4,5% a diciembre",
+          "Despues": "informa que se ha corregido en forma importante al alza, situándose en 4,5% a diciembre",
+          "Contexto": "mostrado bastante estabilidad en doce meses. En lo que respecta a la inflación de corto plazo, informa que se ha corregido en form a importante al alza, situándose en 4,5% a diciembre, 100 puntos base por sobre lo consignado en el último IPoM y 50 punto",
+          "Justificacion": "Palabra partida: 'form a' por 'forma'. Sección 1 ter, se reúne sin alterar una letra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "en enero de 2016, registraría una variación m ensual de 0,5%",
+          "Despues": "en enero de 2016, registraría una variación mensual de 0,5%",
+          "Contexto": "mantendría sobre 4% en lo que resta del año y alcanzaría a 4,5% en el mes de diciembre. Luego, en enero de 2016, registraría una variación m ensual de 0,5%, explicada por la entrada en vigencia de las modificaciones a la Ley ",
+          "Justificacion": "Palabra partida: 'm ensual' por 'mensual'. Sección 1 ter."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "por la entrada en vigencia de las modificaciones a la Ley sobre Im puesto de Timbres y Estampillas",
+          "Despues": "por la entrada en vigencia de las modificaciones a la Ley sobre Impuesto de Timbres y Estampillas",
+          "Contexto": "s de diciembre. Luego, en enero de 2016, registraría una variación m ensual de 0,5%, explicada por la entrada en vigencia de las modificaciones a la Ley sobre Im puesto de Timbres y Estampillas, que tendría una incidencia en el IPC total de 0,3 puntos porcentuale",
+          "Justificacion": "Palabra partida: 'Im puesto' por 'Impuesto'. Sección 1 ter. Es el nombre de una ley, pero la reparación no toca la identidad del nombre: sólo reúne las letras que ya están."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "si bien las brechas de actividad han sido menores, la evolución del tipo de cam bio plantea un riesgo",
+          "Despues": "si bien las brechas de actividad han sido menores, la evolución del tipo de cambio plantea un riesgo",
+          "Contexto": "a coyuntura, los factores externos han mitigado las presiones de precios; y que a nivel local, si bien las brechas de actividad han sido menores, la evolución del tipo de cam bio plantea un riesgo. Expresa que pese a los altos registros inflacionarios, los activos f",
+          "Justificacion": "Palabra partida: 'cam bio' por 'cambio'. Sección 1 ter."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "llevaría al IPC en doce meses a 4,9% y ai IPCSAE a 4,4%",
+          "Despues": "llevaría al IPC en doce meses a 4,9% y al IPCSAE a 4,4%",
+          "Contexto": "encia en el IPC total de 0,3 puntos porcentuales, y de 0,4 puntos porcentuales en el IPCSAE, y llevaría al IPC en doce meses a 4,9% y ai IPCSAE a 4,4%. Deja constancia que ello no constituye una sorpresa respecto de lo e",
+          "Justificacion": "'ai' no es palabra: es 'al' con la ele leída como i. La oración no admite otra lectura y el paralelo inmediato lo confirma, porque la misma frase acaba de decir 'llevaría al IPC'. Medido: 'al IPCSAE' aparece 2 veces en el corpus y 'ai IPCSAE' 1. Sección 2 bis: la forma defectuosa no es palabra, así que no hay lectura alternativa que proteger."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "las expectativas de inflación a uno y dos anos medidas por la Encuesta de Expectativas Económicas",
+          "Despues": "las expectativas de inflación a uno y dos años medidas por la Encuesta de Expectativas Económicas",
+          "Contexto": "l año 2011. Al respecto, hace notar que hoy, a diferencia de lo observado en dichos episodios, las expectativas de inflación a uno y dos anos medidas por la Encuesta de Expectativas Económicas, EEE, se han mantenido estables y su dispersión ha sido acotada. Por ",
+          "Justificacion": "Falta la tilde de la eñe: 'anos' por 'años'. Sección 1, la oración no admite otra lectura. Medido: 'años' aparece 1.543 veces en el corpus y ' anos ' con espacios 1 sola."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "señala que la depreciación cambiaría ha sido mayor que la sugerida por los fundamentos",
+          "Despues": "señala que la depreciación cambiaria ha sido mayor que la sugerida por los fundamentos",
+          "Contexto": "a una convergencia lenta de la inflación hacia la meta A continuación, el señor Miguel Fuentes señala que la depreciación cambiaría ha sido mayor que la sugerida por los fundamentos, y que el tipo de cambio real es 6% superior a su promedio histórico.",
+          "Justificacion": "Tilde o ele por i en posición de adjetivo. La sección 3 ter manda corregir estas formas por muchas veces que se repitan, porque 'cambiaría'/'cambiarlas' son formas verbales y en este lugar sólo cabe el adjetivo. No se pide corroboración en la fila ni en la sesión para esta familia."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que han coincidido con eventos de intervención cambiaría en particular el anuncio de intervención en el año 2011",
+          "Despues": "que han coincidido con eventos de intervención cambiaria en particular el anuncio de intervención en el año 2011",
+          "Contexto": "ño, se observan dos períodos en que ha habido un desanclaje de expectativas —en 2008 y 2011— , que han coincidido con eventos de intervención cambiaría en particular el anuncio de intervención en el año 2011. Al respecto, hace notar que hoy, a diferencia de lo observado en dic",
+          "Justificacion": "Tilde o ele por i en posición de adjetivo. La sección 3 ter manda corregir estas formas por muchas veces que se repitan, porque 'cambiaría'/'cambiarlas' son formas verbales y en este lugar sólo cabe el adjetivo. No se pide corroboración en la fila ni en la sesión para esta familia. Falta además una coma antes de 'en particular', pero la sección 7 prohíbe reponer un signo y queda documentada en la marca de esta misma fila."
         }
       ]
     }
@@ -2884,8 +3017,8 @@
     },
     {
       "ID_Intervencion": "RPM-2008-08-14:2044:1",
-      "Texto_Original_Fragmento": "las turbulencias externas con implicancias cambiarlas de distinto ciclo",
-      "Motivo": "CASI SEGURO ES 'cambiarias', pero se marca. Es la misma familia de confusiones ele por i que 'cambiaría' por 'cambiaria', con la diferencia de que aquí la forma defectuosa 'cambiarlas' es una construcción real del verbo cambiar, así que existe una lectura alternativa y la sección 2 pide corroboración en la fila o en la sesión. Medido: 'implicancias cambiarias' aparece 0 veces en la fila y 0 en la sesión (19 veces en el corpus, 'cambiarlas' 8), y 'cambiaria' en singular también 0 veces en la sesión. Se distingue de 'un movimiento cambiarlo' en 1459:2, que sí se corrigió porque allí 'cambiario' aparecía 2 veces en la sesión. Mismo criterio que 'asuntos cambiarlos' en 1422:1.",
+      "Texto_Original_Fragmento": "si hay un alza súbita en el control de endeudamiento y la decisión de liquidación que a muchos de ellos no es hoy día binding",
+      "Motivo": "SE MANTIENE LA MARCA SÓLO POR 'control de endeudamiento'. Casi seguro es 'costo de endeudamiento', pero 'control' es palabra real, la reparación cambia letras y la forma correcta aparece 1 sola vez en todo el corpus, 0 en la fila y 0 en la sesión. Esta marca cubría también 'los implementos de las tasas de interés' y 'implicancias cambiarlas'; el primero se retiró en la ronda 180 al comprobar que la forma defectuosa admite una sola categoría y la correcta existe en el corpus, y el segundo se corrigió al quedar dentro de la familia de la sección 3 ter.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
@@ -2904,6 +3037,18 @@
       "ID_Intervencion": "RPM-2015-08-13:6920:1",
       "Texto_Original_Fragmento": "por los indicadores más duros El señor Diego Gianelli prosigue con su presentación",
       "Motivo": "FALTA UN PUNTO SEGUIDO antes de 'El', que abre con mayúscula y arranca un párrafo nuevo de la exposición. Sección 7: se marca y no se repone. Medido: 'más duros El señor' aparece 1 vez en el corpus.",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6950:1",
+      "Texto_Original_Fragmento": "se encuentran en niveles bajos en una perspectiva histórica Hace notar que este deterioro de expectativas es generalizado / que contribuye a reducir la expansión proyectada del consumo privado En respuesta a una consulta formulada",
+      "Motivo": "FALTAN DOS PUNTOS SEGUIDOS en esta fila, los dos antes de mayúscula que abre una oración nueva: 'perspectiva histórica Hace notar' y 'consumo privado En respuesta'. La sección 7 marca y nunca repone un signo ausente. Medido: cada fragmento aparece 1 vez en el corpus. Se documentan los dos juntos porque Cotejar_PDF admite un solo valor por fila.",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6952:1",
+      "Texto_Original_Fragmento": "la desaceleración exhibida Añade que / factores de riesgo de cartera Los aumentos de spreads / tanto a seis meses como a un año Resalta que / convergencia lenta de la inflación hacia la meta A continuación / el peor desempeño de la industria Especial foco pone / metas de inflación en Chile Hace presente que / intervención cambiaría en particular el anuncio",
+      "Motivo": "FALTAN SEIS PUNTOS SEGUIDOS Y UNA COMA en esta fila, todos antes de mayúscula que abre una oración nueva: 'exhibida Añade', 'cartera Los aumentos', 'a un año Resalta', 'hacia la meta A continuación', 'la industria Especial foco' y 'en Chile Hace presente'. Además falta una coma antes de 'en particular' en 'eventos de intervención cambiaria en particular el anuncio'. La sección 7 marca y nunca repone un signo ausente, y Cotejar_PDF admite un solo valor por fila, así que los siete se documentan juntos. Es la fila con más signos ausentes encontrada hasta ahora.",
       "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
     }
   ],
