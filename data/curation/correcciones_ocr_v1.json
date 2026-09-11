@@ -2734,6 +2734,14 @@
           "Ocurrencias": 1,
           "Contexto": "edida por el imacec aumentó 6,4%, con lo que su velocidad de expansión se ubicó en tomo al 5% anual. Este resultado se explicó, principalmente, por e",
           "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "sigue siendo incierta. L Escenario",
+          "Despues": "sigue siendo incierta. Escenario",
+          "Ocurrencias": 1,
+          "Contexto": "yor inflación subyacente en el curso del 2006. la magnitud de dicho efecto sigue siendo incierta. L Escenario internacional El señor Gerente de Análisis Macroe",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
         }
       ]
     },
@@ -3065,6 +3073,14 @@
           "Ocurrencias": 1,
           "Contexto": "terés, no muestra expectativas de inflación más altas, sino que aparece como un nesgo ante las cifras de actividad más dinámicas que lo previsto.",
           "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ior de acuerdo al Consesus Forecast. Indica ",
+          "Despues": "ior de acuerdo al Consensus Forecast. Indica ",
+          "Ocurrencias": 1,
+          "Contexto": "a ligera corrección al crecimiento para Estados Unidos de América, lo anterior de acuerdo al Consesus Forecast. Indica el señor Lehmann que en Asia y Europa se observan ",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
         }
       ]
     },
@@ -6163,6 +6179,14 @@
           "Ocurrencias": 1,
           "Contexto": "asociado al vigoroso aumento de las importaciones y, probablemente, a un efecto cambiarlo.",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "tinúa, destacando que ai tema de las tarifas e",
+          "Despues": "tinúa, destacando que al tema de las tarifas e",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Macroeconómico señor Claudio Soto continúa, destacando que ai tema de las tarifas eléctricas en noviembre, se sumó también la sorpres",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
         }
       ]
     },
@@ -6178,6 +6202,14 @@
           "Ocurrencias": 3,
           "Contexto": "ria es justificada. El Consejero señor Sebastián Claro destaca que la situación cambiaría ha estado en el centro de la discusión, tanto por sus efect",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "rregido agresivamente ai alza, tanto las reale",
+          "Despues": "rregido agresivamente al alza, tanto las reale",
+          "Ocurrencias": 1,
+          "Contexto": "ctivos, especialmente las tasas de interés en Estados Unidos, que se han corregido agresivamente ai alza, tanto las reales como las nominales, podrían estar dando cuenta d",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
         }
       ]
     },
@@ -6436,6 +6468,14 @@
           "Ocurrencias": 1,
           "Contexto": "diagnóstico que se está haciendo en las distintas economías sobre las presiones cambiarías, el flujo de capitales y otras materias, que pudiera haber",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "desde esa perspectiva. V Respecto",
+          "Despues": "desde esa perspectiva. Respecto",
+          "Ocurrencias": 1,
+          "Contexto": "de principios y valores. Por lo tanto, sugiere que este tema sea analizado desde esa perspectiva. V Respecto del primer tema expresa que, a su juicio, es lo s",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
         }
       ]
     },
@@ -7442,6 +7482,14 @@
           "Ocurrencias": 1,
           "Contexto": "l hogar, lo que es coherente con precios mayores impulsados por la depreciación cambiaría en los meses de enero y febrero En lo atinente ai comercio,",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ebrero En lo atinente ai comercio, informa que",
+          "Despues": "ebrero En lo atinente al comercio, informa que",
+          "Ocurrencias": 1,
+          "Contexto": " mayores impulsados por la depreciación cambiaria en los meses de enero y febrero En lo atinente ai comercio, informa que registró una tasa de crecimiento muy baja en el m",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
         }
       ]
     },
@@ -8004,6 +8052,14 @@
           "Ocurrencias": 1,
           "Contexto": " Colombia y algo menos Perú, asociada, en parte, al traspaso de la depreciación cambiaría. El señor Diego Gianelli prosigue con su presentación infor",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " climáticas asociadas ai fenómeno de El Niño. ",
+          "Despues": " climáticas asociadas al fenómeno de El Niño. ",
+          "Ocurrencias": 1,
+          "Contexto": "estarían aumentando por temas puntuales de oferta, en este caso, por causas climáticas asociadas ai fenómeno de El Niño. A continuación, comenta que en materia de activida",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
         }
       ]
     },
@@ -8284,6 +8340,14 @@
           "Despues": "”",
           "Contexto": "ue la noticia más relevante ha provenido de los “commodities\". Tanto el precio del petróleo como el del cobre h",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "una y otra dirección. U Sin embargo",
+          "Despues": "una y otra dirección. Sin embargo",
+          "Ocurrencias": 1,
+          "Contexto": "ica que, sin duda, la disyuntiva es compleja, porque existen argumentos en una y otra dirección. U Sin embargo, señala el señor Consejero, la opción de bajar la",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
         }
       ]
     },
@@ -8354,6 +8418,14 @@
           "Despues": "”",
           "Contexto": "de que la inflación en los próximos doce meses subirá “mucho\" se mantiene elevado por sobre 70%. En tanto, las ",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "tener un rezago mayor ai previsto en el último",
+          "Despues": "tener un rezago mayor al previsto en el último",
+          "Ocurrencias": 1,
+          "Contexto": "nario base de mayo, con lo que la convergencia de la inflación a 3% podría tener un rezago mayor ai previsto en el último IPoM. La velocidad a la que se dará esta converge",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
         }
       ]
     },
@@ -10693,6 +10765,820 @@
           "Justificacion": "Encabezado de pagina del PDF, \"BANCO CENTRAL DE CHILE\", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal \"BANCO CENTRAL DE CHILE\" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado (\"...D E C H\"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:201:1",
+      "Fecha": "2005-04-07",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Marfán Lewis. Asisten también; Gerente General, ",
+          "Despues": "Marfán Lewis. Asisten también: Gerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": " doña María Elena Ovalle Molina, don Jorge Desormeaux Jiménez y don Manuel Marfán Lewis. Asisten también; Gerente General, don Camilo Carrasco Alfonso; Fiscal y Ministro de ",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:206:3",
+      "Fecha": "2005-04-07",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "últimos meses. V La colocación",
+          "Despues": "últimos meses. La colocación",
+          "Ocurrencias": 1,
+          "Contexto": "arzo, cifra que refleja el aumento de la tasa de política monetaria de los últimos meses. V La colocación de bonos sigue estancada, como es habitual durant",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:207:9",
+      "Fecha": "2005-04-07",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e las ramas asociadas ai sector exportador cre",
+          "Despues": "e las ramas asociadas al sector exportador cre",
+          "Ocurrencias": 1,
+          "Contexto": "endo inferior a los valores de fines de 2004. Por sectores, la producción de las ramas asociadas ai sector exportador creció solo 2,7% anual, aunque fuertemente influida p",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:232:1",
+      "Fecha": "2005-05-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e, lo que hubo es una fiy to quality y eso hizo ca",
+          "Despues": "e, lo que hubo es una fly to quality y eso hizo ca",
+          "Ocurrencias": 1,
+          "Contexto": "dge funds, en los términos de pérdida significativa. Cree que, aparentemente, lo que hubo es una fiy to quality y eso hizo caer las tasas de manera equivalente al alza que hab",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:280:2",
+      "Fecha": "2005-06-09",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "mercado laboral. H El panorama",
+          "Despues": "mercado laboral. El panorama",
+          "Ocurrencias": 1,
+          "Contexto": "les, no obstante el consumo sigue dinámico apoyado por la recuperación del mercado laboral. H El panorama en la zona euro continuó decepcionando. Al débil ",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:347:1",
+      "Fecha": "2005-08-11",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e supone que converge ai mismo nivel observado",
+          "Despues": "e supone que converge al mismo nivel observado",
+          "Ocurrencias": 1,
+          "Contexto": " horizonte de proyección del tipo de cambio. Cuando está dentro del rango se supone que converge ai mismo nivel observado en las últimas dos semanas. Agrega el señor Conse",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-09-08:381:1",
+      "Fecha": "2005-09-08",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ala, que desea volver ai tema de la compensaci",
+          "Despues": "ala, que desea volver al tema de la compensaci",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de División Estudios, señor Rodrigo Valdés señala, que desea volver ai tema de la compensación inflacionaria, la que aumentó bastante en las ú",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-03-16:608:1",
+      "Fecha": "2006-03-16",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "preciación del dólar, ai precio del\ncobre, y a",
+          "Despues": "preciación del dólar, al precio del\ncobre, y a",
+          "Ocurrencias": 1,
+          "Contexto": "un escenario brutal, estaría relativamente optimista porque ayudaría a la apreciación del dólar, ai precio del cobre, y al flujo de capitales, señalando que lo expuesto fu",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:688:1",
+      "Fecha": "2006-06-15",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "rio Corbo en relación ai precio del cobre, que",
+          "Despues": "rio Corbo en relación al precio del cobre, que",
+          "Ocurrencias": 1,
+          "Contexto": "Comenta el Presidente señor Vittorio Corbo en relación ai precio del cobre, que en varios IPoM este punto se había considerado co",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:693:1",
+      "Fecha": "2006-06-15",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "recio del cobre tenía ai país bastante eufóric",
+          "Despues": "recio del cobre tenía al país bastante eufóric",
+          "Ocurrencias": 1,
+          "Contexto": "a, que se refiere a los estados de ánimo de los mercados. Por ejemplo, el precio del cobre tenía ai país bastante eufórico hace dos meses atrás y hoy ese mismo precio resu",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:764:2",
+      "Fecha": "2006-07-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "croeconómico referido ai sector fiscal, en esp",
+          "Despues": "croeconómico referido al sector fiscal, en esp",
+          "Ocurrencias": 1,
+          "Contexto": "En relación al comentario del Gerente de Análisis Macroeconómico referido ai sector fiscal, en especial los aspectos presupuestarios, donde los ingr",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-08-10:822:1",
+      "Fecha": "2006-08-10",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mo contenido, similar\nai de los meses anterior",
+          "Despues": "mo contenido, similar\nal de los meses anterior",
+          "Ocurrencias": 1,
+          "Contexto": "s, muestra una desaceleración, y el costo de la mano de obra crece a un ritmo contenido, similar ai de los meses anteriores, lo que resulta concordante con la evolución de",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:828:1",
+      "Fecha": "2006-09-07",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "enas de Mesa.\nAsisten también;\nGerente General, ",
+          "Despues": "enas de Mesa.\nAsisten también:\nGerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": "all Rivera. Asiste el señor Ministro de Hacienda Subrogante, don Alberto Arenas de Mesa. Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro d",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:858:1",
+      "Fecha": "2006-09-07",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "s que el INE autorizó ai Banco Central de Chil",
+          "Despues": "s que el INE autorizó al Banco Central de Chil",
+          "Ocurrencias": 1,
+          "Contexto": " y recién se van a conocer con el IPOM de septiembre. Agrega el señor Valdés que el INE autorizó ai Banco Central de Chile para incluir estos datos en el citado Informe.",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1047:4",
+      "Fecha": "2007-01-11",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "política en el pasado). U Menciona",
+          "Despues": "política en el pasado). Menciona",
+          "Ocurrencias": 1,
+          "Contexto": "o ocurriría hasta algunos trimestres (lo que no difiere de otros ciclos de política en el pasado). U Menciona el señor Valdés que, en efecto las proyecciones i",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1055:1",
+      "Fecha": "2007-01-11",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "prolongado. A SU juicio, en el",
+          "Despues": "prolongado. A su juicio, en el",
+          "Ocurrencias": 1,
+          "Contexto": "ción y una tasa de política monetaria relativamente estable por un período prolongado. A SU juicio, en el nuevo escenario central lo que corresponde es baj",
+          "Justificacion": "La A abre la oración legítimamente (\"A su juicio\"), así que NO es residuo: el defecto es \"SU\" en mayúscula. Es el único de los 17 casos de letra suelta que no se elimina."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1068:1",
+      "Fecha": "2007-02-08",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " proyecciones del Consesus Forecast o JP Mor",
+          "Despues": " proyecciones del Consensus Forecast o JP Mor",
+          "Ocurrencias": 1,
+          "Contexto": "ner inalteradas las paridades respecto del dólar. Comenta que hace poco las proyecciones del Consesus Forecast o JP Morgan hablaban de depreciación de! yuan en un 10% es",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1107:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " la proyección de Consesus Forecast muestra ",
+          "Despues": " la proyección de Consensus Forecast muestra ",
+          "Ocurrencias": 1,
+          "Contexto": "endo subyacente en los rangos negativos y que el índice total está en cero, la proyección de Consesus Forecast muestra que habrá un aumento, lo que está relacionado con ",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1115:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "tran los gráficos del fiy to quality en los Estado",
+          "Despues": "tran los gráficos del fly to quality en los Estado",
+          "Ocurrencias": 1,
+          "Contexto": " así en los spreads, como tampoco en los bonos. En su opinión, aquí se muestran los gráficos del fiy to quality en los Estados Unidos de América y agrega que se ve que las tas",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1127:1",
+      "Fecha": "2007-03-15",
+      "Actor": "Igal Magendzo Weinberger",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ro y febrero atendido ai período de vacaciones",
+          "Despues": "ro y febrero atendido al período de vacaciones",
+          "Ocurrencias": 1,
+          "Contexto": "r fenómenos que se estiman puntuales y la irregularidad de los datos en enero y febrero atendido ai período de vacaciones. Destacó el señor Gerente de Análisis Macroeconóm",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1267:1",
+      "Fecha": "2007-06-14",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mo se había planteado ai inicio de la exposici",
+          "Despues": "mo se había planteado al inicio de la exposici",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional señala que tal como se había planteado ai inicio de la exposición, aparece la probabilidad de un aumento de tasa ",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1310:1",
+      "Fecha": "2007-07-12",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Olivia Recart Asisten también; Gerente General, ",
+          "Despues": "Olivia Recart Asisten también: Gerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": "era. Herrera. Asiste la señora Ministra de Hacienda Subrogante, doña María Olivia Recart Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Subgerente General,",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1312:1",
+      "Fecha": "2007-07-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e ha estado revisando ai alza el crecimiento d",
+          "Despues": "e ha estado revisando al alza el crecimiento d",
+          "Ocurrencias": 1,
+          "Contexto": "ona Euro, así como también marginalmente en Japón y China. De igual forma se ha estado revisando ai alza el crecimiento del PIB de China, y eso también ha generado cierto ",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " la proyección de Consesus Forecast, de la t",
+          "Despues": " la proyección de Consensus Forecast, de la t",
+          "Ocurrencias": 1,
+          "Contexto": "e, particularmente en lo relacionado al mercado laboral. Indica que esto es la proyección de Consesus Forecast, de la trayectoria trimestral que se espera hacia adelante",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " que de acuerdo a Consesus Forecast, éste se",
+          "Despues": " que de acuerdo a Consensus Forecast, éste se",
+          "Ocurrencias": 1,
+          "Contexto": "bido novedades. En términos de crecimiento mundial, señala el señor Gerente que de acuerdo a Consesus Forecast, éste se ha corregido al alza en el mes de julio, ya que h",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " las tasas de interés fiy to quality y un menor re",
+          "Despues": " las tasas de interés fly to quality y un menor re",
+          "Ocurrencias": 1,
+          "Contexto": " subprime en Estados Unidos de América, lo que ha tenido algún efecto sobre las tasas de interés fiy to quality y un menor registro de inflación, que reduce las tasas de inter",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " propósito del efecto fiy to quality, e indica el ",
+          "Despues": " propósito del efecto fly to quality, e indica el ",
+          "Ocurrencias": 1,
+          "Contexto": "s del 2% durante el mes. Respecto a spreads, éstos han tendido a aumentar a propósito del efecto fiy to quality, e indica el señor Gerente que hay que estar en tiempo con el b",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " claridad los efectos fIy to quality y la preocupa",
+          "Despues": " claridad los efectos fly to quality y la preocupa",
+          "Ocurrencias": 1,
+          "Contexto": "mergentes son mucho más fuertes, y de hecho, allí se observan con mucha más claridad los efectos fIy to quality y la preocupación de los mercados respecto a lo que ocurrió en ",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "presupuestado inicialmente. H El Gerente",
+          "Despues": "presupuestado inicialmente. El Gerente",
+          "Ocurrencias": 1,
+          "Contexto": "nte pensando que este crecimiento fue bastante más bajo de lo que se había presupuestado inicialmente. H El Gerente de Análisis Internacional menciona que respecto a",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1321:1",
+      "Fecha": "2007-07-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "s gráficos, el efecto fiy to quality sobre Chile s",
+          "Despues": "s gráficos, el efecto fly to quality sobre Chile s",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Manuel Marfán manifiesta que si analizan ios gráficos, el efecto fiy to quality sobre Chile son cinco puntos base respecto de la Reunión de Pol",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1348:1",
+      "Fecha": "2007-07-12",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": ". Cierta evidencia de fiy to quality en las primas",
+          "Despues": ". Cierta evidencia de fly to quality en las primas",
+          "Ocurrencias": 1,
+          "Contexto": " en el horizonte cercano, a diferencia de lo que se apreciaba el mes pasado. Cierta evidencia de fiy to quality en las primas de riesgo no ha afectado el riesgo chileno, sino ",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-08-09:1357:1",
+      "Fecha": "2007-08-09",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " Indica que el efecto fiy to quality, llevó a una ",
+          "Despues": " Indica que el efecto fly to quality, llevó a una ",
+          "Ocurrencias": 1,
+          "Contexto": "recios de activos financieros y í condiciones crediticias más restrictivas. Indica que el efecto fiy to quality, llevó a una caída de más de 30 puntos base de la tasa larga de",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e producto del efecto fiy to quality y turbulencia",
+          "Despues": "e producto del efecto fly to quality y turbulencia",
+          "Ocurrencias": 1,
+          "Contexto": "er a caer. Por otro lado, los futuros también muestran una caída. Señala que producto del efecto fiy to quality y turbulencias en los mercados financieros, se ha observado una",
+          "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-10-11:1475:1",
+      "Fecha": "2007-10-11",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "rva a octubre que Consesus Forecast informa ",
+          "Despues": "rva a octubre que Consensus Forecast informa ",
+          "Ocurrencias": 1,
+          "Contexto": "ías. Por otra parte, señala que en términos de crecimiento mundial, se observa a octubre que Consesus Forecast informa de una revisión marginal hacia arriba, que se debe",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nsiderando que el Consesus Forecast tiene ci",
+          "Despues": "nsiderando que el Consensus Forecast tiene ci",
+          "Ocurrencias": 1,
+          "Contexto": "star atención a lo que el Fondo Monetario Internacional está observando, considerando que el Consesus Forecast tiene cierto rezago. Agrega que en ese sentido, existe cie",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1521:1",
+      "Fecha": "2007-11-13",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "cart Herrera. Asisten también; Gerente General, ",
+          "Despues": "cart Herrera. Asisten también: Gerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": "era. Asiste la señora Ministro de Hacienda Subrogante, doña María Olivia Recart Herrera. Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Subgerente General,",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1566:1",
+      "Fecha": "2007-11-13",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " similar en lo grueso ai de hace un mes. Agreg",
+          "Despues": " similar en lo grueso al de hace un mes. Agreg",
+          "Ocurrencias": 1,
+          "Contexto": "vaivenes mayores a los habituales en el último mes, pero su nivel actual es similar en lo grueso ai de hace un mes. Agrega que los salarios nominales en tanto se han acele",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1629:1",
+      "Fecha": "2008-01-10",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "principales zonas económicas. M Frente",
+          "Despues": "principales zonas económicas. Frente",
+          "Ocurrencias": 1,
+          "Contexto": " Unidos de América y en las expectativas de consumidores y empresas de las principales zonas económicas. M Frente a las turbulencias financieras recientes, el cons",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1643:1",
+      "Fecha": "2008-02-07",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "cart Herrera. Asisten también; Gerente General, ",
+          "Despues": "cart Herrera. Asisten también: Gerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": "rds. Asiste la señora Ministra de Hacienda Subrogante, doña María Olivia Recart Herrera. Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Subgerente General,",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1687:1",
+      "Fecha": "2008-03-13",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "lasco Brañes. Asisten también; Gerente General, ",
+          "Despues": "lasco Brañes. Asisten también: Gerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": "ebastián Claro Edwards. Asiste el señor Ministro de Hacienda, don Andrés Velasco Brañes. Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Subgerente General,",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1786:1",
+      "Fecha": "2008-05-08",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "cart Herrera. Asisten también; Gerente General, ",
+          "Despues": "cart Herrera. Asisten también: Gerente General, ",
+          "Ocurrencias": 1,
+          "Contexto": "rds. Asiste la señora Ministro de Hacienda Subrogante, doña María Olivia Recart Herrera. Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro d",
+          "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1847:1",
+      "Fecha": "2008-05-08",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "una dirección u otra. U U) Menciona",
+          "Despues": "una dirección u otra. Menciona",
+          "Ocurrencias": 1,
+          "Contexto": "nción de la Tasa de Política Monetaria en su nivel actual, sin un sesgo en una dirección u otra. U U) Menciona el señor Vicepresidente que el Comunicado de esta",
+          "Justificacion": "Dos residuos seguidos, \"U\" y \"U)\": la regla general de letra suelta solo quitaria el primero y dejaria \"U) Menciona\". Se eliminan los dos en una sola operacion porque son adyacentes y forman un unico bloque de ruido entre las dos oraciones."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-11-13:2129:2",
+      "Fecha": "2008-11-13",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "movimientos de capitales. U Respecto",
+          "Despues": "movimientos de capitales. Respecto",
+          "Ocurrencias": 1,
+          "Contexto": " de reservas, aún cuando parte de ellas podrían estar saliendo a través de movimientos de capitales. U Respecto a paridades, menciona el señor Gerente que se apr",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2638:1",
+      "Fecha": "2009-07-09",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ontraria. Agrega que, ai respecto, la consulta",
+          "Despues": "ontraria. Agrega que, al respecto, la consulta",
+          "Ocurrencias": 1,
+          "Contexto": "que se inicia la trayectoria de recuperación en relación con la dirección contraria. Agrega que, ai respecto, la consulta razonable consistiría en determinar cuál sería pa",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2805:1",
+      "Fecha": "2009-12-15",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "durante el 2010. A El señor Lehmann",
+          "Despues": "durante el 2010. El señor Lehmann",
+          "Ocurrencias": 1,
+          "Contexto": "tiene como factor de riesgo respecto de lo que puede estar desarrollándose durante el 2010. A El señor Lehmann, refiriéndose a las condiciones crediticias, menc",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2839:2",
+      "Fecha": "2009-12-15",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "movimientos mixtos. Y Sesión N° 147 15.12.09 22.- En el plano",
+          "Despues": "movimientos mixtos. En el plano",
+          "Ocurrencias": 1,
+          "Contexto": " los mercados financieros. Los precios de los productos básicos han tenido movimientos mixtos. Y Sesión N° 147 15.12.09 22.- En el plano interno, la información disponible sugiere que la",
+          "Justificacion": "Letra suelta \"Y\" mas el encabezado de pagina \"Sesión N° 147 15.12.09 22.-\" incrustado entre dos oraciones. Ambos son residuos de la fuente: las dos oraciones quedan completas sin ellos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-02-11:2951:1",
+      "Fecha": "2010-02-11",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "s chilenos que llevan ai movimiento del tipo d",
+          "Despues": "s chilenos que llevan al movimiento del tipo d",
+          "Ocurrencias": 1,
+          "Contexto": "so se encuentra descubierto, por lo que de existir elementos idiosincrásicos chilenos que llevan ai movimiento del tipo de cambio, ello Como segundo juicio, el señor Vicep",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3073:1",
+      "Fecha": "2010-04-15",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "miento bastante menor ai esperado, indicando q",
+          "Despues": "miento bastante menor al esperado, indicando q",
+          "Ocurrencias": 1,
+          "Contexto": "ero señor Sebastián Claro menciona que el IMACEC de febrero mostró un crecimiento bastante menor ai esperado, indicando que la hipótesis de que ello refleja una aguda cont",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3082:2",
+      "Fecha": "2010-05-13",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "de inversión y de Consesus Forecasts. Hace l",
+          "Despues": "de inversión y de Consensus Forecasts. Hace l",
+          "Ocurrencias": 1,
+          "Contexto": " del crecimiento mundial, elaborado sobre la base de información de bancos de inversión y de Consesus Forecasts. Hace la salvedad que los datos de este último tienen alg",
+          "Justificacion": "Consesus por Consensus: falta una n. Medido: \"Consensus\" aparece 127 veces en 99 filas y \"Consesus\" 8 veces en 6, siempre en el nombre propio \"Consensus Forecast\". No hay lectura alternativa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3341:1",
+      "Fecha": "2010-08-12",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e se ubicará en torno ai límite superior del r",
+          "Despues": "e se ubicará en torno al límite superior del r",
+          "Ocurrencias": 1,
+          "Contexto": "e las proyecciones sugieren que seguirá subiendo en los próximos meses y que se ubicará en torno ai límite superior del rango meta a fin de año, para luego converger hacia",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5277:1",
+      "Fecha": "2013-01-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "algo mayor en Europa. A Además",
+          "Despues": "algo mayor en Europa. Además",
+          "Ocurrencias": 1,
+          "Contexto": "laridad en los países X) emergentes, y que el VIX registró una disminución algo mayor en Europa. A Además, destaca que el rendimiento de las bolsas de valo",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-10-17:5821:1",
+      "Fecha": "2013-10-17",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "se ajusta con ella. B A 'i",
+          "Despues": "se ajusta con ella.",
+          "Ocurrencias": 1,
+          "Contexto": "na figura algo más baja que lo ^ proyectado el mes pasado y posteriormente se ajusta con ella. B A 'i",
+          "Justificacion": "Basura de escaneo al final de la fila: \"B A 'i\". La oración anterior termina completa en \"ella.\"; lo que sigue no forma palabra ni oración."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-12-12:5951:1",
+      "Fecha": "2013-12-12",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "a. En lo concerniente ai plano internacional, ",
+          "Despues": "a. En lo concerniente al plano internacional, ",
+          "Ocurrencias": 1,
+          "Contexto": "que ha ido ratificando el escenario de desaceleración de la economía chilena. En lo concerniente ai plano internacional, señala que en Estados Unidos de América, el crecim",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-02-18:6009:4",
+      "Fecha": "2014-02-18",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "registrado alzas mayores. V El señor",
+          "Despues": "registrado alzas mayores. El señor",
+          "Ocurrencias": 1,
+          "Contexto": "nto de corto plazo y mayor déficit de cuenta corriente sobre reservas, han registrado alzas mayores. V El señor Miguel Ricaurte concuerda con el planteamiento de",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-05-15:6222:1",
+      "Fecha": "2014-05-15",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "precio del cobre. Y En el plano local",
+          "Despues": "precio del cobre. En el plano local",
+          "Ocurrencias": 1,
+          "Contexto": "no muestran cambios significativos, aunque destaca el aumento reciente del precio del cobre. Y En el plano local, señala que los indicadores de actividad y de dem",
+          "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6246:1",
+      "Fecha": "2014-06-12",
+      "Actor": "Sergio Lehmann Beresi",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mes de mayo, superior ai 9,5% anotado el mes p",
+          "Despues": "mes de mayo, superior al 9,5% anotado el mes p",
+          "Ocurrencias": 1,
+          "Contexto": " reitera que en China, el gasto fiscal registró un incremento de 13% en el mes de mayo, superior ai 9,5% anotado el mes previo; y que las exportaciones crecieron algo más ",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6811:1",
+      "Fecha": "2015-06-11",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ara ofrece la palabra ai Jefe del Departamento",
+          "Despues": "ara ofrece la palabra al Jefe del Departamento",
+          "Ocurrencias": 1,
+          "Contexto": " día jueves 17 de ese mes. A continuación, el Presidente señor Rodrigo Vergara ofrece la palabra ai Jefe del Departamento Análisis Internacional señor Diego Gianelli para ",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-07-14:6902:2",
+      "Fecha": "2015-07-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "lacionario con riesgo ai alza, en el que un ev",
+          "Despues": "lacionario con riesgo al alza, en el que un ev",
+          "Ocurrencias": 1,
+          "Contexto": "r Pablo García, parece complejo afirmar que se está frente a un proceso inflacionario con riesgo ai alza, en el que un eventual aumento del TCN a valores en torno a $ 680 ",
+          "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -11447,16 +12333,16 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     },
     {
-      "ID_Intervencion": "RPM-2007-07-12:1312:1",
-      "Texto_Original_Fragmento": "los efectos fIy to quality",
-      "Motivo": "RECONSTRUCCION_AMBIGUA. La i se leyo como I mayuscula, pero hay dos reconstrucciones viables y distintas: el arreglo minimo del glifo da \"fly to quality\", que no aparece ninguna vez en el corpus, mientras que la expresion financiera estandar \"flight to quality\" aparece 21 veces. Elegir \"flight\" exige insertar cuatro letras, que es reconstruir y no corregir un glifo. Se deja sin tocar y se marca para cotejo con el PDF.",
-      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
-    },
-    {
       "ID_Intervencion": "RPM-2007-05-10:1261:2",
       "Texto_Original_Fragmento": "en el horizonte de política. “ El Consejo aprueba el texto del Comunicado.",
       "Motivo": "RECONSTRUCCION_AMBIGUA. La fila tiene una comilla de apertura “ sin cierre (balance “1 ”0) justo antes de \"El Consejo aprueba el texto del Comunicado\", que es narración del acta y no parte del Comunicado. Hay tres candidatos y el texto no permite elegir: (a) la “ es un residuo y se elimina; (b) falta un ” después de \"horizonte de política.\"; (c) la “ está desplazada y debería abrir antes de \"En su reunión mensual\", que es como aparece en la fila paralela RPM-2014-09-11:6438:3. Población conocida: 25 filas tienen “ != ” sin comillas rectas. Se marca y no se elige.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1310:1",
+      "Texto_Original_Fragmento": "don Enrique Marshall Rivera. Herrera. Asiste la señora Ministra",
+      "Motivo": "NOMBRE_PROPIO. En la nomina de asistencia, entre \"don Enrique Marshall Rivera.\" y \"Asiste la señora Ministra\" aparece suelta la palabra \"Herrera.\". Es un apellido real y frecuente en el corpus (533 apariciones), asi que por la seccion 5 no se corrige ni se elimina: se marca para cotejar con el PDF si corresponde a una persona omitida en la nomina o a un residuo.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [

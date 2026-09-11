@@ -505,6 +505,12 @@ quality», que no aparece ninguna vez en el corpus; la expresión financiera est
 «flight to quality», que aparece 21 veces, pero escribirla exige insertar cuatro letras, lo
 que es reconstruir. Marcada `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` y dejada intacta.
 
+> **Actualización (§12): esta marca se retiró.** Al demostrar la regla `l`→`i` con 26 casos
+> independientes de `ai` por `al`, la ambigüedad se resolvió a favor de `fly`: un escáner no
+> convierte «flight» en «fiy» (sería borrar cuatro letras) y sí convierte «fly» en «fiy».
+> Lección general: una marca por ambigüedad es provisional. Si después aparece una regla de
+> glifo que explique la forma dañada, la ambigüedad desaparece y hay que volver sobre la marca.
+
 ## 11. El encabezado de página letra por letra
 
 `B A N C O C E N T R A L D E C H I L E` —el encabezado del PDF, capturado letra
@@ -530,6 +536,35 @@ salida y no contra el registro:
 
 Verificado sobre la salida: encabezado **11 → 0**, residuo `IL E` **0**, y
 ninguna de las 11 filas quedó con espacio doble ni con espacio inicial o final.
+
+## 12. La regla `l`→`i` y las letras sueltas entre oraciones
+
+**`ai` por `al`.** Medido en toda la salida: 26 apariciones de la palabra suelta `ai` en 26
+filas. `ai` no es palabra del español; `al alza` aparece 1.405 veces contra 3 de `ai alza`. Se
+revisaron las 26 y en todas el contexto exige `al` («asociadas ai sector exportador»,
+«autorizó ai Banco Central», «Agrega que, ai respecto», «superior ai 9,5%»). Verificado sobre
+la salida: palabra suelta `ai` **31 → 0** contando desde la base (son 31 y no 26 porque cinco
+ya habían caído en pasadas anteriores).
+
+Esta regla es la que resuelve el caso de §10: `fiy`/`fIy` → `fly`, 9 apariciones en 6 filas.
+`flight to quality` (21 apariciones) es la otra grafía, correcta, y no se toca.
+
+**Letra mayúscula suelta entre dos oraciones** («…últimos meses. V La colocación…»). Ruido de
+escaneo: la oración anterior cierra en punto y la siguiente abre con mayúscula y sentido
+completo, así que la letra no pertenece a ninguna de las dos. 17 casos en 17 filas, letras
+V, H, L, U, A, M, Y, B, revisados uno por uno. Verificado: **27 → 0** desde la base. Dos
+excepciones que una regla ciega habría estropeado:
+
+- `RPM-2007-01-11:1055:1` «prolongado. **A SU** juicio»: la `A` abre la oración
+  legítimamente; el defecto es `SU` en mayúscula. Se corrige la mayúscula, no se elimina.
+- `RPM-2008-05-08:1847:1` «…u otra. **U U)** Menciona»: dos residuos contiguos. Eliminar sólo
+  el primero dejaría «U) Menciona». Van en una sola operación.
+
+Tres residuos puntuales más: el encabezado de página `Sesión N° 147 15.12.09 22.-` incrustado
+entre dos oraciones (`2839:2`) y la basura `B A 'i` al final de `5821:1`.
+
+**Sin decidir:** las corridas de guiones bajos `_____` (37 apariciones en 29 filas), línea de
+formulario del acta. No medidas ni tratadas.
 
 ## El procedimiento que no se salta
 

@@ -25614,7 +25614,95 @@
       "Universo": "PLAN_RONDAS_BANDA_A",
       "Ronda_Plan": 189,
       "Justificacion": "Ronda 189 (4 filas, ultima de la sesion 2007-05-10). Cuatro correcciones en 3 filas: 1259:1 'se u b ic a r a' -> 'se ubicara' (SALTOS_DE_LINEA, palabra partida en letras sueltas por justificacion del PDF); 1261:1 'por encima de de tendencia' -> 'de tendencia' (PALABRA_DUPLICADA); 1261:2 'acordó m antener' -> 'mantener' (mismo artefacto) y el residuo de escaneo 'k f' entre dos oraciones eliminado (SIMBOLO_SUELTO). MARCADA 1261:2 por una comilla de apertura “ sin cierre antes de 'El Consejo aprueba el texto del Comunicado': hay tres candidatos (residuo a eliminar, cierre faltante tras 'horizonte de política.', o comilla desplazada que deberia abrir el Comunicado como en 6438:3) y el texto no permite elegir. Se deja sin tocar 'tasa de instancia' (58 apariciones en 53 filas): 'instancia' aparece 150 veces y 92 son usos legitimos como anglicismo de 'stance' ('la instancia monetaria es expansiva', 'hacia una instancia mas neutral', 'una instancia de wait and see'); ademas ninguna lectura optica convierte 'interes' en 'instancia', no hay relacion de glifo, luego no es dano de OCR (§3). Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1310:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1310:1",
+      "ID_Padre": "1310",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1541,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1312:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1312:1",
+      "ID_Padre": "1312",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 12758,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1313:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1313:1",
+      "ID_Padre": "1313",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 115,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1313:2": {
+      "ID_Intervencion": "RPM-2007-07-12:1313:2",
+      "ID_Padre": "1313",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 458,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1314:1": {
+      "ID_Intervencion": "RPM-2007-07-12:1314:1",
+      "ID_Padre": "1314",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 338,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1314:2": {
+      "ID_Intervencion": "RPM-2007-07-12:1314:2",
+      "ID_Padre": "1314",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 179,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1314:3": {
+      "ID_Intervencion": "RPM-2007-07-12:1314:3",
+      "ID_Padre": "1314",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 413,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_C",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
+    },
+    "RPM-2007-07-12:1314:4": {
+      "ID_Intervencion": "RPM-2007-07-12:1314:4",
+      "ID_Padre": "1314",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 968,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_B",
+      "Ronda_Plan": 190,
+      "Justificacion": "Ronda 190 (8 filas, sesion 2007-07-12, inicio). Lectura completa. La ronda destapo CUATRO defectos sistematicos que se corrigieron en todo el corpus, 67 sustituciones en 59 filas: (1) 'ai' por 'al', l leida como i: 26 apariciones en 26 filas, 'ai' no es palabra del español y las 26 se revisaron una por una; (2) 'Consesus' por 'Consensus': 8 en 6 filas contra 127 de la forma buena, siempre el nombre propio 'Consensus Forecast'; (3) 'fiy'/'fIy' to quality por 'fly': 9 en 6 filas, es el mismo glifo l->i ya demostrado, y un escaner no convierte 'flight' en 'fiy' (seria borrar cuatro letras) mientras que si convierte 'fly' en 'fiy' - por eso SE RETIRA la marca RECONSTRUCCION_AMBIGUA puesta en 1312:1, cuya ambiguedad quedo resuelta; las 21 apariciones de 'flight to quality' son la otragrafia correcta y no se tocan; (4) letra mayuscula suelta entre dos oraciones, 17 casos revisados uno a uno, con la excepcion de 1055:1 donde la A abre legitimamente y el defecto es 'SU' en mayuscula. Mas 'Asisten también;' por dos puntos (7 contra 93) y tres residuos puntuales. MARCADA 1310:1 por 'Rivera. Herrera.' en la nomina: 'Herrera' es apellido real con 533 apariciones, y por la seccion 5 un nombre propio no se corrige ni se elimina. PENDIENTE de decision: las corridas de guiones bajos '_____' (37 en 29 filas), residuo de linea de formulario, no medidas ni tratadas. Sin cambios de actor."
     }
   },
-  "Total_Leidas": 2226
+  "Total_Leidas": 2234
 }
