@@ -25471,7 +25471,150 @@
       "Universo": "PLAN_RONDAS_BANDA_D",
       "Ronda_Plan": 186,
       "Justificacion": "Ronda 186 (19 filas, sesion 2007-05-10). Lectura completa. Solo una fila de la ronda tenia defecto (1249:1, cambIario por cambiario, i leida como I mayuscula). Al medirla aparecio una FAMILIA de defectos de glifo en todo el corpus: I mayuscula dentro de palabra minuscula (6 apariciones: yieId, cambIario, fIy, proxImos, opIrnon, economIca) y digito 1 en lugar de l/I (i1iquidez, f1exibilización, opin1on, op1nion, 1nstitución, 1nstituto, 1O por 10 en 10 apariciones, 7ay/or por Taylor, í\\/1onetaria por Monetaria). Se corrigieron 23 ocurrencias en 20 filas. EXCLUIDOS por ser legitimos: '3pp' y '1pp' (puntos porcentuales, 3 y 1 apariciones) y las mayusculas internas de nombres reales (UniCredit 6, BancoEstado 3, McGuire 2). MARCADA sin corregir RPM-2007-07-12:1312:1: 'fIy to quality' tiene dos reconstrucciones viables, el arreglo minimo 'fly to quality' (0 apariciones en el corpus) y la expresion estandar 'flight to quality' (21 apariciones); elegir flight exige insertar letras, o sea reconstruir. Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1251:4": {
+      "ID_Intervencion": "RPM-2007-05-10:1251:4",
+      "ID_Padre": "1251",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 9099,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 187,
+      "Justificacion": "Ronda 187 (4 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. Las 4 filas son narracion de presentaciones tecnicas de los gerentes (Valdes, Schmidt-Hebbel, Jadresic) mas un traspaso de la palabra del Presidente. Se verifico la unica forma dudosa: 'apreciación cambiaría' de 1252:1 ya estaba corregida por la pasada de nivel 2 (commit 8786bf0) - el registro tiene 1 operacion cambiaría->cambiaria y la salida muestra cambiaria 1 / cambiaría 0. Se dejan sin tocar, por ser rasgos del corpus y no defectos de fila (§3 bis): 'indica' con minuscula tras punto (262 apariciones corpus-wide) y 'sobrerreaccionado' (ortografia RAE correcta). Observacion sin accion: 1251:5 es un traspaso de la palabra ('ofrece la palabra para comentarios'), que segun el criterio no es intervencion efectiva, pero es segmentacion v7 preexistente y hay instruccion de no generalizar reglas sobre traspasos."
+    },
+    "RPM-2007-05-10:1251:5": {
+      "ID_Intervencion": "RPM-2007-05-10:1251:5",
+      "ID_Padre": "1251",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 70,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 187,
+      "Justificacion": "Ronda 187 (4 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. Las 4 filas son narracion de presentaciones tecnicas de los gerentes (Valdes, Schmidt-Hebbel, Jadresic) mas un traspaso de la palabra del Presidente. Se verifico la unica forma dudosa: 'apreciación cambiaría' de 1252:1 ya estaba corregida por la pasada de nivel 2 (commit 8786bf0) - el registro tiene 1 operacion cambiaría->cambiaria y la salida muestra cambiaria 1 / cambiaría 0. Se dejan sin tocar, por ser rasgos del corpus y no defectos de fila (§3 bis): 'indica' con minuscula tras punto (262 apariciones corpus-wide) y 'sobrerreaccionado' (ortografia RAE correcta). Observacion sin accion: 1251:5 es un traspaso de la palabra ('ofrece la palabra para comentarios'), que segun el criterio no es intervencion efectiva, pero es segmentacion v7 preexistente y hay instruccion de no generalizar reglas sobre traspasos."
+    },
+    "RPM-2007-05-10:1252:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1252:1",
+      "ID_Padre": "1252",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Caracteres": 4246,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 187,
+      "Justificacion": "Ronda 187 (4 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. Las 4 filas son narracion de presentaciones tecnicas de los gerentes (Valdes, Schmidt-Hebbel, Jadresic) mas un traspaso de la palabra del Presidente. Se verifico la unica forma dudosa: 'apreciación cambiaría' de 1252:1 ya estaba corregida por la pasada de nivel 2 (commit 8786bf0) - el registro tiene 1 operacion cambiaría->cambiaria y la salida muestra cambiaria 1 / cambiaría 0. Se dejan sin tocar, por ser rasgos del corpus y no defectos de fila (§3 bis): 'indica' con minuscula tras punto (262 apariciones corpus-wide) y 'sobrerreaccionado' (ortografia RAE correcta). Observacion sin accion: 1251:5 es un traspaso de la palabra ('ofrece la palabra para comentarios'), que segun el criterio no es intervencion efectiva, pero es segmentacion v7 preexistente y hay instruccion de no generalizar reglas sobre traspasos."
+    },
+    "RPM-2007-05-10:1253:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1253:1",
+      "ID_Padre": "1253",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 3181,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 187,
+      "Justificacion": "Ronda 187 (4 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. Las 4 filas son narracion de presentaciones tecnicas de los gerentes (Valdes, Schmidt-Hebbel, Jadresic) mas un traspaso de la palabra del Presidente. Se verifico la unica forma dudosa: 'apreciación cambiaría' de 1252:1 ya estaba corregida por la pasada de nivel 2 (commit 8786bf0) - el registro tiene 1 operacion cambiaría->cambiaria y la salida muestra cambiaria 1 / cambiaría 0. Se dejan sin tocar, por ser rasgos del corpus y no defectos de fila (§3 bis): 'indica' con minuscula tras punto (262 apariciones corpus-wide) y 'sobrerreaccionado' (ortografia RAE correcta). Observacion sin accion: 1251:5 es un traspaso de la palabra ('ofrece la palabra para comentarios'), que segun el criterio no es intervencion efectiva, pero es segmentacion v7 preexistente y hay instruccion de no generalizar reglas sobre traspasos."
+    },
+    "RPM-2007-05-10:1254:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1254:1",
+      "ID_Padre": "1254",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 3995,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 188,
+      "Justificacion": "Ronda 188 (5 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. La unica forma dudosa, 'apreciación cambiaría' de 1254:1, ya estaba corregida por la pasada de nivel 2 (8786bf0): el registro tiene la operacion cambiaría->cambiaria y la salida muestra cambiaría 0. Observacion: 1256:1 es otro traspaso de la palabra del Presidente, segmentacion v7 preexistente. Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1255:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1255:1",
+      "ID_Padre": "1255",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 2900,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 188,
+      "Justificacion": "Ronda 188 (5 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. La unica forma dudosa, 'apreciación cambiaría' de 1254:1, ya estaba corregida por la pasada de nivel 2 (8786bf0): el registro tiene la operacion cambiaría->cambiaria y la salida muestra cambiaría 0. Observacion: 1256:1 es otro traspaso de la palabra del Presidente, segmentacion v7 preexistente. Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1256:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1256:1",
+      "ID_Padre": "1256",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 107,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_D",
+      "Ronda_Plan": 188,
+      "Justificacion": "Ronda 188 (5 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. La unica forma dudosa, 'apreciación cambiaría' de 1254:1, ya estaba corregida por la pasada de nivel 2 (8786bf0): el registro tiene la operacion cambiaría->cambiaria y la salida muestra cambiaría 0. Observacion: 1256:1 es otro traspaso de la palabra del Presidente, segmentacion v7 preexistente. Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1257:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1257:1",
+      "ID_Padre": "1257",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 5637,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 188,
+      "Justificacion": "Ronda 188 (5 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. La unica forma dudosa, 'apreciación cambiaría' de 1254:1, ya estaba corregida por la pasada de nivel 2 (8786bf0): el registro tiene la operacion cambiaría->cambiaria y la salida muestra cambiaría 0. Observacion: 1256:1 es otro traspaso de la palabra del Presidente, segmentacion v7 preexistente. Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1258:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1258:1",
+      "ID_Padre": "1258",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2375,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 188,
+      "Justificacion": "Ronda 188 (5 filas, sesion 2007-05-10). Lectura completa, sin defectos nuevos. La unica forma dudosa, 'apreciación cambiaría' de 1254:1, ya estaba corregida por la pasada de nivel 2 (8786bf0): el registro tiene la operacion cambiaría->cambiaria y la salida muestra cambiaría 0. Observacion: 1256:1 es otro traspaso de la palabra del Presidente, segmentacion v7 preexistente. Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1259:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1259:1",
+      "ID_Padre": "1259",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 3363,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 189,
+      "Justificacion": "Ronda 189 (4 filas, ultima de la sesion 2007-05-10). Cuatro correcciones en 3 filas: 1259:1 'se u b ic a r a' -> 'se ubicara' (SALTOS_DE_LINEA, palabra partida en letras sueltas por justificacion del PDF); 1261:1 'por encima de de tendencia' -> 'de tendencia' (PALABRA_DUPLICADA); 1261:2 'acordó m antener' -> 'mantener' (mismo artefacto) y el residuo de escaneo 'k f' entre dos oraciones eliminado (SIMBOLO_SUELTO). MARCADA 1261:2 por una comilla de apertura “ sin cierre antes de 'El Consejo aprueba el texto del Comunicado': hay tres candidatos (residuo a eliminar, cierre faltante tras 'horizonte de política.', o comilla desplazada que deberia abrir el Comunicado como en 6438:3) y el texto no permite elegir. Se deja sin tocar 'tasa de instancia' (58 apariciones en 53 filas): 'instancia' aparece 150 veces y 92 son usos legitimos como anglicismo de 'stance' ('la instancia monetaria es expansiva', 'hacia una instancia mas neutral', 'una instancia de wait and see'); ademas ninguna lectura optica convierte 'interes' en 'instancia', no hay relacion de glifo, luego no es dano de OCR (§3). Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1260:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1260:1",
+      "ID_Padre": "1260",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 3881,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 189,
+      "Justificacion": "Ronda 189 (4 filas, ultima de la sesion 2007-05-10). Cuatro correcciones en 3 filas: 1259:1 'se u b ic a r a' -> 'se ubicara' (SALTOS_DE_LINEA, palabra partida en letras sueltas por justificacion del PDF); 1261:1 'por encima de de tendencia' -> 'de tendencia' (PALABRA_DUPLICADA); 1261:2 'acordó m antener' -> 'mantener' (mismo artefacto) y el residuo de escaneo 'k f' entre dos oraciones eliminado (SIMBOLO_SUELTO). MARCADA 1261:2 por una comilla de apertura “ sin cierre antes de 'El Consejo aprueba el texto del Comunicado': hay tres candidatos (residuo a eliminar, cierre faltante tras 'horizonte de política.', o comilla desplazada que deberia abrir el Comunicado como en 6438:3) y el texto no permite elegir. Se deja sin tocar 'tasa de instancia' (58 apariciones en 53 filas): 'instancia' aparece 150 veces y 92 son usos legitimos como anglicismo de 'stance' ('la instancia monetaria es expansiva', 'hacia una instancia mas neutral', 'una instancia de wait and see'); ademas ninguna lectura optica convierte 'interes' en 'instancia', no hay relacion de glifo, luego no es dano de OCR (§3). Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1261:1": {
+      "ID_Intervencion": "RPM-2007-05-10:1261:1",
+      "ID_Padre": "1261",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 2998,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 189,
+      "Justificacion": "Ronda 189 (4 filas, ultima de la sesion 2007-05-10). Cuatro correcciones en 3 filas: 1259:1 'se u b ic a r a' -> 'se ubicara' (SALTOS_DE_LINEA, palabra partida en letras sueltas por justificacion del PDF); 1261:1 'por encima de de tendencia' -> 'de tendencia' (PALABRA_DUPLICADA); 1261:2 'acordó m antener' -> 'mantener' (mismo artefacto) y el residuo de escaneo 'k f' entre dos oraciones eliminado (SIMBOLO_SUELTO). MARCADA 1261:2 por una comilla de apertura “ sin cierre antes de 'El Consejo aprueba el texto del Comunicado': hay tres candidatos (residuo a eliminar, cierre faltante tras 'horizonte de política.', o comilla desplazada que deberia abrir el Comunicado como en 6438:3) y el texto no permite elegir. Se deja sin tocar 'tasa de instancia' (58 apariciones en 53 filas): 'instancia' aparece 150 veces y 92 son usos legitimos como anglicismo de 'stance' ('la instancia monetaria es expansiva', 'hacia una instancia mas neutral', 'una instancia de wait and see'); ademas ninguna lectura optica convierte 'interes' en 'instancia', no hay relacion de glifo, luego no es dano de OCR (§3). Sin cambios de actor."
+    },
+    "RPM-2007-05-10:1261:2": {
+      "ID_Intervencion": "RPM-2007-05-10:1261:2",
+      "ID_Padre": "1261",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2164,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "PLAN_RONDAS_BANDA_A",
+      "Ronda_Plan": 189,
+      "Justificacion": "Ronda 189 (4 filas, ultima de la sesion 2007-05-10). Cuatro correcciones en 3 filas: 1259:1 'se u b ic a r a' -> 'se ubicara' (SALTOS_DE_LINEA, palabra partida en letras sueltas por justificacion del PDF); 1261:1 'por encima de de tendencia' -> 'de tendencia' (PALABRA_DUPLICADA); 1261:2 'acordó m antener' -> 'mantener' (mismo artefacto) y el residuo de escaneo 'k f' entre dos oraciones eliminado (SIMBOLO_SUELTO). MARCADA 1261:2 por una comilla de apertura “ sin cierre antes de 'El Consejo aprueba el texto del Comunicado': hay tres candidatos (residuo a eliminar, cierre faltante tras 'horizonte de política.', o comilla desplazada que deberia abrir el Comunicado como en 6438:3) y el texto no permite elegir. Se deja sin tocar 'tasa de instancia' (58 apariciones en 53 filas): 'instancia' aparece 150 veces y 92 son usos legitimos como anglicismo de 'stance' ('la instancia monetaria es expansiva', 'hacia una instancia mas neutral', 'una instancia de wait and see'); ademas ninguna lectura optica convierte 'interes' en 'instancia', no hay relacion de glifo, luego no es dano de OCR (§3). Sin cambios de actor."
     }
   },
-  "Total_Leidas": 2213
+  "Total_Leidas": 2226
 }

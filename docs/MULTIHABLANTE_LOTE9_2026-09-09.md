@@ -289,6 +289,7 @@ en una cláusula, sin desarrollarse:
 | 162–169 | 2007-09-13 | 85 | una sola voz en las 85 filas del plan · **sesión cerrada 88/88** · 26 filas con 48 correcciones OCR (49 sustituciones), 11 marcas de cotejo y 6 revisiones descartadas |
 | 170–177 | 2008-08-14 | 96 | una sola voz en las 96 filas del plan · **sesión cerrada 98/98** (2 filas ya estaban leídas) · **una fila nueva con dos voces: `1995:1`** · 20 filas con 35 correcciones OCR (40 sustituciones), 13 marcas de cotejo y 5 revisiones descartadas |
 | 178–183 | 2015-08-13 | 66 | una sola voz en las 66 filas del plan · **sesión cerrada 69/69** (3 filas ya estaban leídas: `6919:1`, `6921:1`, `6966:1`) · 25 filas con 55 correcciones OCR, 9 marcas de cotejo · **una fila entera duplicada: `6926:2`** |
+| 184–189 | 2007-05-10 | 49 | una sola voz en las 49 filas del plan · **sesión cerrada 52/52** (3 filas ya estaban leídas) · 9 filas con 11 correcciones OCR y 3 marcas de cotejo dentro de la sesión · su lectura destapó dos pasadas transversales: 23 ocurrencias de glifos confundidos (i/I/l/1/0/O) en 20 filas, y 53 comillas rectas en 24 filas donde el par es completo y la dirección deducible |
 
 Ronda 1 (padres 30, 34, 36, 38): Corbo responde al Ministro, Valdés explica la revisión
 del producto potencial y luego presenta las opciones numeradas 1 a 7, Marfán sugiere una

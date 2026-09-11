@@ -445,9 +445,40 @@ Lo que **no** se hizo en bloque, y por qué:
 
 - `A continuación,.` — **76 filas**. Es decisión de bloque por tamaño, pero hay
   instrucción expresa de dejarlo intacto. Sigue pendiente.
-- 66 comillas rectas que forman pares enteramente rectos o quedan huérfanas: sin
+- ~~66 comillas rectas que forman pares enteramente rectos o quedan huérfanas: sin
   desequilibrio no hay prueba de defecto. Convertirlas sería normalización
-  tipográfica, no reparación.
+  tipográfica, no reparación.~~ **Corregido más abajo (§9 bis): el razonamiento
+  era falso.**
+
+## 9 bis. Las comillas rectas: el desequilibrio daba la dirección, no el defecto
+
+Se había escrito aquí que un par enteramente recto no era defecto porque «sin
+desequilibrio no hay prueba». Eso es un error y se revierte. El desequilibrio
+entre `“` y `”` nunca probó que hubiera defecto: sólo permitió saber **cuál de
+las dos rectas abría y cuál cerraba**. El defecto es el mismo en los dos casos
+—el escáner produjo `"` donde el documento tenía comilla tipográfica—, y la
+prueba no es el desequilibrio sino la norma del corpus: `“` aparece 323 veces
+por 123 comillas rectas.
+
+Lo que cambia es sólo qué se puede hacer con cada una:
+
+| situación | filas | comillas | acción |
+|---|---|---|---|
+| par completo (cantidad par por fila) | 23 | 52 | convertir: la 1.ª de cada par abre, la 2.ª cierra |
+| cierre de una cita que abre con `“` | 1 (`6438:3`) | 1 | convertir en `”` |
+| cantidad impar por fila | 5 | 5 | **dejar y marcar** `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` |
+
+Las tres filas con 4 rectas son dos pares cada una (`"alerta inflacionaria"` +
+`"emergencia inflacionaria"`, `"a la baja"` + `"neutral"`, `"El Niño"` ×2) y se
+verificó una por una. Las dos `"El Niño"` idénticas van en una sola operación
+con `Ocurrencias: 2`, porque exigir un fragmento distinto inventaría contexto.
+
+**Resultado medido sobre la salida: 123 comillas rectas en la base → 5.** Las 5
+que quedan son las filas impares, y las 5 están marcadas para cotejo.
+
+Sigue abierta, sin regla, la población de **25 filas sin comillas rectas y con
+`“` ≠ `”`**: ahí no hay recta que reparar y decidir si falta un cierre o sobra
+una apertura no sale del texto.
 
 ## 10. Confusión de glifos parecidos (i / I / l / 1 / 0 / O)
 

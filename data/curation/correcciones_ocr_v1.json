@@ -3305,6 +3305,14 @@
           "Ocurrencias": 1,
           "Contexto": "diciones crediticias, pero en su Comunicado da cuenta de una preocupación mayor yeso es lo que predomina en su mantención de la Tasa de Política",
           "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"Dificultad para encontrar empleo\"",
+          "Despues": "“Dificultad para encontrar empleo”",
+          "Ocurrencias": 1,
+          "Contexto": "tienen en niveles relativamente elevados. También hay un indicador de \"Dificultad para encontrar empleo\" que ha crecido, lo que está en línea con un ",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
         }
       ]
     },
@@ -6533,6 +6541,14 @@
           "Ocurrencias": 1,
           "Contexto": "hasta ahora. Respecto de la economía nacional, hace presente que la volatilidad cambiaría que se analizara en la Reunión anterior ha amainado, y que ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"tormenta perfecta\"",
+          "Despues": "“tormenta perfecta”",
+          "Ocurrencias": 1,
+          "Contexto": " no es el escenario más probable, la posibilidad de que sí ocurra una \"tormenta perfecta\" se ve más cercana, con impactos superiores a",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
         }
       ]
     },
@@ -9707,6 +9723,14 @@
           "Despues": " “",
           "Contexto": "ectura al texto del Comunicado, que es del siguiente tenor: Comunicado \"En su reunión mensual de política monetaria, el Consejo",
           "Justificacion": "Comilla recta que abre la cita del Comunicado. Medido en todo el corpus: la formula \"Comunicado\" va seguida de “ 99 veces y de una recta solo 6. La apertura es inequivoca y la corroboracion es del propio corpus, no de la intuicion."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "l horizonte de política.\"",
+          "Despues": "l horizonte de política.”",
+          "Ocurrencias": 1,
+          "Contexto": "exibilidad, de manera que la inflación proyectada se ubique en 3% en el horizonte de política.\"",
+          "Justificacion": "La fila abre con Comunicado “En su reunion mensual de politica (posicion 441, unica comilla de apertura) y TERMINA con una comilla recta en la posicion 2302, la ultima de la fila. Es el cierre de esa misma cita y no hay otro candidato. Es el patron ya resuelto en 5330:3 y 6547:3 (nivel 6): una cita del Comunicado abierta con tipografica y cerrada con recta."
         }
       ]
     },
@@ -10125,6 +10149,390 @@
           "Ocurrencias": 1,
           "Contexto": "n no minero público, que no se condice con el crecimiento de la inversión pública de 1O o 20% este año. Observa que de acuerdo con lo graficado, su",
           "Justificacion": "1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez (\"tasas a 1O años plazo\", \"lámina Nº 1O\", \"US$ 3,1O la libra\", \"a 5 y 1O años\", \"a 2 y 1O años\", \"a 1O años\", \"de 1O o 20%\"). Se verifico que no existen apariciones embebidas en otras palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1257:1",
+      "Fecha": "2007-05-10",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"commodities\"",
+          "Despues": "“commodities”",
+          "Ocurrencias": 1,
+          "Contexto": "das. Hace presente el Consejero señor Marshall que los precios de los \"commodities\" permanecen en niveles altos, lo que resulta ",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1722:2",
+      "Fecha": "2008-03-13",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"compra de cartera mala\"",
+          "Despues": "“compra de cartera mala”",
+          "Ocurrencias": 1,
+          "Contexto": " bancos y con las garantías mencionadas, sólo sería equivalente a una \"compra de cartera mala\" si la probabilidad de devolución de dichos p",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2070:1",
+      "Fecha": "2008-09-04",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"U\"",
+          "Despues": "“U”",
+          "Ocurrencias": 1,
+          "Contexto": "económico porque la estructura de tasas corresponde a la forma de una \"U\" invertida, pero la inflación tamb ién presen",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2125:1",
+      "Fecha": "2008-10-09",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"manejar\"",
+          "Despues": "“manejar”",
+          "Ocurrencias": 1,
+          "Contexto": "se debe ponderar el efecto que tendría sobre la confianza del público \"manejar\" adecuadamente la economía en el actual escen",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2402:1",
+      "Fecha": "2009-03-12",
+      "Actor": "Claudio Soto Gamboa",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"mucho\"",
+          "Despues": "“mucho”",
+          "Ocurrencias": 1,
+          "Contexto": "sonas que responde que la inflación en los próximos doce meses subirá \"mucho\" continúa retrocediendo, ubicándose en 42% de",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2438:1",
+      "Fecha": "2009-03-12",
+      "Actor": "José De Gregorio Rebeco",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"adelante de la curva\"",
+          "Despues": "“adelante de la curva”",
+          "Ocurrencias": 1,
+          "Contexto": "uficiente para estar, como se dice en la jerga de política monetaria, \"adelante de la curva\". Señala que obviamente estas estrategias tie",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-01-14:2851:1",
+      "Fecha": "2010-01-14",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"respirador artificial\"",
+          "Despues": "“respirador artificial”",
+          "Ocurrencias": 1,
+          "Contexto": "García, comenta lo expresado por el señor Vicepresidente respecto del \"respirador artificial\" y los precios de los commodities. En cuanto ",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3452:1",
+      "Fecha": "2010-10-14",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"L\"",
+          "Despues": "“L”",
+          "Ocurrencias": 1,
+          "Contexto": "que evitar una deflación, lo que significa que todos están viendo una \"L\" con una pequeña pendiente. Añade , finalment",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3889:1",
+      "Fecha": "2011-03-17",
+      "Actor": "Manuel Marfán Lewis",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"alerta inflacionaria\"",
+          "Despues": "“alerta inflacionaria”",
+          "Ocurrencias": 1,
+          "Contexto": "ezcla de indicadores que, en lenguaje figurado, deberían implicar una \"alerta inflacionaria\", ya que, a su juicio, se está muy lejos aún ",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"emergencia inflacionaria\"",
+          "Despues": "“emergencia inflacionaria”",
+          "Ocurrencias": 1,
+          "Contexto": "rta inflacionaria\", ya que, a su juicio, se está muy lejos aún de una \"emergencia inflacionaria\". En efecto, plantea que a los shocks inflaci",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4203:1",
+      "Fecha": "2011-07-14",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"bono basura\"",
+          "Despues": "“bono basura”",
+          "Ocurrencias": 1,
+          "Contexto": "ebajó recientemente la calificación crediticia de Irlanda al nivel de \"bono basura\", corriendo la misma suerte de Portugal y Gre",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4218:1",
+      "Fecha": "2011-08-18",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"Zona-Euro: Spread Libor-OIS\"",
+          "Despues": "“Zona-Euro: Spread Libor-OIS”",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Enrique Marshall consulta si el gráfico \"Zona-Euro: Spread Libor-OIS\" se refiere al mercado en dólares.",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4506:1",
+      "Fecha": "2011-12-13",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"mantener la TPM en 5,25% coincide con la expectativa mayoritaria del mercado\"",
+          "Despues": "“mantener la TPM en 5,25% coincide con la expectativa mayoritaria del mercado”",
+          "Ocurrencias": 1,
+          "Contexto": "ntenidos en la Minuta de Opciones, excepto el que señala textualmente \"mantener la TPM en 5,25% coincide con la expectativa mayoritaria del mercado\", habida consideración que la mediana de la E",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-09-13:5089:1",
+      "Fecha": "2012-09-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"menos que satisfactorio\"",
+          "Despues": "“menos que satisfactorio”",
+          "Ocurrencias": 1,
+          "Contexto": "a exhibe un desempeño que sus propias autoridades han calificado como \"menos que satisfactorio\". Además, las principales economías emergente",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5266:1",
+      "Fecha": "2012-12-13",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"fiscal cliff\"",
+          "Despues": "“fiscal cliff”",
+          "Ocurrencias": 1,
+          "Contexto": "s de América, señala que se mantiene la ¡ncertidumbre con respecto al \"fiscal cliff\" y el techo de la deuda pública, y que conclu",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-08-13:5745:1",
+      "Fecha": "2013-08-13",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"que la desaceleración se observaba con menor claridad en los indicadores de consumo, aunque algunos de sus determinantes debieran comenzar a ceder. Ello justificaba recabar más información, lo que en ese momento favorecía la opción de mantener.\"",
+          "Despues": "“que la desaceleración se observaba con menor claridad en los indicadores de consumo, aunque algunos de sus determinantes debieran comenzar a ceder. Ello justificaba recabar más información, lo que en ese momento favorecía la opción de mantener.”",
+          "Ocurrencias": 1,
+          "Contexto": " esperar. Deja constancia que en su voto en la Reunión pasada expresó \"que la desaceleración se observaba con menor claridad en los indicadores de consumo, aunque algunos de sus determinantes debieran comenzar a ceder. Ello justificaba recabar más información, lo que en ese momento favorecía la opción de mantener.\" En esta oportunidad, el Consejero señor Seba",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:5987:1",
+      "Fecha": "2014-01-16",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"Expectativas de inflación se han tendido a incrementar moderadamente y se ubican en torno a la meta en el horizonte de política.\"",
+          "Despues": "“Expectativas de inflación se han tendido a incrementar moderadamente y se ubican en torno a la meta en el horizonte de política.”",
+          "Ocurrencias": 1,
+          "Contexto": "Beltrán de Ramón se refiere a la lámina N° 70, cuyo encabezado indica \"Expectativas de inflación se han tendido a incrementar moderadamente y se ubican en torno a la meta en el horizonte de política.\" Sobre el particular, hace notar que luego de",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6425:1",
+      "Fecha": "2014-09-11",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"a la baja\"",
+          "Despues": "“a la baja”",
+          "Ocurrencias": 1,
+          "Contexto": " recorte de 50 puntos base, en conjunto con un cambio del sesgo desde \"a la baja\" a \"neutral\", tiene dos propósitos. Por un la",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"neutral\"",
+          "Despues": "“neutral”",
+          "Ocurrencias": 1,
+          "Contexto": " puntos base, en conjunto con un cambio del sesgo desde \"a la baja\" a \"neutral\", tiene dos propósitos. Por un lado, proveer ",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-12-11:6528:1",
+      "Fecha": "2014-12-11",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"el alto precio del dólar alentará la inversión y el consumo\"",
+          "Despues": "“el alto precio del dólar alentará la inversión y el consumo”",
+          "Ocurrencias": 1,
+          "Contexto": "l Ministro de Hacienda señor Alberto Arenas declaró recientemente que \"el alto precio del dólar alentará la inversión y el consumo\". Por esta razón, solicita se profundice el a",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-01-15:6586:2",
+      "Fecha": "2015-01-15",
+      "Actor": "Alberto Arenas de Mesa",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"otros vehículos de transporte\"",
+          "Despues": "“otros vehículos de transporte”",
+          "Ocurrencias": 1,
+          "Contexto": "s de diciembre pasado, y cercano a 6% cuando se excluye el componente \"otros vehículos de transporte\"; y que las importaciones nominales de consum",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-10-15:7063:1",
+      "Fecha": "2015-10-15",
+      "Actor": "Diego Gianelli Gómez",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"El Niño\"",
+          "Despues": "“El Niño”",
+          "Ocurrencias": 1,
+          "Contexto": "r que la consignada en la Reunión previa; y que el fenómeno climático \"El Niño\" contribuiría a contener la oferta de algunas",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-11-12:7114:1",
+      "Fecha": "2015-11-12",
+      "Actor": "Diego Gianelli Gómez",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "\"El Niño\"",
+          "Despues": "“El Niño”",
+          "Ocurrencias": 2,
+          "Contexto": " largo plazo se corrige en menor medida. De otro lado, el fenómeno de \"El Niño\" ha provocado lluvias en Brasil, sequía en Co",
+          "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1259:1",
+      "Fecha": "2007-05-10",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Operaciones": [
+        {
+          "Tipo": "SALTOS_DE_LINEA",
+          "Antes": "se u b ic a r a por encima",
+          "Despues": "se ubicara por encima",
+          "Ocurrencias": 1,
+          "Contexto": "ica Monetaria esencialmente debido a que los riesgos de que la inflación futura se u b ic a r a por encima del escenario central del IPoM, nuevamente habían crec",
+          "Justificacion": "La palabra \"ubicara\" aparece partida en letras sueltas (\"se u b ic a r a por encima\"), artefacto de justificacion del PDF que separa las letras de una palabra. El tipo SALTOS_DE_LINEA existe para esto. La palabra es inequivoca: \"los riesgos de que la inflacion futura se ubicara por encima del escenario central\". Medido: este artefacto aparece 35 veces en 18 filas del corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1261:1",
+      "Fecha": "2007-05-10",
+      "Actor": "Vittorio Corbo Lioi",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "crecería este año por encima de de tendencia",
+          "Despues": "crecería este año por encima de tendencia",
+          "Ocurrencias": 1,
+          "Contexto": "s industrias. Indica, que este cuadro consolida una situación donde el producto crecería este año por encima de de tendencia, contribuyendo a un cierre progresivo de las brechas d",
+          "Justificacion": "Preposicion \"de\" duplicada (\"por encima de de tendencia\"). Es el caso tipificado del tipo PALABRA_DUPLICADA. \"por encima de tendencia\" es la expresion economica habitual (above trend) y no falta ninguna otra palabra: la frase queda completa y gramatical."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1261:2",
+      "Fecha": "2007-05-10",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Operaciones": [
+        {
+          "Tipo": "SALTOS_DE_LINEA",
+          "Antes": "acordó m antener la tasa",
+          "Despues": "acordó mantener la tasa",
+          "Ocurrencias": 1,
+          "Contexto": "su reunión mensual de política monetaria, el Consejo del Banco Central de Chile acordó m antener la tasa de interés de política monetaria en 5% anual. El escen",
+          "Justificacion": "La palabra \"mantener\" aparece partida (\"acordó m antener la tasa de interés\"), mismo artefacto de justificacion. Palabra inequivoca y formula fija del Comunicado: \"acordó mantener la tasa de interés de política monetaria en 5% anual\"."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "permanecen altos. k f La información",
+          "Despues": "permanecen altos. La información",
+          "Ocurrencias": 1,
+          "Contexto": "de sus derivados, especialmente la gasolina, así como los de algunos alimentos, permanecen altos. k f La información disponible confirma un mayor crecimiento de la activid",
+          "Justificacion": "Residuo de escaneo \"k f\" entre dos oraciones (\"permanecen altos. k f La información disponible\"). No es texto: son dos caracteres sueltos que no forman palabra ni pertenecen a ninguna de las dos oraciones, que por separado estan completas. Se elimina como simbolo suelto, igual que los residuos ya tratados en otras filas."
         }
       ]
     }
@@ -10884,6 +11292,12 @@
       "ID_Intervencion": "RPM-2007-07-12:1312:1",
       "Texto_Original_Fragmento": "los efectos fIy to quality",
       "Motivo": "RECONSTRUCCION_AMBIGUA. La i se leyo como I mayuscula, pero hay dos reconstrucciones viables y distintas: el arreglo minimo del glifo da \"fly to quality\", que no aparece ninguna vez en el corpus, mientras que la expresion financiera estandar \"flight to quality\" aparece 21 veces. Elegir \"flight\" exige insertar cuatro letras, que es reconstruir y no corregir un glifo. Se deja sin tocar y se marca para cotejo con el PDF.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1261:2",
+      "Texto_Original_Fragmento": "en el horizonte de política. “ El Consejo aprueba el texto del Comunicado.",
+      "Motivo": "RECONSTRUCCION_AMBIGUA. La fila tiene una comilla de apertura “ sin cierre (balance “1 ”0) justo antes de \"El Consejo aprueba el texto del Comunicado\", que es narración del acta y no parte del Comunicado. Hay tres candidatos y el texto no permite elegir: (a) la “ es un residuo y se elimina; (b) falta un ” después de \"horizonte de política.\"; (c) la “ está desplazada y debería abrir antes de \"En su reunión mensual\", que es como aparece en la fila paralela RPM-2014-09-11:6438:3. Población conocida: 25 filas tienen “ != ” sin comillas rectas. Se marca y no se elige.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
