@@ -133,9 +133,13 @@ def main() -> int:
           for r in reg['Revisiones_Sin_Correccion']}
     nuevas_rev = 0
     for r in lote.get('Revisiones_Sin_Correccion', []):
-        if 'Marca' not in r:
-            print('RECHAZADA sin Marca:', r['ID_Intervencion'])
-            return 1
+        # El contrato de tests/test_correcciones_ocr_v1.py exige Marca, Motivo y
+        # Texto_Original_Fragmento no vacíos. Antes sólo se validaba Marca y eso
+        # dejó pasar 51 revisiones sin Motivo: la suite completa falló.
+        for campo in ('Marca', 'Motivo', 'Texto_Original_Fragmento'):
+            if not (r.get(campo) or '').strip():
+                print('RECHAZADA sin %s: %s' % (campo, r['ID_Intervencion']))
+                return 1
         clave = (r['ID_Intervencion'], r['Texto_Original_Fragmento'])
         if clave in ya:
             continue
