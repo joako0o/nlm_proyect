@@ -143,6 +143,23 @@ misma fila o en la misma sesión**. Si no está, se marca para cotejar.
 
 ### 2 bis. La corroboración sólo se pide si la forma defectuosa es una palabra real
 
+**La prueba, en una línea: ¿la oración se puede leer con la palabra defectuosa?**
+Si **sí**, existe una lectura alternativa que proteger y hace falta
+corroboración en la fila o en la sesión. Si **no**, la reparación está forzada
+y se corrige.
+
+| forma defectuosa | ¿se puede leer? | decisión |
+|---|---|---|
+| `un alza en el control de endeudamiento` | **sí** («el control del endeudamiento» tiene sentido) | **marcar** |
+| `implicancias cambiarlas de distinto ciclo` | no (un infinitivo no puede ser adjetivo) | corregir |
+| `se ha tomado más sombrío` | no (`tomarse` no admite ese complemento) | corregir |
+| `un retomo a prácticas habituales` | no (tras el artículo `un` sólo cabe sustantivo) | corregir |
+| `no se cuenta que datos desagregados` | no, pero la sustitución cambia letras por completo (`que`→`con`) | **marcar** |
+
+La última fila es el límite: cuando lo que falta **no es un glifo de la misma
+palabra** sino otra palabra entera, la sección 2 manda aunque la oración no se
+sostenga, porque ahí sí se está inventando vocabulario.
+
 La regla de arriba existe para no inventar: si lo que quedó en el texto
 **puede leerse de otra manera**, hace falta que el documento respalde la
 enmienda. Pero cuando la forma defectuosa **no es una palabra**, no hay lectura

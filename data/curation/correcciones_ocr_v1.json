@@ -2575,6 +2575,62 @@
           "Justificacion": "Tilde por i en posición de adjetivo, sección 3 ter. Tercera ocurrencia de la familia en esta misma sesión (6953:2, 6965:1 y esta), más dos en 6967:1."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6974:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Sebastián Claro Edwards",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "que se han visto refrendadas con las modificaciones a la política cambiaría en ese país",
+          "Despues": "que se han visto refrendadas con las modificaciones a la política cambiaria en ese país",
+          "Contexto": "s, las noticias sobre China y el grado de desaceleración que está experimentando esa economía, que se han visto refrendadas con las modificaciones a la política cambiaría en ese país. En su opinión, la depreciación del yuan es positiva para el ajuste m",
+          "Justificacion": "Tilde por i en posición de adjetivo, sección 3 ter."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "las perspectivas externas sugieren que la recuperación debiera der más lenta que lo anticipado",
+          "Despues": "las perspectivas externas sugieren que la recuperación debiera ser más lenta que lo anticipado",
+          "Contexto": "lación a 3% en dos años. Manifiesta que las cifras de los últimos meses, la dinámica interna y las perspectivas externas sugieren que la recuperación debiera der más lenta que lo anticipado, y que además se ha producido una corrección relevante al alza de la ",
+          "Justificacion": "Ese por ese: 'debiera der' no es palabra y la oración no admite otra lectura. Corroborada dentro de la misma fila, que es lo mejor que puede pasar: 'debiera ser' aparece 1 vez en 6974:1, 1 en la sesión y 90 en el corpus. Medido: 'debiera der' aparece 1 sola vez en todo el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6976:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Enrique Marshall Rivera",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Destaca que la minuta de la Gerencia de División Estudios, después de varios meses, vuelve a plantear dos opciones. A su juicio, es fundamentalmente un retomo a prácticas habituales",
+          "Despues": "Destaca que la minuta de la Gerencia de División Estudios, después de varios meses, vuelve a plantear dos opciones. A su juicio, es fundamentalmente un retorno a prácticas habituales",
+          "Contexto": "ya que su comportamiento en los últimos meses resulta positivo para la dinámica inflacionaria. Destaca que la minuta de la Gerencia de División Estudios, después de varios meses, vuelve a plantear dos opciones. A su juicio, es fundamentalmente un retomo a prácticas habituales. Con todo, expresa que los antecedentes revisados lo llevan a descart",
+          "Justificacion": "Ene perdida: 'retomo' por 'retorno'. 'retomo' es una forma verbal real, pero después del artículo 'un' sólo cabe un sustantivo, así que en este lugar la forma defectuosa es gramaticalmente imposible y la reparación es única. Es el mismo razonamiento de la sección 3 ter para 'cambiaría'. Medido: 'retomo' aparece 1 sola vez en el corpus y 'un retorno a' 9."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "el panorama para las economías exportadoras de materias primas, incluido Chile, se ha tomado más sombrío",
+          "Despues": "el panorama para las economías exportadoras de materias primas, incluido Chile, se ha tornado más sombrío",
+          "Contexto": " la economía global se mueve en la dirección de mayor normalidad, lo que es sin duda positivo, el panorama para las economías exportadoras de materias primas, incluido Chile, se ha tomado más sombrío. En lo concerniente al frente interno, se reafirma la visión de una t",
+          "Justificacion": "Te por erre: 'tomado' por 'tornado'. 'tomado' es palabra real y 'se ha tomado' aparece 5 veces en el corpus, pero en el marco 'se ha ___ más sombrío' el verbo tomarse no funciona: el panorama no se toma sombrío, se torna sombrío. Con la forma defectuosa la oración no es gramatical y el candidato es uno solo, así que se corrige aunque 'se ha tornado' no aparezca en la fila ni en la sesión (32 veces en el corpus). Se distingue de 'control de endeudamiento', que sí se marcó porque 'un alza en el control de endeudamiento' SÍ se puede leer y por tanto existe una lectura alternativa que proteger."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6977:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Rodrigo Vergara Montes",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Manifiesta que si bien las explicaciones son claras, esto es cambiarías, esta elevada persistencia genera un riesgo",
+          "Despues": "Manifiesta que si bien las explicaciones son claras, esto es cambiarias, esta elevada persistencia genera un riesgo",
+          "Contexto": "lo se mantendrá por varios meses más. Enfatiza que el Consejo no puede ser indiferente a ello. Manifiesta que si bien las explicaciones son claras, esto es cambiarías, esta elevada persistencia genera un riesgo de desanclaje de expectativas. Plantea que es cierto que este riesgo ",
+          "Justificacion": "Tilde por i en el adjetivo plural, sección 3 ter. MEDICION CORREGIDA: 'cambiarías' con ese aparece 53 veces en el corpus, y esas 53 están DENTRO de las 241 que se venían citando para 'cambiaría', porque la cadena corta es substring de la larga. O sea la familia se reparte en 188 singulares y 53 plurales, no 241 singulares. Es la misma trampa de contar sin delimitar que 'breca' dentro de 'sobrecalentamiento' y 'ratando' dentro de 'tratando'."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -3279,6 +3335,18 @@
       "Texto_Original_Fragmento": "cita los casos de Brasil y también de México, que han enfrentado un problema de desanclaje por mucho tiempo y que han logrado “reanclar1' recientemente",
       "Motivo": "EL CIERRE DE LA COMILLA ESTÁ DAÑADO Y LA PALABRA QUE LO PRECEDE ADMITE TRES LECTURAS. La fila tiene 1 apertura curva, 0 cierres curvos y 2 rectas (estas últimas son el par de 'dilema del prisionero'), así que el '1'' que sigue a 'reanclar' es con toda probabilidad el cierre '”' mal leído. Pero la palabra citada podría ser 'reanclar', 'reanclarlo' o 'reanclarlas', y ninguna está corroborada: 'reanclar' aparece 1 sola vez en el corpus (aquí) y 'reanclarlo' 0. Reparan distinto, así que la sección 8 manda marcar. No se toca tampoco el par enteramente recto de 'dilema del prisionero' en esta misma fila: de las 123 comillas rectas del corpus sólo 52 cierran una apertura curva y este no es uno de esos casos.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6978:1",
+      "Texto_Original_Fragmento": "el Consejo adoptó el siguiente Acuerdo: N° 225-01-150813 - Tasa de Política Monetaria En su reunión mensual de política monetaria",
+      "Motivo": "FALTA UN PUNTO SEGUIDO antes de 'En', que abre con mayúscula y arranca el texto del Acuerdo. Sección 7: se marca y nunca se repone. Medido: el fragmento aparece 1 vez en el corpus.",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6979:1",
+      "Texto_Original_Fragmento": "Se levanta la Sesión a las 17:00 horas. E MARSHALL RIVERA RODRIGO VERGARA MONTES Vicepresidente Presidente.",
+      "Motivo": "FIRMA TRUNCADA Y NOMBRE PROPIO: SE MARCA Y NO SE REPONE. La firma del Vicepresidente quedó como 'E MARSHALL RIVERA', sin el nombre. El nombre completo está documentado: la fila de asistencia de esta misma sesión (6918:1) dice 'don Enrique Marshall Rivera' y 'ENRIQUE MARSHALL RIVERA' aparece 4 veces en el corpus. PERO medido con cuidado, 'E MARSHALL RIVERA' aparece 15 veces: es la firma manuscrita escaneada mes a mes y el OCR la lee igual de mal cada vez, igual que los otros bloques de firma del corpus, que están todos dañados ('VITTORIO CORBO LIOI', ')RIO CORBO LIOI', 'rORTO CORBO LIOIV', 'j o r g e DESORMEAUX JIMÉNEZ', 'EN9ÍQUE MARSHAL...'). La sección 5 dice que un nombre propio nunca se reescribe, sólo se marca, y eso rige aunque el vocabulario de tipos incluya FIRMA_TRUNCADA, que por eso sigue sin usarse: repararla sería decidir la grafía de un nombre. Queda como pregunta abierta para el usuario, igual que el espacio intrapalabra dentro de un nombre propio.",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
