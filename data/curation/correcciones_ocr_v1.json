@@ -2505,6 +2505,76 @@
           "Justificacion": "Falta la preposición: 'frente la decisión' no es gramatical y la reparación es única, porque el OCR omite y no agrega palabras. 'frente a la' aparece 110 veces en el corpus. Mismo criterio que 'la mayoría las monedas' (ronda 178) y 'la proyección el PIB' (ronda 179): preposición faltante, cadena agramatical, reparación única."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6965:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "el único factor importante de riesgo que queda, y que presiona los precios, es la depreciación cambiaría, pero que finalmente",
+          "Despues": "el único factor importante de riesgo que queda, y que presiona los precios, es la depreciación cambiaria, pero que finalmente",
+          "Contexto": "a— y la brecha de PIB y uso de capacidad están en terreno negativo. De esta forma, plantea que el único factor importante de riesgo que queda, y que presiona los precios, es la depreciación cambiaría, pero que finalmente es la forma de ajustar todo lo anterior a nuestro esquema de política",
+          "Justificacion": "Tilde por i en posición de adjetivo. Sección 3 ter: la familia 'cambiar*' se corrige sin corroboración porque la forma verbal es imposible en este lugar."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "que están “incómodos\" con la inflación headline",
+          "Despues": "que están “incómodos” con la inflación headline",
+          "Contexto": "las autoridades del Banco, encabezadas por su Presidente, mencionen en entrevistas y discursos que están “incómodos\" con la inflación headline. En su opinión, ello no solo es legítimo, sino que va en la dirección",
+          "Justificacion": "Comilla recta usada como cierre de una apertura curva. Es un PAR MIXTO y por eso es defecto sin ambigüedad: la fila tiene 1 apertura curva, 0 cierres curvos y 1 recta, así que esa recta sólo puede ser el cierre que falta. MEDIDO EN TODO EL CORPUS: de las 123 comillas rectas, 52 cierran una apertura curva (par mixto, defecto seguro) y 71 son otra cosa, entre ellas pares enteramente rectos como '\"dilema del prisionero\"' de esta misma sesión o '\"commodities\"' en 1257:1, que no se tocan porque ahí no hay desequilibrio que pruebe el defecto. Aperturas curvas 323, cierres curvos 267, rectas 123 en 91 filas, y 65 filas tienen más aperturas que cierres."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6967:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "si se desancla la economía, será preciso reaccionar y determ inar las causas que llevaron a ello",
+          "Despues": "si se desancla la economía, será preciso reaccionar y determinar las causas que llevaron a ello",
+          "Contexto": "eocupación por ello. Enfatiza que un banco central siempre está preocupado del anclaje. Luego, si se desancla la economía, será preciso reaccionar y determ inar las causas que llevaron a ello, y cuál fue el carácter del Banco Central al respecto. Indica que un ",
+          "Justificacion": "Palabra partida: 'determ inar' por 'determinar'. Sección 1 ter, se reúne sin alterar una letra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "una función de reacción que lleve a subir la tasa de interés después de una depreciación cambiaría, por la configuración de parámetros",
+          "Despues": "una función de reacción que lleve a subir la tasa de interés después de una depreciación cambiaria, por la configuración de parámetros",
+          "Contexto": "por mucho tiempo y que han logrado “reanclar1' recientemente. Manifiesta que distinto es tener una función de reacción que lleve a subir la tasa de interés después de una depreciación cambiaría, por la configuración de parámetros, dado que la combinación inflación y desempleo o inflación con breca ",
+          "Justificacion": "Tilde por i en posición de adjetivo, sección 3 ter."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "dado que la combinación inflación y desempleo o inflación con breca no es aceptada como conveniente",
+          "Despues": "dado que la combinación inflación y desempleo o inflación con brecha no es aceptada como conveniente",
+          "Contexto": " la tasa de interés después de una depreciación cambiaría, por la configuración de parámetros, dado que la combinación inflación y desempleo o inflación con breca no es aceptada como conveniente para fines de política monetaria, y en este aspecto radicaría la inde",
+          "Justificacion": "Falta la hache: 'breca' por 'brecha'. La palabra 'breca' existe (un pez) pero aquí no tiene sentido y la oración no admite otra lectura. Corroborada de sobra: 'brecha' aparece 5 veces en esta misma sesión y 851 en el corpus. OJO CON LA MEDICION: 'breca' parece aparecer 28 veces, pero 27 de esas están DENTRO de 'sobrecalentamiento'/'sobrecalentada' (so-breca-lentamiento). La ocurrencia real es 1 sola. Es la misma trampa que 'ratando' dentro de 'tratando' y por eso la regla exige delimitar la palabra antes de contar."
+        },
+        {
+          "Tipo": "PALABRA_OMITIDA",
+          "Antes": "considerando además en este contexto el marco de aplicación de políticas contracíclicas y el hecho que el cambio de precios relativos puede llegar ser fuerte en dicho período",
+          "Despues": "considerando además en este contexto el marco de aplicación de políticas contracíclicas y el hecho que el cambio de precios relativos puede llegar a ser fuerte en dicho período",
+          "Contexto": " cuyos parámetros se mueven de manera continua, lo que hace que todo sea de mayor complejidad, considerando además en este contexto el marco de aplicación de políticas contracíclicas y el hecho que el cambio de precios relativos puede llegar ser fuerte en dicho período. Concluye que lo indicado exige un ajuste fino de equilibrios, el que",
+          "Justificacion": "Falta la preposición: 'puede llegar ser fuerte' no es gramatical y la reparación es única, porque el OCR omite y no agrega palabras. 'llegar a ser' aparece 5 veces en el corpus. Mismo criterio que 'frente la decisión' (ronda 181), 'la proyección el PIB' (ronda 179) y 'la mayoría las monedas' (ronda 178)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6969:1",
+      "Fecha": "2015-08-13",
+      "Actor": "Pablo García Silva",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "constituye en su opinión una circunstancia excepcional que amerita considerar la intervención cambiaría esterilizada",
+          "Despues": "constituye en su opinión una circunstancia excepcional que amerita considerar la intervención cambiaria esterilizada",
+          "Contexto": "el Banco Central con la meta, forzando un alza de la TPM aun en una situación débil del ciclo, constituye en su opinión una circunstancia excepcional que amerita considerar la intervención cambiaría esterilizada, preservando así la autonomía de la política monetaria. De lo contrar",
+          "Justificacion": "Tilde por i en posición de adjetivo, sección 3 ter. Tercera ocurrencia de la familia en esta misma sesión (6953:2, 6965:1 y esta), más dos en 6967:1."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -3203,6 +3273,12 @@
       "Texto_Original_Fragmento": "durante la presente Reunión no es una señal al mercado respecto de una determinada trayectoria futura para la TPM En su opinión, es una discusión que corresponde al próximo IPoM.",
       "Motivo": "FALTA UN PUNTO SEGUIDO antes de 'En', que abre con mayúscula y arranca una oración nueva. Sección 7: se marca y nunca se repone. Medido: el fragmento aparece 1 vez en el corpus.",
       "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2015-08-13:6967:1",
+      "Texto_Original_Fragmento": "cita los casos de Brasil y también de México, que han enfrentado un problema de desanclaje por mucho tiempo y que han logrado “reanclar1' recientemente",
+      "Motivo": "EL CIERRE DE LA COMILLA ESTÁ DAÑADO Y LA PALABRA QUE LO PRECEDE ADMITE TRES LECTURAS. La fila tiene 1 apertura curva, 0 cierres curvos y 2 rectas (estas últimas son el par de 'dilema del prisionero'), así que el '1'' que sigue a 'reanclar' es con toda probabilidad el cierre '”' mal leído. Pero la palabra citada podría ser 'reanclar', 'reanclarlo' o 'reanclarlas', y ninguna está corroborada: 'reanclar' aparece 1 sola vez en el corpus (aquí) y 'reanclarlo' 0. Reparan distinto, así que la sección 8 manda marcar. No se toca tampoco el par enteramente recto de 'dilema del prisionero' en esta misma fila: de las 123 comillas rectas del corpus sólo 52 cierran una apertura curva y este no es uno de esos casos.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
