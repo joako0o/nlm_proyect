@@ -43,6 +43,13 @@ en bloque porque la política es fila por fila, sin reglas automáticas.
 | `IRC` por `IPC` (erre por pe) | **71 veces en 46 filas** de 32 sesiones, todas entre 2005-04-07 y 2010-02-11; 10 de ellas son `IRCX` por `IPCX` | **65 ocurrencias en 45 filas**. Corregidas las 6 de `1994:2` en la ronda 171 |
 | `yeso` por `y eso` (espacio perdido) | **13 veces en 12 filas**, todas el mismo defecto | **12 ocurrencias en 11 filas**. Corregida la de `2001:1` en la ronda 171 |
 | `nesgo` por `riesgo` | **29 veces en 29 filas**, y las 29 son hueco de `riesgo`, nunca de `sesgo` | **28 ocurrencias en 28 filas**. Corregida la de `2043:1` en la ronda 177. Ya estaba como ejemplo en la tabla de la sección 1 |
+| oración de plantilla repetida con el mismo defecto | `de la mayoría las monedas frente al dólar` aparece **3 veces**: `6867:1` y `6876:1` (2015-07-14) y `6920:1` (2015-08-13) | **2 filas en 2015-07-14**, sin leer. Corregida la de `6920:1` en la ronda 178 |
+
+El último caso merece atención porque parece un patrón legítimo y no lo es.
+Que una cadena aparezca varias veces no la hace correcta: aquí el área repite
+mes a mes la misma oración de presentación internacional, así que el defecto se
+copió tres veces. La prueba es que `la mayoría de las` aparece 89 veces en el
+corpus y `la mayoría las` sólo en esas 3, todas idénticas.
 
 Del `IRC` se verificó caso por caso que las **71** son contexto de índice de
 precios, incluidas las 18 donde la palabra «inflación» no aparece cerca: «un

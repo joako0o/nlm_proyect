@@ -109,6 +109,11 @@ de identidad vive en `Actor_Final` y no se toca.
    de escribirlos (un solo script que los cuente todos).
 4. Escribir el lote en `.cache/lote_ocr_NNN.json` (el lote sí puede vivir en `.cache/`; las herramientas no) y fusionar:
    `.venv/bin/python scripts/agregar_correcciones_ocr.py .cache/lote_ocr_NNN.json`
+   **Ojo:** el script sólo propaga `Correcciones` y `Revisiones_Sin_Correccion`.
+   Si el lote lleva `Marcas_Adicionales` (segunda marca de una fila que ya tiene
+   otra), **se pierde en silencio**: hay que agregarla directo a
+   `data/curation/correcciones_ocr_v1.json`. Detectado en la ronda 178, cuando
+   `6918:1` necesitaba un punto ausente y un nombre propio.
 5. Validar: `.venv/bin/python scripts/correcciones_ocr_v1.py --validar`
 6. Anotar la ronda:
    `.venv/bin/python scripts/rondas_lectura_lote9.py registrar N UNA_SOLA_VOZ "justificación"`
