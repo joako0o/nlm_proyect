@@ -4,21 +4,21 @@ Generado por `scripts/exportar_revision_ocr.py`. No es una fuente: es una
 vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
-- filas corregidas: **1393**
-- operaciones: **2312**
-- filas marcadas para cotejo: **196**
+- filas corregidas: **1399**
+- operaciones: **2327**
+- filas marcadas para cotejo: **199**
 - sha256 de la base: `d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75`
 
 ## Operaciones por tipo
 
 | tipo | operaciones |
 |---|---:|
-| `ESPACIO_INDEBIDO` | 515 |
-| `LETRA_CONFUNDIDA` | 487 |
-| `PALABRA_PARTIDA` | 415 |
+| `ESPACIO_INDEBIDO` | 513 |
+| `LETRA_CONFUNDIDA` | 496 |
+| `PALABRA_PARTIDA` | 417 |
 | `ACENTO_INDEBIDO` | 348 |
 | `ACENTO_FALTANTE` | 182 |
-| `PUNTUACION` | 106 |
+| `PUNTUACION` | 112 |
 | `SIMBOLO_SUELTO` | 88 |
 | `FIRMA_TRUNCADA` | 55 |
 | `PALABRA_ERRONEA` | 28 |
@@ -31,19 +31,19 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 ## Muestra aleatoria de 30 filas (semilla 20260911)
 
-### `RPM-2014-08-14:6378:1` — Claudio Raddatz Kiefer
+### `RPM-2014-07-15:6331:2` — Alejandro Micco
+
+1. **ESPACIO_INDEBIDO**
+   - antes: `e año. í j .`
+   - después: `e año. í j.`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+
+### `RPM-2010-01-14:2878:1` — Pablo García Silva
 
 1. **ACENTO_INDEBIDO**
-   - antes: `s últimos Informes. Adícionalmente, en cuanto a po`
-   - después: `s últimos Informes. Adicionalmente, en cuanto a po`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 71 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-
-### `RPM-2010-02-11:2941:1` — Sebastián Claro Edwards
-
-1. **LETRA_CONFUNDIDA**
-   - antes: `IRC`
-   - después: `IPC`
-   - por qué: IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso.
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2005-03-10:185:1` — Nicolás Eyzaguirre Guzmán
 
@@ -84,20 +84,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `macroeconómica`
    - por qué: Palabra partida por un espacio espurio: la forma junta aparece 34 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u.
 
-### `RPM-2011-07-14:4203:1` — Felipe Larraín Bascuñán
+### `RPM-2011-06-14:4116:1` — Manuel Marfán Lewis
 
-1. **PUNTUACION**
-   - antes: `"bono basura"`
-   - después: `“bono basura”`
-   - por qué: Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo.
-2. **ACENTO_INDEBIDO**
-   - antes: `ión de los salarios nomínales y reales, que c`
-   - después: `ión de los salarios nominales y reales, que c`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 606 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-3. **ESPACIO_INDEBIDO**
-   - antes: `o solo 3,1 % en mayo, `
-   - después: `o solo 3,1% en mayo, `
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+1. **ACENTO_INDEBIDO**
+   - antes: `sión crecientemente mayoritaría y que, en lo gr`
+   - después: `sión crecientemente mayoritaria y que, en lo gr`
+   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
 
 ### `RPM-2007-02-08:1074:1` — José De Gregorio Rebeco
 
@@ -106,20 +98,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `el escenario que se tenía hace uno y dos `
    - por qué: Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de».
 
-### `RPM-2015-08-13:6957:1` — Alberto Naudon Dell'Oro
+### `RPM-2015-08-13:6947:1` — Miguel Fuentes Díaz
 
-1. **PALABRA_PARTIDA**
-   - antes: `El Gerente de División Estudios señor Alberto Naudon aclara que el ejercicio en com ento no tuvo la intención`
-   - después: `El Gerente de División Estudios señor Alberto Naudon aclara que el ejercicio en comento no tuvo la intención`
-   - por qué: Palabra partida por un espacio intrapalabra. Sección 1 ter: se reúne sin alterar una letra, así que no hay lectura alternativa que proteger y no se pide corroboración.
-2. **PALABRA_PARTIDA**
-   - antes: `si bien la Minuta de Opciones no sugiere en caso alguno tom ar una acción inminente`
-   - después: `si bien la Minuta de Opciones no sugiere en caso alguno tomar una acción inminente`
-   - por qué: Palabra partida por un espacio intrapalabra. Sección 1 ter: se reúne sin alterar una letra, así que no hay lectura alternativa que proteger y no se pide corroboración.
-3. **PALABRA_DUPLICADA**
-   - antes: `que se situaría dentro del rango recién pasada la mitad del próximo año, con registros sobre sobre 5% en el intertanto`
-   - después: `que se situaría dentro del rango recién pasada la mitad del próximo año, con registros sobre 5% en el intertanto`
-   - por qué: Palabra duplicada: 'sobre sobre'. La reparación es única, porque quitar el segundo daría el mismo texto y 'sobre sobre' no es ninguna construcción. Medido: aparece 1 sola vez en todo el corpus, así que no es un uso de la fuente sino una duplicación de esta fila. Segundo caso de duplicación en el corpus tras la fila entera repetida de 6926:2 (ronda 179).
+1. **PALABRA_OMITIDA**
+   - antes: `destaca que la caída del 25% de la producción minera anunciada para año fiscal tiene un impacto notorio`
+   - después: `destaca que la caída del 25% de la producción minera anunciada para el año fiscal tiene un impacto notorio`
+   - por qué: Falta el artículo: 'anunciada para año fiscal' no es gramatical y la reparación es única, porque el OCR omite y no agrega palabras. Corroborada donde el criterio exige: 'para el año fiscal' aparece 1 vez en esta misma sesión y 3 en el corpus. Mismo criterio que 'para año 2015' en 6920:1, ronda 178.
 
 ### `RPM-2008-02-07:1646:2` — Sergio Lehmann Beresi
 
@@ -128,40 +112,40 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `observa`
    - por qué: La OCR escribe esta letra como «/»: el corpus tiene observa y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente.
 
-### `RPM-2013-01-17:5268:1` — Consejo del Banco Central de Chile
+### `RPM-2012-12-13:5235:1` — Sergio Lehmann Beresi
 
-1. **SIMBOLO_SUELTO**
-   - antes: `B A N C O C E N T R A L D E C H I L E `
-   - después: ``
-   - por qué: Encabezado de pagina del PDF, "BANCO CENTRAL DE CHILE", capturado letra por letra y con espacios. Es un residuo de la fuente, no texto del acta: la forma normal "BANCO CENTRAL DE CHILE" no aparece ninguna vez en el corpus, o sea que cuando este encabezado esta presente siempre viene letra por letra. Medido: 10 apariciones en 10 filas, mas 1 truncado ("...D E C H"). La politica es eliminar los residuos de la fuente (numeros de pagina, marcas de hora, comillas huerfanas, firmas truncadas) y este es de la misma familia.
+1. **ESPACIO_INDEBIDO**
+   - antes: `n desde 12 % a 14% en `
+   - después: `n desde 12% a 14% en `
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
-### `RPM-2010-10-14:3491:1` — José De Gregorio Rebeco
+### `RPM-2010-10-14:3476:4` — José De Gregorio Rebeco
+
+1. **ESPACIO_INDEBIDO**
+   - antes: `omentarios , el Presid`
+   - después: `omentarios, el Presid`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+
+### `RPM-2009-07-09:2638:1` — Manuel Marfán Lewis
 
 1. **LETRA_CONFUNDIDA**
-   - antes: `cambiarla`
-   - después: `cambiaria`
-   - por qué: cambiarla por cambiaria. Misma familia y mismo defecto. Medido: 8 apariciones (todas dentro de "cambiarlas"), todas adjetivas y revisadas una por una: "paridades cambiarlas" 4 veces, "implicancias cambiarlas" 2, "expectativas cambiarlas" 1, "coberturas cambiarlas" 1. "cambiarias" ya aparece 19 veces en el corpus.
+   - antes: `ontraria. Agrega que, ai respecto, la consulta`
+   - después: `ontraria. Agrega que, al respecto, la consulta`
+   - por qué: "ai" por "al": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta "ai" en 26 filas, y "ai" no es una palabra del español. En cambio "al" aparece miles de veces y "al alza" 1.405 contra 3 de "ai alza". Se revisaron una por una las 26 apariciones y en todas el contexto exige "al" ("asociadas ai sector exportador", "converge ai mismo nivel", "autorizó ai Banco Central", "mayor ai previsto", "Agrega que, ai respecto", "superior ai 9,5%"). No hay ninguna fila en que "ai" sea otra cosa.
 
-### `RPM-2009-07-09:2653:1` — José De Gregorio Rebeco
-
-1. **ACENTO_FALTANTE**
-   - antes: `rca de lo que sería su limite inferior, el cual, a su `
-   - después: `rca de lo que sería su límite inferior, el cual, a su `
-   - por qué: Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de».
-
-### `RPM-2012-09-13:5043:1` — Sergio Lehmann Beresi
+### `RPM-2012-07-12:4909:1` — Manuel Marfán Lewis
 
 1. **PUNTUACION**
    - antes: `"`
    - después: `”`
    - por qué: Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte.
 
-### `RPM-2008-12-11:2240:1` — Beltrán de Ramón Acevedo
+### `RPM-2008-12-11:2205:1` — Claudio Soto Gamboa
 
-1. **ACENTO_FALTANTE**
-   - antes: `Señala también que, en linea con lo anterior y d`
-   - después: `Señala también que, en línea con lo anterior y d`
-   - por qué: Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige.
+1. **ESPACIO_INDEBIDO**
+   - antes: `e mercado— , con un ma`
+   - después: `e mercado—, con un ma`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
 ### `RPM-2007-08-09:1398:1` — Jorge Desormeaux Jiménez
 
@@ -170,30 +154,26 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `cambiaria`
    - por qué: cambiarla por cambiaria. Misma familia y mismo defecto. Medido: 8 apariciones (todas dentro de "cambiarlas"), todas adjetivas y revisadas una por una: "paridades cambiarlas" 4 veces, "implicancias cambiarlas" 2, "expectativas cambiarlas" 1, "coberturas cambiarlas" 1. "cambiarias" ya aparece 19 veces en el corpus.
 
-### `RPM-2014-02-18:6019:2` — Miguel Ricaurte Bermúdez
+### `RPM-2014-01-16:6007:1` — Consejo del Banco Central de Chile
+
+1. **FIRMA_TRUNCADA**
+   - antes: ` IQUE MARSHALL RIVERA RODRIGO VERGARA MONTES Consejero Presidente.`
+   - después: ``
+   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
+
+### `RPM-2009-02-12:2318:1` — Sergio Lehmann Beresi
+
+1. **PALABRA_PARTIDA**
+   - antes: `ese Plan, solamente cons iderando el gasto del añ`
+   - después: `ese Plan, solamente considerando el gasto del añ`
+   - por qué: Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 463 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA.
+
+### `RPM-2012-12-13:5241:1` — Beltrán de Ramón Acevedo
 
 1. **ACENTO_INDEBIDO**
-   - antes: `ñor Miguel Ricaurte índica que el alza del`
-   - después: `ñor Miguel Ricaurte indica que el alza del`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-
-### `RPM-2009-02-12:2320:1` — Sebastián Claro Edwards
-
-1. **ESPACIO_INDEBIDO**
-   - antes: `por riesgo , no deberí`
-   - después: `por riesgo, no deberí`
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
-2. **LETRA_CONFUNDIDA**
-   - antes: `Defau/t`
-   - después: `Default`
-   - por qué: La OCR escribe esta letra como «/»: el corpus tiene Default y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente.
-
-### `RPM-2013-01-17:5277:1` — Sergio Lehmann Beresi
-
-1. **SIMBOLO_SUELTO**
-   - antes: `algo mayor en Europa. A Además`
-   - después: `algo mayor en Europa. Además`
-   - por qué: Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 ("prolongado. A SU juicio"), donde la A abre la oración legítimamente y el defecto es "SU" en mayúscula, que se trata aparte.
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2007-01-11:1052:1` — Enrique Marshall Rivera
 
@@ -206,23 +186,19 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `una y otra dirección. Sin embargo`
    - por qué: Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 ("prolongado. A SU juicio"), donde la A abre la oración legítimamente y el defecto es "SU" en mayúscula, que se trata aparte.
 
-### `RPM-2011-04-12:3968:1` — Manuel Marfán Lewis
-
-1. **PUNTUACION**
-   - antes: `"`
-   - después: `”`
-   - por qué: Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte.
-
-### `RPM-2010-05-13:3107:2` — Beltrán de Ramón Acevedo
+### `RPM-2011-03-17:3886:1` — Rodrigo Vergara Montes
 
 1. **ACENTO_INDEBIDO**
-   - antes: `íneas y que, por el contrarío, han tenido que`
-   - después: `íneas y que, por el contrario, han tenido que`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 271 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-2. **ACENTO_FALTANTE**
-   - antes: ` renunciar a lineas externas. Respe`
-   - después: ` renunciar a líneas externas. Respe`
-   - por qué: Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige.
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
+
+### `RPM-2010-05-13:3082:2` — Claudio Soto Gamboa
+
+1. **LETRA_CONFUNDIDA**
+   - antes: `de inversión y de Consesus Forecasts. Hace l`
+   - después: `de inversión y de Consensus Forecasts. Hace l`
+   - por qué: Consesus por Consensus: falta una n. Medido: "Consensus" aparece 127 veces en 99 filas y "Consesus" 8 veces en 6, siempre en el nombre propio "Consensus Forecast". No hay lectura alternativa.
 
 ### `RPM-2007-07-12:1321:1` — Manuel Marfán Lewis
 
@@ -231,72 +207,92 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `los gráficos, el efecto fly to quality sobre Chile s`
    - por qué: "fiy"/"fIy" por "fly": la l se leyo como i (o como I). Es el mismo glifo que produce "ai" por "al", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte "flight" en "fiy" (sería borrar cuatro letras); sí convierte "fly" en "fiy". Las 21 apariciones de "flight to quality" que hay en el corpus son la otra grafía, correcta, y no se tocan. La operación se extendió dos caracteres hacia la izquierda para cubrir además "ios" por "los" (§12): ambas caen en el mismo tramo y dos operaciones separadas se pisarían, porque el fragmento anterior empezaba justo en la s de "ios".
 
-### `RPM-2014-06-12:6269:2` — Miguel Fuentes Díaz
-
-1. **ACENTO_INDEBIDO**
-   - antes: `eñor Miguel Fuentes índica que el reporte `
-   - después: `eñor Miguel Fuentes indica que el reporte `
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-
-### `RPM-2013-06-13:5603:1` — Claudio Soto Gamboa
-
-1. **ACENTO_INDEBIDO**
-   - antes: `cambiaría`
-   - después: `cambiaria`
-   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
-
-### `RPM-2015-07-14:6916:1` — Consejo del Banco Central de Chile
-
-1. **LETRA_CONFUNDIDA**
-   - antes: `o la volatilidad de ios mercados financ`
-   - después: `o la volatilidad de los mercados financ`
-   - por qué: "ios" por "los": la l se leyo como i, la misma regla que produce "ai" por "al" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de "los". "ios" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura.
-
-### `RPM-2013-01-17:5283:1` — Manuel Marfán Lewis
-
-1. **ACENTO_INDEBIDO**
-   - antes: `cambiaría`
-   - después: `cambiaria`
-   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
-
-### `RPM-2012-05-17:4849:3` — Consejo del Banco Central de Chile
-
-1. **RESIDUO_PAGINACION**
-   - antes: `En los últimos meses, los Página 31 de 31 indicadores económicos de Estados Unidos`
-   - después: `En los últimos meses, los indicadores económicos de Estados Unidos`
-   - por qué: Pie de página del PDF original incrustado a mitad de oración, entre 'los' e 'indicadores'. No pertenece al texto: la oración se lee completa sin él. La política de corrección autoriza explícitamente eliminar la numeración de páginas. Medido: el patrón 'Página N de N' aparece 26 veces en 22 filas del corpus, 20 de ellas en la sesión 2012-04-17 que aún está pendiente, 1 aquí y 1 en 5221:3.
-
-### `RPM-2014-12-11:6548:1` — Consejo del Banco Central de Chile
-
-1. **FIRMA_TRUNCADA**
-   - antes: ` \ ·----­ IQUE MARSHALL RIVERA RODRIGO VERGARA MONTES Vicepresidente Presidente.`
-   - después: ``
-   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
-
-### `RPM-2013-09-12:5793:1` — Rodrigo Vergara Montes
-
-1. **PALABRA_OMITIDA**
-   - antes: `un grado de desintegración de la economía chilena respecto del resto mundo`
-   - después: `un grado de desintegración de la economía chilena respecto del resto del mundo`
-   - por qué: Artículo-contracto omitido. Corroborado en la sesión: 'resto del mundo' aparece 3 veces en 2013-09-12 (filas 5771, 5807 y 5811) y 129 veces en el corpus, contra 1 sola de 'resto mundo', que es ésta.
-
-### `RPM-2014-09-11:6397:1` — Sergio Lehmann Beresi
-
-1. **LETRA_CONFUNDIDA**
-   - antes: `1O`
-   - después: `10`
-   - por qué: 1O por 10: el cero se leyo como la letra O mayuscula. Medido: 7 apariciones en 6 filas y todas son numeros donde solo cabe el diez ("tasas a 1O años plazo", "lámina Nº 1O", "US$ 3,1O la libra", "a 5 y 1O años", "a 2 y 1O años", "a 1O años", "de 1O o 20%"). Se verifico que no existen apariciones embebidas en otras palabras.
-
-### `RPM-2009-07-09:2622:4` — José De Gregorio Rebeco
+### `RPM-2014-06-12:6240:1` — Pablo García Silva
 
 1. **ESPACIO_INDEBIDO**
-   - antes: ` trimestre .`
-   - después: ` trimestre.`
+   - antes: `ri passu”— , para ser `
+   - después: `ri passu”—, para ser `
    - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
-### `RPM-2011-10-13:4342:4` — Sebastián Claro Edwards
+### `RPM-2013-05-16:5566:3` — Consejo del Banco Central de Chile
+
+1. **ACENTO_INDEBIDO**
+   - antes: `urozona continúa en recesíón y mantiene una `
+   - después: `urozona continúa en recesión y mantiene una `
+   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 222 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
+
+### `RPM-2015-07-14:6903:1` — Sebastián Claro Edwards
+
+1. **ACENTO_INDEBIDO**
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
+
+### `RPM-2012-12-13:5257:3` — Felipe Larraín Bascuñán
+
+1. **LETRA_CONFUNDIDA**
+   - antes: `en tomo a`
+   - después: `en torno a`
+   - por qué: en tomo a por "en torno a". Medido: 24 apariciones (20 "en tomo a" y 4 "en tomo al"), la r leida como m. "tomo" es palabra real (volumen) pero ningun contexto lo admite. "en torno a" aparece 1.678 veces.
+2. **ACENTO_FALTANTE**
+   - antes: `Central de Chile la inflación en diciembre seria de 0,1% mensual`
+   - después: `Central de Chile la inflación en diciembre sería de 0,1% mensual`
+   - por qué: Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde.
+3. **ESPACIO_INDEBIDO**
+   - antes: `reció 10,1 % anual, tr`
+   - después: `reció 10,1% anual, tr`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+
+### `RPM-2012-05-17:4825:1` — Claudio Soto Gamboa
+
+1. **ACENTO_FALTANTE**
+   - antes: `a parte extrapresupuestaria, cuya disminuci`
+   - después: `a parte extrapresupuestaría, cuya disminuci`
+   - por qué: Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra.
+
+### `RPM-2014-12-11:6521:1` — Sebastián Claro Edwards
+
+1. **LETRA_CONFUNDIDA**
+   - antes: `Financia/`
+   - después: `Financial`
+   - por qué: La OCR escribe esta letra como «/»: el corpus tiene Financial y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente.
+
+### `RPM-2013-09-12:5762:1` — Sergio Lehmann Beresi
+
+1. **LETRA_CONFUNDIDA**
+   - antes: `mediante swaps cambíanos por la suma`
+   - después: `mediante swaps cambiarios por la suma`
+   - por qué: Ene por ere. 'Cambíanos' no es palabra; el término es 'swaps cambiarios'. Medido: 'cambíanos' aparece 19 veces y 'cambiarios' 39, así que es una confusión sistemática de glifo, de la clase que el criterio manda corregir.
+2. **LETRA_CONFUNDIDA**
+   - antes: `en Estados Unidos de América, ia Zona Euro, Alemania`
+   - después: `en Estados Unidos de América, la Zona Euro, Alemania`
+   - por qué: I latina por ele. Medido: 'ia Zona Euro' aparece 2 veces y 'la Zona Euro' 720. Es la misma confusión ya corregida en 'indica ai señor Ministro'->'al señor'.
+3. **ACENTO_INDEBIDO**
+   - antes: `Por otra parte, índica que uno de los elementos`
+   - después: `Por otra parte, indica que uno de los elementos`
+   - por qué: Tilde en la sílaba equivocada: 'índica' no es palabra. Medido: aparece 45 veces en el corpus contra 2.366 de 'indica que'. Confusión sistemática y sin ambigüedad.
+4. **SIMBOLO_SUELTO**
+   - antes: `a 2,5%; 3,8% y 1,2%, s - f ' respectivamente`
+   - después: `a 2,5%; 3,8% y 1,2%, respectivamente`
+   - por qué: Basura de glifo entre la última cifra y 'respectivamente': una ese, un guión, una efe y un apóstrofo sueltos. No forman palabra ni símbolo y la oración se lee completa sin ellos. Es un residuo de la fuente, que la política de corrección manda eliminar.
+
+### `RPM-2014-08-14:6370:1` — Miguel Fuentes Díaz
 
 1. **ESPACIO_INDEBIDO**
-   - antes: `sche Bank— , han decla`
-   - después: `sche Bank—, han decla`
+   - antes: `torno a 1% . En materi`
+   - después: `torno a 1%. En materi`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+
+### `RPM-2009-06-16:2591:1` — Kevin Cowan Logan
+
+1. **ESPACIO_INDEBIDO**
+   - antes: `almente. r .`
+   - después: `almente. r.`
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+
+### `RPM-2011-08-18:4279:1` — José De Gregorio Rebeco
+
+1. **ESPACIO_INDEBIDO**
+   - antes: `a 5,75 o 6 %. Hace not`
+   - después: `a 5,75 o 6%. Hace not`
    - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.

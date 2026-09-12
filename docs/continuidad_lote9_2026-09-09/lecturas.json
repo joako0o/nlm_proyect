@@ -27514,7 +27514,437 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2007-08-09",
       "Justificacion": "Sesion leida completa (rondas 202-209, 58 filas). Debate con turnos cortos alternados entre Consejeros y Gerentes; los cortes de hablante ya estaban hechos y la lectura los confirma. Las cuatro banderas de segunda voz eran referencias, no intervenciones: 1360:1 Lehmann responde a una consulta de Desormeaux; 1363:1 Garcia complementa un punto planteado por Marfan; 1378:1 Corbo alude a lo solicitado por Marfan; 1398:1 Desormeaux cita lo informado por Schmidt-Hebbel. Ninguna fila requiere corte. Eje OCR: esta sesion revelo la familia de palabras deletreadas con espacios (n o tic ia s -> noticias), 32 correcciones en 7 filas (§26)."
+    },
+    "RPM-2008-10-09:2101:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2101:1",
+      "ID_Padre": "2101",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1500,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2102:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2102:1",
+      "ID_Padre": "2102",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 341,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2103:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2103:1",
+      "ID_Padre": "2103",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1347,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2104:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2104:1",
+      "ID_Padre": "2104",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 234,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2105:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2105:1",
+      "ID_Padre": "2105",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 229,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2105:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2105:2",
+      "ID_Padre": "2105",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 1951,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2105:3": {
+      "ID_Intervencion": "RPM-2008-10-09:2105:3",
+      "ID_Padre": "2105",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 259,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2105:4": {
+      "ID_Intervencion": "RPM-2008-10-09:2105:4",
+      "ID_Padre": "2105",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 457,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2106:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2106:1",
+      "ID_Padre": "2106",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 486,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2106:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2106:2",
+      "ID_Padre": "2106",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 232,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2106:3": {
+      "ID_Intervencion": "RPM-2008-10-09:2106:3",
+      "ID_Padre": "2106",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 432,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2106:4": {
+      "ID_Intervencion": "RPM-2008-10-09:2106:4",
+      "ID_Padre": "2106",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 1546,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2106:5": {
+      "ID_Intervencion": "RPM-2008-10-09:2106:5",
+      "ID_Padre": "2106",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 202,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2107:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2107:1",
+      "ID_Padre": "2107",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 339,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2107:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2107:2",
+      "ID_Padre": "2107",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 221,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2107:3": {
+      "ID_Intervencion": "RPM-2008-10-09:2107:3",
+      "ID_Padre": "2107",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 1452,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2108:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2108:1",
+      "ID_Padre": "2108",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 660,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2108:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2108:2",
+      "ID_Padre": "2108",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 1163,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2109:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2109:1",
+      "ID_Padre": "2109",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 225,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2110:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2110:1",
+      "ID_Padre": "2110",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 99,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2110:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2110:2",
+      "ID_Padre": "2110",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 1926,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2110:3": {
+      "ID_Intervencion": "RPM-2008-10-09:2110:3",
+      "ID_Padre": "2110",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 212,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2110:4": {
+      "ID_Intervencion": "RPM-2008-10-09:2110:4",
+      "ID_Padre": "2110",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 3433,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2111:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2111:1",
+      "ID_Padre": "2111",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 355,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2112:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2112:1",
+      "ID_Padre": "2112",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 397,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2112:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2112:2",
+      "ID_Padre": "2112",
+      "Actor": "Felipe Jaque",
+      "Caracteres": 988,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2112:3": {
+      "ID_Intervencion": "RPM-2008-10-09:2112:3",
+      "ID_Padre": "2112",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2113:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2113:1",
+      "ID_Padre": "2113",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 12059,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2115:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2115:1",
+      "ID_Padre": "2115",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 293,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2115:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2115:2",
+      "ID_Padre": "2115",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 256,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2116:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2116:1",
+      "ID_Padre": "2116",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 3517,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2117:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2117:1",
+      "ID_Padre": "2117",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 187,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2118:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2118:1",
+      "ID_Padre": "2118",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 3048,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2119:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2119:1",
+      "ID_Padre": "2119",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 170,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2120:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2120:1",
+      "ID_Padre": "2120",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 6071,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2121:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2121:1",
+      "ID_Padre": "2121",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 75,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2121:2": {
+      "ID_Intervencion": "RPM-2008-10-09:2121:2",
+      "ID_Padre": "2121",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 7910,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2122:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2122:1",
+      "ID_Padre": "2122",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 6972,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2123:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2123:1",
+      "ID_Padre": "2123",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 5210,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2124:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2124:1",
+      "ID_Padre": "2124",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 6268,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2125:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2125:1",
+      "ID_Padre": "2125",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 5993,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2126:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2126:1",
+      "ID_Padre": "2126",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 100,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2008-10-09:2127:1": {
+      "ID_Intervencion": "RPM-2008-10-09:2127:1",
+      "ID_Padre": "2127",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2740,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-10-09",
+      "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
     }
   },
-  "Total_Leidas": 2404
+  "Total_Leidas": 2447
 }

@@ -58,5 +58,49 @@ class TestDetectorPartida(unittest.TestCase):
         self.assertEqual(ec.LETRAS_PALABRA, {'a', 'y', 'o', 'e', 'u', 'A'})
 
 
+class TestLaGuardaNoSePuedeAbrir(unittest.TestCase):
+    """§27: la guarda «primera mitad con frecuencia >= 50» tiene un punto ciego.
+
+    «presenta ción» -> «presentación» no se detecta porque «presenta» aparece 513
+    veces. La tentación es relajar la guarda cuando la segunda mitad no es palabra
+    (freq < 20). Medido sobre las 9.723 filas: eso da 23 candidatas y **5 son
+    falsos positivos que corromperían texto correcto**, porque la diferencia entre
+    «presenta ción» y «con sumo cuidado» es semántica y no estadística: en ambos
+    casos la primera mitad es común, la segunda no es palabra y la unión sí lo es.
+    Estas pruebas existen para que nadie "arregle" la guarda más adelante.
+    """
+
+    def test_no_junta_con_sumo_cuidado(self):
+        """«con sumo cuidado» es español correcto; «consumo cuidado» no existe."""
+        freq = Counter({'consumo': 2130, 'con': 9000, 'sumo': 3, 'cuidado': 400})
+        salida = {'RPM-1999-01-01:1:1': 'debe ser monitoreada con sumo cuidado'}
+        self.assertEqual(correr(salida, freq), 0)
+
+    def test_no_junta_de_terminada(self):
+        """«Después de terminada la cosecha»: «de terminada» son dos palabras."""
+        freq = Counter({'determinada': 28, 'de': 9000, 'terminada': 12,
+                        'la': 9000, 'cosecha': 90, 'Después': 800})
+        salida = {'RPM-1999-01-01:1:1': 'Después de terminada la cosecha, había'}
+        self.assertEqual(correr(salida, freq), 0)
+
+    def test_no_junta_esta_a_prueba(self):
+        """«sometida a prueba»: «aprueba» es otra palabra con otro significado."""
+        freq = Counter({'aprueba': 123, 'a': 37540, 'prueba': 200,
+                        'sometida': 30, 'será': 2000})
+        salida = {'RPM-1999-01-01:1:1': 'será sometida a prueba en las semanas'}
+        self.assertEqual(correr(salida, freq), 0)
+
+    def test_el_punto_ciego_existe_y_se_corrige_a_mano(self):
+        """Documenta el caso que la guarda sí pierde, para que quede registrado.
+
+        No es un fallo que haya que esconder: la política es curar fila por fila,
+        así que «presenta ción» se corrigió a mano en la sesión 2008-10-09.
+        """
+        freq = Counter({'presentación': 1241, 'presenta': 513, 'ción': 2,
+                        'resumir': 60, 'la': 9000, 'apropiado': 90})
+        salida = {'RPM-1999-01-01:1:1': 'apropiado resumir la presenta ción y que'}
+        self.assertEqual(correr(salida, freq), 0)
+
+
 if __name__ == '__main__':
     unittest.main()

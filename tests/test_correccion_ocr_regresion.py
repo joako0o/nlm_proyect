@@ -84,8 +84,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1393
-MIN_OPERACIONES = 2312
+MIN_CORREGIDAS = 1399
+MIN_OPERACIONES = 2327
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -106,7 +106,7 @@ RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
 # bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
 # cierres ya documentados; si no, borrar revisiones del registro se vería como
 # una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
-MIN_CASOS_ADJUDICADOS = 194   # 160 abiertas + 34 cerradas al cierre del §25
+MIN_CASOS_ADJUDICADOS = 197   # 163 abiertas + 34 cerradas al cierre del §27
 MIN_CIERRES_COTEJO = 34
 
 # §19: punto pegado a letra. De las 45 ocurrencias, 36 son abreviatura legítima

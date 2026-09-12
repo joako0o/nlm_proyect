@@ -354,6 +354,8 @@ Para leer una sesión entera al margen del plan:
 
 | 202–209 | 2007-08-09 | 58 | una sola voz en las 58 filas del plan · **sesión cerrada 58/58** · debate con turnos cortos alternados entre Consejeros y Gerentes · las cuatro banderas de segunda voz eran referencias: `1360:1` Lehmann responde a una consulta de Desormeaux, `1363:1` García complementa un punto planteado por Marfán, `1378:1` Corbo alude a lo solicitado por Marfán, `1398:1` Desormeaux cita lo informado por Schmidt-Hebbel · esta sesión destapó una familia de OCR que el detector no veía: la palabra **deletreada con espacios** (`n o tic ia s` → `noticias`, `T a m b ié n` → `También`), 32 correcciones en 7 filas y 106 casos sin cubrir en todo el corpus (criterio §26) |
 
+| 210–215 | 2008-10-09 | 43 | una sola voz en las 43 filas del plan · **sesión cerrada 43/43** · sesión de la crisis financiera (Jaque, García, Cowan, debate y votación, mantención en 8,25 %) · las banderas eran un traspaso (`2105:1` De Gregorio anuncia que Jaque reemplaza a Lehmann; `2105:2` ya es la fila de Jaque), una aclaración en nombre propio (`2110:1`) y coincidencias de **substring**: `corresponden`/`corresponde` contienen «responde» y `acotada` contiene «acota» · 16 correcciones y 3 marcas, más dos familias transversales: `Sanco`→`Banco` (7 filas, leídas una por una) y la hora con punto y coma (6) · se confirmó que la guarda de `detector_partida` **no** debe abrirse: relajarla daría 23 candidatas con 5 falsos positivos graves (`con sumo cuidado`→`consumo`), y 4 pruebas nuevas fijan los contraejemplos (criterio §27) |
+
 Para anotar una ronda leída:
 
 ```

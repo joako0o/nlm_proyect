@@ -10663,6 +10663,14 @@
           "Despues": "",
           "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a las 16;55 horas. JOSÉ DE GREGORIO REBECO Presidente.",
           "Justificacion": "Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre \"Se levanta la Sesion a las HH:MM horas\", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como \"ENRIQUE MARSHALL RIVERA\" 4 veces, como \"E MARSHALL RIVERA\" 15 veces y como \"EI)fRIQUE MARSHALL RIVERA\"; otros bloques quedan como \"rORTO CORBO LIOIV\" o \"J U A f ^ T E B ^ LAVÁL ZALDÍVAR li\". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "16;55 horas",
+          "Despues": "16:55 horas",
+          "Ocurrencias": 1,
+          "Contexto": "l Consejo aprueba el texto del Comunicado. Se levanta la Sesión a las 16;55 horas. JOSÉ DE GREGORIO REBECO Presidente.",
+          "Justificacion": "Idem: 544 contra 5."
         }
       ]
     },
@@ -11844,6 +11852,14 @@
           "Ocurrencias": 1,
           "Contexto": "e tasas hoy daría una señal adicional que el compromiso inflacionario del Banco C entral de Chile es irrenunciable, credibilidad que se posee de",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1608 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "segu ir",
+          "Despues": "seguir",
+          "Ocurrencias": 1,
+          "Contexto": "a o de reducción de costos, con lo cual la política monetaria debiera segu ir una conducta contracíclica, eso si que, partiendo de una situación de",
+          "Justificacion": "«segu» aparece 1 vez en el corpus y es este mismo dano; «seguir» aparece 337. Detectado por detector_deletreada (§26)."
         }
       ]
     },
@@ -17847,6 +17863,14 @@
           "Despues": "nformación, también a",
           "Contexto": "sos ejercicios, el instinto que se tiene de cómo ordena la información , también apuntaba en esa misma dirección. En tercer lugar, señala el C",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Sanco",
+          "Despues": "Banco",
+          "Ocurrencias": 1,
+          "Contexto": "entorno externo, el escenario base del IPoM ha quedado atrás y que el Sanco Central se ha concentrado en discutir el escenario de riesgo que allí",
+          "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
         }
       ]
     },
@@ -17919,6 +17943,14 @@
           "Despues": " situación.",
           "Contexto": "o cuál es el sector no transable que estaría impulsando esta situación .",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Sanco",
+          "Despues": "Banco",
+          "Ocurrencias": 1,
+          "Contexto": "que presentó cifras inferiores a las proyecciones considerabas por el Sanco y también, de aquéllas que tenía el mercado, el Consejero señor Sebas",
+          "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
         }
       ]
     },
@@ -18828,6 +18860,14 @@
           "Despues": "o reciente, y por cie",
           "Contexto": "ido a caer. El último dato que se tiene disponible es a junio reciente , y por cierto, está por debajo de lo que se observaba hace algunos mes",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Sanco",
+          "Despues": "Banco",
+          "Ocurrencias": 1,
+          "Contexto": "y a una lectura un poco más dovish de la actitud que pudiese tener el Sanco Central Europeo en materia de tasas a propósito nuevamente de la ince",
+          "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
         }
       ]
     },
@@ -18987,11 +19027,11 @@
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 5704 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
         },
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "LETRA_CONFUNDIDA",
           "Antes": "r el Sanco , ya que en",
-          "Despues": "r el Sanco, ya que en",
+          "Despues": "r el Banco, ya que en",
           "Contexto": " 1,5% en el primer trimestre es superior a la considerada por el Sanco , ya que en la encuesta se asume un crecimiento de 1,1% durante ese mis",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "La operacion ya quitaba el espacio antes de la coma (§18). Se extiende, no se apila: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningun orden. Ademas del espacio, el OCR escribio «S» donde va «B»: «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco» («el Sanco Central Europeo», «el Sanco Central», «por el Sanco»), y «Banco» aparece 2.418 veces. Las 7 se leyeron una por una; las otras 6 van como operacion propia (§27)."
         }
       ]
     },
@@ -21449,6 +21489,14 @@
           "Despues": "va a tener.",
           "Contexto": "dad y que el riesgo en este punto reside en la potencia que va a tener .",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Sanco",
+          "Despues": "Banco",
+          "Ocurrencias": 1,
+          "Contexto": "referido Consejero, lo fundamen tal fue el mensaje transmitido por el Sanco en mayo, en cuanto a que habrá recuperación económica con cierta inte",
+          "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
         }
       ]
     },
@@ -21560,6 +21608,14 @@
           "Despues": "en aumento, lo que ha",
           "Contexto": "peración de la economía hace anticipar que la inflación irá en aumento , lo que hacenecesario continuar con el proceso de normalización de las",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Sanco",
+          "Despues": "Banco",
+          "Ocurrencias": 1,
+          "Contexto": "cientemente significativas como para afectar el escenario central del Sanco. Por otra parte, señala que resulta importante subrayar que las proye",
+          "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
         }
       ]
     },
@@ -22600,6 +22656,14 @@
           "Ocurrencias": 1,
           "Contexto": "tre bancos, se deban a que les ha ido mejor a los que tienen una fuerte base de depósitos, lo que seria interesante conocer por su implicancia política. Agrega",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Sanco",
+          "Despues": "Banco",
+          "Ocurrencias": 1,
+          "Contexto": " sido más innovadores en líneas generales y menciona como ejemplo, al Sanco L1oyd's inglés que tiene una gran base de depósitos.",
+          "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
         }
       ]
     },
@@ -23211,11 +23275,11 @@
       "ID_Intervencion": "RPM-2006-02-09:575:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "PUNTUACION",
           "Antes": "ndo las 11 ;30 horas, ",
-          "Despues": "ndo las 11;30 horas, ",
+          "Despues": "ndo las 11:30 horas, ",
           "Contexto": "ro de 2006 En Santiago de Chile, a 9 de febrero de 2006, siendo las 11 ;30 horas, se reúne el Consejo del Banco Central de Chile, bajo la pres",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "La operacion ya quitaba el espacio antes del signo (§18). Se extiende, no se apila: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningun orden. Ademas el signo mismo esta mal: es punto y coma donde va dos puntos. La forma «N:NN horas» aparece 544 veces en el corpus y «N;NN horas» 5, todas este mismo dano. Este caso no se veia escaneando la base, porque alli el texto es «11 ;30» y solo al quitar el espacio (§18) quedo «11;30»: una correccion puede destapar un defecto que el escaneo del texto virgen no alcanza a ver (§27)."
         }
       ]
     },
@@ -23706,6 +23770,14 @@
           "Despues": " afectados.",
           "Contexto": "e bonos, papeles comerciales, y otros, son los que están más afectados .",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Royal Sank of Scotland",
+          "Despues": "Royal Bank of Scotland",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Enrique Marshall agrega que The Royal Sank of Scotland no solo tenía mucha exposición de activos nuevos, sino que una gran d",
+          "Justificacion": "Mismo dano que en 2106:2, en la intervencion siguiente del mismo Consejero."
         }
       ]
     },
@@ -26714,6 +26786,84 @@
           "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 784 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1773:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "12;30 horas",
+          "Despues": "12:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente, señor José De Gregorio, suspende la Sesión a las 12;30 horas e informa que la misma se reanudará a las 16:00 horas.",
+          "Justificacion": "Punto y coma donde va dos puntos en una hora. La forma «N:NN horas» aparece 544 veces en el corpus y «N;NN horas» 5, todas ellas este mismo dano."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2104:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "presenta ción",
+          "Despues": "presentación",
+          "Ocurrencias": 1,
+          "Contexto": "cienda señor Andrés Velasco señala que le parece apropiado resumir la presenta ción y que al final se cuente con mayor tiempo para intercambiar puntos de",
+          "Justificacion": "La palabra esta partida en dos por un espacio espurio. «ción» no es palabra (aparece 2 veces, ambas son este mismo dano) y «presentación» aparece 1.241. detector_partida no la ve porque su primera mitad, «presenta» (513), supera la guarda de frecuencia >= 50; esa guarda no se puede quitar sin corromper «con sumo cuidado» (§27)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2106:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Royal Sank of Scotland",
+          "Despues": "Royal Bank of Scotland",
+          "Ocurrencias": 1,
+          "Contexto": "ate se impulsó, en cierta medida, por el problema que experimentó The Royal Sank of Scotland en los días previos, ya que presentaba demasiada exposición a esos ac",
+          "Justificacion": "El OCR escribio «k» donde va «B». «Sank» aparece 2 veces en el corpus y ambas son esta misma locucion danada; «Bank» aparece 35. El referente de «The Royal ___ of Scotland» es unico y el contexto (exposicion a activos innovadores, dias previos a la crisis) lo confirma."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2112:3",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "16;00 horas",
+          "Despues": "16:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "Siendo las 16;00 horas, se reanuda la Sesión de Política Monetaria N° 129,",
+          "Justificacion": "Idem: 544 contra 5."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2422:3",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "16;00 horas",
+          "Despues": "16:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "Siendo las 16;00 horas, se reanuda la Sesión de Política Monetaria N° 136.",
+          "Justificacion": "Idem: 544 contra 5."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2803:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "9;00 horas",
+          "Despues": "9:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "e de 2009 En Santiago de Chile, a 15 de diciembre de 2009, siendo las 9;00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia d",
+          "Justificacion": "Idem: 544 contra 5."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -27880,6 +28030,24 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "La fila termina en la conjunción «Y» sola, sin continuación: la cláusula que abría se perdió en el escaneo. No es un glifo suelto que se pueda borrar —borrarlo taparía el corte— y no hay forma de saber qué seguía sin el acta original. Se marca para cotejo.",
       "Texto_Original_Fragmento": "mayor que la velocidad a la cual percibíamos que se estaba reduciendo hace un mes atrás. Y"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2106:1",
+      "Texto_Original_Fragmento": "Sanco L1oyd's inglés",
+      "Motivo": "AMBIGUO. El «1» sustituye a una «l», pero el resultado puede ser «Lloyd's» o «Lloyds» y «Lloyd» aparece 0 veces en el corpus, o sea que no hay forma mayoritaria propia a la que apelar. Segun §21, una correccion que introduce una palabra ausente del corpus necesita prueba y no plausibilidad: se marca. El contexto (banco ingles con gran base de depositos, opuesto a los que se fondan en el mercado monetario) sugiere Lloyds, pero no alcanza.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2101:1",
+      "Texto_Original_Fragmento": "Economista Seníor, don Enrique Orellana",
+      "Motivo": "AMBIGUO. «Seníor» no es palabra y es claramente un acento en el sitio equivocado, pero el corpus no tiene forma mayoritaria: «Sénior» aparece 79 veces y «Senior» 77, y la misma fila usa las dos grafias. §16 establecio que los acentos no se tocan sin fuente, y §17 que apartarse de la forma mayoritaria del propio corpus no es evidencia. Se marca.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2121:1",
+      "Texto_Original_Fragmento": "para proceder a la",
+      "Motivo": "TRUNCADO. La fila termina en «...para proceder a la», sin cerrar la frase. Es texto perdido, no un residuo: borrarlo dejaria un final limpio y ocultaria el corte, igual que el «Y» sola de §25. Se marca y no se toca.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [

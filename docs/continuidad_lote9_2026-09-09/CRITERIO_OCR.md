@@ -1450,3 +1450,71 @@ Estado tras §26: **1.393 filas corregidas, 2.312 operaciones, 196 marcadas, `Te
 las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **32 de 131**; filas leídas
 **2.404 de 9.723**.
 
+---
+
+## §27. Una guarda que no se puede abrir, y una corrección que destapó otro defecto
+
+Sesión `2008-10-09` (rondas 210–215, 43 filas). Sesión de la crisis financiera: presentaciones
+de Jaque, García y Cowan, debate y votación (mantención en 8,25 %). Las 43 filas son de una
+sola voz; las banderas eran `2105:1` (De Gregorio anunciando que Jaque reemplazará a Lehmann:
+un traspaso, y `2105:2` ya es la fila de Jaque), `2110:1` (García aclarando en nombre propio) y
+coincidencias de **substring** —`corresponden` y `corresponde` contienen «responde», `acotada`
+contiene «acota». Sin `\b` en la expresión regular, el pre-cernido inventa segundas voces.
+
+### El punto ciego de `detector_partida`, y por qué debe seguir ahí
+
+En `2104:1` quedó `presenta ción`. `detector_partida` no la ve: su guarda descarta la pareja
+cuando la primera mitad tiene frecuencia ≥ 50, y `presenta` aparece 513 veces. La tentación
+obvia es relajar la guarda cuando la segunda mitad no es palabra. **Medido sobre las 9.723
+filas: 23 candidatas, de las cuales 5 corromperían texto correcto.**
+
+| texto real | unión tentadora | por qué está mal |
+|---|---|---|
+| `debe ser monitoreada con sumo cuidado` | `consumo cuidado` | «con sumo cuidado» es español correcto |
+| `Después de terminada la cosecha` | `determinada la cosecha` | son dos palabras |
+| `será sometida a prueba` | `aprueba` | otra palabra con otro significado |
+
+La diferencia entre `presenta ción` y `con sumo` es **semántica, no estadística**: en los dos
+casos la primera mitad es común, la segunda no es palabra y la unión sí lo es. Ningún umbral
+los separa. La guarda se queda, `presenta ción` se corrigió a mano, y
+`tests/test_escanear_corpus_partida.py` tiene ahora cuatro pruebas que fijan los
+contraejemplos para que nadie la "arregle" más adelante.
+
+### Dos familias transversales que salieron de esta sesión
+
+**`Sanco` → `Banco`, 7 filas.** El OCR escribe `S` donde va `B`. `Sanco` no es palabra y
+aparece 7 veces, siempre en contextos que sólo admiten `Banco`: «el Sanco Central Europeo»,
+«el Sanco Central», «por el Sanco». `Banco` aparece 2.418. Se leyeron las 7 una por una y se
+corrigieron las 7, aunque sólo una pertenezca a esta sesión: el eje OCR es transversal por
+diseño (§18, §21, §22). En `2264:1` había que **extender** una operación existente
+(`r el Sanco , ya que en`, §18) en vez de apilar otra: dos tramos solapados sobre el mismo
+texto virgen no se pueden aplicar en ningún orden.
+
+**La hora con punto y coma, 6 filas.** `N:NN horas` aparece 544 veces; `N;NN horas`, 5. Pero
+al corregir quedaron **0**, no 1: la sexta era `RPM-2006-02-09:575:1`, y en la base dice
+`11 ;30 horas`. La pasada de espacio-antes-de-signo (§18) la convirtió en `11;30 horas`.
+**Una corrección propia destapó el defecto.** La lección general: **escanear la base
+subcuenta; hay que escanear la salida.** También ésta se resolvió extendiendo la operación
+existente, no apilando.
+
+### Lo que no se tocó
+
+- `2120:1` termina en `…hacia la neutralidad. votación.` — es el **titular** de la sección
+  siguiente pegado al final, igual que el `213:2` de §25. Segmentación, no OCR.
+- `2121:1` termina en `…para proceder a la` — **truncada**. Marcada, no borrada: borrarla
+  dejaría un final limpio y ocultaría el corte, igual que el «Y» sola de §25.
+
+### Lo que se marcó en vez de corregir
+
+- `2106:1` `Sanco L1oyd's inglés` → el `Sanco`→`Banco` sí se corrigió, pero `L1oyd's` puede ser
+  `Lloyd's` o `Lloyds` y **`Lloyd` aparece 0 veces en el corpus**, así que no hay forma
+  mayoritaria propia a la que apelar. §21: una corrección que introduce una palabra ausente
+  necesita prueba, no plausibilidad. El contexto sugiere Lloyds; no alcanza.
+- `2101:1` `Economista Seníor` → el acento está mal, pero el corpus no tiene forma mayoritaria
+  (`Sénior` 79, `Senior` 77) y la misma fila usa las dos grafías. §16 y §17.
+
+Estado tras §27: **1.399 filas corregidas, 2.327 operaciones, 199 marcadas, `Texto` intacto en
+las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **33 de 131**; filas leídas
+**2.447 de 9.723**.
+
+
