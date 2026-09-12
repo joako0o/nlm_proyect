@@ -3233,3 +3233,116 @@ coma 18 → **0** · dos puntos 544 → **569** (= 544 + 18 de coma + 7 de punto
 rangos con guion 2 → **2** · `Texto` intacto en las 9.725.
 
 Registro: **1.579 filas / 2.626 operaciones**.
+
+---
+
+## §55 — Sesión 2010-06-15: tres familias de puntuación y cinco de nombres
+
+Cien filas, doce actores. Los dos casos de la cola ya estaban partidos en la base (3147 en
+tres segmentos, 3158 en dos). Las siete firmas del censo del §49 corrieron en cero, y un
+barrido independiente sobre los doce actores de la sesión buscando «otro actor de la sesión
+seguido de un verbo de habla» dio dos candidatos, ambos falsos: «el señor Gerente añade» en
+`3130:1` es el propio Sergio Lehmann, que **es** el Gerente de Análisis Internacional, y «el
+señor Vicepresidente manifiesta» en `3187:2` ya ocupa su propio segmento entre dos
+intervenciones de De Gregorio. Los siete traspasos de palabra están todos en filas cortas del
+Presidente y las seis filas de más de 3.800 caracteres son monólogos de un solo Consejero.
+**Ningún corte.** Los tres candidatos de acento son correctos (`dónde` interrogativo
+indirecto, `inició` pretérito, `seria` adjetivo).
+
+### El cierre del §45 dejó abierta su propia familia
+
+Al leer `3200:1` apareció «Continuando con la votación**,.**». El §45 ya había medido y
+corregido «A continuación,.» — 76 casos — pero midió la **palabra**, no el **patrón**. Medido
+sobre el texto corregido, `«<palabra>,.»` aparecía todavía **20** veces:
+
+| forma | casos |
+|---|---|
+| `Continuando con la votación,.` | 6 |
+| `Para concluir con la votación,.` | 3 |
+| `No habiendo más comentarios,.` | 8 |
+| `No habiendo más comentarios y preguntas,.` | 2 |
+| `…señor Manuel Marfán,.` | 1 |
+
+En los veinte la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el
+Vicepresidente…», así que la coma es la marca correcta y el punto el signo sobrante — el mismo
+criterio del §45. **20 ops.**
+
+Barrido simultáneo del resto del patrón:
+
+- **`.,` — 24 casos, de los cuales 20 son legítimos**: abreviaturas (`EE.UU.`, `S.A.`, `etc.`,
+  `v.gr.`) e iniciales de nombre («Velasco B.,»). El discriminador es qué precede al punto: una
+  palabra completa en minúscula de cuatro letras o más, o un signo de porcentaje, no una
+  abreviatura. Así salen 4 defectos (`América.,` `6,25%.,` `importante.,` `Brothers.,`). **4 ops.**
+- **`..` — 4 casos en el virgen**, uno ya cubierto por otra operación (`2006-01-12:562:1`),
+  siempre al cierre de una oración seguida de otra que empieza en mayúscula. **3 ops.**
+
+Verificado: `,.` 98 → **0** · `.,` espurio 4 → **0** · `..` 4 → **0** · las 20 abreviaturas
+legítimas intactas.
+
+### Cinco familias de nombres dañados
+
+Aplicando la instrucción de normalizar los nombres dañados, la lectura de esta sesión destapó
+cinco familias que ninguna red anterior cubría:
+
+| familia | virgen | corregido | medida |
+|---|---|---|---|
+| `De Gregario` → `De Gregorio` | 41 | **0** | 1.150 contra 41, misma persona |
+| `Lehman` (persona) → `Lehmann` | 5 | **0** | 1.904 contra 5 |
+| `Lehman Sros.` → `Lehman Brothers` | 1 | **0** | grafía única en el corpus |
+| `Garda` → `García` | 2 | **0** | 737 contra 1 |
+| `Beam Stearns` → `Bear Stearns` | 5 | **0** | 1 contra 5, ver abajo |
+
+**El banco y la persona se separan por el contexto, no por la frecuencia.** «Lehman» sin la ene
+final aparece 24 veces, pero 19 son el banco de inversión Lehman Brothers, cuyo nombre correcto
+lleva una sola ene. Las 5 que se corrigieron son la persona, siempre precedidas de «señor» o
+«Gerente señor». Un pase por frecuencia habría destruido el nombre del banco.
+
+**`Beam Stearns` es el primer caso en que la forma canónica es minoritaria.** El corpus tiene
+`Beam Stearns` 5 veces y `Bear Stearns` 1, de modo que la regla numérica del §34 —la forma
+canónica debe superar a la dañada— no se cumple. Se corrigió de todos modos porque la entidad
+es única e inequívoca, el corpus atestigua la forma correcta aunque sea una vez, y los cinco
+contextos son explícitos («cuando alrededor de julio del año 2008», «en el momento en que
+quebró», «la crisis de»). La erre por la eme es una confusión clásica de OCR. La justificación
+de cada operación deja constancia de que la decisión no descansa en la frecuencia.
+
+**`Lehman Bros.` fue rechazado por el guardia de vocabulario.** El registro no permite
+introducir una palabra ausente del corpus ni de `TERMINOS_FORANEOS`, y `Bros` no está en
+ninguno de los dos. Se enmendó a `Lehman Brothers`, que es además la forma que el propio
+corpus usa 14 veces. **El guardia tiene razón y su rechazo es información**: obliga a
+normalizar hacia una forma atestiguada en vez de hacia la que uno recuerda.
+
+### Una ancla extendida a mano
+
+En `2009-02-12:2356:2` el «De Gregario» cae en 25–36 y una operación ya registrada empieza en
+28: se solapan en ocho caracteres. No hay tramo que corrija el apellido sin invadir el tramo
+ajeno, y `enmendar_operacion.py` no puede cambiar el `Antes` porque es lo que ancla la
+operación al texto virgen. Se extendió la operación existente a mano —`Gregario, frente al
+planteam iento…` → `De Gregario, frente al planteam iento…`— y `--validar` confirmó unicidad y
+ausencia de solape. **Cuando el defecto cae dentro de un tramo propio y el ancla no alcanza,
+la salida es extender el ancla, no apilar ni abandonar.**
+
+### Verificado
+
+`De Gregario` 41 → **0** (`De Gregorio` 1.150 → 1.191) · `Lehman` persona 5 → **0** ·
+`Lehman Brothers` 14 → **15** · `Garda` 2 → **0** · `Beam Stearns` 5 → **0** (`Bear Stearns`
+1 → 6) · `Sros` 1 → **0** · `Texto` intacto en las 9.725.
+
+Registro: **1.627 filas / 2.706 operaciones**.
+
+### Una operación tiene que ser idempotente
+
+`test_no_vuelve_a_corregir_sobre_lo_corregido` falló al aplicar el lote: en `2005-05-12:232:1`
+la segunda pasada producía `Lehmannn`. La causa es estructural, no un error de tipeo: cuando el
+`Antes` es **subcadena** del `Despues`, el texto ya corregido sigue conteniendo el `Antes` y la
+operación se vuelve a aplicar. Con `Antes='Lehman'` y `Despues='Lehmann'`, `'Lehmann'` contiene
+`'Lehman'` en la posición 0, así que el reemplazo da `'Lehmannn'`.
+
+El generador de anclas las extiende sólo cuando no son únicas en la fila; cuando la palabra
+aparece una sola vez devuelve la palabra desnuda, y ahí es donde cae la trampa. Se escaneó el
+registro entero por la propiedad `Antes in Despues`: **3 operaciones** la tenían, las tres del
+mismo lote, y las tres se arreglaron extendiendo el ancla un carácter a la derecha —`Lehman,` →
+`Lehmann,` y `Lehman ` → `Lehmann `— con lo que el `Antes` deja de ser subcadena del `Despues`.
+
+**Regla: al generar un lote, verificar que `Antes` no sea subcadena de `Despues` en ninguna
+operación.** Es una condición barata de comprobar y el único guardia que la detecta corre
+después, en la suite.

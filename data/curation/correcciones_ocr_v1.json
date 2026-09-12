@@ -2973,6 +2973,14 @@
           "Despues": "unos meses. La balanz",
           "Contexto": " sobre el 20%, pero algo inferiores a las previstas hace algunos meses . La balanza comercial en dólares corrientes seguirá mostrando un saldo",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "mérica.,",
+          "Despues": "mérica,",
+          "Ocurrencias": 1,
+          "Contexto": " abruptos, en especial de Estados Unidos de América., afectando la dinámica de la activi",
+          "Justificacion": "Punto antes de una coma. Medido en el corpus: «.,» aparece 24 veces en el texto corregido, pero 20 son legítimas (abreviaturas «EE.UU.», «S.A.», «etc.», «v.gr.» e iniciales de nombre como «Velasco B.,»). Las 4 restantes tienen antes una palabra completa en minúscula o un signo de porcentaje, no una abreviatura, y el punto es sobrante."
         }
       ]
     },
@@ -3850,6 +3858,14 @@
           "Ocurrencias": 1,
           "Contexto": "ros de crack spread, éstos se revierten muy rápidamente yeso debie ra notarse en un plazo corto, ya que la gas",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 488 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "or Lehman qu",
+          "Despues": "or Lehmann qu",
+          "Ocurrencias": 1,
+          "Contexto": " del precio del petróleo. Hace mención el señor Lehman que en la última Reunión de Política ",
+          "Justificacion": "Apellido dañado por OCR: falta la ene final. Medido en el corpus: «Lehmann» aparece 1904 veces y «Lehman» 24, pero 19 de esas 24 son el banco de inversión Lehman Brothers, cuyo nombre correcto lleva una sola ene y no se toca. Las 5 restantes son la persona, Sergio Lehmann Beresi, Gerente de Análisis Internacional, siempre precedidas de «señor» o «Gerente señor». El campo Actor_Final de esas filas dice «Sergio Lehmann Beresi»."
         }
       ]
     },
@@ -6428,6 +6444,14 @@
           "Ocurrencias": 1,
           "Contexto": ", hay que elevar la tasa de política monetaria en conjunto con una intervención cambiaría y que en ausencia de esta última, no corresponde elevar la ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "votación del Consejero señor Manuel Marfán,.",
+          "Despues": "votación del Consejero señor Manuel Marfán,",
+          "Ocurrencias": 1,
+          "Contexto": " sesgo al alza en el Comunicado. Luego de la votación del Consejero señor Manuel Marfán,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
         }
       ]
     },
@@ -6648,6 +6672,14 @@
           "Ocurrencias": 1,
           "Contexto": "ambién que ello probablemente ha respondido tanto al impacto de la intervención cambiaría como a un panorama en Estados Unidos de América algo menos ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "..",
+          "Despues": ".",
+          "Ocurrencias": 1,
+          "Contexto": "comunicación de futuros ajustes en dicha Tasa.. Agrega el señor García que en esa ",
+          "Justificacion": "Punto duplicado. Medido en el corpus: «..» aparece 4 veces en el texto virgen; una ya está cubierta por otra operación registrada (2006-01-12:562:1) y quedan estas 3, siempre al cierre de una oración seguida de otra que empieza en mayúscula."
         }
       ]
     },
@@ -7228,6 +7260,14 @@
           "Ocurrencias": 1,
           "Contexto": "la apreciación mundial del dólar, es el comportamiento reciente de la cobertura cambiaría de los fondos de pensiones, gatillado por el cambio de norm",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Para concluir con la votación,.",
+          "Despues": "Para concluir con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "e a lo que determine la mayoría del Consejo. Para concluir con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
         }
       ]
     },
@@ -12795,6 +12835,14 @@
           "Ocurrencias": 1,
           "Contexto": "dge funds, en los términos de pérdida significativa. Cree que, aparentemente, lo que hubo es una fiy to quality y eso hizo caer las tasas de manera equivalente al alza que hab",
           "Justificacion": "\"fiy\"/\"fIy\" por \"fly\": la l se leyo como i (o como I). Es el mismo glifo que produce \"ai\" por \"al\", demostrado con 26 casos independientes. Se retira la marca RECONSTRUCCION_AMBIGUA que se había puesto en esta fila: al aparecer la regla de glifo, la ambigüedad se resuelve. Un escáner no convierte \"flight\" en \"fiy\" (sería borrar cuatro letras); sí convierte \"fly\" en \"fiy\". Las 21 apariciones de \"flight to quality\" que hay en el corpus son la otra grafía, correcta, y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Lehman,",
+          "Despues": "Lehmann,",
+          "Ocurrencias": 1,
+          "Contexto": "ente de Análisis Internacional, señor Sergio Lehman, hace presente que ha existido bast",
+          "Justificacion": "Apellido dañado por OCR: falta la ene final. Medido en el corpus: «Lehmann» aparece 1904 veces y «Lehman» 24, pero 19 de esas 24 son el banco de inversión Lehman Brothers, cuyo nombre correcto lleva una sola ene y no se toca. Las 5 restantes son la persona, Sergio Lehmann Beresi, Gerente de Análisis Internacional, siempre precedidas de «señor» o «Gerente señor». El campo Actor_Final de esas filas dice «Sergio Lehmann Beresi»."
         }
       ]
     },
@@ -18169,6 +18217,14 @@
           "Ocurrencias": 1,
           "Contexto": ", no obstante la apreciación del dóla r. Informa también que respe cto a granos se observa una caída importante",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 5404 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Lehman ",
+          "Despues": "Lehmann ",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Sergio Lehman informa finalmente que el precio de",
+          "Justificacion": "Apellido dañado por OCR: falta la ene final. Medido en el corpus: «Lehmann» aparece 1904 veces y «Lehman» 24, pero 19 de esas 24 son el banco de inversión Lehman Brothers, cuyo nombre correcto lleva una sola ene y no se toca. Las 5 restantes son la persona, Sergio Lehmann Beresi, Gerente de Análisis Internacional, siempre precedidas de «señor» o «Gerente señor». El campo Actor_Final de esas filas dice «Sergio Lehmann Beresi»."
         }
       ]
     },
@@ -18490,6 +18546,22 @@
           "Ocurrencias": 1,
           "Contexto": "uación de la situación actual así como del posible curso de acción en politica monetaria . Indica que lo que hoy se requiere es transmitir que se es",
           "Justificacion": "Falta la tilde. Medido en el corpus: «politica» sin tilde aparece 1 sola vez (ésta) y «política» 5.573 — es la forma correcta más frecuente de todo el corpus, así que no hay duda."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "sé De Gregario qu",
+          "Despues": "sé De Gregorio qu",
+          "Ocurrencias": 1,
+          "Contexto": "s de inflación. Indica el Presidente señor José De Gregario que lo clave es el timing y la magnit",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "sé De Gregario vo",
+          "Despues": "sé De Gregorio vo",
+          "Ocurrencias": 1,
+          "Contexto": "as razones expuestas , el Presidente señor José De Gregario vota por mantener la Tasa de Política",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -18678,11 +18750,11 @@
       "Operaciones": [
         {
           "Tipo": "PALABRA_PARTIDA",
-          "Antes": "Gregario, frente al planteam iento del Consejero s",
-          "Despues": "Gregario, frente al planteamiento del Consejero s",
+          "Antes": "De Gregario, frente al planteam iento del Consejero s",
+          "Despues": "De Gregorio, frente al planteamiento del Consejero s",
           "Ocurrencias": 1,
-          "Contexto": "El Presidente señor José De Gregario, frente al planteam iento del Consejero señor Enrique Marshall, señala que lo pri",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 162 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Contexto": "El Presidente señor José De Gregario, frente al planteam iento del Consejero señor Enrique Marshall, señala que l",
+          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 162 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Extensión del §55: el tramo original empezaba en «Gregario,» y dejaba fuera el «De » que lo precede, de modo que no había forma de corregir el apellido sin solaparse. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre la misma persona, José De Gregorio Rebeco."
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
@@ -19041,6 +19113,14 @@
           "Despues": "iniciación, añadiendo",
           "Contexto": "n elementos de proyección de corto plazo de la actividad de iniciación , añadiendo a ella, en primer término, que los spreads de tasas de capt",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Continuando con la votación,.",
+          "Despues": "Continuando con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "aún más rápida que la del escenario central. Continuando con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
         }
       ]
     },
@@ -19428,6 +19508,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Consejero señor Enrique Marshall agradece al sta ff el material preparado para esta ocasión. Señala el seño",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 422 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "%.,",
+          "Despues": "%,",
+          "Ocurrencias": 1,
+          "Contexto": "antener la Tasa de Política Monetaria en 6,25%., sin desconocer que esta decisión c",
+          "Justificacion": "Punto antes de una coma. Medido en el corpus: «.,» aparece 24 veces en el texto corregido, pero 20 son legítimas (abreviaturas «EE.UU.», «S.A.», «etc.», «v.gr.» e iniciales de nombre como «Velasco B.,»). Las 4 restantes tienen antes una palabra completa en minúscula o un signo de porcentaje, no una abreviatura, y el punto es sobrante."
         }
       ]
     },
@@ -19508,6 +19596,22 @@
           "Ocurrencias": 1,
           "Contexto": "y a una lectura un poco más dovish de la actitud que pudiese tener el Sanco Central Europeo en materia de tasas a propósito nuevamente de la ince",
           "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": " Ante una consulta del Presidente señor José De Gregario, el señor Lehman indica que estas ",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "or Lehman in",
+          "Despues": "or Lehmann in",
+          "Ocurrencias": 1,
+          "Contexto": "del Presidente señor José De Gregario, el señor Lehman indica que estas caídas son en moneda",
+          "Justificacion": "Apellido dañado por OCR: falta la ene final. Medido en el corpus: «Lehmann» aparece 1904 veces y «Lehman» 24, pero 19 de esas 24 son el banco de inversión Lehman Brothers, cuyo nombre correcto lleva una sola ene y no se toca. Las 5 restantes son la persona, Sergio Lehmann Beresi, Gerente de Análisis Internacional, siempre precedidas de «señor» o «Gerente señor». El campo Actor_Final de esas filas dice «Sergio Lehmann Beresi»."
         }
       ]
     },
@@ -19628,6 +19732,14 @@
           "Despues": "de rescate, apreciánd",
           "Contexto": " banca en Europa, algo se devuelven con el anuncio del plan de rescate , apreciándose una caída bastante pronunciada de los títulos accionaría",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Lehman Sros.",
+          "Despues": "Lehman Brothers",
+          "Ocurrencias": 1,
+          "Contexto": "ulsado por la quiebra del banco de inversión Lehman Sros. Agrega que se puede observar el au",
+          "Justificacion": "«Sros.» por el nombre del banco de inversión Lehman Brothers, cuya quiebra en septiembre de 2008 es el hecho al que se refiere el texto: «impulsado por la quiebra del banco de inversión Lehman Sros.». Es la única aparición de esa grafía en el corpus. Se normaliza a «Lehman Brothers» y no a «Lehman Bros.» porque es la forma que el propio corpus atestigua, 14 veces, y porque el guardia de vocabulario del registro rechaza introducir una palabra ausente del corpus."
         }
       ]
     },
@@ -19672,6 +19784,14 @@
           "Despues": "r el Banco, ya que en",
           "Contexto": " 1,5% en el primer trimestre es superior a la considerada por el Sanco , ya que en la encuesta se asume un crecimiento de 1,1% durante ese mis",
           "Justificacion": "La operacion ya quitaba el espacio antes de la coma (§18). Se extiende, no se apila: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningun orden. Ademas del espacio, el OCR escribio «S» donde va «B»: «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco» («el Sanco Central Europeo», «el Sanco Central», «por el Sanco»), y «Banco» aparece 2.418 veces. Las 7 se leyeron una por una; las otras 6 van como operacion propia (§27)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que le parecen extraños eso",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -19687,6 +19807,14 @@
           "Ocurrencias": 1,
           "Contexto": "ente. Indica que parte de estos movimientos, incluso en este caso, porque no se cons idera esto inmediatamente, es precisamente porque hay dinámic",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 876 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario advierte que la inercia puede esta",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -22336,6 +22464,22 @@
           "Ocurrencias": 1,
           "Contexto": "cientemente significativas como para afectar el escenario central del Sanco. Por otra parte, señala que resulta importante subrayar que las proye",
           "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "sé De Gregario pl",
+          "Despues": "sé De Gregorio pl",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario plantea que la economía chilena y su ",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "sé De Gregario me",
+          "Despues": "sé De Gregorio me",
+          "Ocurrencias": 1,
+          "Contexto": " ámbito inflacionario, el Presidente señor José De Gregario menciona que los registros de inflaci",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -23145,6 +23289,14 @@
           "Ocurrencias": 1,
           "Contexto": "s fiscales y solicita que se aclare la proyección en relación con los planes de estimulo del gobierno norteamericano.",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario consulta acerca de si el TARP se c",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -24423,6 +24575,14 @@
           "Despues": "recimiento, no result",
           "Contexto": "dente señor José De Gregario, señala que en lo referido al crecimiento , no resulta evidente qué es lo que empuja su promedio, porque si bajan",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario, señala que en lo referido al crec",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -24567,6 +24727,14 @@
           "Despues": "lipe Jaque,quien en e",
           "Contexto": "parte internacional la efectuará el economista senior don Felipe Jaque ,quien en esta ocasión reemplazará al Gerente de Análisis Internacional",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor De Gregario señala que la presentación de la p",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -24713,6 +24881,14 @@
           "Ocurrencias": 1,
           "Contexto": "eo sube bastante. Agrega que lo que se debiera hacer y que alguna vez él efectúo, es cuánto de esta caída puede explicarse por efecto de variación de ",
           "Justificacion": "El sujeto es «él», así que hace falta la tercera persona del pretérito «efectuó»; «efectúo» es la primera persona del presente y no concuerda. Medido en el corpus: «efectúo» aparece 1 sola vez (ésta) y «efectuó» 51. En la misma fila el verbo se usa bien más adelante: «en el Ministerio de Hacienda se efectuó ese ejercicio»."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario, señala que tiene la impresión que",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -24942,6 +25118,14 @@
           "Despues": "arrollados. Esta mism",
           "Contexto": "a relevante por ser depend iente del comercio con países desarrollados . Esta misma situación de crisis y detrimento económico podría presenta",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "obre el particular, el Presidente señor José De Gregario menciona que, en su opinión, persi",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -25273,6 +25457,14 @@
           "Despues": " noviembre, diciembre",
           "Contexto": "l año 2004. No es un problema. Señala que, inmediatamente en noviembre , diciembre, enero y febrero va a empezar a subir eIIPC. Estima que se ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que se hará cargo de lo exp",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -25335,6 +25527,14 @@
           "Despues": "inicial. /. /",
           "Contexto": "puntos base, de manera que se debería comparar con el nivel inicial. / . /",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario comenta que existen dos posiciones",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -25608,6 +25808,14 @@
           "Despues": "te jornada. Señala en",
           "Contexto": " que es muy difícil que esto pueda ser resuelto en la presente jornada . Señala entender que el plan de financiamiento debiera ser anunciado l",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente, señor José De Gregario, manifiesta que es muy difícil que",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -26028,6 +26236,14 @@
           "Despues": "omentarios, el Presid",
           "Contexto": "No habiendo comentarios , el Presidente señor José De Gregario agradece la exposición del Geren",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "iendo comentarios , el Presidente señor José De Gregario agradece la exposición del Gerente",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -26140,6 +26356,14 @@
           "Despues": "su opinión, el escena",
           "Contexto": " baja ante noticias negativas de no mayor significancia. En su opinión , el escenario de los próximos meses va a ser uno en que algunas otras ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que hay un escenario centra",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -27351,6 +27575,14 @@
           "Despues": "del IPoM",
           "Contexto": "cita dicha trayectoria, ya que tiene incorporado el cálculo del/PoM.",
           "Justificacion": "«IPoM» aparece 2.491 veces en el corpus y «/PoM» sólo aquí: la «I» se volvió «/» y además se perdió el espacio que la separaba de «del». Es la misma sustitución que en los cuatro «el /PoM» ya corregidos, con el espacio de menos."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario comenta que no tiene implícita dic",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -29886,6 +30118,14 @@
           "Ocurrencias": 1,
           "Contexto": "mo se reporta la información, ya que es la misma forma en todos lados. .LI I",
           "Justificacion": "Residuo de OCR al final de la fila, después de una oración completa («…ya que es la misma forma en todos lados.»). Medido en el corpus: «.LI» aparece 1 sola vez, ésta. Es un marcador de línea o página del PDF, no texto: la fila siguiente (1858:2) empieza con la continuación normal de la exposición."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente don José De Gregario menciona que el efecto comparación",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
         }
       ]
     },
@@ -30154,6 +30394,646 @@
           "Ocurrencias": 1,
           "Contexto": "5 En Santiago de Chile, a 11 de octubre de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2249:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "importante.,",
+          "Despues": "importante,",
+          "Ocurrencias": 1,
+          "Contexto": "embre y octubre se ha disipado en una medida importante., lo que indicaría que las condicion",
+          "Justificacion": "Punto antes de una coma. Medido en el corpus: «.,» aparece 24 veces en el texto corregido, pero 20 son legítimas (abreviaturas «EE.UU.», «S.A.», «etc.», «v.gr.» e iniciales de nombre como «Velasco B.,»). Las 4 restantes tienen antes una palabra completa en minúscula o un signo de porcentaje, no una abreviatura, y el punto es sobrante."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2730:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "tanto, el riesgo de que el precio disminuya. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2756:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Continuando con la votación,.",
+          "Despues": "Continuando con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "la misma los comentarios sobre esta materia. Continuando con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2769:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "ión de los commodities en distintas monedas. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2778:3",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "..",
+          "Despues": ".",
+          "Ocurrencias": 1,
+          "Contexto": " en adelante se tendería a una desaceleración.. En todo caso, indica que el actual",
+          "Justificacion": "Punto duplicado. Medido en el corpus: «..» aparece 4 veces en el texto virgen; una ya está cubierta por otra operación registrada (2006-01-12:562:1) y quedan estas 3, siempre al cierre de una oración seguida de otra que empieza en mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2798:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Continuando con la votación,.",
+          "Despues": "Continuando con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "las consideraciones señaladas anteriormente. Continuando con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2829:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": " subyacente fueran menos sensibles a shocks. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-01-14:2854:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "a con otros períodos anteriores a la crisis. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-01-14:2874:4",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "es son iguales que las del trimestre pasado. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-01-14:2885:3",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Para concluir con la votación,.",
+          "Despues": "Para concluir con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": " en el margen los contenidos del comunicado. Para concluir con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3007:4",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "poniendo que es medio punto del PIB por año. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3019:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Para concluir con la votación,.",
+          "Despues": "Para concluir con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "e los puntos 6 y 7 de la Minuta de Opciones. Para concluir con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3075:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Para concluir con la votación,.",
+          "Despues": "Para concluir con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": " más cercana en el tiempo que el mes pasado. Para concluir con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3121:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Continuando con la votación,.",
+          "Despues": "Continuando con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "o es por mantener la TPM en su nivel actual. Continuando con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3143:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "rothers.,",
+          "Despues": "rothers,",
+          "Ocurrencias": 1,
+          "Contexto": "recido con aquella de Beam Stearns y Lehman Brothers., cuando alrededor de julio del año ",
+          "Justificacion": "Punto antes de una coma. Medido en el corpus: «.,» aparece 24 veces en el texto corregido, pero 20 son legítimas (abreviaturas «EE.UU.», «S.A.», «etc.», «v.gr.» e iniciales de nombre como «Velasco B.,»). Las 4 restantes tienen antes una palabra completa en minúscula o un signo de porcentaje, no una abreviatura, y el punto es sobrante."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Beam Stearns",
+          "Despues": "Bear Stearns",
+          "Ocurrencias": 1,
+          "Contexto": "oyuntura tiene algún parecido con aquella de Beam Stearns y Lehman Brothers., cuando alreded",
+          "Justificacion": "Nombre dañado por OCR: «Beam Stearns» por «Bear Stearns», el banco de inversión cuya quiebra en septiembre de 2008 abre la crisis financiera. Confusión de la erre por la eme, clásica en OCR. Medido en el corpus: «Beam Stearns» aparece 5 veces y «Bear Stearns» 1, de modo que la forma correcta está atestiguada por el propio corpus aunque sea minoritaria; los cinco contextos son inequívocos («cuando alrededor de julio del año 2008», «en el momento en que quebró», «la crisis de»). Se corrige y se deja constancia aquí de que es el primer caso en que la forma canónica es minoritaria: la decisión no descansa en la frecuencia sino en que la entidad es única y el corpus la atestigua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3200:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Continuando con la votación,.",
+          "Despues": "Continuando con la votación,",
+          "Ocurrencias": 1,
+          "Contexto": "ias sobre la actividad e inflación en Chile. Continuando con la votación,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3242:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "tica fiscal puede ser altamente contractiva. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3268:4",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios,.",
+          "Despues": "No habiendo más comentarios,",
+          "Ocurrencias": 1,
+          "Contexto": "arte del debate de la trayectoria de la TPM. No habiendo más comentarios,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4688:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios y preguntas,.",
+          "Despues": "No habiendo más comentarios y preguntas,",
+          "Ocurrencias": 1,
+          "Contexto": " que hacerlo sobre la base del petróleo WTI. No habiendo más comentarios y preguntas,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-04-17:4754:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "No habiendo más comentarios y preguntas,.",
+          "Despues": "No habiendo más comentarios y preguntas,",
+          "Ocurrencias": 1,
+          "Contexto": "e sus dificultades se han ido profundizando. No habiendo más comentarios y preguntas,.",
+          "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4966:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "..",
+          "Despues": ".",
+          "Ocurrencias": 1,
+          "Contexto": " de la política monetaria que se ha entregado.. En lo referente al escenario exter",
+          "Justificacion": "Punto duplicado. Medido en el corpus: «..» aparece 4 veces en el texto virgen; una ya está cubierta por otra operación registrada (2006-01-12:562:1) y quedan estas 3, siempre al cierre de una oración seguida de otra que empieza en mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:731:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Garda",
+          "Despues": "García",
+          "Ocurrencias": 1,
+          "Contexto": "io que se debe ir retirando. Agrega el señor Garda que no necesariamente esto tenga\nq",
+          "Justificacion": "Apellido dañado por OCR: «Garda» por «García». Medido en el corpus: «Pablo García» aparece 737 veces y «Pablo Garda» 1. En 2006-06-15:731:1 el propio campo Actor_Final de la fila es «Pablo García Silva», de modo que «el señor Garda» es una autorreferencia con el apellido dañado."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1800:4",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "e dicho comentario, el Presidente señor José De Gregario acota que eso se debe a que el mer",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1809:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario comenta sobre este último tema que",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2050:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que si se observa el crecim",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2053:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario, complementando lo anterior indica",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2186:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que tiene una duda respecto",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2192:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que le parece muy relevante",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2219:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario comenta que le parece relevante lo",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2282:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario ofrece la palabra para comentarios",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-02-12:2351:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala que podría tratarse que los",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2405:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario comenta que esta serie de cifras d",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2483:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario agradece la presentación del Geren",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2520:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario agradece la presentación del Geren",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:2993:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente, señor De Gregario, plantea sus dudas respecto del ef",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3089:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente, señor José De Gregario, manifiesta concordar con lo comen",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3146:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "de Beam Stearns, e",
+          "Despues": "de Bear Stearns, e",
+          "Ocurrencias": 1,
+          "Contexto": " que se registraron justo antes del problema de Beam Stearns, esto es, en el período inmediatament",
+          "Justificacion": "Nombre dañado por OCR: «Beam Stearns» por «Bear Stearns», el banco de inversión cuya quiebra en septiembre de 2008 abre la crisis financiera. Confusión de la erre por la eme, clásica en OCR. Medido en el corpus: «Beam Stearns» aparece 5 veces y «Bear Stearns» 1, de modo que la forma correcta está atestiguada por el propio corpus aunque sea minoritaria; los cinco contextos son inequívocos («cuando alrededor de julio del año 2008», «en el momento en que quebró», «la crisis de»). Se corrige y se deja constancia aquí de que es el primer caso en que la forma canónica es minoritaria: la decisión no descansa en la frecuencia sino en que la entidad es única y el corpus la atestigua."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ró Beam Stearns. A",
+          "Despues": "ró Bear Stearns. A",
+          "Ocurrencias": 1,
+          "Contexto": "a a la que se vivía en el momento en que quebró Beam Stearns. A su juicio, ambas perspectivas se p",
+          "Justificacion": "Nombre dañado por OCR: «Beam Stearns» por «Bear Stearns», el banco de inversión cuya quiebra en septiembre de 2008 abre la crisis financiera. Confusión de la erre por la eme, clásica en OCR. Medido en el corpus: «Beam Stearns» aparece 5 veces y «Bear Stearns» 1, de modo que la forma correcta está atestiguada por el propio corpus aunque sea minoritaria; los cinco contextos son inequívocos («cuando alrededor de julio del año 2008», «en el momento en que quebró», «la crisis de»). Se corrige y se deja constancia aquí de que es el primer caso en que la forma canónica es minoritaria: la decisión no descansa en la frecuencia sino en que la entidad es única y el corpus la atestigua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3147:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Beam Stearns",
+          "Despues": "Bear Stearns",
+          "Ocurrencias": 1,
+          "Contexto": "distintas de las que se aplicaron después de Beam Stearns.",
+          "Justificacion": "Nombre dañado por OCR: «Beam Stearns» por «Bear Stearns», el banco de inversión cuya quiebra en septiembre de 2008 abre la crisis financiera. Confusión de la erre por la eme, clásica en OCR. Medido en el corpus: «Beam Stearns» aparece 5 veces y «Bear Stearns» 1, de modo que la forma correcta está atestiguada por el propio corpus aunque sea minoritaria; los cinco contextos son inequívocos («cuando alrededor de julio del año 2008», «en el momento en que quebró», «la crisis de»). Se corrige y se deja constancia aquí de que es el primer caso en que la forma canónica es minoritaria: la decisión no descansa en la frecuencia sino en que la entidad es única y el corpus la atestigua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3193:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Garda",
+          "Despues": "García",
+          "Ocurrencias": 1,
+          "Contexto": "al Gerente de División Estudios, señor Pablo Garda, para que exponga las Opciones de ",
+          "Justificacion": "Apellido dañado por OCR: «Garda» por «García». Medido en el corpus: «Pablo García» aparece 737 veces y «Pablo Garda» 1. En 2006-06-15:731:1 el propio campo Actor_Final de la fila es «Pablo García Silva», de modo que «el señor Garda» es una autorreferencia con el apellido dañado."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3211:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Beam Stearns",
+          "Despues": "Bear Stearns",
+          "Ocurrencias": 1,
+          "Contexto": " históricos observados antes de la crisis de Beam Stearns, esto es, durante el primer trimes",
+          "Justificacion": "Nombre dañado por OCR: «Beam Stearns» por «Bear Stearns», el banco de inversión cuya quiebra en septiembre de 2008 abre la crisis financiera. Confusión de la erre por la eme, clásica en OCR. Medido en el corpus: «Beam Stearns» aparece 5 veces y «Bear Stearns» 1, de modo que la forma correcta está atestiguada por el propio corpus aunque sea minoritaria; los cinco contextos son inequívocos («cuando alrededor de julio del año 2008», «en el momento en que quebró», «la crisis de»). Se corrige y se deja constancia aquí de que es el primer caso en que la forma canónica es minoritaria: la decisión no descansa en la frecuencia sino en que la entidad es única y el corpus la atestigua."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3229:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario manifiesta que le llama la atenció",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3230:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El señor José De Gregario hace presente que dichas restricci",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3243:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor José De Gregario concede la palabra al Gerente de A",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3313:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario señala haber tenido la noción de q",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3434:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario subraya que las cifras expuestas c",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3453:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario agradece la exposición del Gerente",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3476:6",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "De Gregario",
+          "Despues": "De Gregorio",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregario da la bienvenida al Ministro de Ha",
+          "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-04-11:5464:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Lehman ",
+          "Despues": "Lehmann ",
+          "Ocurrencias": 1,
+          "Contexto": "e Estados Unidos de América, el señor Sergio Lehman menciona que la tasa de desempleo c",
+          "Justificacion": "Apellido dañado por OCR: falta la ene final. Medido en el corpus: «Lehmann» aparece 1904 veces y «Lehman» 24, pero 19 de esas 24 son el banco de inversión Lehman Brothers, cuyo nombre correcto lleva una sola ene y no se toca. Las 5 restantes son la persona, Sergio Lehmann Beresi, Gerente de Análisis Internacional, siempre precedidas de «señor» o «Gerente señor». El campo Actor_Final de esas filas dice «Sergio Lehmann Beresi»."
         }
       ]
     }

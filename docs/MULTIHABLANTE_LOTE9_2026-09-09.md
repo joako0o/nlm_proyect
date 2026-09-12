@@ -407,6 +407,8 @@ Para leer una sesión entera al margen del plan:
 
 | 124–132 | 2011-05-12 | 102 | **sesión cerrada 98/98** (4 ya estaban anotadas) · 11 actores · cola 1 caso ya partido en 3 segmentos, 2b cero, 2c cero → **ningún corte** · 6 acentos, todos correctos, cero correcciones locales · revisar la fórmula de la hora destapó el **pase de la coma**: 551 con dos puntos contra 18 con coma, corregidas en 17 filas y 11 actas (§54) |
 
+| 133–141 | 2010-06-15 | 100 | **sesión cerrada 98/98** (2 ya estaban anotadas) · 12 actores · cola 2 casos ya partidos, 2b y 2c cero, barrido independiente sobre los 12 actores con 2 falsos → **ningún corte** · 3 acentos, todos correctos · la sesión destapó **8 familias**: tres de puntuación (`,.` 20 casos que el §45 dejó abiertos, `.,` 4 con discriminador de abreviatura, `..` 3) y cinco de nombres dañados (`De Gregario` 41, `Lehman` persona 5 distinguido del banco, `Lehman Sros.` 1, `Garda` 2, `Beam Stearns` 5) (§55) |
+
 Para anotar una ronda leída:
 
 ```
