@@ -33484,7 +33484,977 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2008-08-14",
       "Justificacion": "La sesión 2008-08-14 estaba cerrada (98/98) y volvió a quedar pendiente por una fila nueva: RPM-2008-08-14:1995:2, creada por el corte curado del lote10 publicado en la entrega v8. El padre 1995 era una sola fila atribuida a Jorge Desormeaux Jiménez; la lectura del texto mostró que a los 740 caracteres el Vicepresidente deja de hablar y empieza la exposición del Gerente de Análisis Internacional. En esta acta el señor Gerente es Sergio Lehmann Beresi: el roster lo lista como Gerente de Análisis Internacional y la exposición internacional se le ofrece explícitamente, y las cinco referencias siguientes dentro del mismo padre son todas al señor Gerente. El tramo es una sola voz, la de Lehmann, de 2.051 caracteres. Se anota esa única fila; las otras 98 conservan su anotación original."
+    },
+    "RPM-2009-02-12:2301:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2301:1",
+      "ID_Padre": "2301",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1497,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2303:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2303:2",
+      "ID_Padre": "2303",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 732,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2304:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2304:1",
+      "ID_Padre": "2304",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 261,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2305:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2305:1",
+      "ID_Padre": "2305",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3089,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2306:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2306:1",
+      "ID_Padre": "2306",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 174,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2307:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2307:1",
+      "ID_Padre": "2307",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 415,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2308:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2308:1",
+      "ID_Padre": "2308",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 457,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2309:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2309:1",
+      "ID_Padre": "2309",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 487,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2310:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2310:1",
+      "ID_Padre": "2310",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 306,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2311:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2311:1",
+      "ID_Padre": "2311",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1893,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2312:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2312:1",
+      "ID_Padre": "2312",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 577,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2312:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2312:2",
+      "ID_Padre": "2312",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 328,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2312:3": {
+      "ID_Intervencion": "RPM-2009-02-12:2312:3",
+      "ID_Padre": "2312",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1018,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2312:4": {
+      "ID_Intervencion": "RPM-2009-02-12:2312:4",
+      "ID_Padre": "2312",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 433,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2312:5": {
+      "ID_Intervencion": "RPM-2009-02-12:2312:5",
+      "ID_Padre": "2312",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3662,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2313:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2313:1",
+      "ID_Padre": "2313",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 214,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2314:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2314:1",
+      "ID_Padre": "2314",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 179,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2315:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2315:1",
+      "ID_Padre": "2315",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 196,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2316:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2316:1",
+      "ID_Padre": "2316",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2102,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2317:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2317:1",
+      "ID_Padre": "2317",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 209,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2318:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2318:1",
+      "ID_Padre": "2318",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 396,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2319:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2319:1",
+      "ID_Padre": "2319",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1570,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2319:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2319:2",
+      "ID_Padre": "2319",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3072,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2319:3": {
+      "ID_Intervencion": "RPM-2009-02-12:2319:3",
+      "ID_Padre": "2319",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 1559,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2320:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2320:1",
+      "ID_Padre": "2320",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 664,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2321:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2321:1",
+      "ID_Padre": "2321",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 339,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2322:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2322:1",
+      "ID_Padre": "2322",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 249,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2323:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2323:1",
+      "ID_Padre": "2323",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 628,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2324:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2324:1",
+      "ID_Padre": "2324",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 453,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2324:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2324:2",
+      "ID_Padre": "2324",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 141,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2325:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2325:1",
+      "ID_Padre": "2325",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1131,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2326:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2326:1",
+      "ID_Padre": "2326",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1611,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2327:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2327:1",
+      "ID_Padre": "2327",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 628,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2329:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2329:1",
+      "ID_Padre": "2329",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 472,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2330:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2330:1",
+      "ID_Padre": "2330",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 440,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2331:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2331:1",
+      "ID_Padre": "2331",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 355,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2333:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2333:1",
+      "ID_Padre": "2333",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 4155,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2334:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2334:1",
+      "ID_Padre": "2334",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1548,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2335:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2335:1",
+      "ID_Padre": "2335",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 4981,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2336:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2336:1",
+      "ID_Padre": "2336",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1383,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2336:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2336:2",
+      "ID_Padre": "2336",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 218,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2337:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2337:1",
+      "ID_Padre": "2337",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 358,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2338:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2338:1",
+      "ID_Padre": "2338",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 113,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2338:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2338:2",
+      "ID_Padre": "2338",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 197,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2338:3": {
+      "ID_Intervencion": "RPM-2009-02-12:2338:3",
+      "ID_Padre": "2338",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 325,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2339:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2339:1",
+      "ID_Padre": "2339",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2340:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2340:1",
+      "ID_Padre": "2340",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 381,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2341:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2341:1",
+      "ID_Padre": "2341",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 400,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2342:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2342:1",
+      "ID_Padre": "2342",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1588,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2343:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2343:1",
+      "ID_Padre": "2343",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 179,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2344:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2344:1",
+      "ID_Padre": "2344",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 432,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2344:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2344:2",
+      "ID_Padre": "2344",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 943,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2345:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2345:1",
+      "ID_Padre": "2345",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1273,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2345:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2345:2",
+      "ID_Padre": "2345",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 2412,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2346:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2346:1",
+      "ID_Padre": "2346",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 1451,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2347:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2347:1",
+      "ID_Padre": "2347",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 225,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2348:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2348:1",
+      "ID_Padre": "2348",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 249,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2349:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2349:1",
+      "ID_Padre": "2349",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1063,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2349:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2349:2",
+      "ID_Padre": "2349",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 599,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2350:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2350:1",
+      "ID_Padre": "2350",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 577,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2351:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2351:1",
+      "ID_Padre": "2351",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 250,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2352:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2352:1",
+      "ID_Padre": "2352",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 1321,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2353:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2353:1",
+      "ID_Padre": "2353",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 738,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2353:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2353:2",
+      "ID_Padre": "2353",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 149,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2353:3": {
+      "ID_Intervencion": "RPM-2009-02-12:2353:3",
+      "ID_Padre": "2353",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1479,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2354:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2354:1",
+      "ID_Padre": "2354",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 112,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2354:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2354:2",
+      "ID_Padre": "2354",
+      "Actor": "Luis Alberto Álvarez Vallejos",
+      "Caracteres": 686,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2355:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2355:1",
+      "ID_Padre": "2355",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 1098,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2356:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2356:1",
+      "ID_Padre": "2356",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 872,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2356:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2356:2",
+      "ID_Padre": "2356",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 308,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2357:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2357:1",
+      "ID_Padre": "2357",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 383,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2358:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2358:1",
+      "ID_Padre": "2358",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 746,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2359:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2359:1",
+      "ID_Padre": "2359",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 2292,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2360:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2360:1",
+      "ID_Padre": "2360",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2505,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2360:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2360:2",
+      "ID_Padre": "2360",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2361:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2361:1",
+      "ID_Padre": "2361",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 178,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2362:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2362:1",
+      "ID_Padre": "2362",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 11121,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2363:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2363:1",
+      "ID_Padre": "2363",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 181,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2364:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2364:1",
+      "ID_Padre": "2364",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 6778,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2365:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2365:1",
+      "ID_Padre": "2365",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 211,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2366:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2366:1",
+      "ID_Padre": "2366",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 2716,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2367:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2367:1",
+      "ID_Padre": "2367",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 219,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2368:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2368:1",
+      "ID_Padre": "2368",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 1788,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2370:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2370:1",
+      "ID_Padre": "2370",
+      "Actor": "María Olivia Recart Herrera",
+      "Caracteres": 6138,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2371:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2371:1",
+      "ID_Padre": "2371",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 524,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2372:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2372:1",
+      "ID_Padre": "2372",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 8415,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2373:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2373:1",
+      "ID_Padre": "2373",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 6664,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2374:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2374:1",
+      "ID_Padre": "2374",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 3718,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2375:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2375:1",
+      "ID_Padre": "2375",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 6067,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2376:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2376:1",
+      "ID_Padre": "2376",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 7773,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2377:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2377:1",
+      "ID_Padre": "2377",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 223,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2378:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2378:1",
+      "ID_Padre": "2378",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 194,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2379:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2379:1",
+      "ID_Padre": "2379",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 246,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2380:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2380:1",
+      "ID_Padre": "2380",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 162,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2380:2": {
+      "ID_Intervencion": "RPM-2009-02-12:2380:2",
+      "ID_Padre": "2380",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 281,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2381:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2381:1",
+      "ID_Padre": "2381",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2287,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2009-02-12:2382:1": {
+      "ID_Intervencion": "RPM-2009-02-12:2382:1",
+      "ID_Padre": "2382",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 82,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-02-12",
+      "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
     }
   },
-  "Total_Leidas": 3001
+  "Total_Leidas": 3098
 }

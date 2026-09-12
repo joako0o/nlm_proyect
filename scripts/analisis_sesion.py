@@ -53,6 +53,8 @@ ESPACIO_DOBLE = re.compile(r'  +')
 COMILLA_RECTA = re.compile(r'["\']')
 LETRA_SUELTA_FINAL = re.compile(r'\s([A-Za-zÁÉÍÓÚÜÑáéíóúüñ])\.?$')
 SIN_PUNTUACION_FINAL = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüüñ0-9\)\]»”]$')
+# Cierre de enumeración: «a)», «ii)», «1)»… No son paréntesis de verdad.
+ENUMERACION = re.compile(r'(?:^|[\s;:])((?:[a-z]|[ivx]+|\d{1,2})\))')
 
 
 def cargar(base):
@@ -66,7 +68,8 @@ def cargar(base):
     virgen = {r['ID_Intervencion']: (r['Texto'] or '') for r in filas}
     salida = {rid: corregidas.get(rid, t) for rid, t in virgen.items()}
     actor = {r['ID_Intervencion']: r['Actor_Final'] for r in filas}
-    return virgen, salida, actor
+    motivos = {r['ID_Intervencion']: (r.get('Motivos_Revision') or '') for r in filas}
+    return virgen, salida, actor, motivos
 
 
 def seccion(numero, titulo):
@@ -83,7 +86,7 @@ def main() -> int:
     a = ap.parse_args()
     prefijo = f'RPM-{a.fecha}:'
 
-    virgen, salida, actor = cargar(a.base)
+    virgen, salida, actor, motivos = cargar(a.base)
     ids = [rid for rid in virgen if rid.startswith(prefijo)]
     if not ids:
         print(f'No hay filas para {a.fecha}')
@@ -141,8 +144,12 @@ def main() -> int:
         ('doble espacio', lambda t: ESPACIO_DOBLE.findall(t)),
         ('punto duplicado', lambda t: PUNTO_DOBLE.findall(t)),
         ('comilla recta', lambda t: COMILLA_RECTA.findall(t)),
+        # Los cierres sueltos de una enumeración («a) b) c)», «i) ii) iii)») no son
+        # paréntesis desbalanceados. Dio falso positivo en 2008-03-13 y otra vez en
+        # 2009-02-12, así que se descuentan antes de contar.
         ('paréntesis desbalanceado',
-         lambda t: ['('] if t.count('(') != t.count(')') else []),
+         lambda t: (lambda n: ['('] * n if n > 0 else [])(
+             t.count('(') - (t.count(')') - len(ENUMERACION.findall(t))))),
         ('termina en letra suelta', lambda t: LETRA_SUELTA_FINAL.findall(t)),
         ('termina sin puntuación', lambda t: SIN_PUNTUACION_FINAL.findall(t)),
     )
@@ -158,6 +165,17 @@ def main() -> int:
         print(f'\n   {etiqueta}: {total}')
         for rid, e in ejemplos:
             print(f'      {rid} -> {e}')
+
+    # «Termina sin puntuación» no es necesariamente un hallazgo nuevo: el motor ya
+    # levanta FINAL_SIN_PUNTUACION y esa alerta sostiene una reserva abierta que no
+    # se cierra añadiendo el punto. Se separan los dos casos para no volver a
+    # proponer lo mismo cada sesión.
+    con_alerta = [r for r in ids
+                  if 'FINAL_SIN_PUNTUACION' in motivos[r] and SIN_PUNTUACION_FINAL.search(sesion[r])]
+    if con_alerta:
+        print(f'\n   de las filas sin puntuación final, {len(con_alerta)} ya llevan '
+              f'FINAL_SIN_PUNTUACION (reserva abierta, no se cierra con un punto): '
+              f'{", ".join(con_alerta[:5])}')
     return 0
 
 

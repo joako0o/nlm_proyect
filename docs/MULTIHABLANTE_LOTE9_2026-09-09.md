@@ -375,6 +375,8 @@ Para leer una sesión entera al margen del plan:
 
 | 7–16 | 2008-03-13 | 109 | **sesión cerrada 106/106** (3 ya estaban anotadas) · 15 actores · las 2 filas de la cola multihablante **ya estaban bien partidas en la base** (1718:10 Marshall / 1718:11 Marfán; 1737:1 Desormeaux / 1737:2 Claro) · 4 correcciones + pase transversal «T a sa»→«Tasa» en 6 actas · 2 marcas para cotejo PDF · 13 de 14 candidatos de acento eran falsos positivos |
 
+| 17–25 | 2009-02-12 | 102 | **sesión cerrada 97/97** (5 ya estaban anotadas) · 14 actores · **cero correcciones**: 8 candidatos revisados y los 8 rechazados con la razón medida · el candidato multihablante (padre 2325) era una mención retrospectiva, no una segunda voz · los 4 de acento eran formas correctas («periodo» está en 36 actos) · los 3 de signo eran enumeración, cita del Acuerdo y la reserva 2661 |
+
 Para anotar una ronda leída:
 
 ```

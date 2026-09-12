@@ -2187,3 +2187,57 @@ detector sirve para no dejar nada sin mirar, no para decidir.
 También quedó medido que el chequeo de paréntesis desbalanceados da falsos positivos con las
 enumeraciones `a) b) c)`, y que `Velasco B.` no es una firma truncada: es la abreviatura que el
 corpus usa en otras tres actas.
+
+---
+
+## §37. Sesión 2009-02-12: ocho candidatos, cero correcciones
+
+Cien filas leídas y ni una corrección. **Eso es un resultado, no una sesión perdida**: sin sesiones
+que se cierran en cero no hay forma de saber si las correcciones de las otras las exige el texto o
+las exige el proceso. Los ocho candidatos se rechazaron uno por uno, con la razón medida.
+
+### El candidato multihablante era una mención, no una voz
+
+El padre 2325, atribuido a Pablo García, dice:
+
+> «En cuanto al tema del endeudamiento **a que se refirió la señora Ministra de Hacienda
+> Subrogante**, estima que se encuentra vinculado al tipo de cambio…»
+
+El detector permisivo vio un cargo + nombre y propuso a Recart como segunda voz. No lo es: García
+viene hablando desde el inicio del párrafo y el sujeto de «estima que» sigue siendo él. Nombrar a
+quien habló antes no es tomar la palabra. Que el detector **estricto** devolviera `Actor_Estricto
+= None` ya era la señal.
+
+### Los cuatro candidatos de acento eran formas correctas
+
+| forma | filas | por qué no se toca |
+|---|---|---|
+| `éstos` | 5 | tilde diacrítica del pronombre demostrativo; `estos` (1.384) es el determinante |
+| `dónde` | 1 | tilde diacrítica en «respecto a dónde se quiere llegar» |
+| `continua` | 1 | es el adjetivo: «la debilidad **continua** de los sistemas financieros» |
+| `periodo` | 2 | véase abajo |
+
+**`periodo` merece el detalle.** Sin tilde aparece 60 veces y con tilde 661, una proporción que a
+primera vista parece daño. Pero las 60 están **repartidas en 36 actos distintos**: no es un glifo
+que se rompió en un escaneo, es cómo escribe la fuente en un tercio del corpus. La regla del §34
+exige que la forma desviada sea una desviación **aislada**; ésta es sistemática, y además
+`período`/`periodo` son las dos válidas. Corregirla sería imponer una preferencia ortográfica, no
+reparar un defecto.
+
+### Los tres candidatos de signo también
+
+- **2362:1 «paréntesis desbalanceado»**: los tres cierres son `i) ii) iii)` de una enumeración.
+  Mismo falso positivo que `a) b) c)` en 2008-03-13; el auditor ya los descuenta.
+- **2381:1 «termina en comilla»**: las comillas están balanceadas (1 y 1) y cierran la cita del
+  Acuerdo. Normal en las 132 actas.
+- **2324:1 «termina sin punto»**: la oración está completa y la fila siguiente empieza con
+  mayúscula y otro hablante, así que falta el punto de verdad. Pero la fila ya lleva
+  `FINAL_SIN_PUNTUACION`, la alerta que sostiene la **reserva 2661**. Añadir el punto cerraría una
+  reserva abierta, que es exactamente lo que no se hace.
+
+### Lo que cambió en la herramienta
+
+`scripts/analisis_sesion.py` descontaba mal los paréntesis de enumeración y daba el mismo falso
+positivo en cada sesión. Ahora resta los cierres `a) / ii) / 1)` antes de contar, y separa las
+filas sin puntuación final que **ya llevan** `FINAL_SIN_PUNTUACION` de las que no, para no volver a
+proponer cerrar una reserva.
