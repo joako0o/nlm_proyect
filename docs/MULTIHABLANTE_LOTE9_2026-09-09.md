@@ -401,6 +401,8 @@ Para leer una sesión entera al margen del plan:
 
 | 97–105 | 2010-11-16 | 108 | **sesión cerrada 104/104** (4 ya estaban anotadas) · 12 actores · cola vacía, red 2b cero, red 2c cero → **ningún corte** · 3 candidatos de acento, todos correctos · destapó el **pase transversal de la comilla del Comunicado**: 102 filas con “ contra 4 dañadas, posición fija y signo presente, corregidas en 4 actas (§51) |
 
+| 106–114 | 2010-07-15 | 103 | **sesión cerrada 102/102** (1 ya estaba anotada) · 13 actores · cola vacía, 2b = 2 falsos (el propio actor dañado), 2c cero → **ningún corte** · destapó la **segunda variante de «Tasa» deletreada**: «T a s a» en 9 filas contra 119 bien escritas, corregidas en 9 actas (§52) |
+
 Para anotar una ronda leída:
 
 ```

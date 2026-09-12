@@ -3081,3 +3081,44 @@ que falta exige saber si el original la tenía; reemplazar un glifo mal leído e
 
 Verificado después de aplicar: las **106** apariciones de «Comunicado» seguido de comilla usan `“`,
 cero dañadas. Registro: **1.560 filas / 2.591 operaciones**. `Texto` intacto en las 9.725.
+
+---
+
+## §52. Sesión 2010-07-15 + segunda variante de «Tasa» deletreada
+
+103 filas, 13 actores. **Ninguna fila en la cola**; la red 2b dio 2 candidatos que son el propio
+actor con el apellido dañado por OCR («José De **Gregario**») y la 2c dio cero. Siete firmas
+corridas, **ningún corte**. Los 2 candidatos de acento son verbos («el INE no los **publica**», «el
+proceso… que se **inició**»).
+
+### El hallazgo: otra variante del mismo defecto
+
+La fila `3277:1` trae `157-01-100715 -T a s a de Política Monetaria`. El §36 ya había corregido la
+variante `T a sa` en 6 actas; ésta es la variante con **las cuatro letras separadas**. Medido:
+
+| forma | apariciones |
+|---|---|
+| `-Tasa de Política` (bien) | **119** |
+| `T a s a` | **9** |
+
+Siempre en la misma posición de la fórmula («el Consejo adopta el siguiente Acuerdo:
+<número>-Tasa de Política Monetaria»), y el número de acuerdo va pegado a la palabra: no hay lectura
+alternativa.
+
+### Las 9 correcciones (pase transversal, 9 actas)
+
+`2005-07-12:310:3` · `2006-03-16:625:1` · `2007-11-13:1569:1` · `2008-09-04:2099:1` ·
+`2008-10-09:2127:1` · `2008-11-13:2173:1` · `2009-03-12:2438:2` · `2010-05-13:3126:2` ·
+`2010-07-15:3277:1` — todas `T a s a` → `Tasa`, tipo `PALABRA_PARTIDA`.
+
+Verificado después: `T a s a` = **0** en la salida (20 en el `Texto` virgen, que incluyen las del
+§36) y `-Tasa de Política` = **128**, exactamente 119 + 9.
+
+### Lo que esto dice sobre los pases transversales
+
+El §36 corrigió 6 actas y dio el tema por cerrado. Nueve sesiones después aparece la **misma**
+palabra dañada de otra manera. Un pase transversal no cierra una familia: cierra **la variante que se
+midió**. Conviene, al cerrar una, dejar escrita la forma de buscar las otras — aquí, cualquier
+secuencia `T\s+a\s+s?a?` dentro de la fórmula del Acuerdo.
+
+Registro: **1.564 filas / 2.600 operaciones**. `Texto` intacto en las 9.725.
