@@ -1446,6 +1446,14 @@
           "Despues": "003, CdeR—, llegando ",
           "Contexto": " nominales históricos — según la Compilación de Referencia 2003, CdeR— , llegando a US$ 638 millones y con tasas de incremento anual del orden",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "embre del año en curso. Señala el señor Madgenzo, que los indicadores de consumo también",
+          "Despues": "embre del año en curso. Señala el señor Magendzo, que los indicadores de consumo también",
+          "Ocurrencias": 1,
+          "Contexto": "embre del año en curso. Señala el señor Madgenzo, que los indicadores de consumo también",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     },
@@ -3162,6 +3170,22 @@
           "Ocurrencias": 1,
           "Contexto": "antía respecto de lo previsto hace un mes. Señala, que la inflación mensual del IRC resultó negativa por segundo mes consecutivo, nuevamente pr",
           "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "en buena parte de 2006. Indica el señor Madgenzo que las expectativas tanto de consumido",
+          "Despues": "en buena parte de 2006. Indica el señor Magendzo que las expectativas tanto de consumido",
+          "Ocurrencias": 1,
+          "Contexto": "en buena parte de 2006. Indica el señor Madgenzo que las expectativas tanto de consumido",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " los valores neutrales. Agrega el señor Madgenzo que en octubre, el consumo habría creci",
+          "Despues": " los valores neutrales. Agrega el señor Magendzo que en octubre, el consumo habría creci",
+          "Ocurrencias": 1,
+          "Contexto": " los valores neutrales. Agrega el señor Madgenzo que en octubre, el consumo habría creci",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     },
@@ -9416,6 +9440,14 @@
           "Ocurrencias": 1,
           "Contexto": "estarían aumentando por temas puntuales de oferta, en este caso, por causas climáticas asociadas ai fenómeno de El Niño. A continuación, comenta que en materia de activida",
           "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "borales, entre otros aspectos. El señor Diego Gíanelli destaca que el citado plan no contempla",
+          "Despues": "borales, entre otros aspectos. El señor Diego Gianelli destaca que el citado plan no contempla",
+          "Ocurrencias": 1,
+          "Contexto": "borales, entre otros aspectos. El señor Diego Gíanelli destaca que el citado plan no contempla",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     },
@@ -12769,6 +12801,14 @@
           "Ocurrencias": 1,
           "Contexto": " y recién se van a conocer con el IPOM de septiembre. Agrega el señor Valdés que el INE autorizó ai Banco Central de Chile para incluir estos datos en el citado Informe.",
           "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Gerente de División Estudios señor Rodrigo Váldés, hace presente que quiere\ndejar constan",
+          "Despues": "El Gerente de División Estudios señor Rodrigo Valdés, hace presente que quiere\ndejar constan",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de División Estudios señor Rodrigo Váldés, hace presente que quiere\ndejar constan",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Rodrigo Valdés» aparece 227 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     },
@@ -21556,6 +21596,14 @@
           "Ocurrencias": 1,
           "Contexto": "e, destaca dos eventos que pusieron una cuota de duda respecto de la conducción macroeconómíca de las autoridades chinas: la depreciación de su moneda",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 190 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Diego Gíanelli continúa con su presentación y se refie",
+          "Despues": "El señor Diego Gianelli continúa con su presentación y se refie",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Diego Gíanelli continúa con su presentación y se refie",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     },
@@ -26211,6 +26259,14 @@
           "Despues": "ña Poblete; Gerente d",
           "Contexto": " Cardozo; Gerente de División Estadísticas, don Ricardo Vicuña Poblete ; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n el Ministro de Hacienda, señor Felipe Larraín Bascuñan. Asisten también: Gerente General, don ",
+          "Despues": "n el Ministro de Hacienda, señor Felipe Larraín Bascuñán. Asisten también: Gerente General, don ",
+          "Ocurrencias": 1,
+          "Contexto": "n el Ministro de Hacienda, señor Felipe Larraín Bascuñan. Asisten también: Gerente General, don ",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Felipe Larraín» aparece 266 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     },
@@ -27751,6 +27807,488 @@
           "Ocurrencias": 1,
           "Contexto": "i,- Siendo las 16:00 horas, se reanuda la Reunión de Política Monetaria N° 179.",
           "Justificacion": "Residuo «i,- » al inicio de la fila de reanudación. Es el mismo artefacto de salto de página que deja «i» suelta, aquí seguido de la puntuación de la línea original; sobra y además es lo único que impide que la fila empiece en mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6391:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
+          "Despues": "o; Gerente de División Estudios, don Alberto Naudon Dell’Oro; Gerente de División Operaciones Financieras",
+          "Ocurrencias": 1,
+          "Contexto": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «Dell'Oro» con apóstrofo recto. La fila NO estaba dañada: se unifica sólo la grafía del apóstrofo a la mayoritaria para que la persona tenga un único nombre en la base. Es reversible y no altera Texto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6486:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
+          "Despues": "o; Gerente de División Estudios, don Alberto Naudon Dell’Oro; Gerente de División Operaciones Financieras",
+          "Ocurrencias": 1,
+          "Contexto": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «Dell'Oro» con apóstrofo recto. La fila NO estaba dañada: se unifica sólo la grafía del apóstrofo a la mayoritaria para que la persona tenga un único nombre en la base. Es reversible y no altera Texto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-12-11:6518:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
+          "Despues": "o; Gerente de División Estudios, don Alberto Naudon Dell’Oro; Gerente de División Operaciones Financieras",
+          "Ocurrencias": 1,
+          "Contexto": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «Dell'Oro» con apóstrofo recto. La fila NO estaba dañada: se unifica sólo la grafía del apóstrofo a la mayoritaria para que la persona tenga un único nombre en la base. Es reversible y no altera Texto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6638:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "a; Gerente de División Estudios, don Alberto Naudon DellOro; Gerente de División Operaciones Financieras",
+          "Despues": "a; Gerente de División Estudios, don Alberto Naudon Dell’Oro; Gerente de División Operaciones Financieras",
+          "Ocurrencias": 1,
+          "Contexto": "a; Gerente de División Estudios, don Alberto Naudon DellOro; Gerente de División Operaciones Financieras",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «DellOro» sin apóstrofo (única en el corpus)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-11-12:7112:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o; Gerente de División Estudios, don Alberto Naudon DeN’Oro; Gerente de División Operaciones Financieras",
+          "Despues": "o; Gerente de División Estudios, don Alberto Naudon Dell’Oro; Gerente de División Operaciones Financieras",
+          "Ocurrencias": 1,
+          "Contexto": "o; Gerente de División Estudios, don Alberto Naudon DeN’Oro; Gerente de División Operaciones Financieras",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «DeN’Oro» perdió y corrompió caracteres (única en 9.723 filas)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:212:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Consejero señor Marfan, señala, que le parece que sería muy co",
+          "Despues": "El Consejero señor Marfán, señala, que le parece que sería muy co",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Marfan, señala, que le parece que sería muy co",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Marfán» aparece 1506 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-09-08:395:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Consejero señor Manuel Marfan, agradece el análisis del staff, señala",
+          "Despues": "El Consejero señor Manuel Marfán, agradece el análisis del staff, señala",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Manuel Marfan, agradece el análisis del staff, señala",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Marfán» aparece 1506 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-01-12:527:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Gerente de Investigación Económica, don Kiaus Schmidt-Hebbei Dunker; Gerente de Información e Invest",
+          "Despues": "Gerente de Investigación Económica, don Klaus Schmidt-Hebbel Dunker; Gerente de Información e Invest",
+          "Ocurrencias": 1,
+          "Contexto": "Gerente de Investigación Económica, don Kiaus Schmidt-Hebbei Dunker; Gerente de Información e Invest",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Klaus Schmidt-Hebbel» aparece 94 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:626:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e de Análisis Internacional, don Sergio Lehmann Beresí; Gerente de Mercados Financieros Nacion",
+          "Despues": "e de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacion",
+          "Ocurrencias": 1,
+          "Contexto": "e de Análisis Internacional, don Sergio Lehmann Beresí; Gerente de Mercados Financieros Nacion",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Lehmann Beresi» aparece 148 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:958:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e de Análisis\nMacroeconómico señor Igal Madgenzo indica que esta apreciación es la que s",
+          "Despues": "e de Análisis\nMacroeconómico señor Igal Magendzo indica que esta apreciación es la que s",
+          "Ocurrencias": 1,
+          "Contexto": "e de Análisis\nMacroeconómico señor Igal Madgenzo indica que esta apreciación es la que s",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:961:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Gerente señor Madgenzo señala que aún no se tiene\nesa cifra pa",
+          "Despues": "El Gerente señor Magendzo señala que aún no se tiene\nesa cifra pa",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Madgenzo señala que aún no se tiene\nesa cifra pa",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:962:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " señor Vittorio Corbo consulta al señor Madgenzo si tiene el gráfico\nsobre importaciones",
+          "Despues": " señor Vittorio Corbo consulta al señor Magendzo si tiene el gráfico\nsobre importaciones",
+          "Ocurrencias": 1,
+          "Contexto": " señor Vittorio Corbo consulta al señor Madgenzo si tiene el gráfico\nsobre importaciones",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:965:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Gerente señor Igal Madgenzo señala que cuando se anunciaron las\nimp",
+          "Despues": "El Gerente señor Igal Magendzo señala que cuando se anunciaron las\nimp",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Igal Madgenzo señala que cuando se anunciaron las\nimp",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "a de PIB para el año. Concluye el señor Madgenzo, señalando que si\nse hubiese ejecutado ",
+          "Despues": "a de PIB para el año. Concluye el señor Magendzo, señalando que si\nse hubiese ejecutado ",
+          "Ocurrencias": 1,
+          "Contexto": "a de PIB para el año. Concluye el señor Madgenzo, señalando que si\nse hubiese ejecutado ",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:967:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "erente de Análisis Macroeconómico señor Madgenzo señala que parte de la\nevaluación que s",
+          "Despues": "erente de Análisis Macroeconómico señor Magendzo señala que parte de la\nevaluación que s",
+          "Ocurrencias": 1,
+          "Contexto": "erente de Análisis Macroeconómico señor Madgenzo señala que parte de la\nevaluación que s",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1003:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Gerente señor Madgenzo señala que para el tercer trimestre res",
+          "Despues": "El Gerente señor Magendzo señala que para el tercer trimestre res",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Madgenzo señala que para el tercer trimestre res",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "emente observada. El Gerente señor Igal Madgenzo señala que la inflación del IPC de novi",
+          "Despues": "emente observada. El Gerente señor Igal Magendzo señala que la inflación del IPC de novi",
+          "Ocurrencias": 1,
+          "Contexto": "emente observada. El Gerente señor Igal Madgenzo señala que la inflación del IPC de novi",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n lo esperado. Comenta también el señor Madgenzo que en los últimos meses las medidas de",
+          "Despues": "n lo esperado. Comenta también el señor Magendzo que en los últimos meses las medidas de",
+          "Ocurrencias": 1,
+          "Contexto": "n lo esperado. Comenta también el señor Madgenzo que en los últimos meses las medidas de",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "epuntaron algo. Además, señala el señor Madgenzo que también se modifica a la baja el pa",
+          "Despues": "epuntaron algo. Además, señala el señor Magendzo que también se modifica a la baja el pa",
+          "Ocurrencias": 1,
+          "Contexto": "epuntaron algo. Además, señala el señor Madgenzo que también se modifica a la baja el pa",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1003:6",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ria de inversión, el Gerente señor ígal Madgenzo, señaló que las importaciones de bienes",
+          "Despues": "ria de inversión, el Gerente señor ígal Magendzo, señaló que las importaciones de bienes",
+          "Ocurrencias": 1,
+          "Contexto": "ria de inversión, el Gerente señor ígal Madgenzo, señaló que las importaciones de bienes",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1003:8",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Madgenzo comenta que el Transantiago representa ",
+          "Despues": "El señor Magendzo comenta que el Transantiago representa ",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Madgenzo comenta que el Transantiago representa ",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o se trata de una cifra menor. El señor Madgenzo señala que en la RPM pasada se identifi",
+          "Despues": "o se trata de una cifra menor. El señor Magendzo señala que en la RPM pasada se identifi",
+          "Ocurrencias": 1,
+          "Contexto": "o se trata de una cifra menor. El señor Madgenzo señala que en la RPM pasada se identifi",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1008:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Por otra parte, indica el señor Madgenzo que de lo que sí se tiene certeza es qu",
+          "Despues": "Por otra parte, indica el señor Magendzo que de lo que sí se tiene certeza es qu",
+          "Ocurrencias": 1,
+          "Contexto": "Por otra parte, indica el señor Madgenzo que de lo que sí se tiene certeza es qu",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1010:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Madgenzo, sobre el tema, señala que en el IPoM d",
+          "Despues": "El señor Magendzo, sobre el tema, señala que en el IPoM d",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Madgenzo, sobre el tema, señala que en el IPoM d",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1304:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " monetaria. En suma, el Consejero señor Enrique Marshali indica que su voto es por mantener la T",
+          "Despues": " monetaria. En suma, el Consejero señor Enrique Marshall indica que su voto es por mantener la T",
+          "Ocurrencias": 1,
+          "Contexto": " monetaria. En suma, el Consejero señor Enrique Marshali indica que su voto es por mantener la T",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Enrique Marshall» aparece 1011 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-09-13:1424:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Consejero señor Enrique Marshali comenta que también debe incluirse algo",
+          "Despues": "El Consejero señor Enrique Marshall comenta que también debe incluirse algo",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Enrique Marshali comenta que también debe incluirse algo",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Enrique Marshall» aparece 1011 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1745:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "zali;\nGerente de División Estudios, don Pablo Garcia Silva;\nGerente de División Política Financier",
+          "Despues": "zali;\nGerente de División Estudios, don Pablo García Silva;\nGerente de División Política Financier",
+          "Ocurrencias": 1,
+          "Contexto": "zali;\nGerente de División Estudios, don Pablo Garcia Silva;\nGerente de División Política Financier",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Pablo García Silva» aparece 90 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2218:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Gerente de División Estudios señor Pablo Garcia, complementando esta información, indic",
+          "Despues": "El Gerente de División Estudios señor Pablo García, complementando esta información, indic",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de División Estudios señor Pablo Garcia, complementando esta información, indic",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Pablo García» aparece 737 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3881:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " Marfán y el Ministro de Hacienda señor Felipe Larrain.",
+          "Despues": " Marfán y el Ministro de Hacienda señor Felipe Larraín.",
+          "Ocurrencias": 1,
+          "Contexto": " Marfán y el Ministro de Hacienda señor Felipe Larrain.",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Marfán» aparece 1506 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-04-12:3940:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El Consejero señor Sebastian Claro consulta si esa sorpresa es con respect",
+          "Despues": "El Consejero señor Sebastián Claro consulta si esa sorpresa es con respect",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Sebastian Claro consulta si esa sorpresa es con respect",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Sebastián Claro» aparece 1103 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-04-12:3959:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "se a ella el Ministro de Hacienda señor Felipe Larrain.",
+          "Despues": "se a ella el Ministro de Hacienda señor Felipe Larraín.",
+          "Ocurrencias": 1,
+          "Contexto": "se a ella el Ministro de Hacienda señor Felipe Larrain.",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Felipe Larraín» aparece 266 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-10-13:4364:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Claudios Soto responde que hay un debate entre la Cám",
+          "Despues": "El señor Claudio Soto responde que hay un debate entre la Cám",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Claudios Soto responde que hay un debate entre la Cám",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Claudio Soto» aparece 1274 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6644:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e se ubican en 91 puntos base. El señor Diego Gianellí prosigue con su exposición haciendo ref",
+          "Despues": "e se ubican en 91 puntos base. El señor Diego Gianelli prosigue con su exposición haciendo ref",
+          "Ocurrencias": 1,
+          "Contexto": "e se ubican en 91 puntos base. El señor Diego Gianellí prosigue con su exposición haciendo ref",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6655:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Gianellí",
+          "Despues": "Gianelli",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Diego Gianellí anticipa que.",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR. La operación se ciñe al apellido (no a la fila completa, que es corta) para que la reducción sea local y verificable."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6730:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Beltran de Ramón señala que los forwards reflejan el dif",
+          "Despues": "El señor Beltrán de Ramón señala que los forwards reflejan el dif",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Beltran de Ramón señala que los forwards reflejan el dif",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Beltrán de Ramón» aparece 249 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6755:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "epartamento Análisis Internacional, don Diego Gianellí Gómez; Asesor del Ministerio de Haciend",
+          "Despues": "epartamento Análisis Internacional, don Diego Gianelli Gómez; Asesor del Ministerio de Haciend",
+          "Ocurrencias": 1,
+          "Contexto": "epartamento Análisis Internacional, don Diego Gianellí Gómez; Asesor del Ministerio de Haciend",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-06-11:6852:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Beltran de Ramón plantea que el comportamiento del tipo ",
+          "Despues": "El señor Beltrán de Ramón plantea que el comportamiento del tipo ",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Beltran de Ramón plantea que el comportamiento del tipo ",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Beltrán de Ramón» aparece 249 veces en la salida, contra 2 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6982:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nsensus Forecasts y Bloomberg. El señor Diego Gíanelli destaca que la alta volatilidad financi",
+          "Despues": "nsensus Forecasts y Bloomberg. El señor Diego Gianelli destaca que la alta volatilidad financi",
+          "Ocurrencias": 1,
+          "Contexto": "nsensus Forecasts y Bloomberg. El señor Diego Gíanelli destaca que la alta volatilidad financi",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6984:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "El señor Diego Gíanelli prosigue con su presentación indicando ",
+          "Despues": "El señor Diego Gianelli prosigue con su presentación indicando ",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Diego Gíanelli prosigue con su presentación indicando ",
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
     }

@@ -2015,3 +2015,94 @@ a 605 rondas en esta sesión. Consecuencias prácticas, ambas sufridas aquí:
 Estado tras §33: **1.428 filas corregidas, 2.420 operaciones, 208 revisiones, 210 marcadas**,
 `Texto` intacto en las 9.723, sha base `d0b64842…` sin cambio. Sesiones cerradas **39 de 131**,
 filas leídas **2.838**.
+
+
+---
+
+## §34. Los nombres propios dañados se normalizan, con una excepción medida
+
+Hasta esta ronda el criterio era: **un nombre propio nunca se corrige, sólo se marca
+`NOMBRE_PROPIO_POR_COTEJAR`**. El usuario lo cambió: *«aprovecha de normalizar los nombres que
+encontraste dañado»*.
+
+La primera regla que probé fue de frecuencia: normalizar si el corpus acredita la forma canónica y
+ésta es mayoritaria. **Esa regla es insuficiente y produjo un error que las pruebas detectaron.**
+«Luis Oscar Herrera» tiene 490 apariciones con tilde contra 10 sin tilde; la frecuencia decía
+corregir, y estaba mal. La regla que queda exige dos condiciones, no una:
+
+> **Se normaliza un nombre propio sólo si (a) el corpus acredita la forma canónica *y* (b) la forma
+> dañada es una desviación aislada, no la grafía sistemática de un acta entera.** Si (b) falla, no
+> es daño de OCR: es cómo está escrito el documento, y se deja intacto.
+
+### El caso que invalidó la regla de frecuencia
+
+Las 10 apariciones de «Luis Oscar Herrera» sin tilde están todas en 2005, y en **cuatro de esas seis
+actas es la única forma que existe** (2005-01-11 2/0, 2005-03-10 2/0, 2005-06-09 2/0, 2005-07-12 2/0;
+sólo 2005-08-11 1/2 y 2005-11-10 1/3 tienen las dos). Además dos de esas actas están en `data/raw/`
+y **ya habían sido cotejadas contra el PDF**: los documentos escriben «Luis Oscar Herrera» sin
+tilde y «Óscar» aparece 0 veces. El corpus era fiel; la tilde que habría añadido era una invención.
+
+**Las 10 operaciones se revirtieron.** Las cuatro filas cotejadas quedan `NO_REQUIERE_COTEJO` como
+estaban; las otras seis conservan su marca `NOMBRE_PROPIO_POR_COTEJAR` abierta, porque el cotejo
+real sólo existe para dos de esas actas y no se cierra una marca con una inferencia sobre
+documentos que no se pueden leer. La base queda con dos grafías para esa persona (490 / 10) y eso
+es **correcto**: reproduce la variación real de los documentos de 2005, y el registro dice por qué.
+
+### Lo que sí se normalizó: 41 operaciones
+
+Todos los casos restantes pasan (a) y (b) —desviaciones aisladas en actas donde la forma canónica
+convive, a menudo muchas veces:
+
+| forma dañada | canónica | dañadas | canónicas | por acta |
+|---|---|---|---|---|
+| `Madgenzo` | `Magendzo` | 18 | 416 | 6/18, 11/9, 1/8 |
+| `Diego Gíanelli` / `Diego Gianellí` | `Diego Gianelli` | 4 / 3 | 117 | siempre con canónica |
+| `Enrique Marshali` | `Enrique Marshall` | 2 | 1.011 | 1/2, 1/11 |
+| `Marfan` | `Marfán` | 2 | 1.506 | 1/14, 1/5 |
+| `Felipe Larrain` | `Felipe Larraín` | 2 | 266 | 1/7, 1/9 |
+| `Beltran de Ramón` | `Beltrán de Ramón` | 2 | 249 | 1/2, 1/1 |
+| `Kiaus Schmidt-Hebbei` | `Klaus Schmidt-Hebbel` | 1 | 94 | 1/1 |
+| `Claudios Soto` | `Claudio Soto` | 1 | 1.274 | 1/27 |
+| `Sebastian Claro` | `Sebastián Claro` | 1 | 1.103 | 1/11 |
+| `Rodrigo Váldés` | `Rodrigo Valdés` | 1 | 227 | 1/5 |
+| `Lehmann Beresí` | `Lehmann Beresi` | 1 | 148 | 1/1 |
+| `Pablo Garcia Silva` / `Pablo Garcia` | `Pablo García Silva` / `Pablo García` | 1 / 1 | 90 / 737 | 1/0, 1/5 |
+| `Larraín Bascuñan` | `Larraín Bascuñán` | 1 | 32 | 1/0 |
+| `Naudon DeN’Oro` / `Naudon DellOro` / `Naudon Dell'Oro` | `Naudon Dell’Oro` | 1 / 1 / 3 | 12 | 1/0 cada una |
+
+El `1/0` de las tres últimas no las invalida: en esas actas el nombre aparece **una sola vez**, así
+que la forma canónica no puede convivir; la acreditan las otras actas. Ese es el límite de la
+prueba (b): distingue «única forma de un acta que lo repite» de «única mención de un acta».
+
+**Tras el pase no queda ninguna de las 17 formas dañadas**, y cada persona tiene una sola grafía:
+`Magendzo` 434, `Marfán` 1.508, `Diego Gianelli` 124, `Claudio Soto` 1.275, `Sebastián Claro` 1.104,
+`Enrique Marshall` 1.013, `Pablo García` 739, `Felipe Larraín` 268, `Beltrán de Ramón` 251,
+`Rodrigo Valdés` 228, `Lehmann Beresi` 149, `Klaus Schmidt-Hebbel` 95, `Larraín Bascuñán` 33,
+`Naudon Dell’Oro` 17. `Texto` intacto en las 9.723 y sha base sin cambio.
+
+### Lo que sigue marcado
+
+`Miguel Angel Nacrur Gazali` (2 filas): el corpus no tiene ninguna otra grafía, falla (a).
+`Conference Support` (probablemente *The Conference Board*, sin fuente), `JP Morgan` / `JPMorgan`,
+`Bank o f America`, las firmas truncadas y las seis filas de «Luis Oscar Herrera» sin PDF.
+**La normalización no reemplaza el cotejo: lo usa como evidencia cuando existe, y cuando no existe
+no lo suplanta.**
+
+### Dos notas de implementación
+
+1. **Se unificó también lo que no estaba dañado.** Las 3 filas con `Naudon Dell'Oro` (apóstrofo
+   recto) no tenían daño: se unificaron a `Dell’Oro` porque el apóstrofo curvo es el mayoritario del
+   corpus (59 contra 41) y una base gold no debe tener dos grafías para la misma persona. Reversible
+   y no toca `Texto`.
+2. **La operación se ciñe al tramo dañado.** En `RPM-2015-03-19:6655:2` la fila es tan corta
+   («El señor Diego Gianellí anticipa que.», 37 caracteres) que la ventana de contexto del generador
+   coincidió con la fila entera y `test_ninguna_operacion_reescribe_la_fila_completa` la rechazó.
+   Tenía razón: una operación cuyo `Antes` es la fila completa es indistinguible de una reescritura.
+   Se estrechó a `Gianellí` → `Gianelli`. **No se debilitó la prueba para que pasara.**
+3. El tipo sigue el defecto: `LETRA_CONFUNDIDA` cuando cambian letras (`DeN’Oro`, `Kiaus`,
+   `Madgenzo`), `ACENTO_FALTANTE`/`ACENTO_INDEBIDO` cuando sólo cambia el acento (`Marfan`,
+   `Felipe Larrain`, `Sebastian Claro`).
+
+**Lección para los pases transversales:** un pase automático sobre el corpus entero tiene que
+correrse *antes* contra las pruebas del repo, no después. Las dos fallas que aparecieron aquí
+(la tilde inventada y la fila reescrita) eran exactamente lo que esas pruebas están para atrapar.
