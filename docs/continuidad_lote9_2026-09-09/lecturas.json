@@ -34454,7 +34454,697 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2009-02-12",
       "Justificacion": "Sesión 2009-02-12 (102 filas, 137.622 caracteres, 14 actores). Se cerró sin una sola corrección, y eso es el resultado, no una omisión. Un candidato multihablante rechazado: el padre 2325, atribuido a Pablo García, dice «En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se encuentra vinculado al tipo de cambio». Es una mención retrospectiva, no un cambio de voz: el sujeto de «estima que» sigue siendo García, que viene hablando desde el inicio del párrafo. El detector estricto ya lo sospechaba, devolvió Actor_Estricto=None. Cuatro candidatos de acento, los cuatro falsos positivos: «éstos» (5 filas) y «dónde» llevan tilde diacrítica legítima, «continua» es el adjetivo en «la debilidad continua de los sistemas financieros», y «periodo» sin tilde aparece 60 veces repartidas en 36 actos distintos contra 661 «período»: es una variante ortográfica sistemática de la fuente, no un daño aislado, y la regla del §34 exige justamente que la forma desviada sea aislada. Tres candidatos de signo, los tres falsos positivos: los paréntesis «desbalanceados» de 2362:1 son los cierres de una enumeración i) ii) iii), las comillas de 2381:1 están balanceadas y cierran la cita del Acuerdo, y 2324:1 termina sin punto pero ya lleva FINAL_SIN_PUNTUACION, la alerta que sostiene la reserva 2661: no se cierra añadiendo el punto."
+    },
+    "RPM-2006-06-15:675:1": {
+      "ID_Intervencion": "RPM-2006-06-15:675:1",
+      "ID_Padre": "675",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1433,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:677:1": {
+      "ID_Intervencion": "RPM-2006-06-15:677:1",
+      "ID_Padre": "677",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 9732,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:678:1": {
+      "ID_Intervencion": "RPM-2006-06-15:678:1",
+      "ID_Padre": "678",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 70,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:679:1": {
+      "ID_Intervencion": "RPM-2006-06-15:679:1",
+      "ID_Padre": "679",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 265,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:680:1": {
+      "ID_Intervencion": "RPM-2006-06-15:680:1",
+      "ID_Padre": "680",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 421,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:681:1": {
+      "ID_Intervencion": "RPM-2006-06-15:681:1",
+      "ID_Padre": "681",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 378,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:682:1": {
+      "ID_Intervencion": "RPM-2006-06-15:682:1",
+      "ID_Padre": "682",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 536,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:683:1": {
+      "ID_Intervencion": "RPM-2006-06-15:683:1",
+      "ID_Padre": "683",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 966,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:684:1": {
+      "ID_Intervencion": "RPM-2006-06-15:684:1",
+      "ID_Padre": "684",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:685:1": {
+      "ID_Intervencion": "RPM-2006-06-15:685:1",
+      "ID_Padre": "685",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 304,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:686:1": {
+      "ID_Intervencion": "RPM-2006-06-15:686:1",
+      "ID_Padre": "686",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 707,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:687:1": {
+      "ID_Intervencion": "RPM-2006-06-15:687:1",
+      "ID_Padre": "687",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 826,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:688:1": {
+      "ID_Intervencion": "RPM-2006-06-15:688:1",
+      "ID_Padre": "688",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 393,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:689:1": {
+      "ID_Intervencion": "RPM-2006-06-15:689:1",
+      "ID_Padre": "689",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Caracteres": 475,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:690:1": {
+      "ID_Intervencion": "RPM-2006-06-15:690:1",
+      "ID_Padre": "690",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 457,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:691:1": {
+      "ID_Intervencion": "RPM-2006-06-15:691:1",
+      "ID_Padre": "691",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 317,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:692:1": {
+      "ID_Intervencion": "RPM-2006-06-15:692:1",
+      "ID_Padre": "692",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 534,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:693:1": {
+      "ID_Intervencion": "RPM-2006-06-15:693:1",
+      "ID_Padre": "693",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1421,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:694:1": {
+      "ID_Intervencion": "RPM-2006-06-15:694:1",
+      "ID_Padre": "694",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 521,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:695:1": {
+      "ID_Intervencion": "RPM-2006-06-15:695:1",
+      "ID_Padre": "695",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 604,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:697:1": {
+      "ID_Intervencion": "RPM-2006-06-15:697:1",
+      "ID_Padre": "697",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 11102,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:698:1": {
+      "ID_Intervencion": "RPM-2006-06-15:698:1",
+      "ID_Padre": "698",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 88,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:699:1": {
+      "ID_Intervencion": "RPM-2006-06-15:699:1",
+      "ID_Padre": "699",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 895,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:700:1": {
+      "ID_Intervencion": "RPM-2006-06-15:700:1",
+      "ID_Padre": "700",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 98,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:701:1": {
+      "ID_Intervencion": "RPM-2006-06-15:701:1",
+      "ID_Padre": "701",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 222,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:702:1": {
+      "ID_Intervencion": "RPM-2006-06-15:702:1",
+      "ID_Padre": "702",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:703:1": {
+      "ID_Intervencion": "RPM-2006-06-15:703:1",
+      "ID_Padre": "703",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 512,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:704:1": {
+      "ID_Intervencion": "RPM-2006-06-15:704:1",
+      "ID_Padre": "704",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 378,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:705:1": {
+      "ID_Intervencion": "RPM-2006-06-15:705:1",
+      "ID_Padre": "705",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 380,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:706:1": {
+      "ID_Intervencion": "RPM-2006-06-15:706:1",
+      "ID_Padre": "706",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 214,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:707:1": {
+      "ID_Intervencion": "RPM-2006-06-15:707:1",
+      "ID_Padre": "707",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 351,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:708:1": {
+      "ID_Intervencion": "RPM-2006-06-15:708:1",
+      "ID_Padre": "708",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 882,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:709:1": {
+      "ID_Intervencion": "RPM-2006-06-15:709:1",
+      "ID_Padre": "709",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 172,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:710:1": {
+      "ID_Intervencion": "RPM-2006-06-15:710:1",
+      "ID_Padre": "710",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 187,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:711:1": {
+      "ID_Intervencion": "RPM-2006-06-15:711:1",
+      "ID_Padre": "711",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 296,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:712:1": {
+      "ID_Intervencion": "RPM-2006-06-15:712:1",
+      "ID_Padre": "712",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 275,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:713:1": {
+      "ID_Intervencion": "RPM-2006-06-15:713:1",
+      "ID_Padre": "713",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 277,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:714:1": {
+      "ID_Intervencion": "RPM-2006-06-15:714:1",
+      "ID_Padre": "714",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 321,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:715:1": {
+      "ID_Intervencion": "RPM-2006-06-15:715:1",
+      "ID_Padre": "715",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 220,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:716:1": {
+      "ID_Intervencion": "RPM-2006-06-15:716:1",
+      "ID_Padre": "716",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 391,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:717:1": {
+      "ID_Intervencion": "RPM-2006-06-15:717:1",
+      "ID_Padre": "717",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 73,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:718:1": {
+      "ID_Intervencion": "RPM-2006-06-15:718:1",
+      "ID_Padre": "718",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 170,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:719:1": {
+      "ID_Intervencion": "RPM-2006-06-15:719:1",
+      "ID_Padre": "719",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 109,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:719:2": {
+      "ID_Intervencion": "RPM-2006-06-15:719:2",
+      "ID_Padre": "719",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 619,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:720:1": {
+      "ID_Intervencion": "RPM-2006-06-15:720:1",
+      "ID_Padre": "720",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 327,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:721:1": {
+      "ID_Intervencion": "RPM-2006-06-15:721:1",
+      "ID_Padre": "721",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 308,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:722:1": {
+      "ID_Intervencion": "RPM-2006-06-15:722:1",
+      "ID_Padre": "722",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 643,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:723:1": {
+      "ID_Intervencion": "RPM-2006-06-15:723:1",
+      "ID_Padre": "723",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 342,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:724:1": {
+      "ID_Intervencion": "RPM-2006-06-15:724:1",
+      "ID_Padre": "724",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 350,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:725:1": {
+      "ID_Intervencion": "RPM-2006-06-15:725:1",
+      "ID_Padre": "725",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 473,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:726:1": {
+      "ID_Intervencion": "RPM-2006-06-15:726:1",
+      "ID_Padre": "726",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 364,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:727:1": {
+      "ID_Intervencion": "RPM-2006-06-15:727:1",
+      "ID_Padre": "727",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 280,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:727:2": {
+      "ID_Intervencion": "RPM-2006-06-15:727:2",
+      "ID_Padre": "727",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 172,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:727:3": {
+      "ID_Intervencion": "RPM-2006-06-15:727:3",
+      "ID_Padre": "727",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 161,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:727:4": {
+      "ID_Intervencion": "RPM-2006-06-15:727:4",
+      "ID_Padre": "727",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 61,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:728:1": {
+      "ID_Intervencion": "RPM-2006-06-15:728:1",
+      "ID_Padre": "728",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 9505,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:729:1": {
+      "ID_Intervencion": "RPM-2006-06-15:729:1",
+      "ID_Padre": "729",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 88,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:730:1": {
+      "ID_Intervencion": "RPM-2006-06-15:730:1",
+      "ID_Padre": "730",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 195,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:731:1": {
+      "ID_Intervencion": "RPM-2006-06-15:731:1",
+      "ID_Padre": "731",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 2946,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:732:1": {
+      "ID_Intervencion": "RPM-2006-06-15:732:1",
+      "ID_Padre": "732",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 1482,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:733:1": {
+      "ID_Intervencion": "RPM-2006-06-15:733:1",
+      "ID_Padre": "733",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 2600,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:734:1": {
+      "ID_Intervencion": "RPM-2006-06-15:734:1",
+      "ID_Padre": "734",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 3029,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:735:1": {
+      "ID_Intervencion": "RPM-2006-06-15:735:1",
+      "ID_Padre": "735",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 114,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:736:1": {
+      "ID_Intervencion": "RPM-2006-06-15:736:1",
+      "ID_Padre": "736",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 4938,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:737:1": {
+      "ID_Intervencion": "RPM-2006-06-15:737:1",
+      "ID_Padre": "737",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 4701,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:738:1": {
+      "ID_Intervencion": "RPM-2006-06-15:738:1",
+      "ID_Padre": "738",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 3019,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:739:1": {
+      "ID_Intervencion": "RPM-2006-06-15:739:1",
+      "ID_Padre": "739",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 4497,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:740:1": {
+      "ID_Intervencion": "RPM-2006-06-15:740:1",
+      "ID_Padre": "740",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 3805,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2006-06-15:741:1": {
+      "ID_Intervencion": "RPM-2006-06-15:741:1",
+      "ID_Padre": "741",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2444,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2006-06-15",
+      "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
     }
   },
-  "Total_Leidas": 3098
+  "Total_Leidas": 3167
 }

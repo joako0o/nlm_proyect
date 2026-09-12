@@ -377,6 +377,8 @@ Para leer una sesión entera al margen del plan:
 
 | 17–25 | 2009-02-12 | 102 | **sesión cerrada 97/97** (5 ya estaban anotadas) · 14 actores · **cero correcciones**: 8 candidatos revisados y los 8 rechazados con la razón medida · el candidato multihablante (padre 2325) era una mención retrospectiva, no una segunda voz · los 4 de acento eran formas correctas («periodo» está en 36 actos) · los 3 de signo eran enumeración, cita del Acuerdo y la reserva 2661 |
 
+| 26–31 | 2006-06-15 | 71 | **sesión cerrada 69/69** (2 ya estaban anotadas) · 14 actores · **cero correcciones**, segunda sesión seguida · ninguna fila en la cola multihablante · los 3 candidatos de acento eran tildes diacríticas legítimas («éstos» 2 filas, «cuánto» 1) · las 5 viñetas «•» son legítimas (141 en 31 actos): el hueco era del repertorio del auditor |
+
 Para anotar una ronda leída:
 
 ```

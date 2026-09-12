@@ -46,8 +46,16 @@ LECTURAS = RAIZ / 'docs/continuidad_lote9_2026-09-09/lecturas.json'
 
 # Repertorio admitido: ASCII imprimible más la tipografía española y los signos
 # que el corpus usa de verdad. Cualquier otra cosa es residuo de OCR o de fuente.
+#
+# Las viñetas y los signos de moneda entraron medidos, no por gusto: «•» aparece
+# 141 veces en 31 actos como marcador de lista de las presentaciones, y «€» 63
+# veces en 19. Sin ellos el chequeo daba falso positivo en cada sesión que traía
+# una lámina. Lo que sí queda fuera y conviene mirar cuando toque su sesión:
+# «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y
+# el guion blando \xad (1).
 REPERTORIO = re.compile(
-    r'[^A-Za-z0-9 \n\r\t.,;:!¡?¿\'"()\[\]\-–—/\\%$&*+=<>#°·…«»‘’“”‚„†‡‰ÁÉÍÓÚÜÑáéíóúüñ°ºª§|{}^_`~]')
+    r'[^A-Za-z0-9 \n\r\t.,;:!¡?¿\'"()\[\]\-–—/\\%$&*+=<>#°·…«»‘’“”‚„†‡‰'
+    r'ÁÉÍÓÚÜÑáéíóúüñºª§|{}^_`~•€¥£]')
 PUNTO_DOBLE = re.compile(r'\.\.(?!\.)')
 ESPACIO_DOBLE = re.compile(r'  +')
 COMILLA_RECTA = re.compile(r'["\']')

@@ -2241,3 +2241,57 @@ reparar un defecto.
 positivo en cada sesión. Ahora resta los cierres `a) / ii) / 1)` antes de contar, y separa las
 filas sin puntuación final que **ya llevan** `FINAL_SIN_PUNTUACION` de las que no, para no volver a
 proponer cerrar una reserva.
+
+---
+
+## §38. Dos cosas medidas: la precisión real del detector de acentos y el censo de caracteres
+
+### El detector de acentos rinde 1 acierto en 27 candidatos
+
+Tres sesiones leídas con el auditor, todos los candidatos adjudicados a mano:
+
+| sesión | candidatos | reales | cuáles |
+|---|---|---|---|
+| 2008-03-13 | 14 | **1** | `sesgó` → `sesgo` |
+| 2009-02-12 | 10 | 0 | — |
+| 2006-06-15 | 3 | 0 | — |
+| **total** | **27** | **1** | precisión ≈ 4 % |
+
+No es un defecto del detector: está diseñado para proponer, no para decidir, y el §21 ya decía que
+un detector de este tipo es un generador de candidatos. Lo que la medición agrega es **cuánto
+cuesta**: hay que leer los 27. Conviene saberlo antes de correrlo sobre las 90 sesiones que faltan,
+y conviene no convertirlo en regla — con 4 % de precisión una regla automática habría introducido
+26 errores por cada acierto.
+
+Los falsos positivos son siempre los mismos tres patrones: **tilde diacrítica** (`éste`, `dónde`,
+`cuánto`, `quién`, `cuándo`), **par verbo/adjetivo** (`publica`/`pública`, `continua`/`continúa`) y
+**variante ortográfica válida** (`periodo`/`período`, en 36 actos). En actas anteriores a 2010 la
+tilde de los demostrativos ni siquiera era discutible: la Ortografía la recomendaba.
+
+### Censo de caracteres fuera del repertorio (9.724 filas)
+
+El auditor marcaba las viñetas como residuo y daba falso positivo en cada sesión con láminas. Se
+midió el corpus entero en vez de parchar el síntoma:
+
+| char | veces | actos | juicio |
+|---|---|---|---|
+| `•` | 141 | 31 | **legítimo** — marcador de lista de las presentaciones |
+| `€` | 63 | 19 | **legítimo** — signo de moneda |
+| `±` | 5 | 2 | por revisar cuando toque su sesión |
+| `¥` | 5 | 5 | legítimo — moneda, un acto distinto cada vez |
+| `►` | 2 | 2 | por revisar |
+| `─` | 2 | 1 | por revisar |
+| `®` | 2 | 1 | **daño** — `2015-03-19:6691:1`, «Particul^ m®n‘® Estados Unidos» |
+| `£` | 1 | 1 | legítimo — moneda |
+| `´` | 1 | 1 | por revisar |
+| `\xad` | 1 | 1 | por revisar — guion blando |
+
+Entraron al repertorio `•`, `€`, `¥` y `£`. Los demás quedan anotados aquí con su fila: no se
+corrigen fuera de su sesión, que es donde se lee el contexto.
+
+### Dos sesiones seguidas en cero
+
+`2009-02-12` y `2006-06-15` se cerraron sin una sola corrección. Con `2008-03-13` (4 correcciones
+más el pase transversal de 6 actas) eso deja la proporción en **una sesión de cada tres con algo
+que corregir**. Si aparecieran correcciones en todas, habría que sospechar del proceso y no del
+corpus.
