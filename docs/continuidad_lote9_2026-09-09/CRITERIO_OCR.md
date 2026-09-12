@@ -2788,3 +2788,78 @@ Quedan **10 casos** de la cola sin adjudicar, en sesiones todavía no leídas: `
 En las diez sesiones cerradas en este tramo **no se hizo ningún corte nuevo**. Ahora eso está
 respaldado por dos redes independientes y por la lectura de los 19 candidatos reales que
 produjeron, no sólo por la ausencia de avisos.
+
+---
+
+## §47. Adjudicación completa: los 16 casos de la cola y los 65 del corpus entero
+
+Se pidió revisar los cortes pendientes **porque hay que hacerlos**. Se hizo, y el resultado es que
+no queda ninguno — medido, no supuesto.
+
+### Los 16 casos de la cola cuyo padre sigue sin partirse
+
+Leídos uno por uno, los 16 son menciones. Las categorías:
+
+| caso | qué dice | categoría |
+|---|---|---|
+| `2005-08-11:320` | Eyzaguirre «**en concordancia con lo que ha expresado** el Consejero señor Desormeaux» | adhesión |
+| `2005-12-13:505` | «El señor Presidente **fija la sesión** de política monetaria…» | sección formal del Acuerdo |
+| `2006-01-12:571` | Desormeaux «**recientemente** el Gerente de Mercados Financieros Nacionales **señaló**» | cita |
+| `2006-04-13:647` | Velasco «**Recuerda que** el Gerente de División Estudios **señaló**…» | referencia retrospectiva |
+| `2007-03-15:1114` | Valdés «**como también lo menciona** el Gerente… señor De Ramón» | adhesión citada |
+| `2007-07-12:1328` | Desormeaux «**en la exposición que realizó** el señor Magendzo indicó» | cita |
+| `2007-09-13:1420` | Jadresic «el punto **que ha planteado** el Gerente… **le parece interesante**» | adhesión |
+| `2008-12-11:2228` | Velasco «los tres aspectos **que ha mencionado el señor Presidente**» | referencia (§44) |
+| `2009-02-12:2325` | García «el tema **al que se refirió** la señora Ministra» | referencia (§37) |
+| `2009-03-12:2397` | Claro «**la pregunta que le surge** es si ese escenario…» | es él mismo preguntándose |
+| `2009-03-12:2430` | «el Gerente de División Operaciones Financieras **se pregunta**… **comenta que**» | es Beltrán, que en 2009 **era** ese Gerente |
+| `2012-02-14:4574` | Vergara «**deja constancia que** el Ministro… **le informó** que solo asistirá» | discurso referido + traspaso propio |
+| `2012-03-15:4656` | Vergara «**deja constancia que** el Ministro… **le informó** que no asistirá» | discurso referido + traspaso propio |
+| `2013-07-11:5658` | Vial «**su Presidente le manifestó** que se comenzó a intervenir» | cita de un externo |
+| `2014-05-15:6185` | Lehmann «**conforme señala** el Gerente… señor Matías Bernier» | cita |
+| `2015-01-15:6587` | García «**Como mencionó el Ministro de Hacienda**, señala que…» | referencia retrospectiva |
+
+### La red del §46 corrida sobre el corpus entero
+
+5.823 filas de un solo segmento → **65 menciones reales** de otra persona como sujeto de un verbo de
+habla (tras descartar el propio actor con el nombre dañado por OCR: «José De Gregario»,
+«Manuel Mari^án», «María Eugenia Wager»).
+
+| marcador que precede la mención | n | % |
+|---|---|---|
+| pregunta o consulta **resumida** | 19 | 29 % |
+| respuesta a / ante / respecto de | 9 | 14 % |
+| agradecimiento, saludo, bienvenida | 8 | 12 % |
+| adhesión o acuerdo | 6 | 9 % |
+| referencia retrospectiva | 2 | 3 % |
+| sin marcador automático — **leídas las 21** | 21 | 32 % |
+
+Las 21 leídas son: citas de externos (Janet Yellen, Mark Carney, Mitra Toossi, Marina Silva, Dilma
+Rousseff, Arturo Martínez, un Luis Óscar Herrera de BTG Pactual que **no** es el del Banco),
+adhesiones («coincidir con las aprensiones planteadas por», «compartir el planteamiento expuesto
+por»), y menciones administrativas («acordó renovar la designación del señor Marfán»).
+
+**Cero cortes en los 65.**
+
+### Por qué hay tan pocos
+
+Las actas de este corpus **resumen las intervenciones ajenas en vez de transcribirlas**:
+
+```
+…respondiendo a una consulta del Consejero señor Sebastián Claro, agrega que…
+…ante una consulta del Consejero señor Sebastián Claro, agrega que…
+…en relación a la consulta formulada por el Presidente señor Rodrigo Vergara, el señor Lehmann expresa que…
+…respondiendo la consulta específica formulada por el Presidente señor Rodrigo Vergara, precisa que…
+```
+
+La pregunta nunca está en el texto: sólo su existencia y la respuesta. Por eso un nombre seguido de
+un verbo de habla dentro de una fila de un solo hablante es casi siempre una consulta resumida, y no
+un turno transcrito que haya que separar.
+
+### Estado
+
+**No quedan cortes pendientes.** Los 74 casos de la cola están todos resueltos (58 partidos por el
+motor, 16 adjudicados como menciones) y la red independiente sobre el corpus entero dio 65
+candidatos, todos menciones. Los cuatro cortes curados publicados siguen siendo los únicos, y todos
+vinieron de lectura dirigida — que es exactamente lo que se hizo aquí, sólo que esta vez el resultado
+fue negativo y ahora está medido en lugar de inferido.

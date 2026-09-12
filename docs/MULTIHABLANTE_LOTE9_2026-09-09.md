@@ -393,6 +393,8 @@ Para leer una sesión entera al margen del plan:
 
 | 79–87 | 2011-02-17 | 111 | **sesión cerrada 106/106** (5 ya estaban anotadas) · 14 actores · **primera sesión con cero candidatos en los cuatro detectores** · cero correcciones · se midió la comilla del Comunicado (103 con / 15 sin) y **se descartó el pase**: la comilla no abre el Acuerdo sino la cita del Comunicado, a distancia variable, y sólo 61 de 113 filas la llevan |
 
+| — | **adjudicación completa** | — | **los 74 casos de la cola están resueltos**: 58 partidos por el motor y **16 adjudicados como menciones**, leídos uno por uno · la red independiente del §46 corrida sobre las 5.823 filas de un solo segmento dio **65 menciones reales y cero cortes** · las actas **resumen** las consultas ajenas en vez de transcribirlas, por eso hay tan pocos · detalle en §47 |
+
 Para anotar una ronda leída:
 
 ```
