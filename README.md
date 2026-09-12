@@ -85,7 +85,7 @@ python3 scripts/estimar_prevalencia_hawkish_dovish.py   # prevalencia con pesos 
 python3 scripts/medir_ruido_oro_hawkish_dovish.py       # ruido del oro por re-lectura
 python3 scripts/auditar_hawkish_dovish.py               # auditoria metodologica
 python3 scripts/medir_efecto_ventana_hawkish_dovish.py # efecto de la ventana
-python -m unittest tests.test_hawkish_dovish -v   # 129 pruebas
+python -m unittest tests.test_hawkish_dovish -v   # 134 pruebas
 ```
 
 ## Revisión vigente — lote6: reservas complejas e inventario por estado

@@ -373,10 +373,13 @@ python3 scripts/medir_calibracion_hawkish_dovish.py    # calibracion_confianza.j
 python -m unittest tests.test_hawkish_dovish -v
 ```
 
-**129 pruebas: PASS.** Cubren:
+**134 pruebas: PASS.** Cubren:
 
 - el **léxico** (dirección, negación, acotación) y el **tokenizador**;
 - el **join turno/texto** sobre los 9.257 turnos;
+- el **orden cronológico** (que la posición leída del `ID_Turno` coincida con el orden de las
+  filas del acta en las 132 sesiones, que cada sesión arranque en `T1` sin huecos ni
+  repetidos, y que ordenar la cadena dé un orden distinto —el gotcha de `T10` < `T9`);
 - el **sorteo** (tamaño, deciles, determinismo, etiquetas forzadas);
 - el **validador de etiquetas** (rechaza clase incoherente, evidencia falsa, duplicados y
   turnos ajenos a la muestra);

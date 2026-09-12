@@ -170,6 +170,24 @@ def clase(score):
     return 'NEUTRAL'
 
 
+def sesion(id_turno):
+    """Sesion de un turno: 'RPM-2010-06-15:T85' -> 'RPM-2010-06-15'."""
+    return str(id_turno).split(':')[0]
+
+
+def posicion(id_turno):
+    """Posicion cronologica del turno dentro de su sesion, como entero.
+
+    El sufijo T es ordinal y contiguo desde T1, y coincide con el orden de las
+    filas del acta (`ID_Desde`) en las 132 sesiones del corpus. Hay que
+    convertirlo a entero: la sesion mas poblada (RPM-2009-04-09) tiene 145
+    turnos, asi que ordenar la cadena pone T10 y T100 antes que T9.
+
+    Ordenar por `ID_Turno` como cadena NO da orden cronologico; usar esto.
+    """
+    return int(str(id_turno).split(':T')[-1])
+
+
 def grupo_actor(rol):
     """CONSEJO vota; STAFF expone; HACIENDA asiste sin voto.
 

@@ -1561,5 +1561,59 @@ class RendimientoReponderadoTests(unittest.TestCase):
         self.assertAlmostEqual(self.res['suma_pesos'], float(self.res['etiquetas']), delta=0.01)
 
 
+class PosicionTests(unittest.TestCase):
+    """El orden cronologico se lee del ID_Turno, pero solo como entero.
+
+    La numeracion T es ordinal y contigua desde T1 y coincide con el orden de
+    las filas del acta. El gotcha: la sesion mas poblada tiene 145 turnos, asi
+    que ordenar la cadena pone T10 y T100 antes que T9 en las 132 sesiones.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.turnos = hd.cargar_turnos()
+        cls.por_sesion = defaultdict(list)
+        for t in cls.turnos:
+            cls.por_sesion[hd.sesion(t['ID_Turno'])].append(t)
+
+    def test_la_posicion_es_entera_no_lexicografica(self):
+        self.assertEqual(hd.posicion('RPM-2009-04-09:T9'), 9)
+        self.assertEqual(hd.posicion('RPM-2009-04-09:T10'), 10)
+        self.assertEqual(hd.posicion('RPM-2009-04-09:T145'), 145)
+        self.assertGreater(hd.posicion('RPM-2009-04-09:T10'),
+                           hd.posicion('RPM-2009-04-09:T9'))
+        self.assertGreater(hd.posicion('RPM-2009-04-09:T145'),
+                           hd.posicion('RPM-2009-04-09:T100'))
+
+    def test_el_orden_por_posicion_coincide_con_el_orden_del_acta(self):
+        # ID_Desde es la fila real del acta consolidada; es la referencia
+        distintas = 0
+        for ses, ts in self.por_sesion.items():
+            por_pos = [t['ID_Turno'] for t in sorted(ts, key=lambda x: hd.posicion(x['ID_Turno']))]
+            por_fila = [t['ID_Turno'] for t in sorted(ts, key=lambda x: x['ID_Desde'])]
+            distintas += (por_pos != por_fila)
+        self.assertEqual(distintas, 0)
+        self.assertEqual(len(self.por_sesion), 132)
+
+    def test_cada_sesion_empieza_en_uno_y_es_contigua_sin_repetidos(self):
+        for ses, ts in self.por_sesion.items():
+            ns = sorted(hd.posicion(t['ID_Turno']) for t in ts)
+            self.assertEqual(ns[0], 1, ses)
+            self.assertEqual(ns, list(range(1, len(ns) + 1)), ses)
+            self.assertEqual(len(set(ns)), len(ns), ses)
+
+    def test_ordenar_por_cadena_da_otro_orden_que_por_posicion(self):
+        # documenta el gotcha: si alguien vuelve a ordenar la cadena, esto falla
+        mal = 0
+        for ses, ts in self.por_sesion.items():
+            por_str = [t['ID_Turno'] for t in sorted(ts, key=lambda x: x['ID_Turno'])]
+            por_pos = [t['ID_Turno'] for t in sorted(ts, key=lambda x: hd.posicion(x['ID_Turno']))]
+            mal += (por_str != por_pos)
+        self.assertEqual(mal, 132)
+
+    def test_sesion_extrae_la_fecha(self):
+        self.assertEqual(hd.sesion('RPM-2010-06-15:T85'), 'RPM-2010-06-15')
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
