@@ -2437,3 +2437,49 @@ Las dos cifras son ciertas, cada una en su columna; la justificación de las ope
 `enmendar_operacion.py` rechaza una enmienda que sólo cambia `Justificacion` (compara `Despues` y
 `Tipo`). Las tres justificaciones se editaron directo en el registro y se reverificó con
 `--validar` y la suite.
+
+---
+
+## §41. Sesión 2009-04-09: la más grande del corpus, cero correcciones — y qué significa eso
+
+147 filas, 123.858 caracteres, la sesión con más filas pendientes. Se cerró sin una sola corrección.
+Nueve candidatos de acento, los nueve formas correctas:
+
+| término | filas | por qué es correcta |
+|---|---|---|
+| `previó` | 1 | verbo *prever*: «cuando se **previó** resultados positivos». La concordancia con «resultados» (debiera ser «se previeron») es de la fuente, no un glifo roto; y `previo` es adjetivo, no cabría ahí |
+| `efectuara` | 1 | subjuntivo, que es lo que pide «el comentario que **efectuara** el señor Ministro» |
+| `desarrolló` | 1 | verbo: «se **desarrolló** toda una discusión» |
+| `dónde` | 1 | tilde diacrítica en interrogativa indirecta |
+| `éstos` | 3 | tilde diacrítica del demostrativo |
+| `periodo` | 2 | variante válida, presente en 36 actos (§37) |
+
+El único candidato multihablante también estaba resuelto: el padre 2443 tiene **13 segmentos** y el
+offset que la cola marcaba (1115) es exactamente el límite entre `2443:5` = De Gregorio («el señor
+Presidente indica que Consensus considera precio de mercado») y `2443:6` = Lehmann («y el señor
+Lehmann complementa que en la gráfica…»).
+
+### Lo que seis sesiones ya dicen sobre dónde vive el daño que queda
+
+| sesión | filas | correcciones | cómo aparecieron |
+|---|---|---|---|
+| 2008-03-13 | 109 | 4 + 6 | 3 locales; `T a sa` se volvió transversal al medirlo |
+| 2009-02-12 | 102 | 0 | — |
+| 2006-06-15 | 71 | 0 | — |
+| 2009-08-13 | 79 | 2 + 76 | 2 locales; `A continuación,.` se volvió transversal |
+| 2008-01-10 | 49 | 0 + 15 + 3 | `hacía` y la paginación, ambas transversales |
+| 2009-04-09 | 147 | 0 | — |
+
+**Tres de las seis sesiones no tienen nada que corregir, y las correcciones que sí aparecieron son
+casi todas familias transversales que una fila suelta destapó.** El daño residual del corpus no está
+repartido como erratas sesión por sesión: está concentrado en patrones que se repiten en decenas de
+actas. La consecuencia práctica es que **medir cada candidato contra el corpus entero rinde mucho
+más que leer buscando erratas** — los cuatro pases transversales de este tramo (`T a sa` 6 actas,
+`A continuación,.` 76 filas, `hacía` 15 filas, paginación 3 filas) suman 100 filas corregidas, y
+ninguno habría salido de una lectura fila por fila.
+
+### Detector de acentos, acumulado
+
+**42 candidatos, 3 que el texto pedía, 2 aplicados — precisión 7 %.** El tercero (`hacía` en
+`2009-08-13`) se aplicó después, cuando la enumeración completa del §40 mostró que la guardia
+protegía 15 defectos y no 32 formas legítimas.

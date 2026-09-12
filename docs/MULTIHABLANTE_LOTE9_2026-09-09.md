@@ -383,6 +383,8 @@ Para leer una sesión entera al margen del plan:
 
 | 38–42 | 2008-01-10 | 49 | **sesión cerrada 45/45** (4 ya estaban anotadas) · 13 actores · el candidato multihablante (padre 1623) **ya estaba partido**: lo que la cola mostraba era el 7 suelto de 1623:1 pegado al inicio de 1623:2 · 9 de 10 candidatos de acento eran falsos · el décimo destapó la enumeración completa de «hacía»: **17 verbos y 15 preposiciones**, se corrigieron las 15 y el suelo de la guardia bajó de 32 a 17 medido · 3 residuos de paginación |
 
+| 43–51 | 2009-04-09 | 147 | **sesión cerrada 142/142** (5 ya estaban anotadas) · 14 actores · la sesión más grande del corpus y **cero correcciones** · el candidato multihablante (padre 2443) ya estaba partido en 13 segmentos · los 9 candidatos de acento eran formas correctas (previó, efectuara, desarrolló son verbos; dónde y éstos llevan tilde diacrítica; periodo es variante válida) |
+
 Para anotar una ronda leída:
 
 ```
