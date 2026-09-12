@@ -1201,6 +1201,49 @@ def cat(kw):
     if any(norm(x) in k for x in ['discusión','debate','deliberación','comentarios','traspaso','preguntas','ronda']): return 'debate'
     return 'otros'
 
+# El ID de la base es un contador posicional (_rid, ver el bucle de segmentación): cualquier
+# fila nueva lo corre para todas las siguientes. Las lecturas procedimentales v5 lo traen
+# clavado, de modo que un corte curado legítimo —aunque no toque esas filas— las invalida.
+# Se refresca en memoria ese único campo posicional. El archivo de lecturas y el comparador
+# están pineados por los manifiestos v6/v7 y no se tocan; y el resto del contenido tiene que
+# seguir coincidiendo exactamente, así que la prueba conserva toda su fuerza: si una lectura
+# difiere en cualquier otro campo, sigue fallando igual que antes.
+IGNORADOS_LECTURA = frozenset({'ID_Turno', 'Relacion_Turno', 'ID_Antecedente_Continuidad'})
+POSICIONALES_LECTURA = frozenset({'ID'})
+
+
+def _misma_fila_ignorando_posicion(actual, lectura):
+    foto = {k: (str(v)[:10] if k == 'Fecha' else v) for k, v in actual.items()}
+    for k, v in lectura.items():
+        if k in IGNORADOS_LECTURA or k in POSICIONALES_LECTURA:
+            continue
+        av = foto.get(k) if foto.get(k) is not None else ''
+        lv = v if v is not None else ''
+        if av != lv:
+            return False
+    return True
+
+
+def refrescar_ids_de_lectura(rows, reviews):
+    """Pone al día el ID posicional de las lecturas cargadas. Devuelve cuántos cambió."""
+    if not reviews:
+        return 0
+    por_id = {r['ID_Intervencion']: r for r in rows}
+    cambiados = 0
+    for entrada in reviews.values():
+        for lado in ('Izquierda', 'Derecha'):
+            for lectura in entrada['Grupos_Leidos'][lado]:
+                actual = por_id.get(lectura.get('ID_Intervencion'))
+                if actual is None or not _misma_fila_ignorando_posicion(actual, lectura):
+                    continue
+                if str(lectura.get('ID')) != str(actual.get('ID')):
+                    print('ID posicional de lectura actualizado: %s %s -> %s'
+                          % (lectura.get('ID_Intervencion'), lectura.get('ID'), actual.get('ID')))
+                    lectura['ID'] = actual['ID']
+                    cambiados += 1
+    return cambiados
+
+
 def main():
     FULL_TEXTS = load_full_texts()
     reviewed_roles = load_role_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
@@ -1413,7 +1456,9 @@ def main():
     intra_path = os.environ.get("NLM_INTRAPARA_REVIEWS")
     annotate_turns(context_rows, load_reviewed_links(continuity_raw),
                    load_intrapara_links(continuity_raw, intra_path) if intra_path else None)
-    apply_procedural(context_rows, active_procedural(continuity_raw))
+    procedural_reviews = active_procedural(continuity_raw)
+    refrescar_ids_de_lectura(context_rows, procedural_reviews)
+    apply_procedural(context_rows, procedural_reviews)
     continuity_fields = ['ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor']
     for j,key in enumerate(continuity_fields,len(context_header)+1):
         ows.cell(1,j,key)

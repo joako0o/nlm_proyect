@@ -31,7 +31,7 @@ ESPERADO = {
 }
 
 
-class Lote10Tests(unittest.TestCase):
+class _FuenteLote10(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         wb = b.openpyxl.load_workbook(b.SRC, data_only=True, read_only=True)
@@ -43,6 +43,8 @@ class Lote10Tests(unittest.TestCase):
         cls.historico = load_speaker_reviews(cls.raw)
         cls.completas = b.revisiones_hablantes_completas(cls.raw)
 
+
+class Lote10Tests(_FuenteLote10):
     def test_el_lote_carga_y_valida_contra_la_fuente(self):
         self.assertEqual(len(self.entradas), 4)
         sueltas = load_speaker_reviews(self.raw, LOTE10)
@@ -127,6 +129,90 @@ class Lote10Tests(unittest.TestCase):
                 sin = b.segment_turns(texto, self.raw[padre]['Fecha'],
                                       self.raw[padre]['Actor'])
                 self.assertNotIn('CONTEXTO_REVISADO', [m for _, _, m in sin])
+
+
+class RefrescoIDPosicionalTests(unittest.TestCase):
+    """El ID de la base es un contador posicional y las lecturas v5 lo traen clavado.
+
+    Un corte curado que agrega una fila corre el ID de todas las filas siguientes,
+    aunque no las toque. ``refrescar_ids_de_lectura`` pone al día ese único campo;
+    estas pruebas fijan que no hace nada más, porque si refrescara también el resto
+    la prueba procedimental dejaría de probar nada.
+    """
+
+    @staticmethod
+    def lectura(iid, rid, texto):
+        return {'ID': rid, 'ID_Intervencion': iid, 'Texto': texto,
+                'Fecha': '2008-12-11', 'Actor_Final': 'Vittorio Corbo Lioi',
+                'ID_Turno': 'RPM-2008-12-11:T39'}
+
+    @staticmethod
+    def fila(iid, rid, texto):
+        return {'ID': rid, 'ID_Intervencion': iid, 'Texto': texto,
+                'Fecha': '2008-12-11', 'Actor_Final': 'Vittorio Corbo Lioi',
+                'ID_Turno': 'RPM-2008-12-11:T40'}
+
+    def test_se_refresca_el_id_y_nada_mas(self):
+        lectura = self.lectura('RPM-2008-12-11:2203:1', 3053, 'mismo texto')
+        antes = dict(lectura)
+        reviews = {('a', 'b'): {'Grupos_Leidos': {'Izquierda': [lectura], 'Derecha': []}}}
+        filas = [self.fila('RPM-2008-12-11:2203:1', 3054, 'mismo texto')]
+        self.assertEqual(b.refrescar_ids_de_lectura(filas, reviews), 1)
+        self.assertEqual(lectura['ID'], 3054, 'el ID posicional debe ponerse al día')
+        for clave, valor in antes.items():
+            if clave != 'ID':
+                self.assertEqual(lectura[clave], valor, f'se tocó {clave}')
+
+    def test_no_se_refresca_si_cualquier_otro_campo_difiere(self):
+        """La prueba procedimental conserva su fuerza: sólo el ID es prescindible."""
+        for clave, mala in (('Texto', 'otro texto'), ('Actor_Final', 'Otra Persona'),
+                            ('Fecha', '2009-01-01')):
+            with self.subTest(campo=clave):
+                lectura = self.lectura('RPM-2008-12-11:2203:1', 3053, 'mismo texto')
+                lectura[clave] = mala
+                reviews = {('a', 'b'): {'Grupos_Leidos': {'Izquierda': [lectura], 'Derecha': []}}}
+                filas = [self.fila('RPM-2008-12-11:2203:1', 3054, 'mismo texto')]
+                self.assertEqual(b.refrescar_ids_de_lectura(filas, reviews), 0)
+                self.assertEqual(lectura['ID'], 3053, 'no debe refrescarse una lectura distinta')
+
+    def test_sin_filas_nuevas_no_cambia_nada(self):
+        lectura = self.lectura('RPM-2008-12-11:2203:1', 3053, 'mismo texto')
+        reviews = {('a', 'b'): {'Grupos_Leidos': {'Izquierda': [lectura], 'Derecha': []}}}
+        filas = [self.fila('RPM-2008-12-11:2203:1', 3053, 'mismo texto')]
+        self.assertEqual(b.refrescar_ids_de_lectura(filas, reviews), 0)
+
+
+class CantidadDeFilasTests(_FuenteLote10):
+    """De los cuatro cortes, sólo uno agrega una fila: los otros tres ya estaban
+    partidos por el detector con el mismo actor, y la revisión corrige la frontera.
+
+    Esto importa porque el ID es posicional: una sola fila nueva corre el ID de
+    todas las siguientes y eso fue lo que invalidó las lecturas procedimentales v5.
+    """
+
+    def segmentos(self, padre, review):
+        return list(b.segment_turns(self.raw[padre]['Texto'], self.raw[padre]['Fecha'],
+                                    self.raw[padre]['Actor'], review=review))
+
+    def test_solo_el_1995_agrega_una_fila(self):
+        delta = {}
+        for padre in ESPERADO:
+            delta[padre] = len(self.segmentos(padre, self.completas.get(padre))) - \
+                len(self.segmentos(padre, None))
+        self.assertEqual(delta, {657: 0, 1564: 0, 1995: 1, 2960: 0},
+                         'el total de filas de la base cambia en +1, no en +4')
+
+    def test_los_tres_restantes_mueven_la_frontera(self):
+        """Corregir la frontera sin agregar fila también es un cambio real."""
+        for padre in (657, 1564, 2960):
+            with self.subTest(padre=padre):
+                sin = self.segmentos(padre, None)
+                con = self.segmentos(padre, self.completas.get(padre))
+                self.assertEqual(len(sin), len(con))
+                self.assertNotEqual([len(t) for t, _, _ in sin], [len(t) for t, _, _ in con],
+                                    'la revisión no movió nada en este padre')
+                self.assertEqual([a for _, a, _ in sin], [a for _, a, _ in con],
+                                 'los actores no cambian, sólo dónde empieza cada uno')
 
 
 if __name__ == '__main__':
