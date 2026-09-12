@@ -35144,7 +35144,787 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2006-06-15",
       "Justificacion": "Sesión 2006-06-15 (71 filas, 87.198 caracteres, 14 actores). Segunda sesión consecutiva que se cierra sin correcciones. Ninguna fila está en la cola multihablante. Tres candidatos de acento y los tres son formas correctas: «éstos» en dos filas (728:1 y 732:1) y «cuánto» en una (697:1), las dos con tilde diacrítica legítima —y en actas de 2006 la Ortografía todavía recomendaba la tilde en los demostrativos pronombres, así que aquí ni siquiera es discutible. El único candidato de signo eran cinco viñetas «•» en 728:1, y son legítimas: aparecen 141 veces en 31 actos, siempre como marcador de lista de las presentaciones («Las más importantes son las siguientes: • Las condiciones financieras...»). El hueco era del repertorio del auditor, no del corpus: se midieron todos los caracteres fuera de él en las 9.724 filas y entraron «•» (141/31 actos) y «€» (63/19); quedaron fuera, para cuando toque su sesión, «±» (5 en 2 actos), «►» (2), «─» (2), «®» (2, en 2015-03-19:6691:1), «´» (1) y el guion blando (1)."
+    },
+    "RPM-2009-08-13:2656:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2656:1",
+      "ID_Padre": "2656",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1566,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2657:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2657:1",
+      "ID_Padre": "2657",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 298,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2659:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2659:1",
+      "ID_Padre": "2659",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1192,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2660:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2660:1",
+      "ID_Padre": "2660",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2753,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:1",
+      "ID_Padre": "2661",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 98,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:2",
+      "ID_Padre": "2661",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 219,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:3",
+      "ID_Padre": "2661",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 292,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:4": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:4",
+      "ID_Padre": "2661",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 917,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:5": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:5",
+      "ID_Padre": "2661",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 193,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:6": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:6",
+      "ID_Padre": "2661",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 49,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:7": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:7",
+      "ID_Padre": "2661",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1322,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:8": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:8",
+      "ID_Padre": "2661",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 107,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:9": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:9",
+      "ID_Padre": "2661",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 375,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:10": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:10",
+      "ID_Padre": "2661",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 58,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:11": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:11",
+      "ID_Padre": "2661",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 69,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2661:12": {
+      "ID_Intervencion": "RPM-2009-08-13:2661:12",
+      "ID_Padre": "2661",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 208,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2662:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2662:1",
+      "ID_Padre": "2662",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 482,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2662:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2662:2",
+      "ID_Padre": "2662",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 234,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2662:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2662:3",
+      "ID_Padre": "2662",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 629,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2662:4": {
+      "ID_Intervencion": "RPM-2009-08-13:2662:4",
+      "ID_Padre": "2662",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 771,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2663:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2663:1",
+      "ID_Padre": "2663",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 690,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2664:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2664:1",
+      "ID_Padre": "2664",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 235,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2664:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2664:2",
+      "ID_Padre": "2664",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 162,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2664:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2664:3",
+      "ID_Padre": "2664",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 55,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2665:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2665:1",
+      "ID_Padre": "2665",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 279,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2666:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2666:1",
+      "ID_Padre": "2666",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 51,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2666:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2666:2",
+      "ID_Padre": "2666",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2666:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2666:3",
+      "ID_Padre": "2666",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2743,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2667:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2667:1",
+      "ID_Padre": "2667",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 109,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2667:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2667:2",
+      "ID_Padre": "2667",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 150,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2667:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2667:3",
+      "ID_Padre": "2667",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1134,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2668:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2668:1",
+      "ID_Padre": "2668",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 390,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2668:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2668:2",
+      "ID_Padre": "2668",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 247,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2668:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2668:3",
+      "ID_Padre": "2668",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2239,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2669:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2669:1",
+      "ID_Padre": "2669",
+      "Actor": "Ricardo Vicuña Poblete",
+      "Caracteres": 597,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2669:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2669:2",
+      "ID_Padre": "2669",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 939,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2670:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2670:1",
+      "ID_Padre": "2670",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 73,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2670:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2670:2",
+      "ID_Padre": "2670",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 706,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2671:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2671:1",
+      "ID_Padre": "2671",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1060,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2671:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2671:2",
+      "ID_Padre": "2671",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 285,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2671:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2671:3",
+      "ID_Padre": "2671",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 170,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2672:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2672:1",
+      "ID_Padre": "2672",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 153,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2673:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2673:1",
+      "ID_Padre": "2673",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 142,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2673:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2673:2",
+      "ID_Padre": "2673",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1469,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:1",
+      "ID_Padre": "2674",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2116,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:2",
+      "ID_Padre": "2674",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 470,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:3",
+      "ID_Padre": "2674",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1507,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:4": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:4",
+      "ID_Padre": "2674",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 386,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:5": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:5",
+      "ID_Padre": "2674",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 237,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:6": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:6",
+      "ID_Padre": "2674",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 387,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:7": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:7",
+      "ID_Padre": "2674",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 635,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:8": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:8",
+      "ID_Padre": "2674",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 1159,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:9": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:9",
+      "ID_Padre": "2674",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 889,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2674:10": {
+      "ID_Intervencion": "RPM-2009-08-13:2674:10",
+      "ID_Padre": "2674",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 447,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2675:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2675:1",
+      "ID_Padre": "2675",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 1088,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2676:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2676:1",
+      "ID_Padre": "2676",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2676:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2676:2",
+      "ID_Padre": "2676",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2115,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2677:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2677:1",
+      "ID_Padre": "2677",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 902,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2678:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2678:1",
+      "ID_Padre": "2678",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 453,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2678:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2678:2",
+      "ID_Padre": "2678",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 284,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2679:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2679:1",
+      "ID_Padre": "2679",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 755,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2679:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2679:2",
+      "ID_Padre": "2679",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 248,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2680:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2680:1",
+      "ID_Padre": "2680",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 180,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2680:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2680:2",
+      "ID_Padre": "2680",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 75,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2680:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2680:3",
+      "ID_Padre": "2680",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2680:4": {
+      "ID_Intervencion": "RPM-2009-08-13:2680:4",
+      "ID_Padre": "2680",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 489,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2681:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2681:1",
+      "ID_Padre": "2681",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 11085,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2681:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2681:2",
+      "ID_Padre": "2681",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 150,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2682:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2682:1",
+      "ID_Padre": "2682",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Caracteres": 5114,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2683:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2683:1",
+      "ID_Padre": "2683",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 145,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2683:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2683:2",
+      "ID_Padre": "2683",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 3519,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2684:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2684:1",
+      "ID_Padre": "2684",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 81,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2685:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2685:1",
+      "ID_Padre": "2685",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 3300,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2685:2": {
+      "ID_Intervencion": "RPM-2009-08-13:2685:2",
+      "ID_Padre": "2685",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 139,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2685:3": {
+      "ID_Intervencion": "RPM-2009-08-13:2685:3",
+      "ID_Padre": "2685",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 6624,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2686:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2686:1",
+      "ID_Padre": "2686",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 5794,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2687:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2687:1",
+      "ID_Padre": "2687",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 4575,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2009-08-13:2688:1": {
+      "ID_Intervencion": "RPM-2009-08-13:2688:1",
+      "ID_Padre": "2688",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1824,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-08-13",
+      "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
     }
   },
-  "Total_Leidas": 3167
+  "Total_Leidas": 3245
 }

@@ -379,6 +379,8 @@ Para leer una sesión entera al margen del plan:
 
 | 26–31 | 2006-06-15 | 71 | **sesión cerrada 69/69** (2 ya estaban anotadas) · 14 actores · **cero correcciones**, segunda sesión seguida · ninguna fila en la cola multihablante · los 3 candidatos de acento eran tildes diacríticas legítimas («éstos» 2 filas, «cuánto» 1) · las 5 viñetas «•» son legítimas (141 en 31 actos): el hueco era del repertorio del auditor |
 
+| 32–37 | 2009-08-13 | 79 | **sesión cerrada 78/78** (1 ya estaba anotada) · 15 actores · los **3** candidatos multihablante **ya estaban partidos en la base** (2661:10/11, 2667:1/2/3, 2680:2/3/4) · 3 correcciones + pase transversal «A continuación,.»→«A continuación,» en **76 filas** · 1 marca por residuo de lámina |
+
 Para anotar una ronda leída:
 
 ```

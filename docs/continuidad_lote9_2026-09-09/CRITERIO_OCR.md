@@ -2295,3 +2295,91 @@ corrigen fuera de su sesión, que es donde se lee el contexto.
 más el pase transversal de 6 actas) eso deja la proporción en **una sesión de cada tres con algo
 que corregir**. Si aparecieran correcciones en todas, habría que sospechar del proceso y no del
 corpus.
+
+---
+
+## §39. Sesión 2009-08-13: la cola está 78 % resuelta y un punto espurio repetido 76 veces
+
+### La cola de 74 casos hay que medirla contra la base, no contra el consolidado
+
+Los tres candidatos multihablante de esta sesión ya estaban bien partidos: el padre 2661 tiene
+`2661:10` = Velasco («El efecto debiera ser menor y al revés, acota el Ministro,») y `2661:11` =
+Lehmann («y el señor Lehmann complementa que será necesario afinar el análisis»); el 2667 tiene
+`2667:1/2/3` = Velasco / Lehmann / Soto; el 2680 tiene `2680:2/3/4` = Consejo / De Gregorio / García.
+
+Eso motivó medir la cola entera:
+
+| | |
+|---|---|
+| casos en la cola | 74 (73 padres distintos) |
+| **cuyo padre ya está partido en la base construida** | **58 (78 %)** |
+| que sí hay que mirar uno por uno | 16 |
+
+**La cola se construyó sobre los padres del consolidado de origen, donde la segmentación automática
+todavía no había corrido.** Contra la base construida, la mayoría ya está resuelta. Los 16 restantes
+se reparten en 15 sesiones (`2009-03-12` tiene 2). Uno de ellos, el padre 2325 de `2009-02-12`, ya
+se adjudicó en el §37: era una mención, no una voz.
+
+### El pase transversal: un punto que no pertenece a la oración
+
+`2680:4` terminaba en «A continuación,.» — coma y punto juntos. Medido sobre las 9.724 filas:
+
+- **76 apariciones, las 76 al final de una fila**, cero en medio de una fila;
+- las 76 con la fila siguiente **en minúscula y en la misma sesión**;
+- las 76 seguidas de «el señor Presidente ofrece la palabra al…»;
+- unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción
+  normal del acta — «A continuación,» seguida de minúscula aparece **378 veces** sin el punto.
+
+El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76; después del pase
+«A continuación,» + minúscula pasó de 378 a **454** (+76 exactos). `Texto` conserva las 76 formas
+vírgenes.
+
+### Las correcciones de la sesión
+
+| fila | antes | después | tipo | evidencia |
+|---|---|---|---|---|
+| `2681:1` | `medidas complementarías posibles` | `complementarias` | `ACENTO_INDEBIDO` | 1 vez contra 47 |
+| `2680:2` | `Siendo las 16; 15 horas` | `16:15` | `PUNTUACION` | 106 «Siendo las HH:MM horas» con dos puntos, y la fila anterior del mismo padre escribe `16:15` |
+
+### La que no: `hacía` chocó con una guardia de regresión y perdió
+
+`2666:3` dice «los flujos netos de inversión de cartera **hacía** economías emergentes». Ahí hace
+falta la preposición: el verbo no tiene sujeto ni complemento posible. Se corrigió, y
+`test_los_pares_minimos_legitimos_no_se_tocaron` falló:
+
+> `AssertionError: 31 not greater than or equal to 32 : «hacía» bajó a 31 (< 32): es una forma
+> legítima, no un defecto; una pasada la está corrigiendo de más`
+
+Ese test existe porque una pasada anterior **sí** corrigió `hacía` de más, y el suelo de 32 es la
+cicatriz. La regla del proyecto es no ensanchar una guardia para que pase un cambio, así que
+**la corrección se revirtió** y la fila quedó marcada en `Marcas_Adicionales` con
+`RECONSTRUCCION_AMBIGUA_POR_COTEJAR` y el razonamiento completo.
+
+No es que la lectura esté mal: es que resolverlo exige el PDF o una decisión explícita sobre esa
+guardia, y ninguna de las dos cosas se hace bajando un suelo en silencio. Queda visible para
+quien tenga el acta a la vista.
+
+### Lo que se marcó
+
+`2681:1` tiene, entre dos oraciones que se leen bien, un `' ' v` que no es texto: residuo de una
+viñeta o de un marcador de la lámina proyectada. El corpus usa `•` como viñeta (141 veces), así que
+esto no es una viñeta reconocible. Borrarlo sería suponer qué era → `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+
+### Los candidatos de acento, otra vez
+
+Seis candidatos, dos reales (`hacía`, `complementarías`) y cuatro falsos: `cuánto` (interrogativo),
+`periodo` (variante válida en 36 actos), `motivó` (verbo).
+
+**Acumulado del detector en cuatro sesiones: 33 candidatos, 3 aciertos, precisión 9 %.**
+
+| sesión | candidatos | reales |
+|---|---|---|
+| 2008-03-13 | 14 | 1 |
+| 2009-02-12 | 10 | 0 |
+| 2006-06-15 | 3 | 0 |
+| 2009-08-13 | 6 | 2 * |
+| **total** | **33** | **3** |
+
+\* De los 2 de esta sesión, `hacía` se revirtió por la guardia de regresión (véase arriba) y sólo
+`complementarías` quedó aplicado. El conteo mide **candidatos que el texto realmente pedía
+corregir**, no correcciones publicadas: son dos cosas distintas y conviene no confundirlas.
