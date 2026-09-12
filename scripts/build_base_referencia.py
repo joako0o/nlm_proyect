@@ -13,7 +13,31 @@ from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
 from context_warnings import load_context_warnings, contextual_motives
 from institutional_reviews import load_institutional_reviews, institutional_parts, institutional_type, is_movement, MOVEMENT_NOTE, NOTE as INSTITUTIONAL_NOTE
-from curation import load_role_reviews, load_speaker_reviews, speaker_intervals, SPEAKER_REVIEW_SOURCE
+from curation import (load_role_reviews, load_speaker_reviews, speaker_intervals,
+                      SPEAKER_REVIEW_SOURCE, SPEAKER_REVIEWS)
+
+# Las revisiones de hablante nuevas viven en un archivo aparte. El registro
+# histórico (revisiones_hablantes.json) está fijado por hash en veinte paquetes de
+# procedencia; agregarle entradas los invalida en cascada y obliga a reescribir
+# actas de lotes anteriores. Un archivo adicional deja esas procedencias intactas.
+SPEAKER_REVIEWS_EXTRA = SPEAKER_REVIEWS.parent / 'revisiones_hablantes_lote10.json'
+
+
+def revisiones_hablantes_completas(raw_by_id):
+    """Une el registro histórico con el lote adicional, sin solapar padres."""
+    base = load_speaker_reviews(raw_by_id)
+    if not SPEAKER_REVIEWS_EXTRA.is_file():
+        return base
+    extra = load_speaker_reviews(raw_by_id, SPEAKER_REVIEWS_EXTRA)
+    solapados = sorted(set(base) & set(extra))
+    if solapados:
+        raise ValueError('Revisiones de hablante del lote adicional solapadas con el '
+                         'registro histórico: %s' % solapados)
+    repetidos = {e['Revision_ID'] for e in base.values()}
+    choque = sorted({e['Revision_ID'] for e in extra.values()} & repetidos)
+    if choque:
+        raise ValueError('Revision_ID repetido entre registro y lote adicional: %s' % choque)
+    return {**base, **extra}
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
 from reviewed_continuity import load_reviewed_links
@@ -1180,7 +1204,7 @@ def cat(kw):
 def main():
     FULL_TEXTS = load_full_texts()
     reviewed_roles = load_role_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
-    reviewed_speakers = load_speaker_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
+    reviewed_speakers = revisiones_hablantes_completas({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
     reviewed_institutions = load_institutional_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     functional = active_refinements({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     # v5 extiende el mismo criterio a 29 padres más; los conjuntos no se superponen.

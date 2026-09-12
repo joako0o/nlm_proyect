@@ -1,0 +1,86 @@
+[
+ {
+  "Revision_ID": "HAB-20260912-657-1",
+  "ID_Padre": 657,
+  "Fecha": "2006-05-11",
+  "Actor": "Sergio Lehmann Beresi",
+  "SHA256_Texto_Padre": "14c6d54993a6c8bf8d01e4dc5b76f2b33dde16a3e988f39c3bf1d146476b9837",
+  "Inicio": 458,
+  "Fin": 4394,
+  "Cita_Inicio": "Respecto al crecimiento mundial, la situación de China",
+  "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+  "Justificacion": "El Presidente cierra su intervención cediendo la palabra («A continuación el señor Presidente ofrece la palabra a don Sergio Lehmann Beresi, para que inicie la exposición») y la oración siguiente abre la parte internacional sin sujeto explícito. El propio padre atribuye esa parte a Lehmann («el cual será presentado en la parte internacional, por el Gerente de Análisis Internacional, señor Sergio Lehmann B.») y el roster de la sesión lo confirma como único Gerente de Análisis Internacional. La fila v7 RPM-2006-05-11:657:1 atribuye todo a Corbo. No generalizar: la cesión nominal contigua y el asunto (crecimiento mundial) delimitan este corte.",
+  "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+  "Evidencia": [
+   {
+    "ID_Padre": 657,
+    "Cita": "A continuación el señor Presidente ofrece la palabra a don Sergio Lehmann Beresi, para que inicie la exposición."
+   },
+   {
+    "ID_Padre": 657,
+    "Cita": "el cual será presentado en la parte internacional, por el Gerente de Análisis Internacional, señor Sergio Lehmann B."
+   }
+  ]
+ },
+ {
+  "Revision_ID": "HAB-20260912-1564-2",
+  "ID_Padre": 1564,
+  "Fecha": "2007-11-13",
+  "Actor": "María Olivia Recart Herrera",
+  "SHA256_Texto_Padre": "1020bdb93e9250a4a10e83d51287e355fc1ae149885febc7f8ba37b17aa88264",
+  "Inicio": 163,
+  "Fin": 2230,
+  "Cita_Inicio": "Menciona la señora Ministra que va a destacar",
+  "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+  "Justificacion": "El Presidente agradece y cede la palabra a la Ministra de Hacienda Subrogante, doña María Olivia Recart Herrera; la oración siguiente ya tiene sujeto explícito pospuesto («Menciona la señora Ministra que va a destacar tres elementos centrales») y es el inicio de su exposición, no narración del Presidente. El roster de la sesión la registra como Ministro de Hacienda (S). La fila v7 RPM-2007-11-13:1564:1 atribuye todo a Corbo. El detector devuelve None porque «Ministra» sin nombre no resuelve por sesión.",
+  "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+  "Evidencia": [
+   {
+    "ID_Padre": 1564,
+    "Cita": "ofrece la palabra a la señora Ministra de Hacienda Subrogante, doña María Olivia Recart Herrera"
+   }
+  ]
+ },
+ {
+  "Revision_ID": "HAB-20260912-1995-3",
+  "ID_Padre": 1995,
+  "Fecha": "2008-08-14",
+  "Actor": "Sergio Lehmann Beresi",
+  "SHA256_Texto_Padre": "a9a694400bc4b5d475a709b7f740e2de3ec80be1c816f5193b8855162ff80410",
+  "Inicio": 740,
+  "Fin": 2791,
+  "Cita_Inicio": "Señala el señor Gerente que en Japón y Europa",
+  "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+  "Justificacion": "Desormeaux habla hasta «...las tasas de desempleo altas ayudan mucho con las presiones inflacionarias.»; desde «Señala el señor Gerente que en Japón y Europa las tasas han tendido a caer» habla el Gerente de Análisis Internacional, a quien el propio padre acaba de referirse («es el mismo que ha presentado el Gerente de Análisis Internacional») y a quien la sesión nombra explícitamente. El contenido (tasas de Japón y Europa, paridades cambiarias, dólar) es la parte internacional. La fila v7 RPM-2008-08-14:1995:1 atribuye las 2.791 caracteres a Desormeaux. «El señor Gerente» es anáfora, no un cargo global: no propagar.",
+  "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+  "Evidencia": [
+   {
+    "ID_Padre": 1995,
+    "Cita": "es el mismo que ha presentado el Gerente de Análisis Internacional"
+   },
+   {
+    "ID_Padre": 1980,
+    "Cita": "El Gerente de Análisis Internacional señor Sergio Lehmann informa que el crecimiento mundial se debilita, especialmente en Europa y Japón, donde la desaceleración ha sido más marcada que lo anticipado."
+   }
+  ]
+ },
+ {
+  "Revision_ID": "HAB-20260912-2960-4",
+  "ID_Padre": 2960,
+  "Fecha": "2010-02-11",
+  "Actor": "Kevin Cowan Logan",
+  "SHA256_Texto_Padre": "147a37503111c1cfb11c0187d6d60c4fee0636734bd8a2327ef0cd47ec458731",
+  "Inicio": 5729,
+  "Fin": 7785,
+  "Cita_Inicio": "El Gerente de División Política Financiera manifiesta creer",
+  "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+  "Justificacion": "El Presidente agradece y concede la palabra «al Gerente de División Política Financiera, señor Kevin Cowan»; la oración siguiente tiene ese cargo como sujeto explícito y abre la exposición de Cowan sobre la deuda soberana griega. El roster de la sesión registra a Kevin Cowan Logan en ese cargo. La fila v7 RPM-2010-02-11:2960:2 atribuye todo a De Gregorio.",
+  "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+  "Evidencia": [
+   {
+    "ID_Padre": 2960,
+    "Cita": "concede la palabra al Gerente de División Política Financiera, señor Kevin Cowan"
+   }
+  ]
+ }
+]

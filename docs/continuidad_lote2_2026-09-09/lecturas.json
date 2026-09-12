@@ -1,254 +1,251 @@
 {
- "Version": 1,
- "Alcance": "LECTURA_CONTINUIDAD_LOTE2",
- "Commit_Base": "9daab5906aa913af88f31fb572e23c1ea613c519",
- "SHA256_Fuentes": {
-  "data/raw/consolidado_final.xlsx": "c1cb73821242a7dcb20a75aef671598a9a6901201318a1beb3f9723c9aa4a512",
-  "data/releases/continuidad_intrapadre_v1/consolidado_base_referencia.xlsx": "86e0b96fd433f4ce9ee0da427aa6e201d29103ece6ad3a7aabddc6cd18d65237",
-  "data/curation/continuidades_intrapadre_v1.json": "a1656ad917dc7bf370991a7eb3a6ee6192ba49ca40abf6081939c0e0c7d904e4",
-  "data/curation/revisiones_continuidad_hablantes.json": "7da5bdb384a671e2e34e46994d5f83e902fbd77e0a40396dee238c8d999c993c",
-  "data/curation/revisiones_hablantes.json": "9d9dc5c38f0307a5b525aec23239a09273faf380ebe2ff3d717f506a8837ec5f",
-  "data/curation/revisiones_roles.json": "f5c82c9879665de8d2403bb1a3ee7f67b3de3c968914c9e89c77e48bea71f3a2"
- },
- "SHA256_Grupos": "4729579bcf73233fb03ec2fce5ef7b1acc7e8a7ebe21a55775033d8f311161e8",
- "Padres": {
-  "663": {
-   "Fecha": "2006-05-11",
-   "Texto_Padre": "El Gerente de División Estudios, señor Rodrigo Valdés, expresa que este tema se aprecia claramente en la rentabilidad. Agrega, que estos datos se han estado analizando con mayor detención. Hace presente, respecto del trigo, que las decisiones de siembra se hicieron hace varios meses, con otro tipo de cambio y con otra perspectiva. Señala también el señor Magendzo, que respecto de la caída de la minería, tampoco se cuenta con demasiados antecedentes. En todo caso, indica que existen problemas de ley y de tipo puntual en minas específicas, o sea, no es algo que se proyecta hacia delante en el mismo nivel bajo, sino que, por el contrario se aprecia una recuperación a futuro. Por otra parte, el Gerente de Análisis Macroeconómico, señor Igal Magendzo comenta, que los costos de la mano de obra muestran crecimientos bastantes moderados en los últimos datos con que se cuenta, lo que tiene que ver con las bases de comparación que van aumentando. Sin embargo, la velocidad de éstos también está convergiendo, rápidamente, hacia valores de 3% y 4%. Con respecto a lo anterior, el Consejero señor Marfán, señala que si tenemos un problema con la encuesta de empleo, en donde se observa que está aumentando, por razones estadísticas sencillamente tendríamos una medición de productividad observada que es más baja y, por lo tanto, costos de la mano de obra más altos. El Gerente señor Magendzo, señala sobre el particular, que los costos laborales tienen que ver con la base. Sin embargo, indica que también está influido, fuertemente, por una caída de la productividad que tiene que ver con el aumento del empleo, del cual obviamente se tienen ciertas dudas. Sin embargo, otras fuentes también muestran que el empleo está bastante robusto, no obstante la medida productiva es bastante volátil, mientras que las medidas de costo de mano de obra son mucho más suaves. Agrega, que la tendencia en general está dada más bien por los costos de la mano de obra que por productividad. En consecuencia se espera es que esto se revierta. En relación al tipo de cambio, el Consejero señor Desormeaux señala que, el Banco tiene una variedad de modelos para el tipo de cambio real de equilibrio. Consulta si hay alguno de ellos que pueda acomodar la proyección que hizo un connotado economista o simplemente el precio de equilibrio de 620 - 640. El Gerente de División Estudios, señor Rodrigo Valdés indica que su impresión que no hay un modelo que pueda dar números como los señalados, a no ser que se hiciera un supuesto muy extremo, respecto de precios de largo plazo de las materias primas o se suponga que Chile tiene tal deuda externa neta que requiera un superávit comercial con un equilibrio muy fuerte. Señala que en la presentación que efectuó el economista señor Sebastián Edwards, para sostener un 50% del PIB de pasivos netos, se requiere este tipo de cambio. Sin embargo, Chile tiene pasivos netos bastante menores que eso. No obstante indica que en todo caso, es un tema que se va a revisar.",
-   "SHA256_Texto_Padre": "ccc4338002d194441f73af2fafb0f8fe8c48e2e64630e6dd2de3dce0c8efd7a9",
-   "SHA256_Particion": "2e4c44f0d16b4eebf79b7ed987df6c0e225e557fd5fc09bc32a6697380aaad3a",
-   "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
-   "Grupos_Leidos": {
-    "Izquierda": [
-     {
-      "ID_Intervencion": "RPM-2006-05-11:663:2",
-      "Actor": "Igal Magendzo Weinberger",
-      "Fuente_Actor": "CONTEXTO_REVISADO",
-      "SHA256_Texto": "dd946ed7b8e55e273a09da312817fe082464f666ce6c60854722651d2a40d6e6",
-      "Texto": "Señala también el señor Magendzo, que respecto de la caída de la minería, tampoco se cuenta con demasiados antecedentes. En todo caso, indica que existen problemas de ley y de tipo puntual en minas específicas, o sea, no es algo que se proyecta hacia delante en el mismo nivel bajo, sino que, por el contrario se aprecia una recuperación a futuro.",
-      "SHA256_Fila": "6b42a4c23482bf6d667b1aa955c4bba3a38b371109fc2f462d0c8ba65fdfde5c"
-     }
-    ],
-    "Derecha": [
-     {
-      "ID_Intervencion": "RPM-2006-05-11:663:3",
-      "Actor": "Igal Magendzo Weinberger",
-      "Fuente_Actor": "SUJETO_ROL_NOMBRE",
-      "SHA256_Texto": "e9cca8cd4a276f731f4ee352e8555b5099779a9d7261def63e4c053274b58382",
-      "Texto": "Por otra parte, el Gerente de Análisis Macroeconómico, señor Igal Magendzo comenta, que los costos de la mano de obra muestran crecimientos bastantes moderados en los últimos datos con que se cuenta, lo que tiene que ver con las bases de comparación que van aumentando. Sin embargo, la velocidad de éstos también está convergiendo, rápidamente, hacia valores de 3% y 4%.",
-      "SHA256_Fila": "07e44c5ad56c2f1856b4d7fd3ee718bd8800e2fbaf516fd8319c999e3df04d3f"
-     }
-    ]
-   },
-   "Vecino_Anterior": {
-    "ID_Intervencion": "RPM-2006-05-11:662:1",
-    "Texto": "rio, plantea que existe la discusión de si la apreciación del peso está afectando o no esta situación. Le parece, que tendría que afectar, ya que se trata de transables. Agrega también que es un fenómeno que no puede tratarse como un factor especial.",
-    "SHA256_Fila": "19514e306cdb049462e87ad5fd5bb52ccc997baa3782571174ee21c47a0ada0e",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Vecino_Siguiente": {
-    "ID_Intervencion": "RPM-2006-05-11:664:1",
-    "Texto": "El Presidente señor Vittorio Corbo señala, sobre el mismo tema, que si se observa desde el año 1992 al 2002, nunca hubo un tipo de cambio de 620 - 640, con las paridades de hoy.",
-    "SHA256_Fila": "f0e0c4dd8176d299b83d73f201387540925a8861a5def5d83d436516f38dd3c0",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
-   "Justificacion": "Magendzo comenta la minería (347) y pasa a costos de mano de obra (370) con Por otra parte, sin voz intercalada. Se agrupan sólo esos dos tramos. Marfán316 abre una pregunta distinta y la respuesta posterior de Magendzo661 no se incorpora. Valdés332/660 y Desormeaux304 permanecen separados; Sebastián Edwards es una referencia dentro del último tramo, no una voz actual.",
-   "Reservas": [
-    "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
-    "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
-   ]
+  "Version": 1,
+  "Alcance": "LECTURA_CONTINUIDAD_LOTE2",
+  "Commit_Base": "9daab5906aa913af88f31fb572e23c1ea613c519",
+  "SHA256_Fuentes": {
+    "data/raw/consolidado_final.xlsx": "c1cb73821242a7dcb20a75aef671598a9a6901201318a1beb3f9723c9aa4a512",
+    "data/releases/continuidad_intrapadre_v1/consolidado_base_referencia.xlsx": "86e0b96fd433f4ce9ee0da427aa6e201d29103ece6ad3a7aabddc6cd18d65237",
+    "data/curation/continuidades_intrapadre_v1.json": "a1656ad917dc7bf370991a7eb3a6ee6192ba49ca40abf6081939c0e0c7d904e4",
+    "data/curation/revisiones_continuidad_hablantes.json": "7da5bdb384a671e2e34e46994d5f83e902fbd77e0a40396dee238c8d999c993c",
+    "data/curation/revisiones_hablantes.json": "80443b43bd62c4110cb815e484d9db5660c3a735f3f6c624d32969cdb9a4c3b5",
+    "data/curation/revisiones_roles.json": "f5c82c9879665de8d2403bb1a3ee7f67b3de3c968914c9e89c77e48bea71f3a2"
   },
-  "1871": {
-   "Fecha": "2008-06-10",
-   "Texto_Padre": "El señor Presidente comenta que los precios de estos tres productos agrícolas casi se triplican comparados con el año 2002, lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos. Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en el precio del cobre, no hay un cambio significativo, y tampoco en el precio de cereales, ya que los movimientos que tuvieron están anticipados en las proyecciones que ya se tenían. Comenta que lo claramente novedoso está en el petróleo y en la gasolina, que se revisan al alza en línea con los movimientos de los futuros. A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
-   "SHA256_Texto_Padre": "90c9661e04af4f00dc1ec77663bf1f1b899069663a251bf79b603a34e596f147",
-   "SHA256_Particion": "bf1767354e6d1dbcaf2959a384c15056c3c2d116dba459a6fffcd460ee93e991",
-   "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
-   "Grupos_Leidos": {
-    "Izquierda": [
-     {
-      "ID_Intervencion": "RPM-2008-06-10:1871:2",
-      "Actor": "Sergio Lehmann Beresi",
-      "Fuente_Actor": "CONTEXTO_REVISADO",
-      "SHA256_Texto": "137b712aef5799cfbbee2e975b35a4007e0208e7fb5db79b224d81ea960512e2",
-      "Texto": "lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos.",
-      "SHA256_Fila": "4f420f58da6f2e8e052b3b20fbe61e3ec24555828b95e858a6a63cc8afedd1ad"
-     }
-    ],
-    "Derecha": [
-     {
-      "ID_Intervencion": "RPM-2008-06-10:1871:3",
-      "Actor": "Sergio Lehmann Beresi",
-      "Fuente_Actor": "SUJETO_ROL_NOMBRE",
-      "SHA256_Texto": "2700470bf0e93ed31f8772f8c3df62c49cf3b2ca7ba920bb7641735cc16d12b5",
-      "Texto": "Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en el precio del cobre, no hay un cambio significativo, y tampoco en el precio de cereales, ya que los movimientos que tuvieron están anticipados en las proyecciones que ya se tenían. Comenta que lo claramente novedoso está en el petróleo y en la gasolina, que se revisan al alza en línea con los movimientos de los futuros.",
-      "SHA256_Fila": "a337d2ab5d3f6625cf7871c2f18b8895b3929e0f28a0d61e79e57ed70714431a"
-     }
-    ]
-   },
-   "Vecino_Anterior": {
-    "ID_Intervencion": "RPM-2008-06-10:1870:4",
-    "Texto": "se espera una caída en el precio del trigo, que es lo que se estaba observando en los últimos meses, y en el caso del arroz, prevé un alza y después una vuelta, pero se mantienen claramente estos tres productos muy por sobre sus promedios históricos.",
-    "SHA256_Fila": "15eca8e8e53726471e81bec00ca994c28c2be42364370b86afb248e35ed760b2",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Vecino_Siguiente": {
-    "ID_Intervencion": "RPM-2008-06-10:1872:1",
-    "Texto": "El Gerente de Análisis Macroeconómico señor Claudio Soto señala que en el mes de mayo el IPC aumentó 1,2% mensual, acumulando un incremento de 8,9% anual y superando lo esperado tanto internamente como por el mercado. El IPCX aumentó 0,7% mensual, 8,",
-    "SHA256_Fila": "6f379a7da603fd1835545ea71a1df9b0ccf84fc6e70edccc76673862f3e321e0",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
-   "Justificacion": "Lehmann responde al Presidente sobre precios agrícolas (148) y completa las proyecciones de cobre, cereales y petróleo (401), introducidas por Finalmente. No hay intervención ajena entre ambos. Presidente123 queda fuera, al igual que su retorno192 que cede la palabra a Soto; la cesión no constituye todavía habla de Soto.",
-   "Reservas": [
-    "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
-    "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
-   ]
-  },
-  "2692": {
-   "Fecha": "2009-09-08",
-   "Texto_Padre": "El Presidente De Gregorio consulta por el nivel normal de los inventarios en el mercado del cobre, respondiendo el señor Lehmann que estos han bordeado las 200 mil toneladas métricas, lo que es históricamente bajo en relación con lo observado en la primera mitad de esta década y en los 90, cuando eran cercanos a 600 mil toneladas métricas. De hecho, añade, luego de una caída, llegaron a ese nivel a principios de año, y ahora no hay certeza sobre cuál será el nivel de estabilidad. Para finalizar, el señor Gerente de Análisis Internacional menciona las principales proyecciones de los precios de los commodities para el 2009. Respecto del cobre, indica que es algo más alta respecto de un mes atrás, mientras que para el año 2010 no hay cambios significativos, proyectándose que alcanzará a 256 centavos de dólar la libra. En el caso de petróleo y gasolina tampoco se observan cambios importantes.",
-   "SHA256_Texto_Padre": "4c9dc196f3424759e6ed3258f6dc711bf2d4ac014fdb9ab0e20d1f512cdc181d",
-   "SHA256_Particion": "e6a8e20383c3938ed91e1b1f0a887e6d34046273a2ce1b1f3dfd4f638bcea075",
-   "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
-   "Grupos_Leidos": {
-    "Izquierda": [
-     {
-      "ID_Intervencion": "RPM-2009-09-08:2692:2",
-      "Actor": "Sergio Lehmann Beresi",
-      "Fuente_Actor": "CONTEXTO_REVISADO",
-      "SHA256_Texto": "f3c58c708cf2f7c39d3ac7750844608a595f125f58fcd116d502b432e8c68f9f",
-      "Texto": "respondiendo el señor Lehmann que estos han bordeado las 200 mil toneladas métricas, lo que es históricamente bajo en relación con lo observado en la primera mitad de esta década y en los 90, cuando eran cercanos a 600 mil toneladas métricas. De hecho, añade, luego de una caída, llegaron a ese nivel a principios de año, y ahora no hay certeza sobre cuál será el nivel de estabilidad.",
-      "SHA256_Fila": "c78c9453671e5f3ead926168aa1c4512948d3a51949dec0819595a9432b31d68"
-     }
-    ],
-    "Derecha": [
-     {
-      "ID_Intervencion": "RPM-2009-09-08:2692:3",
-      "Actor": "Sergio Lehmann Beresi",
-      "Fuente_Actor": "SUJETO_ROL_SESION",
-      "SHA256_Texto": "b88ff55b175b2876cd3cb3c5090a88d8282846c068decfbb6b712b424a4191f4",
-      "Texto": "Para finalizar, el señor Gerente de Análisis Internacional menciona las principales proyecciones de los precios de los commodities para el 2009. Respecto del cobre, indica que es algo más alta respecto de un mes atrás, mientras que para el año 2010 no hay cambios significativos, proyectándose que alcanzará a 256 centavos de dólar la libra. En el caso de petróleo y gasolina tampoco se observan cambios importantes.",
-      "SHA256_Fila": "d47ac2b03960e07c0c7ea71c7b62e1cf63291e17f849f1ffd5185ef288e25417"
-     }
-    ]
-   },
-   "Vecino_Anterior": {
-    "ID_Intervencion": "RPM-2009-09-08:2691:2",
-    "Texto": "les se han ajustado levemente al alza. Respecto del cobre, reitera que su precio ha aumentado en torno a 3% y que la mayor confianza empresarial respecto de la demanda futura de este metal ha compensado el aumento de los inventarios en el último mes.",
-    "SHA256_Fila": "9d5daf0286a519acf27f4e93943ce9684af65b373e05befcb955276724f307cb",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Vecino_Siguiente": {
-    "ID_Intervencion": "RPM-2009-09-08:2693:1",
-    "Texto": "El señor Presidente agradece al señor Sergio Lehmann y ofrece la palabra para comentarios.",
-    "SHA256_Fila": "5033265edabd8303382397b79d6d5b5890a18f86c871427a38e54be2c852fdbc",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
-   "Justificacion": "Lehmann responde sobre inventarios de cobre (385) y finaliza sus proyecciones de commodities (416). La mención por cargo continúa al mismo expositor, no una voz nueva. La pregunta del Presidente98 permanece separada. El agradecimiento del Presidente en la ventana de2693 no se incorpora.",
-   "Reservas": [
-    "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
-    "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
-   ]
-  },
-  "5252": {
-   "Fecha": "2012-12-13",
-   "Texto_Padre": "El Vicepresidente señor Manuel Marfán señala que la economía chilena enfrenta un puzzle desde hace varios meses, por cuanto presenta un crecimiento anormalmente elevado y una inflación inusualmente baja. Plantea que los antecedentes disponibles indican que ello no constituye un shock de oferta, en tanto deberían observarse también ciertas presiones de demanda, que no existen al menos por el momento. Al respecto, recuerda dos episodios en que se observó una combinación similar, el primero de ellos en los años 1992 a 1993, y el segundo en el período 1996 a 1997, con desenlaces distintos. Plantea que el primero se pudo resolver con una adecuada coordinación de políticas monetarias y fiscales, en que el Banco Central de Chile y el Ministerio de Hacienda llevaron adelante de manera conjunta lo que se denominó un mini ajuste. Indica que, por el contrario, en los años 1996 a 1997 se observó un desequilibrio que afectó la balanza de pagos y el tipo de cambio, lo que producto de la crisis internacional reinante produjo efectos muy significativos en Chile. Asimismo, alude al denominado efecto Tequila en el año 1995, oportunidad en que Chile no se vio afectado, presumiblemente porque en esa época el precio del cobre fue anormalmente alto. El Vicepresidente señor Manuel Marfán enfatiza en la necesidad de que exista una muy buena coordinación entre el Banco Central de Chile y el Ministerio de Hacienda en episodios como los mencionados, para fines de llevar adelante un mini ajuste económico. Al no formularse otros comentarios, el Vicepresidente señor Manuel Marfán suspende la presente Reunión y deja constancia que ella se reiniciará a las 16:30 horas para tratar las opciones de política monetaria. Siendo las 16:30 horas, se reanuda la Reunión de Política Monetaria N° 193 y pasa a presidir la Sesión transitoriamente el Vicepresidente señor Manuel Marfán, haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo. El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente al Consejo las Opciones de Política Monetaria que se han considerado para esta oportunidad.",
-   "SHA256_Texto_Padre": "5962e84de409e110e810754ab33a7799f9758ae3aeff1f12c2d97a86bb245686",
-   "SHA256_Particion": "11db4c692390eec5c47d920ac812d6d1385af6ce6d4a90ed659a7c7c323be6a7",
-   "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
-   "Grupos_Leidos": {
-    "Izquierda": [
-     {
-      "ID_Intervencion": "RPM-2012-12-13:5252:3",
-      "Actor": "Manuel Marfán Lewis",
-      "Fuente_Actor": "CONTEXTO_REVISADO",
-      "SHA256_Texto": "262802a397d21d31b78755b8bf88e49b0d0c1b1f56a909896412c484017502f4",
-      "Texto": "haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo.",
-      "SHA256_Fila": "6c82450985c802b527c44f46e0bc4293b2e9c32ddef5f78db7805df36e69a902"
-     }
-    ],
-    "Derecha": [
-     {
-      "ID_Intervencion": "RPM-2012-12-13:5252:4",
-      "Actor": "Manuel Marfán Lewis",
-      "Fuente_Actor": "SUJETO_ROL_NOMBRE",
-      "SHA256_Texto": "5afd2b07f0114435fc884f747b45a4ba96d097dd2d0bb7006cbec7f4f51ebd19",
-      "Texto": "El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente al Consejo las Opciones de Política Monetaria que se han considerado para esta oportunidad.",
-      "SHA256_Fila": "734b97021096943864c7c94215248095ce025db01ab0aa4cd150d8902804b5eb"
-     }
-    ]
-   },
-   "Vecino_Anterior": {
-    "ID_Intervencion": "RPM-2012-12-13:5251:1",
-    "Texto": " del petróleo, se observará un período prolongado con inflación baja, junto con el incremento del poder de compra de los consumidores y de su confianza al alza, lo cual demandará esfuerzos con la finalidad de mantener la demanda interna bajo control.",
-    "SHA256_Fila": "a1e3b5e95a9064e7652b4e4562c31fdd2cdc1a976b96baf33d5b7608913facd3",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Vecino_Siguiente": {
-    "ID_Intervencion": "RPM-2012-12-13:5253:1",
-    "Texto": "El señor Luis Óscar Herrera inicia su intervención refiriéndose a los principales desarrollos acontecidos desde la última Reunión de Política Monetaria. En lo concerniente a la economía internacional, señala que las condiciones financieras internacio",
-    "SHA256_Fila": "01944f8f4b918ee73b5004d017f9c9d1c5724d650fe5bcd96016a126e0012d96",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Decision": "RESERVA_FUNCIONES_DISTINTAS",
-   "Justificacion": "Se mantiene separación conservadora entre el aviso de Marfán162 sobre la incorporación futura de Vergara y su cesión223 a Herrera: son funciones distintas en una reanudación institucional. No se afirma que intervenga otra voz entre esos dos tramos, ni que su unión sea imposible; no hay aprobación en este lote. El comentario previo1712, el acta158, el aviso162 y la cesión223 conservan sus cuatro grupos. No se convierte la futura llegada de Vergara en habla ni se adelanta la intervención de Herrera.",
-   "Reservas": [
-    "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
-    "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
-   ]
-  },
-  "6813": {
-   "Fecha": "2015-06-11",
-   "Texto_Padre": "El Presidente señor Rodrigo Vergara hace presente que la clasificación de riesgo de Grecia fue rebajada nuevamente, precisando el señor Diego Gianelli que la agencia Standard & Poor’s bajó recientemente desde CCC+ a CCC la calificación de su deuda soberana. El señor Gianelli prosigue con su presentación indicando que en el plano financiero, las tasas de interés de largo plazo exhibieron un retroceso luego de la última Reunión, seguido de un fuerte aumento. Sobre el particular, señala que este movimiento se explicaría por el sell-off observado a partir del sorpresivo dato de inflación en la Zona Euro, tres décimas mayor que lo anticipado, y la reacción del mercado al discurso del Presidente del Banco Central Europeo señor Mario Draghi, quien desestimó la importancia de la volatilidad financiera actual como preocupación prioritaria de ese organismo. Agrega que según la descomposición basada en Adrian para identificar los premios por plazo, estos movimientos de tasas habrían estado muy influidos por una descompresión de premios por plazo. El Presidente señor Rodrigo Vergara hace notar que en la Zona Euro los premios por plazo y la tasa efectiva de los bonos a 10 años serían iguales. Luego, de acuerdo con las expectativas, la tasa para los próximos 10 años sería igual a cero.",
-   "SHA256_Texto_Padre": "95bd9656b1c309956ba2978a9361ad024f6349403e0b002caccbdd9258adbc98",
-   "SHA256_Particion": "84289648ab2accd3c72cd6d68e2e3d996ef75d64dd22c6a076d67a49409e1324",
-   "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
-   "Grupos_Leidos": {
-    "Izquierda": [
-     {
-      "ID_Intervencion": "RPM-2015-06-11:6813:2",
-      "Actor": "Diego Gianelli Gómez",
-      "Fuente_Actor": "CONTEXTO_REVISADO",
-      "SHA256_Texto": "4b129bd77b04441e0a9724b9afd8a534450a024262f9364741b6efb015234195",
-      "Texto": "precisando el señor Diego Gianelli que la agencia Standard & Poor’s bajó recientemente desde CCC+ a CCC la calificación de su deuda soberana.",
-      "SHA256_Fila": "c64ae0be9775906d2186a6a4a0a9cc96c681ba96b065891c0d2c790326526f8d"
-     }
-    ],
-    "Derecha": [
-     {
-      "ID_Intervencion": "RPM-2015-06-11:6813:3",
-      "Actor": "Diego Gianelli Gómez",
-      "Fuente_Actor": "SUJETO_NOMBRE",
-      "SHA256_Texto": "53738484b5876d2fecac35ad58835109b92f5329a94fe3ce9ddf6b59e428ac1d",
-      "Texto": "El señor Gianelli prosigue con su presentación indicando que en el plano financiero, las tasas de interés de largo plazo exhibieron un retroceso luego de la última Reunión, seguido de un fuerte aumento. Sobre el particular, señala que este movimiento se explicaría por el sell-off observado a partir del sorpresivo dato de inflación en la Zona Euro, tres décimas mayor que lo anticipado, y la reacción del mercado al discurso del Presidente del Banco Central Europeo señor Mario Draghi, quien desestimó la importancia de la volatilidad financiera actual como preocupación prioritaria de ese organismo. Agrega que según la descomposición basada en Adrian para identificar los premios por plazo, estos movimientos de tasas habrían estado muy influidos por una descompresión de premios por plazo.",
-      "SHA256_Fila": "8a8c5d540f474571e36e2171e9c7b2242f0d472a726cfff7bbc779d6fe3abce5"
-     }
-    ]
-   },
-   "Vecino_Anterior": {
-    "ID_Intervencion": "RPM-2015-06-11:6812:1",
-    "Texto": "el tope del programa de Asistencia de Liquidez de Emergencia, ELA. A este respecto, recuerda que la extensión de dicho programa finaliza a fines de junio, lo que pone algún grado de urgencia a la búsqueda de una solución por parte de sus autoridades.",
-    "SHA256_Fila": "d533d4ea80038db7ea32558fbc3c5fba0b6d78f15096e770e0562e003f40a8e2",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Vecino_Siguiente": {
-    "ID_Intervencion": "RPM-2015-06-11:6814:1",
-    "Texto": "El señor Diego Gianelli explica que el método que se utiliza para dicho cálculo no surge de la hipótesis de expectativas para determinar la tasa de política monetaria futura, sino que considera los componentes principales sobre la estructura de tasas",
-    "SHA256_Fila": "fe51b001247467946764363bfaff5494692de32618698c3526eec7d01b9767f6",
-    "Lectura": "VENTANA_HASTA_250_CARACTERES"
-   },
-   "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
-   "Justificacion": "Gianelli precisa la rebaja de Grecia (141) y el texto indica expresamente que prosigue con su presentación (793). Se agrupan esos dos tramos sin incluir los aportes de Vergara115/240. La referencia al discurso de Mario Draghi no se convierte en intervención actual. No se enlaza al Gianelli de6814 atravesando el retorno de Vergara.",
-   "Reservas": [
-    "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
-    "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
-   ]
+  "SHA256_Grupos": "4729579bcf73233fb03ec2fce5ef7b1acc7e8a7ebe21a55775033d8f311161e8",
+  "Padres": {
+    "663": {
+      "Fecha": "2006-05-11",
+      "Texto_Padre": "El Gerente de División Estudios, señor Rodrigo Valdés, expresa que este tema se aprecia claramente en la rentabilidad. Agrega, que estos datos se han estado analizando con mayor detención. Hace presente, respecto del trigo, que las decisiones de siembra se hicieron hace varios meses, con otro tipo de cambio y con otra perspectiva. Señala también el señor Magendzo, que respecto de la caída de la minería, tampoco se cuenta con demasiados antecedentes. En todo caso, indica que existen problemas de ley y de tipo puntual en minas específicas, o sea, no es algo que se proyecta hacia delante en el mismo nivel bajo, sino que, por el contrario se aprecia una recuperación a futuro. Por otra parte, el Gerente de Análisis Macroeconómico, señor Igal Magendzo comenta, que los costos de la mano de obra muestran crecimientos bastantes moderados en los últimos datos con que se cuenta, lo que tiene que ver con las bases de comparación que van aumentando. Sin embargo, la velocidad de éstos también está convergiendo, rápidamente, hacia valores de 3% y 4%. Con respecto a lo anterior, el Consejero señor Marfán, señala que si tenemos un problema con la encuesta de empleo, en donde se observa que está aumentando, por razones estadísticas sencillamente tendríamos una medición de productividad observada que es más baja y, por lo tanto, costos de la mano de obra más altos. El Gerente señor Magendzo, señala sobre el particular, que los costos laborales tienen que ver con la base. Sin embargo, indica que también está influido, fuertemente, por una caída de la productividad que tiene que ver con el aumento del empleo, del cual obviamente se tienen ciertas dudas. Sin embargo, otras fuentes también muestran que el empleo está bastante robusto, no obstante la medida productiva es bastante volátil, mientras que las medidas de costo de mano de obra son mucho más suaves. Agrega, que la tendencia en general está dada más bien por los costos de la mano de obra que por productividad. En consecuencia se espera es que esto se revierta. En relación al tipo de cambio, el Consejero señor Desormeaux señala que, el Banco tiene una variedad de modelos para el tipo de cambio real de equilibrio. Consulta si hay alguno de ellos que pueda acomodar la proyección que hizo un connotado economista o simplemente el precio de equilibrio de 620 - 640. El Gerente de División Estudios, señor Rodrigo Valdés indica que su impresión que no hay un modelo que pueda dar números como los señalados, a no ser que se hiciera un supuesto muy extremo, respecto de precios de largo plazo de las materias primas o se suponga que Chile tiene tal deuda externa neta que requiera un superávit comercial con un equilibrio muy fuerte. Señala que en la presentación que efectuó el economista señor Sebastián Edwards, para sostener un 50% del PIB de pasivos netos, se requiere este tipo de cambio. Sin embargo, Chile tiene pasivos netos bastante menores que eso. No obstante indica que en todo caso, es un tema que se va a revisar.",
+      "SHA256_Texto_Padre": "ccc4338002d194441f73af2fafb0f8fe8c48e2e64630e6dd2de3dce0c8efd7a9",
+      "SHA256_Particion": "2e4c44f0d16b4eebf79b7ed987df6c0e225e557fd5fc09bc32a6697380aaad3a",
+      "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
+      "Grupos_Leidos": {
+        "Izquierda": [
+          {
+            "ID_Intervencion": "RPM-2006-05-11:663:2",
+            "Actor": "Igal Magendzo Weinberger",
+            "Fuente_Actor": "CONTEXTO_REVISADO",
+            "SHA256_Texto": "dd946ed7b8e55e273a09da312817fe082464f666ce6c60854722651d2a40d6e6",
+            "Texto": "Señala también el señor Magendzo, que respecto de la caída de la minería, tampoco se cuenta con demasiados antecedentes. En todo caso, indica que existen problemas de ley y de tipo puntual en minas específicas, o sea, no es algo que se proyecta hacia delante en el mismo nivel bajo, sino que, por el contrario se aprecia una recuperación a futuro.",
+            "SHA256_Fila": "6b42a4c23482bf6d667b1aa955c4bba3a38b371109fc2f462d0c8ba65fdfde5c"
+          }
+        ],
+        "Derecha": [
+          {
+            "ID_Intervencion": "RPM-2006-05-11:663:3",
+            "Actor": "Igal Magendzo Weinberger",
+            "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+            "SHA256_Texto": "e9cca8cd4a276f731f4ee352e8555b5099779a9d7261def63e4c053274b58382",
+            "Texto": "Por otra parte, el Gerente de Análisis Macroeconómico, señor Igal Magendzo comenta, que los costos de la mano de obra muestran crecimientos bastantes moderados en los últimos datos con que se cuenta, lo que tiene que ver con las bases de comparación que van aumentando. Sin embargo, la velocidad de éstos también está convergiendo, rápidamente, hacia valores de 3% y 4%.",
+            "SHA256_Fila": "07e44c5ad56c2f1856b4d7fd3ee718bd8800e2fbaf516fd8319c999e3df04d3f"
+          }
+        ]
+      },
+      "Vecino_Anterior": {
+        "ID_Intervencion": "RPM-2006-05-11:662:1",
+        "Texto": "rio, plantea que existe la discusión de si la apreciación del peso está afectando o no esta situación. Le parece, que tendría que afectar, ya que se trata de transables. Agrega también que es un fenómeno que no puede tratarse como un factor especial.",
+        "SHA256_Fila": "19514e306cdb049462e87ad5fd5bb52ccc997baa3782571174ee21c47a0ada0e",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Vecino_Siguiente": {
+        "ID_Intervencion": "RPM-2006-05-11:664:1",
+        "Texto": "El Presidente señor Vittorio Corbo señala, sobre el mismo tema, que si se observa desde el año 1992 al 2002, nunca hubo un tipo de cambio de 620 - 640, con las paridades de hoy.",
+        "SHA256_Fila": "f0e0c4dd8176d299b83d73f201387540925a8861a5def5d83d436516f38dd3c0",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
+      "Justificacion": "Magendzo comenta la minería (347) y pasa a costos de mano de obra (370) con Por otra parte, sin voz intercalada. Se agrupan sólo esos dos tramos. Marfán316 abre una pregunta distinta y la respuesta posterior de Magendzo661 no se incorpora. Valdés332/660 y Desormeaux304 permanecen separados; Sebastián Edwards es una referencia dentro del último tramo, no una voz actual.",
+      "Reservas": [
+        "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
+        "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
+      ]
+    },
+    "1871": {
+      "Fecha": "2008-06-10",
+      "Texto_Padre": "El señor Presidente comenta que los precios de estos tres productos agrícolas casi se triplican comparados con el año 2002, lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos. Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en el precio del cobre, no hay un cambio significativo, y tampoco en el precio de cereales, ya que los movimientos que tuvieron están anticipados en las proyecciones que ya se tenían. Comenta que lo claramente novedoso está en el petróleo y en la gasolina, que se revisan al alza en línea con los movimientos de los futuros. A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
+      "SHA256_Texto_Padre": "90c9661e04af4f00dc1ec77663bf1f1b899069663a251bf79b603a34e596f147",
+      "SHA256_Particion": "bf1767354e6d1dbcaf2959a384c15056c3c2d116dba459a6fffcd460ee93e991",
+      "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
+      "Grupos_Leidos": {
+        "Izquierda": [
+          {
+            "ID_Intervencion": "RPM-2008-06-10:1871:2",
+            "Actor": "Sergio Lehmann Beresi",
+            "Fuente_Actor": "CONTEXTO_REVISADO",
+            "SHA256_Texto": "137b712aef5799cfbbee2e975b35a4007e0208e7fb5db79b224d81ea960512e2",
+            "Texto": "lo que comparte el señor Lehmann, quien agrega que lo más decidor es que se prevé que se mantendrán en esos niveles hasta el año 2017, por lo menos.",
+            "SHA256_Fila": "4f420f58da6f2e8e052b3b20fbe61e3ec24555828b95e858a6a63cc8afedd1ad"
+          }
+        ],
+        "Derecha": [
+          {
+            "ID_Intervencion": "RPM-2008-06-10:1871:3",
+            "Actor": "Sergio Lehmann Beresi",
+            "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+            "SHA256_Texto": "2700470bf0e93ed31f8772f8c3df62c49cf3b2ca7ba920bb7641735cc16d12b5",
+            "Texto": "Finalmente, el Gerente señor Lehmann menciona que en materia de proyecciones en el precio del cobre, no hay un cambio significativo, y tampoco en el precio de cereales, ya que los movimientos que tuvieron están anticipados en las proyecciones que ya se tenían. Comenta que lo claramente novedoso está en el petróleo y en la gasolina, que se revisan al alza en línea con los movimientos de los futuros.",
+            "SHA256_Fila": "a337d2ab5d3f6625cf7871c2f18b8895b3929e0f28a0d61e79e57ed70714431a"
+          }
+        ]
+      },
+      "Vecino_Anterior": {
+        "ID_Intervencion": "RPM-2008-06-10:1870:4",
+        "Texto": "se espera una caída en el precio del trigo, que es lo que se estaba observando en los últimos meses, y en el caso del arroz, prevé un alza y después una vuelta, pero se mantienen claramente estos tres productos muy por sobre sus promedios históricos.",
+        "SHA256_Fila": "15eca8e8e53726471e81bec00ca994c28c2be42364370b86afb248e35ed760b2",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Vecino_Siguiente": {
+        "ID_Intervencion": "RPM-2008-06-10:1872:1",
+        "Texto": "El Gerente de Análisis Macroeconómico señor Claudio Soto señala que en el mes de mayo el IPC aumentó 1,2% mensual, acumulando un incremento de 8,9% anual y superando lo esperado tanto internamente como por el mercado. El IPCX aumentó 0,7% mensual, 8,",
+        "SHA256_Fila": "6f379a7da603fd1835545ea71a1df9b0ccf84fc6e70edccc76673862f3e321e0",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
+      "Justificacion": "Lehmann responde al Presidente sobre precios agrícolas (148) y completa las proyecciones de cobre, cereales y petróleo (401), introducidas por Finalmente. No hay intervención ajena entre ambos. Presidente123 queda fuera, al igual que su retorno192 que cede la palabra a Soto; la cesión no constituye todavía habla de Soto.",
+      "Reservas": [
+        "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
+        "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
+      ]
+    },
+    "2692": {
+      "Fecha": "2009-09-08",
+      "Texto_Padre": "El Presidente De Gregorio consulta por el nivel normal de los inventarios en el mercado del cobre, respondiendo el señor Lehmann que estos han bordeado las 200 mil toneladas métricas, lo que es históricamente bajo en relación con lo observado en la primera mitad de esta década y en los 90, cuando eran cercanos a 600 mil toneladas métricas. De hecho, añade, luego de una caída, llegaron a ese nivel a principios de año, y ahora no hay certeza sobre cuál será el nivel de estabilidad. Para finalizar, el señor Gerente de Análisis Internacional menciona las principales proyecciones de los precios de los commodities para el 2009. Respecto del cobre, indica que es algo más alta respecto de un mes atrás, mientras que para el año 2010 no hay cambios significativos, proyectándose que alcanzará a 256 centavos de dólar la libra. En el caso de petróleo y gasolina tampoco se observan cambios importantes.",
+      "SHA256_Texto_Padre": "4c9dc196f3424759e6ed3258f6dc711bf2d4ac014fdb9ab0e20d1f512cdc181d",
+      "SHA256_Particion": "e6a8e20383c3938ed91e1b1f0a887e6d34046273a2ce1b1f3dfd4f638bcea075",
+      "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
+      "Grupos_Leidos": {
+        "Izquierda": [
+          {
+            "ID_Intervencion": "RPM-2009-09-08:2692:2",
+            "Actor": "Sergio Lehmann Beresi",
+            "Fuente_Actor": "CONTEXTO_REVISADO",
+            "SHA256_Texto": "f3c58c708cf2f7c39d3ac7750844608a595f125f58fcd116d502b432e8c68f9f",
+            "Texto": "respondiendo el señor Lehmann que estos han bordeado las 200 mil toneladas métricas, lo que es históricamente bajo en relación con lo observado en la primera mitad de esta década y en los 90, cuando eran cercanos a 600 mil toneladas métricas. De hecho, añade, luego de una caída, llegaron a ese nivel a principios de año, y ahora no hay certeza sobre cuál será el nivel de estabilidad.",
+            "SHA256_Fila": "c78c9453671e5f3ead926168aa1c4512948d3a51949dec0819595a9432b31d68"
+          }
+        ],
+        "Derecha": [
+          {
+            "ID_Intervencion": "RPM-2009-09-08:2692:3",
+            "Actor": "Sergio Lehmann Beresi",
+            "Fuente_Actor": "SUJETO_ROL_SESION",
+            "SHA256_Texto": "b88ff55b175b2876cd3cb3c5090a88d8282846c068decfbb6b712b424a4191f4",
+            "Texto": "Para finalizar, el señor Gerente de Análisis Internacional menciona las principales proyecciones de los precios de los commodities para el 2009. Respecto del cobre, indica que es algo más alta respecto de un mes atrás, mientras que para el año 2010 no hay cambios significativos, proyectándose que alcanzará a 256 centavos de dólar la libra. En el caso de petróleo y gasolina tampoco se observan cambios importantes.",
+            "SHA256_Fila": "d47ac2b03960e07c0c7ea71c7b62e1cf63291e17f849f1ffd5185ef288e25417"
+          }
+        ]
+      },
+      "Vecino_Anterior": {
+        "ID_Intervencion": "RPM-2009-09-08:2691:2",
+        "Texto": "les se han ajustado levemente al alza. Respecto del cobre, reitera que su precio ha aumentado en torno a 3% y que la mayor confianza empresarial respecto de la demanda futura de este metal ha compensado el aumento de los inventarios en el último mes.",
+        "SHA256_Fila": "9d5daf0286a519acf27f4e93943ce9684af65b373e05befcb955276724f307cb",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Vecino_Siguiente": {
+        "ID_Intervencion": "RPM-2009-09-08:2693:1",
+        "Texto": "El señor Presidente agradece al señor Sergio Lehmann y ofrece la palabra para comentarios.",
+        "SHA256_Fila": "5033265edabd8303382397b79d6d5b5890a18f86c871427a38e54be2c852fdbc",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
+      "Justificacion": "Lehmann responde sobre inventarios de cobre (385) y finaliza sus proyecciones de commodities (416). La mención por cargo continúa al mismo expositor, no una voz nueva. La pregunta del Presidente98 permanece separada. El agradecimiento del Presidente en la ventana de2693 no se incorpora.",
+      "Reservas": [
+        "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
+        "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
+      ]
+    },
+    "5252": {
+      "Fecha": "2012-12-13",
+      "Texto_Padre": "El Vicepresidente señor Manuel Marfán señala que la economía chilena enfrenta un puzzle desde hace varios meses, por cuanto presenta un crecimiento anormalmente elevado y una inflación inusualmente baja. Plantea que los antecedentes disponibles indican que ello no constituye un shock de oferta, en tanto deberían observarse también ciertas presiones de demanda, que no existen al menos por el momento. Al respecto, recuerda dos episodios en que se observó una combinación similar, el primero de ellos en los años 1992 a 1993, y el segundo en el período 1996 a 1997, con desenlaces distintos. Plantea que el primero se pudo resolver con una adecuada coordinación de políticas monetarias y fiscales, en que el Banco Central de Chile y el Ministerio de Hacienda llevaron adelante de manera conjunta lo que se denominó un mini ajuste. Indica que, por el contrario, en los años 1996 a 1997 se observó un desequilibrio que afectó la balanza de pagos y el tipo de cambio, lo que producto de la crisis internacional reinante produjo efectos muy significativos en Chile. Asimismo, alude al denominado efecto Tequila en el año 1995, oportunidad en que Chile no se vio afectado, presumiblemente porque en esa época el precio del cobre fue anormalmente alto. El Vicepresidente señor Manuel Marfán enfatiza en la necesidad de que exista una muy buena coordinación entre el Banco Central de Chile y el Ministerio de Hacienda en episodios como los mencionados, para fines de llevar adelante un mini ajuste económico. Al no formularse otros comentarios, el Vicepresidente señor Manuel Marfán suspende la presente Reunión y deja constancia que ella se reiniciará a las 16:30 horas para tratar las opciones de política monetaria. Siendo las 16:30 horas, se reanuda la Reunión de Política Monetaria N° 193 y pasa a presidir la Sesión transitoriamente el Vicepresidente señor Manuel Marfán, haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo. El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente al Consejo las Opciones de Política Monetaria que se han considerado para esta oportunidad.",
+      "SHA256_Texto_Padre": "5962e84de409e110e810754ab33a7799f9758ae3aeff1f12c2d97a86bb245686",
+      "SHA256_Particion": "11db4c692390eec5c47d920ac812d6d1385af6ce6d4a90ed659a7c7c323be6a7",
+      "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
+      "Grupos_Leidos": {
+        "Izquierda": [
+          {
+            "ID_Intervencion": "RPM-2012-12-13:5252:3",
+            "Actor": "Manuel Marfán Lewis",
+            "Fuente_Actor": "CONTEXTO_REVISADO",
+            "SHA256_Texto": "262802a397d21d31b78755b8bf88e49b0d0c1b1f56a909896412c484017502f4",
+            "Texto": "haciendo presente que el Presidente señor Rodrigo Vergara se incorporará posteriormente por cuanto se encuentra en una actividad propia del ejercicio de su cargo.",
+            "SHA256_Fila": "6c82450985c802b527c44f46e0bc4293b2e9c32ddef5f78db7805df36e69a902"
+          }
+        ],
+        "Derecha": [
+          {
+            "ID_Intervencion": "RPM-2012-12-13:5252:4",
+            "Actor": "Manuel Marfán Lewis",
+            "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+            "SHA256_Texto": "5afd2b07f0114435fc884f747b45a4ba96d097dd2d0bb7006cbec7f4f51ebd19",
+            "Texto": "El Vicepresidente señor Manuel Marfán concede la palabra al Gerente de División Estudios señor Luis Óscar Herrera para que presente al Consejo las Opciones de Política Monetaria que se han considerado para esta oportunidad.",
+            "SHA256_Fila": "734b97021096943864c7c94215248095ce025db01ab0aa4cd150d8902804b5eb"
+          }
+        ]
+      },
+      "Vecino_Anterior": {
+        "ID_Intervencion": "RPM-2012-12-13:5251:1",
+        "Texto": " del petróleo, se observará un período prolongado con inflación baja, junto con el incremento del poder de compra de los consumidores y de su confianza al alza, lo cual demandará esfuerzos con la finalidad de mantener la demanda interna bajo control.",
+        "SHA256_Fila": "a1e3b5e95a9064e7652b4e4562c31fdd2cdc1a976b96baf33d5b7608913facd3",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Vecino_Siguiente": {
+        "ID_Intervencion": "RPM-2012-12-13:5253:1",
+        "Texto": "El señor Luis Óscar Herrera inicia su intervención refiriéndose a los principales desarrollos acontecidos desde la última Reunión de Política Monetaria. En lo concerniente a la economía internacional, señala que las condiciones financieras internacio",
+        "SHA256_Fila": "01944f8f4b918ee73b5004d017f9c9d1c5724d650fe5bcd96016a126e0012d96",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Decision": "RESERVA_FUNCIONES_DISTINTAS",
+      "Justificacion": "Se mantiene separación conservadora entre el aviso de Marfán162 sobre la incorporación futura de Vergara y su cesión223 a Herrera: son funciones distintas en una reanudación institucional. No se afirma que intervenga otra voz entre esos dos tramos, ni que su unión sea imposible; no hay aprobación en este lote. El comentario previo1712, el acta158, el aviso162 y la cesión223 conservan sus cuatro grupos. No se convierte la futura llegada de Vergara en habla ni se adelanta la intervención de Herrera.",
+      "Reservas": [
+        "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
+        "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
+      ]
+    },
+    "6813": {
+      "Fecha": "2015-06-11",
+      "Texto_Padre": "El Presidente señor Rodrigo Vergara hace presente que la clasificación de riesgo de Grecia fue rebajada nuevamente, precisando el señor Diego Gianelli que la agencia Standard & Poor’s bajó recientemente desde CCC+ a CCC la calificación de su deuda soberana. El señor Gianelli prosigue con su presentación indicando que en el plano financiero, las tasas de interés de largo plazo exhibieron un retroceso luego de la última Reunión, seguido de un fuerte aumento. Sobre el particular, señala que este movimiento se explicaría por el sell-off observado a partir del sorpresivo dato de inflación en la Zona Euro, tres décimas mayor que lo anticipado, y la reacción del mercado al discurso del Presidente del Banco Central Europeo señor Mario Draghi, quien desestimó la importancia de la volatilidad financiera actual como preocupación prioritaria de ese organismo. Agrega que según la descomposición basada en Adrian para identificar los premios por plazo, estos movimientos de tasas habrían estado muy influidos por una descompresión de premios por plazo. El Presidente señor Rodrigo Vergara hace notar que en la Zona Euro los premios por plazo y la tasa efectiva de los bonos a 10 años serían iguales. Luego, de acuerdo con las expectativas, la tasa para los próximos 10 años sería igual a cero.",
+      "SHA256_Texto_Padre": "95bd9656b1c309956ba2978a9361ad024f6349403e0b002caccbdd9258adbc98",
+      "SHA256_Particion": "84289648ab2accd3c72cd6d68e2e3d996ef75d64dd22c6a076d67a49409e1324",
+      "Lectura": "PADRE_Y_GRUPOS_COMPLETOS",
+      "Grupos_Leidos": {
+        "Izquierda": [
+          {
+            "ID_Intervencion": "RPM-2015-06-11:6813:2",
+            "Actor": "Diego Gianelli Gómez",
+            "Fuente_Actor": "CONTEXTO_REVISADO",
+            "SHA256_Texto": "4b129bd77b04441e0a9724b9afd8a534450a024262f9364741b6efb015234195",
+            "Texto": "precisando el señor Diego Gianelli que la agencia Standard & Poor’s bajó recientemente desde CCC+ a CCC la calificación de su deuda soberana.",
+            "SHA256_Fila": "c64ae0be9775906d2186a6a4a0a9cc96c681ba96b065891c0d2c790326526f8d"
+          }
+        ],
+        "Derecha": [
+          {
+            "ID_Intervencion": "RPM-2015-06-11:6813:3",
+            "Actor": "Diego Gianelli Gómez",
+            "Fuente_Actor": "SUJETO_NOMBRE",
+            "SHA256_Texto": "53738484b5876d2fecac35ad58835109b92f5329a94fe3ce9ddf6b59e428ac1d",
+            "Texto": "El señor Gianelli prosigue con su presentación indicando que en el plano financiero, las tasas de interés de largo plazo exhibieron un retroceso luego de la última Reunión, seguido de un fuerte aumento. Sobre el particular, señala que este movimiento se explicaría por el sell-off observado a partir del sorpresivo dato de inflación en la Zona Euro, tres décimas mayor que lo anticipado, y la reacción del mercado al discurso del Presidente del Banco Central Europeo señor Mario Draghi, quien desestimó la importancia de la volatilidad financiera actual como preocupación prioritaria de ese organismo. Agrega que según la descomposición basada en Adrian para identificar los premios por plazo, estos movimientos de tasas habrían estado muy influidos por una descompresión de premios por plazo.",
+            "SHA256_Fila": "8a8c5d540f474571e36e2171e9c7b2242f0d472a726cfff7bbc779d6fe3abce5"
+          }
+        ]
+      },
+      "Vecino_Anterior": {
+        "ID_Intervencion": "RPM-2015-06-11:6812:1",
+        "Texto": "el tope del programa de Asistencia de Liquidez de Emergencia, ELA. A este respecto, recuerda que la extensión de dicho programa finaliza a fines de junio, lo que pone algún grado de urgencia a la búsqueda de una solución por parte de sus autoridades.",
+        "SHA256_Fila": "d533d4ea80038db7ea32558fbc3c5fba0b6d78f15096e770e0562e003f40a8e2",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Vecino_Siguiente": {
+        "ID_Intervencion": "RPM-2015-06-11:6814:1",
+        "Texto": "El señor Diego Gianelli explica que el método que se utiliza para dicho cálculo no surge de la hipótesis de expectativas para determinar la tasa de política monetaria futura, sino que considera los componentes principales sobre la estructura de tasas",
+        "SHA256_Fila": "fe51b001247467946764363bfaff5494692de32618698c3526eec7d01b9767f6",
+        "Lectura": "VENTANA_HASTA_250_CARACTERES"
+      },
+      "Decision": "ENLACE_RESPALDADO_POR_LECTURA",
+      "Justificacion": "Gianelli precisa la rebaja de Grecia (141) y el texto indica expresamente que prosigue con su presentación (793). Se agrupan esos dos tramos sin incluir los aportes de Vergara115/240. La referencia al discurso de Mario Draghi no se convierte en intervención actual. No se enlaza al Gianelli de6814 atravesando el retorno de Vergara.",
+      "Reservas": [
+        "Sin nuevo cotejo PDF; se conserva todo el literal y las alertas.",
+        "Ventanas externas de hasta250 caracteres, no lectura completa de los padres vecinos."
+      ]
+    }
   }
- },
- "Notas": [
-  "Refresco de SHA256_Fuentes de data/curation/revisiones_hablantes.json: se agregaron 4 revisiones de hablante (HAB-20260912-657-1, -1564-2, -1995-3, -2960-4) para separar por intervención. Verificado: este paquete no referencia los padres 657, 1564, 1995 ni 2960, así que sus lecturas siguen vigentes."
- ]
 }

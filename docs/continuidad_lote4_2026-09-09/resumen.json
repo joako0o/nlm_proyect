@@ -1,18 +1,15 @@
 {
- "Pares_Inventariados": 77,
- "Casos_Leidos": 19,
- "Padres_Completos": 29,
- "Caracteres_Origen": 59698,
- "Separaciones_Respaldadas": 10,
- "Reservas": 9,
- "Limites_Funcionales_No_Aplicados": 3,
- "Enlaces_Aplicados": 0,
- "Cortes_Aplicados": 0,
- "Alertas_Cerradas": 0,
- "Nota": "El inventario sigue en77: revisión de un corte no elimina el par. No adjudica los58 pares fuera del lote4.",
- "SHA256_Base": "b4a169701c212c15f302b5c3c572eae65e3d4de8d6a71d38754ccec4606aa992",
- "SHA256_Lecturas": "8748cc54bace5d6064079816502d050619cc3106112455cae91842224d86bbb8",
- "Notas": [
-  "Refresco de hash: se agregaron 4 revisiones de hablante (HAB-20260912-657-1, -1564-2, -1995-3, -2960-4) para separar por intervención. Verificado que este paquete no referencia los padres 657, 1564, 1995 ni 2960, así que sus lecturas siguen vigentes."
- ]
+  "Pares_Inventariados": 77,
+  "Casos_Leidos": 19,
+  "Padres_Completos": 29,
+  "Caracteres_Origen": 59698,
+  "Separaciones_Respaldadas": 10,
+  "Reservas": 9,
+  "Limites_Funcionales_No_Aplicados": 3,
+  "Enlaces_Aplicados": 0,
+  "Cortes_Aplicados": 0,
+  "Alertas_Cerradas": 0,
+  "Nota": "El inventario sigue en77: revisión de un corte no elimina el par. No adjudica los58 pares fuera del lote4.",
+  "SHA256_Base": "b4a169701c212c15f302b5c3c572eae65e3d4de8d6a71d38754ccec4606aa992",
+  "SHA256_Lecturas": "5f0a7e58a8134f46aa6ec7d01cb2aa7610ce3b011341b9d889564822a7e22a8f"
 }

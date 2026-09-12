@@ -1,507 +1,504 @@
 {
- "Version": 1,
- "Alcance": "COMAS_CON_MOTIVOS_ADICIONALES_20260908",
- "Commit_Base": "302016680b5d43bc0dea7d157055b86661da1d7e",
- "SHA256_Fuentes": {
-  "data/raw/2005-06-09 - Actas.pdf": "bce6cc8f02ceb563113c14a3031fffdf83dd29150884bedbea2c45c218c98ae2",
-  "data/raw/2005-07-12 - Actas.pdf": "58e6fd4ea726079c94310a1451e58ae0b3fdbf028629cde86f25bac03883e6c9",
-  "data/raw/consolidado_final.xlsx": "c1cb73821242a7dcb20a75aef671598a9a6901201318a1beb3f9723c9aa4a512",
-  "data/curation/revisiones_hablantes.json": "9d9dc5c38f0307a5b525aec23239a09273faf380ebe2ff3d717f506a8837ec5f",
-  "data/curation/alertas_contextuales.json": "a7a23f05de03571770f07a89395e4c0deb3edd15c014832f209a16dc2b06f3f2"
- },
- "Antecedentes": [
-  {
-   "Fuente": "data/curation/revisiones_hablantes.json",
-   "Revision_ID": "HAB-20260907-2779",
-   "ID_Padre": 2779,
-   "SHA256_Registro": "462c222eb0aff978a0b080040d2fcae1a418567e429f901a71ab4d1e626e9742",
-   "Justificacion_Anterior": "Cowan interviene; Soto asiente con sujeto explícito y sin palabras transcritas; Marshall responde y continúa con En su opinión. Se reconoce asiente como acto expreso, preservando literalmente la breve cláusula, y se delimita la respuesta contrastiva de Marshall. No atribuir la respuesta de Marshall a Soto ni la continuación a Cowan.",
-   "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
+  "Version": 1,
+  "Alcance": "COMAS_CON_MOTIVOS_ADICIONALES_20260908",
+  "Commit_Base": "302016680b5d43bc0dea7d157055b86661da1d7e",
+  "SHA256_Fuentes": {
+    "data/raw/2005-06-09 - Actas.pdf": "bce6cc8f02ceb563113c14a3031fffdf83dd29150884bedbea2c45c218c98ae2",
+    "data/raw/2005-07-12 - Actas.pdf": "58e6fd4ea726079c94310a1451e58ae0b3fdbf028629cde86f25bac03883e6c9",
+    "data/raw/consolidado_final.xlsx": "c1cb73821242a7dcb20a75aef671598a9a6901201318a1beb3f9723c9aa4a512",
+    "data/curation/revisiones_hablantes.json": "80443b43bd62c4110cb815e484d9db5660c3a735f3f6c624d32969cdb9a4c3b5",
+    "data/curation/alertas_contextuales.json": "a7a23f05de03571770f07a89395e4c0deb3edd15c014832f209a16dc2b06f3f2"
   },
-  {
-   "Fuente": "data/curation/revisiones_hablantes.json",
-   "Revision_ID": "HAB-20260908-L18-2957-1",
-   "ID_Padre": 2957,
-   "SHA256_Registro": "899924e780ff045b757bd35ff08218672601f1dcb8523b09617abe7a52e15684",
-   "Justificacion_Anterior": "Pregunta actual de Pablo García según nómina 2889; no pertenece a Cowan. Termina antes de la respuesta presidencial en gerundio, que se revisa por separado. Conservar Rabio y la coma literal.",
-   "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
-  },
-  {
-   "Fuente": "data/curation/revisiones_hablantes.json",
-   "Revision_ID": "HAB-20260908-L18-2957-2",
-   "ID_Padre": 2957,
-   "SHA256_Registro": "aa3a13232baa41ae81458d1249bd3394cf52775a6f42f5ab0a6b8818d1fe61a4",
-   "Justificacion_Anterior": "Respuesta explícita del Presidente a la pregunta de García, en gerundio con sujeto pospuesto. Aplicar sólo el límite revisado con hash, sin convertir otros gerundios en turnos.",
-   "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
-  },
-  {
-   "Fuente": "data/curation/revisiones_hablantes.json",
-   "Revision_ID": "HAB-20260908-L24-2680-257",
-   "ID_Padre": 2680,
-   "SHA256_Registro": "fed675dcb53e2de55cf521fd98382dd49e6573937ee53fc85cd2d96db188233b",
-   "Justificacion_Anterior": "Invitación presidencial, no metadato ni habla de García. Conservar la reanudación institucional previa, la exposición posterior de García y su continuidad hacia 2681.",
-   "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
-  },
-  {
-   "Fuente": "data/curation/alertas_contextuales.json",
-   "Revision_ID": "ALERTA-20260908-L18-2957",
-   "ID_Padre": 2957,
-   "SHA256_Registro": "2e3cf9e587d4bbe5efaec8794db8d3a036d258203f785711cbc184d007a16058",
-   "Justificacion_Anterior": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Pregunta actual de Pablo García según nómina 2889; no pertenece a Cowan. Termina antes de la respuesta presidencial en gerundio, que se revisa por separado. Conservar Rabio y la coma literal.",
-   "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
-  },
-  {
-   "Fuente": "data/curation/alertas_contextuales.json",
-   "Revision_ID": "ALERTA-20260908-L24-2680",
-   "ID_Padre": 2680,
-   "SHA256_Registro": "f9182a50e516256c4ec8f285f66e63ef74f2352979f46d220c43c3ec0b2c0239",
-   "Justificacion_Anterior": "Conservar la grafía horaria 16; 15 sin convertirla en 16:15 ni certificar la numeración de sesión. Advertencia acotada al registro institucional, no a la exposición de García ni a su continuidad.",
-   "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
-  }
- ],
- "Padres": {
-  "2680": {
-   "Fecha": "2009-08-13",
-   "Lectura": "PADRE_COMPLETO",
-   "Texto_Padre": "El Presidente agradece la presentación del señor Claudio Soto y señala que, por expresa solicitud del señor Ministro de Hacienda, la sesión de la tarde comenzará a las 16:15 horas. Siendo las 16; 15 horas, se reanuda la Sesión de Política Monetaria N° 141, y el señor Presidente ofrece la palabra al Gerente de División Estudios, señor Pablo García, para que presente las Opciones de Política Monetaria para esta Reunión. El Gerente señor Pablo García, comienza a dar lectura a las Opciones, informando, en primer término, que en la última Reunión de Política Monetaria, el Consejo acordó reducir la tasa de interés de política monetaria hasta 0,5% anual, señalando que se mantendría en ese nivel mínimo por un tiempo prolongado, y que, a fin de reforzar esta decisión y alinear los precios de los activos financieros, adoptó, además, una serie de medidas complementarias de política monetaria. A continuación,.",
-   "SHA256_Texto_Padre": "9f6dc581b25eb91f7662b1418656aea654f8d86f74b3e4c6c2d812c8108aeef0",
-   "SHA256_Particion": "d42b42a0c77b025864c015e2e01ad9934940f3a85766a416afd2164a82c89936",
-   "Vecino_Anterior": {
-    "Intervalo": {
-     "ID_Intervencion": "RPM-2009-08-13:2679:2",
-     "Actor": "Claudio Soto Gamboa",
-     "Fuente_Actor": "SUJETO_ROL_NOMBRE",
-     "SHA256_Texto": "a8e78f09bd839fe70b3051ead0a0fde56e9990e1ce5a31e46da87e62fc27804a",
-     "Texto": "Para finalizar, el Gerente de Análisis Macroeconómico, señor Claudio Soto, comenta que la gran mayoría de los analistas no prevé cambios en la TPM en los próximos meses y que ha aumentado la incertidumbre respecto de su trayectoria a mediano plazo."
-    },
-    "SHA256_Fila": "70e72a7a7fc3a429dd9a837bf4a7225cb21fcd51dcef6f755dfe9be216e04dd5",
-    "Lectura": "INTERVALO_VECINO_COMPLETO"
-   },
-   "Vecino_Siguiente": {
-    "Intervalo": {
-     "ID_Intervencion": "RPM-2009-08-13:2681:1",
-     "Actor": "Pablo García Silva",
-     "Fuente_Actor": "SUJETO_NOMBRE",
-     "SHA256_Texto": "a046e6caa1bb23088a4550cb28bfacbc1af6dd1b6838e973b49a5d9a087f755e",
-     "Texto": "el señor Pablo García da cuenta de las principales noticias desde la última Reunión, mencionando, en primer término, que las perspectivas de crecimiento global han seguido mostrando que el deterioro se modera, ya que, a diferencia del mes pasado, cuando se percibía un tono flojo en los mercados financieros, en las semanas recientes han vuelto las perspectivas más alentadoras a los mercados internacionales. Hace presente que el mayor apetito por riesgo se ha reflejado en el repunte de las bolsas, en el aumento en las tasas libres de riesgo, en la sistemática disminución de los diversos indicadores de riesgo financiero y crediticio, en los mayores precios de los productos básicos y, en general, en una mayor debilidad del dólar. Este mejor clima no ha generado, en todo caso, un cambio relevante en la instancia de política monetaria en el mundo desarrollado. En Chile, añade, el peso no ha experimentado una apreciación adicional. A nivel local, manifiesta que las noticias de actividad han llevado a revisar al alza las perspectivas de crecimiento para el segundo y tercer trimestres. Por el lado de la demanda final, plantea que esto ha tenido como contrapartida una mayor demanda por consumo, inversión en maquinaria y exportaciones, mientras se estima que persiste una fuerte desacumulación de existencias. Complementa que la evidencia indirecta sugiere que esto último podría estar teniendo componentes no deseados, a diferencia de lo ocurrido a fines del año pasado y principios de este. En cuanto a la inflación total, indica que la de julio estuvo en torno a lo previsto en la última RPM, pero con menores registros subyacentes, principalmente por la caída del precio del vestuario y de ítems de consumo duradero. Explica que es por ello que la revisión de los perfiles de inflación subyacente lleva a corregir nuevamente la proyección de inflación de corto plazo en torno a medio punto porcentual, agregando que las medidas de expectativas de inflación consideran perspectivas similares a las contempladas internamente. El señor García reporta, además, que varias tasas de interés de mercado, particularmente las de consumo y comerciales a plazos más cortos, continuaron descendiendo, mientras que las tasas en operaciones a plazos más largos, incluyendo las tasas hipotecarias, se mantuvieron estables o mostraron aumentos. Los spreads de colocación sobre captación, en tanto, han tendido a volver a los niveles de un año atrás y el volumen de crédito ha mostrado una sostenida desaceleración, pero con bastante diversidad en el comportamiento del Banco Estado respecto del resto del sistema. Por último, señala que luego de las decisiones adoptadas en ese momento, la trayectoria de la Tasa de Política Monetaria (TPM) implícita en los precios de activos tuvo una reducción relevante, principalmente en el tramo de hasta dos o tres años. Finalizado dicho reporte, el señor García expone las Opciones de la presente Reunión, recordando que en la Reunión pasada la medida de política monetaria se complementó con medidas adicionales de política monetaria para reforzar la decisión y, debido a que las decisiones de entonces no tenían implícita una estrategia esperada de relajamiento monetario posterior, los antecedentes centrales para la decisión en esta oportunidad son dos: primeramente, la evaluación que se haga respecto de las noticias coyunturales sobre las perspectivas de mediano plazo e inflación; y, en segundo lugar, la evaluación de las condiciones financieras y crediticias luego de las medidas del mes pasado. Dado estos dos antecedentes, indica que se considera que las opciones más plausibles para esta Reunión son la mantención de la actual instancia de política monetaria o su eventual ampliación. Respecto del primer antecedente, el Gerente de División Estudios menciona que las noticias coyunturales apuntan en direcciones diversas. Explica que, por un lado, los antecedentes de actividad y demanda han sido claramente algo mejores que lo anticipado, que ellos siguen mostrando una detención del deterioro e, incluso, un repunte de algunos indicadores de consumo e inversión. Aunque ello no es una condición suficiente para plantear un escenario, similar, por ejemplo, al del Informe de Política Monetaria (IPoM), afirma que sí es claro que el segundo trimestre habría marcado un punto de inflexión en la expansión de la actividad. En el caso de la demanda, manifiesta que, a pesar de que existen aspectos específicos que explican algunas cifras con repuntes relevantes, como las importaciones de maquinaria y equipo, si se aprecia desde hace algunos meses un mayor nivel en componentes de la demanda final, como la venta de viviendas y las compras durables. A su vez, aunque las cifras de desempleo se han mantenido elevadas, señala que la caída de la ocupación también parece estar moderándose. Por otro lado, el señor Pablo García hace presente que la información de precios sigue dando cuenta de un entorno de presiones de precios contenidas. Al respecto, indica que aunque los salarios nominales no han mostrado por ahora una desaceleración relevante, sí se aprecia que las medidas subyacentes de inflación muestran cifras reducidas. Asimismo, expresa que aunque algunos ítems, como el vestuario, han tenido comportamientos notorios, este débil comportamiento de los precios es un fenómeno bastante extendido en el IPC. En relación con el segundo antecedente, el Gerente de División de Estudios manifiesta que es pertinente que las condiciones financieras y crediticias vigentes hoy sean analizadas desde varios ángulos. Por una parte, las expectativas sobre la trayectoria de la TPM han tenido una reducción del orden de 100 a 125 puntos base respecto de la RPM pasada a plazos de entre uno y dos años y que, como siempre, la evaluación de la coherencia entre esta trayectoria y el cumplimiento de la meta de inflación se podrá hacer con mayor detenimiento en el IPoM de septiembre. El señor García plantea que, por otro lado, y por sobre la trayectoria esperada para la TPM, el riesgo financiero y crediticio afecta las condiciones, el acceso y el costo del crédito de los clientes del sistema. En este ámbito, señala que es aparente que diversos indicadores de riesgo de fondeo externo de la banca, de riesgo financiero global y de riesgo crediticio de la República han tenido significativas reducciones en los últimos meses. Ello, junto con el relajamiento de la política monetaria, ha contribuido a reducir las tasas de colocación desde principios de año. Sin embargo, sostiene que, por otro lado, la materialización de mayores niveles de nesgo de crédito local asociados al ciclo económico, junto con un entorno global de reducción de la exposición crediticia a clientes más riesgosos, ha redundado en que las primas presenten cierta fricción a reducirse en algunos segmentos, y que las condiciones de acceso y los estándares de otorgamiento sean más restrictivos que hace algunos años. Al respecto, declara que es difícil evaluar, en general, si estas tendencias responden a la dinámica normal del ciclo de crédito o si hay alguna anomalía. Al proseguir con la presentación de las Opciones, el Gerente de División precisa que las acciones concretas de política monetaria, sean para mantener la instancia actual o para aumentarla, deben evaluarse desde vanos ángulos, debido a que la TPM está en su nivel mínimo. Con respecto a la implementación de la decisión de mantener la instancia actual, manifiesta que ello sería coherente con continuar operando con la Facilidad de Liquidez a Plazo en los lapsos ya anunciados. Una reducción de estos lapsos sería coherente con una reducción del estímulo monetario y no con su mantención, lo que no parece estar dentro de las opciones de política monetaria congruentes con el escenario macroeconómico actual. Además, advierte, constituiría una decisión difícil de explicar, dada la evaluación que se tiene de los riesgos para la inflación y la comunicación de que el nivel mínimo de la TPM se mantendrá por un tiempo prolongado. ' ' v Con respecto a posibles medidas para incrementar el estímulo monetario, el señor Pablo García estima que estas pueden darse de varias formas. Por ejemplo, una ampliación de los plazos en los que se realizan las medidas complementarias de política, implementando la FLAP a plazos mayores de seis meses, pero no necesariamente al mismo nivel que la TPM actual o con la frecuencia semanal con que se realiza esta operación hoy en día Otro ejemplo sería ejecutar un programa de recompra de papeles del Banco Central a plazos de dos años o más. Finalmente, menciona que no se pueden descartar medidas de intervención cambiaría si se materializa una situación excepcional en dicho mercado. El señor García sostiene que, en caso de que se requiera, la selección de instrumentos para implementar una política monetaria más estimulativa que la actual debe equilibrar cuidadosamente la precisión de la señal de tasas que se desee entregar al mercado con la conveniencia de mantener grados de flexibilidad suficientes, así como ser coherentes con el esquema de metas de inflación y de flexibilidad cambiaría. Asimismo, añade, la calibración de eventuales medidas adicionales debe considerar, como es habitual en política monetaria, la ocurrencia de escenarios alternativos de desalineamiento de las expectativas de inflación, los que pueden ser muy costosos para la economía. Como es habitual, manifiesta que hay aspectos tácticos que son relevantes en la decisión de hoy. En primer término, informa que el mercado no espera de forma generalizada que se adopten nuevas medidas complementarias de política monetaria, tomando en cuenta que mantener la vigencia de la FLAP a 180 días es coherente con mantener el estímulo monetario. Por otro lado, indica que el conjunto de medidas complementarías posibles, mencionadas en la presente minuta, no se aleja del tipo de opciones que diversos analistas han considerado, por lo que la adopción de medidas adicionales no sería totalmente sorpresiva. Finalmente, el señor Gerente de División de Estudios señala que se debe tomar en cuenta que las medidas adoptadas en la Reunión pasada no tenían contemplado un sesgo explícito, en el sentido de que se profundizarían en reuniones posteriores. Es posible, además, que parte de las primas por riesgo implícitas hoy en la intermediación crediticia esté influida por la genuina incertidumbre macroeconómica de los últimos meses, y que parte de esta incertidumbre puede vincularse con expectativas de nuevas medidas de política monetaria. En su opinión, estas consideraciones, además del hecho de que en poco tiempo más se elaborará el IPoM de septiembre y se podrá comunicar de manera más precisa el rumbo de la política monetaria, deben sopesarse con la eventual necesidad de implementar medidas estimulativas adicionales en esta ocasión. En términos comunicacionales, menciona que también es posible incorporar en el comunicado la posibilidad de medidas estimulativas adicionales, en caso de que se perciba que la inflación se mantendrá baja por un período excesivamente prolongado."
-    },
-    "SHA256_Fila": "78baf37f2c3548d99cc35b044ec089e4d635e699b00733422a94fe91eb7774d9",
-    "Lectura": "INTERVALO_VECINO_COMPLETO"
-   },
-   "Enlaces_Locales": [
+  "Antecedentes": [
     {
-     "Izquierda": "RPM-2009-08-13:2679:2",
-     "Derecha": "RPM-2009-08-13:2680:1",
-     "Mismo_Turno": false
+      "Fuente": "data/curation/revisiones_hablantes.json",
+      "Revision_ID": "HAB-20260907-2779",
+      "ID_Padre": 2779,
+      "SHA256_Registro": "462c222eb0aff978a0b080040d2fcae1a418567e429f901a71ab4d1e626e9742",
+      "Justificacion_Anterior": "Cowan interviene; Soto asiente con sujeto explícito y sin palabras transcritas; Marshall responde y continúa con En su opinión. Se reconoce asiente como acto expreso, preservando literalmente la breve cláusula, y se delimita la respuesta contrastiva de Marshall. No atribuir la respuesta de Marshall a Soto ni la continuación a Cowan.",
+      "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
     },
     {
-     "Izquierda": "RPM-2009-08-13:2679:2",
-     "Derecha": "RPM-2009-08-13:2680:2",
-     "Mismo_Turno": false
+      "Fuente": "data/curation/revisiones_hablantes.json",
+      "Revision_ID": "HAB-20260908-L18-2957-1",
+      "ID_Padre": 2957,
+      "SHA256_Registro": "899924e780ff045b757bd35ff08218672601f1dcb8523b09617abe7a52e15684",
+      "Justificacion_Anterior": "Pregunta actual de Pablo García según nómina 2889; no pertenece a Cowan. Termina antes de la respuesta presidencial en gerundio, que se revisa por separado. Conservar Rabio y la coma literal.",
+      "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
     },
     {
-     "Izquierda": "RPM-2009-08-13:2679:2",
-     "Derecha": "RPM-2009-08-13:2680:3",
-     "Mismo_Turno": false
+      "Fuente": "data/curation/revisiones_hablantes.json",
+      "Revision_ID": "HAB-20260908-L18-2957-2",
+      "ID_Padre": 2957,
+      "SHA256_Registro": "aa3a13232baa41ae81458d1249bd3394cf52775a6f42f5ab0a6b8818d1fe61a4",
+      "Justificacion_Anterior": "Respuesta explícita del Presidente a la pregunta de García, en gerundio con sujeto pospuesto. Aplicar sólo el límite revisado con hash, sin convertir otros gerundios en turnos.",
+      "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
     },
     {
-     "Izquierda": "RPM-2009-08-13:2679:2",
-     "Derecha": "RPM-2009-08-13:2680:4",
-     "Mismo_Turno": false
+      "Fuente": "data/curation/revisiones_hablantes.json",
+      "Revision_ID": "HAB-20260908-L24-2680-257",
+      "ID_Padre": 2680,
+      "SHA256_Registro": "fed675dcb53e2de55cf521fd98382dd49e6573937ee53fc85cd2d96db188233b",
+      "Justificacion_Anterior": "Invitación presidencial, no metadato ni habla de García. Conservar la reanudación institucional previa, la exposición posterior de García y su continuidad hacia 2681.",
+      "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
     },
     {
-     "Izquierda": "RPM-2009-08-13:2679:2",
-     "Derecha": "RPM-2009-08-13:2681:1",
-     "Mismo_Turno": false
+      "Fuente": "data/curation/alertas_contextuales.json",
+      "Revision_ID": "ALERTA-20260908-L18-2957",
+      "ID_Padre": 2957,
+      "SHA256_Registro": "2e3cf9e587d4bbe5efaec8794db8d3a036d258203f785711cbc184d007a16058",
+      "Justificacion_Anterior": "El nombre o inicio literal presenta una discrepancia: conservarlo y cotejar la fuente. La atribución local se sustenta en la nómina/contexto de sesión y no reescribe el OCR. Pregunta actual de Pablo García según nómina 2889; no pertenece a Cowan. Termina antes de la respuesta presidencial en gerundio, que se revisa por separado. Conservar Rabio y la coma literal.",
+      "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
     },
     {
-     "Izquierda": "RPM-2009-08-13:2680:1",
-     "Derecha": "RPM-2009-08-13:2680:2",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:1",
-     "Derecha": "RPM-2009-08-13:2680:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:1",
-     "Derecha": "RPM-2009-08-13:2680:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:1",
-     "Derecha": "RPM-2009-08-13:2681:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:2",
-     "Derecha": "RPM-2009-08-13:2680:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:2",
-     "Derecha": "RPM-2009-08-13:2680:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:2",
-     "Derecha": "RPM-2009-08-13:2681:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:3",
-     "Derecha": "RPM-2009-08-13:2680:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:3",
-     "Derecha": "RPM-2009-08-13:2681:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-08-13:2680:4",
-     "Derecha": "RPM-2009-08-13:2681:1",
-     "Mismo_Turno": true
+      "Fuente": "data/curation/alertas_contextuales.json",
+      "Revision_ID": "ALERTA-20260908-L24-2680",
+      "ID_Padre": 2680,
+      "SHA256_Registro": "f9182a50e516256c4ec8f285f66e63ef74f2352979f46d220c43c3ec0b2c0239",
+      "Justificacion_Anterior": "Conservar la grafía horaria 16; 15 sin convertirla en 16:15 ni certificar la numeración de sesión. Advertencia acotada al registro institucional, no a la exposición de García ni a su continuidad.",
+      "Alcance": "Antecedente de curación, no nueva lectura ni nueva resolución de identidad."
     }
-   ],
-   "Limite": "Padre completo y vecinos exportados completos; no certificación global de voz, OCR o identidad."
-  },
-  "2779": {
-   "Fecha": "2009-11-12",
-   "Lectura": "PADRE_COMPLETO",
-   "Texto_Padre": "El Gerente de División Política Financiera, señor Kevin Cowan, manifiesta entender que el empleo asalariado en la construcción aumenta, pero que sumado con el empleo por cuenta propia en construcción está más bien estable. El señor Soto asiente, mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. En su opinión, en este sector se puede demostrar el empleo asalariado, ya que por empleo por cuenta propia, llevando las cosas a un extremo, se podría decir que este aumenta cuando los maestros empiezan a hacer trabajos muy simples.",
-   "SHA256_Texto_Padre": "4f8c900b02547f37065c1b6bf660952ba8303456339e42fd0bea158cfa9a5fb4",
-   "SHA256_Particion": "d66078596889bffa5ca82e8a26ca6c99c137f8dd3765a0ec265230b987055ae7",
-   "Vecino_Anterior": {
-    "Intervalo": {
-     "ID_Intervencion": "RPM-2009-11-12:2778:3",
-     "Actor": "Claudio Soto Gamboa",
-     "Fuente_Actor": "SUJETO_NOMBRE",
-     "SHA256_Texto": "d8ba1d314f646ba91969cbfe2434d9ca07a55faf61c12a7c3bd8596b87d4572e",
-     "Texto": "En cuanto a lo segundo, el señor Soto menciona que, efectivamente, se debería ver una desaceleración hacia fines de año, pero que a comienzos del próximo se podría ver nuevamente una normalización. En cuanto a la dinámica en adelante, y comparando la situación actual con lo que ocurrió en el año 1998, el señor Claudio Soto sostiene que quizás no es tan relevante la difusión hoy día, pero lo que se observa es que la trayectoria de la industria es bastante similar a la que se tenía en la Reunión pasada. Las cifras del sector construcción, en cambio, muestran una corrección a la baja en el tercer trimestre y llevan también a cambiar el perfil futuro. Respecto del comercio, el señor Soto menciona que se tiene una dinámica de cierre más rápido en los próximos trimestres y que de ahí en adelante se tendería a una desaceleración.. En todo caso, indica que el actual escenario sigue presuponiendo una salida de la crisis más rápida que en la del 1998. El señor Gerente de Análisis Macroeconómico, refiriéndose ahora al mercado laboral, señala que la tasa de desempleo experimentó una caída importante, ubicándose en un 10,2%, e indica que si se eliminan los efectos estacionales, estaría en 9,9% en el margen. Asimismo, si se retrocede a los meses previos, ello se explicaría por un fuerte crecimiento en el empleo asalariado, que compensa el retroceso que se observa en el empleo por cuenta propia Al respecto, hace presente que, probablemente, hay algo de recomposición o de formalización del empleo por cuenta propia, que está pasando a ser considerado empleo asalariado. Así, por ejemplo, menciona que en el caso de construcción cayó el empleo de cuenta propia y que el asalariado en construcción está un tanto más alto. Lo importante, destaca, es que el empleo aumentó respecto del trimestre anterior."
+  ],
+  "Padres": {
+    "2680": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Presidente agradece la presentación del señor Claudio Soto y señala que, por expresa solicitud del señor Ministro de Hacienda, la sesión de la tarde comenzará a las 16:15 horas. Siendo las 16; 15 horas, se reanuda la Sesión de Política Monetaria N° 141, y el señor Presidente ofrece la palabra al Gerente de División Estudios, señor Pablo García, para que presente las Opciones de Política Monetaria para esta Reunión. El Gerente señor Pablo García, comienza a dar lectura a las Opciones, informando, en primer término, que en la última Reunión de Política Monetaria, el Consejo acordó reducir la tasa de interés de política monetaria hasta 0,5% anual, señalando que se mantendría en ese nivel mínimo por un tiempo prolongado, y que, a fin de reforzar esta decisión y alinear los precios de los activos financieros, adoptó, además, una serie de medidas complementarias de política monetaria. A continuación,.",
+      "SHA256_Texto_Padre": "9f6dc581b25eb91f7662b1418656aea654f8d86f74b3e4c6c2d812c8108aeef0",
+      "SHA256_Particion": "d42b42a0c77b025864c015e2e01ad9934940f3a85766a416afd2164a82c89936",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2009-08-13:2679:2",
+          "Actor": "Claudio Soto Gamboa",
+          "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+          "SHA256_Texto": "a8e78f09bd839fe70b3051ead0a0fde56e9990e1ce5a31e46da87e62fc27804a",
+          "Texto": "Para finalizar, el Gerente de Análisis Macroeconómico, señor Claudio Soto, comenta que la gran mayoría de los analistas no prevé cambios en la TPM en los próximos meses y que ha aumentado la incertidumbre respecto de su trayectoria a mediano plazo."
+        },
+        "SHA256_Fila": "70e72a7a7fc3a429dd9a837bf4a7225cb21fcd51dcef6f755dfe9be216e04dd5",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2009-08-13:2681:1",
+          "Actor": "Pablo García Silva",
+          "Fuente_Actor": "SUJETO_NOMBRE",
+          "SHA256_Texto": "a046e6caa1bb23088a4550cb28bfacbc1af6dd1b6838e973b49a5d9a087f755e",
+          "Texto": "el señor Pablo García da cuenta de las principales noticias desde la última Reunión, mencionando, en primer término, que las perspectivas de crecimiento global han seguido mostrando que el deterioro se modera, ya que, a diferencia del mes pasado, cuando se percibía un tono flojo en los mercados financieros, en las semanas recientes han vuelto las perspectivas más alentadoras a los mercados internacionales. Hace presente que el mayor apetito por riesgo se ha reflejado en el repunte de las bolsas, en el aumento en las tasas libres de riesgo, en la sistemática disminución de los diversos indicadores de riesgo financiero y crediticio, en los mayores precios de los productos básicos y, en general, en una mayor debilidad del dólar. Este mejor clima no ha generado, en todo caso, un cambio relevante en la instancia de política monetaria en el mundo desarrollado. En Chile, añade, el peso no ha experimentado una apreciación adicional. A nivel local, manifiesta que las noticias de actividad han llevado a revisar al alza las perspectivas de crecimiento para el segundo y tercer trimestres. Por el lado de la demanda final, plantea que esto ha tenido como contrapartida una mayor demanda por consumo, inversión en maquinaria y exportaciones, mientras se estima que persiste una fuerte desacumulación de existencias. Complementa que la evidencia indirecta sugiere que esto último podría estar teniendo componentes no deseados, a diferencia de lo ocurrido a fines del año pasado y principios de este. En cuanto a la inflación total, indica que la de julio estuvo en torno a lo previsto en la última RPM, pero con menores registros subyacentes, principalmente por la caída del precio del vestuario y de ítems de consumo duradero. Explica que es por ello que la revisión de los perfiles de inflación subyacente lleva a corregir nuevamente la proyección de inflación de corto plazo en torno a medio punto porcentual, agregando que las medidas de expectativas de inflación consideran perspectivas similares a las contempladas internamente. El señor García reporta, además, que varias tasas de interés de mercado, particularmente las de consumo y comerciales a plazos más cortos, continuaron descendiendo, mientras que las tasas en operaciones a plazos más largos, incluyendo las tasas hipotecarias, se mantuvieron estables o mostraron aumentos. Los spreads de colocación sobre captación, en tanto, han tendido a volver a los niveles de un año atrás y el volumen de crédito ha mostrado una sostenida desaceleración, pero con bastante diversidad en el comportamiento del Banco Estado respecto del resto del sistema. Por último, señala que luego de las decisiones adoptadas en ese momento, la trayectoria de la Tasa de Política Monetaria (TPM) implícita en los precios de activos tuvo una reducción relevante, principalmente en el tramo de hasta dos o tres años. Finalizado dicho reporte, el señor García expone las Opciones de la presente Reunión, recordando que en la Reunión pasada la medida de política monetaria se complementó con medidas adicionales de política monetaria para reforzar la decisión y, debido a que las decisiones de entonces no tenían implícita una estrategia esperada de relajamiento monetario posterior, los antecedentes centrales para la decisión en esta oportunidad son dos: primeramente, la evaluación que se haga respecto de las noticias coyunturales sobre las perspectivas de mediano plazo e inflación; y, en segundo lugar, la evaluación de las condiciones financieras y crediticias luego de las medidas del mes pasado. Dado estos dos antecedentes, indica que se considera que las opciones más plausibles para esta Reunión son la mantención de la actual instancia de política monetaria o su eventual ampliación. Respecto del primer antecedente, el Gerente de División Estudios menciona que las noticias coyunturales apuntan en direcciones diversas. Explica que, por un lado, los antecedentes de actividad y demanda han sido claramente algo mejores que lo anticipado, que ellos siguen mostrando una detención del deterioro e, incluso, un repunte de algunos indicadores de consumo e inversión. Aunque ello no es una condición suficiente para plantear un escenario, similar, por ejemplo, al del Informe de Política Monetaria (IPoM), afirma que sí es claro que el segundo trimestre habría marcado un punto de inflexión en la expansión de la actividad. En el caso de la demanda, manifiesta que, a pesar de que existen aspectos específicos que explican algunas cifras con repuntes relevantes, como las importaciones de maquinaria y equipo, si se aprecia desde hace algunos meses un mayor nivel en componentes de la demanda final, como la venta de viviendas y las compras durables. A su vez, aunque las cifras de desempleo se han mantenido elevadas, señala que la caída de la ocupación también parece estar moderándose. Por otro lado, el señor Pablo García hace presente que la información de precios sigue dando cuenta de un entorno de presiones de precios contenidas. Al respecto, indica que aunque los salarios nominales no han mostrado por ahora una desaceleración relevante, sí se aprecia que las medidas subyacentes de inflación muestran cifras reducidas. Asimismo, expresa que aunque algunos ítems, como el vestuario, han tenido comportamientos notorios, este débil comportamiento de los precios es un fenómeno bastante extendido en el IPC. En relación con el segundo antecedente, el Gerente de División de Estudios manifiesta que es pertinente que las condiciones financieras y crediticias vigentes hoy sean analizadas desde varios ángulos. Por una parte, las expectativas sobre la trayectoria de la TPM han tenido una reducción del orden de 100 a 125 puntos base respecto de la RPM pasada a plazos de entre uno y dos años y que, como siempre, la evaluación de la coherencia entre esta trayectoria y el cumplimiento de la meta de inflación se podrá hacer con mayor detenimiento en el IPoM de septiembre. El señor García plantea que, por otro lado, y por sobre la trayectoria esperada para la TPM, el riesgo financiero y crediticio afecta las condiciones, el acceso y el costo del crédito de los clientes del sistema. En este ámbito, señala que es aparente que diversos indicadores de riesgo de fondeo externo de la banca, de riesgo financiero global y de riesgo crediticio de la República han tenido significativas reducciones en los últimos meses. Ello, junto con el relajamiento de la política monetaria, ha contribuido a reducir las tasas de colocación desde principios de año. Sin embargo, sostiene que, por otro lado, la materialización de mayores niveles de nesgo de crédito local asociados al ciclo económico, junto con un entorno global de reducción de la exposición crediticia a clientes más riesgosos, ha redundado en que las primas presenten cierta fricción a reducirse en algunos segmentos, y que las condiciones de acceso y los estándares de otorgamiento sean más restrictivos que hace algunos años. Al respecto, declara que es difícil evaluar, en general, si estas tendencias responden a la dinámica normal del ciclo de crédito o si hay alguna anomalía. Al proseguir con la presentación de las Opciones, el Gerente de División precisa que las acciones concretas de política monetaria, sean para mantener la instancia actual o para aumentarla, deben evaluarse desde vanos ángulos, debido a que la TPM está en su nivel mínimo. Con respecto a la implementación de la decisión de mantener la instancia actual, manifiesta que ello sería coherente con continuar operando con la Facilidad de Liquidez a Plazo en los lapsos ya anunciados. Una reducción de estos lapsos sería coherente con una reducción del estímulo monetario y no con su mantención, lo que no parece estar dentro de las opciones de política monetaria congruentes con el escenario macroeconómico actual. Además, advierte, constituiría una decisión difícil de explicar, dada la evaluación que se tiene de los riesgos para la inflación y la comunicación de que el nivel mínimo de la TPM se mantendrá por un tiempo prolongado. ' ' v Con respecto a posibles medidas para incrementar el estímulo monetario, el señor Pablo García estima que estas pueden darse de varias formas. Por ejemplo, una ampliación de los plazos en los que se realizan las medidas complementarias de política, implementando la FLAP a plazos mayores de seis meses, pero no necesariamente al mismo nivel que la TPM actual o con la frecuencia semanal con que se realiza esta operación hoy en día Otro ejemplo sería ejecutar un programa de recompra de papeles del Banco Central a plazos de dos años o más. Finalmente, menciona que no se pueden descartar medidas de intervención cambiaría si se materializa una situación excepcional en dicho mercado. El señor García sostiene que, en caso de que se requiera, la selección de instrumentos para implementar una política monetaria más estimulativa que la actual debe equilibrar cuidadosamente la precisión de la señal de tasas que se desee entregar al mercado con la conveniencia de mantener grados de flexibilidad suficientes, así como ser coherentes con el esquema de metas de inflación y de flexibilidad cambiaría. Asimismo, añade, la calibración de eventuales medidas adicionales debe considerar, como es habitual en política monetaria, la ocurrencia de escenarios alternativos de desalineamiento de las expectativas de inflación, los que pueden ser muy costosos para la economía. Como es habitual, manifiesta que hay aspectos tácticos que son relevantes en la decisión de hoy. En primer término, informa que el mercado no espera de forma generalizada que se adopten nuevas medidas complementarias de política monetaria, tomando en cuenta que mantener la vigencia de la FLAP a 180 días es coherente con mantener el estímulo monetario. Por otro lado, indica que el conjunto de medidas complementarías posibles, mencionadas en la presente minuta, no se aleja del tipo de opciones que diversos analistas han considerado, por lo que la adopción de medidas adicionales no sería totalmente sorpresiva. Finalmente, el señor Gerente de División de Estudios señala que se debe tomar en cuenta que las medidas adoptadas en la Reunión pasada no tenían contemplado un sesgo explícito, en el sentido de que se profundizarían en reuniones posteriores. Es posible, además, que parte de las primas por riesgo implícitas hoy en la intermediación crediticia esté influida por la genuina incertidumbre macroeconómica de los últimos meses, y que parte de esta incertidumbre puede vincularse con expectativas de nuevas medidas de política monetaria. En su opinión, estas consideraciones, además del hecho de que en poco tiempo más se elaborará el IPoM de septiembre y se podrá comunicar de manera más precisa el rumbo de la política monetaria, deben sopesarse con la eventual necesidad de implementar medidas estimulativas adicionales en esta ocasión. En términos comunicacionales, menciona que también es posible incorporar en el comunicado la posibilidad de medidas estimulativas adicionales, en caso de que se perciba que la inflación se mantendrá baja por un período excesivamente prolongado."
+        },
+        "SHA256_Fila": "78baf37f2c3548d99cc35b044ec089e4d635e699b00733422a94fe91eb7774d9",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2009-08-13:2679:2",
+          "Derecha": "RPM-2009-08-13:2680:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2679:2",
+          "Derecha": "RPM-2009-08-13:2680:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2679:2",
+          "Derecha": "RPM-2009-08-13:2680:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2679:2",
+          "Derecha": "RPM-2009-08-13:2680:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2679:2",
+          "Derecha": "RPM-2009-08-13:2681:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:1",
+          "Derecha": "RPM-2009-08-13:2680:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:1",
+          "Derecha": "RPM-2009-08-13:2680:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:1",
+          "Derecha": "RPM-2009-08-13:2680:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:1",
+          "Derecha": "RPM-2009-08-13:2681:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:2",
+          "Derecha": "RPM-2009-08-13:2680:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:2",
+          "Derecha": "RPM-2009-08-13:2680:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:2",
+          "Derecha": "RPM-2009-08-13:2681:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:3",
+          "Derecha": "RPM-2009-08-13:2680:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:3",
+          "Derecha": "RPM-2009-08-13:2681:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-08-13:2680:4",
+          "Derecha": "RPM-2009-08-13:2681:1",
+          "Mismo_Turno": true
+        }
+      ],
+      "Limite": "Padre completo y vecinos exportados completos; no certificación global de voz, OCR o identidad."
     },
-    "SHA256_Fila": "991969c8120d8659ffdf95de29e23b8e45afd941c302ceeeecc628572444f6d8",
-    "Lectura": "INTERVALO_VECINO_COMPLETO"
-   },
-   "Vecino_Siguiente": {
-    "Intervalo": {
-     "ID_Intervencion": "RPM-2009-11-12:2780:1",
-     "Actor": "Claudio Soto Gamboa",
-     "Fuente_Actor": "SUJETO_NOMBRE",
-     "SHA256_Texto": "fc0577b35a0593b84f19245c4615c2e4eb5e11b7fca880822fd92a5b1e98f2d1",
-     "Texto": "El señor Claudio Soto reitera que las cifras indican que cae el empleo por cuenta propia en construcción y aumenta el salario en construcción, reconociendo que todo depende de cómo se autoclasifica la gente. Los salarios nominales, prosigue, muestran mayores tasas de variación en el margen y, en general, han tendido a subir a lo largo del tiempo, especialmente el de horas trabajadas. Se aprecia, asimismo, que ha habido un aumento importante en los salarios del sector industrial y un importante aumento en las horas trabajadas, que llevan a aumentar la medición del costo de la mano de obra El señor Soto menciona que los últimos datos de salarios reales dan cuenta de una estabilización, influenciados por el registro de IPC de septiembre, agregando que lo más probable es que retomen una senda al alza el próximo mes, dado que la inflación de octubre fue 0%. Con el IRC de octubre que no varió, se tiene un IRC interanual de -1.9% y un IRCX1 de 0,2%. Agrega que si al IRC se le excluyen alimentos y energía, la variación es marginalmente negativa y la variación anual, levemente por debajo de 0%. En cuanto a los movimientos de precios dentro de los distintos sectores, hace presente que hay un aumento bastante generalizado en frutas y verduras y en carnes. Los precios de los alimentos, en tanto, no aumentaron tanto, por lo que la variación del índice promedio no fue tan alta. Agrega que los precios de los alimentos, en general, y los de salud fueron compensados por las caídas en los precios de los combustibles, vestuario y equipamiento de viviendas. Con todo, el señor Soto destaca que la proyección de inflación que tenía el Banco fue bastante acertada y que las diferencias fueron menores. Explica que con el dato en el margen de la inflación, se revierte un poco la tendencia que habían tenido las velocidades de inflación hacia la baja, pero que siguen estando cercanas a cero, negativas o algo por sobre cero, y claramente por debajo del 3%, que es lo necesario para que la inflación converja a la meta. Agrega que las velocidades de las medidas subyacentes también están con velocidades negativas o por debajo del 3%. por lo que las velocidades actuales no garantizan la convergencia a la meta en doce meses. El señor Gerente de Análisis Macroeconómico plantea que el escenario de proyección supone mayores precios de los combustibles por el escenario internacional de la gasolina. Estos tienen una pequeña pendiente en la proyección de aquí en adelante, y un cambio importante en la proyección de fines de marzo y comienzos de abril por la reincorporación del impuesto especifico. Con estos nuevos antecedentes, se llega a una proyección de inflación a diciembre que sería de aproximadamente de -0,6% anual, y de tres décimas menos a partir de diciembre en adelante, si se considera un tipo de cambio de $500 a partir de ahora en adelante. Hace presente que este último valor equivale a un tipo de cambio real de 92 aproximadamente y que el techo es 98.2, por lo está dentro de la banda. En conclusión, el señor Claudio Soto señala que la inflación futura va a tener un componente de combustible que empujará la variación en doce meses al alza, mientras que el resto de los componentes de la inflación aportarán negativamente a la variación interanual de la inflación. Añade que modelos alternativos de senes de tiempo muestran una trayectoria similar para la inflación hasta fines del horizonte y que el modelo Tar. por ejemplo, proyecta una inflación de casi -5% para abril del año próximo. Con respecto a los mercados financieros, el señor Gerente de Análisis Macroeconómico indica que las tasas nominales han estado relativamente estables desde la última RPM. no así las tasas reales, que exhiben alzas importantes a casi todos los horizontes, en especial las de los BCU-2 y BCU-5. En cuanto a la tasa de los swaps a 360 días, menciona que había aumentado bastante hasta la última RPM y algo más después de ella, pero en el margen ha tendido a devolverse. Las tasas de colocación, por su parte, se estabilizan en el margen. En cuanto a lo que predice el modelo, las tasas de colocación comerciales están algo por debajo, mientras que las tasas a consumo están algo por sobre lo que predice el modelo, lo cual es más o menos coherente con lo que se observa en el caso de los spreads. Informa que el spread de las colocaciones de 30-90 dias, que son predominantemente colocaciones comerciales, está incluso por debajo de lo que se tenía al comienzo de la crisis, mientras que los spreads de las colocaciones de 90-360 días, donde está el segmento de consumo, todavía están bastante elevados con respecto a lo que fue el promedio de los últimos dos años."
+    "2779": {
+      "Fecha": "2009-11-12",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "El Gerente de División Política Financiera, señor Kevin Cowan, manifiesta entender que el empleo asalariado en la construcción aumenta, pero que sumado con el empleo por cuenta propia en construcción está más bien estable. El señor Soto asiente, mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. En su opinión, en este sector se puede demostrar el empleo asalariado, ya que por empleo por cuenta propia, llevando las cosas a un extremo, se podría decir que este aumenta cuando los maestros empiezan a hacer trabajos muy simples.",
+      "SHA256_Texto_Padre": "4f8c900b02547f37065c1b6bf660952ba8303456339e42fd0bea158cfa9a5fb4",
+      "SHA256_Particion": "d66078596889bffa5ca82e8a26ca6c99c137f8dd3765a0ec265230b987055ae7",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2009-11-12:2778:3",
+          "Actor": "Claudio Soto Gamboa",
+          "Fuente_Actor": "SUJETO_NOMBRE",
+          "SHA256_Texto": "d8ba1d314f646ba91969cbfe2434d9ca07a55faf61c12a7c3bd8596b87d4572e",
+          "Texto": "En cuanto a lo segundo, el señor Soto menciona que, efectivamente, se debería ver una desaceleración hacia fines de año, pero que a comienzos del próximo se podría ver nuevamente una normalización. En cuanto a la dinámica en adelante, y comparando la situación actual con lo que ocurrió en el año 1998, el señor Claudio Soto sostiene que quizás no es tan relevante la difusión hoy día, pero lo que se observa es que la trayectoria de la industria es bastante similar a la que se tenía en la Reunión pasada. Las cifras del sector construcción, en cambio, muestran una corrección a la baja en el tercer trimestre y llevan también a cambiar el perfil futuro. Respecto del comercio, el señor Soto menciona que se tiene una dinámica de cierre más rápido en los próximos trimestres y que de ahí en adelante se tendería a una desaceleración.. En todo caso, indica que el actual escenario sigue presuponiendo una salida de la crisis más rápida que en la del 1998. El señor Gerente de Análisis Macroeconómico, refiriéndose ahora al mercado laboral, señala que la tasa de desempleo experimentó una caída importante, ubicándose en un 10,2%, e indica que si se eliminan los efectos estacionales, estaría en 9,9% en el margen. Asimismo, si se retrocede a los meses previos, ello se explicaría por un fuerte crecimiento en el empleo asalariado, que compensa el retroceso que se observa en el empleo por cuenta propia Al respecto, hace presente que, probablemente, hay algo de recomposición o de formalización del empleo por cuenta propia, que está pasando a ser considerado empleo asalariado. Así, por ejemplo, menciona que en el caso de construcción cayó el empleo de cuenta propia y que el asalariado en construcción está un tanto más alto. Lo importante, destaca, es que el empleo aumentó respecto del trimestre anterior."
+        },
+        "SHA256_Fila": "991969c8120d8659ffdf95de29e23b8e45afd941c302ceeeecc628572444f6d8",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2009-11-12:2780:1",
+          "Actor": "Claudio Soto Gamboa",
+          "Fuente_Actor": "SUJETO_NOMBRE",
+          "SHA256_Texto": "fc0577b35a0593b84f19245c4615c2e4eb5e11b7fca880822fd92a5b1e98f2d1",
+          "Texto": "El señor Claudio Soto reitera que las cifras indican que cae el empleo por cuenta propia en construcción y aumenta el salario en construcción, reconociendo que todo depende de cómo se autoclasifica la gente. Los salarios nominales, prosigue, muestran mayores tasas de variación en el margen y, en general, han tendido a subir a lo largo del tiempo, especialmente el de horas trabajadas. Se aprecia, asimismo, que ha habido un aumento importante en los salarios del sector industrial y un importante aumento en las horas trabajadas, que llevan a aumentar la medición del costo de la mano de obra El señor Soto menciona que los últimos datos de salarios reales dan cuenta de una estabilización, influenciados por el registro de IPC de septiembre, agregando que lo más probable es que retomen una senda al alza el próximo mes, dado que la inflación de octubre fue 0%. Con el IRC de octubre que no varió, se tiene un IRC interanual de -1.9% y un IRCX1 de 0,2%. Agrega que si al IRC se le excluyen alimentos y energía, la variación es marginalmente negativa y la variación anual, levemente por debajo de 0%. En cuanto a los movimientos de precios dentro de los distintos sectores, hace presente que hay un aumento bastante generalizado en frutas y verduras y en carnes. Los precios de los alimentos, en tanto, no aumentaron tanto, por lo que la variación del índice promedio no fue tan alta. Agrega que los precios de los alimentos, en general, y los de salud fueron compensados por las caídas en los precios de los combustibles, vestuario y equipamiento de viviendas. Con todo, el señor Soto destaca que la proyección de inflación que tenía el Banco fue bastante acertada y que las diferencias fueron menores. Explica que con el dato en el margen de la inflación, se revierte un poco la tendencia que habían tenido las velocidades de inflación hacia la baja, pero que siguen estando cercanas a cero, negativas o algo por sobre cero, y claramente por debajo del 3%, que es lo necesario para que la inflación converja a la meta. Agrega que las velocidades de las medidas subyacentes también están con velocidades negativas o por debajo del 3%. por lo que las velocidades actuales no garantizan la convergencia a la meta en doce meses. El señor Gerente de Análisis Macroeconómico plantea que el escenario de proyección supone mayores precios de los combustibles por el escenario internacional de la gasolina. Estos tienen una pequeña pendiente en la proyección de aquí en adelante, y un cambio importante en la proyección de fines de marzo y comienzos de abril por la reincorporación del impuesto especifico. Con estos nuevos antecedentes, se llega a una proyección de inflación a diciembre que sería de aproximadamente de -0,6% anual, y de tres décimas menos a partir de diciembre en adelante, si se considera un tipo de cambio de $500 a partir de ahora en adelante. Hace presente que este último valor equivale a un tipo de cambio real de 92 aproximadamente y que el techo es 98.2, por lo está dentro de la banda. En conclusión, el señor Claudio Soto señala que la inflación futura va a tener un componente de combustible que empujará la variación en doce meses al alza, mientras que el resto de los componentes de la inflación aportarán negativamente a la variación interanual de la inflación. Añade que modelos alternativos de senes de tiempo muestran una trayectoria similar para la inflación hasta fines del horizonte y que el modelo Tar. por ejemplo, proyecta una inflación de casi -5% para abril del año próximo. Con respecto a los mercados financieros, el señor Gerente de Análisis Macroeconómico indica que las tasas nominales han estado relativamente estables desde la última RPM. no así las tasas reales, que exhiben alzas importantes a casi todos los horizontes, en especial las de los BCU-2 y BCU-5. En cuanto a la tasa de los swaps a 360 días, menciona que había aumentado bastante hasta la última RPM y algo más después de ella, pero en el margen ha tendido a devolverse. Las tasas de colocación, por su parte, se estabilizan en el margen. En cuanto a lo que predice el modelo, las tasas de colocación comerciales están algo por debajo, mientras que las tasas a consumo están algo por sobre lo que predice el modelo, lo cual es más o menos coherente con lo que se observa en el caso de los spreads. Informa que el spread de las colocaciones de 30-90 dias, que son predominantemente colocaciones comerciales, está incluso por debajo de lo que se tenía al comienzo de la crisis, mientras que los spreads de las colocaciones de 90-360 días, donde está el segmento de consumo, todavía están bastante elevados con respecto a lo que fue el promedio de los últimos dos años."
+        },
+        "SHA256_Fila": "d06338a974c24cbfa1bb8b76c941f7046a9a7edbf3f92da6f59231a6c613a412",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2009-11-12:2778:3",
+          "Derecha": "RPM-2009-11-12:2779:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2778:3",
+          "Derecha": "RPM-2009-11-12:2779:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2778:3",
+          "Derecha": "RPM-2009-11-12:2779:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2778:3",
+          "Derecha": "RPM-2009-11-12:2780:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2779:1",
+          "Derecha": "RPM-2009-11-12:2779:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2779:1",
+          "Derecha": "RPM-2009-11-12:2779:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2779:1",
+          "Derecha": "RPM-2009-11-12:2780:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2779:2",
+          "Derecha": "RPM-2009-11-12:2779:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2779:2",
+          "Derecha": "RPM-2009-11-12:2780:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2009-11-12:2779:3",
+          "Derecha": "RPM-2009-11-12:2780:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre completo y vecinos exportados completos; no certificación global de voz, OCR o identidad."
     },
-    "SHA256_Fila": "d06338a974c24cbfa1bb8b76c941f7046a9a7edbf3f92da6f59231a6c613a412",
-    "Lectura": "INTERVALO_VECINO_COMPLETO"
-   },
-   "Enlaces_Locales": [
-    {
-     "Izquierda": "RPM-2009-11-12:2778:3",
-     "Derecha": "RPM-2009-11-12:2779:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2778:3",
-     "Derecha": "RPM-2009-11-12:2779:2",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2778:3",
-     "Derecha": "RPM-2009-11-12:2779:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2778:3",
-     "Derecha": "RPM-2009-11-12:2780:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2779:1",
-     "Derecha": "RPM-2009-11-12:2779:2",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2779:1",
-     "Derecha": "RPM-2009-11-12:2779:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2779:1",
-     "Derecha": "RPM-2009-11-12:2780:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2779:2",
-     "Derecha": "RPM-2009-11-12:2779:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2779:2",
-     "Derecha": "RPM-2009-11-12:2780:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2009-11-12:2779:3",
-     "Derecha": "RPM-2009-11-12:2780:1",
-     "Mismo_Turno": false
+    "2957": {
+      "Fecha": "2010-02-11",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "el señor Kevin Cowan señala que, respecto de la discusión previa, desea complementar que es necesario evaluar o reevaluar el comportamiento de las AFP. Menciona que, tal como lo ha dicho el señor Presidente, uno de los temas centrales de la discusión es en qué medida las AFP están en equilibrio y qué las hizo tomar como señal o como elemento coordinador el cambio regulatorio. Indica que ese tipo de equilibrios resulta complejo en términos de precios de activos y, en ese sentido, no se han producido, en este caso, efectos financieros. Al respecto, menciona que si bien los bancos se encuentran calzados en plazos en las posiciones de forward, son los precios de activos los que corresponde monitorear, porque en lo futuro podrían generarse efectos financieros graves. El señor Rabio García consulta si este análisis se incluirá en la Minuta, señalando el señor Presidente que no correspondería hacerlo, pero sí que quede incorporado en el Acta de esta Sesión. Al respecto, el Vicepresidente señor Manuel Marfán señala que, en su opinión, se debería incluir en parte en la Minuta, por resultar evidente que lo que ha estado ocurriendo con el tipo de cambio afecta en forma importante. En segundo lugar, indica que, de acuerdo con las cifras expuestas, la mitad de lo que ha sucedido con el tipo de cambio se debe a la modificación en la normativa dictada por la Superintendencia de Fondos de Pensiones o, más bien, por el comportamiento posterior que generó esa norma. Como tercer punto, estima que estos efectos son transitorios, agregando que, en su opinión, constituyen elementos que están directamente vinculados con los temas relativos a la inflación y la respuesta de política monetaria al respecto. En todo caso, precisó que correspondería excluir de la Minuta el análisis efectuado respecto del rol del Banco y su relación con la Superintendencia de Pensiones. Para finalizar, el Gerente de Análisis Macroeconómico informa que las expectativas de crecimiento para este año se corrigieron nuevamente al alza, ubicándose en 4,9%, las que son coherentes con la proyección del último IPoM, en tanto que aquellas para el año 2011 están hoy día en 5%. En cuanto a las expectativas para la inflación, el señor Claudio Soto indica que si se consideran las encuestas en general a un año, estas se han corregido levemente al alza, tanto las efectuadas por las mesas de dinero como la Encuesta de Expectativas Económicas a doce meses, esperándose que esta sea de 2,7% anual. Manifiesta que las expectativas que fluyen de los contratos financieros son más difíciles de interpretar, ya que si se revisa la swap, estas han caído, mientras que si se consideran las aplicables a los bonos, estas se han incrementado significativamente, incluso por sobre el 3%. Explica que en ello han incidido la caída de las tasas reales y la volatilidad de las tasas nominales, por lo que la lectura que se puede extraer de ambas medidas de contratos financieros es contradictoria. Respecto de la trayectoria para la tasa de política monetaria, el señor Soto menciona que esta no cambia de manera relevante respecto de lo que se consideró en enero y que la citada Encuesta tampoco muestra ningún cambio en el perfil, por lo que se puede afirmar que las encuestas de enero y febrero son bastantes similares. Agrega que en la Encuesta de febrero se introdujeron algunos cambios respecto de los horizontes en los cuales repunta la tasa, pero aún así el perfil desde esta fecha hasta comienzos del año 2011 se ve estable.",
+      "SHA256_Texto_Padre": "c6417350f1954be7272763cbdd19e4d21ecd20f095dee2ddeec2ddbc19dfa048",
+      "SHA256_Particion": "126875f89b3ef9f7885067cdb9c4b805eed6b73cf1b30679378c84f22dac883f",
+      "Vecino_Anterior": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2010-02-11:2956:2",
+          "Actor": "Kevin Cowan Logan",
+          "Fuente_Actor": "SUJETO_NOMBRE",
+          "SHA256_Texto": "fd9b195d99ef8eadafb19d475a3cf3118cdb77e6c8f8af830ba8b063064586c0",
+          "Texto": "a lo cual el señor Cowan señala que son transitorios, pero de naturaleza prolongada, agregando que lo que había ocurrido hasta antes del mes de octubre de 2007 es que estos cambios se producían por períodos breves, de uno o dos días, y que luego se diluían. Explica que lo que está ocurriendo ahora es una secuencia de shocks que, a la larga, pueden acumularse, por lo que los efectos de corrección no alcanzan a compensarse. Luego, manifiesta que hasta los meses de septiembre u octubre del presente año el efecto flujo dominará la corrección, reiterando que se trata de un efecto persistente, pero transitorio. A continuación,."
+        },
+        "SHA256_Fila": "cd0e0a397caddac8cbfe29f850d537732942abd7278456f248135c71d8c13bcf",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Vecino_Siguiente": {
+        "Intervalo": {
+          "ID_Intervencion": "RPM-2010-02-11:2958:1",
+          "Actor": "José De Gregorio Rebeco",
+          "Fuente_Actor": "SUJETO_ROL_NOMBRE",
+          "SHA256_Texto": "fc25c9f3994e726adfcd630c4f0e40eabdc83b6fcd75752065d5cfca134ff1e6",
+          "Texto": "El Presidente, señor José De Gregorio, agradece la exposición del señor Claudio Soto, da por finalizada la Sesión de Política Monetaria de esta mañana y recuerda El señor Presidente agradece la exposición del señor Claudio Soto, da por finalizada la sesión de la mañana y recuerda que la sesión de la tarde se reanudará a las 15 horas."
+        },
+        "SHA256_Fila": "bf32758b4e05025da67a90f4563319041547e353f3ff5cc21a6f8cf3ccff85a9",
+        "Lectura": "INTERVALO_VECINO_COMPLETO"
+      },
+      "Enlaces_Locales": [
+        {
+          "Izquierda": "RPM-2010-02-11:2956:2",
+          "Derecha": "RPM-2010-02-11:2957:1",
+          "Mismo_Turno": true
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2956:2",
+          "Derecha": "RPM-2010-02-11:2957:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2956:2",
+          "Derecha": "RPM-2010-02-11:2957:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2956:2",
+          "Derecha": "RPM-2010-02-11:2957:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2956:2",
+          "Derecha": "RPM-2010-02-11:2957:5",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2956:2",
+          "Derecha": "RPM-2010-02-11:2958:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:1",
+          "Derecha": "RPM-2010-02-11:2957:2",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:1",
+          "Derecha": "RPM-2010-02-11:2957:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:1",
+          "Derecha": "RPM-2010-02-11:2957:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:1",
+          "Derecha": "RPM-2010-02-11:2957:5",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:1",
+          "Derecha": "RPM-2010-02-11:2958:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:2",
+          "Derecha": "RPM-2010-02-11:2957:3",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:2",
+          "Derecha": "RPM-2010-02-11:2957:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:2",
+          "Derecha": "RPM-2010-02-11:2957:5",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:2",
+          "Derecha": "RPM-2010-02-11:2958:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:3",
+          "Derecha": "RPM-2010-02-11:2957:4",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:3",
+          "Derecha": "RPM-2010-02-11:2957:5",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:3",
+          "Derecha": "RPM-2010-02-11:2958:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:4",
+          "Derecha": "RPM-2010-02-11:2957:5",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:4",
+          "Derecha": "RPM-2010-02-11:2958:1",
+          "Mismo_Turno": false
+        },
+        {
+          "Izquierda": "RPM-2010-02-11:2957:5",
+          "Derecha": "RPM-2010-02-11:2958:1",
+          "Mismo_Turno": false
+        }
+      ],
+      "Limite": "Padre completo y vecinos exportados completos; no certificación global de voz, OCR o identidad."
     }
-   ],
-   "Limite": "Padre completo y vecinos exportados completos; no certificación global de voz, OCR o identidad."
   },
-  "2957": {
-   "Fecha": "2010-02-11",
-   "Lectura": "PADRE_COMPLETO",
-   "Texto_Padre": "el señor Kevin Cowan señala que, respecto de la discusión previa, desea complementar que es necesario evaluar o reevaluar el comportamiento de las AFP. Menciona que, tal como lo ha dicho el señor Presidente, uno de los temas centrales de la discusión es en qué medida las AFP están en equilibrio y qué las hizo tomar como señal o como elemento coordinador el cambio regulatorio. Indica que ese tipo de equilibrios resulta complejo en términos de precios de activos y, en ese sentido, no se han producido, en este caso, efectos financieros. Al respecto, menciona que si bien los bancos se encuentran calzados en plazos en las posiciones de forward, son los precios de activos los que corresponde monitorear, porque en lo futuro podrían generarse efectos financieros graves. El señor Rabio García consulta si este análisis se incluirá en la Minuta, señalando el señor Presidente que no correspondería hacerlo, pero sí que quede incorporado en el Acta de esta Sesión. Al respecto, el Vicepresidente señor Manuel Marfán señala que, en su opinión, se debería incluir en parte en la Minuta, por resultar evidente que lo que ha estado ocurriendo con el tipo de cambio afecta en forma importante. En segundo lugar, indica que, de acuerdo con las cifras expuestas, la mitad de lo que ha sucedido con el tipo de cambio se debe a la modificación en la normativa dictada por la Superintendencia de Fondos de Pensiones o, más bien, por el comportamiento posterior que generó esa norma. Como tercer punto, estima que estos efectos son transitorios, agregando que, en su opinión, constituyen elementos que están directamente vinculados con los temas relativos a la inflación y la respuesta de política monetaria al respecto. En todo caso, precisó que correspondería excluir de la Minuta el análisis efectuado respecto del rol del Banco y su relación con la Superintendencia de Pensiones. Para finalizar, el Gerente de Análisis Macroeconómico informa que las expectativas de crecimiento para este año se corrigieron nuevamente al alza, ubicándose en 4,9%, las que son coherentes con la proyección del último IPoM, en tanto que aquellas para el año 2011 están hoy día en 5%. En cuanto a las expectativas para la inflación, el señor Claudio Soto indica que si se consideran las encuestas en general a un año, estas se han corregido levemente al alza, tanto las efectuadas por las mesas de dinero como la Encuesta de Expectativas Económicas a doce meses, esperándose que esta sea de 2,7% anual. Manifiesta que las expectativas que fluyen de los contratos financieros son más difíciles de interpretar, ya que si se revisa la swap, estas han caído, mientras que si se consideran las aplicables a los bonos, estas se han incrementado significativamente, incluso por sobre el 3%. Explica que en ello han incidido la caída de las tasas reales y la volatilidad de las tasas nominales, por lo que la lectura que se puede extraer de ambas medidas de contratos financieros es contradictoria. Respecto de la trayectoria para la tasa de política monetaria, el señor Soto menciona que esta no cambia de manera relevante respecto de lo que se consideró en enero y que la citada Encuesta tampoco muestra ningún cambio en el perfil, por lo que se puede afirmar que las encuestas de enero y febrero son bastantes similares. Agrega que en la Encuesta de febrero se introdujeron algunos cambios respecto de los horizontes en los cuales repunta la tasa, pero aún así el perfil desde esta fecha hasta comienzos del año 2011 se ve estable.",
-   "SHA256_Texto_Padre": "c6417350f1954be7272763cbdd19e4d21ecd20f095dee2ddeec2ddbc19dfa048",
-   "SHA256_Particion": "126875f89b3ef9f7885067cdb9c4b805eed6b73cf1b30679378c84f22dac883f",
-   "Vecino_Anterior": {
-    "Intervalo": {
-     "ID_Intervencion": "RPM-2010-02-11:2956:2",
-     "Actor": "Kevin Cowan Logan",
-     "Fuente_Actor": "SUJETO_NOMBRE",
-     "SHA256_Texto": "fd9b195d99ef8eadafb19d475a3cf3118cdb77e6c8f8af830ba8b063064586c0",
-     "Texto": "a lo cual el señor Cowan señala que son transitorios, pero de naturaleza prolongada, agregando que lo que había ocurrido hasta antes del mes de octubre de 2007 es que estos cambios se producían por períodos breves, de uno o dos días, y que luego se diluían. Explica que lo que está ocurriendo ahora es una secuencia de shocks que, a la larga, pueden acumularse, por lo que los efectos de corrección no alcanzan a compensarse. Luego, manifiesta que hasta los meses de septiembre u octubre del presente año el efecto flujo dominará la corrección, reiterando que se trata de un efecto persistente, pero transitorio. A continuación,."
+  "Controles": {
+    "2656": {
+      "Fecha": "2009-08-13",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 142 celebrada el 13 de agosto de 2009 _______ En Santiago de Chile, a 13 de agosto de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular, don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también el señor: Ministro de Hacienda, don Andrés Velasco Brañes y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldivar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés.",
+      "SHA256_Texto_Padre": "fb4810b748e35a0080f690d5246029e3f240d4206b7a7e401fb977c2756fdac3",
+      "SHA256_Particion": "383f8624feecbdda4c77dd4664d7737c507c54dca2b1098d85706e726ce77922"
     },
-    "SHA256_Fila": "cd0e0a397caddac8cbfe29f850d537732942abd7278456f248135c71d8c13bcf",
-    "Lectura": "INTERVALO_VECINO_COMPLETO"
-   },
-   "Vecino_Siguiente": {
-    "Intervalo": {
-     "ID_Intervencion": "RPM-2010-02-11:2958:1",
-     "Actor": "José De Gregorio Rebeco",
-     "Fuente_Actor": "SUJETO_ROL_NOMBRE",
-     "SHA256_Texto": "fc25c9f3994e726adfcd630c4f0e40eabdc83b6fcd75752065d5cfca134ff1e6",
-     "Texto": "El Presidente, señor José De Gregorio, agradece la exposición del señor Claudio Soto, da por finalizada la Sesión de Política Monetaria de esta mañana y recuerda El señor Presidente agradece la exposición del señor Claudio Soto, da por finalizada la sesión de la mañana y recuerda que la sesión de la tarde se reanudará a las 15 horas."
-    },
-    "SHA256_Fila": "bf32758b4e05025da67a90f4563319041547e353f3ff5cc21a6f8cf3ccff85a9",
-    "Lectura": "INTERVALO_VECINO_COMPLETO"
-   },
-   "Enlaces_Locales": [
-    {
-     "Izquierda": "RPM-2010-02-11:2956:2",
-     "Derecha": "RPM-2010-02-11:2957:1",
-     "Mismo_Turno": true
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2956:2",
-     "Derecha": "RPM-2010-02-11:2957:2",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2956:2",
-     "Derecha": "RPM-2010-02-11:2957:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2956:2",
-     "Derecha": "RPM-2010-02-11:2957:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2956:2",
-     "Derecha": "RPM-2010-02-11:2957:5",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2956:2",
-     "Derecha": "RPM-2010-02-11:2958:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:1",
-     "Derecha": "RPM-2010-02-11:2957:2",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:1",
-     "Derecha": "RPM-2010-02-11:2957:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:1",
-     "Derecha": "RPM-2010-02-11:2957:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:1",
-     "Derecha": "RPM-2010-02-11:2957:5",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:1",
-     "Derecha": "RPM-2010-02-11:2958:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:2",
-     "Derecha": "RPM-2010-02-11:2957:3",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:2",
-     "Derecha": "RPM-2010-02-11:2957:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:2",
-     "Derecha": "RPM-2010-02-11:2957:5",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:2",
-     "Derecha": "RPM-2010-02-11:2958:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:3",
-     "Derecha": "RPM-2010-02-11:2957:4",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:3",
-     "Derecha": "RPM-2010-02-11:2957:5",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:3",
-     "Derecha": "RPM-2010-02-11:2958:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:4",
-     "Derecha": "RPM-2010-02-11:2957:5",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:4",
-     "Derecha": "RPM-2010-02-11:2958:1",
-     "Mismo_Turno": false
-    },
-    {
-     "Izquierda": "RPM-2010-02-11:2957:5",
-     "Derecha": "RPM-2010-02-11:2958:1",
-     "Mismo_Turno": false
+    "2889": {
+      "Fecha": "2010-02-11",
+      "Lectura": "PADRE_COMPLETO",
+      "Texto_Padre": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 150 celebrada el 11 de febrero de 2010 En Santiago de Chile, a 11 de febrero de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Gerente General Subrogante, Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales Subrogante, don Luis Felipe Alarcón Gazmuri; Gerente de Investigación Económica Subrogante, don Pablo Pincheira Brown; Gerente de Estabilidad Financiera Subrogante, don Ari Aisen; Gerente Asesor de Comunicaciones Subrogante, don Jaime Troncoso Rojas; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Economista Senior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés.",
+      "SHA256_Texto_Padre": "09d657f4379e9a2d90f58b658f6a7733e470447fbd338d8b1166bfc125689c57",
+      "SHA256_Particion": "b96550e2d09db7308f8cbfb97f742084a9fb9ca5fc6efd7db4112960bf8338de"
     }
-   ],
-   "Limite": "Padre completo y vecinos exportados completos; no certificación global de voz, OCR o identidad."
-  }
- },
- "Controles": {
-  "2656": {
-   "Fecha": "2009-08-13",
-   "Lectura": "PADRE_COMPLETO",
-   "Texto_Padre": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 142 celebrada el 13 de agosto de 2009 _______ En Santiago de Chile, a 13 de agosto de 2009, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular, don José De Gregorio Rebeco, y con la asistencia del Vicepresidente, don Jorge Desormeaux Jiménez, y de los Consejeros don Enrique Marshall Rivera y don Sebastián Claro Edwards. Asisten también el señor: Ministro de Hacienda, don Andrés Velasco Brañes y los señores: Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro de Fe Subrogante, don Juan Esteban Laval Zaldivar; Gerente de División Estudios, don Pablo García Silva; Gerente de División Operaciones Financieras, don Beltrán De Ramón Acevedo; Gerente de División Política Financiera, don Kevin Cowan Logan; Gerente de División Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, don Rodrigo Cifuentes Santander; Gerente de Investigación Económica, don Luis Felipe Céspedes Cifuentes; Gerente Asesor de Comunicaciones, don Luis Alberto Álvarez Vallejos; Asesor del Ministerio de Hacienda, don Igal Magendzo Weinberger; Economista Sénior, doña Erika Arraño González; Economista Sénior, don Enrique Orellana Cifuentes; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés.",
-   "SHA256_Texto_Padre": "fb4810b748e35a0080f690d5246029e3f240d4206b7a7e401fb977c2756fdac3",
-   "SHA256_Particion": "383f8624feecbdda4c77dd4664d7737c507c54dca2b1098d85706e726ce77922"
   },
-  "2889": {
-   "Fecha": "2010-02-11",
-   "Lectura": "PADRE_COMPLETO",
-   "Texto_Padre": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° 150 celebrada el 11 de febrero de 2010 En Santiago de Chile, a 11 de febrero de 2010, siendo las 11:30 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia del titular don José De Gregorio Rebeco, con la asistencia del Vicepresidente don Manuel Marfán Lewis y de los Consejeros don Enrique Marshall Rivera, don Sebastián Claro Edwards y don Rodrigo Vergara Montes. Asisten también los señores: Gerente General Subrogante, Fiscal y Ministro de Fe, don Miguel Ángel Nacrur Gazali; Gerente de División de Estudios, don Pablo García Silva; Gerente de División de Política Financiera, don Kevin Cowan Logan; Gerente de División de Operaciones Financieras, don Beltrán de Ramón Acevedo; Gerente de División de Estadísticas, don Ricardo Vicuña Poblete; Gerente de Análisis Macroeconómico, don Claudio Soto Gamboa; Gerente de Análisis Internacional, don Sergio Lehmann Beresi; Gerente de Mercados Financieros Nacionales Subrogante, don Luis Felipe Alarcón Gazmuri; Gerente de Investigación Económica Subrogante, don Pablo Pincheira Brown; Gerente de Estabilidad Financiera Subrogante, don Ari Aisen; Gerente Asesor de Comunicaciones Subrogante, don Jaime Troncoso Rojas; Gerente de Estrategia y Comunicación de Política Monetaria, don Enrique Orellana Cifuentes; Economista Senior, doña Erika Arraño González; Asesora de la Presidencia, doña Mariana García Schmidt; y la Secretario General, doña Marlys Pabst Cortés.",
-   "SHA256_Texto_Padre": "09d657f4379e9a2d90f58b658f6a7733e470447fbd338d8b1166bfc125689c57",
-   "SHA256_Particion": "b96550e2d09db7308f8cbfb97f742084a9fb9ca5fc6efd7db4112960bf8338de"
-  }
- },
- "Revisiones": [
-  {
-   "Revision_ID": "COMA-RESERVA-20260908-L7-2680",
-   "ID_Padre": 2680,
-   "Fecha": "2009-08-13",
-   "Izquierda": {
-    "ID_Intervencion": "RPM-2009-08-13:2680:2",
-    "Actor": "Consejo del Banco Central de Chile",
-    "Fuente_Actor": "ACTA/META",
-    "SHA256_Texto": "49974e35f85207f14b1910d20e7b1c4e1dc7c9f10802ffb62038ee5a2b974d11",
-    "Texto": "Siendo las 16; 15 horas, se reanuda la Sesión de Política Monetaria N° 141,"
-   },
-   "Derecha": {
-    "ID_Intervencion": "RPM-2009-08-13:2680:3",
-    "Actor": "José De Gregorio Rebeco",
-    "Fuente_Actor": "CONTEXTO_REVISADO",
-    "SHA256_Texto": "ea4888ab4b6b281b2e57fab74d0ec8f5046344e4170cb74b5cfea40d22a8e6e1",
-    "Texto": "y el señor Presidente ofrece la palabra al Gerente de División Estudios, señor Pablo García, para que presente las Opciones de Política Monetaria para esta Reunión."
-   },
-   "Motivos_Originales": "FINAL_SIN_PUNTUACION;TEXTO_DANADO_POR_COTEJAR",
-   "Estado": "LIMITE_REVISADO_CON_RESERVA_ABIERTA",
-   "Estado_Limite": "SEPARACION_EXISTENTE_RESPALDADA",
-   "Estado_Reserva": "HORA_Y_NUMERACION_PENDIENTES",
-   "Estado_Identidad": "SIN_NUEVA_RESOLUCION_DE_IDENTIDAD",
-   "Naturaleza": "ACTA_A_CESION_PERSONAL",
-   "Justificacion": "Se conserva Presidente180/acta75/Presidente164/García489. La reanudación es narración institucional; y el señor Presidente ofrece la palabra abre una cesión personal, no palabras de García. La lectura de García empieza después y continúa en2681 durante11085 caracteres sin cortes por temas. La reserva de hora y número afecta al acta, no se extiende para romper esa continuidad. La cabecera2656 dice142 y el pasaje2680 dice141: se documenta la discrepancia sin resolverla.",
-   "Reservas": [
-    "Se conservan FINAL_SIN_PUNTUACION y TEXTO_DANADO_POR_COTEJAR;16; 15 y N°141 no se normalizan a partir de16:15 y N°142 en el contexto.",
-    "García489 conserva A continuación,. y enlace2680→2681. El vecino2681 conserva nesgo, vanos y la secuencia literal de comillas/v; la lectura no certifica su OCR ni añade una alerta bloqueante."
-   ],
-   "Siguiente_Accion": "Cotejar hora y número de sesión en la fuente primaria; conservar mientras tanto acta separada y enlace de García.",
-   "Limitacion": "Lectura dirigida con antecedentes, sin nuevo cotejo PDF ni revisión humana independiente. No nuevos cortes, enlaces, reasignaciones o cierres; modalidades y nombres no se certifican por reconocer un límite."
-  },
-  {
-   "Revision_ID": "COMA-RESERVA-20260908-L7-2779",
-   "ID_Padre": 2779,
-   "Fecha": "2009-11-12",
-   "Izquierda": {
-    "ID_Intervencion": "RPM-2009-11-12:2779:2",
-    "Actor": "Claudio Soto Gamboa",
-    "Fuente_Actor": "SUJETO_NOMBRE",
-    "SHA256_Texto": "55c9f087737a28fe3a3908e8bb6e82e1d67956ad23cecec015c8d8c041aedcb5",
-    "Texto": "El señor Soto asiente,"
-   },
-   "Derecha": {
-    "ID_Intervencion": "RPM-2009-11-12:2779:3",
-    "Actor": "Enrique Marshall Rivera",
-    "Fuente_Actor": "CONTEXTO_REVISADO",
-    "SHA256_Texto": "e444679d43d4d2d25322c144cd389afa1244d01388a012e987a8598fefa3ec60",
-    "Texto": "mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. En su opinión, en este sector se puede demostrar el empleo asalariado, ya que por empleo por cuenta propia, llevando las cosas a un extremo, se podría decir que este aumenta cuando los maestros empiezan a hacer trabajos muy simples."
-   },
-   "Motivos_Originales": "FINAL_SIN_PUNTUACION;FRAGMENTO_BREVE",
-   "Estado": "LIMITE_REVISADO_CON_RESERVA_ABIERTA",
-   "Estado_Limite": "SEPARACION_EXISTENTE_RESPALDADA",
-   "Estado_Reserva": "MODALIDAD_DEL_ASENTIMIENTO_NO_DETERMINADA",
-   "Estado_Identidad": "SIN_NUEVA_RESOLUCION_DE_IDENTIDAD",
-   "Naturaleza": "ASENTIMIENTO_NARRADO_SIN_PALABRAS_TRANSCRITAS",
-   "Justificacion": "Se conserva Cowan222/Soto22/Marshall366. El señor Soto asiente es un acto narrado con sujeto expreso y sin palabras transcritas; no permite saber si el asentimiento fue verbal o gestual. Mientras que el Consejero señor Enrique Marshall responde abre un aporte diferente y contrastivo, no una continuación de Soto ni de Cowan. En su opinión continúa a Marshall. No inventar sí ni eliminar el asentimiento por su brevedad. El desarrollo previo de Soto en2778 y su retorno en2780 no se fusionan a través de los otros actores.",
-   "Reservas": [
-    "Se conservan FINAL_SIN_PUNTUACION y FRAGMENTO_BREVE. Acto identificable no equivale a palabras pronunciadas transcritas: no contar22 caracteres como una cita verbal.",
-    "Marshall conserva CONTEXTO_REVISADO y ancla nula; su respuesta no se atribuye a Soto. Los residuos de2780, incluidos IRC/IRCX1 y senes, permanecen."
-   ],
-   "Siguiente_Accion": "Conservar como asentimiento narrado; separar esta modalidad de citas verbales en usos analíticos. No inferir palabras ni borrar la cláusula.",
-   "Limitacion": "Lectura dirigida con antecedentes, sin nuevo cotejo PDF ni revisión humana independiente. No nuevos cortes, enlaces, reasignaciones o cierres; modalidades y nombres no se certifican por reconocer un límite."
-  },
-  {
-   "Revision_ID": "COMA-RESERVA-20260908-L7-2957",
-   "ID_Padre": 2957,
-   "Fecha": "2010-02-11",
-   "Izquierda": {
-    "ID_Intervencion": "RPM-2010-02-11:2957:2",
-    "Actor": "Pablo García Silva",
-    "Fuente_Actor": "CONTEXTO_REVISADO",
-    "SHA256_Texto": "084c3b2443dbcfcb062c1be57e53d9d8ba38f29be0653803ff4b3f152ee16124",
-    "Texto": "El señor Rabio García consulta si este análisis se incluirá en la Minuta,"
-   },
-   "Derecha": {
-    "ID_Intervencion": "RPM-2010-02-11:2957:3",
-    "Actor": "José De Gregorio Rebeco",
-    "Fuente_Actor": "CONTEXTO_REVISADO",
-    "SHA256_Texto": "e5ce0b12ff8ea523437ae7c229aacc2affafbcf3c7567ffb497154a585539afb",
-    "Texto": "señalando el señor Presidente que no correspondería hacerlo, pero sí que quede incorporado en el Acta de esta Sesión."
-   },
-   "Motivos_Originales": "FINAL_SIN_PUNTUACION;NOMBRE_EN_DISCURSO_POR_VERIFICAR",
-   "Estado": "LIMITE_REVISADO_CON_RESERVA_ABIERTA",
-   "Estado_Limite": "SEPARACION_EXISTENTE_RESPALDADA",
-   "Estado_Reserva": "NOMBRE_LITERAL_PENDIENTE_DE_COTEJO",
-   "Estado_Identidad": "ATRIBUCION_LOCAL_PROVISIONAL",
-   "Naturaleza": "PREGUNTA_Y_RESPUESTA_DIFERENCIADAS",
-   "Justificacion": "Se conserva Cowan772/García73/Presidente117/Marfán907/Soto1626. La pregunta literal de Rabio García y señalando el señor Presidente que no correspondería hacerlo son actos diferenciados. La ficha previa de LOOP18 asignó localmente la pregunta a Pablo García con nómina y contexto, pero mantuvo la advertencia de nombre. La cabecera2889 contiene a Pablo García Silva y también a Mariana García Schmidt: asistencia y apellido no certifican por sí solos la identidad del pasaje dañado. Se mantiene Pablo García Silva sólo como atribución local provisional existente, sin corregir Rabio ni crear alias. Marfán responde a la cuestión de publicación y Soto retoma su exposición después.",
-   "Reservas": [
-    "Se conservan FINAL_SIN_PUNTUACION y NOMBRE_EN_DISCURSO_POR_VERIFICAR;Rabio permanece literal. La atribución actual es provisional y no una identidad confirmada por esta ficha.",
-    "Pregunta73 y respuesta117 mantienen CONTEXTO_REVISADO y anclas nulas. Cowan conserva enlace2956→2957. La repetición de2958 y TEXTO_DANADO_POR_COTEJAR permanecen; no se repara esa cola."
-   ],
-   "Siguiente_Accion": "Cotejar el nombre en la fuente primaria antes de confirmar identidad o corregir OCR. No crear alias Rabio→Pablo por nómina o proximidad.",
-   "Limitacion": "Lectura dirigida con antecedentes, sin nuevo cotejo PDF ni revisión humana independiente. No nuevos cortes, enlaces, reasignaciones o cierres; modalidades y nombres no se certifican por reconocer un límite."
-  }
- ],
- "Notas": [
-  "Refresco de SHA256_Fuentes de data/curation/revisiones_hablantes.json: se agregaron 4 revisiones de hablante (HAB-20260912-657-1, -1564-2, -1995-3, -2960-4) para separar por intervención. Verificado: este paquete no referencia los padres 657, 1564, 1995 ni 2960, así que sus lecturas siguen vigentes."
- ]
+  "Revisiones": [
+    {
+      "Revision_ID": "COMA-RESERVA-20260908-L7-2680",
+      "ID_Padre": 2680,
+      "Fecha": "2009-08-13",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-08-13:2680:2",
+        "Actor": "Consejo del Banco Central de Chile",
+        "Fuente_Actor": "ACTA/META",
+        "SHA256_Texto": "49974e35f85207f14b1910d20e7b1c4e1dc7c9f10802ffb62038ee5a2b974d11",
+        "Texto": "Siendo las 16; 15 horas, se reanuda la Sesión de Política Monetaria N° 141,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-08-13:2680:3",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "ea4888ab4b6b281b2e57fab74d0ec8f5046344e4170cb74b5cfea40d22a8e6e1",
+        "Texto": "y el señor Presidente ofrece la palabra al Gerente de División Estudios, señor Pablo García, para que presente las Opciones de Política Monetaria para esta Reunión."
+      },
+      "Motivos_Originales": "FINAL_SIN_PUNTUACION;TEXTO_DANADO_POR_COTEJAR",
+      "Estado": "LIMITE_REVISADO_CON_RESERVA_ABIERTA",
+      "Estado_Limite": "SEPARACION_EXISTENTE_RESPALDADA",
+      "Estado_Reserva": "HORA_Y_NUMERACION_PENDIENTES",
+      "Estado_Identidad": "SIN_NUEVA_RESOLUCION_DE_IDENTIDAD",
+      "Naturaleza": "ACTA_A_CESION_PERSONAL",
+      "Justificacion": "Se conserva Presidente180/acta75/Presidente164/García489. La reanudación es narración institucional; y el señor Presidente ofrece la palabra abre una cesión personal, no palabras de García. La lectura de García empieza después y continúa en2681 durante11085 caracteres sin cortes por temas. La reserva de hora y número afecta al acta, no se extiende para romper esa continuidad. La cabecera2656 dice142 y el pasaje2680 dice141: se documenta la discrepancia sin resolverla.",
+      "Reservas": [
+        "Se conservan FINAL_SIN_PUNTUACION y TEXTO_DANADO_POR_COTEJAR;16; 15 y N°141 no se normalizan a partir de16:15 y N°142 en el contexto.",
+        "García489 conserva A continuación,. y enlace2680→2681. El vecino2681 conserva nesgo, vanos y la secuencia literal de comillas/v; la lectura no certifica su OCR ni añade una alerta bloqueante."
+      ],
+      "Siguiente_Accion": "Cotejar hora y número de sesión en la fuente primaria; conservar mientras tanto acta separada y enlace de García.",
+      "Limitacion": "Lectura dirigida con antecedentes, sin nuevo cotejo PDF ni revisión humana independiente. No nuevos cortes, enlaces, reasignaciones o cierres; modalidades y nombres no se certifican por reconocer un límite."
+    },
+    {
+      "Revision_ID": "COMA-RESERVA-20260908-L7-2779",
+      "ID_Padre": 2779,
+      "Fecha": "2009-11-12",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2009-11-12:2779:2",
+        "Actor": "Claudio Soto Gamboa",
+        "Fuente_Actor": "SUJETO_NOMBRE",
+        "SHA256_Texto": "55c9f087737a28fe3a3908e8bb6e82e1d67956ad23cecec015c8d8c041aedcb5",
+        "Texto": "El señor Soto asiente,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2009-11-12:2779:3",
+        "Actor": "Enrique Marshall Rivera",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "e444679d43d4d2d25322c144cd389afa1244d01388a012e987a8598fefa3ec60",
+        "Texto": "mientras que el Consejero señor Enrique Marshall responde que ello contradice totalmente lo que se mostró en materia de construcción. En su opinión, en este sector se puede demostrar el empleo asalariado, ya que por empleo por cuenta propia, llevando las cosas a un extremo, se podría decir que este aumenta cuando los maestros empiezan a hacer trabajos muy simples."
+      },
+      "Motivos_Originales": "FINAL_SIN_PUNTUACION;FRAGMENTO_BREVE",
+      "Estado": "LIMITE_REVISADO_CON_RESERVA_ABIERTA",
+      "Estado_Limite": "SEPARACION_EXISTENTE_RESPALDADA",
+      "Estado_Reserva": "MODALIDAD_DEL_ASENTIMIENTO_NO_DETERMINADA",
+      "Estado_Identidad": "SIN_NUEVA_RESOLUCION_DE_IDENTIDAD",
+      "Naturaleza": "ASENTIMIENTO_NARRADO_SIN_PALABRAS_TRANSCRITAS",
+      "Justificacion": "Se conserva Cowan222/Soto22/Marshall366. El señor Soto asiente es un acto narrado con sujeto expreso y sin palabras transcritas; no permite saber si el asentimiento fue verbal o gestual. Mientras que el Consejero señor Enrique Marshall responde abre un aporte diferente y contrastivo, no una continuación de Soto ni de Cowan. En su opinión continúa a Marshall. No inventar sí ni eliminar el asentimiento por su brevedad. El desarrollo previo de Soto en2778 y su retorno en2780 no se fusionan a través de los otros actores.",
+      "Reservas": [
+        "Se conservan FINAL_SIN_PUNTUACION y FRAGMENTO_BREVE. Acto identificable no equivale a palabras pronunciadas transcritas: no contar22 caracteres como una cita verbal.",
+        "Marshall conserva CONTEXTO_REVISADO y ancla nula; su respuesta no se atribuye a Soto. Los residuos de2780, incluidos IRC/IRCX1 y senes, permanecen."
+      ],
+      "Siguiente_Accion": "Conservar como asentimiento narrado; separar esta modalidad de citas verbales en usos analíticos. No inferir palabras ni borrar la cláusula.",
+      "Limitacion": "Lectura dirigida con antecedentes, sin nuevo cotejo PDF ni revisión humana independiente. No nuevos cortes, enlaces, reasignaciones o cierres; modalidades y nombres no se certifican por reconocer un límite."
+    },
+    {
+      "Revision_ID": "COMA-RESERVA-20260908-L7-2957",
+      "ID_Padre": 2957,
+      "Fecha": "2010-02-11",
+      "Izquierda": {
+        "ID_Intervencion": "RPM-2010-02-11:2957:2",
+        "Actor": "Pablo García Silva",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "084c3b2443dbcfcb062c1be57e53d9d8ba38f29be0653803ff4b3f152ee16124",
+        "Texto": "El señor Rabio García consulta si este análisis se incluirá en la Minuta,"
+      },
+      "Derecha": {
+        "ID_Intervencion": "RPM-2010-02-11:2957:3",
+        "Actor": "José De Gregorio Rebeco",
+        "Fuente_Actor": "CONTEXTO_REVISADO",
+        "SHA256_Texto": "e5ce0b12ff8ea523437ae7c229aacc2affafbcf3c7567ffb497154a585539afb",
+        "Texto": "señalando el señor Presidente que no correspondería hacerlo, pero sí que quede incorporado en el Acta de esta Sesión."
+      },
+      "Motivos_Originales": "FINAL_SIN_PUNTUACION;NOMBRE_EN_DISCURSO_POR_VERIFICAR",
+      "Estado": "LIMITE_REVISADO_CON_RESERVA_ABIERTA",
+      "Estado_Limite": "SEPARACION_EXISTENTE_RESPALDADA",
+      "Estado_Reserva": "NOMBRE_LITERAL_PENDIENTE_DE_COTEJO",
+      "Estado_Identidad": "ATRIBUCION_LOCAL_PROVISIONAL",
+      "Naturaleza": "PREGUNTA_Y_RESPUESTA_DIFERENCIADAS",
+      "Justificacion": "Se conserva Cowan772/García73/Presidente117/Marfán907/Soto1626. La pregunta literal de Rabio García y señalando el señor Presidente que no correspondería hacerlo son actos diferenciados. La ficha previa de LOOP18 asignó localmente la pregunta a Pablo García con nómina y contexto, pero mantuvo la advertencia de nombre. La cabecera2889 contiene a Pablo García Silva y también a Mariana García Schmidt: asistencia y apellido no certifican por sí solos la identidad del pasaje dañado. Se mantiene Pablo García Silva sólo como atribución local provisional existente, sin corregir Rabio ni crear alias. Marfán responde a la cuestión de publicación y Soto retoma su exposición después.",
+      "Reservas": [
+        "Se conservan FINAL_SIN_PUNTUACION y NOMBRE_EN_DISCURSO_POR_VERIFICAR;Rabio permanece literal. La atribución actual es provisional y no una identidad confirmada por esta ficha.",
+        "Pregunta73 y respuesta117 mantienen CONTEXTO_REVISADO y anclas nulas. Cowan conserva enlace2956→2957. La repetición de2958 y TEXTO_DANADO_POR_COTEJAR permanecen; no se repara esa cola."
+      ],
+      "Siguiente_Accion": "Cotejar el nombre en la fuente primaria antes de confirmar identidad o corregir OCR. No crear alias Rabio→Pablo por nómina o proximidad.",
+      "Limitacion": "Lectura dirigida con antecedentes, sin nuevo cotejo PDF ni revisión humana independiente. No nuevos cortes, enlaces, reasignaciones o cierres; modalidades y nombres no se certifican por reconocer un límite."
+    }
+  ]
 }
