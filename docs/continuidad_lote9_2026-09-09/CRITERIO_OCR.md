@@ -1581,5 +1581,76 @@ Estado tras §28: **1.399 filas corregidas, 2.329 operaciones, 204 marcadas, `Te
 las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **34 de 131**; filas leídas
 **2.512 de 9.723**.
 
+---
+
+## §29. Lo que parece un defecto y es vocabulario, y lo que parece basura y es un signo
+
+Sesión `2014-07-15` (rondas 222–229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro,
+Vergara y el Subsecretario Micco; votación por recortar 25 pb a 3,75 %. Las 54 filas son de una
+sola voz; las banderas eran los traspasos y agradecimientos protocolares del Presidente Vergara
+(`6308:2`, `6327:1`, `6331:1`, `6331:3`, `6333:1`, `6335:1`, `6337:1`).
+
+### «tasa de instancia» no es un defecto
+
+Aparece **58 veces en 53 filas** y a primera vista parece una corrupción de «tasa de política»
+(1.099 ocurrencias). No lo es, y tres cosas lo prueban:
+
+1. **`instancia` es palabra nativa de estas actas.** Fuera de esa colocución aparece **89
+   veces**: «la instancia monetaria de ese momento», «el ritmo de normalización de la instancia
+   monetaria», «nos deja en una instancia algo más cómoda», «situación de última instancia»,
+   «hacia una instancia más neutral de política monetaria». Es jerga del Banco: *instancia* =
+   postura.
+2. **El propio texto lo declara.** `273:1`: «el Banco Central decidió elevar la tasa de
+   instancia monetaria, **como se llamaba entonces**».
+3. **`instancia` → `política` no es una sustitución de OCR posible.** No comparten glifos.
+
+Los dos PDF del repositorio dan **0** `instancia` y 57 `tasa de política`. Eso no contradice
+nada: son 2 actas de 131 y simplemente no discuten la postura en esos términos. **La fuente es
+evidencia para el texto que cubre, no para todo el corpus.** No se tocó ninguna de las 58.
+
+### Lo que parece basura y es un signo
+
+De los **16 apóstrofos sueltos** del corpus (`X ' Y`), sólo 4 son lo que parecen. El de `674:2`,
+`Comunicado ' En su reunión mensual de política monetaria…`, **es la comilla de apertura**: la
+estructura es idéntica a la de `2299:1` (§28), que sí trae `“`. Borrarlo habría eliminado un
+signo real. Se marcó, y además la fila termina en «…en el horizonte habitual de.» sin cerrar la
+frase ni la cita.
+
+Las otras 11 ocurrencias vienen con basura pegada y forman una familia propia, todavía sin
+pasar: `4. W '`, `i - J ' -`, `' í \ : Ai`, `¥ '`, `/ '`, `V '`, `i '`, `4 '`, `-4. f. • " ' A)`.
+En varios hay que decidir sobre el grupo entero, no sobre el apóstrofo (`5087:1` «una
+desaceleración más **4. W '** significativa en China», `5752:3` «continúan **i - J ' -**
+anticipando»). Queda anotada para su pasada.
+
+Se corrigieron los 4 limpios: `6331:2` (`debiese ' situarse`, en mitad de la cláusula) y tres en
+frontera de párrafo sin basura alrededor (`6067:1`, `6255:1`, `6764:1`).
+
+### `Polítíca` → `Política`, 6 filas
+
+Acento espurio en la segunda «i». `Polítíca` aparece 6 veces, siempre dentro de «Tasa de
+Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e
+«Informe de Polítíca Monetaria». La forma del corpus es `Política`, **3.641** veces, y los dos
+PDF dan 218 `Política` y 0 `Polítíca`.
+
+Esto **no** contradice §16 ni §27, y la distinción importa:
+
+| caso | ¿por qué no se corrigió / sí se corrigió |
+|---|---|
+| `éstos`, `período`, `cuánto` (§16) | las dos formas son español legítimo |
+| `Seníor` (§27) | el destino está empatado: `Sénior` 79 contra `Senior` 77 |
+| **`Polítíca` (§29)** | **no existe otra lectura: `Política` 3.641 contra 0** |
+
+### Un bug de verificación, no de datos
+
+Al comprobar el resultado conté los apóstrofos sobre `' '.join(filas)` y dio **14** cuando el
+registro correcto es **12**: unir filas con un espacio **fabrica coincidencias en la frontera**.
+Contando fila por fila da 12. Es la misma familia que «`se r` = 4 dentro de *se recomienda*»:
+**los patrones que dependen del contexto no se cuentan sobre texto concatenado.**
+
+Estado tras §29: **1.405 filas corregidas, 2.339 operaciones, 205 marcadas, `Texto` intacto en
+las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **35 de 131**; filas leídas
+**2.566 de 9.723**.
+
+
 
 

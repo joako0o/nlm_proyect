@@ -15580,6 +15580,14 @@
           "Ocurrencias": 1,
           "Contexto": "ovimientos registrados por el yuan, destaca su significativa depreciación en el ultimo mes, ubicándose al centro de su banda de +/-1%. A conti",
           "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "dólar. ' Al",
+          "Despues": "dólar. Al",
+          "Ocurrencias": 1,
+          "Contexto": "elevados, ha tendido a moderarse y a estabilizarse en torno a $11 por dólar. ' Al proseguir con su presentación, alude a las principales noticias en ma",
+          "Justificacion": "Apóstrofo suelto entre dos oraciones completas, sin glifo de basura alrededor: «...en torno a $11 por dólar. Al proseguir con su presentación...». No abre ninguna cita (la fila no tiene comillas) y no tiene lectura. Tipo SIMBOLO_SUELTO (§29)."
         }
       ]
     },
@@ -20638,6 +20646,14 @@
           "Despues": "necesario—, sino que ",
           "Contexto": "cano —de hecho, estima que lo más probable es que ello será necesario— , sino que dar únicamente la señal, dentro de un sesgo general a la baj",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Polítíca",
+          "Despues": "Política",
+          "Ocurrencias": 1,
+          "Contexto": " señor Rodrigo Vergara deja constancia que la reducción de la Tasa de Polítíca Monetaria en 25 puntos base, a 4,00% anual, se acuerda por unanimidad",
+          "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
         }
       ]
     },
@@ -20901,6 +20917,14 @@
           "Ocurrencias": 1,
           "Contexto": "ancialmente el panorama de riesgos frente al planteado en los últimos Informes. Adícionalmente, en cuanto a potenciales riesgos asociados a movimiento",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 71 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Polítíca",
+          "Despues": "Política",
+          "Ocurrencias": 1,
+          "Contexto": "e esta presentación, señala que en opinión de la Gerencia de División Polítíca Financiera, uno de los principales riesgos a la estabilidad de nuestr",
+          "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
         }
       ]
     },
@@ -25895,6 +25919,14 @@
           "Despues": "e año. í j.",
           "Contexto": " 75 puntos base por debajo de su nivel actual antes de fin de año. í j .",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "debiese ' situarse",
+          "Despues": "debiese situarse",
+          "Ocurrencias": 1,
+          "Contexto": "nzar ese valor; y que la curva forward indica que la tasa de política debiese ' situarse en torno a 75 puntos base por debajo de su nivel actual antes de fin ",
+          "Justificacion": "Apóstrofo suelto en mitad de la cláusula: «la tasa de política debiese situarse en torno a 75 puntos base». El apóstrofo no tiene lectura en español en esa posición y no separa dos oraciones, así que no puede ser marca de párrafo ni comilla. Tipo SIMBOLO_SUELTO, igual que los residuos de §25."
         }
       ]
     },
@@ -26878,6 +26910,84 @@
           "Ocurrencias": 1,
           "Contexto": "e de 2009 En Santiago de Chile, a 15 de diciembre de 2009, siendo las 9;00 horas, se reúne el Consejo del Banco Central de Chile bajo la presidencia d",
           "Justificacion": "Idem: 544 contra 5."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-12-12:5960:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Polítíca",
+          "Despues": "Política",
+          "Ocurrencias": 1,
+          "Contexto": "y actual Vicepresidente de la Institución, es por mantener la Tasa de Polítíca Monetaria en su nivel actual de 4,5% anual, así como también un sesgo",
+          "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6255:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "desarrollados. ' Sobre",
+          "Despues": "desarrollados. Sobre",
+          "Ocurrencias": 1,
+          "Contexto": " solamente en los mercados emergentes, sino que también en los países desarrollados. ' Sobre este aspecto, señala que en el escenario actual se advierte un grado ",
+          "Justificacion": "Idem que 6067:1: apóstrofo suelto entre dos oraciones completas, sin basura alrededor y sin cita que abrir (§29)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6327:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Polítíca",
+          "Despues": "Política",
+          "Ocurrencias": 1,
+          "Contexto": "señor Miguel Fuentes a fin de que presente al Consejo las Opciones de Polítíca Monetaria que se han considerado en esta oportunidad.",
+          "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6662:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Polítíca",
+          "Despues": "Política",
+          "Ocurrencias": 1,
+          "Contexto": "sión Estudios está trabajando en conjunto con la Gerencia de División Polítíca Financiera en identificar las implicancias que podría tener el escánd",
+          "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-05-14:6764:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "variable. ' En",
+          "Despues": "variable. En",
+          "Ocurrencias": 1,
+          "Contexto": "mientos hacia renta fija, mientras que en Asia emergente, hacia renta variable. ' En materia de precios de commodities, destaca la recuperación impulsada ",
+          "Justificacion": "Idem que 6067:1: apóstrofo suelto entre dos oraciones completas, sin basura alrededor y sin cita que abrir (§29)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6999:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Polítíca",
+          "Despues": "Política",
+          "Ocurrencias": 1,
+          "Contexto": "lvo en el caso de Rusia, en línea con la visión del último Informe de Polítíca Monetaria, IPoM. Plantea que esta visión de menor dinamismo se ve ref",
+          "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
         }
       ]
     }
@@ -28093,6 +28203,12 @@
       "ID_Intervencion": "RPM-2010-01-14:2841:1",
       "Texto_Original_Fragmento": "Economista Señor",
       "Motivo": "Mismo defecto y misma ambigüedad que en 2255:1 (§28).",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:674:2",
+      "Texto_Original_Fragmento": "Comunicado ' En su reunión mensual",
+      "Motivo": "NO ES BASURA: es la comilla de apertura. La estructura es idéntica a la de 2299:1 (§28), «Comunicado “En su reunión mensual de política monetaria...», así que el apóstrofo es el rendering del OCR de la comilla inicial, no un residuo; borrarlo eliminaría un signo real. Además la fila termina en «...en el horizonte habitual de.» sin cerrar la frase ni la cita (“=0, ”=0), o sea que hay texto perdido. Se marca y no se toca. Pertenece a la familia de apóstrofos de salto de página, que NO es uniforme: de las 16 ocurrencias del corpus, 4 son apóstrofo limpio, ésta es una comilla y las otras 11 vienen con basura pegada («4. W '», «i - J ' -», «' í \\ : Ai», «¥ '») y necesitan su propia pasada (§29).",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],

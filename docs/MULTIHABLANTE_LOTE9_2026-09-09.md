@@ -358,6 +358,8 @@ Para leer una sesión entera al margen del plan:
 
 | 216–221 | 2009-01-08 | 65 | una sola voz en las 65 filas del plan · **sesión cerrada 65/65** · enero 2009 (Lehmann, Soto, Bernier, García; debate sobre reglas de Taylor e inercia; baja de 100 pb a 7,25 %) · las banderas eran referencias y traspasos (`2258:1`, `2289:2`, `2291:1`, `2291:3`, `2295:1`) · 2 correcciones y 5 marcas · se descubrió que una pasada anterior había dejado un par de comillas **invertido** (`”dilema del prisionero".`), resuelto enmendando la operación existente y añadiendo el cierre: comillas rectas 5→4, y el comentario del techo era inexacto · `yen` exigió ancla larga (75 veces como moneda, 312 coincidencias legítimas en `constituyen`/`excluyen`) · sin tocar: `2292:1` (titular pegado al final), `2262:2` (`Claudia Soto`, tratamiento documental) y `2289:2` (actor truncado: los actores se preservan) (criterio §28) |
 
+| 222–229 | 2014-07-15 | 54 | una sola voz en las 54 filas del plan · **sesión cerrada 54/54** · julio 2014 (Lehmann, Fuentes, Vial, Claro, Vergara, Micco; recorte de 25 pb a 3,75 %) · las banderas eran los traspasos y agradecimientos protocolares del Presidente Vergara · **hallazgo: «tasa de instancia» (58 en 53 filas) NO es un defecto** —`instancia` es jerga nativa usada 89 veces fuera de esa colocución y `273:1` lo dice («como se llamaba entonces»); los dos PDF dan 0, pero son 2 de 131 sesiones y eso no es evidencia contra un término usado 147 veces · de los 16 apóstrofos sueltos del corpus, el de `674:2` **es una comilla de apertura**, no basura: se marcó · 10 correcciones (`Polítíca`→`Política` ×6, 4 apóstrofos limpios) y 1 marca (criterio §29) |
+
 Para anotar una ronda leída:
 
 ```

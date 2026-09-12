@@ -28594,7 +28594,547 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2009-01-08",
       "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2014-07-15:6296:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6296:1",
+      "ID_Padre": "6296",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1559,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6298:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6298:1",
+      "ID_Padre": "6298",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 5228,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6299:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6299:1",
+      "ID_Padre": "6299",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 565,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6300:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6300:1",
+      "ID_Padre": "6300",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 11708,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6301:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6301:1",
+      "ID_Padre": "6301",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 169,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6302:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6302:1",
+      "ID_Padre": "6302",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 306,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6303:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6303:1",
+      "ID_Padre": "6303",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 561,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6304:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6304:1",
+      "ID_Padre": "6304",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 6470,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6305:2": {
+      "ID_Intervencion": "RPM-2014-07-15:6305:2",
+      "ID_Padre": "6305",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2300,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6306:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6306:1",
+      "ID_Padre": "6306",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 2098,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6307:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6307:1",
+      "ID_Padre": "6307",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 488,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6308:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6308:1",
+      "ID_Padre": "6308",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1830,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6308:2": {
+      "ID_Intervencion": "RPM-2014-07-15:6308:2",
+      "ID_Padre": "6308",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 2306,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6309:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6309:1",
+      "ID_Padre": "6309",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 5059,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6310:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6310:1",
+      "ID_Padre": "6310",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 341,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6311:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6311:1",
+      "ID_Padre": "6311",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 1104,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6312:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6312:1",
+      "ID_Padre": "6312",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 281,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6313:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6313:1",
+      "ID_Padre": "6313",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 668,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6314:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6314:1",
+      "ID_Padre": "6314",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 274,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6315:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6315:1",
+      "ID_Padre": "6315",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 1697,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6316:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6316:1",
+      "ID_Padre": "6316",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 248,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6317:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6317:1",
+      "ID_Padre": "6317",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 4239,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6318:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6318:1",
+      "ID_Padre": "6318",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 463,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6319:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6319:1",
+      "ID_Padre": "6319",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2005,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6319:2": {
+      "ID_Intervencion": "RPM-2014-07-15:6319:2",
+      "ID_Padre": "6319",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 215,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6319:3": {
+      "ID_Intervencion": "RPM-2014-07-15:6319:3",
+      "ID_Padre": "6319",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2058,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6320:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6320:1",
+      "ID_Padre": "6320",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6321:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6321:1",
+      "ID_Padre": "6321",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 1459,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6322:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6322:1",
+      "ID_Padre": "6322",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 1139,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6323:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6323:1",
+      "ID_Padre": "6323",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2326,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6324:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6324:1",
+      "ID_Padre": "6324",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1611,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6325:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6325:1",
+      "ID_Padre": "6325",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 933,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6326:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6326:1",
+      "ID_Padre": "6326",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2370,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6326:2": {
+      "ID_Intervencion": "RPM-2014-07-15:6326:2",
+      "ID_Padre": "6326",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 246,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6326:3": {
+      "ID_Intervencion": "RPM-2014-07-15:6326:3",
+      "ID_Padre": "6326",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 151,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6327:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6327:1",
+      "ID_Padre": "6327",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 355,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6328:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6328:1",
+      "ID_Padre": "6328",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3748,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6329:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6329:1",
+      "ID_Padre": "6329",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3995,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6330:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6330:1",
+      "ID_Padre": "6330",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 194,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6331:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6331:1",
+      "ID_Padre": "6331",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 221,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6331:2": {
+      "ID_Intervencion": "RPM-2014-07-15:6331:2",
+      "ID_Padre": "6331",
+      "Actor": "Alejandro Micco",
+      "Caracteres": 4861,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6331:3": {
+      "ID_Intervencion": "RPM-2014-07-15:6331:3",
+      "ID_Padre": "6331",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 314,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6332:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6332:1",
+      "ID_Padre": "6332",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 3919,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6333:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6333:1",
+      "ID_Padre": "6333",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6334:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6334:1",
+      "ID_Padre": "6334",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2269,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6335:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6335:1",
+      "ID_Padre": "6335",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6336:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6336:1",
+      "ID_Padre": "6336",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 4450,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6337:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6337:1",
+      "ID_Padre": "6337",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 176,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6338:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6338:1",
+      "ID_Padre": "6338",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 4522,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6339:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6339:1",
+      "ID_Padre": "6339",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 3238,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6340:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6340:1",
+      "ID_Padre": "6340",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 2466,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6340:2": {
+      "ID_Intervencion": "RPM-2014-07-15:6340:2",
+      "ID_Padre": "6340",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 887,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6340:3": {
+      "ID_Intervencion": "RPM-2014-07-15:6340:3",
+      "ID_Padre": "6340",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2394,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-07-15:6341:1": {
+      "ID_Intervencion": "RPM-2014-07-15:6341:1",
+      "ID_Padre": "6341",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 83,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-07-15",
+      "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
     }
   },
-  "Total_Leidas": 2512
+  "Total_Leidas": 2566
 }
