@@ -1338,6 +1338,48 @@ De paso, la lectura produjo una corrección: `1347:1` terminaba en
 misma familia de las 33 barras invertidas sueltas que §22 dejó sin tocar por ser más sucia; ésta se
 pudo resolver porque el residuo está al final de la fila y la oración anterior está completa.
 
-Estado tras §24: **1.391 filas corregidas, 2.278 operaciones, 195 marcadas, `Texto` intacto en las
-9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **30 de 131**; filas leídas **2.287 de
+## 25. Una sesión de debate, y tres finales que piden tres veredictos distintos
+
+La sesión `2005-04-07` (rondas 197-201, 59 filas) es lo contrario de la anterior: un debate con
+turnos cortos alternados —`207:1` hasta `207:12` es una sola discusión partida en doce tramos—, o
+sea el caso de muchos hablantes que motivó el eje. Los cortes ya estaban hechos; la lectura los
+confirma. Veredicto: **una sola voz por fila en las 59**.
+
+### Tres verbos que parecen cambio de turno y no lo son
+
+- **«acota»**. En `202:2` y `204:3` es el verbo *limitar*: «acota el riesgo de que la expansión
+  tome aun mayor fuerza», «el dólar… acota en parte el efecto inflacionario». No es «acota un
+  comentario». Buscar el verbo sin leer la oración habría marcado dos falsos positivos.
+- **«consulta»**. En `204:3`, «**En respuesta a la consulta de la señora Consejera**, el Gerente…
+  señor García, indica que…»: la consulta es de Ovalle pero es una **referencia**, y todo lo que
+  sigue es de García, que es el hablante de la fila.
+- **«interviene»**. En `211:1`, «el señor García, **interviene** para señalar que…»: presenta el
+  turno del propio García, que es a quien está atribuida la fila.
+
+La regla que queda: un verbo de turno sólo delata una segunda voz **si introduce a alguien que no
+es el hablante de la fila**.
+
+### Tres finales rotos, tres decisiones distintas
+
+Al revisar las filas que terminan mal aparecieron tres cosas que se parecen y no son lo mismo:
+
+| fila | final | qué es | decisión |
+|---|---|---|---|
+| `203:2` | `…a considerar. '1^` | basura de escaneo después de un punto completo | **quitar** |
+| `207:9` | `…asalariados. \` | barra invertida suelta después de un punto | **quitar** |
+| `210:2` | `…hace un mes atrás. Y` | una conjunción que abría una cláusula perdida | **marcar** |
+| `213:2` | `…evaluación posible. Perspectivas de inflación en el corto plazo` | un titular de sección pegado al final | **no tocar** |
+
+La distinción que importa es la tercera fila contra las dos primeras. `'1^` y `\` no significan
+nada; borrarlos no pierde información. **«Y» sí significa algo**: es la prueba de que se cortó
+texto. Borrarla dejaría la fila con un final limpio y **ocultaría el corte**, que es justamente lo
+que la columna `Cotejar_PDF` existe para señalar. Un residuo y una truncación se ven parecidos en
+el byte y son opuestos en el significado.
+
+La cuarta es de otro eje: el titular es texto real del acta, no un glifo dañado. Quitarlo sería
+una decisión de segmentación, y el criterio pide evidencia y decisión acotada para eso, no una
+limpieza de pasada.
+
+Estado tras §25: **1.392 filas corregidas, 2.280 operaciones, 196 marcadas, `Texto` intacto en las
+9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **31 de 131**; filas leídas **2.346 de
 9.723**.

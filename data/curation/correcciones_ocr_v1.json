@@ -12429,6 +12429,13 @@
           "Ocurrencias": 1,
           "Contexto": " cambios respecto del trimestre móvil anterior. El crecimiento anual, en tanto, llego a 3,2%, equivalente a 180 mil puestos de trabajo. Por categorí",
           "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ajadores ocupados asalariados. \\",
+          "Despues": "ajadores ocupados asalariados.",
+          "Contexto": "ta a 35% si se considera solo a los trabajadores ocupados asalariados. \\",
+          "Justificacion": "Barra invertida suelta después del punto final, sin relación con el texto. Es de la familia de las 33 barras invertidas que no forman la secuencia con barra común (§22). Encontrado al leer la sesión 2005-04-07 (§25)."
         }
       ]
     },
@@ -26434,6 +26441,18 @@
           "Justificacion": "Residuo de escaneo al final de la fila: «Lf» más una barra invertida colgando después del punto final, sin relación con el texto. La oración anterior está completa. Encontrado al leer la sesión 2007-07-12 para el eje multihablante (§24)."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:203:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "o es un elemento a considerar. '1^",
+          "Despues": "o es un elemento a considerar.",
+          "Contexto": "que indudablemente el precio del petróleo es un elemento a considerar. '1^",
+          "Justificacion": "Residuo de escaneo después del punto final: una comilla, un 1 y un acento circunflexo colgando. La oración anterior está completa. Encontrado al leer la sesión 2005-04-07 para el eje multihablante (§25)."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -27594,6 +27613,12 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "El tramo «lí\\/IACEC» debería ser un índice de precios, pero «IACEC» aparece una sola vez en todo el corpus (ésta) y las candidatas son IPCX1 (458 veces) o IPCSAE (55). Con dos lecturas plausibles y sin PDF de la sesión no se elige: se marca.",
       "Texto_Original_Fragmento": "lí\\/IACEC es n"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:210:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "La fila termina en la conjunción «Y» sola, sin continuación: la cláusula que abría se perdió en el escaneo. No es un glifo suelto que se pueda borrar —borrarlo taparía el corte— y no hay forma de saber qué seguía sin el acta original. Se marca para cotejo.",
+      "Texto_Original_Fragmento": "mayor que la velocidad a la cual percibíamos que se estaba reduciendo hace un mes atrás. Y"
     }
   ],
   "Marcas_Adicionales": [
