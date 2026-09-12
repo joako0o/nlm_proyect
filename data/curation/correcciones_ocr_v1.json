@@ -26422,6 +26422,18 @@
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-07-12:1347:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "s para proceder a la votación. Lf \\",
+          "Despues": "s para proceder a la votación.",
+          "Contexto": "frece la palabra a los señores Consejeros para proceder a la votación. Lf \\",
+          "Justificacion": "Residuo de escaneo al final de la fila: «Lf» más una barra invertida colgando después del punto final, sin relación con el texto. La oración anterior está completa. Encontrado al leer la sesión 2007-07-12 para el eje multihablante (§24)."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [

@@ -1305,6 +1305,39 @@ virgen, así que leerlo sin comparar lleva a "descubrir" defectos ya corregidos.
 
 La sesión `2007-07-12` quedó con las rondas 191-196 pendientes; se anota para no saltearlas.
 
-Estado tras §23: **1.390 filas corregidas, 2.277 operaciones, 195 marcadas (159 abiertas + 34
-cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio. El detector de palabras
-partidas da 0 sobre la salida nueva.
+## 24. Qué se mira para decidir que una fila tiene una sola voz
+
+La sesión `2007-07-12` se cerró con las rondas 193-196 (16 filas). Todas de una sola voz. Como el
+veredicto es negativo, conviene dejar escrito **qué se miró**, porque «no encontré nada» sin
+método no se distingue de «no miré».
+
+Para cada fila:
+
+1. **Cómo termina.** En estas actas cada intervención cierra con la conclusión de su propio
+   hablante —su voto («su voto es por subir la Tasa… en 25 puntos base») o su síntesis («En suma,
+   el Consejero señor X indica que…»). Una fila con dos voces suele terminar en medio de una idea
+   o con la voz equivocada.
+2. **Nombres de otros consejeros.** Se cuentan. Que aparezcan no prueba nada: hay que leer cada
+   aparición.
+3. **Verbos de turno**: pregunta, responde, replica, interviene, consulta, toma la palabra.
+
+Los tres casos que hubo que leer antes de firmar:
+
+- `1347:2` tiene `responde` una vez, y es verbo común: «este cambio en el panorama inflacionario
+  **responde** principalmente a choques de precios».
+- `1347:2` menciona `Marshall` diez veces, y las diez son **el propio hablante en tercera
+  persona** («Señala el Consejero señor Marshall que…»), que es el estilo de redacción del acta.
+  Contar nombres sin leerlos habría dado un falso positivo de diez.
+- `1349:1` menciona `Marshall` una vez: «como señalaba el Consejero señor Enrique Marshall, no
+  sería coherente con el mensaje…». Es una **referencia** a algo dicho antes, no una
+  intervención. El criterio ya lo decía —una mención, un pase de palabra, una llegada, una
+  bienvenida no son intervención— y aquí se ve en la práctica.
+
+De paso, la lectura produjo una corrección: `1347:1` terminaba en
+`…para proceder a la votación. Lf \` —residuo de escaneo colgando después del punto final. Es la
+misma familia de las 33 barras invertidas sueltas que §22 dejó sin tocar por ser más sucia; ésta se
+pudo resolver porque el residuo está al final de la fila y la oración anterior está completa.
+
+Estado tras §24: **1.391 filas corregidas, 2.278 operaciones, 195 marcadas, `Texto` intacto en las
+9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **30 de 131**; filas leídas **2.287 de
+9.723**.
