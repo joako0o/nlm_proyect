@@ -27944,7 +27944,657 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2008-10-09",
       "Justificacion": "Sesion leida completa (rondas 210-215, 43 filas). Sesion de crisis financiera internacional: presentaciones de Jaque, Garcia, Cowan, debate y votacion (mantencion en 8,25%). Las banderas de segunda voz eran falsas: 2105:1 es De Gregorio anunciando que Jaque reemplazara a Lehmann (un traspaso, y 2105:2 ya es la fila de Jaque); 2110:1 es Garcia aclarando en nombre propio; y las coincidencias de verbos de turno eran de substring (corresponden/corresponde contienen responde, acotada contiene acota); 2125:1 es el Presidente consultando a Claro si se suma al voto, cuya respuesta ya esta separada en 2126:1. Ninguna fila requiere corte. Eje OCR: 16 correcciones y 3 marcas, mas dos familias transversales que aparecieron aqui (Sanco->Banco, hora con punto y coma) (§27)."
+    },
+    "RPM-2009-01-08:2255:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2255:1",
+      "ID_Padre": "2255",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1459,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2257:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2257:2",
+      "ID_Padre": "2257",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 4862,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2258:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2258:1",
+      "ID_Padre": "2258",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 505,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2258:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2258:2",
+      "ID_Padre": "2258",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1277,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2259:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2259:1",
+      "ID_Padre": "2259",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 827,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2260:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2260:1",
+      "ID_Padre": "2260",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 698,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2260:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2260:2",
+      "ID_Padre": "2260",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1306,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2260:3": {
+      "ID_Intervencion": "RPM-2009-01-08:2260:3",
+      "ID_Padre": "2260",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1924,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2261:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2261:1",
+      "ID_Padre": "2261",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 7139,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2261:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2261:2",
+      "ID_Padre": "2261",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 691,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2261:3": {
+      "ID_Intervencion": "RPM-2009-01-08:2261:3",
+      "ID_Padre": "2261",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 576,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2262:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2262:1",
+      "ID_Padre": "2262",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 170,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2262:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2262:2",
+      "ID_Padre": "2262",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 115,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2263:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2263:1",
+      "ID_Padre": "2263",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 243,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2263:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2263:2",
+      "ID_Padre": "2263",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 795,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2264:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2264:1",
+      "ID_Padre": "2264",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 415,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2265:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2265:1",
+      "ID_Padre": "2265",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 407,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2266:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2266:1",
+      "ID_Padre": "2266",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 163,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2266:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2266:2",
+      "ID_Padre": "2266",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 288,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2267:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2267:1",
+      "ID_Padre": "2267",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 827,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2268:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2268:1",
+      "ID_Padre": "2268",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 598,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2269:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2269:1",
+      "ID_Padre": "2269",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 312,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2270:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2270:1",
+      "ID_Padre": "2270",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 546,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2271:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2271:1",
+      "ID_Padre": "2271",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 764,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2271:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2271:2",
+      "ID_Padre": "2271",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 698,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2272:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2272:1",
+      "ID_Padre": "2272",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 685,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2272:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2272:2",
+      "ID_Padre": "2272",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 629,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2273:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2273:1",
+      "ID_Padre": "2273",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 904,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2274:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2274:1",
+      "ID_Padre": "2274",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 298,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2274:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2274:2",
+      "ID_Padre": "2274",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 666,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2274:3": {
+      "ID_Intervencion": "RPM-2009-01-08:2274:3",
+      "ID_Padre": "2274",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 163,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2275:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2275:1",
+      "ID_Padre": "2275",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 154,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2276:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2276:1",
+      "ID_Padre": "2276",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 459,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2277:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2277:1",
+      "ID_Padre": "2277",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 570,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2277:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2277:2",
+      "ID_Padre": "2277",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 261,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2278:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2278:1",
+      "ID_Padre": "2278",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 103,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2279:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2279:1",
+      "ID_Padre": "2279",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 65,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2280:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2280:1",
+      "ID_Padre": "2280",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 265,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2280:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2280:2",
+      "ID_Padre": "2280",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 690,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2281:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2281:1",
+      "ID_Padre": "2281",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 566,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2281:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2281:2",
+      "ID_Padre": "2281",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1236,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2282:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2282:1",
+      "ID_Padre": "2282",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 72,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2283:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2283:1",
+      "ID_Padre": "2283",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 124,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2284:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2284:1",
+      "ID_Padre": "2284",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 542,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2285:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2285:1",
+      "ID_Padre": "2285",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1182,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2286:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2286:1",
+      "ID_Padre": "2286",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 508,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2287:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2287:1",
+      "ID_Padre": "2287",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 274,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2288:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2288:1",
+      "ID_Padre": "2288",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 232,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2289:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2289:1",
+      "ID_Padre": "2289",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 637,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2289:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2289:2",
+      "ID_Padre": "2289",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Caracteres": 818,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2290:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2290:1",
+      "ID_Padre": "2290",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 789,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2290:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2290:2",
+      "ID_Padre": "2290",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2291:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2291:1",
+      "ID_Padre": "2291",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 319,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2291:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2291:2",
+      "ID_Padre": "2291",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 11713,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2291:3": {
+      "ID_Intervencion": "RPM-2009-01-08:2291:3",
+      "ID_Padre": "2291",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 181,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2292:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2292:1",
+      "ID_Padre": "2292",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 1563,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2293:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2293:1",
+      "ID_Padre": "2293",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 75,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2293:2": {
+      "ID_Intervencion": "RPM-2009-01-08:2293:2",
+      "ID_Padre": "2293",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 6014,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2294:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2294:1",
+      "ID_Padre": "2294",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 7425,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2295:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2295:1",
+      "ID_Padre": "2295",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 6386,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2296:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2296:1",
+      "ID_Padre": "2296",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 4452,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2297:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2297:1",
+      "ID_Padre": "2297",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 480,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2298:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2298:1",
+      "ID_Padre": "2298",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 3495,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2299:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2299:1",
+      "ID_Padre": "2299",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1892,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
+    },
+    "RPM-2009-01-08:2300:1": {
+      "ID_Intervencion": "RPM-2009-01-08:2300:1",
+      "ID_Padre": "2300",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 159,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-01-08",
+      "Justificacion": "Sesion leida completa (rondas 216-221, 65 filas). Sesion de enero 2009: presentaciones de Lehmann, Soto, Bernier y Garcia, debate amplio sobre reglas de Taylor e inercia, y votacion por bajar 100 puntos base a 7,25%. Todas las banderas de segunda voz eran referencias o traspasos: 2258:1 Claro consulta a Lehmann, 2289:2 Céspedes responde a Marfán, 2291:1 y 2291:3 De Gregorio cede y agradece a Garcia, 2295:1 Marfán alude a la quiebra de Lehmann Brothers. Ninguna fila requiere corte. Se detectaron dos falsos positivos de substring en el pre-cernido. Eje OCR: 2 correcciones y 5 marcas (§28); sin tocar 2292:1 (titular votación pegado al final), 2262:2 (Claudia Soto, tratamiento documental) y 2289:2 (actor truncado, los actores se preservan)."
     }
   },
-  "Total_Leidas": 2447
+  "Total_Leidas": 2512
 }

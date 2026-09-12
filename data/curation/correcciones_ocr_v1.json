@@ -2643,9 +2643,17 @@
         {
           "Tipo": "PUNTUACION",
           "Antes": " \"",
-          "Despues": " ”",
+          "Despues": " “",
           "Contexto": "emán Heinrich von Stackelberg, o de acuerdo al esquema de un \"dilema del prisionero\". Sin perjuicio de ello, res",
-          "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+          "Justificacion": "Enmienda de dirección, no operación nueva. La base trae «\"dilema del prisionero\".» con las DOS comillas rectas; esta operación convirtió la primera en «”», que es comilla de CIERRE, cuando es la de apertura. El par quedaba «”dilema del prisionero\".»: invertido y sin cerrar. Se corrige a «“» y el cierre va como operación propia sobre «prisionero\".»; no se apilan porque las dos anclas caen sobre el mismo par (§28)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "prisionero\".",
+          "Despues": "prisionero”.",
+          "Ocurrencias": 1,
+          "Contexto": "n Heinrich von Stackelberg, o de acuerdo al esquema de un \"dilema del prisionero\". Sin perjuicio de ello, resalta que la consolidación fiscal debiera pr",
+          "Justificacion": "El par «\"dilema del prisionero\".» traía las DOS comillas rectas en la base. Una pasada anterior convirtió la primera en «”», o sea en comilla de CIERRE, cuando es la de apertura: quedó «”dilema del prisionero\".». Esta operación cierra el par; la dirección de la primera se corrige enmendando la operación existente (« \"» -> « “»), no apilando, porque ambas anclas caen sobre el mismo par. Es la única de las 5 comillas rectas restantes con dirección deducible sin adivinar dónde termina la cita (§28)."
         }
       ]
     },
@@ -17966,6 +17974,14 @@
           "Ocurrencias": 1,
           "Contexto": "r ellmacec y ajustar la estimación del año y que para proyectar el trimestre se requ iere de un modelo más acabado yen su opinión el foco no se e",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 205 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "acabado yen su opinión",
+          "Despues": "acabado y en su opinión",
+          "Ocurrencias": 1,
+          "Contexto": "l año y que para proyectar el trimestre se requ iere de un modelo más acabado yen su opinión el foco no se encuentra ahí.",
+          "Justificacion": "Falta el espacio entre la conjunción y la preposición: «un modelo más acabado y en su opinión el foco no se encuentra ahí». El ancla es deliberadamente larga porque «yen» es peligroso: aparece 75 veces como moneda japonesa y el patrón [a-z]yen da 312 coincidencias legítimas (constituyen, excluyen, atribuyen). Aquí «acabado yen» no admite lectura verbal, así que el espacio falta. Tipo ESPACIO_FALTANTE."
         }
       ]
     },
@@ -28047,6 +28063,36 @@
       "ID_Intervencion": "RPM-2008-10-09:2121:1",
       "Texto_Original_Fragmento": "para proceder a la",
       "Motivo": "TRUNCADO. La fila termina en «...para proceder a la», sin cerrar la frase. Es texto perdido, no un residuo: borrarlo dejaria un final limpio y ocultaria el corte, igual que el «Y» sola de §25. Se marca y no se toca.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2293:1",
+      "Texto_Original_Fragmento": "para proceder a la",
+      "Motivo": "TRUNCADO. La fila completa es «El Presidente ofrece la palabra a los señores Consejeros para proceder a la», sin cerrar la frase. Es texto perdido, no un residuo: borrarlo dejaría un final limpio y ocultaría el corte, igual que el «Y» sola de §25 y el 2121:1 de §27, que es la misma frase partida en el mismo punto. Se marca y no se toca.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2299:1",
+      "Texto_Original_Fragmento": "Comunicado “En su reunión mensual",
+      "Motivo": "FALTA LA COMILLA DE CIERRE. La fila abre la cita del Comunicado con «“» y termina en «...se ubique en 3% en el horizonte de política.» sin cerrarla: “=1, ”=0 tanto en la base como en la salida. La siguiente fila (2300:1) ya es «El Consejo aprueba el texto del Comunicado», así que el texto no continúa. Agregar el signo sería adivinar si el original lo traía; pertenece a la familia de comillas desbalanceadas que sigue sin resolución de fondo. Se marca.",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2255:1",
+      "Texto_Original_Fragmento": "Economista Señor, doña Erika Arraño",
+      "Motivo": "AMBIGUO. «Economista Señor» es «Economista Senior» dañado: el corpus trae «Senior,» 73 veces y «Sénior,» 64 contra 4 dañadas («Señor,» 3 y «Seníor,» 1). El defecto es seguro pero el destino no: las dos grafías correctas están casi empatadas (77 contra 79), así que elegir una sería intuición. §16 estableció que los acentos no se tocan sin fuente. Mismo criterio que el «Seníor» de 2101:1 (§27). Se marca.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2803:1",
+      "Texto_Original_Fragmento": "Economista Señor",
+      "Motivo": "Mismo defecto y misma ambigüedad que en 2255:1: «Senior,» 73 y «Sénior,» 64 contra 4 dañadas; el destino no se puede elegir sin fuente (§28).",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2010-01-14:2841:1",
+      "Texto_Original_Fragmento": "Economista Señor",
+      "Motivo": "Mismo defecto y misma ambigüedad que en 2255:1 (§28).",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],

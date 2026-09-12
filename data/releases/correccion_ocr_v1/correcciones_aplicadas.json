@@ -1,14 +1,14 @@
 {
   "Total_Filas_Corregidas": 1399,
-  "Total_Operaciones": 2327,
-  "Total_Filas_Marcadas_Para_Cotejo": 199,
+  "Total_Operaciones": 2329,
+  "Total_Filas_Marcadas_Para_Cotejo": 204,
   "Marcas_Por_Tipo": {
     "CARGO_EN_DISCURSO_POR_COTEJAR": 1,
     "CIFRA_INCONSISTENTE_POR_COTEJAR": 14,
     "NOMBRE_PROPIO_POR_COTEJAR": 62,
-    "RECONSTRUCCION_AMBIGUA_POR_COTEJAR": 61,
+    "RECONSTRUCCION_AMBIGUA_POR_COTEJAR": 65,
     "RESERVA_ABIERTA_POR_COTEJO": 6,
-    "SIGNO_AUSENTE_POR_COTEJAR": 15,
+    "SIGNO_AUSENTE_POR_COTEJAR": 16,
     "TEXTO_DANADO_POR_COTEJAR": 51
   },
   "Filas_Corregidas": [
@@ -1511,6 +1511,9 @@
     "RPM-2008-10-09:2121:1",
     "RPM-2008-12-11:2218:1",
     "RPM-2008-12-11:2237:2",
+    "RPM-2009-01-08:2255:1",
+    "RPM-2009-01-08:2293:1",
+    "RPM-2009-01-08:2299:1",
     "RPM-2009-03-12:2396:2",
     "RPM-2009-03-12:2400:1",
     "RPM-2009-03-12:2402:1",
@@ -1529,7 +1532,9 @@
     "RPM-2009-09-08:2695:1",
     "RPM-2009-09-08:2701:1",
     "RPM-2009-11-12:2788:5",
+    "RPM-2009-12-15:2803:1",
     "RPM-2009-12-15:2803:2",
+    "RPM-2010-01-14:2841:1",
     "RPM-2010-01-14:2885:3",
     "RPM-2010-02-11:2938:2",
     "RPM-2010-02-11:2948:2",

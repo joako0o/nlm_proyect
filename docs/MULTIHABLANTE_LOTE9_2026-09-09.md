@@ -356,6 +356,8 @@ Para leer una sesión entera al margen del plan:
 
 | 210–215 | 2008-10-09 | 43 | una sola voz en las 43 filas del plan · **sesión cerrada 43/43** · sesión de la crisis financiera (Jaque, García, Cowan, debate y votación, mantención en 8,25 %) · las banderas eran un traspaso (`2105:1` De Gregorio anuncia que Jaque reemplaza a Lehmann; `2105:2` ya es la fila de Jaque), una aclaración en nombre propio (`2110:1`) y coincidencias de **substring**: `corresponden`/`corresponde` contienen «responde» y `acotada` contiene «acota» · 16 correcciones y 3 marcas, más dos familias transversales: `Sanco`→`Banco` (7 filas, leídas una por una) y la hora con punto y coma (6) · se confirmó que la guarda de `detector_partida` **no** debe abrirse: relajarla daría 23 candidatas con 5 falsos positivos graves (`con sumo cuidado`→`consumo`), y 4 pruebas nuevas fijan los contraejemplos (criterio §27) |
 
+| 216–221 | 2009-01-08 | 65 | una sola voz en las 65 filas del plan · **sesión cerrada 65/65** · enero 2009 (Lehmann, Soto, Bernier, García; debate sobre reglas de Taylor e inercia; baja de 100 pb a 7,25 %) · las banderas eran referencias y traspasos (`2258:1`, `2289:2`, `2291:1`, `2291:3`, `2295:1`) · 2 correcciones y 5 marcas · se descubrió que una pasada anterior había dejado un par de comillas **invertido** (`”dilema del prisionero".`), resuelto enmendando la operación existente y añadiendo el cierre: comillas rectas 5→4, y el comentario del techo era inexacto · `yen` exigió ancla larga (75 veces como moneda, 312 coincidencias legítimas en `constituyen`/`excluyen`) · sin tocar: `2292:1` (titular pegado al final), `2262:2` (`Claudia Soto`, tratamiento documental) y `2289:2` (actor truncado: los actores se preservan) (criterio §28) |
+
 Para anotar una ronda leída:
 
 ```

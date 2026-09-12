@@ -5,8 +5,8 @@ vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 - filas corregidas: **1399**
-- operaciones: **2327**
-- filas marcadas para cotejo: **199**
+- operaciones: **2329**
+- filas marcadas para cotejo: **204**
 - sha256 de la base: `d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75`
 
 ## Operaciones por tipo
@@ -18,12 +18,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 | `PALABRA_PARTIDA` | 417 |
 | `ACENTO_INDEBIDO` | 348 |
 | `ACENTO_FALTANTE` | 182 |
-| `PUNTUACION` | 112 |
+| `PUNTUACION` | 113 |
 | `SIMBOLO_SUELTO` | 88 |
 | `FIRMA_TRUNCADA` | 55 |
 | `PALABRA_ERRONEA` | 28 |
 | `RESIDUO_PAGINACION` | 27 |
-| `ESPACIO_FALTANTE` | 24 |
+| `ESPACIO_FALTANTE` | 25 |
 | `PALABRA_OMITIDA` | 22 |
 | `SALTOS_DE_LINEA` | 10 |
 | `PALABRA_DUPLICADA` | 3 |

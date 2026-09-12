@@ -1517,4 +1517,69 @@ Estado tras §27: **1.399 filas corregidas, 2.327 operaciones, 199 marcadas, `Te
 las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **33 de 131**; filas leídas
 **2.447 de 9.723**.
 
+---
+
+## §28. Una corrección anterior que dejó el par invertido, y `COALESCE` al verificar
+
+Sesión `2009-01-08` (rondas 216–221, 65 filas). Enero de 2009: Lehmann, Soto, Bernier y García,
+debate largo sobre reglas de Taylor e inercia, y votación por bajar 100 puntos base a 7,25 %.
+Las 65 filas son de una sola voz; las banderas eran referencias y traspasos (`2258:1` Claro
+consulta a Lehmann, `2289:2` Céspedes responde a Marfán, `2291:1`/`2291:3` De Gregorio cede y
+agradece a García, `2295:1` Marfán alude a la quiebra de Lehmann Brothers).
+
+### El par de comillas invertido
+
+`6967:1` traía en la base `"dilema del prisionero".` — **las dos comillas rectas**. Una pasada
+anterior (§6/§9 bis) registró la operación `" "` → `" ”"` y convirtió la **primera**, que es la de
+apertura, en comilla de **cierre**. El resultado en la salida era `”dilema del prisionero".`:
+invertido y sin cerrar. Se resolvió en dos piezas que no se podían apilar:
+
+- **enmendar** la operación existente a `" "` → `" “"` (cambiar la dirección);
+- **añadir** `prisionero".` → `prisionero”.` (cerrar el par).
+
+No se apilaron las dos sobre la misma ancla porque ambas caen sobre el mismo par. Las comillas
+rectas del corpus bajaron **5 → 4**, y el comentario de `COMILLAS_RECTAS_MAX` resultó inexacto:
+decía que las restantes no tenían «dirección deducible», y dos sí la tienen —lo que les falta es
+la otra mitad del par (`2417:1` `serrucho".` sin apertura, `2430:1` `aplicando "mecánicamente`
+sin cierre). Convertir una comilla suelta sin su par no arregla nada y puede equivocarse, así que
+se quedan. El techo bajó a 4.
+
+### `yen` y el ancla larga
+
+`2265:1`: `un modelo más acabado yen su opinión`. Falta el espacio entre conjunción y
+preposición. El ancla tuvo que ser larga a propósito: **`yen` aparece 75 veces como moneda
+japonesa** y el patrón `[a-z]yen` da **312 coincidencias legítimas** (`constituyen`, `excluyen`,
+`atribuyen`). Un reemplazo corto habría destrozado el corpus. Aquí `acabado yen` no admite
+lectura verbal, así que el espacio falta.
+
+### Verificar con `COALESCE`, o el conteo miente
+
+Al comprobar el resultado conté **1** comilla recta en la release y casi concluyo que habían
+desaparecido cuatro. Era mi script: leía `Texto_Corregido`, que está **vacío en las 8.324 filas
+sin corregir**. Con `COALESCE(Texto_Corregido, Texto)` el conteo correcto es **4**. La regla ya
+estaba escrita y aun así cayó: cualquier verificación sobre la release tiene que hacer el
+`COALESCE`, no leer la columna de corrección sola.
+
+### Lo que no se tocó
+
+- `2292:1` termina en `…durante el transcurso del último mes. votación.` — el **titular** de la
+  sección siguiente pegado al final, igual que `2120:1` (§27) y `213:2` (§25). Segmentación.
+- `2262:2` «El Gerente señor **Claudia Soto** hace presente…» — tratamiento documental. La
+  instrucción es no resolver alias por intuición; se deja tal cual.
+- `2289:2` tiene el actor truncado (`Luis Felipe Céspedes Cifue`) en el **campo de actor**, no en
+  el texto. Los actores se preservan verbatim: no se tocan.
+
+### Marcas nuevas
+
+| fila | marca | por qué |
+|---|---|---|
+| `2293:1` | `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` | «…para proceder a la», truncada; **la misma frase partida en el mismo punto** que `2121:1` (§27) |
+| `2299:1` | `SIGNO_AUSENTE_POR_COTEJAR` | el Comunicado abre con `“` y nunca cierra (`“`=1, `”`=0); la fila siguiente ya es otra cosa, así que el texto no continúa |
+| `2255:1`, `2803:1`, `2841:1` | `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` | «Economista Señor» por «Senior»: el defecto es seguro (`Senior,` 73 + `Sénior,` 64 contra 4 dañadas) pero **el destino no** — las dos grafías correctas están 77 a 79 |
+
+Estado tras §28: **1.399 filas corregidas, 2.329 operaciones, 204 marcadas, `Texto` intacto en
+las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **34 de 131**; filas leídas
+**2.512 de 9.723**.
+
+
 
