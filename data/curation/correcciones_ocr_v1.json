@@ -13006,6 +13006,126 @@
           "Despues": "manteniendo",
           "Contexto": "s últimos treinta días. De hecho los futuros si bien siguen m anteniendo una tendencia positiva, están algo por debajo de lo que era",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 84 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "n o tic ia s",
+          "Despues": "noticias",
+          "Ocurrencias": 1,
+          "Contexto": "a el Gerente de Análisis Internacional que en Japón, en el margen las n o tic ia s han sido negativas. Sin embargo, la producción industrial muestra sig",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 944 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "s o b re",
+          "Despues": "sobre",
+          "Ocurrencias": 1,
+          "Contexto": ". Sin embargo, la producción industrial muestra signos positivos, por s o b re lo que se esperaba, y el mercado laboral también ha mostrado cifras q",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 4493 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "c a y e n d o",
+          "Despues": "cayendo",
+          "Ocurrencias": 1,
+          "Contexto": "ejores que lo previsto. Indica que la tasa de desempleo ha continuado c a y e n d o y eso podría dar sustento al consumo hacía delante. No obstante lo an",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 239 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "e sp e ra ría",
+          "Despues": "esperaría",
+          "Ocurrencias": 1,
+          "Contexto": "ía dar sustento al consumo hacía delante. No obstante lo anterior, se e sp e ra ría una desaceleración en el crecimiento en los próximos trimestres. Refe",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 33 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "T a m b ié n",
+          "Despues": "También",
+          "Ocurrencias": 1,
+          "Contexto": "nte que es algo por encima de la que se proyectaba hace un mes atrás. T a m b ié n se observa cómo han evolucionado los futuros marginalmente hacia el a",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 4809 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "c o rre g ir",
+          "Despues": "corregir",
+          "Ocurrencias": 1,
+          "Contexto": ", que está por sobre lo que se anticipaba hace un mes atrás, se van a c o rre g ir a US$ 315 centavos la libra para este año y US$ 275 para el próximo. ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 121 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "C o m isió n",
+          "Despues": "Comisión",
+          "Ocurrencias": 1,
+          "Contexto": "tavos la libra para este año y US$ 275 para el próximo. Indica que la C o m isió n Chilena del Cobre elevó su proyección a US$ 320 y US$ 270 para el pró",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 26 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "q u e",
+          "Despues": "que",
+          "Ocurrencias": 3,
+          "Contexto": " Cobre elevó su proyección a US$ 320 y US$ 270 para el próximo año, y q u e Goldman Sachs también lo hizo, y que, en general, se aprecia una tend",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 100805 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "a lz a",
+          "Despues": "alza",
+          "Ocurrencias": 1,
+          "Contexto": "ién lo hizo, y que, en general, se aprecia una tendencia a revisar al a lz a las proyecciones del precio del cobre. El Gerente señor Lehmann en lo",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 2951 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "v o lv ió",
+          "Despues": "volvió",
+          "Ocurrencias": 1,
+          "Contexto": "atilidad. Indica que primero tendió a aumentar, posteriormente se d e v o lv ió y en términos netos no se observa un cambio demasiado significativo, ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 134 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "d e riv a d o",
+          "Despues": "derivado",
+          "Ocurrencias": 1,
+          "Contexto": "etos no se observa un cambio demasiado significativo, sí en el precio d e riv a d o de estos movimientos. La caída más reciente se asocia fundamentalment",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 55 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "en to rn o",
+          "Despues": "entorno",
+          "Ocurrencias": 1,
+          "Contexto": "ha llevado a niveles más bajos. Indica que hoy el petróleo BTI estaba en to rn o a US$ 70 dólares por barril, lo cual revela que hay una expectativa e",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 226 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "d e m an da",
+          "Despues": "demanda",
+          "Ocurrencias": 1,
+          "Contexto": "arril, lo cual revela que hay una expectativa eventual de ajuste a la d e m an da hacia delante. Esta nueva trayectoria sugiere elevar la proyección a ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 2855 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "e s te",
+          "Despues": "este",
+          "Ocurrencias": 1,
+          "Contexto": "te. Esta nueva trayectoria sugiere elevar la proyección a US$ 68 para e s te año, en función de los datos que se han observado recientemente y hac",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 5944 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "ha sta",
+          "Despues": "hasta",
+          "Ocurrencias": 1,
+          "Contexto": " estas cifras pudiesen ser revisadas, pero de todas maneras, al menos ha sta hace algunos días atrás, la tendencia general era a revisar hacia el ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1512 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     },
@@ -14618,6 +14738,14 @@
           "Ocurrencias": 1,
           "Contexto": "ñor Gerente que vale la pena notar que si bien afortunadamente esto no se ve en ios plazos más largos, sí se observa para un horizonte más ",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "com o",
+          "Despues": "como",
+          "Ocurrencias": 1,
+          "Contexto": "co de un crecimiento de actividad más rápido en el segundo trimestre, com o también las nuevas sorpresas en la tasa de desempleo que sigue cayend",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 5931 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     },
@@ -16900,6 +17028,70 @@
           "Despues": "magnitud",
           "Contexto": "de capacidad en el curso del segundo trimestre y shocks, de m agnitud inusual, en precios de productos específicos, exacerbado, e",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 597 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "e fe c to",
+          "Despues": "efecto",
+          "Ocurrencias": 1,
+          "Contexto": "ecios de productos específicos, exacerbado, en esta coyuntura, por el e fe c to de fenómenos climáticos en los precios de los perecibles. Ello intens",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1774 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m a y o r",
+          "Despues": "mayor",
+          "Ocurrencias": 1,
+          "Contexto": "os en los precios de los perecibles. Ello intensifica el escenario de m a y o r inflación de corto plazo que ya se había delineado en el último par d",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 4466 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "a lg u n o s",
+          "Despues": "algunos",
+          "Ocurrencias": 1,
+          "Contexto": "la inflación anual del IPC se ubicará en niveles por sobre 5% durante a lg u n o s meses. A su vez, las medidas alternativas de tendencia inflacionaria ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1630 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "a u m e n ta r",
+          "Despues": "aumentar",
+          "Ocurrencias": 1,
+          "Contexto": "vez, las medidas alternativas de tendencia inflacionaria han vuelto a a u m e n ta r y se ubican en valores algo por sobre 3%, mientras que los costos lab",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 570 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "s im ila r",
+          "Despues": "similar",
+          "Ocurrencias": 1,
+          "Contexto": "s publicados, la actividad aumentó en el segundo trimestre a una tasa s im ila r a la del primer cuarto. Menciona el señor Magendzo que las expectativ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 676 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "s o b re",
+          "Despues": "sobre",
+          "Ocurrencias": 1,
+          "Contexto": "flación esperada en el corto plazo, pero con una mantención levemente s o b re 3% en las expectativas a plazos mayores. Las segundas, con un empinam",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 4493 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "cu rv a",
+          "Despues": "curva",
+          "Ocurrencias": 1,
+          "Contexto": "xpectativas a plazos mayores. Las segundas, con un empinamiento de la cu rv a de rendimiento, que anticipa entre tres y cuatro nuevos ajustes de 25",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 459 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "T a s a",
+          "Despues": "Tasa",
+          "Ocurrencias": 1,
+          "Contexto": "e anticipa entre tres y cuatro nuevos ajustes de 25 puntos base de la T a s a de Política Monetaria en lo que queda del año 2007.",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 4902 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     },
@@ -17030,6 +17222,14 @@
           "Despues": "monedas",
           "Contexto": "idad peso/dólar aumentó, al igual que lo sucedido con otras m onedas durante el episodio de volatilidad externa, ubicándose actu",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 565 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Asim ism o",
+          "Despues": "Asimismo",
+          "Ocurrencias": 1,
+          "Contexto": "que creen que los precios subirán “mucho” en los próximos doce meses. Asim ism o, la Encuesta a Empresarios del IMCE señala que las expectativas de in",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1235 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     },
@@ -17221,6 +17421,14 @@
           "Despues": "mayoritariamente",
           "Contexto": "una lectura equivocada por parte del mercado, el que espera m ayoritariam ente un alza de solo 25 puntos base. Por el momento, señala que ",
           "Justificacion": "Dos espacios espurios dentro de una misma palabra, por eso el detector de pares no la ve: juntar «m»+«ayoritariam» no da una palabra. «mayoritariamente» aparece 126 veces en el corpus y el fragmento «ayoritariam» aparece una sola vez, que es ésta."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "cam b io s",
+          "Despues": "cambios",
+          "Ocurrencias": 1,
+          "Contexto": " como el que afecta a los mercados financieros, que pueden introducir cam b io s en los escenarios considerados. En las actuales circunstancias señala",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1090 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     },
@@ -18455,6 +18663,46 @@
           "Despues": "monetaria",
           "Contexto": "ndo las tasas interbancarias respecto a la tasa de política m onetaria. De hecho, menciona el señor Gerente, la apertura del soft ",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "qu ie re",
+          "Despues": "quiere",
+          "Ocurrencias": 1,
+          "Contexto": "te de Análisis Internacional señor Sergio Lehmann, indica que también qu ie re agregar un par de noticias que son importantes a propósito de las tur",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 263 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "q u e",
+          "Despues": "que",
+          "Ocurrencias": 1,
+          "Contexto": "icadas justamente por las turbulencias producidas en esa zona. Indica q u e ayer se consideraban dos aumentos de tasa, y hoy día hay uno que se c",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 100805 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "C om enta",
+          "Despues": "Comenta",
+          "Ocurrencias": 1,
+          "Contexto": "ptiembre, pero el segundo aumento tiene una probabilidad de solo 50%. C om enta que también hubo un cambio en las expectativas de movimiento de tasa ",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1195 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "A g reg a",
+          "Despues": "Agrega",
+          "Ocurrencias": 1,
+          "Contexto": "n hubo un cambio en las expectativas de movimiento de tasa en Europa. A g reg a que además de la intervención o el aumento de liquidez que hizo el Ba",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 3623 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "p o r",
+          "Despues": "por",
+          "Ocurrencias": 1,
+          "Contexto": "ral también hizo una inyección de liquidez de 24 billones de dólares, p o r lo cual se están desanclando las tasas interbancarias respecto a la t",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 18344 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     },
@@ -26451,6 +26699,19 @@
           "Despues": "o es un elemento a considerar.",
           "Contexto": "que indudablemente el precio del petróleo es un elemento a considerar. '1^",
           "Justificacion": "Residuo de escaneo después del punto final: una comilla, un 1 y un acento circunflexo colgando. La oración anterior está completa. Encontrado al leer la sesión 2005-04-07 para el eje multihablante (§25)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-08-09:1363:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "tem a",
+          "Despues": "tema",
+          "Ocurrencias": 1,
+          "Contexto": "e de División Política Financiera señor Pablo García, respecto a este tem a, indica que el Banco Central Europeo está inyectando cien mil millone",
+          "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 784 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
         }
       ]
     }

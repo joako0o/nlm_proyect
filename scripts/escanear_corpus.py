@@ -165,10 +165,85 @@ def detector_partida(salida: dict, freq: Counter, min_frec: int, limite: int) ->
     print(f'  total candidatos: {len(casos)} en {len({c[0] for c in casos})} filas')
 
 
+CORTO = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{1,4}')
+CARRERA = re.compile(r'(?<![A-Za-zÁÉÍÓÚÜÑáéíóúüñ])'
+                     r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{1,4}'
+                     r'(?: [A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{1,4})+'
+                     r'(?![A-Za-zÁÉÍÓÚÜÑáéíóúüñ])')
+
+
+def detector_deletreada(salida: dict, freq: Counter, min_frec: int,
+                        limite: int) -> None:
+    """Palabra deletreada con espacios: «n o tic ia s» -> «noticias».
+
+    Es otra familia que la de ``detector_partida``. Éste busca una partición en
+    **dos** mitades; aquí el OCR esparce la palabra en una carrera de trozos
+    cortos (``T a m b ié n``, ``c o rre g ir``, ``C o m isió n``, ``T a s a``).
+    Medido en §26: el detector de partidas no las veía y había 265 candidatas.
+
+    Tres trampas que ya costaron un conteo falso cada una:
+
+    1. **Fronteras.** Sin ``(?<![letra])`` se detecta «panora**ma de**» como
+       ``ma de`` -> ``made`` y «Euro**pa y**» como ``pa y`` -> ``pay``: 96
+       candidatas, casi todas falsas.
+    2. **El regex greedioso entrega sólo la carrera completa.** En
+       ``n o tic ia s han sido`` la carrera maximal se une en
+       ``noticiashansido``, que no es palabra, y ``re.finditer`` **no vuelve
+       atrás por un filtro posterior**: la buena se perdía entera. Hay que
+       enumerar sub-ventanas y tomar, por posición de inicio, la más larga que
+       una en palabra real. Síntoma: ``freq['noticias'] = 944`` y el detector
+       devolvía 0.
+    3. **La frecuencia no sirve para letras sueltas.** Pedir «un trozo que no
+       sea palabra» con ``freq == 0`` descartaba ``n o tic ia s`` porque ``n``
+       aparece 24 veces, ``ia`` 22 y ``s`` 90 — y aparecen justamente porque
+       este mismo defecto las esparce por el corpus. La regla es doble: basta un
+       trozo con ``freq < min_frec``, **o** que sean 3+ letras sueltas seguidas,
+       que nunca son español legítimo. La segunda mitad es la que hizo aparecer
+       ``T a s a`` -> ``Tasa``, que la primera perdía porque ``T`` tiene 38.
+    """
+    print(f'--- detector deletreada (palabra unida con frecuencia >= {min_frec}) ---')
+    casos = []
+    for rid in sorted(salida):
+        t = salida[rid]
+        for m in CARRERA.finditer(t):
+            trozos = [(x.group(), x.start() + m.start())
+                      for x in CORTO.finditer(m.group())]
+            usados = set()
+            for i in range(len(trozos)):
+                if i in usados:
+                    continue
+                for j in range(len(trozos), i + 1, -1):
+                    pedazo = trozos[i:j]
+                    unida = ''.join(x[0] for x in pedazo)
+                    if len(unida) < 3 or freq[unida] < min_frec:
+                        continue
+                    sueltas = all(len(x[0]) == 1 for x in pedazo)
+                    if not (sueltas and len(pedazo) >= 3):
+                        if all(freq.get(x[0], 0) >= min_frec for x in pedazo):
+                            continue
+                    for k in range(i, i + len(pedazo)):
+                        usados.add(k)
+                    frag = t[pedazo[0][1]:pedazo[-1][1] + len(pedazo[-1][0])]
+                    casos.append((rid, pedazo[0][1], frag, unida,
+                                  freq[unida], t))
+                    break
+    vistos = defaultdict(int)
+    for rid, i, frag, unida, f, t in casos:
+        vistos[unida] += 1
+        if vistos[unida] > 1:
+            continue
+        print('  %-22r -> %-14s (frec %6d)  %-22s ...%s...'
+              % (frag, unida, f, rid,
+                 t[max(0, i - 30):i + len(frag) + 22].replace('\n', '⏎')))
+        if sum(vistos.values()) >= limite:
+            break
+    print(f'  total candidatos: {len(casos)} en {len({c[0] for c in casos})} filas')
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--base', type=Path, default=core.BASE)
-    ap.add_argument('--detector', choices=['acento', 'partida'])
+    ap.add_argument('--detector', choices=['acento', 'partida', 'deletreada'])
     ap.add_argument('--todo', action='store_true')
     ap.add_argument('--min-frec', type=int, default=20)
     ap.add_argument('--limite', type=int, default=20)
@@ -190,6 +265,9 @@ def main() -> int:
         print()
     if a.todo or a.detector == 'partida':
         detector_partida(salida, freq, a.min_frec, a.limite)
+        print()
+    if a.todo or a.detector == 'deletreada':
+        detector_deletreada(salida, freq, a.min_frec, a.limite)
     return 0
 
 

@@ -1383,3 +1383,70 @@ limpieza de pasada.
 Estado tras §25: **1.392 filas corregidas, 2.280 operaciones, 196 marcadas, `Texto` intacto en las
 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **31 de 131**; filas leídas **2.346 de
 9.723**.
+
+---
+
+## §26. La palabra deletreada con espacios: una familia que el detector no podía ver
+
+Sesión `2007-08-09` (rondas 202–209, 58 filas). Al leer `1357:1` apareció esto:
+
+```
+…en el margen las n o tic ia s han sido negativas.
+```
+
+No es el caso de §23. §23 trataba **una** letra suelta seguida de la continuación
+(`m ayor` → `mayor`), y `detector_partida` busca justamente una partición en dos mitades.
+Aquí el OCR esparció la palabra entera en varios trozos: `n o tic ia s`, `T a m b ié n`,
+`c o rre g ir`, `C o m isió n`, `a lg u n o s`, `T a s a`. **El detector no las ve porque no
+son una partición en dos, son una carrera de trozos cortos.** Igual que en §23, el defecto
+estuvo invisible mientras sólo se miró con la herramienta que ya existía.
+
+### Cómo se detecta sin regla automática
+
+Una candidata es una carrera maximal de trozos de 1–4 letras separados por un espacio,
+con frontera de palabra a ambos lados, dentro de la cual **alguna sub-ventana** se une en
+una palabra establecida del corpus. Tres trampas medidas en el camino, todas con número:
+
+1. **Sin frontera izquierda se detecta de más.** La primera pasada daba `ma de` → `made` y
+   `pa y` → `pay`: son los finales de «panora**ma de**» y «Euro**pa y**». 96 candidatas, casi
+   todas falsas. Con `(?<![letra])` y `(?![letra])` desaparecen.
+2. **El regex greedioso entrega sólo la carrera completa.** En `n o tic ia s han sido` la
+   carrera maximal se une en `noticiashansido`, que no es palabra, y `re.finditer` **no
+   vuelve atrás por un filtro posterior**: la candidata buena se perdía entera. Hay que
+   enumerar las sub-ventanas y quedarse, por posición de inicio, con la más larga que una en
+   palabra real. Esto se vio con un conteo que no podía ser cero: `freq['noticias'] = 944` y
+   el escáner devolvía 0.
+3. **El umbral de frecuencia no sirve para letras sueltas.** Pedir «un trozo que no sea
+   palabra» con `freq == 0` descartaba `n o tic ia s` porque `n` aparece 24 veces, `ia` 22 y
+   `s` 90 — y aparecen justamente **porque este mismo defecto las esparce por el corpus**.
+   La regla que funciona es doble: basta un trozo con `freq < 20`, **o** que la carrera sean
+   3+ letras sueltas seguidas, que nunca son español legítimo. Fue esta segunda mitad la que
+   hizo aparecer `T a s a` → `Tasa`, que la primera seguía perdiendo porque `T` tiene 38.
+
+### Resultado
+
+Corpus completo: **265 candidatas, 159 ya cubiertas** por operaciones anteriores, **106 sin
+cubrir en 58 filas**. De ésas, **32 correcciones en 7 filas** de esta sesión, todas
+`PALABRA_PARTIDA`:
+
+| fila | ops | ejemplos |
+|---|---:|---|
+| `1357:1` | 15 | `n o tic ia s`→`noticias`, `T a m b ié n`→`También`, `c o rre g ir`→`corregir`, `C o m isió n`→`Comisión`, `q u e`→`que` (×3) |
+| `1365:2` | 8 | `e fe c to`→`efecto`, `a lg u n o s`→`algunos`, `s im ila r`→`similar`, `cu rv a`→`curva`, `T a s a`→`Tasa` |
+| `1385:1` | 5 | `C om enta`→`Comenta`, `A g reg a`→`Agrega`, `p o r`→`por` |
+| `1363:1`, `1366:1`, `1390:1`, `1396:1` | 4 | `tem a`→`tema`, `Asim ism o`→`Asimismo`, `com o`→`como`, `cam b io s`→`cambios` |
+
+Las 74 restantes están en sesiones todavía no leídas y quedan pendientes de su turno: la
+política es curar fila por fila, no aplicar el escáner en bloque. Ninguna reconstrucción
+introduce una palabra ajena al corpus — la menos frecuente, `Comisión`, aparece 26 veces.
+
+Sobre el eje multihablante, las 58 filas son **de una sola voz**. Las cuatro banderas eran
+referencias, no intervenciones: `1360:1` (Lehmann responde a una consulta de Desormeaux),
+`1363:1` (García complementa un punto de Marfán), `1378:1` (Corbo alude a lo pedido por
+Marfán), `1398:1` (Desormeaux cita a Schmidt-Hebbel). Es la misma regla de §25: el verbo de
+turno sólo delata segunda voz si introduce a alguien que no es el hablante de la fila.
+
+Estado tras §26: **1.393 filas corregidas, 2.312 operaciones, 196 marcadas, `Texto` intacto en
+las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **32 de 131**; filas leídas
+**2.404 de 9.723**.
+

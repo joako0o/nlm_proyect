@@ -352,6 +352,8 @@ Para leer una sesión entera al margen del plan:
 .venv/bin/python scripts/rondas_lectura_lote9.py sesion AAAA-MM-DD [desde]
 ```
 
+| 202–209 | 2007-08-09 | 58 | una sola voz en las 58 filas del plan · **sesión cerrada 58/58** · debate con turnos cortos alternados entre Consejeros y Gerentes · las cuatro banderas de segunda voz eran referencias: `1360:1` Lehmann responde a una consulta de Desormeaux, `1363:1` García complementa un punto planteado por Marfán, `1378:1` Corbo alude a lo solicitado por Marfán, `1398:1` Desormeaux cita lo informado por Schmidt-Hebbel · esta sesión destapó una familia de OCR que el detector no veía: la palabra **deletreada con espacios** (`n o tic ia s` → `noticias`, `T a m b ié n` → `También`), 32 correcciones en 7 filas y 106 casos sin cubrir en todo el corpus (criterio §26) |
+
 Para anotar una ronda leída:
 
 ```
