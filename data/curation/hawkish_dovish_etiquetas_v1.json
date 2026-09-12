@@ -1,0 +1,3524 @@
+{
+  "Version": "hawkish_dovish_v1",
+  "Fecha": "2026-09-11",
+  "Alcance": "Muestra completa de 500: 500 intervenciones leidas y puntuadas a mano, orden cronologico 2005-2015. Ocho tranches (63, 63, 63, 63, 62, 62, 62 y 62): la primera cada 8a del sorteo original, despues cada 7a, 6a, 5a, 4a, 3a y 2a de las pendientes, y la ultima con las 62 restantes.",
+  "Rubrica": {
+    "escala": "HD_Score en [-1, +1]. Positivo = hawkish (preocupacion inflacionaria, retiro de estimulo, demanda sobre capacidad, subir la TPM). Negativo = dovish (holguras, inflacion bajo meta o transitoria, actividad debil, recortar la TPM). Cero = sin postura de politica monetaria en lo leido.",
+    "clases": {
+      "HAWKISH": ">= +0.34",
+      "NEUTRAL": "(-0.34, +0.34)",
+      "DOVISH": "<= -0.34"
+    },
+    "unidad": "La postura se lee por intervencion, no por hablante ni por sesion.",
+    "lectura": "Ventana fija de 520 caracteres iniciales + 280 finales cuando el texto supera 840; texto completo si es menor. Chars_Leidos se recalcula con esa misma regla, no se declara a mano.",
+    "limites": [
+      "El puntaje describe la postura del texto, no la intencion del hablante ni su voto si este no consta en lo leido.",
+      "Las intervenciones de staff (gerencias) se puntuan por la direccion de los hechos que destacan; no se les atribuye una preferencia de politica que el acta no declara.",
+      "Una ventana parcial puede omitir matices del medio del texto; esos casos quedan marcados por Cobertura < 1.",
+      "No se corrige el OCR del texto citado; la evidencia se transcribe tal como aparece."
+    ],
+    "indice": "ID_Turno: la etiqueta pertenece a la intervencion, no a su posicion en la muestra."
+  },
+  "Etiquetas": [
+    {
+      "ID_Turno": "RPM-2005-01-11:T29",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "esta reducción del estímulo monetario va a ser en forma pausada",
+      "Lote_Sorteo_Original": 1
+    },
+    {
+      "ID_Turno": "RPM-2005-04-07:T55",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "una medida preventiva como esta evita ajustes más pronunciados en el futuro",
+      "Lote_Sorteo_Original": 9
+    },
+    {
+      "ID_Turno": "RPM-2005-07-12:T38",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no se estaría disminuyendo el ritmo de normalización",
+      "Lote_Sorteo_Original": 17
+    },
+    {
+      "ID_Turno": "RPM-2005-10-11:T46",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "un alza de 25 puntos base en la tasa de Política Monetaria es consistente con el rango meta",
+      "Lote_Sorteo_Original": 25
+    },
+    {
+      "ID_Turno": "RPM-2006-01-12:T46",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "vota por mantener la tasa de política monetaria, en su nivel actual",
+      "Lote_Sorteo_Original": 33
+    },
+    {
+      "ID_Turno": "RPM-2006-04-13:T72",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la tasa de política monetaria en 25 puntos base",
+      "Lote_Sorteo_Original": 41
+    },
+    {
+      "ID_Turno": "RPM-2006-07-13:T3",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la volatilidad en los mercados financieros se ha reducido de manera significativa",
+      "Lote_Sorteo_Original": 49
+    },
+    {
+      "ID_Turno": "RPM-2006-09-07:T47",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se comienzan a observar signos que permiten visualizar una trayectoria más moderada hacia delante",
+      "Lote_Sorteo_Original": 57
+    },
+    {
+      "ID_Turno": "RPM-2006-11-16:T5",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no hay visiones neutras, ya que sólo existen visiones optimistas o pesimistas",
+      "Lote_Sorteo_Original": 65
+    },
+    {
+      "ID_Turno": "RPM-2007-02-08:T25",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "varios indicadores dan cuenta de mayores riesgos al alza para la inflación",
+      "Lote_Sorteo_Original": 73
+    },
+    {
+      "ID_Turno": "RPM-2007-03-15:T65",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se debería sesgar la política monetaria hacia un relajo",
+      "Lote_Sorteo_Original": 81
+    },
+    {
+      "ID_Turno": "RPM-2007-06-14:T53",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la Tasa de Política Monetaria en 5,0%",
+      "Lote_Sorteo_Original": 89
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T20",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el CDS constituye actualmente un mejor estándar en el mercado que el EMBI",
+      "Lote_Sorteo_Original": 97
+    },
+    {
+      "ID_Turno": "RPM-2007-10-11:T3",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la mayor tranquilidad de los mercados ha contribuido al aumento en torno a 20 puntos base",
+      "Lote_Sorteo_Original": 105
+    },
+    {
+      "ID_Turno": "RPM-2007-12-13:T75",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la Tasa de Política Monetaria a 6%",
+      "Lote_Sorteo_Original": 113
+    },
+    {
+      "ID_Turno": "RPM-2008-03-13:T3",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se incorpora una alta probabilidad de que Estados Unidos de América se encuentre en recesión",
+      "Lote_Sorteo_Original": 121
+    },
+    {
+      "ID_Turno": "RPM-2008-04-10:T41",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no necesariamente apunta a un ajuste al alza en el futuro",
+      "Lote_Sorteo_Original": 129
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T57",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hacia el segundo semestre estaría afectando la desaceleración global",
+      "Lote_Sorteo_Original": 137
+    },
+    {
+      "ID_Turno": "RPM-2008-08-14:T88",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "el énfasis de la Minuta de Opciones en un endurecimiento de stance monetario le parece el correcto",
+      "Lote_Sorteo_Original": 145
+    },
+    {
+      "ID_Turno": "RPM-2008-11-13:T12",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el impacto en Chile del súbito cambio del escenario global",
+      "Lote_Sorteo_Original": 153
+    },
+    {
+      "ID_Turno": "RPM-2009-01-08:T3",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "un acoplamiento al ciclo recesivo de las economías desarrolladas que parece más pronunciado de lo previsto",
+      "Lote_Sorteo_Original": 161
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T32",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el sistema bancario opera bajo el control de las autoridades reguladoras",
+      "Lote_Sorteo_Original": 169
+    },
+    {
+      "ID_Turno": "RPM-2009-04-09:T100",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hubo un deterioro de confianza abrupto, importante",
+      "Lote_Sorteo_Original": 177
+    },
+    {
+      "ID_Turno": "RPM-2009-06-16:T89",
+      "HD_Score": -1.0,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota por reducir la tasa en 50 puntos base, dejándola en 0,75% anual",
+      "Lote_Sorteo_Original": 185
+    },
+    {
+      "ID_Turno": "RPM-2009-09-08:T58",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no parece obvio plantear un sesgo en una u otra dirección",
+      "Lote_Sorteo_Original": 193
+    },
+    {
+      "ID_Turno": "RPM-2009-11-12:T66",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "hoy hay mayores riesgos de un crecimiento más bajo que el contemplado en el IPoM",
+      "Lote_Sorteo_Original": 201
+    },
+    {
+      "ID_Turno": "RPM-2010-01-14:T54",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la implicancia fundamental es la de no innovar, por lo que vota por mantener la TPM",
+      "Lote_Sorteo_Original": 209
+    },
+    {
+      "ID_Turno": "RPM-2010-04-15:T17",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "mantendría las tasas bajas durante un período prolongado",
+      "Lote_Sorteo_Original": 217
+    },
+    {
+      "ID_Turno": "RPM-2010-05-13:T8",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hay un comportamiento claramente más moderado en esta coyuntura particular",
+      "Lote_Sorteo_Original": 225
+    },
+    {
+      "ID_Turno": "RPM-2010-08-12:T18",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "no se puede descansar en las señales de que hoy no se está registrando mucha inflación",
+      "Lote_Sorteo_Original": 233
+    },
+    {
+      "ID_Turno": "RPM-2010-09-16:T75",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se obtienen rangos de valores para el cierre del año anual por sobre el 5,4%",
+      "Lote_Sorteo_Original": 241
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T99",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por elevar la TPM en 25 puntos base",
+      "Lote_Sorteo_Original": 249
+    },
+    {
+      "ID_Turno": "RPM-2011-02-17:T46",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ambos precios tenderían a converger más adelante",
+      "Lote_Sorteo_Original": 257
+    },
+    {
+      "ID_Turno": "RPM-2011-03-17:T86",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la TPM en 50pb, hasta 4,0%",
+      "Lote_Sorteo_Original": 265
+    },
+    {
+      "ID_Turno": "RPM-2011-06-14:T12",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "todavía se advierte un grado de traspaso a las inflaciones core, pero a una velocidad bastante más moderada",
+      "Lote_Sorteo_Original": 273
+    },
+    {
+      "ID_Turno": "RPM-2011-07-14:T99",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "existe una situación de vulnerabilidad más allá de lo que, al menos, los analistas en Chile han advertido",
+      "Lote_Sorteo_Original": 281
+    },
+    {
+      "ID_Turno": "RPM-2011-10-13:T41",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las colocaciones a personas continúan bastante dinámicas",
+      "Lote_Sorteo_Original": 289
+    },
+    {
+      "ID_Turno": "RPM-2011-12-13:T63",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "ya parece confirmarse que Europa estará en recesión en los próximos trimestres",
+      "Lote_Sorteo_Original": 297
+    },
+    {
+      "ID_Turno": "RPM-2012-02-14:T5",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "persistirían las bajas de las tasas rectoras",
+      "Lote_Sorteo_Original": 305
+    },
+    {
+      "ID_Turno": "RPM-2012-04-17:T7",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "economías que resultan ser un refugio frente a la mayor incertidumbre reinante",
+      "Lote_Sorteo_Original": 313
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T11",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "Codelco acaba de colocar un bono en condiciones muy favorables",
+      "Lote_Sorteo_Original": 321
+    },
+    {
+      "ID_Turno": "RPM-2012-08-16:T27",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la industria sorprendió al alza",
+      "Lote_Sorteo_Original": 329
+    },
+    {
+      "ID_Turno": "RPM-2012-09-13:T56",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "es conveniente mantener la Tasa de Política Monetaria en el rango de neutralidad",
+      "Lote_Sorteo_Original": 337
+    },
+    {
+      "ID_Turno": "RPM-2012-11-13:T66",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las posibilidades de un mayor deterioro son importantes",
+      "Lote_Sorteo_Original": 345
+    },
+    {
+      "ID_Turno": "RPM-2013-03-14:T36",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "es necesario pensar en medidas calificadas como second best para lograr una desaceleración de la demanda interna",
+      "Lote_Sorteo_Original": 353
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T14",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se mantengan las políticas monetarias hiperexpansivas en las principales economías desarrolladas",
+      "Lote_Sorteo_Original": 361
+    },
+    {
+      "ID_Turno": "RPM-2013-06-13:T18",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "una salida de nuestra economía con un peso más depreciado contribuye a que esta sea más equilibrada",
+      "Lote_Sorteo_Original": 369
+    },
+    {
+      "ID_Turno": "RPM-2013-08-13:T13",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los datos domésticos no darían cuenta aún de la desaceleración de la actividad interna",
+      "Lote_Sorteo_Original": 377
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T17",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el consumo de servicios se ha desacelerado durante el año",
+      "Lote_Sorteo_Original": 385
+    },
+    {
+      "ID_Turno": "RPM-2013-11-19:T47",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "en 25 puntos base en esta oportunidad a 4,5% anual y mantener el sesgo de neutral",
+      "Lote_Sorteo_Original": 393
+    },
+    {
+      "ID_Turno": "RPM-2014-01-16:T29",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hay aspectos asociados a otros sectores que también se desaceleran",
+      "Lote_Sorteo_Original": 401
+    },
+    {
+      "ID_Turno": "RPM-2014-03-13:T32",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "el último IMACEC dio cuenta de una contracción de la actividad mayor que la esperada",
+      "Lote_Sorteo_Original": 409
+    },
+    {
+      "ID_Turno": "RPM-2014-05-15:T39",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "puede ser el factor que, en el margen, empuja un alza de la inflación",
+      "Lote_Sorteo_Original": 417
+    },
+    {
+      "ID_Turno": "RPM-2014-07-15:T14",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las condiciones financieras sigan siendo laxas",
+      "Lote_Sorteo_Original": 425
+    },
+    {
+      "ID_Turno": "RPM-2014-07-15:T43",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por reducir la TPM en 25 puntos base, a 3,75% anual",
+      "Lote_Sorteo_Original": 433
+    },
+    {
+      "ID_Turno": "RPM-2014-10-16:T33",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la formación bruta de capital se ha revisado hasta -5,4%",
+      "Lote_Sorteo_Original": 441
+    },
+    {
+      "ID_Turno": "RPM-2014-11-18:T3",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se ha acentuado la divergencia económica entre Estados Unidos de América y resto del mundo",
+      "Lote_Sorteo_Original": 449
+    },
+    {
+      "ID_Turno": "RPM-2015-02-12:T17",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las últimas proyecciones de precio se han ajustado a la baja",
+      "Lote_Sorteo_Original": 457
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T22",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "menciona que el Fondo Monetario Internacional anunció que no renegociará su deuda",
+      "Lote_Sorteo_Original": 465
+    },
+    {
+      "ID_Turno": "RPM-2015-06-11:T40",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "los salarios nominales se contrajeron en el mes de abril",
+      "Lote_Sorteo_Original": 473
+    },
+    {
+      "ID_Turno": "RPM-2015-08-13:T40",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "adhiere a la preocupación que genera la evolución de la inflación por sobre el rango meta",
+      "Lote_Sorteo_Original": 481
+    },
+    {
+      "ID_Turno": "RPM-2015-09-15:T64",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la desaceleración de la actividad no está generando holguras que sean muy desinflacionarias",
+      "Lote_Sorteo_Original": 489
+    },
+    {
+      "ID_Turno": "RPM-2015-12-17:T30",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "un ajuste a la baja en el crecimiento de la actividad, desde 2,8 a 2,4%",
+      "Lote_Sorteo_Original": 497
+    },
+    {
+      "ID_Turno": "RPM-2005-01-11:T41",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "todo lleva a concluir del análisis que la media está en 25 y puede ser o 50 o O lo que es claramente superior a la dosis que se ha conversado",
+      "Lote_Sorteo_Original": 2
+    },
+    {
+      "ID_Turno": "RPM-2005-04-07:T18",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las tasas de interés de los documentos nominales de mediano plazo del Banco Central de Chile aumentaron significativamente",
+      "Lote_Sorteo_Original": 9
+    },
+    {
+      "ID_Turno": "RPM-2005-07-12:T41",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "comparte el análisis y la recomendación central que ha hecho la Gerencia de División Estudios",
+      "Lote_Sorteo_Original": 18
+    },
+    {
+      "ID_Turno": "RPM-2005-10-11:T27",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "sorprendió la tasa de crecimiento de junio que es algo que no estaba en el escenario",
+      "Lote_Sorteo_Original": 25
+    },
+    {
+      "ID_Turno": "RPM-2006-01-12:T30",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "están inusualmente divididas, aunque se inclinan algo más a un alza que a una mantención",
+      "Lote_Sorteo_Original": 33
+    },
+    {
+      "ID_Turno": "RPM-2006-03-16:T31",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la evolución económica no ha deparado grandes sorpresas y se ha presentado bastante en línea con lo previsto",
+      "Lote_Sorteo_Original": 41
+    },
+    {
+      "ID_Turno": "RPM-2006-06-15:T69",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "es mantener la tasa a la espera de mayor información, antes de continuar el proceso de normalización",
+      "Lote_Sorteo_Original": 49
+    },
+    {
+      "ID_Turno": "RPM-2006-08-10:T45",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto también es por mantener la tasa de política monetaria en 5,25%",
+      "Lote_Sorteo_Original": 57
+    },
+    {
+      "ID_Turno": "RPM-2006-12-14:T30",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el problema no es el tipo de cambio, sino que más bien es que se tiene un cambio estructural en los mercados internacionales",
+      "Lote_Sorteo_Original": 66
+    },
+    {
+      "ID_Turno": "RPM-2007-02-08:T44",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "había más holguras por el menor crecimiento del año pasado",
+      "Lote_Sorteo_Original": 74
+    },
+    {
+      "ID_Turno": "RPM-2007-05-10:T43",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "si existen fenómenos de oferta que nos llevan a un escenario también de mayor inflación",
+      "Lote_Sorteo_Original": 82
+    },
+    {
+      "ID_Turno": "RPM-2007-07-12:T9",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el precio internacional no resulta un buen referente, ya que el precio del trigo está muy afectado por la temporalidad",
+      "Lote_Sorteo_Original": 90
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T80",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por elevar la tasa de política en 25 puntos base",
+      "Lote_Sorteo_Original": 98
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T63",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se estaría con alta probabilidad discutiendo un aumento de tasas",
+      "Lote_Sorteo_Original": 106
+    },
+    {
+      "ID_Turno": "RPM-2008-01-10:T43",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "se inclina por un aumento de 25 puntos base en la Tasa de Política Monetaria",
+      "Lote_Sorteo_Original": 114
+    },
+    {
+      "ID_Turno": "RPM-2008-04-10:T5",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en el mes de marzo el IPC aumentó 0,8%, acumulando un incremento de 8,5% anual",
+      "Lote_Sorteo_Original": 123
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T48",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "en el mes de mayo el IPC aumentó 1,2% mensual, acumulando un incremento de 8,9% anual y superando lo esperado",
+      "Lote_Sorteo_Original": 130
+    },
+    {
+      "ID_Turno": "RPM-2008-08-14:T50",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "lo que resulta coherente con una desaceleración por el lado de la demanda",
+      "Lote_Sorteo_Original": 138
+    },
+    {
+      "ID_Turno": "RPM-2008-10-09:T42",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el Banco Central de Chile no está dormido y que tiene claro que existe una tarea pendiente en el plano inflacionario",
+      "Lote_Sorteo_Original": 146
+    },
+    {
+      "ID_Turno": "RPM-2008-12-11:T103",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "mantener la Tasa de Política Monetaria y ser muy claro en un sesgo a la baja en el Comunicado",
+      "Lote_Sorteo_Original": 154
+    },
+    {
+      "ID_Turno": "RPM-2009-01-08:T61",
+      "HD_Score": -1.0,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota en consecuencia por una reducción de 100 puntos base de la Tasa de Política Monetaria",
+      "Lote_Sorteo_Original": 162
+    },
+    {
+      "ID_Turno": "RPM-2009-03-12:T7",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "esas economías se mantienen flat hacia el año 2010",
+      "Lote_Sorteo_Original": 170
+    },
+    {
+      "ID_Turno": "RPM-2009-05-07:T83",
+      "HD_Score": -1.0,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por rebajar la Tasa de Política Monetaria en 50 puntos base",
+      "Lote_Sorteo_Original": 178
+    },
+    {
+      "ID_Turno": "RPM-2009-06-16:T91",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "explicitar en el Comunicado que la política monetaria expansiva puede permanecer por un tiempo prolongado",
+      "Lote_Sorteo_Original": 186
+    },
+    {
+      "ID_Turno": "RPM-2009-09-08:T60",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "sigue siendo necesario mantener el estimulo monetario actual",
+      "Lote_Sorteo_Original": 194
+    },
+    {
+      "ID_Turno": "RPM-2009-12-15:T55",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "Dicho índice llegó a algo más de 9% y ahora está en 12%",
+      "Lote_Sorteo_Original": 202
+    },
+    {
+      "ID_Turno": "RPM-2010-02-11:T122",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la evolución de los salarios nominales confirma en parte esta inquietud",
+      "Lote_Sorteo_Original": 210
+    },
+    {
+      "ID_Turno": "RPM-2010-04-15:T21",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el escenario de proyección contempla una fuerte caída de la actividad en marzo y una recuperación hacia junio",
+      "Lote_Sorteo_Original": 218
+    },
+    {
+      "ID_Turno": "RPM-2010-05-13:T52",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "será necesario comenzar un proceso gradual de normalización de la política monetaria",
+      "Lote_Sorteo_Original": 225
+    },
+    {
+      "ID_Turno": "RPM-2010-07-15:T66",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el alza por este concepto es totalmente transitoria y está incorporada en la proyección",
+      "Lote_Sorteo_Original": 233
+    },
+    {
+      "ID_Turno": "RPM-2010-10-14:T39",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la industria no solo recuperó los niveles exhibidos antes del terremoto",
+      "Lote_Sorteo_Original": 242
+    },
+    {
+      "ID_Turno": "RPM-2010-12-16:T63",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "manifiesta inclinarse por un alza de 25 puntos base",
+      "Lote_Sorteo_Original": 250
+    },
+    {
+      "ID_Turno": "RPM-2011-02-17:T3",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se observaron ligeros aumentos en la inflación de las economías desarrolladas",
+      "Lote_Sorteo_Original": 257
+    },
+    {
+      "ID_Turno": "RPM-2011-05-12:T34",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las bolsas han retrocedido durante la última semana, en especial las de economías emergentes",
+      "Lote_Sorteo_Original": 266
+    },
+    {
+      "ID_Turno": "RPM-2011-07-14:T23",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el Banco Central Europeo elevó",
+      "Lote_Sorteo_Original": 274
+    },
+    {
+      "ID_Turno": "RPM-2011-09-15:T51",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "más preocupantes son los desarrollos en el merca",
+      "Lote_Sorteo_Original": 282
+    },
+    {
+      "ID_Turno": "RPM-2011-11-15:T80",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "sin descartar, por cierto, bajas en las próximas Reuniones",
+      "Lote_Sorteo_Original": 290
+    },
+    {
+      "ID_Turno": "RPM-2012-01-12:T35",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "factores que se espera tengan un impacto por una sola vez en los niveles de precios",
+      "Lote_Sorteo_Original": 298
+    },
+    {
+      "ID_Turno": "RPM-2012-02-14:T62",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "otras fuentes de presión inflacionaria contribuyen en el margen a que la proyección se corrija levemente al alza",
+      "Lote_Sorteo_Original": 306
+    },
+    {
+      "ID_Turno": "RPM-2012-04-17:T74",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "parece recomendable esperar y continuar monitoreando la evolución económica interna y externa",
+      "Lote_Sorteo_Original": 314
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T7",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "alude a la depreciación del real brasileño, que da cuenta precisamente de una debilidad importante de esta economía",
+      "Lote_Sorteo_Original": 322
+    },
+    {
+      "ID_Turno": "RPM-2012-09-13:T10",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los CDS soberanos han bajado, especialmente aquellos de los países de la periferia de Europa",
+      "Lote_Sorteo_Original": 330
+    },
+    {
+      "ID_Turno": "RPM-2012-11-13:T16",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los que tienen implícito un ajuste fiscal del orden del 1% del PIB de ese país",
+      "Lote_Sorteo_Original": 338
+    },
+    {
+      "ID_Turno": "RPM-2013-01-17:T18",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "Ello reduce más bien la probabilidad de un escenario de",
+      "Lote_Sorteo_Original": 346
+    },
+    {
+      "ID_Turno": "RPM-2013-03-14:T42",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "esa Gerencia propone al Consejo mantener la Tasa de Política Monetaria en su nivel actual",
+      "Lote_Sorteo_Original": 354
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T21",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la actividad y la demanda del primer trimestre del 2013 se desaceleraron algo más de lo contemplado",
+      "Lote_Sorteo_Original": 362
+    },
+    {
+      "ID_Turno": "RPM-2013-06-13:T22",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la caída de los activos financieros de largo plazo desde la última RPM",
+      "Lote_Sorteo_Original": 370
+    },
+    {
+      "ID_Turno": "RPM-2013-07-11:T56",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su recomendación al Consejo es la opción de disminuir la TPM a 4,75% anual",
+      "Lote_Sorteo_Original": 377
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T37",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la inflación se mantiene en la parte baja del rango de tolerancia y con este movimiento se contribuiría además a mantener un tipo de cambio competitivo",
+      "Lote_Sorteo_Original": 386
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T20",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la demanda interna continúa desacelerándose con motivo de la contracción importante de la inversión en capital fijo",
+      "Lote_Sorteo_Original": 394
+    },
+    {
+      "ID_Turno": "RPM-2014-02-18:T10",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las condiciones bancarias se han mantenido en torno al pivote de expansión",
+      "Lote_Sorteo_Original": 402
+    },
+    {
+      "ID_Turno": "RPM-2014-03-13:T44",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "efectuará un análisis referido al pass through",
+      "Lote_Sorteo_Original": 410
+    },
+    {
+      "ID_Turno": "RPM-2014-05-15:T40",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la inflación SAE también se ha revisado al alza en el horizonte de proyección",
+      "Lote_Sorteo_Original": 418
+    },
+    {
+      "ID_Turno": "RPM-2014-07-15:T15",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "resulta complejo hacer un balance del escenario internacional actual",
+      "Lote_Sorteo_Original": 426
+    },
+    {
+      "ID_Turno": "RPM-2014-08-14:T40",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no se ven asociadas a esta acción razones inmediatas para preocuparse por una incubación de riesgos financieros",
+      "Lote_Sorteo_Original": 434
+    },
+    {
+      "ID_Turno": "RPM-2014-09-11:T52",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por recortar la TPM en 25 puntos base, para dejarla en 3,25%",
+      "Lote_Sorteo_Original": 441
+    },
+    {
+      "ID_Turno": "RPM-2014-11-18:T39",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "fue apropiado imprimirle el impulso que se le dio a la economía",
+      "Lote_Sorteo_Original": 450
+    },
+    {
+      "ID_Turno": "RPM-2015-01-15:T42",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "confirman las expectativas de menores presiones inflacionarias y una trayectoria de baja de la inflación",
+      "Lote_Sorteo_Original": 457
+    },
+    {
+      "ID_Turno": "RPM-2015-05-14:T12",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la llegada del fenómeno de “El Niño” durante este año, que ya estaría teniendo algún grado de incidencia en los precios de alimentos",
+      "Lote_Sorteo_Original": 466
+    },
+    {
+      "ID_Turno": "RPM-2015-07-14:T21",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "estos serían más acotados de lo previsto en la RPM previa",
+      "Lote_Sorteo_Original": 474
+    },
+    {
+      "ID_Turno": "RPM-2015-08-13:T57",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "sus comentarios apuntarán al desanclaje de expectativas",
+      "Lote_Sorteo_Original": 482
+    },
+    {
+      "ID_Turno": "RPM-2015-10-15:T72",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "debemos seguir monitoreando por sobre todo el escenario externo",
+      "Lote_Sorteo_Original": 490
+    },
+    {
+      "ID_Turno": "RPM-2015-12-17:T63",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "debido a que la depreciación del peso y holguras de capacidad",
+      "Lote_Sorteo_Original": 498
+    },
+    {
+      "ID_Turno": "RPM-2005-01-11:T40",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "se inclina por recomendar un alza de 25 puntos base en esta ocasión",
+      "Lote_Sorteo_Original": 2
+    },
+    {
+      "ID_Turno": "RPM-2005-05-12:T46",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la opción de alza de 25 puntos base domina inambiguamente a la mantención de la tasa de política monetaria",
+      "Lote_Sorteo_Original": 11
+    },
+    {
+      "ID_Turno": "RPM-2005-06-09:T29",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "una mantención de tasas de interés resulta más coherente con los antecedentes disponibles",
+      "Lote_Sorteo_Original": 17
+    },
+    {
+      "ID_Turno": "RPM-2005-11-10:T50",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "elevar la Tasa de Política Monetaria en 25 puntos base y vota en consecuencia en tal sentido",
+      "Lote_Sorteo_Original": 27
+    },
+    {
+      "ID_Turno": "RPM-2006-02-09:T45",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota también por un aumento de 25 puntos base en la tasa de política monetaria",
+      "Lote_Sorteo_Original": 35
+    },
+    {
+      "ID_Turno": "RPM-2006-04-13:T39",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "igualmente las cifras de casi 4% resultan elevadas",
+      "Lote_Sorteo_Original": 42
+    },
+    {
+      "ID_Turno": "RPM-2006-06-15:T68",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "este es un buen momento para realizar una pausa y mantener la tasa de política monetaria en 5%",
+      "Lote_Sorteo_Original": 49
+    },
+    {
+      "ID_Turno": "RPM-2006-09-07:T51",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la tasa actual de política podría mantenerse en los niveles actuales por un período prolongado de tiempo",
+      "Lote_Sorteo_Original": 59
+    },
+    {
+      "ID_Turno": "RPM-2006-11-16:T41",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ha tendido a amplificarse hacia abajo, con una mayor densidad de perspectivas pesimistas",
+      "Lote_Sorteo_Original": 65
+    },
+    {
+      "ID_Turno": "RPM-2007-01-11:T43",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota por bajar la tasa de política monetaria en 25 puntos base para quedar en 5,0%",
+      "Lote_Sorteo_Original": 73
+    },
+    {
+      "ID_Turno": "RPM-2007-03-15:T56",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "lo que justificaría, en su opinión, la mantención de la tasa en su nivel actual",
+      "Lote_Sorteo_Original": 81
+    },
+    {
+      "ID_Turno": "RPM-2007-06-14:T56",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ha estado cambiando y se ha desviado de manera significativa de lo que se esperaba a principios de año",
+      "Lote_Sorteo_Original": 90
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T40",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la apreciación del tipo de cambio es más reciente",
+      "Lote_Sorteo_Original": 98
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T33",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la compensación inflacionaria de 1 en 1 alcanza a 2,85%, 3,07% en octubre",
+      "Lote_Sorteo_Original": 106
+    },
+    {
+      "ID_Turno": "RPM-2007-12-13:T78",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "el Consejo acuerda subir la Tasa de Política Monetaria en 25 puntos base a 6% anual",
+      "Lote_Sorteo_Original": 114
+    },
+    {
+      "ID_Turno": "RPM-2008-03-13:T87",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "requiere de una reacción medida de la Política Monetaria",
+      "Lote_Sorteo_Original": 122
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T55",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el shock inflacionario que se está observando produce que el gasto real crezca menos de lo que se estaba proyectando",
+      "Lote_Sorteo_Original": 131
+    },
+    {
+      "ID_Turno": "RPM-2008-07-10:T85",
+      "HD_Score": 1.0,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "no cabe ninguna duda que corresponde una contracción de la misma por las distintas razones de segunda vuelta",
+      "Lote_Sorteo_Original": 138
+    },
+    {
+      "ID_Turno": "RPM-2008-08-14:T91",
+      "HD_Score": 1.0,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la principal novedad del último mes es el deterioro del panorama inflacionario",
+      "Lote_Sorteo_Original": 146
+    },
+    {
+      "ID_Turno": "RPM-2008-09-04:T55",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las expectativas de inflación, estas últimas aumentaron bastante después de la última Reunión de Política Monetaria",
+      "Lote_Sorteo_Original": 152
+    },
+    {
+      "ID_Turno": "RPM-2008-12-11:T35",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hoy tienen que pagar la cuenta",
+      "Lote_Sorteo_Original": 161
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T53",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se tiene que volver a considerar escenarios fuertemente pesimistas",
+      "Lote_Sorteo_Original": 170
+    },
+    {
+      "ID_Turno": "RPM-2009-05-07:T57",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se espera que la recuperación sea un poco más lenta el segundo trimestre",
+      "Lote_Sorteo_Original": 178
+    },
+    {
+      "ID_Turno": "RPM-2009-07-09:T107",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "han reducido las presiones inflacionarias que enfrenta la economía chilena",
+      "Lote_Sorteo_Original": 187
+    },
+    {
+      "ID_Turno": "RPM-2009-09-08:T61",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "corresponde perseverar con las políticas en curso",
+      "Lote_Sorteo_Original": 195
+    },
+    {
+      "ID_Turno": "RPM-2009-12-15:T30",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "tuvo una variación mes a mes a de 0,4% y una variación interanual de -0,9% en octubre",
+      "Lote_Sorteo_Original": 202
+    },
+    {
+      "ID_Turno": "RPM-2010-02-11:T120",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las perspectivas de crecimiento se han mantenido bastante estables",
+      "Lote_Sorteo_Original": 210
+    },
+    {
+      "ID_Turno": "RPM-2010-04-15:T65",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se ven condiciones más holgadas en adelante",
+      "Lote_Sorteo_Original": 219
+    },
+    {
+      "ID_Turno": "RPM-2010-06-15:T85",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la demanda interna crece a tasas bastante altas",
+      "Lote_Sorteo_Original": 227
+    },
+    {
+      "ID_Turno": "RPM-2010-07-15:T93",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "aumentar la tasa de interés de política monetaria en 50 puntos base, hasta 1,50% anual",
+      "Lote_Sorteo_Original": 234
+    },
+    {
+      "ID_Turno": "RPM-2010-09-16:T35",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "echa de menos una curva forward de tasas de política monetaria",
+      "Lote_Sorteo_Original": 241
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T67",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las reparaciones de los daños en una obra existente no son catastradas",
+      "Lote_Sorteo_Original": 249
+    },
+    {
+      "ID_Turno": "RPM-2011-01-13:T83",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "es importante que el comunicado dé a entender que no habrá nuevas alzas",
+      "Lote_Sorteo_Original": 257
+    },
+    {
+      "ID_Turno": "RPM-2011-04-12:T75",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto en esta oportunidad es por subir la TPM en 50 puntos base, para llevarla a 4,5%",
+      "Lote_Sorteo_Original": 266
+    },
+    {
+      "ID_Turno": "RPM-2011-05-12:T85",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la actividad económica interna continúa exhibiendo un renovado dinamismo",
+      "Lote_Sorteo_Original": 273
+    },
+    {
+      "ID_Turno": "RPM-2011-09-15:T60",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la TPM en 5,25% y mantener el último párrafo",
+      "Lote_Sorteo_Original": 283
+    },
+    {
+      "ID_Turno": "RPM-2011-10-13:T58",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "menores presiones inflacionarias derivadas fundamentalmente de la parte X1 de alimentos",
+      "Lote_Sorteo_Original": 290
+    },
+    {
+      "ID_Turno": "RPM-2011-12-13:T16",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el programa es incompleto y, por lo tanto, fallará en cuanto a su credibilidad",
+      "Lote_Sorteo_Original": 297
+    },
+    {
+      "ID_Turno": "RPM-2012-03-15:T13",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "continúa la recuperación de las bolsas y, en particular, los aumentos significativos en Estados Unidos de América",
+      "Lote_Sorteo_Original": 307
+    },
+    {
+      "ID_Turno": "RPM-2012-05-17:T36",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la demanda estuvo en línea con las proyecciones contenidas en el IPoM de marzo",
+      "Lote_Sorteo_Original": 315
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T50",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la proyección de inflación en doce meses se ha corregido hasta un 2,1%, desde el 2,7%",
+      "Lote_Sorteo_Original": 322
+    },
+    {
+      "ID_Turno": "RPM-2012-08-16:T8",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ello ha ido agravando los riesgos derivados de una deuda que crece sistemáticamente",
+      "Lote_Sorteo_Original": 330
+    },
+    {
+      "ID_Turno": "RPM-2012-10-18:T37",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el producto ha moderado su tasa de crecimiento, mientras que la demanda final se mantiene dinámica",
+      "Lote_Sorteo_Original": 338
+    },
+    {
+      "ID_Turno": "RPM-2012-11-13:T49",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la brecha de PIB continuará expandiéndose hacia el lado inflacionario",
+      "Lote_Sorteo_Original": 345
+    },
+    {
+      "ID_Turno": "RPM-2013-03-14:T18",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "una tendencia a la baja de su precio en relación a su oferta",
+      "Lote_Sorteo_Original": 353
+    },
+    {
+      "ID_Turno": "RPM-2013-04-11:T3",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "una recuperación débil y heterogénea en lo más reciente",
+      "Lote_Sorteo_Original": 361
+    },
+    {
+      "ID_Turno": "RPM-2013-06-13:T68",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la consolidación de una actividad y demanda por debajo de los niveles esperados tiene efectos sobre la política monetaria",
+      "Lote_Sorteo_Original": 371
+    },
+    {
+      "ID_Turno": "RPM-2013-08-13:T15",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la economía mundial evoluciona positivamente",
+      "Lote_Sorteo_Original": 379
+    },
+    {
+      "ID_Turno": "RPM-2013-09-12:T51",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "esta recomendación coincide con la expectativa de consenso o mayoritaria en el mercado",
+      "Lote_Sorteo_Original": 385
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T43",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota por ajustar la Tasa de Política Monetaria en 25 puntos base para dejarla en un nivel de 4,75%",
+      "Lote_Sorteo_Original": 393
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T7",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "alcanzó a 3,6% trimestre a trimestre anualizado",
+      "Lote_Sorteo_Original": 401
+    },
+    {
+      "ID_Turno": "RPM-2014-02-18:T2",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "da inicio a la Reunión de Política Monetaria N° 207",
+      "Lote_Sorteo_Original": 409
+    },
+    {
+      "ID_Turno": "RPM-2014-04-17:T15",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "predominaba un clima más positivo sobre la economía mundial",
+      "Lote_Sorteo_Original": 417
+    },
+    {
+      "ID_Turno": "RPM-2014-06-12:T59",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "validar la expectativa en orden a que la TPM llegará muy prontamente a 3,5% anual",
+      "Lote_Sorteo_Original": 425
+    },
+    {
+      "ID_Turno": "RPM-2014-08-14:T46",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "han continuado sorprendiendo de manera significativa en la misma direc",
+      "Lote_Sorteo_Original": 435
+    },
+    {
+      "ID_Turno": "RPM-2014-09-11:T42",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la recomendación de la Gerencia de División Estudios es por reducir la TPM en 25 puntos base, a 3,25% anual",
+      "Lote_Sorteo_Original": 441
+    },
+    {
+      "ID_Turno": "RPM-2014-11-18:T21",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el empleo asalariado privado, que crecía 4% en el año 2013, hoy lo hace a una tasa de 0%",
+      "Lote_Sorteo_Original": 449
+    },
+    {
+      "ID_Turno": "RPM-2015-02-12:T21",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los premios por plazo en Estados Unidos de América se encuentran en sus niveles mínimos",
+      "Lote_Sorteo_Original": 459
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T60",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "propone como única opción relevante mantener la TPM en 3% y el sesgo neutral",
+      "Lote_Sorteo_Original": 466
+    },
+    {
+      "ID_Turno": "RPM-2015-05-14:T9",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el mercado consolida la visión de que la Reserva Federal retrasará su proceso de normalización de tasas",
+      "Lote_Sorteo_Original": 473
+    },
+    {
+      "ID_Turno": "RPM-2015-07-14:T46",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el deterioro de este mercado era esperado y que ahora ha comenzado a materializarse",
+      "Lote_Sorteo_Original": 481
+    },
+    {
+      "ID_Turno": "RPM-2015-09-15:T41",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "una clara reducción del ritmo de crecimiento de empleo asalariado",
+      "Lote_Sorteo_Original": 489
+    },
+    {
+      "ID_Turno": "RPM-2015-11-12:T8",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las encuestas no esperan que el ciclo de alza de tasas sea muy profundo",
+      "Lote_Sorteo_Original": 497
+    },
+    {
+      "ID_Turno": "RPM-2005-01-11:T33",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "dicho escenario contempla un cierre de brecha a un ritmo algo mayor",
+      "Lote_Sorteo_Original": 2
+    },
+    {
+      "ID_Turno": "RPM-2005-03-10:T7",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "aproximadamente el 80% de las fluctuaciones en los últimos años del spread soberano chileno se debería a factores idiosincráticos",
+      "Lote_Sorteo_Original": 9
+    },
+    {
+      "ID_Turno": "RPM-2005-06-09:T26",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la tendencia inflacionaria seguía aumentando",
+      "Lote_Sorteo_Original": 17
+    },
+    {
+      "ID_Turno": "RPM-2005-10-11:T47",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la mejor opción es aumentar la tasa de Política Monetaria en 25 puntos base y en tal sentido vota por ello",
+      "Lote_Sorteo_Original": 27
+    },
+    {
+      "ID_Turno": "RPM-2006-03-16:T11",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la actividad económica mundial ha estado mucho mejor de lo que pensábamos",
+      "Lote_Sorteo_Original": 36
+    },
+    {
+      "ID_Turno": "RPM-2006-04-13:T74",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "un alza de 25 puntos base, decisión que espera la mayoría del mercado, sería más coherente con nuestro escenario central",
+      "Lote_Sorteo_Original": 44
+    },
+    {
+      "ID_Turno": "RPM-2006-06-15:T63",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "no le parece que existan argumentos para apretar en este momento la política monetaria",
+      "Lote_Sorteo_Original": 49
+    },
+    {
+      "ID_Turno": "RPM-2006-09-07:T33",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "debiera ser más bien insesgado por esa sola causa",
+      "Lote_Sorteo_Original": 58
+    },
+    {
+      "ID_Turno": "RPM-2006-12-14:T3",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "han seguido configurando un escenario de mayor debilidad",
+      "Lote_Sorteo_Original": 67
+    },
+    {
+      "ID_Turno": "RPM-2007-02-08:T34",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "tratar de hacer vínculos con la aceleración de la inflación subyacente, le parece, que es aún prematuro",
+      "Lote_Sorteo_Original": 75
+    },
+    {
+      "ID_Turno": "RPM-2007-05-10:T42",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en esta ocasión es difícil argumentar por una opción distinta a la mantención de la Tasa de Política Monetaria",
+      "Lote_Sorteo_Original": 83
+    },
+    {
+      "ID_Turno": "RPM-2007-07-12:T20",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "nuevamente dio cuenta de un escenario de inflación de corto plazo superior al previsto en el último IPoM",
+      "Lote_Sorteo_Original": 91
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T74",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "eventos sorpresivos, con implicancias opuestas para la política monetaria",
+      "Lote_Sorteo_Original": 99
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T68",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "esto se compensa con la evidencia que apunta hacia una mayor brecha de productos",
+      "Lote_Sorteo_Original": 108
+    },
+    {
+      "ID_Turno": "RPM-2008-02-07:T3",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se destaca un deterioro en el escenario externo, producto de la extensión de la crisis subprime hacia otros sectores",
+      "Lote_Sorteo_Original": 116
+    },
+    {
+      "ID_Turno": "RPM-2008-03-13:T88",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "va a tener consecuencias desinflacionarias",
+      "Lote_Sorteo_Original": 123
+    },
+    {
+      "ID_Turno": "RPM-2008-05-08:T43",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "produce un período de rezago de transferencia de precios un poco más largo de lo que se podría desear",
+      "Lote_Sorteo_Original": 130
+    },
+    {
+      "ID_Turno": "RPM-2008-07-10:T84",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la inflación anual medida desde julio de 2007 a junio de 2008 ha llegado a una cifra que bordea el 10%",
+      "Lote_Sorteo_Original": 138
+    },
+    {
+      "ID_Turno": "RPM-2008-11-13:T49",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "confirma que la inflación sigue siendo el principal problema que actualmente enfrenta la economía chilena",
+      "Lote_Sorteo_Original": 150
+    },
+    {
+      "ID_Turno": "RPM-2008-12-11:T34",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en el caso de Japón también se observa una caída muy importante",
+      "Lote_Sorteo_Original": 156
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T5",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "en el cuarto trimestre se registró una caída de dicho indicador en un 3,8%",
+      "Lote_Sorteo_Original": 165
+    },
+    {
+      "ID_Turno": "RPM-2009-04-09:T115",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "está en -0,5% y la proyección para el 2010 se mantiene en 3%",
+      "Lote_Sorteo_Original": 173
+    },
+    {
+      "ID_Turno": "RPM-2009-06-16:T72",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "con lo cual se desharía, en parte, la reducción de tasas",
+      "Lote_Sorteo_Original": 180
+    },
+    {
+      "ID_Turno": "RPM-2009-08-13:T50",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el peso se ha depreciado, a pesar del importante aumento observado en el precio del cobre",
+      "Lote_Sorteo_Original": 188
+    },
+    {
+      "ID_Turno": "RPM-2009-10-13:T71",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se ajustan al escenario base presentado en el último IPoM",
+      "Lote_Sorteo_Original": 196
+    },
+    {
+      "ID_Turno": "RPM-2009-12-15:T64",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se ha observado una importante reducción en los registros de inflación y en las proyecciones de corto plazo",
+      "Lote_Sorteo_Original": 204
+    },
+    {
+      "ID_Turno": "RPM-2010-02-11:T125",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "por unanimidad, se mantiene la tasa de política monetaria en 0,5%",
+      "Lote_Sorteo_Original": 212
+    },
+    {
+      "ID_Turno": "RPM-2010-05-13:T59",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "se está con un nivel de tasas que ciertamente es muy bajo dadas las perspectivas actuales y que se tiene un espacio de ajuste",
+      "Lote_Sorteo_Original": 221
+    },
+    {
+      "ID_Turno": "RPM-2010-07-15:T71",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "acordará un aumento de la tasa de política monetaria de 50 puntos base",
+      "Lote_Sorteo_Original": 229
+    },
+    {
+      "ID_Turno": "RPM-2010-08-12:T4",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no permite tener una idea precisa acerca de la estabilidad actual de esos precios",
+      "Lote_Sorteo_Original": 236
+    },
+    {
+      "ID_Turno": "RPM-2010-09-16:T26",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "efectivamente, la apreciación ha sido muy poco significativa",
+      "Lote_Sorteo_Original": 241
+    },
+    {
+      "ID_Turno": "RPM-2011-01-13:T3",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las cifras de actividad de las economías desarrolladas resultaron mejores que lo anticipado",
+      "Lote_Sorteo_Original": 252
+    },
+    {
+      "ID_Turno": "RPM-2011-02-17:T97",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "le parece adecuado validar las expectativas del mercado y aumentar la TPM en 25 puntos base",
+      "Lote_Sorteo_Original": 260
+    },
+    {
+      "ID_Turno": "RPM-2011-05-12:T38",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el riesgo de cola, si bien no tendría una alta probabilidad de ocurrencia, podría tener efectos significativos",
+      "Lote_Sorteo_Original": 268
+    },
+    {
+      "ID_Turno": "RPM-2011-06-14:T23",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "no se advierte un panorama externo auspicioso",
+      "Lote_Sorteo_Original": 275
+    },
+    {
+      "ID_Turno": "RPM-2011-09-15:T66",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "han aumentado los riesgos en torno al escenario internacional",
+      "Lote_Sorteo_Original": 284
+    },
+    {
+      "ID_Turno": "RPM-2011-11-15:T82",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las perspectivas de crecimiento para esta región del mundo se han seguido debilitando",
+      "Lote_Sorteo_Original": 292
+    },
+    {
+      "ID_Turno": "RPM-2012-01-12:T5",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "si estas dos tasas están desarbitradas, se van a producir flujos en el sentido señalado",
+      "Lote_Sorteo_Original": 300
+    },
+    {
+      "ID_Turno": "RPM-2012-04-17:T34",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "persiste el dinamismo del crédito hipotecario, para pymes y para grandes empresas",
+      "Lote_Sorteo_Original": 308
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T73",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se amplían y difunden las señales de desaceleración en el resto del mundo",
+      "Lote_Sorteo_Original": 319
+    },
+    {
+      "ID_Turno": "RPM-2012-09-13:T29",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el IMACEC del mes de julio creció 5,3%, en línea con lo proyectado",
+      "Lote_Sorteo_Original": 327
+    },
+    {
+      "ID_Turno": "RPM-2012-10-18:T6",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "han mejorado los indicadores de producción industrial y ventas minoristas",
+      "Lote_Sorteo_Original": 334
+    },
+    {
+      "ID_Turno": "RPM-2012-12-13:T23",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en el mes de octubre pasado la actividad presentó en una alta tasa de crecimiento",
+      "Lote_Sorteo_Original": 342
+    },
+    {
+      "ID_Turno": "RPM-2013-01-17:T60",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los magros datos de crecimiento, especialmente en Europa y algunos otros países en desarrollo",
+      "Lote_Sorteo_Original": 348
+    },
+    {
+      "ID_Turno": "RPM-2013-04-11:T64",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se mantienen por debajo del piso del rango de tolerancia del Banco Central de Chile",
+      "Lote_Sorteo_Original": 357
+    },
+    {
+      "ID_Turno": "RPM-2013-06-13:T14",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ella se ha moderado en México, Brasil y China, debido a la disminución de los precios de alimentos",
+      "Lote_Sorteo_Original": 364
+    },
+    {
+      "ID_Turno": "RPM-2013-07-11:T40",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la corrección marginal de la proyección para el año desde el 4,4% considerado en dicho Informe, hasta un 4,3%",
+      "Lote_Sorteo_Original": 372
+    },
+    {
+      "ID_Turno": "RPM-2013-11-19:T25",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la actividad y demanda exhiben una desaceleración gradual",
+      "Lote_Sorteo_Original": 384
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T35",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en la actualidad, en cambio, podría comenzar a predominar la visión opuesta",
+      "Lote_Sorteo_Original": 391
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T56",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "así como también un sesgo neutral en el Comunicado",
+      "Lote_Sorteo_Original": 396
+    },
+    {
+      "ID_Turno": "RPM-2014-01-16:T45",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las noticias del último mes son, en general, coherentes con el escenario base",
+      "Lote_Sorteo_Original": 403
+    },
+    {
+      "ID_Turno": "RPM-2014-04-17:T73",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ya se ha dado un estímulo monetario importante, al punto que hoy el equivalente real de la TPM es cercano a 0",
+      "Lote_Sorteo_Original": 413
+    },
+    {
+      "ID_Turno": "RPM-2014-05-15:T8",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "los riesgos en Estados Unidos de América están claramente sesgados hacia una mayor inflación y mayores tasas de interés",
+      "Lote_Sorteo_Original": 420
+    },
+    {
+      "ID_Turno": "RPM-2014-07-15:T30",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "explicada por el débil desempeño de la inversión y del consumo",
+      "Lote_Sorteo_Original": 428
+    },
+    {
+      "ID_Turno": "RPM-2014-09-11:T10",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la depreciación del peso chileno ha sido mayor que la registrada por las monedas de los demás países de la región",
+      "Lote_Sorteo_Original": 436
+    },
+    {
+      "ID_Turno": "RPM-2014-10-16:T15",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "lo que configura un escenario de mucha debilidad de crecimiento en las economías avanzadas y emergentes",
+      "Lote_Sorteo_Original": 443
+    },
+    {
+      "ID_Turno": "RPM-2014-11-18:T15",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se anticipa una caída de 0,8% para el presente año",
+      "Lote_Sorteo_Original": 449
+    },
+    {
+      "ID_Turno": "RPM-2015-02-12:T34",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el principal foco de preocupación debe ser la inflación, especialmente por la proximidad del IPoM",
+      "Lote_Sorteo_Original": 460
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T39",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "cifra inferior al 2% estimado",
+      "Lote_Sorteo_Original": 466
+    },
+    {
+      "ID_Turno": "RPM-2015-05-14:T61",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "solo cabe favorecer la mantención de la TPM en 3% y el tono del último Comunicado",
+      "Lote_Sorteo_Original": 473
+    },
+    {
+      "ID_Turno": "RPM-2015-08-13:T53",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "dan cuenta de una dinámica inflacionaria significativamente mayor que la prevista hace solo un par de meses",
+      "Lote_Sorteo_Original": 483
+    },
+    {
+      "ID_Turno": "RPM-2015-10-15:T50",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la inflación esperada a un año ha descendido, pero se mantiene sobre 3,5%",
+      "Lote_Sorteo_Original": 491
+    },
+    {
+      "ID_Turno": "RPM-2015-12-17:T12",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el precio de los commodities registró una caída generalizada en el último mes",
+      "Lote_Sorteo_Original": 498
+    },
+    {
+      "ID_Turno": "RPM-2005-02-10:T24",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "sería conveniente dejarlos para hacer un análisis de la coyuntura más consistente",
+      "Lote_Sorteo_Original": 5
+    },
+    {
+      "ID_Turno": "RPM-2005-05-12:T12",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "es adecuada y que se le denomina así para diferenciarla de lo que podrían ser expectativas inflacionarias",
+      "Lote_Sorteo_Original": 12
+    },
+    {
+      "ID_Turno": "RPM-2005-07-12:T46",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la tasa de política monetaria en 25 puntos base, hasta 3,5% anual",
+      "Lote_Sorteo_Original": 21
+    },
+    {
+      "ID_Turno": "RPM-2005-11-10:T2",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "El señor Presidente fija la sesión de política monetaria del mes de mayo de 2006, para el día 11 de ese mes",
+      "Lote_Sorteo_Original": 28
+    },
+    {
+      "ID_Turno": "RPM-2006-02-09:T42",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por elevar la tasa de política monetaria en 25 puntos base",
+      "Lote_Sorteo_Original": 35
+    },
+    {
+      "ID_Turno": "RPM-2006-07-13:T64",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la tasa de política monetaria a 5,25%",
+      "Lote_Sorteo_Original": 49
+    },
+    {
+      "ID_Turno": "RPM-2006-08-10:T41",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la tasa de política monetaria en su actual nivel de 5,25%",
+      "Lote_Sorteo_Original": 53
+    },
+    {
+      "ID_Turno": "RPM-2006-11-16:T36",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "escenarios alternativos al de mantención de la tasa de política monetaria",
+      "Lote_Sorteo_Original": 61
+    },
+    {
+      "ID_Turno": "RPM-2006-12-14:T63",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "también vota por mantener la tasa de política en 5,25%",
+      "Lote_Sorteo_Original": 69
+    },
+    {
+      "ID_Turno": "RPM-2007-02-08:T53",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la tasa de política monetaria en el nivel actual",
+      "Lote_Sorteo_Original": 77
+    },
+    {
+      "ID_Turno": "RPM-2007-06-14:T45",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "un sesgo explícito limita los grados de libertad para acciones posteriores",
+      "Lote_Sorteo_Original": 85
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T21",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las estadísticas no son buenas ni malas",
+      "Lote_Sorteo_Original": 94
+    },
+    {
+      "ID_Turno": "RPM-2007-10-11:T66",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la Tasa de Política Monetaria en su actual nivel",
+      "Lote_Sorteo_Original": 102
+    },
+    {
+      "ID_Turno": "RPM-2007-12-13:T28",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su gran duda junto al escenario internacional es respecto a lo que está sucediendo con las paridades",
+      "Lote_Sorteo_Original": 109
+    },
+    {
+      "ID_Turno": "RPM-2007-12-13:T74",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la inflación se mantiene muy por sobre la meta y se espera que esto continúe por un tiempo",
+      "Lote_Sorteo_Original": 113
+    },
+    {
+      "ID_Turno": "RPM-2008-02-07:T7",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "éstas han caído fuertemente",
+      "Lote_Sorteo_Original": 121
+    },
+    {
+      "ID_Turno": "RPM-2008-05-08:T51",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en dicho mercado no se advierte una desaceleración en la tasa de crecimiento del empleo",
+      "Lote_Sorteo_Original": 131
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T103",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la Tasa de Política Monetaria a 6,75%",
+      "Lote_Sorteo_Original": 135
+    },
+    {
+      "ID_Turno": "RPM-2008-07-10:T87",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "La primera es el alto registro de la inflación de junio",
+      "Lote_Sorteo_Original": 144
+    },
+    {
+      "ID_Turno": "RPM-2008-09-04:T42",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "existe un efecto más de presiones de costo hacia mediano plazo",
+      "Lote_Sorteo_Original": 151
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T55",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "el crecimiento de la economía mundial es del orden de 0,7% ó 0,6% menor",
+      "Lote_Sorteo_Original": 167
+    },
+    {
+      "ID_Turno": "RPM-2009-05-07:T68",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las tasas de colocaciones han seguido disminuyendo",
+      "Lote_Sorteo_Original": 175
+    },
+    {
+      "ID_Turno": "RPM-2009-07-09:T56",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la tasa de desempleo llegó a 10,2% en mayo",
+      "Lote_Sorteo_Original": 184
+    },
+    {
+      "ID_Turno": "RPM-2009-08-13:T42",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los salarios reales han experimentado un significativo aume",
+      "Lote_Sorteo_Original": 188
+    },
+    {
+      "ID_Turno": "RPM-2009-10-13:T70",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "depende de la validez que siga teniendo el escenario central de dicho Informe",
+      "Lote_Sorteo_Original": 196
+    },
+    {
+      "ID_Turno": "RPM-2010-01-14:T8",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "quizás está sostenida por un “respirador artificial”",
+      "Lote_Sorteo_Original": 206
+    },
+    {
+      "ID_Turno": "RPM-2010-03-18:T51",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no pueden considerarse como sustitutos de una FLAP a 180 días a tasa fija",
+      "Lote_Sorteo_Original": 213
+    },
+    {
+      "ID_Turno": "RPM-2010-04-15:T83",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el escenario macroeconómico sigue siendo altamente incierto",
+      "Lote_Sorteo_Original": 220
+    },
+    {
+      "ID_Turno": "RPM-2010-07-15:T11",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no solo han continuado ajustándose, sino que se esperan nuevas alzas",
+      "Lote_Sorteo_Original": 228
+    },
+    {
+      "ID_Turno": "RPM-2010-09-16:T49",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "culmina, finalmente, en algún problema de vulnerabilidad externa",
+      "Lote_Sorteo_Original": 239
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T3",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "con el propósito de reestimular el crecimiento y reducir los riesgos deflacionarios",
+      "Lote_Sorteo_Original": 245
+    },
+    {
+      "ID_Turno": "RPM-2011-01-13:T82",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "por entregar un comunicado que contenga un sesgo al alza",
+      "Lote_Sorteo_Original": 253
+    },
+    {
+      "ID_Turno": "RPM-2011-05-12:T15",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "han tendido a enfriarse en la punta",
+      "Lote_Sorteo_Original": 263
+    },
+    {
+      "ID_Turno": "RPM-2011-06-14:T40",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la proyección interna de actividad se ha corregido al alza por industria y sectores ligados al consumo",
+      "Lote_Sorteo_Original": 272
+    },
+    {
+      "ID_Turno": "RPM-2011-08-18:T70",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la opción, en esta ocasión, es de mantener la TPM y retirar el sesgo",
+      "Lote_Sorteo_Original": 278
+    },
+    {
+      "ID_Turno": "RPM-2011-10-13:T77",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no se puede descartar que un mayor deterioro externo o interno pueda llevar a una modificación de la política monetaria",
+      "Lote_Sorteo_Original": 287
+    },
+    {
+      "ID_Turno": "RPM-2011-12-13:T40",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los encuestados de la EEE piensan mayoritariamente que la tasa bajará a 5%",
+      "Lote_Sorteo_Original": 294
+    },
+    {
+      "ID_Turno": "RPM-2012-02-14:T84",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no se pueden descartar bajas futuras de la tasa rectora",
+      "Lote_Sorteo_Original": 303
+    },
+    {
+      "ID_Turno": "RPM-2012-06-14:T18",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su petición de rescate es inminente",
+      "Lote_Sorteo_Original": 312
+    },
+    {
+      "ID_Turno": "RPM-2012-08-16:T31",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "que se traducirán en alzas en los precios nacionales",
+      "Lote_Sorteo_Original": 321
+    },
+    {
+      "ID_Turno": "RPM-2012-10-18:T3",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los mercados han vuelto a mostrar algunos progresos",
+      "Lote_Sorteo_Original": 329
+    },
+    {
+      "ID_Turno": "RPM-2012-11-13:T59",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se mantienen en líneas gruesas las tendencias observadas en las Reuniones anteriores",
+      "Lote_Sorteo_Original": 337
+    },
+    {
+      "ID_Turno": "RPM-2012-12-13:T44",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la economía internacional continúa por una senda de lenta recuperación",
+      "Lote_Sorteo_Original": 343
+    },
+    {
+      "ID_Turno": "RPM-2013-02-14:T32",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "si el mundo desarrollado comienza a crecer, el precio de los commodities se elevará",
+      "Lote_Sorteo_Original": 349
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T31",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "una política monetaria algo más expansiva y otra fiscal ligeramente más contractiva",
+      "Lote_Sorteo_Original": 360
+    },
+    {
+      "ID_Turno": "RPM-2013-08-13:T12",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "enfrenta problemas de carácter fitosanitario",
+      "Lote_Sorteo_Original": 370
+    },
+    {
+      "ID_Turno": "RPM-2013-09-12:T55",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "mantener la Tasa de Política Monetaria en 5% anual",
+      "Lote_Sorteo_Original": 377
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T5",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "una mera postergación de los problemas presupuestarios y del techo de la deuda",
+      "Lote_Sorteo_Original": 384
+    },
+    {
+      "ID_Turno": "RPM-2013-11-19:T9",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la contracción de su crecimiento podría ser mayor que lo proyectado hasta esta fecha",
+      "Lote_Sorteo_Original": 390
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T50",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la TPM en 4,5% anual",
+      "Lote_Sorteo_Original": 396
+    },
+    {
+      "ID_Turno": "RPM-2014-02-18:T24",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el precio del petróleo se incrementó tras las revisiones al alza del crecimiento de los países desarrollados",
+      "Lote_Sorteo_Original": 406
+    },
+    {
+      "ID_Turno": "RPM-2014-04-17:T65",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "recomienda mantener la TPM en 4,0% anual y mantener el sesgo a la baja en el Comunicado",
+      "Lote_Sorteo_Original": 413
+    },
+    {
+      "ID_Turno": "RPM-2014-05-15:T7",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la sorpresa de la inflación al alza que denota un poco más de tensión inflacionaria",
+      "Lote_Sorteo_Original": 420
+    },
+    {
+      "ID_Turno": "RPM-2014-06-12:T63",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por reducir la TPM en 25 puntos base, a 3,75% anual",
+      "Lote_Sorteo_Original": 426
+    },
+    {
+      "ID_Turno": "RPM-2014-08-14:T38",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "recomienda reducir la TPM en 25 puntos base, a 3,5% anual",
+      "Lote_Sorteo_Original": 434
+    },
+    {
+      "ID_Turno": "RPM-2014-09-11:T6",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la visión sobre China es de una desaceleración controlada",
+      "Lote_Sorteo_Original": 443
+    },
+    {
+      "ID_Turno": "RPM-2014-10-16:T55",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por bajar la TPM a 3%",
+      "Lote_Sorteo_Original": 449
+    },
+    {
+      "ID_Turno": "RPM-2015-02-12:T15",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los EMBI en los demás países europeos han tendido a reducirse",
+      "Lote_Sorteo_Original": 458
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T69",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la trayectoria inflacionaria requiere todavía de un atento seguimiento",
+      "Lote_Sorteo_Original": 468
+    },
+    {
+      "ID_Turno": "RPM-2015-08-13:T44",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la inflación ha permanecido sobre 4% durante un año y medio",
+      "Lote_Sorteo_Original": 479
+    },
+    {
+      "ID_Turno": "RPM-2015-10-15:T28",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se ha sobreestimado la relevancia de la eventual alza de la tasa de instancia norteamericana",
+      "Lote_Sorteo_Original": 487
+    },
+    {
+      "ID_Turno": "RPM-2015-12-17:T25",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "existe poco espacio fiscal y monetario para suavizar el ciclo adverso",
+      "Lote_Sorteo_Original": 495
+    },
+    {
+      "ID_Turno": "RPM-2005-01-11:T51",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la tasa de política monetaria en el monto señalado",
+      "Lote_Sorteo_Original": 5
+    },
+    {
+      "ID_Turno": "RPM-2005-03-10:T38",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no puede ser que en el largo plazo la tasa de interés esté por debajo del crecimiento de la economía",
+      "Lote_Sorteo_Original": 9
+    },
+    {
+      "ID_Turno": "RPM-2005-06-09:T35",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "le parece adecuado en el día de hoy pausar la estrategia de alza de tasas",
+      "Lote_Sorteo_Original": 19
+    },
+    {
+      "ID_Turno": "RPM-2005-10-11:T44",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "en 25 puntos base por cuarto mes consecutivo y vota en consecuencia",
+      "Lote_Sorteo_Original": 26
+    },
+    {
+      "ID_Turno": "RPM-2006-02-09:T5",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "Las expectativas de inflación siguen bien ancladas en torno al centro del rango meta",
+      "Lote_Sorteo_Original": 37
+    },
+    {
+      "ID_Turno": "RPM-2006-07-13:T67",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "Las condiciones financieras no siguieron reduciendo su grado de expansividad",
+      "Lote_Sorteo_Original": 50
+    },
+    {
+      "ID_Turno": "RPM-2006-10-12:T37",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no le parece que pueda descartarse un escenario en que se produzca un desanclaje de las expectativas",
+      "Lote_Sorteo_Original": 58
+    },
+    {
+      "ID_Turno": "RPM-2006-12-14:T19",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "un Imacec de octubre que creció por sobre 5% anual",
+      "Lote_Sorteo_Original": 64
+    },
+    {
+      "ID_Turno": "RPM-2007-01-11:T27",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el rol de éste es más bien ir adelante del mercado para tratar de monitorear esas expectativas",
+      "Lote_Sorteo_Original": 70
+    },
+    {
+      "ID_Turno": "RPM-2007-03-15:T4",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las fuertes turbulencias que se observaron en los mercados financieros internacionales",
+      "Lote_Sorteo_Original": 78
+    },
+    {
+      "ID_Turno": "RPM-2007-04-12:T59",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se sigue justificando una reducción en los términos que se contemplaba",
+      "Lote_Sorteo_Original": 83
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T18",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el indicador más correcto es el credit default swap",
+      "Lote_Sorteo_Original": 93
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T81",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por un alza de 25 puntos base en la Tasa de Política Monetaria",
+      "Lote_Sorteo_Original": 101
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T2",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el Ministro de Hacienda señor Andrés Velasco no asistirá a la Sesión del día de hoy",
+      "Lote_Sorteo_Original": 106
+    },
+    {
+      "ID_Turno": "RPM-2007-12-13:T29",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "anticipándose un aumento de 25 puntos base en el primer trimestre del 2008",
+      "Lote_Sorteo_Original": 113
+    },
+    {
+      "ID_Turno": "RPM-2008-04-10:T32",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no se podía descartar un ajuste adicional de la Tasa de Política Monetaria",
+      "Lote_Sorteo_Original": 125
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T16",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ha llevado a expectativas de aumento que se hacen más evidentes en el caso de Europa",
+      "Lote_Sorteo_Original": 133
+    },
+    {
+      "ID_Turno": "RPM-2008-08-14:T33",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las trayectorias que hoy día se están esperando son algo más bajas que lo que estaban en ese entonces",
+      "Lote_Sorteo_Original": 142
+    },
+    {
+      "ID_Turno": "RPM-2008-09-04:T15",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se corrige a la baja la proyección para el año 2008",
+      "Lote_Sorteo_Original": 148
+    },
+    {
+      "ID_Turno": "RPM-2008-11-13:T8",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su impresión global es que la situación se viene mucho peor de lo que se preveía",
+      "Lote_Sorteo_Original": 156
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T11",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en el caso de Corea y Japón, que son los países que muestran deterioros más relevantes",
+      "Lote_Sorteo_Original": 164
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T91",
+      "HD_Score": -1.0,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "tres votos por bajar la tasa en 250 puntos base y otros dos, por disminuirla en 200 puntos base",
+      "Lote_Sorteo_Original": 171
+    },
+    {
+      "ID_Turno": "RPM-2009-06-16:T85",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "un claro mensaje de persistencia de tasas bajas en el comunicado",
+      "Lote_Sorteo_Original": 181
+    },
+    {
+      "ID_Turno": "RPM-2009-07-09:T74",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "cuando sube el nivel de riesgo, los bancos limitan el otorgamiento de créditos",
+      "Lote_Sorteo_Original": 188
+    },
+    {
+      "ID_Turno": "RPM-2009-10-13:T23",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los spreads Libor OIS a un mes están bastante estables",
+      "Lote_Sorteo_Original": 196
+    },
+    {
+      "ID_Turno": "RPM-2009-11-12:T60",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las perspectivas de un mejor entorno de crecimiento han seguido asentándose",
+      "Lote_Sorteo_Original": 201
+    },
+    {
+      "ID_Turno": "RPM-2010-01-14:T53",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el Consejero señor Rodrigo Vergara vota por mantener la TPM en su nivel actual",
+      "Lote_Sorteo_Original": 208
+    },
+    {
+      "ID_Turno": "RPM-2010-02-11:T27",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en Chile había claramente una mayor persistencia de la inflación subyacente",
+      "Lote_Sorteo_Original": 216
+    },
+    {
+      "ID_Turno": "RPM-2010-04-15:T79",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el comienzo del proceso de normalización de la política monetaria se vislumbra cercano",
+      "Lote_Sorteo_Original": 223
+    },
+    {
+      "ID_Turno": "RPM-2010-06-15:T78",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se acercaba el momento de iniciar el proceso de normalización de la política monetaria",
+      "Lote_Sorteo_Original": 230
+    },
+    {
+      "ID_Turno": "RPM-2010-07-15:T56",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hasta 5,9%, debido, fundamentalmente, a una sorpresa en industria en el mes de mayo",
+      "Lote_Sorteo_Original": 235
+    },
+    {
+      "ID_Turno": "RPM-2010-12-16:T57",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "continuar retirando estímulo monetario de la economía",
+      "Lote_Sorteo_Original": 251
+    },
+    {
+      "ID_Turno": "RPM-2011-02-17:T102",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por aumentar la TPM en 25 puntos base",
+      "Lote_Sorteo_Original": 258
+    },
+    {
+      "ID_Turno": "RPM-2011-04-12:T44",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "esta reaceleración será más bien transitoria, ya que la demanda volvería a moderarse en el segundo trimestre",
+      "Lote_Sorteo_Original": 265
+    },
+    {
+      "ID_Turno": "RPM-2011-06-14:T74",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la TPM a 5,25%",
+      "Lote_Sorteo_Original": 276
+    },
+    {
+      "ID_Turno": "RPM-2011-08-18:T76",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las últimas semanas han estado marcadas por un importante deterioro de las condiciones externas",
+      "Lote_Sorteo_Original": 282
+    },
+    {
+      "ID_Turno": "RPM-2011-11-15:T84",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "los riesgos son significativamente mayores que en las Reuniones anteriores",
+      "Lote_Sorteo_Original": 293
+    },
+    {
+      "ID_Turno": "RPM-2012-01-12:T43",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las tasas reales tendieron a caer desde la última Reunión",
+      "Lote_Sorteo_Original": 300
+    },
+    {
+      "ID_Turno": "RPM-2012-02-14:T76",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "continúa el deterioro en las perspectivas de crecimiento de la región",
+      "Lote_Sorteo_Original": 306
+    },
+    {
+      "ID_Turno": "RPM-2012-05-17:T3",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se advierten mayores posibilidades de que Grecia abandone el euro",
+      "Lote_Sorteo_Original": 314
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T44",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "podría estar más abierta que lo considerado anteriormente",
+      "Lote_Sorteo_Original": 320
+    },
+    {
+      "ID_Turno": "RPM-2012-08-16:T55",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "estima que parece adecuado mantener la pausa, para seguir evaluando el escenario externo",
+      "Lote_Sorteo_Original": 328
+    },
+    {
+      "ID_Turno": "RPM-2012-10-18:T35",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "tanto Australia como Nueva Zelanda vivieron un período de burbuja inmobiliaria",
+      "Lote_Sorteo_Original": 336
+    },
+    {
+      "ID_Turno": "RPM-2012-11-13:T28",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las expectativas de las empresas no solo se mantienen en un terreno bastante positivo",
+      "Lote_Sorteo_Original": 342
+    },
+    {
+      "ID_Turno": "RPM-2013-03-14:T29",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la EEE refleja por primera vez un alza adicional de la TPM hasta 5,5%",
+      "Lote_Sorteo_Original": 354
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T18",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su sector real aún no muestra signo alguno de recuperación",
+      "Lote_Sorteo_Original": 362
+    },
+    {
+      "ID_Turno": "RPM-2013-06-13:T46",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los datos muestran una trayectoria de desaceleración moderada",
+      "Lote_Sorteo_Original": 370
+    },
+    {
+      "ID_Turno": "RPM-2013-08-13:T14",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "estima que debería incluirse una proyección en materia de riesgos",
+      "Lote_Sorteo_Original": 378
+    },
+    {
+      "ID_Turno": "RPM-2013-09-12:T57",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "vota por mantener la Tasa de Política Monetaria en 5% anual, como también el sesgo del Comunicado",
+      "Lote_Sorteo_Original": 384
+    },
+    {
+      "ID_Turno": "RPM-2013-11-19:T17",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "lo cual anticipa bajas tasas de crecimiento en los próximos meses",
+      "Lote_Sorteo_Original": 391
+    },
+    {
+      "ID_Turno": "RPM-2014-01-16:T3",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el Senado aprobó el acuerdo referente al presupuesto para los próximos dos años",
+      "Lote_Sorteo_Original": 403
+    },
+    {
+      "ID_Turno": "RPM-2014-03-13:T22",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la cesación de pago de la empresa china",
+      "Lote_Sorteo_Original": 410
+    },
+    {
+      "ID_Turno": "RPM-2014-06-12:T6",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la controversia judicial gira en torno a fondos tenedores de dichos bonos soberanos",
+      "Lote_Sorteo_Original": 423
+    },
+    {
+      "ID_Turno": "RPM-2014-08-14:T50",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por bajar la TPM en 25 puntos base, a 3,5% anual",
+      "Lote_Sorteo_Original": 434
+    },
+    {
+      "ID_Turno": "RPM-2014-10-16:T10",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "precios más bajos de combustibles en adelante",
+      "Lote_Sorteo_Original": 441
+    },
+    {
+      "ID_Turno": "RPM-2014-11-18:T23",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "es un discurso bastante razonable, que debe mantenerse",
+      "Lote_Sorteo_Original": 449
+    },
+    {
+      "ID_Turno": "RPM-2015-02-12:T45",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su voto es por mantener la TPM en 3% anual",
+      "Lote_Sorteo_Original": 459
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T29",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su impacto estará concentrado en el sector minería de la Tercera Región",
+      "Lote_Sorteo_Original": 463
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T44",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el tipo de cambio real se ubicó en 93",
+      "Lote_Sorteo_Original": 467
+    },
+    {
+      "ID_Turno": "RPM-2015-07-14:T40",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "es preciso reestudiar el traspaso cambiarlo a inflación",
+      "Lote_Sorteo_Original": 477
+    },
+    {
+      "ID_Turno": "RPM-2015-10-15:T54",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la información disponible da cuenta de un dinamismo acotado del empleo asalariado",
+      "Lote_Sorteo_Original": 489
+    },
+    {
+      "ID_Turno": "RPM-2015-11-12:T53",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "un sesgo al alza en el Comunicado",
+      "Lote_Sorteo_Original": 493
+    },
+    {
+      "ID_Turno": "RPM-2005-05-12:T38",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "No es muy comprensible el por qué el Consejo toma una estrategia tan marcadamente front low",
+      "Lote_Sorteo_Original": 12
+    },
+    {
+      "ID_Turno": "RPM-2005-05-12:T55",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "ir la tasa más agresivamente si la inflación se empieza a escapar",
+      "Lote_Sorteo_Original": 15
+    },
+    {
+      "ID_Turno": "RPM-2005-08-11:T33",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hasta ahora no se tiene mucha evidencia de que el tipo de cambio esté muy desanclado",
+      "Lote_Sorteo_Original": 23
+    },
+    {
+      "ID_Turno": "RPM-2005-10-11:T40",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "comparte el análisis de la Gerencia de División Estudios y la recomendación de un aumento de 25 puntos base",
+      "Lote_Sorteo_Original": 26
+    },
+    {
+      "ID_Turno": "RPM-2005-11-10:T5",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la tasa de interés internacional ha aumentado",
+      "Lote_Sorteo_Original": 32
+    },
+    {
+      "ID_Turno": "RPM-2006-02-09:T41",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la tasa de política monetaria en 25 puntos base",
+      "Lote_Sorteo_Original": 37
+    },
+    {
+      "ID_Turno": "RPM-2006-10-12:T62",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hemos asistido a una reducción de al menos US$ 10 en el precio del barril de petróleo",
+      "Lote_Sorteo_Original": 59
+    },
+    {
+      "ID_Turno": "RPM-2006-11-16:T10",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la visión de este escenario base es relativamente positiva",
+      "Lote_Sorteo_Original": 61
+    },
+    {
+      "ID_Turno": "RPM-2006-11-16:T44",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "sería recomendable cambiar en el comunicado la dirección de quitar el sesgo al alza de los comunicados previos",
+      "Lote_Sorteo_Original": 65
+    },
+    {
+      "ID_Turno": "RPM-2007-02-08:T52",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la orientación de la política monetaria debería continuar con el sello neutral que traía",
+      "Lote_Sorteo_Original": 77
+    },
+    {
+      "ID_Turno": "RPM-2007-03-15:T63",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota por una reducción de 25 puntos base en la tasa de política monetaria",
+      "Lote_Sorteo_Original": 82
+    },
+    {
+      "ID_Turno": "RPM-2007-07-12:T59",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "sea necesario volver a aumentar la Tasa de Política Monetaria en los meses siguientes",
+      "Lote_Sorteo_Original": 92
+    },
+    {
+      "ID_Turno": "RPM-2007-09-13:T76",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "significativo riesgo a la baja del crecimiento y las posibilidades de turbulencias financieras más graves",
+      "Lote_Sorteo_Original": 100
+    },
+    {
+      "ID_Turno": "RPM-2007-10-11:T64",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "estará atento a monitorear la credibilidad de su meta de inflación",
+      "Lote_Sorteo_Original": 105
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T61",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la brecha de la Tasa de Política Monetaria respecto de su nivel neutral es aún negativa",
+      "Lote_Sorteo_Original": 110
+    },
+    {
+      "ID_Turno": "RPM-2008-01-10:T3",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se fortalecen las alternativas de nuevos recortes en las tasas Fed Fund",
+      "Lote_Sorteo_Original": 119
+    },
+    {
+      "ID_Turno": "RPM-2008-03-13:T104",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "De acuerdo con la Ley de Transparencia, el Acta con el nombre de cada uno de los que expongan",
+      "Lote_Sorteo_Original": 124
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T30",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la capacidad de aumento de producción de la OPEP está prácticamente agotada",
+      "Lote_Sorteo_Original": 136
+    },
+    {
+      "ID_Turno": "RPM-2008-09-04:T69",
+      "HD_Score": 1.0,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la Tasa de Política Monetaria en 50 puntos base hasta 8,25% y mantener el sesgo al alza",
+      "Lote_Sorteo_Original": 151
+    },
+    {
+      "ID_Turno": "RPM-2008-12-11:T100",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota por bajar la Tasa de Política Monetaria en 25 puntos base para dejarla en un nivel de 8% anual",
+      "Lote_Sorteo_Original": 157
+    },
+    {
+      "ID_Turno": "RPM-2008-12-11:T58",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el de la demanda interna de menos 2,9%, que es bien intenso",
+      "Lote_Sorteo_Original": 162
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T33",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el escenario del IPoM del mes de enero de 2009 quedó atrasado",
+      "Lote_Sorteo_Original": 168
+    },
+    {
+      "ID_Turno": "RPM-2009-02-12:T65",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no es una moneda que se encuentre en un nivel confiable para poder medir nuestros fundamentales de largo plazo",
+      "Lote_Sorteo_Original": 173
+    },
+    {
+      "ID_Turno": "RPM-2009-04-09:T56",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el dato del precio del cobre refleja factores concretos de la economía china",
+      "Lote_Sorteo_Original": 179
+    },
+    {
+      "ID_Turno": "RPM-2009-06-16:T28",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hay tres temas que influyen conceptualmente en la tasa larga",
+      "Lote_Sorteo_Original": 184
+    },
+    {
+      "ID_Turno": "RPM-2009-09-08:T12",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se ven rebotes importantes en el caso de la producción industrial destinada a inversión y en comercio mayorista",
+      "Lote_Sorteo_Original": 195
+    },
+    {
+      "ID_Turno": "RPM-2009-10-13:T38",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": " diciembre con un -0,8%",
+      "Lote_Sorteo_Original": 201
+    },
+    {
+      "ID_Turno": "RPM-2010-02-11:T43",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la proyección para el primer trimestre se está corrigiendo al alza, desde 4,1% hasta 4,5%",
+      "Lote_Sorteo_Original": 217
+    },
+    {
+      "ID_Turno": "RPM-2010-03-18:T36",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ha habido dos correcciones importantes al alza, que no se deben al terremoto",
+      "Lote_Sorteo_Original": 219
+    },
+    {
+      "ID_Turno": "RPM-2010-05-13:T27",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "parte del mercado espera que el Consejo acuerde un alza en la TPM de 25 puntos base en esta Reunión",
+      "Lote_Sorteo_Original": 227
+    },
+    {
+      "ID_Turno": "RPM-2010-07-15:T36",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se tiene una brecha todavía bastante abierta en el año 2011",
+      "Lote_Sorteo_Original": 235
+    },
+    {
+      "ID_Turno": "RPM-2010-08-12:T84",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la TPM en 50 puntos base, para llevarla a 2%",
+      "Lote_Sorteo_Original": 243
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T91",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "continúan las señales de crecimiento moderado en las economías desarrolladas",
+      "Lote_Sorteo_Original": 252
+    },
+    {
+      "ID_Turno": "RPM-2010-12-16:T61",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la TPM en 25 puntos base hasta 3,25%",
+      "Lote_Sorteo_Original": 256
+    },
+    {
+      "ID_Turno": "RPM-2011-03-17:T22",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "varios países han continuado con su proceso de normalización",
+      "Lote_Sorteo_Original": 266
+    },
+    {
+      "ID_Turno": "RPM-2011-08-18:T64",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los salarios continúan creciendo, en términos reales, en torno a 3% anual",
+      "Lote_Sorteo_Original": 281
+    },
+    {
+      "ID_Turno": "RPM-2011-11-15:T53",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "dada la estrechez del mercado laboral, la dinámica de ajustes de salarios persistirá",
+      "Lote_Sorteo_Original": 291
+    },
+    {
+      "ID_Turno": "RPM-2011-12-13:T29",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la actividad de octubre sorprendió a la baja",
+      "Lote_Sorteo_Original": 297
+    },
+    {
+      "ID_Turno": "RPM-2012-01-12:T47",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los costos laborales unitarios tiendan a caer en términos anuales",
+      "Lote_Sorteo_Original": 303
+    },
+    {
+      "ID_Turno": "RPM-2012-03-15:T75",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en la parte subyacente hubo alzas mayores que las estimadas anteriormente",
+      "Lote_Sorteo_Original": 311
+    },
+    {
+      "ID_Turno": "RPM-2012-05-17:T13",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el financiamiento externo representa el 10% de los pasivos totales",
+      "Lote_Sorteo_Original": 316
+    },
+    {
+      "ID_Turno": "RPM-2012-06-14:T10",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "confirman una moderación de ella en Estados Unidos de América y un retroceso en Europa",
+      "Lote_Sorteo_Original": 320
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T9",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "estima que, en la práctica, son difíciles de llevar a cabo",
+      "Lote_Sorteo_Original": 328
+    },
+    {
+      "ID_Turno": "RPM-2012-10-18:T8",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "México ha ganado competitividad respecto a China",
+      "Lote_Sorteo_Original": 341
+    },
+    {
+      "ID_Turno": "RPM-2013-02-14:T68",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "no hay cambios sustantivos en la situación económica ni en el balance de riesgos sobre la inflación",
+      "Lote_Sorteo_Original": 353
+    },
+    {
+      "ID_Turno": "RPM-2013-04-11:T33",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se trataría de una acumulación indeseada de inventarios",
+      "Lote_Sorteo_Original": 360
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T46",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "Europa continúa en recesión y Estados Unidos de América da señales de recuperación",
+      "Lote_Sorteo_Original": 367
+    },
+    {
+      "ID_Turno": "RPM-2013-06-13:T44",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "su desaceleración no se ha detenido, como tampoco se ha revertido en el margen",
+      "Lote_Sorteo_Original": 372
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T13",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "un escenario con tasas de interés de corto plazo muy bajas",
+      "Lote_Sorteo_Original": 385
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T44",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "considera como supuesto de trabajo una rebaja adicional de la TPM en los próximos meses",
+      "Lote_Sorteo_Original": 397
+    },
+    {
+      "ID_Turno": "RPM-2014-02-18:T36",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "los datos recientes de actividad siguen mostrando un bajo dinamismo",
+      "Lote_Sorteo_Original": 408
+    },
+    {
+      "ID_Turno": "RPM-2014-06-12:T29",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el sector asociado a la edificación de obras de ingeniería se encuentra más deprimido",
+      "Lote_Sorteo_Original": 420
+    },
+    {
+      "ID_Turno": "RPM-2014-07-15:T33",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "están en niveles similares a los observados en el año 2011",
+      "Lote_Sorteo_Original": 428
+    },
+    {
+      "ID_Turno": "RPM-2014-08-14:T22",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "una caída esperada de la inversión de 4,1% para el presente año",
+      "Lote_Sorteo_Original": 431
+    },
+    {
+      "ID_Turno": "RPM-2014-09-11:T44",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "el mercado espera en forma prácticamente unánime una reducción de la TPM",
+      "Lote_Sorteo_Original": 439
+    },
+    {
+      "ID_Turno": "RPM-2014-11-18:T34",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "pondría en riesgo la credibilidad de nuestro compromiso con la meta de inflación",
+      "Lote_Sorteo_Original": 451
+    },
+    {
+      "ID_Turno": "RPM-2015-01-15:T14",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "han empeorado desde la Reunión anterior, empujados por la incertidumbre política y económica en Grecia y Rusia",
+      "Lote_Sorteo_Original": 454
+    },
+    {
+      "ID_Turno": "RPM-2015-03-19:T52",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la única opción válida en esta oportunidad es la de mantener la TPM en su nivel actual",
+      "Lote_Sorteo_Original": 462
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T50",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "refuerzan la idea de cierta debilidad en la demanda de crédito",
+      "Lote_Sorteo_Original": 468
+    },
+    {
+      "ID_Turno": "RPM-2015-09-15:T76",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la TPM 25 puntos base a 3,25%, incorporando un sesgo al alza",
+      "Lote_Sorteo_Original": 485
+    },
+    {
+      "ID_Turno": "RPM-2015-10-15:T31",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "aunque ha aumentado la probabilidad de ocurrencia de algunos riesgos consignados allí",
+      "Lote_Sorteo_Original": 488
+    },
+    {
+      "ID_Turno": "RPM-2015-11-12:T29",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las holguras de capacidad se han reducido en lo reciente",
+      "Lote_Sorteo_Original": 493
+    },
+    {
+      "ID_Turno": "RPM-2005-02-10:T61",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la tasa de política monetaria en 25 puntos base",
+      "Lote_Sorteo_Original": 7
+    },
+    {
+      "ID_Turno": "RPM-2005-04-07:T53",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las holguras se siguen reduciendo",
+      "Lote_Sorteo_Original": 11
+    },
+    {
+      "ID_Turno": "RPM-2005-12-13:T5",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el buen escenario externo se ha vuelto incluso más favorable y sus riesgos se han moderado",
+      "Lote_Sorteo_Original": 32
+    },
+    {
+      "ID_Turno": "RPM-2005-12-13:T56",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "la continuidad en la normalización de la política monetaria se justifica por dos razones",
+      "Lote_Sorteo_Original": 33
+    },
+    {
+      "ID_Turno": "RPM-2006-05-11:T38",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "vota, en consecuencia, por mantener la tasa de política monetaria en 5%",
+      "Lote_Sorteo_Original": 45
+    },
+    {
+      "ID_Turno": "RPM-2006-08-10:T15",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "durante este mes se movió primero 7% después 13%, luego 7% y terminó en un 100% por la mantención de la tasa",
+      "Lote_Sorteo_Original": 52
+    },
+    {
+      "ID_Turno": "RPM-2006-09-07:T50",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la actividad económica se ha estado expandiendo a tasas menores de lo que se esperaba",
+      "Lote_Sorteo_Original": 57
+    },
+    {
+      "ID_Turno": "RPM-2006-11-16:T37",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se dé una señal hacia una mayor neutralidad en el sesgo implícito de los movimientos futuros de la tasa de política monetaria",
+      "Lote_Sorteo_Original": 63
+    },
+    {
+      "ID_Turno": "RPM-2006-12-14:T38",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "hay poca costumbre de realizar una medición con la tasa de ocupación",
+      "Lote_Sorteo_Original": 70
+    },
+    {
+      "ID_Turno": "RPM-2007-02-08:T49",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "sugiere tener cautela y esperar a ver que ocurre con ella en los próximos meses",
+      "Lote_Sorteo_Original": 77
+    },
+    {
+      "ID_Turno": "RPM-2007-03-15:T54",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la actividad interna había recobrado cierto dinamismo durante el cuarto trimestre del año pasado",
+      "Lote_Sorteo_Original": 81
+    },
+    {
+      "ID_Turno": "RPM-2007-04-12:T66",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "considera que 25 puntos base no hará una gran diferencia",
+      "Lote_Sorteo_Original": 86
+    },
+    {
+      "ID_Turno": "RPM-2007-05-10:T33",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "es conveniente resolver si se trata de un fenómeno idiosincrásico chileno, o de algo que responde más bien a fuerzas internacionales",
+      "Lote_Sorteo_Original": 87
+    },
+    {
+      "ID_Turno": "RPM-2007-08-09:T3",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se ha observado una propagación de los problemas del sector hipotecario subprime de Estados Unidos de América",
+      "Lote_Sorteo_Original": 96
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T55",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en el caso de China, se observa claramente un aumento de la inflación",
+      "Lote_Sorteo_Original": 110
+    },
+    {
+      "ID_Turno": "RPM-2007-11-13:T62",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "le parece adecuado recomendar la mantención de la Tasa de Política Monetaria en el día de hoy",
+      "Lote_Sorteo_Original": 112
+    },
+    {
+      "ID_Turno": "RPM-2008-01-10:T41",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "estaría dispuesto a sumarse al voto de la mayoría, en caso que se apruebe la opción de subir la Tasa de Política Monetaria en 25 puntos base",
+      "Lote_Sorteo_Original": 121
+    },
+    {
+      "ID_Turno": "RPM-2008-02-07:T30",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "si el tipo de cambio real, en la línea azul de dicho gráfico, termina siendo más bajo que en las líneas roja o mostaza",
+      "Lote_Sorteo_Original": 124
+    },
+    {
+      "ID_Turno": "RPM-2008-06-10:T88",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el otro elemento de riesgo que se considera es que esas proyecciones no incluyen efectos de segunda vuelta",
+      "Lote_Sorteo_Original": 141
+    },
+    {
+      "ID_Turno": "RPM-2008-07-10:T19",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "en el caso de Europa hubo bastante más ruido, incluso en algún momento hubo una expectativa de un ECS más hawkish",
+      "Lote_Sorteo_Original": 142
+    },
+    {
+      "ID_Turno": "RPM-2008-09-04:T3",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la destacada desaceleración de la actividad en la economía desarrollada se ve más marcada que lo previsto",
+      "Lote_Sorteo_Original": 151
+    },
+    {
+      "ID_Turno": "RPM-2009-01-08:T58",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "constituye la principal justificación para iniciar una rebaja de tasas de interés",
+      "Lote_Sorteo_Original": 165
+    },
+    {
+      "ID_Turno": "RPM-2009-06-16:T65",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "industria, comercio, construcción, agricultura y una parte de servicios se están corrigiendo a la baja",
+      "Lote_Sorteo_Original": 183
+    },
+    {
+      "ID_Turno": "RPM-2009-08-13:T63",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "es posible incorporar en el comunicado la posibilidad de medidas estimulativas adicionales",
+      "Lote_Sorteo_Original": 193
+    },
+    {
+      "ID_Turno": "RPM-2009-11-12:T12",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ponen una nota de cautela en la dinámica de crecimiento a mediano plazo",
+      "Lote_Sorteo_Original": 202
+    },
+    {
+      "ID_Turno": "RPM-2010-05-13:T56",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "votando, por tanto, por mantener la TPM en su actual nivel de 0,50%",
+      "Lote_Sorteo_Original": 225
+    },
+    {
+      "ID_Turno": "RPM-2010-06-15:T75",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "los modelos sugieren una trayectoria más front loaded para la tasa que lo que tiene el mercado",
+      "Lote_Sorteo_Original": 228
+    },
+    {
+      "ID_Turno": "RPM-2010-10-14:T8",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las economías emergentes continúan con crecimientos rápidos a medida que Estados Unidos crece en forma más lenta",
+      "Lote_Sorteo_Original": 245
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T10",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la dinámica de crecimiento durante los últimos trimestres ha sido mayor en las economías emergentes que en las avanzadas",
+      "Lote_Sorteo_Original": 246
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T15",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "continúan acotadas y con cierta heterogeneidad en los movimientos en el margen",
+      "Lote_Sorteo_Original": 247
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T68",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el consumo privado se corrige al alza de manera importante",
+      "Lote_Sorteo_Original": 250
+    },
+    {
+      "ID_Turno": "RPM-2010-11-16:T96",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "su voto es por subir la TPM en 25 puntos base, para llevarla a 3%",
+      "Lote_Sorteo_Original": 252
+    },
+    {
+      "ID_Turno": "RPM-2011-01-13:T9",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la depreciación de su moneda obedece al estrés a que se encuentra sometida",
+      "Lote_Sorteo_Original": 260
+    },
+    {
+      "ID_Turno": "RPM-2011-05-12:T81",
+      "HD_Score": 0.5,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "de adoptarse la decisión de subir la TPM en 50 puntos base, se recomienda modificar la última frase del Comunicado",
+      "Lote_Sorteo_Original": 272
+    },
+    {
+      "ID_Turno": "RPM-2011-06-14:T76",
+      "HD_Score": 0.75,
+      "HD_Clase": "HAWKISH",
+      "Evidencia": "vota por subir la TPM en 25 puntos base, para dejarla en 5,25%",
+      "Lote_Sorteo_Original": 278
+    },
+    {
+      "ID_Turno": "RPM-2011-08-18:T3",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "los débiles datos de actividad en las economías desarrolladas, particularmente en Estados Unidos",
+      "Lote_Sorteo_Original": 281
+    },
+    {
+      "ID_Turno": "RPM-2011-10-13:T71",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "se mantienen las tensiones financieras de la Zona Euro",
+      "Lote_Sorteo_Original": 290
+    },
+    {
+      "ID_Turno": "RPM-2011-12-13:T56",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "hasta ahora, no han logrado revertir las agudas tensiones financieras de bancos y gobiernos",
+      "Lote_Sorteo_Original": 299
+    },
+    {
+      "ID_Turno": "RPM-2012-01-12:T55",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el entusiasmo de los mercados financieros genera una situación de demanda más expansiva",
+      "Lote_Sorteo_Original": 305
+    },
+    {
+      "ID_Turno": "RPM-2012-02-14:T58",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los niveles de precios podrían caer levemente en el mes de febrero",
+      "Lote_Sorteo_Original": 307
+    },
+    {
+      "ID_Turno": "RPM-2012-02-14:T86",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los argumentos en favor de la opción de mantener dicha Tasa son bastante decidores",
+      "Lote_Sorteo_Original": 311
+    },
+    {
+      "ID_Turno": "RPM-2012-05-17:T43",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el mercado espera en forma casi unánime una mantención de la citada tasa en 5% anual",
+      "Lote_Sorteo_Original": 320
+    },
+    {
+      "ID_Turno": "RPM-2012-07-12:T77",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "ellas no configuran un cambio relevante para efectos de la orientación de la política monetaria",
+      "Lote_Sorteo_Original": 328
+    },
+    {
+      "ID_Turno": "RPM-2012-10-18:T44",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la proyección interna supone una desaceleración de la actividad",
+      "Lote_Sorteo_Original": 340
+    },
+    {
+      "ID_Turno": "RPM-2013-04-11:T46",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "han vuelto a invertir en depósitos en dólares estadounidenses en la banca local",
+      "Lote_Sorteo_Original": 360
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T42",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "los problemas relacionados con la metodología de cálculo del IPC no modifican la trayectoria de política",
+      "Lote_Sorteo_Original": 366
+    },
+    {
+      "ID_Turno": "RPM-2013-05-16:T50",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "sí brindan apoyo a la visión de que el crecimiento interno se está desacelerando",
+      "Lote_Sorteo_Original": 368
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T35",
+      "HD_Score": -0.5,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "esta recomendación difiere de las expectativas de consenso de mercado",
+      "Lote_Sorteo_Original": 386
+    },
+    {
+      "ID_Turno": "RPM-2013-10-17:T41",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "su voto es por bajar la Tasa de Política Monetaria a 4,75% anual",
+      "Lote_Sorteo_Original": 388
+    },
+    {
+      "ID_Turno": "RPM-2013-11-19:T15",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "un crecimiento del gasto interno, que fue de solo 1,3%, frente al 4,4% considerado en el IPoM",
+      "Lote_Sorteo_Original": 391
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T11",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "mientras que en Chile, ellas han mostrado estabilidad e incluso han exhibido una caída en el margen",
+      "Lote_Sorteo_Original": 396
+    },
+    {
+      "ID_Turno": "RPM-2013-12-12:T54",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las noticias del último mes reafirman nuestro escenario base, con ajustes o cambios muy marginales",
+      "Lote_Sorteo_Original": 401
+    },
+    {
+      "ID_Turno": "RPM-2014-03-13:T19",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el precio del petróleo, que registró un leve retroceso luego de exhibir alzas durante el mes",
+      "Lote_Sorteo_Original": 411
+    },
+    {
+      "ID_Turno": "RPM-2014-05-15:T38",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "el consumo, el cual se reduce prácticamente en un punto",
+      "Lote_Sorteo_Original": 418
+    },
+    {
+      "ID_Turno": "RPM-2014-07-15:T16",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la actividad económica registró un crecimiento menor que el previsto internamente y por el mercado",
+      "Lote_Sorteo_Original": 429
+    },
+    {
+      "ID_Turno": "RPM-2014-09-11:T4",
+      "HD_Score": -0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "dio señales de mayor expansividad monetaria, que se materializaron días después",
+      "Lote_Sorteo_Original": 439
+    },
+    {
+      "ID_Turno": "RPM-2014-10-16:T45",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "la Gerencia de División Estudios recomienda reducir la TPM a 3,00% anual",
+      "Lote_Sorteo_Original": 447
+    },
+    {
+      "ID_Turno": "RPM-2014-10-16:T53",
+      "HD_Score": -0.75,
+      "HD_Clase": "DOVISH",
+      "Evidencia": "vota por bajar la TPM a 3% y por dar una clara señal de que con ello se cierra un ciclo",
+      "Lote_Sorteo_Original": 448
+    },
+    {
+      "ID_Turno": "RPM-2015-03-19:T44",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "la Gerencia de División Estudios propone como única opción relevante mantener la TPM en 3,00%",
+      "Lote_Sorteo_Original": 463
+    },
+    {
+      "ID_Turno": "RPM-2015-04-16:T31",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "las consecuencias de los temporales sobre la inflación no tendrían un efecto relevante en el corto plazo",
+      "Lote_Sorteo_Original": 467
+    },
+    {
+      "ID_Turno": "RPM-2015-08-13:T43",
+      "HD_Score": 0.25,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "este se manifiesta cuando el mercado no le cree al Banco Central",
+      "Lote_Sorteo_Original": 481
+    },
+    {
+      "ID_Turno": "RPM-2015-12-17:T58",
+      "HD_Score": 0.0,
+      "HD_Clase": "NEUTRAL",
+      "Evidencia": "se transitó desde una visión relativamente clara sobre la formación del proceso inflacionario a un enfoque que introduce incertidumbre",
+      "Lote_Sorteo_Original": 499
+    }
+  ]
+}

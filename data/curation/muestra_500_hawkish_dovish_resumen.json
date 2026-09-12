@@ -1,0 +1,33 @@
+{
+  "turnos_totales_corpus": 9257,
+  "universo_etiquetable": 2789,
+  "muestra": 500,
+  "clases_lexico_universo": {
+    "NEUTRAL": 2193,
+    "HAWKISH": 213,
+    "DOVISH": 383
+  },
+  "clases_lexico_muestra": {
+    "NEUTRAL": 327,
+    "HAWKISH": 62,
+    "DOVISH": 111
+  },
+  "estratos_muestra": 155,
+  "deciles_lexico_muestra": {
+    "1": 83,
+    "2": 62,
+    "3": 35,
+    "4": 38,
+    "5": 31,
+    "6": 30,
+    "7": 32,
+    "8": 50,
+    "9": 57,
+    "10": 82
+  },
+  "incluidas_por_etiqueta_previa": 500,
+  "palabras_min": 150,
+  "palabras_max": 2753,
+  "palabras_media": 616.1,
+  "semilla": 20260911
+}

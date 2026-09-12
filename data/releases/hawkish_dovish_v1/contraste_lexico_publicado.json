@@ -1,0 +1,144 @@
+{
+  "objetivo": "validez convergente contra un léxico hawk/dove publicado",
+  "fuente_dominios": "Apel & Grimaldi (2014), lista de 11 sustantivos temáticos citada en Quality & Quantity 58:5421-5444 (2024), nota 3",
+  "dominios_publicados": 11,
+  "dominios_cubiertos": 7,
+  "dominios_ausentes": [
+    "wage",
+    "oil price",
+    "development",
+    "recovery"
+  ],
+  "detalle_dominios": [
+    {
+      "dominio": "inflation",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 29,
+      "ejemplo_frase_propia": "alza de la inflacion",
+      "turnos_que_lo_mencionan": 1797,
+      "fraccion_del_universo": 0.6443,
+      "de_esos_sin_senal": 464,
+      "fraccion_de_esos_sin_senal": 0.2582
+    },
+    {
+      "dominio": "price",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 1,
+      "ejemplo_frase_propia": "traspaso a precios",
+      "turnos_que_lo_mencionan": 1660,
+      "fraccion_del_universo": 0.5952,
+      "de_esos_sin_senal": 518,
+      "fraccion_de_esos_sin_senal": 0.312
+    },
+    {
+      "dominio": "wage",
+      "cubierto_por_lexico_propio": false,
+      "frases_propias": 0,
+      "ejemplo_frase_propia": null,
+      "turnos_que_lo_mencionan": 661,
+      "fraccion_del_universo": 0.237,
+      "de_esos_sin_senal": 118,
+      "fraccion_de_esos_sin_senal": 0.1785
+    },
+    {
+      "dominio": "oil price",
+      "cubierto_por_lexico_propio": false,
+      "frases_propias": 0,
+      "ejemplo_frase_propia": null,
+      "turnos_que_lo_mencionan": 987,
+      "fraccion_del_universo": 0.3539,
+      "de_esos_sin_senal": 287,
+      "fraccion_de_esos_sin_senal": 0.2908
+    },
+    {
+      "dominio": "cyclical position",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 18,
+      "ejemplo_frase_propia": "brecha de producto negativa",
+      "turnos_que_lo_mencionan": 880,
+      "fraccion_del_universo": 0.3155,
+      "de_esos_sin_senal": 157,
+      "fraccion_de_esos_sin_senal": 0.1784
+    },
+    {
+      "dominio": "growth",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 7,
+      "ejemplo_frase_propia": "brecha de producto negativa",
+      "turnos_que_lo_mencionan": 2273,
+      "fraccion_del_universo": 0.815,
+      "de_esos_sin_senal": 783,
+      "fraccion_de_esos_sin_senal": 0.3445
+    },
+    {
+      "dominio": "development",
+      "cubierto_por_lexico_propio": false,
+      "frases_propias": 0,
+      "ejemplo_frase_propia": null,
+      "turnos_que_lo_mencionan": 1270,
+      "fraccion_del_universo": 0.4554,
+      "de_esos_sin_senal": 374,
+      "fraccion_de_esos_sin_senal": 0.2945
+    },
+    {
+      "dominio": "employment",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 7,
+      "ejemplo_frase_propia": "aumento del desempleo",
+      "turnos_que_lo_mencionan": 1342,
+      "fraccion_del_universo": 0.4812,
+      "de_esos_sin_senal": 333,
+      "fraccion_de_esos_sin_senal": 0.2481
+    },
+    {
+      "dominio": "unemployment",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 2,
+      "ejemplo_frase_propia": "aumento del desempleo",
+      "turnos_que_lo_mencionan": 450,
+      "fraccion_del_universo": 0.1613,
+      "de_esos_sin_senal": 84,
+      "fraccion_de_esos_sin_senal": 0.1867
+    },
+    {
+      "dominio": "recovery",
+      "cubierto_por_lexico_propio": false,
+      "frases_propias": 0,
+      "ejemplo_frase_propia": null,
+      "turnos_que_lo_mencionan": 859,
+      "fraccion_del_universo": 0.308,
+      "de_esos_sin_senal": 250,
+      "fraccion_de_esos_sin_senal": 0.291
+    },
+    {
+      "dominio": "cost",
+      "cubierto_por_lexico_propio": true,
+      "frases_propias": 4,
+      "ejemplo_frase_propia": "costos laborales",
+      "turnos_que_lo_mencionan": 568,
+      "fraccion_del_universo": 0.2037,
+      "de_esos_sin_senal": 100,
+      "fraccion_de_esos_sin_senal": 0.1761
+    }
+  ],
+  "baseline_universo": {
+    "turnos_universo": 2789,
+    "palabras_universo": 1596864,
+    "sin_senal_lexica": 1166,
+    "fraccion_sin_senal_universo": 0.4181
+  },
+  "hay_punto_ciego_medible": false,
+  "veredicto": "BRECHA REAL, IMPACTO NO MEDIBLE",
+  "contraste_pleno_posible": false,
+  "por_que_no": [
+    "No hay serie de mercado en el repo (tasas, spreads, expectativas), así que la vía de validez convergente tipo JP Morgan Hawk-Dove Score está cerrada por datos, no por método.",
+    "Los léxicos hawk/dove publicados son ingleses (Apel & Grimaldi 2014, Bennani & Neuenkirch 2017, Loughran & McDonald 2011) y el corpus es español. Traducirlos convertiría la referencia externa en traducción propia, reintroduciendo la circularidad que se intenta romper: el léxico propio y las 500 etiquetas oro son del mismo autor.",
+    "La correspondencia sustantivo temático -> español sí es verificable y es lo único de este contraste que no introduce criterio propio."
+  ],
+  "limites": [
+    "La equivalencia de los 11 dominios al español la hizo este agente; es de vocabulario y no de criterio, pero no deja de ser una decisión.",
+    "Que un turno mencione el término no implica que el dominio cargue la postura: \"han evolucionado por debajo de lo previsto\" habla de inflación, que el léxico propio sí cubre.",
+    "La comparación contra 41,8% es descriptiva. Aislar el efecto de cada dominio exigiría re-etiquetar, que es la prioridad nº1 y sigue abierta.",
+    "No se modificó el léxico: cerrar la brecha sin medir su impacto sería agregar términos sin evidencia de que falten."
+  ]
+}

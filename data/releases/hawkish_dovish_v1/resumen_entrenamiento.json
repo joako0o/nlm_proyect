@@ -1,0 +1,332 @@
+{
+  "etiquetas_oro": 500,
+  "distribucion_oro": {
+    "HAWKISH": 71,
+    "NEUTRAL": 343,
+    "DOVISH": 86
+  },
+  "configuracion_publicada": {
+    "max_rasgos": 600,
+    "iteraciones": 30,
+    "balancear_clases": true,
+    "origen": {
+      "max_rasgos": "regla_diagnostico",
+      "iteraciones": "regla_diagnostico",
+      "balancear_clases": "regla_diagnostico"
+    }
+  },
+  "validacion_cruzada": {
+    "accuracy": 0.78,
+    "macro_f1": 0.702,
+    "por_clase": {
+      "HAWKISH": {
+        "precision": 0.732,
+        "recall": 0.732,
+        "f1": 0.732,
+        "soporte": 71
+      },
+      "NEUTRAL": {
+        "precision": 0.84,
+        "recall": 0.86,
+        "f1": 0.85,
+        "soporte": 343
+      },
+      "DOVISH": {
+        "precision": 0.551,
+        "recall": 0.5,
+        "f1": 0.524,
+        "soporte": 86
+      }
+    },
+    "matriz_real_x_predicha": {
+      "HAWKISH": {
+        "HAWKISH": 52,
+        "NEUTRAL": 15,
+        "DOVISH": 4
+      },
+      "NEUTRAL": {
+        "HAWKISH": 17,
+        "NEUTRAL": 295,
+        "DOVISH": 31
+      },
+      "DOVISH": {
+        "HAWKISH": 2,
+        "NEUTRAL": 41,
+        "DOVISH": 43
+      }
+    },
+    "mae_puntaje": 0.239,
+    "baseline_mayoria": {
+      "accuracy": 0.686,
+      "macro_f1": 0.271,
+      "por_clase": {
+        "HAWKISH": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "soporte": 71
+        },
+        "NEUTRAL": {
+          "precision": 0.686,
+          "recall": 1.0,
+          "f1": 0.814,
+          "soporte": 343
+        },
+        "DOVISH": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "soporte": 86
+        }
+      },
+      "matriz_real_x_predicha": {
+        "HAWKISH": {
+          "HAWKISH": 0,
+          "NEUTRAL": 71,
+          "DOVISH": 0
+        },
+        "NEUTRAL": {
+          "HAWKISH": 0,
+          "NEUTRAL": 343,
+          "DOVISH": 0
+        },
+        "DOVISH": {
+          "HAWKISH": 0,
+          "NEUTRAL": 86,
+          "DOVISH": 0
+        }
+      },
+      "mae_puntaje": 0.294
+    },
+    "baseline_lexico": {
+      "accuracy": 0.646,
+      "macro_f1": 0.55,
+      "por_clase": {
+        "HAWKISH": {
+          "precision": 0.532,
+          "recall": 0.465,
+          "f1": 0.496,
+          "soporte": 71
+        },
+        "NEUTRAL": {
+          "precision": 0.765,
+          "recall": 0.729,
+          "f1": 0.746,
+          "soporte": 343
+        },
+        "DOVISH": {
+          "precision": 0.36,
+          "recall": 0.465,
+          "f1": 0.406,
+          "soporte": 86
+        }
+      },
+      "matriz_real_x_predicha": {
+        "HAWKISH": {
+          "HAWKISH": 33,
+          "NEUTRAL": 34,
+          "DOVISH": 4
+        },
+        "NEUTRAL": {
+          "HAWKISH": 26,
+          "NEUTRAL": 250,
+          "DOVISH": 67
+        },
+        "DOVISH": {
+          "HAWKISH": 3,
+          "NEUTRAL": 43,
+          "DOVISH": 40
+        }
+      },
+      "mae_puntaje": 0.296
+    },
+    "predicciones_fuera_de_pliegue": 500
+  },
+  "validacion_cruzada_por_sesion": {
+    "accuracy": 0.768,
+    "macro_f1": 0.682,
+    "por_clase": {
+      "HAWKISH": {
+        "precision": 0.69,
+        "recall": 0.69,
+        "f1": 0.69,
+        "soporte": 71
+      },
+      "NEUTRAL": {
+        "precision": 0.835,
+        "recall": 0.854,
+        "f1": 0.844,
+        "soporte": 343
+      },
+      "DOVISH": {
+        "precision": 0.538,
+        "recall": 0.488,
+        "f1": 0.512,
+        "soporte": 86
+      }
+    },
+    "matriz_real_x_predicha": {
+      "HAWKISH": {
+        "HAWKISH": 49,
+        "NEUTRAL": 18,
+        "DOVISH": 4
+      },
+      "NEUTRAL": {
+        "HAWKISH": 18,
+        "NEUTRAL": 293,
+        "DOVISH": 32
+      },
+      "DOVISH": {
+        "HAWKISH": 4,
+        "NEUTRAL": 40,
+        "DOVISH": 42
+      }
+    },
+    "mae_puntaje": 0.243,
+    "baseline_mayoria": {
+      "accuracy": 0.686,
+      "macro_f1": 0.271,
+      "por_clase": {
+        "HAWKISH": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "soporte": 71
+        },
+        "NEUTRAL": {
+          "precision": 0.686,
+          "recall": 1.0,
+          "f1": 0.814,
+          "soporte": 343
+        },
+        "DOVISH": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "soporte": 86
+        }
+      },
+      "matriz_real_x_predicha": {
+        "HAWKISH": {
+          "HAWKISH": 0,
+          "NEUTRAL": 71,
+          "DOVISH": 0
+        },
+        "NEUTRAL": {
+          "HAWKISH": 0,
+          "NEUTRAL": 343,
+          "DOVISH": 0
+        },
+        "DOVISH": {
+          "HAWKISH": 0,
+          "NEUTRAL": 86,
+          "DOVISH": 0
+        }
+      },
+      "mae_puntaje": 0.294
+    },
+    "baseline_lexico": {
+      "accuracy": 0.646,
+      "macro_f1": 0.55,
+      "por_clase": {
+        "HAWKISH": {
+          "precision": 0.532,
+          "recall": 0.465,
+          "f1": 0.496,
+          "soporte": 71
+        },
+        "NEUTRAL": {
+          "precision": 0.765,
+          "recall": 0.729,
+          "f1": 0.746,
+          "soporte": 343
+        },
+        "DOVISH": {
+          "precision": 0.36,
+          "recall": 0.465,
+          "f1": 0.406,
+          "soporte": 86
+        }
+      },
+      "matriz_real_x_predicha": {
+        "HAWKISH": {
+          "HAWKISH": 33,
+          "NEUTRAL": 34,
+          "DOVISH": 4
+        },
+        "NEUTRAL": {
+          "HAWKISH": 26,
+          "NEUTRAL": 250,
+          "DOVISH": 67
+        },
+        "DOVISH": {
+          "HAWKISH": 3,
+          "NEUTRAL": 43,
+          "DOVISH": 40
+        }
+      },
+      "mae_puntaje": 0.296
+    },
+    "predicciones_fuera_de_pliegue": 500
+  },
+  "autoajuste_sobre_oro": {
+    "accuracy": 0.988,
+    "macro_f1": 0.984,
+    "por_clase": {
+      "HAWKISH": {
+        "precision": 0.934,
+        "recall": 1.0,
+        "f1": 0.966,
+        "soporte": 71
+      },
+      "NEUTRAL": {
+        "precision": 1.0,
+        "recall": 0.983,
+        "f1": 0.991,
+        "soporte": 343
+      },
+      "DOVISH": {
+        "precision": 0.989,
+        "recall": 1.0,
+        "f1": 0.994,
+        "soporte": 86
+      }
+    },
+    "matriz_real_x_predicha": {
+      "HAWKISH": {
+        "HAWKISH": 71,
+        "NEUTRAL": 0,
+        "DOVISH": 0
+      },
+      "NEUTRAL": {
+        "HAWKISH": 5,
+        "NEUTRAL": 337,
+        "DOVISH": 1
+      },
+      "DOVISH": {
+        "HAWKISH": 0,
+        "NEUTRAL": 0,
+        "DOVISH": 86
+      }
+    },
+    "mae_puntaje": 0.193
+  },
+  "turnos_puntuados": 9257,
+  "turnos_en_universo_entrenado": 2789,
+  "turnos_en_muestra_500": 500,
+  "etiquetas_usadas": 500,
+  "etiquetas_en_muestra_actual": 500,
+  "distribucion_predicha_todos": {
+    "DOVISH": 1254,
+    "NEUTRAL": 7389,
+    "HAWKISH": 614
+  },
+  "distribucion_predicha_universo": {
+    "NEUTRAL": 2058,
+    "HAWKISH": 321,
+    "DOVISH": 410
+  },
+  "sha256_muestra": "3ba2a2fd52abb3af059c3905fd9e79b16cd619dbe4e46d0ef23d686bc12d2d3c",
+  "sha256_etiquetas": "929e99766095cd5c09bf65ba251cb8dcee7a3567677cf5633e692e89910d08b0",
+  "sha256_modelo": "b631f10fd59a8ade8c86e678db3b56ad5a3c21019274e48a42fef50089232d81"
+}

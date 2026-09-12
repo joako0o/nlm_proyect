@@ -1,0 +1,205 @@
+{
+  "universo": 2789,
+  "etiquetas": 500,
+  "N_por_decil": {
+    "1": 279,
+    "2": 279,
+    "3": 279,
+    "4": 279,
+    "5": 279,
+    "6": 279,
+    "7": 279,
+    "8": 279,
+    "9": 279,
+    "10": 278
+  },
+  "n_por_decil": {
+    "1": 83,
+    "2": 62,
+    "3": 35,
+    "4": 38,
+    "5": 31,
+    "6": 30,
+    "7": 32,
+    "8": 50,
+    "9": 57,
+    "10": 82
+  },
+  "peso_por_decil": {
+    "1": 3.3614,
+    "2": 4.5,
+    "3": 7.9714,
+    "4": 7.3421,
+    "5": 9.0,
+    "6": 9.3,
+    "7": 8.7188,
+    "8": 5.58,
+    "9": 4.8947,
+    "10": 3.3902
+  },
+  "por_clase_y_decil": {
+    "1": {
+      "HAWKISH": 2,
+      "NEUTRAL": 49,
+      "DOVISH": 32
+    },
+    "2": {
+      "HAWKISH": 6,
+      "NEUTRAL": 38,
+      "DOVISH": 18
+    },
+    "3": {
+      "NEUTRAL": 24,
+      "DOVISH": 10,
+      "HAWKISH": 1
+    },
+    "4": {
+      "NEUTRAL": 30,
+      "HAWKISH": 5,
+      "DOVISH": 3
+    },
+    "5": {
+      "NEUTRAL": 27,
+      "DOVISH": 4
+    },
+    "6": {
+      "NEUTRAL": 27,
+      "DOVISH": 3
+    },
+    "7": {
+      "NEUTRAL": 30,
+      "DOVISH": 2
+    },
+    "8": {
+      "NEUTRAL": 42,
+      "DOVISH": 5,
+      "HAWKISH": 3
+    },
+    "9": {
+      "HAWKISH": 15,
+      "NEUTRAL": 37,
+      "DOVISH": 5
+    },
+    "10": {
+      "HAWKISH": 39,
+      "NEUTRAL": 39,
+      "DOVISH": 4
+    }
+  },
+  "prevalencia": {
+    "HAWKISH": 0.1078,
+    "NEUTRAL": 0.7353,
+    "DOVISH": 0.1569
+  },
+  "error_estandar": {
+    "HAWKISH": 0.0103,
+    "NEUTRAL": 0.0173,
+    "DOVISH": 0.015
+  },
+  "ic95": {
+    "HAWKISH": [
+      0.0877,
+      0.128
+    ],
+    "NEUTRAL": [
+      0.7013,
+      0.7692
+    ],
+    "DOVISH": [
+      0.1275,
+      0.1863
+    ]
+  },
+  "intervenciones_estimadas": {
+    "HAWKISH": 301,
+    "NEUTRAL": 2051,
+    "DOVISH": 438
+  },
+  "crudo_sin_ponderar": {
+    "HAWKISH": 71,
+    "NEUTRAL": 343,
+    "DOVISH": 86
+  },
+  "tamanio_efectivo_muestra": 435.3,
+  "efecto_de_disenio": 1.149,
+  "suma_pesos": 2789.0,
+  "representatividad_por_decil": {
+    "1": {
+      "universo": 279,
+      "muestra": 83,
+      "celdas_universo": 27,
+      "variacion_total": 0.1603
+    },
+    "2": {
+      "universo": 279,
+      "muestra": 62,
+      "celdas_universo": 30,
+      "variacion_total": 0.1595
+    },
+    "3": {
+      "universo": 279,
+      "muestra": 35,
+      "celdas_universo": 28,
+      "variacion_total": 0.2765
+    },
+    "4": {
+      "universo": 279,
+      "muestra": 38,
+      "celdas_universo": 28,
+      "variacion_total": 0.229
+    },
+    "5": {
+      "universo": 279,
+      "muestra": 31,
+      "celdas_universo": 9,
+      "variacion_total": 0.0789
+    },
+    "6": {
+      "universo": 279,
+      "muestra": 30,
+      "celdas_universo": 8,
+      "variacion_total": 0.0452
+    },
+    "7": {
+      "universo": 279,
+      "muestra": 32,
+      "celdas_universo": 8,
+      "variacion_total": 0.1626
+    },
+    "8": {
+      "universo": 279,
+      "muestra": 50,
+      "celdas_universo": 24,
+      "variacion_total": 0.1475
+    },
+    "9": {
+      "universo": 279,
+      "muestra": 57,
+      "celdas_universo": 27,
+      "variacion_total": 0.1909
+    },
+    "10": {
+      "universo": 278,
+      "muestra": 82,
+      "celdas_universo": 28,
+      "variacion_total": 0.1384
+    }
+  },
+  "contraste_con_el_modelo": {
+    "HAWKISH": {
+      "oro_reponderado": 301,
+      "modelo_sobre_universo": 321,
+      "diferencia": -20
+    },
+    "NEUTRAL": {
+      "oro_reponderado": 2051,
+      "modelo_sobre_universo": 2058,
+      "diferencia": -7
+    },
+    "DOVISH": {
+      "oro_reponderado": 438,
+      "modelo_sobre_universo": 410,
+      "diferencia": 28
+    }
+  }
+}

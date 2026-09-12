@@ -1,0 +1,147 @@
+{
+ "configuracion": {
+  "max_rasgos": 600,
+  "iteraciones": 30,
+  "k": 5,
+  "semilla": 0
+ },
+ "n": 500,
+ "accuracy_fuera_de_pliegue": 0.78,
+ "candidatos": {
+  "max_prob": {
+   "curva": [
+    {
+     "cubo": "[0.30,0.50)",
+     "n": 22,
+     "confianza_media": 0.4618,
+     "precision_real": 0.5,
+     "gap": 0.0382
+    },
+    {
+     "cubo": "[0.50,0.60)",
+     "n": 68,
+     "confianza_media": 0.5495,
+     "precision_real": 0.5882,
+     "gap": 0.0387
+    },
+    {
+     "cubo": "[0.60,0.70)",
+     "n": 74,
+     "confianza_media": 0.655,
+     "precision_real": 0.7027,
+     "gap": 0.0477
+    },
+    {
+     "cubo": "[0.70,0.80)",
+     "n": 70,
+     "confianza_media": 0.7459,
+     "precision_real": 0.7857,
+     "gap": 0.0398
+    },
+    {
+     "cubo": "[0.80,0.90)",
+     "n": 100,
+     "confianza_media": 0.8515,
+     "precision_real": 0.81,
+     "gap": -0.0415
+    },
+    {
+     "cubo": "[0.90,1.01)",
+     "n": 166,
+     "confianza_media": 0.9489,
+     "precision_real": 0.9096,
+     "gap": -0.0393
+    }
+   ],
+   "ece": 0.0409,
+   "monotona": true
+  },
+  "margen": {
+   "curva": [
+    {
+     "cubo": "[0.30,0.50)",
+     "n": 84,
+     "confianza_media": 0.4023,
+     "precision_real": 0.6905,
+     "gap": 0.2882
+    },
+    {
+     "cubo": "[0.50,0.60)",
+     "n": 36,
+     "confianza_media": 0.5455,
+     "precision_real": 0.7778,
+     "gap": 0.2323
+    },
+    {
+     "cubo": "[0.60,0.70)",
+     "n": 46,
+     "confianza_media": 0.6546,
+     "precision_real": 0.7609,
+     "gap": 0.1063
+    },
+    {
+     "cubo": "[0.70,0.80)",
+     "n": 57,
+     "confianza_media": 0.7514,
+     "precision_real": 0.807,
+     "gap": 0.0556
+    },
+    {
+     "cubo": "[0.80,0.90)",
+     "n": 85,
+     "confianza_media": 0.8507,
+     "precision_real": 0.8941,
+     "gap": 0.0434
+    },
+    {
+     "cubo": "[0.90,1.01)",
+     "n": 93,
+     "confianza_media": 0.9499,
+     "precision_real": 0.9355,
+     "gap": -0.0145
+    }
+   ],
+   "ece": 0.0913,
+   "monotona": false
+  },
+  "abs_score": {
+   "curva": [
+    {
+     "cubo": "[0.00,0.25)",
+     "n": 298,
+     "confianza_media": 0.079,
+     "precision_real": 0.8356,
+     "gap": 0.7566
+    },
+    {
+     "cubo": "[0.25,0.50)",
+     "n": 87,
+     "confianza_media": 0.3603,
+     "precision_real": 0.6782,
+     "gap": 0.3178
+    },
+    {
+     "cubo": "[0.50,0.75)",
+     "n": 56,
+     "confianza_media": 0.6247,
+     "precision_real": 0.625,
+     "gap": 0.0003
+    },
+    {
+     "cubo": "[0.75,1.01)",
+     "n": 59,
+     "confianza_media": 0.8791,
+     "precision_real": 0.7966,
+     "gap": -0.0825
+    }
+   ],
+   "monotona": false
+  }
+ },
+ "conclusion": "La medida de confianza usable es max-prob (p de la clase predicha): su precisión crece de forma monótona y su ECE es bajo. |HD_Score| no es monótona y por eso el release no debe usarse para ordenar por certeza.",
+ "limites": [
+  "La calibración se estima sobre las 500 FUERA DE PLIEGUE. Para las otras 8.757 filas del corpus la confianza del modelo es dentro de muestra respecto del oro que lo entrenó; la curva no se les aplica sin más.",
+  "Para las propias 500 el autoajuste da 0,988: su confianza dentro de muestra está inflada y no debe leerse con esta curva.",
+  "ECE con 6 cubos sobre 500 casos es sensible al corte de los cubos; la monotonía es la evidencia más robusta de las dos."
+ ]
+}

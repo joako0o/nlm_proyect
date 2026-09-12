@@ -1,0 +1,187 @@
+{
+ "ventana_contra_oro": {
+  "n": 40,
+  "acuerdo": 0.825,
+  "acuerdo_ic95": [
+   0.7072,
+   0.9428
+  ],
+  "kappa": 0.5815,
+  "kappa_ic95": [
+   0.2568,
+   0.8333
+  ],
+  "mae": 0.1625,
+  "inversiones_de_signo": 0,
+  "cambios_de_clase": [
+   {
+    "ID_Turno": "RPM-2012-10-18:T44",
+    "ve": "NEUTRAL",
+    "ve_score": 0.0,
+    "or": "DOVISH",
+    "or_score": -0.5
+   },
+   {
+    "ID_Turno": "RPM-2007-05-10:T43",
+    "ve": "NEUTRAL",
+    "ve_score": 0.25,
+    "or": "HAWKISH",
+    "or_score": 0.5
+   },
+   {
+    "ID_Turno": "RPM-2008-04-10:T32",
+    "ve": "HAWKISH",
+    "ve_score": 0.5,
+    "or": "NEUTRAL",
+    "or_score": 0.25
+   },
+   {
+    "ID_Turno": "RPM-2013-11-19:T15",
+    "ve": "NEUTRAL",
+    "ve_score": 0.0,
+    "or": "DOVISH",
+    "or_score": -0.75
+   },
+   {
+    "ID_Turno": "RPM-2013-10-17:T35",
+    "ve": "NEUTRAL",
+    "ve_score": 0.25,
+    "or": "DOVISH",
+    "or_score": -0.5
+   },
+   {
+    "ID_Turno": "RPM-2012-05-17:T3",
+    "ve": "NEUTRAL",
+    "ve_score": 0.0,
+    "or": "DOVISH",
+    "or_score": -0.5
+   },
+   {
+    "ID_Turno": "RPM-2013-06-13:T44",
+    "ve": "DOVISH",
+    "ve_score": -0.5,
+    "or": "NEUTRAL",
+    "or_score": -0.25
+   }
+  ]
+ },
+ "completo_contra_oro": {
+  "n": 40,
+  "acuerdo": 0.85,
+  "acuerdo_ic95": [
+   0.7393,
+   0.9607
+  ],
+  "kappa": 0.6512,
+  "kappa_ic95": [
+   0.3484,
+   0.8801
+  ],
+  "mae": 0.1812,
+  "inversiones_de_signo": 0,
+  "cambios_de_clase": [
+   {
+    "ID_Turno": "RPM-2010-06-15:T85",
+    "co": "HAWKISH",
+    "co_score": 1.0,
+    "or": "NEUTRAL",
+    "or_score": 0.25
+   },
+   {
+    "ID_Turno": "RPM-2012-10-18:T44",
+    "co": "NEUTRAL",
+    "co_score": 0.0,
+    "or": "DOVISH",
+    "or_score": -0.5
+   },
+   {
+    "ID_Turno": "RPM-2007-05-10:T43",
+    "co": "NEUTRAL",
+    "co_score": -0.25,
+    "or": "HAWKISH",
+    "or_score": 0.5
+   },
+   {
+    "ID_Turno": "RPM-2013-11-19:T15",
+    "co": "NEUTRAL",
+    "co_score": 0.0,
+    "or": "DOVISH",
+    "or_score": -0.75
+   },
+   {
+    "ID_Turno": "RPM-2012-05-17:T3",
+    "co": "NEUTRAL",
+    "co_score": 0.0,
+    "or": "DOVISH",
+    "or_score": -0.5
+   },
+   {
+    "ID_Turno": "RPM-2013-06-13:T44",
+    "co": "DOVISH",
+    "co_score": -0.5,
+    "or": "NEUTRAL",
+    "or_score": -0.25
+   }
+  ]
+ },
+ "completo_contra_ventana": {
+  "n": 40,
+  "acuerdo": 0.925,
+  "acuerdo_ic95": [
+   0.8434,
+   1.0066
+  ],
+  "kappa": 0.8061,
+  "kappa_ic95": [
+   0.542,
+   1.0
+  ],
+  "mae": 0.0813,
+  "inversiones_de_signo": 0,
+  "cambios_de_clase": [
+   {
+    "ID_Turno": "RPM-2010-06-15:T85",
+    "co": "HAWKISH",
+    "co_score": 1.0,
+    "ve": "NEUTRAL",
+    "ve_score": 0.0
+   },
+   {
+    "ID_Turno": "RPM-2008-04-10:T32",
+    "co": "NEUTRAL",
+    "co_score": 0.25,
+    "ve": "HAWKISH",
+    "ve_score": 0.5
+   },
+   {
+    "ID_Turno": "RPM-2013-10-17:T35",
+    "co": "DOVISH",
+    "co_score": -0.75,
+    "ve": "NEUTRAL",
+    "ve_score": 0.25
+   }
+  ]
+ },
+ "distribuciones": {
+  "lectura_completa": {
+   "HAWKISH": 3,
+   "NEUTRAL": 30,
+   "DOVISH": 7
+  },
+  "relectura_ventana": {
+   "HAWKISH": 3,
+   "NEUTRAL": 31,
+   "DOVISH": 6
+  },
+  "oro": {
+   "HAWKISH": 3,
+   "NEUTRAL": 28,
+   "DOVISH": 9
+  }
+ },
+ "limites": [
+  "n=40: las tres comparaciones tienen intervalos anchos y se solapan; ninguna diferencia entre ellas es significativa por sí sola.",
+  "Las tres pasadas son de la misma revisora y las dos últimas se hicieron en la misma sesión, así que el efecto de la ventana está subestimado si hay memoria de la pasada anterior.",
+  "Compara contra un oro que fue producido con la ventana; no dice cuál de las dos lecturas es más válida, sólo cuánto difieren."
+ ]
+}

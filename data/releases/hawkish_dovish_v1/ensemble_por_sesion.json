@@ -1,0 +1,111 @@
+{
+  "que_mide": "el veredicto del ensemble bajo partición agrupada por sesión",
+  "por_que": "el veredicto publicado usa CV por turno, que reparte el 90,7% de las sesiones en más de un pliegue; si la fuga lo sostuviera, lo publicado sería una conclusión falsa y no una aproximación",
+  "cambio_respecto_del_harness_publicado": "solo la partición, en los dos niveles (externo y el interno que elige w)",
+  "config_publicada": {
+    "max_rasgos": 600,
+    "iteraciones": 30,
+    "balancear": true
+  },
+  "semillas": 5,
+  "sesiones_distintas": 130,
+  "por_sesion": {
+    "macro_f1_medio_argmax": 0.6744,
+    "macro_f1_medio_umbral": 0.6382,
+    "macro_f1_medio_mezcla": 0.6412,
+    "diferencia_mezcla_menos_umbral": 0.003,
+    "desviacion_diferencia": 0.0079,
+    "semillas_ganando_la_mezcla": 3,
+    "por_semilla": [
+      {
+        "semilla": 0,
+        "modelo_argmax": 0.682,
+        "modelo_umbral": 0.666,
+        "mezcla": 0.658,
+        "pesos_elegidos": [
+          0.8,
+          0.7,
+          1.0,
+          0.85,
+          0.8
+        ]
+      },
+      {
+        "semilla": 1,
+        "modelo_argmax": 0.67,
+        "modelo_umbral": 0.634,
+        "mezcla": 0.633,
+        "pesos_elegidos": [
+          0.6,
+          0.9,
+          0.75,
+          1.0,
+          0.75
+        ]
+      },
+      {
+        "semilla": 2,
+        "modelo_argmax": 0.7,
+        "modelo_umbral": 0.653,
+        "mezcla": 0.659,
+        "pesos_elegidos": [
+          1.0,
+          0.85,
+          0.9,
+          0.95,
+          0.7
+        ]
+      },
+      {
+        "semilla": 3,
+        "modelo_argmax": 0.669,
+        "modelo_umbral": 0.625,
+        "mezcla": 0.63,
+        "pesos_elegidos": [
+          0.85,
+          0.95,
+          0.9,
+          0.75,
+          0.9
+        ]
+      },
+      {
+        "semilla": 4,
+        "modelo_argmax": 0.651,
+        "modelo_umbral": 0.613,
+        "mezcla": 0.626,
+        "pesos_elegidos": [
+          0.75,
+          1.0,
+          0.75,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  "publicado_por_turno": {
+    "diferencia_mezcla_menos_umbral": -0.004,
+    "desviacion_diferencia": 0.0112,
+    "semillas_ganando_la_mezcla": 2
+  },
+  "comparadores": {
+    "mezcla_menos_umbral": {
+      "que_es": "comparador técnico: la mezcla decide con hd.clase(), igual que el umbral",
+      "por_turno": -0.004,
+      "por_sesion": 0.003,
+      "cambia_de_signo": true
+    },
+    "mezcla_menos_argmax": {
+      "que_es": "comparador decisorio: argmax es la regla que el release publica",
+      "por_turno": -0.0282,
+      "por_sesion": -0.0332,
+      "cambia_de_signo": false
+    }
+  },
+  "veredicto_por_sesion": "la mezcla no mejora al modelo",
+  "veredicto_publicado": "la mezcla no mejora al modelo",
+  "el_veredicto_se_mantiene": true,
+  "lectura": "El comparador técnico cambia de signo, pero es ruido: sd 0,011 y 0,008. El decisorio —contra argmax, la regla publicada— se mantiene negativo y se agranda, así que el veredicto de no publicar la mezcla sobrevive y se refuerza.",
+  "segundos": 68.2
+}

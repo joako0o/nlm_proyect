@@ -1,0 +1,369 @@
+{
+  "rejilla": [
+    {
+      "max_rasgos": 150,
+      "iteraciones": 30,
+      "balancear_clases": false,
+      "macro_f1": 0.615,
+      "accuracy": 0.74,
+      "mae_puntaje": 0.259
+    },
+    {
+      "max_rasgos": 150,
+      "iteraciones": 30,
+      "balancear_clases": true,
+      "macro_f1": 0.628,
+      "accuracy": 0.692,
+      "mae_puntaje": 0.31
+    },
+    {
+      "max_rasgos": 150,
+      "iteraciones": 120,
+      "balancear_clases": false,
+      "macro_f1": 0.586,
+      "accuracy": 0.7,
+      "mae_puntaje": 0.28
+    },
+    {
+      "max_rasgos": 150,
+      "iteraciones": 120,
+      "balancear_clases": true,
+      "macro_f1": 0.606,
+      "accuracy": 0.66,
+      "mae_puntaje": 0.336
+    },
+    {
+      "max_rasgos": 300,
+      "iteraciones": 30,
+      "balancear_clases": false,
+      "macro_f1": 0.642,
+      "accuracy": 0.768,
+      "mae_puntaje": 0.239
+    },
+    {
+      "max_rasgos": 300,
+      "iteraciones": 30,
+      "balancear_clases": true,
+      "macro_f1": 0.662,
+      "accuracy": 0.746,
+      "mae_puntaje": 0.267
+    },
+    {
+      "max_rasgos": 300,
+      "iteraciones": 120,
+      "balancear_clases": false,
+      "macro_f1": 0.659,
+      "accuracy": 0.76,
+      "mae_puntaje": 0.256
+    },
+    {
+      "max_rasgos": 600,
+      "iteraciones": 30,
+      "balancear_clases": false,
+      "macro_f1": 0.687,
+      "accuracy": 0.796,
+      "mae_puntaje": 0.222
+    },
+    {
+      "max_rasgos": 600,
+      "iteraciones": 30,
+      "balancear_clases": true,
+      "macro_f1": 0.702,
+      "accuracy": 0.78,
+      "mae_puntaje": 0.239
+    },
+    {
+      "max_rasgos": 900,
+      "iteraciones": 60,
+      "balancear_clases": false,
+      "macro_f1": 0.645,
+      "accuracy": 0.784,
+      "mae_puntaje": 0.221
+    },
+    {
+      "max_rasgos": 900,
+      "iteraciones": 200,
+      "balancear_clases": false,
+      "macro_f1": 0.655,
+      "accuracy": 0.772,
+      "mae_puntaje": 0.231
+    }
+  ],
+  "curvas": {
+    "600/30/bal=True": [
+      {
+        "etiquetas": 75,
+        "macro_f1": 0.504,
+        "accuracy": 0.72,
+        "mae_puntaje": 0.229,
+        "macro_f1_lexico": 0.517
+      },
+      {
+        "etiquetas": 125,
+        "macro_f1": 0.524,
+        "accuracy": 0.704,
+        "mae_puntaje": 0.277,
+        "macro_f1_lexico": 0.528
+      },
+      {
+        "etiquetas": 175,
+        "macro_f1": 0.592,
+        "accuracy": 0.749,
+        "mae_puntaje": 0.256,
+        "macro_f1_lexico": 0.513
+      },
+      {
+        "etiquetas": 250,
+        "macro_f1": 0.579,
+        "accuracy": 0.728,
+        "mae_puntaje": 0.255,
+        "macro_f1_lexico": 0.54
+      },
+      {
+        "etiquetas": 325,
+        "macro_f1": 0.613,
+        "accuracy": 0.726,
+        "mae_puntaje": 0.261,
+        "macro_f1_lexico": 0.532
+      },
+      {
+        "etiquetas": 400,
+        "macro_f1": 0.661,
+        "accuracy": 0.76,
+        "mae_puntaje": 0.248,
+        "macro_f1_lexico": 0.535
+      }
+    ],
+    "600/30/bal=True_supera_lexico_en_curva": true,
+    "600/30/bal=False": [
+      {
+        "etiquetas": 75,
+        "macro_f1": 0.431,
+        "accuracy": 0.707,
+        "mae_puntaje": 0.239,
+        "macro_f1_lexico": 0.517
+      },
+      {
+        "etiquetas": 125,
+        "macro_f1": 0.431,
+        "accuracy": 0.704,
+        "mae_puntaje": 0.269,
+        "macro_f1_lexico": 0.528
+      },
+      {
+        "etiquetas": 175,
+        "macro_f1": 0.433,
+        "accuracy": 0.709,
+        "mae_puntaje": 0.257,
+        "macro_f1_lexico": 0.513
+      },
+      {
+        "etiquetas": 250,
+        "macro_f1": 0.537,
+        "accuracy": 0.74,
+        "mae_puntaje": 0.245,
+        "macro_f1_lexico": 0.54
+      },
+      {
+        "etiquetas": 325,
+        "macro_f1": 0.549,
+        "accuracy": 0.723,
+        "mae_puntaje": 0.251,
+        "macro_f1_lexico": 0.532
+      },
+      {
+        "etiquetas": 400,
+        "macro_f1": 0.652,
+        "accuracy": 0.785,
+        "mae_puntaje": 0.236,
+        "macro_f1_lexico": 0.535
+      }
+    ],
+    "600/30/bal=False_supera_lexico_en_curva": true,
+    "300/30/bal=True": [
+      {
+        "etiquetas": 75,
+        "macro_f1": 0.525,
+        "accuracy": 0.707,
+        "mae_puntaje": 0.237,
+        "macro_f1_lexico": 0.517
+      },
+      {
+        "etiquetas": 125,
+        "macro_f1": 0.504,
+        "accuracy": 0.688,
+        "mae_puntaje": 0.296,
+        "macro_f1_lexico": 0.528
+      },
+      {
+        "etiquetas": 175,
+        "macro_f1": 0.616,
+        "accuracy": 0.76,
+        "mae_puntaje": 0.261,
+        "macro_f1_lexico": 0.513
+      },
+      {
+        "etiquetas": 250,
+        "macro_f1": 0.592,
+        "accuracy": 0.724,
+        "mae_puntaje": 0.277,
+        "macro_f1_lexico": 0.54
+      },
+      {
+        "etiquetas": 325,
+        "macro_f1": 0.633,
+        "accuracy": 0.723,
+        "mae_puntaje": 0.282,
+        "macro_f1_lexico": 0.532
+      },
+      {
+        "etiquetas": 400,
+        "macro_f1": 0.652,
+        "accuracy": 0.74,
+        "mae_puntaje": 0.262,
+        "macro_f1_lexico": 0.535
+      }
+    ],
+    "300/30/bal=True_supera_lexico_en_curva": true
+  },
+  "pliegues": 5,
+  "semillas_cv": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "cv_repetida": {
+    "600/30/bal=True": {
+      "macro_f1_por_semilla": [
+        0.702,
+        0.688,
+        0.682,
+        0.668,
+        0.679,
+        0.686,
+        0.713,
+        0.663,
+        0.683,
+        0.684
+      ],
+      "macro_f1_medio": 0.6848,
+      "macro_f1_desviacion": 0.0146,
+      "macro_f1_lexico": 0.55,
+      "semillas_ganando_al_lexico": 10
+    },
+    "600/30/bal=False": {
+      "macro_f1_por_semilla": [
+        0.687,
+        0.641,
+        0.651,
+        0.646,
+        0.656,
+        0.632,
+        0.64,
+        0.625,
+        0.667,
+        0.643
+      ],
+      "macro_f1_medio": 0.6488,
+      "macro_f1_desviacion": 0.0179,
+      "macro_f1_lexico": 0.55,
+      "semillas_ganando_al_lexico": 10
+    },
+    "300/30/bal=True": {
+      "macro_f1_por_semilla": [
+        0.662,
+        0.646,
+        0.653,
+        0.648,
+        0.66,
+        0.635,
+        0.639,
+        0.647,
+        0.636,
+        0.653
+      ],
+      "macro_f1_medio": 0.6479,
+      "macro_f1_desviacion": 0.0094,
+      "macro_f1_lexico": 0.55,
+      "semillas_ganando_al_lexico": 10
+    }
+  },
+  "mejor_configuracion": {
+    "max_rasgos": 600,
+    "iteraciones": 30,
+    "balancear_clases": true,
+    "macro_f1": 0.702,
+    "accuracy": 0.78,
+    "mae_puntaje": 0.239
+  },
+  "clave_mejor_configuracion": "600/30/bal=True",
+  "macro_f1_medio_en_curva": {
+    "600/30/bal=True": 0.579,
+    "600/30/bal=False": 0.505,
+    "300/30/bal=True": 0.587
+  },
+  "curva_aprendizaje": [
+    {
+      "etiquetas": 75,
+      "macro_f1": 0.504,
+      "accuracy": 0.72,
+      "mae_puntaje": 0.229,
+      "macro_f1_lexico": 0.517
+    },
+    {
+      "etiquetas": 125,
+      "macro_f1": 0.524,
+      "accuracy": 0.704,
+      "mae_puntaje": 0.277,
+      "macro_f1_lexico": 0.528
+    },
+    {
+      "etiquetas": 175,
+      "macro_f1": 0.592,
+      "accuracy": 0.749,
+      "mae_puntaje": 0.256,
+      "macro_f1_lexico": 0.513
+    },
+    {
+      "etiquetas": 250,
+      "macro_f1": 0.579,
+      "accuracy": 0.728,
+      "mae_puntaje": 0.255,
+      "macro_f1_lexico": 0.54
+    },
+    {
+      "etiquetas": 325,
+      "macro_f1": 0.613,
+      "accuracy": 0.726,
+      "mae_puntaje": 0.261,
+      "macro_f1_lexico": 0.532
+    },
+    {
+      "etiquetas": 400,
+      "macro_f1": 0.661,
+      "accuracy": 0.76,
+      "mae_puntaje": 0.248,
+      "macro_f1_lexico": 0.535
+    }
+  ],
+  "descartadas_por_curva": [],
+  "baseline_lexico_macro_f1": 0.55,
+  "baseline_mayoria_macro_f1": 0.271,
+  "configuracion_publicada": {
+    "max_rasgos": 600,
+    "iteraciones": 30,
+    "balancear_clases": true,
+    "origen": {
+      "max_rasgos": "regla_diagnostico",
+      "iteraciones": "regla_diagnostico",
+      "balancear_clases": "regla_diagnostico"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "etiquetadas": 500,
+  "pendientes_en_muestra": 0,
+  "distribucion_oro": {
+    "HAWKISH": 71,
+    "NEUTRAL": 343,
+    "DOVISH": 86
+  },
+  "distribucion_lexico_sobre_etiquetadas": {
+    "NEUTRAL": 327,
+    "HAWKISH": 62,
+    "DOVISH": 111
+  },
+  "coincidencias_clase": 323,
+  "tasa_coincidencia": 0.646,
+  "mae_puntaje_oro_vs_lexico": 0.296,
+  "matriz_oro_filas_x_lexico_columnas": {
+    "HAWKISH": {
+      "HAWKISH": 33,
+      "NEUTRAL": 34,
+      "DOVISH": 4
+    },
+    "NEUTRAL": {
+      "HAWKISH": 26,
+      "NEUTRAL": 250,
+      "DOVISH": 67
+    },
+    "DOVISH": {
+      "HAWKISH": 3,
+      "NEUTRAL": 43,
+      "DOVISH": 40
+    }
+  },
+  "puntaje_medio_oro": -0.033,
+  "cobertura_media_lectura": 0.348,
+  "fuera_de_muestra_actual": [],
+  "errores": [],
+  "sha256_muestra": "3ba2a2fd52abb3af059c3905fd9e79b16cd619dbe4e46d0ef23d686bc12d2d3c"
+}

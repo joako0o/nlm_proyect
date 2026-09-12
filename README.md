@@ -6,6 +6,88 @@ trazabilidad y alertas. Una intervención extensa ocupa dos filas por el límite
 **357 grupos comparten varias filas bajo un mismo `ID_Turno`**, hasta once consecutivas;
 no se fusionan registros de origen ni se recortan exposiciones por longitud.
 
+## Capa nueva — puntaje hawkish/dovish v1 (2026-09-11)
+
+**500 intervenciones leídas y puntuadas a mano — la muestra sorteada está cerrada —
+y los 9.257 turnos del corpus puntuados por un clasificador entrenado con esas 500.**
+Macro-F1 en validación cruzada de 5 pliegues: **0,702** contra **0,550** del
+baseline léxico y **0,271** de la clase mayoritaria; F1 por clase
+**0,732 hawkish / 0,850 neutral / 0,524 dovish**, sobre 0,496 / 0,746 / 0,406
+del léxico. Accuracy **0,780** contra 0,646 del léxico y 0,686 de responder
+siempre NEUTRAL. Acierta **52 de 71 hawkish** y **43 de 86 dovish**. Con CV
+repetida (10 semillas de partición) el macro-F1 promedia **0,685** con sd 0,015 y
+le gana al léxico en 10 de 10: ésa es la cifra robusta, el 0,702 es una partición
+favorable. Pero **esas cifras son de interpolación dentro de 2005-2015**: una auditoría
+posterior midió el modelo hacia adelante con *rolling-origin* (entrenar con lo anterior,
+probar con el año siguiente) y el macro-F1 cae a **0,456**, porque la proporción dovish
+oscila entre 8,4% y 30,7% según el ciclo monetario y eso rompe la intercambiabilidad que
+la CV aleatoria supone. Para aplicar el puntaje a reuniones nuevas ése es el número
+esperable, no el 0,685. A cambio, el puntaje sí tiene validez de constructo: el tono del
+Consejo ordena las decisiones reales de tasa con Spearman +0,615 contra la reunión
+siguiente. Ver la [auditoría](docs/AUDITORIA_HAWKISH_DOVISH_V1_2026-09-11.md). Dos avisos: **la curva de aprendizaje no es monótona** (de 376 a 438
+etiquetas el macro-F1 bajó de 0,663 a 0,634; con este tamaño ±0,03 es ruido), y el
+dovish sigue siendo el punto débil, con **41 de 86 dovish** cayendo en NEUTRAL.
+Y ojo con leer el puntaje como probabilidad: fuera de pliegue la precisión **no**
+crece con |score| (0,836 en [0,0,25) · 0,625 en [0,50,75) · 0,797 en el extremo).
+Para eso está **`HD_Confianza_Modelo`**, la probabilidad de la clase predicha: es la
+única medida calibrada —precisión monótona de 0,500 a 0,910, ECE 0,041—, mientras que
+`Margen` promete 0,40 y entrega 0,69 en su cubo bajo (ECE 0,091) y no es monótona.
+Donde sí sirve ordenar por score es para barrer: leyendo las 100 más extremas se
+captura el 51% de todas las intervenciones con postura, con 8 de 10 ciertas, contra
+3 de 10 al azar.
+Y **`HD_Clase_Modelo` no es el umbral de `HD_Score_Modelo`**: la clase publicada es el argmax
+de la softmax y discrepan en **531 de 9.257 filas**; el argmax rinde más (0,684 vs 0,660), así
+que hay que usar la columna tal como viene. Una mezcla con el léxico que parecía sumar 0,709
+fue probada con validación anidada y **descartada** (−0,004, gana 2 de 5): era sesgo.
+
+**No se modificó ningún dato: la entrega sigue siendo procedimental v5.**
+Esta capa lee el consolidado y publica
+[`data/releases/hawkish_dovish_v1/`](data/releases/hawkish_dovish_v1/).
+El universo etiquetable son **2.789 intervenciones de ≥150 palabras**; la muestra
+no es proporcional a la población, así que el conteo crudo de las 500 **no** es la
+prevalencia del corpus. Reponderando por decil con pesos de diseño sí se estima:
+**10,8% hawkish · 73,5% neutral · 15,7% dovish** (IC95 de ±2 a ±3 puntos), contra
+14,2 / 68,6 / 17,2 del conteo crudo. El modelo, por su lado, predice sobre el
+universo 321 H / 2.058 N / 410 D, cerca de los 301 / 2.051 / 438 del oro
+reponderado: dos rutas independientes que caen cerca.
+Se leyó una **ventana fija de 520 caracteres iniciales + 280 finales** (800 en
+total, 34,8% de cobertura), pero el modelo entrena con el texto completo. Esa
+asimetría **ya está medida**: re-leyendo 40 textos completos, el efecto directo es
+chico (acuerdo **0,925**, κ **0,806** contra la pasada por ventana) pero no nulo —
+la ventana **omite votos explícitos** que caen en el medio del discurso, como el
++50 pb de `RPM-2010-06-15:T85`, que el oro registró como NEUTRAL. Contra el oro, la
+lectura completa acuerda más que la re-lectura por ventana (0,850 vs 0,825). El
+efecto *indirecto* sobre el modelo sigue sin medirse. Sin segundo revisor ni cotejo PDF;
+lo que sí se midió es el **ruido** de la propia revisora, re-leyendo a ciegas 40 de las 500:
+acuerdo de clase **0,825** (IC95 0,707–0,943), kappa **0,582** (IC95 0,257–0,833), MAE 0,163,
+**cero inversiones de signo** y las 7 discrepancias todas entre clases vecinas. Como el IC95
+contiene al 0,780 del modelo, no se puede afirmar que el clasificador haya alcanzado el techo
+que le impone el ruido de sus etiquetas. Es test-retest de la misma revisora, así que el 0,825
+es un techo optimista; el **sesgo** de la rúbrica sigue sin medirse. Se corrigieron seis defectos: Presidente y Vicepresidente del Banco Central
+estaban agrupados con el staff, el puntaje léxico saturaba en ±1, re-sortear la
+muestra borraba las etiquetas sin avisar, el diagnóstico elegía una configuración
+y el release publicaba otra, la curva de aprendizaje tenía los puntos fijos, y el
+desempate de configuración optimizaba subconjuntos del oro en vez del conjunto
+completo con el que se entrena.
+
+[Informe hawkish/dovish v1](docs/HAWKISH_DOVISH_V1_2026-09-11.md) ·
+[Muestra de 500](data/curation/muestra_500_hawkish_dovish.csv) ·
+[500 etiquetas oro](data/curation/hawkish_dovish_etiquetas_v1.json) ·
+[Puntajes](data/releases/hawkish_dovish_v1/puntajes_hawkish_dovish.csv).
+
+```bash
+python scripts/hawkish_dovish.py --etapa muestra --n 500
+python scripts/etiquetar_hawkish_dovish.py --estricto
+python scripts/entrenar_hawkish_dovish.py --diagnostico
+python3 scripts/diagnosticar_fallos_hawkish_dovish.py   # audita los 110 errores
+python3 scripts/validar_ensemble_hawkish_dovish.py      # prueba anidada de la mezcla
+python3 scripts/estimar_prevalencia_hawkish_dovish.py   # prevalencia con pesos de diseno
+python3 scripts/medir_ruido_oro_hawkish_dovish.py       # ruido del oro por re-lectura
+python3 scripts/auditar_hawkish_dovish.py               # auditoria metodologica
+python3 scripts/medir_efecto_ventana_hawkish_dovish.py # efecto de la ventana
+python -m unittest tests.test_hawkish_dovish -v   # 122 pruebas
+```
+
 ## Revisión vigente — lote6: reservas complejas e inventario por estado
 
 **Cinco casos releídos,6 padres completos /20.797 caracteres; 2.099 pruebas y F0/F1 pasan.**

@@ -1,0 +1,258 @@
+{
+ "configuracion": {
+  "max_rasgos": 600,
+  "iteraciones": 30
+ },
+ "cortes_evaluados": [
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2015
+ ],
+ "expansiva": {
+  "macro_f1_medio": 0.4559,
+  "macro_f1_sd": 0.105,
+  "n_entrena_medio": 281.5,
+  "por_corte": [
+   {
+    "anio_prueba": 2008,
+    "n_entrena": 119,
+    "n_prueba": 44,
+    "macro_f1": 0.498
+   },
+   {
+    "anio_prueba": 2009,
+    "n_entrena": 163,
+    "n_prueba": 44,
+    "macro_f1": 0.301
+   },
+   {
+    "anio_prueba": 2010,
+    "n_entrena": 207,
+    "n_prueba": 49,
+    "macro_f1": 0.447
+   },
+   {
+    "anio_prueba": 2011,
+    "n_entrena": 256,
+    "n_prueba": 44,
+    "macro_f1": 0.591
+   },
+   {
+    "anio_prueba": 2012,
+    "n_entrena": 300,
+    "n_prueba": 49,
+    "macro_f1": 0.341
+   },
+   {
+    "anio_prueba": 2013,
+    "n_entrena": 349,
+    "n_prueba": 54,
+    "macro_f1": 0.407
+   },
+   {
+    "anio_prueba": 2014,
+    "n_entrena": 403,
+    "n_prueba": 52,
+    "macro_f1": 0.587
+   },
+   {
+    "anio_prueba": 2015,
+    "n_entrena": 455,
+    "n_prueba": 45,
+    "macro_f1": 0.475
+   }
+  ]
+ },
+ "deslizantes": [
+  {
+   "estrategia": "deslizante_5_anios",
+   "macro_f1_medio": 0.4133,
+   "macro_f1_sd": 0.1134,
+   "n_entrena_medio": 207.4,
+   "diff_contra_expansiva": -0.0426,
+   "diff_sd": 0.0614,
+   "gana_en": 1,
+   "cortes": 8
+  },
+  {
+   "estrategia": "deslizante_4_anios",
+   "macro_f1_medio": 0.3853,
+   "macro_f1_sd": 0.1291,
+   "n_entrena_medio": 175.4,
+   "diff_contra_expansiva": -0.0706,
+   "diff_sd": 0.069,
+   "gana_en": 1,
+   "cortes": 8
+  },
+  {
+   "estrategia": "deslizante_3_anios",
+   "macro_f1_medio": 0.3845,
+   "macro_f1_sd": 0.1128,
+   "n_entrena_medio": 137.9,
+   "diff_contra_expansiva": -0.0714,
+   "diff_sd": 0.0709,
+   "gana_en": 1,
+   "cortes": 8
+  }
+ ],
+ "por_corte": {
+  "deslizante_5_anios": [
+   {
+    "anio_prueba": 2008,
+    "n_entrena": 119,
+    "n_prueba": 44,
+    "macro_f1": 0.498
+   },
+   {
+    "anio_prueba": 2009,
+    "n_entrena": 163,
+    "n_prueba": 44,
+    "macro_f1": 0.301
+   },
+   {
+    "anio_prueba": 2010,
+    "n_entrena": 207,
+    "n_prueba": 49,
+    "macro_f1": 0.447
+   },
+   {
+    "anio_prueba": 2011,
+    "n_entrena": 223,
+    "n_prueba": 44,
+    "macro_f1": 0.617
+   },
+   {
+    "anio_prueba": 2012,
+    "n_entrena": 229,
+    "n_prueba": 49,
+    "macro_f1": 0.268
+   },
+   {
+    "anio_prueba": 2013,
+    "n_entrena": 230,
+    "n_prueba": 54,
+    "macro_f1": 0.372
+   },
+   {
+    "anio_prueba": 2014,
+    "n_entrena": 240,
+    "n_prueba": 52,
+    "macro_f1": 0.449
+   },
+   {
+    "anio_prueba": 2015,
+    "n_entrena": 248,
+    "n_prueba": 45,
+    "macro_f1": 0.354
+   }
+  ],
+  "deslizante_4_anios": [
+   {
+    "anio_prueba": 2008,
+    "n_entrena": 119,
+    "n_prueba": 44,
+    "macro_f1": 0.498
+   },
+   {
+    "anio_prueba": 2009,
+    "n_entrena": 163,
+    "n_prueba": 44,
+    "macro_f1": 0.301
+   },
+   {
+    "anio_prueba": 2010,
+    "n_entrena": 174,
+    "n_prueba": 49,
+    "macro_f1": 0.325
+   },
+   {
+    "anio_prueba": 2011,
+    "n_entrena": 185,
+    "n_prueba": 44,
+    "macro_f1": 0.617
+   },
+   {
+    "anio_prueba": 2012,
+    "n_entrena": 181,
+    "n_prueba": 49,
+    "macro_f1": 0.258
+   },
+   {
+    "anio_prueba": 2013,
+    "n_entrena": 186,
+    "n_prueba": 54,
+    "macro_f1": 0.283
+   },
+   {
+    "anio_prueba": 2014,
+    "n_entrena": 196,
+    "n_prueba": 52,
+    "macro_f1": 0.479
+   },
+   {
+    "anio_prueba": 2015,
+    "n_entrena": 199,
+    "n_prueba": 45,
+    "macro_f1": 0.321
+   }
+  ],
+  "deslizante_3_anios": [
+   {
+    "anio_prueba": 2008,
+    "n_entrena": 119,
+    "n_prueba": 44,
+    "macro_f1": 0.498
+   },
+   {
+    "anio_prueba": 2009,
+    "n_entrena": 130,
+    "n_prueba": 44,
+    "macro_f1": 0.332
+   },
+   {
+    "anio_prueba": 2010,
+    "n_entrena": 136,
+    "n_prueba": 49,
+    "macro_f1": 0.311
+   },
+   {
+    "anio_prueba": 2011,
+    "n_entrena": 137,
+    "n_prueba": 44,
+    "macro_f1": 0.563
+   },
+   {
+    "anio_prueba": 2012,
+    "n_entrena": 137,
+    "n_prueba": 49,
+    "macro_f1": 0.291
+   },
+   {
+    "anio_prueba": 2013,
+    "n_entrena": 142,
+    "n_prueba": 54,
+    "macro_f1": 0.287
+   },
+   {
+    "anio_prueba": 2014,
+    "n_entrena": 147,
+    "n_prueba": 52,
+    "macro_f1": 0.491
+   },
+   {
+    "anio_prueba": 2015,
+    "n_entrena": 155,
+    "n_prueba": 45,
+    "macro_f1": 0.303
+   }
+  ]
+ },
+ "veredicto": "REFUTADA",
+ "lectura": "Restringir la ventana a los años recientes empeora el rendimiento hacia adelante en todos los tamaños probados. Con 500 etiquetas, el costo de descartar datos supera la ganancia de relevancia temporal. No se publica ningún cambio al release.",
+ "alcance": "Esto no prueba que ponderar por recencia no sirva en general: prueba que no sirve con este tamaño de oro. Con 2.000-3.000 etiquetas la conclusión podría invertirse."
+}

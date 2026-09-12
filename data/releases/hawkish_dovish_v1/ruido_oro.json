@@ -1,0 +1,115 @@
+{
+ "n": 40,
+ "acuerdo_clase": 0.825,
+ "acuerdo_ic95": [
+  0.7072,
+  0.9428
+ ],
+ "kappa": 0.5815,
+ "kappa_ic95": [
+  0.2568,
+  0.8333
+ ],
+ "mae_puntaje": 0.1625,
+ "mae_ic95": [
+  0.1062,
+  0.225
+ ],
+ "correlacion_puntaje": 0.7582,
+ "inversiones_de_signo": 0,
+ "distribucion_relectura": {
+  "HAWKISH": 3,
+  "NEUTRAL": 31,
+  "DOVISH": 6
+ },
+ "distribucion_oro": {
+  "HAWKISH": 3,
+  "NEUTRAL": 28,
+  "DOVISH": 9
+ },
+ "matriz_relectura_contra_oro": {
+  "HAWKISH": {
+   "HAWKISH": 2,
+   "NEUTRAL": 1,
+   "DOVISH": 0
+  },
+  "NEUTRAL": {
+   "HAWKISH": 1,
+   "NEUTRAL": 26,
+   "DOVISH": 4
+  },
+  "DOVISH": {
+   "HAWKISH": 0,
+   "NEUTRAL": 1,
+   "DOVISH": 5
+  }
+ },
+ "discrepancias": [
+  {
+   "ID_Turno": "RPM-2012-10-18:T44",
+   "relectura": "NEUTRAL",
+   "relectura_score": 0.0,
+   "oro": "DOVISH",
+   "oro_score": -0.5
+  },
+  {
+   "ID_Turno": "RPM-2007-05-10:T43",
+   "relectura": "NEUTRAL",
+   "relectura_score": 0.25,
+   "oro": "HAWKISH",
+   "oro_score": 0.5
+  },
+  {
+   "ID_Turno": "RPM-2008-04-10:T32",
+   "relectura": "HAWKISH",
+   "relectura_score": 0.5,
+   "oro": "NEUTRAL",
+   "oro_score": 0.25
+  },
+  {
+   "ID_Turno": "RPM-2013-11-19:T15",
+   "relectura": "NEUTRAL",
+   "relectura_score": 0.0,
+   "oro": "DOVISH",
+   "oro_score": -0.75
+  },
+  {
+   "ID_Turno": "RPM-2013-10-17:T35",
+   "relectura": "NEUTRAL",
+   "relectura_score": 0.25,
+   "oro": "DOVISH",
+   "oro_score": -0.5
+  },
+  {
+   "ID_Turno": "RPM-2012-05-17:T3",
+   "relectura": "NEUTRAL",
+   "relectura_score": 0.0,
+   "oro": "DOVISH",
+   "oro_score": -0.5
+  },
+  {
+   "ID_Turno": "RPM-2013-06-13:T44",
+   "relectura": "DOVISH",
+   "relectura_score": -0.5,
+   "oro": "NEUTRAL",
+   "oro_score": -0.25
+  }
+ ],
+ "contraste_con_el_modelo": {
+  "modelo_en_la_submuestra": 0.625,
+  "modelo_aciertos_en_la_submuestra": "25/40",
+  "modelo_en_las_500": 0.78
+ },
+ "protocolo": {
+  "submuestra": 40,
+  "semilla": 20260911,
+  "ventana_lectura": "cabeza 520 + cola 280",
+  "umbral_clase": 0.5,
+  "bootstrap": 4000
+ },
+ "limites": [
+  "Es test-retest de UNA sola revisora: mide estabilidad de criterio, no fiabilidad entre revisoras ni validez de la etiqueta.",
+  "Quien re-leyó ya había etiquetado las 500 originales; no se descarta memoria parcial, así que el acuerdo observado es un techo optimista del verdadero.",
+  "Con n=40 los intervalos son anchos; el de kappa cruza el rango de acuerdo moderado a casi perfecto."
+ ]
+}
