@@ -43514,7 +43514,17 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2008-06-10",
       "Justificacion": "Sesión 2008-06-10 (107 filas, 113.650 caracteres, 11 actores). Primera sesión auditada con las siete firmas de cambio de hablante dentro del auditor: la cola daba un caso (padre 1858) que ya está partido en cuatro segmentos en la base, y las redes 2b y 2c dieron cero candidatos. No hay ningún corte que hacer. Los 14 candidatos de acento en 12 filas son todos formas correctas: dos «hacía» verbales («como ya se hacía mención», «a que se hacía referencia»), tres verbos en pasado («el consumo se frenó», «se estima que promedió 89,8%», «cuando se cambió la jornada»), seis «cuánto» interrogativos indirectos y tres «éstos» pronombres demostrativos, que el corpus usa de forma consistente con 137 apariciones. Sí se corrigieron dos residuos de OCR al final de fila, ambos únicos en el corpus y ambos después de una oración completa: la basura « V/» al final de 1860:2 y el marcador de línea « .LI I» al final de 1858:1, que pertenece a la familia de residuos de paginación del PDF."
+    },
+    "RPM-2008-03-13:1706:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1706:2",
+      "ID_Padre": "1706",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 290,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Fila nueva creada por el corte HAB-20260912-1706-5 del §48: el tramo 313-603 del padre 1706 pasó a ser la fila 1706:2, atribuida a Igal Magendzo Weinberger. El padre ya estaba leído y cerrado como UNA_VOZ antes del corte; esta anotación sólo pone al día el registro de lectura con la fila que el corte agregó, no reabre la sesión. El texto del tramo se leyó completo al adjudicar el corte: el Presidente consulta nominalmente a Magendzo y la oración siguiente es la respuesta de éste con contenido propio, no el resumen de una consulta."
     }
   },
-  "Total_Leidas": 4004
+  "Total_Leidas": 4005
 }
