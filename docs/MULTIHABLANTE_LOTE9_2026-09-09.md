@@ -397,6 +397,8 @@ Para leer una sesión entera al margen del plan:
 
 | — | **quinto corte aplicado** | +1 | **`RPM-2008-03-13:1706`** De Gregorio → **Igal Magendzo Weinberger** @313–603 · encontrado por la red de «un tercero **responde** dentro de una fila de un solo hablante», no por la cola ni por el traspaso · **entrega v9 publicada**: 9.723 → 9.725, `Pasa: true`, 5 cortes · detalle en §48 |
 
+| 88–96 | 2008-06-10 | 107 | **sesión cerrada 105/105** (2 ya estaban anotadas) · 11 actores · **primera sesión auditada con las siete firmas dentro del auditor** (§50): cola 1 caso ya partido, red 2b cero, red 2c cero → **ningún corte** · 14 candidatos de acento, todos formas correctas · 2 residuos de OCR al final de fila («'V/» y «.LI I») |
+
 Para anotar una ronda leída:
 
 ```

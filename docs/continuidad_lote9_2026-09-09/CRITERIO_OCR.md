@@ -2982,3 +2982,49 @@ después no queda **ninguno** en las 5.823 filas de un solo segmento.
 
 **9.725 filas · 5 cortes aplicados · ninguna firma con candidatos pendientes.** Se puede seguir con
 la próxima acta.
+
+---
+
+## §50. Sesión 2008-06-10: las siete firmas dentro del auditor
+
+El censo del §49 se hizo con scripts ad hoc. Desde esta sesión las siete firmas viven en
+`scripts/analisis_sesion.py` —la 2 en la sección **2b** y las otras cinco en la **2c**—, así que
+**toda acta pasa por las siete antes de cerrarse**, no sólo por la cola del lote10.
+
+La sección 2c incorpora además el filtro que faltaba y que había producido falsos positivos: el
+propio actor escrito de tres maneras distintas —apellido dañado por OCR, cargo en vez de nombre, y
+**cargo con abreviatura** («Ministro de Hacienda (S)» es la Ministra Subrogante).
+
+### Resultado
+
+| red | candidatos | cortes |
+|---|---|---|
+| cola lote10 | 1 (padre 1858) | **0** — ya está partido en 4 segmentos en la base |
+| 2b — segunda voz por verbo de habla | 0 | 0 |
+| 2c — las otras cinco firmas | 0 | 0 |
+
+**Ningún corte que hacer.** No es ausencia de avisos: son tres redes corridas y vacías.
+
+### OCR
+
+Los **14 candidatos de acento en 12 filas** son todos formas correctas:
+
+| forma | n | por qué se conserva |
+|---|---|---|
+| `hacía` | 2 | verbo: «como ya se **hacía** mención», «a que se **hacía** referencia» |
+| `frenó` · `promedió` · `cambió` | 3 | verbos en pasado: «el consumo se **frenó**», «se estima que **promedió** 89,8%», «cuando se **cambió** la jornada» |
+| `cuánto` | 6 | interrogativo indirecto: «información de **cuánto** puede estar liderando» |
+| `éstos` | 3 | pronombre demostrativo; el corpus lo usa consistente (137 apariciones) |
+
+**Dos correcciones, ambas residuos de OCR al final de fila**, únicos en el corpus y después de una
+oración completa:
+
+| fila | antes | tipo |
+|---|---|---|
+| `1860:2` | «…durante este año. **'V/**» | `SIMBOLO_SUELTO` |
+| `1858:1` | «…en todos lados. **.LI I**» | `SIMBOLO_SUELTO` |
+
+El segundo es un marcador de línea o página del PDF: la fila siguiente (`1858:2`) empieza con la
+continuación normal de la exposición, así que no se pierde texto.
+
+Registro: **1.559 filas / 2.587 operaciones**. `Texto` intacto en las 9.725.

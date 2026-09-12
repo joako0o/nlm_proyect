@@ -82,6 +82,46 @@ SUJETO = re.compile(
     r'(?:el|la|los|las)?\s*(?:señor|señora|don|doña)\s+'
     r'([A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+(?:\s+[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+){1,3})')
 
+# Las otras cinco firmas del censo del §49. Cada una abre alguno de los cinco
+# cortes aplicados, y ninguna estaba cubierta antes de medirlo.
+CARGOS = ('Gerente', 'Consejero', 'Presidente', 'Vicepresidente', 'Ministro', 'Ministra',
+          'Asesor', 'Secretario', 'Fiscal', 'Economista', 'Jefe', 'Subsecretario')
+
+# Firmas 3 y 7: traspaso de la palabra, y sus variantes.
+TRASPASO = re.compile(
+    r'(?:ofrece|concede|cede|da|otorga)\s+(?:la\s+)?palabra\s+(?:a|al|para)\b|da\s+paso\s+a\b')
+TRASPASO_VAR = re.compile(
+    r'(?:cede|otorga|concede|ofrece|da|pasa|entiende)\s+(?:el\s+uso\s+de\s+)?(?:la\s+)?palabra\b'
+    r'|da\s+paso\s+a\b|invita\s+(?:a|al)\b'
+    r'|solicita\s+(?:a|al)\b[^.;]{0,80}?(?:presente|exponga|informe)\b'
+    r'|corresponde\s+(?:la\s+)?(?:palabra|presentaci[oó]n|exposici[oó]n)\s+(?:a|al)\b'
+    r'|(?:queda|est[aá])\s+(?:a\s+)?cargo\s+de\b'
+    r'|para\s+que\s+(?:inicie|presente|exponga)\s+la\s+(?:exposici[oó]n|presentaci[oó]n)\b', re.I)
+
+# Firma 4: un tercero responde dentro de la fila. Fue la única que produjo un
+# corte (padre 1706, §48) y ninguna red anterior la cubría.
+RESPONDE = re.compile(
+    r'((?:el|la|los|las)\s+)?(?:señor|señora|don|doña)?\s*'
+    r'(Presidente|Vicepresidente|Consejero|Ministro|Ministra|Gerente|Asesor|Secretario|Fiscal'
+    r'|Economista|Jefe)\b[^.;]{0,60}?'
+    r'\b(responde|contesta|replica|aclara|repregunta)\b', re.I)
+
+# Firma 5: sujeto pospuesto — «Menciona la señora Ministra que…». Así abren los
+# cortes 1564 y 1995.
+POSPUESTO = re.compile(
+    r'\b(' + '|'.join(v.capitalize() for v in _VERBOS) + r')\s+(?:el|la|los|las)\s+'
+    r'(?:(?:señor|señora|don|doña)\s+)?'
+    r'([A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+(?:\s+(?:de|del|la|las|los)\s+|\s+)?'
+    r'[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+(?:\s+[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+)?)')
+
+# Firma 6: cargo como sujeto, sin nombre — «El Gerente de División Política
+# Financiera manifiesta…». Así abre el corte 2960.
+CARGO_SUJETO = re.compile(
+    r'\b(?:El|La|el|la)\s+((?:' + '|'.join(CARGOS) + r')'
+    r'(?:\s+(?:de|del|General|División|Área)\s+[A-ZÁÉÍÓÚÜÑ][\wáéíóúüñ]*){0,4})\s+'
+    r'(?:señor|señora|don|doña\s+)?(?:[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+\s+){0,3}?'
+    r'\b(' + '|'.join(_VERBOS) + r')\b')
+
 
 
 def cargar(base):
@@ -95,8 +135,9 @@ def cargar(base):
     virgen = {r['ID_Intervencion']: (r['Texto'] or '') for r in filas}
     salida = {rid: corregidas.get(rid, t) for rid, t in virgen.items()}
     actor = {r['ID_Intervencion']: r['Actor_Final'] for r in filas}
+    rol = {r['ID_Intervencion']: (r.get('Rol_Final') or '') for r in filas}
     motivos = {r['ID_Intervencion']: (r.get('Motivos_Revision') or '') for r in filas}
-    return virgen, salida, actor, motivos
+    return virgen, salida, actor, rol, motivos
 
 
 def seccion(numero, titulo):
@@ -113,7 +154,7 @@ def main() -> int:
     a = ap.parse_args()
     prefijo = f'RPM-{a.fecha}:'
 
-    virgen, salida, actor, motivos = cargar(a.base)
+    virgen, salida, actor, rol, motivos = cargar(a.base)
     ids = [rid for rid in virgen if rid.startswith(prefijo)]
     if not ids:
         print(f'No hay filas para {a.fecha}')
@@ -177,6 +218,76 @@ def main() -> int:
           f'de un verbo de habla.\n   Ojo: casi todas son menciones (apoyar, dar la '
           f'bienvenida, concordar, citar) y no cambios de voz;\n   y parte del ruido es '
           f'el propio actor con el nombre dañado por OCR. Se leen una por una.')
+
+    seccion('2c', 'Las otras cinco firmas de cambio de hablante (censo del §49)')
+    # El §49 midió las siete firmas que exhiben los cinco cortes aplicados. La 2b
+    # de arriba es la firma 2; aquí van la 3 (traspaso con texto largo después),
+    # la 4 (un tercero responde), la 5 (sujeto pospuesto), la 6 (cargo como sujeto
+    # sin nombre) y la 7 (variantes de traspaso).
+    #
+    # En el corpus entero las cinco dieron 0 cortes pendientes. Se dejaron aquí de
+    # todos modos porque el cero de un corpus no garantiza el cero de la próxima
+    # acta, y porque la firma 4 fue la única que produjo un corte y ninguna red
+    # anterior la cubría.
+    def distancia(x, y):
+        if abs(len(x) - len(y)) > 2:
+            return 9
+        prev = list(range(len(y) + 1))
+        for i, cx in enumerate(x, 1):
+            cur = [i]
+            for j, cy in enumerate(y, 1):
+                cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (cx != cy)))
+            prev = cur
+        return prev[-1]
+
+    def es_el_mismo(nombre, actor_row, rol_row):
+        """Descarta al propio actor escrito distinto.
+
+        Tres formas de escribirlo mal se midieron: el apellido dañado por OCR
+        («José De Gregario», «Manuel Mari^án»), el cargo en vez del nombre, y el
+        cargo con abreviatura —«Ministro de Hacienda (S)» es la Ministra
+        Subrogante, y sin eso las firmas 5 y 6 daban un falso positivo por sesión.
+        """
+        partes = [p for p in re.split(r'\s+', actor_row.lower()) if len(p) > 3]
+        if any(distancia(w.lower().strip('^'), p) <= 2 for w in nombre.split() for p in partes):
+            return True
+        primero = nombre.split()[0]
+        if primero in CARGOS and rol_row and primero.lower()[:5] in rol_row.lower():
+            return True
+        return False
+
+    total_2c = 0
+    for rid in ids:
+        if n_seg[':'.join(rid.split(':')[:2])] > 1:
+            continue
+        texto = sesion[rid]
+        actor_row = actor[rid] or ''
+        rol_row = rol[rid] or ''
+        avisos = []
+        for etiqueta, patron in (('traspaso', TRASPASO), ('traspaso, variante', TRASPASO_VAR)):
+            for m in patron.finditer(texto):
+                fin = texto.find('.', m.end())
+                fin = len(texto) if fin < 0 else fin
+                if len(texto) - (fin + 1) >= 400:
+                    avisos.append((etiqueta, texto[m.start():fin + 1].strip()[:110]))
+        for m in RESPONDE.finditer(texto):
+            if not es_el_mismo(m.group(2), actor_row, rol_row) and len(texto) - m.start() >= 150:
+                avisos.append(('un tercero responde', f'{m.group(2)} {m.group(3)}'))
+        for m in POSPUESTO.finditer(texto):
+            if not es_el_mismo(m.group(2), actor_row, rol_row) and len(texto) - m.start() >= 150:
+                avisos.append(('sujeto pospuesto', f'{m.group(1)} {m.group(2)}'))
+        for m in CARGO_SUJETO.finditer(texto):
+            if not es_el_mismo(m.group(1), actor_row, rol_row) and len(texto) - m.start() >= 200:
+                avisos.append(('cargo como sujeto', m.group(1)))
+        if avisos:
+            total_2c += 1
+            print(f'   {rid} | {actor_row} | rol: {rol_row or "—"} | {len(texto)} ch')
+            for etiqueta, detalle in avisos:
+                print(f'      [{etiqueta}] {detalle}')
+    print(f'\n   {total_2c} filas con alguna de las cinco firmas. Se leen todas: en el corpus\n'
+          '   entero la gran mayoría era el propio actor con el nombre o el cargo escrito\n'
+          '   distinto, o una mención. La única que produjo un corte fue «un tercero\n'
+          '   responde» (padre 1706, §48).')
 
     seccion(3, 'Detectores sobre la sesión (candidatos, no reglas)')
     freq, canon = esc.construir_indices(salida)

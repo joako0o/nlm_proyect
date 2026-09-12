@@ -29718,6 +29718,32 @@
           "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1860:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " 'V/",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "ue de todas maneras se anticipan movimientos al alza durante este año. 'V/",
+          "Justificacion": "Residuo de OCR al final de la fila, después de una oración completa («…se anticipan movimientos al alza durante este año.»). Medido en el corpus: «'V/» aparece 1 sola vez, ésta. No es una comilla de apertura ni de cierre —no hay comilla que acompañe— y pertenece a la familia de basura de OCR ya registrada («'’i^sgo», «costos f' H-», «'aquerida»)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1858:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " .LI I",
+          "Despues": "",
+          "Ocurrencias": 1,
+          "Contexto": "mo se reporta la información, ya que es la misma forma en todos lados. .LI I",
+          "Justificacion": "Residuo de OCR al final de la fila, después de una oración completa («…ya que es la misma forma en todos lados.»). Medido en el corpus: «.LI» aparece 1 sola vez, ésta. Es un marcador de línea o página del PDF, no texto: la fila siguiente (1858:2) empieza con la continuación normal de la exposición."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
