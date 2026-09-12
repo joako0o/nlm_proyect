@@ -3028,3 +3028,56 @@ El segundo es un marcador de línea o página del PDF: la fila siguiente (`1858:
 continuación normal de la exposición, así que no se pierde texto.
 
 Registro: **1.559 filas / 2.587 operaciones**. `Texto` intacto en las 9.725.
+
+---
+
+## §51. Sesión 2010-11-16 + pase transversal de la comilla del Comunicado
+
+108 filas, 12 actores. **Ninguna fila en la cola y cero candidatos en 2b y 2c**: las siete firmas
+corrieron y no hay ningún corte que hacer. Los 3 candidatos de acento son verbos en pasado
+(`incrementó`, `frenó`) y un interrogativo indirecto (`cuánto`).
+
+### Lo que sí apareció: la comilla del Comunicado, esta vez bien medida
+
+La fila `3581:1` termina en comilla de cierre **sin apertura**. El §45 había mirado esta familia y la
+descartó — pero midió la distancia **desde «Acuerdo:»**, que va de 148 a 2.009 caracteres, y contó
+filas **sin** comilla. La medición que faltaba era otra:
+
+> ¿Qué signo sigue **inmediatamente** a la palabra «Comunicado»?
+
+| signo | filas |
+|---|---|
+| `“` | **102** |
+| `'` comilla recta | 2 |
+| `‘` comilla simple izquierda | 1 |
+| `‘‘` dos comillas simples izquierdas | 1 |
+
+Sobre las 113 filas de Acuerdo con sección Comunicado. **La posición es fija** —inmediatamente
+después de la palabra— y en los cuatro casos divergentes **hay un signo, no una ausencia**: no hay
+duda de que ahí va la comilla, sólo está mal leída. Lo corrobora que esas filas traen la comilla de
+**cierre** intacta y sin pareja (`“=0, ”=1` en 5 filas de Acuerdo).
+
+### Por qué esto sí y el §45 no
+
+| | §45 (descartado) | §51 (aplicado) |
+|---|---|---|
+| qué se medía | distancia desde «Acuerdo:» | signo tras «Comunicado» |
+| posición | variable, 148 a 2.009 ch | **fija** |
+| proporción | 61 con / 52 sin | **102 contra 4** |
+| ¿hay signo? | en 52 filas **no hay nada** | en las 4 **sí hay**, mal leído |
+| formas alternativas | 4 (recta, simple, doble simple, ausencia) | **ninguna plausible** |
+
+La diferencia decisiva no es la proporción: es que **aquí no hay ausencia**. Reconstruir una comilla
+que falta exige saber si el original la tenía; reemplazar un glifo mal leído en una posición fija, no.
+
+### Las 4 correcciones (pase transversal, 4 actas)
+
+| fila | antes | después |
+|---|---|---|
+| `2006-05-11:674:2` | `Comunicado ' En su reunión` | `Comunicado “ En su reunión` |
+| `2009-06-16:2602:1` | `Comunicado 'En su reunión` | `Comunicado “En su reunión` |
+| `2010-11-16:3581:1` | `Comunicado ‘En su reunión` | `Comunicado “En su reunión` |
+| `2013-01-17:5330:3` | `Comunicado ‘‘En su reunión` | `Comunicado “En su reunión` |
+
+Verificado después de aplicar: las **106** apariciones de «Comunicado» seguido de comilla usan `“`,
+cero dañadas. Registro: **1.560 filas / 2.591 operaciones**. `Texto` intacto en las 9.725.

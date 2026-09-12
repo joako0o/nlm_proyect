@@ -11471,6 +11471,14 @@
           "Despues": "adas, al K. tiempo qu",
           "Contexto": "úa la debilidad en el crecimiento de las economías desarrolladas, al K . tiempo que se observan señales más positivas en China. El precio de l",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Comunicado ‘‘En su",
+          "Despues": "Comunicado “En su",
+          "Ocurrencias": 1,
+          "Contexto": "ectura al texto del Comunicado, que es del siguiente tenor: Comunicado ‘‘En su reunión mensual de política monetaria, ",
+          "Justificacion": "La comilla de apertura de la cita del Comunicado está dañada. Medido en el corpus sobre las 113 filas de Acuerdo que tienen sección Comunicado: el signo que sigue inmediatamente a la palabra «Comunicado» es la comilla doble de apertura en 102 filas, y sólo 4 traen otra cosa (2 comilla recta, 1 comilla simple izquierda, 2 comillas simples izquierdas). La posición es fija —inmediatamente después de «Comunicado»— y en los 4 casos hay un signo, no una ausencia, así que no hay duda de que ahí va la comilla: sólo está mal leída. Corrobora que sea apertura dañada y no otra cosa que estas filas tienen la comilla de cierre intacta y sin pareja."
         }
       ]
     },
@@ -23109,6 +23117,14 @@
           "Ocurrencias": 1,
           "Contexto": " crediticias se mantienen estrechas, pero están reflejando el impacto del mayor estimulo monetario. En mayo, el conjunto de indicadores de infla",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Comunicado 'En su",
+          "Despues": "Comunicado “En su",
+          "Ocurrencias": 1,
+          "Contexto": "acordó reducir la Tasa de Política Monetaria a 0,75% anual. Comunicado 'En su reunión mensual de política monetaria, ",
+          "Justificacion": "La comilla de apertura de la cita del Comunicado está dañada. Medido en el corpus sobre las 113 filas de Acuerdo que tienen sección Comunicado: el signo que sigue inmediatamente a la palabra «Comunicado» es la comilla doble de apertura en 102 filas, y sólo 4 traen otra cosa (2 comilla recta, 1 comilla simple izquierda, 2 comillas simples izquierdas). La posición es fija —inmediatamente después de «Comunicado»— y en los 4 casos hay un signo, no una ausencia, así que no hay duda de que ahí va la comilla: sólo está mal leída. Corrobora que sea apertura dañada y no otra cosa que estas filas tienen la comilla de cierre intacta y sin pareja."
         }
       ]
     },
@@ -23228,6 +23244,14 @@
           "Ocurrencias": 1,
           "Contexto": "yor inflación en economías emergentes y la adopción de medidas para aminorar el estimulo monetario en algunos países de Asia. En el plano intern",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Comunicado ‘En su",
+          "Despues": "Comunicado “En su",
+          "Ocurrencias": 1,
+          "Contexto": " de política monetaria en 25 puntos base, hasta 3,0% anual. Comunicado ‘En su reunión mensual de política monetaria, ",
+          "Justificacion": "La comilla de apertura de la cita del Comunicado está dañada. Medido en el corpus sobre las 113 filas de Acuerdo que tienen sección Comunicado: el signo que sigue inmediatamente a la palabra «Comunicado» es la comilla doble de apertura en 102 filas, y sólo 4 traen otra cosa (2 comilla recta, 1 comilla simple izquierda, 2 comillas simples izquierdas). La posición es fija —inmediatamente después de «Comunicado»— y en los 4 casos hay un signo, no una ausencia, así que no hay duda de que ahí va la comilla: sólo está mal leída. Corrobora que sea apertura dañada y no otra cosa que estas filas tienen la comilla de cierre intacta y sin pareja."
         }
       ]
     },
@@ -29742,6 +29766,19 @@
           "Ocurrencias": 1,
           "Contexto": "mo se reporta la información, ya que es la misma forma en todos lados. .LI I",
           "Justificacion": "Residuo de OCR al final de la fila, después de una oración completa («…ya que es la misma forma en todos lados.»). Medido en el corpus: «.LI» aparece 1 sola vez, ésta. Es un marcador de línea o página del PDF, no texto: la fila siguiente (1858:2) empieza con la continuación normal de la exposición."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:674:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "Comunicado ' En su",
+          "Despues": "Comunicado “ En su",
+          "Ocurrencias": 1,
+          "Contexto": "rés de política monetaria en 25 puntos base hasta 5% anual. Comunicado ' En su reunión mensual de política monetaria, ",
+          "Justificacion": "La comilla de apertura de la cita del Comunicado está dañada. Medido en el corpus sobre las 113 filas de Acuerdo que tienen sección Comunicado: el signo que sigue inmediatamente a la palabra «Comunicado» es la comilla doble de apertura en 102 filas, y sólo 4 traen otra cosa (2 comilla recta, 1 comilla simple izquierda, 2 comillas simples izquierdas). La posición es fija —inmediatamente después de «Comunicado»— y en los 4 casos hay un signo, no una ausencia, así que no hay duda de que ahí va la comilla: sólo está mal leída. Corrobora que sea apertura dañada y no otra cosa que estas filas tienen la comilla de cierre intacta y sin pareja."
         }
       ]
     }

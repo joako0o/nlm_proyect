@@ -399,6 +399,8 @@ Para leer una sesión entera al margen del plan:
 
 | 88–96 | 2008-06-10 | 107 | **sesión cerrada 105/105** (2 ya estaban anotadas) · 11 actores · **primera sesión auditada con las siete firmas dentro del auditor** (§50): cola 1 caso ya partido, red 2b cero, red 2c cero → **ningún corte** · 14 candidatos de acento, todos formas correctas · 2 residuos de OCR al final de fila («'V/» y «.LI I») |
 
+| 97–105 | 2010-11-16 | 108 | **sesión cerrada 104/104** (4 ya estaban anotadas) · 12 actores · cola vacía, red 2b cero, red 2c cero → **ningún corte** · 3 candidatos de acento, todos correctos · destapó el **pase transversal de la comilla del Comunicado**: 102 filas con “ contra 4 dañadas, posición fija y signo presente, corregidas en 4 actas (§51) |
+
 Para anotar una ronda leída:
 
 ```
