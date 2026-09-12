@@ -71,6 +71,18 @@ SIN_PUNTUACION_FINAL = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüüñ0-9\)\]
 # 2008-12-11:2206:1, que tiene 6 y 6 balanceados—.
 ENUMERACION = re.compile(r'(?:^|[\s;:])((?:[a-z]|[ivx]+)\))')
 
+# Verbos de habla en forma personal y sujetos con tratamiento. Es la red
+# independiente de la cola del lote10 (ver la sección 2b más abajo).
+_VERBOS = ('señala', 'indica', 'comenta', 'agrega', 'menciona', 'responde', 'acota',
+           'complementa', 'pregunta', 'consulta', 'sostiene', 'plantea', 'destaca',
+           'advierte', 'precisa', 'explica', 'recuerda', 'añade', 'expresa',
+           'manifiesta', 'puntualiza', 'reitera', 'estima', 'considera')
+VERBO_HABLA = re.compile(r'\b(?:' + '|'.join(_VERBOS) + r')(?:n|ron|mos)?\b')
+SUJETO = re.compile(
+    r'(?:el|la|los|las)?\s*(?:señor|señora|don|doña)\s+'
+    r'([A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+(?:\s+[A-ZÁÉÍÓÚÜÑ][a-záéíóúüñ]+){1,3})')
+
+
 
 def cargar(base):
     reg = core.cargar()
@@ -127,6 +139,44 @@ def main() -> int:
         print(f'   padre {c["ID_Padre"]} @{c["Inicio"]} estricto={c["Actor_Estricto"]} '
               f'permisivo={c["Actor_Permisivo"]}')
         print(f'      «{c["Oracion"][:150]}»')
+
+    seccion('2b', 'Segunda voz por verbo de habla (red independiente de la cola)')
+    # Por qué existe esta sección. La cola del lote10 se construyó con
+    # TurnDetector sobre los 7.219 padres crudos, y los cuatro cortes curados que
+    # sí se publicaron (657, 1564, 1995, 2960) NO estaban en ella: vienen de
+    # LECTURA_DIRIGIDA_POR_AGENTE. La cola y la lectura encuentran conjuntos
+    # disjuntos, así que revisar sólo la cola no es separar multihablantes.
+    #
+    # Esta red es distinta y corre sobre la BASE construida: busca filas de un
+    # solo segmento donde otra persona —no el actor de la fila— es sujeto de un
+    # verbo de habla en forma personal. Propone, no decide: en las diez primeras
+    # sesiones dio 13 candidatos y los 13 eran falsos (7 ruido de OCR sobre el
+    # propio actor, 6 menciones: apoyar una opinión, dar la bienvenida, concordar
+    # con, citar a un tercero). Aun así es la red que encuentra lo que la cola no.
+    n_seg = collections.Counter(rid.split(':')[0] + ':' + rid.split(':')[1] for rid in ids)
+    encontrados = 0
+    for rid in ids:
+        if n_seg[':'.join(rid.split(':')[:2])] > 1:
+            continue                       # el motor ya la partió
+        texto = sesion[rid]
+        actor_row = actor[rid] or ''
+        ap = actor_row.split()[-1] if actor_row.split() else ''
+        otros = set()
+        for m in SUJETO.finditer(texto):
+            nombre = m.group(1)
+            apellido = nombre.split()[-1]
+            if apellido == ap or apellido in actor_row:
+                continue
+            if VERBO_HABLA.search(texto[m.end():m.end() + 70]):
+                otros.add(nombre)
+        if otros:
+            encontrados += 1
+            print(f'   {rid} | {actor_row} | {len(texto)} ch')
+            print(f'      posible segunda voz: {", ".join(sorted(otros))}')
+    print(f'\n   {encontrados} filas de un solo segmento con otra persona como sujeto '
+          f'de un verbo de habla.\n   Ojo: casi todas son menciones (apoyar, dar la '
+          f'bienvenida, concordar, citar) y no cambios de voz;\n   y parte del ruido es '
+          f'el propio actor con el nombre dañado por OCR. Se leen una por una.')
 
     seccion(3, 'Detectores sobre la sesión (candidatos, no reglas)')
     freq, canon = esc.construir_indices(salida)

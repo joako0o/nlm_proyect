@@ -2718,3 +2718,73 @@ alternativa plausible. Aquí fallan las dos.
 Lectura: 3.899 filas. Cinco de las ocho sesiones leídas con el auditor se han cerrado sin
 correcciones; las correcciones siguen viniendo de familias transversales, y ahora también sabemos
 reconocer cuándo una familia **no** lo es.
+
+---
+
+## §46. Corrección de proceso: la cola del lote10 **no** es la red de multihablantes
+
+Pregunta directa: *¿se están separando los párrafos de múltiples hablantes?* La respuesta medida
+obligó a corregir el procedimiento.
+
+### Lo que se venía haciendo, y por qué estaba mal planteado
+
+En las diez sesiones cerradas con el auditor se revisó la **cola del lote10** (74 casos) y se
+encontró que la mayoría ya estaba partida en la base. Eso se reportó como «los candidatos ya estaban
+resueltos». Era cierto, pero incompleto: **la cola no es donde están los cortes.**
+
+Medido:
+
+| los 4 cortes curados publicados | ¿estaban en la cola de 74? |
+|---|---|
+| padre 657 (2006-05-11) | **NO** |
+| padre 1564 (2007-11-13) | **NO** |
+| padre 1995 (2008-08-14) | **NO** |
+| padre 2960 (2010-02-11) | **NO** |
+
+Los cuatro tienen `Tipo_Revision = LECTURA_DIRIGIDA_POR_AGENTE`. **La cola y la lectura encuentran
+conjuntos disjuntos.** Revisar sólo la cola no es separar multihablantes: es revisar una lista que,
+por construcción, no contiene lo que la lectura encuentra.
+
+### La segunda red
+
+`scripts/analisis_sesion.py` ahora tiene una sección **2b** que corre sobre la **base construida**
+(no sobre los padres crudos) y con un método distinto: busca filas de **un solo segmento** donde
+**otra persona** —no el actor de la fila— es sujeto de un verbo de habla en forma personal.
+
+Resultado sobre las diez sesiones ya cerradas: **13 candidatos**. Leídos uno por uno:
+
+- **7 son ruido de OCR sobre el propio actor**: «José De Gregario» por De Gregorio, «Manuel Mari»
+  por Marfán. El apellido dañado no coincide con el del actor y el filtro lo deja pasar.
+- **6 son menciones, no cambios de voz**, y caen exacto en las categorías que el criterio excluye:
+
+| fila | qué dice | categoría |
+|---|---|---|
+| `2008-03-13:1738:1` | Magendzo «desea **apoyar la opinión** del Gerente… señor García», «**al igual que** el señor Pablo García, estima…» | adhesión |
+| `2009-02-12:2302:1` | De Gregorio «informa que **asistirá** la Ministra… señora María Olivia Recart a quien **da la bienvenida**» | llegada / bienvenida |
+| `2009-02-12:2328:1` | De Gregorio «**en relación con el planteamiento** de la Ministra… señora María Olivia Recart, estima…» | referencia retrospectiva |
+| `2006-06-15:723:1` | Marfán «**sugiere incorporar** a la discusión… al Asesor… señor Luis Felipe Céspedes» | propuesta sobre un tercero |
+| `2008-12-11:2209:1` | Desormeaux «**concuerda con lo que plantea** el Consejero señor Manuel Marfán **y agrega**…» | adhesión |
+| `2008-12-11:2246:1` | Velasco «la pregunta… **la formuló muy bien el sindicalista señor Arturo Martínez** en un Seminario de Enade» | cita de un externo |
+
+**Cero cortes.** Dos redes independientes, métodos distintos, las dos vacías en estas diez sesiones.
+
+### Lo que sí queda pendiente de la cola
+
+De los 74 casos, 58 ya están partidos en la base y 16 no. De esos 16 se adjudicaron 6 en esta
+revisión (`2228`, `2325`, `2397`, `2430`, `6185`, `505`) y los 6 son menciones. El caso más
+interesante fue `2430:1`: parecía un cambio de voz porque dice «el Gerente de División Operaciones
+Financieras **se pregunta**… **Sobre este aspecto, comenta que**…», pero la fila abre con «El Gerente
+de División Operaciones Financieras señor **Beltrán De Ramón** señala…»: en 2009 Beltrán *era* ese
+Gerente, así que se pregunta y se responde él mismo. **El cargo no identifica a la persona si no se
+verifica contra la propia acta.**
+
+Quedan **10 casos** de la cola sin adjudicar, en sesiones todavía no leídas: `2005-08-11:320`,
+`2005-12-13:505` (ya visto: es la sección formal del Acuerdo), `2006-01-12:571`, `2006-04-13:647`,
+`2007-03-15:1114`, `2007-07-12:1328`, `2007-09-13:1420`, `2012-02-14:4574`, `2012-03-15:4656`,
+`2013-07-11:5658`, `2015-01-15:6587`.
+
+### Estado honesto
+
+En las diez sesiones cerradas en este tramo **no se hizo ningún corte nuevo**. Ahora eso está
+respaldado por dos redes independientes y por la lectura de los 19 candidatos reales que
+produjeron, no sólo por la ausencia de avisos.
