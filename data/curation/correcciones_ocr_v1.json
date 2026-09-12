@@ -29571,6 +29571,19 @@
           "Justificacion": "Residuo de paginación. La oración cierra con punto y después queda un número suelto: es el número de página del acta escaneada. Medido sobre la SALIDA corregida de las 9.724 filas, antes de este pase sólo 3 filas terminaban en « <número>» después de una oración completa, y las tres son iguales. Ojo con la cifra si se remide: en el Texto virgen el mismo patrón da 11, porque otras 8 filas —todas del acta de 2012-04-17— arrastran el pie de página explícito «Sesión N° 184 Página N de 26», que una tanda previa de 24 operaciones RESIDUO_PAGINACION ya retira; en la salida ese pie de página aparece 0 veces. Las dos cifras son ciertas, cada una en su columna. Se elimina el número; Texto queda intacto."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-02-11:2906:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "inmune a los shocks', por el contrario",
+          "Despues": "inmune a los shocks, por el contrario",
+          "Ocurrencias": 1,
+          "Contexto": "ado, como el chileno, se tiene mucha persistencia, lo cual no lo hace inmune a los shocks', por el contrario, estos provocan un significativo efecto por una vez, citando como eje",
+          "Justificacion": "Comilla recta suelta. La oración se lee completa y correcta sin ella: «se tiene mucha persistencia, lo cual no lo hace inmune a los shocks, por el contrario, estos provocan un significativo efecto por una vez». No es un posesivo inglés (no hay palabra en inglés) y no cierra ninguna cita: es la única comilla recta de la fila y el corpus usa comillas tipográficas (360 «“» y 347 «”»). Queda pendiente, para cuando toque cada sesión, la familia completa: 41 comillas rectas en 38 filas, y es mixta — la mayoría es basura de OCR («'’i^sgo», «costos f' H-», «'V/», «'aquerida») pero algunas son posesivos ingleses legítimos («Purchasing Managers' Index», «Lloyd's»), así que no se puede resolver por regla."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [

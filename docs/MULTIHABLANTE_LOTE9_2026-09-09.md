@@ -385,6 +385,8 @@ Para leer una sesión entera al margen del plan:
 
 | 43–51 | 2009-04-09 | 147 | **sesión cerrada 142/142** (5 ya estaban anotadas) · 14 actores · la sesión más grande del corpus y **cero correcciones** · el candidato multihablante (padre 2443) ya estaba partido en 13 segmentos · los 9 candidatos de acento eran formas correctas (previó, efectuara, desarrolló son verbos; dónde y éstos llevan tilde diacrítica; periodo es variante válida) |
 
+| 52–60 | 2010-02-11 | 134 | **sesión cerrada 129/129** (5 ya estaban anotadas) · 13 actores · los **3** candidatos multihablante ya estaban partidos, los tres con el marcador «en tanto que» (2896:2/3, 2910:2/3, 2915:3/4) · 1 corrección (comilla recta suelta en 2906:1) · el detector volvió a proponer «hacía» en 2960:1 y sigue siendo el verbo, una de las 17 del §40 · dos familias medidas y pendientes: 41 comillas rectas (mixta) y **23** filas en letra suelta |
+
 Para anotar una ronda leída:
 
 ```

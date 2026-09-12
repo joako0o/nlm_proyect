@@ -2483,3 +2483,64 @@ ninguno habría salido de una lectura fila por fila.
 **42 candidatos, 3 que el texto pedía, 2 aplicados — precisión 7 %.** El tercero (`hacía` en
 `2009-08-13`) se aplicó después, cuando la enumeración completa del §40 mostró que la guardia
 protegía 15 defectos y no 32 formas legítimas.
+
+---
+
+## §42. Sesión 2010-02-11 y dos familias que quedan medidas y pendientes
+
+134 filas, 117.420 caracteres. Una sola corrección, y dos familias grandes que conviene dejar
+escritas con su número exacto antes de que se pierdan.
+
+### Los tres candidatos multihablante, y el marcador que los delata
+
+Los tres estaban ya partidos, y los tres con la misma construcción:
+
+| padre | segmentos | el límite que la cola marcaba |
+|---|---|---|
+| 2896 | 4 | `2896:2` Lehmann («a lo cual el señor Lehmann responde que no lo es,») / `2896:3` García («**en tanto que** el señor Pablo García señala…») |
+| 2910 | 3 | `2910:2` Soto («…responde que era de 0%,») / `2910:3` García («**en tanto que** el señor Pablo García agrega…») |
+| 2915 | 4 | `2915:3` García / `2915:4` Soto |
+
+**«en tanto que» seguido de un nombre es un marcador fiable de cambio de voz** en estas actas:
+introduce al segundo hablante dentro de la misma oración. Vale como señal de lectura, no como regla
+automática — pero cuando aparece, hay que mirar.
+
+### El detector volvió a proponer `hacía`, y la respuesta sigue siendo no
+
+`2960:1`: «su benchmark es el promedio de las mismas, **hacía** necesario que alguien las condujera a
+ello». Es el verbo *hacer*, exactamente una de las 17 que la enumeración del §40 clasificó como
+legítimas y dejó intactas. Que el detector la vuelva a proponer es esperado: su precisión es 7 %.
+
+### La corrección
+
+`2906:1` — «lo cual no lo hace inmune a los shocks**'**, por el contrario, estos provocan…». La
+comilla no es posesivo inglés (no hay palabra en inglés) ni cierra ninguna cita: es la única comilla
+recta de la fila y el corpus usa tipográficas (360 `“` y 347 `”`). → `SIMBOLO_SUELTO`.
+
+### Familia 1: comillas rectas — 41 en 38 filas, y es **mixta**
+
+No se puede resolver por regla, porque conviven dos cosas distintas:
+
+| basura de OCR | posesivo inglés legítimo |
+|---|---|
+| `'’i^sgo geopolítico` → riesgo | `Purchasing Managers' Index` |
+| `costos f' H- laborales` | `Lloyd's` |
+| `'V/` · `'aquerida` → adquirida · `en'el caso` · `L' desanclaje` | |
+
+Hay que leerlas una por una. Quedan pendientes.
+
+### Familia 2: filas que terminan en letra suelta — **23**, no 20
+
+El conteo que circulaba era 20; medido ahora son **23**. El patrón es nítido:
+
+```
+…el Informe de Política Monetaria de mayo. H
+…se esta hablando. i          …respecto al Banco u
+…seguirá monitoreando. y      …25 puntos base. i
+```
+
+Es **la primera letra de la palabra con que arranca el párrafo siguiente**, que el escaneo dejó
+colgada al final de la página anterior. La fila siguiente siempre empieza con la palabra completa
+(`2915:4` arranca «En cuanto a las tasas…»), así que la letra no le pertenece a ninguna de las dos.
+Borrarla sería perder un carácter de la fuente si el corte cayó a mitad de palabra; confirmarlo
+exige el PDF. **Pendientes, con el número corregido.**
