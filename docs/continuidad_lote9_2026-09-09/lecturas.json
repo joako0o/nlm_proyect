@@ -35924,7 +35924,457 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2009-08-13",
       "Justificacion": "Sesión 2009-08-13 (79 filas, 83.670 caracteres, 15 actores). Los tres candidatos multihablante ya estaban bien partidos en la base: 2661:10 = Velasco y 2661:11 = Lehmann, 2667:1/2/3 = Velasco/Lehmann/Soto, 2680:2/3/4 = Consejo/De Gregorio/García. Eso llevó a medir la cola entera contra la base construida: 58 de los 74 casos (78 %) ya están partidos, porque la cola se hizo sobre los padres del consolidado de origen, antes de la segmentación automática. Quedan 16 casos en 15 sesiones, y uno de ellos (el padre 2325 de 2009-02-12) ya se adjudicó como mención en el §37. Tres correcciones en la sesión y un pase transversal: 2680:4 terminaba en «A continuación,.» y medido en las 9.724 filas son 76 apariciones, las 76 al final de una fila, las 76 con la siguiente en minúscula y en la misma sesión, las 76 seguidas de «el señor Presidente ofrece la palabra al…»; unidas dan la construcción normal del acta, y «A continuación,» sin el punto aparece 378 veces. El punto es residuo del salto de párrafo de la fuente. Se quitaron los 76 y el conteo pasó de 378 a 454, exactos. Además «cartera hacía economías» por «hacia» (preposición, no verbo), «medidas complementarías posibles» por «complementarias» (1 vez contra 47), y «Siendo las 16; 15 horas» por «16:15» (106 apariciones del patrón con dos puntos, y la fila anterior del mismo padre escribe 16:15). Se marcó el residuo de lámina de 2681:1 — dos apóstrofes y una uve entre dos oraciones que se leen bien — que no es texto reconocible."
+    },
+    "RPM-2008-01-10:1616:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1616:1",
+      "ID_Padre": "1616",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1375,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1618:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1618:1",
+      "ID_Padre": "1618",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 10312,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1619:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1619:1",
+      "ID_Padre": "1619",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 98,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1619:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1619:2",
+      "ID_Padre": "1619",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 350,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1620:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1620:1",
+      "ID_Padre": "1620",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 125,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1620:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1620:2",
+      "ID_Padre": "1620",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 187,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1620:3": {
+      "ID_Intervencion": "RPM-2008-01-10:1620:3",
+      "ID_Padre": "1620",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 275,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1621:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1621:1",
+      "ID_Padre": "1621",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 160,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1621:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1621:2",
+      "ID_Padre": "1621",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 329,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1621:3": {
+      "ID_Intervencion": "RPM-2008-01-10:1621:3",
+      "ID_Padre": "1621",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 424,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1621:4": {
+      "ID_Intervencion": "RPM-2008-01-10:1621:4",
+      "ID_Padre": "1621",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 494,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1621:5": {
+      "ID_Intervencion": "RPM-2008-01-10:1621:5",
+      "ID_Padre": "1621",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 366,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1622:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1622:1",
+      "ID_Padre": "1622",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 346,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1623:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1623:1",
+      "ID_Padre": "1623",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 383,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1623:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1623:2",
+      "ID_Padre": "1623",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 11058,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1624:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1624:1",
+      "ID_Padre": "1624",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 82,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1624:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1624:2",
+      "ID_Padre": "1624",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1119,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1625:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1625:1",
+      "ID_Padre": "1625",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 221,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1625:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1625:2",
+      "ID_Padre": "1625",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 621,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1626:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1626:1",
+      "ID_Padre": "1626",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1069,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1627:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1627:1",
+      "ID_Padre": "1627",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 321,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1627:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1627:2",
+      "ID_Padre": "1627",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 259,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1627:3": {
+      "ID_Intervencion": "RPM-2008-01-10:1627:3",
+      "ID_Padre": "1627",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 609,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1627:4": {
+      "ID_Intervencion": "RPM-2008-01-10:1627:4",
+      "ID_Padre": "1627",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 327,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1627:5": {
+      "ID_Intervencion": "RPM-2008-01-10:1627:5",
+      "ID_Padre": "1627",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 516,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1628:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1628:1",
+      "ID_Padre": "1628",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 441,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1628:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1628:2",
+      "ID_Padre": "1628",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1628:3": {
+      "ID_Intervencion": "RPM-2008-01-10:1628:3",
+      "ID_Padre": "1628",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 275,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1629:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1629:1",
+      "ID_Padre": "1629",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 8174,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1630:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1630:1",
+      "ID_Padre": "1630",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1631:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1631:1",
+      "ID_Padre": "1631",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 120,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1631:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1631:2",
+      "ID_Padre": "1631",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Caracteres": 3865,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1632:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1632:2",
+      "ID_Padre": "1632",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 3655,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1633:2": {
+      "ID_Intervencion": "RPM-2008-01-10:1633:2",
+      "ID_Padre": "1633",
+      "Actor": "Leonardo Hernández Tagle",
+      "Caracteres": 1433,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1633:4": {
+      "ID_Intervencion": "RPM-2008-01-10:1633:4",
+      "ID_Padre": "1633",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 1706,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1633:5": {
+      "ID_Intervencion": "RPM-2008-01-10:1633:5",
+      "ID_Padre": "1633",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1634:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1634:1",
+      "ID_Padre": "1634",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 4147,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1635:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1635:1",
+      "ID_Padre": "1635",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 7974,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1636:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1636:1",
+      "ID_Padre": "1636",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 3825,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1637:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1637:1",
+      "ID_Padre": "1637",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 5479,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1638:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1638:1",
+      "ID_Padre": "1638",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 3597,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1639:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1639:1",
+      "ID_Padre": "1639",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 451,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1640:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1640:1",
+      "ID_Padre": "1640",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 600,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1641:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1641:1",
+      "ID_Padre": "1641",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2593,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
+    },
+    "RPM-2008-01-10:1642:1": {
+      "ID_Intervencion": "RPM-2008-01-10:1642:1",
+      "ID_Padre": "1642",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 133,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-01-10",
+      "Justificacion": "Sesión 2008-01-10 (49 filas, 80.828 caracteres, 13 actores). El único candidato multihablante ya estaba partido en la base: el padre 1623 tiene 1623:1 = Jorge Desormeaux Jiménez y 1623:2 = Igal Magendzo Weinberger; lo que la cola mostraba como «7 Menciona el señor Magendzo…» era el final de 1623:1 (un 7 suelto, residuo de paginación) pegado al comienzo de 1623:2. Diez candidatos de acento, nueve falsos positivos: impulsó, motivó y argumentó son verbos, dónde y cuánto son interrogativos, éstos lleva tilde diacrítica. El décimo, «una tendencia hacía la baja» en 1618:1, sí es la preposición «hacia» mal acentuada, y destapó la enumeración completa: de las 32 apariciones de «hacía» en el corpus, 17 son el verbo y 15 son la preposición. Se corrigieron las 15 y se dejaron las 17, y el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración escrita en el test, no en silencio. Además se quitaron tres residuos de paginación: 1623:1 terminaba en « 7», y las otras dos filas del corpus que terminan en número suelto tras una oración completa son 2008-09-04:2064:1 y 2014-06-12:6257:5, ambas en « 4»."
     }
   },
-  "Total_Leidas": 3245
+  "Total_Leidas": 3290
 }

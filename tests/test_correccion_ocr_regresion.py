@@ -90,8 +90,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 3
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1540
-MIN_OPERACIONES = 2553
+MIN_CORREGIDAS = 1550
+MIN_OPERACIONES = 2571
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -427,8 +427,20 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         # substring: 'cuánto' da 128 por substring porque incluye 'cuántos', y
         # 'período' da 786 porque incluye 'períodos'. Con esos números el test
         # fallaba sin que se hubiera dañado nada.
+        #
+        # 'hacía' bajó de 32 a 17 el 2026-09-13 y NO es un ensanche para que pase
+        # un cambio: las 32 apariciones se enumeraron una por una. 17 son el verbo
+        # («hacía presente», «hacía referencia», «hacía mención», «hacía
+        # necesario», «lo hacía moderadamente», «el mercado hacía del actuar»…) y
+        # 15 son la preposición «hacia» con la tilde mal puesta, siempre rigiendo
+        # un complemento de dirección («hacía delante», «hacía adelante», «hacía la
+        # baja», «hacía América Latina», «hacía las economías emergentes», «hacía el
+        # tercer trimestre»), donde el verbo no tiene sujeto ni complemento
+        # posible. Se corrigieron esas 15 (§40) y el suelo quedó en las 17
+        # legítimas. La guardia sigue haciendo su trabajo: si una pasada futura se
+        # come alguno de los 17 verbos, esto vuelve a fallar.
         piso = {'éstos': 137, 'cuánto': 124, 'terminó': 20, 'período': 661,
-                'dónde': 41, 'cambió': 21, 'hacía': 32, 'inició': 23,
+                'dónde': 41, 'cambió': 21, 'hacía': 17, 'inició': 23,
                 # §16 grupo B: leídas una por una y declaradas correctas
                 'continua': 16, 'publica': 13, 'seria': 7, 'multimodal': 4}
         import re as _re

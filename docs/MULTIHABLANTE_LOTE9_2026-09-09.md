@@ -381,6 +381,8 @@ Para leer una sesión entera al margen del plan:
 
 | 32–37 | 2009-08-13 | 79 | **sesión cerrada 78/78** (1 ya estaba anotada) · 15 actores · los **3** candidatos multihablante **ya estaban partidos en la base** (2661:10/11, 2667:1/2/3, 2680:2/3/4) · 3 correcciones + pase transversal «A continuación,.»→«A continuación,» en **76 filas** · 1 marca por residuo de lámina |
 
+| 38–42 | 2008-01-10 | 49 | **sesión cerrada 45/45** (4 ya estaban anotadas) · 13 actores · el candidato multihablante (padre 1623) **ya estaba partido**: lo que la cola mostraba era el 7 suelto de 1623:1 pegado al inicio de 1623:2 · 9 de 10 candidatos de acento eran falsos · el décimo destapó la enumeración completa de «hacía»: **17 verbos y 15 preposiciones**, se corrigieron las 15 y el suelo de la guardia bajó de 32 a 17 medido · 3 residuos de paginación |
+
 Para anotar una ronda leída:
 
 ```

@@ -4471,6 +4471,14 @@
           "Ocurrencias": 1,
           "Contexto": "a lo cual el señor Lehmann responde que existen tasas de nesgo a distintos periodos En todo caso, el Gerente señor Lehmann",
           "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "ue está en línea también con los flujos netos de inversión de cartera hacía economías emergentes, cuyos promedios móviles de seis meses han conti",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -5627,6 +5635,14 @@
           "Ocurrencias": 1,
           "Contexto": "alquiera creería y brechas cerrándose, hacen que el mercado reaccione consecuentem ente. La otra idea que se plantea, señala el señor Ministro, es que el pro",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «consecuentem ente» -> «consecuentemente». La evidencia es interna y doble: el primer trozo («consecuentem») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («consecuentemente») es la que el propio corpus usa 10 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "o, señala el señor Ministro, se puede tener en el futuro una revisión hacía arriba del producto potencial y ,por lo tanto, es dable pensar que se",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -6243,6 +6259,14 @@
           "Ocurrencias": 1,
           "Contexto": "o económico para esa economía, esto es, las dificultades financieras de la crisis subpri me ya están deteriorando las variables reales y se espera qu",
           "Justificacion": "Palabra partida por la justificación del PDF (\"subpri me\" por \"subprime\"). Medido: 4 apariciones en 4 filas en toda la base; una (1317:1) se corrigió con la ronda 191 y estas son las otras tres. La palabra es inequívoca y está atestiguada: \"subprime\" aparece 58 veces en el corpus. Es el mismo artefacto que \"inmobiliari o\" y que las 35 palabras en letras sueltas de §12."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "te los Bancos Centrales de Estados Unidos de América y aparentemente, hacía delante, el Banco Central Europeo, han sido más rápidos en reaccionar",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -13366,6 +13390,14 @@
           "Ocurrencias": 1,
           "Contexto": " estas cifras pudiesen ser revisadas, pero de todas maneras, al menos ha sta hace algunos días atrás, la tendencia general era a revisar hacia el ",
           "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1512 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "pleo ha continuado c a y e n d o y eso podría dar sustento al consumo hacía delante. No obstante lo anterior, se e sp e ra ría una desaceleración",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -15304,6 +15336,14 @@
           "Despues": "go menores, derivados",
           "Contexto": "ud. Agrega que en Europa y Japón los movimientos han sido algo menores , derivados de expectativas de movimiento de tasa de política monetaria",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "tativas respecto al mercado laboral muestran claramente una tendencia hacía la baja. Comenta que esta información conforma un escenario, en térmi",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -17606,6 +17646,14 @@
           "Ocurrencias": 1,
           "Contexto": "que creen que los precios subirán “mucho” en los próximos doce meses. Asim ism o, la Encuesta a Empresarios del IMCE señala que las expectativas de in",
           "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 1235 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "estran el ya comentado aumento en el muy corto plazo que es revertido hacía delante, acercándose a 3% más adelante.",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -20496,6 +20544,14 @@
           "Ocurrencias": 1,
           "Contexto": " un escenario de corto y de mediano plazo que tendría una visión crecientemente mayoritaría y que, en lo grueso, coincide con el del Consejo Agrega",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": " como de políticas monetarias crecientemente contractivas o avanzando hacía niveles neutrales en las economías emergentes, plantea que existe un ",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -23892,6 +23948,14 @@
           "Despues": "ón sobre 3% hacia ade",
           "Contexto": "e USD-$, lo que refleja que los agentes están viendo inflación sobre 3 % hacia adelante. Con todo, agrega, una cifra de compensación inflacion",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": " de lo normal. Con todo, y con todas las incertidumbres que se tienen hacía delante, en particular si la situación externa empeora más y termina ",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
         }
       ]
     },
@@ -29377,6 +29441,136 @@
           "Justificacion": "Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1097:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "o al precio internacional del petróleo podría desviarse marginalmente hacía un riesgo al alza. Agrega el Consejero señor Marfán que respecto del ",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1902:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": " aprecian antecedentes que modifiquen las perspectivas de crecimiento hacía adelante. En términos de la generación eléctrica y costos energéticos",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4725:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "a tasas en torno a su tendencia y que se proyecta ese mismo escenario hacía adelante. Respecto de la demanda, comenta que también se ha desaceler",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4904:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "as últimas semanas, asociada fundamentalmente a ingresos de capitales hacía América Latina y en menor grado a Europa emergente. Manifiesta que en",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4933:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "año, ya que, en general, se observa una caída que tiende a revertirse hacía el término del año, oportunidad en que las empresas tratan de cumplir",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5158:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": " del cobre sigue elevado; que se visualizan mayores flujos de capital hacía las economías emergentes; y que, en general, estas economías continúa",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6716:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "hacía",
+          "Despues": "hacia",
+          "Ocurrencias": 1,
+          "Contexto": "ecto, los precios de los activos financieros incorporan el incremento hacía el tercer trimestre del año en curso, mientras que la Encuestas a Ope",
+          "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1623:1",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "ientos de tasas sí van en dirección al alza. 7",
+          "Despues": "ientos de tasas sí van en dirección al alza.",
+          "Ocurrencias": 1,
+          "Contexto": "nde con respecto a lo que sucede en el mundo emergente donde los movimientos de tasas sí van en dirección al alza. 7",
+          "Justificacion": "Residuo de paginación. La oración cierra con punto y después queda un número suelto: es el número de página del acta escaneada. Medido sobre la SALIDA corregida de las 9.724 filas, antes de este pase sólo 3 filas terminaban en « <número>» después de una oración completa, y las tres son iguales. Ojo con la cifra si se remide: en el Texto virgen el mismo patrón da 11, porque otras 8 filas —todas del acta de 2012-04-17— arrastran el pie de página explícito «Sesión N° 184 Página N de 26», que una tanda previa de 24 operaciones RESIDUO_PAGINACION ya retira; en la salida ese pie de página aparece 0 veces. Las dos cifras son ciertas, cada una en su columna. Se elimina el número; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2064:1",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "ecimiento cae por un efecto base importante. 4",
+          "Despues": "ecimiento cae por un efecto base importante.",
+          "Ocurrencias": 1,
+          "Contexto": "ón del PIB se ajusta marginalmente respecto a este año y la tasa de crecimiento cae por un efecto base importante. 4",
+          "Justificacion": "Residuo de paginación. La oración cierra con punto y después queda un número suelto: es el número de página del acta escaneada. Medido sobre la SALIDA corregida de las 9.724 filas, antes de este pase sólo 3 filas terminaban en « <número>» después de una oración completa, y las tres son iguales. Ojo con la cifra si se remide: en el Texto virgen el mismo patrón da 11, porque otras 8 filas —todas del acta de 2012-04-17— arrastran el pie de página explícito «Sesión N° 184 Página N de 26», que una tanda previa de 24 operaciones RESIDUO_PAGINACION ya retira; en la salida ese pie de página aparece 0 veces. Las dos cifras son ciertas, cada una en su columna. Se elimina el número; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-06-12:6257:5",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "uyendo a mantener el crecimiento del sector. 4",
+          "Despues": "uyendo a mantener el crecimiento del sector.",
+          "Ocurrencias": 1,
+          "Contexto": "mido, mientras que el asociado a edificación habitacional está contribuyendo a mantener el crecimiento del sector. 4",
+          "Justificacion": "Residuo de paginación. La oración cierra con punto y después queda un número suelto: es el número de página del acta escaneada. Medido sobre la SALIDA corregida de las 9.724 filas, antes de este pase sólo 3 filas terminaban en « <número>» después de una oración completa, y las tres son iguales. Ojo con la cifra si se remide: en el Texto virgen el mismo patrón da 11, porque otras 8 filas —todas del acta de 2012-04-17— arrastran el pie de página explícito «Sesión N° 184 Página N de 26», que una tanda previa de 24 operaciones RESIDUO_PAGINACION ya retira; en la salida ese pie de página aparece 0 veces. Las dos cifras son ciertas, cada una en su columna. Se elimina el número; Texto queda intacto."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -30683,11 +30877,6 @@
       "Texto_Original_Fragmento": "Gerente de Comunicaciones, don Luis Alvarez Vallejos",
       "Motivo": "NOMBRE_PROPIO. Falta la tilde de 'Álvarez'. Medido: 'Luis Alvarez' sin tilde aparece 21 veces en el corpus y 'Luis Álvarez' con tilde 39, así que conviven las dos grafías y hay transcripción inconsistente: a diferencia de 'Alvaro' (2 contra 0, uniforme, descartado en la ronda 174), aquí sí hay una errata que cotejar. Pero un nombre propio nunca se reescribe, sólo se marca. Va en Marcas_Adicionales porque esta fila ya lleva una marca distinta (punto ausente) y Cotejar_PDF admite varias, unidas por punto y coma.",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
-    },
-    {
-      "ID_Intervencion": "RPM-2009-08-13:2666:3",
-      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
-      "Motivo": "TILDE_DISCUTIDA_POR_GUARDIA_DE_REGRESION. «los flujos netos de inversión de cartera hacía economías emergentes» pide la preposición «hacia»; el verbo no tiene sujeto ni complemento posible ahí. Pero tests/test_correccion_ocr_regresion.py tiene un suelo de 32 apariciones de «hacía» precisamente porque una pasada anterior la corrigió de más, y la regla del proyecto es no ensanchar una guardia para que pase un cambio. Se revierte la corrección y se deja la fila marcada: resolverlo exige el PDF o una decisión explícita sobre esa guardia, no bajar el suelo en silencio."
     }
   ]
 }

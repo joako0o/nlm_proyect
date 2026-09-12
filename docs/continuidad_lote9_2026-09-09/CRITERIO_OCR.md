@@ -2383,3 +2383,57 @@ Seis candidatos, dos reales (`hacía`, `complementarías`) y cuatro falsos: `cu�
 \* De los 2 de esta sesión, `hacía` se revirtió por la guardia de regresión (véase arriba) y sólo
 `complementarías` quedó aplicado. El conteo mide **candidatos que el texto realmente pedía
 corregir**, no correcciones publicadas: son dos cosas distintas y conviene no confundirlas.
+
+---
+
+## §40. `hacía`: la enumeración completa y por qué el suelo de la guardia bajó de 32 a 17
+
+En el §39 una corrección de `hacía` → `hacia` chocó con `test_los_pares_minimos_legitimos_no_se_tocaron`
+y **se revirtió**: el suelo de 32 existe porque una pasada anterior corrigió `hacía` de más, y la
+regla es no ensanchar una guardia para que pase un cambio. Hasta ahí, correcto.
+
+Pero en `2008-01-10` apareció el mismo fenómeno («una tendencia **hacía** la baja»), y en vez de
+volver a revertir se hizo lo que faltaba: **enumerar las 32 apariciones una por una**.
+
+### El resultado
+
+| | | ejemplos |
+|---|---|---|
+| **el verbo** | **17** | «hacía presente», «hacía referencia», «hacía mención» (×5), «hacía necesario» (×3), «hacía que», «hacía prudente», «lo hacía moderadamente», «lo hacía conforme», «el mercado hacía del actuar» |
+| **la preposición `hacia`** | **15** | «hacía delante» (×3), «hacía adelante» (×2), «hacía la baja», «hacía arriba», «hacía un riesgo al alza», «hacía América Latina», «hacía las economías emergentes» (×2), «hacía niveles neutrales», «hacía el término del año», «hacía el tercer trimestre», «cartera hacía economías emergentes» |
+
+En las 15 el verbo no tiene sujeto ni complemento posible: siempre rigen un complemento de dirección
+o destino. `hacia` aparece 2.183 veces en el corpus.
+
+### Por qué esto no es ensanchar la guardia
+
+Bajar el suelo de 32 a 17 **no debilita el test**: después del cambio la guardia sigue protegiendo
+las 17 apariciones legítimas, y si una pasada futura se come cualquiera de ellas, vuelve a fallar.
+Lo que cambió es que el número ahora **está medido** en vez de heredado. La enumeración completa
+quedó escrita en el comentario del test, junto con la razón, para que el próximo que lo vea no tenga
+que rehacerla.
+
+La distinción que importa: *ensanchar una guardia para que pase un cambio* es bajar un umbral hasta
+que el test deje de quejarse. *Corregir una guardia con evidencia* es enumerar el universo que
+protege y mostrar que el umbral estaba mal. Lo primero esconde un problema; lo segundo lo documenta.
+
+Las 15 se corrigieron, incluida `2009-08-13:2666:3`, cuya marca `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`
+se retiró porque ya no aplica. `hacia` pasó de 2.183 a **2.198** (+15 exactos).
+
+### Tres residuos de paginación
+
+`1623:1` terminaba en «…en dirección al alza**. 7**». Ese 7 suelto es el número de página del acta
+escaneada — y era, además, lo que la cola multihablante mostraba como «**7** Menciona el señor
+Magendzo…»: el final de `1623:1` pegado al comienzo de `1623:2`, que ya está bien partido.
+
+Medido en la salida: sólo 3 filas del corpus terminan en número suelto tras una oración completa
+(las otras dos son `2008-09-04:2064:1` y `2014-06-12:6257:5`, ambas en « 4»). **Ojo al remedir:** en
+el Texto virgen el mismo patrón da 11, porque 8 filas del acta de `2012-04-17` arrastran el pie de
+página explícito «Sesión N° 184 Página N de 26», que una tanda previa de 24 operaciones ya retira.
+Las dos cifras son ciertas, cada una en su columna; la justificación de las operaciones lo dice.
+
+### Nota sobre la herramienta
+
+`enmendar_operacion.py` rechaza una enmienda que sólo cambia `Justificacion` (compara `Despues` y
+`Tipo`). Las tres justificaciones se editaron directo en el registro y se reverificó con
+`--validar` y la suite.
