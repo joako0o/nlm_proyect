@@ -49,6 +49,9 @@ from diagnosticar_finales import read_rows  # noqa: E402
 
 TOKEN = re.compile(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+")
 VOCALES_ACENTUADAS = set('ÁÉÍÓÚáéíóú')
+# Las únicas letras sueltas que son palabra en español. Fuera de éstas, un token
+# de una letra es casi siempre el residuo de una palabra partida por el OCR.
+LETRAS_PALABRA = {'a', 'y', 'o', 'e', 'u', 'A'}
 
 
 def plegar(s: str) -> str:
@@ -136,8 +139,18 @@ def detector_partida(salida: dict, freq: Counter, min_frec: int, limite: int) ->
             junta = a.group() + b.group()
             if junta not in freq or freq[junta] < min_frec:
                 continue
-            # si las dos mitades son palabras corrientes, el espacio es legítimo
-            if freq.get(a.group(), 0) >= 50 or freq.get(b.group(), 0) >= 50:
+            # si las dos mitades son palabras corrientes, el espacio es legítimo.
+            # Excepción: una mitad de UNA letra que no sea palabra española. La
+            # guarda se pensó para no juntar «de la», pero con letras sueltas se
+            # vuelve al revés: el token «m» aparece 78 veces y «a» 37.528, así que
+            # bloqueaba TODO «m ayor» o «m onetaria». Y una letra suelta es
+            # frecuente precisamente porque la OCR parte palabras. Medido: con la
+            # guarda sin excepción el detector daba 0 candidatos cuando quedaban
+            # 62 en 39 filas (§23).
+            es_letra_suelta = len(a.group()) == 1 and a.group() not in LETRAS_PALABRA
+            if freq.get(a.group(), 0) >= 50 and not es_letra_suelta:
+                continue
+            if freq.get(b.group(), 0) >= 50:
                 continue
             casos.append((rid, a.start(), a.group(), b.group(), junta, freq[junta], t))
     vistos = defaultdict(int)

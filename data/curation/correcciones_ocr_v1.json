@@ -5508,6 +5508,13 @@
           "Despues": "otencial y,por lo tan",
           "Contexto": " tener en el futuro una revisión hacía arriba del producto potencial y ,por lo tanto, es dable pensar que se está en un rumbo de lenta aproxim",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m acroeconómica",
+          "Despues": "macroeconómica",
+          "Contexto": "r que dados los acuerdos comerciales y el marco de política m acroeconómica los otros factores más cualitativos, como la PTF, tuvieran ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 34 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -12957,6 +12964,41 @@
           "Despues": "observó",
           "Contexto": "stán contribuyendo positivamente, a diferencia de lo que se obsen/ó en el trimestre anterior, y de hecho constituyen el princip",
           "Justificacion": "La OCR escribe esta letra como «/»: el corpus tiene observó y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ostrando",
+          "Despues": "mostrando",
+          "Contexto": "nsión. Agrega que el mercado de factores continúa ajustado, m ostrando escasas holguras de capacidad. Indica el Gerente de Análisi",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 509 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antención",
+          "Despues": "mantención",
+          "Contexto": "portantes. Las proyecciones derivadas de este ajuste o esta m antención en el precio, que está por sobre lo que se anticipaba hace ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 510 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ejorado",
+          "Despues": "mejorado",
+          "Contexto": "de la gasolina, señala el Gerente señor Lehmann que éste ha m ejorado las condiciones de abastecimiento, lo que está asociado a u",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 101 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m aíz",
+          "Despues": "maíz",
+          "Contexto": "e observa que el precio del trigo ha tendido a aumentar. El m aíz ha tendido a caer durante los últimos treinta días. De hech",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 130 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m anteniendo",
+          "Despues": "manteniendo",
+          "Contexto": "s últimos treinta días. De hecho los futuros si bien siguen m anteniendo una tendencia positiva, están algo por debajo de lo que era",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 84 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -13446,6 +13488,13 @@
           "Ocurrencias": 1,
           "Contexto": "ente año, sean en su m ayoría más auspiciosas que las estim adas hace un par de trim estres. Lo anterior, sin duda ha propiciado un clim a de confi",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 606 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayoría",
+          "Despues": "mayoría",
+          "Contexto": "erspectivas de crecimiento para el presente año, sean en su m ayoría más auspiciosas que las estim adas hace un par de trim estr",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 360 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -13579,6 +13628,13 @@
           "Ocurrencias": 1,
           "Contexto": "dencia, sin presentar una aceleración adicional como la observada en el segundo sem estre del año pasado y los indicadores de confianza se mantie",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 442 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M onetaria",
+          "Despues": "Monetaria",
+          "Contexto": "asgos coherente con el presentado en el Informe de Política M onetaria. Por un lado, la actividad económica y el empleo mantienen ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 3247 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -13666,6 +13722,20 @@
           "Ocurrencias": 1,
           "Contexto": "ión al alza del PIB del cuarto trim estre del 2004 (3,8% t/t anualízado), indicadores que dan cuenta de la forta",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 109 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onetaria",
+          "Despues": "monetaria",
+          "Contexto": "movimiento similar en la expectativa de la tasa de política m onetaria en la encuesta mensual para dentro de veinticuatro meses. E",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antiene",
+          "Despues": "mantiene",
+          "Contexto": "a una apreciación de la moneda y una demanda interna que se m antiene débil, lo que se ha reflejado en un deterioro de los indica",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1069 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -14170,6 +14240,13 @@
           "Despues": "ción al 3%. En parale",
           "Contexto": "nflación futura, que acelerarían la convergencia de la inflación al 3% . En paralelo, le parece que las expectativas de inflación a uno y dos ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M enciona",
+          "Despues": "Menciona",
+          "Contexto": "stá por verse sus efectos en los costos de la mano de obra. M enciona el Presidente señor Corbo, que estos factores pueden termin",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 760 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -14348,6 +14425,48 @@
           "Ocurrencias": 1,
           "Contexto": "lmente elevado respecto de efectos de segunda vuelta del shock de precios, y un aum ento de 25 puntos base sólo se hiciera cargo de limitar los ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2682 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m aterializarse",
+          "Despues": "materializarse",
+          "Contexto": "laje, también hay expectativas de alzas de tasas, que de no m aterializarse podrían arriesgar un desanclaje. De juzgarse que exista efe",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 67 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antención",
+          "Despues": "mantención",
+          "Contexto": "és indica que el principal argumento que podría motivar una m antención de la tasa de política monetaria se basa en que, hasta ahor",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 510 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayores",
+          "Despues": "mayores",
+          "Contexto": "ad por escasez de energía, no es evidente que ello implique m ayores holguras, dado que también se reduciría la capacidad produc",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1198 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M onetaria",
+          "Despues": "Monetaria",
+          "Contexto": "eacomodo de expectativas de inflación y de Tasa de Política M onetaria, y el nivel que alcanzará la inflación en el corto plazo, l",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 3247 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ediano",
+          "Despues": "mediano",
+          "Contexto": "pectivas. Si se estima que las expectativas de inflación de m ediano y largo plazo se están desanclando más allá de sus fluctuac",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 872 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ás",
+          "Despues": "más",
+          "Contexto": "iera cargo de limitar los efectos inflacionarios del cierre m ás rápido de brechas. Por último, señala el señor Valdés que u",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 11942 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -14401,6 +14520,13 @@
           "Ocurrencias": 1,
           "Contexto": "Menciona el Gerente de División Estudios señor Rodrigo Valdés que en la R eunión de Política Monetaria de julio, el Consejo acordó aumen",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2551 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onetaria",
+          "Despues": "monetaria",
+          "Contexto": ", el Consejo acordó aumentar la tasa de interés de política m onetaria en 25 puntos base hasta 5,25% anual, luego de mantenerla en",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -14456,6 +14582,20 @@
           "Ocurrencias": 1,
           "Contexto": " Este es un escenario de desviación del escenario base, pero su probabilidad ha aum entado. En segundo lugar, menciona el Gerente de Investigación",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 644 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m undial",
+          "Despues": "mundial",
+          "Contexto": "ste severo con implicancias reales negativas en la economía m undial. Este es un escenario de desviación del escenario base, per",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 803 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ercado",
+          "Despues": "mercado",
+          "Contexto": "ugar, menciona el Gerente de Investigación Económica que el m ercado no anticipa hoy un alza mayor a 25 puntos base. Por lo tant",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4420 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -14531,6 +14671,13 @@
           "Ocurrencias": 1,
           "Contexto": "s, incluidos los de alimentos que son referencia para el IPC, y nuevas bajas de ta sas de interés externas, entre otros factores. Agrega el Ge",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 4822 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ás",
+          "Despues": "más",
+          "Contexto": "a el señor Valdés que si bien parece haber disminuido en lo m ás reciente, persiste el riesgo de un deterioro más pronunciad",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 11942 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16051,6 +16198,13 @@
           "Ocurrencias": 1,
           "Contexto": " una vez más se situó marginalmente por debajo de lo presupuestado. El ritmo de aum ento de los distintos costos sigue siendo sorprendentemente ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2682 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ercado",
+          "Despues": "mercado",
+          "Contexto": "ncluso se alejan de lo implícito en las tasas de interés de m ercado para el mediano plazo, salvo que se considere como probable",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4420 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16332,6 +16486,13 @@
           "Ocurrencias": 1,
           "Contexto": "r elevado el precio de estos productos. En lo más reciente, las estimaciones de dem anda de petróleo por parte de China se han revisado al alza,",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2856 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antener",
+          "Despues": "mantener",
+          "Contexto": "ostener una fuerte demanda por commodities, contribuyendo a m antener elevado el precio de estos productos. En lo más reciente, l",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1788 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16355,6 +16516,20 @@
           "Ocurrencias": 1,
           "Contexto": "os títulos largos, también ha caído en el mercado. Señala que lo anterior puede ten er algunos efectos, pero en Chile son efectos menores comp",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1011 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m arginales",
+          "Despues": "marginales",
+          "Contexto": "l 3%. Señala que también debe considerarse en estos ajustes m arginales, el que es esperable que haya una normalización de las expe",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 116 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m eses",
+          "Despues": "meses",
+          "Contexto": " en lo más inmediato, donde se espera, en particular en los m eses de marzo y abril inflaciones acumuladas del orden de 0,8%. ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16432,6 +16607,20 @@
           "Despues": "alización—, parece ah",
           "Contexto": "es y que podría justificar un leve aumento del ritmo de normalización— , parece ahora algo menos probable. En el otro extremo, las novedades t",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": "an continuado normalizándose, llegando a cerca de 3% las de m ayor plazo, mientras los costos laborales y las remuneraciones t",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antener",
+          "Despues": "mantener",
+          "Contexto": "umentó la tasa de política monetaria, es posible justificar m antener la tasa de política monetaria. La ausencia de novedades may",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1788 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16486,6 +16675,20 @@
           "Ocurrencias": 1,
           "Contexto": "cord que está experimentando la formación bruta de capital fijo tiene un efecto relativam ente reducido sobre el crecimiento potencial y que, por lo t",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 771 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M inistro",
+          "Despues": "Ministro",
+          "Contexto": "os adjetivos. Sin embargo, refiriéndose a los puntos que el M inistro hace, por ejemplo, respecto de la tasa neutral, cree que no",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1407 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": "iveles que tiene la tasa chilena actual, es sustancialmente m ayor y no hay otro adjetivo para describir eso y no ve razones p",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16541,6 +16744,27 @@
           "Ocurrencias": 1,
           "Contexto": "á pasando con la inflación misma, que es al final una validación del modelo que tenem os. Es absolutamente acertado, indica, que existe una gran",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 68 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m edida",
+          "Despues": "medida",
+          "Contexto": " Ministro, y que son preguntas que van a seguir surgiendo a m edida que se avance en el proceso que estamos embarcados, se pued",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 973 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onetaria",
+          "Despues": "monetaria",
+          "Contexto": "l futuro, ya que el efecto solamente de la tasa de política m onetaria es débil, especialmente si se cree que es verdadero el punt",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M inistro",
+          "Despues": "Ministro",
+          "Contexto": "si se cree que es verdadero el punto expresado por el señor M inistro, siempre que tengamos una idea de dónde deberían ir las tas",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1407 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16632,6 +16856,13 @@
           "Ocurrencias": 1,
           "Contexto": "d son spreads de bonos que tenían como colateral hipotecas en Estados Unidos de Am érica, por tanto no es comparable con lo que se expone en est",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2587 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Es un nombre propio, pero no se está adivinando nada: la forma correcta está atestiguada en el corpus y lo único que se elimina es un espacio que el escaneo insertó dentro de la palabra. No es resolución de alias, que es lo que el criterio prohíbe."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": "hacer, de todas maneras se observa un aumento marginal algo m ayor de nuestra economía, lo cual revelaría que efectivamente ha",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16655,6 +16886,13 @@
           "Ocurrencias": 1,
           "Contexto": "a del primer cuarto. Menciona el señor Magendzo que las expectativas de mercado ta n to para la inflación como para la Tasa de Política Mone",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 401 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m agnitud",
+          "Despues": "magnitud",
+          "Contexto": "de capacidad en el curso del segundo trimestre y shocks, de m agnitud inusual, en precios de productos específicos, exacerbado, e",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 597 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16757,6 +16995,34 @@
           "Despues": "el tiempo—, se debe s",
           "Contexto": "ario de tamaño y acumulación de shocks en un mismo momento del tiempo— , se debe seguir teniendo en consideración que la observación de los re",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m uy",
+          "Despues": "muy",
+          "Contexto": "é que la inflación se ubicará en 3,6% a un año plazo, valor m uy similar al que estimaban hace un mes de 3,55%. La Encuesta ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 2952 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m eses",
+          "Despues": "meses",
+          "Contexto": "os del IMCE señala que las expectativas de inflación a doce m eses de los encuestados pertenecientes a los sectores de comerci",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": "el MI y el aumento de la tasa de expansión del M3 que es la m ayor desde 1998. Señala el señor Magendzo que después de descend",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onedas",
+          "Despues": "monedas",
+          "Contexto": "idad peso/dólar aumentó, al igual que lo sucedido con otras m onedas durante el episodio de volatilidad externa, ubicándose actu",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 565 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16859,6 +17125,27 @@
           "Ocurrencias": 1,
           "Contexto": "C, pero como se ha dicho en esta reunión, y es muy importante no perder esto de vísta, ese incremento se ha concentrado principalmente en tre",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 501 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m odo",
+          "Despues": "modo",
+          "Contexto": "ctos persistentes sobre la inflación futura o dicho de otro m odo, parecen suponer efectos de segunda vuelta. Indica que si l",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": " de m ercado, y ",
+          "Despues": " de mercado, y ",
+          "Contexto": "s propias proyecciones del Banco y no a las proyecciones de m ercado, y no se refiere necesariamente al largo plazo, sino que ta",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4420 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": " de m ercado pod",
+          "Despues": " de mercado pod",
+          "Contexto": "tro modo, cree que una sobrerreacción a las expectativas de m ercado podría terminar validando una trayectoria de tasas de inter",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4420 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -16906,6 +17193,27 @@
           "Ocurrencias": 1,
           "Contexto": "En suma, el Consejero señor Enrique Marshall indica que su voto es por subir la T asa de Política Monetaria hasta 5,50%.",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1568 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M onetaria",
+          "Despues": "Monetaria",
+          "Contexto": "en niveles similares a los de la última Reunión de Política M onetaria. En tanto en el frente interno, los agregados monetarios y ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 3247 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onetaria",
+          "Despues": "monetaria",
+          "Contexto": "o debe reafirmar el actual sesgo restrictivo de la política m onetaria. En suma, el Consejero señor Enrique Marshall indica que su",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayoritariam ente",
+          "Despues": "mayoritariamente",
+          "Contexto": "una lectura equivocada por parte del mercado, el que espera m ayoritariam ente un alza de solo 25 puntos base. Por el momento, señala que ",
+          "Justificacion": "Dos espacios espurios dentro de una misma palabra, por eso el detector de pares no la ve: juntar «m»+«ayoritariam» no da una palabra. «mayoritariamente» aparece 126 veces en el corpus y el fragmento «ayoritariam» aparece una sola vez, que es ésta."
         }
       ]
     },
@@ -18103,6 +18411,13 @@
           "Ocurrencias": 1,
           "Contexto": "del Banco Central, en los próximos tres meses, en relación al mercado. Menciona adem ás el señor Gerente, que para los meses siguientes la situ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 855 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m eses",
+          "Despues": "meses",
+          "Contexto": " los meses siguientes la situación se invierte y en los dos m eses posteriores el Banco Central de Chile presenta una proyecci",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -18126,6 +18441,13 @@
           "Ocurrencias": 1,
           "Contexto": "referida que hizo la Reserva Federal tendió también a caer, volviendo a valores norm ales. Agrega que el precio del cobre no capturó todas estas ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 90 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onetaria",
+          "Despues": "monetaria",
+          "Contexto": "ndo las tasas interbancarias respecto a la tasa de política m onetaria. De hecho, menciona el señor Gerente, la apertura del soft ",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -18274,6 +18596,20 @@
           "Ocurrencias": 1,
           "Contexto": "señor García que en la Reunión pasada señaló que, en el escenario más probable, serian necesarios ajustes adicionales para asegurar la converg",
           "Justificacion": "Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ercado",
+          "Despues": "mercado",
+          "Contexto": "n misma. Agrega que en términos del Comunicado, dado que el m ercado considera un nivel de tasas aun superior al que se alcanzar",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4420 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m eses",
+          "Despues": "meses",
+          "Contexto": "o que tendría que incluirse con un sesgo más preciso que en m eses anteriores en el Comunicado. Indica que sin un mensaje níti",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -25645,6 +25981,13 @@
           "Despues": "curva",
           "Contexto": "erno, el cambio más notorio fue el nuevo empinamiento de la cun/a de rendimiento en su plazo más corto, luego del elevado IPC",
           "Justificacion": "La OCR escribe esta letra como «/»: el corpus tiene curva y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m onetaria",
+          "Despues": "monetaria",
+          "Contexto": "ausibles para esta reunión son aumentar la tasa de política m onetaria en 25 puntos base o en 50 puntos base, habiendo méritos par",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4277 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     },
@@ -25909,6 +26252,174 @@
           "Despues": "TPM",
           "Contexto": "ue en 3% en el horizonte de política. Cambios futuros en la TPÍ\\/I dependerán de las implicancias de las condiciones macroecon",
           "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «TPM» 1822 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:151:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": "e desempleo nacional se situó en 7,5% (0,1 punto porcentual m ayor que la de igual trimestre del año pasado). Eliminados facto",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:171:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antener",
+          "Despues": "mantener",
+          "Contexto": "les cercano al 7% anual, lo que estima difícil que se pueda m antener en el tiempo. Agrega, que en los mejores años, a mediados d",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1788 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:184:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m uchas",
+          "Despues": "muchas",
+          "Contexto": "ces, agrega el señor Ministro, hay que tener cuidado en que m uchas veces lo que el mercado piensa también es lo que puede habe",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 116 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:197:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m antener",
+          "Despues": "mantener",
+          "Contexto": "del impulso monetario me parece que hoy una buena opción es m antener la tasa de interés.”",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1788 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:299:3",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m eses",
+          "Despues": "meses",
+          "Contexto": "os hipotecarios en UF se ubican en niveles inferiores a los m eses anteriores. Primero, un 3,2% en junio y las tasas nominales",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:831:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m uestra",
+          "Despues": "muestra",
+          "Contexto": " meses anteriores; el consumo personal real, por otro lado, m uestra una cierta recuperación, pero se mantiene más menos en líne",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 956 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1204:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m uchos",
+          "Despues": "muchos",
+          "Contexto": " y también él lo hizo en su voto, es importante señalar que m uchos de ellos se disiparon o se aclararon. Con lo anterior no qu",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 183 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1206:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "M onetaria",
+          "Despues": "Monetaria",
+          "Contexto": "ta situación es que la frecuencia de la Reunión de Política M onetaria es muy seguida.",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 3247 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1219:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m eses",
+          "Despues": "meses",
+          "Contexto": "neutral, con un escenario de mantención de tasa por algunos m eses consistente con alcanzar una proyección de inflación en tor",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-08-09:1371:2",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": "do es el de la construcción que es donde se cree que existe m ayor flexibilidad, y después se observan sectores como enseñanza",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2072:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ás",
+          "Despues": "más",
+          "Contexto": "r José De Gregorio menciona que los salarios están subiendo m ás allá de lo que se podría suponer en el futuro. Sin embargo,",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 11942 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2073:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m uy",
+          "Despues": "muy",
+          "Contexto": "pero lo que está pasando con el cuociente dividido por L es m uy extraño. En consecuencia, señala que si ese cuociente dejar",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 2952 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3164:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ás",
+          "Despues": "más",
+          "Contexto": "ra los próximos meses se ha estimado un precio del petróleo m ás bajo que el considerado en la RPM pasada y algo más bajo ta",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 11942 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3280:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "m ayor",
+          "Despues": "mayor",
+          "Contexto": " confianza empresarial, hace notar que ha tendido a exhibir m ayor heterogeneidad respecto de lo que fue el período de recuper",
+          "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
         }
       ]
     }

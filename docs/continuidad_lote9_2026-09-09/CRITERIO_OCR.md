@@ -1259,5 +1259,52 @@ Recuperación: el workspace se reseteó otra vez al inicio del turno (HEAD en el
 en `3ec89c9`). Se verificaron los 100 archivos contra el remoto —todos idénticos— antes de
 restaurar, y el venv se recreó. Registro y release intactos, sha base sin cambio.
 
-Estado tras §22: **1.376 filas corregidas, 2.214 operaciones, 195 marcadas (159 abiertas + 34
-cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio.
+## 23. Leer una sesión encontró lo que siete pases transversales no vieron
+
+Después de siete pases transversales seguidos se leyó una sesión, como pide el criterio. En la
+fila `RPM-2007-07-12:1340:1` aparecieron palabras partidas a simple vista: `m aterializarse`,
+`m antención`, `m ayores`, `M onetaria`, `m ediano`, `m ás`. El §15 había declarado esa familia
+en cero.
+
+El detector del proyecto, re-ejecutado, dijo **0 candidatos**. Tenía un punto ciego.
+
+### La guarda que bloqueaba justo el caso más común
+
+`detector_partida` exige que la palabra junta sea frecuente **y que ninguna de las dos mitades lo
+sea**, para no juntar `de la`. Medido sobre la salida: el token `m` aparece **78 veces** y `a`
+**37.528**. La regla `freq.get(a) >= 50` bloqueaba entonces **todo** `m ayor`, `m onetaria`,
+`m eses`.
+
+Y el razonamiento está al revés: una letra suelta es frecuente **precisamente porque la OCR parte
+palabras**. La guarda tiene sentido para mitades que son palabras, no para letras. En español las
+únicas letras que son palabra son `a`, `y`, `o`, `e`, `u` (y `A`); fuera de ésas, un token de una
+letra es residuo.
+
+Se añadió `LETRAS_PALABRA` y la excepción al detector. Con la guarda relajada sólo para letras
+sueltas: **62 candidatas en 39 filas**, y las 62 inequívocas —todas `m`/`M` más una continuación
+que forma una palabra de alta frecuencia (`mayor` 4.467, `monetaria` 4.277, `meses` 4.246,
+`mercado` 4.420, `más` 11.942). Al generar el lote desde el texto virgen aparecieron además **328
+ocurrencias ya cubiertas por una operación**: el §15 sí había corregido 328, y éstas 62 eran
+exactamente las que la guarda escondía.
+
+Más una que ningún detector de pares puede ver: `m ayoritariam ente`, **dos espacios dentro de la
+misma palabra**. Juntar `m`+`ayoritariam` no da una palabra, así que el par no califica.
+`mayoritariamente` aparece 126 veces y el fragmento `ayoritariam` aparece una sola vez, que es ésa.
+
+### Por qué el punto ciego sobrevivió
+
+`detector_partida` tenía la lección de `finditer` escrita en su docstring, con números y todo, y
+**no tenía un solo test**. Una lección documentada no se ejecuta; un test sí. Se añadieron 5 que
+fijan el caso roto (`m ayor` con `m` frecuente), el caso que la guarda debe seguir protegiendo
+(`a yor`, `de la`) y el umbral de frecuencia.
+
+Dos cosas más que dejó la lectura. Mi propio conteo con substring dio `se r` = 4 en una fila: falso
+positivo, coincide dentro de «se recomienda» —el mismo error de substring que ya estaba
+documentado. Y la comparación base/salida es obligatoria: el lector de rondas muestra el texto
+virgen, así que leerlo sin comparar lleva a "descubrir" defectos ya corregidos.
+
+La sesión `2007-07-12` quedó con las rondas 191-196 pendientes; se anota para no saltearlas.
+
+Estado tras §23: **1.390 filas corregidas, 2.277 operaciones, 195 marcadas (159 abiertas + 34
+cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio. El detector de palabras
+partidas da 0 sobre la salida nueva.
