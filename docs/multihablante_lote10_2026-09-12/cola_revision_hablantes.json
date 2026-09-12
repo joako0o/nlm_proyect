@@ -1,0 +1,999 @@
+{
+ "Version": 1,
+ "Fecha": "2026-09-12",
+ "Alcance": "COLA_DE_REVISION_MULTIHABLANTE_SIN_APLICAR",
+ "Origen": "TurnDetector.candidates(allow_embedded=True) sobre los 7.219 padres crudos, menos las oraciones cuyo actor permisivo coincide con el actor de la fila v7.",
+ "Base": "data/releases/continuidad_procedimental_v7/consolidado_base_referencia_final.xlsx",
+ "SHA256_Base": "d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75",
+ "Total_Candidatos_Permisivos": 807,
+ "Mismo_Actor_No_Es_Cambio": 733,
+ "Cola_Real": 74,
+ "Filas": 74,
+ "Sesiones": {
+  "2005-08-11": [
+   "RPM-2005-08-11:320:1"
+  ],
+  "2005-12-13": [
+   "RPM-2005-12-13:505:1",
+   "RPM-2005-12-13:514:1"
+  ],
+  "2006-01-12": [
+   "RPM-2006-01-12:571:1"
+  ],
+  "2006-04-13": [
+   "RPM-2006-04-13:644:6",
+   "RPM-2006-04-13:647:1",
+   "RPM-2006-04-13:653:1"
+  ],
+  "2006-05-11": [
+   "RPM-2006-05-11:664:2"
+  ],
+  "2006-07-13": [
+   "RPM-2006-07-13:754:2"
+  ],
+  "2006-12-14": [
+   "RPM-2006-12-14:1010:4"
+  ],
+  "2007-03-15": [
+   "RPM-2007-03-15:1114:1"
+  ],
+  "2007-07-12": [
+   "RPM-2007-07-12:1328:1",
+   "RPM-2007-07-12:1336:2",
+   "RPM-2007-07-12:1338:3"
+  ],
+  "2007-09-13": [
+   "RPM-2007-09-13:1420:1",
+   "RPM-2007-09-13:1457:1"
+  ],
+  "2007-12-13": [
+   "RPM-2007-12-13:1574:2"
+  ],
+  "2008-01-10": [
+   "RPM-2008-01-10:1623:1"
+  ],
+  "2008-02-07": [
+   "RPM-2008-02-07:1652:1"
+  ],
+  "2008-03-13": [
+   "RPM-2008-03-13:1718:10",
+   "RPM-2008-03-13:1737:1"
+  ],
+  "2008-06-10": [
+   "RPM-2008-06-10:1858:1"
+  ],
+  "2008-07-10": [
+   "RPM-2008-07-10:1923:1"
+  ],
+  "2008-12-11": [
+   "RPM-2008-12-11:2228:1"
+  ],
+  "2009-02-12": [
+   "RPM-2009-02-12:2325:1"
+  ],
+  "2009-03-12": [
+   "RPM-2009-03-12:2392:1",
+   "RPM-2009-03-12:2397:1",
+   "RPM-2009-03-12:2430:1"
+  ],
+  "2009-04-09": [
+   "RPM-2009-04-09:2443:5"
+  ],
+  "2009-06-16": [
+   "RPM-2009-06-16:2555:2",
+   "RPM-2009-06-16:2566:3",
+   "RPM-2009-06-16:2576:1",
+   "RPM-2009-06-16:2583:2"
+  ],
+  "2009-07-09": [
+   "RPM-2009-07-09:2608:5",
+   "RPM-2009-07-09:2621:2",
+   "RPM-2009-07-09:2622:5"
+  ],
+  "2009-08-13": [
+   "RPM-2009-08-13:2661:10",
+   "RPM-2009-08-13:2667:2",
+   "RPM-2009-08-13:2680:2"
+  ],
+  "2009-11-12": [
+   "RPM-2009-11-12:2765:4",
+   "RPM-2009-11-12:2768:1",
+   "RPM-2009-11-12:2768:3",
+   "RPM-2009-11-12:2779:2"
+  ],
+  "2009-12-15": [
+   "RPM-2009-12-15:2826:2",
+   "RPM-2009-12-15:2838:1"
+  ],
+  "2010-02-11": [
+   "RPM-2010-02-11:2896:2",
+   "RPM-2010-02-11:2910:2",
+   "RPM-2010-02-11:2915:3"
+  ],
+  "2010-03-18": [
+   "RPM-2010-03-18:2983:1"
+  ],
+  "2010-06-15": [
+   "RPM-2010-06-15:3147:2",
+   "RPM-2010-06-15:3158:1"
+  ],
+  "2010-08-12": [
+   "RPM-2010-08-12:3303:2"
+  ],
+  "2010-10-14": [
+   "RPM-2010-10-14:3449:2"
+  ],
+  "2011-01-13": [
+   "RPM-2011-01-13:3650:1"
+  ],
+  "2011-03-17": [
+   "RPM-2011-03-17:3871:1",
+   "RPM-2011-03-17:3887:1"
+  ],
+  "2011-04-12": [
+   "RPM-2011-04-12:3906:1"
+  ],
+  "2011-05-12": [
+   "RPM-2011-05-12:4054:2"
+  ],
+  "2011-08-18": [
+   "RPM-2011-08-18:4220:2",
+   "RPM-2011-08-18:4233:1"
+  ],
+  "2011-10-13": [
+   "RPM-2011-10-13:4341:2"
+  ],
+  "2012-02-14": [
+   "RPM-2012-02-14:4574:1"
+  ],
+  "2012-03-15": [
+   "RPM-2012-03-15:4656:1"
+  ],
+  "2012-06-14": [
+   "RPM-2012-06-14:4857:1"
+  ],
+  "2013-01-17": [
+   "RPM-2013-01-17:5286:1"
+  ],
+  "2013-02-14": [
+   "RPM-2013-02-14:5360:1",
+   "RPM-2013-02-14:5367:1"
+  ],
+  "2013-03-14": [
+   "RPM-2013-03-14:5418:1"
+  ],
+  "2013-07-11": [
+   "RPM-2013-07-11:5647:1",
+   "RPM-2013-07-11:5658:1"
+  ],
+  "2014-04-17": [
+   "RPM-2014-04-17:6135:3"
+  ],
+  "2014-05-15": [
+   "RPM-2014-05-15:6185:1"
+  ],
+  "2014-09-11": [
+   "RPM-2014-09-11:6407:1"
+  ],
+  "2015-01-15": [
+   "RPM-2015-01-15:6587:1"
+  ]
+ },
+ "Advertencia": "Universo a leer, no conjunto de errores: el modo permisivo del detector propone, no decide. Cada fila exige lectura del padre completo y decisión acotada con evidencia; una mención, una bienvenida o una entrega de la palabra no son intervención.",
+ "Casos": [
+  {
+   "ID_Padre": 320,
+   "Fecha": "2005-08-11",
+   "Inicio": 0,
+   "Actor_Estricto": "Nicolás Eyzaguirre Guzmán",
+   "Actor_Permisivo": "Jorge Desormeaux Jiménez",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Ministro de Hacienda hace presente que, en concordancia con lo que ha expresado el Consejero señor De",
+   "Actor_Fila": "Nicolás Eyzaguirre Guzmán",
+   "ID_Fila": "RPM-2005-08-11:320:1"
+  },
+  {
+   "ID_Padre": 505,
+   "Fecha": "2005-12-13",
+   "Inicio": 1499,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Vittorio Corbo Lioi",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Fecha Sesión de Política Monetaria del mes de junio de 2006 El señor Presidente fija la sesión de política mon",
+   "Actor_Fila": "Consejo del Banco Central de Chile",
+   "ID_Fila": "RPM-2005-12-13:505:1"
+  },
+  {
+   "ID_Padre": 514,
+   "Fecha": "2005-12-13",
+   "Inicio": 0,
+   "Actor_Estricto": "Vittorio Corbo Lioi",
+   "Actor_Permisivo": "Beltrán de Ramón Acevedo",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Presidente señor Corbo, sobre este tema señala, en la misma dirección del Consejero señor Marfán, que hace ",
+   "Actor_Fila": "Vittorio Corbo Lioi",
+   "ID_Fila": "RPM-2005-12-13:514:1"
+  },
+  {
+   "ID_Padre": 571,
+   "Fecha": "2006-01-12",
+   "Inicio": 3654,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Beltrán de Ramón Acevedo",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Hace presente que recientemente el Gerente de Mercados Financieros Nacionales señaló que el paso del ritmo de ",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2006-01-12:571:1"
+  },
+  {
+   "ID_Padre": 644,
+   "Fecha": "2006-04-13",
+   "Inicio": 6923,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Ello Consulta el Consejero señor Marfán, por qué una combinación de aumento de precio del cobre y del precio d",
+   "Actor_Fila": "Klaus Schmidt-Hebbel Dunker",
+   "ID_Fila": "RPM-2006-04-13:644:6"
+  },
+  {
+   "ID_Padre": 647,
+   "Fecha": "2006-04-13",
+   "Inicio": 1170,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Rodrigo Valdés Pulido",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Recuerda que el Gerente de División Estudios señaló que en materia agrícola había un par de historias, pero un",
+   "Actor_Fila": "Andrés Velasco Brañes",
+   "ID_Fila": "RPM-2006-04-13:647:1"
+  },
+  {
+   "ID_Padre": 653,
+   "Fecha": "2006-04-13",
+   "Inicio": 3144,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Al respecto, indica que dado que el El Vicepresidente señor José De Gregorio indica, que el panorama económico",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2006-04-13:653:1"
+  },
+  {
+   "ID_Padre": 664,
+   "Fecha": "2006-05-11",
+   "Inicio": 178,
+   "Actor_Estricto": "Andrés Velasco Brañes",
+   "Actor_Permisivo": "Vittorio Corbo Lioi",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Finalmente, el señor Ministro de Hacienda, señor Andrés Velasco, en relación a lo informado por el señor Geren",
+   "Actor_Fila": "Andrés Velasco Brañes",
+   "ID_Fila": "RPM-2006-05-11:664:2"
+  },
+  {
+   "ID_Padre": 754,
+   "Fecha": "2006-07-13",
+   "Inicio": 89,
+   "Actor_Estricto": "Manuel Marfán Lewis",
+   "Actor_Permisivo": "Igal Magendzo Weinberger",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "En cuanto a los agregados monetarios, el Consejero señor Manuel Marfán señala que si los fondos mutuos son tod",
+   "Actor_Fila": "Manuel Marfán Lewis",
+   "ID_Fila": "RPM-2006-07-13:754:2"
+  },
+  {
+   "ID_Padre": 1010,
+   "Fecha": "2006-12-14",
+   "Inicio": 2312,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Le parece que ese es el El Vicepresidente señor José De Gregorio, con respecto a esta discusión, señala que el",
+   "Actor_Fila": "Manuel Marfán Lewis",
+   "ID_Fila": "RPM-2006-12-14:1010:4"
+  },
+  {
+   "ID_Padre": 1114,
+   "Fecha": "2007-03-15",
+   "Inicio": 0,
+   "Actor_Estricto": "Rodrigo Valdés Pulido",
+   "Actor_Permisivo": "Beltrán de Ramón Acevedo",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Gerente de División Estudios señor Rodrigo Valdés, cree que en particular, el escenario para los Estados Un",
+   "Actor_Fila": "Rodrigo Valdés Pulido",
+   "ID_Fila": "RPM-2007-03-15:1114:1"
+  },
+  {
+   "ID_Padre": 1328,
+   "Fecha": "2007-07-12",
+   "Inicio": 0,
+   "Actor_Estricto": "Jorge Desormeaux Jiménez",
+   "Actor_Permisivo": "Igal Magendzo Weinberger",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El Consejero señor Jorge Desormeaux señala que en la exposición que realizó el señor Magendzo indicó que los c",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2007-07-12:1328:1"
+  },
+  {
+   "ID_Padre": 1336,
+   "Fecha": "2007-07-12",
+   "Inicio": 1005,
+   "Actor_Estricto": "Pablo García Silva",
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Gerente de División Política Financiera señor Pablo García señala que el nerviosismo que mencionaba el Cons",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2007-07-12:1336:2"
+  },
+  {
+   "ID_Padre": 1338,
+   "Fecha": "2007-07-12",
+   "Inicio": 1091,
+   "Actor_Estricto": "Esteban Jadresic Marinovic",
+   "Actor_Permisivo": "Igal Magendzo Weinberger",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Manifiesta el señor Jadresic que el Gerente de Análisis Macroeconómico señor Igal Magendzo comentó que los dat",
+   "Actor_Fila": "Esteban Jadresic Marinovic",
+   "ID_Fila": "RPM-2007-07-12:1338:3"
+  },
+  {
+   "ID_Padre": 1420,
+   "Fecha": "2007-09-13",
+   "Inicio": 0,
+   "Actor_Estricto": "Esteban Jadresic Marinovic",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El Gerente de División Operaciones Financieras señor Esteban Jadresic comenta que el punto que ha planteado el",
+   "Actor_Fila": "Esteban Jadresic Marinovic",
+   "ID_Fila": "RPM-2007-09-13:1420:1"
+  },
+  {
+   "ID_Padre": 1457,
+   "Fecha": "2007-09-13",
+   "Inicio": 0,
+   "Actor_Estricto": "Andrés Velasco Brañes",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El señor Ministro de Hacienda consulta la razón por la que debería importar ese horizonte y el señor Gerente d",
+   "Actor_Fila": "Andrés Velasco Brañes",
+   "ID_Fila": "RPM-2007-09-13:1457:1"
+  },
+  {
+   "ID_Padre": 1574,
+   "Fecha": "2007-12-13",
+   "Inicio": 1899,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El mercado, en particular en referencia al gráfico al que aludía el Consejero Marfán, da cuenta de una expecta",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2007-12-13:1574:2"
+  },
+  {
+   "ID_Padre": 1623,
+   "Fecha": "2008-01-10",
+   "Inicio": 382,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Igal Magendzo Weinberger",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "7 Menciona el señor Magendzo que como forma de prevenir el riesgo que la mayor inflación afecte la formación d",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2008-01-10:1623:1"
+  },
+  {
+   "ID_Padre": 1652,
+   "Fecha": "2008-02-07",
+   "Inicio": 0,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Presidente ofrece la palabra para comentarios sobre el escenario En cuanto a mercados financieros, el",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2008-02-07:1652:1"
+  },
+  {
+   "ID_Padre": 1718,
+   "Fecha": "2008-03-13",
+   "Inicio": 3176,
+   "Actor_Estricto": "Enrique Marshall Rivera",
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Consejero señor Marshall señala que puede ser efecto de la fiscalización que está aplicando la Dirección de",
+   "Actor_Fila": "Enrique Marshall Rivera",
+   "ID_Fila": "RPM-2008-03-13:1718:10"
+  },
+  {
+   "ID_Padre": 1737,
+   "Fecha": "2008-03-13",
+   "Inicio": 0,
+   "Actor_Estricto": "Jorge Desormeaux Jiménez",
+   "Actor_Permisivo": "Sebastián Claro Edwards",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Vicepresidente señor Jorge Desormeaux señala que se suma a la mayoría antes mencionada, y el Consejero seño",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2008-03-13:1737:1"
+  },
+  {
+   "ID_Padre": 1858,
+   "Fecha": "2008-06-10",
+   "Inicio": 687,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "LI I Continuando con la presentación del escenario internacional, el señor Sergio Lehmann indica que en Japón ",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2008-06-10:1858:1"
+  },
+  {
+   "ID_Padre": 1923,
+   "Fecha": "2008-07-10",
+   "Inicio": 0,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Andrés Velasco Brañes",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El Presidente don José De Gregorio comenta que en Brasil cayó el precio de la energía y el señor Ministro de H",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2008-07-10:1923:1"
+  },
+  {
+   "ID_Padre": 2228,
+   "Fecha": "2008-12-11",
+   "Inicio": 0,
+   "Actor_Estricto": "Andrés Velasco Brañes",
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El señor Ministro de Hacienda señala que de los tres aspectos que ha mencionado el señor Presidente, le parece",
+   "Actor_Fila": "Andrés Velasco Brañes",
+   "ID_Fila": "RPM-2008-12-11:2228:1"
+  },
+  {
+   "ID_Padre": 2325,
+   "Fecha": "2009-02-12",
+   "Inicio": 668,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "María Olivia Recart Herrera",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "En cuanto al tema del endeudamiento a que se refirió la señora Ministra de Hacienda Subrogante, estima que se ",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2009-02-12:2325:1"
+  },
+  {
+   "ID_Padre": 2392,
+   "Fecha": "2009-03-12",
+   "Inicio": 0,
+   "Actor_Estricto": "Jorge Desormeaux Jiménez",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El señor Vicepresidente consulta si no se cuenta con datos más recientes que los que se han filtrado, y el señ",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2009-03-12:2392:1"
+  },
+  {
+   "ID_Padre": 2397,
+   "Fecha": "2009-03-12",
+   "Inicio": 874,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Por tanto, la pregunta que le surge es si ese escenario, cuando se refiere a deflación, es una cosa puntual de",
+   "Actor_Fila": "Sebastián Claro Edwards",
+   "ID_Fila": "RPM-2009-03-12:2397:1"
+  },
+  {
+   "ID_Padre": 2430,
+   "Fecha": "2009-03-12",
+   "Inicio": 1874,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Sobre este aspecto, comenta que naturalmente al ser Chile una economía tan abierta, es difícil pensar que ya n",
+   "Actor_Fila": "Beltrán de Ramón Acevedo",
+   "ID_Fila": "RPM-2009-03-12:2430:1"
+  },
+  {
+   "ID_Padre": 2443,
+   "Fecha": "2009-04-09",
+   "Inicio": 1115,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "Al respecto, el señor Presidente indica que Consensus considera precio de mercado y el señor Lehmann complemen",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2009-04-09:2443:5"
+  },
+  {
+   "ID_Padre": 2555,
+   "Fecha": "2009-06-16",
+   "Inicio": 133,
+   "Actor_Estricto": "Manuel Marfán Lewis",
+   "Actor_Permisivo": "Jorge Desormeaux Jiménez",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "a lo cual el Consejero Manuel Marfán comenta que ellas están rebotando más que subiendo y el Vicepresidente, s",
+   "Actor_Fila": "Manuel Marfán Lewis",
+   "ID_Fila": "RPM-2009-06-16:2555:2"
+  },
+  {
+   "ID_Padre": 2566,
+   "Fecha": "2009-06-16",
+   "Inicio": 2291,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Jorge Desormeaux Jiménez",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Añade, que, de hecho, se ha pensado que la compensación inflacionaria se estaría normalizando después de un pe",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2009-06-16:2566:3"
+  },
+  {
+   "ID_Padre": 2576,
+   "Fecha": "2009-06-16",
+   "Inicio": 0,
+   "Actor_Estricto": "Manuel Marfán Lewis",
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Consejero señor Manuel Marfán consulta si lo expuesto podría interpretarse en términos que la política mone",
+   "Actor_Fila": "Manuel Marfán Lewis",
+   "ID_Fila": "RPM-2009-06-16:2576:1"
+  },
+  {
+   "ID_Padre": 2583,
+   "Fecha": "2009-06-16",
+   "Inicio": 102,
+   "Actor_Estricto": "Claudio Soto Gamboa",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "a lo cual el señor Soto responde que es de -4 puntos y el Gerente de División Estudios, señor Pablo García, co",
+   "Actor_Fila": "Claudio Soto Gamboa",
+   "ID_Fila": "RPM-2009-06-16:2583:2"
+  },
+  {
+   "ID_Padre": 2608,
+   "Fecha": "2009-07-09",
+   "Inicio": 2112,
+   "Actor_Estricto": "Jorge Desormeaux Jiménez",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "a lo cual el señor Vicepresidente añade que, de acuerdo a algunos bancos de inversión, China ya estarla crecie",
+   "Actor_Fila": "Jorge Desormeaux Jiménez",
+   "ID_Fila": "RPM-2009-07-09:2608:5"
+  },
+  {
+   "ID_Padre": 2621,
+   "Fecha": "2009-07-09",
+   "Inicio": 111,
+   "Actor_Estricto": "Pablo García Silva",
+   "Actor_Permisivo": "Claudio Soto Gamboa",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "a lo cual el señor Pablo García responde que asciende a -3,5%, y el señor Claudio Soto agrega que esta se corr",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2009-07-09:2621:2"
+  },
+  {
+   "ID_Padre": 2622,
+   "Fecha": "2009-07-09",
+   "Inicio": 1010,
+   "Actor_Estricto": "Pablo García Silva",
+   "Actor_Permisivo": "Claudio Soto Gamboa",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El Gerente de División Estudios aclara que se trata de las velocidades y el Gerente de Anális is Macroeconómic",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2009-07-09:2622:5"
+  },
+  {
+   "ID_Padre": 2661,
+   "Fecha": "2009-08-13",
+   "Inicio": 3581,
+   "Actor_Estricto": "Andrés Velasco Brañes",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El efecto debiera ser menor y al revés, acota el Ministro, y el señor Lehmann complementa que será necesario a",
+   "Actor_Fila": "Andrés Velasco Brañes",
+   "ID_Fila": "RPM-2009-08-13:2661:10"
+  },
+  {
+   "ID_Padre": 2667,
+   "Fecha": "2009-08-13",
+   "Inicio": 110,
+   "Actor_Estricto": "Sergio Lehmann Beresi",
+   "Actor_Permisivo": "Claudio Soto Gamboa",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "a lo cual el Gerente de Análisis Internacional responde que cada uno de los países se pondera por el consumo d",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2009-08-13:2667:2"
+  },
+  {
+   "ID_Padre": 2680,
+   "Fecha": "2009-08-13",
+   "Inicio": 196,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "15 horas, se reanuda la Sesión de Política Monetaria N° 141, y el señor Presidente ofrece la palabra al Gerent",
+   "Actor_Fila": "Consejo del Banco Central de Chile",
+   "ID_Fila": "RPM-2009-08-13:2680:2"
+  },
+  {
+   "ID_Padre": 2765,
+   "Fecha": "2009-11-12",
+   "Inicio": 3104,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Jorge Desormeaux Jiménez",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Respecto del comentario del señor Claro, el señor Presidente afirma que el aumento de la tasa de ahorro es un ",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2009-11-12:2765:4"
+  },
+  {
+   "ID_Padre": 2768,
+   "Fecha": "2009-11-12",
+   "Inicio": 0,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El señor Presidente comparte la inquietud del señor Claro y el señor Sergio Lehmann agrega que seria útil cont",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2009-11-12:2768:1"
+  },
+  {
+   "ID_Padre": 2768,
+   "Fecha": "2009-11-12",
+   "Inicio": 809,
+   "Actor_Estricto": "Enrique Marshall Rivera",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Al respecto, el Consejero señor Enrique Marshall recuerda que el Gerente de División Estudios, señor Pablo Gar",
+   "Actor_Fila": "Enrique Marshall Rivera",
+   "ID_Fila": "RPM-2009-11-12:2768:3"
+  },
+  {
+   "ID_Padre": 2779,
+   "Fecha": "2009-11-12",
+   "Inicio": 223,
+   "Actor_Estricto": "Claudio Soto Gamboa",
+   "Actor_Permisivo": "Enrique Marshall Rivera",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Soto asiente, mientras que el Consejero señor Enrique Marshall responde que ello contradice totalment",
+   "Actor_Fila": "Claudio Soto Gamboa",
+   "ID_Fila": "RPM-2009-11-12:2779:2"
+  },
+  {
+   "ID_Padre": 2826,
+   "Fecha": "2009-12-15",
+   "Inicio": 821,
+   "Actor_Estricto": "Enrique Marshall Rivera",
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El señor Marshall manifiesta compartir lo expuesto por el señor Marfán y el señor José De Gregorio acota que C",
+   "Actor_Fila": "Enrique Marshall Rivera",
+   "ID_Fila": "RPM-2009-12-15:2826:2"
+  },
+  {
+   "ID_Padre": 2838,
+   "Fecha": "2009-12-15",
+   "Inicio": 1987,
+   "Actor_Estricto": "Manuel Marfán Lewis",
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "En este contexto, el Vicepresidente Subrogante señor Marfán manifiesta que la decisión de hoy de mantener la t",
+   "Actor_Fila": "Manuel Marfán Lewis",
+   "ID_Fila": "RPM-2009-12-15:2838:1"
+  },
+  {
+   "ID_Padre": 2896,
+   "Fecha": "2010-02-11",
+   "Inicio": 119,
+   "Actor_Estricto": "Sergio Lehmann Beresi",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "a lo cual el señor Lehmann responde que no lo es, en tanto que el señor Pablo García señala que la estimación ",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2010-02-11:2896:2"
+  },
+  {
+   "ID_Padre": 2910,
+   "Fecha": "2010-02-11",
+   "Inicio": 97,
+   "Actor_Estricto": "Claudio Soto Gamboa",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "a lo cual el señor Claudio Soto responde que era de 0%, en tanto que el señor Pablo García agrega que a comien",
+   "Actor_Fila": "Claudio Soto Gamboa",
+   "ID_Fila": "RPM-2010-02-11:2910:2"
+  },
+  {
+   "ID_Padre": 2915,
+   "Fecha": "2010-02-11",
+   "Inicio": 718,
+   "Actor_Estricto": "Pablo García Silva",
+   "Actor_Permisivo": "Claudio Soto Gamboa",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "Al respecto, el señor García indica que la tasa de desempleo efectivamente cayó, pero que podría haber disminu",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2010-02-11:2915:3"
+  },
+  {
+   "ID_Padre": 2983,
+   "Fecha": "2010-03-18",
+   "Inicio": 0,
+   "Actor_Estricto": "Claudio Soto Gamboa",
+   "Actor_Permisivo": "Pablo García Silva",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El señor Claudio Soto confirma que esos son los dos componentes, en tanto que el señor Pablo García explica qu",
+   "Actor_Fila": "Claudio Soto Gamboa",
+   "ID_Fila": "RPM-2010-03-18:2983:1"
+  },
+  {
+   "ID_Padre": 3147,
+   "Fecha": "2010-06-15",
+   "Inicio": 204,
+   "Actor_Estricto": "Beltrán de Ramón Acevedo",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "Con respecto a la pregunta del Consejero señor Sebastián Claro, de por qué los bancos norteamericanos reaccion",
+   "Actor_Fila": "Beltrán de Ramón Acevedo",
+   "ID_Fila": "RPM-2010-06-15:3147:2"
+  },
+  {
+   "ID_Padre": 3158,
+   "Fecha": "2010-06-15",
+   "Inicio": 0,
+   "Actor_Estricto": "Pablo García Silva",
+   "Actor_Permisivo": "Claudio Soto Gamboa",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El señor Pablo García señala que el empleo total asciende 6,5 millones de personas y el señor Claudio Soto agr",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2010-06-15:3158:1"
+  },
+  {
+   "ID_Padre": 3303,
+   "Fecha": "2010-08-12",
+   "Inicio": 950,
+   "Actor_Estricto": "Claudio Soto Gamboa",
+   "Actor_Permisivo": "Ricardo Vicuña Poblete",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "En cuanto al registro de los albañiles, el Gerente de Análisis Macroeconómico señor Claudio Soto informa que s",
+   "Actor_Fila": "Claudio Soto Gamboa",
+   "ID_Fila": "RPM-2010-08-12:3303:2"
+  },
+  {
+   "ID_Padre": 3449,
+   "Fecha": "2010-10-14",
+   "Inicio": 424,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Luis Óscar Herrera Barriga",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Al respecto, el Presidente señor José De Gregorio comenta que el índice Dow Jones está al mismo nivel que en a",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2010-10-14:3449:2"
+  },
+  {
+   "ID_Padre": 3650,
+   "Fecha": "2011-01-13",
+   "Inicio": 0,
+   "Actor_Estricto": "Sergio Lehmann Beresi",
+   "Actor_Permisivo": "Luis Óscar Herrera Barriga",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Gerente de Análisis Internacional señor Sergio Lehmann confirma lo expresado por el señor Presidente y el G",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2011-01-13:3650:1"
+  },
+  {
+   "ID_Padre": 3871,
+   "Fecha": "2011-03-17",
+   "Inicio": 0,
+   "Actor_Estricto": "Luis Óscar Herrera Barriga",
+   "Actor_Permisivo": "José De Gregorio Rebeco",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Luis Óscar Herrera es de opinión que este debiera ser “Indicador de expectativas de inflación” y el P",
+   "Actor_Fila": "Luis Óscar Herrera Barriga",
+   "ID_Fila": "RPM-2011-03-17:3871:1"
+  },
+  {
+   "ID_Padre": 3887,
+   "Fecha": "2011-03-17",
+   "Inicio": 5621,
+   "Actor_Estricto": "Sebastián Claro Edwards",
+   "Actor_Permisivo": "Enrique Marshall Rivera",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "En consecuencia, el Consejero señor Sebastián Claro vota por aumentar la tasa Al continuar con la votación, el",
+   "Actor_Fila": "Sebastián Claro Edwards",
+   "ID_Fila": "RPM-2011-03-17:3887:1"
+  },
+  {
+   "ID_Padre": 3906,
+   "Fecha": "2011-04-12",
+   "Inicio": 0,
+   "Actor_Estricto": "José De Gregorio Rebeco",
+   "Actor_Permisivo": "Sebastián Claro Edwards",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Presidente señor José De Gregorio piensa que la caída de tasas puede obedecer a expectativas de mayor infla",
+   "Actor_Fila": "José De Gregorio Rebeco",
+   "ID_Fila": "RPM-2011-04-12:3906:1"
+  },
+  {
+   "ID_Padre": 4054,
+   "Fecha": "2011-05-12",
+   "Inicio": 1457,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Con ello, seguirá usando sus políticas con flexibilidad para que la inflación proyectada se ubique en 3% en el",
+   "Actor_Fila": "Consejo del Banco Central de Chile",
+   "ID_Fila": "RPM-2011-05-12:4054:2"
+  },
+  {
+   "ID_Padre": 4220,
+   "Fecha": "2011-08-18",
+   "Inicio": 121,
+   "Actor_Estricto": "Sergio Lehmann Beresi",
+   "Actor_Permisivo": "Luis Óscar Herrera Barriga",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Lehmann se compromete a revisar el gráfico, en tanto que el Gerente de División Estudios señor Luis Ó",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2011-08-18:4220:2"
+  },
+  {
+   "ID_Padre": 4233,
+   "Fecha": "2011-08-18",
+   "Inicio": 0,
+   "Actor_Estricto": "Luis Óscar Herrera Barriga",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El Gerente de División Estudios indica que ello obedece a una omisión y el Gerente de Análisis Internacional a",
+   "Actor_Fila": "Luis Óscar Herrera Barriga",
+   "ID_Fila": "RPM-2011-08-18:4233:1"
+  },
+  {
+   "ID_Padre": 4341,
+   "Fecha": "2011-10-13",
+   "Inicio": 135,
+   "Actor_Estricto": "Sergio Lehmann Beresi",
+   "Actor_Permisivo": "Manuel Marfán Lewis",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Lehmann responde que ese es precisamente el objeto de la votación, en tanto que el Vicepresidente señ",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2011-10-13:4341:2"
+  },
+  {
+   "ID_Padre": 4574,
+   "Fecha": "2012-02-14",
+   "Inicio": 815,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Felipe Larraín Bascuñán",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Por último, deja constancia que el Ministro de Hacienda señor Felipe Larraín le informó que solo asistirá al a",
+   "Actor_Fila": "Rodrigo Vergara Montes",
+   "ID_Fila": "RPM-2012-02-14:4574:1"
+  },
+  {
+   "ID_Padre": 4656,
+   "Fecha": "2012-03-15",
+   "Inicio": 272,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Felipe Larraín Bascuñán",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Asimismo, deja constancia que el Ministro de Hacienda señor Felipe Larraín le informó que no asistirá a la pre",
+   "Actor_Fila": "Rodrigo Vergara Montes",
+   "ID_Fila": "RPM-2012-03-15:4656:1"
+  },
+  {
+   "ID_Padre": 4857,
+   "Fecha": "2012-06-14",
+   "Inicio": 0,
+   "Actor_Estricto": "Rodrigo Vergara Montes",
+   "Actor_Permisivo": "Joaquín Vial Ruiz-Tagle",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Presidente señor Rodrigo Vergara consulta por la situación de Rusia y sobre este aspecto, el Consejero seño",
+   "Actor_Fila": "Rodrigo Vergara Montes",
+   "ID_Fila": "RPM-2012-06-14:4857:1"
+  },
+  {
+   "ID_Padre": 5286,
+   "Fecha": "2013-01-17",
+   "Inicio": 0,
+   "Actor_Estricto": "Sergio Lehmann Beresi",
+   "Actor_Permisivo": "Rodrigo Vergara Montes",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Gerente de Análisis Internacional señor Sergio Lehmann, refiriéndose al planteamiento del Vicepresidente se",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2013-01-17:5286:1"
+  },
+  {
+   "ID_Padre": 5360,
+   "Fecha": "2013-02-14",
+   "Inicio": 1697,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Rodrigo Vergara Montes",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "B A N C O C E N T R A L D E C H I L E No habiendo más consultas ni comentarios en lo concerniente al escenario",
+   "Actor_Fila": "Luis Óscar Herrera Barriga",
+   "ID_Fila": "RPM-2013-02-14:5360:1"
+  },
+  {
+   "ID_Padre": 5367,
+   "Fecha": "2013-02-14",
+   "Inicio": 2959,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Luis Óscar Herrera Barriga",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "B A N C O C E N T R A L D E C H IL E En cuanto al gráfico referido a las colocaciones de consumo, el Gerente d",
+   "Actor_Fila": "Miguel Fuentes Díaz",
+   "ID_Fila": "RPM-2013-02-14:5367:1"
+  },
+  {
+   "ID_Padre": 5418,
+   "Fecha": "2013-03-14",
+   "Inicio": 3097,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Ricardo Vicuña Poblete",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "Indica que el crecimiento de IMACEC antedicho no es coherente con el cierre de Cuentas Nacionales y en este se",
+   "Actor_Fila": "Claudio Soto Gamboa",
+   "ID_Fila": "RPM-2013-03-14:5418:1"
+  },
+  {
+   "ID_Padre": 5647,
+   "Fecha": "2013-07-11",
+   "Inicio": 0,
+   "Actor_Estricto": "Rodrigo Vergara Montes",
+   "Actor_Permisivo": "Sergio Lehmann Beresi",
+   "Metodo": "SUJETO_NOMBRE",
+   "Oracion": "El Presidente señor Rodrigo Vergara observa que las variaciones que acumulan las paridades desde el mes de dic",
+   "Actor_Fila": "Rodrigo Vergara Montes",
+   "ID_Fila": "RPM-2013-07-11:5647:1"
+  },
+  {
+   "ID_Padre": 5658,
+   "Fecha": "2013-07-11",
+   "Inicio": 0,
+   "Actor_Estricto": "Joaquín Vial Ruiz-Tagle",
+   "Actor_Permisivo": "Rodrigo Vergara Montes",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "El Consejero señor Joaquín Vial consigna que en su reciente visita al Banco Central de Reserva de Perú, su Pre",
+   "Actor_Fila": "Joaquín Vial Ruiz-Tagle",
+   "ID_Fila": "RPM-2013-07-11:5658:1"
+  },
+  {
+   "ID_Padre": 6135,
+   "Fecha": "2014-04-17",
+   "Inicio": 546,
+   "Actor_Estricto": "Miguel Fuentes Díaz",
+   "Actor_Permisivo": "Ricardo Vicuña Poblete",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El señor Miguel Fuentes señala que dicha empresa ha informado un plan de inversión algo menor que el del año a",
+   "Actor_Fila": "Miguel Fuentes Díaz",
+   "ID_Fila": "RPM-2014-04-17:6135:3"
+  },
+  {
+   "ID_Padre": 6185,
+   "Fecha": "2014-05-15",
+   "Inicio": 15030,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Matías Bernier Bórquez",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "000 millones cada tres meses, conforme señala el Gerente de Mercados Nacionales señor Matías Bernier. ",
+   "Actor_Fila": "Sergio Lehmann Beresi",
+   "ID_Fila": "RPM-2014-05-15:6185:1"
+  },
+  {
+   "ID_Padre": 6407,
+   "Fecha": "2014-09-11",
+   "Inicio": 0,
+   "Actor_Estricto": "Sebastián Claro Edwards",
+   "Actor_Permisivo": "Beltrán de Ramón Acevedo",
+   "Metodo": "SUJETO_ROL_NOMBRE",
+   "Oracion": "El Consejero señor Sebastián Claro recuerda que en ese período se desarrollaron las marchas estudiantiles, y e",
+   "Actor_Fila": "Sebastián Claro Edwards",
+   "ID_Fila": "RPM-2014-09-11:6407:1"
+  },
+  {
+   "ID_Padre": 6587,
+   "Fecha": "2015-01-15",
+   "Inicio": 1446,
+   "Actor_Estricto": null,
+   "Actor_Permisivo": "Alberto Arenas de Mesa",
+   "Metodo": "SUJETO_ROL_SESION",
+   "Oracion": "Como mencionó el Ministro de Hacienda, señala que pueden ser shocks de oferta o shocks de demanda. ",
+   "Actor_Fila": "Pablo García Silva",
+   "ID_Fila": "RPM-2015-01-15:6587:1"
+  }
+ ]
+}
