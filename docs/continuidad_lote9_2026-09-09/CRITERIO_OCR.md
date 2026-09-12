@@ -1832,3 +1832,29 @@ candidato cae dentro de una carrera más larga, arreglar sólo el par deja «m e
 Estado tras §31: **1.418 filas corregidas, 2.405 operaciones, 208 marcadas, `Texto` intacto en las
 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **37 de 131**; filas leídas **2.658 de
 9.723**. Suite local de OCR: **72 pruebas, OK**.
+
+### Lo que hizo lenta esta ronda, y qué cambia
+
+Esta ronda tardó mucho más que las anteriores y vale la pena dejar escrito por qué, porque las
+causas son de procedimiento y se repiten:
+
+1. **Hice tres rondas en una.** Cerrar la sesión eran 8 operaciones; el detector nuevo, las 58
+   correcciones transversales y las 21 de segunda mitad larga fueron el resto. El corte natural
+   era commitear el cierre de la sesión y seguir la pasada transversal después.
+2. **Tres bugs propios que sólo aparecieron cuando algo se negó o un conteo no cuadró**: componer
+   el ancla sobre la BASE en vez de la SALIDA, tomar siempre la primera ocurrencia de una frase
+   repetida, y un parche cuyo `if` nunca matcheó y por lo tanto no hizo nada. El tercero es el
+   grave: una operación que di por aplicada no lo estaba, y lo descubrí de rebote al reejecutar el
+   detector. **Regla: el generador de un lote tiene que contabilizar todos sus candidatos**
+   (aplicados / enmendados / excluidos / rechazados) y el turno no termina sin reejecutar el
+   detector y comprobar que el residuo es el esperado.
+3. **Costo fijo por script desechable: 4,27 s** (leer el xlsx 1,88 s + `core.validar()` 2,26 s),
+   pagado unas 40 veces. Con un snapshot de `Texto` virgen y salida en `.cache/textos.json`
+   (4,53 s una vez) cada script siguiente cuesta **0,47 s**.
+4. **Explorar en seis pasadas lo que cabía en una**: medí la misma regla con `freq == 0`,
+   `freq <= 1`, `freq * 20`, `>= 1`, `>= 2` y largos 2/3/4 en scripts separados, recargando el
+   corpus cada vez. Las variantes de una regla se miden en un solo script.
+5. **Un nombre de archivo mal escrito** (`escanar_corpus.py` por `escanear_corpus.py`) costó tres
+   comandos fallidos y una teoría equivocada sobre caracteres invisibles. Cuando `ls` muestra el
+   archivo y `open()` no lo encuentra, lo primero es comparar los bytes del nombre
+   (`[hex(ord(c)) for c in nombre]`), no sospechar del sistema de archivos.
