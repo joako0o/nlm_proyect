@@ -28210,6 +28210,12 @@
       "Texto_Original_Fragmento": "Comunicado ' En su reunión mensual",
       "Motivo": "NO ES BASURA: es la comilla de apertura. La estructura es idéntica a la de 2299:1 (§28), «Comunicado “En su reunión mensual de política monetaria...», así que el apóstrofo es el rendering del OCR de la comilla inicial, no un residuo; borrarlo eliminaría un signo real. Además la fila termina en «...en el horizonte habitual de.» sin cerrar la frase ni la cita (“=0, ”=0), o sea que hay texto perdido. Se marca y no se toca. Pertenece a la familia de apóstrofos de salto de página, que NO es uniforme: de las 16 ocurrencias del corpus, 4 son apóstrofo limpio, ésta es una comilla y las otras 11 vienen con basura pegada («4. W '», «i - J ' -», «' í \\ : Ai», «¥ '») y necesitan su propia pasada (§29).",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6517:3",
+      "Texto_Original_Fragmento": "Las proyecciones de.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "TRUNCADO. La fila abre la cita del Comunicado («Comunicado \"En su reunión mensual de política monetaria...», que una pasada anterior convirtio a comilla tipografica) y se corta en «Las proyecciones de.», a mitad de la frase y sin cerrar la cita: “=1, ”=0 en la salida. Es texto perdido, no un residuo: borrar el fragmento dejaria un final limpio y ocultaria el corte, igual que el «Y» sola de §25, el 2121:1 de §27, el 2293:1 de §28 y el 2299:1 de §28. La fila siguiente (6517:3 es la ultima de la sesion) no continua el texto. Se marca y no se toca."
     }
   ],
   "Marcas_Adicionales": [

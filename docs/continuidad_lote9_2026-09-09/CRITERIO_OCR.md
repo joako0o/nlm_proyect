@@ -1651,6 +1651,52 @@ Estado tras §29: **1.405 filas corregidas, 2.339 operaciones, 205 marcadas, `Te
 las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **35 de 131**; filas leídas
 **2.566 de 9.723**.
 
+---
+
+## §30. Una sesión sin correcciones, y por qué eso también es un resultado
+
+Sesión `2014-11-18` (rondas 230–234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco
+y los Consejeros; mantención de la TPM en 3,0 %. Las 42 filas son de una sola voz y **no hubo
+ninguna corrección OCR que hacer**.
+
+No es que no se haya buscado. Sobre la **salida** (no sobre la base, §27) se midió:
+
+| detector / familia | resultado en estas 42 filas |
+|---|---|
+| `detector_partida` | 0 |
+| `detector_deletreada` | 0 |
+| espacio antes de `,` `.` `;` `%` | 0 |
+| `A continuación,.` · doble punto · `_____` · hora con `;` · ` / ` · comilla recta · doble espacio | 0 cada una |
+
+Y en el eje multihablante, el pre-cernido marcó verbos de turno (`acota` en `6498:1`, `6515:1`,
+`6517:1`) y menciones a García (`6489:1`, `6508:3`, `6510:1`). Con `\b` en la expresión regular,
+las coincidencias de *verbo que introduce a alguien que no es el hablante de la fila* son
+**cero**: las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara.
+Es la regla de §25 aplicada con la frontera de palabra que §27 echó en falta.
+
+### La única marca
+
+`6517:3` abre la cita del Comunicado y **se corta a mitad de una frase**:
+
+> «…nuevos brotes de volatilidad no son descartables. **Las proyecciones de.**»
+
+Con la cita sin cerrar (`“`=1, `”`=0 en la salida). Es texto perdido, no un residuo: borrar el
+fragmento dejaría un final limpio y **ocultaría el corte**. Es la cuarta vez que aparece exactamente
+este patrón —`210:2` (§25), `2121:1` (§27), `2293:1` y `2299:1` (§28)— y las cuatro se marcaron en
+vez de limpiarse. Ya es una familia: **las actas se truncan al final del Comunicado**, y conviene
+revisarlo con los PDF como un solo asunto y no fila por fila.
+
+### Por qué importa registrar una sesión vacía
+
+Una sesión sin correcciones es información: dice que la densidad de defectos **no es uniforme** y
+que los detectores ya cubren lo que hay. Si sólo se documentaran los hallazgos, el criterio daría
+la impresión de que cada sesión tiene algo, y perdería valor como mapa de dónde queda trabajo.
+
+Estado tras §30: **1.405 filas corregidas, 2.339 operaciones, 206 marcadas, `Texto` intacto en
+las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **36 de 131**; filas leídas
+**2.608 de 9.723**.
+
+
 
 
 

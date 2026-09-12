@@ -1,12 +1,12 @@
 {
   "Total_Filas_Corregidas": 1405,
   "Total_Operaciones": 2339,
-  "Total_Filas_Marcadas_Para_Cotejo": 205,
+  "Total_Filas_Marcadas_Para_Cotejo": 206,
   "Marcas_Por_Tipo": {
     "CARGO_EN_DISCURSO_POR_COTEJAR": 1,
     "CIFRA_INCONSISTENTE_POR_COTEJAR": 14,
     "NOMBRE_PROPIO_POR_COTEJAR": 62,
-    "RECONSTRUCCION_AMBIGUA_POR_COTEJAR": 66,
+    "RECONSTRUCCION_AMBIGUA_POR_COTEJAR": 67,
     "RESERVA_ABIERTA_POR_COTEJO": 6,
     "SIGNO_AUSENTE_POR_COTEJAR": 16,
     "TEXTO_DANADO_POR_COTEJAR": 51
@@ -1604,6 +1604,7 @@
     "RPM-2014-06-12:6250:1",
     "RPM-2014-06-12:6274:1",
     "RPM-2014-10-16:6456:2",
+    "RPM-2014-11-18:6517:3",
     "RPM-2015-03-19:6644:1",
     "RPM-2015-03-19:6655:2",
     "RPM-2015-04-16:6730:1",

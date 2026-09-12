@@ -6,7 +6,7 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 - filas corregidas: **1405**
 - operaciones: **2339**
-- filas marcadas para cotejo: **205**
+- filas marcadas para cotejo: **206**
 - sha256 de la base: `d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75`
 
 ## Operaciones por tipo

@@ -29134,7 +29134,427 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2014-07-15",
       "Justificacion": "Sesion leida completa (rondas 222-229, 54 filas). Julio 2014: Lehmann, Fuentes, Vial, Claro, Vergara, Micco; debate y votacion por recortar 25 pb a 3,75%. Todas las banderas de segunda voz eran traspasos y agradecimientos protocolares del Presidente Vergara (6308:2, 6327:1, 6331:1, 6331:3, 6333:1, 6335:1, 6337:1) o citas a otro consejero; ninguna fila requiere corte. Hallazgo importante: «tasa de instancia» (58 ocurrencias en 53 filas) NO es un defecto — «instancia» es vocabulario nativo de estas actas, usado 89 veces fuera de esa colocucion («la instancia monetaria de ese momento», «situacion de ultima instancia»), y 273:1 lo dice explicitamente: «la tasa de instancia monetaria, como se llamaba entonces». Los dos PDF del repo dan 0 «instancia», pero son 2 de 131 sesiones y la ausencia ahi no es evidencia contra un termino usado 147 veces en el corpus. Eje OCR: 10 correcciones y 1 marca (§29)."
+    },
+    "RPM-2014-11-18:6486:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6486:1",
+      "ID_Padre": "6486",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1442,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6487:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6487:1",
+      "ID_Padre": "6487",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 491,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6487:2": {
+      "ID_Intervencion": "RPM-2014-11-18:6487:2",
+      "ID_Padre": "6487",
+      "Actor": "Alfredo Pistelli",
+      "Caracteres": 11650,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6487:3": {
+      "ID_Intervencion": "RPM-2014-11-18:6487:3",
+      "ID_Padre": "6487",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 155,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6488:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6488:1",
+      "ID_Padre": "6488",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 857,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6489:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6489:1",
+      "ID_Padre": "6489",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 900,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6490:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6490:1",
+      "ID_Padre": "6490",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 1455,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6490:2": {
+      "ID_Intervencion": "RPM-2014-11-18:6490:2",
+      "ID_Padre": "6490",
+      "Actor": "Alfredo Pistelli",
+      "Caracteres": 881,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6491:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6491:1",
+      "ID_Padre": "6491",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 502,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6491:2": {
+      "ID_Intervencion": "RPM-2014-11-18:6491:2",
+      "ID_Padre": "6491",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 239,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6492:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6492:1",
+      "ID_Padre": "6492",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3813,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6493:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6493:1",
+      "ID_Padre": "6493",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6494:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6494:1",
+      "ID_Padre": "6494",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3628,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6495:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6495:1",
+      "ID_Padre": "6495",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 320,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6496:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6496:1",
+      "ID_Padre": "6496",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2358,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6497:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6497:1",
+      "ID_Padre": "6497",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 258,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6498:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6498:1",
+      "ID_Padre": "6498",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 4538,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6499:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6499:1",
+      "ID_Padre": "6499",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6500:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6500:1",
+      "ID_Padre": "6500",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 989,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6501:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6501:1",
+      "ID_Padre": "6501",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 598,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6502:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6502:1",
+      "ID_Padre": "6502",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 928,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6503:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6503:1",
+      "ID_Padre": "6503",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 445,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6504:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6504:1",
+      "ID_Padre": "6504",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 1389,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6505:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6505:1",
+      "ID_Padre": "6505",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 2969,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6505:2": {
+      "ID_Intervencion": "RPM-2014-11-18:6505:2",
+      "ID_Padre": "6505",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 246,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6505:3": {
+      "ID_Intervencion": "RPM-2014-11-18:6505:3",
+      "ID_Padre": "6505",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 151,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6506:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6506:1",
+      "ID_Padre": "6506",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 348,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6507:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6507:1",
+      "ID_Padre": "6507",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 7115,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6508:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6508:1",
+      "ID_Padre": "6508",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 229,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6508:2": {
+      "ID_Intervencion": "RPM-2014-11-18:6508:2",
+      "ID_Padre": "6508",
+      "Actor": "Alejandro Micco",
+      "Caracteres": 4175,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6508:3": {
+      "ID_Intervencion": "RPM-2014-11-18:6508:3",
+      "ID_Padre": "6508",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 310,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6509:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6509:1",
+      "ID_Padre": "6509",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 2319,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6510:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6510:1",
+      "ID_Padre": "6510",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6511:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6511:1",
+      "ID_Padre": "6511",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2052,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6512:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6512:1",
+      "ID_Padre": "6512",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6513:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6513:1",
+      "ID_Padre": "6513",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 3229,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6514:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6514:1",
+      "ID_Padre": "6514",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 176,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6515:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6515:1",
+      "ID_Padre": "6515",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 4443,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6516:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6516:1",
+      "ID_Padre": "6516",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 3435,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6517:1": {
+      "ID_Intervencion": "RPM-2014-11-18:6517:1",
+      "ID_Padre": "6517",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 1495,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6517:2": {
+      "ID_Intervencion": "RPM-2014-11-18:6517:2",
+      "ID_Padre": "6517",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 181,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2014-11-18:6517:3": {
+      "ID_Intervencion": "RPM-2014-11-18:6517:3",
+      "ID_Padre": "6517",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1017,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-11-18",
+      "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
     }
   },
-  "Total_Leidas": 2566
+  "Total_Leidas": 2608
 }

@@ -111,7 +111,7 @@ RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
 # bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
 # cierres ya documentados; si no, borrar revisiones del registro se vería como
 # una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
-MIN_CASOS_ADJUDICADOS = 203   # 169 abiertas + 34 cerradas al cierre del §29
+MIN_CASOS_ADJUDICADOS = 204   # 170 abiertas + 34 cerradas al cierre del §30
 MIN_CIERRES_COTEJO = 34
 
 # §19: punto pegado a letra. De las 45 ocurrencias, 36 son abreviatura legítima

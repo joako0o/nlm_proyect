@@ -360,6 +360,8 @@ Para leer una sesión entera al margen del plan:
 
 | 222–229 | 2014-07-15 | 54 | una sola voz en las 54 filas del plan · **sesión cerrada 54/54** · julio 2014 (Lehmann, Fuentes, Vial, Claro, Vergara, Micco; recorte de 25 pb a 3,75 %) · las banderas eran los traspasos y agradecimientos protocolares del Presidente Vergara · **hallazgo: «tasa de instancia» (58 en 53 filas) NO es un defecto** —`instancia` es jerga nativa usada 89 veces fuera de esa colocución y `273:1` lo dice («como se llamaba entonces»); los dos PDF dan 0, pero son 2 de 131 sesiones y eso no es evidencia contra un término usado 147 veces · de los 16 apóstrofos sueltos del corpus, el de `674:2` **es una comilla de apertura**, no basura: se marcó · 10 correcciones (`Polítíca`→`Política` ×6, 4 apóstrofos limpios) y 1 marca (criterio §29) |
 
+| 230–234 | 2014-11-18 | 42 | una sola voz en las 42 filas del plan · **sesión cerrada 42/42** · noviembre 2014 (Pistelli, Fuentes, Naudon, Micco; mantención en 3,0 %) · **sesión sin ninguna corrección OCR**: sobre la salida, `detector_partida` 0, `detector_deletreada` 0, espacio-antes-de-signo 0 y ninguna de las familias conocidas · con `\b` en la expresión regular, los verbos de turno que introducen a otro dan **cero** coincidencias: las menciones a García son los traspasos protocolares de Vergara · 1 sola marca: `6517:3` se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar — cuarta vez del mismo patrón (§25, §27, §28 dos veces), ya es una familia: las actas se truncan al final del Comunicado (criterio §30) |
+
 Para anotar una ronda leída:
 
 ```
