@@ -32414,7 +32414,1067 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2015-11-12",
       "Justificacion": "Sesión 2015-11-12 (rondas 1-6, 56 filas de 58; las otras 2 ya estaban anotadas): una sola voz. La única bandera del pre-cernido es una referencia externa, no un asistente: «señala que el día de ayer el Presidente del Banco Central Europeo, señor Mario Draghi comunicó...». Detectores: 0 partida, 0 letra partida, 1 deletreada que es falso positivo («monitoreada con sumo cuidado» es español correcto) y 2 acentos legítimos de §16 («el mercado hacía del actuar de la FED», «la senda que marcó el último IPoM»). Las 17 familias conocidas, todas en 0. Sin letras sueltas ni problemas de finales o aperturas. El único hallazgo es un nombre propio dañado: «don Alberto Naudon DeN’Oro», que el corpus escribe «Naudon Dell’Oro» 12 veces; por instrucción del usuario en esta ronda los nombres propios dañados se normalizan cuando el corpus acredita la forma correcta, y eso se aplicó como pase transversal (51 operaciones en 45 filas más 5 del apellido)."
+    },
+    "RPM-2008-03-13:1687:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1687:1",
+      "ID_Padre": "1687",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1398,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1688:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1688:1",
+      "ID_Padre": "1688",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 391,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1689:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1689:2",
+      "ID_Padre": "1689",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 8358,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1690:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1690:1",
+      "ID_Padre": "1690",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 379,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1690:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1690:2",
+      "ID_Padre": "1690",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2382,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1691:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1691:1",
+      "ID_Padre": "1691",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 172,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1692:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1692:1",
+      "ID_Padre": "1692",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 258,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1693:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1693:1",
+      "ID_Padre": "1693",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 777,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1694:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1694:1",
+      "ID_Padre": "1694",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 444,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1694:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1694:2",
+      "ID_Padre": "1694",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 5910,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1695:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1695:1",
+      "ID_Padre": "1695",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 524,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1695:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1695:2",
+      "ID_Padre": "1695",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 758,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1696:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1696:1",
+      "ID_Padre": "1696",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1696:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1696:2",
+      "ID_Padre": "1696",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3461,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1696:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1696:3",
+      "ID_Padre": "1696",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1177,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1696:4": {
+      "ID_Intervencion": "RPM-2008-03-13:1696:4",
+      "ID_Padre": "1696",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3008,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1697:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1697:1",
+      "ID_Padre": "1697",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 138,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1697:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1697:2",
+      "ID_Padre": "1697",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3383,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1697:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1697:3",
+      "ID_Padre": "1697",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 562,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1697:4": {
+      "ID_Intervencion": "RPM-2008-03-13:1697:4",
+      "ID_Padre": "1697",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 465,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1697:5": {
+      "ID_Intervencion": "RPM-2008-03-13:1697:5",
+      "ID_Padre": "1697",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 557,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1698:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1698:1",
+      "ID_Padre": "1698",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 235,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1698:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1698:2",
+      "ID_Padre": "1698",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 858,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1699:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1699:1",
+      "ID_Padre": "1699",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 573,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1700:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1700:1",
+      "ID_Padre": "1700",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 648,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1700:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1700:2",
+      "ID_Padre": "1700",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 966,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1701:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1701:1",
+      "ID_Padre": "1701",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 1722,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1702:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1702:1",
+      "ID_Padre": "1702",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 1828,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1703:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1703:1",
+      "ID_Padre": "1703",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 1317,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1705:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1705:1",
+      "ID_Padre": "1705",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 9729,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1707:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1707:1",
+      "ID_Padre": "1707",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 363,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1708:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1708:1",
+      "ID_Padre": "1708",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 294,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1709:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1709:1",
+      "ID_Padre": "1709",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 518,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1710:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1710:1",
+      "ID_Padre": "1710",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 316,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1710:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1710:2",
+      "ID_Padre": "1710",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 134,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1711:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1711:1",
+      "ID_Padre": "1711",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 555,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1711:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1711:2",
+      "ID_Padre": "1711",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 329,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1711:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1711:3",
+      "ID_Padre": "1711",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 81,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1712:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1712:1",
+      "ID_Padre": "1712",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1026,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1712:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1712:2",
+      "ID_Padre": "1712",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 842,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1712:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1712:3",
+      "ID_Padre": "1712",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 1037,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1713:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1713:1",
+      "ID_Padre": "1713",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 125,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1713:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1713:2",
+      "ID_Padre": "1713",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 81,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1713:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1713:3",
+      "ID_Padre": "1713",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 237,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1713:4": {
+      "ID_Intervencion": "RPM-2008-03-13:1713:4",
+      "ID_Padre": "1713",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 127,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1713:5": {
+      "ID_Intervencion": "RPM-2008-03-13:1713:5",
+      "ID_Padre": "1713",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 135,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1714:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1714:1",
+      "ID_Padre": "1714",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 120,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1714:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1714:2",
+      "ID_Padre": "1714",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 354,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1715:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1715:1",
+      "ID_Padre": "1715",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 124,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1715:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1715:2",
+      "ID_Padre": "1715",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 323,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1716:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1716:1",
+      "ID_Padre": "1716",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 156,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1717:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1717:1",
+      "ID_Padre": "1717",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 748,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:1",
+      "ID_Padre": "1718",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 690,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:2",
+      "ID_Padre": "1718",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 89,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:3",
+      "ID_Padre": "1718",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 181,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:4": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:4",
+      "ID_Padre": "1718",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 139,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:5": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:5",
+      "ID_Padre": "1718",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 705,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:6": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:6",
+      "ID_Padre": "1718",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 644,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:7": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:7",
+      "ID_Padre": "1718",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 266,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:8": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:8",
+      "ID_Padre": "1718",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 187,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:9": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:9",
+      "ID_Padre": "1718",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 266,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:10": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:10",
+      "ID_Padre": "1718",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:11": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:11",
+      "ID_Padre": "1718",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 132,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:12": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:12",
+      "ID_Padre": "1718",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 323,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:13": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:13",
+      "ID_Padre": "1718",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 283,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:14": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:14",
+      "ID_Padre": "1718",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 171,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1718:15": {
+      "ID_Intervencion": "RPM-2008-03-13:1718:15",
+      "ID_Padre": "1718",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 948,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1719:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1719:1",
+      "ID_Padre": "1719",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 81,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1719:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1719:2",
+      "ID_Padre": "1719",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 581,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1719:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1719:3",
+      "ID_Padre": "1719",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1719:4": {
+      "ID_Intervencion": "RPM-2008-03-13:1719:4",
+      "ID_Padre": "1719",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 658,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1719:5": {
+      "ID_Intervencion": "RPM-2008-03-13:1719:5",
+      "ID_Padre": "1719",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 130,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1719:6": {
+      "ID_Intervencion": "RPM-2008-03-13:1719:6",
+      "ID_Padre": "1719",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1720:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1720:1",
+      "ID_Padre": "1720",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 128,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1721:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1721:1",
+      "ID_Padre": "1721",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 11143,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1722:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1722:1",
+      "ID_Padre": "1722",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1722:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1722:2",
+      "ID_Padre": "1722",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Caracteres": 2800,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1723:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1723:1",
+      "ID_Padre": "1723",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 3538,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1724:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1724:1",
+      "ID_Padre": "1724",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 100,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1725:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1725:1",
+      "ID_Padre": "1725",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 1865,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1726:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1726:1",
+      "ID_Padre": "1726",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 542,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1727:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1727:1",
+      "ID_Padre": "1727",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 86,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1727:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1727:2",
+      "ID_Padre": "1727",
+      "Actor": "Leonardo Hernández Tagle",
+      "Caracteres": 898,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1728:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1728:1",
+      "ID_Padre": "1728",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 75,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1728:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1728:2",
+      "ID_Padre": "1728",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 1023,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1728:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1728:3",
+      "ID_Padre": "1728",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 2296,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1729:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1729:1",
+      "ID_Padre": "1729",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1730:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1730:1",
+      "ID_Padre": "1730",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 4475,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1731:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1731:1",
+      "ID_Padre": "1731",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 7456,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1731:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1731:2",
+      "ID_Padre": "1731",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 4751,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1732:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1732:1",
+      "ID_Padre": "1732",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 527,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1733:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1733:1",
+      "ID_Padre": "1733",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 282,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1734:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1734:1",
+      "ID_Padre": "1734",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 5791,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1735:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1735:1",
+      "ID_Padre": "1735",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 7073,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1736:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1736:1",
+      "ID_Padre": "1736",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 315,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1737:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1737:1",
+      "ID_Padre": "1737",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 90,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1737:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1737:2",
+      "ID_Padre": "1737",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 132,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1737:3": {
+      "ID_Intervencion": "RPM-2008-03-13:1737:3",
+      "ID_Padre": "1737",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1136,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1738:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1738:1",
+      "ID_Padre": "1738",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 567,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1739:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1739:1",
+      "ID_Padre": "1739",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1303,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1740:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1740:1",
+      "ID_Padre": "1740",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 1425,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1741:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1741:1",
+      "ID_Padre": "1741",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 1290,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1742:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1742:1",
+      "ID_Padre": "1742",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 893,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1742:2": {
+      "ID_Intervencion": "RPM-2008-03-13:1742:2",
+      "ID_Padre": "1742",
+      "Actor": "Luis Alberto Álvarez Vallejos",
+      "Caracteres": 316,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1743:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1743:1",
+      "ID_Padre": "1743",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2800,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
+    },
+    "RPM-2008-03-13:1744:1": {
+      "ID_Intervencion": "RPM-2008-03-13:1744:1",
+      "ID_Padre": "1744",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 193,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2008-03-13",
+      "Justificacion": "Sesión 2008-03-13 (rondas 7-16, 109 filas). Dos filas estaban en la cola multihablante del lote10 y las dos resultaron ya bien partidas en la base: el padre 1718 tiene 1718:10 = Enrique Marshall Rivera y 1718:11 = Manuel Marfán Lewis, y el padre 1737 tiene 1737:1 = Jorge Desormeaux Jiménez y 1737:2 = Sebastián Claro Edwards. La cola está construida sobre los padres del consolidado, no sobre la base construida, así que no todo lo que aparece en ella hay que cortarlo. Cuatro correcciones en la sesión y un pase transversal que salió de ella: «T a sa» por «Tasa» en la fórmula del Acuerdo, 6 apariciones en 6 actas contra 1.428 correctas. Se marcaron dos casos que no se pueden resolver sin el PDF: «4.3%» con punto entre tres cifras con coma, y una fila que termina en «señor Andrés» sin apellido. Los catorce candidatos de acento eran falsos positivos salvo «sesgó»: éste/dónde/cuánto/quién/cuándo/terminó llevan tilde diacrítica legítima y «publica» es el verbo, no el adjetivo."
     }
   },
-  "Total_Leidas": 2894
+  "Total_Leidas": 3000
 }

@@ -6418,6 +6418,14 @@
           "Ocurrencias": 2,
           "Contexto": "en esta discusión. En primer lugar, indica que sin duda el sesgo pone presiones cambiarías de las cuales no se conoce exactamente su dimensión. Sacar",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "con el sesgó eliminado",
+          "Despues": "con el sesgo eliminado",
+          "Ocurrencias": 1,
+          "Contexto": " es muy compleja, entre mantener el sesgo y mantener la tasa o seguir con el sesgó eliminado, le parece que desde el punto de vista de presión sobre la Política M",
+          "Justificacion": "«sesgó» es la tercera persona del pretérito; después del artículo «el» hace falta el sustantivo «sesgo». La misma oración lo usa bien unos renglones antes: «entre mantener el sesgo y mantener la tasa o seguir con el sesgó eliminado». «sesgó» aparece 1 sola vez en todo el corpus y «sesgo» 783."
         }
       ]
     },
@@ -6455,6 +6463,14 @@
           "Despues": "”",
           "Contexto": " los shocks inflacionarios de meses pasados a otros precios.\"",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "080313-T a sa de",
+          "Despues": "080313-Tasa de",
+          "Ocurrencias": 1,
+          "Contexto": "mérito de lo anterior, el Consejo adopta el siguiente Acuerdo: 120-01-080313-T a sa de Política Monetaria. En su reunión mensual de política monetaria, el C",
+          "Justificacion": "La palabra «Tasa» salió deletreada dentro del número del Acuerdo: «120-01-080313-T a sa de Política Monetaria». El formato del acuerdo es número-título y en el corpus la fórmula es siempre «NN-NN-NNMMDD-Tasa de Política Monetaria». El detector de palabra deletreada la encontró y la contraparte «Tasa» aparece 1.572 veces."
         }
       ]
     },
@@ -28291,6 +28307,97 @@
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1705:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "3,8®/o y",
+          "Despues": "3,8% y",
+          "Ocurrencias": 1,
+          "Contexto": "e del 2008 y diciembre del 2009: 4.3% y 3,5% anual, respectivamente, (3,8®/o y 3,2% anual el mes anterior). Señala el expositor, que es importante d",
+          "Justificacion": "La OCR leyó el signo de porcentaje como «®/o». El paréntesis contrasta la cifra con la del mes anterior y las otras tres del mismo enunciado usan «%»: «4.3% y 3,5% anual, respectivamente, (3,8®/o y 3,2% anual el mes anterior)». No hay otra lectura posible: «®/o» no es una cifra ni una unidad. Es la única aparición de «®» en esta fila y el corpus no tiene ningún otro «®/o»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1728:2",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_SOBRANTE",
+          "Antes": "señor a Andrés Velasco indica",
+          "Despues": "señor Andrés Velasco indica",
+          "Ocurrencias": 1,
+          "Contexto": "El Ministro de Hacienda señor a Andrés Velasco indica que sus comentarios los va a dividir entre los que tienen que ver con",
+          "Justificacion": "Una «a» suelta entre el tratamiento y el nombre: «el Ministro de Hacienda señor a Andrés Velasco». No es español. Medido en todo el corpus: «señor a » aparece 1 vez (ésta), «doña a » 0 y «don a » 0, mientras que «señor Andrés Velasco» es la forma constante en las otras actas. Es la única aparición, así que no hay ambigüedad."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:503:2",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "051110-T a sa de Política monetaria",
+          "Despues": "051110-Tasa de Política monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "por la unanimidad de sus miembros, adopta el siguiente Acuerdo: 85-01-051110-T a sa de Política monetaria.",
+          "Justificacion": "Pase transversal: «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo. Medido en todo el corpus: la fórmula correcta «Tasa de Política Monetaria» aparece 1.428 veces y la forma deletreada 6, siempre en el mismo lugar —pegada al número del acuerdo, «NN-NN-NNMMDD-T a sa de Política Monetaria»—. No hay ambigüedad: el formato del acuerdo es número-título y el título es siempre el mismo. Se corrige en Texto_Corregido; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1912:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "080610-T a sa de Política Monetaria",
+          "Despues": "080610-Tasa de Política Monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "mérito de lo anterior, el Consejo adopta el siguiente Acuerdo: 124-01-080610-T a sa de Política Monetaria. En su reunión mensual de política monetaria, el Consejo del Banco Ce",
+          "Justificacion": "Pase transversal: «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo. Medido en todo el corpus: la fórmula correcta «Tasa de Política Monetaria» aparece 1.428 veces y la forma deletreada 6, siempre en el mismo lugar —pegada al número del acuerdo, «NN-NN-NNMMDD-T a sa de Política Monetaria»—. No hay ambigüedad: el formato del acuerdo es número-título y el título es siempre el mismo. Se corrige en Texto_Corregido; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3205:2",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "100615-T a sa de Política Monetaria",
+          "Despues": "100615-Tasa de Política Monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "155-01-100615-T a sa de Política Monetaria El Consejo aprobó, por la unanimidad de sus miembros, aumentar la tas",
+          "Justificacion": "Pase transversal: «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo. Medido en todo el corpus: la fórmula correcta «Tasa de Política Monetaria» aparece 1.428 veces y la forma deletreada 6, siempre en el mismo lugar —pegada al número del acuerdo, «NN-NN-NNMMDD-T a sa de Política Monetaria»—. No hay ambigüedad: el formato del acuerdo es número-título y el título es siempre el mismo. Se corrige en Texto_Corregido; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-01-13:3716:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "110113-T a sa de Política Monetaria",
+          "Despues": "110113-Tasa de Política Monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "virtud de lo anterior, el Consejo adoptó el siguiente Acuerdo: 165-01-110113-T a sa de Política Monetaria En su reunión mensual de política monetaria, el Consejo del Banco Cen",
+          "Justificacion": "Pase transversal: «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo. Medido en todo el corpus: la fórmula correcta «Tasa de Política Monetaria» aparece 1.428 veces y la forma deletreada 6, siempre en el mismo lugar —pegada al número del acuerdo, «NN-NN-NNMMDD-T a sa de Política Monetaria»—. No hay ambigüedad: el formato del acuerdo es número-título y el título es siempre el mismo. Se corrige en Texto_Corregido; Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-04-16:6754:3",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "150416 -T a sa de Política Monetaria",
+          "Despues": "150416 -Tasa de Política Monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "señores Consejeros, el Consejo adoptó el siguiente Acuerdo: N° 221-01-150416 -T a sa de Política Monetaria En su reunión mensual de política monetaria, el Consejo del Banco Cen",
+          "Justificacion": "Pase transversal: «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo. Medido en todo el corpus: la fórmula correcta «Tasa de Política Monetaria» aparece 1.428 veces y la forma deletreada 6, siempre en el mismo lugar —pegada al número del acuerdo, «NN-NN-NNMMDD-T a sa de Política Monetaria»—. No hay ambigüedad: el formato del acuerdo es número-título y el título es siempre el mismo. Se corrige en Texto_Corregido; Texto queda intacto."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -29541,6 +29648,18 @@
       "Texto_Original_Fragmento": "se debería esperar un crecimiento de la industria, no una caída. r",
       "Motivo": "La fila termina en letra suelta después de un punto completo: «...no una caída. r». Es la familia de 20 filas que §31 dejó marcada en vez de borrada (precedente «210:2», §25): una letra sola es el resto mínimo posible de un corte, y si se borra la fila queda con un final limpio que oculta el corte. Las letras sueltas de mitad de fila sí son residuo seguro porque el texto sigue (« k », « U », « r. »); al final de la fila no hay forma de distinguir sin el acta original. Se marca y se revisa con las otras 19 de una vez.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1705:1",
+      "Texto_Original_Fragmento": "4.3% y 3,5% anual, respectivamente",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "SEPARADOR_DECIMAL_DUDOSO. «4.3%» usa punto mientras las otras tres cifras del mismo enunciado usan coma («3,5%», «3,8%», «3,2%»). El corpus entero tiene 5.998 decimales con coma y 60 con punto, así que la coma es la convención, pero esos 60 prueban que la fuente a veces escribe punto. Cambiar el separador de una cifra financiera sin el PDF a la vista es falsear un dato, no corregir ortografía: se deja como está y se marca."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1728:1",
+      "Texto_Original_Fragmento": "El señor Presidente ofrece la palabra al Ministro de Hacienda, señor Andrés",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "FRASE_INCOMPLETA_EN_LA_FUENTE. La fila termina en «señor Andrés» sin apellido ni punto, y la siguiente empieza «El Ministro de Hacienda señor a Andrés Velasco indica que...». Falta algo entre las dos, pero completarlo sería inventar texto: no se sabe si la fuente dice «señor Andrés Velasco.» o si el renglón se cortó al escanear. Se marca para cotejar contra el PDF."
     }
   ],
   "Marcas_Adicionales": [

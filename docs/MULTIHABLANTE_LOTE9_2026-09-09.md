@@ -373,6 +373,8 @@ Para leer una sesión entera al margen del plan:
 | — | **entrega v8** | 9.724 | publicada en `data/releases/continuidad_procedimental_v8` (9.723 → 9.724, una fila nueva: `RPM-2008-08-14:1995:2`) · gate propio `compare_procedural_v8.py`: todas las filas, todos los campos y todos los miembros de cada grupo · grupos 9.234 → 9.235 · alertas 484 → 484 · reservas 780/2661/5252 abiertas · 2.256 pruebas OK · **el `ID` de la base es posicional**: una fila nueva lo corre en +1 y eso invalidó las lecturas procedimentales v5; se refresca en memoria porque los cinco archivos implicados están fijados por hash (§35) |
 | — | **corrección OCR v2** | 9.724 | reconstruida sobre v8 en `data/releases/correccion_ocr_v2` sin sobrescribir v1 · 1.462 filas con `Texto_Corregido` · `Texto` intacto en las 9.724 · **cero formas dañadas** de los 17 nombres · una sola operación re-anclada (`cambiarías`: 1995:1 → 1995:2) porque el corte la cambió de segmento |
 
+| 7–16 | 2008-03-13 | 109 | **sesión cerrada 106/106** (3 ya estaban anotadas) · 15 actores · las 2 filas de la cola multihablante **ya estaban bien partidas en la base** (1718:10 Marshall / 1718:11 Marfán; 1737:1 Desormeaux / 1737:2 Claro) · 4 correcciones + pase transversal «T a sa»→«Tasa» en 6 actas · 2 marcas para cotejo PDF · 13 de 14 candidatos de acento eran falsos positivos |
+
 Para anotar una ronda leída:
 
 ```

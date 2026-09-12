@@ -2138,3 +2138,52 @@ conservadas porque son la grafía del documento (§34).
 registro OCR contra la nueva base. El validador las atrapa solo (`«cambiaría» no aparece 1 veces en
 el texto virgen de la fila`), así que basta con correrlo; lo que no se puede hacer es publicarlo sin
 correrlo.
+
+---
+
+## §36. Sesión 2008-03-13 y dos cosas que la cola no dice
+
+**La cola multihablante está construida sobre los padres del consolidado, no sobre la base
+construida.** Las dos filas de esta sesión que aparecían en la cola de 74 ya estaban bien partidas:
+el padre 1718 tiene `1718:10` = Enrique Marshall Rivera y `1718:11` = Manuel Marfán Lewis; el padre
+1737 tiene `1737:1` = Jorge Desormeaux Jiménez y `1737:2` = Sebastián Claro Edwards. Antes de
+proponer un corte hay que mirar la base, no la cola. Es lo mismo que pasó con tres de los cuatro
+cortes del lote10 (§35): el detector automático ya partía esos padres.
+
+**Una sesión puede destapar una familia transversal.** La palabra deletreada `T a sa` apareció una
+vez en el Acuerdo de esta sesión. Medida en todo el corpus: **6 apariciones contra 1.428 formas
+correctas**, siempre pegada al número del acuerdo (`NN-NN-NNMMDD-T a sa de Política Monetaria`). Se
+corrigieron las 6, en seis actas distintas. La fila leída dio la pista; la decisión la dio el conteo.
+
+### Lo que se corrigió
+
+| fila | antes | después | tipo |
+|---|---|---|---|
+| `2008-03-13:1705:1` | `(3,8®/o y 3,2%` | `(3,8% y 3,2%` | `LETRA_CONFUNDIDA` |
+| `2008-03-13:1728:2` | `señor a Andrés Velasco` | `señor Andrés Velasco` | `PALABRA_SOBRANTE` |
+| `2008-03-13:1735:1` | `con el sesgó eliminado` | `con el sesgo eliminado` | `ACENTO_INDEBIDO` |
+| 6 actas | `…-T a sa de Política Monetaria` | `…-Tasa de Política Monetaria` | `PALABRA_PARTIDA` |
+
+`señor a ` aparece **1 vez** en todo el corpus (`doña a ` 0, `don a ` 0). `sesgó` aparece **1 vez**
+y la misma oración usa bien `sesgo` unos renglones antes. Ninguno de los dos es dudoso.
+
+### Lo que se marcó en vez de corregirse
+
+- **`4.3%` con punto** entre tres cifras con coma en el mismo enunciado. El corpus tiene 5.998
+  decimales con coma y **60 con punto**: la coma es la convención, pero esos 60 prueban que la fuente
+  a veces escribe punto. Cambiar el separador de una cifra financiera sin el PDF es falsear un dato,
+  no corregir ortografía → `CIFRA_INCONSISTENTE_POR_COTEJAR`.
+- **Una fila que termina en «señor Andrés»** sin apellido ni punto, seguida de otra que empieza
+  «El Ministro de Hacienda señor a Andrés Velasco indica que…». Falta algo entre las dos, pero
+  completarlo sería inventar texto → `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+
+### El detector de acentos sigue siendo un generador de candidatos, no una regla
+
+De 14 candidatos, 13 eran falsos positivos: `éstos`, `dónde`, `cuánto`, `quién`, `cuándo` y
+`terminó` llevan tilde diacrítica o verbal legítima, y `publica` era el verbo («que publica la
+Reserva Federal»), no el adjetivo. El único real fue `sesgó`. **Precisión 1/14 en esta sesión**: el
+detector sirve para no dejar nada sin mirar, no para decidir.
+
+También quedó medido que el chequeo de paréntesis desbalanceados da falsos positivos con las
+enumeraciones `a) b) c)`, y que `Velasco B.` no es una firma truncada: es la abreviatura que el
+corpus usa en otras tres actas.
