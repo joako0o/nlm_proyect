@@ -6602,6 +6602,14 @@
           "Ocurrencias": 1,
           "Contexto": "l complejo escenario internacional actual, de la persistencia de la apreciación cambiaría real y de la eventual propagación de los shocks inflacionar",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "17,00 horas",
+          "Despues": "17:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "os shocks\ninflacionarios de meses pasados a otros precios.”\n17,00 horas.\nEl Consejo aprueba el texto del Comuni",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     },
@@ -12711,6 +12719,14 @@
           "Ocurrencias": 1,
           "Contexto": " doña María Elena Ovalle Molina, don Jorge Desormeaux Jiménez y don Manuel Marfán Lewis. Asisten también; Gerente General, don Camilo Carrasco Alfonso; Fiscal y Ministro de ",
           "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "2005 En Santiago de Chile, a 7 de abril de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     },
@@ -13921,6 +13937,14 @@
           "Ocurrencias": 1,
           "Contexto": "nda, señora Bernardita Piedrabuena Keymer. Fecha Sesión de Política Monetaria de! mes de julio de 2005.",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "En Santiago de Chile, a 11 de enero de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     },
@@ -19092,6 +19116,14 @@
           "Despues": "Celebrada el 10 de marzo de 2005",
           "Contexto": "A C T A CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 75 Celebrada el10 de marzo de 2005 En Santiago de Chile, a 10 de marzo de 2005, siendo las 11,30 horas, ",
           "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30",
+          "Despues": "11:30",
+          "Ocurrencias": 1,
+          "Contexto": "005 En Santiago de Chile, a 10 de marzo de 2005, siendo las 11,30 horas, se reúne el C onsejo del Banco C",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     },
@@ -23772,6 +23804,14 @@
           "Despues": "celebrada el 12 de julio de 2005",
           "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 80 celebrada e l1 2 de julio de 2005 En Santiago de Chile, a 12 de julio de 2005, siendo las 11,30 horas, ",
           "Justificacion": "Cotejado contra data/raw/2005-07-12 - Actas.pdf: el documento dice «celebrada el12 de julio de 2005» y el corpus lo degradó a «e l1 2». La misma oración confirma el día («a 12 de julio de 2005») y el archivo se llama 2005-07-12. Se repone «el 12»."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "005 En Santiago de Chile, a 12 de julio de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     },
@@ -23784,6 +23824,14 @@
           "Despues": "Celebrada el 10 de febrero de 2005",
           "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 74 Celebrada el10 de febrero de 2005 En Santiago de Chile, a 10 de febrero de 2005, siendo las 11,30 horas",
           "Justificacion": "Falta el espacio entre el artículo y la cifra en el encabezado formulaico del acta. Evidencia de fuente: el PDF de 2005-06-09, de la misma serie, escribe el mismo encabezado con espacio («Celebrada el 9 de junio de 2005»), mientras el de 2005-07-12 sale pegado («celebrada el12»); la diferencia es un artefacto de extracción, no una variante del acta. La fecha queda confirmada por el cuerpo de la misma oración y por el nombre del archivo."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "5 En Santiago de Chile, a 10 de febrero de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     },
@@ -29955,6 +30003,157 @@
           "Ocurrencias": 1,
           "Contexto": "lo anterior, el Consejo adoptó el siguiente Acuerdo: 181-01-120112 – Tasa de Política Monetaria En su reunión men",
           "Justificacion": "Raya en vez de guion como separador del número de acuerdo. Medido en el corpus: 129 filas usan el guion y 2 la raya, en la misma posición fija de la fórmula del Acuerdo."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:202:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "16,00 horas",
+          "Despues": "16:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "a del país, le ha informado que se incorporará a ella a las 16,00 horas, ya que ha debido concurrir a una reuni",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:214:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "12,50 horas",
+          "Despues": "12:50 horas",
+          "Ocurrencias": 1,
+          "Contexto": " Presidente, señor Vittorio Corbo, suspende la Sesión a las 12,50 horas e informa que la misma se reanudará a l",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "16,00 horas",
+          "Despues": "16:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "a las 12,50 horas e informa que la misma se reanudará a las 16,00 horas.",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:214:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "16,00 horas",
+          "Despues": "16:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "Siendo las 16,00 horas, se reanuda la Sesión de Política Monet",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:220:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "17,00 horas",
+          "Despues": "17:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "aprueba el texto del Comunicado. Se levanta la Sesión a las 17,00 horas.",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:221:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "2005 En Santiago de Chile, a 12 de mayo de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:279:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,45 horas",
+          "Despues": "11:45 horas",
+          "Ocurrencias": 1,
+          "Contexto": "2005 En Santiago de Chile, a 9 de junio de 2005, siendo las 11,45 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:312:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "05 En Santiago de Chile, a 11 de agosto de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:349:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "13,10 horas",
+          "Despues": "13:10 horas",
+          "Ocurrencias": 1,
+          "Contexto": " Presidente, señor Vittorio Corbo, suspende la Sesión a las 13,10 horas e informa que la misma se reanudará a l",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-09-08:367:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "En Santiago de Chile, a 8 de septiembre de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-09-08:387:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "13,12 horas",
+          "Despues": "13:12 horas",
+          "Ocurrencias": 1,
+          "Contexto": " Presidente, señor Vittorio Corbo, suspende la Sesión a las 13,12 horas e informa que la misma se reanudará a l",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-10-11:401:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "11,30 horas",
+          "Despues": "11:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "5 En Santiago de Chile, a 11 de octubre de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
+          "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
         }
       ]
     }

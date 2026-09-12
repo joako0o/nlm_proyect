@@ -405,6 +405,8 @@ Para leer una sesión entera al margen del plan:
 
 | 115–123 | 2011-07-14 | 103 | **sesión cerrada 98/98** (5 ya estaban anotadas) · 13 actores · cola vacía, 2b cero, 2c cero → **ningún corte** · 1 acento real («solícita»→solicita, 2 vs 217) · revisar la fórmula del Acuerdo completa destapó 4 defectos más («Tasade», minúscula en nombre propio ×4, raya ×2) corregidos en 7 actas · 1 op extendida en vez de apilada (§53) |
 
+| 124–132 | 2011-05-12 | 102 | **sesión cerrada 98/98** (4 ya estaban anotadas) · 11 actores · cola 1 caso ya partido en 3 segmentos, 2b cero, 2c cero → **ningún corte** · 6 acentos, todos correctos, cero correcciones locales · revisar la fórmula de la hora destapó el **pase de la coma**: 551 con dos puntos contra 18 con coma, corregidas en 17 filas y 11 actas (§54) |
+
 Para anotar una ronda leída:
 
 ```

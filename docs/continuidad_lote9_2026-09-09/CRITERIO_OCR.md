@@ -3181,3 +3181,55 @@ mandan el §15 y el §43. Apilar una segunda operación habría abortado el lote
 · `T a s a`/`T a sa` 16 → **0** · fórmula correcta 110 → **131** · `Texto` intacto en las 9.725.
 
 Registro: **1.568 filas / 2.608 operaciones**.
+
+---
+
+## §54. Sesión 2011-05-12 + pase transversal de la hora con coma (18 casos, 11 actas)
+
+102 filas, 11 actores. La cola daba un caso (padre 4054) **ya partido en tres segmentos**; 2b = 0 y
+2c = 0. Siete firmas corridas, **ningún corte**. Los 6 candidatos de acento son cuatro verbos
+(`cambió`, `hacía`, `incrementó`, `argumentó`) y dos interrogativos indirectos (`cuánto`). **Cero
+correcciones locales.**
+
+### La segunda fórmula fija que se revisó: la hora
+
+El §53 dejó el método — revisar la fórmula completa, no la variante medida. Aplicado a la fórmula de
+la hora:
+
+| forma | apariciones |
+|---|---|
+| `HH:MM horas` | **551** |
+| `HH,MM horas` | **18** |
+
+Las 18 están en **17 filas y 11 actas** distintas, y todas en contexto horario inequívoco:
+
+```
+…a 11 de enero de 2005, siendo las 11,30 horas, se reúne el Consejo…
+…el Presidente, señor Vittorio Corbo, suspende la Sesión a las 12,50 horas…
+…e informa que la misma se reanudará a las 16,00 horas.
+…aprueba el texto del Comunicado. Se levanta la Sesión a las 17,00 horas.
+…a otros precios.” 17,00 horas. El Consejo aprueba el texto…
+```
+
+No son decimales: son horas y minutos. Es la **misma familia** que las 7 correcciones ya registradas
+del punto y coma (`16;55 horas` → `16:55 horas`, tipo `PUNTUACION`), así que se usó el mismo tipo.
+
+### Lo que no se toca
+
+Los **rangos con guion** son otra cosa y quedaron intactos: `46-50 horas` (`2005-03-10:151:1`) y
+`0-45 horas` (`2005-04-07:207:9`) — 2 antes, 2 después.
+
+### Un ancla recortada
+
+En `2005-03-10:140:1` el tramo `11,30 horas` choca con una operación ya registrada que **empieza
+justo en « horas»** (`' horas, se reúne el C onsejo…'`, del pase de palabras partidas). Dos tramos
+solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden, así que en vez de apilar
+**se recortó el ancla** a `11,30` → `11:30`. El generador de lotes ahora recorta por la derecha
+cuando el tramo siguiente está ocupado; antes abortaba.
+
+### Verificado
+
+coma 18 → **0** · dos puntos 544 → **569** (= 544 + 18 de coma + 7 de punto y coma ya registradas) ·
+rangos con guion 2 → **2** · `Texto` intacto en las 9.725.
+
+Registro: **1.579 filas / 2.626 operaciones**.

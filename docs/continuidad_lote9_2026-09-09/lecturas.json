@@ -46564,7 +46564,987 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2011-07-14",
       "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-05-12:3971:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3971:1",
+      "ID_Padre": "3971",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1345,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3973:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3973:1",
+      "ID_Padre": "3973",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 4134,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3974:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3974:1",
+      "ID_Padre": "3974",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 107,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3975:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3975:1",
+      "ID_Padre": "3975",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 169,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3976:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3976:1",
+      "ID_Padre": "3976",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 290,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3977:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3977:1",
+      "ID_Padre": "3977",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 92,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3977:2": {
+      "ID_Intervencion": "RPM-2011-05-12:3977:2",
+      "ID_Padre": "3977",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 243,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3978:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3978:1",
+      "ID_Padre": "3978",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 115,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3978:2": {
+      "ID_Intervencion": "RPM-2011-05-12:3978:2",
+      "ID_Padre": "3978",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 258,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3979:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3979:1",
+      "ID_Padre": "3979",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 227,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3980:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3980:1",
+      "ID_Padre": "3980",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 256,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3981:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3981:1",
+      "ID_Padre": "3981",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 378,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3982:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3982:1",
+      "ID_Padre": "3982",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 75,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3982:2": {
+      "ID_Intervencion": "RPM-2011-05-12:3982:2",
+      "ID_Padre": "3982",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 29,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3983:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3983:1",
+      "ID_Padre": "3983",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2129,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3984:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3984:1",
+      "ID_Padre": "3984",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 229,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3984:2": {
+      "ID_Intervencion": "RPM-2011-05-12:3984:2",
+      "ID_Padre": "3984",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3207,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3984:3": {
+      "ID_Intervencion": "RPM-2011-05-12:3984:3",
+      "ID_Padre": "3984",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 407,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3985:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3985:1",
+      "ID_Padre": "3985",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 386,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3986:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3986:1",
+      "ID_Padre": "3986",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 335,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3987:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3987:1",
+      "ID_Padre": "3987",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 459,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3988:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3988:1",
+      "ID_Padre": "3988",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 485,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3989:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3989:1",
+      "ID_Padre": "3989",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 184,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3990:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3990:1",
+      "ID_Padre": "3990",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 256,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3991:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3991:1",
+      "ID_Padre": "3991",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 82,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3992:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3992:1",
+      "ID_Padre": "3992",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 261,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3993:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3993:1",
+      "ID_Padre": "3993",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 250,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3994:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3994:1",
+      "ID_Padre": "3994",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 154,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3995:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3995:1",
+      "ID_Padre": "3995",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1483,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3996:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3996:1",
+      "ID_Padre": "3996",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 937,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3997:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3997:1",
+      "ID_Padre": "3997",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 814,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3998:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3998:1",
+      "ID_Padre": "3998",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 488,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3999:1": {
+      "ID_Intervencion": "RPM-2011-05-12:3999:1",
+      "ID_Padre": "3999",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 298,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:3999:2": {
+      "ID_Intervencion": "RPM-2011-05-12:3999:2",
+      "ID_Padre": "3999",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1530,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4000:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4000:1",
+      "ID_Padre": "4000",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 828,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4001:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4001:1",
+      "ID_Padre": "4001",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 135,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4002:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4002:1",
+      "ID_Padre": "4002",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1886,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4004:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4004:1",
+      "ID_Padre": "4004",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 886,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4005:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4005:1",
+      "ID_Padre": "4005",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 273,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4006:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4006:1",
+      "ID_Padre": "4006",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 517,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4007:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4007:1",
+      "ID_Padre": "4007",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 262,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4008:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4008:1",
+      "ID_Padre": "4008",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 417,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4009:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4009:1",
+      "ID_Padre": "4009",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 2029,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4010:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4010:1",
+      "ID_Padre": "4010",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 777,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4011:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4011:1",
+      "ID_Padre": "4011",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 263,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4012:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4012:1",
+      "ID_Padre": "4012",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 602,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4012:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4012:2",
+      "ID_Padre": "4012",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 845,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4013:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4013:1",
+      "ID_Padre": "4013",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 152,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4014:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4014:1",
+      "ID_Padre": "4014",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1425,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4015:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4015:1",
+      "ID_Padre": "4015",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 83,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4016:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4016:1",
+      "ID_Padre": "4016",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 262,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4017:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4017:1",
+      "ID_Padre": "4017",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 80,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4018:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4018:1",
+      "ID_Padre": "4018",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2966,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4019:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4019:1",
+      "ID_Padre": "4019",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 95,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4020:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4020:1",
+      "ID_Padre": "4020",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 593,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4021:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4021:1",
+      "ID_Padre": "4021",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 215,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4022:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4022:1",
+      "ID_Padre": "4022",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 188,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4023:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4023:1",
+      "ID_Padre": "4023",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 445,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4024:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4024:1",
+      "ID_Padre": "4024",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1011,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4025:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4025:1",
+      "ID_Padre": "4025",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 215,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4026:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4026:1",
+      "ID_Padre": "4026",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 448,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4027:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4027:1",
+      "ID_Padre": "4027",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 365,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4028:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4028:1",
+      "ID_Padre": "4028",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 507,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4029:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4029:1",
+      "ID_Padre": "4029",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4030:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4030:1",
+      "ID_Padre": "4030",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1959,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4031:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4031:1",
+      "ID_Padre": "4031",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 262,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4032:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4032:1",
+      "ID_Padre": "4032",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 854,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4033:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4033:1",
+      "ID_Padre": "4033",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 97,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4033:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4033:2",
+      "ID_Padre": "4033",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 324,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4034:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4034:1",
+      "ID_Padre": "4034",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 212,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4035:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4035:1",
+      "ID_Padre": "4035",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 939,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4036:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4036:1",
+      "ID_Padre": "4036",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 120,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4037:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4037:1",
+      "ID_Padre": "4037",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 895,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4038:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4038:1",
+      "ID_Padre": "4038",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 166,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4039:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4039:1",
+      "ID_Padre": "4039",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2241,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4040:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4040:1",
+      "ID_Padre": "4040",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4041:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4041:1",
+      "ID_Padre": "4041",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2967,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4042:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4042:1",
+      "ID_Padre": "4042",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 409,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4042:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4042:2",
+      "ID_Padre": "4042",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 142,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4042:3": {
+      "ID_Intervencion": "RPM-2011-05-12:4042:3",
+      "ID_Padre": "4042",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 184,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4043:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4043:1",
+      "ID_Padre": "4043",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 6295,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4044:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4044:1",
+      "ID_Padre": "4044",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4045:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4045:1",
+      "ID_Padre": "4045",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 2810,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4047:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4047:1",
+      "ID_Padre": "4047",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 7738,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4049:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4049:1",
+      "ID_Padre": "4049",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 4128,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4049:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4049:2",
+      "ID_Padre": "4049",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4050:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4050:1",
+      "ID_Padre": "4050",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 5191,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4051:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4051:1",
+      "ID_Padre": "4051",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 165,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4051:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4051:2",
+      "ID_Padre": "4051",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 5476,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4052:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4052:1",
+      "ID_Padre": "4052",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 152,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4052:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4052:2",
+      "ID_Padre": "4052",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 3876,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4053:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4053:1",
+      "ID_Padre": "4053",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 7446,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4053:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4053:2",
+      "ID_Padre": "4053",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 113,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4054:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4054:1",
+      "ID_Padre": "4054",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 191,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4054:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4054:2",
+      "ID_Padre": "4054",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1399,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4054:3": {
+      "ID_Intervencion": "RPM-2011-05-12:4054:3",
+      "ID_Padre": "4054",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 539,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4055:1": {
+      "ID_Intervencion": "RPM-2011-05-12:4055:1",
+      "ID_Padre": "4055",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 722,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
+    },
+    "RPM-2011-05-12:4055:2": {
+      "ID_Intervencion": "RPM-2011-05-12:4055:2",
+      "ID_Padre": "4055",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 39,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-05-12",
+      "Justificacion": "Sesión 2011-05-12 (102 filas, 100.689 caracteres, 11 actores). La cola multihablante daba un caso, el padre 4054, que ya está partido en tres segmentos en la base; las redes 2b y 2c dieron cero. Siete firmas corridas, ningún corte. Los 6 candidatos de acento en 5 filas son todos formas correctas: cuatro verbos en pasado o imperfecto («esta cambió con la nueva encuesta», «porque hacía muy engorroso el proceso», «el IPCX1 se incrementó en 0,1%», «hace algunos meses argumentó que no era conveniente») y dos interrogativos indirectos («la decisión sobre cuánto debiera ser el ajuste», «cuánto sería lo más adecuado ajustar»). Cero correcciones locales. Revisando otra fórmula fija, la de la hora, apareció un pase transversal grande: medido en el corpus, «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, en 17 filas y 11 actas distintas, todas en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No son decimales: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma. Se corrigieron las 18 como PUNTUACION. Los rangos con guion («46-50 horas» y «0-45 horas») son otra cosa y no se tocaron: quedaron 2 antes y 2 después. En 2005-03-10:140:1 el tramo «11,30 horas» chocaba con una operación ya registrada que empieza justo en « horas», así que el ancla se recortó a «11,30» en vez de apilar."
     }
   },
-  "Total_Leidas": 4309
+  "Total_Leidas": 4407
 }
