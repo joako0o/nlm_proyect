@@ -24,7 +24,16 @@ import sys
 sys.path.insert(0, 'scripts')
 from diagnosticar_finales import read_rows  # noqa: E402
 
-V7 = pathlib.Path('data/releases/continuidad_procedimental_v7/consolidado_base_referencia.xlsx')
+# La lectura se hace sobre la entrega vigente. Era v7 hasta que se publicó la
+# v8, que añade una fila (RPM-2008-08-14:1995:2, el corte curado del lote10);
+# mientras el lector apuntara a v7 esa fila no existía para él y la sesión
+# 2008-08-14 aparecía cerrada cuando en realidad le faltaba una.
+#
+# OJO: el plan de rondas (plan_rondas.json, 605 rondas) se generó sobre v7 y NO
+# se regenera. Regenerarlo renumeraría las rondas y rompería las referencias ya
+# escritas en la documentación (§33). Las rondas siguen siendo válidas como
+# agrupación de lectura; lo único que cambia es el universo de filas.
+BASE_ACTUAL = pathlib.Path('data/releases/continuidad_procedimental_v8/consolidado_base_referencia.xlsx')
 LECT = pathlib.Path('docs/continuidad_lote9_2026-09-09/lecturas.json')
 PLAN = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.json')
 MANIF = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.csv')
@@ -46,7 +55,7 @@ def cab(r, parte=''):
 
 
 def filas():
-    rows = read_rows(V7)
+    rows = read_rows(BASE_ACTUAL)
     for r in rows:
         r['Texto'] = r.get('Texto') or ''
         r['ID_Intervencion'] = str(r['ID_Intervencion'])
@@ -128,7 +137,7 @@ def construir():
                      'larga primero- y dentro de cada sesion las filas van en orden de acta. '
                      'Las filas que no caben en un tramo se parten en varias rondas.'),
         'Limite_Chars_Por_Ronda': LIM,
-        'Base': str(V7),
+        'Base': str(BASE_ACTUAL),
         'Filas_Corpus': len(rows),
         'Filas_Ya_Leidas': len(leidas),
         'Filas_Pendientes': len(pend),
