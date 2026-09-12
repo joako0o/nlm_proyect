@@ -165,6 +165,70 @@ def detector_partida(salida: dict, freq: Counter, min_frec: int, limite: int) ->
     print(f'  total candidatos: {len(casos)} en {len({c[0] for c in casos})} filas')
 
 
+def detector_partida_letra(salida: dict, freq: Counter, min_frec: int,
+                           limite: int) -> None:
+    """Palabra partida cuya **segunda** mitad es una letra: «clim a», «Análisi s».
+
+    Es el punto ciego de ``detector_partida`` que §23 y §27 dejaron escrito y que
+    **no** se puede abrir relajando su guarda. Allí lo que bloquea es
+    ``freq[b] >= 50``, y la segunda mitad es justamente ``a`` (37.528 veces),
+    ``o``, ``e``, ``s``: letras frecuentes *porque* este defecto las esparce.
+    Relajar la guarda de la primera mitad metería «con sumo cuidado»->«consumo»
+    (``TestLaGuardaNoSePuedeAbrir``); por eso esto es otro detector y no un
+    parche al anterior. Los cuatro casos que esa prueba protege siguen fuera
+    aquí, porque en ninguno la segunda mitad es una letra.
+
+    La regla que sí discrimina va por el lado de la **primera** mitad: si el
+    primer trozo es marginal en el corpus, no es una palabra, y si al pegarle la
+    letra aparece una palabra que sí lo es, el espacio sobra. Marginal significa
+    ``freq <= 1`` **o** ``freq * 20 <= freq[junta]``: lo primero cubre la pieza
+    que sólo aparece aquí, lo segundo la que el OCR partió más de una vez
+    (``estim a`` aparece 4 veces y ``estima`` 1.283).
+
+    Dos trampas medidas al escribirlo:
+
+    1. Pedir ``freq[primera] == 0`` no sirve: la pieza dañada aparece **una**
+       vez, que es esta misma ocurrencia. Es la trampa 3 de ``detector_deletreada``.
+    2. Pedir que la palabra junta sea frecuente pierde justamente el caso que
+       motivó el detector: ``profundizarl o`` tiene como destino una palabra que
+       aparece 1 vez. Por eso ``min_frec`` vale 1 aquí y no los 20-30 de los otros.
+
+    Medido en §31 sobre las 9.723 filas: **39 candidatos, 39 verdaderos**. No es
+    una regla automática: imprime casos para revisarlos uno por uno, y cuando el
+    candidato cae dentro de una carrera letra por letra más larga (``m e d id o``)
+    lo que hay que corregir es la carrera entera, no el par.
+    """
+    print('--- detector partida_letra (segunda mitad de una letra) ---')
+    casos = []
+    for rid in sorted(salida):
+        t = salida[rid]
+        toks = list(TOKEN.finditer(t))
+        for k in range(len(toks) - 1):
+            a, b = toks[k], toks[k + 1]
+            if len(b.group()) != 1 or len(a.group()) < 2:
+                continue
+            if t[a.end():b.start()] != ' ':
+                continue                      # no los separa un único espacio
+            junta = a.group() + b.group()
+            if freq.get(junta, 0) < min_frec:
+                continue
+            fa = freq.get(a.group(), 0)
+            if fa > 1 and fa * 20 > freq[junta]:
+                continue                      # la primera pieza es palabra corriente
+            casos.append((rid, a.start(), a.group(), b.group(), junta, freq[junta], t))
+    vistos = defaultdict(int)
+    for rid, i, a, b, junta, f, t in casos:
+        vistos[junta] += 1
+        if vistos[junta] > 1:
+            continue
+        print('  %-14s %-3s -> %-16s (frec %5d)  %-22s ...%s...'
+              % (a, b, junta, f, rid,
+                 t[max(0, i - 32):i + len(a) + len(b) + 24].replace('\n', '⏎')))
+        if sum(vistos.values()) >= limite:
+            break
+    print(f'  total candidatos: {len(casos)} en {len({c[0] for c in casos})} filas')
+
+
 CORTO = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{1,4}')
 CARRERA = re.compile(r'(?<![A-Za-zÁÉÍÓÚÜÑáéíóúüñ])'
                      r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{1,4}'
@@ -243,7 +307,8 @@ def detector_deletreada(salida: dict, freq: Counter, min_frec: int,
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--base', type=Path, default=core.BASE)
-    ap.add_argument('--detector', choices=['acento', 'partida', 'deletreada'])
+    ap.add_argument('--detector',
+                    choices=['acento', 'partida', 'deletreada', 'partida_letra'])
     ap.add_argument('--todo', action='store_true')
     ap.add_argument('--min-frec', type=int, default=20)
     ap.add_argument('--limite', type=int, default=20)
@@ -268,6 +333,12 @@ def main() -> int:
         print()
     if a.todo or a.detector == 'deletreada':
         detector_deletreada(salida, freq, a.min_frec, a.limite)
+        print()
+    if a.todo or a.detector == 'partida_letra':
+        # min_frec no aplica: lo que discrimina es que la primera pieza sea
+        # marginal, no que la palabra junta sea frecuente. Exigir frecuencia
+        # perdería «profundizarl o», cuyo destino aparece 1 vez (§31).
+        detector_partida_letra(salida, freq, 1, a.limite)
     return 0
 
 

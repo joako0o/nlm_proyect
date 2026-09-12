@@ -1696,7 +1696,139 @@ Estado tras §30: **1.405 filas corregidas, 2.339 operaciones, 206 marcadas, `Te
 las 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **36 de 131**; filas leídas
 **2.608 de 9.723**.
 
+---
 
+## §31. Dos familias que se cerraron sin tocarlas, y un punto ciego que resultó ser transversal
 
+La sesión `2007-01-11` (rondas 235-241, 50 filas) es una reunión con IPoM: presentaciones largas
+del staff, ronda de comentarios y votación. **Una sola voz en las 50 filas.** El pre-cernido marcó
+35 verbos de turno que «introducen a otro» y los 35 son el estilo en tercera persona del acta
+(«Señala el señor Ministro que…», «Indica el señor Consejero…», «Manifiesta el señor Presidente…»)
+o referencias a algo dicho antes («la afirmación del Gerente de Estudios señor Valdés», «está de
+acuerdo con la impresión del Consejero señor Manuel Marfán»). La regla de §25 funciona: un verbo
+de turno sólo delata una segunda voz si introduce a alguien que no es el hablante de la fila, y
+aquí el «otro» es siempre el propio hablante nombrado por su cargo.
 
+### Dos familias que se cierran sin corregir nada
 
+**La hora escrita con punto (`17.15 horas`) NO es un defecto.** En el corpus hay 39 filas con
+`N.NN horas` contra 550 con `N:NN horas`, y 15 filas tienen **las dos formas**, 12 de ellas en la
+misma plantilla: «suspende la Sesión a las 14.30 horas e informa que la misma se reanudará a las
+16:00 horas». Eso parecía concluyente: la misma frase, dos puntuaciones. Pero los dos PDF del
+repositorio zanjaron la pregunta, y la respuesta es la contraria de la que sugería el conteo:
+
+| PDF | «Se levanta la Sesión a las…» | otras horas del mismo acta |
+|---|---|---|
+| `2005-06-09 - Actas.pdf` | **16.45** | `13:10 horas`, `16:00 horas`, `16.30 hrs` |
+| `2005-07-12 - Actas.pdf` | **16.50** | `13:00 horas`, `16:00 horas` |
+
+La fuente escribe con punto la hora del cierre y con dos puntos las demás; el corpus reproduce
+fielmente esa inconsistencia (`RPM-2005-06-09:295:1` = `16.45`, `RPM-2005-07-12:311:1` = `16.50`).
+Corregir las 39 filas habría sido fabricar una uniformidad que el acta no tiene. Es la regla de
+§17 al revés: allí el PDF desmintió al corpus; aquí lo confirma. **No se toca.**
+
+**`A continuación,.` tampoco.** Son 76 filas y la duda era si la coma antes del punto es un
+defecto de puntuación o el resto de una frase cortada. Medido: **las 76 ocurrencias terminan la
+fila**. No es una coma mal puesta: es el límite de segmentación, el punto donde el acta dice
+«A continuación, [se da paso a…]» y el tramo siguiente quedó en la fila siguiente, atribuida a
+otro hablante. Borrar la coma no arreglaría nada y taparía el corte. **No se toca**, y la familia
+queda adjudicada: no es OCR.
+
+### El punto ciego que resultó ser una familia de 40
+
+`1054:1` tenía «sea necesario **profundizarl o**. En su opinión…». `detector_partida` daba 0
+candidatos en las 50 filas, y no es un bug que se arregle abriendo su guarda: lo que bloquea el
+caso es `freq[segunda mitad] >= 50`, y la segunda mitad es una letra (`a` aparece 37.528 veces,
+`o`, `e`, `s`). Bajar `--min-frec` de 30 a 5 no cambia nada, porque el bloqueo no viene por ahí.
+Y abrir la guarda de la primera mitad ya está medido y prohibido (§27: mete «con sumo
+cuidado» → «consumo»).
+
+La regla que sí discrimina va por el otro lado: **si la primera pieza es marginal en el corpus no
+es una palabra, y si al pegarle la letra aparece una que sí lo es, el espacio sobra.** Marginal =
+`freq <= 1` **o** `freq * 20 <= freq[junta]` (lo segundo cubre la pieza que el OCR partió varias
+veces: `estim a` aparece 4 veces y `estima` 1.283). Se promovió a
+`scripts/escanear_corpus.py::detector_partida_letra` con 8 pruebas, incluidas las cuatro de
+`TestLaGuardaNoSePuedeAbrir`, que siguen fuera porque en ninguna la segunda mitad es una letra.
+
+Medido sobre las 9.723 filas: **40 candidatos, 40 verdaderos** — `clim a`, `últim o`, `consum o`,
+`form a`, `habrí a`, `hacerl o`, `darl e`, `aumentarl a`, `mantenerl a`, `subirl a`, `ocurri ó`,
+`tem a`, `Inform e`, `monetari a`, `sistem a`, `próxim o`, `conjunt o`, `Análisi s`, `medi a`,
+`coment a`, `posicione s`, `efectuad o`, `consecuenci a`, `IPo M`, `torn o`, `apreci a`, `com o`,
+`cas i`, `Agreg a`, `acertad a`, `trayectori a`, `permitirí a`, `sugerí a`, `estim a`,
+`profundizarl o`. Se corrigieron **58 palabras partidas en 44 filas** del corpus entero, no sólo
+de esta sesión: la lectura de una sesión destapó defectos de 2005, 2006, 2008, 2009 y 2010.
+
+Dos trampas al escribir el detector, las dos medidas:
+
+1. **Pedir `freq[primera] == 0` no sirve.** La pieza dañada aparece **una** vez, que es ésa. Con
+   `== 0` el detector devolvía 0 candidatos con `profundizarl o` todavía en la salida: la trampa 3
+   de §26, otra vez.
+2. **Pedir que la palabra junta sea frecuente pierde el caso que motivó el detector.**
+   `profundizarlo` aparece 1 vez. Por eso este detector se llama con `min_frec=1`.
+
+### La misma regla con la segunda mitad de 2-4 letras: 91 %, y por eso no es regla automática
+
+Con la primera pieza marginal y la segunda de 2 a 4 letras aparecen 23 candidatos. **21 son
+verdaderos** (`Estados Uni dos`, `tam poco`, `consecuentem ente`, `Dem anda`, `hídri ca`,
+`prim era`, `sustantivam ente`, `sig no`, `seña la` ×2, `retroced ido`, `tranqui lo`, `tend ido`
+×2, `vincu la`, `acumu lan`, `repli ca`, `fundamen tal`, `aliment icia`, `made ra`,
+`eventua les`) y se corrigieron. Los dos que no:
+
+- **`desorden en`** (`6797:1`): «se advierte un grado de **desorden en** lo que respecta a la
+  forma como se está…». Es español correcto; juntarlo daría «desordenen», un verbo. Estadísticamente
+  es idéntico a los 21 buenos: primera pieza marginal, unión atestiguada. **La diferencia es
+  semántica**, exactamente la conclusión de §27.
+- **`bail out`** (`3089:2`): variante legítima del inglés; el corpus usa `bailout` y `bail out`.
+  No es ortográficamente imposible, así que no entra por §3 ter.
+
+Con `desorden en` en la lista, la regla con segunda mitad larga es un **generador de candidatos al
+91 %**, no una regla: se aplica leyendo, y por eso no se promovió a detector permanente. El de una
+letra sí, porque ahí la precisión medida fue 40/40.
+
+### Las dos enmiendas, y un bug del generador que las produjo
+
+Tres candidatos caían dentro del tramo de una operación ya registrada, y ahí la regla de §15 es
+extender, no apilar:
+
+| fila | operación existente | qué se hizo |
+|---|---|---|
+| `144:1` | `LETRA_CONFUNDIDA` «r datos efectivos de! últim o trim estre» → «…del últim o trimestre» | se **enmendó** el `Despues` a «…del último trimestre»: la operación ya cubría el tramo y había conservado `últim o` |
+| `2334:1` | `ESPACIO_INDEBIDO` «ión pasada , se acumu » | se **enmendó** el `Despues` quitándole también el espacio final: el espacio que parte `acumu lan` era el último carácter del tramo |
+| `2253:2` | `ESPACIO_INDEBIDO` «o personal , queda mas» | **operación nueva** con ancla «tranqui lo por», sin «mas»: el espacio está fuera del tramo ajeno, así que no hay solapamiento |
+
+El generador del lote tenía un bug que produjo el primer rechazo: componía el ancla buscando la
+frase en la **BASE**, y como toma la primera ocurrencia, en `570:1` («mantenerl a» dos veces, la
+primera ya corregida por §16-§17) apuntó al tramo ya arreglado y se solapó con la operación
+existente. **El ancla se compone sobre la SALIDA**, que es donde el defecto sigue vivo, y se exige
+que sea única en las dos versiones. Además el generador ahora pre-verifica el solapamiento con las
+operaciones registradas y separa lo que va por `enmendar_operacion.py`, en vez de llegar al
+rechazo de `agregar_correcciones_ocr.py`.
+
+Otro bug propio, del mismo lote: con dos ocurrencias de la misma frase en una fila (`1308:2` tiene
+«monetari a en 5% anual.» dos veces) el generador elegía **siempre la primera** y emitía dos anclas
+idénticas. Se arregla llevando la cuenta de qué ocurrencia es cada candidata.
+
+### Los residuos de la sesión, y la letra suelta que no se borra
+
+| fila | qué había | veredicto |
+|---|---|---|
+| `1038:1` | `…referida Universidad. /D` | **quitar**: la familia «barra + letras al final» tiene 3 casos (`/D`, `/xD`, ` v\ /y` en `5497:1`) y el tercero muestra el racimo entero |
+| `1046:2` | `…del Banco. /xD` | **quitar**, misma familia |
+| `1056:1` | `…están balanceados. 1-^ Por lo anterior…` | **quitar**: marcador de nota al pie mal leído, 1 ocurrencia en el corpus, mismo caso que `'1^` de §25 |
+| `1044:1` | `…producto potencial. k Respecto de inflación…` | **quitar**: « k » aparece 3 veces en el corpus y las 3 son residuo; a diferencia de la « V » de §8 ter, la «k» no tiene ningún uso legítimo atestiguado |
+| `1034:1` y `1024:2` | `J)` y `kJ)` en un límite de párrafo | **quitar**, con tres mediciones: las 4 «LETRA)» del corpus son cierres de sigla o este par; los dos PDF (45 páginas) no tienen ninguna enumeración con letra; las enumeraciones reales del acta son minúsculas o romanas (`a)`, `i)`, `iv)`) y las presentaciones del staff usan viñetas «•» (141 en 33 filas) |
+| `1024:2` | `(Purchasing Managers’Index)` | **reponer el espacio**: las otras 4 apariciones del corpus lo llevan, y un apóstrofo no pega dos palabras. El apóstrofo tipográfico no se toca: es estilo de la fuente |
+| `1050:1` | `…de 25 puntos base. i` | **marcar**: es la figura de `210:2` (§25). Hay **20 filas** que terminan en letra suelta tras un punto completo; las letras sueltas de mitad de fila sí son residuo seguro (` k `, ` U `) porque el texto sigue, pero al final no hay forma de distinguir sin el acta. La familia de 20 se revisa de una vez con los PDF, como la del Comunicado (§30) |
+| `1049:3` | `…reajuste tarifario eléctrico y por la l-P El Gerente…` | **marcar**: aquí el corte se ve, la cláusula queda a medias. «l-P» aparece 1 vez en 9.723 filas y no hay contraparte que fije la lectura; borrarlo dejaría «…y por la El Gerente…», que tapa el corte |
+| `1032:1` | `A continuación,.` | **no tocar** (ver arriba) |
+| `1058:1` | `17.15 horas` | **no tocar** (ver arriba) |
+| `1049:2` | `…de tendencia; Si Richard Freedman…` | **no tocar**: mayúscula tras punto y coma es del fuente; cambiar el signo por punto sería una decisión de puntuación, no de lectura óptica |
+
+La fila `147:1` (2005-03-10) quedó fuera del pase a propósito: su candidato (`id o`) es la cola de
+`m e d id o`, una carrera letra por letra, y lo que hay que corregir es la carrera entera. Es un
+recordatorio de que **el detector encuentra el par, pero el veredicto es sobre la fila**: cuando el
+candidato cae dentro de una carrera más larga, arreglar sólo el par deja «m e d ido».
+
+Estado tras §31: **1.418 filas corregidas, 2.405 operaciones, 208 marcadas, `Texto` intacto en las
+9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **37 de 131**; filas leídas **2.658 de
+9.723**. Suite local de OCR: **72 pruebas, OK**.

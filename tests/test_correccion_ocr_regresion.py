@@ -31,6 +31,7 @@ sys.path.insert(0, str(RAIZ / 'scripts'))
 
 import correcciones_ocr_v1 as core  # noqa: E402
 from diagnosticar_finales import read_rows  # noqa: E402
+from escanear_corpus import TOKEN  # noqa: E402
 
 # Formas dañadas llevadas a cero por las pasadas §9 a §14. Cada una con la
 # pasada que la resolvió, para que el mensaje de fallo diga dónde mirar.
@@ -89,8 +90,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 4
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1405
-MIN_OPERACIONES = 2339
+MIN_CORREGIDAS = 1418
+MIN_OPERACIONES = 2405
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -111,7 +112,7 @@ RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
 # bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
 # cierres ya documentados; si no, borrar revisiones del registro se vería como
 # una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
-MIN_CASOS_ADJUDICADOS = 204   # 170 abiertas + 34 cerradas al cierre del §30
+MIN_CASOS_ADJUDICADOS = 206   # 172 abiertas + 34 cierres al cierre de la sesion 2007-01-11
 MIN_CIERRES_COTEJO = 34
 
 # §19: punto pegado a letra. De las 45 ocurrencias, 36 son abreviatura legítima
@@ -140,6 +141,11 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         for rid, fila in cls.base.items():
             cls.salida[rid] = cls.corregidas.get(rid, fila['Texto'] or '')
         cls.reg = core.cargar()
+        # índices de frecuencia del corpus corregido: los usan las pruebas de
+        # familias de palabras partidas
+        cls.freq = Counter()
+        for t in cls.salida.values():
+            cls.freq.update(TOKEN.findall(t))
 
     def test_la_validacion_pasa(self):
         """El contrato completo del validador, incluido el control del Despues."""
@@ -468,6 +474,40 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                 restantes.append(f'{rid}: «{a.group()} {b.group()}» -> «{junta}»')
         self.assertEqual([], restantes[:20],
                          f'{len(restantes)} palabras partidas siguen en la salida:')
+
+    def test_no_quedan_partidas_con_segunda_mitad_de_una_letra(self):
+        """La familia nueva: «clim a», «profundizarl o», «Análisi s».
+
+        ``detector_partida`` no puede verla porque su guarda
+        ``freq[segunda mitad] >= 50`` bloquea las letras, y esa guarda no se puede
+        abrir (``TestLaGuardaNoSePuedeAbrir``). La ve ``detector_partida_letra``,
+        que discrimina por la primera mitad: si es marginal en el corpus no es una
+        palabra, y si al pegarle la letra aparece una que sí lo es, el espacio
+        sobra. Medido al nacer: 40 candidatos en las 9.723 filas, 40 verdaderos.
+
+        Queda una sola excepción y está documentada: ``RPM-2005-03-10:147:1``
+        («m e d id o»), donde el par es la cola de una carrera letra por letra y lo
+        que hay que corregir es la carrera entera, no el par.
+        """
+        restantes = []
+        for rid in sorted(self.salida):
+            t = self.salida[rid]
+            ks = list(TOKEN.finditer(t))
+            for k in range(len(ks) - 1):
+                a, b = ks[k], ks[k + 1]
+                if len(b.group()) != 1 or len(a.group()) < 2:
+                    continue
+                if t[a.end():b.start()] != ' ':
+                    continue
+                junta = a.group() + b.group()
+                if self.freq.get(junta, 0) < 1:
+                    continue
+                fa = self.freq.get(a.group(), 0)
+                if fa > 1 and fa * 20 > self.freq[junta]:
+                    continue
+                restantes.append(f'{rid}: «{a.group()} {b.group()}» -> «{junta}»')
+        self.assertEqual(['RPM-2005-03-10:147:1: «id o» -> «ido»'], restantes,
+                         f'la familia cambi\u00f3: {restantes[:10]}')
 
     def test_las_marcas_usan_el_vocabulario_cerrado(self):
         for marcas in self.marcas.values():

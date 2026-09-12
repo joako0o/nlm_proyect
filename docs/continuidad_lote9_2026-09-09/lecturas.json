@@ -29554,7 +29554,507 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2014-11-18",
       "Justificacion": "Sesion leida completa (rondas 230-234, 42 filas). Noviembre 2014: Pistelli, Fuentes, Naudon, Micco y los Consejeros; mantencion de la TPM en 3,0%. Las 42 filas son de una sola voz: el pre-cernido marco verbos de turno (acota en 6498:1, 6515:1, 6517:1) y menciones a Garcia (6489:1, 6508:3, 6510:1), pero con \\b en la expresion regular las coincidencias de verbo-que-introduce-a-otro son CERO, y las menciones son los traspasos y agradecimientos protocolares del Presidente Vergara. Sesion 42/42, 0 pendientes. Eje OCR: sesion excepcionalmente limpia — detector_partida 0, detector_deletreada 0, espacio-antes-de-signo 0, y ninguna de las familias conocidas (A continuacion, doble punto, guiones bajos, hora con punto y coma, barra suelta, comilla recta). Cero correcciones; 1 sola marca: 6517:3 se corta en «Las proyecciones de.» con la cita del Comunicado sin cerrar (§30)."
+    },
+    "RPM-2007-01-11:1022:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1022:1",
+      "ID_Padre": "1022",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1514,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1023:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1023:1",
+      "ID_Padre": "1023",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 121,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1024:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1024:2",
+      "ID_Padre": "1024",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 11431,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1025:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1025:1",
+      "ID_Padre": "1025",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 70,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1026:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1026:1",
+      "ID_Padre": "1026",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 625,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1026:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1026:2",
+      "ID_Padre": "1026",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 777,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1027:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1027:1",
+      "ID_Padre": "1027",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 316,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1028:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1028:1",
+      "ID_Padre": "1028",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 310,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1029:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1029:1",
+      "ID_Padre": "1029",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 203,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1029:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1029:2",
+      "ID_Padre": "1029",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 595,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1029:3": {
+      "ID_Intervencion": "RPM-2007-01-11:1029:3",
+      "ID_Padre": "1029",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 542,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1030:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1030:1",
+      "ID_Padre": "1030",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 219,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1031:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1031:1",
+      "ID_Padre": "1031",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 782,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1032:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1032:1",
+      "ID_Padre": "1032",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 569,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1033:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1033:2",
+      "ID_Padre": "1033",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 2621,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1034:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1034:1",
+      "ID_Padre": "1034",
+      "Actor": "Igal Magendzo Weinberger",
+      "Caracteres": 10032,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1035:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1035:1",
+      "ID_Padre": "1035",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 82,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1035:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1035:2",
+      "ID_Padre": "1035",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 213,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1036:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1036:1",
+      "ID_Padre": "1036",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 219,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1037:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1037:1",
+      "ID_Padre": "1037",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 467,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1038:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1038:1",
+      "ID_Padre": "1038",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 438,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1038:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1038:2",
+      "ID_Padre": "1038",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 434,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1039:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1039:1",
+      "ID_Padre": "1039",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 866,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1040:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1040:1",
+      "ID_Padre": "1040",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 387,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1041:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1041:1",
+      "ID_Padre": "1041",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 2448,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1042:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1042:1",
+      "ID_Padre": "1042",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 176,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1043:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1043:1",
+      "ID_Padre": "1043",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 2067,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1044:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1044:1",
+      "ID_Padre": "1044",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2531,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1045:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1045:1",
+      "ID_Padre": "1045",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 891,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1046:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1046:1",
+      "ID_Padre": "1046",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 784,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1046:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1046:2",
+      "ID_Padre": "1046",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 386,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1046:3": {
+      "ID_Intervencion": "RPM-2007-01-11:1046:3",
+      "ID_Padre": "1046",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 432,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1047:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1047:1",
+      "ID_Padre": "1047",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 851,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1047:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1047:2",
+      "ID_Padre": "1047",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1047:3": {
+      "ID_Intervencion": "RPM-2007-01-11:1047:3",
+      "ID_Padre": "1047",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 159,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1047:4": {
+      "ID_Intervencion": "RPM-2007-01-11:1047:4",
+      "ID_Padre": "1047",
+      "Actor": "Rodrigo Valdés Pulido",
+      "Caracteres": 9413,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1047:5": {
+      "ID_Intervencion": "RPM-2007-01-11:1047:5",
+      "ID_Padre": "1047",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 88,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1048:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1048:1",
+      "ID_Padre": "1048",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 3707,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1049:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1049:1",
+      "ID_Padre": "1049",
+      "Actor": "Esteban Jadresic Marinovic",
+      "Caracteres": 2193,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1049:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1049:2",
+      "ID_Padre": "1049",
+      "Actor": "Klaus Schmidt-Hebbel Dunker",
+      "Caracteres": 4682,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1049:3": {
+      "ID_Intervencion": "RPM-2007-01-11:1049:3",
+      "ID_Padre": "1049",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 2651,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1050:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1050:1",
+      "ID_Padre": "1050",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 3553,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1050:2": {
+      "ID_Intervencion": "RPM-2007-01-11:1050:2",
+      "ID_Padre": "1050",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 5675,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1051:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1051:1",
+      "ID_Padre": "1051",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 107,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1052:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1052:1",
+      "ID_Padre": "1052",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 5385,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1053:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1053:1",
+      "ID_Padre": "1053",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 4372,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1054:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1054:1",
+      "ID_Padre": "1054",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 3821,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1056:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1056:1",
+      "ID_Padre": "1056",
+      "Actor": "Vittorio Corbo Lioi",
+      "Caracteres": 2921,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1057:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1057:1",
+      "ID_Padre": "1057",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2503,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
+    },
+    "RPM-2007-01-11:1058:1": {
+      "ID_Intervencion": "RPM-2007-01-11:1058:1",
+      "ID_Padre": "1058",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 176,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2007-01-11",
+      "Justificacion": "Sesión 2007-01-11 (rondas 235-241, 50 filas): una sola voz en las 50. Los 35 verbos de turno que introducen a otro son el estilo en tercera persona del acta («Señala el señor Ministro que...», «Indica el señor Consejero...») o referencias a algo dicho antes; ninguno abre una segunda voz. Ocho correcciones en la sesión y dos marcas. Además la lectura destapó un punto ciego de detector_partida (segunda mitad de una letra) que resultó ser una familia transversal de 40 candidatos: se promovió el detector nuevo a scripts/ y se corrigieron 58 palabras partidas en 49 filas del corpus entero."
     }
   },
-  "Total_Leidas": 2608
+  "Total_Leidas": 2658
 }

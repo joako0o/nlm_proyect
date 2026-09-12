@@ -470,6 +470,14 @@
           "Despues": "cuando lo correcto hubiera sido mantenerla. En el primer caso",
           "Contexto": "vis a vis cuál es el costo de subir la tasa cuando lo correcto hubiera sido mantenerl a. En el primer caso, un costo importante de mantener",
           "Justificacion": "Segunda ocurrencia del mismo artefacto, con el contexto necesario para que el 'Antes' sea único dentro de la fila."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "fuera mantenerl a, tiene",
+          "Despues": "fuera mantenerla, tiene",
+          "Ocurrencias": 1,
+          "Contexto": " segundo caso, es decir, si subieran la tasa cuando lo correcto fuera mantenerl a, tiene como costo aumentar la actual brecha cambiaria en el sentido d",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «mantenerl a» -> «mantenerla». La evidencia es interna y doble: el primer trozo («mantenerl») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («mantenerla») es la que el propio corpus usa 59 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -3554,6 +3562,14 @@
           "Despues": "y empresas. Comenta q",
           "Contexto": "ostos de la electricidad y en las tarifas que pagan hogares y empresas . Comenta que aunque es difícil cuantificar con exactitud su impacto, e",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "un conjunt o de",
+          "Despues": "un conjunto de",
+          "Ocurrencias": 1,
+          "Contexto": "rte, menciona el señor Magendzo que en el último año se han sumado un conjunt o de shocks, en gran medida ligados a factores de oferta, cuya magnitud",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «conjunt o» -> «conjunto». La evidencia es interna y doble: el primer trozo («conjunt») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («conjunto») es la que el propio corpus usa 332 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -3958,6 +3974,14 @@
           "Ocurrencias": 1,
           "Contexto": "umento de la velocidad algo menor que lo que se estaba suponiendo para el IPoM, yeso explica la corrección de aproximadamente el 0,7% para el pr",
           "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "el IPo M, y",
+          "Despues": "el IPoM, y",
+          "Ocurrencias": 1,
+          "Contexto": " Soto señala que en las velocidades que se observan en el PIB y en el IPo M, y en la comparación con la situación del año 1998, lo primero que ll",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «IPo M» -> «IPoM». La evidencia es interna y doble: el primer trozo («IPo») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («IPoM») es la que el propio corpus usa 2489 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -4184,6 +4208,22 @@
           "Despues": "versus la crisis asiática. Hace presente",
           "Contexto": "lsas en economías emergentes y desarrolladas y de EMBI en esta crisis versus la crisis asiática.Hace presente que se ajustaron los gráficos de manera de poner ambas crisis en T en",
           "Justificacion": "Falta el espacio tras el punto. «Hace» va en mayúscula, así que es inicio de oración."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "se apreci a que",
+          "Despues": "se aprecia que",
+          "Ocurrencias": 1,
+          "Contexto": "e de Análisis Internacional indica que con respecto a commodities, se apreci a que éstos han aumentado de manera relativamente generalizada. El petr",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «apreci a» -> «aprecia». La evidencia es interna y doble: el primer trozo («apreci») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («aprecia») es la que el propio corpus usa 321 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "alimenticios com o granos",
+          "Despues": "alimenticios como granos",
+          "Ocurrencias": 1,
+          "Contexto": "ramente eso también se ha observado en algunos productos alimenticios com o granos y cereales. Referente a los elementos que podrían explicar la ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «com o» -> «como». La evidencia es interna y doble: el primer trozo («com») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («como») es la que el propio corpus usa 5932 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -4376,6 +4416,22 @@
           "Despues": " del Banco. Como cuar",
           "Contexto": "talles técnicos menores debieran ser delegados al Presidente del Banco . Como cuarto elemento de su voto, el Consejero señor Manuel Marfán se ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "estima acertad a la",
+          "Despues": "estima acertada la",
+          "Ocurrencias": 1,
+          "Contexto": "mentos que describen una situación singular, y es por ello que estima acertad a la recomendación de la Gerencia de División Estudios de incursionar e",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «acertad a» -> «acertada». La evidencia es interna y doble: el primer trozo («acertad») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («acertada») es la que el propio corpus usa 13 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "aclarar eventua les dudas",
+          "Despues": "aclarar eventuales dudas",
+          "Ocurrencias": 1,
+          "Contexto": " de prensa en la mañana siguiente para aportar más detalles y aclarar eventua les dudas. Para finalizar, sugiere que dado que la práctica del Consejo e",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «eventua les» -> «eventuales». La evidencia es interna y doble: el primer trozo («eventua») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («eventuales») es la que el propio corpus usa 112 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -5523,6 +5579,22 @@
           "Despues": "macroeconómica",
           "Contexto": "r que dados los acuerdos comerciales y el marco de política m acroeconómica los otros factores más cualitativos, como la PTF, tuvieran ",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 34 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "que, com o se",
+          "Despues": "que, como se",
+          "Ocurrencias": 1,
+          "Contexto": "cree que esa forma de ver las cosas se basa en algunas hipótesis que, com o se señalaba, al menos ofrecen alguna posibilidad de ser atacadas o po",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «com o» -> «como». La evidencia es interna y doble: el primer trozo («com») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («como») es la que el propio corpus usa 5932 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "reaccione consecuentem ente. La",
+          "Despues": "reaccione consecuentemente. La",
+          "Ocurrencias": 1,
+          "Contexto": "alquiera creería y brechas cerrándose, hacen que el mercado reaccione consecuentem ente. La otra idea que se plantea, señala el señor Ministro, es que el pro",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «consecuentem ente» -> «consecuentemente». La evidencia es interna y doble: el primer trozo («consecuentem») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («consecuentemente») es la que el propio corpus usa 10 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -5721,6 +5793,22 @@
           "Ocurrencias": 1,
           "Contexto": "e de Análisis Internacional destaca que respecto a los movimientos de paridades cambiarías respecto del dólar americano, durante el último mes, todas",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "habría llegado a un piso. kJ) Referido a inflación",
+          "Despues": "habría llegado a un piso. Referido a inflación",
+          "Ocurrencias": 1,
+          "Contexto": "ón, exhibiendo recuperaciones y existe la percepción de que su ajuste habría llegado a un piso. kJ) Referido a inflación, el Gerente de Análisis Internacional señala que las noticias han sid",
+          "Justificacion": "Racimo de basura en un límite de párrafo: «...su ajuste habría llegado a un piso. [kJ)] Referido a inflación, el Gerente de Análisis Internacional señala que...». Medido: «kJ)» aparece UNA sola vez en las 9.723 filas, y su gemelo «J)» estaba en «1034:1» de esta misma sesión, en la misma posición estructural (párrafo nuevo de una presentación del staff que empieza con «Referido a...» / «El Gerente de...»). Se descartó que fuera enumeración de la fuente con tres mediciones: las 4 «LETRA)» del corpus son cierres de sigla («M&E)», «(I)» ×2) o este par; los dos PDF del repositorio (45 páginas) no tienen ninguna enumeración con letra; y las enumeraciones que el acta sí usa son minúsculas o romanas («a)», «b)», «i)», «ii)», «iv)»). Las presentaciones del staff usan viñetas «•» (141 en 33 filas). No reemplaza ninguna palabra: se elimina (§8 bis). Tipo SIMBOLO_SUELTO."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "PMI (Purchasing Managers’Index) particularmente",
+          "Despues": "PMI (Purchasing Managers’ Index) particularmente",
+          "Ocurrencias": 1,
+          "Contexto": " de producción para Alemania los que fueron muy positivos. Referido a PMI (Purchasing Managers’Index) particularmente, las diferencias respecto a lo esperado son muy marginales y de todas",
+          "Justificacion": "Falta el espacio entre las dos palabras del indicador: «(Purchasing Managers’Index)». La forma con espacio es la del propio corpus en las otras cuatro apariciones («Purchasing Managers' Index» en 1312:1, «Purchasing Managers Index» en 1618:1, 2567:3 y 3025:2), y un apóstrofo no puede pegar dos palabras ni en inglés ni en español, así que la forma dañada es ortográficamente imposible: entra por §3 ter. Sólo se repone el espacio; el apóstrofo tipográfico no se toca, porque las dos grafías (’ y ') son legítimas y eso es estilo de la fuente, no lectura óptica."
         }
       ]
     },
@@ -6960,6 +7048,14 @@
           "Ocurrencias": 1,
           "Contexto": "ntos de portafolio adicionales o que, de producirse, se generen mayores efectos cambiarlos, puesto que el tipo de cambio real se ha mantenido dentro ",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "la trayectori a implícita",
+          "Despues": "la trayectoria implícita",
+          "Ocurrencias": 1,
+          "Contexto": "a evaluación de la coyuntura reciente, a fin de deducir cambios en la trayectori a implícita de la TPM coherente con la convergencia de la inflación a l",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «trayectori a» -> «trayectoria». La evidencia es interna y doble: el primer trozo («trayectori») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («trayectoria») es la que el propio corpus usa 1466 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -9852,6 +9948,14 @@
           "Despues": "l año 2008. En la tra",
           "Contexto": "no y que representa algo más de 30% de lo colocado en todo el año 2008 . En la trayectoria de los agregados monetarios, se aprecia una desacel",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "inflación, seña la el",
+          "Despues": "inflación, señala el",
+          "Ocurrencias": 1,
+          "Contexto": "e fines del año 2005 que corresponde a 5,9%. En materia de inflación, seña la el Gerente de Análisis Macroeconómico que en enero de 2009, que corre",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «seña la» -> «señala». La evidencia es interna y doble: el primer trozo («seña») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («señala») es la que el propio corpus usa 4816 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -11121,6 +11225,14 @@
           "Ocurrencias": 1,
           "Contexto": "uales han descrito muy bien tanto el Gerente de Investigación Financiera señor Klaus Schmidt- Hebbel, como el Consejero señor Jorge Desormeaux. Sin embargo, también ",
           "Justificacion": "Apellido partido por un espacio despues del guion. La seccion 5 prohibe RESOLVER o INVENTAR un nombre propio, y aqui no se hace ninguna de las dos cosas: se reune un nombre que el propio corpus escribe correctamente 122 veces contra 5 partidas, y que la lista de asistencia de las actas trae completo (\"don Klaus Schmidt-Hebbel Dunker\"). Prueba aplicada, que es la que autoriza la excepcion: la forma correcta existe en el corpus referida a la misma persona. Un caso como \"Claudios Soto\" no la pasaria, porque \"Claudio Soto\" no aparece en ninguna parte."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "están balanceados. 1-^ Por lo anterior",
+          "Despues": "están balanceados. Por lo anterior",
+          "Ocurrencias": 1,
+          "Contexto": " proyectado. Sin embargo, considera que los riesgos para la inflación están balanceados. 1-^ Por lo anterior, el Presidente señor Vittorio Corbo también vota por reducir la tasa ",
+          "Justificacion": "Residuo entre dos oraciones completas: «...los riesgos para la inflación están balanceados. [1-^] Por lo anterior, el Presidente señor Vittorio Corbo también vota por reducir la tasa...». Es la misma figura que «203:2» («...a considerar. '1^», §25): un marcador de nota al pie mal leído, con el orden invertido. Medido: «1-^» aparece UNA sola vez en las 9.723 filas. El texto fluye sin él y no reemplaza ninguna palabra, así que se elimina (§8 bis). Tipo SIMBOLO_SUELTO."
         }
       ]
     },
@@ -13646,6 +13758,14 @@
           "Despues": "mayoría",
           "Contexto": "erspectivas de crecimiento para el presente año, sean en su m ayoría más auspiciosas que las estim adas hace un par de trim estr",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 360 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "un clim a de",
+          "Despues": "un clima de",
+          "Ocurrencias": 1,
+          "Contexto": "das hace un par de trimestres. Lo anterior, sin duda ha propiciado un clim a de confianza en la recuperación de la actividad, que debiera seguir e",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «clim a» -> «clima». La evidencia es interna y doble: el primer trozo («clim») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («clima») es la que el propio corpus usa 58 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -13797,10 +13917,10 @@
         {
           "Tipo": "LETRA_CONFUNDIDA",
           "Antes": "r datos efectivos de! últim o trim estre",
-          "Despues": "r datos efectivos del últim o trimestre",
+          "Despues": "r datos efectivos del último trimestre",
           "Ocurrencias": 1,
           "Contexto": " No obstante, por regiones hay leves ajustes, básicamente por datos efectivos de! últim o trim estre del 2004. La proyección de crecimien",
-          "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real. | Se extiende esta operación ya registrada en vez de añadir otra, porque la palabra partida cae dentro del mismo tramo: dos defectos en el mismo tramo se resuelven extendiendo, no apilando."
+          "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!. AMPLIADA en §31: el tramo también contenía «últim o» partido, que el Despues original conservaba tal cual («del últim o trimestre»). Lo encontró detector_partida_letra («últim» es marginal y «último» aparece 3.601 veces) y como cae DENTRO de este tramo no se le puede apilar una operación encima: dos tramos solapados sobre el mismo texto virgen no se aplican en ningún orden (§15). Se extiende ésta. El Tipo no se cambia para no alterar la contabilidad de la familia del «!» registrada en §16-§17."
         },
         {
           "Tipo": "PALABRA_PARTIDA",
@@ -13887,6 +14007,30 @@
           "Despues": "mantiene",
           "Contexto": "a una apreciación de la moneda y una demanda interna que se m antiene débil, lo que se ha reflejado en un deterioro de los indica",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1069 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "del consum o y",
+          "Despues": "del consumo y",
+          "Ocurrencias": 1,
+          "Contexto": "(3,8% t/t anualizado), indicadores que dan cuenta de la fortaleza del consum o y la inversión, y la recuperación del mercado laboral. En contraste, ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «consum o» -> «consumo». La evidencia es interna y doble: el primer trozo («consum») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («consumo») es la que el propio corpus usa 2130 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "producción. Se estim a que los",
+          "Despues": "producción. Se estima que los",
+          "Ocurrencias": 1,
+          "Contexto": "d que no se ha reflejado en anuncios de incrementos de producción. Se estim a que los inventarios, tanto privados como en bolsa, continuarán reduci",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «estim a» -> «estima». La evidencia es interna y doble: el primer trozo («estim») es marginal en el corpus (4 apariciones, y ésas son ésta) y la forma junta («estima») es la que el propio corpus usa 1283 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "esta form a, se",
+          "Despues": "esta forma, se",
+          "Ocurrencias": 1,
+          "Contexto": "ferta estimado para el 2005 es de 200 mil toneladas métricas. De esta form a, se revisan al alza las proyecciones para el 2005 y el 2006; US$ 1,32",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «form a» -> «forma». La evidencia es interna y doble: el primer trozo («form») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («forma») es la que el propio corpus usa 993 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -14398,6 +14542,22 @@
           "Despues": "Menciona",
           "Contexto": "stá por verse sus efectos en los costos de la mano de obra. M enciona el Presidente señor Corbo, que estos factores pueden termin",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 760 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "el Inform e de",
+          "Despues": "el Informe de",
+          "Ocurrencias": 1,
+          "Contexto": "ento más adecuado de reevaluar las proyecciones de inflación es en el Inform e de Política Monetaria de mayo. En estas circunstancias, el Presidente",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «Inform e» -> «Informe». La evidencia es interna y doble: el primer trozo («Inform») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («Informe») es la que el propio corpus usa 764 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "de prim era y",
+          "Despues": "de primera y",
+          "Ocurrencias": 1,
+          "Contexto": " señor Corbo, que estos factores pueden terminar generando efectos de prim era y segunda vuelta en la inflación futura, que acelerarían la convergen",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «prim era» -> «primera». La evidencia es interna y doble: el primer trozo («prim») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («primera») es la que el propio corpus usa 466 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -14837,6 +14997,22 @@
           "Despues": "más",
           "Contexto": "a el señor Valdés que si bien parece haber disminuido en lo m ás reciente, persiste el riesgo de un deterioro más pronunciad",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 11942 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "el próxim o reajuste",
+          "Despues": "el próximo reajuste",
+          "Ocurrencias": 1,
+          "Contexto": "riesgo de inflación de salarios, menciona la importancia que cobra el próxim o reajuste del sector público como efecto señal para el resto de la eco",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «próxim o» -> «próximo». La evidencia es interna y doble: el primer trozo («próxim») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («próximo») es la que el propio corpus usa 1037 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "de sig no en",
+          "Despues": "de signo en",
+          "Ocurrencias": 1,
+          "Contexto": "táctico, además, considerando los costos que implica una reversión de sig no en las decisiones de política, puede ser prudente esperar más informa",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «sig no» -> «signo». La evidencia es interna y doble: el primer trozo («sig») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («signo») es la que el propio corpus usa 83 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -15860,6 +16036,22 @@
           "Ocurrencias": 1,
           "Contexto": "En mérito de lo anteri or, el Consejo adopta el siguiente Acuerdo; 109-01-070614 ",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 2313 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "interés de política monetari a en 5% anual. Comunicado",
+          "Despues": "interés de política monetaria en 5% anual. Comunicado",
+          "Ocurrencias": 1,
+          "Contexto": "e Chile por unanimidad acordó mantener la tasa de interés de política monetari a en 5% anual. Comunicado “En su reunión mensual de política monetaria,",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «monetari a» -> «monetaria». La evidencia es interna y doble: el primer trozo («monetari») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («monetaria») es la que el propio corpus usa 4283 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "interés de política monetari a en 5% anual. El",
+          "Despues": "interés de política monetaria en 5% anual. El",
+          "Ocurrencias": 1,
+          "Contexto": "Banco Central de Chile acordó mantener la tasa de interés de política monetari a en 5% anual. El escenario externo relevante para la economía chilena ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «monetari a» -> «monetaria». La evidencia es interna y doble: el primer trozo («monetari») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («monetaria») es la que el propio corpus usa 4283 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -16531,6 +16723,14 @@
           "Ocurrencias": 1,
           "Contexto": "l impacto en la cuenta corriente se prevé del orden de 0,3% del PIB por año. En diciem bre, el crecimiento anual de la actividad (7,7%) estuvo más",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 881 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Se estim a que",
+          "Despues": "Se estima que",
+          "Ocurrencias": 1,
+          "Contexto": "a de financiamiento en lugar de traer aportes directos de capital. Se estim a que, el efecto sobre los términos de intercambio del mayor precio del",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «estim a» -> «estima». La evidencia es interna y doble: el primer trozo («estim») es marginal en el corpus (4 apariciones, y ésas son ésta) y la forma junta («estima») es la que el propio corpus usa 1283 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -16697,6 +16897,14 @@
           "Despues": "meses",
           "Contexto": " en lo más inmediato, donde se espera, en particular en los m eses de marzo y abril inflaciones acumuladas del orden de 0,8%. ",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Estados Uni dos están",
+          "Despues": "Estados Unidos están",
+          "Ocurrencias": 1,
+          "Contexto": "os. Indica que las mismas tasas a diez años de largo plazo en Estados Uni dos están en niveles del 1% Y 1,5%, aproximadamente. Agrega, que por otro",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «Uni dos» -> «Unidos». La evidencia es interna y doble: el primer trozo («Uni») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («Unidos») es la que el propio corpus usa 2782 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -16788,6 +16996,14 @@
           "Despues": "mantener",
           "Contexto": "umentó la tasa de política monetaria, es posible justificar m antener la tasa de política monetaria. La ausencia de novedades may",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1788 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "novedades tam poco apoyan",
+          "Despues": "novedades tampoco apoyan",
+          "Ocurrencias": 1,
+          "Contexto": ", parece ahora algo menos probable. En el otro extremo, las novedades tam poco apoyan la idea de reducir el ritmo de normalización. De hecho, la inf",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «tam poco» -> «tampoco». La evidencia es interna y doble: el primer trozo («tam») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («tampoco») es la que el propio corpus usa 316 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -16932,6 +17148,14 @@
           "Despues": "Ministro",
           "Contexto": "si se cree que es verdadero el punto expresado por el señor M inistro, siempre que tengamos una idea de dónde deberían ir las tas",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 1407 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "un tem a que",
+          "Despues": "un tema que",
+          "Ocurrencias": 1,
+          "Contexto": "damente cuidadoso y que se continuará siéndolo aún más. Señala que un tem a que también han discutido internamente es que el mercado no entiende ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «tem a» -> «tema». La evidencia es interna y doble: el primer trozo («tem») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («tema») es la que el propio corpus usa 786 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -17124,6 +17348,14 @@
           "Ocurrencias": 1,
           "Contexto": "e anticipa entre tres y cuatro nuevos ajustes de 25 puntos base de la T a s a de Política Monetaria en lo que queda del año 2007.",
           "Justificacion": "El OCR esparcio la palabra en trozos cortos separados por espacios. Detectado por pasada transversal sobre las 9.723 filas: la forma unida aparece 4902 veces en el corpus y al menos un trozo por separado no es una palabra corriente, asi que los espacios no pueden ser reales. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "son sustantivam ente mayores",
+          "Despues": "son sustantivamente mayores",
+          "Ocurrencias": 1,
+          "Contexto": "IPC se ha elevado hasta casi 4% y sus perspectivas de corto plazo son sustantivam ente mayores que lo proyectado en el IPoM de mayo. Esto ocurre en un conte",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «sustantivam ente» -> «sustantivamente». La evidencia es interna y doble: el primer trozo («sustantivam») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («sustantivamente») es la que el propio corpus usa 14 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -17385,6 +17617,14 @@
           "Despues": " de mercado pod",
           "Contexto": "tro modo, cree que una sobrerreacción a las expectativas de m ercado podría terminar validando una trayectoria de tasas de inter",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4420 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "el sistem a de",
+          "Despues": "el sistema de",
+          "Ocurrencias": 1,
+          "Contexto": "abierto el debate, al menos en la prensa, sobre cómo se implementa el sistem a de metas de inflación en los horizontes relevantes dado estos shocks ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «sistem a» -> «sistema». La evidencia es interna y doble: el primer trozo («sistem») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («sistema») es la que el propio corpus usa 270 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -17749,6 +17989,30 @@
           "Despues": "portunidad. El señor ",
           "Contexto": "la inflación y la política monetaria deben evaluarse en su oportunidad . El señor Gerente de Análisis Macroeconómico Interino señala que los r",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "de Análisi s Macroeconómico",
+          "Despues": "de Análisis Macroeconómico",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisi s Macroeconómico Interino ya mencionado señala que en el mes de abril, ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «Análisi s» -> «Análisis». La evidencia es interna y doble: el primer trozo («Análisi») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («Análisis») es la que el propio corpus usa 1786 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "productividad medi a de",
+          "Despues": "productividad media de",
+          "Ocurrencias": 1,
+          "Contexto": " costo de la energía ha tenido un efecto negativo en la productividad medi a de la economía, lo que habría reducido transitoriamente el nivel de p",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «medi a» -> «media». La evidencia es interna y doble: el primer trozo («medi») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («media») es la que el propio corpus usa 67 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "modo, seña la el",
+          "Despues": "modo, señala el",
+          "Ocurrencias": 1,
+          "Contexto": " de los sectores económicos más ligados a su evolución. De este modo, seña la el señor Soto que en el escenario más probable la economía crecerá es",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «seña la» -> «señala». La evidencia es interna y doble: el primer trozo («seña») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («señala») es la que el propio corpus usa 4816 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -17930,6 +18194,14 @@
           "Despues": " expuestas, el Presid",
           "Contexto": "o de la preparación de nuestro próximo ¡PoMo Por las razones expuestas , el Presidente señor José De Gregario vota por mantener la Tasa de Pol",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Como consecuenci a del",
+          "Despues": "Como consecuencia del",
+          "Ocurrencias": 1,
+          "Contexto": "onetaria y ser muy claro en un sesgo a la baja en el Comunicado. Como consecuenci a del resultado de la votación, el señor Presidente consulta al Conseje",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «consecuenci a» -> «consecuencia». La evidencia es interna y doble: el primer trozo («consecuenci») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («consecuencia») es la que el propio corpus usa 869 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -18100,6 +18372,14 @@
           "Despues": "ndo caídas, aunque co",
           "Contexto": "entras que los precios de los commodities continúan registrando caídas , aunque con alguna volatilidad. Destaca en este aspecto, el detrimento",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "han tend ido a",
+          "Despues": "han tendido a",
+          "Ocurrencias": 1,
+          "Contexto": "pción del peso chileno, las de Credit Default Swaps, CDS, también han tend ido a incrementarse, mientras que los precios de los commodities continúa",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «tend ido» -> «tendido». La evidencia es interna y doble: el primer trozo («tend») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («tendido») es la que el propio corpus usa 599 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -18271,6 +18551,38 @@
           "Despues": " y el otro, incide en",
           "Contexto": "dicho trimestre no apareciera tan malo respecto del segundo; y el otro , incide en que el efecto de la crisis de la industria salmonera se est",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "sido cas i tan",
+          "Despues": "sido casi tan",
+          "Ocurrencias": 1,
+          "Contexto": "ión de existencias, en que en el segundo trimestre debería haber sido cas i tan mala como en el primer trimestre y que se estima que en el tercer",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «cas i» -> «casi». La evidencia es interna y doble: el primer trozo («cas») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («casi») es la que el propio corpus usa 278 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "sector. Agreg a, que",
+          "Despues": "sector. Agrega, que",
+          "Ocurrencias": 1,
+          "Contexto": "anera importante por la disminución que ha experimentado este sector. Agreg a, que se observa una correlación bastante alta entre la caída de los s",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «Agreg a» -> «Agrega». La evidencia es interna y doble: el primer trozo («Agreg») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («Agrega») es la que el propio corpus usa 3624 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "industria aliment icia, la",
+          "Despues": "industria alimenticia, la",
+          "Ocurrencias": 1,
+          "Contexto": "os, obedece a varios sectores, siendo los más relevantes la industria aliment icia, la química, la de productos metálicos y la de la made ra.",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «aliment icia» -> «alimenticia». La evidencia es interna y doble: el primer trozo («aliment») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («alimenticia») es la que el propio corpus usa 1 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "la made ra",
+          "Despues": "la madera",
+          "Ocurrencias": 1,
+          "Contexto": "ustria aliment icia, la química, la de productos metálicos y la de la made ra.",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «made ra» -> «madera». La evidencia es interna y doble: el primer trozo («made») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («madera») es la que el propio corpus usa 2 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -18584,6 +18896,14 @@
           "Ocurrencias": 1,
           "Contexto": "ominales muestran una aceleración en diciembre, aún cuando los costos laborales unitari os siguen creciendo a tasas acotadas. Por último, manifies",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 171 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "similar ocurri ó con",
+          "Despues": "similar ocurrió con",
+          "Ocurrencias": 1,
+          "Contexto": "de inflación subyacente fueron más altas de lo esperado. Algo similar ocurri ó con las medias podadas y el IPCX2. Si bien es posible asociar este in",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «ocurri ó» -> «ocurrió». La evidencia es interna y doble: el primer trozo («ocurri») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («ocurrió») es la que el propio corpus usa 99 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -19196,6 +19516,22 @@
           "Despues": "de América, en donde ",
           "Contexto": "ado por el Indice de Precios al Productor en Estados Unidos de América , en donde se destaca una caída importante, aun cuando se mantiene por ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "ha tend ido a",
+          "Despues": "ha tendido a",
+          "Ocurrencias": 1,
+          "Contexto": "idos de América. Por otra parte, señala que el precio crack spread ha tend ido a aumentar, situación que se vincu la con el uso de la capacidad de l",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «tend ido» -> «tendido». La evidencia es interna y doble: el primer trozo («tend») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («tendido») es la que el propio corpus usa 599 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "se vincu la con",
+          "Despues": "se vincula con",
+          "Ocurrencias": 1,
+          "Contexto": "a que el precio crack spread ha tend ido a aumentar, situación que se vincu la con el uso de la capacidad de las refinerías, la que ha disminuido y ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «vincu la» -> «vincula». La evidencia es interna y doble: el primer trozo («vincu») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («vincula») es la que el propio corpus usa 27 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -19211,6 +19547,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Gerente de División Estudios señor Pablo García comenta que ha soste nido conversaciones de carácter informal con algunas autorid",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 105 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "en torn o a",
+          "Despues": "en torno a",
+          "Ocurrencias": 1,
+          "Contexto": "o Internacional y. esa Institución está pensando en un crecimiento en torn o a 0% para el año 2010.",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «torn o» -> «torno». La evidencia es interna y doble: el primer trozo («torn») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («torno») es la que el propio corpus usa 1736 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -19262,6 +19606,14 @@
           "Despues": "BI chileno, puede per",
           "Contexto": "esa mayor iliquidez que se produce y mayor premio para el EMBI chileno , puede perfectamente afectar esto.",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "se repli ca o",
+          "Despues": "se replica o",
+          "Ocurrencias": 1,
+          "Contexto": "ero señor Manuel Marfán comenta que, aunque no tiene claro si esto se repli ca o no hacia los COS, lo cierto es que el riesgo medido por las tasas d",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «repli ca» -> «replica». La evidencia es interna y doble: el primer trozo («repli») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («replica») es la que el propio corpus usa 4 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -21537,6 +21889,14 @@
           "Ocurrencias": 1,
           "Contexto": "referido Consejero, lo fundamen tal fue el mensaje transmitido por el Sanco en mayo, en cuanto a que habrá recuperación económica con cierta inte",
           "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "lo fundamen tal fue",
+          "Despues": "lo fundamental fue",
+          "Ocurrencias": 1,
+          "Contexto": " con cifras por debajo de lo esperado. Para el referido Consejero, lo fundamen tal fue el mensaje transmitido por el Banco en mayo, en cuanto a que habr",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «fundamen tal» -> «fundamental». La evidencia es interna y doble: el primer trozo («fundamen») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («fundamental») es la que el propio corpus usa 167 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -23172,6 +23532,14 @@
           "Despues": "ese año en 5%-6%,",
           "Contexto": "cia del crecimiento del PIB en el año 2006, proyectado a comienzos de ese año en 5%-6%%, con respecto a lo que se estima ahora, aunque su incidencia se precis",
           "Justificacion": "El signo de porcentaje sale duplicado tras la cifra. No existe lectura en que «%%» sea correcto: en el mismo párrafo las cifras vecinas llevan un solo signo. Se deja uno."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "origen importado. J) El Gerente",
+          "Despues": "origen importado. El Gerente",
+          "Ocurrencias": 1,
+          "Contexto": "ue lo previsto, aunque con una composición más intensiva en bienes de origen importado. J) El Gerente de Análisis Macroeconómico señor Magendzo, indica que además de lo pr",
+          "Justificacion": "Marcador suelto en un límite de párrafo, dentro de una fila de 10.032 caracteres: «...bienes de origen importado. [J)] El Gerente de Análisis Macroeconómico señor Magendzo, indica que además...». Se leyó como posible enumeración de la fuente y se descartó con tres mediciones: (1) en las 9.723 filas hay 4 «LETRA)» y las otras 3 son cierres de sigla o paréntesis («M&E)», «(I)» dos veces), no enumeraciones; (2) los dos PDF del repositorio (2005-06-09 y 2005-07-12, 45 páginas) tienen CERO enumeraciones con letra; (3) la posición —límite de párrafo dentro de una fila— es la misma donde esta sesión tiene sus otros tres residuos de salto de página (« k » en 1044:1, « 1-^ » en 1056:1, « l-P » en 1049:3). No reemplaza ninguna palabra. Tipo SIMBOLO_SUELTO. Si el PDF de 2007-01-11 mostrara una enumeración real, el Texto original sigue intacto y la operación se puede revertir."
         }
       ]
     },
@@ -23696,6 +24064,14 @@
           "Despues": " de granos, ha habido",
           "Contexto": "n mes atrás. Otros metales más bien han subido y, en materia de granos , ha habido un aumento significativo en el caso del arroz y del maíz, e",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "ha retroced ido. Agrega",
+          "Despues": "ha retrocedido. Agrega",
+          "Ocurrencias": 1,
+          "Contexto": " impactos que eventualmente podría tener en materia de inflación y ha retroced ido. Agrega que otros commodities, sin embargo, muestran movimientos mixt",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «retroced ido» -> «retrocedido». La evidencia es interna y doble: el primer trozo («retroced») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («retrocedido») es la que el propio corpus usa 80 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -23715,6 +24091,14 @@
           "Despues": "es inversa, es decir,",
           "Contexto": "onómico señor Claudio Soto, en el sentido que la proporción es inversa , es decir, que en la inversión que se observa hasta ahora, alrededor d",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "sectorial, coment a que",
+          "Despues": "sectorial, comenta que",
+          "Ocurrencias": 1,
+          "Contexto": "tudios señor Pablo García, en relación a la descomposición sectorial, coment a que es interesante observar las fuentes de este fenómeno puesto que s",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «coment a» -> «comenta». La evidencia es interna y doble: el primer trozo («coment») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («comenta») es la que el propio corpus usa 1196 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -23870,6 +24254,14 @@
           "Despues": "se observa, particula",
           "Contexto": "WTI, como el cobre, presentan una caída importante y lo que se observa , particularmente en el caso del petróleo, es una posición corta. Esto ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "cambiado posicione s largas",
+          "Despues": "cambiado posiciones largas",
+          "Ocurrencias": 1,
+          "Contexto": "a todavía en el caso del cobre, es decir, dichos agentes han cambiado posicione s largas hacia posiciones cortas, tanto en petróleo como en cobre.",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «posicione s» -> «posiciones». La evidencia es interna y doble: el primer trozo («posicione») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («posiciones») es la que el propio corpus usa 130 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -23882,6 +24274,14 @@
           "Despues": "l petróleo, se apreci",
           "Contexto": "ión adicional del precio de éste, mientras que en el caso del petróleo , se aprecia en el margen algunas tomas de posiciones por parte de espe",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "ha efectuad o simplemente",
+          "Despues": "ha efectuado simplemente",
+          "Ocurrencias": 1,
+          "Contexto": "dencia más importante del dólar. En consecuencia, este análisis se ha efectuad o simplemente para descontar el efecto contable derivado de la presión ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «efectuad o» -> «efectuado». La evidencia es interna y doble: el primer trozo («efectuad») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («efectuado») es la que el propio corpus usa 134 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -23956,6 +24356,14 @@
           "Despues": "o personal, queda mas",
           "Contexto": ", también de los matices que se han planteado y, además en lo personal , queda mas tranqui lo por reflejar su posición que ha mantenido. Por t",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "tranqui lo por",
+          "Despues": "tranquilo por",
+          "Ocurrencias": 1,
+          "Contexto": "los matices que se han planteado y, además en lo personal , queda mas tranqui lo por reflejar su posición que ha mantenido. Por tanto, estima el Consejero",
+          "Justificacion": "Palabra partida con la segunda mitad de una letra: «tranqui lo» -> «tranquilo». «tranqui» aparece 1 vez en el corpus (ésta) y «tranquilo» 11; lo encontró detector_partida_letra (§31). El ancla empieza en «tranqui» y no incluye «mas» porque «mas» cae dentro del tramo de la operación ESPACIO_INDEBIDO que §18 registró sobre «o personal , queda mas», y dos tramos solapados sobre el mismo texto virgen no se aplican en ningún orden (§15)."
         }
       ]
     },
@@ -24174,9 +24582,9 @@
         {
           "Tipo": "ESPACIO_INDEBIDO",
           "Antes": "ión pasada , se acumu ",
-          "Despues": "ión pasada, se acumu ",
+          "Despues": "ión pasada, se acumu",
           "Contexto": "las cifras recientes de actividad e inflación. Desde la Reunión pasada , se acumu lan descensos de entre 150 y 50 puntos base, y pese a lo ant",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. AMPLIADA en §31: el tramo terminaba justo en el espacio que parte «acumu lan», así que la palabra partida no se puede arreglar con una operación propia sin solaparse (dos tramos solapados sobre el mismo texto virgen no se aplican en ningún orden, §15). Se le quita también ese espacio final y queda «se acumulan descensos...». «acumulan» aparece 18 veces en el corpus y «acumu» 1, que es ésta; lo encontró detector_partida_letra con la segunda mitad de 2-4 letras. El Tipo sigue siendo ESPACIO_INDEBIDO porque los dos arreglos son quitar un espacio que sobra."
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
@@ -25017,6 +25425,14 @@
           "Despues": "s del 2012. El señor ",
           "Contexto": "os en los precios de activos para fines del 2011 o principios del 2012 . El señor Pablo García subraya, a continuación, que la información coy",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "Informe sugerí a un",
+          "Despues": "Informe sugería un",
+          "Ocurrencias": 1,
+          "Contexto": "ado, señala que la trayectoria para la TPM implícita en dicho Informe sugerí a un perfil cóncavo, es decir, con incrementos más agresivos al princip",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «sugerí a» -> «sugería». La evidencia es interna y doble: el primer trozo («sugerí») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («sugería») es la que el propio corpus usa 12 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -26723,6 +27139,14 @@
           "Despues": "Monetaria",
           "Contexto": "ta situación es que la frecuencia de la Reunión de Política M onetaria es muy seguida.",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 3247 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "el tem a de",
+          "Despues": "el tema de",
+          "Ocurrencias": 1,
+          "Contexto": "e División Estudios señor Rodrigo Valdés quiere hacer presente que el tem a de los buses interurbanos nunca fue considerado un riesgo en el escen",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «tem a» -> «tema». La evidencia es interna y doble: el primer trozo («tem») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («tema») es la que el propio corpus usa 786 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     },
@@ -26988,6 +27412,175 @@
           "Ocurrencias": 1,
           "Contexto": "lvo en el caso de Rusia, en línea con la visión del último Informe de Polítíca Monetaria, IPoM. Plantea que esta visión de menor dinamismo se ve ref",
           "Justificacion": "Acento espurio en la segunda «i». «Polítíca» no es palabra y aparece 6 veces en el corpus, siempre dentro de «Tasa de Polítíca Monetaria», «Opciones de Polítíca Monetaria», «División Polítíca Financiera» e «Informe de Polítíca Monetaria»; la forma del propio corpus es «Política», con 3.641 apariciones, y los dos PDF del repositorio dan 218 «Política» y 0 «Polítíca». A diferencia de los acentos de §16 (éstos/período/cuánto, donde las dos formas son español legítimo) y del «Seníor» de §27 (donde Sénior 79 y Senior 77 están empatados), aquí el destino no es ambiguo: no existe otra lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1038:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "referida Universidad. /D",
+          "Despues": "referida Universidad.",
+          "Ocurrencias": 1,
+          "Contexto": " mínimos históricos, a diferencia de lo que muestra la encuesta de la referida Universidad. /D",
+          "Justificacion": "Residuo de escaneo colgando después de un punto final completo. La oración anterior está cerrada y el residuo no ocupa el lugar de ninguna palabra, así que eliminarlo no pierde información: es el caso que §8 bis autoriza a borrar y el mismo de §25 («...a considerar. '1^», «...asalariados. \\») y §24 («...para proceder a la votación. Lf \\»). Medido en todo el corpus: esta cadena aparece UNA sola vez, que es ésta. Tipo SIMBOLO_SUELTO, el mismo de esos tres precedentes. La familia «barra + letras al final de la fila» tiene 3 ocurrencias en el corpus: ésta (« /D»), «1046:2» (« /xD») y «RPM-2013-04-11:5497:1» (« v\\ /y»), las tres después de una oración completa; la tercera muestra el racimo entero y confirma que es basura de escaneo, no una sigla ni una letra con lectura."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1044:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "producto potencial. k Respecto de inflación",
+          "Despues": "producto potencial. Respecto de inflación",
+          "Ocurrencias": 1,
+          "Contexto": "ro señor Marfán que lo anterior es una discusión que se tuvo sobre el producto potencial. k Respecto de inflación, señala el Consejero señor Marfán que tiene la impresión de que ese c",
+          "Justificacion": "Letra suelta entre dos oraciones completas. Medido en el corpus: « k » con espacios a ambos lados aparece 3 veces —ésta, «RPM-2013-06-13:5618:1» («...que pasa a exponer. k En primer término...») y «RPM-2014-06-12:6274:1» («...en 3,7%. k ^l.y»)— y las tres son residuo: a diferencia de la «V» de §8 ter (11 residuos contra 2 usos legítimos como figura), la «k» no tiene ningún uso legítimo atestiguado en el corpus. Es también la misma familia que la «U» que una pasada anterior ya quitó en «1052:1» de esta misma sesión. Tipo SIMBOLO_SUELTO."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1046:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "inflación del Banco. /xD",
+          "Despues": "inflación del Banco.",
+          "Ocurrencias": 1,
+          "Contexto": " la proyección privada de inflación, sino que la propia proyección de inflación del Banco. /xD",
+          "Justificacion": "Residuo de escaneo colgando después de un punto final completo. La oración anterior está cerrada y el residuo no ocupa el lugar de ninguna palabra, así que eliminarlo no pierde información: es el caso que §8 bis autoriza a borrar y el mismo de §25 («...a considerar. '1^», «...asalariados. \\») y §24 («...para proceder a la votación. Lf \\»). Medido en todo el corpus: esta cadena aparece UNA sola vez, que es ésta. Tipo SIMBOLO_SUELTO, el mismo de esos tres precedentes. Misma familia que «1038:1» (« /D») y «5497:1» (« v\\ /y»): 3 ocurrencias en el corpus, todas al final de la fila tras un punto completo, ninguna con lectura posible."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1054:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "sea necesario profundizarl o. En su opinión",
+          "Despues": "sea necesario profundizarlo. En su opinión",
+          "Ocurrencias": 1,
+          "Contexto": "uy reducida y que por demorar un ajuste, que se justifica plenamente, sea necesario profundizarl o. En su opinión, señala el señor Consejero, este riesgo es menos significativo para e",
+          "Justificacion": "Palabra partida con la «l» corrida: «sea necesario profundizarl o» -> «profundizarlo». La evidencia es del propio corpus y de la propia sesión: «profundizarlo» bien escrito está en «1047:4» («se arriesga tener que profundizarlo más adelante»), a siete filas de distancia, y en la misma fila «1054:1» aparece el verbo intacto («permitir profundizar la preparación del mercado»). Es el caso ideal de §8 bis: la forma correcta convive con la dañada. El detector_partida no la vio porque exige que la palabra junta sea frecuente y «profundizarlo» tiene 2 apariciones: es el punto ciego documentado en §23 y §27, que no se puede abrir sin meter falsos positivos."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:281:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "los habrí a habido",
+          "Despues": "los habría habido",
+          "Ocurrencias": 1,
+          "Contexto": "ivos en la trayectoria a la baja desde este momento acá y tampoco los habrí a habido en el incremento previo que se vio hasta el Informe de Polític",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «habrí a» -> «habría». La evidencia es interna y doble: el primer trozo («habrí») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («habría») es la que el propio corpus usa 564 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:310:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "de hacerl o más",
+          "Despues": "de hacerlo más",
+          "Ocurrencias": 1,
+          "Contexto": "n la dirección de acelerar el ritmo de alzas de tasas de interés o de hacerl o más pausado y, por lo tanto, tampoco cree que corresponda dar señales",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «hacerl o» -> «hacerlo». La evidencia es interna y doble: el primer trozo («hacerl») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («hacerlo») es la que el propio corpus usa 89 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:348:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "que darl e una",
+          "Despues": "que darle una",
+          "Ocurrencias": 1,
+          "Contexto": "ters”, o sea personas que piensan que los bancos centrales tienen que darl e una importancia mayor a este tema, pero es una pequeña minoría dentro",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «darl e» -> «darle». La evidencia es interna y doble: el primer trozo («darl») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («darle») es la que el propio corpus usa 28 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-12-13:518:6",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "o aumentarl a en",
+          "Despues": "o aumentarla en",
+          "Ocurrencias": 1,
+          "Contexto": "s que parecen más plausibles son mantener la TPM en su nivel actual o aumentarl a en 25 puntos base. 9. Por otro lado, hay varias noticias que podrían ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «aumentarl a» -> «aumentarla». La evidencia es interna y doble: el primer trozo («aumentarl») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («aumentarla») es la que el propio corpus usa 22 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:763:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "banco subirl a, o",
+          "Despues": "banco subirla, o",
+          "Ocurrencias": 1,
+          "Contexto": "e si se conociera que el mercado esperara mantener la tasa y el banco subirl a, o para efectos del mismo ejemplo se esperara que subiera y el banco ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «subirl a» -> «subirla». La evidencia es interna y doble: el primer trozo («subirl») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («subirla») es la que el propio corpus usa 26 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1017:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "para hacerl o, tal",
+          "Despues": "para hacerlo, tal",
+          "Ocurrencias": 1,
+          "Contexto": "rimestres. Manifiesta el señor Marshall que la mejor oportunidad para hacerl o, tal como se plantea en la Minuta, no es ésta sino el próximo IPoM qu",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «hacerl o» -> «hacerlo». La evidencia es interna y doble: el primer trozo («hacerl») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («hacerlo») es la que el propio corpus usa 89 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3014:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "que permitirí a retomar",
+          "Despues": "que permitiría retomar",
+          "Ocurrencias": 1,
+          "Contexto": "5, la duración del shock debería ser cercana a solo medio año, lo que permitirí a retomar la senda de crecimiento y de inflación previas en unos pocos ",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «permitirí a» -> «permitiría». La evidencia es interna y doble: el primer trozo («permitirí») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («permitiría») es la que el propio corpus usa 54 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:297:3",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "esperadas). Dem anda Para",
+          "Despues": "esperadas). Demanda Para",
+          "Ocurrencias": 1,
+          "Contexto": "r generación hídrica y menores restricciones de gas a las esperadas). Dem anda Para el segundo trimestre de este año se proyecta un crecimiento de l",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «Dem anda» -> «Demanda». La evidencia es interna y doble: el primer trozo («Dem») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («Demanda») es la que el propio corpus usa 3 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:769:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "generación hídri ca y",
+          "Despues": "generación hídrica y",
+          "Ocurrencias": 1,
+          "Contexto": " aporta en términos de crecimiento es la composición hacia generación hídri ca y el año pasado a estas alturas del año ya la generación hídrica esta",
+          "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «hídri ca» -> «hídrica». La evidencia es interna y doble: el primer trozo («hídri») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («hídrica») es la que el propio corpus usa 18 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
     }
@@ -28216,6 +28809,18 @@
       "Texto_Original_Fragmento": "Las proyecciones de.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "TRUNCADO. La fila abre la cita del Comunicado («Comunicado \"En su reunión mensual de política monetaria...», que una pasada anterior convirtio a comilla tipografica) y se corta en «Las proyecciones de.», a mitad de la frase y sin cerrar la cita: “=1, ”=0 en la salida. Es texto perdido, no un residuo: borrar el fragmento dejaria un final limpio y ocultaria el corte, igual que el «Y» sola de §25, el 2121:1 de §27, el 2293:1 de §28 y el 2299:1 de §28. La fila siguiente (6517:3 es la ultima de la sesion) no continua el texto. Se marca y no se toca."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1050:1",
+      "Texto_Original_Fragmento": "como lo sugerido en las opciones, de 25 puntos base. i",
+      "Motivo": "La fila termina en una letra suelta después de un punto completo: «...como lo sugerido en las opciones, de 25 puntos base. i». Es la misma figura que «2005-04-07:210:2» («...hace un mes atrás. Y»), marcada en §25 con el mismo criterio: una letra sola es el resto mínimo posible de un corte, y si se borra la fila queda con un final limpio que OCULTA el corte. Medido: hay 20 filas del corpus que terminan así (letra suelta tras punto completo), las 20 después de una oración cerrada; las letras sueltas de mitad de fila sí son residuo seguro (« k » en 1044:1, « U » en 1052:1) porque el texto sigue, pero al final de la fila no hay forma de distinguir las dos lecturas sin el acta original. Se marca y no se toca; la familia completa de 20 se revisa de una vez cuando haya PDF, igual que la familia de truncamientos del Comunicado (§30).",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1049:3",
+      "Texto_Original_Fragmento": "tarifario eléctrico y por la l-P El Gerente",
+      "Motivo": "Aquí el corte es visible: la cláusula queda a medias («...por el desconocimiento del impacto en el IPC del reajuste tarifario eléctrico y por la [l-P]») y enseguida empieza el párrafo siguiente del mismo hablante. «l-P» ocupa el lugar de texto perdido y aparece UNA sola vez en las 9.723 filas, así que no hay forma de reconstruirlo ni evidencia interna que fije la lectura: §8 bis pide contar antes de marcar y el conteo no da ninguna contraparte. No se elimina porque borrarlo dejaría «...y por la El Gerente de Mercados...», que tapa el corte en vez de señalarlo. Se marca para cotejo.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
