@@ -41404,7 +41404,1067 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2008-12-11",
       "Justificacion": "Sesión 2008-12-11 (110 filas, 138.945 caracteres, 12 actores). Fue la sesión con más candidatos de acento hasta ahora, 22 en 16 filas, y sólo dos eran daño real: «alguna vez él efectúo» por «efectuó» (el sujeto es él, así que hace falta la tercera persona del pretérito; 1 aparición contra 51, y en la misma fila el verbo se usa bien en «se efectuó ese ejercicio»), y «curso de acción en politica monetaria» por «política» (1 aparición contra 5.573, la forma correcta más frecuente de todo el corpus). Los otros 20 eran formas legítimas: costó, terminó, marcó e inició son verbos, publica es el verbo en «el índice se publica desde el 2003», continua es el adjetivo, efectuara es subjuntivo, y éstos, cuánto y cuándo llevan tilde diacrítica. El candidato multihablante del padre 2228 se rechazó leído entero: «de los tres aspectos que ha mencionado el señor Presidente, le parece que hay uno…» es una referencia retrospectiva y todo el párrafo es del Ministro —«Agrega que en el Ministerio de Hacienda se efectuó ese ejercicio», «Las otras dos interrogantes le parecen más difíciles»—. Es el mismo patrón que el padre 2325 del §37. De paso se encontró un bug del propio auditor: el descuento de enumeraciones incluía dígitos y contaba el cierre de «(1 en 1)» y de «(más de 50)» como marcador, lo que volvía a dar paréntesis desbalanceado en 2206:1, que tiene 6 y 6. Medido en el corpus, los dígitos dan 4 apariciones y las cuatro son paréntesis de verdad, mientras que las enumeraciones de letra y romanas son 48; el patrón ahora sólo admite letras y romanos."
+    },
+    "RPM-2011-02-17:3718:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3718:1",
+      "ID_Padre": "3718",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1305,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3720:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3720:1",
+      "ID_Padre": "3720",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1565,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3721:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3721:1",
+      "ID_Padre": "3721",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 183,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3722:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3722:1",
+      "ID_Padre": "3722",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 434,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3723:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3723:1",
+      "ID_Padre": "3723",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 262,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3724:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3724:1",
+      "ID_Padre": "3724",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1253,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3725:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3725:1",
+      "ID_Padre": "3725",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 188,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3726:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3726:1",
+      "ID_Padre": "3726",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 218,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3727:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3727:1",
+      "ID_Padre": "3727",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 188,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3728:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3728:1",
+      "ID_Padre": "3728",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1566,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3729:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3729:1",
+      "ID_Padre": "3729",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 353,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3729:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3729:2",
+      "ID_Padre": "3729",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1665,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3730:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3730:1",
+      "ID_Padre": "3730",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 324,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3731:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3731:1",
+      "ID_Padre": "3731",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2894,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3732:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3732:1",
+      "ID_Padre": "3732",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 753,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3733:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3733:1",
+      "ID_Padre": "3733",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 1313,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3734:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3734:1",
+      "ID_Padre": "3734",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 111,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3735:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3735:1",
+      "ID_Padre": "3735",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 235,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3735:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3735:2",
+      "ID_Padre": "3735",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 340,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3736:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3736:1",
+      "ID_Padre": "3736",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1462,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3737:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3737:1",
+      "ID_Padre": "3737",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 429,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3737:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3737:2",
+      "ID_Padre": "3737",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 548,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3738:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3738:1",
+      "ID_Padre": "3738",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 168,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3739:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3739:1",
+      "ID_Padre": "3739",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 145,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3740:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3740:1",
+      "ID_Padre": "3740",
+      "Actor": "Luis Opazo Roco",
+      "Caracteres": 252,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3741:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3741:1",
+      "ID_Padre": "3741",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 163,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3742:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3742:1",
+      "ID_Padre": "3742",
+      "Actor": "Luis Opazo Roco",
+      "Caracteres": 177,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3743:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3743:1",
+      "ID_Padre": "3743",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 173,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3744:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3744:1",
+      "ID_Padre": "3744",
+      "Actor": "Luis Opazo Roco",
+      "Caracteres": 260,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3745:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3745:1",
+      "ID_Padre": "3745",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3724,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3746:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3746:1",
+      "ID_Padre": "3746",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 260,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3747:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3747:1",
+      "ID_Padre": "3747",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 276,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3748:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3748:1",
+      "ID_Padre": "3748",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 124,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3748:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3748:2",
+      "ID_Padre": "3748",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 170,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3749:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3749:1",
+      "ID_Padre": "3749",
+      "Actor": "Enrique Orellana Cifuentes",
+      "Caracteres": 231,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3750:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3750:1",
+      "ID_Padre": "3750",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2485,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3751:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3751:1",
+      "ID_Padre": "3751",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 362,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3752:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3752:1",
+      "ID_Padre": "3752",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 638,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3753:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3753:1",
+      "ID_Padre": "3753",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 276,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3754:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3754:1",
+      "ID_Padre": "3754",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 604,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3755:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3755:1",
+      "ID_Padre": "3755",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 706,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3756:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3756:1",
+      "ID_Padre": "3756",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 447,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3757:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3757:1",
+      "ID_Padre": "3757",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1249,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3758:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3758:1",
+      "ID_Padre": "3758",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 193,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3759:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3759:1",
+      "ID_Padre": "3759",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1595,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3761:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3761:1",
+      "ID_Padre": "3761",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 573,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3762:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3762:1",
+      "ID_Padre": "3762",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3763:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3763:1",
+      "ID_Padre": "3763",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3268,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3763:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3763:2",
+      "ID_Padre": "3763",
+      "Actor": "Rodrigo Cerda Norambuena",
+      "Caracteres": 340,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3764:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3764:1",
+      "ID_Padre": "3764",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 435,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3765:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3765:1",
+      "ID_Padre": "3765",
+      "Actor": "Rodrigo Cerda Norambuena",
+      "Caracteres": 547,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3766:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3766:1",
+      "ID_Padre": "3766",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1419,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3767:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3767:1",
+      "ID_Padre": "3767",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 415,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3768:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3768:1",
+      "ID_Padre": "3768",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 864,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3769:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3769:1",
+      "ID_Padre": "3769",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 110,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3770:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3770:1",
+      "ID_Padre": "3770",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 643,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3771:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3771:1",
+      "ID_Padre": "3771",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 375,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3772:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3772:1",
+      "ID_Padre": "3772",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 186,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3773:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3773:1",
+      "ID_Padre": "3773",
+      "Actor": "Rodrigo Cerda Norambuena",
+      "Caracteres": 344,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3774:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3774:1",
+      "ID_Padre": "3774",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 273,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3775:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3775:1",
+      "ID_Padre": "3775",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 440,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3776:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3776:1",
+      "ID_Padre": "3776",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1160,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3777:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3777:1",
+      "ID_Padre": "3777",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 96,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3777:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3777:2",
+      "ID_Padre": "3777",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3778:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3778:1",
+      "ID_Padre": "3778",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 832,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3779:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3779:1",
+      "ID_Padre": "3779",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 478,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3780:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3780:1",
+      "ID_Padre": "3780",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 540,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3781:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3781:1",
+      "ID_Padre": "3781",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 231,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3782:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3782:1",
+      "ID_Padre": "3782",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 546,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3783:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3783:1",
+      "ID_Padre": "3783",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 574,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3784:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3784:1",
+      "ID_Padre": "3784",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1131,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3784:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3784:2",
+      "ID_Padre": "3784",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 178,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3784:3": {
+      "ID_Intervencion": "RPM-2011-02-17:3784:3",
+      "ID_Padre": "3784",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3539,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3785:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3785:1",
+      "ID_Padre": "3785",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 186,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3786:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3786:1",
+      "ID_Padre": "3786",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1254,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3787:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3787:1",
+      "ID_Padre": "3787",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 135,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3788:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3788:1",
+      "ID_Padre": "3788",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 507,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3789:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3789:1",
+      "ID_Padre": "3789",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 869,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3790:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3790:1",
+      "ID_Padre": "3790",
+      "Actor": "Luis Opazo Roco",
+      "Caracteres": 209,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3791:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3791:1",
+      "ID_Padre": "3791",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 199,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3792:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3792:1",
+      "ID_Padre": "3792",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 563,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3793:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3793:1",
+      "ID_Padre": "3793",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 380,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3794:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3794:1",
+      "ID_Padre": "3794",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 89,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3795:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3795:1",
+      "ID_Padre": "3795",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 128,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3796:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3796:1",
+      "ID_Padre": "3796",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 900,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3797:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3797:1",
+      "ID_Padre": "3797",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2797,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3798:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3798:1",
+      "ID_Padre": "3798",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 162,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3799:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3799:1",
+      "ID_Padre": "3799",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 583,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3800:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3800:1",
+      "ID_Padre": "3800",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 141,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3800:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3800:2",
+      "ID_Padre": "3800",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 710,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3801:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3801:1",
+      "ID_Padre": "3801",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 180,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3801:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3801:2",
+      "ID_Padre": "3801",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 74,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3802:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3802:1",
+      "ID_Padre": "3802",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 7564,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3803:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3803:1",
+      "ID_Padre": "3803",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3804:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3804:1",
+      "ID_Padre": "3804",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 1989,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3806:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3806:1",
+      "ID_Padre": "3806",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 6264,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3808:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3808:1",
+      "ID_Padre": "3808",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 3547,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3809:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3809:1",
+      "ID_Padre": "3809",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 160,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3810:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3810:1",
+      "ID_Padre": "3810",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 6479,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3810:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3810:2",
+      "ID_Padre": "3810",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 153,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3811:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3811:1",
+      "ID_Padre": "3811",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 5875,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3812:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3812:1",
+      "ID_Padre": "3812",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1251,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3813:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3813:1",
+      "ID_Padre": "3813",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1131,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3813:2": {
+      "ID_Intervencion": "RPM-2011-02-17:3813:2",
+      "ID_Padre": "3813",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 2571,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3813:3": {
+      "ID_Intervencion": "RPM-2011-02-17:3813:3",
+      "ID_Padre": "3813",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1806,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
+    },
+    "RPM-2011-02-17:3814:1": {
+      "ID_Intervencion": "RPM-2011-02-17:3814:1",
+      "ID_Padre": "3814",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-02-17",
+      "Justificacion": "Sesión 2011-02-17 (111 filas, 102.523 caracteres, 14 actores). Primera sesión con cero candidatos en los cuatro detectores: ni acento, ni palabra partida, ni partida por letra, ni deletreada. Ninguna fila en la cola multihablante. Tres filas terminan sin puntuación, dos ya llevan FINAL_SIN_PUNTUACION y la tercera es la del Acuerdo, que está bien. Se midió una familia que parecía un pase transversal y resultó no serlo: 103 filas de Acuerdo tienen comilla de apertura y 15 no, pero al mirar dónde cae la comilla se ve que no abre el Acuerdo sino la cita del Comunicado —aparece entre 148 y 2.009 caracteres después de la fórmula, siempre tras la palabra Comunicado—. De las 15, cinco ni siquiera tienen esa sección (son filas de 101 a 500 caracteres) y en las otras diez la situación es heterogénea: unas tienen una comilla recta o simple en vez de la doble, y otras no tienen nada. Medido en conjunto, 113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de apertura, o sea el 54 por ciento. Con esa dispersión no se puede reconstruir cuáles la llevaban: se deja pendiente para el cotejo con PDF."
     }
   },
-  "Total_Leidas": 3793
+  "Total_Leidas": 3899
 }

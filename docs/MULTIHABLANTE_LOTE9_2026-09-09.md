@@ -391,6 +391,8 @@ Para leer una sesión entera al margen del plan:
 
 | 70–78 | 2008-12-11 | 110 | **sesión cerrada 108/108** (2 ya estaban anotadas) · 12 actores · **22 candidatos de acento, sólo 2 reales** («él efectúo»→efectuó, 1 vs 51; «politica»→política, 1 vs 5.573) · el candidato multihablante (padre 2228) era una referencia retrospectiva, segundo caso igual · **bug del auditor encontrado y corregido**: el descuento de enumeraciones incluía dígitos y contaba «(1 en 1)» y «(más de 50)» como marcadores |
 
+| 79–87 | 2011-02-17 | 111 | **sesión cerrada 106/106** (5 ya estaban anotadas) · 14 actores · **primera sesión con cero candidatos en los cuatro detectores** · cero correcciones · se midió la comilla del Comunicado (103 con / 15 sin) y **se descartó el pase**: la comilla no abre el Acuerdo sino la cita del Comunicado, a distancia variable, y sólo 61 de 113 filas la llevan |
+
 Para anotar una ronda leída:
 
 ```

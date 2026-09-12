@@ -2655,3 +2655,66 @@ herramienta.**
 ### Detector de acentos, acumulado
 
 **64 candidatos, 5 que el texto pedía, precisión 8 %.**
+
+---
+
+## §45. Sesión 2011-02-17: el pase transversal que **no** era, y cómo se supo
+
+Primera sesión con **cero candidatos en los cuatro detectores** —ni acento, ni palabra partida, ni
+partida por letra, ni deletreada— y ninguna fila en la cola multihablante. Cero correcciones.
+
+Lo valioso de la sesión es una medición que **cerró** un pase que parecía obvio.
+
+### La tentación
+
+Contando filas de Acuerdo: **103 tienen comilla de apertura y 15 no.** Con esa proporción, y con el
+precedente de la fórmula del Acuerdo en §43 (106 contra 12), añadir las 15 comillas faltantes parecía
+el mismo caso.
+
+### Por qué no lo era
+
+Se midió **dónde cae** la comilla en las 103 que la tienen:
+
+```
+distancia desde «Acuerdo:» hasta la «“»:  +148, +172, +202, +208, +209, +211,
+                                          +224, +232, +233, +310, +313, +315,
+                                          +333, +406, +434, … +2009 caracteres
+```
+
+No es una posición fija, y la razón se ve en el texto: la comilla **no abre el Acuerdo**, abre la
+cita del **Comunicado**, que viene después y a distancia variable.
+
+```
+…Acuerdo: 76-01-050407-Tasa de Política Monetaria. Se acuerda aumentar la tasa…
+   …Comunicado “ En su reunión mensual de política monetaria…
+                ^ aquí, no después de «Acuerdo:»
+```
+
+Y al revisar las 15:
+
+| | |
+|---|---|
+| **5** no tienen sección Comunicado | filas de 101 a 500 caracteres; no les falta nada, la cita está en otra fila |
+| **10** tienen la sección pero sin `“` | y no de forma uniforme: unas traen una comilla recta o simple en su lugar (`Comunicado ' En su…`, `Comunicado ‘En su…`, `Comunicado ‘‘En su…`), otras no traen nada |
+
+Medido en conjunto: **113 filas de Acuerdo tienen sección Comunicado y sólo 61 llevan la comilla de
+apertura — 54 %.** Con esa dispersión no hay forma de saber cuáles la llevaban en el original.
+**Se deja pendiente para el cotejo con PDF.**
+
+### La diferencia con §43
+
+| | fórmula del Acuerdo (§43) | comilla del Comunicado (§45) |
+|---|---|---|
+| proporción | 106 contra 12 | 61 contra 52 |
+| posición | fija, inmediatamente después de «Acuerdo» | variable, 148 a 2.009 caracteres |
+| forma alternativa | ninguna (0 con coma o punto) | cuatro: recta, simple, doble simple, ausencia |
+| ¿unívoco? | **sí** | **no** |
+
+Una proporción favorable no basta: hace falta que la posición sea fija y que no exista una forma
+alternativa plausible. Aquí fallan las dos.
+
+### Estado
+
+Lectura: 3.899 filas. Cinco de las ocho sesiones leídas con el auditor se han cerrado sin
+correcciones; las correcciones siguen viniendo de familias transversales, y ahora también sabemos
+reconocer cuándo una familia **no** lo es.
