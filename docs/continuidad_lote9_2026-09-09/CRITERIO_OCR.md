@@ -3122,3 +3122,62 @@ midió**. Conviene, al cerrar una, dejar escrita la forma de buscar las otras �
 secuencia `T\s+a\s+s?a?` dentro de la fórmula del Acuerdo.
 
 Registro: **1.564 filas / 2.600 operaciones**. `Texto` intacto en las 9.725.
+
+---
+
+## §53. Sesión 2011-07-14: `solícita` + cuatro defectos más en la fórmula del Acuerdo
+
+103 filas, 13 actores. **Ninguna fila en la cola**, 2b = 0, 2c = 0: siete firmas corridas, **ningún
+corte**. De los 3 candidatos de acento, dos son verbos (`cambió`, `impactó`) y uno era daño real:
+
+> «El Consejero señor Sebastián Claro **solícita** que se explique el gráfico de la izquierda…»
+
+La construcción `solícita que + subjuntivo` sólo admite el verbo, que va **sin** tilde; con tilde es
+el adjetivo. Medido: **2** apariciones contra **217** de `solicita`, y `solícito` no aparece nunca,
+así que el adjetivo no se usa en este corpus y no hay ambigüedad. Se corrigieron las dos (la otra en
+`2014-01-16:5972:1`).
+
+Las 2 comillas rectas de `4203:1` son el posesivo inglés **`Moody's`** y se conservan — misma familia
+que `Lloyd's` y `Purchasing Managers' Index`.
+
+### Revisar la fórmula completa, no sólo la variante que se midió
+
+El §52 dejó escrita la lección: un pase transversal cierra **la variante medida**, no la familia.
+Aplicada aquí — se revisó la fórmula del Acuerdo entera y salieron cuatro defectos que ningún
+detector había propuesto:
+
+| defecto | casos | contra | corrección |
+|---|---|---|---|
+| `Tasade` sin espacio | 1 | 1.521 `Tasa de` | `Tasa de` |
+| `Tasa de Política monetaria` (minúscula en nombre propio) | 3 | 1.441 | `Monetaria` |
+| `Informe de Política monetaria` (idem, IPoM) | 1 | 397 | `Monetaria` |
+| raya `–` en vez de guion en el número de acuerdo | 2 | 129 | `-` |
+
+Los 7 casos están en **7 actas distintas**: `2005-04-07:207:9` · `2005-11-10:503:2` ·
+`2006-05-11:660:2` · `2007-05-10:1232:1` · `2012-01-12:4572:1` · `2012-02-14:4654:1` ·
+`2012-03-15:4731:1`.
+
+### Lo que se dejó, a propósito
+
+- **`2009-05-07:2525:1`**: «…hay elementos que se suman. **Política monetaria**; baja generalizada de
+  lo que los bancos cobran…; y tercero, que el ahorro…». Es un **rótulo de lista** del Ministro, no
+  el nombre de la TPM. Se deja.
+- **`política monetaria`** todo en minúscula, de uso común («la normalización de la política
+  monetaria continúe»). Es correcto.
+
+Una búsqueda sin distinguir mayúsculas habría arrastrado las dos; por eso la medición se hizo sobre
+el `Texto` virgen y con la distinción activa.
+
+### Un tramo ya ocupado: extender, no apilar
+
+En `2005-11-10:503:2` la minúscula cae **dentro** del tramo que ya posee la operación del pase del
+§36 (`051110-T a sa de Política monetaria`). Se extendió esa operación con `enmendar_operacion.py`
+(`Despues` → `051110-Tasa de Política Monetaria`) y su justificación nombra los dos defectos, como
+mandan el §15 y el §43. Apilar una segunda operación habría abortado el lote entero.
+
+### Verificado
+
+`Política monetaria` 5 → **1** (queda sólo el rótulo de lista) · `Tasade` 1 → **0** · rayas 2 → **0**
+· `T a s a`/`T a sa` 16 → **0** · fórmula correcta 110 → **131** · `Texto` intacto en las 9.725.
+
+Registro: **1.568 filas / 2.608 operaciones**.

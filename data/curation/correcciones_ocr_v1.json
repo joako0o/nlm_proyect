@@ -3049,6 +3049,14 @@
           "Ocurrencias": 1,
           "Contexto": "s combustibles. Así, la inflación anual del IRC, más allá de ios vaivenes mes a mes, osciló en torno a 4%",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Tasa de Política monetaria (TPM)",
+          "Despues": "Tasa de Política Monetaria (TPM)",
+          "Ocurrencias": 1,
+          "Contexto": "etario iniciado en la segunda parte del 2004, aumentando la Tasa de Política monetaria (TPM), desde el último IPoM, en dos ocasiones",
+          "Justificacion": "Mayúscula faltante en un nombre propio. Medido en el texto virgen del corpus: «Tasa de Política Monetaria» aparece 1.441 veces y «Tasa de Política monetaria» 3; «Informe de Política Monetaria» 397 veces y «Informe de Política monetaria» 1. Son nombres propios —de la tasa (TPM) y del documento (IPoM)—, no sintagmas comunes. Se deja en cambio «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la «política monetaria» en minúscula de uso común, que es correcta."
         }
       ]
     },
@@ -11604,6 +11612,14 @@
           "Ocurrencias": 1,
           "Contexto": "cluidos en el IPCX en otras tarifas reguladas, precios indexados y algunos alimentos perecióles, no ha sido muy distinta de la esperada a comienz",
           "Justificacion": "perecióles por perecibles. Defecto sistematico descubierto en la ronda 185 y medido en todo el corpus: 10 apariciones en 9 filas, todas con el mismo dano (la b leida como o con tilde). \"perecióles\" no es palabra del espanol; \"perecibles\" aparece 166 veces en 123 filas. Los 10 contextos se revisaron uno por uno y todos son \"alimentos perecibles\", \"bienes perecibles\", \"los perecibles\" o \"tanto perecibles como no perecibles\". Precision 100%, sin falsos positivos posibles."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Tasa de Política monetaria, dentro",
+          "Despues": "Tasa de Política Monetaria, dentro",
+          "Ocurrencias": 1,
+          "Contexto": " escenario base incorpora como supuesto metodológico que la Tasa de Política monetaria, dentro del horizonte de proyección, seguirá un",
+          "Justificacion": "Mayúscula faltante en un nombre propio. Medido en el texto virgen del corpus: «Tasa de Política Monetaria» aparece 1.441 veces y «Tasa de Política monetaria» 3; «Informe de Política Monetaria» 397 veces y «Informe de Política monetaria» 1. Son nombres propios —de la tasa (TPM) y del documento (IPoM)—, no sintagmas comunes. Se deja en cambio «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la «política monetaria» en minúscula de uso común, que es correcta."
         }
       ]
     },
@@ -12740,6 +12756,14 @@
           "Despues": "ajadores ocupados asalariados.",
           "Contexto": "ta a 35% si se considera solo a los trabajadores ocupados asalariados. \\",
           "Justificacion": "Barra invertida suelta después del punto final, sin relación con el texto. Es de la familia de las 33 barras invertidas que no forman la secuencia con barra común (§22). Encontrado al leer la sesión 2005-04-07 (§25)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Informe de Política monetaria",
+          "Despues": "Informe de Política Monetaria",
+          "Ocurrencias": 1,
+          "Contexto": "imiento sería inferior al incluido en el escenario base del Informe de Política monetaria, por menores aumentos estimados en indu",
+          "Justificacion": "Mayúscula faltante en un nombre propio. Medido en el texto virgen del corpus: «Tasa de Política Monetaria» aparece 1.441 veces y «Tasa de Política monetaria» 3; «Informe de Política Monetaria» 397 veces y «Informe de Política monetaria» 1. Son nombres propios —de la tasa (TPM) y del documento (IPoM)—, no sintagmas comunes. Se deja en cambio «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la «política monetaria» en minúscula de uso común, que es correcta."
         }
       ]
     },
@@ -26423,6 +26447,14 @@
           "Despues": "taria en 5% anual. En",
           "Contexto": "de Chile acordó mantener la tasa de interés de política monetaria en 5 % anual. En el ámbito externo, las economías avanzadas mantienen un len",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "120214 – Tasa",
+          "Despues": "120214 - Tasa",
+          "Ocurrencias": 1,
+          "Contexto": "lo anterior, el Consejo adoptó el siguiente Acuerdo: 182-01-120214 – Tasa de Política Monetaria En su reunión men",
+          "Justificacion": "Raya en vez de guion como separador del número de acuerdo. Medido en el corpus: 129 filas usan el guion y 2 la raya, en la misma posición fija de la fórmula del Acuerdo."
         }
       ]
     },
@@ -28580,10 +28612,10 @@
         {
           "Tipo": "PALABRA_PARTIDA",
           "Antes": "051110-T a sa de Política monetaria",
-          "Despues": "051110-Tasa de Política monetaria",
+          "Despues": "051110-Tasa de Política Monetaria",
           "Ocurrencias": 1,
           "Contexto": "por la unanimidad de sus miembros, adopta el siguiente Acuerdo: 85-01-051110-T a sa de Política monetaria.",
-          "Justificacion": "Pase transversal: «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo. Medido en todo el corpus: la fórmula correcta «Tasa de Política Monetaria» aparece 1.428 veces y la forma deletreada 6, siempre en el mismo lugar —pegada al número del acuerdo, «NN-NN-NNMMDD-T a sa de Política Monetaria»—. No hay ambigüedad: el formato del acuerdo es número-título y el título es siempre el mismo. Se corrige en Texto_Corregido; Texto queda intacto."
+          "Justificacion": "Pase transversal con dos defectos en el mismo tramo, por eso se extiende esta operación en vez de apilarle otra (§15, §43). (1) «Tasa» sale deletreada como «T a sa» dentro del número del Acuerdo: la fórmula correcta aparece 1.428 veces y la forma deletreada 6, siempre pegada al número del acuerdo. (2) Además, en esta fila «Monetaria» sale en minúscula: medido en el texto virgen del corpus, «Tasa de Política Monetaria» aparece 1.441 veces y «Tasa de Política monetaria» 3; es nombre propio de la tasa (TPM), no un sintagma común. Se deja en cambio «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM."
         }
       ]
     },
@@ -29871,6 +29903,58 @@
           "Ocurrencias": 1,
           "Contexto": "ón no podrá ser informada antes de esa hora. 157-01-100715 -T a s a de Política Monetaria El Consejo aprobó",
           "Justificacion": "La palabra «Tasa» de la fórmula del Acuerdo está deletreada con espacios internos. Medido en el corpus: «-Tasa de Política» aparece bien escrita 119 veces y «T a s a» 9, siempre en la misma posición de la fórmula («el Consejo adopta el siguiente Acuerdo: <número>-Tasa de Política Monetaria»). Es el mismo defecto que el pase del §36 corrigió en la variante «T a sa» de 6 actas; ésta es la variante con las cuatro letras separadas. La posición es fija y no hay lectura alternativa: el número de acuerdo va pegado a la palabra."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4170:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "solícita que se explique",
+          "Despues": "solicita que se explique",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Sebastián Claro solícita que se explique el gráfico de la izquierda de la lámina",
+          "Justificacion": "Tilde indebida: hace falta el verbo «solicita», no el adjetivo «solícita». En los dos casos la construcción es «solícita que + subjuntivo», que sólo admite el verbo: «el Consejero señor Sebastián Claro solícita que se explique el gráfico» y «solícita que se precisen las razones». Medido en el corpus: «solícita» aparece 2 veces (éstas) y «solicita» 217; «solícito» no aparece nunca, así que el adjetivo no se usa en este corpus y no hay ambigüedad."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:5972:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "solícita que se precisen",
+          "Despues": "solicita que se precisen",
+          "Ocurrencias": 1,
+          "Contexto": ", aunque reconoce que el panorama se ha tornado complejo. Por último, solícita que se precisen las razones que explicarían el alza de ",
+          "Justificacion": "Tilde indebida: hace falta el verbo «solicita», no el adjetivo «solícita». En los dos casos la construcción es «solícita que + subjuntivo», que sólo admite el verbo: «el Consejero señor Sebastián Claro solícita que se explique el gráfico» y «solícita que se precisen las razones». Medido en el corpus: «solícita» aparece 2 veces (éstas) y «solicita» 217; «solícito» no aparece nunca, así que el adjetivo no se usa en este corpus y no hay ambigüedad."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4731:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "Tasade Política",
+          "Despues": "Tasa de Política",
+          "Ocurrencias": 1,
+          "Contexto": "rior, el Consejo adoptó el siguiente Acuerdo: 183-01-120315-Tasade Política Monetaria En su reunión mensual de polí",
+          "Justificacion": "Falta el espacio entre «Tasa» y «de» en la fórmula del Acuerdo. Medido en el corpus: «Tasade» aparece 1 sola vez (ésta) y «Tasa de» 1.521. La posición es fija."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-01-12:4572:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "120112 – Tasa",
+          "Despues": "120112 - Tasa",
+          "Ocurrencias": 1,
+          "Contexto": "lo anterior, el Consejo adoptó el siguiente Acuerdo: 181-01-120112 – Tasa de Política Monetaria En su reunión men",
+          "Justificacion": "Raya en vez de guion como separador del número de acuerdo. Medido en el corpus: 129 filas usan el guion y 2 la raya, en la misma posición fija de la fórmula del Acuerdo."
         }
       ]
     }

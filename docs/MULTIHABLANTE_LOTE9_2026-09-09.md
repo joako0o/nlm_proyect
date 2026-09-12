@@ -403,6 +403,8 @@ Para leer una sesión entera al margen del plan:
 
 | 106–114 | 2010-07-15 | 103 | **sesión cerrada 102/102** (1 ya estaba anotada) · 13 actores · cola vacía, 2b = 2 falsos (el propio actor dañado), 2c cero → **ningún corte** · destapó la **segunda variante de «Tasa» deletreada**: «T a s a» en 9 filas contra 119 bien escritas, corregidas en 9 actas (§52) |
 
+| 115–123 | 2011-07-14 | 103 | **sesión cerrada 98/98** (5 ya estaban anotadas) · 13 actores · cola vacía, 2b cero, 2c cero → **ningún corte** · 1 acento real («solícita»→solicita, 2 vs 217) · revisar la fórmula del Acuerdo completa destapó 4 defectos más («Tasade», minúscula en nombre propio ×4, raya ×2) corregidos en 7 actas · 1 op extendida en vez de apilada (§53) |
+
 Para anotar una ronda leída:
 
 ```

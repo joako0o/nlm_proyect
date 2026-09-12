@@ -45584,7 +45584,987 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2010-07-15",
       "Justificacion": "Sesión 2010-07-15 (103 filas, 100.535 caracteres, 13 actores). Ninguna fila en la cola multihablante; la red 2b dio 2 candidatos que son el propio actor con el apellido dañado por OCR («José De Gregario» por De Gregorio) y la red 2c dio cero: las siete firmas corrieron y no hay ningún corte que hacer. Los 2 candidatos de acento son verbos correctos («el INE no los publica», «el proceso de normalización que se inició»). Lo que sí apareció fue una variante nueva de un defecto ya conocido: la palabra Tasa de la fórmula del Acuerdo deletreada con las cuatro letras separadas, «T a s a». Medido en el corpus, «-Tasa de Política» aparece bien escrita 119 veces y esta variante 9, siempre en la misma posición de la fórmula. Es el mismo defecto que el pase del §36 corrigió en la variante «T a sa» de 6 actas. Se corrigieron las 9, repartidas en 9 actas distintas (2005-07-12, 2006-03-16, 2007-11-13, 2008-09-04, 2008-10-09, 2008-11-13, 2009-03-12, 2010-05-13, 2010-07-15), y ahora la fórmula aparece bien escrita 128 veces y la variante dañada cero."
+    },
+    "RPM-2011-07-14:4119:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4119:1",
+      "ID_Padre": "4119",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1416,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4121:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4121:1",
+      "ID_Padre": "4121",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2668,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4122:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4122:1",
+      "ID_Padre": "4122",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 299,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4123:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4123:1",
+      "ID_Padre": "4123",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 777,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4124:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4124:1",
+      "ID_Padre": "4124",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 282,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4125:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4125:1",
+      "ID_Padre": "4125",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 369,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4126:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4126:1",
+      "ID_Padre": "4126",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3290,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4127:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4127:1",
+      "ID_Padre": "4127",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 237,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4128:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4128:1",
+      "ID_Padre": "4128",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 391,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4129:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4129:1",
+      "ID_Padre": "4129",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 98,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4129:2": {
+      "ID_Intervencion": "RPM-2011-07-14:4129:2",
+      "ID_Padre": "4129",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 56,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4130:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4130:1",
+      "ID_Padre": "4130",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 94,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4131:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4131:1",
+      "ID_Padre": "4131",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 128,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4132:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4132:1",
+      "ID_Padre": "4132",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 345,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4133:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4133:1",
+      "ID_Padre": "4133",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 922,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4134:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4134:1",
+      "ID_Padre": "4134",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 106,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4135:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4135:1",
+      "ID_Padre": "4135",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 787,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4136:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4136:1",
+      "ID_Padre": "4136",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 804,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4137:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4137:1",
+      "ID_Padre": "4137",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 477,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4138:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4138:1",
+      "ID_Padre": "4138",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 364,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4139:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4139:1",
+      "ID_Padre": "4139",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 779,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4140:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4140:1",
+      "ID_Padre": "4140",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1273,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4141:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4141:1",
+      "ID_Padre": "4141",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 239,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4142:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4142:1",
+      "ID_Padre": "4142",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 49,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4143:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4143:1",
+      "ID_Padre": "4143",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 562,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4143:2": {
+      "ID_Intervencion": "RPM-2011-07-14:4143:2",
+      "ID_Padre": "4143",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 152,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4144:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4144:1",
+      "ID_Padre": "4144",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3211,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4145:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4145:1",
+      "ID_Padre": "4145",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 391,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4146:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4146:1",
+      "ID_Padre": "4146",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 883,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4147:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4147:1",
+      "ID_Padre": "4147",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 257,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4148:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4148:1",
+      "ID_Padre": "4148",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 112,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4148:2": {
+      "ID_Intervencion": "RPM-2011-07-14:4148:2",
+      "ID_Padre": "4148",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 313,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4149:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4149:1",
+      "ID_Padre": "4149",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 213,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4150:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4150:1",
+      "ID_Padre": "4150",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 328,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4151:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4151:1",
+      "ID_Padre": "4151",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 161,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4152:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4152:1",
+      "ID_Padre": "4152",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1179,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4153:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4153:1",
+      "ID_Padre": "4153",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 533,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4153:2": {
+      "ID_Intervencion": "RPM-2011-07-14:4153:2",
+      "ID_Padre": "4153",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 409,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4154:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4154:1",
+      "ID_Padre": "4154",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 913,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4155:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4155:1",
+      "ID_Padre": "4155",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 440,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4156:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4156:1",
+      "ID_Padre": "4156",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1183,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4158:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4158:1",
+      "ID_Padre": "4158",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1473,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4159:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4159:1",
+      "ID_Padre": "4159",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 363,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4160:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4160:1",
+      "ID_Padre": "4160",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 440,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4161:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4161:1",
+      "ID_Padre": "4161",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 226,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4162:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4162:1",
+      "ID_Padre": "4162",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 360,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4163:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4163:1",
+      "ID_Padre": "4163",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 127,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4164:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4164:1",
+      "ID_Padre": "4164",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 572,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4165:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4165:1",
+      "ID_Padre": "4165",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4166:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4166:1",
+      "ID_Padre": "4166",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 218,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4167:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4167:1",
+      "ID_Padre": "4167",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1475,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4168:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4168:1",
+      "ID_Padre": "4168",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 175,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4169:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4169:1",
+      "ID_Padre": "4169",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1577,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4170:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4170:1",
+      "ID_Padre": "4170",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 141,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4171:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4171:1",
+      "ID_Padre": "4171",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 341,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4172:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4172:1",
+      "ID_Padre": "4172",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 123,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4173:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4173:1",
+      "ID_Padre": "4173",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 127,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4174:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4174:1",
+      "ID_Padre": "4174",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1934,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4175:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4175:1",
+      "ID_Padre": "4175",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 147,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4176:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4176:1",
+      "ID_Padre": "4176",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 630,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4177:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4177:1",
+      "ID_Padre": "4177",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 232,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4178:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4178:1",
+      "ID_Padre": "4178",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 89,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4179:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4179:1",
+      "ID_Padre": "4179",
+      "Actor": "Enrique Orellana Cifuentes",
+      "Caracteres": 200,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4180:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4180:1",
+      "ID_Padre": "4180",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 84,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4181:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4181:1",
+      "ID_Padre": "4181",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 173,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4182:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4182:1",
+      "ID_Padre": "4182",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 114,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4182:2": {
+      "ID_Intervencion": "RPM-2011-07-14:4182:2",
+      "ID_Padre": "4182",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 182,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4183:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4183:1",
+      "ID_Padre": "4183",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 145,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4184:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4184:1",
+      "ID_Padre": "4184",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 508,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4185:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4185:1",
+      "ID_Padre": "4185",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 162,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4186:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4186:1",
+      "ID_Padre": "4186",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 6872,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4187:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4187:1",
+      "ID_Padre": "4187",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 362,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4188:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4188:1",
+      "ID_Padre": "4188",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 436,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4189:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4189:1",
+      "ID_Padre": "4189",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 364,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4190:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4190:1",
+      "ID_Padre": "4190",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 302,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4191:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4191:1",
+      "ID_Padre": "4191",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 404,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4192:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4192:1",
+      "ID_Padre": "4192",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 756,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4194:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4194:1",
+      "ID_Padre": "4194",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 589,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4195:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4195:1",
+      "ID_Padre": "4195",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 125,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4196:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4196:1",
+      "ID_Padre": "4196",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 168,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4197:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4197:1",
+      "ID_Padre": "4197",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3014,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4198:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4198:1",
+      "ID_Padre": "4198",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 186,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4198:2": {
+      "ID_Intervencion": "RPM-2011-07-14:4198:2",
+      "ID_Padre": "4198",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 143,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4198:3": {
+      "ID_Intervencion": "RPM-2011-07-14:4198:3",
+      "ID_Padre": "4198",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 184,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4199:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4199:1",
+      "ID_Padre": "4199",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 9161,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4200:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4200:1",
+      "ID_Padre": "4200",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4201:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4201:1",
+      "ID_Padre": "4201",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 2466,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4203:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4203:1",
+      "ID_Padre": "4203",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 9361,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4205:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4205:1",
+      "ID_Padre": "4205",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 3569,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4206:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4206:1",
+      "ID_Padre": "4206",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4207:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4207:1",
+      "ID_Padre": "4207",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 3680,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4208:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4208:1",
+      "ID_Padre": "4208",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 165,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4209:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4209:1",
+      "ID_Padre": "4209",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 6033,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4210:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4210:1",
+      "ID_Padre": "4210",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 152,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4211:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4211:1",
+      "ID_Padre": "4211",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 4423,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4212:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4212:1",
+      "ID_Padre": "4212",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 5700,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4213:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4213:1",
+      "ID_Padre": "4213",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1918,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
+    },
+    "RPM-2011-07-14:4214:1": {
+      "ID_Intervencion": "RPM-2011-07-14:4214:1",
+      "ID_Padre": "4214",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 224,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-07-14",
+      "Justificacion": "Sesión 2011-07-14 (103 filas, 102.576 caracteres, 13 actores). Ninguna fila en la cola multihablante y cero candidatos en las redes 2b y 2c: las siete firmas corrieron y no hay ningún corte que hacer. De los 3 candidatos de acento, dos son verbos correctos («Turquía, que cambió su metodología», «impactó de manera negativa») y uno era daño real: «el Consejero señor Sebastián Claro solícita que se explique el gráfico». La construcción con «que» más subjuntivo sólo admite el verbo, que va sin tilde; «solícita» con tilde es adjetivo y «solícito» no aparece nunca en el corpus, así que no hay ambigüedad. Medido: 2 apariciones contra 217 de la forma correcta; la otra está en 2014-01-16:5972:1 y se corrigió también. Las 2 comillas rectas de 4203:1 son el posesivo inglés de Moody y se conservan. La revisión completa de la fórmula del Acuerdo destapó además tres defectos más: «Tasade» sin espacio (1 contra 1.521), «Tasa de Política monetaria» y «Informe de Política monetaria» con minúscula en nombres propios (3 y 1 contra 1.441 y 397), y raya en vez de guion en el número de acuerdo (2 contra 129). Se corrigieron los 7 casos, repartidos en 7 actas. Se dejó deliberadamente «Política monetaria» en 2009-05-07:2525:1, que es un rótulo de lista del Ministro y no el nombre de la TPM, y la forma en minúscula de uso común. En 2005-11-10:503:2 la minúscula caía dentro del tramo que ya poseía la operación del pase del §36, así que se extendió esa operación en vez de apilarle otra, como mandan el §15 y el §43."
     }
   },
-  "Total_Leidas": 4211
+  "Total_Leidas": 4309
 }
