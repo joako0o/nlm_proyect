@@ -1,0 +1,154 @@
+{
+  "que_mide": "el rendimiento publicado reponderado por el diseño de muestreo",
+  "por_que": "las 500 etiquetas se sortearon por decil léxico x anio x grupo con cuotas no proporcionales (PESOS_DECIL), así que el macro-F1 publicado está calculado sobre una mezcla de deciles que no es la del universo",
+  "metodo": "pesos de diseño w_h = (N_h/N)/(n_h/n); macro-F1 con precision y recall ponderadas",
+  "universo": 2789,
+  "etiquetas": 500,
+  "deciles_control_coinciden": true,
+  "deciles_control_desacuerdos": [],
+  "acierto_recalculado_coincide_con_el_csv": true,
+  "acierto_recalculado_desacuerdos": [],
+  "macro_f1_publicado": 0.702,
+  "macro_f1_recalculado_sin_ponderar": 0.7023,
+  "macro_f1_reponderado": 0.7078,
+  "diferencia_reponderado_menos_publicado": 0.0058,
+  "accuracy_sin_ponderar": 0.78,
+  "accuracy_reponderada": 0.8045,
+  "por_clase_sin_ponderar": {
+    "HAWKISH": {
+      "precision": 0.7324,
+      "recall": 0.7324,
+      "f1": 0.7324
+    },
+    "NEUTRAL": {
+      "precision": 0.8405,
+      "recall": 0.8601,
+      "f1": 0.8501
+    },
+    "DOVISH": {
+      "precision": 0.5513,
+      "recall": 0.5,
+      "f1": 0.5244
+    }
+  },
+  "por_clase_reponderado": {
+    "HAWKISH": {
+      "precision": 0.7133,
+      "recall": 0.7463,
+      "f1": 0.7294
+    },
+    "NEUTRAL": {
+      "precision": 0.8692,
+      "recall": 0.878,
+      "f1": 0.8736
+    },
+    "DOVISH": {
+      "precision": 0.5426,
+      "recall": 0.4997,
+      "f1": 0.5203
+    }
+  },
+  "por_decil": [
+    {
+      "decil": 1,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 83,
+      "fraccion_muestra": 0.166,
+      "peso_disenio": 0.6026,
+      "etiquetadas": 83,
+      "accuracy_sin_ponderar": 0.6988
+    },
+    {
+      "decil": 2,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 62,
+      "fraccion_muestra": 0.124,
+      "peso_disenio": 0.8067,
+      "etiquetadas": 62,
+      "accuracy_sin_ponderar": 0.6774
+    },
+    {
+      "decil": 3,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 35,
+      "fraccion_muestra": 0.07,
+      "peso_disenio": 1.4291,
+      "etiquetadas": 35,
+      "accuracy_sin_ponderar": 0.8286
+    },
+    {
+      "decil": 4,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 38,
+      "fraccion_muestra": 0.076,
+      "peso_disenio": 1.3163,
+      "etiquetadas": 38,
+      "accuracy_sin_ponderar": 0.7895
+    },
+    {
+      "decil": 5,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 31,
+      "fraccion_muestra": 0.062,
+      "peso_disenio": 1.6135,
+      "etiquetadas": 31,
+      "accuracy_sin_ponderar": 0.8387
+    },
+    {
+      "decil": 6,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 30,
+      "fraccion_muestra": 0.06,
+      "peso_disenio": 1.6673,
+      "etiquetadas": 30,
+      "accuracy_sin_ponderar": 0.9
+    },
+    {
+      "decil": 7,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 32,
+      "fraccion_muestra": 0.064,
+      "peso_disenio": 1.5631,
+      "etiquetadas": 32,
+      "accuracy_sin_ponderar": 0.9688
+    },
+    {
+      "decil": 8,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 50,
+      "fraccion_muestra": 0.1,
+      "peso_disenio": 1.0004,
+      "etiquetadas": 50,
+      "accuracy_sin_ponderar": 0.82
+    },
+    {
+      "decil": 9,
+      "universo": 279,
+      "fraccion_universo": 0.1,
+      "muestra": 57,
+      "fraccion_muestra": 0.114,
+      "peso_disenio": 0.8775,
+      "etiquetadas": 57,
+      "accuracy_sin_ponderar": 0.7544
+    },
+    {
+      "decil": 10,
+      "universo": 278,
+      "fraccion_universo": 0.0997,
+      "muestra": 82,
+      "fraccion_muestra": 0.164,
+      "peso_disenio": 0.6078,
+      "etiquetadas": 82,
+      "accuracy_sin_ponderar": 0.7683
+    }
+  ],
+  "suma_pesos": 500.0
+}

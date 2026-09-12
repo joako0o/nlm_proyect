@@ -330,7 +330,7 @@ Las 7 discrepancias son **todas de clase vecina**: ninguna cruzó de hawkish a d
 
 ## Lo que encontró la auditoría metodológica
 
-Una auditoría posterior ([documento completo](AUDITORIA_HAWKISH_DOVISH_V1_2026-09-11.md), **nueve hallazgos** sobre siete artefactos reproducibles) midió varias cosas que este informe no medía. Aquí van las tres que obligan a leer el macro-F1 con una distinción que antes no estaba; el documento completo añade la distancia al estado del arte (H5), el remedio por recencia que se probó y se refutó (H6), la calibración de la confianza (H7, más abajo) el contraste contra un léxico publicado, que resultó no realizable (H8), y hasta dónde llega la fuga del H2 sobre los veredictos publicados (H9).
+Una auditoría posterior ([documento completo](AUDITORIA_HAWKISH_DOVISH_V1_2026-09-11.md), **diez hallazgos** sobre ocho artefactos reproducibles) midió varias cosas que este informe no medía. Aquí van las tres que obligan a leer el macro-F1 con una distinción que antes no estaba; el documento completo añade la distancia al estado del arte (H5), el remedio por recencia que se probó y se refutó (H6), la calibración de la confianza (H7, más abajo) el contraste contra un léxico publicado, que resultó no realizable (H8), hasta dónde llega la fuga del H2 sobre los veredictos publicados (H9), y si el diseño de muestreo infla el rendimiento publicado (H10: no, lo subestima en 0,006).
 
 **El modelo no generaliza en el tiempo.** La CV publicada mezcla 2005 con 2015, lo que supone intervenciones intercambiables. Bajo *rolling-origin* —entrenar con todo lo anterior, probar con el año siguiente, misma configuración— el macro-F1 medio cae a **0,456** (sd 0,105), con accuracy 0,727. Año por año va de 0,301 (2009) a 0,591 (2011).
 
@@ -373,7 +373,7 @@ python3 scripts/medir_calibracion_hawkish_dovish.py    # calibracion_confianza.j
 python -m unittest tests.test_hawkish_dovish -v
 ```
 
-**122 pruebas: PASS.** Cubren:
+**129 pruebas: PASS.** Cubren:
 
 - el **léxico** (dirección, negación, acotación) y el **tokenizador**;
 - el **join turno/texto** sobre los 9.257 turnos;

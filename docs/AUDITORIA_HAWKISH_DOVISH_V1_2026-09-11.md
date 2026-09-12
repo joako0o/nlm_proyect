@@ -1,8 +1,8 @@
 # Auditoría metodológica — capa hawkish/dovish v1
 
-**Fecha:** 2026-09-11 · **Artefactos:** `auditoria_metodologica.json`, `ruido_oro.json`, `efecto_ventana.json`, `deriva_temporal.json`, `calibracion_confianza.json`, `contraste_lexico_publicado.json` y `ensemble_por_sesion.json`, todos en `data/releases/hawkish_dovish_v1/` · **Scripts:** `auditar_`, `medir_ruido_oro_`, `medir_efecto_ventana_`, `probar_deriva_temporal_`, `medir_calibracion_`, `contrastar_lexico_publicado_` y `probar_ensemble_por_sesion_` + `hawkish_dovish.py`
+**Fecha:** 2026-09-11 · **Artefactos:** `auditoria_metodologica.json`, `ruido_oro.json`, `efecto_ventana.json`, `deriva_temporal.json`, `calibracion_confianza.json`, `contraste_lexico_publicado.json`, `ensemble_por_sesion.json` y `rendimiento_reponderado.json`, todos en `data/releases/hawkish_dovish_v1/` · **Scripts:** `auditar_`, `medir_ruido_oro_`, `medir_efecto_ventana_`, `probar_deriva_temporal_`, `medir_calibracion_`, `contrastar_lexico_publicado_`, `probar_ensemble_por_sesion_` y `reponderar_rendimiento_por_decil_` + `hawkish_dovish.py`
 
-Auditoría de lo entregado, contrastada contra cómo se mide el tono hawkish/dovish en la literatura de banca central. **Nueve hallazgos**: cuatro son defectos que el informe publicado **no medía** (1, 2, 3 y 7); uno es una validación ausente que sí se pudo hacer con los datos del repo (4); uno documenta la distancia al estado del arte (5); uno es un remedio estándar que se probó y se **refutó** (6); uno es una validación que se midió y resultó **no realizable** con lo que hay (8); y uno mide hasta dónde llega la fuga del hallazgo 2 sobre los veredictos publicados (9). Todo lo que se afirma abajo sale de un artefacto reproducible, incluido lo que no se pudo cerrar.
+Auditoría de lo entregado, contrastada contra cómo se mide el tono hawkish/dovish en la literatura de banca central. **Diez hallazgos**: cuatro son defectos que el informe publicado **no medía** (1, 2, 3 y 7); uno es una validación ausente que sí se pudo hacer con los datos del repo (4); uno documenta la distancia al estado del arte (5); uno es un remedio estándar que se probó y se **refutó** (6); uno es una validación que se midió y resultó **no realizable** con lo que hay (8); uno mide hasta dónde llega la fuga del hallazgo 2 sobre los veredictos publicados (9); y uno mide si el diseño de muestreo infla el rendimiento publicado (10). Todo lo que se afirma abajo sale de un artefacto reproducible, incluido lo que no se pudo cerrar.
 
 ---
 
@@ -211,6 +211,34 @@ El comparador técnico **cambia de signo**, así que leído a la ligera el vered
 
 ---
 
+## Hallazgo 10 — El diseño estratificado no infla el rendimiento publicado
+
+Las 500 etiquetas no se sortearon al azar simple: `muestra()` las estratifica por **decil léxico × año × grupo de actor** y reparte cupos con `PESOS_DECIL`, que da peso 3,0 a los deciles extremos y 1,0 a los centrales. El docstring de la función ya lo advierte: *"las etiquetas sirven para entrenar un clasificador, no para estimar la prevalencia"*.
+
+Esa advertencia se atendió a medias. La **prevalencia** sí se reponderó (`prevalencia_reponderada.json`, ESS 435,3). El **rendimiento**, no: el macro-F1 0,702 se calculó sobre la muestra tal cual, como si fuera aleatoria simple.
+
+`scripts/reponderar_rendimiento_por_decil_hawkish_dovish.py` lo mide con pesos de diseño `w_h = (N_h/N)/(n_h/n)` y macro-F1 de precisión y recall ponderadas:
+
+| | sin ponderar (publicado) | reponderado al universo |
+|---|---|---|
+| **macro-F1** | 0,7023 | **0,7078** |
+| **accuracy** | 0,7800 | **0,8045** |
+| F1 HAWKISH | 0,7324 | 0,7294 |
+| F1 NEUTRAL | 0,8501 | 0,8736 |
+| F1 DOVISH | 0,5244 | 0,5203 |
+
+**La diferencia es +0,0058: existe, pero es chica y va en la dirección contraria a la que se temería.** El diseño no infla el 0,702; si acaso lo subestima ligeramente.
+
+La razón es visible en la tabla por decil: la exactitud va de **0,677 en el decil 2** a **0,969 en el decil 7**, y el diseño **sobremuestrea los extremos** (peso 0,60 y 0,61 en D1 y D10) **y subremuestrea el centro** (peso 1,67 y 1,56 en D6 y D7). O sea: la muestra publicada está cargada hacia los turnos difíciles, que es donde el modelo falla. Reponderar hacia el universo le devuelve peso a los casos fáciles y la cifra sube.
+
+**Consecuencia práctica:** el 0,702 publicado es defendible como cifra del universo, no sólo de la muestra. Pero es conservador: un lector que quiera la mejor estimación del rendimiento sobre el corpus debería citar **0,708**, no 0,702.
+
+**Controles internos del script:** el decil recalculado desde el universo coincide con el declarado en `muestra_500_hawkish_dovish.csv` para las 500, y el acierto recalculado comparando oro y predicción coincide con la columna `Acierta` del CSV de fallos. La accuracy recalculada reproduce exactamente la publicada (0,7800).
+
+**Alcance:** esto repondera el **error de muestreo del diseño**, no el resto. No corrige la fuga por sesión (H2), ni la falta de generalización temporal (H3), ni el ruido del oro (H1). Es una corrección adicional, no sustitutiva.
+
+---
+
 ## Lo que la auditoría NO encontró roto
 
 Para que conste qué sobrevive:
@@ -231,6 +259,7 @@ Para que conste qué sobrevive:
 4. **Validación convergente externa**: contrastar contra una medida de mercado o contra el léxico publicado en la literatura, como hace Ornithologist con el Hawk-Dove Score de JP Morgan. **MEDIDO Y NO CERRABLE** (`contraste_lexico_publicado.json`, Hallazgo 8). El contraste pleno exige una serie de mercado que el repo no tiene, o traducir un léxico inglés, que reintroduciría la circularidad que se intenta romper. Lo medible —cobertura de los 11 dominios temáticos de Apel & Grimaldi— da **7/11**, y los cuatro ausentes **no producen punto ciego**: 17,8%-29,4% de sus turnos sin señal contra **41,8%** del universo. Cerrarla de verdad requiere la prioridad nº1.
 5. **CV agrupada por sesión como predeterminada**, no la aleatoria por turno. **PARCIAL**: la cifra limpia ya se **publica en el release** como `validacion_cruzada_por_sesion` (macro-F1 **0,682**, acc 0,768, MAE 0,243) junto a la aleatoria por turno, que queda sin cambios. **No se hizo predeterminada** porque eso reescribiría los titulares de un release versionado y hasheado —sería publicar un v2, no parchear v1—. Lo que sí se verificó es que el cambio no mueve el modelo: la regla de selección elige **600/30/bal con ambas particiones** sobre las cinco mejores de la rejilla, así que `sha256_modelo` no cambia y los baselines son idénticos. La diferencia por configuración (5 semillas) va de −0,009 a −0,031 y **no altera el ranking de las tres primeras**. Convertirla en predeterminada queda para v2.
 6. ~~**Incertidumbre publicada por turno**~~ **MEDIDO** en esta auditoría (`calibracion_confianza.json`), y el resultado cambia la recomendación: `Margen` y `|HD_Score|` **no** sirven como confianza (ECE 0,091 y no monótona la primera; no monótona la segunda). La que sirve es max-prob (ECE 0,041, precisión monótona de 0,500 a 0,910). **CERRADO**: se publicó como columna `HD_Confianza_Modelo` en `puntajes_hawkish_dovish.csv` (17 columnas), regenerando el release con `--diagnostico` y verificando que el modelo, el resumen y el diagnóstico salen con el mismo sha256 y que ninguna celda preexistente cambia.
+7. ~~**Reponderar el rendimiento al diseño de muestreo**~~ **MEDIDO** en esta auditoría (`rendimiento_reponderado.json`, Hallazgo 10). La advertencia del docstring de `muestra()` se había atendido a medias: la prevalencia sí se reponderó, el rendimiento no. Al hacerlo con pesos de diseño `w_h = (N_h/N)/(n_h/n)` el macro-F1 pasa de 0,7023 a **0,7078** y la accuracy de 0,780 a 0,8045. **CERRADO con resultado negativo útil**: el diseño estratificado **no infla** la cifra publicada, la **subestima** en +0,0058, porque sobremuestrea los deciles difíciles (exactitud 0,677 en D2 frente a 0,969 en D7). No requiere rehacer nada; para v2 conviene publicar la cifra reponderada junto a la sin ponderar.
 
 ---
 
@@ -242,6 +271,7 @@ python3 scripts/probar_deriva_temporal_hawkish_dovish.py   # ~12 s
 python3 scripts/medir_calibracion_hawkish_dovish.py         # ~5 s
 python3 scripts/contrastar_lexico_publicado_hawkish_dovish.py  # ~5 s
 python3 scripts/probar_ensemble_por_sesion_hawkish_dovish.py   # ~70 s
+python3 scripts/reponderar_rendimiento_por_decil_hawkish_dovish.py  # ~4 s
 python3 scripts/auditar_hawkish_dovish.py --rapido   # 3 semillas
 python -m unittest tests.test_hawkish_dovish -v
 ```

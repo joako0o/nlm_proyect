@@ -1476,17 +1476,33 @@ class EnsemblePorSesionTests(unittest.TestCase):
         self.assertIn('+0,0030', doc)
         self.assertIn('−0,0332', doc)
 
-    def test_el_encuadre_dice_nueve_hallazgos_y_siete_artefactos(self):
+    def test_el_encuadre_cita_los_artefactos_que_existen(self):
+        # El número de hallazgos crece con cada medición nueva, así que atar la
+        # cifra entera en el texto obliga a editar la prueba cada vez. Lo que sí
+        # hay que atar es que cada artefacto y script citados existan de verdad.
         doc = (DOCS / 'AUDITORIA_HAWKISH_DOVISH_V1_2026-09-11.md').read_text(encoding='utf-8')
-        self.assertIn('**Nueve hallazgos**', doc)
         self.assertIn('`ensemble_por_sesion.json`', doc)
         self.assertIn('`probar_ensemble_por_sesion_`', doc)
-        self.assertNotIn('**Ocho hallazgos**', doc)
         for a in ('auditoria_metodologica.json', 'ruido_oro.json', 'efecto_ventana.json',
                   'deriva_temporal.json', 'calibracion_confianza.json',
-                  'contraste_lexico_publicado.json', 'ensemble_por_sesion.json'):
+                  'contraste_lexico_publicado.json', 'ensemble_por_sesion.json',
+                  'rendimiento_reponderado.json'):
             self.assertIn(a, doc, a)
             self.assertTrue((RELEASE / a).exists(), a)
+
+    def test_el_encuadre_concuerda_con_los_hallazgos_y_artefactos_reales(self):
+        # atado al conteo real, no a una cifra escrita a mano
+        import re
+        doc = (DOCS / 'AUDITORIA_HAWKISH_DOVISH_V1_2026-09-11.md').read_text(encoding='utf-8')
+        n_hallazgos = len(re.findall(r'(?m)^## Hallazgo \d+ —', doc))
+        cab = doc.split('\n\n')[1]
+        n_json = len(re.findall(r'`([a-z_0-9]+\.json)`', cab))
+        n_scripts = len(re.findall(r'`([a-z_0-9]+)_`', cab))
+        self.assertEqual(n_hallazgos, 10)
+        self.assertEqual(n_json, n_hallazgos - 2)   # H5 y H6 no producen artefacto propio
+        self.assertEqual(n_scripts, n_json)
+        palabras = {8: 'Ocho', 9: 'Nueve', 10: 'Diez', 11: 'Once'}
+        self.assertIn(f'**{palabras[n_hallazgos]} hallazgos**', doc)
 
     def test_solo_cambio_la_particion_no_el_procedimiento(self):
         # mismo harness: pesos candidatos, pliegues, semillas y config publicados
@@ -1494,6 +1510,55 @@ class EnsemblePorSesionTests(unittest.TestCase):
         self.assertEqual(self.res['semillas'], self.pub['semillas'])
         self.assertIn('solo la partición', self.res['cambio_respecto_del_harness_publicado'])
         self.assertEqual(len(self.res['por_sesion']['por_semilla']), self.res['semillas'])
+
+
+class RendimientoReponderadoTests(unittest.TestCase):
+    """El rendimiento publicado, reponderado por el diseño de muestreo.
+
+    Las 500 etiquetas se sortearon por decil léxico x anio x grupo con cuotas no
+    proporcionales, y el docstring de `muestra()` ya advierte que eso no sirve
+    para estimar prevalencia. La prevalencia se reponderó; el rendimiento nunca.
+    Aquí se mide: el efecto existe pero es chico y va en contra del publicado,
+    así que el 0,702 no está inflado por el diseño.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.res = json.loads((RELEASE / 'rendimiento_reponderado.json').read_text(encoding='utf-8'))
+        cls.pub = json.loads((RELEASE / 'resumen_entrenamiento.json').read_text(encoding='utf-8'))
+
+    def test_los_dos_controles_internos_pasan(self):
+        # el decil recalculado debe coincidir con el declarado en la muestra,
+        # y el acierto recalculado con la columna Acierta del CSV
+        self.assertTrue(self.res['deciles_control_coinciden'])
+        self.assertEqual(self.res['deciles_control_desacuerdos'], [])
+        self.assertTrue(self.res['acierto_recalculado_coincide_con_el_csv'])
+        self.assertEqual(self.res['acierto_recalculado_desacuerdos'], [])
+
+    def test_la_accuracy_recalculada_es_la_publicada(self):
+        self.assertAlmostEqual(self.res['accuracy_sin_ponderar'],
+                               self.pub['validacion_cruzada']['accuracy'], places=4)
+
+    def test_el_macro_f1_sin_ponderar_reproduce_el_publicado(self):
+        self.assertAlmostEqual(self.res['macro_f1_recalculado_sin_ponderar'],
+                               self.res['macro_f1_publicado'], delta=0.001)
+
+    def test_reponderar_no_cambia_materialmente_el_veredicto(self):
+        # éste es el hallazgo: el efecto existe pero es chico y sube, no baja
+        dif = self.res['diferencia_reponderado_menos_publicado']
+        self.assertGreater(dif, 0)
+        self.assertLess(dif, 0.02)
+
+    def test_el_disenio_sobremuestrea_los_deciles_extremos(self):
+        d = {x['decil']: x for x in self.res['por_decil']}
+        # extremos con peso < 1 (sobremuestreados), centro con peso > 1
+        self.assertLess(d[1]['peso_disenio'], 1)
+        self.assertLess(d[10]['peso_disenio'], 1)
+        self.assertGreater(d[6]['peso_disenio'], 1.5)
+        self.assertGreater(d[7]['peso_disenio'], 1.5)
+
+    def test_los_pesos_suman_el_total_de_etiquetas(self):
+        self.assertAlmostEqual(self.res['suma_pesos'], float(self.res['etiquetas']), delta=0.01)
 
 
 if __name__ == '__main__':
