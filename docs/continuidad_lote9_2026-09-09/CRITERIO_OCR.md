@@ -2945,3 +2945,40 @@ ancla se invalidó. v8 y `data/processed/` quedaron intactas.
 Dos redes que dan cero no prueban que no haya nada: prueban que **esas dos redes** no lo ven. Los
 cuatro cortes publicados estaban ahí, en el registro, con su evidencia — leerlos era la forma de
 aprender qué buscar, y no se hizo hasta que se insistió.
+
+---
+
+## §49. Censo de firmas: ¿queda algún párrafo por cortar?
+
+Pregunta: antes de seguir con la próxima acta, ¿falta algún párrafo que cortar? Se respondió
+probando **todas las firmas que exhiben los cinco cortes aplicados**, más sus variantes. Las cuatro
+redes del §46–§47 no bastaban porque sólo cubrían dos de ellas.
+
+| # | firma | de dónde sale | candidatos | cortes |
+|---|---|---|---|---|
+| 1 | `señor + Nombre propio` + verbo de habla | cola lote10 (`TurnDetector`) | 74 | **0** (58 ya partidos, 16 menciones) |
+| 2 | lo mismo, sobre la base construida | red §46 | 65 | **0** (todas menciones) |
+| 3 | traspaso de palabra + texto largo después | cortes 657, 1564, 1995, 2960 | 989 → 3 con ≥400 ch | **0** pendientes (los 4 ya aplicados) |
+| 4 | **un tercero responde** dentro de la fila | corte **1706** | 32 → 2 reales | **1** (aplicado) |
+| 5 | **sujeto pospuesto**: «Menciona la señora Ministra que…» | cortes 1564, 1995 | **1** | **0** (es la propia Recart, que *es* la Ministra Subrogante) |
+| 6 | **cargo como sujeto sin nombre**: «El Gerente de División Política Financiera manifiesta…» | corte 2960 | **1** | **0** (misma Recart: su `Rol_Final` es «Ministro de Hacienda (S)», el `(S)` es Subrogante) |
+| 7 | variantes de traspaso: `invita a`, `cede`, `otorga`, `corresponde la palabra a`, `a cargo de` | — | 708 → 3 con ≥400 ch | **0** («invita **a los países** influyentes», «da paso **a una reacción de la oferta**», y `747:1` donde Corbo continúa él mismo) |
+
+**Cinco cortes, cinco aplicados. No queda ninguno pendiente.**
+
+Las firmas 5 y 6 no se habían probado nunca, y son las que abren dos de los cuatro cortes
+originales. Se probaron ahora y están agotadas: cada una dio un solo candidato en todo el corpus y
+los dos son el propio actor con el nombre o el cargo escrito distinto.
+
+### La única firma que ningún patrón puede encontrar
+
+El corte 657 abre **sin sujeto**: «A continuación el señor Presidente ofrece la palabra a don Sergio
+Lehmann Beresi, para que inicie la exposición. / Respecto al crecimiento mundial, la situación de
+China…». Eso sólo se ve leyendo. Pero sólo puede ocurrir inmediatamente después de un traspaso, y
+los traspasos con texto sustancial después están agotados (firma 3 y 7): con ≥1.500 caracteres
+después no queda **ninguno** en las 5.823 filas de un solo segmento.
+
+### Estado
+
+**9.725 filas · 5 cortes aplicados · ninguna firma con candidatos pendientes.** Se puede seguir con
+la próxima acta.
