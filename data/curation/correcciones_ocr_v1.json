@@ -6625,17 +6625,17 @@
       ]
     },
     {
-      "ID_Intervencion": "RPM-2008-08-14:1995:1",
+      "ID_Intervencion": "RPM-2008-08-14:1995:2",
       "Fecha": "2008-08-14",
-      "Actor": "Jorge Desormeaux Jiménez",
+      "Actor": "Sergio Lehmann Beresi",
       "Operaciones": [
         {
           "Tipo": "ACENTO_INDEBIDO",
           "Antes": "cambiaría",
           "Despues": "cambiaria",
           "Ocurrencias": 1,
-          "Contexto": "ja justamente que esas noticias ya estaban interiorizadas. Respecto a paridades cambiarías, señala el señor Gerente que el dólar ha recuperado terren",
-          "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+          "Contexto": "ja justamente que esas noticias ya estaban interiorizadas. Respecto a paridades cambiarías, señala el señor Gerente que el dólar ha recuperado terreno. Ese hech",
+          "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva. Nota de la entrega v8: el corte del lote10 partió el padre 1995 en el cambio de hablante (Desormeaux -> Lehmann) y esta palabra quedó en el segundo segmento, así que la operación se re-ancló de RPM-2008-08-14:1995:1 a RPM-2008-08-14:1995:2. El texto corregido es el mismo."
         }
       ]
     },

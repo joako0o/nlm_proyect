@@ -36,7 +36,7 @@ import correcciones_ocr_v1 as core  # noqa: E402
 from diagnosticar_finales import read_rows  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
-DESTINO_DEFECTO = RAIZ / 'data' / 'releases' / 'correccion_ocr_v1'
+DESTINO_DEFECTO = RAIZ / 'data' / 'releases' / 'correccion_ocr_v2'
 
 
 def exportar(destino: Path, muestra: int, semilla: int) -> int:

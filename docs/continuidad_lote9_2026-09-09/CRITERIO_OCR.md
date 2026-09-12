@@ -2106,3 +2106,35 @@ no lo suplanta.**
 **Lección para los pases transversales:** un pase automático sobre el corpus entero tiene que
 correrse *antes* contra las pruebas del repo, no después. Las dos fallas que aparecieron aquí
 (la tilde inventada y la fila reescrita) eran exactamente lo que esas pruebas están para atrapar.
+
+---
+
+## §35. La entrega v8 y el re-anclaje de una operación
+
+Los cuatro cortes del lote10 se publicaron en `data/releases/continuidad_procedimental_v8`
+(9.723 -> 9.724 filas; una fila nueva, `RPM-2008-08-14:1995:2`). La entrega anterior no se toca.
+
+**El `ID` de la base es un contador posicional.** Una sola fila nueva corre en +1 el `ID` de todas
+las siguientes, y las lecturas procedimentales v5 lo traen clavado. Eso tumbó el build con «Prueba
+no coincide o ya aplicada». Los archivos que había que tocar (`reviewed_procedural_v5.py`,
+`continuidades_procedimentales_v5.json`, `compare_functional_v7.py`, `preparar_data.py`,
+`qa_preparacion.py`) están todos fijados por hash en manifiestos vigentes, así que no se cambió ni
+un byte: se refresca el `ID` posicional en memoria, y sólo cuando todo lo demás coincide
+exactamente. El gate nuevo es `scripts/compare_procedural_v8.py`.
+
+**Consecuencia para el eje OCR.** Al partir el padre 1995 en el cambio de hablante, la palabra
+`cambiarías` de la fila `RPM-2008-08-14:1995:1` pasó al segmento nuevo. La operación que la corrige
+se re-ancló a `RPM-2008-08-14:1995:2` con su actor (`Sergio Lehmann Beresi`) y su contexto
+actualizados, dejando constancia del motivo en la justificación. **Es la única de las 2.466 que se
+movió**; las otras dos que tocan padres resegmentados (`RPM-2010-02-11:2960:1` ×2 y
+`RPM-2006-05-11:657:2`) siguen calzando donde estaban.
+
+La capa corregida se reconstruyó sobre v8 en `data/releases/correccion_ocr_v2`, sin sobrescribir
+`correccion_ocr_v1`. Verificado: 9.724 filas, 1.462 con `Texto_Corregido`, `Texto` intacto en todas,
+**cero formas dañadas** de los 17 nombres, y las 10 apariciones de «Luis Oscar Herrera» sin tilde
+conservadas porque son la grafía del documento (§34).
+
+**Regla que queda:** cuando un corte cambia la segmentación, hay que re-verificar las anclas del
+registro OCR contra la nueva base. El validador las atrapa solo (`«cambiaría» no aparece 1 veces en
+el texto virgen de la fila`), así que basta con correrlo; lo que no se puede hacer es publicarlo sin
+correrlo.

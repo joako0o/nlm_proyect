@@ -223,7 +223,7 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         nuevas; nunca escribe sobre ``Texto``. Se compara contra la base virgen
         fila por fila.
         """
-        destino = RAIZ / 'data' / 'releases' / 'correccion_ocr_v1' / 'consolidado_texto_corregido.xlsx'
+        destino = RAIZ / 'data' / 'releases' / 'correccion_ocr_v2' / 'consolidado_texto_corregido.xlsx'
         if not destino.exists():
             self.skipTest(f'release no construido: {destino}')
         alteradas = []

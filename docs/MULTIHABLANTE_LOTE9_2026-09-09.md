@@ -370,6 +370,9 @@ Para leer una sesión entera al margen del plan:
 
 | 1–6 | 2015-11-12 | 58 | una sola voz en las 58 filas · **sesión cerrada 56/56** (2 ya estaban anotadas) · noviembre 2015 · la única bandera es una referencia externa (Mario Draghi, presidente del BCE), no un asistente · 0 correcciones propias del acta: el único candidato de deletreada es falso positivo («con sumo cuidado») y los 2 acentos son legítimos · las 17 familias conocidas en 0 · **cambio de criterio (§34)**: los nombres propios dañados se normalizan cuando el corpus acredita la forma; pase transversal de nombres propios dañados: **41 operaciones en 35 filas**, cero formas dañadas restantes. Un undécimo caso, «Luis Oscar Herrera» sin tilde (10 apariciones, todas en 2005), **se revirtió**: no es daño de OCR sino la grafía del documento, y dos de esas actas ya estaban cotejadas contra el PDF (§34). El criterio de frecuencia solo resultó insuficiente y ahora exige además que la forma dañada no sea la grafía sistemática de un acta entera |
 
+| — | **entrega v8** | 9.724 | publicada en `data/releases/continuidad_procedimental_v8` (9.723 → 9.724, una fila nueva: `RPM-2008-08-14:1995:2`) · gate propio `compare_procedural_v8.py`: todas las filas, todos los campos y todos los miembros de cada grupo · grupos 9.234 → 9.235 · alertas 484 → 484 · reservas 780/2661/5252 abiertas · 2.256 pruebas OK · **el `ID` de la base es posicional**: una fila nueva lo corre en +1 y eso invalidó las lecturas procedimentales v5; se refresca en memoria porque los cinco archivos implicados están fijados por hash (§35) |
+| — | **corrección OCR v2** | 9.724 | reconstruida sobre v8 en `data/releases/correccion_ocr_v2` sin sobrescribir v1 · 1.462 filas con `Texto_Corregido` · `Texto` intacto en las 9.724 · **cero formas dañadas** de los 17 nombres · una sola operación re-anclada (`cambiarías`: 1995:1 → 1995:2) porque el corte la cambió de segmento |
+
 Para anotar una ronda leída:
 
 ```

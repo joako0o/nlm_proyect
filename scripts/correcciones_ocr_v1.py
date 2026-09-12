@@ -47,7 +47,9 @@ from diagnosticar_finales import read_rows  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 REGISTRO = RAIZ / 'data' / 'curation' / 'correcciones_ocr_v1.json'
-BASE = (RAIZ / 'data' / 'releases' / 'continuidad_procedimental_v7'
+# La base vigente es la entrega v8 (v7 + los cuatro cortes del lote10). v7 queda
+# como referencia histórica y no se modifica; el registro se ancla a la base actual.
+BASE = (RAIZ / 'data' / 'releases' / 'continuidad_procedimental_v8'
         / 'consolidado_base_referencia_final.xlsx')
 COLUMNA = 'Texto_Corregido'
 COLUMNA_COTEJO = 'Cotejar_PDF'
@@ -322,7 +324,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--base', type=Path, default=BASE)
     ap.add_argument('--destino', type=Path,
-                    default=RAIZ / 'data' / 'releases' / 'correccion_ocr_v1')
+                    default=RAIZ / 'data' / 'releases' / 'correccion_ocr_v2')
     ap.add_argument('--validar', action='store_true')
     a = ap.parse_args()
     if a.validar:
