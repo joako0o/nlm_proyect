@@ -395,6 +395,8 @@ Para leer una sesión entera al margen del plan:
 
 | — | **adjudicación completa** | — | **los 74 casos de la cola están resueltos**: 58 partidos por el motor y **16 adjudicados como menciones**, leídos uno por uno · la red independiente del §46 corrida sobre las 5.823 filas de un solo segmento dio **65 menciones reales y cero cortes** · las actas **resumen** las consultas ajenas en vez de transcribirlas, por eso hay tan pocos · detalle en §47 |
 
+| — | **quinto corte aplicado** | +1 | **`RPM-2008-03-13:1706`** De Gregorio → **Igal Magendzo Weinberger** @313–603 · encontrado por la red de «un tercero **responde** dentro de una fila de un solo hablante», no por la cola ni por el traspaso · **entrega v9 publicada**: 9.723 → 9.725, `Pasa: true`, 5 cortes · detalle en §48 |
+
 Para anotar una ronda leída:
 
 ```

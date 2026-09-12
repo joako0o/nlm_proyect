@@ -49,7 +49,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 REGISTRO = RAIZ / 'data' / 'curation' / 'correcciones_ocr_v1.json'
 # La base vigente es la entrega v8 (v7 + los cuatro cortes del lote10). v7 queda
 # como referencia histórica y no se modifica; el registro se ancla a la base actual.
-BASE = (RAIZ / 'data' / 'releases' / 'continuidad_procedimental_v8'
+BASE = (RAIZ / 'data' / 'releases' / 'continuidad_procedimental_v9'
         / 'consolidado_base_referencia_final.xlsx')
 COLUMNA = 'Texto_Corregido'
 COLUMNA_COTEJO = 'Cotejar_PDF'

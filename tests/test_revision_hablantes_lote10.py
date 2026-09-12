@@ -28,6 +28,10 @@ ESPERADO = {
     1564: ('María Olivia Recart Herrera', 163, 2230, 'Vittorio Corbo Lioi'),
     1995: ('Sergio Lehmann Beresi', 740, 2791, 'Jorge Desormeaux Jiménez'),
     2960: ('Kevin Cowan Logan', 5729, 7785, 'José De Gregorio Rebeco'),
+    # Quinto corte: no viene de la cola del lote10 sino de la red de «un tercero
+    # responde dentro de una fila de un solo hablante». El Presidente consulta
+    # nominalmente a Magendzo y la oración siguiente ya es la respuesta de éste.
+    1706: ('Igal Magendzo Weinberger', 313, 603, 'José De Gregorio Rebeco'),
 }
 
 
@@ -46,7 +50,7 @@ class _FuenteLote10(unittest.TestCase):
 
 class Lote10Tests(_FuenteLote10):
     def test_el_lote_carga_y_valida_contra_la_fuente(self):
-        self.assertEqual(len(self.entradas), 4)
+        self.assertEqual(len(self.entradas), 5)
         sueltas = load_speaker_reviews(self.raw, LOTE10)
         self.assertEqual(set(sueltas), set(ESPERADO))
         for padre, entrada in sueltas.items():
@@ -60,7 +64,7 @@ class Lote10Tests(_FuenteLote10):
 
     def test_no_solapa_el_registro_historico(self):
         self.assertEqual(len(self.historico), 353)
-        self.assertEqual(len(self.completas), 357)
+        self.assertEqual(len(self.completas), 358)
         self.assertFalse(set(self.historico) & set(ESPERADO))
         # los mismos Revision_ID no pueden repetirse entre los dos archivos
         historicos = {e['Revision_ID'] for e in
@@ -183,24 +187,25 @@ class RefrescoIDPosicionalTests(unittest.TestCase):
 
 
 class CantidadDeFilasTests(_FuenteLote10):
-    """De los cuatro cortes, sólo uno agrega una fila: los otros tres ya estaban
-    partidos por el detector con el mismo actor, y la revisión corrige la frontera.
+    """De los cinco cortes, sólo dos agregan una fila (1995 y 1706): los otros tres
+    ya estaban partidos por el detector con el mismo actor, y la revisión corrige
+    la frontera.
 
-    Esto importa porque el ID es posicional: una sola fila nueva corre el ID de
-    todas las siguientes y eso fue lo que invalidó las lecturas procedimentales v5.
+    Esto importa porque el ID es posicional: cada fila nueva corre el ID de todas
+    las siguientes y eso fue lo que invalidó las lecturas procedimentales v5.
     """
 
     def segmentos(self, padre, review):
         return list(b.segment_turns(self.raw[padre]['Texto'], self.raw[padre]['Fecha'],
                                     self.raw[padre]['Actor'], review=review))
 
-    def test_solo_el_1995_agrega_una_fila(self):
+    def test_solo_el_1995_y_el_1706_agregan_una_fila(self):
         delta = {}
         for padre in ESPERADO:
             delta[padre] = len(self.segmentos(padre, self.completas.get(padre))) - \
                 len(self.segmentos(padre, None))
-        self.assertEqual(delta, {657: 0, 1564: 0, 1995: 1, 2960: 0},
-                         'el total de filas de la base cambia en +1, no en +4')
+        self.assertEqual(delta, {657: 0, 1564: 0, 1706: 1, 1995: 1, 2960: 0},
+                         'el total de filas de la base cambia en +2, no en +5')
 
     def test_los_tres_restantes_mueven_la_frontera(self):
         """Corregir la frontera sin agregar fila también es un cambio real."""

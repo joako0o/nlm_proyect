@@ -2863,3 +2863,85 @@ motor, 16 adjudicados como menciones) y la red independiente sobre el corpus ent
 candidatos, todos menciones. Los cuatro cortes curados publicados siguen siendo los únicos, y todos
 vinieron de lectura dirigida — que es exactamente lo que se hizo aquí, sólo que esta vez el resultado
 fue negativo y ahora está medido en lugar de inferido.
+
+---
+
+## §48. Quinto corte aplicado: la firma correcta era «un tercero responde», no el traspaso
+
+El §47 concluyó que no quedaban cortes. **Estaba mal.** Se pidió revisarlos de nuevo y la segunda
+pasada encontró uno, porque se buscó otra cosa.
+
+### Por qué las dos redes anteriores no podían encontrarlo
+
+Se leyeron los cuatro cortes ya publicados para aprender su firma, y resultó que las redes del §46 y
+del §47 eran **estructuralmente ciegas** a ella:
+
+| corte | lo que precede | cómo abre la nueva voz |
+|---|---|---|
+| 657 | «**ofrece la palabra** a don Sergio Lehmann» | **sin sujeto**: «Respecto al crecimiento mundial…» |
+| 1564 | «**ofrece la palabra** a la señora Ministra… Recart» | sujeto **pospuesto**: «**Menciona la señora Ministra** que…» |
+| 1995 | «ha presentado el Gerente de Análisis Internacional» | sujeto **pospuesto**: «**Señala el señor Gerente** que…» |
+| 2960 | «**concede la palabra** al Gerente… Kevin Cowan» | sujeto es un **cargo**, no un nombre |
+
+Las redes buscaban `señor + Nombre propio` con el verbo **después**. Ninguno de los cuatro cumple:
+o no hay nombre, o va pospuesto, o el sujeto es un cargo.
+
+### El traspaso de palabra tampoco es la firma
+
+Se midió: **989 fórmulas de traspaso** en el corpus, 671 en filas de un solo segmento. Pero **660
+están al final de la fila** —el texto del siguiente hablante está en la fila siguiente, no hay nada
+que cortar—. Con ≥1.500 caracteres después: **cero**. Los 4 cortes publicados agotaron ese patrón.
+
+### La firma que sí funciona
+
+**Un tercero responde dentro de una fila de un solo hablante.** 32 candidatos en el corpus;
+filtrando los que son el propio actor con su cargo, quedan 2:
+
+- `2005-02-10:103:1` — «El Ministro de Hacienda Subrogante responde…» con el actor registrado como
+  Mario Marcel. **Falso**: la fila `100:1` dice «El Ministro de Hacienda Subrogante, **don Mario
+  Marcel**» — en esa sesión Marcel *era* el Subrogante.
+- **`2008-03-13:1706:1` — corte real.**
+
+### El corte
+
+> «El señor Presidente ofrece la palabra para comentarios sobre el escenario interno. En relación al
+> aumento inesperado y generalizado del precio de los alimentos… **el Presidente consulta al señor
+> Magendzo** si habría que esperar que este aumento continúe más aceleradamente que hace un mes.
+> **El señor Gerente responde afirmativamente** en atención a que dicho aumento no se está viendo
+> como un adelanto de una situación que se pensó que iba a ocurrir, sino que se está observando que
+> el efecto de la sequía ha sido mayor de lo que se esperaba y que además es persistente en el
+> tiempo.»
+
+El hablante anterior **pregunta** y éste **responde con contenido propio**: no es el resumen de una
+consulta («respondiendo a una consulta de X, agrega que…»), es la respuesta misma. El roster registra
+a Igal Magendzo Weinberger con 13 filas en la sesión.
+
+`HAB-20260912-1706-5` · `Inicio=313` · `Fin=603` · sha256 del padre `1de2586b…bea6`.
+
+### Entrega v9
+
+El gate de v8 está fijado en **exactamente una fila nueva**, así que —siguiendo la convención del
+proprio proyecto, que da a cada entrega su driver y su gate— se crearon `preparar_data_v9.py`,
+`compare_procedural_v9.py` y `qa_preparacion_v9.py`. Dos cosas hubo que resolver de verdad, no
+copiar:
+
+1. **`ID_Turno` se renumera tras un corte** y el gate lo capturó (`padre 1707: T33 -> T34`). Se
+   añadió `RPM-2008-03-13` a `sesiones_corte`.
+2. **Con dos filas nuevas el corrimiento del ID ya no es +1 fijo**: vale 0 antes del primer corte,
+   +1 entre los dos y +2 después del segundo. En vez de fijarlo a mano, el gate ahora **calcula**
+   cuántas filas nuevas preceden a cada fila y exige exactamente ese desplazamiento.
+
+`comparacion_procedimental_v9.json`: **`Pasa: true`** · 9.723 → **9.725** · `Filas_Nuevas
+['RPM-2008-03-13:1706:2', 'RPM-2008-08-14:1995:2']` · `Cortes: 5` · `IDs_Corridos 7.404` · grupos
+9.234 → 9.236 · reservas `{780: 4, 2661: 12, 5252: 4}` intactas. Suite completa **2.256 OK**, F0
+**PASA**, `qa_preparacion` **`pasa_controles_bloqueantes: true`**.
+
+La capa OCR se reapuntó a v9 y se reconstruyó: 9.725 filas, 1.557 con `Texto_Corregido`, `Texto`
+virgen en las 9.725 (0 diferencias), y **ninguna operación OCR toca el padre 1706**, así que ningún
+ancla se invalidó. v8 y `data/processed/` quedaron intactas.
+
+### Lección
+
+Dos redes que dan cero no prueban que no haya nada: prueban que **esas dos redes** no lo ven. Los
+cuatro cortes publicados estaban ahí, en el registro, con su evidencia — leerlos era la forma de
+aprender qué buscar, y no se hizo hasta que se insistió.
