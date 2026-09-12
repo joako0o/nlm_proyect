@@ -387,6 +387,8 @@ Para leer una sesión entera al margen del plan:
 
 | 52–60 | 2010-02-11 | 134 | **sesión cerrada 129/129** (5 ya estaban anotadas) · 13 actores · los **3** candidatos multihablante ya estaban partidos, los tres con el marcador «en tanto que» (2896:2/3, 2910:2/3, 2915:3/4) · 1 corrección (comilla recta suelta en 2906:1) · el detector volvió a proponer «hacía» en 2960:1 y sigue siendo el verbo, una de las 17 del §40 · dos familias medidas y pendientes: 41 comillas rectas (mixta) y **23** filas en letra suelta |
 
+| 61–69 | 2010-09-16 | 128 | **sesión cerrada 124/124** (4 ya estaban anotadas) · 15 actores · ninguna fila en la cola multihablante · los 5 candidatos de acento eran formas correctas · el hallazgo salió de los signos: la fórmula del Acuerdo llevaba punto y coma en **12 actas** contra 106 con dos puntos, se corrigieron las 12 · en 2006-12-14:1020:2 se **extendió** la operación existente en vez de apilar tramos solapados · 1 marca (3422:1 termina sin el nombre) |
+
 Para anotar una ronda leída:
 
 ```

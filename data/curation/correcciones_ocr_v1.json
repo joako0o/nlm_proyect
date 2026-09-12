@@ -9824,12 +9824,12 @@
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
         },
         {
-          "Tipo": "PALABRA_PARTIDA",
+          "Tipo": "PUNTUACION",
           "Antes": "erdo; 101-01-061214-T asa de Política Mon",
-          "Despues": "erdo; 101-01-061214-Tasa de Política Mon",
+          "Despues": "erdo: 101-01-061214-Tasa de Política Mon",
           "Ocurrencias": 1,
           "Contexto": ", por la unanimidad de sus miembros, adopta el siguiente Acuerdo; 101-01-061214-T asa de Política Monetaria. En su reunión mensual de polític",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1568 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+          "Justificacion": "Operación extendida: en este tramo caen dos defectos y el registro sólo puede anclar uno, así que se arreglan juntos en vez de apilar dos tramos solapados. (1) «siguiente Acuerdo;» lleva punto y coma donde la fórmula pide dos puntos — medido en las 9.724 filas la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, todas estructuralmente idénticas; es lectura de OCR del dos puntos, y las otras 11 se corrigieron como pase transversal (§43). (2) «T asa» es «Tasa» partida por un espacio espurio, detectada por la pasada transversal de §36: la palabra junta aparece más de 1.500 veces. Texto queda intacto."
         }
       ]
     },
@@ -10198,6 +10198,14 @@
           "Despues": "”",
           "Contexto": "ción proyectada se ubique en 3% en el horizonte de política.\"",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En mérito de lo anterior, el Consejo adopta el siguiente Acuerdo; 143-01-090908 - Tasa de Política Monetaria En su reunión mensual de pol",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
         }
       ]
     },
@@ -12482,6 +12490,14 @@
           "Ocurrencias": 1,
           "Contexto": "de sus derivados, especialmente la gasolina, así como los de algunos alimentos, permanecen altos. k f La información disponible confirma un mayor crecimiento de la activid",
           "Justificacion": "Residuo de escaneo \"k f\" entre dos oraciones (\"permanecen altos. k f La información disponible\"). No es texto: son dos caracteres sueltos que no forman palabra ni pertenecen a ninguna de las dos oraciones, que por separado estan completas. Se elimina como simbolo suelto, igual que los residuos ya tratados en otras filas."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En mérito de lo anterior, el Consejo adopta el siguiente Acuerdo; 107-01-070510 - Tasa de Política Monetaria. En su reunión mensual de po",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
         }
       ]
     },
@@ -16165,6 +16181,14 @@
           "Ocurrencias": 1,
           "Contexto": "bican por sobre lo proyectado. Los precios de otras materias primas también han aumentado. ■o J La información disponible sigue dando cuenta de un aumento del dinamis",
           "Justificacion": "Símbolo ■ con basura adyacente, residuo del escaneo. El tipo SIMBOLO_SUELTO fue creado justamente para estos casos («■V», «ry _<< ■» -> se elimina). Medido: 21 apariciones en 20 filas. Se trata cada una con su basura propia porque el ruido que la acompaña varía (■o J, ■,\\y, ■', ■J, ■V, / ■ ' /, 4 / ■, i - /■, — f ■, ry _<< ■). En todos los casos las dos oraciones que rodean el residuo quedan completas sin él. Excepción: en 5802:2 se elimina solo el ■ y se deja el paréntesis abierto, porque esa fila ya está marcada RECONSTRUCCION_AMBIGUA_POR_COTEJAR con motivo FINAL_SIN_PUNTUACION."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En mérito de lo anterior, el Consejo adopta el siguiente Acuerdo; 106-01-070412 - Tasa de Política Monetaria. En su reunión mensual de po",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
         }
       ]
     },
@@ -16204,6 +16228,14 @@
           "Ocurrencias": 1,
           "Contexto": "Banco Central de Chile acordó mantener la tasa de interés de política monetari a en 5% anual. El escenario externo relevante para la economía chilena ",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «monetari a» -> «monetaria». La evidencia es interna y doble: el primer trozo («monetari») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («monetaria») es la que el propio corpus usa 4283 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En mérito de lo anteri or, el Consejo adopta el siguiente Acuerdo; 109-01-070614 - Tasa de Política Monetaria. En su reunión mensual de po",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
         }
       ]
     },
@@ -21475,6 +21507,14 @@
           "Ocurrencias": 1,
           "Contexto": "o se redujo y los salarios nominales mantienen su dinamismo. Las condiciones de financiamíento local reflejan el impacto del estímulo monetario. La in",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "ón unánime efectuada por los señores Consejeros, el Consejo adoptó el siguiente Acuerdo; N° 218-01-150115 - Tasa de Política Monetaria En su reunión mensual de ",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
         }
       ]
     },
@@ -29584,6 +29624,84 @@
           "Justificacion": "Comilla recta suelta. La oración se lee completa y correcta sin ella: «se tiene mucha persistencia, lo cual no lo hace inmune a los shocks, por el contrario, estos provocan un significativo efecto por una vez». No es un posesivo inglés (no hay palabra en inglés) y no cierra ninguna cita: es la única comilla recta de la fila y el corpus usa comillas tipográficas (360 «“» y 347 «”»). Queda pendiente, para cuando toque cada sesión, la familia completa: 41 comillas rectas en 38 filas, y es mixta — la mayoría es basura de OCR («'’i^sgo», «costos f' H-», «'V/», «'aquerida») pero algunas son posesivos ingleses legítimos («Purchasing Managers' Index», «Lloyd's»), así que no se puede resolver por regla."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:55:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "lo anterior, el Consejo, por la unanimidad de sus miembros, adopta el siguiente Acuerdo;",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-10-11:449:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "lo anterior, el Consejo, por la unanimidad de sus miembros, adopta el siguiente Acuerdo; 84-01-051011 - Tasa de Política Monetaria. En su reunión mensual de pol",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-08-10:827:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "lo anterior, el Consejo, por la unanimidad de sus miembros, adopta\nel siguiente Acuerdo;\n5-01 -060810 - Tasa de Política Monetaria.\nEn su reunión mensual de pol",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1102:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En mérito de lo anterior, el Consejo adopta el siguiente Acuerdo; 104-01-070208 - Tasa de Política Monetaria. En su reunión mensual de po",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-09-16:3431:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En mérito de lo anterior, el Consejo adopta el siguiente Acuerdo; 160-01-100916 - Tasa de Política Monetaria En su reunión mensual de pol",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-02-17:3813:3",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "siguiente Acuerdo;",
+          "Despues": "siguiente Acuerdo:",
+          "Ocurrencias": 1,
+          "Contexto": "En virtud de lo anterior, el Consejo adoptó el siguiente Acuerdo; 166-01-110217 - Tasa de Política Monetaria En su reunión mensual de pol",
+          "Justificacion": "Pase transversal. La fórmula del Acuerdo es «el Consejo adopta/adoptó el siguiente Acuerdo: NNN-NN-NNMMDD - Tasa de Política Monetaria»: los dos puntos introducen el acuerdo enumerado, y un punto y coma no puede hacer eso. Medido en las 9.724 filas: la fórmula aparece 118 veces, 106 con dos puntos y 12 con punto y coma, y las 12 son estructuralmente idénticas a las otras —mismo número de acuerdo y mismo título a continuación—. El punto y coma es una lectura de OCR del dos puntos. Se corrigieron las 12 (2005-01-11, 2005-10-11, 2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16, 2011-02-17, 2015-01-15). Es la misma evidencia que en §39 para «Siendo las 16; 15 horas» -> «16:15», donde también había 106 apariciones con dos puntos. Texto queda intacto."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -30852,6 +30970,12 @@
       "Texto_Original_Fragmento": "por un tiempo prolongado. ' ' v Con respecto a posibles medidas",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "RESIDUO_DE_LAMINA. Entre dos oraciones que se leen bien aparece «' ' v», que no es texto: parece el residuo de una viñeta o de un marcador de la lámina que se estaba proyectando. El corpus usa «•» como viñeta (141 veces en 31 actos), así que esto no es una viñeta reconocible. Borrarlo sería suponer qué era; sin el PDF no se sabe. Se marca para cotejar."
+    },
+    {
+      "ID_Intervencion": "RPM-2010-09-16:3422:1",
+      "Texto_Original_Fragmento": "El Ministro de Hacienda señor Felipe Larraín se suma a lo expresado por el señor",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "FRASE_INCOMPLETA_EN_LA_FUENTE. La fila termina en «se suma a lo expresado por el señor» sin el nombre, y la fila siguiente empieza una oración nueva («A continuación, el Presidente señor José De Gregorio concede la palabra al Gerente…»), así que el nombre no está en ninguna parte. Completarlo sería inventarlo. La fila ya lleva FINAL_SIN_PUNTUACION, pero esa alerta dice sólo que falta el punto, no que falta un nombre: por eso se marca además. Mismo caso que 2008-03-13:1728:1."
     }
   ],
   "Marcas_Adicionales": [

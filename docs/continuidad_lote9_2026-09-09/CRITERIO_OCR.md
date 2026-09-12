@@ -2544,3 +2544,63 @@ colgada al final de la página anterior. La fila siguiente siempre empieza con l
 (`2915:4` arranca «En cuanto a las tasas…»), así que la letra no le pertenece a ninguna de las dos.
 Borrarla sería perder un carácter de la fuente si el corte cayó a mitad de palabra; confirmarlo
 exige el PDF. **Pendientes, con el número corregido.**
+
+---
+
+## §43. Sesión 2010-09-16: la fórmula del Acuerdo, 12 actas, y cómo se extiende una operación
+
+Ninguna fila en la cola multihablante y los cinco candidatos de acento eran formas correctas
+(`dónde` ×2 y `cuánto` ×2 interrogativos, `motivó` verbo). El hallazgo salió de la sección de signos:
+la fila del Acuerdo traía punto y coma donde la fórmula pide dos puntos.
+
+### El pase transversal
+
+«el Consejo adopta/adoptó el siguiente Acuerdo**X** NNN-NN-NNMMDD - Tasa de Política Monetaria»:
+
+| | apariciones |
+|---|---|
+| con dos puntos | **106** |
+| con punto y coma | **12** |
+| con coma o punto | 0 |
+
+Las 12 son **estructuralmente idénticas** a las otras: mismo número de acuerdo y mismo título a
+continuación. Un punto y coma no puede introducir un acuerdo enumerado; es lectura de OCR del dos
+puntos. Se corrigieron las 12, repartidas en 12 actas entre 2005 y 2015 — 2005-01-11, 2005-10-11,
+2006-08-10, 2006-12-14, 2007-02-08, 2007-04-12, 2007-05-10, 2007-06-14, 2009-09-08, 2010-09-16,
+2011-02-17, 2015-01-15.
+
+Es exactamente la misma evidencia que en §39 para «Siendo las 16; 15 horas» → «16:15», donde también
+había 106 apariciones con dos puntos. Después del pase: 118 con dos puntos, 0 con punto y coma en la
+salida, y las 12 intactas en `Texto`.
+
+### Cuando dos defectos caen en el mismo tramo
+
+`2006-12-14:1020:2` ya tenía una operación en ese tramo, del pase de «T a sa» de §36:
+
+```
+Antes   : 'erdo; 101-01-061214-T asa de Política Mon'
+Despues : 'erdo; 101-01-061214-Tasa de Política Mon'
+```
+
+El punto y coma está **dentro** del tramo ya registrado, así que no se puede añadir una segunda
+operación: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. El
+validador de `agregar_correcciones_ocr.py --parche` lo detecta y no escribe nada. Lo correcto es
+**extender** la operación existente, que es lo que hace `enmendar_operacion.py`:
+
+```
+Despues : 'erdo: 101-01-061214-Tasa de Política Mon'   ← arregla las dos cosas
+Tipo    : PUNTUACION
+```
+
+Queda documentado en la justificación que ahí caen dos defectos y por qué se arreglan juntos. Es la
+regla del §15 aplicada: cuando dos defectos comparten tramo, se extiende, no se apila.
+
+### Lo que se marcó y lo que se dejó
+
+- **`3422:1`** termina en «se suma a lo expresado por el señor» **sin el nombre**, y la fila siguiente
+  empieza una oración nueva, así que el nombre no está en ninguna parte. Ya llevaba
+  `FINAL_SIN_PUNTUACION`, pero esa alerta dice sólo que falta el punto, no que falta un nombre: se
+  marcó además con `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`. Mismo caso que `2008-03-13:1728:1`.
+- **`3431:2` tiene la comilla de cierre sin apertura** (0 `“`, 1 `”`). No se tocó: revisando las
+  demás filas de Acuerdo el panorama es inconsistente — unas tienen el par completo, otras sólo la
+  apertura, otras sólo el cierre. Reconstruir cuáles llevaban comilla de apertura exige el PDF.
