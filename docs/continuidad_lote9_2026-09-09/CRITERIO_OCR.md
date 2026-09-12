@@ -1211,5 +1211,53 @@ faltaba estaba **dentro de `7ay/or`**, que es «Taylor» dañado (regla de Taylo
 corregido antes. La baja es correcta; lo que estaba mal era mi expectativa. Ahora el test la
 declara explícitamente como caída permitida, con la razón.
 
-Estado tras §21: **1.368 filas corregidas, 2.201 operaciones, 194 marcadas (158 abiertas + 34
+## 22. La «M» que la OCR escribe como `í\/l`
+
+El escaneo del §21 mostró de rebote una secuencia con barra invertida (`í\/lanuel`,
+`í\/1onetaria`) y no se siguió. Medida aparte: el corpus tiene **48 barras invertidas**, de las
+cuales **15** forman la secuencia `\/` dentro de una palabra, en 11 formas distintas. Las otras 33
+están sueltas y son otra familia, más sucia.
+
+El patrón es una sola letra: **la `M` se vuelve `í\/l`, `l\/l`, `i\/l`, `Í\/1` o `Í\/I`**.
+
+| dañada | n | correcta | veces en el corpus |
+|---|---:|---|---:|
+| `l\/lonetaria`, `í\/lonetaria`, `í\/1onetaria` | 5 | `Monetaria` | 3.248 |
+| `TPÍ\/I` | 2 | `TPM` | 1.822 |
+| `í\/larshall` | 2 | `Marshall` | 1.243 |
+| `í\/lanuel` | 1 | `Manuel` | 1.184 |
+| `i\/linistro`, `í\/línistro` | 2 | `Ministro` | 1.419 |
+| `RPÍ\/1` | 1 | `RPM` | 591 |
+| `í\/lacroeconómico` | 1 | `Macroeconómico` | 996 |
+| **`lí\/IACEC`** | **1** | **¿?** | **`IACEC`: 1** |
+
+14 corregidas. **`lí\/IACEC` se marcó**: «IACEC» aparece **una sola vez en todo el corpus, que es
+esta misma ocurrencia**, y las candidatas son `IPCX1` (458) o `IPCSAE` (55). Dos lecturas
+plausibles y sin PDF de la sesión → se marca, no se elige. La secuencia quedó en **1**, que es la
+marcada, y el test exige exactamente eso.
+
+### Nombres propios
+
+`Marshall` y `Manuel` se corrigieron, y conviene decir por qué no choca con la regla de no
+resolver alias de nombres. Esa regla prohíbe **elegir entre grafías alternativas** de una persona
+(Bermúdez/Vintimilla, Ricaurte, «Claudia Raddatz»). Aquí no hay elección: `í\/larshall` no es una
+grafía de nada, es un glifo dañado, y el destino es la forma que el propio corpus usa 1.243 veces.
+Restaurar la forma mayoritaria del corpus no es resolver un alias.
+
+### Un delta que no cuadraba, y por qué había que perseguirlo
+
+Al verificar, `Ministro` pasó de 1.419 a 1.420: **+1, cuando mis dos correcciones daban +2**. Se
+podía haber dicho «más o menos cuadra» y seguir. Se persiguió: la fila `RPM-2005-01-11:57:1` bajó
+de 2 a 1 porque uno de los dos estaba dentro del bloque de firmas escaneadas que una decisión
+anterior elimina como `FIRMA_TRUNCADA` (52 filas). El −1 es legítimo y documentado; el neto +1 es
+correcto.
+
+La regla operativa: **cuando un conteo no cuadra con lo que uno hizo, la diferencia es
+información.** Casi siempre es una corrección anterior interactuando, y a veces es un daño.
+
+Recuperación: el workspace se reseteó otra vez al inicio del turno (HEAD en el commit base, remoto
+en `3ec89c9`). Se verificaron los 100 archivos contra el remoto —todos idénticos— antes de
+restaurar, y el venv se recreó. Registro y release intactos, sha base sin cambio.
+
+Estado tras §22: **1.376 filas corregidas, 2.214 operaciones, 195 marcadas (159 abiertas + 34
 cierres), `Texto` intacto en las 9.723**, sha base `d0b64842…` sin cambio.

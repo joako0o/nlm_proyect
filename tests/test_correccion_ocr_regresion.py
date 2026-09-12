@@ -84,8 +84,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 5
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1368
-MIN_OPERACIONES = 2201
+MIN_CORREGIDAS = 1376
+MIN_OPERACIONES = 2214
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -106,7 +106,7 @@ RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
 # bajar es el total de casos adjudicados (abiertos + cerrados) ni el número de
 # cierres ya documentados; si no, borrar revisiones del registro se vería como
 # una mejora y el piso anterior (MIN_MARCADAS) premiaba dejar preguntas abiertas.
-MIN_CASOS_ADJUDICADOS = 192   # 158 abiertas + 34 cerradas al cierre del §21
+MIN_CASOS_ADJUDICADOS = 193   # 159 abiertas + 34 cerradas al cierre del §22
 MIN_CIERRES_COTEJO = 34
 
 # §19: punto pegado a letra. De las 45 ocurrencias, 36 son abreviatura legítima
@@ -315,6 +315,21 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                 if re.sub(r'\s+', '', op['Antes']) != re.sub(r'\s+', '', op['Despues']):
                     malas.append((e['ID_Intervencion'], op['Antes'][:40]))
         self.assertEqual(malas, [], f'operaciones que alteran texto: {malas[:3]}')
+
+    def test_la_barra_invertida_con_barra_desaparecio_salvo_la_marcada(self):
+        """§22: la OCR escribe la «M» como «í\\/l», «l\\/l», «i\\/l», «Í\\/1».
+
+        Quince ocurrencias. Catorce se corrigieron porque la forma resultante es
+        la del propio corpus y aparece miles de veces; la que queda es
+        «lí\\/IACEC», donde «IACEC» aparece una sola vez en todo el corpus (ésta)
+        y las candidatas son IPCX1 o IPCSAE. Ambigua, marcada, no adivinada.
+        """
+        bs = chr(92)
+        vivos = [i for i, t in self.salida.items() if (bs + '/') in t]
+        self.assertEqual(vivos, ['RPM-2009-03-12:2400:1'],
+                         f'la secuencia reapareció o se corrigió la ambigua: {vivos}')
+        self.assertIn('RPM-2009-03-12:2400:1', self.marcas,
+                      'la única fila que conserva la secuencia debe estar marcada')
 
     def test_la_barra_por_letra_desaparecio_sin_tocar_los_usos_legitimos(self):
         """§21: la OCR escribe «v», «l» e «I» como «/».

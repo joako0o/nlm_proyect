@@ -4101,6 +4101,13 @@
           "Ocurrencias": 1,
           "Contexto": "to mundial para el 2010 - para los socios comerciales - se tiende a estabilizar en tomo a 2%; y la información revela que el crecimiento negativo del",
           "Justificacion": "en tomo a por \"en torno a\". Medido: 24 apariciones (20 \"en tomo a\" y 4 \"en tomo al\"), la r leida como m. \"tomo\" es palabra real (volumen) pero ningun contexto lo admite. \"en torno a\" aparece 1.678 veces."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "RPÍ\\/1",
+          "Despues": "RPM",
+          "Contexto": "érminos mecánicos, y la decisión que se adoptó en la última RPÍ\\/1 fue reponerla y así se comunicó. Entonces, indica, para vol",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «RPM» 591 veces y no tiene ninguna forma legítima con esa secuencia."
         }
       ]
     },
@@ -6336,6 +6343,13 @@
           "Ocurrencias": 1,
           "Contexto": "Indica el señor García que, en segundo lugar, está el impacto de la apreciación cambiaría sobre la dinámica inflacionaria subyacente. Hace presente t",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l\\/lonetaria",
+          "Despues": "Monetaria",
+          "Contexto": "actividad evaluado en las últimas dos Reuniones de Política l\\/lonetaria. El crecimiento en febrero estuvo por sobre lo previsto, pe",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Monetaria» 3248 veces y no tiene ninguna forma legítima con esa secuencia."
         }
       ]
     },
@@ -11415,8 +11429,8 @@
           "Antes": "í\\/1onetaria",
           "Despues": "Monetaria",
           "Ocurrencias": 1,
-          "Contexto": "e bajas futuras se mantiene, en esta ocasión recomienda mantener la Tasa de Política í\\/1onetaria y esperar una o dos reuniones más para recabar nuevos antec",
-          "Justificacion": "í\\/1onetaria por Monetaria. La formula \"Tasa de Política Monetaria\" aparece 1.411 veces en el corpus, incluida esta misma fila en otras partes; aqui la M se leyo como \"í\\/1\". No hay lectura alternativa."
+          "Contexto": "ne, en esta ocasión recomienda mantener la Tasa de Política í\\/1onetaria y esperar una o dos reuniones más para recabar nuevos antec",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Monetaria» 3248 veces y no tiene ninguna forma legítima con esa secuencia."
         }
       ]
     },
@@ -11874,6 +11888,13 @@
           "Despues": "nominalizó, pero se p",
           "Contexto": "proceso en la menor Tasa de Política Monetaria desde que se nominalizó , pero se puede avanzar con gradualidad. Agrega que en su opinión, no e",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/lonetaria",
+          "Despues": "Monetaria",
+          "Contexto": "entral de Chile ha bajado agresivamente la Tasa de Política í\\/lonetaria de manera de alinearla con el nuevo escenario macroeconómic",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Monetaria» 3248 veces y no tiene ninguna forma legítima con esa secuencia."
         }
       ]
     },
@@ -14832,6 +14853,20 @@
           "Ocurrencias": 1,
           "Contexto": "ambios que hubo respecto a la última RPM, donde se observa que han continuado / ios ajustes, particularmente en economías emergentes. Agreg",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "TPÍ\\/I",
+          "Despues": "TPM",
+          "Contexto": "e la barra completa que se muestra es el nivel que tenía la TPÍ\\/I en septiembre de 2008 para los distintos países considerado",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «TPM» 1822 veces y no tiene ninguna forma legítima con esa secuencia."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/línistro",
+          "Despues": "Ministro",
+          "Contexto": "del ajuste ya se ha completado. Ante una consulta del señor í\\/línistro de Hacienda acerca de la gráfica, el señor Lehmann explica ",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Ministro» 1419 veces y no tiene ninguna forma legítima con esa secuencia."
         }
       ]
     },
@@ -25780,6 +25815,102 @@
           "Justificacion": "«IPoM» aparece 2.491 veces en el corpus y «/PoM» sólo aquí: la «I» se volvió «/» y además se perdió el espacio que la separaba de «del». Es la misma sustitución que en los cuatro «el /PoM» ya corregidos, con el espacio de menos."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1663:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/lanuel",
+          "Despues": "Manuel",
+          "Contexto": "ia de División Estudios. Por otra parte, el Consejero señor í\\/lanuel Marfán comenta que la coyuntura ha estado muy volátil, espe",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Manuel» 1184 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1904:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l\\/lonetaria",
+          "Despues": "Monetaria",
+          "Contexto": "El Gerente de División Política l\\/lonetaria señor Kevin Cowan señala que cree que las principales notic",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Monetaria» 3248 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1907:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/lonetaria",
+          "Despues": "Monetaria",
+          "Contexto": "a, y por lo tanto, se inclina por subir la Tasa de Política í\\/lonetaria en 50 puntos base. Indica que las razones para ello son las",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Monetaria» 3248 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2463:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "i\\/linistro",
+          "Despues": "Ministro",
+          "Contexto": "El señor i\\/linistro señala que su suposición era que las personas que venden co",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Ministro» 1419 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2525:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/larshall",
+          "Despues": "Marshall",
+          "Contexto": "Al respecto, el Consejero señor Enrique í\\/larshall señala que también hay un movimiento por parte de inversion",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Marshall» 1243 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2525:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/lacroeconómico",
+          "Despues": "Macroeconómico",
+          "Contexto": "El Gerente de Análisis í\\/lacroeconómico señala que la información que se presenta corresponde a dat",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Macroeconómico» 996 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2674:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "í\\/larshall",
+          "Despues": "Marshall",
+          "Contexto": "El Consejero señor Enrique í\\/larshall plantea que esa comparación es un poco tramposa, ya que los",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «Marshall» 1243 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4514:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "TPÍ\\/I",
+          "Despues": "TPM",
+          "Contexto": "ue en 3% en el horizonte de política. Cambios futuros en la TPÍ\\/I dependerán de las implicancias de las condiciones macroecon",
+          "Justificacion": "La OCR escribe la «M» como una secuencia de glifos con barra invertida. El corpus tiene «TPM» 1822 veces y no tiene ninguna forma legítima con esa secuencia."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -26934,6 +27065,12 @@
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "El tramo «Zero /nterest Poliey» tiene al menos dos defectos a la vez: la barra por «I» y «Poliey» por «Policy». Además «Interest» no aparece ni una vez en el corpus virgen, así que no hay forma interna de confirmar la grafía, y el término completo es ambiguo (Zero Interest Rate Policy). Se marca en vez de corregir.",
       "Texto_Original_Fragmento": "Zero /nterest Poliey. 'Com"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2400:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "El tramo «lí\\/IACEC» debería ser un índice de precios, pero «IACEC» aparece una sola vez en todo el corpus (ésta) y las candidatas son IPCX1 (458 veces) o IPCSAE (55). Con dos lecturas plausibles y sin PDF de la sesión no se elige: se marca.",
+      "Texto_Original_Fragmento": "lí\\/IACEC es n"
     }
   ],
   "Marcas_Adicionales": [
