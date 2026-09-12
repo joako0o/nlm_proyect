@@ -1930,3 +1930,22 @@ su forma útil: **un residuo que aparece varias veces suele tener al lado la for
 Estado tras §32: **1.419 filas corregidas, 2.406 operaciones, 210 marcadas, `Texto` intacto en las
 9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **38 de 131**; filas leídas **2.771 de
 9.723**.
+
+### Aplicado: las 9 filas de «staff e\\»
+
+El pase se aplicó en el mismo turno y dejó **9 operaciones en 9 filas** (6 agregadas, 3 parcheadas
+sobre filas que ya tenían correcciones de §16). Tras aplicarlo, la familia queda en **0** y las
+barras invertidas del corpus bajan de 29 a 20.
+
+La corroboración más fuerte no es la regla sino el propio corpus: la forma correcta ya aparecía
+**20 veces** («agradece al staff el material preparado»), **25** («al staff por el apoyo
+brindado»), **19** («al staff el apoyo brindado») y **3** («al staff el excelente análisis»). Las 9
+filas corregidas se suman a esas 67, no inventan una forma nueva.
+
+**El validador frenó la primera versión.** En las 4 filas donde el OCR pegó las dos palabras
+(`staffe\\`, sin espacio) el reemplazo ingenuo produjo `staffel`, y `core.validar()` lo rechazó:
+«el reemplazo introduce *staffel*, que no está en el corpus ni en TERMINOS_FORANEOS». La lectura
+correcta es `staff el`, con el espacio restaurado por §16, igual que en `fundamen tal` o
+`intervenci ón`. Se enmendó el `Despues` de esas 4 con `enmendar_operacion.py`. Queda como recordatorio
+de por qué la guarda léxica existe: **una sustitución puede ser correcta en el símbolo y aun así
+fabricar una palabra que no existe.**

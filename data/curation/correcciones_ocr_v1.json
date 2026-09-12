@@ -6180,6 +6180,14 @@
           "Ocurrencias": 2,
           "Contexto": " enero, el bajo registro del IMACEC de diciembre y la significativa apreciación cambiaría de las últimas semanas. Por otra parte, los agregados monet",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " Enrique Marshall agradece al staffe\\ material preparado para esta ",
+          "Despues": " Enrique Marshall agradece al staff el material preparado para esta ",
+          "Ocurrencias": 1,
+          "Contexto": "staffe\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32. El espacio entre «staff» y el artículo se restaura porque el OCR los pegó («staffe\\»), igual que en «fundamen tal» o «intervenci ón» (§16): la forma del corpus es «agradece al staff el material preparado». El validador rechazó la primera versión de esta operación porque introducía «staffel», que no existe."
         }
       ]
     },
@@ -15133,6 +15141,14 @@
           "Ocurrencias": 1,
           "Contexto": " ocasión. Menciona el señor Consejero que las noticias acumuladas en el curso de! último mes configuran un cuadro particularmente complej",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " Enrique Marshall agradece al staffe\\ material preparado para esta ",
+          "Despues": " Enrique Marshall agradece al staff el material preparado para esta ",
+          "Ocurrencias": 1,
+          "Contexto": "staffe\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32. El espacio entre «staff» y el artículo se restaura porque el OCR los pegó («staffe\\»), igual que en «fundamen tal» o «intervenci ón» (§16): la forma del corpus es «agradece al staff el material preparado». El validador rechazó la primera versión de esta operación porque introducía «staffel», que no existe."
         }
       ]
     },
@@ -23207,6 +23223,14 @@
           "Ocurrencias": 1,
           "Contexto": " que ha subido y, además, porque es coherente con las expectativas del mercado. Expresa que bajarla seria una medida de orden preventivo ante posibles efectos má",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " intervención agradeciendo al staff e\\ excelente análisis. Expresa q",
+          "Despues": " intervención agradeciendo al staff el excelente análisis. Expresa q",
+          "Ocurrencias": 1,
+          "Contexto": "staff e\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
         }
       ]
     },
@@ -27594,6 +27618,84 @@
           "Ocurrencias": 1,
           "Contexto": "ria que se deduce de los precios de activos, que es la que se utiliza para ver los / traspasos de tasas, no se observan anomalías en la rebaja de las tasas de los créditos c",
           "Justificacion": "Barra suelta con espacios a ambos lados entre un artículo y su sustantivo: «la que se utiliza para ver los [/] traspasos de tasas». Medido: « / » aparece 31 veces en 29 filas y la familia NO es uniforme —hay usos legítimos («40 / 50 dólares», «tasa - euro / tasa - dólar») y residuos de salto de columna («no una tasa de / crecimiento», «front loaded. / Puntualiza»)—. Éste no puede ser separador de nada: «los» y «traspasos» son artículo y sustantivo de la misma frase, y la oración lee completa sin la barra. Se elimina la ocurrencia, no la cadena (§8 ter)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:777:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " Enrique Marshall agradece al staffe\\ material preparado para esta ",
+          "Despues": " Enrique Marshall agradece al staff el material preparado para esta ",
+          "Ocurrencias": 1,
+          "Contexto": "staffe\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32. El espacio entre «staff» y el artículo se restaura porque el OCR los pegó («staffe\\»), igual que en «fundamen tal» o «intervenci ón» (§16): la forma del corpus es «agradece al staff el material preparado». El validador rechazó la primera versión de esta operación porque introducía «staffel», que no existe."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1635:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " Enrique Marshall agradece al staffe\\ material preparado para esta ",
+          "Despues": " Enrique Marshall agradece al staff el material preparado para esta ",
+          "Ocurrencias": 1,
+          "Contexto": "staffe\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32. El espacio entre «staff» y el artículo se restaura porque el OCR los pegó («staffe\\»), igual que en «fundamen tal» o «intervenci ón» (§16): la forma del corpus es «agradece al staff el material preparado». El validador rechazó la primera versión de esta operación porque introducía «staffel», que no existe."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2754:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "su exposición agradeciendo al staff por e\\ apoyo brindado. El señor Cons",
+          "Despues": "su exposición agradeciendo al staff por el apoyo brindado. El señor Cons",
+          "Ocurrencias": 1,
+          "Contexto": "staff por e\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-02-17:3810:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " intervención agradeciendo al staff e\\ apoyo brindado en esta oportu",
+          "Despues": " intervención agradeciendo al staff el apoyo brindado en esta oportu",
+          "Ocurrencias": 1,
+          "Contexto": "staff e\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3887:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " intervención agradeciendo al staff e\\ apoyo brindado en esta oportu",
+          "Despues": " intervención agradeciendo al staff el apoyo brindado en esta oportu",
+          "Ocurrencias": 1,
+          "Contexto": "staff e\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4510:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " intervención agradeciendo al staff e\\ apoyo brindado en esta oportu",
+          "Despues": " intervención agradeciendo al staff el apoyo brindado en esta oportu",
+          "Ocurrencias": 1,
+          "Contexto": "staff e\\",
+          "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
         }
       ]
     }
