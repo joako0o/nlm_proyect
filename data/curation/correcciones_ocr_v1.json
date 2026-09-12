@@ -23231,6 +23231,14 @@
           "Ocurrencias": 1,
           "Contexto": "staff e\\",
           "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "Aún / así, advierte",
+          "Despues": "Aún así, advierte",
+          "Ocurrencias": 1,
+          "Contexto": " hayan tenido una mayor influencia sobre su comportamiento. Aún / así, advierte que hay indicios de una mayor estrechez en la liquidez, que",
+          "Justificacion": "Barra con espacios suelta entre dos palabras de una misma locución («Aún así»). No puede ser separador ni razón: separa un adverbio de su conector. La familia « / » tiene 30 casos y no es uniforme —hay rangos legítimos como «40 / 50»—, así que se elimina la ocurrencia, no la cadena (§8 ter, §32)."
         }
       ]
     },
@@ -26083,11 +26091,11 @@
       "ID_Intervencion": "RPM-2011-12-13:4489:2",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "SIMBOLO_SUELTO",
           "Antes": " cambio. 4 .' El señor",
-          "Despues": " cambio. 4.' El señor",
+          "Despues": " cambio. 4. El señor",
           "Contexto": "éreos, que tienen una correlación muy directa con el tipo de cambio. 4 .' El señor Claudio Soto hace presente que la proyección se ha corregid",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra. AMPLIADA en §33: el tramo contiene además una comilla recta huérfana pegada al punto del marcador de ítem («4.'»). El «4.» NO se toca: es el ítem 4 de la estructura habitual del acta, que aparece así en 21 filas del corpus («4. Con estos antecedentes…», «4. Las condiciones financieras internas…»). El apóstrofo no abre ni cierra nada —la fila tiene 1 apóstrofo y 0 comillas curvas y lo que sigue es narración en tercera persona—, y pertenece a una familia de 42 apóstrofos en 39 filas de los que sólo 11 son legítimos (Moody's, Lloyd's, Standard & Poor's, Purchasing Managers' Index, Naudon Dell'Oro); el resto viene pegado a basura de salto de página ('V/, ' ' v, ' í \\ : Ai, CENT'RAL). Como el apóstrofo cae DENTRO del tramo de esta operación no se le puede apilar una propia (§15), y el Tipo pasa a SIMBOLO_SUELTO porque lo que sobrevive del arreglo es quitar un símbolo que sobra (§22)."
         }
       ]
     },
@@ -27696,6 +27704,53 @@
           "Ocurrencias": 1,
           "Contexto": "staff e\\",
           "Justificacion": "«staff el <sustantivo>» es la formula del corpus, que tiene 427 «staff» y escribe «agradece el analisis del staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el articulo es obligatorio y no existe la forma «staff e». La barra invertida es la «l» leida por el OCR, el mismo glifo de §21-§22 al reves, y se repite 9 veces en 9 sesiones distintas con la misma estructura, por lo que la lectura no es una intuicion: es una familia (§8 bis). §32."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "por un recorte. r \" Sobre las opciones",
+          "Despues": "por un recorte. Sobre las opciones",
+          "Ocurrencias": 1,
+          "Contexto": " mantenga, con una fracción, eso sí, importante que apuesta por un recorte. r \" Sobre las opciones que resultan coherentes con los antecedentes revisados, coi",
+          "Justificacion": "Dos residuos juntos entre dos oraciones completas: la «r» suelta (familia de 6 casos en 6 filas, las 6 residuo; §32) y una comilla recta huérfana: la fila tiene 1 comilla recta y 0 curvas, no abre ni cierra nada, y lo que sigue es narración («Sobre las opciones que resultan coherentes... coincide con la Minuta»), no una cita. La política de OCR manda eliminar comillas huérfanas. Quedan 3 comillas rectas en el corpus (2417:1, 2430:1, 4064:1) para el pase transversal."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4498:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "de crédito. i/ pero sí",
+          "Despues": "de crédito. pero sí",
+          "Ocurrencias": 1,
+          "Contexto": "ue hasta entonces no se advertía un mayor uso de las líneas de crédito. i/ pero sí una mayor disposición por parte de algunas firmas, que norm",
+          "Justificacion": "Residuo «i/» entre dos oraciones. No tiene lectura: ni es palabra («i» sola no existe en español fuera de la conjunción latina «y», que aquí no encaja), ni número romano (no hay lista), ni viñeta (el corpus usa «•», 141 veces en 33 filas). Familia transversal de la «i» suelta tras punto: 18 casos en 18 filas (§33)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4504:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "economía chilena. i El señor",
+          "Despues": "economía chilena. El señor",
+          "Ocurrencias": 1,
+          "Contexto": "e, así como para evaluar la intensidad de sus efectos en la economía chilena. i El señor Luis Óscar Herrera plantea que el riesgo de mantener la tas",
+          "Justificacion": "Misma «i» suelta tras punto, aquí entre el cierre de un párrafo y la apertura del siguiente («...en la economía chilena. [i] El señor Luis Óscar Herrera plantea...»). Familia de 18 casos en 18 filas (§33)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-12-13:4502:3",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "i,- Siendo las 16:00 horas",
+          "Despues": "Siendo las 16:00 horas",
+          "Ocurrencias": 1,
+          "Contexto": "i,- Siendo las 16:00 horas, se reanuda la Reunión de Política Monetaria N° 179.",
+          "Justificacion": "Residuo «i,- » al inicio de la fila de reanudación. Es el mismo artefacto de salto de página que deja «i» suelta, aquí seguido de la puntuación de la línea original; sobra y además es lo único que impide que la fila empiece en mayúscula."
         }
       ]
     }

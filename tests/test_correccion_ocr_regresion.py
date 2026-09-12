@@ -87,11 +87,11 @@ FORMAS_EN_CERO = {
 # basura (4064:1, 4510:1). Convertir una comilla suelta sin su par no arregla
 # nada y podría equivocarse, así que se dejan. La que sí tenía par completo y
 # dirección deducible (6967:1 «"dilema del prisionero".») se resolvió en §28.
-COMILLAS_RECTAS_MAX = 4
+COMILLAS_RECTAS_MAX = 3
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1425
-MIN_OPERACIONES = 2415
+MIN_CORREGIDAS = 1428
+MIN_OPERACIONES = 2420
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,

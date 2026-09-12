@@ -1949,3 +1949,69 @@ correcta es `staff el`, con el espacio restaurado por §16, igual que en `fundam
 `intervenci ón`. Se enmendó el `Despues` de esas 4 con `enmendar_operacion.py`. Queda como recordatorio
 de por qué la guarda léxica existe: **una sustitución puede ser correcta en el símbolo y aun así
 fabricar una palabra que no existe.**
+
+---
+
+## §33. La «i» suelta, el ítem «4.» que no era residuo, y las rondas que se renumeran
+
+`2011-12-13` tiene **71 filas**, y se leyó en dos tandas: 25 primero y 42 después (más 4 que ya
+estaban anotadas). **Una sola voz en todas**, 0 banderas del pre-cernido en la primera tanda y 2 en
+la segunda, ambas referencia o anuncio («en relación con la pregunta del Consejero señor Sebastián
+Claro…, el señor Sergio Lehmann señala que el Gerente… señor Claudio Soto **exhibirá** el perfil»:
+una pregunta ajena citada y un traspaso de la palabra anunciado, que por criterio no son
+intervenciones). Diciembre 2011, Vergara presidente, TPM a 4,0 %.
+
+**Seis correcciones, cero marcas**, todas residuos entre oraciones completas:
+
+| fila | qué había | veredicto |
+|---|---|---|
+| `4513:1` | «Aún **/** así, advierte que hay indicios» | **quitar la barra**: separa un adverbio de su conector |
+| `4498:2` | «las líneas de crédito. **i/** pero sí una mayor disposición» | **quitar `i/`** |
+| `4504:1` | «en la economía chilena. **i** El señor Luis Óscar Herrera plantea» | **quitar la `i`** |
+| `4502:3` | «**i,-** Siendo las 16:00 horas, se reanuda la Reunión…» | **quitar `i,- `**: era lo único que impedía que la fila empezara en mayúscula |
+| `4510:1` | «apuesta por un recorte. **r "** Sobre las opciones…» | **quitar los dos**: la «r» de §32 y una comilla recta huérfana (la fila tiene 1 recta y 0 curvas; lo que sigue es narración) |
+| `4489:2` | «con el tipo de cambio. **4.'** El señor Claudio Soto hace presente» | **quitar sólo el apóstrofo**, por enmienda de la operación de §18 que ya cubría el tramo (`4 .'` → `4.'`) |
+
+### El ítem «4.» no era residuo
+
+La tentación era borrar `4.'` entero. No: `4.` es el **ítem 4 de la estructura habitual del acta**,
+que aparece así en **21 filas** del corpus («4. Con estos antecedentes…», «4. Las condiciones
+financieras internas…», «4. La inflación efectiva del IPC…»). Borrarlo habría destruido estructura
+documental, que es justo lo que el criterio manda conservar. Se fue el apóstrofo, que ése sí es
+huérfano: la fila tiene 1 apóstrofo y 0 comillas curvas.
+
+El censo de apóstrofos queda en **41 en 38 filas**, y ya está clasificado: **11 son legítimos**
+(`Moody's`, `Lloyd's`, `Standard & Poor's`, `Purchasing Managers' Index`, `Naudon Dell'Oro`) y el
+resto viene pegado a basura de salto de página (`'V/`, `' ' v`, `' í \ : Ai`, `CENT'RAL`,
+`reanclar1'`).
+
+### La familia de la «i» suelta
+
+`(?<=\.)\s+i[/,-]?(?=\s)` da **18 casos en 18 filas** repartidos en **14 sesiones**, once de ellas
+ya cerradas cuando se midió. La lectura es la de la «r» de §32: tras un punto, una `i` minúscula
+suelta no es palabra, no es número romano (no hay lista que numerar) y no es viñeta (el corpus usa
+`•`, 141 veces en 33 filas). Tras este pase quedan 16.
+
+**Por qué no se vio antes:** cada una de esas filas tenía **una sola** ocurrencia, sin compañía que
+la hiciera sospechosa dentro de su sesión. Es la tercera vez que pasa (`staff e\` en §32, la letra
+final en §31): **las pasadas por sesión encuentran filas; las familias se encuentran buscándolas en
+la salida completa.**
+
+### Trampa de procedimiento: las rondas se renumeran
+
+`rondas_lectura_lote9.py plan` **reescribe** `plan_rondas.json` (línea 148) dejando fuera las filas
+ya leídas, así que **la numeración de las rondas cambia cada vez que se corre**: el plan pasó de 856
+a 605 rondas en esta sesión. Consecuencias prácticas, ambas sufridas aquí:
+
+1. **Una etiqueta «rondas N-M» sólo vale contra la versión del plan que estaba vigente.** Las
+   rondas 242-250 eran `2009-07-09` (113 filas) antes de regenerar el plan, y son `2012-01-12` +
+   `2011-12-13` después. Para citar una ronda hay que decir contra qué plan.
+2. **`registrar_sesion FECHA` marca la sesión entera, no las rondas que se leyeron.** Se registró
+   `2011-12-13` habiendo leído 25 de sus 71 filas, y el registro quedó diciendo 71. Se corrigió
+   leyendo las 42 que faltaban en el mismo turno, pero la regla queda: **antes de
+   `registrar_sesion`, comprobar que las filas de la sesión en el corpus coinciden con las que se
+   leyeron** (`len([k for k in corpus if k.startswith('RPM-FECHA:')])` contra las IDs analizadas).
+
+Estado tras §33: **1.428 filas corregidas, 2.420 operaciones, 208 revisiones, 210 marcadas**,
+`Texto` intacto en las 9.723, sha base `d0b64842…` sin cambio. Sesiones cerradas **39 de 131**,
+filas leídas **2.838**.
