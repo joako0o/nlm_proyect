@@ -25045,11 +25045,11 @@
       "ID_Intervencion": "RPM-2009-07-09:2633:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "SIMBOLO_SUELTO",
           "Antes": "oblemas. r . Sobre los",
-          "Despues": "oblemas. r. Sobre los",
+          "Despues": "oblemas. Sobre los",
           "Contexto": "s la política monetaria la que puede resolver ese tipo de problemas. r . Sobre los indicadores bursátiles, indica que el IPSA ha caído levemen",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Espacio insertado antes del signo (§18: en español el signo va pegado a la palabra que lo precede). AMPLIADA en §32: el tramo contiene además una «r» suelta entre dos oraciones completas («...la que puede resolver ese tipo de problemas. [r.] Sobre los indicadores bursátiles...»), y como cae DENTRO de este tramo no se le puede apilar una operación propia (§15). Se quita también. Medido: la «r» suelta entre oraciones aparece 6 veces en 6 filas (2362:1, 2428:1 «r 4/», 2578:1 «r -», ésta, 3134:1, 4510:1 «r \"») y las 6 son residuo; a diferencia de la «V» de §8 ter (11 residuos contra 2 figuras legítimas), la «r» no tiene ningún uso legítimo atestiguado en el corpus. El Tipo pasa a SIMBOLO_SUELTO porque lo que sobrevive del arreglo es quitar un símbolo que sobra, no un espacio (§22)."
         }
       ]
     },
@@ -27583,6 +27583,19 @@
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «hídri ca» -> «hídrica». La evidencia es interna y doble: el primer trozo («hídri») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («hídrica») es la que el propio corpus usa 18 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2628:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "para ver los / traspasos de tasas",
+          "Despues": "para ver los traspasos de tasas",
+          "Ocurrencias": 1,
+          "Contexto": "ria que se deduce de los precios de activos, que es la que se utiliza para ver los / traspasos de tasas, no se observan anomalías en la rebaja de las tasas de los créditos c",
+          "Justificacion": "Barra suelta con espacios a ambos lados entre un artículo y su sustantivo: «la que se utiliza para ver los [/] traspasos de tasas». Medido: « / » aparece 31 veces en 29 filas y la familia NO es uniforme —hay usos legítimos («40 / 50 dólares», «tasa - euro / tasa - dólar») y residuos de salto de columna («no una tasa de / crecimiento», «front loaded. / Puntualiza»)—. Éste no puede ser separador de nada: «los» y «traspasos» son artículo y sustantivo de la misma frase, y la oración lee completa sin la barra. Se elimina la ocurrencia, no la cadena (§8 ter)."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -28820,6 +28833,18 @@
       "ID_Intervencion": "RPM-2007-01-11:1049:3",
       "Texto_Original_Fragmento": "tarifario eléctrico y por la l-P El Gerente",
       "Motivo": "Aquí el corte es visible: la cláusula queda a medias («...por el desconocimiento del impacto en el IPC del reajuste tarifario eléctrico y por la [l-P]») y enseguida empieza el párrafo siguiente del mismo hablante. «l-P» ocupa el lugar de texto perdido y aparece UNA sola vez en las 9.723 filas, así que no hay forma de reconstruirlo ni evidencia interna que fije la lectura: §8 bis pide contar antes de marcar y el conteo no da ninguna contraparte. No se elimina porque borrarlo dejaría «...y por la El Gerente de Mercados...», que tapa el corte en vez de señalarlo. Se marca para cotejo.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2620:3",
+      "Texto_Original_Fragmento": "consulta si el staff Wer\\e alguna percepción",
+      "Motivo": "Texto dañado sin reconstrucción única: «...y consulta si el staff [Wer\\e] alguna percepción en el mismo sentido,». Falta el verbo de la cláusula y lo que quedó es un racimo de glifos con una barra invertida en medio. Medido: «Wer» aparece UNA sola vez en las 9.723 filas, así que no hay contraparte que fije la lectura (§8 bis). Se consideraron dos vías y se descartaron por falta de evidencia, no por plausibilidad: (1) la familia «staff e\\ apoyo» = «staff el apoyo» (9 filas) probaría «e\\» = «el», pero aquí daría «si el staff Wer el alguna percepción», que no es español; (2) la barra invertida como «l» leída al revés (§21-§22) no alcanza para reconstruir la palabra entera. Borrar el racimo dejaría la cláusula sin verbo y taparía el daño; se marca para cotejo con el acta.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2009-07-09:2623:3",
+      "Texto_Original_Fragmento": "se debería esperar un crecimiento de la industria, no una caída. r",
+      "Motivo": "La fila termina en letra suelta después de un punto completo: «...no una caída. r». Es la familia de 20 filas que §31 dejó marcada en vez de borrada (precedente «210:2», §25): una letra sola es el resto mínimo posible de un corte, y si se borra la fila queda con un final limpio que oculta el corte. Las letras sueltas de mitad de fila sí son residuo seguro porque el texto sigue (« k », « U », « r. »); al final de la fila no hay forma de distinguir sin el acta original. Se marca y se revisa con las otras 19 de una vez.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],

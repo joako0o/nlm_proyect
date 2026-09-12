@@ -1858,3 +1858,75 @@ causas son de procedimiento y se repiten:
    comandos fallidos y una teoría equivocada sobre caracteres invisibles. Cuando `ls` muestra el
    archivo y `open()` no lo encuentra, lo primero es comparar los bytes del nombre
    (`[hex(ord(c)) for c in nombre]`), no sospechar del sistema de archivos.
+
+---
+
+## §32. Una sesión de pregunta y respuesta partida en dos filas, y la «r» que sobra
+
+`2009-07-09` (rondas 242-250) es la sesión más grande leída hasta aquí: **113 filas, 130.454
+caracteres, 14 hablantes**. **Una sola voz en las 113.** El pre-cernido marcó tres verbos de turno
+que introducen a otro y los tres son referencias: `2615:1` (Soto responde «a la pregunta del
+Consejero señor Sebastián Claro»), `2620:5` (el Ministro «manifiesta concordar con lo planteado por
+el Consejero señor Manuel Marfán»), `2628:1` («las razones ya mencionadas por el Presidente»).
+
+### La estructura que domina esta sesión no es un defecto
+
+Cuarenta y tantas filas vienen en pares: una termina **en coma** y la siguiente **empieza en
+minúscula** con «a lo cual…»:
+
+| fila | final | fila | apertura |
+|---|---|---|---|
+| `2609:1` | «…consulta si la tasa efectiva es mayor que la estimada**,**» | `2609:2` | «**a lo cual** el señor Lehmann responde que…» |
+| `2620:3` | «…en el mismo sentido**,**» | `2620:4` | «**a lo cual** el señor Pablo García señala que…» |
+| `2628:3` | «…consulta acerca de cómo se define una anomalía**,**» | `2628:4` | «**a lo cual** el Gerente de División Estudios…» |
+
+Es el acta redactando «X consulta si…, a lo cual Y responde que…» como una sola oración, y la
+segmentación la partió en dos filas atribuidas a hablantes distintos. **No es OCR y no se toca**:
+unir esas filas sería una decisión de segmentación, y el criterio pide evidencia y decisión acotada
+para eso, no una limpieza de pasada (§25, cuarto caso). Conviene dejarlo escrito porque es el
+espejo de `A continuación,.` (§31): allí el corte escondía el traspaso de la palabra; aquí el
+traspaso está dicho explícitamente en la fila siguiente.
+
+### Lo que sí se corrigió
+
+| fila | qué había | veredicto |
+|---|---|---|
+| `2628:2` | «para ver los **/** traspasos de tasas» | **quitar la barra**. La familia « / » tiene 31 ocurrencias en 29 filas y **no es uniforme**: hay usos legítimos («40 / 50 dólares», «tasa - euro / tasa - dólar») y residuos de salto de columna («no una tasa de / crecimiento», «front loaded. / Puntualiza»). Ésta no puede ser separador: separa un artículo de su sustantivo. Se elimina la ocurrencia, no la cadena (§8 ter) |
+| `2633:1` | «…ese tipo de problemas. **r.** Sobre los indicadores…» | **quitar la «r»**, por **enmienda** de la operación de §18: el residuo cae dentro del tramo «oblemas. r . Sobre los», y dos tramos solapados no se aplican en ningún orden (§15). El Tipo pasó de `ESPACIO_INDEBIDO` a `SIMBOLO_SUELTO` porque lo que sobrevive del arreglo es un símbolo que sobra (§22) |
+| `2620:3` | «consulta si el staff **Wer\\e** alguna percepción» | **marcar**. Falta el verbo y «Wer» aparece 1 vez en 9.723 filas, sin contraparte (§8 bis). Se consideró la familia «staff e\\ apoyo» = «staff el apoyo», pero aquí daría «si el staff Wer el alguna percepción», que no es español |
+| `2623:3` | «…no una caída. **r**» al final | **marcar**: es la familia de 20 filas de §31, que se revisa de una vez con los PDF |
+
+La «r» suelta entre oraciones aparece **6 veces en 6 filas** (`2362:1`, `2428:1` «r 4/», `2578:1`
+«r -», `2633:1`, `3134:1`, `4510:1` «r "») y las 6 son residuo. A diferencia de la «V» de §8 ter
+(11 residuos contra 2 figuras legítimas) y como la «k» de §31 (3 de 3), la «r» no tiene ningún uso
+legítimo atestiguado: se elimina.
+
+### Lo que se miró y no se tocó
+
+Los **6 candidatos de acento** de la sesión se arbitraron uno por uno y son todos variantes
+legítimas de §16: `hacía`/`hacia` (las dos son palabras), `cuánto` ×2 (124 apariciones), `tornó`
+(verbo real), `periodo` ×2 (las dos grafías conviven, 661/60). Los cuatro detectores
+(`partida`, `deletreada`, `partida_letra`, `acento`) dieron 0, 0, 0 y 6 sobre las 113 filas: la
+pasada transversal de §31 ya había limpiado esta sesión, que tenía `cas i`, `Agreg a`,
+`fundamen tal`, `aliment icia`, `made ra`, `acertad a` y `eventua les`.
+
+### El hallazgo transversal: «staff e\\ apoyo» = «staff el apoyo»
+
+Al enumerar las 29 barras invertidas que quedan en la salida apareció una familia repetida que
+ninguna sesión había visto, porque está repartida en nueve:
+
+| fila | texto | lectura |
+|---|---|---|
+| `777:1`, `1610:1`, `1635:1`, `1680:1` | «agradece al staff**e\\** material preparado» | «al staff **el** material» |
+| `2754:2` | «agradeciendo al staff por **e\\** apoyo brindado» | «por **el** apoyo» |
+| `3810:2`, `3887:2`, `4510:1` | «agradeciendo al staff **e\\** apoyo brindado» | «**el** apoyo» |
+| `4513:1` | «agradeciendo al staff **e\\** excelente análisis» | «**el** excelente análisis» |
+
+La lectura la prueba el propio corpus, que tiene 427 «staff» y escribe «agradece el análisis del
+staff», «agradece al staff los Informes», «agradece al staff, por los informes»: el artículo es
+obligatorio y la `l` leída como `\\` es el mismo glifo de §21-§22 al revés. Es la regla de §8 bis en
+su forma útil: **un residuo que aparece varias veces suele tener al lado la forma correcta**.
+
+Estado tras §32: **1.419 filas corregidas, 2.406 operaciones, 210 marcadas, `Texto` intacto en las
+9.723**, sha base `d0b64842…` sin cambio. Sesiones cerradas: **38 de 131**; filas leídas **2.771 de
+9.723**.
