@@ -389,6 +389,8 @@ Para leer una sesión entera al margen del plan:
 
 | 61–69 | 2010-09-16 | 128 | **sesión cerrada 124/124** (4 ya estaban anotadas) · 15 actores · ninguna fila en la cola multihablante · los 5 candidatos de acento eran formas correctas · el hallazgo salió de los signos: la fórmula del Acuerdo llevaba punto y coma en **12 actas** contra 106 con dos puntos, se corrigieron las 12 · en 2006-12-14:1020:2 se **extendió** la operación existente en vez de apilar tramos solapados · 1 marca (3422:1 termina sin el nombre) |
 
+| 70–78 | 2008-12-11 | 110 | **sesión cerrada 108/108** (2 ya estaban anotadas) · 12 actores · **22 candidatos de acento, sólo 2 reales** («él efectúo»→efectuó, 1 vs 51; «politica»→política, 1 vs 5.573) · el candidato multihablante (padre 2228) era una referencia retrospectiva, segundo caso igual · **bug del auditor encontrado y corregido**: el descuento de enumeraciones incluía dígitos y contaba «(1 en 1)» y «(más de 50)» como marcadores |
+
 Para anotar una ronda leída:
 
 ```

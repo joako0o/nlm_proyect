@@ -18394,6 +18394,14 @@
           "Ocurrencias": 1,
           "Contexto": "onetaria y ser muy claro en un sesgo a la baja en el Comunicado. Como consecuenci a del resultado de la votación, el señor Presidente consulta al Conseje",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «consecuenci a» -> «consecuencia». La evidencia es interna y doble: el primer trozo («consecuenci») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («consecuencia») es la que el propio corpus usa 869 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "politica",
+          "Despues": "política",
+          "Ocurrencias": 1,
+          "Contexto": "uación de la situación actual así como del posible curso de acción en politica monetaria . Indica que lo que hoy se requiere es transmitir que se es",
+          "Justificacion": "Falta la tilde. Medido en el corpus: «politica» sin tilde aparece 1 sola vez (ésta) y «política» 5.573 — es la forma correcta más frecuente de todo el corpus, así que no hay duda."
         }
       ]
     },
@@ -24561,6 +24569,14 @@
           "Despues": "ortalecido, ello tien",
           "Contexto": "ariación de paridades , si se señala que el dólar está muy fortalecido , ello tiene implicancias en lo que sucederá con el precio de los commo",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "él efectúo",
+          "Despues": "él efectuó",
+          "Ocurrencias": 1,
+          "Contexto": "eo sube bastante. Agrega que lo que se debiera hacer y que alguna vez él efectúo, es cuánto de esta caída puede explicarse por efecto de variación de ",
+          "Justificacion": "El sujeto es «él», así que hace falta la tercera persona del pretérito «efectuó»; «efectúo» es la primera persona del presente y no concuerda. Medido en el corpus: «efectúo» aparece 1 sola vez (ésta) y «efectuó» 51. En la misma fila el verbo se usa bien más adelante: «en el Ministerio de Hacienda se efectuó ese ejercicio»."
         }
       ]
     },

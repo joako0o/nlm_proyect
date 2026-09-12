@@ -2604,3 +2604,54 @@ regla del §15 aplicada: cuando dos defectos comparten tramo, se extiende, no se
 - **`3431:2` tiene la comilla de cierre sin apertura** (0 `“`, 1 `”`). No se tocó: revisando las
   demás filas de Acuerdo el panorama es inconsistente — unas tienen el par completo, otras sólo la
   apertura, otras sólo el cierre. Reconstruir cuáles llevaban comilla de apertura exige el PDF.
+
+---
+
+## §44. Sesión 2008-12-11: 22 candidatos de acento, 2 reales — y un bug del propio auditor
+
+La sesión con más candidatos hasta ahora: **22 en 16 filas**. Dos eran daño real:
+
+| fila | antes | después | evidencia |
+|---|---|---|---|
+| `2190:1` | «alguna vez él **efectúo**» | `efectuó` | el sujeto es «él»: hace falta la 3.ª persona del pretérito. 1 aparición contra 51, y en la misma fila el verbo se usa bien («se efectuó ese ejercicio») |
+| `2253:1` | «curso de acción en **politica** monetaria» | `política` | 1 aparición contra **5.573** — la forma correcta más frecuente de todo el corpus |
+
+Los otros 20 eran formas legítimas: `costó`, `terminó`, `marcó`, `inició` son verbos; `publica` es el
+verbo en «el índice se publica desde el 2003»; `continua` es el adjetivo; `efectuara` es subjuntivo;
+`éstos`, `cuánto`, `cuándo` llevan tilde diacrítica.
+
+### El candidato multihablante, rechazado leyendo el párrafo entero
+
+Padre 2228, un solo segmento, atribuido a Andrés Velasco:
+
+> «El señor Ministro de Hacienda señala que de los tres aspectos que **ha mencionado el señor
+> Presidente**, le parece que hay uno de ellos que es fácil de confirmar…»
+
+Es una referencia retrospectiva, no un cambio de voz, y todo el párrafo es del Ministro: «Agrega que
+en el Ministerio de Hacienda se efectuó ese ejercicio», «Las otras dos interrogantes **le parecen**
+más difíciles de medir», «si uno efectuara este ejercicio por plazo». Mismo patrón que el padre 2325
+del §37. **Dos de dos** en candidatos con `Actor_Estricto` apuntando a un cargo: los dos eran
+menciones.
+
+### Un bug del auditor, encontrado porque dio un resultado imposible
+
+`2206:1` salió marcada como «paréntesis desbalanceado», pero tiene **6 y 6**. El descuento de
+enumeraciones que se añadió en el §37 incluía dígitos, y el `\d{1,2})` se comía el cierre de
+paréntesis de verdad:
+
+```
+(más de 50)   →  contaba «50)» como enumeración
+(1 en 1)      →  contaba «1)»  como enumeración
+```
+
+Medido en el corpus: los dígitos dan **4** apariciones y las cuatro son paréntesis reales, mientras
+que las enumeraciones de letra y romanas son **48**. El patrón ahora sólo admite `[a-z]` y `[ivx]+`.
+Verificado: `2206:1` pasa a 0 y las sesiones anteriores siguen en 0.
+
+Vale la pena notar cómo se encontró: el auditor reportó un desbalance en una fila que, leída, estaba
+balanceada. **Cuando una herramienta contradice lo que se está viendo, la equivocada suele ser la
+herramienta.**
+
+### Detector de acentos, acumulado
+
+**64 candidatos, 5 que el texto pedía, precisión 8 %.**

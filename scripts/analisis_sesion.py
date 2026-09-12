@@ -61,8 +61,15 @@ ESPACIO_DOBLE = re.compile(r'  +')
 COMILLA_RECTA = re.compile(r'["\']')
 LETRA_SUELTA_FINAL = re.compile(r'\s([A-Za-zÁÉÍÓÚÜÑáéíóúüñ])\.?$')
 SIN_PUNTUACION_FINAL = re.compile(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüüñ0-9\)\]»”]$')
-# Cierre de enumeración: «a)», «ii)», «1)»… No son paréntesis de verdad.
-ENUMERACION = re.compile(r'(?:^|[\s;:])((?:[a-z]|[ivx]+|\d{1,2})\))')
+# Cierre de enumeración: «a)», «ii)»… No son paréntesis de verdad.
+#
+# Sólo letras y numerales romanos. Los dígitos entraron al principio y hubo que
+# sacarlos: medido en el corpus, « 1)»/« 2)»/« 50)» dan 4 apariciones y las cuatro
+# son el cierre de un paréntesis de verdad («(más de 50)», «(1 en 1)»), mientras
+# que las enumeraciones de letra y romanas son 48. Con los dígitos dentro, el
+# chequeo restaba un cierre legítimo y volvía a dar falso positivo —lo hizo en
+# 2008-12-11:2206:1, que tiene 6 y 6 balanceados—.
+ENUMERACION = re.compile(r'(?:^|[\s;:])((?:[a-z]|[ivx]+)\))')
 
 
 def cargar(base):
