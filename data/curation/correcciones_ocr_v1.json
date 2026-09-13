@@ -31738,6 +31738,14 @@
           "Ocurrencias": 1,
           "Contexto": "la misma los comentarios sobre esta materia. Continuando con la votación,.",
           "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " la autoridad, no existe un equilibro al cual se pueda converger.",
+          "Despues": " la autoridad, no existe un equilibrio al cual se pueda converger.",
+          "Ocurrencias": 1,
+          "Contexto": "ruye a partir de las expectativas privadas y no de las proyecciones de la autoridad, no existe un equilibro al cual se pueda converger. En lo táctico, o en lo semitáctico, semifundamental, no hay elementos",
+          "Justificacion": "«no existe un equilibro al cual se pueda converger» — falta la «i» de la sílaba final: es «equilibrio». «equilibro» no es palabra española y el corpus tiene 148 «equilibrio». §76."
         }
       ]
     },
@@ -35252,6 +35260,19 @@
           "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2734:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "corregir las inversiones en maquinabas y equipos a la baja. Con el",
+          "Despues": "corregir las inversiones en maquinarias y equipos a la baja. Con el",
+          "Ocurrencias": 1,
+          "Contexto": " registros de importaciones de bienes de capital, en cambio, llevan a corregir las inversiones en maquinabas y equipos a la baja. Con ello, la demanda interna se modifica marginalmente a la baja para el ter",
+          "Justificacion": "«llevan a corregir las inversiones en maquinabas y equipos a la baja» — la «b» sustituye a la «r»: es «maquinarias». La expresión «maquinarias y equipos» es la fórmula habitual para la formación bruta de capital fijo y el corpus tiene 143 «maquinarias» contra este único «maquinabas», que no es palabra española. §76."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -36845,6 +36866,11 @@
       "ID_Intervencion": "RPM-2005-01-11:57:1",
       "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
       "Motivo": "«Se levanta la Sesión a las J 7.50 horas» — la «J» mayúscula ocupa el lugar de un dígito. La fórmula de cierre está atestiguada 90+ veces como «Se levanta la Sesión a las HH:MM horas» y «a las 17.50 horas» es la lectura probable, pero reponer un dígito dañado es adivinar: el criterio del registro es que un dígito convertido en letra no se recupera por frecuencia. Se marca para cotejo contra el PDF. §75."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2751:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«una recuperación rápida, por sobre lo esperado, podría venir de la mano de una represión en alguno de los shocks que nos han afectado». «represión» es palabra legítima y la frase es gramatical, pero es la única ocurrencia del término en las 9.724 filas y la lectura resulta forzada: un shock no se reprime. La candidata natural es «reversión», que aparece 289 veces. No hay prueba de daño ni forma de elegir entre las dos lecturas, así que no se corrige: se marca para cotejo contra el PDF (criterio §74)."
     }
   ]
 }

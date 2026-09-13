@@ -65095,7 +65095,807 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2011-08-18",
       "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 13 actores, 95.299 caracteres. Cero cortes. Los 2 casos de la cola tenian senal ESTRICTA pero caen sobre padres YA PARTIDOS: 4220 en 3 segmentos (De Gregorio / Lehmann / Herrera) y 4233 en 2 (Herrera / Lehmann). Tercera acta seguida en que la cola solo propone sobre padres ya partidos. 2b dio 2 casos falsos: en 4266:1 Sebastian Claro es OBJETO de «Ante una consulta del Consejero senor Sebastian Claro» y en 4279:1 Marshall es objeto de un agradecimiento mientras «Por su parte, el senor Presidente» es el propio De Gregorio. 2c en cero. Las 8 lecturas obligatorias de 2d falsas: en 4216:1 De Gregorio abre y traspasa la palabra; en 4231:1, 4242:1, 4262:1, 4264:1, 4266:1 y 4279:1 cada «A continuacion» y cada cargo es el propio Actor_Final siguiendo su presentacion; 4219:1 es Lehmann respondiendo. OCR: 64 operaciones en 60 filas (tres familias transversales) y 2 marcas."
+    },
+    "RPM-2009-10-13:2713:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2713:1",
+      "ID_Padre": "2713",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1463,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2714:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2714:1",
+      "ID_Padre": "2714",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 296,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2716:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2716:1",
+      "ID_Padre": "2716",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1258,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2717:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2717:1",
+      "ID_Padre": "2717",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2297,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2717:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2717:2",
+      "ID_Padre": "2717",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 360,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2718:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2718:1",
+      "ID_Padre": "2718",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 261,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2719:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2719:1",
+      "ID_Padre": "2719",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 243,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2719:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2719:2",
+      "ID_Padre": "2719",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 762,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2720:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2720:1",
+      "ID_Padre": "2720",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 247,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2720:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2720:2",
+      "ID_Padre": "2720",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1817,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2721:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2721:1",
+      "ID_Padre": "2721",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2721:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2721:2",
+      "ID_Padre": "2721",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 295,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2722:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2722:1",
+      "ID_Padre": "2722",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 332,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2722:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2722:2",
+      "ID_Padre": "2722",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 274,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2723:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2723:1",
+      "ID_Padre": "2723",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 284,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2723:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2723:2",
+      "ID_Padre": "2723",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 43,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2724:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2724:1",
+      "ID_Padre": "2724",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 238,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2724:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2724:2",
+      "ID_Padre": "2724",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 601,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2725:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2725:1",
+      "ID_Padre": "2725",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 984,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2725:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2725:2",
+      "ID_Padre": "2725",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 466,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2725:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2725:3",
+      "ID_Padre": "2725",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 870,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2725:4": {
+      "ID_Intervencion": "RPM-2009-10-13:2725:4",
+      "ID_Padre": "2725",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 567,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2725:5": {
+      "ID_Intervencion": "RPM-2009-10-13:2725:5",
+      "ID_Padre": "2725",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 773,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2726:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2726:1",
+      "ID_Padre": "2726",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 113,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2726:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2726:2",
+      "ID_Padre": "2726",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 641,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2727:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2727:1",
+      "ID_Padre": "2727",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3021,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2729:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2729:1",
+      "ID_Padre": "2729",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 391,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2730:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2730:1",
+      "ID_Padre": "2730",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 739,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2731:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2731:1",
+      "ID_Padre": "2731",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 160,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2732:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2732:1",
+      "ID_Padre": "2732",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3697,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2733:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2733:1",
+      "ID_Padre": "2733",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 813,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2733:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2733:2",
+      "ID_Padre": "2733",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 580,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2734:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2734:1",
+      "ID_Padre": "2734",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1807,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2734:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2734:2",
+      "ID_Padre": "2734",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 271,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2734:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2734:3",
+      "ID_Padre": "2734",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 755,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2735:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2735:1",
+      "ID_Padre": "2735",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 547,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2736:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2736:1",
+      "ID_Padre": "2736",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 701,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2737:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2737:1",
+      "ID_Padre": "2737",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 269,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2738:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2738:1",
+      "ID_Padre": "2738",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 4743,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2738:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2738:2",
+      "ID_Padre": "2738",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 105,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2738:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2738:3",
+      "ID_Padre": "2738",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 947,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2738:4": {
+      "ID_Intervencion": "RPM-2009-10-13:2738:4",
+      "ID_Padre": "2738",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 401,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2739:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2739:1",
+      "ID_Padre": "2739",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 916,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2740:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2740:1",
+      "ID_Padre": "2740",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3731,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2740:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2740:2",
+      "ID_Padre": "2740",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 137,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2740:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2740:3",
+      "ID_Padre": "2740",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 207,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2740:4": {
+      "ID_Intervencion": "RPM-2009-10-13:2740:4",
+      "ID_Padre": "2740",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 267,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2740:5": {
+      "ID_Intervencion": "RPM-2009-10-13:2740:5",
+      "ID_Padre": "2740",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 674,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2741:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2741:1",
+      "ID_Padre": "2741",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 102,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2741:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2741:2",
+      "ID_Padre": "2741",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 451,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2742:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2742:1",
+      "ID_Padre": "2742",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 242,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2743:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2743:1",
+      "ID_Padre": "2743",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 169,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2743:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2743:2",
+      "ID_Padre": "2743",
+      "Actor": "Andrés Velasco Brañes",
+      "Caracteres": 69,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2744:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2744:1",
+      "ID_Padre": "2744",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 1269,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2744:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2744:2",
+      "ID_Padre": "2744",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 818,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2744:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2744:3",
+      "ID_Padre": "2744",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 496,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2744:4": {
+      "ID_Intervencion": "RPM-2009-10-13:2744:4",
+      "ID_Padre": "2744",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 950,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2745:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2745:1",
+      "ID_Padre": "2745",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2371,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2746:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2746:1",
+      "ID_Padre": "2746",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 153,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2746:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2746:2",
+      "ID_Padre": "2746",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 1094,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2746:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2746:3",
+      "ID_Padre": "2746",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 181,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2746:4": {
+      "ID_Intervencion": "RPM-2009-10-13:2746:4",
+      "ID_Padre": "2746",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 287,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2747:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2747:1",
+      "ID_Padre": "2747",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 181,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2748:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2748:1",
+      "ID_Padre": "2748",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 432,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2749:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2749:1",
+      "ID_Padre": "2749",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 9398,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2750:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2750:1",
+      "ID_Padre": "2750",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 158,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2751:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2751:1",
+      "ID_Padre": "2751",
+      "Actor": "Luis Felipe Céspedes Cifuentes",
+      "Caracteres": 6630,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2752:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2752:1",
+      "ID_Padre": "2752",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2752:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2752:2",
+      "ID_Padre": "2752",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 2369,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2753:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2753:1",
+      "ID_Padre": "2753",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 133,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2754:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2754:1",
+      "ID_Padre": "2754",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 7258,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2754:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2754:2",
+      "ID_Padre": "2754",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 732,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2754:3": {
+      "ID_Intervencion": "RPM-2009-10-13:2754:3",
+      "ID_Padre": "2754",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 2603,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2755:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2755:1",
+      "ID_Padre": "2755",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 4429,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2756:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2756:1",
+      "ID_Padre": "2756",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 5394,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2757:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2757:1",
+      "ID_Padre": "2757",
+      "Actor": "Jorge Desormeaux Jiménez",
+      "Caracteres": 5945,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2757:2": {
+      "ID_Intervencion": "RPM-2009-10-13:2757:2",
+      "ID_Padre": "2757",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 2216,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2758:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2758:1",
+      "ID_Padre": "2758",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 2180,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2759:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2759:1",
+      "ID_Padre": "2759",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1870,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2009-10-13:2760:1": {
+      "ID_Intervencion": "RPM-2009-10-13:2760:1",
+      "ID_Padre": "2760",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 159,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2009-10-13",
+      "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
     }
   },
-  "Total_Leidas": 6162
+  "Total_Leidas": 6242
 }

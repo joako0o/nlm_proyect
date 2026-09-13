@@ -4857,3 +4857,70 @@ regular y no subcadenas: «ei» como subcadena daría miles de falsos positivos 
 
 Registro: **1.806 filas / 3.127 operaciones / 238 revisiones / 240 filas marcadas / 32
 `Marcas_Adicionales`**. Lecturas **6.162 de 9.724**, 76 de 132 sesiones.
+
+---
+
+## §76 — Sesión 2009-10-13: una oración partida por el salto de página no es un cambio de hablante
+
+Sesión de 82 filas, 13 actores, 102.639 caracteres. **Cero cortes**, y es la primera acta en varias en
+que las **tres** redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Sólo quedaron las
+7 lecturas obligatorias de 2d, y las 7 fueron falsas.
+
+### El patrón nuevo: la oración que cruza de fila
+
+Dos pares de filas de esta sesión explican por qué la firma «empieza con minúscula» —la que más cortes
+reales tiene en la base, 175— da falsos positivos:
+
+| fila | texto |
+|---|---|
+| `2714:1` | «…para el día 15 de dicho mes. **A continuación,**» *(termina ahí)* |
+| `2715:1` | «**el** señor Presidente ofrece la palabra al Gerente de Análisis Internacional…» *(empieza en minúscula)* |
+| `2748:1` | «…por un período de tiempo prolongado. **A continuación,**» |
+| `2749:1` | «**el** señor Pablo García da cuenta de las principales noticias…» |
+
+No es un cambio de hablante: es **una misma oración partida en dos filas por el salto de página**, con
+el mismo `Actor_Final` a los dos lados. La fila que empieza en minúscula no abre una voz nueva,
+continúa la anterior. Y lo que sigue es un **traspaso de la palabra**, que no es intervención.
+
+**Regla que queda: una fila que empieza en minúscula y cuya predecesora termina en «A continuación,»
+es la continuación de la misma oración, no un corte.** El mismo `Actor_Final` en ambas filas lo
+confirma sin necesidad de leer más.
+
+El resto: en `2732:1`, `2749:1` y `2755:1` cada «A continuación», cada cargo («el señor Gerente de
+División») y cada «por su parte» es el propio actor o una comparación entre **variables** («el empleo,
+por su parte», «el tipo de cambio real, por su parte»).
+
+### Las dos operaciones
+
+`maquinabas` → `maquinarias` (la «b» por la «r»; «maquinarias y equipos» es la fórmula habitual de la
+formación bruta de capital fijo, 143 contra 1) y `equilibro` → `equilibrio` (falta la «i» final; 148
+contra 1). Las dos `LETRA_CONFUNDIDA`, siguiendo el precedente de `ecqnomía`, `líquídos` y
+`lincamientos`.
+
+### Los cuatro candidatos del detector de acento, todos falsos
+
+`centró`→`centro` (verbo en pasado, lleva tilde), `cuánto`→`cuanto` (interrogativo, lleva tilde, y está
+conservado deliberadamente), `periodo`→`período` (conservado deliberadamente) y `limite`→`límite`
+(subjuntivo, **no** lleva tilde). El detector compara frecuencias y no sabe de categorías gramaticales:
+cuatro de cuatro falsos.
+
+### La marca
+
+`2751:1`: «una recuperación rápida, por sobre lo esperado, podría venir de la mano de una **represión**
+en alguno de los shocks que nos han afectado». «Represión» es palabra legítima y la frase es
+gramatical, pero es la **única** ocurrencia del término en 9.724 filas y la lectura resulta forzada —un
+shock no se reprime— mientras la candidata natural, «reversión», aparece 289 veces. No hay prueba de
+daño ni forma de elegir, así que no se corrige: marca `RECONSTRUCCION_AMBIGUA_POR_COTEJAR` (criterio
+§74).
+
+`2725:2` termina sin punto («…sea más contractiva»). Ya lleva `FINAL_SIN_PUNTUACION` abierto y agregar
+un punto sería una inserción pura, que el aplicador no puede expresar. Se deja como está.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 241 marcadas · `maquinabas` **0** / `maquinarias` **144** ·
+`equilibro` **0** / `equilibrio` **149** · y las familias de §73 y §75 siguen en **0**. Suite local
+**65 OK**.
+
+Registro: **1.807 filas / 3.129 operaciones / 238 revisiones / 241 filas marcadas / 33
+`Marcas_Adicionales`**. Lecturas **6.242 de 9.724**, 77 de 132 sesiones.
