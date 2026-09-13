@@ -289,6 +289,90 @@ def main() -> int:
           '   distinto, o una mención. La única que produjo un corte fue «un tercero\n'
           '   responde» (padre 1706, §48).')
 
+    seccion('2d', 'Calibración: las firmas de los cortes reales, contra las filas sin partir')
+    # Por qué existe esta sección. La cola, 2b y 2c pueden dar todas cero y aun
+    # así quedar cambios de hablante sin cortar: son redes que proponen desde
+    # cero, y si no proponen nada no hay forma de saber si es porque no queda
+    # nada o porque la red no ve lo que queda. Las nueve sesiones del §63 al §71
+    # se cerraron con cero cortes sobre esa base.
+    #
+    # Esta sección hace la prueba inversa, que sí es concluyente: mira los
+    # segmentos de continuación que YA existen en la base —cada uno es un corte
+    # que alguien hizo y validó—, mide qué firmas los caracterizan, y después
+    # busca esas mismas firmas en las filas de la sesión que NO están partidas.
+    # Una firma con cortes reales a su haber y con filas sin partir que la
+    # llevan es lectura obligatoria, no descartable por silencio de la cola.
+    #
+    # El marcador de segmento es el sufijo «:N» del ID, NO la columna
+    # ID_Ancla_Actor: de los 2.505 segmentos de continuación de la base, 1.906
+    # tienen ancla apuntando a sí mismos, 598 la tienen vacía y 1 apunta a otra
+    # fila. Usar la columna daba 991 en vez de 2.505.
+    FIRMAS_CORTE = [
+        ('«en tanto que» + cargo/nombre',
+         r'en tanto que (?:el|la) (?:señor|señora|Consejero|Consejera|Gerente|Ministro|'
+         r'Ministra|Presidente|Vicepresidente|don|doña)'),
+        ('«por su parte»', r'por su parte'),
+        ('«A continuación»', r'A continuaci[oó]n'),
+        ('empieza con minúscula', r'^[a-záéíóúñ]'),
+        ('«responde / contesta / replica»', r'^.{0,90}?\b(?:responde|contesta|replica)\b'),
+        ('cargo + verbo de habla al inicio',
+         r'^(?:El|La) ((?:señor|señora|Consejero|Consejera|Gerente|Ministro|Ministra|'
+         r'Presidente|Vicepresidente|don|doña)[^.]{0,70}?)\b(?:' + '|'.join(_VERBOS) + r')\b'),
+    ]
+    # La última firma lleva grupo de captura: el tramo «cargo + nombre». Se filtra
+    # con es_el_mismo, igual que hace 2c, porque sin eso casi todas las
+    # coincidencias son el propio actor de la fila y la lista de lectura
+    # obligatoria se llena de ruido (18 de 18 en 2010-03-18 antes del filtro).
+    FILTRA_PROPIO = {'cargo + verbo de habla al inicio'}
+    padre_de = lambda rid: ':'.join(rid.split(':')[:2])
+    grupos = collections.defaultdict(list)
+    for rid in virgen:
+        grupos[padre_de(rid)].append(rid)
+    continuacion = [s for v in grupos.values() if len(v) > 1 for s in sorted(v)[1:]]
+    ya_partidas = [k for k in grupos if k.startswith(prefijo) and len(grupos[k]) > 1]
+    extra = sum(len(grupos[k]) - 1 for k in ya_partidas)
+    print(f'\n   En toda la base: {len(continuacion):,} segmentos de continuación en '
+          f'{sum(1 for v in grupos.values() if len(v) > 1):,} intervenciones partidas.')
+    print(f'   En esta sesión : {len(ya_partidas)} intervenciones ya partidas, '
+          f'{extra} segmentos extra. Eso ya está separado; lo que sigue es lo que falta.')
+    print('\n   firma                              cortes reales  filas sin partir')
+    obligatorias = []
+    for etiqueta, patron in FIRMAS_CORTE:
+        rx = re.compile(patron)
+        reales = sum(1 for s in continuacion if rx.search(salida[s]))
+
+        def ajena(rid, _rx=rx, _et=etiqueta):
+            m = _rx.search(salida[rid])
+            if not m:
+                return False
+            if _et in FILTRA_PROPIO and m.groups():
+                # El grupo empieza con el honorífico («señor Presidente»), y
+                # es_el_mismo mira la PRIMERA palabra para ver si es un cargo.
+                # Sin quitarlo, «señor» no está en CARGOS y el filtro no dispara:
+                # en 2010-03-18 dejaba pasar 3 «El señor Presidente…» de De
+                # Gregorio, que es el Presidente.
+                nombre = re.sub(r'^(?:el|la|El|La)\s+', '', m.group(1).strip())
+                nombre = re.sub(r'^(?:señor|señora|don|doña)\s+', '', nombre, flags=re.I)
+                return not es_el_mismo(nombre, actor[rid], rol[rid])
+            return True
+
+        sueltas = [rid for rid in ids
+                   if len(grupos[padre_de(rid)]) == 1 and ajena(rid)]
+        print(f'   {etiqueta:<34} {reales:>8} {len(sueltas):>17}')
+        if reales and sueltas:
+            obligatorias.append((etiqueta, sueltas))
+    if not obligatorias:
+        print('\n   Ninguna firma con cortes reales a su haber aparece en filas sin partir.')
+        print('   El cero cortes de esta sesión está calibrado, no sólo sin alertas.')
+    for etiqueta, sueltas in obligatorias:
+        print(f'\n   LECTURA OBLIGATORIA — [{etiqueta}]: {len(sueltas)} fila(s) sin partir')
+        for rid in sueltas:
+            texto = salida[rid]
+            m = re.search(FIRMAS_CORTE[[e for e, _ in FIRMAS_CORTE].index(etiqueta)][1], texto)
+            ini = max(0, (m.start() if m else 0) - 60)
+            print(f'      {rid} | {actor[rid]} | {len(texto)} ch')
+            print(f'         …{texto[ini:ini + 190].strip()}…')
+
     seccion(3, 'Detectores sobre la sesión (candidatos, no reglas)')
     freq, canon = esc.construir_indices(salida)
     # Los detectores imprimen directamente; se les pasa sólo la sesión.
