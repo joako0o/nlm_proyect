@@ -2768,6 +2768,14 @@
           "Despues": "lo que observamos hace un mes, incluso",
           "Contexto": " lo observado en otras reuniones. En el caso del petróleo, que está en precios muy similares a lo que observamos hace mes, incluso por debajo de US$ 1 aproximadamente, la trayectoria que estamos proye",
           "Justificacion": "Falta el articulo: \"hace mes\" no es construccion posible en espanol. Corroboracion abrumadora: \"hace un mes\" aparece 254 veces en el corpus; \"hace mes\" suelto, solo aqui (las otras 5 apariciones medidas son \"hace meses\", que la contiene como subcadena)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "s las economías de la Zona Euro, las que han funcionando en forma positiva, especialmente, en el caso",
+          "Despues": "s las economías de la Zona Euro, las que han funcionado en forma positiva, especialmente, en el caso",
+          "Ocurrencias": 1,
+          "Contexto": "futuro relativamente fuerte. Asimismo, destaca la confianza empresarial, en todas las economías de la Zona Euro, las que han funcionando en forma positiva, especialmente, en el caso de Alemania. También se mantienen, tal como en Estados Unidos de América, preoc",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
         }
       ]
     },
@@ -2892,6 +2900,14 @@
           "Ocurrencias": 1,
           "Contexto": "rtante de la tasa de desempleo desestacionalizada. con lo que se disipa plenamente el",
           "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n mayo, la actividad económica medida por el imacec aumentó 6,4%, con lo que su velocidad de exp",
+          "Despues": "n mayo, la actividad económica medida por el Imacec aumentó 6,4%, con lo que su velocidad de exp",
+          "Ocurrencias": 1,
+          "Contexto": " en el primer semestre del año (+63,2% anual en junio). IV. Actividad y empleo En mayo, la actividad económica medida por el imacec aumentó 6,4%, con lo que su velocidad de expansión se ubicó en tomo al 5% anual. Este resultado se explicó, principalmente, ",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -9444,6 +9460,22 @@
           "Ocurrencias": 1,
           "Contexto": "oras y, en parte, el menor crecimiento proyectado para dicho sector. En materia cambiaría, precisa que el tipo de cambio se apreció $1 desde la RPM a",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "as proyecciones para la presente Reunión, el lmacec crecería en torno a 2,4% anual y se mantendr",
+          "Despues": "as proyecciones para la presente Reunión, el Imacec crecería en torno a 2,4% anual y se mantendr",
+          "Ocurrencias": 1,
+          "Contexto": " señor Miguel Fuentes prosigue con su presentación y señala que de acuerdo con las proyecciones para la presente Reunión, el lmacec crecería en torno a 2,4% anual y se mantendría bajo 3% hasta el mes de septiembre próximo. Hace notar que para efectos del a",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "proyección de crecimiento algo mayor para el lmacec de los meses previos. Por otra parte, indica",
+          "Despues": "proyección de crecimiento algo mayor para el Imacec de los meses previos. Por otra parte, indica",
+          "Ocurrencias": 1,
+          "Contexto": " exhibe un significativo repunte en los meses recientes y sustentó en parte una proyección de crecimiento algo mayor para el lmacec de los meses previos. Por otra parte, indica que las colocaciones de consumo mantienen su ritmo de crecimiento y que las hip",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -12317,6 +12349,14 @@
           "Despues": "ría de O,1% y el de d",
           "Contexto": "se ubicaría en 5,1%; que el registro del mes de noviembre sería de O,1 % y el de diciembre de -0,1%. Por último, deja constancia que las expec",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " su presentación y señala que el registro de lmacec del mes de octubre estaría en torno a 1,7%, ",
+          "Despues": " su presentación y señala que el registro de IMACEC del mes de octubre estaría en torno a 1,7%, ",
+          "Ocurrencias": 1,
+          "Contexto": "s, que sería algo más prolongada que lo previsto. El señor Miguel Fuentes retoma su presentación y señala que el registro de lmacec del mes de octubre estaría en torno a 1,7%, mayor que el 1,5% esperado por el mercado. Asimismo, anticipa que durante los pr",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -12340,6 +12380,14 @@
           "Ocurrencias": 1,
           "Contexto": " Agrega que, por el momento, esto se refleja en. el predominio de bajas tasas de in",
           "Justificacion": "Punto sobrante, no reemplazable por coma: la palabra siguiente completa la misma frase («esto se refleja en el predominio de bajas tasas»). Se elimina el punto."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nte al ámbito interno, resalta que el último lmacec volvió a confirmar que la economía pasa por ",
+          "Despues": "nte al ámbito interno, resalta que el último IMACEC volvió a confirmar que la economía pasa por ",
+          "Ocurrencias": 1,
+          "Contexto": " refugio para los inversionistas, y en un fortalecimiento del dólar. En lo atinente al ámbito interno, resalta que el último lmacec volvió a confirmar que la economía pasa por una fase de muy lento crecimiento, que se ha tornado más persistente de lo previ",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -13514,6 +13562,14 @@
           "Ocurrencias": 1,
           "Contexto": "ona el señor Lehmann que ha tenido marginalmente un alza, pero está más o menos en linea con el spread de los bonos de empresas A. En cambio, los hi",
           "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ente de Análisis Internacional que éstas han aumentando en torno a 50 puntos base en Estados Unidos ",
+          "Despues": "ente de Análisis Internacional que éstas han aumentado en torno a 50 puntos base en Estados Unidos ",
+          "Ocurrencias": 1,
+          "Contexto": "ede sacar de estas posibilidades. Respecto a las tasas de interés, indica el Gerente de Análisis Internacional que éstas han aumentando en torno a 50 puntos base en Estados Unidos de América, algo menos en Europa en torno a 40 puntos base y en Japón en alreded",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
         }
       ]
     },
@@ -19127,6 +19183,14 @@
           "Ocurrencias": 1,
           "Contexto": "l año y que para proyectar el trimestre se requ iere de un modelo más acabado yen su opinión el foco no se encuentra ahí.",
           "Justificacion": "Falta el espacio entre la conjunción y la preposición: «un modelo más acabado y en su opinión el foco no se encuentra ahí». El ancla es deliberadamente larga porque «yen» es peligroso: aparece 75 veces como moneda japonesa y el patrón [a-z]yen da 312 coincidencias legítimas (constituyen, excluyen, atribuyen). Aquí «acabado yen» no admite lectura verbal, así que el espacio falta. Tipo ESPACIO_FALTANTE."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "del sector privado se concentra en proyectar ellmacec y ajustar la estimación del año y que para p",
+          "Despues": "del sector privado se concentra en proyectar el Imacec y ajustar la estimación del año y que para p",
+          "Ocurrencias": 1,
+          "Contexto": "cuesta para la estimación del PIS del primer trimestre, ya que todo el esfuerzo del sector privado se concentra en proyectar ellmacec y ajustar la estimación del año y que para proyectar el trimestre se requ iere de un modelo más acabado yen su opinión el fo",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -27102,6 +27166,30 @@
           "Ocurrencias": 1,
           "Contexto": "rroborando el escenario base. En relación con el sector construcción, el señor Claudias Soto hace presente que los antecedentes tienden a confirmar el supuesto de un cierto rep",
           "Justificacion": "Variante de la familia del §59 con una «s» de más: «Claudias Soto» por «Claudio Soto». La misma fila tenía además un «Claudia Soto» en la primera línea, y ese primer hallazgo ocultó este segundo porque las búsquedas por «Claudia Soto» no casan con «Claudias Soto». El tratamiento es masculino («el señor») y el corpus atestigua «Claudio Soto» 1.275 veces."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ón, precisando que, en materia de actividad, ellmacec de agosto alcanzó a 7,6% y que, por primera ",
+          "Despues": "ón, precisando que, en materia de actividad, el Imacec de agosto alcanzó a 7,6% y que, por primera ",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Macroeconómico señor Claudia Soto inicia su exposición, precisando que, en materia de actividad, ellmacec de agosto alcanzó a 7,6% y que, por primera vez después de muchos meses, registró una variación mensual negativa de 0,2%, la",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "pción de los empresarios del sector, que han mejorando significativamente, ubicándose hoy en un niv",
+          "Despues": "pción de los empresarios del sector, que han mejorado significativamente, ubicándose hoy en un niv",
+          "Ocurrencias": 1,
+          "Contexto": "nifiesta que estas perspectivas de actividad se han visto reflejadas en la percepción de los empresarios del sector, que han mejorando significativamente, ubicándose hoy en un nivel neutral , lo cual no se observaba desde el año 2008. ( El Gerente aludido señ",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "año 2008. ( El Gerente aludido señala ",
+          "Despues": "año 2008. El Gerente aludido señala ",
+          "Ocurrencias": 1,
+          "Contexto": "ivamente, ubicándose hoy en un nivel neutral , lo cual no se observaba desde el año 2008. ( El Gerente aludido señala que las importaciones registran un cierto aplanamiento y las importaciones de bi",
+          "Justificacion": "Paréntesis de apertura suelto, sin cierre, entre dos oraciones completas. Es el único desbalance de paréntesis de la sesión."
         }
       ]
     },
@@ -27920,6 +28008,14 @@
           "Ocurrencias": 1,
           "Contexto": "nzar ese valor; y que la curva forward indica que la tasa de política debiese ' situarse en torno a 75 puntos base por debajo de su nivel actual antes de fin ",
           "Justificacion": "Apóstrofo suelto en mitad de la cláusula: «la tasa de política debiese situarse en torno a 75 puntos base». El apóstrofo no tiene lectura en español en esa posición y no separa dos oraciones, así que no puede ser marca de párrafo ni comilla. Tipo SIMBOLO_SUELTO, igual que los residuos de §25."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mostrando signos de debilidad. En efecto, el lmacec de 2,3% en el mes de mayo fue nuevamente inf",
+          "Despues": "mostrando signos de debilidad. En efecto, el Imacec de 2,3% en el mes de mayo fue nuevamente inf",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Alejandro Micco plantea que el crecimiento económico continúa mostrando signos de debilidad. En efecto, el lmacec de 2,3% en el mes de mayo fue nuevamente inferior a lo esperado; se mantienen los signos de desaceleración del consumo, sobr",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -28740,6 +28836,14 @@
           "Ocurrencias": 1,
           "Contexto": "n hacia la baja, en una\ndécima, respecto a lo que habíamos previsto en el mes anterior.\nPor otra parte, señala el señor Lehmman, que respecto al precio del cobre, éste\nse ha mantenido estable durante el mes y de todos modos por sobre lo previsto. ",
           "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "iones, considerando los registros que se han observando\ndurante las últimas semanas, se corrige al a",
+          "Despues": "iones, considerando los registros que se han observado\ndurante las últimas semanas, se corrige al a",
+          "Ocurrencias": 1,
+          "Contexto": "se había registrado el mes anterior. Menciona\ntambién que en términos de proyecciones, considerando los registros que se han observando\ndurante las últimas semanas, se corrige al alza la proyección promedio para este año de\nalrededor de US$ 3 y para el próximo",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
         }
       ]
     },
@@ -32027,6 +32131,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Presidente señor José De Gregario comenta que esta serie de cifras d",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " nuevas cuentas nacionales. Señala que en el lMACEC coherente con las nuevas cuentas nacionales ",
+          "Despues": " nuevas cuentas nacionales. Señala que en el IMACEC coherente con las nuevas cuentas nacionales ",
+          "Ocurrencias": 1,
+          "Contexto": " coherente con el IMACEC publicado, pero no con aquél corregido de acuerdo a las nuevas cuentas nacionales. Señala que en el lMACEC coherente con las nuevas cuentas nacionales la velocidad es de 0,8% en el mes de enero.",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
         }
       ]
     },
@@ -33932,6 +34044,201 @@
           "Justificacion": "Adjetivo sin acento en «impuesto especifico». El corpus escribe «específico» 46 veces frente a 2, y las dos son esta misma expresión. El verbo «especifica», que aparece decenas de veces, es correcto y no se toca."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2291:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " ámbito internacional, a pesar de que se han continuando disipando las tensiones en los mercados inte",
+          "Despues": " ámbito internacional, a pesar de que se han continuado disipando las tensiones en los mercados inte",
+          "Ocurrencias": 1,
+          "Contexto": "acumulado son las siguientes: Menciona el Gerente de División Estudios que en el ámbito internacional, a pesar de que se han continuando disipando las tensiones en los mercados interbancarios, las turbulencias y la volatilidad siguen presentes y las primas por ",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-11-16:3551:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " las proyecciones de la última RPM no se han modificando, pero que sí es importante anticipar el avan",
+          "Despues": " las proyecciones de la última RPM no se han modificado, pero que sí es importante anticipar el avan",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Macroeconómico retoma su presentación, subrayando que las proyecciones de la última RPM no se han modificando, pero que sí es importante anticipar el avance de lo que será el cierre de Cuentas Nacionales del tercer trimestre y la revi",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-01-13:3668:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "isión de que las condiciones crediticias han mejorando y que la demanda por créditos ha aumentado. ",
+          "Despues": "isión de que las condiciones crediticias han mejorado y que la demanda por créditos ha aumentado. ",
+          "Ocurrencias": 1,
+          "Contexto": "servaba desde mediados del año 2007. Añade que esto apoya, de cierta forma, la visión de que las condiciones crediticias han mejorando y que la demanda por créditos ha aumentado. Comenta, de hecho, que las colocaciones comerciales experimentan en el margen un",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-06-14:4889:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " se ha visto sacudido por temores que se han incrementando respecto a la situación de Europa. En efecto",
+          "Despues": " se ha visto sacudido por temores que se han incrementado respecto a la situación de Europa. En efecto",
+          "Ocurrencias": 1,
+          "Contexto": "rtante moderación de la inflación. Sin embargo, destaca que el escenario externo se ha visto sacudido por temores que se han incrementando respecto a la situación de Europa. En efecto, plantea que esa región sigue deteriorándose, generando riesgos crecientes para",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-01-16:5984:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "esa que resulta evidente que los últimos dos lmacec han sorprendido a la baja, en particular, en",
+          "Despues": "esa que resulta evidente que los últimos dos Imacec han sorprendido a la baja, en particular, en",
+          "Ocurrencias": 1,
+          "Contexto": "es que den cuenta de un fenómeno más generalizado. En materia de actividad, expresa que resulta evidente que los últimos dos lmacec han sorprendido a la baja, en particular, en lo referente al sector Resto. Al respecto, pregunta si estas cifras serían comp",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6309:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n, señalando que en materia de actividad, el lmacec del mes de mayo creció menos que lo proyecta",
+          "Despues": "n, señalando que en materia de actividad, el Imacec del mes de mayo creció menos que lo proyecta",
+          "Ocurrencias": 1,
+          "Contexto": "a reducción en esta Reunión. El señor Miguel Fuentes prosigue con su presentación, señalando que en materia de actividad, el lmacec del mes de mayo creció menos que lo proyectado, debido a una contribución negativa de los sectores resto y un menor dinamism",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6315:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " donde se concentró la sorpresa negativa del lmacec del mes de mayo, se ha corregido desde el 2,",
+          "Despues": " donde se concentró la sorpresa negativa del Imacec del mes de mayo, se ha corregido desde el 2,",
+          "Ocurrencias": 1,
+          "Contexto": "orio. En materia de proyecciones, hace presente que la corrección del PIB resto, donde se concentró la sorpresa negativa del lmacec del mes de mayo, se ha corregido desde el 2,4% contemplado en el último IPoM, hasta 1,8% en el segundo trimestre; que parte ",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6405:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "sigue con su presentación mencionando que el lmacec del mes de julio reveló que la actividad se ",
+          "Despues": "sigue con su presentación mencionando que el IMACEC del mes de julio reveló que la actividad se ",
+          "Ocurrencias": 1,
+          "Contexto": "el Consejo acordará una reducción de 25 puntos base. El señor Miguel Fuentes prosigue con su presentación mencionando que el lmacec del mes de julio reveló que la actividad se ha desacelerado en línea con la proyección interna, en tanto que los datos de de",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6410:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "prosigue con su presentación y señala que el lmacec del mes de agosto crecería en torno a 0,6% e",
+          "Despues": "prosigue con su presentación y señala que el IMACEC del mes de agosto crecería en torno a 0,6% e",
+          "Ocurrencias": 1,
+          "Contexto": " de julio, que fue algo más negativo que lo anticipado. El señor Miguel Fuentes prosigue con su presentación y señala que el lmacec del mes de agosto crecería en torno a 0,6% en doce meses, por debajo de lo contemplado en la Reunión previa y del 1% esperad",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-09-11:6436:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o que respecta a Chile, señala que el último lmacec ratificó el lento crecimiento reportado en e",
+          "Despues": "o que respecta a Chile, señala que el último IMACEC ratificó el lento crecimiento reportado en e",
+          "Ocurrencias": 1,
+          "Contexto": "ensación que predomina es la de condiciones similares a las del mes pasado. En lo que respecta a Chile, señala que el último lmacec ratificó el lento crecimiento reportado en el IPoM; que por el lado de la demanda, los indicadores más recientes confirman e",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6496:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e, SING, se debería observar un rebote en el lmacec minero. Además, habría un efecto compensator",
+          "Despues": "e, SING, se debería observar un rebote en el IMACEC minero. Además, habría un efecto compensator",
+          "Ocurrencias": 1,
+          "Contexto": "na que de acuerdo con lo informado por el Sistema Interconectado del Norte Grande, SING, se debería observar un rebote en el lmacec minero. Además, habría un efecto compensatorio o un semishock de oferta en EGA, atendido el significativo aumento de la gene",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-11-18:6508:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " débil para la economía local. En efecto, el lmacec del mes de septiembre volvió a sorprender a ",
+          "Despues": " débil para la economía local. En efecto, el IMACEC del mes de septiembre volvió a sorprender a ",
+          "Ocurrencias": 1,
+          "Contexto": "idad, advierte que las noticias han seguido dando cuenta de un panorama bastante débil para la economía local. En efecto, el lmacec del mes de septiembre volvió a sorprender a la baja al registrar un crecimiento de 1,4%, y la actividad del tercer trimestre",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-12-11:6531:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ñor Miguel Fuentes señala que el registro de lmacec del mes de noviembre estaría en torno a 1,4%",
+          "Despues": "ñor Miguel Fuentes señala que el registro de IMACEC del mes de noviembre estaría en torno a 1,4%",
+          "Ocurrencias": 1,
+          "Contexto": "nte a los consignado en el IPoM del mes de septiembre, desde 0,1% a -0,7%. El señor Miguel Fuentes señala que el registro de lmacec del mes de noviembre estaría en torno a 1,4%, algo inferior al 1,5% esperado por el mercado en la última EEE; y que para dic",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7010:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "odrigo Vergara consulta por la proyección de lmacec para el mes de agosto.",
+          "Despues": "odrigo Vergara consulta por la proyección de Imacec para el mes de agosto.",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor Rodrigo Vergara consulta por la proyección de lmacec para el mes de agosto.",
+          "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-12-17:7209:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "jores proyecciones, hace notar que ambas han subestimando la inflación en el último tiempo, pero el Ba",
+          "Despues": "jores proyecciones, hace notar que ambas han subestimado la inflación en el último tiempo, pero el Ba",
+          "Ocurrencias": 1,
+          "Contexto": " que el Banco cuente con mejor información que el mercado con el fin de hacer mejores proyecciones, hace notar que ambas han subestimando la inflación en el último tiempo, pero el Banco lo ha hecho en menor medida. Al no formularse comentarios adicionales y sien",
+          "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -35269,6 +35576,21 @@
       "ID_Intervencion": "RPM-2010-08-12:3313:1",
       "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
       "Motivo": "§63: «la fuerza de trabajo había aumentado entre 100.000 y 150.000 mil personas». La secuencia «150.000 mil» es imposible: serían 150 millones de personas y la fuerza de trabajo chilena ronda los 7 millones. Las dos lecturas plausibles —«entre 100.000 y 150.000 personas» o «entre 100 mil y 150 mil personas»— dan la misma magnitud pero no la misma cifra escrita, y elegir entre ellas es adivinar. Se corrigió sólo la conjunción mayúscula (Y por y), que es independiente del problema, y se dejó el número intacto para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3460:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§65: la fila termina en coma («…se revirtieron significativamente después de la publicación de la Minuta de la última Reunión,») y la fila siguiente, de otro hablante, abre una oración nueva con mayúscula. La oración está gramaticalmente completa, así que lo más probable es que la coma deba ser un punto, pero no se corrigió: en el corpus hay 113 filas que cierran en coma y la siguiente retoma la oración, y 155 donde no la retoma según un clasificador automático — pero la gran mayoría de esas 155 son la fórmula «A continuación,» seguida de «el Presidente ofrece la palabra…», que SÍ continúa. No hay regla fiable que distinga un cierre en coma legítimo de uno que esconde texto faltante, y cambiar la coma por un punto taparía la segunda posibilidad. Se deja para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2489:4",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Motivo": "§65: la fila termina en «se reanuda la Sesión de Política Monetaria» sin punto. La fórmula aparece 67 veces en el corpus: 54 cierran con punto, 11 continúan con el número de la sesión y sólo ésta y RPM-2010-10-14:3476:5 terminan sin nada. El punto falta con casi total certeza, pero NO se agregó: el aplicador del registro es un reemplazo literal y cualquier inserción deja «Antes» contenido en «Despues», de modo que aplicar dos veces apilaría un segundo punto. Es el único tipo de arreglo que el registro no puede expresar, y el test test_no_vuelve_a_corregir_sobre_lo_corregido lo detecta. Se deja para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2010-10-14:3476:5",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Motivo": "§65: la fila termina en «se reanuda la Sesión de Política Monetaria» sin punto. La fórmula aparece 67 veces en el corpus: 54 cierran con punto, 11 continúan con el número de la sesión y sólo ésta y RPM-2010-10-14:3476:5 terminan sin nada. El punto falta con casi total certeza, pero NO se agregó: el aplicador del registro es un reemplazo literal y cualquier inserción deja «Antes» contenido en «Despues», de modo que aplicar dos veces apilaría un segundo punto. Es el único tipo de arreglo que el registro no puede expresar, y el test test_no_vuelve_a_corregir_sobre_lo_corregido lo detecta. Se deja para el cotejo con el PDF."
     }
   ]
 }

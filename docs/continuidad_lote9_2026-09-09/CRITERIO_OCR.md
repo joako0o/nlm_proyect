@@ -4063,3 +4063,88 @@ intacto · `especifico` **0** · `específico` **48** · `especificas` **0** · 
 
 Registro: **1.742 filas / 2.996 operaciones / 212 revisiones / 218 filas marcadas**.
 Lecturas **5.249 de 9.724**, 65 de 132 sesiones.
+
+## §65 — Sesión 2010-10-14: la firma del §48 resulta falsa, y tres familias transversales
+
+Ochenta y nueve filas, trece actores, 103.139 caracteres. **Ningún corte.**
+
+El padre 3449, único caso de la cola, ya está bien partido: `3449:1` es Claro con sus dudas sobre
+los precios de los activos y `3449:2` es De Gregorio sobre el Dow Jones.
+
+### La firma «un tercero responde» dio falso por segunda vez
+
+2c señaló `3454:1` con la firma que **sí** produjo un corte en el §48 (padre 1706). Leída entera:
+
+> «Al respecto, y respondiendo a una consulta del Vicepresidente señor Manuel Marfán, **aclara** que
+> ello estaba considerado en el supuesto del Banco…»
+
+El sujeto de «aclara» es Soto, que viene de iniciar su exposición; Marfán es el **objeto** de la
+consulta. La firma detecta «un cargo + verbo de habla» sin mirar de quién depende el verbo. Es el
+mismo patrón que `1706` resolvió al revés, y la diferencia está en la preposición: «respondiendo **a
+una consulta del** Vicepresidente» ata el cargo a la consulta, no al verbo.
+
+### Diecinueve variantes dañadas de «Imacec»
+
+El OCR leyó la «I» mayúscula como una «ele» minúscula. El corpus escribe el indicador **487 veces**
+de forma correcta (263 `IMACEC` y 224 `Imacec`) y `lmacec` no es ninguna palabra:
+
+| variante | casos | ejemplo |
+|---|---|---|
+| `lmacec` | 15 | «el **lmacec** del mes de mayo creció menos» |
+| `ellmacec` | 2 | «en materia de actividad, **ellmacec** de agosto» → «el Imacec» |
+| `lMACEC` | 1 | «en el **lMACEC** coherente con las nuevas cuentas» |
+| `imacec` | 1 | «medida por el **imacec** aumentó 6,4%» |
+
+**La forma repuesta se decidió fila por fila**, no con una sola: se usó la que emplea **la propia
+sesión** para el mismo indicador (`2405:1` → `IMACEC`, porque su sesión lo escribe así 8 veces y la
+propia fila 2; `6309:1` → `Imacec`, porque su sesión lo escribe así 3). En las dos filas sin
+evidencia en su sesión se usó la del año: `297:2` (2005, con 2006 → 26 `Imacec` contra 3) y `7010:1`
+(2015 → 24 `Imacec` contra 18). Resultado: `IMACEC` 263 → **272** y `Imacec` 224 → **234**, suma 506
+= 487 + 19.
+
+### «haber» más gerundio, nueve casos
+
+`han observando`, `han funcionando`, `han aumentando`, `han continuando`, `han mejorando` (dos),
+`han modificando`, `han incrementando`, `han subestimando`. «Haber» más gerundio no es una forma del
+español; la «d» del participio se leyó como «n». Los nueve se corrigieron al participio.
+
+**El caso que no es simétrico:** `2291:2`, «se han **continuando** disipando las tensiones» → «se han
+**continuado** disipando». Sólo cambia el primer verbo, porque el segundo gerundio es legítimo.
+
+### El punto que falta en una fórmula fija — y el arreglo que el registro no puede expresar
+
+«Siendo las HH:MM horas, se reanuda la Sesión de Política Monetaria» aparece **67 veces**: 54 cierran
+con punto, 11 continúan con el número de la sesión («N° 74, con la participación…») y **2 terminan
+ahí sin nada** (`2489:4` y `3476:5`). En esas dos el punto falta con casi total certeza.
+
+**Pero no se agregó, y no se puede agregar.** El aplicador del registro es un reemplazo literal
+(`salida.replace(antes, despues)`), así que cualquier inserción deja `Antes` contenido en `Despues`
+y aplicar dos veces apila un segundo punto: «…Monetaria**..**». Lo detectó
+`test_no_vuelve_a_corregir_sobre_lo_corregido`, y al revisarlo resultó que en las **3.025 operaciones
+del registro no hay una sola inserción pura**: agregar un carácter al final de una fila es el único
+tipo de arreglo que este mecanismo no puede expresar. Las dos filas quedaron marcadas
+`SIGNO_AUSENTE_POR_COTEJAR` (marcas 14 y 15).
+
+**Regla nueva: si `Antes` está contenido en `Despues`, la operación no es aplicable.** Hay que
+comprobarlo antes de escribirla, no dejarlo al test.
+
+La medición inicial decía «65 de 68 con punto» y estaba mal: contaba como sin punto las filas que
+llevan el número de sesión en la línea siguiente. Se rehizo contando lo que sigue a la fórmula.
+
+### Una coma que no se tocó
+
+`3460:1` termina en coma y la fila siguiente, de otro hablante, abre una oración nueva con
+mayúscula. Lo más probable es que la coma deba ser un punto, pero **no se corrigió**. Medido en todo
+el corpus: 113 filas cierran en coma y la siguiente retoma la oración, y 155 donde un clasificador
+automático dice que no — pero la gran mayoría de esas 155 son la fórmula «A continuación,» seguida
+de «el Presidente ofrece la palabra…», que **sí** continúa. No hay regla fiable que distinga un
+cierre en coma legítimo de uno que esconde texto faltante, y poner un punto taparía la segunda
+posibilidad. Marca 13, `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · variantes dañadas de Imacec **0** · `IMACEC` **272** ·
+`Imacec` **234** · «haber + gerundio» **0** · «( El Gerente» **0** · fórmula «se reanuda» con punto **54** y sin punto **13** (11 legítimas más las 2 marcadas). Suite local **61 OK**.
+
+Registro: **1.757 filas / 3.025 operaciones / 212 revisiones / 221 filas marcadas**.
+Lecturas **5.336 de 9.724**, 66 de 132 sesiones.

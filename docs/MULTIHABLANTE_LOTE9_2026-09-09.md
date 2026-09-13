@@ -429,6 +429,8 @@ Para leer una sesión entera al margen del plan:
 
 | 206–214 | 2009-05-07 | 91 | **sesión cerrada 90/90** (1 ya estaba anotada) · 12 actores · **las tres redes en cero** sin adjudicar nada (ninguna fila en la cola de 74, 2b cero, 2c cero); el barrido independiente dio 3 referencias ajenas y las tres son falsas: el Gerente de División de Estudio es el propio García, el Gerente de Análisis Internacional es el propio Lehmann respondiendo una consulta, y «el señor Lehmman» es Lehmann con el apellido dañado; la presentación de De Gregorio (7.958 ch) y la fundamentación del voto de Marshall (6.028 ch) son monólogos → **ningún corte** · 2 reservas quedan abiertas porque falta texto, no puntuación (§64) |
 
+| 215–223 | 2010-10-14 | 89 | **sesión cerrada 87/87** (2 ya estaban anotadas) · 13 actores · la cola tenía un caso, el padre 3449, **ya bien partido** (Claro con sus dudas sobre los precios de los activos, De Gregorio sobre el Dow Jones); 2b cero; **2c señaló 3454:1 con la firma «un tercero responde», la misma que produjo el corte del §48, y resultó falsa**: «respondiendo a una consulta del Vicepresidente señor Manuel Marfán, aclara que…» — el sujeto es Soto y Marfán es el objeto de la consulta → **ningún corte** (§65) |
+
 Para anotar una ronda leída:
 
 ```
