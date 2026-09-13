@@ -1138,7 +1138,8 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             institutional = False
         local_review = reviews_by_start.get(a)
         if local_review:
-            if candidate and candidate["actor"] != local_review["Actor"]:
+            if (candidate and candidate["actor"] != local_review["Actor"]
+                    and not local_review.get("Fusiona_Intervencion_Revisada")):
                 raise ValueError("Revisión contradice sujeto explícito")
             who, source = local_review["Actor"], SPEAKER_REVIEW_SOURCE
         elif institutional:
@@ -1151,7 +1152,9 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 source = 'ANAFORA_CONTINUIDAD'
         else:
             continue
-        if (who != actor or a in explicit_review_ends or local_review or timed_personal) and a > start:
+        fusiona = bool(local_review and local_review.get('Fusiona_Intervencion_Revisada'))
+        if (who != actor or a in explicit_review_ends
+                or (local_review and not fusiona) or timed_personal) and a > start:
             segments.append((text[start:a].strip(), actor, method))
             start, method = a, None
         actor = who

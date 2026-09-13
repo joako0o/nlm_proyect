@@ -159,5 +159,34 @@
         "Cita": "comenta el Gerente señor Sergio Lehmann que el precio del cobre tendió a aumentar durante la semana"
       }
     ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-3062-8",
+    "ID_Padre": 3062,
+    "Fecha": "2010-04-15",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "c2c79be12ccf06b9fca6e234376b3bd925a9d29cb00aa12499b0ee41f09a42f4",
+    "Inicio": 282,
+    "Fin": 608,
+    "Cita_Inicio": "Respecto de la dispersión de las tasas, sobre lo cual consultó el señor Vicepresidente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Justificacion": "CORTE AL REVÉS: la base partía este padre en tres y le atribuía el tramo del medio a Manuel Marfán Lewis, que no lo dijo. La oración es «Respecto de la dispersión de las tasas, sobre lo cual consultó el señor Vicepresidente en la Reunión pasada, menciona que las medidas de dispersión se han mantenido más bien altas». El detector leyó «el señor Vicepresidente» más «consultó» y cortó ahí, pero «sobre lo cual consultó el señor Vicepresidente en la Reunión pasada» es una subordinada relativa que remite a una reunión ANTERIOR, y el verbo principal de la oración es «menciona», en presente, cuyo sujeto es el mismo narrador de las oraciones vecinas: la anterior dice «El señor Claudio Soto informa luego… Precisa que no es el caso de las tasas hipotecarias» y la siguiente «A continuación, el señor Claudio Soto indica que…». Las tres oraciones son de Soto y el padre fuente es un solo discurso de 839 caracteres. Esta entrada usa Fusiona_Intervencion_Revisada porque hace falta tanto levantar la guarda «Revisión contradice sujeto explícito» como no forzar un límite de segmento en el inicio revisado: sin lo segundo la intervención queda partida en dos filas del mismo actor.",
+    "Fusiona_Intervencion_Revisada": true,
+    "Motivo_Sujeto_Explicito": "El nombre que el detector toma por sujeto («el señor Vicepresidente») va dentro de una subordinada relativa con verbo en pretérito que remite a la Reunión pasada; el verbo principal de la oración es «menciona», en presente, y su sujeto es Claudio Soto, el narrador de las oraciones anterior y siguiente del mismo padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3062,
+        "Cita": "El señor Claudio Soto informa luego que las tasas de colocación"
+      },
+      {
+        "ID_Padre": 3062,
+        "Cita": "sobre lo cual consultó el señor Vicepresidente en la Reunión pasada"
+      },
+      {
+        "ID_Padre": 3062,
+        "Cita": "A continuación, el señor Claudio Soto indica que los resultados de la Encuesta"
+      }
+    ]
   }
 ]

@@ -33,7 +33,7 @@ from diagnosticar_finales import read_rows  # noqa: E402
 # se regenera. Regenerarlo renumeraría las rondas y rompería las referencias ya
 # escritas en la documentación (§33). Las rondas siguen siendo válidas como
 # agrupación de lectura; lo único que cambia es el universo de filas.
-BASE_ACTUAL = pathlib.Path('data/releases/continuidad_procedimental_v10/consolidado_base_referencia.xlsx')
+BASE_ACTUAL = pathlib.Path('data/releases/continuidad_procedimental_v11/consolidado_base_referencia.xlsx')
 LECT = pathlib.Path('docs/continuidad_lote9_2026-09-09/lecturas.json')
 PLAN = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.json')
 MANIF = pathlib.Path('docs/continuidad_lote9_2026-09-09/plan_rondas.csv')

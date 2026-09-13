@@ -1,6 +1,6 @@
 """Lote10: separar por intervención sin tocar el registro histórico fijado por hash.
 
-Las siete revisiones viven en ``revisiones_hablantes_lote10.json`` porque el
+Las ocho revisiones viven en ``revisiones_hablantes_lote10.json`` porque el
 registro histórico está fijado por hash en veinte paquetes de procedencia;
 agregarle entradas los invalida en cascada. Estas pruebas cubren lo que los
 conteos ajenos ya no cubren: que las revisiones nuevas cargan, que no solapan el
@@ -39,6 +39,14 @@ ESPERADO = {
     # siguiente del mismo padre.
     1924: ('Sergio Lehmann Beresi', 79, 404, 'Andrés Velasco Brañes'),
     1925: ('Sergio Lehmann Beresi', 133, 2122, 'Jorge Desormeaux Jiménez'),
+    # Octavo registro, el único CORTE AL REVÉS: la base partía el padre en tres y
+    # le atribuía el tramo del medio a Marfán, que no lo dijo. «sobre lo cual
+    # consultó el señor Vicepresidente en la Reunión pasada» es una relativa que
+    # remite a otra reunión; el verbo principal es «menciona», en presente, sujeto
+    # Soto. Lleva Fusiona_Intervencion_Revisada porque hay que levantar la guarda
+    # «Revisión contradice sujeto explícito» y además no forzar un límite de
+    # segmento en el inicio revisado.
+    3062: ('Claudio Soto Gamboa', 282, 608, 'Claudio Soto Gamboa'),
 }
 
 
@@ -57,7 +65,7 @@ class _FuenteLote10(unittest.TestCase):
 
 class Lote10Tests(_FuenteLote10):
     def test_el_lote_carga_y_valida_contra_la_fuente(self):
-        self.assertEqual(len(self.entradas), 7)
+        self.assertEqual(len(self.entradas), 8)
         sueltas = load_speaker_reviews(self.raw, LOTE10)
         self.assertEqual(set(sueltas), set(ESPERADO))
         for padre, entrada in sueltas.items():
@@ -71,7 +79,7 @@ class Lote10Tests(_FuenteLote10):
 
     def test_no_solapa_el_registro_historico(self):
         self.assertEqual(len(self.historico), 353)
-        self.assertEqual(len(self.completas), 360)
+        self.assertEqual(len(self.completas), 361)
         self.assertFalse(set(self.historico) & set(ESPERADO))
         # los mismos Revision_ID no pueden repetirse entre los dos archivos
         historicos = {e['Revision_ID'] for e in
@@ -114,7 +122,16 @@ class Lote10Tests(_FuenteLote10):
                 actores = [a for _, a, _ in partes]
                 fuentes = [m for _, _, m in partes]
                 self.assertIn(actor, actores)
-                self.assertEqual(fuentes[actores.index(actor)], 'CONTEXTO_REVISADO')
+                if self.completas[padre].get('Fusiona_Intervencion_Revisada'):
+                    # En una fusión la revisión NO fuerza un límite de segmento, así
+                    # que no aparece CONTEXTO_REVISADO: el segmento resultante conserva
+                    # el método con que el detector abrió la intervención. Lo que se
+                    # exige es que el padre entero quede en el actor del registro.
+                    self.assertEqual(set(actores), {actor},
+                                     'la fusión dejó el padre repartido entre varios hablantes')
+                    self.assertEqual(len(partes), 1)
+                else:
+                    self.assertEqual(fuentes[actores.index(actor)], 'CONTEXTO_REVISADO')
                 # el tramo revisado empieza exactamente donde dice la revisión
                 self.assertEqual(texto[inicio:fin].startswith(
                     self.completas[padre]['Cita_Inicio']), True)
@@ -194,9 +211,9 @@ class RefrescoIDPosicionalTests(unittest.TestCase):
 
 
 class CantidadDeFilasTests(_FuenteLote10):
-    """De los siete cortes, sólo tres agregan una fila (1995, 1706 y 1924): los otros
-    cuatro ya estaban partidos por el detector con el mismo actor, y la revisión
-    corrige la frontera.
+    """De los ocho registros, tres agregan una fila (1995, 1706 y 1924), cuatro corrigen
+    una frontera sin cambiar el número (657, 1564, 1925, 2960) y uno QUITA dos (3062):
+    el corte al revés, donde la base partía una sola intervención en tres.
 
     Esto importa porque el ID es posicional: cada fila nueva corre el ID de todas
     las siguientes y eso fue lo que invalidó las lecturas procedimentales v5.
@@ -206,16 +223,30 @@ class CantidadDeFilasTests(_FuenteLote10):
         return list(b.segment_turns(self.raw[padre]['Texto'], self.raw[padre]['Fecha'],
                                     self.raw[padre]['Actor'], review=review))
 
-    def test_solo_el_1995_el_1706_y_el_1924_agregan_una_fila(self):
+    def test_el_delta_de_filas_por_padre(self):
         delta = {}
         for padre in ESPERADO:
             delta[padre] = len(self.segmentos(padre, self.completas.get(padre))) - \
                 len(self.segmentos(padre, None))
         self.assertEqual(delta, {657: 0, 1564: 0, 1706: 1, 1924: 1, 1925: 0,
-                                 1995: 1, 2960: 0},
-                         'el total de filas de la base cambia en +3, no en +7')
+                                 1995: 1, 2960: 0, 3062: -2},
+                         'el delta neto es +1 sobre la base sin revisar: +3 cortes, '
+                         '-2 de la fusión del 3062')
 
-    def test_los_cuatro_restantes_mueven_la_frontera(self):
+    def test_el_3062_se_fusiona_en_una_sola_intervencion(self):
+        """El corte al revés: tres segmentos del mismo hablante vuelven a ser uno."""
+        con = self.segmentos(3062, self.completas.get(3062))
+        sin = self.segmentos(3062, None)
+        self.assertEqual(len(sin), 3)
+        self.assertEqual(len(con), 1)
+        self.assertEqual([a for _, a, _ in con], ['Claudio Soto Gamboa'])
+        self.assertIn('Manuel Marfán Lewis', [a for _, a, _ in sin],
+                      'sin la revisión el tramo del medio no queda en Marfán: el caso cambió')
+        self.assertEqual(''.join(t for t, _, _ in con).replace(' ', '').replace('\n', ''),
+                         ''.join(t for t, _, _ in sin).replace(' ', '').replace('\n', ''),
+                         'la fusión no puede inventar ni perder texto')
+
+    def test_los_cuatro_que_solo_mueven_la_frontera(self):
         """Corregir la frontera sin agregar fila también es un cambio real."""
         for padre in (657, 1564, 1925, 2960):
             with self.subTest(padre=padre):

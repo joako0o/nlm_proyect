@@ -3702,3 +3702,85 @@ forma canónica que oponer y no se tocan. **30 operaciones**, `Claudio` 1.352 �
 `Texto` idéntico a la base en las **9.726** · suite local **60 OK** (18+25+6+11).
 
 Registro: **1.719 filas / 2.946 operaciones / 212 revisiones / 215 filas marcadas**.
+
+## §60 — El padre 3062 resuelto: `Fusiona_Intervencion_Revisada` y la entrega v11
+
+El §59 dejó abierto el corte al revés del padre 3062 porque el mecanismo del lote10 no podía
+resolverlo. Se resolvió con un campo nuevo en el registro, **optativo y apagado por defecto**, no
+con una regla general.
+
+### Por qué hacía falta un campo y no bastaba con la revisión
+
+El registro del lote10 sólo puede *asignar* el hablante de la oración que empieza en `Inicio`. Con
+eso se logran dos cosas: partir una fila (las oraciones siguientes de otro actor abren segmento) y
+fusionar oraciones contiguas del mismo actor. Para el 3062 chocaba con dos obstáculos:
+
+1. **La guarda.** `build_base_referencia.py` aborta con `Revisión contradice sujeto explícito`
+   cuando la revisión asigna un actor distinto del sujeto explícito que encontró el detector. La
+   guarda es correcta como mecanismo de seguridad: impide sobrescribir al detector en silencio.
+2. **El límite.** Una revisión fuerza siempre un límite de segmento en su propio inicio, porque
+   eso es lo que necesita un corte. Sin levantar también eso, el 3062 pasaba de 3 segmentos a 2
+   —los dos de Soto, es decir la atribución corregida pero la intervención todavía partida.
+
+Probado antes de escribir nada: con `Inicio=0` cubriendo todo el padre, `segment_turns` devolvía
+los mismos 3 segmentos; con `Inicio=282` sin el campo, `ValueError`; con el campo pero sin levantar
+el límite, 2 segmentos.
+
+### El campo
+
+```
+"Fusiona_Intervencion_Revisada": true,
+"Motivo_Sujeto_Explicito": "…por qué el nombre que el detector toma por sujeto no lo es…"
+```
+
+`curation.py` lo valida (debe ser `true` o no estar, y exige un motivo de al menos 40 caracteres).
+Hace exactamente dos cosas y nada más: levanta la guarda para esa entrada y no fuerza límite de
+segmento en su inicio. Como es optativo, **las siete revisiones anteriores no cambian de
+comportamiento**. El validador F1 (`validate_speaker_reviews`) tuvo que aprender el caso: en una
+fusión el intervalo no llega a ser un segmento propio sino que queda contenido en uno mayor que
+conserva el método del detector, así que la comprobación pasa de «la fila empieza con la cita» a
+«una única fila del padre contiene el intervalo completo con el actor del registro».
+
+### Resultado
+
+Padre 3062: **3 segmentos → 1**, los 839 caracteres en Claudio Soto Gamboa, y el texto reconstruido
+idéntico al fuente. Entrega **v11** publicada con gate propio (`compare_procedural_v11.py`,
+baseline v10 `e8b39e7e…`):
+
+| | |
+|---|---|
+| Perfil | `procedimental-v11`, baseline `procedimental-v10` |
+| Filas | 9.726 → **9.724** |
+| Filas nuevas | ninguna |
+| Filas fusionadas | `RPM-2010-04-15:3062:2`, `RPM-2010-04-15:3062:3` |
+| Padres revisados | 657, 1564, 1706, 1924, 1925, 1995, 2960, 3062 |
+| Grupos | 9.237 → 9.235 |
+| Alertas | 484 → **485** |
+| Reservas | 780 (4) · 2661 (12) · 5252 (4), intactas |
+| `Pasa` | **True** |
+
+**El gate de v11 es el primero que autoriza quitar filas**, y por eso tuvo que reescribir tres
+comprobaciones que en v8–v10 suponían que las filas sólo se agregan: el corrimiento de ID pasa de
+`+n filas nuevas antes` a `-n filas fusionadas antes`; la membresía de grupos admite que
+desaparezcan exactamente los 2 grupos de las filas fusionadas; y la prueba de que una revisión
+sirve se hace **contra el detector solo**, no contra el baseline, porque v10 ya trae siete de las
+ocho revisiones aplicadas y comparar contra él no diría nada.
+
+### La alerta que subió, y por qué está bien
+
+`Alertas_Despues` pasó de 484 a **485**: la fila fusionada de 839 caracteres ahora lleva
+`POSIBLE_OTRO_HABLANTE_O_MENCION`. Es correcto y se deja así. El texto menciona a otro consejero
+con un verbo de habla, el detector de alertas lo señala, y la lectura dirigida ya adjudicó el caso.
+La alerta queda visible como constancia de que la fila parece sospechosa y fue leída, no se borra
+para que el número quede más bonito.
+
+### La sesión 2010-04-15 queda cerrada
+
+91 filas (93 antes de la fusión), 11 actores, 89.151 caracteres. Cola en cero, 2b en cero, 2c en
+cero, los tres detectores de palabra partida en cero, cero caracteres fuera de repertorio. Los 13
+candidatos de acento son correctos o la variante legítima `periodo`/`período` del §58. De los 4
+finales sin puntuación, 2 ya llevan reserva abierta y 2 cierran una cita con comilla. No hubo
+correcciones OCR nuevas en la sesión más allá de la familia `Claudia`→`Claudio` del §59.
+
+Registro: **1.719 filas / 2.946 operaciones / 212 revisiones / 215 filas marcadas** (sin cambios:
+ninguna fila del padre 3062 tenía corrección). Lecturas **4.885 de 9.724**, 61 de 132 sesiones.
