@@ -4,16 +4,16 @@ Generado por `scripts/exportar_revision_ocr.py`. No es una fuente: es una
 vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
-- filas corregidas: **1771**
-- operaciones: **3062**
-- filas marcadas para cotejo: **237**
+- filas corregidas: **1772**
+- operaciones: **3063**
+- filas marcadas para cotejo: **238**
 - sha256 de la base: `eebaa728dc1d7ce14315caebd0c7516ff324b5d4acaefcf40cec2bf6d855945d`
 
 ## Operaciones por tipo
 
 | tipo | operaciones |
 |---|---:|
-| `LETRA_CONFUNDIDA` | 757 |
+| `LETRA_CONFUNDIDA` | 758 |
 | `ESPACIO_INDEBIDO` | 507 |
 | `PALABRA_PARTIDA` | 496 |
 | `ACENTO_INDEBIDO` | 390 |
@@ -31,12 +31,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 ## Muestra aleatoria de 30 filas (semilla 20260911)
 
-### `RPM-2015-04-16:6693:1` — Rodrigo Vergara Montes
+### `RPM-2015-03-19:6687:1` — Sebastián Claro Edwards
 
-1. **ESPACIO_INDEBIDO**
-   - antes: `ington D C . A continu`
-   - después: `ington D C. A continu`
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+1. **ACENTO_INDEBIDO**
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2011-08-18:4279:1` — José De Gregorio Rebeco
 
@@ -118,24 +118,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `e alguna manera, en los mercados americ`
    - por qué: "ios" por "los": la l se leyo como i, la misma regla que produce "ai" por "al" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de "los". "ios" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura.
 
-### `RPM-2015-05-14:6792:1` — Sebastián Claro Edwards
+### `RPM-2015-05-14:6791:1` — Enrique Marshall Rivera
 
 1. **ACENTO_INDEBIDO**
-   - antes: `aro se refiere a la Índexación de los salarios`
-   - después: `aro se refiere a la indexación de los salarios`
+   - antes: `ensar que el efecto Índexación había desaparec`
+   - después: `ensar que el efecto indexación había desaparec`
    - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 149 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-2. **ACENTO_INDEBIDO**
-   - antes: `, el coeficiente de Índexación implícito es ba`
-   - después: `, el coeficiente de indexación implícito es ba`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 157 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-3. **ACENTO_INDEBIDO**
-   - antes: `ce que con una alta Índexación y salarios real`
-   - después: `ce que con una alta indexación y salarios real`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 157 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-4. **ACENTO_INDEBIDO**
-   - antes: `an por efecto de la Índexación, ya que ello su`
-   - después: `an por efecto de la indexación, ya que ello su`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 157 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
 
 ### `RPM-2009-07-09:2622:1` — Enrique Marshall Rivera
 
@@ -195,12 +183,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `cambiaria`
    - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
-### `RPM-2014-06-12:6257:1` — Miguel Fuentes Díaz
+### `RPM-2014-06-12:6255:1` — Claudio Raddatz Kiefer
 
-1. **ESPACIO_INDEBIDO**
-   - antes: `isponible— , equivalen`
-   - después: `isponible—, equivalen`
-   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
+1. **SIMBOLO_SUELTO**
+   - antes: `desarrollados. ' Sobre`
+   - después: `desarrollados. Sobre`
+   - por qué: Idem que 6067:1: apóstrofo suelto entre dos oraciones completas, sin basura alrededor y sin cita que abrir (§29).
 
 ### `RPM-2008-06-10:1852:1` — José De Gregorio Rebeco
 
@@ -209,20 +197,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `A continuación,`
    - por qué: Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto.
 
-### `RPM-2014-04-17:6144:1` — Miguel Fuentes Díaz
+### `RPM-2014-04-17:6135:1` — Miguel Fuentes Díaz
 
-1. **ACENTO_INDEBIDO**
-   - antes: `a las proyecciones, índica que en línea co`
-   - después: `a las proyecciones, indica que en línea co`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
-2. **ACENTO_INDEBIDO**
-   - antes: `comercíalizadoras`
-   - después: `comercializadoras`
-   - por qué: «las empresas comercíalizadoras de automóviles» — el acento está corrido una sílaba y la forma resultante no es palabra española. El corpus tiene 15 «comercialización», 1 «Comercializadora», «comercializan», «comercializar» y «comercializarse», ninguna con ese acento. §73.
-3. **PALABRA_PARTIDA**
-   - antes: `exporta-ciones`
-   - después: `exportaciones`
-   - por qué: «el notorio aumento de las exporta-ciones mineras» — guion de salto de línea del original que dejó la palabra partida en dos. El corpus tiene 679 «exportaciones». §73.
+1. **PALABRA_OMITIDA**
+   - antes: `tasa crecimiento`
+   - después: `tasa de crecimiento`
+   - por qué: «la tasa crecimiento» — falta la preposición: es «la tasa de crecimiento». El corpus tiene 391 «tasa de crecimiento» y sólo 2 «tasa crecimiento», ambas de 2014. Idempotente: tras aplicar, el «Antes» ya no está contenido en el «Despues». §73.
 
 ### `RPM-2010-06-15:3134:1` — Sergio Lehmann Beresi
 
@@ -284,12 +264,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `”`
    - por qué: Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte.
 
-### `RPM-2015-02-12:6618:3` — Miguel Fuentes Díaz
+### `RPM-2015-02-12:6618:1` — Miguel Fuentes Díaz
 
-1. **ESPACIO_FALTANTE**
-   - antes: `que sube a100%`
-   - después: `que sube a 100%`
-   - por qué: Falta el espacio entre la preposición y la cifra: «a100%» no es una palabra. Mismo caso ya registrado en el corpus («un13% en febrero» → «un 13%»).
+1. **ACENTO_INDEBIDO**
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2010-06-15:3143:1` — José De Gregorio Rebeco
 

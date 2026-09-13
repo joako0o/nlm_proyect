@@ -4719,3 +4719,55 @@ Suite local **64 OK**.
 Registro: **1.771 filas / 3.062 operaciones / 236 revisiones / 237 filas marcadas**. Los pisos de la
 suite bajaron de 1.791/3.085 a **1.771/3.062** por única vez: corregir un error propio no puede
 medirse como pérdida. Lecturas **6.002 de 9.724**, 74 de 132 sesiones.
+
+---
+
+## §74 — Sesión 2013-02-14: dos reparaciones posibles no son un caso inequívoco
+
+Sesión de 84 filas, 11 actores, 107.187 caracteres. **Cero cortes.**
+
+Los dos casos de la cola caen sobre padres **ya partidos** — 5360 en 2 segmentos (Herrera / Vergara) y
+5367 en 4 (Fuentes / Herrera / Fuentes / Claro) — y una señal sobre un padre ya partido no es un corte
+pendiente (§69). 2b dio 1 caso y es falso: en `5364:1` Miguel Fuentes es el **objeto** de «en relación
+con lo expresado por el señor Miguel Fuentes», no un hablante. 2c en cero. Las 7 lecturas obligatorias
+de 2d también fueron falsas: `5351:1` es Lehmann respondiendo y siguiendo su propia presentación; en
+`5333:1` Vergara abre, informa lo dicho por Larraín y traspasa la palabra (§68); en `5393:1` el «por su
+parte» compara **consumo con inversión**, no personas; y en `5337:1`, `5339:1`, `5361:1` y `5378:1` cada
+«A continuación» y cada «El señor X» es el propio `Actor_Final` continuando su presentación.
+
+### La operación
+
+`et dato` → `el dato` (`LETRA_CONFUNDIDA`): la «t» sustituye a la «l». `et` no es palabra española en
+ese contexto, es la única ocurrencia del token en 9.724 filas y «el dato» aparece 354 veces.
+
+Se **dejó** en cambio «a pesar que» (62 en el corpus frente a 115 «a pesar de que»): la brecha de
+frecuencia por sí sola no convierte en error a la forma minoritaria, igual que con `periodo`, `seria`
+o `éstos`. El detector de acentos propuso `periodo`→`período` (deliberadamente conservado) e
+`incrementó`→`incremento` (verbo legítimo); ninguno se aplicó.
+
+### La marca: cuando hay dos arreglos
+
+`5364:1`: «plantea que el gráfico que se ubica al lado derecho de la lámina N° 40 se refleja una
+cierta desaceleración». La frase no cierra gramaticalmente, pero el corpus atestigua **las dos**
+reparaciones:
+
+| lectura | casos en el corpus |
+|---|---|
+| agregar la preposición — «plantea que **en** el gráfico … se refleja» | 1 |
+| quitar el pronombre — «el gráfico … **refleja**» | 5 |
+| «el gráfico … **se refleja**» (tal cual) | 2 |
+
+Con las dos lecturas vivas no hay caso inequívoco, y la política es corregir sólo lo inequívoco. Marca
+`RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+
+**Regla que queda: una frase agramatical con dos reparaciones atestiguadas se marca, no se elige.**
+Elegir una sería reconstruir el original por preferencia, que es exactamente lo que el cotejo contra
+el PDF existe para decidir.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 238 marcadas · `et` **0** / `el dato` **355** · y las familias
+revertidas en §73 siguen en **0** (`presupuestaría`, `exposiciónes`). Suite local **64 OK**.
+
+Registro: **1.772 filas / 3.063 operaciones / 237 revisiones / 238 filas marcadas**.
+Lecturas **6.082 de 9.724**, 75 de 132 sesiones.

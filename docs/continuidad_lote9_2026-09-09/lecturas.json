@@ -63495,7 +63495,807 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2014-04-17",
       "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2013-02-14:5332:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5332:1",
+      "ID_Padre": "5332",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1350,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5334:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5334:1",
+      "ID_Padre": "5334",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 10179,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5335:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5335:1",
+      "ID_Padre": "5335",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 127,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5336:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5336:1",
+      "ID_Padre": "5336",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5337:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5337:1",
+      "ID_Padre": "5337",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 5941,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5338:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5338:1",
+      "ID_Padre": "5338",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 262,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5339:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5339:1",
+      "ID_Padre": "5339",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2238,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5340:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5340:1",
+      "ID_Padre": "5340",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 218,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5341:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5341:1",
+      "ID_Padre": "5341",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 219,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5342:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5342:1",
+      "ID_Padre": "5342",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 757,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5343:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5343:1",
+      "ID_Padre": "5343",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 346,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5344:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5344:1",
+      "ID_Padre": "5344",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 334,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5345:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5345:1",
+      "ID_Padre": "5345",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 278,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5346:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5346:1",
+      "ID_Padre": "5346",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 854,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5347:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5347:1",
+      "ID_Padre": "5347",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 245,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5347:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5347:2",
+      "ID_Padre": "5347",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 354,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5347:3": {
+      "ID_Intervencion": "RPM-2013-02-14:5347:3",
+      "ID_Padre": "5347",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 397,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5348:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5348:1",
+      "ID_Padre": "5348",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 351,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5349:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5349:1",
+      "ID_Padre": "5349",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 600,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5349:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5349:2",
+      "ID_Padre": "5349",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 373,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5349:3": {
+      "ID_Intervencion": "RPM-2013-02-14:5349:3",
+      "ID_Padre": "5349",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 4168,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5350:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5350:1",
+      "ID_Padre": "5350",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 116,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5351:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5351:1",
+      "ID_Padre": "5351",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1697,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5352:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5352:2",
+      "ID_Padre": "5352",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1039,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5353:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5353:1",
+      "ID_Padre": "5353",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 693,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5354:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5354:1",
+      "ID_Padre": "5354",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 476,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5355:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5355:1",
+      "ID_Padre": "5355",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2580,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5356:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5356:1",
+      "ID_Padre": "5356",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 1686,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5357:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5357:1",
+      "ID_Padre": "5357",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 656,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5358:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5358:1",
+      "ID_Padre": "5358",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 1727,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5359:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5359:1",
+      "ID_Padre": "5359",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 810,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5360:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5360:1",
+      "ID_Padre": "5360",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 1734,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5360:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5360:2",
+      "ID_Padre": "5360",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 250,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5361:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5361:1",
+      "ID_Padre": "5361",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3733,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5362:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5362:1",
+      "ID_Padre": "5362",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 187,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5363:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5363:1",
+      "ID_Padre": "5363",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 316,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5364:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5364:1",
+      "ID_Padre": "5364",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 465,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5365:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5365:1",
+      "ID_Padre": "5365",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 636,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5366:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5366:1",
+      "ID_Padre": "5366",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1169,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5366:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5366:2",
+      "ID_Padre": "5366",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 468,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5367:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5367:1",
+      "ID_Padre": "5367",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2995,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5367:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5367:2",
+      "ID_Padre": "5367",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 409,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5367:3": {
+      "ID_Intervencion": "RPM-2013-02-14:5367:3",
+      "ID_Padre": "5367",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 223,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5367:4": {
+      "ID_Intervencion": "RPM-2013-02-14:5367:4",
+      "ID_Padre": "5367",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 314,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5368:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5368:1",
+      "ID_Padre": "5368",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 264,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5368:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5368:2",
+      "ID_Padre": "5368",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 1121,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5369:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5369:1",
+      "ID_Padre": "5369",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 317,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5370:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5370:1",
+      "ID_Padre": "5370",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 861,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5371:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5371:1",
+      "ID_Padre": "5371",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 162,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5372:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5372:1",
+      "ID_Padre": "5372",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 603,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5373:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5373:1",
+      "ID_Padre": "5373",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 178,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5374:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5374:1",
+      "ID_Padre": "5374",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 640,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5375:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5375:1",
+      "ID_Padre": "5375",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 824,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5376:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5376:1",
+      "ID_Padre": "5376",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 4816,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5377:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5377:1",
+      "ID_Padre": "5377",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 211,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5378:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5378:1",
+      "ID_Padre": "5378",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2230,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5379:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5379:1",
+      "ID_Padre": "5379",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 216,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5379:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5379:2",
+      "ID_Padre": "5379",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 414,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5380:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5380:1",
+      "ID_Padre": "5380",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 1536,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5381:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5381:1",
+      "ID_Padre": "5381",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 340,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5381:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5381:2",
+      "ID_Padre": "5381",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 145,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5381:3": {
+      "ID_Intervencion": "RPM-2013-02-14:5381:3",
+      "ID_Padre": "5381",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 345,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5382:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5382:1",
+      "ID_Padre": "5382",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 1627,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5383:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5383:1",
+      "ID_Padre": "5383",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 2190,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5384:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5384:1",
+      "ID_Padre": "5384",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 2912,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5385:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5385:1",
+      "ID_Padre": "5385",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 229,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5387:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5387:1",
+      "ID_Padre": "5387",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 6523,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5389:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5389:1",
+      "ID_Padre": "5389",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 3534,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5390:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5390:1",
+      "ID_Padre": "5390",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5391:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5391:1",
+      "ID_Padre": "5391",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 3548,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5392:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5392:1",
+      "ID_Padre": "5392",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 184,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5393:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5393:1",
+      "ID_Padre": "5393",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 4462,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5394:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5394:1",
+      "ID_Padre": "5394",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 174,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5395:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5395:1",
+      "ID_Padre": "5395",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 3342,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5396:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5396:1",
+      "ID_Padre": "5396",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 433,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5397:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5397:1",
+      "ID_Padre": "5397",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 2722,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5398:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5398:1",
+      "ID_Padre": "5398",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 2371,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5398:2": {
+      "ID_Intervencion": "RPM-2013-02-14:5398:2",
+      "ID_Padre": "5398",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 176,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5398:3": {
+      "ID_Intervencion": "RPM-2013-02-14:5398:3",
+      "ID_Padre": "5398",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1707,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
+    },
+    "RPM-2013-02-14:5399:1": {
+      "ID_Intervencion": "RPM-2013-02-14:5399:1",
+      "ID_Padre": "5399",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 83,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2013-02-14",
+      "Justificacion": "Sesion cerrada 84/84 (80 nuevas), 11 actores, 107.187 caracteres. Cero cortes. Los 2 casos de la cola caen sobre padres YA PARTIDOS (5360 en 2 segmentos, 5367 en 4), y una senal sobre padre ya partido no es corte pendiente (§69). 2b dio 1 caso falso: en 5364:1 Miguel Fuentes es OBJETO de «en relacion con lo expresado por el senor Miguel Fuentes», no hablante. 2c en cero. Las 7 lecturas obligatorias de 2d resultaron falsas: 5351:1 es Lehmann respondiendo y siguiendo su propia presentacion; en 5333:1 Vergara abre, informa lo dicho por Larrain y traspasa la palabra (una voz, §68); en 5393:1 el «por su parte» compara consumo con inversion, no personas; y en 5337:1, 5339:1, 5361:1 y 5378:1 cada «A continuacion» y cada «El senor X» es el propio Actor_Final continuando su presentacion. 1 operacion de OCR y 1 marca."
     }
   },
-  "Total_Leidas": 6002
+  "Total_Leidas": 6082
 }

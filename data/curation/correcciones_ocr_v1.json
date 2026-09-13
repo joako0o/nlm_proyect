@@ -34557,6 +34557,19 @@
           "Justificacion": "«la tasa crecimiento» — falta la preposición: es «la tasa de crecimiento». El corpus tiene 391 «tasa de crecimiento» y sólo 2 «tasa crecimiento», ambas de 2014. Idempotente: tras aplicar, el «Antes» ya no está contenido en el «Despues». §73."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5337:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mplar, señala que a pesar que et dato sobre creación de empleo resu",
+          "Despues": "mplar, señala que a pesar que el dato sobre creación de empleo resu",
+          "Ocurrencias": 1,
+          "Contexto": "de cada uno de los componentes ha sido más bien positiva. A título ejemplar, señala que a pesar que et dato sobre creación de empleo resultó algo más bajo que lo proyectado, sigue dando cuenta que la creació",
+          "Justificacion": "«señala que a pesar que et dato sobre creación de empleo resultó algo más bajo que lo proyectado» — la «t» sustituye a la «l»: es «el dato». «et» no es palabra española en este contexto y es la única ocurrencia de ese token en las 9.724 filas, mientras «el dato» aparece 354 veces. Se deja en cambio «a pesar que» (62 en el corpus frente a 115 «a pesar de que»): la brecha de frecuencia por sí sola no convierte en error a la forma minoritaria. §74."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -35975,6 +35988,12 @@
       "Texto_Original_Fragmento": "na ejecución presupuestaria bastante menor ",
       "Motivo": "REVERSION §73. NO_ES_DEFECTO. Una operación anterior ACENTO_FALTANTE cambiaba «na ejecución presupuestaria bastante menor» por «presupuestarí»: AGREGABA una tilde a una palabra que ya estaba bien escrita. Venía de una regla automática con justificación plantilla («Tilde faltante… podria/podrian/serian/estaria/deberia/cabria»), no de una lectura de la fila. Aquí «presupuestari-» es el adjetivo que concuerda con el sustantivo precedente («la ejecución presupuestaria», «la parte extrapresupuestaria»), no el condicional de «presupuestar»; «exposiciones» es plural regular sin tilde. Operación eliminada; el texto original era el correcto.",
       "Marca": "NO_REQUIERE_COTEJO"
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5364:1",
+      "Texto_Original_Fragmento": "plantea que el gráfico que se ubica al lado derecho de la lámina N° 40 se refleja una cierta desaceleración",
+      "Motivo": "RECONSTRUCCION_AMBIGUA. La frase no cierra gramaticalmente: «plantea que el gráfico que se ubica al lado derecho de la lámina N° 40 se refleja una cierta desaceleración». Hay dos reparaciones posibles y el corpus atestigua ambas: agregar la preposición («plantea que EN el gráfico ... se refleja», 1 caso) o quitar el pronombre («el gráfico ... refleja», 5 casos, más 2 con «el gráfico ... se refleja»). Con las dos lecturas vivas no hay caso inequívoco, y la política del registro es corregir sólo lo inequívoco. Se marca para cotejo contra el PDF. §74.",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
     }
   ],
   "Marcas_Adicionales": [
