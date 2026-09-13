@@ -4328,6 +4328,14 @@
           "Ocurrencias": 1,
           "Contexto": "ramente eso también se ha observado en algunos productos alimenticios com o granos y cereales. Referente a los elementos que podrían explicar la ",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «com o» -> «como». La evidencia es interna y doble: el primer trozo («com») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («como») es la que el propio corpus usa 5932 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "or en comparación con la crisis asiática. ( ( El Gerente de Análisis Internacional indica que co",
+          "Despues": "or en comparación con la crisis asiática. El Gerente de Análisis Internacional indica que co",
+          "Ocurrencias": 1,
+          "Contexto": "na tendencia algo más moderada, en tanto que el aumento también fue bastante menor en comparación con la crisis asiática. ( ( El Gerente de Análisis Internacional indica que con respecto a commodities, se apreci a que éstos han aumentado de manera relativa",
+          "Justificacion": "Dos paréntesis de apertura sueltos, sin cierre, entre dos oraciones completas. Es el único desbalance de paréntesis de la sesión y el único «( (« del corpus: la fila abre 2 y cierra 0."
         }
       ]
     },
@@ -4835,6 +4843,14 @@
           "Ocurrencias": 1,
           "Contexto": "tado relativamente estables desde la última RPM. no así las tasas reales, que exhib",
           "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "ril por la reincorporación del impuesto especifico. Con estos nuevos antecedentes, se lleg",
+          "Despues": "ril por la reincorporación del impuesto específico. Con estos nuevos antecedentes, se lleg",
+          "Ocurrencias": 1,
+          "Contexto": "nte, y un cambio importante en la proyección de fines de marzo y comienzos de abril por la reincorporación del impuesto especifico. Con estos nuevos antecedentes, se llega a una proyección de inflación a diciembre que sería de aproximadamente de -0,6",
+          "Justificacion": "Adjetivo sin acento en «impuesto especifico». El corpus escribe «específico» 46 veces frente a 2, y las dos son esta misma expresión. El verbo «especifica», que aparece decenas de veces, es correcto y no se toca."
         }
       ]
     },
@@ -21814,6 +21830,14 @@
           "Ocurrencias": 1,
           "Contexto": "to, plantea que si bien se aprecia un grado de sustitución por otras fuentes de financiamíento, la magnitud de esta sustitución no compensa la disminu",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "s divisiones de Codelco y a situaciones especificas en dicho sector de carácter transitorio",
+          "Despues": "s divisiones de Codelco y a situaciones específicas en dicho sector de carácter transitorio",
+          "Ocurrencias": 1,
+          "Contexto": "ento de solo de 1,9%, que respondería a efectos puntuales de la huelga en algunas divisiones de Codelco y a situaciones especificas en dicho sector de carácter transitorio y, por lo tanto, volvería a crecer conforme a lo proyectado anteriormente. El s",
+          "Justificacion": "Adjetivo plural sin acento en «situaciones especificas». El corpus escribe «específicas» 28 veces frente a 1."
         }
       ]
     },
@@ -26371,11 +26395,11 @@
       "ID_Intervencion": "RPM-2009-05-07:2522:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "SIMBOLO_SUELTO",
           "Antes": "damente. y .",
-          "Despues": "damente. y.",
+          "Despues": "damente.",
           "Contexto": " aproximadamente un año, y actualmente son dos años aproximadamente. y .",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "§64: se extiende la operación existente. Antes sólo quitaba el espacio del punto final «y .» y dejaba «y.», una conjunción huérfana después de una oración ya terminada con punto. El residuo es « y .» completo: al quitarlo la fila termina en «…son dos años aproximadamente.», que está completa. Es el único caso del corpus de una fila que termina en conjunción suelta, y cierra por consecuencia la alerta FINAL_SIN_PUNTUACION de la fila."
         }
       ]
     },
@@ -28241,6 +28265,14 @@
           "Despues": "observado",
           "Contexto": " producción. Señala que con respecto a otros metales, se ha obsen/ado un comportamiento similar, tal vez no de la misma magnitud ",
           "Justificacion": "La OCR escribe esta letra como «/»: el corpus tiene observado y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "pado hace un mes atrás.\nSeñala el señor Lehmman, que con respecto al precio del cobre h",
+          "Despues": "pado hace un mes atrás.\nSeñala el señor Lehmann, que con respecto al precio del cobre h",
+          "Ocurrencias": 1,
+          "Contexto": "cima, el que se explicaría por el\ncrecimiento de China de 1% por sobre lo anticipado hace un mes atrás.\nSeñala el señor Lehmman, que con respecto al precio del cobre ha habido cierta\nvolatilidad, primero con una caída y posteriormente una recupera",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
         }
       ]
     },
@@ -28700,6 +28732,14 @@
           "Despues": "muestra",
           "Contexto": " meses anteriores; el consumo personal real, por otro lado, m uestra una cierta recuperación, pero se mantiene más menos en líne",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 956 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "terior.\nPor otra parte, señala el señor Lehmman, que respecto al precio del cobre, éste",
+          "Despues": "terior.\nPor otra parte, señala el señor Lehmann, que respecto al precio del cobre, éste",
+          "Ocurrencias": 1,
+          "Contexto": "n hacia la baja, en una\ndécima, respecto a lo que habíamos previsto en el mes anterior.\nPor otra parte, señala el señor Lehmman, que respecto al precio del cobre, éste\nse ha mantenido estable durante el mes y de todos modos por sobre lo previsto. ",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
         }
       ]
     },
@@ -33762,6 +33802,134 @@
           "Ocurrencias": 1,
           "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
           "Contexto": "vos de riesgo y renta variable. En cuanto a los mercados bursátiles, se registraron caídas en todas las plazas Y aumentos significativos de CDS spreads a 5 años, en particular en Brasil, Perú y Colombia, pero tendieron a "
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:628:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " de Análisis Internacional señor Sergio Lehmman, señala que las noticias del último mes",
+          "Despues": " de Análisis Internacional señor Sergio Lehmann, señala que las noticias del último mes",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional señor Sergio Lehmman, señala que las noticias del último mes indican que la marcha de la economía continúa aproximadamente dentro del escena",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ansivas. En el ámbito externo, el señor Lehmman hizo presente que se mantienen las cond",
+          "Despues": "ansivas. En el ámbito externo, el señor Lehmann hizo presente que se mantienen las cond",
+          "Ocurrencias": 1,
+          "Contexto": "o y sus derivados. En su conjunto, las condiciones financieras siguen siendo expansivas. En el ámbito externo, el señor Lehmman hizo presente que se mantienen las condiciones favorables para la economía chilena. Por el lado del crecimiento mundial",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:630:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Gerente de Análisis Internacional señor Lehmman, luego de resumir para el señor Ministr",
+          "Despues": "Gerente de Análisis Internacional señor Lehmann, luego de resumir para el señor Ministr",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional señor Lehmman, luego de resumir para el señor Ministro los temas tratados hasta el momento, agrega que el crecimiento proyectado para",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " cuanto a la actividad, señala el señor Lehmman que, la información acumulada el último",
+          "Despues": " cuanto a la actividad, señala el señor Lehmann que, la información acumulada el último",
+          "Ocurrencias": 1,
+          "Contexto": "pectativas tanto de consumidores como de empresarios se mantienen optimistas. En cuanto a la actividad, señala el señor Lehmman que, la información acumulada el último mes llevó a una corrección a la baja del crecimiento proyectado para el PIB el ",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "arginalmente más altos. Señala el señor Lehmman que los riesgos se perciben estables, t",
+          "Despues": "arginalmente más altos. Señala el señor Lehmann que los riesgos se perciben estables, t",
+          "Ocurrencias": 1,
+          "Contexto": " mostrado aumentos durante el último mes y los spreads de economías emergentes marginalmente más altos. Señala el señor Lehmman que los riesgos se perciben estables, tal vez algo mayor en el precio petróleo, que de mantenerse sobre 60 dólares podr",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:632:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "A lo anterior, el señor Lehmman responde que la verdad es que el crecim",
+          "Despues": "A lo anterior, el señor Lehmann responde que la verdad es que el crecim",
+          "Ocurrencias": 1,
+          "Contexto": "A lo anterior, el señor Lehmman responde que la verdad es que el crecimiento del EMBI todavía es bastante marginal, y QUE de hecho está por debajo de l",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:637:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " trimestre. También se refiere el señor Lehmman al sector agrícola, que presenta crecim",
+          "Despues": " trimestre. También se refiere el señor Lehmann al sector agrícola, que presenta crecim",
+          "Ocurrencias": 1,
+          "Contexto": "nte, en el mes de febrero de este año, el cual debería decrecer hacia el segundo trimestre. También se refiere el señor Lehmman al sector agrícola, que presenta crecimiento cero en el mes de abril, que fue sin embargo, algo mayor a lo que se antic",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:639:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Gerente de Análisis Internacional señor Lehmman, señala que en estas encuestas la tasa ",
+          "Despues": "Gerente de Análisis Internacional señor Lehmann, señala que en estas encuestas la tasa ",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional señor Lehmman, señala que en estas encuestas la tasa de participación de mujeres también muestra un comportamiento parecido al que se",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2506:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Al respecto, el señor Lehmman señala que comprenden sólo exportacione",
+          "Despues": "Al respecto, el señor Lehmann señala que comprenden sólo exportacione",
+          "Ocurrencias": 1,
+          "Contexto": "Al respecto, el señor Lehmman señala que comprenden sólo exportaciones.",
+          "Justificacion": "«Lehmman» con doble eme no es un apellido del corpus: escribe «Lehmann» 1.909 veces frente a 11, y las 11 son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi. Los 19 «Lehman» con una ene son la firma Lehman Brothers y no se tocan."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2508:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "ue planea cubrir esa brecha de capital. Bank o f America, en cambio, no lo ha hecho, por lo tant",
+          "Despues": "ue planea cubrir esa brecha de capital. Bank of America, en cambio, no lo ha hecho, por lo tant",
+          "Ocurrencias": 1,
+          "Contexto": "res, fundado en que Citigroup cumplió de alguna manera con señalar la forma en que planea cubrir esa brecha de capital. Bank o f America, en cambio, no lo ha hecho, por lo tanto el dato que se conoce respecto de Bank of America, por sobre los treinta mil m",
+          "Justificacion": "Espacio dentro de la preposición «of». La firma aparece 4 veces bien escrita en el corpus, incluida una en esta misma fila («el dato que se conoce respecto de Bank of America»)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2536:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "a que, en relación al referido impuesto especifico, tiene la impresión que si se gatilla o",
+          "Despues": "a que, en relación al referido impuesto específico, tiene la impresión que si se gatilla o",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Ministro de Hacienda señala que, en relación al referido impuesto especifico, tiene la impresión que si se gatilla o no se gatilla es un problema de shock de oferta, y que en un horizonte de veint",
+          "Justificacion": "Adjetivo sin acento en «impuesto especifico». El corpus escribe «específico» 46 veces frente a 2, y las dos son esta misma expresión. El verbo «especifica», que aparece decenas de veces, es correcto y no se toca."
         }
       ]
     }

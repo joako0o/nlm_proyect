@@ -427,6 +427,8 @@ Para leer una sesión entera al margen del plan:
 
 | 196–205 | 2010-08-12 | 96 | **sesión cerrada 90/90** (6 ya estaban anotadas) · 14 actores · el único caso de la cola, el padre 3303, **ya estaba bien partido** (3303:1 Vicuña sobre los datos de reconstrucción, 3303:2 Soto sobre el registro de los albañiles); los 2 casos de 2b son Soto mismo con la otra persona como objeto de una consulta; 6 referencias ajenas en el barrido de los 14 actores, todas el propio De Gregorio como Presidente, y 4 en las filas largas, todas el propio actor por cargo → **ningún corte** · **los 5 cierres con coma son legítimos**: en los cinco la oración continúa en la fila siguiente con «lo cual», «en tanto que», «a lo cual» o «A continuación» (§63) |
 
+| 206–214 | 2009-05-07 | 91 | **sesión cerrada 90/90** (1 ya estaba anotada) · 12 actores · **las tres redes en cero** sin adjudicar nada (ninguna fila en la cola de 74, 2b cero, 2c cero); el barrido independiente dio 3 referencias ajenas y las tres son falsas: el Gerente de División de Estudio es el propio García, el Gerente de Análisis Internacional es el propio Lehmann respondiendo una consulta, y «el señor Lehmman» es Lehmann con el apellido dañado; la presentación de De Gregorio (7.958 ch) y la fundamentación del voto de Marshall (6.028 ch) son monólogos → **ningún corte** · 2 reservas quedan abiertas porque falta texto, no puntuación (§64) |
+
 Para anotar una ronda leída:
 
 ```

@@ -3989,3 +3989,77 @@ corrigió igual porque es independiente del problema.
 
 Registro: **1.734 filas / 2.980 operaciones / 212 revisiones / 218 filas marcadas**.
 Lecturas **5.159 de 9.724**, 64 de 132 sesiones.
+
+## §64 — Sesión 2009-05-07: cero cortes con las tres redes en cero, y una transposición
+
+Noventa y un filas, doce actores, 97.868 caracteres. **Ningún corte**, y esta vez las tres redes de
+detección dieron cero sin que hiciera falta adjudicar nada: ninguna fila de la sesión está en la
+cola de 74, 2b no encontró ninguna fila de un solo segmento con otra persona como sujeto de un
+verbo de habla, y 2c ninguna de las cinco firmas del §49.
+
+El barrido independiente sobre los doce actores dio tres referencias ajenas y **las tres son
+falsas**, cada una por una razón distinta:
+
+| fila | referencia | por qué no es cambio de voz |
+|---|---|---|
+| `2508:1` | «el Gerente División de Estudio menciona» | el propio Pablo García, por cargo |
+| `2510:2` | «…del Consejero señor Sebastián Claro, el Gerente de Análisis Internacional señala» | el propio Lehmann; Claro es el **objeto** de la consulta |
+| `2506:2` | «el señor **Lehmman** señala» | el propio Lehmann con el apellido dañado |
+
+Las dos filas mayores se leyeron enteras: la presentación de De Gregorio (7.958 ch) y la
+fundamentación del voto de Marshall (6.028 ch) son monólogos sin cambio de sujeto.
+
+### Una transposición de apellido
+
+`Lehmman` con doble eme aparece **11 veces** en el corpus, frente a **1.909** de `Lehmann`. Las once
+son el mismo Gerente de Análisis Internacional, Sergio Lehmann Beresi, y nueve de ellas están
+concentradas en la sesión `2006-04-13`. Se corrigieron las once.
+
+**El vecino peligroso:** `Lehman` con una ene aparece **19 veces** y es correcto — es la firma
+`Lehman Brothers`, ya documentada en §58. Una regla que buscara «Lehm» y normalizara habría roto
+las 19. Por eso la familia se escribió con frontera de palabra completa y se contó el resultado
+después: `Lehmann` pasó de 1.909 a **1.920** y `Lehman` quedó en **19**.
+
+Es también la primera **transposición** del registro: misma longitud, tres posiciones distintas
+(`m a n` → `a n n`). La auditoría de operaciones del §63, que exige un solo carácter distinto
+cuando las longitudes coinciden, la habría rechazado como falsa alarma. Se ajustó para comparar
+`Antes` con la sustitución exacta aplicada una sola vez, que es la comprobación que de verdad
+importa.
+
+### Cinco defectos más
+
+| fila | defecto | tipo |
+|---|---|---|
+| `2508:1` | `Bank o f America` → `Bank of America` (la misma fila lo escribe bien más adelante) | `ESPACIO_INDEBIDO` |
+| `2519:2` | `( ( ` entre dos oraciones completas — único desbalance de la sesión y único «( (« del corpus | `SIMBOLO_SUELTO` |
+| `2536:1` / `2780:1` | `impuesto especifico` → `específico` (2 frente a 46) | `ACENTO_FALTANTE` |
+| `5669:1` | `situaciones especificas` → `específicas` (1 frente a 28) | `ACENTO_FALTANTE` |
+| `2522:1` | `…aproximadamente. y .` → `…aproximadamente.` | `SIMBOLO_SUELTO` |
+
+**El verbo `especifica` no se tocó.** Aparece decenas de veces en el corpus y es correcto; la
+familia se escribió buscando sólo el adjetivo, y después se contó que `específico` pasó de 46 a 48
+sin que `especifica` cambiara.
+
+### Extender la operación existente, no apilarle otra
+
+`2522:1` ya tenía una operación sobre ese tramo: `'damente. y .'` → `'damente. y.'`, que sólo
+quitaba el espacio del punto final y dejaba la conjunción huérfana. Lo correcto era **extenderla**
+(regla del §15), no añadir una segunda operación encima: `Despues` pasó a `'damente.'` y el `Tipo`
+de `ESPACIO_INDEBIDO` a `SIMBOLO_SUELTO`, porque el arreglo dejó de ser un espacio. Al quitar el
+residuo la fila termina en «…son dos años aproximadamente.», que está completa, y la alerta
+`FINAL_SIN_PUNTUACION` cierra por consecuencia.
+
+### Quedan abiertas dos reservas de esta sesión
+
+`2526:1` termina en una `A` suelta (empezó una oración que se cortó) y `2529:1` termina en «consulta
+a qué se refiere la vinculación» sin punto. Las dos llevan `FINAL_SIN_PUNTUACION` como reserva
+abierta y **no se cierran con un punto**: falta texto, no falta puntuación.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · `Lehmman` **0** · `Lehmann` **1.920** · `Lehman` **19**
+intacto · `especifico` **0** · `específico` **48** · `especificas` **0** · `Bank o f` **0** ·
+`Bank of America` **5** · `( (` **0** · filas que terminan en « y.» **0**. Suite local **61 OK**.
+
+Registro: **1.742 filas / 2.996 operaciones / 212 revisiones / 218 filas marcadas**.
+Lecturas **5.249 de 9.724**, 65 de 132 sesiones.
