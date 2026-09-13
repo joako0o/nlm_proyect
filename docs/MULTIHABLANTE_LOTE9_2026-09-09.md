@@ -423,6 +423,8 @@ Para leer una sesión entera al margen del plan:
 
 | 178–186 | 2008-05-08 | 95 | **sesión cerrada 92/92** (3 ya estaban anotadas) · 11 actores · cola y 2c en cero, 2b 1 caso falso (`1819:1`, «indica el señor García» es sujeto pospuesto del propio actor) · el barrido independiente dio 18 referencias ajenas: 17 el propio actor por su cargo y la 18ª el padre 1808, leído completo —«**Asimismo, el señor Consejero** consulta…» es el propio Claro continuando— → **ningún corte** · las 9 filas de más de 2500 ch son monólogos · 4 residuos corregidos (dos con comilla recta **rodeada de espacios**, que el barrido del §58 no veía) y 1 cifra dañada marcada, no adivinada (§61) |
 
+| 187–195 | 2011-03-17 | 95 | **sesión cerrada 92/92** (3 ya estaban anotadas) · 13 actores · los 2 casos de la cola **ya estaban bien partidos** (3871 en 2: la opinión de Herrera y la del Presidente; 3887 en 2: Claro hasta su voto y Marshall desde «Al continuar con la votación»), 2b y 2c en cero, el barrido independiente sobre los 13 actores dio **1 sola** referencia ajena que es el propio Larraín como «el señor Ministro», las 10 filas de más de 2500 ch son monólogos → **ningún corte** · 1 residuo en la lista de asistentes corregido (`Financiera, ...don`) y el **primer fragmento desplazado** del corpus marcado, no movido: el «a 4%.» está dos oraciones antes de donde va (§62) |
+
 Para anotar una ronda leída:
 
 ```

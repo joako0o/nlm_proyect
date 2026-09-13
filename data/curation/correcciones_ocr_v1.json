@@ -33459,6 +33459,19 @@
           "Justificacion": "Letra suelta al final de la fila. La oración de Desormeaux cierra completa con punto («…hay en ella menos volatilidad de la que se piensa.») y la intervención siguiente empieza limpia («El Gerente señor Sergio Lehmann informa finalmente que…»), así que la «r» no es el comienzo de una palabra partida sino residuo quedado entre las dos. Corregirla cierra la alerta FINAL_SIN_PUNTUACION de esta fila como consecuencia de arreglar el texto, no por editar la alerta."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3815:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "Gerente de Estabilidad Financiera, ...don Luis Opazo Roco",
+          "Despues": "Gerente de Estabilidad Financiera, don Luis Opazo Roco",
+          "Ocurrencias": 1,
+          "Contexto": "n Beresi; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, ...don Luis Opazo Roco; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente",
+          "Justificacion": "Tres puntos sueltos entre la coma y el tratamiento, en la lista de asistentes del encabezado. El formato de esa lista es fijo y está atestiguado: «Cargo, don/señor Nombre», y sólo para el cargo de Gerente de Estabilidad Financiera aparece 82 veces en el corpus. La secuencia «, ...» no aparece en ninguna otra parte del corpus: es un caso único, no una convención."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -34786,6 +34799,11 @@
       "ID_Intervencion": "RPM-2008-05-08:1816:1",
       "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
       "Motivo": "§61: «en el mes de abril, la inflación anual del IPC llegó a a,3%». El dígito de las unidades está dañado: donde va un número hay una «a». No se adivina. La serie sugiere 8,3% (la Reunión siguiente, 2008-06-10:1872:1, consigna para mayo «8,4% anual»), pero reconstruir una cifra por tendencia es justamente lo que esta marca existe para no hacer. Se deja el texto intacto y se marca para cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3887:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§62: fragmento DESPLAZADO, no faltante. La fila dice «…los próximos ajustes vuelvan a la gradualidad anterior, en la medida que las condiciones así lo sugieran. a 4%. En consecuencia, el Consejero señor Sebastián Claro vota por aumentar la tasa». El «a 4%.» quedó incrustado dos oraciones antes del lugar que le corresponde, y la fila termina sin puntuación justo donde falta. La lectura probable es «vota por aumentar la tasa a 4%.», y hay corroboración independiente en la misma sesión (3888:1, Marshall: «vota por subir la TPM en 50pb, hasta 4,0%»). Aun así NO se corrigió: reordenar texto es una reconstrucción y el vocabulario de 15 tipos no tiene ninguno para eso, lo que señala que está fuera del alcance del registro. Quien coteje el PDF lo resuelve en segundos con esta nota."
     }
   ]
 }

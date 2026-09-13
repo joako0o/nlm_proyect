@@ -3848,3 +3848,71 @@ Los cuatro residuos → **0** · `paridades cambiarias` 17 → **18** · `costos
 
 Registro: **1.721 filas / 2.950 operaciones / 212 revisiones / 216 filas marcadas**.
 Lecturas **4.977 de 9.724**, 62 de 132 sesiones.
+
+## §62 — Sesión 2011-03-17: cero cortes, un residuo y el primer fragmento DESPLAZADO
+
+Noventa y cinco filas, trece actores, 95.597 caracteres. **Ningún corte.** 2b y 2c en cero, cero
+caracteres fuera de repertorio, cero dobles espacios.
+
+### Los dos casos de la cola ya estaban bien partidos
+
+**Padre 3871** (204 ch) está en dos segmentos y está bien: «El señor Luis Óscar Herrera es de
+opinión que este debiera ser "Indicador de expectativas de inflación"» (103 ch, Herrera) y «y el
+Presidente señor José De Gregorio estima que debiera ser "índice de expectativas de inflación"»
+(100 ch, De Gregorio). Dos opiniones sobre cómo llamar a un indicador; el segundo tramo ya venía
+con `CONTEXTO_REVISADO` del registro histórico.
+
+**Padre 3887** (8.366 ch) está en dos y también está bien: Claro hasta «el Consejero señor
+Sebastián Claro vota por aumentar la tasa» (5.698 ch) y Marshall desde «Al continuar con la
+votación, el Consejero señor Enrique Marshall comienza su intervención» (2.667 ch).
+
+El barrido independiente sobre los trece actores dio **una sola** referencia ajena, y es el propio
+Felipe Larraín referido como «el señor Ministro». Las diez filas de más de 2.500 caracteres son
+monólogos sin referencias ajenas.
+
+### Un residuo en la lista de asistentes
+
+`3815:1`: «Gerente de Estabilidad Financiera, **...** don Luis Opazo Roco». Tres puntos sueltos
+entre la coma y el tratamiento. El formato de esa lista es fijo —«Cargo, don/señor Nombre»— y sólo
+para ese cargo aparece **82 veces** en el corpus; la secuencia `, ...` no aparece en ninguna otra
+parte. Caso único, no una convención. Corregido.
+
+### El primer fragmento desplazado, y por qué no se corrigió
+
+`3887:1` dice:
+
+> «…es posible que los próximos ajustes vuelvan a la gradualidad anterior, en la medida que las
+> condiciones así lo sugieran. **a 4%.** En consecuencia, el Consejero señor Sebastián Claro vota
+> por aumentar la tasa»
+
+El «a 4%.» no falta: está **dos oracciones antes del lugar que le corresponde**, y la fila termina
+sin puntuación justo donde falta. La lectura probable es «vota por aumentar la tasa a 4%.», y hay
+corroboración independiente en la misma sesión: `3888:1`, Marshall, «vota por subir la TPM en
+50pb, **hasta 4,0%**».
+
+**Aun así no se corrigió.** Reordenar texto es otra cosa que borrar un residuo o completar una
+palabra: es una reconstrucción. Y el vocabulario de quince tipos no tiene ninguno para un
+movimiento —`SIMBOLO_SUELTO` borra, `PALABRA_OMITIDA` agrega, ninguno reordena—, lo que es una
+señal de que está fuera del alcance del registro. Se dejó el texto intacto y se marcó
+`RECONSTRUCCION_AMBIGUA_POR_COTEJAR` (marca 11) con la evidencia completa, de modo que quien
+coteje el PDF lo resuelva en segundos.
+
+**Regla nueva: un fragmento presente pero mal ubicado se marca, no se mueve.**
+
+### La trampa del virgen, tercera vez
+
+Al leer la sesión apareció «al staff **e\\** apoyo brindado» en `3887:2`. Preparé la operación y el
+generador la rechazó por solapamiento: **ya estaba corregida** por una operación anterior
+(`SIMBOLO_SUELTO`, «staff el apoyo»). Es la tercera vez que pasa lo mismo (§57 con `ígal`, §61 con
+`De Gregario`/`Análisi s`/`IRC`, ahora esto). Lo que se lee es el **virgen**; antes de preparar una
+operación hay que mirar el **efectivo**. El barrido de esta sesión se rehizo sobre el texto
+efectivo y entonces sólo quedó el `...`.
+
+### Verificado
+
+`Financiera, ...don` → **0** · `Financiera, don Luis Opazo` **28** · `Texto` idéntico a la base en
+las **9.724** (0 diffs) · barra invertida, doble espacio y punto pegado a letra en **0** en la
+sesión · suite local **61 OK**.
+
+Registro: **1.722 filas / 2.951 operaciones / 212 revisiones / 217 filas marcadas**.
+Lecturas **5.069 de 9.724**, 63 de 132 sesiones.
