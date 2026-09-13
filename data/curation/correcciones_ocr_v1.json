@@ -2884,6 +2884,14 @@
           "Despues": "en 1997-98. VI.",
           "Contexto": " relación, aunque tampoco retornaría a los niveles vigentes en 1997-98 . VI.",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "zada.",
+          "Despues": "zada,",
+          "Ocurrencias": 1,
+          "Contexto": "rtante de la tasa de desempleo desestacionalizada. con lo que se disipa plenamente el",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -3011,6 +3019,14 @@
           "Ocurrencias": 1,
           "Contexto": "medidas de inflación subyacente al centro del rango meta y con la inflación del IRC subiendo transitoriamente en el corto plazo por sobre 4%. L",
           "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "oria.",
+          "Despues": "oria,",
+          "Ocurrencias": 1,
+          "Contexto": "e actividad e inflación pareciera ser transitoria. la información disponible sugiere ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -3202,6 +3218,14 @@
           "Ocurrencias": 1,
           "Contexto": " los valores neutrales. Agrega el señor Madgenzo que en octubre, el consumo habría creci",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "e sea más duradera.",
+          "Despues": "e sea más duradera,",
+          "Ocurrencias": 1,
+          "Contexto": " la actividad observada en el tercer trimestre sea más duradera. indica el señor Gerente de Análisi",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -4617,6 +4641,22 @@
           "Despues": "e enfrenta, mucho ayu",
           "Contexto": "ese sentido. El señor Marshall estima que en el cuadro que se enfrenta , mucho ayudaría si el nesgo de crédito de las nuevas operaciones es ev",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " y que.",
+          "Despues": " y que,",
+          "Ocurrencias": 1,
+          "Contexto": "hos meses en que mostraron ajustes a la baja, y que. con todo, la trayectoria de la act",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "l, que.",
+          "Despues": "l, que,",
+          "Ocurrencias": 1,
+          "Contexto": "es evaluado con el correcto horizonte temporal, que. por cierto, va más allá del muy co",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -4747,6 +4787,14 @@
           "Ocurrencias": 4,
           "Contexto": "a senda al alza el próximo mes, dado que la inflación de octubre fue 0%. Con el IRC de octubre que no varió, se tiene un IRC interanual de -1.9",
           "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "PM.",
+          "Despues": "PM,",
+          "Ocurrencias": 1,
+          "Contexto": "tado relativamente estables desde la última RPM. no así las tasas reales, que exhib",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -4956,6 +5004,22 @@
           "Ocurrencias": 1,
           "Contexto": "rollos externos, sugiere un curso de normalización más cauteloso, que reduce el nesgo de modificaciones o reversiones posteriores, pero que aumen",
           "Justificacion": "nesgo por riesgo. Medido: 29 apariciones en 29 filas, todas con la i leida como n. \"nesgo\" no es palabra del espanol, no existe lectura alternativa. \"riesgo\" aparece cientos de veces en el corpus."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ista.",
+          "Despues": "ista,",
+          "Ocurrencias": 1,
+          "Contexto": "r el terremoto, que resultó mayor que la prevista. se ha superado en buena medida y c",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "PM.",
+          "Despues": "PM,",
+          "Ocurrencias": 1,
+          "Contexto": "mente la decisión de bajar drásticamente la TPM. como efectivamente ocurrió, no obs",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -5667,6 +5731,14 @@
           "Ocurrencias": 1,
           "Contexto": "o, señala el señor Ministro, se puede tener en el futuro una revisión hacía arriba del producto potencial y ,por lo tanto, es dable pensar que se",
           "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "sión creciera conforme a lo presentado en el IPOM. De este modo se tiene que este añ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -6086,6 +6158,22 @@
           "Ocurrencias": 1,
           "Contexto": "rio distinto al del último IPOM. En el frente externo, las acciones tomadas por ios bancos centrales de los países industriales han permiti",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " del último IPOM",
+          "Despues": " del último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "terno, que apuntan a un escenario distinto al del último IPOM. En el frente externo, las accione",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n el último IPOM",
+          "Despues": "n el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "punto porcentual con respecto al proyectado en el último IPOM. Indica el señor Presidente que la",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -6336,6 +6424,14 @@
           "Ocurrencias": 1,
           "Contexto": "ejero señala que le interesa saber si hay o no desalineamiento en las paridades cambiarlas y por lo tanto, más que la variación, le preocupa el nivel",
           "Justificacion": "cambiarla por cambiaria. Misma familia y mismo defecto. Medido: 8 apariciones (todas dentro de \"cambiarlas\"), todas adjetivas y revisadas una por una: \"paridades cambiarlas\" 4 veces, \"implicancias cambiarlas\" 2, \"expectativas cambiarlas\" 1, \"coberturas cambiarlas\" 1. \"cambiarias\" ya aparece 19 veces en el corpus."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "do.",
+          "Despues": "do,",
+          "Ocurrencias": 1,
+          "Contexto": "ón inicial que después se ha estado corrigiendo. por lo que no es la misma situació",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -6452,6 +6548,14 @@
           "Ocurrencias": 1,
           "Contexto": " sesgo al alza en el Comunicado. Luego de la votación del Consejero señor Manuel Marfán,.",
           "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "cambiaba",
+          "Despues": "cambiaria",
+          "Ocurrencias": 1,
+          "Contexto": "ga que si cree debe hacerse una intervención cambiaba, desconocer ese sesgo sería una pu",
+          "Justificacion": "«cambiaba» por «cambiaria»: es el adjetivo, no el verbo. Medido en el corpus: «cambiaria/o» aparece 229 veces y «cambiaba» 4, de las cuales 2 son el verbo en pretérito imperfecto y se dejan («la cual no cambiaba con la información disponible», «no cambiaba en general los contornos»). Las 2 que se corrigen van sustantivadas: «una intervención cambiaba», «una apreciación cambiaba»."
         }
       ]
     },
@@ -7016,6 +7120,14 @@
           "Ocurrencias": 1,
           "Contexto": "s en lo más reciente como los registros reducidos de inflación y la apreciación cambiaría, sugieren una trayectoria de la inflación que, con la estra",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": " que la razonable en diversos escenarios del IPOM, así como también, en la visión ac",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -7077,6 +7189,14 @@
           "Ocurrencias": 1,
           "Contexto": ". Dado lo anterior, la evolución del cuadro macro resulta, en general, bastante en linea con lo anticipado, por lo que la política de mantener un fu",
           "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "desafio",
+          "Despues": "desafío",
+          "Ocurrencias": 1,
+          "Contexto": ", el señor Consejero estima que el principal desafio es mantener abierto y fluido el ca",
+          "Justificacion": "Falta el acento. Medido en el corpus: «desafío» aparece 40 veces y «desafio» 3."
         }
       ]
     },
@@ -7116,6 +7236,14 @@
           "Ocurrencias": 1,
           "Contexto": "segunda mitad del año 2010, en Europa en la primera y segunda mitad del año, en tanto que Israel seria la única economía donde aumentaría de aquí a diciembre.",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ties.",
+          "Despues": "ties,",
+          "Ocurrencias": 1,
+          "Contexto": "nes de probabilidad de precios de los commodities. que se obtienen a partir de los pr",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7146,6 +7274,14 @@
           "Ocurrencias": 1,
           "Contexto": " esto puede estar vinculado a un efecto mayor que el previsto de la apreciación cambiaría que ha ocurrido desde esa fecha, pero que los antecedentes ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "oM.",
+          "Despues": "oM,",
+          "Ocurrencias": 1,
+          "Contexto": "a que el mensaje de política monetaria del IPoM. además de los antecedentes coyuntu",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7161,6 +7297,14 @@
           "Ocurrencias": 1,
           "Contexto": "e si se toma ese perfil de vencimientos y se hace una extrapolación del impacto cambiarlo que ha tenido la modificación de la normativa dictada por l",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ha.",
+          "Despues": "ha,",
+          "Ocurrencias": 1,
+          "Contexto": " forward actuales. Indica que, hasta esta fecha. las AFP han dejado vencer aproxima",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7230,6 +7374,14 @@
           "Ocurrencias": 2,
           "Contexto": " año pasado y son difíciles de anticipar, como por efectos de las fluctuaciones cambiarías, la trayectoria de inflación en adelante presenta bastante",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "to.",
+          "Despues": "to,",
+          "Ocurrencias": 1,
+          "Contexto": " los índices de precios en algunos países, esto. en su opinión, abre una interrogan",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7374,6 +7526,14 @@
           "Ocurrencias": 1,
           "Contexto": "d para los próximos años, información que es relevante para evaluar el grado de estimulo que la política fiscal le imprimirá a la economía en el",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "visto, debido a factores específicos. Añade que. luego de la divulgación de dicho I",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7494,6 +7654,14 @@
           "Ocurrencias": 1,
           "Contexto": "yendo con menores presiones sobre los precios locales. En su opinión, el ajuste cambiarlo ya ocurrió y difícilmente volverá a ocurrir una apreciación",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "l es.",
+          "Despues": "l es,",
+          "Ocurrencias": 1,
+          "Contexto": "n disponible daría cuenta que su efecto global es. por ahora, acotado. Enfatiza que e",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7708,6 +7876,14 @@
           "Ocurrencias": 2,
           "Contexto": " para tener claridad sobre el impacto final de la intervención, pues el mercado cambiarlo se encuentra aún en una fase de acomodo. En consecuencia, p",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor José De Gregorio señala que. en su opinión, el análisis de la c",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -7723,6 +7899,14 @@
           "Ocurrencias": 1,
           "Contexto": ",1% durante el cuarto trimestre. Por otra parte, manifiesta que la intervención cambiaría y el anuncio de esterilización llevaron a un aumento de las",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "de a la séptima alza mensual consecutiva, y que. el aumento ha sido de 28,3% en doc",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -8659,6 +8843,14 @@
           "Ocurrencias": 1,
           "Contexto": "y reversiones de algunos precios particulares, más el efecto de la depreciación cambiaría reciente. A título de último hecho destacado del mes, infor",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "re.",
+          "Despues": "re,",
+          "Ocurrencias": 1,
+          "Contexto": "a ser algo más atenuado en el segundo trimestre. los precios de los automóviles, qu",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -9523,6 +9715,14 @@
           "Ocurrencias": 1,
           "Contexto": "de inflación continúan reflejando, en lo grueso, los efectos de la depreciación cambiaría y, en parte también, los de la trayectoria dinámica que han",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "s continúa plenamente vigente, razón por la que. en su opinión, en esta oportunidad",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -11516,6 +11716,14 @@
           "Ocurrencias": 1,
           "Contexto": "d y magnitud de los movimientos los iremos evaluando reunión tras reunión, para tom ar decisiones lo más fundamentadas posibles. Las distintas",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 193 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ón de febrero ni al considerado en el último IPOM. Por lo tanto, elementos fundam en",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -12036,6 +12244,14 @@
           "Ocurrencias": 1,
           "Contexto": "nte cuando estos son procesados en su conjunto. Por lo expresado, corresponde, en su opin1on, hacer una pausa, lo que es coherente con lo que se ha comu",
           "Justificacion": "opin1on por opinión: la i se leyo como el digito 1 y falta la tilde. Formula \"en su opinión\", 1.867 apariciones."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "en.",
+          "Despues": "en",
+          "Ocurrencias": 1,
+          "Contexto": " Agrega que, por el momento, esto se refleja en. el predominio de bajas tasas de in",
+          "Justificacion": "Punto sobrante, no reemplazable por coma: la palabra siguiente completa la misma frase («esto se refleja en el predominio de bajas tasas»). Se elimina el punto."
         }
       ]
     },
@@ -12881,6 +13097,14 @@
           "Ocurrencias": 1,
           "Contexto": " horizonte de proyección del tipo de cambio. Cuando está dentro del rango se supone que converge ai mismo nivel observado en las últimas dos semanas. Agrega el señor Conse",
           "Justificacion": "\"ai\" por \"al\": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta \"ai\" en 26 filas, y \"ai\" no es una palabra del español. En cambio \"al\" aparece miles de veces y \"al alza\" 1.405 contra 3 de \"ai alza\". Se revisaron una por una las 26 apariciones y en todas el contexto exige \"al\" (\"asociadas ai sector exportador\", \"converge ai mismo nivel\", \"autorizó ai Banco Central\", \"mayor ai previsto\", \"Agrega que, ai respecto\", \"superior ai 9,5%\"). No hay ninguna fila en que \"ai\" sea otra cosa."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ca que en algún momento, le parece que en el IPOM de enero pasado, el tipo de cambio",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -13025,6 +13249,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Gerente de División Estudios señor Rodrigo Váldés, hace presente que quiere\ndejar constan",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Rodrigo Valdés» aparece 227 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "er público, y recién se van a conocer con\nel IPOM de septiembre. Agrega el señor Val",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -13603,6 +13835,14 @@
           "Ocurrencias": 1,
           "Contexto": "la desaceleración de la actividad de septiembre es un fenómeno puntual ligado a ios días trabajados, o si hay un cambio de tendencia. Comen",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "do.",
+          "Despues": "do,",
+          "Ocurrencias": 1,
+          "Contexto": "l segundo y tercer trimestre desestacionalizado. indica que se trata de un shock in",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -13864,6 +14104,14 @@
           "Ocurrencias": 1,
           "Contexto": "na figura algo más baja que lo ^ proyectado el mes pasado y posteriormente se ajusta con ella. B A 'i",
           "Justificacion": "Basura de escaneo al final de la fila: \"B A 'i\". La oración anterior termina completa en \"ella.\"; lo que sigue no forma palabra ni oración."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": " Por último, comenta que el PMI manufacturero \\ * se acerca al pivote en Brasil y e",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
         }
       ]
     },
@@ -14522,6 +14770,14 @@
           "Ocurrencias": 1,
           "Contexto": "el Consejero señor Marfán, estas condiciones recién enumeradas no son resorte de! Banco Central. A lo más hay más certeza en cuanto a que",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "l escenario central contemplado en el último IPOM. En lo externo, lo más relevante, ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -14717,6 +14973,14 @@
           "Despues": "ltimo mes—.\nComenta e",
           "Contexto": "e 24,1%\nmedida en pesos y de 20,8% en dólares — 3,8% en el último mes— .\nComenta el señor\nMagendzo que en esta evolución del IPSA incidió, ade",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "el segundo trimestre.",
+          "Despues": "el segundo trimestre,",
+          "Ocurrencias": 1,
+          "Contexto": "elevados, aunque algo menores a\nlos máximos del segundo trimestre. indica el señor Magendzo que el ti",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -14747,6 +15011,14 @@
           "Ocurrencias": 1,
           "Contexto": "to del volumen de las importaciones de bienes de capital del cuarto trimestre de! año 2006 tuvo correcciones al alza por revisiones habit",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "go.",
+          "Despues": "go,",
+          "Ocurrencias": 1,
+          "Contexto": "ones habituales de sus deflactores, sin embargo. los datos disponibles del mes de e",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -15819,6 +16091,14 @@
           "Ocurrencias": 1,
           "Contexto": "los principales antecedentes desde la última RPM. En primer término, indica que ios mercados financieros internacionales han continuado mos",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " TPM.",
+          "Despues": " TPM,",
+          "Ocurrencias": 1,
+          "Contexto": "stas esperan unánimemente un incremento en la TPM. inclinándose una mayoría por un in",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -16279,6 +16559,22 @@
           "Ocurrencias": 1,
           "Contexto": " un escenario de mayor dinamismo de la demanda interna. La inflación subyacente ÍPCX1, en tanto, exhibe un comportamiento de acuerdo a lo pre",
           "Justificacion": "Sigla dañada por el glifo I/l. Medido en toda la salida: 26 apariciones de esta familia, y cada forma tiene su equivalente correcto ampliamente atestiguado en el corpus (el IPC 1.430, el IPoM 1.543, IPCX 649, IPCX1 469, el IPP 10). Se excluyeron de la pasada \"ellPEC\", \"dellPEC\" y \"ellMCE\" (fila 1719:4): aparecen junto a siglas que no se pueden corroborar en el corpus y no hay reconstruccion unica."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "to en el último IPOM",
+          "Despues": "to en el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "mismo, señala que el escenario central descrito en el último IPOM se ha ido consolidando, con la exc",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "do en el último IPOM",
+          "Despues": "do en el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "significaría un cambio respecto de lo planteado en el último IPOM. Opina que el momento correcto de ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -20265,10 +20561,10 @@
         {
           "Tipo": "ACENTO_INDEBIDO",
           "Antes": "mucho más abiertas. índica el señor Vicepr",
-          "Despues": "mucho más abiertas. indica el señor Vicepr",
+          "Despues": "mucho más abiertas, indica el señor Vicepr",
           "Ocurrencias": 1,
           "Contexto": "entado para esta reunión, revela que las opciones hoy están mucho más abiertas. índica el señor Vicepresidente que no se referirá en detalle a",
-          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+          "Justificacion": "El punto en vez de coma quedó dentro del tramo de una operación ya registrada, que arreglaba otro defecto del mismo tramo (un acento, un espacio o una basura de OCR) y no tocaba el signo. Se enmienda el Despues en vez de apilar una segunda operación: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. La oración continúa en minúscula, de modo que el punto no puede ser de cierre y la marca correcta es la coma."
         }
       ]
     },
@@ -20299,6 +20595,14 @@
           "Ocurrencias": 1,
           "Contexto": "eríodo, lo que introduce alguna complejidad al argumento anterior. Sin embargo, índica el señor Marfán, el Banco debe ser autoconsistente entr",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "sufrido mayores alteraciones desde el último IPOM. En relación a la actividad, en se",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -20445,10 +20749,10 @@
         {
           "Tipo": "ACENTO_INDEBIDO",
           "Antes": "o del día anterior. índica que el tipo de ",
-          "Despues": "o del día anterior. indica que el tipo de ",
+          "Despues": "o del día anterior, indica que el tipo de ",
           "Ocurrencias": 1,
           "Contexto": "anzó cotizaciones de hasta $475, aumentando casi $9, respecto del día anterior. índica que el tipo de cambio real (TCR) se estima que promedió",
-          "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+          "Justificacion": "El punto en vez de coma quedó dentro del tramo de una operación ya registrada, que arreglaba otro defecto del mismo tramo (un acento, un espacio o una basura de OCR) y no tocaba el signo. Se enmienda el Despues en vez de apilar una segunda operación: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. La oración continúa en minúscula, de modo que el punto no puede ser de cierre y la marca correcta es la coma."
         }
       ]
     },
@@ -20561,6 +20865,14 @@
           "Ocurrencias": 1,
           "Contexto": "ra que es algo mayor que lo que proyectaría el modelo con energía. Este último, índica, proyectó un -5% para junio, mientras que el IMACEC fue",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "eses necesarios para agotar los stocks, los que. de todas maneras, están por encima",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -20666,6 +20978,14 @@
           "Despues": " ingresos—, que revel",
           "Contexto": "endo muy fuerte — lo cual también tiene un componente en los ingresos— , que revelería que el impacto sobre la actividad es más bien de caráct",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "uede desprender de los datos de actividad y que. por lo tanto, con los datos dispon",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -20704,6 +21024,14 @@
           "Ocurrencias": 1,
           "Contexto": " problemas de líneas y que, por el contrarío, han tenido que renunciar a lineas externas. Respecto de la pregunta sobre la FLAP, coment",
           "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "PM.",
+          "Despues": "PM,",
+          "Ocurrencias": 1,
+          "Contexto": ", porque así obtienen liquidez gratis, a la TPM. mientras que la alternativa puede ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -21626,6 +21954,14 @@
           "Ocurrencias": 1,
           "Contexto": "servándose leves caídas en algunas economías emergentes, un predominio de alzas margínales en las economías de la periferia de Europa y mayor ries",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 113 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "ue es coherente con el aumento registrado por \\ el ISM servicios; y que ha sido muy",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
         }
       ]
     },
@@ -21950,6 +22286,14 @@
           "Despues": "e —IPCSAE—, no obstan",
           "Contexto": " rango de tolerancia del Banco Central; que el IPC subyacente —IPCSAE— , no obstante, estuvo en línea con lo estimado, lo que se repite ya por",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ea.",
+          "Despues": "ea,",
+          "Ocurrencias": 1,
+          "Contexto": "que, evidentemente, mientras más permanente sea. mayores serán los efectos. Asimism",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -22491,10 +22835,10 @@
         {
           "Tipo": "ACENTO_FALTANTE",
           "Antes": "s de forma aislada. podrian sugerir un incr",
-          "Despues": "s de forma aislada. podrían sugerir un incr",
+          "Despues": "s de forma aislada, podrían sugerir un incr",
           "Ocurrencias": 1,
           "Contexto": " No obstante, sostiene que las noticias coyunturales, tomadas de forma aislada. podrian sugerir un incremento en esta ocasión distinto de 50 pu",
-          "Justificacion": "Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra."
+          "Justificacion": "El punto en vez de coma quedó dentro del tramo de una operación ya registrada, que arreglaba otro defecto del mismo tramo (un acento, un espacio o una basura de OCR) y no tocaba el signo. Se enmienda el Despues en vez de apilar una segunda operación: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. La oración continúa en minúscula, de modo que el punto no puede ser de cierre y la marca correcta es la coma."
         },
         {
           "Tipo": "ACENTO_FALTANTE",
@@ -22997,6 +23341,38 @@
           "Ocurrencias": 1,
           "Contexto": " nivel hasta mediados del año 2010, destacando que el tipo de cambio asociado a dicho contexto seria cercano a $ 600. Comenta el Gerente de Investigación Ec",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "nsiderado en el escenario central del último IPOM, y en consecuencia, más amplio que",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": " menos que lo esperado inicialmente. Indica que. asumiendo un crecimiento anual en ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " el IPoM.",
+          "Despues": " el IPoM,",
+          "Ocurrencias": 1,
+          "Contexto": "ltimo trimestre de 2009, igual al esperado en el IPoM. es decir, asumiendo que en octubre",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "ero posible dada la potencial reversión en el \\ comportamiento de los inventarios, ",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
         }
       ]
     },
@@ -23749,6 +24125,38 @@
           "Ocurrencias": 1,
           "Contexto": "eñala que, las noticias económicas del último mes han mostrado que la actividad económica continua creciendo con vigor y que la inflación sigue gradualmente aproxim",
           "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "sto en el IPOM",
+          "Despues": "sto en el IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "onómico sigue en línea con el escenario previsto en el IPOM, esto es, un cierre paulatino de l",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o IPOM",
+          "Despues": "o IPoM",
+          "Ocurrencias": 1,
+          "Contexto": " del año pasado y reafirmada en nuestro último IPOM. Señala que al analizar la actual ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ajo en el IPOM",
+          "Despues": "ajo en el IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ente por encima de nuestros supuestos de trabajo en el IPOM y de las expectativas de mercado. ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "del IPOM",
+          "Despues": "del IPoM",
+          "Ocurrencias": 1,
+          "Contexto": ". Agrega, que de materializarse el escenario del IPOM, un alza en esta reunión significa",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -23846,6 +24254,14 @@
           "Despues": " mes atrás. Señala qu",
           "Contexto": "to bastante más moderado, en torno al 7% que se veía hace un mes atrás . Señala que el resto de Asia se presenta negativo y América Latina tam",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ta.",
+          "Despues": "ta,",
+          "Ocurrencias": 1,
+          "Contexto": "n esa ligera recuperación es algo más optimista. pero se ra a de un crecimiento, de",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -24304,6 +24720,14 @@
           "Despues": "a, más 4,1%, y la Rep",
           "Contexto": "cer país con los mayores shocks inflacionarios, que son China, más 4,1 %, y la República Checa, más 3,6%. Agrega que igual récord mundial se m",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ad.",
+          "Despues": "ad,",
+          "Ocurrencias": 1,
+          "Contexto": "tems afectados por cláusulas de reajustabilidad. revisadas en detalle en la Reunión",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -24311,11 +24735,11 @@
       "ID_Intervencion": "RPM-2008-02-07:1654:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "PUNTUACION",
           "Antes": " Federales . Agrega. q",
-          "Despues": " Federales. Agrega. q",
+          "Despues": " Federales. Agrega, q",
           "Contexto": "iera prestar más atención a la Libor que a la Tasa de Fondos Federales . Agrega. que en el mercado norteamericano la Tasa de Fondos Federales ",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "El tramo tenía dos defectos: un espacio indebido antes del punto («Federales .») y un punto en vez de coma («Agrega. que»). Al enmendar el Despues para arreglar el segundo, la operación dejó de ser sólo de espacios, así que el tipo pasa de ESPACIO_INDEBIDO a PUNTUACION: el cambio de signo es el arreglo sustantivo y una operación tipada como de espacio no puede tocar ninguna letra ni ningún signo. La oración continúa en minúscula («Agrega, que en el mercado norteamericano…»), de modo que el punto no puede ser de cierre."
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
@@ -24323,6 +24747,14 @@
           "Despues": "referencia, no se efe",
           "Contexto": "orteamericano la Tasa de Fondos Federales no es una tasa de referencia , no se efectúan operaciones con esa tasa y si se hace una operación co",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "te.",
+          "Despues": "te,",
+          "Ocurrencias": 1,
+          "Contexto": "a apreciable entre una y otra. Por consiguiente. le parece que también debiera incl",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -25238,6 +25670,14 @@
           "Despues": "nsecuencia, se presen",
           "Contexto": "lado de la demanda , a una acumulación de inventarios. En consecuencia , se presenta una reacción de la actividad económica producto de este s",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "en.",
+          "Despues": "en,",
+          "Ocurrencias": 1,
+          "Contexto": "vivienda como de automóviles, los que responden. fundamentalmente, a un problema de",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -25465,6 +25905,22 @@
           "Ocurrencias": 1,
           "Contexto": "El Presidente señor José De Gregario señala que se hará cargo de lo exp",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "es.",
+          "Despues": "es,",
+          "Ocurrencias": 1,
+          "Contexto": "ener una caída fuerte en la inflación. Entonces. agrega. si en ese mes tenemos una ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "agrega.",
+          "Despues": "agrega,",
+          "Ocurrencias": 1,
+          "Contexto": " una caída fuerte en la inflación. Entonces. agrega. si en ese mes tenemos una inflación de 0,4% o 0,3%, ",
+          "Justificacion": "Punto en vez de coma: la oración continúa en minúscula («Entonces, agrega, si en ese mes tenemos una inflación…»). Es el segundo de dos puntos seguidos en el mismo tramo; el primero («Entonces.») se corrigió en esta misma ronda y el ancla de esa operación no alcanza hasta aquí."
         }
       ]
     },
@@ -25729,6 +26185,14 @@
           "Despues": "Presidente,señor José",
           "Contexto": "escenario base del IPoM. Al proseguir con su exposición, el Presidente ,señor José De Gregorio, advierte que tanto la evolución de los precios",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ad.",
+          "Despues": "ad,",
+          "Ocurrencias": 1,
+          "Contexto": "sente que aún existen indicadores de fragilidad. en particular debido a que parte i",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -26616,6 +27080,14 @@
           "Despues": "l y China—, por un ef",
           "Contexto": "asificaciones de riesgo similar —Corea, México, Chile, Brasil y China— , por un efecto contagio de la situación europea. Hace notar que en Chi",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ales.",
+          "Despues": "ales,",
+          "Ocurrencias": 1,
+          "Contexto": "o enfrentando la crisis a través de cinco canales. que Europa Precisa que el primero ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -27455,6 +27927,30 @@
           "Despues": "IPoM",
           "Contexto": "corresponde a la diferencia entre el cierre estadístico del /PoM y el valor más bajo que alcanzó el TeN. Menciona también qu",
           "Justificacion": "La OCR escribe esta letra como «/»: el corpus tiene IPoM y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "te.",
+          "Despues": "te,",
+          "Ocurrencias": 1,
+          "Contexto": "erente señor Magendzo señala que adicionalmente. quiere llamar la atención sobre el",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "d del tipo de cambio.",
+          "Despues": "d del tipo de cambio,",
+          "Ocurrencias": 1,
+          "Contexto": "sobre el aumento extraordinario de volatilidad del tipo de cambio. que en todo caso ha estado por deb",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "es.",
+          "Despues": "es,",
+          "Ocurrencias": 1,
+          "Contexto": "jo de situaciones producidas en años anteriores. especialmente desde el año 2000. e",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -27867,6 +28363,14 @@
           "Despues": "mayor",
           "Contexto": " confianza empresarial, hace notar que ha tendido a exhibir m ayor heterogeneidad respecto de lo que fue el período de recuper",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4467 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": " promedio del período 1990 - 2010, y agrega que. precisamente esta mañana, fue dado",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -28146,6 +28650,22 @@
           "Ocurrencias": 1,
           "Contexto": "n la dirección de acelerar el ritmo de alzas de tasas de interés o de hacerl o más pausado y, por lo tanto, tampoco cree que corresponda dar señales",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «hacerl o» -> «hacerlo». La evidencia es interna y doble: el primer trozo («hacerl») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («hacerlo») es la que el propio corpus usa 89 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e IPOM",
+          "Despues": "e IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "s consistente con nuestro escenario central de IPOM, en materia de cumplimiento de la ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l IPOM",
+          "Despues": "l IPoM",
+          "Ocurrencias": 1,
+          "Contexto": " en que se verá un IPC mayor al indicado en el IPOM, a fines de este año. Agrega el Co",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
         }
       ]
     },
@@ -28345,10 +28865,10 @@
         {
           "Tipo": "SIMBOLO_SUELTO",
           "Antes": "de crédito. i/ pero sí",
-          "Despues": "de crédito. pero sí",
+          "Despues": "de crédito, pero sí",
           "Ocurrencias": 1,
           "Contexto": "ue hasta entonces no se advertía un mayor uso de las líneas de crédito. i/ pero sí una mayor disposición por parte de algunas firmas, que norm",
-          "Justificacion": "Residuo «i/» entre dos oraciones. No tiene lectura: ni es palabra («i» sola no existe en español fuera de la conjunción latina «y», que aquí no encaja), ni número romano (no hay lista), ni viñeta (el corpus usa «•», 141 veces en 33 filas). Familia transversal de la «i» suelta tras punto: 18 casos en 18 filas (§33)."
+          "Justificacion": "El punto en vez de coma quedó dentro del tramo de una operación ya registrada, que arreglaba otro defecto del mismo tramo (un acento, un espacio o una basura de OCR) y no tocaba el signo. Se enmienda el Despues en vez de apilar una segunda operación: dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. La oración continúa en minúscula, de modo que el punto no puede ser de cierre y la marca correcta es la coma."
         }
       ]
     },
@@ -29364,6 +29884,14 @@
           "Ocurrencias": 1,
           "Contexto": "ejan que ha habido o han continuado las buenas noticias por ese lado. A continuación,.",
           "Justificacion": "Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "el Gerente de Análisis Internacional indica que. si bien hay pocas novedades al res",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -30550,6 +31078,14 @@
           "Ocurrencias": 1,
           "Contexto": "e los puntos 6 y 7 de la Minuta de Opciones. Para concluir con la votación,.",
           "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "iste.",
+          "Despues": "iste,",
+          "Ocurrencias": 1,
+          "Contexto": " meta, y que con toda la incertidumbre que existe. al menos es válido que en un escen",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     },
@@ -30563,6 +31099,14 @@
           "Ocurrencias": 1,
           "Contexto": " más cercana en el tiempo que el mes pasado. Para concluir con la votación,.",
           "Justificacion": "Coma seguida de punto al final de la fila. Medido en el corpus: «<palabra>,.» aparece 98 veces en el texto virgen; el pase transversal del §45 corrigió 78 (76 «A continuación,.» más «década,.» y «Euro,.») y dejó estas 20, que son la misma familia con otras palabras: «Continuando con la votación,.» (6), «Para concluir con la votación,.» (3), «No habiendo más comentarios,.» (8), «No habiendo más comentarios y preguntas,.» (2) y «…señor Manuel Marfán,.» (1). En los 20 casos la fila siguiente empieza con «el Presidente…», «el Consejero…» o «el Vicepresidente…», de modo que la coma es la marca correcta y el punto es el signo sobrante. Se aplica el mismo criterio del §45."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "s y riesgos en torno a ese escenario central. \\ En consecuencia, declara hacer suyo",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
         }
       ]
     },
@@ -31034,6 +31578,1103 @@
           "Ocurrencias": 1,
           "Contexto": "e Estados Unidos de América, el señor Sergio Lehman menciona que la tasa de desempleo c",
           "Justificacion": "Apellido dañado por OCR: falta la ene final. Medido en el corpus: «Lehmann» aparece 1904 veces y «Lehman» 24, pero 19 de esas 24 son el banco de inversión Lehman Brothers, cuyo nombre correcto lleva una sola ene y no se toca. Las 5 restantes son la persona, Sergio Lehmann Beresi, Gerente de Análisis Internacional, siempre precedidas de «señor» o «Gerente señor». El campo Actor_Final de esas filas dice «Sergio Lehmann Beresi»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:19:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n IPOM",
+          "Despues": "n IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "za y recuperó todo lo que había perdido. En un IPOM anterior, señala, se hizo ese ejer",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l IPOM",
+          "Despues": "l IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ñala, se hizo ese ejercicio y se vio que en el IPOM del año pasado, comparado con las ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:31:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": " discutiendo porque esto es una discusión de IPOM, y no es solamente una discusión d",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:196:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o IPOM",
+          "Despues": "o IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "urso compatible con el presentado en el último IPOM. En el lado del gasto sigue sorpre",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l IPOM",
+          "Despues": "l IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "scenario se consolida el escenario central del IPOM que considera una reducción gradua",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:237:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "UF.",
+          "Despues": "UF,",
+          "Ocurrencias": 1,
+          "Contexto": " siempre se ha tenido presente que el efecto UF. explica cierta parte de dichos dif",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:238:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ndica, que esto se examinó con detalle en el IPOM, y la conclusión básica fue que ca",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:260:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "en cuanto a los escenarios de riesgos que el IPOM indica que en el frente externo ha",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-05-12:275:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o IPOM",
+          "Despues": "o IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "oyecciones que serán presentados en el próximo IPOM. En este punto cabe destacar que u",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l IPOM",
+          "Despues": "l IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ron corregidas al alza si lo comparamos con el IPOM de enero. Por lo tanto, sería muy ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:291:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "o al escenario central descrito en el último IPOM. Asimismo, estima que no hay sorpr",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:292:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "do en el último IPOM",
+          "Despues": "do en el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "n el escenario central de proyecciones incluido en el último IPOM. En especial, la actividad mostró ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "to en el último IPOM",
+          "Despues": "to en el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "tancialmente el panorama inflacionario previsto en el último IPOM; que los principales determinantes",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:294:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "l IPOM",
+          "Despues": "l IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "l gasto coherente con el escenario central del IPOM. En paralelo, señala el señor Pres",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o IPOM",
+          "Despues": "o IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "integral de nuestras proyecciones en el último IPOM. Por lo anterior, también se pronu",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:300:7",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "del IPOM",
+          "Despues": "del IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "r Marfán hace presente que para la discusión del IPOM no se sabía si esta acumulación de",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " el IPOM",
+          "Despues": " el IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "luso más allá de lo que estaba contemplado en el IPOM. Por ello, el señor Consejero esti",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:309:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "unto porcentual superior a lo previsto en el IPOM, pero la inflación subyacente sigu",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:309:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ue lo previsto en el último IPOM",
+          "Despues": "ue lo previsto en el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "e crecimiento se ha presentado más dinámico que lo previsto en el último IPOM, destacando la expansión del secto",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "de lo previsto en el último IPOM",
+          "Despues": "de lo previsto en el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "teriores, a grandes rasgos, continúan dentro de lo previsto en el último IPOM, presentan cambios respecto al esc",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-07-12:310:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ras proyecciones del último IPOM",
+          "Despues": "ras proyecciones del último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "cimiento del producto continúa y supera nuestras proyecciones del último IPOM. De otra parte, por el lado de la ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n el último IPOM",
+          "Despues": "n el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "royección de crecimiento que visualizábamos en el último IPOM. Por el lado de la inflación, tant",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "al del último IPOM",
+          "Despues": "al del último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": " que no eran parte de nuestro escenario central del último IPOM. En contraste, la inflación del IP",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "las proyecciones del último IPOM",
+          "Despues": "las proyecciones del último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": " hacia el centro del rango meta en línea con las proyecciones del último IPOM. A medida que progrese el proceso ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-08-11:363:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "nformación que será presentada en el próximo IPOM tiene un grado mayor de diferencia",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-10-11:427:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "amente la misma que estaba contemplada en el IPOM. En lo que sí hay modificaciones e",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-10-11:428:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "os de cambio de escenario desde hoy hasta el IPOM, que no son menores, para efectos ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:451:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "el señor Presidente, que la presentación del IPOM a la Comisión de Hacienda del Sena",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:463:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "do.",
+          "Despues": "do,",
+          "Ocurrencias": 1,
+          "Contexto": " la globalización afectará a todos, mencionando. por ejemplo, a Europa y Canadá.",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:479:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ón.",
+          "Despues": "ón,",
+          "Ocurrencias": 1,
+          "Contexto": "el aumento en las tasas de interés de captación. los bancos están obteniendo, como ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:643:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "e estos escenarios se pueden revisar para el IPOM. Agrega que el otro problema es qu",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:653:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "e con el escenario central de nuestro último IPOM y, por lo tanto, no hay razones pa",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:654:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " del último IPOM",
+          "Despues": " del último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "PCX1 han estado en línea con las proyecciones del último IPOM, las cuales consideran también que",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n el último IPOM",
+          "Despues": "n el último IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "da de la política monetaria que se presentó en el último IPOM. Basado en ello, su voto es tambié",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:671:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "nte mejores que los anticipados en el último IPOM. Agrega el señor Consejero, que a ",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:674:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ñor Presidente, que con las proyecciones del IPOM de mayo, que este año y el próximo",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:686:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " mes.",
+          "Despues": " mes,",
+          "Ocurrencias": 1,
+          "Contexto": " la base de las noticias concretas del\núltimo mes.\nindica que si bien la inflación ha",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-06-15:697:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "o es.",
+          "Despues": "o es,",
+          "Ocurrencias": 1,
+          "Contexto": "adas dentro de la tendencia más reciente, esto es.\nun aumento sostenido del empleo, e",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:778:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ción.",
+          "Despues": "ción,",
+          "Ocurrencias": 1,
+          "Contexto": "a que aunque sobreestiman la tasa de desocupación. también sobreestiman el ritmo de e",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-09-07:835:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "precio del petróleo en nuestro escenario del IPOM, se\nconcluye que éste terminaría e",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:978:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "te.",
+          "Despues": "te,",
+          "Ocurrencias": 1,
+          "Contexto": "iento son más bajas que lo estimado previamente. lo que podría justificarse en base",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1155:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "sión Estudios señor Valdés, que en el último IPOM y que, aunque la inflación total e",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-03-15:1165:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "con el escenario central de proyecciones del IPOM de enero y dado que este escenario",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1231:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ño.",
+          "Despues": "ño,",
+          "Ocurrencias": 1,
+          "Contexto": "la baja durante el primer trimestre de este año. indica que luego de conocidos los ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-05-10:1251:4",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "l IPoM.",
+          "Despues": "l IPoM,",
+          "Ocurrencias": 1,
+          "Contexto": "revalecientes antes del cierre estadístico del IPoM. indica el señor Gerente de Divisió",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1272:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "de Análisis Internacional señala que para el IPOM ya se tenía un desalineamiento ent",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-12-13:1586:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "Lehmann señala que en la próxima reunión del IPOM se presentarán antecedentes en ese",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-01-10:1620:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "al.",
+          "Despues": "al,",
+          "Ocurrencias": 1,
+          "Contexto": " de medio punto anual en el crecimiento mundial. en el período 2002 - 2007.",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-02-07:1655:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ando.",
+          "Despues": "ando,",
+          "Ocurrencias": 1,
+          "Contexto": " están registradas y que podrían estar explicando. en parte, esta situación. Asimismo",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1848:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ando.",
+          "Despues": "ando,",
+          "Ocurrencias": 1,
+          "Contexto": "or los elevados registros que se están observando. pero esto no significa que su tend",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2110:4",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "vo actualizado que se había presentado en el IPOM. Ello significa considerar primero",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-11-13:2167:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ño.",
+          "Despues": "ño,",
+          "Ocurrencias": 1,
+          "Contexto": "e se intensificaría en el curso del próximo año. indica que la inflación anual sigu",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-02-12:2360:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "IPOM",
+          "Despues": "IPoM",
+          "Ocurrencias": 1,
+          "Contexto": "ecimiento menos que lo que se percibía en el IPOM, el solo hecho que las tasas de cr",
+          "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2443:2",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "más bien negativo del rango antes mencionado. \\ Indica también que en el caso de la",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-04-09:2484:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ón.",
+          "Despues": "ón,",
+          "Ocurrencias": 1,
+          "Contexto": "onomía funcione bien. Indica que, en su opinión. hay un cambio adicional y que cons",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-05-07:2549:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "oM.",
+          "Despues": "oM,",
+          "Ocurrencias": 1,
+          "Contexto": "tidas por el Consejo en la preparación del IPoM. se concluye que ésta debiera situa",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2593:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ente año.",
+          "Despues": "ente año,",
+          "Ocurrencias": 1,
+          "Contexto": "anera significativa el escenario para el presente año. en cuanto se sigue considerando un",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "cambiaba",
+          "Despues": "cambiaria",
+          "Ocurrencias": 1,
+          "Contexto": "s adicionales, generados por una apreciación cambiaba o un alza del nivel de las tasas d",
+          "Justificacion": "«cambiaba» por «cambiaria»: es el adjetivo, no el verbo. Medido en el corpus: «cambiaria/o» aparece 229 veces y «cambiaba» 4, de las cuales 2 son el verbo en pretérito imperfecto y se dejan («la cual no cambiaba con la información disponible», «no cambiaba en general los contornos»). Las 2 que se corrigen van sustantivadas: «una intervención cambiaba», «una apreciación cambiaba»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2598:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "desafio",
+          "Despues": "desafío",
+          "Ocurrencias": 1,
+          "Contexto": "s, ya que se plantea con mayor intensidad el desafio de conducir adecuadamente el proce",
+          "Justificacion": "Falta el acento. Medido en el corpus: «desafío» aparece 40 veces y «desafio» 3."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2744:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "si.",
+          "Despues": "si,",
+          "Ocurrencias": 1,
+          "Contexto": "tos que le llaman la atención: el primero es si. efectivamente, las tasas han tendi",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2752:2",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "desafio",
+          "Despues": "desafío",
+          "Ocurrencias": 1,
+          "Contexto": "ala que a lo anterior corresponde agregar el desafio que enfrentan los países desarroll",
+          "Justificacion": "Falta el acento. Medido en el corpus: «desafío» aparece 40 veces y «desafio» 3."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-12-15:2836:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "sí.",
+          "Despues": "sí,",
+          "Ocurrencias": 1,
+          "Contexto": "de las señales entregadas con anterioridad. Así. concuerda con lo expresado en la M",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-01-14:2884:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "de mercado.",
+          "Despues": "de mercado,",
+          "Ocurrencias": 1,
+          "Contexto": "ía entre las señales de política y las tasas de mercado. indica que el peso ha mostrado vol",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3025:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "to.",
+          "Despues": "to,",
+          "Ocurrencias": 1,
+          "Contexto": "vedad que habría alguna divergencia al respecto. pudiendo haber comenzado esta en m",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3029:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "haber percibido hace unos meses atrás, pero que. en términos absolutos, las compara",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3038:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "ció el dato del Imacec de febrero. Sostiene que. en el fondo, esta proyección de al",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3053:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ño.",
+          "Despues": "ño,",
+          "Ocurrencias": 1,
+          "Contexto": "spués, cuando se hizo la proyección para el año. se había considerado algo más para",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3069:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "oM.",
+          "Despues": "oM,",
+          "Ocurrencias": 1,
+          "Contexto": "ción monetaria que, dada la proyección del IPoM. debiese elevar la TPM en torno a 2",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3081:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "adas.",
+          "Despues": "adas,",
+          "Ocurrencias": 1,
+          "Contexto": "también importante tras las medidas ya comentadas. todavía se observan spreads en tor",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3082:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ro.",
+          "Despues": "ro,",
+          "Ocurrencias": 1,
+          "Contexto": " ha tendido a mostrar un avance algo más seguro. en especial en EE.UU., y que las t",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3084:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "iertos bonos soberanos u otros, y que pudiera \\ hasta favorecer los flujos de capit",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3116:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "ara los que tienen menos propensión a él, y que. incluso, están contempladas una se",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-05-13:3119:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "io.",
+          "Despues": "io,",
+          "Ocurrencias": 1,
+          "Contexto": " anterior permitió regular el impulso monetario. facilitando una convergencia gradu",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-06-15:3155:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "rial.",
+          "Despues": "rial,",
+          "Ocurrencias": 1,
+          "Contexto": " se produjo un cambio en la composición sectorial. con bastante mayor dinamismo en el",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3250:2",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ra.",
+          "Despues": "ra,",
+          "Ocurrencias": 1,
+          "Contexto": " suponiendo es más bien transitoria y, por otra. porque se están incorporando los d",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3261:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "pto las tasas de los créditos hipotecarios, que. en general, están muy asociadas al",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3264:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "PM.",
+          "Despues": "PM,",
+          "Ocurrencias": 1,
+          "Contexto": "más allá de las expectativas de alzas de la TPM. se debió a que se aceleró el proce",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3272:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "de año.",
+          "Despues": "de año,",
+          "Ocurrencias": 1,
+          "Contexto": " allá de una probable moderación hacia fines de año. su incremento para el año, explica",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3279:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " mes.",
+          "Despues": " mes,",
+          "Ocurrencias": 1,
+          "Contexto": "es de febrero de 2011 para el día 17 de dicho mes. informa que el señor Ministro de H",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3337:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "ilidad en los precios de los commodities. ' í \\ : Ai proseguir, el señor Felipe Lar",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3339:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "as de desaceleración en Estados Unidos, junto \\ con una visión de la Reserva Federa",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-09-16:3430:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "es.",
+          "Despues": "es,",
+          "Ocurrencias": 1,
+          "Contexto": "rior al terremoto, se percibe o proyecta que es. transitoriamente, mucho más elevad",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3884:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": " a este producto. En cuarto lugar, menciona que. en enero, las remuneraciones regis",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4068:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " mes.",
+          "Despues": " mes,",
+          "Ocurrencias": 1,
+          "Contexto": "preció de manera importante durante el último mes. algo más que 5%. Agrega que el eur",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-06-14:4108:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "PM.",
+          "Despues": "PM,",
+          "Ocurrencias": 1,
+          "Contexto": "ñor Kevin Cowan señala que, desde la última RPM. la situación financiera en Europa ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4209:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": "ios problemas financieros en Europa. Agrega que. por el momento, todo ello ha encon",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-09-13:5091:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "into.",
+          "Despues": "into,",
+          "Ocurrencias": 1,
+          "Contexto": "ción, hay otros que presentan un alcance distinto. si (1 En consecuencia, le parece r",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-03-14:5418:3",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " \\ ",
+          "Despues": " ",
+          "Ocurrencias": 1,
+          "Contexto": "iado al mayor dinamismo de las importaciones. \\ Asimismo, destaca que la tasa de de",
+          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-07-14:6908:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "ue.",
+          "Despues": "ue,",
+          "Ocurrencias": 1,
+          "Contexto": ", el canal financiero ya está despejado, ya que. ciertamente, hay temas de demanda ",
+          "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
         }
       ]
     }

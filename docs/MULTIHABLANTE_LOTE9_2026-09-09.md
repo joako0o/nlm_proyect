@@ -409,6 +409,8 @@ Para leer una sesión entera al margen del plan:
 
 | 133–141 | 2010-06-15 | 100 | **sesión cerrada 98/98** (2 ya estaban anotadas) · 12 actores · cola 2 casos ya partidos, 2b y 2c cero, barrido independiente sobre los 12 actores con 2 falsos → **ningún corte** · 3 acentos, todos correctos · la sesión destapó **8 familias**: tres de puntuación (`,.` 20 casos que el §45 dejó abiertos, `.,` 4 con discriminador de abreviatura, `..` 3) y cinco de nombres dañados (`De Gregario` 41, `Lehman` persona 5 distinguido del banco, `Lehman Sros.` 1, `Garda` 2, `Beam Stearns` 5) (§55) |
 
+| 142–150 | 2009-06-16 | 99 | **sesión cerrada 98/98** (1 ya estaba anotada) · 13 actores · cola 4 casos ya partidos en 5/5/3/6 segmentos, 2b y 2c cero, barrido independiente sobre los 13 actores en cero → **ningún corte** · leídas las 11 filas de más de 1900 ch (2593:2 es un monólogo de 8683 ch) · 4 familias OCR: el **punto donde va coma** (91 de 109, separando 18 abreviaturas legítimas y 15 residuos), `IPOM`→`IPoM` 58, `desafio` 3, barra invertida 11 · 5 ops enmendadas porque otra corrección había dejado el punto dentro de su tramo y 1 que quedó destapado (§56) |
+
 Para anotar una ronda leída:
 
 ```

@@ -3346,3 +3346,89 @@ mismo lote, y las tres se arreglaron extendiendo el ancla un carácter a la dere
 **Regla: al generar un lote, verificar que `Antes` no sea subcadena de `Despues` en ninguna
 operación.** Es una condición barata de comprobar y el único guardia que la detecta corre
 después, en la suite.
+
+---
+
+## §56 — Sesión 2009-06-16: cuatro familias, 162 operaciones
+
+Noventa y nueve filas, trece actores. Los cuatro casos de la cola ya estaban partidos en la
+base —el padre 2555 en 5 segmentos, 2566 en 5, 2576 en 3 y 2583 en 6— y los cortes caen
+exactamente donde caerían por lectura. Las siete firmas del §49 en cero y un barrido
+independiente sobre los trece actores buscando «otro actor seguido de verbo de habla» dio cero
+candidatos. Los seis traspasos de palabra están en filas cortas del Presidente. **Ningún
+corte.** Las once filas de más de 1.900 caracteres se leyeron: `2593:2` (8.683 ch) es un
+monólogo de Pablo García de punta a cabo, `2598:1` (8.652) de Marshall, `2594:1` (5.338) de
+Céspedes —el único invitado— y las demás son votos de un solo Consejero.
+
+### El punto donde va una coma
+
+Al leer `2594:1` apareció «Indica que**.** asumiendo un crecimiento anual…». Medido en todo el
+corpus, un punto seguido de espacio y de una palabra en minúscula aparece **109** veces. En
+español una oración no empieza en minúscula, así que el signo no puede ser de cierre — pero la
+familia es heterogénea y hubo que separarla:
+
+| grupo | casos | tratamiento |
+|---|---|---|
+| abreviaturas legítimas (`EE.UU.` 10, `hrs.` 6, `pp.` 1, `pb.` 1) | 18 | **no se tocan** |
+| basura de OCR tras el punto (`if`, `fi`, `kt`, `ry`, `lf`) | 5 | otro defecto |
+| palabras sueltas de margen y encabezados residuales (`votación` 4, `interno` 3, `comentarios`, `mencionada`, `caso`, `internamente`) | 10 | otro defecto |
+| la oración continúa en minúscula | **91** | punto → coma |
+
+De los 91, uno no admite coma sino supresión: «esto se refleja en**.** el predominio de bajas
+tasas», donde la palabra siguiente completa la misma frase.
+
+**Verificado: 91 → 0**, con `EE.UU.` (26) y `hrs.` (6) intactos.
+
+### Las otras tres familias
+
+| familia | virgen → corregido | medida |
+|---|---|---|
+| `IPOM` → `IPoM` | 58 → **0** | 2.473 contra 58, siempre el mismo documento |
+| `desafio` → `desafío` | 3 → **0** | 40 contra 3 |
+| `cambiaba` → `cambiaria` | 2 de 4 | 229 contra 4 |
+| barra invertida suelta ` \ ` | 11 → **0** | residuo de salto de línea del PDF |
+
+**`cambiaba` exigió leer los cuatro casos.** Es una palabra legítima del español —pretérito
+imperfecto de cambiar— y dos de las cuatro apariciones lo son («la cual no cambiaba con la
+información disponible», «no cambiaba en general los contornos»). Sólo se corrigieron las dos
+que van sustantivadas: «una intervención cambiaba», «una apreciación cambiaba». **Un pase por
+frecuencia habría convertido dos verbos correctos en adjetivos.**
+
+### Una corrección puede destapar el defecto de al lado
+
+Cinco de los 91 puntos quedaron dentro del tramo de operaciones ya registradas, que arreglaban
+otro defecto del mismo tramo y no tocaban el signo: `abiertas. índica` → `abiertas. indica`
+(arregló el acento), `Federales . Agrega. q` → `Federales. Agrega. q` (arregló el espacio),
+`s de forma aislada. podrian` → `… aislada. podrían` (arregló el acento). Y una sexta,
+`de crédito. i/ pero sí` → `de crédito. pero sí`, **destapó** un punto que la basura de OCR
+tapaba.
+
+Las cinco se resolvieron enmendando el `Despues` de la operación existente —que es justo lo que
+`enmendar_operacion.py` hace— y la sexta con una operación nueva, porque su tramo sí estaba
+libre. **Verificar una familia sobre la salida corregida y no sobre el plan es lo que las hizo
+aparecer: el plan decía 91 aplicadas, la salida mostraba 6 vivas.**
+
+### Verificado
+
+punto+minúscula aplicable 91 → **0** · `IPOM` 58 → **0** · `desafio` 3 → **0** · `cambiaba`
+4 → **2** (los dos verbos legítimos) · barra suelta 11 → **0** · `EE.UU.` 26 y `hrs.` 6
+intactos · `Texto` idéntico a la base en las 9.725 · **0 operaciones no idempotentes** en todo
+el registro (la propiedad del §55, reescaneada).
+
+Registro: **1.704 filas / 2.863 operaciones**.
+
+### Enmendar el `Despues` puede obligar a enmendar también el `Tipo`
+
+`test_las_operaciones_de_espacio_solo_quitan_espacios` falló al aplicar las cinco enmiendas. La
+causa: la operación de `2008-02-07:1654:1` está tipada `ESPACIO_INDEBIDO`, y ese tipo tiene una
+propiedad que la suite exige —quitando los blancos, `Antes` y `Despues` deben coincidir—. Al
+cambiar `Agrega.` por `Agrega,` dentro de su `Despues`, la operación pasó a tocar un signo y
+rompió la propiedad.
+
+El arreglo no es relajar el test sino **retipar la operación a `PUNTUACION`**, que es
+exactamente el caso que justifica la existencia de `enmendar_operacion.py`: «quitar un espacio
+indebido y descubrir después que el signo también sobraba ya no es `ESPACIO_INDEBIDO`». El
+cambio de signo es el arreglo sustantivo.
+
+**Regla: al enmendar un `Despues`, comprobar que el `Tipo` sigue describiendo lo que la
+operación hace.**
