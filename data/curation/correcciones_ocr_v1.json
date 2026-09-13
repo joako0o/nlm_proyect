@@ -4891,6 +4891,70 @@
           "Ocurrencias": 1,
           "Contexto": "nte, y un cambio importante en la proyección de fines de marzo y comienzos de abril por la reincorporación del impuesto especifico. Con estos nuevos antecedentes, se llega a una proyección de inflación a diciembre que sería de aproximadamente de -0,6",
           "Justificacion": "Adjetivo sin acento en «impuesto especifico». El corpus escribe «específico» 46 veces frente a 2, y las dos son esta misma expresión. El verbo «especifica», que aparece decenas de veces, es correcto y no se toca."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "costo de la mano de obra El señor Soto menciona que los ",
+          "Despues": "costo de la mano de obra. El señor Soto menciona que los ",
+          "Ocurrencias": 1,
+          "Contexto": "umento en las horas trabajadas, que llevan a aumentar la medición del costo de la mano de obra El señor Soto menciona que los últimos datos de salarios reales dan cuenta de una estabilización, inf",
+          "Justificacion": "«llevan a aumentar la medición del costo de la mano de obra El señor Soto menciona que los últimos datos» — falta el punto que cierra la oración antes del nuevo sujeto."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "vas o por debajo del 3%. por lo que las velocidades actua",
+          "Despues": "vas o por debajo del 3%, por lo que las velocidades actua",
+          "Ocurrencias": 1,
+          "Contexto": "idades de las medidas subyacentes también están con velocidades negativas o por debajo del 3%. por lo que las velocidades actuales no garantizan la convergencia a la meta en doce meses. El señor Ge",
+          "Justificacion": "«siguen estando cercanas a cero, negativas o algo por sobre cero, y claramente por debajo del 3%. por lo que las velocidades actuales no garantizan» — un punto seguido de minúscula: es una coma, la oración continúa con «por lo que»."
+        },
+        {
+          "Tipo": "PALABRA_SOBRANTE",
+          "Antes": "iembre que sería de aproximadamente de -0,6% anual, y de ",
+          "Despues": "iembre que sería de aproximadamente -0,6% anual, y de ",
+          "Ocurrencias": 1,
+          "Contexto": "stos nuevos antecedentes, se llega a una proyección de inflación a diciembre que sería de aproximadamente de -0,6% anual, y de tres décimas menos a partir de diciembre en adelante, si se considera ",
+          "Justificacion": "«una proyección de inflación a diciembre que sería de aproximadamente de -0,6% anual» — el segundo «de» sobra; el régimen ya está cubierto por el primer «de». El corpus tiene el mismo defecto en 2008-03-13:1696:2, pero ésa es otra sesión."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "que el techo es 98.2, por lo está dentro de la banda. En",
+          "Despues": "que el techo es 98,2, por lo que está dentro de la banda. En",
+          "Ocurrencias": 1,
+          "Contexto": "ltimo valor equivale a un tipo de cambio real de 92 aproximadamente y que el techo es 98.2, por lo está dentro de la banda. En conclusión, el señor Claudio Soto señala que la inflación futura va a",
+          "Justificacion": "Dos defectos a 12 caracteres de distancia, imposibles de anclar por separado sin solapar los rangos, por eso van en una sola operación. (1) «98.2» lleva punto decimal; la misma sesión dice «un tipo de cambio real de 92,7». (2) «por lo está» omite el «que»: el corpus tiene 18 «por lo que está» y 1 «por lo está» (éste)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "nte y que el modelo Tar. por ejemplo, proyecta una infla",
+          "Despues": "nte y que el modelo TAR, por ejemplo, proyecta una infla",
+          "Ocurrencias": 1,
+          "Contexto": "stran una trayectoria similar para la inflación hasta fines del horizonte y que el modelo Tar. por ejemplo, proyecta una inflación de casi -5% para abril del año próximo. Con respecto a los mercad",
+          "Justificacion": "«el modelo Tar. por ejemplo, proyecta una inflación de casi -5%» — el punto seguido de minúscula es una coma. Además la sigla va en mayúsculas: la sesión no la menciona en otra parte, así que decide el año (regla §65) y 2009-07-09:2625:1, del mismo 2009, la atestigua como «los modelos TAR son exactamente iguales»."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": " spread de las colocaciones de 30-90 dias, que son predo",
+          "Despues": " spread de las colocaciones de 30-90 días, que son predo",
+          "Ocurrencias": 1,
+          "Contexto": "erente con lo que se observa en el caso de los spreads. Informa que el spread de las colocaciones de 30-90 dias, que son predominantemente colocaciones comerciales, está incluso por debajo de lo q",
+          "Justificacion": "«el spread de las colocaciones de 30-90 dias» — falta la tilde. El corpus tiene 720 «días» y 5 «dias», todas ellas defectos de acento."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ñade que modelos alternativos de senes de tiempo muestran",
+          "Despues": "ñade que modelos alternativos de series de tiempo muestran",
+          "Ocurrencias": 1,
+          "Contexto": "n aportarán negativamente a la variación interanual de la inflación. Añade que modelos alternativos de senes de tiempo muestran una trayectoria similar para la inflación hasta fines del horizonte y",
+          "Justificacion": "«modelos alternativos de senes de tiempo muestran una trayectoria similar» — «senes» no es palabra; es «series de tiempo». El corpus tiene 49 «series» y 1 «senes» (ésta)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " interanual de -1.9% y un ",
+          "Despues": " interanual de -1,9% y un ",
+          "Ocurrencias": 1,
+          "Contexto": "de octubre fue 0%. Con el IRC de octubre que no varió, se tiene un IRC interanual de -1.9% y un IRCX1 de 0,2%. Agrega que si al IRC se le excluyen alimentos y energía",
+          "Justificacion": "«se tiene un IPC interanual de -1.9% y un IPCX1 de 0,2%» — la misma oración escribe «0,2%» con coma: el separador decimal del corpus es la coma y el punto es defecto de OCR. El ancla queda en 24 caracteres porque a ambos lados hay «IRC», que una operación previa de esta misma fila ya convierte en «IPC»; una ancla más larga no existiría ni en el virgen ni en el estado intermedio."
         }
       ]
     },
@@ -10778,6 +10842,14 @@
           "Despues": "”",
           "Contexto": "ción proyectada se ubique en 3% en el horizonte de política.\" 12,11.2009 31.",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "112-Tasa de Política Monetaria En su reunión mensual de ",
+          "Despues": "112-Tasa de Política Monetaria. En su reunión mensual de ",
+          "Ocurrencias": 1,
+          "Contexto": "ito de lo anterior, el Consejo adopta el siguiente Acuerdo: 146-01-091112-Tasa de Política Monetaria En su reunión mensual de política monetaria, el Consejo del Banco Central de Chile acordó mante",
+          "Justificacion": "«Acuerdo: 146-01-091112-Tasa de Política Monetaria En su reunión mensual de política monetaria» — falta el punto que cierra el encabezado del Acuerdo. Es convención del corpus: 30 filas llevan ese encabezado y todas las que continúan con el cuerpo lo escriben «Política Monetaria. En su reunión mensual»."
         }
       ]
     },
@@ -24667,6 +24739,14 @@
           "Ocurrencias": 1,
           "Contexto": " señala que las noticias son algo negativas en un par de sectores, como algunas lineas manufactureras, sobre todo las ligadas a recursos natur",
           "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": " particularmente a la baja En el sector construcción tam",
+          "Despues": " particularmente a la baja. En el sector construcción tam",
+          "Ocurrencias": 1,
+          "Contexto": "rsos naturales, así como también el comercio mayorista, que sorprendió particularmente a la baja En el sector construcción tampoco hay signos evidentes de recuperación, ya que los permisos de edif",
+          "Justificacion": "«también el comercio mayorista, que sorprendió particularmente a la baja En el sector construcción tampoco hay signos evidentes» — falta el punto final de la oración antes de «En». Las dos oraciones están completas y la segunda abre con mayúscula."
         }
       ]
     },
@@ -33974,6 +34054,22 @@
           "Ocurrencias": 1,
           "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
           "Contexto": "ciertas fechas. Hoy, enfatiza, es más importante que se anuncie su fin más que la fecha en que esto comience, asi como su ritmo de reducción. Es decir, el señor de Ramón manifiesta creer que hay que señalar que la fecha en "
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ega que las tasas a dos años han caldo en EE.UU. y tambi",
+          "Despues": "ega que las tasas a dos años han caído en EE.UU. y tambi",
+          "Ocurrencias": 1,
+          "Contexto": "s y su evaluación desde la última RPM, tampoco mejora el panorama. Agrega que las tasas a dos años han caldo en EE.UU. y también en Europa y, si bien las de diez años han subido, eso puede deberse",
+          "Justificacion": "«las tasas a dos años han caldo en EE.UU. y también en Europa» — «han caldo» no existe como forma verbal; es el participio «caído». El corpus tiene 298 «caído»; de los 6 «caldo» del corpus, 5 son este mismo defecto («ha/han caldo») y sólo 2014-10-16:6483:1 es el legítimo «caldo de cultivo»."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "tán aún en terreno negativo El señor Beltrán de Ramón ind",
+          "Despues": "tán aún en terreno negativo. El señor Beltrán de Ramón ind",
+          "Ocurrencias": 1,
+          "Contexto": "el desempleo ha seguido aumentando y que los préstamos hipotecarios están aún en terreno negativo El señor Beltrán de Ramón indica que si se analizan las variables financieras y su evaluación desde",
+          "Justificacion": "«los préstamos hipotecarios están aún en terreno negativo El señor Beltrán de Ramón indica que si se analiza» — falta el punto que cierra la oración antes del nuevo sujeto."
         }
       ]
     },
@@ -35484,6 +35580,32 @@
           "Ocurrencias": 1,
           "Contexto": "rimestre han sido, en general, algo menores a lo esperado, aunque las proyecciones de consenso continúan i - J ' - anticipando una recuperación de Estados Unidos. Las expectativas de crecimiento p",
           "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"continúan i - J ' - anticipando\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2770:4",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ría un sector que se recuperarla más lento e industria a",
+          "Despues": "ría un sector que se recuperaría más lento e industria a",
+          "Ocurrencias": 1,
+          "Contexto": "r Soto señala que se está volviendo al escenario donde construcción sería un sector que se recuperarla más lento e industria algo más rápido, respecto de la Reunión pasada. Para resumir, manifiest",
+          "Justificacion": "«construcción sería un sector que se recuperarla más lento e industria algo más rápido» — el paralelo con el «sería» de la misma oración fija la lectura: es el condicional «recuperaría», no «recuperarla». El corpus tiene 5 «recuperaría» y 1 «recuperarla» (ésta)."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2797:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "eunión, un punto critico para el señor Consejero es que ",
+          "Despues": "eunión, un punto crítico para el señor Consejero es que ",
+          "Ocurrencias": 1,
+          "Contexto": "es que correspondan. Respecto de la decisión que se adoptará en esta Reunión, un punto critico para el señor Consejero es que no se interprete como el adelantamiento del proceso de ajuste, ni much",
+          "Justificacion": "«un punto critico para el señor Consejero es que no se interprete» — falta la tilde del esdrújulo. El corpus tiene 11 «crítico» y 1 «critico» (éste)."
         }
       ]
     }
@@ -37094,6 +37216,16 @@
       "ID_Intervencion": "RPM-2008-10-09:2106:1",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Motivo": "«al Banco L1oyd's inglés que tiene una gran base de depósitos» — el «1» sustituye a la «l»: es «Lloyd's». Pero «Lloyd» no aparece en ninguna de las 9.724 filas, así que la forma canónica no está atestiguada en el corpus y la regla de nombres propios (§34, §58) no permite normalizar sin atestiguación. Se marca para cotejo contra el PDF, igual que «Sotz» en §68. §78."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2790:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«la importancia de hacer coherente las medidas complementarias con el escenario para la TPM, en particular si sigue siendo válido que comenzarla un proceso de alzas en el segundo trimestre del próximo año» — «comenzarla» no es forma verbal posible aquí. Hay tres reparaciones atestiguadas en el corpus y todas caben: «comenzar» (102 veces), «comenzara» (5) y «comience» (58). La elección cambia la sintaxis de la cláusula, no sólo una letra, y sin el PDF no hay manera de decidir. Se marca en lugar de elegir al azar. Nota: en la misma sesión «se recuperarla» (2770:4) sí se corrigió, porque allí el «sería» de la misma oración fija la lectura como «recuperaría»; acá no hay paralelo que decida. §79."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2797:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«vota por mantener la TPM en su actual nivel de 0,50% y, junto con ello, por proceder al retiro de la ALAR en los términos señalados e informar de esta decisión al mercado» — «ALAR» aparece una sola vez en las 9.724 filas y no corresponde a ninguna facilidad del Banco. Todo el contexto apunta a la FLAP: la sigla aparece 121 veces, la misma sesión habla en 2798:1 del «retiro gradual de la FLAP hasta su extinción a mediados de mayo», y «en los términos señalados» remite a eso. Pero confundir FLAP con ALAR exige leer F como A y P como R a la vez, que no es una confusión de OCR plausible, y la forma canónica no está atestiguada en ninguna parte. Se marca para cotejo contra el PDF en lugar de sustituir por conjetura. §79."
     }
   ]
 }

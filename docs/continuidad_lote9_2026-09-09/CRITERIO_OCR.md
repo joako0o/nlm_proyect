@@ -5026,3 +5026,89 @@ nuevo `test_las_comillas_rectas_sueltas_no_aumentan`).
 
 Registro: **1.816 filas / 3.150 operaciones / 238 revisiones / 242 filas marcadas / 35
 `Marcas_Adicionales`**. Lecturas **6.400 de 9.724**, 79 de 132 sesiones.
+
+---
+
+## §79 — `2009-11-12` (Reunión N° 208): catorce operaciones y el ancla bloqueada por una operación previa
+
+**81 filas · 105.315 caracteres · 13 actores.** Lectura completa de las 81.
+
+### Cero cortes, verificados por offset
+
+La cola propuso cuatro netos. En lugar de leerlos a ojo se calcularon las fronteras acumuladas de los
+segmentos ya existentes y se ubicó cada offset:
+
+| neto | cae en | actor del segmento | neto decía |
+|---|---|---|---|
+| `2765@3104` | `2765:4` (frontera en 3101) | José De Gregorio | estricto = De Gregorio |
+| `2768@0` | `2768:1` (frontera exacta) | José De Gregorio | estricto = De Gregorio |
+| `2768@809` | `2768:3` (frontera en 807) | Enrique Marshall | estricto = Marshall |
+| `2779@223` | `2779:2` (frontera en 222) | Claudio Soto, seguido de `2779:3` Marshall | estricto = Soto, permisivo = Marshall |
+
+Los cuatro coinciden con lo que ya está partido, con 1 a 3 caracteres de imprecisión del propio neto.
+2b y 2c dieron 0 filas. De las firmas de 2d sólo «por su parte» (2) y minúscula inicial (2) propusieron
+algo; las tres filas se leyeron completas y son de una sola voz. En `2780:1` conviven «el señor Claudio
+Soto», «el señor Soto» y «el señor Gerente de Análisis Macroeconómico»: **la misma persona y su cargo**,
+no tres hablantes.
+
+### Catorce operaciones en seis filas
+
+Puntuación (7): punto omitido antes de un nuevo sujeto en `2770:2`, `2780:1`, `2793:1` y en el encabezado
+del Acuerdo de `2801:1`; punto que debía ser coma en `2780:1` («del 3%. por lo que») y en «el modelo Tar.
+por ejemplo»; separadores decimales con punto (`-1.9%`, `98.2`) donde la **misma oración** o la **misma
+sesión** usan coma (`0,2%`, `92,7`).
+
+Palabras (4): `senes`→`series` (49 contra 1), `recuperarla`→`recuperaría` (el «sería» de la misma
+oración fija la lectura), `dias`→`días` (720 contra 5), `critico`→`crítico` (11 contra 1), más el «de»
+sobrante en «sería de aproximadamente de -0,6%».
+
+Letra (2): `han caldo`→`han caído` — de los 6 «caldo» del corpus, 5 son este defecto y sólo
+`2014-10-16:6483:1` es el legítimo «caldo de cultivo» — y el «que» omitido en «por lo está dentro de la
+banda» (18 contra 1).
+
+### Dos cosas que fijan criterio
+
+**La convención del encabezado de Acuerdo.** `2801:1` escribe «…-Tasa de Política Monetaria En su reunión
+mensual…», sin punto. No es intuición: **30 filas del corpus llevan ese encabezado** y todas las que
+continúan con el cuerpo lo escriben «Política Monetaria. En su reunión mensual». La convención está
+atestiguada, así que el punto se repone.
+
+**`Tar.` → `TAR,`.** La sesión no menciona la sigla en otra parte, así que decide el año (regla §65):
+`2009-07-09:2625:1`, del mismo 2009, la atestigua como «los modelos TAR son exactamente iguales».
+
+### Las dos marcas
+
+**`comenzarla` (`2790:1`).** «si sigue siendo válido que comenzarla un proceso de alzas». Hay **tres**
+reparaciones atestiguadas y todas caben: `comenzar` (102), `comenzara` (5), `comience` (58). La elección
+cambia la sintaxis de la cláusula, no una letra. Se marca. Nótese el contraste con `recuperarla` en la
+misma sesión, que sí se corrigió porque allí el «sería» de la misma oración decide.
+
+**`ALAR` (`2797:1`).** «por proceder al retiro de la ALAR en los términos señalados». Aparece una sola
+vez en 9.724 filas. Todo apunta a la FLAP (121 apariciones; `2798:1` habla del «retiro gradual de la
+FLAP hasta su extinción»), pero leer FLAP como ALAR exige confundir F con A **y** P con R a la vez, que
+no es una confusión de OCR plausible. Se marca en lugar de sustituir por conjetura.
+
+### El ancla bloqueada por una operación previa
+
+`2780:1` ya tenía una operación `IRC`→`IPC` que reemplaza las cuatro apariciones de «IRC» de la fila.
+El applier (`aplicar_a_texto`) exige que cada `Antes` aparezca el número declarado de veces **en el
+virgen y también en el estado intermedio**, precisamente para que dos operaciones de una fila no
+dependan una de otra. Una ancla de 56 caracteres alrededor de `-1.9%` habría contenido «IRC» y no habría
+existido después de la operación previa.
+
+La regla que queda: **el ancho de un ancla no es una elección, es lo que dejan las operaciones previas de
+la fila.** Aquí el corredor libre entre «IRC interanual» y «IRCX1» es de 26 caracteres y eso es lo que se
+usó. La validación correcta no es «el ancla es única en el virgen» sino **simular el orden real de
+aplicación completo** y comprobar los dos conteos en cada paso.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 1.818 `Texto_Corregido` no vacíos idénticos a los IDs del registro
+· 244 marcadas · `senes` **0**/50 · `recuperarla` **0**/6 · `critico` **0**/12 · `-1.9%` **0** · `98.2`
+**0** · `Tar.` **0** · `por lo está` **0**/19 · punto omitido antes de mayúscula en la sesión **0** · los
+2 punto+minúscula que quedan en la sesión son `EE.UU.`, legítimos · `dias` **0** y `caldo` **0** en la
+sesión (los 4 y 5 residuales del corpus están en otras sesiones) · familias de §73–§78 en **0**. Suite
+local **66 OK**.
+
+Registro: **1.818 filas / 3.164 operaciones / 238 revisiones / 244 filas marcadas / 37
+`Marcas_Adicionales`**. Lecturas **6.478 de 9.724**, 80 de 132 sesiones.

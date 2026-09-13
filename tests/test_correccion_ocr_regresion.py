@@ -107,8 +107,8 @@ COMILLAS_RECTAS_MAX = 3
 # palabras que ya estaban bien («presupuestaria» -> «presupuestaría»,
 # «exposiciones» -> «exposiciónes») y se eliminaron. Corregir un error propio no
 # puede medirse como pérdida.
-MIN_CORREGIDAS = 1816
-MIN_OPERACIONES = 3150
+MIN_CORREGIDAS = 1818
+MIN_OPERACIONES = 3164
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
