@@ -5112,3 +5112,76 @@ local **66 OK**.
 
 Registro: **1.818 filas / 3.164 operaciones / 238 revisiones / 244 filas marcadas / 37
 `Marcas_Adicionales`**. Lecturas **6.478 de 9.724**, 80 de 132 sesiones.
+
+---
+
+## §80 — `2012-04-17` (Reunión N° 184): cero cortes, una operación, y la corrección de un error mío de §79
+
+**81 filas · 85.351 caracteres · 12 actores.** Lectura completa de las 81.
+
+### Cero cortes
+
+Ninguna fila de la sesión está en la cola de 74; 2b y 2c dieron 0. De las firmas de 2d sólo cuatro
+propusieron algo —«por su parte» (1), «A continuación» (2), minúscula inicial (2), «responde/contesta» (6)—
+y las **11 filas se leyeron completas**:
+
+- En **5 de los 6** «responde/contesta» el que responde es el propio `Actor_Final` de la fila (criterio §78).
+- El sexto, `4764:1`, es un hipotético: «pregunta si se considera ocupado **a quien responde que trabajó**
+  una hora». Y «la economista señora Andrea Repetto» es objeto de «tal como **lo ha señalado**», no hablante.
+- `4734:1` es apertura más traspaso puro: Vergara ofrece la palabra a Lehmann y la fila termina ahí.
+- `4755:1` es la solicitud de Vergara a Soto; Soto no habla en esa fila (144 caracteres).
+- `4741:1` y `4746:1` son la presentación de Lehmann bajo su nombre y bajo su cargo («el señor Gerente de
+  Análisis Internacional»), una sola voz.
+
+**Barrido inverso propio.** Además de los detectores se barrió toda la sesión buscando *cualquier* verbo de
+habla cuyo sujeto no fuera el actor de la fila. Dio exactamente **una** candidata: `4780:1`, «El señor
+Gerente de División Estudios manifiesta que…». Ese cargo es el del actor, Luis Óscar Herrera: el corpus lo
+atestigua **244 veces** y la propia fila lo ata al cerrar con «El Gerente de División Estudios señor Luis
+Óscar Herrera concluye su exposición».
+
+### Una sola operación
+
+`4780:1`: «indican que el consumo privado **y que** la inversión fija muestran señales de moderación». El
+segundo «que» sobra porque el verbo «muestran» es plural y rige sobre los dos sujetos a la vez. La prueba es
+el propio corpus: la construcción «que X y que Y» aparece **20 veces** y en las otras **19 cada cláusula
+trae su propio verbo** («que las primas de riesgo se han elevado y que los precios de las materias primas han
+caído»). Ésta es la única con un solo verbo plural compartido. `PALABRA_SOBRANTE`.
+
+Lo demás está limpio: 23 hapax, todos palabras legítimas; los 3 candidatos del acento son legítimos
+(`Bank of America`, `trabajó`, «con la **venia** del Consejo»); el único punto seguido de minúscula es
+`S.E.`; sin palabras duplicadas; comillas balanceadas; los 75 `_` de la sesión son la línea separadora del
+encabezado del acta (957 en el corpus, una por acta); los tres finales en coma son cortes de página donde la
+oración sigue en la fila siguiente.
+
+### Corrección de un error mío de §79
+
+En §79 repuse un punto en `2009-11-12:2801:1` («…Tasa de Política Monetaria**.** En su reunión mensual…»)
+afirmando que «30 filas del corpus» lo atestiguaban. **Ese recuento estaba sesgado**: el regex que usé
+(`-Tasa de Política Monetaria`) sólo capturaba la variante del código con guion *sin* espacios. Medido sobre
+las dos variantes:
+
+| variante del código de Acuerdo | con punto | sin punto |
+|---|---|---|
+| guion con espacios (`… - Tasa`) | 17 | **59** |
+| guion sin espacios (`…-Tasa`) | 12 | 6 |
+| **total** | **29** | **65** |
+
+En el corpus manda **no** poner el punto. Y la causa no es el OCR sino la maquetación: en el PDF el
+encabezado es una línea de título y el cuerpo empieza en el párrafo siguiente; al aplanar el salto de línea
+quedó un espacio. Reponer el punto sería inventar puntuación en un caso que no es inequívoco, y la política
+es corregir sólo casos inequívocos. **Se revierte la operación** y se deja constancia en
+`Marcas_Adicionales` como `NO_REQUIERE_COTEJO` (que se registra sin engrosar `Cotejar_PDF`). La fila
+conserva su otra operación, la comilla `"`→`”`.
+
+**Lección: antes de invocar una convención del corpus, comprobar que el regex que la mide no selecciona una
+variante.** Un recuento hecho sobre un subconjunto parece unánime.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 1.818 `Texto_Corregido` no vacíos idénticos a los IDs del registro ·
+244 marcadas · la familia nueva en **0** · la reversión visible en el texto efectivo (`2801:1` vuelve a
+leerse sin el punto, y su comilla sigue corregida) · familias de §73–§79 en **0** · residuo de comillas
+rectas sigue en **1**, el deliberado. Suite local **66 OK**.
+
+Registro: **1.818 filas / 3.164 operaciones / 238 revisiones / 244 filas marcadas / 38
+`Marcas_Adicionales`**. Lecturas **6.556 de 9.724**, 81 de 132 sesiones.

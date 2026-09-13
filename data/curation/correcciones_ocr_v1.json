@@ -5473,6 +5473,14 @@
           "Despues": " ",
           "Contexto": "en en esta oportunidad, lo que lleva a no recomendar la opción de elevar la TPM. Sesión N° 184 Página 17 de 26 Hace presente que las expectativas privadas tampoco proyecta",
           "Justificacion": "Residuo de paginacion del PDF incrustado en medio de la oracion. Medido: 26 apariciones, 24 con la cabecera \"Sesion N° N\" delante y 2 como pie de pagina del Comunicado (\"Pagina 31 de 31\"). \"Sesion N° N\" aparece 25 veces en el corpus y solo 24 van seguidas de Pagina, de modo que el patron exige ambos y no toca ninguna mencion legitima. Se elimina el residuo y se deja un solo espacio donde la oracion continua."
+        },
+        {
+          "Tipo": "PALABRA_SOBRANTE",
+          "Antes": "indican que el consumo privado y que la inversión fija muestran",
+          "Despues": "indican que el consumo privado y la inversión fija muestran",
+          "Ocurrencias": 1,
+          "Contexto": "aún no se consolida. Añade que los antecedentes parciales disponibles indican que el consumo privado y que la inversión fija muestran señales de moderación en los primeros dos meses del año, principalmen",
+          "Justificacion": "«los antecedentes parciales disponibles indican que el consumo privado y que la inversión fija muestran señales de moderación en los primeros dos meses del año» — el segundo «que» sobra: el verbo «muestran» es plural y rige sobre los dos sujetos a la vez, así que no hay dos cláusulas que coordinar. La prueba es el propio corpus: la construcción «que X y que Y» aparece 20 veces y en las otras 19 cada cláusula trae su propio verbo («que las primas de riesgo se han elevado y que los precios de las materias primas han caído»); ésta es la única con un solo verbo plural compartido. §80."
         }
       ]
     },
@@ -10842,14 +10850,6 @@
           "Despues": "”",
           "Contexto": "ción proyectada se ubique en 3% en el horizonte de política.\" 12,11.2009 31.",
           "Justificacion": "Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte."
-        },
-        {
-          "Tipo": "PUNTUACION",
-          "Antes": "112-Tasa de Política Monetaria En su reunión mensual de ",
-          "Despues": "112-Tasa de Política Monetaria. En su reunión mensual de ",
-          "Ocurrencias": 1,
-          "Contexto": "ito de lo anterior, el Consejo adopta el siguiente Acuerdo: 146-01-091112-Tasa de Política Monetaria En su reunión mensual de política monetaria, el Consejo del Banco Central de Chile acordó mante",
-          "Justificacion": "«Acuerdo: 146-01-091112-Tasa de Política Monetaria En su reunión mensual de política monetaria» — falta el punto que cierra el encabezado del Acuerdo. Es convención del corpus: 30 filas llevan ese encabezado y todas las que continúan con el cuerpo lo escriben «Política Monetaria. En su reunión mensual»."
         }
       ]
     },
@@ -37226,6 +37226,11 @@
       "ID_Intervencion": "RPM-2009-11-12:2797:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "«vota por mantener la TPM en su actual nivel de 0,50% y, junto con ello, por proceder al retiro de la ALAR en los términos señalados e informar de esta decisión al mercado» — «ALAR» aparece una sola vez en las 9.724 filas y no corresponde a ninguna facilidad del Banco. Todo el contexto apunta a la FLAP: la sigla aparece 121 veces, la misma sesión habla en 2798:1 del «retiro gradual de la FLAP hasta su extinción a mediados de mayo», y «en los términos señalados» remite a eso. Pero confundir FLAP con ALAR exige leer F como A y P como R a la vez, que no es una confusión de OCR plausible, y la forma canónica no está atestiguada en ninguna parte. Se marca para cotejo contra el PDF en lugar de sustituir por conjetura. §79."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2801:1",
+      "Marca": "NO_REQUIERE_COTEJO",
+      "Motivo": "«Acuerdo: 146-01-091112-Tasa de Política Monetaria En su reunión mensual de política monetaria» — en §79 repuse aquí un punto apoyándome en un recuento que estaba sesgado: el regex que usé (-Tasa de Política Monetaria) sólo capturaba la variante del código con guion sin espacios. Medido bien, el encabezado de Acuerdo tiene dos variantes con convenciones distintas —guion con espacios: 17 con punto y 59 sin punto; guion sin espacios: 12 con punto y 6 sin punto—, o sea 29 con punto contra 65 sin punto en todo el corpus. La causa además no es el OCR sino la maquetación: en el PDF el encabezado es una línea de título y el cuerpo empieza en el párrafo siguiente, y al aplanar el salto de línea quedó un espacio. Reponer el punto sería inventar puntuación en un caso que no es inequívoco. Se revierte la operación y se deja constancia. §80."
     }
   ]
 }

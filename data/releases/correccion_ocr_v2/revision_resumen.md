@@ -17,7 +17,7 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 | `ESPACIO_INDEBIDO` | 507 |
 | `PALABRA_PARTIDA` | 496 |
 | `ACENTO_INDEBIDO` | 391 |
-| `PUNTUACION` | 277 |
+| `PUNTUACION` | 276 |
 | `SIMBOLO_SUELTO` | 259 |
 | `ACENTO_FALTANTE` | 192 |
 | `FIRMA_TRUNCADA` | 55 |
@@ -27,7 +27,7 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 | `PALABRA_OMITIDA` | 24 |
 | `PALABRA_DUPLICADA` | 16 |
 | `SALTOS_DE_LINEA` | 10 |
-| `PALABRA_SOBRANTE` | 4 |
+| `PALABRA_SOBRANTE` | 5 |
 
 ## Muestra aleatoria de 30 filas (semilla 20260911)
 
