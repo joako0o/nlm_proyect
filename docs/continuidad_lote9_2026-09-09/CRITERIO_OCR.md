@@ -4346,3 +4346,77 @@ que dejó `periodo` junto a `período`. No se tocó.
 
 Registro: **1.775 filas / 3.049 operaciones / 212 revisiones / 233 filas marcadas**.
 Lecturas **5.592 de 9.724**, 69 de 132 sesiones.
+
+## §69 — Sesión 2011-01-13: la señal estricta sobre un padre ya partido, y un texto perdido antes de un cambio de hablante
+
+Ochenta y nueve filas, trece actores, 92.332 caracteres. **Ningún corte.**
+
+La cola tenía un caso, el padre **3650**, y con **señal estricta** —la más fuerte de las seis que usa
+el detector. Leída la fila, el corte **ya está hecho en la base**:
+
+| segmento | actor | largo | ancla |
+|---|---|---|---|
+| `3650:1` | Sergio Lehmann | 103 ch | propia |
+| `3650:2` | Luis Óscar Herrera | 280 ch | `None` |
+
+«El Gerente de Análisis Internacional señor Sergio Lehmann confirma lo expresado por el señor
+Presidente» / «**y** el Gerente de División Estudios señor Luis Óscar Herrera, **por su parte**,
+explica que…». El detector señala el padre completo, no sus segmentos: **una señal estricta sobre un
+padre que ya está partido no es un corte pendiente.** El padre 3651 viene igual (`3651:1` De Gregorio,
+`3651:2` Lehmann).
+
+2b dio un caso, falso: en `3654:1` el Vicepresidente Marfán es el objeto de «manifiesta coincidir con
+las aprensiones **planteadas por**». El barrido independiente dio dos, falsas por el mismo motivo: en
+`3655:2` el Consejero Claro es el objeto de «manifiesta concordar con lo planteado por». Las 10 filas
+de más de 2.500 caracteres son monólogos.
+
+### Dos correcciones que sólo el método de palabras únicas encontró
+
+Los detectores de acento, partida y deletreada dieron **cero** en esta sesión. Las dos salieron del
+censo de palabras que aparecen una sola vez en las 9.724 filas (§67):
+
+**`3699:1`**: «las tasas **svjap** han tendido a aumentar» — `swap` con tres letras cambiadas. El
+corpus tiene **156 «swap», 61 «swaps», 8 «Swap», 11 «Swaps»** y **1 «svjap»**. En la misma fila se
+habla de tasas de swap, que es el instrumento de que se trata.
+
+**`3711:1`**: «una serie de precios que **sé** indexan rápidamente al tipo de cambio» — tilde
+indebida en el pronombre. En todo el corpus hay sólo dos «sé» acentuados y el otro es legítimo
+(«**per sé**», `RPM-2009-03-12:2430:1`), así que éste es el único caso dañado.
+
+### Un texto perdido justo antes de un cambio de hablante
+
+`3670:1` (Herrera) termina así:
+
+> «…bienes de consumo durables, que tienen trayectorias caracterizadas por caídas violentas del orden
+> de 20%, **y recuperaciones también**»
+
+Sin puntuación y a mitad de frase: falta el complemento de «también» (violentas, bruscas, rápidas).
+**No es un corte por intervención.** La fila siguiente, `3670:2`, es otro hablante (Claudio Soto) y
+tiene su propia ancla, así que en el original eran dos párrafos distintos y lo que se perdió está
+dentro de ésta. No se puede reponer inventando el adjetivo ni cerrar con un punto, que taparía la
+pérdida. Marca 28.
+
+Es un caso distinto del §66: allí el conector en mayúscula pegaba dos párrafos dentro de una misma
+fila; aquí la pérdida queda al final de una fila que ya está bien delimitada.
+
+### Tres finales sin puntuación, sólo uno defectuoso
+
+- `3646:1` cierra en coma y `3646:2` empieza con «**lo cual** es confirmado por el Gerente…» →
+  legítimo (§63).
+- `3650:1` cierra sin punto y `3650:2` empieza con «**y** el Gerente…» → legítimo, la oración
+  continúa al otro lado del corte.
+- `3670:1` → el caso anterior, marcado.
+
+### Una palabra rara que se dejó
+
+`3709:1`: «las alzas de la carne de vacuno y de los **plumíferos**, en particular el pollo». La
+palabra es infrecuente para hablar de aves, pero está bien formada y el OCR no produce palabras bien
+formadas a partir de daño. Se dejó.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · «svjap» **0** · «que se indexan» **1** · «que sé indexan»
+**0** · «per sé» **1** intacto. Suite local **61 OK**.
+
+Registro: **1.776 filas / 3.051 operaciones / 212 revisiones / 234 filas marcadas**.
+Lecturas **5.675 de 9.724**, 70 de 132 sesiones.

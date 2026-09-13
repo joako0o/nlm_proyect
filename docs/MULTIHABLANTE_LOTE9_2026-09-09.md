@@ -437,6 +437,8 @@ Para leer una sesión entera al margen del plan:
 
 | 242–250 | 2012-02-14 | 90 | **sesión cerrada 85/85** (5 ya estaban anotadas) · 12 actores · el único caso de la cola, el padre 4574, es **la apertura de la Reunión 182 y es un solo hablante**: da la bienvenida al nuevo Consejero Vial, menciona la renovación de Marfán como Vicepresidente, deja constancia de que el Ministro Larraín «le informó» que solo asistirá a la segunda parte, y da paso a Ricaurte — bienvenida, mención, objeto de un verbo y traspaso, nada de eso es intervención; 2b dio 3 casos, los tres falsos (Vergara es objeto de «respondiendo la consulta formulada por» dos veces y «el Gerente Subrogante» es el propio Ricaurte); 15 filas largas, todas monólogos → **ningún corte** (§68) |
 
+| 251–259 | 2011-01-13 | 89 | **sesión cerrada 83/83** (6 ya estaban anotadas) · 13 actores · la cola tenía un caso con **señal estricta**, el padre 3650, pero **ya viene partido en la base** (3650:1 Lehmann 103 ch / 3650:2 Herrera 280 ch sin ancla), igual que el padre 3651 — una señal estricta sobre un padre ya partido no es un corte pendiente; 2b dio 1 caso y el barrido independiente 2, los tres falsos porque Marfán y Claro son objeto de «planteadas por»; 10 filas largas, todas monólogos → **ningún corte** (§69) |
+
 Para anotar una ronda leída:
 
 ```

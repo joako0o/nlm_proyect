@@ -27445,6 +27445,14 @@
           "Despues": "oce meses—, así como ",
           "Contexto": "una inflación subyacente que continúa muy baja —de 0,1% en doce meses— , así como los riesgos externos que persisten. Hace presente que el Ban",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "a como Chile, donde hay una serie de precios que sé indexan rápidamente al tipo de cambio, como es e",
+          "Despues": "a como Chile, donde hay una serie de precios que se indexan rápidamente al tipo de cambio, como es e",
+          "Ocurrencias": 1,
+          "Contexto": "as, porque su transmisión a precios es muy rápida particularmente en una economía como Chile, donde hay una serie de precios que sé indexan rápidamente al tipo de cambio, como es el caso del precio de los combustibles. Plantea, asimismo, que existe otra fuente",
+          "Justificacion": "Tilde indebidamente agregada al pronombre: «una serie de precios que sé indexan rápidamente al tipo de cambio». «sé» acentuado es el verbo saber o el imperativo de ser; aquí es el pronombre reflexivo «se». En todo el corpus hay solo dos «sé» acentuados y el otro es legítimo («per sé», RPM-2009-03-12:2430:1), así que este es el único caso dañado."
         }
       ]
     },
@@ -34521,6 +34529,19 @@
           "Justificacion": "Falta la «s» del artículo: «a pesar de la rebajas de calificación de riesgo comentadas». El sustantivo va en plural («las rebajas … comentadas») y de hecho tres oraciones antes la misma fila dice «continuaron las rebajas de clasificación de riesgo». Es el único caso del corpus de «de la» seguido de plural."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-01-13:3699:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "anuncio de emisión de deuda, y que las tasas svjap han tendido a aumentar. Destaca que al compa",
+          "Despues": "anuncio de emisión de deuda, y que las tasas swap han tendido a aumentar. Destaca que al compa",
+          "Ocurrencias": 1,
+          "Contexto": "de interés de los bonos registraron importantes alzas tras la intervención y el anuncio de emisión de deuda, y que las tasas svjap han tendido a aumentar. Destaca que al comparar el movimiento de las tasas largas con el observado en el episodio anterior, ",
+          "Justificacion": "«las tasas svjap han tendido a aumentar» — «swap» con tres letras leídas como otras: la «w» como «j», la «a» como «v» y conservada la «s». El corpus tiene 156 «swap», 61 «swaps», 8 «Swap» y 11 «Swaps», y «svjap» aparece una sola vez en las 9.724 filas. En la misma sesión y en la misma fila se habla de tasas de swap, que es el instrumento de que se trata."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -35933,6 +35954,11 @@
       "ID_Intervencion": "RPM-2012-02-14:4573:1",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Motivo": "§68: «Gerente de Mercados Nacionales Subrogante, doña Claudia Sotz Pantoja». El apellido «Sotz» aparece una sola vez en las 9.724 filas y no hay forma canónica atestiguada que lo supere: el corpus tiene «Claudia Varela» (2 veces, otra persona) y ninguna «Claudia Soto». Podría ser «Soto» dañado, pero «o» por «z» no es una confusión que el OCR haga en ninguna otra parte del registro, y normalizar sin forma atestiguada es justo lo que las reglas de nombres prohíben (§34, §58). Se deja el nombre intacto para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2011-01-13:3670:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§69: la fila termina a mitad de frase y sin puntuación: «…bienes de consumo durables, que tienen trayectorias caracterizadas por caídas violentas del orden de 20%, y recuperaciones también». Falta el complemento de «también» (violentas, bruscas, rápidas). No es un corte por intervención: la fila siguiente, RPM-2011-01-13:3670:2, es otro hablante (Claudio Soto) y tiene su propia ancla, así que en el original eran dos párrafos distintos y lo que se perdió está dentro de ésta. No se puede reponer inventando el adjetivo ni cerrando con un punto, que taparía la pérdida. Se deja para el cotejo con el PDF."
     }
   ]
 }
