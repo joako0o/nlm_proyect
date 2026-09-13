@@ -4771,3 +4771,89 @@ revertidas en §73 siguen en **0** (`presupuestaría`, `exposiciónes`). Suite l
 
 Registro: **1.772 filas / 3.063 operaciones / 237 revisiones / 238 filas marcadas**.
 Lecturas **6.082 de 9.724**, 75 de 132 sesiones.
+
+---
+
+## §75 — Sesión 2011-08-18: tres familias transversales de signos que sustituyen letras
+
+Sesión de 84 filas, 13 actores, 95.299 caracteres. **Cero cortes.**
+
+Los dos casos de la cola traían señal **estricta**, la más fuerte, y aun así eran falsos: caen sobre
+padres **ya partidos** — 4220 en 3 segmentos (De Gregorio / Lehmann / Herrera) y 4233 en 2 (Herrera /
+Lehmann). Es la **tercera acta seguida** en que la cola sólo propone sobre padres ya partidos: la red
+trabaja sobre el texto del padre original, que conserva la versión sin partir, así que vuelve a
+proponer cortes que un lote anterior ya hizo. 2b dio 2 casos y ambos son falsos: en `4266:1` Sebastián
+Claro es el **objeto** de «Ante una consulta del Consejero señor Sebastián Claro», y en `4279:1`
+Marshall es objeto de un agradecimiento mientras «Por su parte, el señor Presidente» es el propio De
+Gregorio, el `Actor_Final` de la fila. 2c en cero y las 8 lecturas obligatorias de 2d también falsas.
+
+### Familia 1 — el signo de exclamación en lugar de una letra (44 ocurrencias, 40 filas)
+
+El barrido de hapax de esta sesión dio `¡guales`. Al mirar la familia completa apareció un patrón
+grande y limpio: el OCR lee una **«i» o una «l» minúscula de inicio de palabra como el signo de
+exclamación de apertura**.
+
+| dañado | reparado | oc. | atestiguado |
+|---|---|---|---|
+| `¡ncertidumbre(s)` | `incertidumbre(s)` | 13 | 790 / 79 |
+| `¡do` | `ido` | 9 | 308 |
+| `¡dea` | `idea` | 4 | 136 |
+| `¡mplementación` | `implementación` | 3 | 55 |
+| `¡os` | `los` | 3 | 31.126 |
+| `¡as` | `las` | 2 | 28.633 |
+| `¡liquidez` | `iliquidez` | 2 | 11 |
+| `¡nteranual(es)`, `¡ndexación`, `¡guales`, `¡ría`, `¡unes`, `¡temes` | sin «¡» | 6 | 146/79/160/28/4/17/2 |
+
+Se verificó contra el **virgen** antes de tocar nada (la lección de §73): 46 ocurrencias en el virgen
+contra 44 en el efectivo — el daño viene del OCR, y 2 ya las habían arreglado operaciones previas.
+
+`¡ji` mereció capítulo aparte: «Se levanta la Sesión **¡ji** las 17:15 horas». Parecía ambigua hasta
+que censé la fórmula completa — «Se levanta la Sesión **a las** HH:MM horas» aparece 90+ veces, 4 de
+ellas exactamente «a las 17:15 horas». Con la fórmula fija, la lectura es única.
+
+### Familia 2 — «ei» en lugar del artículo «el» (14 ocurrencias, 13 filas)
+
+Salió de rebote, leyendo el contexto de un `¡os`: «genera preocupación **ei** que…». Todas van seguidas
+de un sustantivo masculino («ei Consejo», «ei riesgo», «ei mes», «ei paro», «ei año 2016»), así que no
+hay otra lectura. Dos ya estaban corregidas por operaciones anteriores, y el constructor las detectó y
+las omitió.
+
+### Familia 3 — viñetas del PDF (2 ocurrencias)
+
+`►` aparece 2 veces en 9.724 filas, siempre entre dos oraciones completas: «…más bien negativos. **►**
+A modo de resumen…» y «…en el corto plazo. **►. _ /** Agrega que…». Es maquetación, no texto.
+
+### Lo que se marcó en vez de corregirse
+
+Las otras dos variantes de la fórmula de cierre **no** se repararon:
+
+- `2005-01-11:57:1` — «Se levanta la Sesión a las **J** 7.50 horas». La «J» ocupa el lugar de un
+  dígito. «17.50» es la lectura probable, pero reponer un dígito dañado es adivinar. Marca
+  `CIFRA_INCONSISTENTE_POR_COTEJAR`.
+- `2005-02-10:139:1` — «Se levanta la Sesión **horas. 17.40.**». La hora no falta: está
+  **desplazada**. Reordenar no es reemplazar, y el aplicador es un `str.replace` literal, así que no
+  hay tipo que lo exprese sin riesgo de duplicar texto. Marca `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+
+### Dos errores del constructor que los chequeos atraparon
+
+1. **Anclas demasiado anchas que pisaban operaciones existentes** (6 casos). En tres de ellas la
+   operación existente ya corregía *el mismo* daño — `4827:1` ya tenía `¡do`→`ido` y `4360:2` ya
+   tenía `ei`→`el` — lo que explica por qué el virgen tenía 15 «ei» y el efectivo 14. El constructor
+   ahora calcula las zonas ocupadas y las omite.
+2. **El chequeo de zonas sólo se aplicaba durante la expansión, no al tramo inicial.** Por eso
+   `ei que` (850–856) y `ue ¡os` (854–860) se solapaban en la misma fila. Corregido: el tramo inicial
+   también se valida.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 240 marcadas · y en el texto efectivo, todas en **0**:
+`¡+minúscula` **0** (residual de la familia completa) · `ei` suelto **0** · `►` **0** · `a Ias17` **0**,
+con `las 17` en 76. Las formas reparadas subieron a `incertidumbre` 802, `ido` 317, `idea` 140,
+`implementación` 58, `interanual` 147, `indexación` 161, `iguales` 29, `iliquidez` 13.
+
+Suite local **65 OK** — el test nuevo `test_no_quedan_letras_sustituidas_por_signos` usa expresión
+regular y no subcadenas: «ei» como subcadena daría miles de falsos positivos dentro de «reino»,
+«seis» o «veinte».
+
+Registro: **1.806 filas / 3.127 operaciones / 238 revisiones / 240 filas marcadas / 32
+`Marcas_Adicionales`**. Lecturas **6.162 de 9.724**, 76 de 132 sesiones.

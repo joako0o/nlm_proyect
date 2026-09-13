@@ -107,8 +107,8 @@ COMILLAS_RECTAS_MAX = 3
 # palabras que ya estaban bien («presupuestaria» -> «presupuestaría»,
 # «exposiciones» -> «exposiciónes») y se eliminaron. Corregir un error propio no
 # puede medirse como pérdida.
-MIN_CORREGIDAS = 1772
-MIN_OPERACIONES = 3063
+MIN_CORREGIDAS = 1806
+MIN_OPERACIONES = 3127
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -678,6 +678,34 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         self.assertNotIn(perdida, corregidas['RPM-2006-10-12:881:1'],
                          'la primera operación seguía aplicada; la segunda '
                          'entrada no la sobrescribió')
+
+    def test_no_quedan_letras_sustituidas_por_signos(self):
+        """§75: tres familias en que un signo ocupa el lugar de una letra.
+
+        Se comprueban con expresión regular y no como entradas de
+        ``FORMAS_EN_CERO`` porque esas cuentan subcadenas: «ei» daría miles de
+        falsos positivos dentro de «reino», «seis» o «veinte», y listar las 16
+        variantes de «¡» no cubriría las que aparezcan después.
+
+        - «¡» + minúscula: el OCR lee una «i» o una «l» de inicio de palabra
+          como el signo de exclamación de apertura («¡ncertidumbre», «¡os»).
+          44 ocurrencias en 40 filas.
+        - «ei» suelto: la «l» del artículo leída como «i». 14 en 13 filas.
+        - «►»: viñeta de lista del PDF metida en el texto.
+        """
+        patrones = {
+            'signo de exclamación por letra': re.compile(r'¡[a-záéíóú]{2,}'),
+            '«ei» por el artículo «el»': re.compile(r'(?<![A-Za-zÁÉÍÓÚáéíóú])ei(?![A-Za-zÁÉÍÓÚáéíóú])'),
+            'viñeta del PDF': re.compile(r'►'),
+        }
+        restos = {}
+        for nombre, pat in patrones.items():
+            n = sum(len(pat.findall(t)) for t in self.salida.values())
+            if n:
+                restos[nombre] = n
+        self.assertEqual({}, restos,
+                         'familias de signos que sustituyen letras volvieron a '
+                         f'aparecer en la salida: {restos}')
 
     def test_las_marcas_usan_el_vocabulario_cerrado(self):
         for marcas in self.marcas.values():

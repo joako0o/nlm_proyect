@@ -5535,6 +5535,14 @@
           "Despues": "reció 10,1% anual, tr",
           "Contexto": "omía china mostró señales mixtas. La producción industrial creció 10,1 % anual, tras el 9,6% de octubre, mientras que las ventas minoristas cr",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "n europea y la desaceleración de los mercados emergentes, así como la ¡ncertidumbre que aún persiste. En este contexto parece necesario mantener la tasa ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -5603,6 +5611,14 @@
           "Ocurrencias": 1,
           "Contexto": "mbargo, sigue en niveles bajos en términos históricos. En materia de inflación, índica que el registro del mes de marzo sorprendió nuevamente ",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ría",
+          "Despues": "iría",
+          "Ocurrencias": 1,
+          "Contexto": "dría llevar incluso a revisar esas expectativas más a la baja, lo que ¡ría más allá del escenario que se anticipa en el último IPoM.",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 4 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -8917,6 +8933,14 @@
           "Ocurrencias": 1,
           "Contexto": "ón a países de similares características, lo que tiene efectos sobre la paridad cambiaría. Con todo ello, expresa que las opciones que presenta la Ge",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "corto plazo. ►. _ / Agrega",
+          "Despues": "corto plazo. Agrega",
+          "Ocurrencias": 1,
+          "Contexto": "ctividad como del gasto, sea transitoria y se observe un rebote en el corto plazo. ►. _ / Agrega que un cambio en el diagnóstico representa costos que es mejor reduci",
+          "Justificacion": "«…un rebote en el corto plazo. ►. _ / Agrega que un cambio…» — residuo de maquetación del PDF: viñeta «►», punto suelto, guion bajo y barra. No es texto y sobra entre dos oraciones completas. §75."
         }
       ]
     },
@@ -9257,6 +9281,14 @@
           "Ocurrencias": 1,
           "Contexto": "a -4,4% en el primer trimestre de este año, responde a la revisión a la baja de ios datos de edificación, en tanto que la referida al segun",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " ei",
+          "Despues": " el",
+          "Ocurrencias": 1,
+          "Contexto": "resalta la recuperación de las exportaciones en el mes de febrero tras ei paro portuario, al pasar de tasas de crecimiento cercanas a -18% a un",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
     },
@@ -9348,6 +9380,14 @@
           "Ocurrencias": 1,
           "Contexto": "o, teniendo presente que ese Banco Central mantiene un programa de intervención cambiaría permanente por montos reducidos, correspondientes a US$ 1.0",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": " caso de las empresas tecnológicas, lo que ha generado algún grado de ¡ncertidumbre en los mercados. El señor Sergio Lehmann continúa, haciendo referenci",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -9859,6 +9899,14 @@
           "Ocurrencias": 1,
           "Contexto": "s continúa plenamente vigente, razón por la que. en su opinión, en esta oportunidad",
           "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ndexación",
+          "Despues": "indexación",
+          "Ocurrencias": 1,
+          "Contexto": " la dinámica de los salarios obedece principalmente a un mecanismo de ¡ndexación de inflación pasada, que, a su vez, sería sustancialmente menor que e",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 160 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -10114,6 +10162,14 @@
           "Despues": " 4,8 -4,9%. Destaca, ",
           "Contexto": "la inflación, muy por debajo de las proyecciones internas de 4,8 -4,9% . Destaca, asimismo, que la inflación esperada para el período noviembr",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": "omposición, particularmente en el dato del mes de octubre. En efecto, ei dato efectivo del componente servicios SAE fue 0,2 puntos porcentuale",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
     },
@@ -11251,6 +11307,14 @@
           "Despues": "",
           "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17:55 horas. JORGE DESORMEAUX JIMÉNEZ JOSÉ DE GREGORIO REBECO Vicepresid",
           "Justificacion": "Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre \"Se levanta la Sesion a las HH:MM horas\", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como \"ENRIQUE MARSHALL RIVERA\" 4 veces, como \"E MARSHALL RIVERA\" 15 veces y como \"EI)fRIQUE MARSHALL RIVERA\"; otros bloques quedan como \"rORTO CORBO LIOIV\" o \"J U A f ^ T E B ^ LAVÁL ZALDÍVAR li\". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "a Ias17:55 horas",
+          "Despues": "a las 17:55 horas",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17:55 horas. JORGE DESORMEAUX JIMÉNEZ JOSÉ DE GREGORIO REBECO Vicepresidente Pres",
+          "Justificacion": "«Se levanta la Sesión a Ias17:55 horas» — la «I» mayúscula sustituye a la «l» y falta el espacio entre el artículo y la cifra. La fórmula está atestiguada 90+ veces como «a las HH:MM horas». §75."
         }
       ]
     },
@@ -11265,6 +11329,14 @@
           "Despues": "",
           "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17:30 horas. JORGE DESORMEAUX JIMÉNEZ JOSÉ DE GREGORIO REBECO Vicepresid",
           "Justificacion": "Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre \"Se levanta la Sesion a las HH:MM horas\", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como \"ENRIQUE MARSHALL RIVERA\" 4 veces, como \"E MARSHALL RIVERA\" 15 veces y como \"EI)fRIQUE MARSHALL RIVERA\"; otros bloques quedan como \"rORTO CORBO LIOIV\" o \"J U A f ^ T E B ^ LAVÁL ZALDÍVAR li\". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "a Ias17:30 horas",
+          "Despues": "a las 17:30 horas",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17:30 horas. JORGE DESORMEAUX JIMÉNEZ JOSÉ DE GREGORIO REBECO Vicepresidente Pres",
+          "Justificacion": "«Se levanta la Sesión a Ias17:30 horas» — la «I» mayúscula sustituye a la «l» y falta el espacio entre el artículo y la cifra. La fórmula está atestiguada 90+ veces como «a las HH:MM horas». §75."
         }
       ]
     },
@@ -11279,6 +11351,14 @@
           "Despues": "",
           "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17;25 horas. JORGE DESORMEAUX JIMÉNEZ Vicepresidente Presidente.",
           "Justificacion": "Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre \"Se levanta la Sesion a las HH:MM horas\", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como \"ENRIQUE MARSHALL RIVERA\" 4 veces, como \"E MARSHALL RIVERA\" 15 veces y como \"EI)fRIQUE MARSHALL RIVERA\"; otros bloques quedan como \"rORTO CORBO LIOIV\" o \"J U A f ^ T E B ^ LAVÁL ZALDÍVAR li\". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "a Ias17;25 horas",
+          "Despues": "a las 17:25 horas",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17;25 horas. JORGE DESORMEAUX JIMÉNEZ Vicepresidente Presidente.",
+          "Justificacion": "«Se levanta la Sesión a Ias17;25 horas» — la «I» mayúscula sustituye a la «l» y falta el espacio entre el artículo y la cifra, y el separador «;» debe ser «:». La fórmula está atestiguada 90+ veces como «a las HH:MM horas». §75."
         }
       ]
     },
@@ -12804,6 +12884,14 @@
           "Ocurrencias": 1,
           "Contexto": "s de América, señala que se mantiene la ¡ncertidumbre con respecto al \"fiscal cliff\" y el techo de la deuda pública, y que conclu",
           "Justificacion": "Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "ado. En cuanto a Estados Unidos de América, señala que se mantiene la ¡ncertidumbre con respecto al \"fiscal cliff\" y el techo de la deuda pública, y que ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -14074,6 +14162,14 @@
           "Ocurrencias": 1,
           "Contexto": " Unidos de América y en las expectativas de consumidores y empresas de las principales zonas económicas. M Frente a las turbulencias financieras recientes, el cons",
           "Justificacion": "Letra mayúscula suelta entre dos oraciones. Es ruido de escaneo: la oración anterior termina en punto y la siguiente empieza con mayúscula y sentido completo, así que la letra no pertenece a ninguna de las dos. Medido: 17 casos en 17 filas, con las letras V, H, L, U, A, M, Y, B. Se revisaron uno por uno; el único que NO es residuo es RPM-2007-01-11:1055:1 (\"prolongado. A SU juicio\"), donde la A abre la oración legítimamente y el defecto es \"SU\" en mayúscula, que se trata aparte."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡liquidez",
+          "Despues": "iliquidez",
+          "Ocurrencias": 1,
+          "Contexto": "os mercados interbancarios globales no se han acentuado. El riesgo de ¡liquidez de fin de año se evitó con las intervenciones anticipadas y coordinad",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 11 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -16558,6 +16654,14 @@
           "Ocurrencias": 1,
           "Contexto": "o del cobre y otras materias primas sigue alto y que las condiciones de acceso a! financiamiento externo continúan siendo favorables. El ",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "a la crisis de esa región. Por otra parte, plantea que se mantiene la ¡ncertidumbre sobre la política fiscal en Estados Unidos de América en el año 2013,",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -16619,6 +16723,14 @@
           "Ocurrencias": 1,
           "Contexto": "esas no registran mayor variación en el último mes. Por otra parte, comenta que ios niveles de riesgo financiero han retrocedido y que las ",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": "ria del aporte del comercio, cuya expansión fue prácticamente nula en ei mes de enero. En términos sectoriales, hace notar la contracción que ",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
     },
@@ -16702,6 +16814,14 @@
           "Ocurrencias": 1,
           "Contexto": "PM previa; y que tasas más elevadas y mayores premios por riesgo han presionado ios precios de activos bursátiles a la baja en la mayor par",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": "conomías ratifican un crecimiento del primer trimestre algo menor que ei registrado al cierre del año 2014, en línea con lo consignado en el ú",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
     },
@@ -21577,6 +21697,14 @@
           "Ocurrencias": 1,
           "Contexto": " como de políticas monetarias crecientemente contractivas o avanzando hacía niveles neutrales en las economías emergentes, plantea que existe un ",
           "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡os",
+          "Despues": "los",
+          "Ocurrencias": 1,
+          "Contexto": "sidente señor Manuel Marfán advierte, sin embargo, que en lo interno, ¡os riesgos siguen siendo al alza para la inflación, para la actividad y ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 31126 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -22639,6 +22767,14 @@
           "Despues": "orno a 7%—, y que gra",
           "Contexto": "núa en niveles altos respecto de su promedio histórico —en torno a 7%— , y que gran parte de dicha aceleración obedecería a la respuesta index",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡unes",
+          "Despues": "lunes",
+          "Ocurrencias": 1,
+          "Contexto": "a Reunión anterior. En primer término, deja constancia que el próximo ¡unes 18 de mayo se publicarán los datos efectivos de cuentas nacionales co",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 17 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -24951,6 +25087,14 @@
           "Despues": " inflación.\nMientras ",
           "Contexto": "s visibles sobre los diversos indicadores de expectativas\nde inflación .\nMientras las compensaciones\ninflacionarias se\nmantuvieron\nesencialmen",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡liquidez",
+          "Despues": "iliquidez",
+          "Ocurrencias": 1,
+          "Contexto": "delicada y diversos indicadores siguen dando cuenta\nde una importante ¡liquidez y de un incremento significativo en la aversión al riesgo.\nSin\nembarg",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 11 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -25537,6 +25681,14 @@
           "Despues": "e mercado—, con un ma",
           "Contexto": "re el Imacec aumentó 2,7% — por debajo de las proyecciones de mercado— , con un marcado menor crecimiento del comercio, principalmente en su c",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡temes",
+          "Despues": "ítemes",
+          "Ocurrencias": 1,
+          "Contexto": " desempeño de los componentes transable e inversión, en particular de ¡temes ligados a la construcción. Respecto de este último sector, indicadore",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 1 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -27225,6 +27377,14 @@
           "Despues": "es quizás—, los probl",
           "Contexto": "omo ha venido sucediendo desde hace algunos meses o trimestres quizás— , los problemas se han mantenido acotados en la periferia europea y con",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡dea",
+          "Despues": "idea",
+          "Ocurrencias": 1,
+          "Contexto": " han visto correcciones importantes, ya que, por una parte, existe la ¡dea más o menos generalizada de que cierta escasez de petróleo en un mund",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 136 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -27552,6 +27712,14 @@
           "Despues": "n desde 12% a 14% en ",
           "Contexto": ", que incluyen la hidroelectricidad, también se incrementarán desde 12 % a 14% en igual período, mientras que el petróleo y carbón registrarán",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "tivo de refugio, cuya demanda ha disminuido en este contexto de menor ¡ncertidumbre, reflejándose en una caída marginal en el precio de este metal. En ma",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -27692,6 +27860,14 @@
           "Despues": "ña Poblete; Gerente d",
           "Contexto": " Logan; Gerente de División Estadísticas e, don Ricardo Vicuña Poblete ; Gerente de Análisis Macroeconómico Interino, don Miguel Fuentes Díaz;",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " ei",
+          "Despues": " el",
+          "Ocurrencias": 1,
+          "Contexto": "iago de Chile, a 13 de marzo de 2014, siendo las 11:30 horas, se reúne ei Consejo del Banco Central de Chile bajo la presidencia del titular do",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
     },
@@ -27993,6 +28169,14 @@
           "Despues": "y Francia—, consolida",
           "Contexto": "s Unidos de América y la Zona Euro — impulsada por Alemania y Francia— , consolidan los buenos niveles de expectativas en términos de crecimie",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡as",
+          "Despues": "las",
+          "Ocurrencias": 1,
+          "Contexto": "jo 50. En cuanto al índice de sorpresas, se observan mejoras en todas ¡as economías, a excepción de la Zona Euro, donde se encuentran estabiliz",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 28633 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -28113,6 +28297,14 @@
           "Despues": "ía a 0,11%, en línea ",
           "Contexto": "eptiembre, en tanto que el IPC del mes de diciembre alcanzaría a 0,11% , en línea con lo anticipado por el mercado. Por su parte, la inflación",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": " ajuste en el consumo y la inversión restarían 0,5% de crecimiento en ei año 2016, y con ello, la TPM se mantendría en 3,5% por un tiempo prol",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
         }
       ]
     },
@@ -28157,6 +28349,14 @@
           "Despues": "Reserva",
           "Contexto": " que como se sabe se encuentra generalmente influido por la Resen/a Técnica, lo que produce que esa tasa esté bajo la tasa de p",
           "Justificacion": "La OCR escribe esta letra como «/»: el corpus tiene Reserva y no tiene la forma con barra fuera de estos casos. Sustitución única que produce una palabra existente."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "encia efectúa una encuesta semanal a los operadores de mesa la que ha\n¡do mostrando cambios. Por ejemplo, durante este mes se movió primero 7% ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -29764,6 +29964,14 @@
           "Ocurrencias": 1,
           "Contexto": "e se ubican en 91 puntos base. El señor Diego Gianellí prosigue con su exposición haciendo ref",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Diego Gianelli» aparece 117 veces en la salida, contra 7 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡mplementación",
+          "Despues": "implementación",
+          "Ocurrencias": 1,
+          "Contexto": "eo. En cuanto a las reacciones en la Zona Euro luego del anuncio y la ¡mplementación del programa de relajamiento cuantitativo por parte del Banco Central",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 55 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
         }
       ]
     },
@@ -34570,6 +34778,480 @@
           "Justificacion": "«señala que a pesar que et dato sobre creación de empleo resultó algo más bajo que lo proyectado» — la «t» sustituye a la «l»: es «el dato». «et» no es palabra española en este contexto y es la única ocurrencia de ese token en las 9.724 filas, mientras «el dato» aparece 354 veces. Se deja en cambio «a pesar que» (62 en el corpus frente a 115 «a pesar de que»): la brecha de frecuencia por sí sola no convierte en error a la forma minoritaria. §74."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-12-14:1019:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡dea",
+          "Despues": "idea",
+          "Ocurrencias": 1,
+          "Contexto": "uarto trimestre registrará un crecimiento mayor, lo que reforzaría la ¡dea que la economía tomará un ritmo de mayor expansión hacia el próximo a",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 136 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-02-08:1103:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "Sesión ¡ji",
+          "Despues": "Sesión a",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión ¡ji las 17:15 horas.",
+          "Justificacion": "«Se levanta la Sesión ¡ji las 17:15 horas» — «¡ji» es basura en lugar de la preposición «a». La fórmula de cierre está atestiguada 90+ veces como «Se levanta la Sesión a las HH:MM horas», 4 de ellas exactamente «a las 17:15 horas», así que la lectura es única. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-02-12:2382:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "a Ias17:45 horas",
+          "Despues": "a las 17:45 horas",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión a Ias17:45 horas.",
+          "Justificacion": "«Se levanta la Sesión a Ias17:45 horas» — la «I» mayúscula sustituye a la «l» y falta el espacio entre el artículo y la cifra. La fórmula está atestiguada 90+ veces como «a las HH:MM horas». §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-03-17:3851:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "cimiento de los agregados menos líquidos, esto es, el M2 y el M3, han ¡do aumentando en el margen, fundamentalmente por la recuperación de los ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-04-12:3907:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "bien se mantienen el desalineamiento entre el petróleo WTI/Brent y la ¡ncertidumbre respecto de su evolución, los futuros anticiparían alguna moderación ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-07-14:4199:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "s riesgos inflacionarios que se detectaban a principios de año se han ¡do atenuando, al tener menores presiones de materias primas, una reducci",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4222:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡guales",
+          "Despues": "iguales",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Luis Óscar Herrera enfatiza que los resultados obtenidos son ¡guales al considerar uno u otro spread.",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 28 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4228:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "negativos. ► A modo",
+          "Despues": "negativos. A modo",
+          "Ocurrencias": 1,
+          "Contexto": " caso de China, donde los indicadores también resultaron ser más bien negativos. ► A modo de resumen, menciona que, en este contexto, la producción industrial ",
+          "Justificacion": "«…más bien negativos. ► A modo de resumen…» — el «►» es la viñeta de lista del PDF, no texto: queda entre dos oraciones completas y sobra. Sólo hay 2 «►» en las 9.724 filas. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4278:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "nentes de la canasta del IPC y que todo ello introduce algún grado de ¡ncertidumbre al momento de calibrar la trayectoria inflacionaria. Por otra parte, ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4708:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "da, que es el consumo privado, muestra que las tasas de velocidad han ¡do cayendo. Añade que si bien se esperó que la desaceleración del consum",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5125:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": " año 2011 un fuerte aumento de los permisos de edificación, que se ha ¡do atenuando a partir de esa fecha, lo que explica de alguna manera las ",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5159:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e la ¡mplementación",
+          "Despues": "e la implementación",
+          "Ocurrencias": 1,
+          "Contexto": "han hecho sus autoridades. Sin embargo, continúa la incertidumbre sobre la ¡mplementación de esas medidas, y no se puede descartar que vuelvan a recrudecer las",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 55 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ó la ¡mplementación",
+          "Despues": "ó la implementación",
+          "Ocurrencias": 1,
+          "Contexto": " medidas adicionales de estímulo monetario. En Estados Unidos se inició la ¡mplementación del denominado QE3. El dólar se ha depreciado en los mercados interna",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 55 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5227:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "consumo. En todo caso, consigna que en términos generales, si bien la ¡ncertidumbre es alta porque las señales han sido en cierto grado fluctuantes, pred",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5229:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": " asociado ya habría sido incorporado. En todo caso, hace notar que la ¡ncertidumbre reinante se ha traducido en un aumento bastante marginal de los CDS d",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5263:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡dea",
+          "Despues": "idea",
+          "Ocurrencias": 1,
+          "Contexto": "ctividad y bajo desempleo laboral, y que tampoco resulta razonable la ¡dea de incrementarla. Acota que el nivel actual de la TPM no es particula",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 136 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5369:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "stián Claro consulta por las razones que explican la brecha que se ha ¡do generando entre los datos de ventas de automóviles proporcionados por",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-06-13:5628:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "nivel actual o bajarla en 25 puntos base. Por su parte, el mercado ha ¡do internalizando en función de los datos la posibilidad de una reducció",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-08-13:5747:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡dea",
+          "Despues": "idea",
+          "Ocurrencias": 1,
+          "Contexto": "e acotado de nivel. Todos los antecedentes mencionados dan apoyo a la ¡dea de recortar dicha Tasa. Sin embargo, las cifras que se han conocido r",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 136 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-10-17:5833:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡nteranual",
+          "Despues": "interanual",
+          "Ocurrencias": 1,
+          "Contexto": " el mes de octubre se registrará una caída importante en la variación ¡nteranual del IPC, que llegaría a 1,4%, que se revertirá en el mes de noviembre",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 146 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-12-12:5962:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "medida a economías emergentes más vulnerables. La economía chilena ha ¡do moderando su dinamismo. La actividad crece algo por debajo de su tend",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6059:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " ei",
+          "Despues": " el",
+          "Ocurrencias": 1,
+          "Contexto": "enzo del tapering, que luego se postergó, y que marcó en alguna medida ei ajuste de estas variables. En lo concerniente a paridades, reitera qu",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6062:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": " el actual nivel de nuestras tasas de interés de largo plazo aumentan ei riesgo en algún grado, razón por la que plantea la conveniencia de an",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6065:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": "evolución de las bolsas de valores de algunas regiones y países desde ei mes de julio de 2007 a la fecha, en moneda local y medidas en dólares",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6073:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "re ¡os",
+          "Despues": "re los",
+          "Ocurrencias": 1,
+          "Contexto": "s como un proceso natural de normalización del sistema financiero. Entre ¡os elementos de preocupación, manifiesta que entre ei 40 y el 45% de los",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 31126 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ue ¡os",
+          "Despues": "ue los",
+          "Ocurrencias": 1,
+          "Contexto": "os globales de este metal. Agrega que también genera preocupación ei que ¡os créditos obtenidos usando cobre como colateral serían destinados para",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 31126 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e ei",
+          "Despues": "e el",
+          "Ocurrencias": 1,
+          "Contexto": "a financiero. Entre ¡os elementos de preocupación, manifiesta que entre ei 40 y el 45% de los inventarios de cobre en almacenes en China corresp",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "n ei",
+          "Despues": "n el",
+          "Ocurrencias": 1,
+          "Contexto": "entarios globales de este metal. Agrega que también genera preocupación ei que ¡os créditos obtenidos usando cobre como colateral serían destina",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6074:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " ei",
+          "Despues": " el",
+          "Ocurrencias": 1,
+          "Contexto": "pasada, debido fundamentalmente al alza del precio de los cereales por ei conflicto en Ucrania, incrementos de los precios del aceite y azúcar ",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-03-13:6091:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡as",
+          "Despues": "las",
+          "Ocurrencias": 1,
+          "Contexto": "levan ningún cuadro de mayor complejidad y, de hecho, son similares a ¡as contempladas antes de que comenzara a materializarse la reciente deva",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «l» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 28633 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-07-15:6338:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": "ebería tener un efecto positivo, particularmente vía expectativas, en ei proceso de recuperación económica. En razón de lo expuesto, el Vicepr",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-08-14:6344:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "en las encuestas con una preferencia en torno a 10%, generando cierta ¡ncertidumbre en los mercados dado el posible impacto de este suceso en las eleccio",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-08-14:6360:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "lantea que estas perspectivas podrían estar reflejando algún grado de ¡ncertidumbre derivado de los temas tributarios en discusión.",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-08-14:6374:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡nteranuales",
+          "Despues": "interanuales",
+          "Ocurrencias": 1,
+          "Contexto": "a ocupación asalariada se muestra prácticamente estancada en términos ¡nteranuales y que incluso la creación de empleo por cuenta propia se desaceleró e",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 79 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-10-16:6474:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbre",
+          "Despues": "incertidumbre",
+          "Ocurrencias": 1,
+          "Contexto": "otar que a la debilidad de las cifras de actividad local se agrega la ¡ncertidumbre sobre la economía mundial, que se ha comenzado a manifestar en las úl",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-01-15:6585:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡ncertidumbres",
+          "Despues": "incertidumbres",
+          "Ocurrencias": 1,
+          "Contexto": " las economías emergentes. Hace presente que a pesar de los riesgos e ¡ncertidumbres asociados a estos cambios, los datos recientes sugieren que las proye",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 79 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-03-19:6652:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "¡do",
+          "Despues": "ido",
+          "Ocurrencias": 1,
+          "Contexto": "te menor que entonces. Asimismo, informa que su posición fiscal se ha ¡do deteriorando progresivamente en el tiempo y que en el margen exhibe n",
+          "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 308 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-07-14:6915:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "ei",
+          "Despues": "el",
+          "Ocurrencias": 1,
+          "Contexto": "ducción de los asuntos públicos emanada del Ministerio de Hacienda en ei último tiempo debe ser valorada, especialmente en el sentido que cont",
+          "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -35994,6 +36676,12 @@
       "Texto_Original_Fragmento": "plantea que el gráfico que se ubica al lado derecho de la lámina N° 40 se refleja una cierta desaceleración",
       "Motivo": "RECONSTRUCCION_AMBIGUA. La frase no cierra gramaticalmente: «plantea que el gráfico que se ubica al lado derecho de la lámina N° 40 se refleja una cierta desaceleración». Hay dos reparaciones posibles y el corpus atestigua ambas: agregar la preposición («plantea que EN el gráfico ... se refleja», 1 caso) o quitar el pronombre («el gráfico ... refleja», 5 casos, más 2 con «el gráfico ... se refleja»). Con las dos lecturas vivas no hay caso inequívoco, y la política del registro es corregir sólo lo inequívoco. Se marca para cotejo contra el PDF. §74.",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2005-02-10:139:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Texto_Original_Fragmento": "El Consejo aprueba el texto del Comunicado. Se levanta la Sesión horas. 17.40.",
+      "Motivo": "«Se levanta la Sesión horas. 17.40.» — la hora no falta: está DESPLAZADA. Las otras 90+ actas traen «Se levanta la Sesión a las HH:MM horas», así que el original decía «Se levanta la Sesión a las 17.40 horas» y el OCR invirtió el orden, dejando «horas.» antes de la cifra y un punto sobrante. Reordenar no es lo mismo que reemplazar: el aplicador es un reemplazo literal y el registro no tiene un tipo para reordenar tramos, así que no se puede expresar sin riesgo de duplicar texto. Se marca para cotejo contra el PDF. §75."
     }
   ],
   "Marcas_Adicionales": [
@@ -36152,6 +36840,11 @@
       "ID_Intervencion": "RPM-2005-02-10:122:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "§72: paréntesis de apertura sin cierre: «parte de la normalización del estímulo monetario emanaría de acomodos en las tasas de mediano y largo plazo (y de los efectos cambiarios asociados. 11. Finalmente, el señor Gerente de la División…». La fila tiene 1 apertura y 0 cierres, es el único desbalance de paréntesis de las 82 filas de esta sesión. El inciso parentético parece terminar en el punto que sigue a «asociados», pero cerrar el paréntesis sería una inserción, y el aplicador es un str.replace literal: dejaría «Antes» contenido en «Despues» y aplicar dos veces apilaría un segundo signo (§65). Tampoco se sabe si el «11.» que viene después es un número de apartado del documento original o un residuo. Se deja para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2005-01-11:57:1",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "«Se levanta la Sesión a las J 7.50 horas» — la «J» mayúscula ocupa el lugar de un dígito. La fórmula de cierre está atestiguada 90+ veces como «Se levanta la Sesión a las HH:MM horas» y «a las 17.50 horas» es la lectura probable, pero reponer un dígito dañado es adivinar: el criterio del registro es que un dígito convertido en letra no se recupera por frecuencia. Se marca para cotejo contra el PDF. §75."
     }
   ]
 }
