@@ -92,8 +92,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 3
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1781
-MIN_OPERACIONES = 3060
+MIN_CORREGIDAS = 1791
+MIN_OPERACIONES = 3085
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -591,6 +591,78 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                 restantes.append(f'{rid}: «{a.group()} {b.group()}» -> «{junta}»')
         self.assertEqual(['RPM-2005-03-10:147:1: «id o» -> «ido»'], restantes,
                          f'la familia cambi\u00f3: {restantes[:10]}')
+
+    def test_no_hay_entradas_duplicadas_por_intervencion(self):
+        """§72: dos entradas con el mismo ID hacen que la segunda pise a la primera.
+
+        El aplicador se llama por entrada de ``Correcciones`` partiendo del texto
+        virgen, y el resultado se guarda en un diccionario por ID. Si un lote
+        añade una *nueva* entrada para una fila que ya tenía una, las operaciones
+        de la primera se pierden sin que nada lo reporte: ``--validar`` pasa, la
+        entrega se escribe y la corrección simplemente no aparece. Ocurrió con
+        ``RPM-2005-02-10:134:1``, donde quedaron visibles «estim adas» y
+        «trim estres» pese a tener operación declarada. La operación adicional
+        debe entrar en la entrada existente (o extenderla con
+        ``enmendar_operacion.py``), nunca como entrada nueva.
+        """
+        ids = [c['ID_Intervencion'] for c in self.reg['Correcciones']]
+        repetidos = sorted(k for k, n in Counter(ids).items() if n > 1)
+        self.assertEqual([], repetidos,
+                         'IDs con más de una entrada en Correcciones; la última '
+                         'sobrescribe a las anteriores y sus operaciones se pierden')
+
+    @staticmethod
+    def _operaciones_sin_efecto(reg, corregidas):
+        """Operaciones declaradas cuyo ``Despues`` no está en el texto efectivo."""
+        sin_efecto = []
+        for entrada in reg['Correcciones']:
+            salida = corregidas.get(entrada['ID_Intervencion'], '')
+            for n, op in enumerate(entrada['Operaciones'], 1):
+                if op['Despues'] not in salida:
+                    sin_efecto.append(f'{entrada["ID_Intervencion"]} op{n}')
+        return sin_efecto
+
+    def test_toda_operacion_declarada_surtio_efecto(self):
+        """§72: lo que el registro declara debe estar en la salida.
+
+        Invariante necesaria sobre cada operación: si se aplicó, su ``Despues``
+        está en el texto efectivo de la fila. Cubre las dos formas de perder una
+        operación sin que ``--validar`` se queje — la entrada duplicada de arriba
+        y dos operaciones que se solapan sobre el mismo tramo del virgen, donde
+        la segunda ya no encuentra su ancla.
+        """
+        sin_efecto = self._operaciones_sin_efecto(self.reg, self.corregidas)
+        self.assertEqual([], sin_efecto,
+                         'operaciones declaradas que no están en la salida: '
+                         + ', '.join(sin_efecto[:20]))
+
+    def test_el_control_de_efecto_detecta_una_entrada_partida_en_dos(self):
+        """Prueba negativa: la anterior no puede pasar vacíamente.
+
+        Reproduce el error de §72 sobre una fila real: partir sus operaciones en
+        dos entradas con el mismo ID. La segunda se aplica sobre el virgen y
+        sobrescribe el resultado de la primera, así que las operaciones de la
+        primera dejan de estar en la salida y el invariante debe denunciarlo.
+        """
+        import copy
+        mal = copy.deepcopy(self.reg)
+        indice = next(i for i, c in enumerate(mal['Correcciones'])
+                      if c['ID_Intervencion'] == 'RPM-2006-10-12:881:1')
+        entrada = mal['Correcciones'][indice]
+        self.assertGreaterEqual(len(entrada['Operaciones']), 2)
+        primera, segunda = entrada['Operaciones'][:-1], entrada['Operaciones'][-1:]
+        perdida = primera[0]['Despues']
+        entrada['Operaciones'] = primera
+        mal['Correcciones'].append(dict(entrada, Operaciones=segunda))
+        _, _, corregidas, _ = core.validar(reg=mal, base=core.BASE)
+        sin_efecto = self._operaciones_sin_efecto(mal, corregidas)
+        self.assertTrue(sin_efecto,
+                        'partir la entrada en dos no hizo perder ninguna '
+                        'operación; la prueba no reproduce el error de §72')
+        self.assertIn('RPM-2006-10-12:881:1 op1', sin_efecto)
+        self.assertNotIn(perdida, corregidas['RPM-2006-10-12:881:1'],
+                         'la primera operación seguía aplicada; la segunda '
+                         'entrada no la sobrescribió')
 
     def test_las_marcas_usan_el_vocabulario_cerrado(self):
         for marcas in self.marcas.values():

@@ -4555,3 +4555,77 @@ deja `Antes` dentro de `Despues` y aplicar dos veces apilaría un segundo punto.
 
 Registro: **1.781 filas / 3.060 operaciones / 212 revisiones / 236 filas marcadas**.
 Lecturas **5.840 de 9.724**, 72 de 132 sesiones.
+
+---
+
+## §72 — Sesión 2005-02-10: dos entradas con el mismo ID, y por qué `--validar` no lo ve
+
+Sesión de 82 filas, 12 actores, 94.860 caracteres. **Cero cortes.** La cola de entrega dio 0, la
+señal 2b dio 1 caso y la 2c dio 0. Las 4 lecturas obligatorias de la sección 2d resultaron falsas
+(§73 abajo). 25 operaciones en 25 filas y 1 marca adicional.
+
+### El defecto que no se vio: dos entradas, una fila
+
+Al verificar sobre el **archivo escrito**, la familia `estim adas` seguía en 1 aunque la operación
+estaba en el registro. La causa no era el ancla ni el solapamiento: había **dos entradas de
+`Correcciones` con `ID_Intervencion = RPM-2005-02-10:134:1`** — la original con 5 operaciones y una
+nueva, añadida por el lote de esta sesión, con 1.
+
+El aplicador recorre `Correcciones` **por entrada**, partiendo cada vez del texto virgen, y guarda el
+resultado en un diccionario por ID. Con dos entradas para la misma fila, la segunda sobrescribe a la
+primera: se aplicó sólo la operación nueva y se **perdieron las 5 anteriores**. El texto quedó con
+«m ayoría», «estim adas» y «trim estres», los tres con operación declarada.
+
+`--validar` pasó con 0 problemas porque cada entrada, vista por separado, es válida: sus anclas están
+en el virgen, sus `Despues` pasan el control de vocabulario. Nada en el contrato mira el conjunto.
+
+Alcance medido en el registro completo: **1.792 entradas, 1.791 IDs distintos, exactamente 1 ID
+duplicado — el que creé esta sesión.** No hay daño histórico; en las 11 sesiones anteriores ningún
+lote añadió una entrada nueva para una fila ya corregida.
+
+### La corrección
+
+Se fusionaron las dos entradas en una con las 6 operaciones. La operación de «preveen» hubo que
+rehacerla: su ancla larga (`…nuestras estimaciones preveen un aumento gradual de ios indicadores
+inflacionarios e`) contenía el tramo «de ios indicadores», que otra operación de la misma fila cambia
+a «de los». Dos operaciones no pueden pisar el mismo tramo del virgen **en ningún orden**: si va
+primero la que cambia «ios», la segunda ya no encuentra su ancla. La ancla nueva termina en
+«…preveen un», un carácter antes del solapamiento — el chequeo de rangos lo detectó, no la
+contención.
+
+### Dos invariantes nuevos en la suite
+
+El bug pasó porque ninguna prueba miraba el conjunto. Se agregaron tres tests
+(`test_correccion_ocr_regresion`, 25 → 28):
+
+1. **`test_no_hay_entradas_duplicadas_por_intervencion`** — estructural: ningún ID repetido en
+   `Correcciones`.
+2. **`test_toda_operacion_declarada_surtio_efecto`** — invariante necesario: el `Despues` de cada
+   operación debe estar en el texto efectivo de su fila. Es el que habría atrapado el bug sin saber
+   qué buscar, y también cubre el caso de dos operaciones solapadas sobre el mismo tramo. Verificado
+   hoy sobre las **3.085 operaciones: 0 sin efecto**.
+3. **`test_el_control_de_efecto_detecta_una_entrada_partida_en_dos`** — prueba negativa. La primera
+   versión que escribí estaba mal construida y falló: como el `Despues` duplicado *contiene* al
+   original como prefijo, un `assertNotIn` sobre el original no puede fallar nunca. Se rehízo
+   reproduciendo el error real sobre una fila de verdad (`RPM-2006-10-12:881:1`, 4 operaciones):
+   partir sus operaciones en dos entradas y comprobar que el invariante denuncia la pérdida.
+
+**Regla que queda: una operación adicional para una fila ya corregida entra en la entrada existente,
+o se extiende la operación con `enmendar_operacion.py`. Nunca como entrada nueva.**
+
+### Las 25 operaciones
+
+18 × `cambíanos` → `cambiarios` (repertidas en 16 sesiones; el corpus tiene 52 «cambiarios» y 0
+«cambíanos» tras aplicar), `regia` → `regla`, `Marcell` → `Marcel` (25 contra 1, §34),
+`preveen` → `prevén`, `paran` → `para`, `S ociedad` → `Sociedad`, `elim inando` → `eliminando`,
+`estim adas` → `estimadas`. Marca 31: paréntesis huérfano en `122:1`.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **1.791 con `Texto_Corregido` no vacío, conjunto idéntico al del registro** ·
+**0 diffs de `Texto`** · 237 marcadas · `estim adas` **0** · `cambíanos` **0** · `regia` **0** ·
+`Marcell` **0** · `preveen` **0** · `S ociedad` **0** · `elim inando` **0** · `trim estres` **0** ·
+`m ayoría` **0**. Suite local **64 OK** (61 + 3).
+
+Registro: **1.791 filas / 3.085 operaciones / 212 revisiones / 237 filas marcadas**.
+Lecturas **5.922 de 9.724**, 73 de 132 sesiones.
