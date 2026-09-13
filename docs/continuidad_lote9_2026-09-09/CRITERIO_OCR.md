@@ -4629,3 +4629,93 @@ o se extiende la operación con `enmendar_operacion.py`. Nunca como entrada nuev
 
 Registro: **1.791 filas / 3.085 operaciones / 212 revisiones / 237 filas marcadas**.
 Lecturas **5.922 de 9.724**, 73 de 132 sesiones.
+
+---
+
+## §73 — Sesión 2014-04-17: el registro se estaba dañando a sí mismo
+
+Sesión de 86 filas, 16 actores, 98.010 caracteres. **Cero cortes.** La cola dio 1 caso y 2b dio 1,
+ambos falsos; 2c dio 0; las 6 lecturas obligatorias de 2d también resultaron falsas.
+
+### Cómo se descubrió
+
+El barrido de hapax propuso `presupuestaría`. Antes de corregirlo medí la familia contra el corpus:
+30 ocurrencias dañadas y **0** correctas, mientras la forma masculina (`presupuestario` 17,
+`presupuestarios` 17) estaba intacta. Un daño sistemático que afecta al 100 % de las ocurrencias de
+una forma es raro. Fui a leer el virgen — y ahí estaba la respuesta:
+
+**el virgen tiene la familia 1 vez; el texto efectivo la tiene 30.** El daño no venía del OCR. Lo
+introducía el propio registro.
+
+### La regla automática
+
+32 operaciones del registro, todas tipadas `ACENTO_FALTANTE`, hacían esto:
+
+```
+'la ejecución presupuestaria que arrojaron u'  ->  'la ejecución presupuestaría que arrojaron u'
+```
+
+Agregaban una tilde a una palabra que **ya estaba bien escrita**. Las 32 llevan la misma
+justificación plantilla, palabra por palabra:
+
+> «Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no
+> hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/a…»
+
+Eso no es una lectura de la fila: es una lista de terminaciones. La regla aprendió que los
+condicionales e imperfectos llevan tilde (`podría`, `serían`, `estaría`, `cabría`) y la aplicó a
+`presupuestaria`, que **no es un verbo**: es el adjetivo que concuerda con el sustantivo que la
+precede («la ejecución presupuestaria», «la parte extrapresupuestaria», «la restricción
+presupuestaria», «los ítems extrapresupuestarios»). Ninguna de las 30 ocurrencias es un condicional.
+
+La otra familia mala es `exposiciones` → `exposiciónes` (3 operaciones): el plural regular no lleva
+tilde.
+
+De las 62 operaciones con esa plantilla, las otras 30 sí son correctas (`serian`→`serían`,
+`paises`→`países`, `economia`→`economía`, `indices`→`índices`, `mayoria`→`mayoría`,
+`cabria`→`cabría`, `habia`→`había`, `tenian`→`tenían`, `todavia`→`todavía`,
+`geopoliticos`→`geopolíticos`, `ciclicas`→`cíclicas`, `exposicion`→`exposición`). El defecto no es
+la tilde: es decidir por terminación en vez de leer la fila. Esto viola frontalmente la política del
+registro —«sólo casos inequívocos, curados fila por fila, cero reglas automáticas»— y pasó
+desapercibido porque `--validar` no tiene cómo saber que una tilde sobra.
+
+### La reversión
+
+Se eliminaron las **32 operaciones**. Las 24 filas que quedaban sin ninguna operación pasaron a
+`Revisiones_Sin_Correccion` con `Marca = NO_REQUIERE_COTEJO` y un `Motivo` que dice qué operación se
+quitó y por qué, para que la traza no se pierda. Las 8 filas restantes conservan sus otras
+operaciones.
+
+Dos errores míos en el camino, ambos corregidos:
+
+1. **Iba a "corregir" las 30 filas en la dirección equivocada.** El lote estaba construido y habría
+   consolidado el daño. Lo frenó el censo contra el virgen.
+2. **Un filtro para sacar un ID de `Revisiones_Sin_Correccion` borró 138 entradas**, y las marcas
+   cayeron de 237 a 141. Una fila puede estar en las dos listas a la vez — hay **109 IDs** en ambas
+   — así que filtrar por «está en Correcciones» no es un criterio. Se restauró desde git y se rehízo.
+
+### Regla que queda
+
+**Una tilde que sobra es un daño igual que una tilde que falta, y el validador no la ve.** Antes de
+agregar un acento hay que comprobar que la palabra sin acento no sea ya una palabra correcta con otro
+significado o otra categoría gramatical. `presupuestaria`/`presupuestaría`, `seria`/`sería`,
+`exposiciones`/`exposiciónes` son pares legítimos; sólo el contexto decide.
+
+### Las 9 operaciones nuevas
+
+`comercíalizadoras`→`comercializadoras` (acento corrido una sílaba), `exporta-ciones`→`exportaciones`
+(guion de salto de línea), `politicos`→`políticos`, `reasígnaciones`→`reasignaciones`,
+`¡ndeseada`→`indeseada` (signo de exclamación en lugar de la «i»), `elusion`→`elusión` (coordinado con
+«evasión», que en la misma frase sí lleva tilde), `agudícen`→`agudicen`, y 2 × `tasa crecimiento`→
+`tasa de crecimiento` (preposición omitida, 391 contra 2).
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 237 marcadas · y en el texto efectivo, mal/bien:
+`presupuestaría` **0**/18 · `Presupuestaría` **0**/1 · `exposiciónes` **0**/3 ·
+`comercíalizadoras` **0**/1 · `politicos` **0**/45 · `reasígnaciones` **0**/5 · `¡ndeseada` **0**/22 ·
+`elusion` **0**/1 · `agudícen` **0**/4 · `exporta-ciones` **0**/680 · `tasa crecimiento` **0**/393.
+Suite local **64 OK**.
+
+Registro: **1.771 filas / 3.062 operaciones / 236 revisiones / 237 filas marcadas**. Los pisos de la
+suite bajaron de 1.791/3.085 a **1.771/3.062** por única vez: corregir un error propio no puede
+medirse como pérdida. Lecturas **6.002 de 9.724**, 74 de 132 sesiones.

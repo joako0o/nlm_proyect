@@ -80,6 +80,17 @@ FORMAS_EN_CERO = {
     'yeso': '§1 (caer yeso -> caer y eso)',
     'Consesus': 'r190 (Consesus -> Consensus)',
     'perecióles': 'r185 (perecióles -> perecibles)',
+
+    # §73 — formas que el propio registro introducía. Una regla automática de
+    # «tilde faltante» (62 operaciones, justificación plantilla idéntica) le
+    # AGREGABA tilde a palabras que ya estaban bien escritas. «presupuestaria»
+    # es el adjetivo que concuerda con el sustantivo precedente, no el
+    # condicional de «presupuestar»; «exposiciones» es plural regular. Las 32
+    # operaciones afectadas se eliminaron. Cubren también las variantes con
+    # prefijo «extra-» y el plural, que contienen estas cadenas.
+    'presupuestaría': '§73 (la regla de tilde la inventaba)',
+    'Presupuestaría': '§73 (la regla de tilde la inventaba)',
+    'exposiciónes': '§73 (la regla de tilde la inventaba)',
 }
 
 # Sólo puede bajar. Quedan 4, y el comentario anterior («sin par completo y sin
@@ -91,9 +102,13 @@ FORMAS_EN_CERO = {
 # dirección deducible (6967:1 «"dilema del prisionero".») se resolvió en §28.
 COMILLAS_RECTAS_MAX = 3
 
-# Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1791
-MIN_OPERACIONES = 3085
+# Crecen al corregir; nunca deben bajar. §73 es la única excepción y fue hacia
+# abajo a propósito: 32 operaciones de una regla automática agregaban tilde a
+# palabras que ya estaban bien («presupuestaria» -> «presupuestaría»,
+# «exposiciones» -> «exposiciónes») y se eliminaron. Corregir un error propio no
+# puede medirse como pérdida.
+MIN_CORREGIDAS = 1771
+MIN_OPERACIONES = 3062
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,

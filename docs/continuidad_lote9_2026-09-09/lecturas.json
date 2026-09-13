@@ -62695,7 +62695,807 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2005-02-10",
       "Justificacion": "Sesion cerrada 82/82, 12 actores, 94.860 caracteres. Cero cortes: la cola de entrega dio 0, la senal 2b dio 1 caso (79:1, donde De Gregorio es OBJETO de «en relacion al comentario del», no hablante) y la 2c dio 0. La nueva seccion 2d de analisis_sesion.py (calibracion inversa sobre los 2.505 segmentos de continuacion de la base) propuso 4 lecturas obligatorias y las 4 resultaron falsas: 103:1 Marcel si es Ministro de Hacienda, 119:1 Corbo si es Presidente, 109:1 el actor es Pablo Garcia, 120:1 es un «por su parte» contrastivo del mismo hablante. 25 operaciones de OCR en 25 filas y 1 marca adicional."
+    },
+    "RPM-2014-04-17:6115:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6115:1",
+      "ID_Padre": "6115",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1484,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6117:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6117:1",
+      "ID_Padre": "6117",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3207,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6118:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6118:2",
+      "ID_Padre": "6118",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 839,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6119:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6119:1",
+      "ID_Padre": "6119",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 10817,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6120:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6120:1",
+      "ID_Padre": "6120",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 259,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6121:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6121:1",
+      "ID_Padre": "6121",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 315,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6122:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6122:1",
+      "ID_Padre": "6122",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 330,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6122:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6122:2",
+      "ID_Padre": "6122",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2844,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6123:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6123:1",
+      "ID_Padre": "6123",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 5092,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6125:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6125:1",
+      "ID_Padre": "6125",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 945,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6125:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6125:2",
+      "ID_Padre": "6125",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 601,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6126:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6126:1",
+      "ID_Padre": "6126",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 1321,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6127:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6127:1",
+      "ID_Padre": "6127",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 359,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6128:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6128:1",
+      "ID_Padre": "6128",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 1127,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6130:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6130:1",
+      "ID_Padre": "6130",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 1243,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6131:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6131:1",
+      "ID_Padre": "6131",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 607,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6132:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6132:1",
+      "ID_Padre": "6132",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 369,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6132:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6132:2",
+      "ID_Padre": "6132",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 760,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6132:3": {
+      "ID_Intervencion": "RPM-2014-04-17:6132:3",
+      "ID_Padre": "6132",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 239,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6133:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6133:1",
+      "ID_Padre": "6133",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2700,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6134:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6134:1",
+      "ID_Padre": "6134",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 348,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6135:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6135:1",
+      "ID_Padre": "6135",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 381,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6135:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6135:2",
+      "ID_Padre": "6135",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 163,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6135:3": {
+      "ID_Intervencion": "RPM-2014-04-17:6135:3",
+      "ID_Padre": "6135",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 118,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6135:4": {
+      "ID_Intervencion": "RPM-2014-04-17:6135:4",
+      "ID_Padre": "6135",
+      "Actor": "Ricardo Vicuña Poblete",
+      "Caracteres": 496,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6135:5": {
+      "ID_Intervencion": "RPM-2014-04-17:6135:5",
+      "ID_Padre": "6135",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 587,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6136:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6136:1",
+      "ID_Padre": "6136",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 198,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6137:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6137:1",
+      "ID_Padre": "6137",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 255,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6137:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6137:2",
+      "ID_Padre": "6137",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 300,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6137:3": {
+      "ID_Intervencion": "RPM-2014-04-17:6137:3",
+      "ID_Padre": "6137",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 797,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6138:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6138:1",
+      "ID_Padre": "6138",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 325,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6139:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6139:1",
+      "ID_Padre": "6139",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 1812,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6140:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6140:1",
+      "ID_Padre": "6140",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 673,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6141:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6141:1",
+      "ID_Padre": "6141",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 549,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6142:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6142:1",
+      "ID_Padre": "6142",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 547,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6143:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6143:1",
+      "ID_Padre": "6143",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 347,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6144:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6144:1",
+      "ID_Padre": "6144",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3195,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6145:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6145:1",
+      "ID_Padre": "6145",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 341,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6146:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6146:1",
+      "ID_Padre": "6146",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 438,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6147:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6147:1",
+      "ID_Padre": "6147",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 403,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6148:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6148:1",
+      "ID_Padre": "6148",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 391,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6149:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6149:1",
+      "ID_Padre": "6149",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 255,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6149:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6149:2",
+      "ID_Padre": "6149",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 683,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6150:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6150:1",
+      "ID_Padre": "6150",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2947,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6151:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6151:1",
+      "ID_Padre": "6151",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 688,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6152:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6152:1",
+      "ID_Padre": "6152",
+      "Actor": "Claudio Raddatz Kiefer",
+      "Caracteres": 336,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6153:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6153:1",
+      "ID_Padre": "6153",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 165,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6154:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6154:1",
+      "ID_Padre": "6154",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 455,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6155:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6155:1",
+      "ID_Padre": "6155",
+      "Actor": "Enrique Orellana Cifuentes",
+      "Caracteres": 2169,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6156:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6156:1",
+      "ID_Padre": "6156",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 392,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6156:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6156:2",
+      "ID_Padre": "6156",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 162,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6157:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6157:1",
+      "ID_Padre": "6157",
+      "Actor": "Claudio Raddatz Kiefer",
+      "Caracteres": 311,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6158:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6158:1",
+      "ID_Padre": "6158",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 837,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6159:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6159:1",
+      "ID_Padre": "6159",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 198,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6160:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6160:1",
+      "ID_Padre": "6160",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 480,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6161:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6161:1",
+      "ID_Padre": "6161",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 666,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6162:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6162:1",
+      "ID_Padre": "6162",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 113,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6163:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6163:1",
+      "ID_Padre": "6163",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 113,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6163:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6163:2",
+      "ID_Padre": "6163",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 758,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6163:3": {
+      "ID_Intervencion": "RPM-2014-04-17:6163:3",
+      "ID_Padre": "6163",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 246,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6163:4": {
+      "ID_Intervencion": "RPM-2014-04-17:6163:4",
+      "ID_Padre": "6163",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 145,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6164:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6164:1",
+      "ID_Padre": "6164",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 355,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6165:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6165:1",
+      "ID_Padre": "6165",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 2620,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6166:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6166:1",
+      "ID_Padre": "6166",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 3841,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6167:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6167:1",
+      "ID_Padre": "6167",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 204,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6168:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6168:1",
+      "ID_Padre": "6168",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 171,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6169:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6169:1",
+      "ID_Padre": "6169",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 1716,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6170:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6170:2",
+      "ID_Padre": "6170",
+      "Actor": "Alberto Arenas de Mesa",
+      "Caracteres": 283,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6171:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6171:1",
+      "ID_Padre": "6171",
+      "Actor": "Alberto Arenas de Mesa",
+      "Caracteres": 4804,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6173:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6173:1",
+      "ID_Padre": "6173",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 3701,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6174:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6174:1",
+      "ID_Padre": "6174",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6175:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6175:1",
+      "ID_Padre": "6175",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 3023,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6176:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6176:1",
+      "ID_Padre": "6176",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6177:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6177:1",
+      "ID_Padre": "6177",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 6754,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6177:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6177:2",
+      "ID_Padre": "6177",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 126,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6178:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6178:1",
+      "ID_Padre": "6178",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 4160,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6179:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6179:1",
+      "ID_Padre": "6179",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 745,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6179:2": {
+      "ID_Intervencion": "RPM-2014-04-17:6179:2",
+      "ID_Padre": "6179",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 178,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6179:3": {
+      "ID_Intervencion": "RPM-2014-04-17:6179:3",
+      "ID_Padre": "6179",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1911,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
+    },
+    "RPM-2014-04-17:6180:1": {
+      "ID_Intervencion": "RPM-2014-04-17:6180:1",
+      "ID_Padre": "6180",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 83,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2014-04-17",
+      "Justificacion": "Sesion cerrada 86/86 (80 nuevas), 16 actores, 98.010 caracteres. Cero cortes. La cola dio 1 caso falso (6135:1 habla solo Miguel Fuentes), 2b dio 1 caso falso (6133:1: Luis Oscar Herrera y Claudio Soto aparecen como OBJETOS de un agradecimiento —«la confianza depositada en el por el Gerente...», «expresa su agradecimiento al Asesor...»— no como hablantes), 2c dio 0. Las 6 lecturas obligatorias de 2d resultaron falsas: 6171:1 «El Ministro de Hacienda señala que» es el propio Alberto Arenas de Mesa, que ES el Ministro y el Actor_Final de la fila; 6116:1 es un traspaso de la palabra; 6119:1 y 6123:1 son Sergio Lehmann siguiendo su propia presentacion (los «por su parte» y «en tanto que» comparan variables, no personas); 6121:1 «responde a» es causal, no una respuesta. HALLAZGO GRAVE: se descubrio que el propio registro introducia dano — 32 operaciones de una regla automatica de tilde agregaban acento a palabras ya correctas."
     }
   },
-  "Total_Leidas": 5922
+  "Total_Leidas": 6002
 }
