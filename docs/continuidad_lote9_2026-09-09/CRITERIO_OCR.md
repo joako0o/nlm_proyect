@@ -4924,3 +4924,42 @@ un punto sería una inserción pura, que el aplicador no puede expresar. Se deja
 
 Registro: **1.807 filas / 3.129 operaciones / 238 revisiones / 241 filas marcadas / 33
 `Marcas_Adicionales`**. Lecturas **6.242 de 9.724**, 77 de 132 sesiones.
+
+---
+
+## §77 — Sesión 2015-12-17: la fila que se atestigua a sí misma
+
+Sesión de 81 filas, 11 actores, 94.320 caracteres. **Cero cortes**, y es la sesión más limpia hasta
+aquí: ninguna fila en la cola de 74, 2b en 0, 2c en 0 y, de las seis firmas de 2d, sólo «A
+continuación» dio un caso. Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron
+**0 candidatos** y los signos sospechosos 0 en todo.
+
+La única lectura obligatoria, `7158:1`, es la apertura estándar: Vergara abre la Reunión N° 229, fija
+la próxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli. Apertura más traspaso de
+la palabra, una sola voz (§68). `7218:1` termina en `.”`, que es la comilla de cierre del Comunicado,
+legítima como en `5398:3` (§74).
+
+### Las dos operaciones
+
+**`descomprensión` → `descompresión`.** La prueba más fuerte que ha aparecido en todo el trabajo: la
+**misma fila**, una oración antes, dice
+
+> «podría resolverse con una **descompresión** de premios por plazo de 100 puntos base»
+> «En efecto, dicha **descomprensión** se traspasaría al mercado financiero local»
+
+El «dicha» retoma exactamente el sustantivo de la oración anterior. No hace falta frecuencia ni
+contexto externo: la fila se atestigua a sí misma. Aun así el corpus confirma, 16 contra 1.
+
+**`exceptivas` → `expectativas`.** «que la ubicarán por sobre las exceptivas de mercado». «Exceptivas»
+no es palabra española y el corpus tiene 3.726 «expectativas» más 182 «expectativa».
+
+Las dos `LETRA_CONFUNDIDA`.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 241 marcadas · `descomprensión` **0** / `descompresión` **17** ·
+`exceptivas` **0** / `expectativas` **3.727** · y las familias de §73, §75 y §76 siguen en **0**
+(`presupuestaría`, `¡+minúscula`, `ei`, `►`, `maquinabas`, `equilibro`). Suite local **65 OK**.
+
+Registro: **1.808 filas / 3.131 operaciones / 238 revisiones / 241 filas marcadas / 33
+`Marcas_Adicionales`**. Lecturas **6.321 de 9.724**, 78 de 132 sesiones.

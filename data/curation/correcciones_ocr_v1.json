@@ -28305,6 +28305,14 @@
           "Ocurrencias": 1,
           "Contexto": " ajuste en el consumo y la inversión restarían 0,5% de crecimiento en ei año 2016, y con ello, la TPM se mantendría en 3,5% por un tiempo prol",
           "Justificacion": "«ei» en lugar del artículo «el»: el OCR confunde la «l» con la «i». Sigue un sustantivo masculino, así que no hay otra lectura. Familia de 14 ocurrencias en 13 filas del corpus. §75."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " economía. En efecto, dicha descomprensión se traspasaría al mercado f",
+          "Despues": " economía. En efecto, dicha descompresión se traspasaría al mercado f",
+          "Ocurrencias": 1,
+          "Contexto": "de 100 puntos base, aproximadamente, lo que tendría efectos en nuestra economía. En efecto, dicha descomprensión se traspasaría al mercado financiero local, lo que sumado a la caída del precio del cobre y peore",
+          "Justificacion": "«En efecto, dicha descomprensión se traspasaría al mercado financiero local» — la «n» está de más: es «descompresión». La prueba es la propia fila, una oración antes: «podría resolverse con una descompresión de premios por plazo de 100 puntos base», y el «dicha» retoma exactamente ese sustantivo. El corpus tiene 16 «descompresión» y este es el único «descomprensión». §77."
         }
       ]
     },
@@ -35271,6 +35279,19 @@
           "Ocurrencias": 1,
           "Contexto": " registros de importaciones de bienes de capital, en cambio, llevan a corregir las inversiones en maquinabas y equipos a la baja. Con ello, la demanda interna se modifica marginalmente a la baja para el ter",
           "Justificacion": "«llevan a corregir las inversiones en maquinabas y equipos a la baja» — la «b» sustituye a la «r»: es «maquinarias». La expresión «maquinarias y equipos» es la fórmula habitual para la formación bruta de capital fijo y el corpus tiene 143 «maquinarias» contra este único «maquinabas», que no es palabra española. §76."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-12-17:7210:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e la ubicarán por sobre las exceptivas de mercado, lo que hace men",
+          "Despues": "e la ubicarán por sobre las expectativas de mercado, lo que hace men",
+          "Ocurrencias": 1,
+          "Contexto": "n aumento de la inflación anual durante los primeros meses del año, que la ubicarán por sobre las exceptivas de mercado, lo que hace menos aconsejable retrasar una alza que tiene una probabilidad alta de se",
+          "Justificacion": "«que la ubicarán por sobre las exceptivas de mercado» — la «x» y la «t» están confundidas: es «expectativas». «exceptivas» no es palabra española y el corpus tiene 3.726 «expectativas» más 182 «expectativa». §77."
         }
       ]
     }

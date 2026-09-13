@@ -4,8 +4,8 @@ Generado por `scripts/exportar_revision_ocr.py`. No es una fuente: es una
 vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
-- filas corregidas: **1807**
-- operaciones: **3129**
+- filas corregidas: **1808**
+- operaciones: **3131**
 - filas marcadas para cotejo: **241**
 - sha256 de la base: `eebaa728dc1d7ce14315caebd0c7516ff324b5d4acaefcf40cec2bf6d855945d`
 
@@ -13,7 +13,7 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 | tipo | operaciones |
 |---|---:|
-| `LETRA_CONFUNDIDA` | 817 |
+| `LETRA_CONFUNDIDA` | 819 |
 | `ESPACIO_INDEBIDO` | 507 |
 | `PALABRA_PARTIDA` | 496 |
 | `ACENTO_INDEBIDO` | 390 |

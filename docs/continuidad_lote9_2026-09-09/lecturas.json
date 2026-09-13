@@ -65895,7 +65895,797 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2009-10-13",
       "Justificacion": "Sesion cerrada 82/82 (80 nuevas), 13 actores, 102.639 caracteres. Cero cortes, y es la primera acta en varias donde las TRES redes dieron cero: ninguna fila en la cola de 74, 2b en 0 y 2c en 0. Las 7 lecturas obligatorias de 2d fueron falsas. Dos de ellas revelan un patron nuevo: 2714:1 termina en «A continuacion,» y 2715:1 empieza con minuscula «el senor Presidente ofrece la palabra...»; igual 2748:1 y 2749:1. No es un cambio de hablante sino UNA MISMA ORACION partida entre dos filas por el salto de pagina, con el mismo Actor_Final a ambos lados. 2715:1 y 2731:1 son traspasos de la palabra, no intervenciones. En 2732:1, 2749:1 y 2755:1 cada «A continuacion», cada cargo y cada «por su parte» es el propio actor o una comparacion de variables. Los 4 candidatos del detector de acento eran falsos: «centro» verbo, «cuanto» interrogativo, «periodo» conservado, «limite» subjuntivo. 2 operaciones de OCR y 1 marca."
+    },
+    "RPM-2015-12-17:7157:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7157:1",
+      "ID_Padre": "7157",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1566,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7159:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7159:1",
+      "ID_Padre": "7159",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 1785,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7160:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7160:1",
+      "ID_Padre": "7160",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 267,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7161:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7161:1",
+      "ID_Padre": "7161",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 1617,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7162:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7162:1",
+      "ID_Padre": "7162",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 269,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7163:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7163:1",
+      "ID_Padre": "7163",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 5106,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7164:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7164:1",
+      "ID_Padre": "7164",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 251,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7165:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7165:1",
+      "ID_Padre": "7165",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 1643,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7166:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7166:1",
+      "ID_Padre": "7166",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 165,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7167:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7167:1",
+      "ID_Padre": "7167",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 207,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7168:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7168:1",
+      "ID_Padre": "7168",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 2648,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7169:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7169:1",
+      "ID_Padre": "7169",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 197,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7170:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7170:1",
+      "ID_Padre": "7170",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 107,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7171:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7171:1",
+      "ID_Padre": "7171",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 249,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7172:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7172:1",
+      "ID_Padre": "7172",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 683,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7172:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7172:2",
+      "ID_Padre": "7172",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 966,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7173:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7173:1",
+      "ID_Padre": "7173",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 259,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7174:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7174:1",
+      "ID_Padre": "7174",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 526,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7174:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7174:2",
+      "ID_Padre": "7174",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 133,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7175:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7175:1",
+      "ID_Padre": "7175",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 776,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7175:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7175:2",
+      "ID_Padre": "7175",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 350,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7176:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7176:1",
+      "ID_Padre": "7176",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7176:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7176:2",
+      "ID_Padre": "7176",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 111,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7177:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7177:1",
+      "ID_Padre": "7177",
+      "Actor": "Diego Gianelli Gómez",
+      "Caracteres": 2152,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7179:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7179:1",
+      "ID_Padre": "7179",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 926,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7179:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7179:2",
+      "ID_Padre": "7179",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 361,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7179:3": {
+      "ID_Intervencion": "RPM-2015-12-17:7179:3",
+      "ID_Padre": "7179",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 170,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7180:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7180:1",
+      "ID_Padre": "7180",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 3052,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7181:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7181:1",
+      "ID_Padre": "7181",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 571,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7182:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7182:1",
+      "ID_Padre": "7182",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 2173,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7182:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7182:2",
+      "ID_Padre": "7182",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 214,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7183:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7183:1",
+      "ID_Padre": "7183",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 242,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7184:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7184:1",
+      "ID_Padre": "7184",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 598,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7185:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7185:1",
+      "ID_Padre": "7185",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 289,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7186:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7186:1",
+      "ID_Padre": "7186",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 394,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7187:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7187:1",
+      "ID_Padre": "7187",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 178,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7188:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7188:1",
+      "ID_Padre": "7188",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 923,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7188:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7188:2",
+      "ID_Padre": "7188",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 176,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7189:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7189:1",
+      "ID_Padre": "7189",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 277,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7190:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7190:1",
+      "ID_Padre": "7190",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 308,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7190:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7190:2",
+      "ID_Padre": "7190",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 243,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7190:3": {
+      "ID_Intervencion": "RPM-2015-12-17:7190:3",
+      "ID_Padre": "7190",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 406,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7191:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7191:1",
+      "ID_Padre": "7191",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 260,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7192:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7192:1",
+      "ID_Padre": "7192",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 133,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7193:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7193:1",
+      "ID_Padre": "7193",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 97,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7194:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7194:1",
+      "ID_Padre": "7194",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 78,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7194:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7194:2",
+      "ID_Padre": "7194",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 409,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7195:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7195:1",
+      "ID_Padre": "7195",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 4745,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7196:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7196:1",
+      "ID_Padre": "7196",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 606,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7197:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7197:1",
+      "ID_Padre": "7197",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 259,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7198:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7198:1",
+      "ID_Padre": "7198",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 422,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7199:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7199:1",
+      "ID_Padre": "7199",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 296,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7200:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7200:1",
+      "ID_Padre": "7200",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 306,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7201:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7201:1",
+      "ID_Padre": "7201",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 561,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7201:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7201:2",
+      "ID_Padre": "7201",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 489,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7202:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7202:1",
+      "ID_Padre": "7202",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 1190,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7203:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7203:1",
+      "ID_Padre": "7203",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 1560,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7204:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7204:1",
+      "ID_Padre": "7204",
+      "Actor": "Miguel Fuentes Díaz",
+      "Caracteres": 6257,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7205:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7205:1",
+      "ID_Padre": "7205",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 175,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7206:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7206:1",
+      "ID_Padre": "7206",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 363,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7207:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7207:1",
+      "ID_Padre": "7207",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 1972,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7208:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7208:1",
+      "ID_Padre": "7208",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 581,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7209:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7209:1",
+      "ID_Padre": "7209",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 797,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7209:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7209:2",
+      "ID_Padre": "7209",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7209:3": {
+      "ID_Intervencion": "RPM-2015-12-17:7209:3",
+      "ID_Padre": "7209",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 349,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7210:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7210:1",
+      "ID_Padre": "7210",
+      "Actor": "Alberto Naudon Dell'Oro",
+      "Caracteres": 6081,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7211:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7211:1",
+      "ID_Padre": "7211",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 235,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7211:2": {
+      "ID_Intervencion": "RPM-2015-12-17:7211:2",
+      "ID_Padre": "7211",
+      "Actor": "Alejandro Micco",
+      "Caracteres": 3565,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7211:3": {
+      "ID_Intervencion": "RPM-2015-12-17:7211:3",
+      "ID_Padre": "7211",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 321,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7211:4": {
+      "ID_Intervencion": "RPM-2015-12-17:7211:4",
+      "ID_Padre": "7211",
+      "Actor": "Mario Marcel Cullell",
+      "Caracteres": 6595,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7211:5": {
+      "ID_Intervencion": "RPM-2015-12-17:7211:5",
+      "ID_Padre": "7211",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7212:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7212:1",
+      "ID_Padre": "7212",
+      "Actor": "Pablo García Silva",
+      "Caracteres": 4178,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7213:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7213:1",
+      "ID_Padre": "7213",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 164,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7214:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7214:1",
+      "ID_Padre": "7214",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2927,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7215:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7215:1",
+      "ID_Padre": "7215",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 172,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7216:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7216:1",
+      "ID_Padre": "7216",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 5382,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7217:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7217:1",
+      "ID_Padre": "7217",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 5973,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7218:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7218:1",
+      "ID_Padre": "7218",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 2110,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2015-12-17:7219:1": {
+      "ID_Intervencion": "RPM-2015-12-17:7219:1",
+      "ID_Padre": "7219",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 159,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2015-12-17",
+      "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
     }
   },
-  "Total_Leidas": 6242
+  "Total_Leidas": 6321
 }
