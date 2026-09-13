@@ -411,6 +411,8 @@ Para leer una sesión entera al margen del plan:
 
 | 142–150 | 2009-06-16 | 99 | **sesión cerrada 98/98** (1 ya estaba anotada) · 13 actores · cola 4 casos ya partidos en 5/5/3/6 segmentos, 2b y 2c cero, barrido independiente sobre los 13 actores en cero → **ningún corte** · leídas las 11 filas de más de 1900 ch (2593:2 es un monólogo de 8683 ch) · 4 familias OCR: el **punto donde va coma** (91 de 109, separando 18 abreviaturas legítimas y 15 residuos), `IPOM`→`IPoM` 58, `desafio` 3, barra invertida 11 · 5 ops enmendadas porque otra corrección había dejado el punto dentro de su tramo y 1 que quedó destapado (§56) |
 
+| 151–159 | 2012-03-15 | 98 | **sesión cerrada 96/96** (2 ya estaban anotadas) · 14 actores · cola 1 caso que es mención (el Ministro avisó que no asiste), 2b y 2c cero, barrido independiente sobre los 14 actores en cero → **ningún corte** · 4722:3 (6828 ch) es la opinión **por escrito** del Ministro leída por el Presidente: atribución correcta · un barrido de acentos **sin umbral de frecuencia** destapó la fórmula del encabezado de acta (`SESION`/`POLITICA` en 36 casos) más 17 defectos sueltos · 1 caso sin resolver marcado para cotejo (§57) |
+
 Para anotar una ronda leída:
 
 ```

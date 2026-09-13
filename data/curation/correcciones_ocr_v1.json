@@ -2989,6 +2989,14 @@
           "Ocurrencias": 1,
           "Contexto": " abruptos, en especial de Estados Unidos de América., afectando la dinámica de la activi",
           "Justificacion": "Punto antes de una coma. Medido en el corpus: «.,» aparece 24 veces en el texto corregido, pero 20 son legítimas (abreviaturas «EE.UU.», «S.A.», «etc.», «v.gr.» e iniciales de nombre como «Velasco B.,»). Las 4 restantes tienen antes una palabra completa en minúscula o un signo de porcentaje, no una abreviatura, y el punto es sobrante."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "vis-é-vis el dólar",
+          "Despues": "vis a vis el dólar",
+          "Ocurrencias": 1,
+          "Contexto": "externa que expliquen la valoración del peso vis-é-vis el dólar o en términos multilaterales. La v",
+          "Justificacion": "Locución francesa mal compuesta. El corpus no contiene la grafía con «à» (cero apariciones y el guardia de vocabulario la rechazaría), pero sí atestigua «vis a vis» 8 veces y «vis-a-vis» 1; se normaliza a la forma que el propio corpus usa."
         }
       ]
     },
@@ -3769,6 +3777,14 @@
           "Despues": " comercial, si bien\ne",
           "Contexto": "\nDestaca particularmente que en el caso de Europa la balanza comercial , si bien\nestá mostrando exportaciones que crecieron algo más de lo ant",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "creciendo\ne.n\nIí ~ea con el mayor",
+          "Despues": "creciendo en línea con el mayor",
+          "Ocurrencias": 1,
+          "Contexto": "ala que las solicitudes de desempleo han ido creciendo\ne.n\nIí ~ea con el mayor desempleo, y hoy, si bien el dato ",
+          "Justificacion": "Tramo dañado por el OCR, con saltos de línea incluidos: «e.n Ií ~ea» por «en línea». La reconstrucción es única porque «en línea con» es una expresión fija del corpus y es lo único que encaja entre «las solicitudes de desempleo han ido creciendo» y «con el mayor desempleo»."
         }
       ]
     },
@@ -12983,6 +12999,22 @@
           "Ocurrencias": 1,
           "Contexto": "2005 En Santiago de Chile, a 7 de abril de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 76 Celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 76 Celebrada el 7 de ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -13903,6 +13935,14 @@
           "Ocurrencias": 1,
           "Contexto": "rds. Asiste la señora Ministro de Hacienda Subrogante, doña María Olivia Recart Herrera. Asisten también; Gerente General, don Alejandro Zurbuchen Silva; Fiscal y Ministro d",
           "Justificacion": "Punto y coma por dos puntos. Medido: \"Asisten también:\" aparece 93 veces y \"Asisten también;\" 7. La formula introduce una lista, así que corresponde dos puntos."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESIÓN DE POLITICA MONETARIA N° 122 celebrada el 8 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -18380,6 +18420,14 @@
           "Ocurrencias": 1,
           "Contexto": "mbio en los precios, la que se percibe mayor en el corto plazo. Adicionalmente, índica que la compensación inflacionaria uno en uno también se",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5182 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "a n á lisis del staff",
+          "Despues": "análisis del staff",
+          "Ocurrencias": 1,
+          "Contexto": "án señala que, como es habitual, agradece el a n á lisis del staff. Menciona el citado Consejero que ",
+          "Justificacion": "Palabra deletreada por el OCR, con el acento corrido a la a. Medido en el corpus: «análisis» aparece 854 veces."
         }
       ]
     },
@@ -18430,6 +18478,14 @@
           "Despues": "en general, la visión",
           "Contexto": "como pequeños empresarios, muestra caídas significativas y, en general , la visión es hacia una desaceleración. Indica el Gerente señor Lehman",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Sín embargo",
+          "Despues": "Sin embargo",
+          "Ocurrencias": 1,
+          "Contexto": "ero ha mostrado una tendencia hacia la baja. Sín embargo, los indicadores de actividad tien",
+          "Justificacion": "Acento indebido. Medido en el corpus: «Sin» aparece 2280 veces y «Sín» 1, siempre en la locución «Sin embargo»."
         }
       ]
     },
@@ -18738,6 +18794,30 @@
           "Despues": "o González; Secretari",
           "Contexto": "ique Orellana Cifuentes; Economista Senior, doña Erika Arraño González ; Secretario General, don Jorge Court Larenas.",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "SESiÓN",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESiÓN DE POLíTICA MONETARIA N° 129 celeb",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "POLíTICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESiÓN DE POLíTICA MONETARIA N° 129 celebrada el 9 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " Economista Seníor,",
+          "Despues": " Economista Senior,",
+          "Ocurrencias": 1,
+          "Contexto": "Hacienda, don Luis Felipe Céspedes Cifuentes; Economista Seníor, don Enrique Orellana Cifuentes; Ec",
+          "Justificacion": "Acento en la vocal equivocada. El corpus no decide entre las dos formas correctas («Sénior» 79 y «Senior» 77), pero la misma fila usa «Senior» en el cargo siguiente de la misma lista de asistentes, y esa evidencia local es la más fuerte. «Seníor» es incorrecta en cualquiera de las dos lecturas."
         }
       ]
     },
@@ -19500,6 +19580,22 @@
           "Ocurrencias": 1,
           "Contexto": "005 En Santiago de Chile, a 10 de marzo de 2005, siendo las 11,30 horas, se reúne el C onsejo del Banco C",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "A C T A CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 75 Celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "A C T A CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 75 Celebrada el10 de ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -19591,6 +19687,22 @@
           "Ocurrencias": 1,
           "Contexto": "n Santiago de Chile, a 15 de marzo de 2007, siendo las 11:30 horas, se reúne el C onsejo del Banco Central de Chile, bajo la presidencia del tit",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1433 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 105 celeb",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 105 celebrada el 15 d",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -19651,6 +19763,14 @@
           "Ocurrencias": 1,
           "Contexto": " de estas presiones, aunque se disponga hoy todavía de pocas observaciones. Sin em bargo, también cree que el proceso de normalización de la Tas",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1376 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "varías",
+          "Despues": "varias",
+          "Ocurrencias": 1,
+          "Contexto": "ciarse en la reunión de hoy; lo anterior por varías razones, algunas de las cuales ya ",
+          "Justificacion": "Acento indebido. Medido en el corpus: «varias» aparece 205 veces y «varías» 1, en «por varías razones», donde es adjetivo y no verbo."
         }
       ]
     },
@@ -20058,6 +20178,22 @@
           "Despues": "ón Acevedo; Gerente d",
           "Contexto": "ente de División Operaciones Financieras, don Beltrán De Ramón Acevedo ; Gerente de División Política Financiera, don Kevin Cowan Logan; Geren",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "SESiÓN",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESiÓN DE POLiTICA MONETARIA N° 130 celeb",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "POLiTICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESiÓN DE POLiTICA MONETARIA N° 130 celebrada el 13 d",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -21277,6 +21413,14 @@
           "Despues": "cieron 1,1% mes a mes",
           "Contexto": " 54,1 del mes anterior. Las ventas minoristas de febrero crecieron 1,1 % mes a mes desestacionalizado, tras el 0,6% del mes anterior. De esta ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "los efectos e la crisis externa",
+          "Despues": "los efectos de la crisis externa",
+          "Ocurrencias": 1,
+          "Contexto": "e diciembre y enero, no se pueden subestimar los efectos e la crisis externa sobre la economía nacional. Por es",
+          "Justificacion": "Preposición truncada: falta la d de «de». Es el único caso de «e la» en el corpus que no es una palabra deletreada."
         }
       ]
     },
@@ -24380,6 +24524,22 @@
           "Ocurrencias": 1,
           "Contexto": "005 En Santiago de Chile, a 12 de julio de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 80 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 80 celebrada e l1 2 d",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -24400,6 +24560,22 @@
           "Ocurrencias": 1,
           "Contexto": "5 En Santiago de Chile, a 10 de febrero de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 74 Celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 74 Celebrada el10 de ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -27442,11 +27618,11 @@
       "ID_Intervencion": "RPM-2014-07-15:6331:2",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "SIMBOLO_SUELTO",
           "Antes": "e año. í j .",
-          "Despues": "e año. í j.",
+          "Despues": "e año.",
           "Contexto": " 75 puntos base por debajo de su nivel actual antes de fin de año. í j .",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "La operación quitaba sólo el espacio entre la jota y el punto, y dejaba «e año. í j.»: una í con acento y una jota sueltas tras el punto de cierre. No tienen lectura posible y no falta texto, la oración está completa, así que se elimina la basura y el tipo pasa de ESPACIO_INDEBIDO a SIMBOLO_SUELTO porque ahora la operación quita letras y no sólo un blanco."
         },
         {
           "Tipo": "SIMBOLO_SUELTO",
@@ -28908,6 +29084,14 @@
           "Ocurrencias": 1,
           "Contexto": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «Dell'Oro» con apóstrofo recto. La fila NO estaba dañada: se unifica sólo la grafía del apóstrofo a la mayoritaria para que la persona tenga un único nombre en la base. Es reversible y no altera Texto."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA DE LA SESIÓN DE POLITICA MONETARIA Nº 214 celebrada el día ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -28921,6 +29105,14 @@
           "Ocurrencias": 1,
           "Contexto": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «Dell'Oro» con apóstrofo recto. La fila NO estaba dañada: se unifica sólo la grafía del apóstrofo a la mayoritaria para que la persona tenga un único nombre en la base. Es reversible y no altera Texto."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "POLiTICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "BANCO CENT'RAL DE CHILE ACTA DE LA SESIÓN DE POLiTICA MONETARIA Nº 216 celebrada el día ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -28934,6 +29126,14 @@
           "Ocurrencias": 1,
           "Contexto": "o; Gerente de División Estudios, don Alberto Naudon Dell'Oro; Gerente de División Operaciones Financieras",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (antes el criterio era marcar sin corregir). La forma correcta la acredita el propio corpus: «Alberto Naudon Dell’Oro» aparece 12 veces (RPM-2014-08-14:6342:1, RPM-2014-10-16:6440:1 y otras) y «Dell'Oro» 3; el apóstrofo curvo es además el mayoritario en el corpus (59 contra 41 rectos). Se unifica a una sola grafía para que la persona tenga un único nombre en la base. No es una conjetura: es la forma que el corpus ya usa para el mismo cargo y la misma persona (Gerente de División Estudios). Caso: «Dell'Oro» con apóstrofo recto. La fila NO estaba dañada: se unifica sólo la grafía del apóstrofo a la mayoritaria para que la persona tenga un único nombre en la base. Es reversible y no altera Texto."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "POLiTICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA DE LA SESIÓN DE POLiTICA MONETARIA Nº 217 celebrada el día ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -28999,6 +29199,22 @@
           "Ocurrencias": 1,
           "Contexto": "Gerente de Investigación Económica, don Kiaus Schmidt-Hebbei Dunker; Gerente de Información e Invest",
           "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Klaus Schmidt-Hebbel» aparece 94 veces en la salida, contra 1 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 87 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 87 celebrada el 12 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -29131,10 +29347,10 @@
         {
           "Tipo": "LETRA_CONFUNDIDA",
           "Antes": "ria de inversión, el Gerente señor ígal Madgenzo, señaló que las importaciones de bienes",
-          "Despues": "ria de inversión, el Gerente señor ígal Magendzo, señaló que las importaciones de bienes",
+          "Despues": "ria de inversión, el Gerente señor Igal Magendzo, señaló que las importaciones de bienes",
           "Ocurrencias": 1,
           "Contexto": "ria de inversión, el Gerente señor ígal Madgenzo, señaló que las importaciones de bienes",
-          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR."
+          "Justificacion": "Normalización de nombre propio dañado, autorizada por el usuario en esta ronda (el criterio anterior era marcar sin corregir). La forma canónica la acreditan el corpus y el roster de la sesión: «Magendzo» aparece 416 veces en la salida, contra 18 de la forma dañada. Se corrige en Texto_Corregido; Texto queda intacto. Lo que no tiene forma canónica atestiguada (por ejemplo «Miguel Angel Nacrur Gazali») sigue marcado NOMBRE_PROPIO_POR_COTEJAR. Extensión del §57: el mismo tramo llevaba también el nombre de pila dañado, «ígal» con í minúscula acentuada en vez de «Igal». Medido en el corpus: «Igal» aparece 131 veces y «ígal» 1, siempre el mismo Gerente de Análisis Macroeconómico, Igal Magendzo Weinberger."
         }
       ]
     },
@@ -29624,6 +29840,14 @@
           "Ocurrencias": 1,
           "Contexto": " a tres meses es una prolongación de una anomalía que viene de fuera. A continuación,.",
           "Justificacion": "Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Líbor",
+          "Despues": "Libor",
+          "Ocurrencias": 1,
+          "Contexto": "de Estados Unidos y por alguna razón la tasa Líbor a tres meses está muy por sobre la",
+          "Justificacion": "Acento indebido en la sigla. Medido en el corpus: «Libor» aparece 101 veces y «Líbor» 1. Es la London Interbank Offered Rate, sigla inglesa sin acento."
         }
       ]
     },
@@ -30308,6 +30532,14 @@
           "Ocurrencias": 1,
           "Contexto": "n América Latina se ve algo más contractiva hacia fines del año 2013. A continuación,.",
           "Justificacion": "Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Asía",
+          "Despues": "Asia",
+          "Ocurrencias": 1,
+          "Contexto": "tros marginales a la baja en América Latina, Asía emergente y Europa emergente. En m",
+          "Justificacion": "Acento indebido. Medido en el corpus: «Asia» aparece 327 veces y «Asía» 3, siempre «Asia emergente» o «Asia y Oceanía». El topónimo no lleva acento."
         }
       ]
     },
@@ -30844,6 +31076,22 @@
           "Ocurrencias": 1,
           "Contexto": "2005 En Santiago de Chile, a 12 de mayo de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 77 Celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 77 Celebrada el 12 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -30857,6 +31105,22 @@
           "Ocurrencias": 1,
           "Contexto": "2005 En Santiago de Chile, a 9 de junio de 2005, siendo las 11,45 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N“ 79 Celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N“ 79 Celebrada el 9 de ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -30870,6 +31134,22 @@
           "Ocurrencias": 1,
           "Contexto": "05 En Santiago de Chile, a 11 de agosto de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 81 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 81 celebrada el 11 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -30896,6 +31176,22 @@
           "Ocurrencias": 1,
           "Contexto": "En Santiago de Chile, a 8 de septiembre de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 83 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 83 celebrada el 8 de ",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -30922,6 +31218,22 @@
           "Ocurrencias": 1,
           "Contexto": "5 En Santiago de Chile, a 11 de octubre de 2005, siendo las 11,30 horas, se reúne el Consejo del Banco Central ",
           "Justificacion": "Coma en vez de dos puntos en la hora. Medido en el corpus: «HH:MM horas» aparece 551 veces y «HH,MM horas» 18, siempre en contexto horario inequívoco («siendo las …», «suspende la Sesión a las …», «se reanudará a las …», «Se levanta la Sesión a las …»). No es un decimal: son horas y minutos. Es la misma familia que las 7 correcciones ya registradas del punto y coma («16;55 horas» -> «16:55 horas», tipo PUNTUACION). Los rangos con guion («46-50 horas», «0-45 horas») son otra cosa y no se tocan."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 84 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 84 celebrada el 11 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
         }
       ]
     },
@@ -32553,11 +32865,11 @@
       "Operaciones": [
         {
           "Tipo": "SIMBOLO_SUELTO",
-          "Antes": " \\ ",
-          "Despues": " ",
+          "Antes": "commodities. ' í \\ : Ai proseguir",
+          "Despues": "commodities. Al proseguir",
           "Ocurrencias": 1,
-          "Contexto": "ilidad en los precios de los commodities. ' í \\ : Ai proseguir, el señor Felipe Lar",
-          "Justificacion": "Barra invertida suelta, residuo de salto de línea del PDF. Medido en el corpus: aparece 11 veces rodeada de espacios, siempre entre dos palabras que pertenecen a la misma oración."
+          "Contexto": "vocar alta volatilidad en los precios de los commodities. ' í \\ : Ai proseguir, el señor Felipe Larraín menciona ",
+          "Justificacion": "Extensión de la operación de la barra invertida (§56). El tramo completo es un residuo de OCR entre dos oraciones: una comilla recta, una í con acento, la barra, dos puntos y «Ai» por «Al». Corregir sólo la barra dejaba «commodities. ' í : Ai proseguir», así que se extendió el ancla a todo el residuo. No se puede apilar una segunda operación porque dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden, y enmendar_operacion.py no puede cambiar el Antes porque es lo que ancla la operación al texto."
         }
       ]
     },
@@ -32675,6 +32987,168 @@
           "Ocurrencias": 1,
           "Contexto": ", el canal financiero ya está despejado, ya que. ciertamente, hay temas de demanda ",
           "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:205:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "cúal",
+          "Despues": "cuál",
+          "Ocurrencias": 1,
+          "Contexto": "iaron respecto del dólar, se debe señalar de cúal período se esta hablando. i",
+          "Justificacion": "Acento en la vocal equivocada. Medido en el corpus: «cuál» aparece 246 veces y «cúal» 1. El interrogativo tónico lleva el acento en la a."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-04-07:207:8",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "estás cifras",
+          "Despues": "estas cifras",
+          "Ocurrencias": 1,
+          "Contexto": "te volátiles. En todo caso, no le parece que estás cifras permitan concluir que se está enca",
+          "Justificacion": "Acento indebido: es el demostrativo «estas cifras», no el verbo «estás». Medido en el corpus: «estas» aparece 1266 veces."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-11-10:450:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 85 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 85 celebrada el 10 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-12-13:505:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N“ 86 celebr",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N“ 86 celebrada el 13 de",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1022:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "SESION",
+          "Despues": "SESIÓN",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 102 celeb",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "POLITICA",
+          "Despues": "POLÍTICA",
+          "Ocurrencias": 1,
+          "Contexto": "ACTA CORRESPONDIENTE A LA SESION DE POLITICA MONETARIA N° 102 celebrada el 11 d",
+          "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2227:4",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "del crédit crunch",
+          "Despues": "del credit crunch",
+          "Ocurrencias": 1,
+          "Contexto": "nomías desarrolladas, a pesar de la magnitud del crédit crunch, los datos de los créditos se han ",
+          "Justificacion": "Acento indebido en un anglicismo. Medido en el corpus: «credit crunch» aparece 10 veces y «crédit crunch» 1."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-01-12:4536:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Asía",
+          "Despues": "Asia",
+          "Ocurrencias": 1,
+          "Contexto": "d en América Latina y algunas reversiones en Asía emergente, explicadas, fundamental",
+          "Justificacion": "Acento indebido. Medido en el corpus: «Asia» aparece 327 veces y «Asía» 3, siempre «Asia emergente» o «Asia y Oceanía». El topónimo no lleva acento."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-03-15:4721:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "la sustentabílidad del mayor",
+          "Despues": "la sustentabilidad del mayor",
+          "Ocurrencias": 1,
+          "Contexto": "resa que aún existen dudas importantes sobre la sustentabílidad del mayor optimismo en los mercados financie",
+          "Justificacion": "Acento indebido. Medido en el corpus: «sustentabilidad» aparece 11 veces y «sustentabílidad» 1."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-05-17:4792:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Vial Ruíz-Tagle",
+          "Despues": "Vial Ruiz-Tagle",
+          "Ocurrencias": 1,
+          "Contexto": "a, don Sebastián Claro Edwards y don Joaquín Vial Ruíz-Tagle. Asiste a esta Sesión el Ministro ",
+          "Justificacion": "Acento indebido en el apellido. Medido en el corpus: «Ruiz» aparece 54 veces y «Ruíz» 1. El Consejero se llama Joaquín Vial Ruiz-Tagle, que es como lo escribe el propio campo Actor_Final de la sesión."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5280:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Asía",
+          "Despues": "Asia",
+          "Ocurrencias": 1,
+          "Contexto": "l transcurso del año 2014 en América Latina, Asía y Oceania, mientras que para Europ",
+          "Justificacion": "Acento indebido. Medido en el corpus: «Asia» aparece 327 veces y «Asía» 3, siempre «Asia emergente» o «Asia y Oceanía». El topónimo no lleva acento."
+        },
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "Arabía",
+          "Despues": "Arabia",
+          "Ocurrencias": 1,
+          "Contexto": "a aumentar, debido a una menor producción en Arabía Saudita, Irak y el Mar del Norte; ",
+          "Justificacion": "Acento indebido. Medido en el corpus: «Arabia» aparece 28 veces y «Arabía» 1, siempre «Arabia Saudita»."
         }
       ]
     }
@@ -33989,6 +34463,11 @@
       "Texto_Original_Fragmento": "Gerente de Comunicaciones, don Luis Alvarez Vallejos",
       "Motivo": "NOMBRE_PROPIO. Falta la tilde de 'Álvarez'. Medido: 'Luis Alvarez' sin tilde aparece 21 veces en el corpus y 'Luis Álvarez' con tilde 39, así que conviven las dos grafías y hay transcripción inconsistente: a diferencia de 'Alvaro' (2 contra 0, uniforme, descartado en la ronda 174), aquí sí hay una errata que cotejar. Pero un nombre propio nunca se reescribe, sólo se marca. Va en Marcas_Adicionales porque esta fila ya lleva una marca distinta (punto ausente) y Cotejar_PDF admite varias, unidas por punto y coma.",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR"
+    },
+    {
+      "ID_Intervencion": "RPM-2007-08-09:1357:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§57: «ajustes en precios de activos financieros y í condiciones crediticias más restrictivas». La í con acento ocupa el lugar de una palabra entera y no hay forma de saber cuál: el corpus admite «y a condiciones», «y unas condiciones» o «y en condiciones». Se deja sin corregir y marcado para cotejo con el PDF."
     }
   ]
 }

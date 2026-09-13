@@ -3432,3 +3432,84 @@ cambio de signo es el arreglo sustantivo.
 
 **Regla: al enmendar un `Despues`, comprobar que el `Tipo` sigue describiendo lo que la
 operación hace.**
+
+---
+
+## §57 — Sesión 2012-03-15: la fórmula del encabezado y un barrido de acentos sin umbral
+
+Noventa y ocho filas, catorce actores. El único caso de la cola es una **mención**, no una
+intervención: el Presidente deja constancia de que el Ministro de Hacienda le informó que no
+asistirá. Las siete firmas del §49 en cero y un barrido independiente sobre los catorce actores
+en cero; `RESPONDE` y `CARGO_SUJETO` disparan una vez, sobre `4719:5`, que es el propio actor
+de la fila. Los nueve traspasos están en filas cortas del Presidente. **Ningún corte.** Se
+leyeron las catorce filas de más de 1.900 caracteres: `4721:1` (7.810 ch) es un monólogo de
+Luis Óscar Herrera, y `4722:3` (6.828) es **la opinión por escrito del Ministro de Hacienda que
+el Presidente lee en voz alta** —la atribución al Ministro es correcta aunque no haya asistido,
+porque el autor del texto es él.
+
+### El encabezado de acta es una fórmula fija
+
+El detector de acentos de la sesión no encontró nada aplicable, así que se corrió un barrido
+propio sobre **todo el corpus**: toda palabra acentuada cuya forma sin acento sea al menos
+veinte veces más frecuente, **sin umbral mínimo de frecuencia** (el detector de la sesión usa
+20 y por eso se le escapó `sustentabílidad`, cuya contraparte aparece 11 veces). Salieron 66
+candidatos y **la mayoría son falsos**: verbos en pretérito (`Aumentó`, `tornó`, `impactó`,
+`promedió`, `votó`, `impulsó`, `trabajó`, `retiró`, `motivó`, `pagó`…) y formas legítimas de la
+época (`Éste`, `Ésta`, `Sólo`, `Sí`, `Cuánto`, `quiénes`).
+
+Lo que sí apareció es una **fórmula fija**. El encabezado de todas las actas dice «ACTA
+CORRESPONDIENTE A LA SESIÓN DE POLÍTICA MONETARIA N° …», y sus variantes:
+
+| forma | casos |
+|---|---|
+| `SESIÓN` correcta | 115 |
+| `SESION` sin acento | 14 |
+| `SESiÓN` con i minúscula | 2 |
+| `POLÍTICA` correcta | 111 |
+| `POLITICA` sin acento | 16 |
+| `POLíTICA` / `POLiTICA` | 4 |
+
+**36 operaciones.** La fórmula completa correcta aparece 111 veces contra 14 sin acentos: al
+ser el mismo encabezado en todas las actas, la forma canónica no admite duda.
+
+### Los otros casos, uno por uno
+
+`Asía`→`Asia` 3 (327) · `Líbor`→`Libor` 1 (101) · `Arabía`→`Arabia` 1 (28) · `cúal`→`cuál` 1
+(246, acento en la vocal equivocada) · `varías`→`varias` 1 (205) · `estás cifras`→`estas` 1
+(1.266) · `Sín embargo`→`Sin` 1 (2.280) · `Ruíz-Tagle`→`Ruiz-Tagle` 1 (54) ·
+`crédit crunch`→`credit crunch` 1 (10) · `sustentabílidad`→`sustentabilidad` 1 (11) ·
+`efectos e la crisis`→`de la crisis` 1 · `a n á lisis`→`análisis` 1 (854) ·
+`e.n Ií ~ea`→`en línea` 1 · residuo `' í \ : Ai`→`Al` 1 · basura final `í j .` 1.
+
+**Tres decisiones que no se resolvieron por frecuencia:**
+
+- **`Seníor`.** El corpus está empatado: `Sénior` 79 y `Senior` 77. No decide la frecuencia
+  sino **la propia fila**, que usa `Senior` en el cargo siguiente de la misma lista de
+  asistentes. `Seníor` es incorrecta en cualquiera de las dos lecturas.
+- **`vis-é-vis`.** La grafía correcta `vis-à-vis` **no aparece ninguna vez** en el corpus y la
+  `à` no está en el repertorio ni en `TERMINOS_FORANEOS`, así que el guardia de vocabulario la
+  rechazaría. El corpus sí atestigua `vis a vis` 8 veces: se normalizó a eso.
+- **`y í condiciones crediticias`** (`2007-08-09:1357:1`). La í acentuada ocupa el lugar de una
+  palabra entera y el corpus admite «y a condiciones», «y unas condiciones» o «y en
+  condiciones». **No se corrigió**: se dejó la marca `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`
+  (marca 8 del registro, 215 filas marcadas).
+
+### Dos defectos escondidos detrás de otro
+
+`ígal Magendzo` no se corrigió con el lote porque **el apellido también estaba dañado**: el
+virgen dice `ígal Madgenzo`, y una operación previa ya arreglaba el apellido, así que el ancla
+nueva no casaba con nada. Se extendió el `Despues` de esa operación. Y el residuo
+`commodities. ' í \ : Ai proseguir` tenía la barra invertida ya ocupada por una operación del
+§56: corregir sólo la barra dejaba `' í : Ai`, así que se extendió el ancla a todo el residuo.
+
+**Regla: cuando un tramo tiene dos defectos y uno ya tiene operación, el segundo se resuelve
+extendiendo esa operación, no registrando otra.**
+
+### Verificado
+
+`SESION` 14 → **0** · `SESiÓN` 2 → **0** · `POLITICA` 16 → **0** · `POLíTICA`/`POLiTICA` 4 →
+**0** · fórmula correcta 111 → **131** · los 17 casos sueltos → **0** · `ígal` 1 → **0**
+(`Igal` 131 → 132) · `Texto` idéntico a la base en las 9.725 · **0 operaciones no
+idempotentes**.
+
+Registro: **1.714 filas / 2.916 operaciones / 215 filas marcadas**.
