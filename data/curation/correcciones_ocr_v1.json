@@ -3249,6 +3249,14 @@
           "Ocurrencias": 1,
           "Contexto": "obre 1%, siendo lo más importante la caída en el precio de los combustibles. El IRC Core, por su parte, se ha mantenido en niveles en torno a 3",
           "Justificacion": "IRC por IPC. Medido en todo el corpus: 71 apariciones, ninguna en un contexto donde IRC sea una sigla legitima; 61 sueltas y 10 dentro de IRCX1, que tambien debe leerse IPCX1 porque la misma fila escribe IPCX e IPCX2. Regla de bloque revisada caso por caso."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "lumen de exportaciones, ya que Y la producción industrial est",
+          "Despues": "lumen de exportaciones, ya que y la producción industrial est",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "industrial ha ido creciendo, lo que en principio se vinculaba muy bien con el volumen de exportaciones, ya que Y la producción industrial estaba fundamentalmente orientada al sector externo. Menciona el señor Lehmann, que"
         }
       ]
     },
@@ -4528,6 +4536,14 @@
           "Ocurrencias": 1,
           "Contexto": " de prensa en la mañana siguiente para aportar más detalles y aclarar eventua les dudas. Para finalizar, sugiere que dado que la práctica del Consejo e",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «eventua les» -> «eventuales». La evidencia es interna y doble: el primer trozo («eventua») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («eventuales») es la que el propio corpus usa 112 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ado crediticio. Si esto fuera asi, la potencia del estímulo mon",
+          "Despues": "ado crediticio. Si esto fuera así, la potencia del estímulo mon",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "es pueden enfrentar tasas más elevadas y condiciones más restrictivas en el mercado crediticio. Si esto fuera asi, la potencia del estímulo monetario sería menor. En cuarto lugar, el Consejero señor Manuel Marfán se refiere"
         }
       ]
     },
@@ -6403,6 +6419,14 @@
           "Ocurrencias": 1,
           "Contexto": "te los Bancos Centrales de Estados Unidos de América y aparentemente, hacía delante, el Banco Central Europeo, han sido más rápidos en reaccionar",
           "Justificacion": "Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "economía, asi mientras ",
+          "Despues": "economía, así mientras ",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "e cantidad afectan el potencial de crecimiento no inflacionario de la economía, asi mientras la apreciación cambiaría implicará menores presiones sobre la inflació"
         }
       ]
     },
@@ -6425,6 +6449,14 @@
           "Despues": "nto de 5,1% para el a",
           "Contexto": " de lo esperado, lo que lleva provisionalmente a un crecimiento de 5,1 % para el año 2007. Sin embargo, señala el señor Presidente que este me",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "d de los mercados bursátiles, asi lo refleja. Con todo, cree qu",
+          "Despues": "d de los mercados bursátiles, así lo refleja. Con todo, cree qu",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "tico, son particularmente inciertos y de signo opuesto. Señala que la volatilidad de los mercados bursátiles, asi lo refleja. Con todo, cree que no se puede descartar que en los meses siguientes haya que volver a subir la T"
         }
       ]
     },
@@ -10596,6 +10628,14 @@
           "Ocurrencias": 1,
           "Contexto": " esta materia. Al respecto, hace presente que esto se ha visto en otros países, en linea con lo informado previamente por el Gerente de División Ope",
           "Justificacion": "Tilde faltante, grupo B3. Se leyeron las 53 apariciones de linea, continua, publica y lineas, y sólo 23 son defecto. «linea»: las 18 son la fórmula «en linea con», siempre el sustantivo, así que van con contexto. «lineas»: las 4 son sustantivo («otras lineas de financiamiento», «algunas lineas manufactureras», «de las lineas vinculadas»). «continua»: de 18 apariciones sólo 2 son el verbo («la actividad económica continua creciendo», «esta parte de la economía continua funcionando»); las otras 16 son el adjetivo continuo/continua y NO se tocan («la continua caída», «la mejora continua», «la convergencia continua y gradual», «la serie no es continua», «de continua colaboración», «de manera continua»). «publica»: las 13 son la tercera persona del verbo publicar («se publica anualmente», «la Reserva Federal no publica su propia», «el INE no los publica», «que publica el Fondo») y ninguna se corrige."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ta no estar seguro de que sea asi. Aclara que ello, por cierto,",
+          "Despues": "ta no estar seguro de que sea así. Aclara que ello, por cierto,",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "pronunció, prefería un tipo de cambio más bajo que el actual, de lo que manifiesta no estar seguro de que sea asi. Aclara que ello, por cierto, no significa que no se pueda hacer una referencia al tipo de cambio en futuros "
         }
       ]
     },
@@ -13853,6 +13893,14 @@
           "Ocurrencias": 1,
           "Contexto": "tado y en algún momento éste fue más significativo, pero tendió a revertirse en ios últimos días. El precio del maíz por otro lado, se ha m",
           "Justificacion": "\"ios\" por \"los\": la l se leyo como i, la misma regla que produce \"ai\" por \"al\" (§12). Medido: 90 apariciones en 88 filas contra 32.215 de \"los\". \"ios\" no es palabra del español. Se comprobo la palabra que precede a las 90 y en todas corresponde un articulo: de 25, en 14, que 12, a 9, para 5, todos 3, con 2, y 2, por 2, y el resto tras cuando, durante, analizan, septiembre, o una comilla de apertura."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "o de indicadores de actividad asi como de mercado laboral. Hace",
+          "Despues": "o de indicadores de actividad así como de mercado laboral. Hace",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "mes, aunque la probabilidad se ha ido reduciendo en los últimos días, a propósito de indicadores de actividad asi como de mercado laboral. Hace presente el señor Lehmann que para la Zona Euro el mercado apuesta a una manten"
         }
       ]
     },
@@ -21270,6 +21318,14 @@
           "Despues": "va Federal, sino que ",
           "Contexto": "o solo se ubicaría en el rango inferior que entrega la Reserva Federal , sino que es más coherente con la proyección para el total del año exp",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "r crecimiento para el año 2010 Y algo menos para el 2011, así",
+          "Despues": "r crecimiento para el año 2010 y algo menos para el 2011, así",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": " ha informado un rango, como es habitual, contemplando ahora dos décimas de menor crecimiento para el año 2010 Y algo menos para el 2011, así como también un menor nivel de inflación para este y el próximo año. Aclara que"
         }
       ]
     },
@@ -22141,6 +22197,14 @@
           "Ocurrencias": 1,
           "Contexto": "tácticos, indica que la decisión de mantener la TPM coincide con la expectativa mayorítaria de mercado, razón por la que no debería afectar la curv",
           "Justificacion": "Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 195 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías)."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ones inflacionarias internas, asi como también permitir una mod",
+          "Despues": "ones inflacionarias internas, así como también permitir una mod",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": " uso de la capacidad instalada, lo que a mediano plazo debería reducir las presiones inflacionarias internas, asi como también permitir una moderación relevante del déficit de la cuenta corriente que se espera para este año"
         }
       ]
     },
@@ -23996,6 +24060,14 @@
           "Ocurrencias": 1,
           "Contexto": "recio del petróleo, da cuenta de un aumento marginal al cierre del viernes 9 de octubre, el que seria más marcado si se agregan los últimos dos días. El prec",
           "Justificacion": "Tilde faltante, grupo B2. «seria»: se leyeron las 39 apariciones y 32 son el condicional («lo que seria interesante» -> sería); las 7 restantes son el adjetivo serio/seria y NO se tocan: «una seria amenaza», «no sólo es seria», «le parece muy seria», «gente extremadamente seria», «una cuantificación seria», «están en seria duda», «una seria advertencia». Por eso cada par lleva contexto. «estimulo»: las 18 apariciones son el sustantivo («el estimulo monetario», «el estimulo fiscal», «planes de estimulo», «el grado de estimulo») y ninguna es la primera persona del verbo estimular, así que todas llevan tilde."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "mplia de bancos de inversión, asi como las de una encuesta que ",
+          "Despues": "mplia de bancos de inversión, así como las de una encuesta que ",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": " 2,8 dólares la libra. Añade que las proyecciones de una muestra relativamente amplia de bancos de inversión, asi como las de una encuesta que comenzó a realizar COCHILCO a distintos agentes del mercado, publicada por prime"
         }
       ]
     },
@@ -25012,6 +25084,14 @@
           "Ocurrencias": 1,
           "Contexto": "a apreciable entre una y otra. Por consiguiente. le parece que también debiera incl",
           "Justificacion": "Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "erales que se calcula entre 10 Y 20 puntos base por sobre la ",
+          "Despues": "erales que se calcula entre 10 y 20 puntos base por sobre la ",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "mbién, que normalmente la Libor tiene una diferencia respecto a la de Fondos Federales que se calcula entre 10 Y 20 puntos base por sobre la primera, pero sin embargo existen períodos en los cuales sube. En consecuencia, "
         }
       ]
     },
@@ -26048,6 +26128,14 @@
           "Despues": ", pero que, obviament",
           "Contexto": "nte se apreciará enseguida, cuando muestre el cuadro resumen, pero que , obviamente, estas tres zonas muestran claramente caídas en torno a 2 ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ón intermedia para el año 2010 Y se supuso que se tendrá una ",
+          "Despues": "ón intermedia para el año 2010 y se supuso que se tendrá una ",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "laramente caídas en torno a 2 y 3%. Comenta que Chile se encuentra en una posición intermedia para el año 2010 Y se supuso que se tendrá una recuperación extremadamente lenta, muy flat hacia 2009 y una ligera recuperación"
         }
       ]
     },
@@ -26923,6 +27011,14 @@
           "Despues": "s períodos.",
           "Contexto": "es que las desarrolladas continúan deprimidas en los próximos períodos .",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "iento para los años 2010, 2011 Y 2012, la proyección del WEO ",
+          "Despues": "iento para los años 2010, 2011 y 2012, la proyección del WEO ",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": " septiembre. Indica que si se comparan las cifras de nuestro escenario de crecimiento para los años 2010, 2011 Y 2012, la proyección del WEO de abril con la de octubre y lo que está diciendo el consenso de mercado a septi"
         }
       ]
     },
@@ -27106,6 +27202,14 @@
           "Despues": " economías, y que sí ",
           "Contexto": "netaria (RPM) de octubre han sido nulas en la mayoría de las economías , y que sí se han registrado aumentos, particularmente en aquellas con ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "e inflación para los años 2010 Y 2011, recogidas por Consensu",
+          "Despues": "e inflación para los años 2010 y 2011, recogidas por Consensu",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "s Internacional señor Sergio Lehmann prosigue, comentando que las expectativas de inflación para los años 2010 Y 2011, recogidas por Consensus Forecasts, continúan acotadas y con cierta heterogeneidad en los movimientos e"
         }
       ]
     },
@@ -28779,6 +28883,14 @@
           "Ocurrencias": 1,
           "Contexto": "intercambiar puntos de vista y asi informar la discusión de la tarde. A continuación,.",
           "Justificacion": "Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ntercambiar puntos de vista y asi informar la discusión de la t",
+          "Despues": "ntercambiar puntos de vista y así informar la discusión de la t",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "opiado resumir la presenta ción y que al final se cuente con mayor tiempo para intercambiar puntos de vista y asi informar la discusión de la tarde. A continuación,."
         }
       ]
     },
@@ -30621,6 +30733,14 @@
           "Ocurrencias": 1,
           "Contexto": " de ello el tipo de cambio multilateral, que se ha mantenido estable. A continuación,.",
           "Justificacion": "Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "s bien respecto del dólar, no asi respecto de otras monedas, da",
+          "Despues": "s bien respecto del dólar, no así respecto de otras monedas, da",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "cisa que, desde fines de junio hasta ahora, los movimientos del peso han sido más bien respecto del dólar, no asi respecto de otras monedas, dando cuenta de ello el tipo de cambio multilateral, que se ha mantenido estable. "
         }
       ]
     },
@@ -32055,6 +32175,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Presidente señor José De Gregario señala haber tenido la noción de q",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " había aumentado entre 100.000 Y 150.000 mil personas,",
+          "Despues": " había aumentado entre 100.000 y 150.000 mil personas,",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "señor José De Gregario señala haber tenido la noción de que la fuerza de trabajo había aumentado entre 100.000 Y 150.000 mil personas,"
         }
       ]
     },
@@ -32814,6 +32942,14 @@
           "Ocurrencias": 1,
           "Contexto": "s, ya que se plantea con mayor intensidad el desafio de conducir adecuadamente el proce",
           "Justificacion": "Falta el acento. Medido en el corpus: «desafío» aparece 40 veces y «desafio» 3."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "lización de sus niveles, como asi también expectativas de recup",
+          "Despues": "lización de sus niveles, como así también expectativas de recup",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "el alza en las tasas largas y que ese movimiento puede reflejar una cierta normalización de sus niveles, como asi también expectativas de recuperación en adelante, lo que tendría una connotación positiva, pero que también p"
         }
       ]
     },
@@ -33470,6 +33606,162 @@
           "Ocurrencias": 1,
           "Contexto": "n Beresi; Gerente de Mercados Nacionales, don Matías Bernier Bórquez; Gerente de Estabilidad Financiera, ...don Luis Opazo Roco; Gerente Asesor de Comunicaciones, don Luis Álvarez Vallejos; Gerente",
           "Justificacion": "Tres puntos sueltos entre la coma y el tratamiento, en la lista de asistentes del encabezado. El formato de esa lista es fijo y está atestiguado: «Cargo, don/señor Nombre», y sólo para el cargo de Gerente de Estabilidad Financiera aparece 82 veces en el corpus. La secuencia «, ...» no aparece en ninguna otra parte del corpus: es un caso único, no una convención."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1210:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " Financiera opina que esto es asi principalmente debido a que e",
+          "Despues": " Financiera opina que esto es así principalmente debido a que e",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "nte dadas esas incertidumbres. En segundo lugar, el Gerente de División Política Financiera opina que esto es asi principalmente debido a que el escenario de crecimiento económico proyectado desde ese mismo período ha sido "
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-06-14:1288:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " a los exportadores. Si fuese asi cree que la otra alternativa ",
+          "Despues": " a los exportadores. Si fuese así cree que la otra alternativa ",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "a explicación de que el menor IVA recaudado es por devoluciones de este impuesto a los exportadores. Si fuese asi cree que la otra alternativa es que fuera el IVA a la construcción, lo que no necesariamente es expansivo. Me"
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1818:3",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "va y se estima que continuará asi hasta mediados de este año.",
+          "Despues": "va y se estima que continuará así hasta mediados de este año.",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "tro de las ramas industriales, que efectivamente está afectando de manera negativa y se estima que continuará asi hasta mediados de este año."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-06-10:1899:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "e que es un riesgo a la baja, asi como también al alza, como po",
+          "Despues": "e que es un riesgo a la baja, así como también al alza, como po",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "ue constituyen elementos de riesgo que no están en el escenario actual, pero cree que es un riesgo a la baja, asi como también al alza, como por ejemplo que el precio del petróleo se fuera a los 200 dólares el barril, por i"
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-02-12:2372:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ilita de manera fundamental el Y actuar de la política moneta",
+          "Despues": "ilita de manera fundamental el y actuar de la política moneta",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "ión, lo cual es una muestra importante de credibilidad y que, en su opinión, facilita de manera fundamental el Y actuar de la política monetaria de ahora en adelante. Señala también, que las tasas de captación a plazos me"
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-06-16:2562:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": "dustrial de Asia y de Brasil, asi como aquéllos de las exportac",
+          "Despues": "dustrial de Asia y de Brasil, así como aquéllos de las exportac",
+          "Ocurrencias": 1,
+          "Justificacion": "Enmienda §63: la operación original cayó sobre la «i» de «Brasil» en vez de la de «asi», y produjo «Brasíl», que es una forma inexistente. Se corrige el destino para que el único cambio sea el acento de «así». «asi» no es palabra del español; el corpus escribe «así» 1.199 veces frente a 19, y los 19 casos son la misma lesión.",
+          "Contexto": "eñor Pablo García precisa que los datos de los últimos meses sobre producción industrial de Asia y de Brasil, asi como aquéllos de las exportaciones de ese continente, muestran claramente que se está frente a un incremento "
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-10-13:2725:3",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "El señor Lehmann confirma que asi es, agregando que visitó la F",
+          "Despues": "El señor Lehmann confirma que así es, agregando que visitó la F",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "El señor Lehmann confirma que asi es, agregando que visitó la FED hace unas semanas y que su percepción en materia de tamaño de balance es que "
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2793:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "a fecha en que esto comience, asi como su ritmo de reducción. E",
+          "Despues": "a fecha en que esto comience, así como su ritmo de reducción. E",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "ciertas fechas. Hoy, enfatiza, es más importante que se anuncie su fin más que la fecha en que esto comience, asi como su ritmo de reducción. Es decir, el señor de Ramón manifiesta creer que hay que señalar que la fecha en "
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-07-15:3257:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ron a corregir a la baja. Aún asi, manifiesta que ha habido aum",
+          "Despues": "ron a corregir a la baja. Aún así, manifiesta que ha habido aum",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "mponentes, que no se dio, y luego, en la medida que no se concretaba, se comenzaron a corregir a la baja. Aún asi, manifiesta que ha habido aumentos en estos precios."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3323:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "e la apreciación del peso obedecerla a la depreciación del dó",
+          "Despues": "e la apreciación del peso obedecería a la depreciación del dó",
+          "Ocurrencias": 1,
+          "Justificacion": "Enmienda §63: la operación original reemplazó la primera «l» del ancla, la del artículo «la», y produjo «de ía apreciación». Se corrige el destino para que el cambio caiga sobre la «l» de «obedecerla». «obedecerla a la depreciación del dólar» no es gramatical; la forma es «obedecería a», atestiguada 56 veces en el corpus, dos de ellas en esta misma sesión (3290:1 y 3308:1).",
+          "Contexto": "es de las AFP. Informa que este arroja que desde junio hasta ahora, gran parte de la apreciación del peso obedecerla a la depreciación del dólar, esto es, lo que está ocurriendo específicamente con el Broad Dollar Index; "
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-08-18:4238:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "as del sur de Estados Unidos, asi como problemas de lluvia exce",
+          "Despues": "as del sur de Estados Unidos, así como problemas de lluvia exce",
+          "Ocurrencias": 1,
+          "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
+          "Contexto": "l caso particular del trigo, hubo problemas de sequía que afectaron a las cosechas del sur de Estados Unidos, asi como problemas de lluvia excesiva en primavera, afectando los cultivos en la zona norte de ese país. Agrega q"
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:6987:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ron caídas en todas las plazas Y aumentos significativos de C",
+          "Despues": "ron caídas en todas las plazas y aumentos significativos de C",
+          "Ocurrencias": 1,
+          "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
+          "Contexto": "vos de riesgo y renta variable. En cuanto a los mercados bursátiles, se registraron caídas en todas las plazas Y aumentos significativos de CDS spreads a 5 años, en particular en Brasil, Perú y Colombia, pero tendieron a "
         }
       ]
     }
@@ -34804,6 +35096,11 @@
       "ID_Intervencion": "RPM-2011-03-17:3887:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "§62: fragmento DESPLAZADO, no faltante. La fila dice «…los próximos ajustes vuelvan a la gradualidad anterior, en la medida que las condiciones así lo sugieran. a 4%. En consecuencia, el Consejero señor Sebastián Claro vota por aumentar la tasa». El «a 4%.» quedó incrustado dos oraciones antes del lugar que le corresponde, y la fila termina sin puntuación justo donde falta. La lectura probable es «vota por aumentar la tasa a 4%.», y hay corroboración independiente en la misma sesión (3888:1, Marshall: «vota por subir la TPM en 50pb, hasta 4,0%»). Aun así NO se corrigió: reordenar texto es una reconstrucción y el vocabulario de 15 tipos no tiene ninguno para eso, lo que señala que está fuera del alcance del registro. Quien coteje el PDF lo resuelve en segundos con esta nota."
+    },
+    {
+      "ID_Intervencion": "RPM-2010-08-12:3313:1",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "§63: «la fuerza de trabajo había aumentado entre 100.000 y 150.000 mil personas». La secuencia «150.000 mil» es imposible: serían 150 millones de personas y la fuerza de trabajo chilena ronda los 7 millones. Las dos lecturas plausibles —«entre 100.000 y 150.000 personas» o «entre 100 mil y 150 mil personas»— dan la misma magnitud pero no la misma cifra escrita, y elegir entre ellas es adivinar. Se corrigió sólo la conjunción mayúscula (Y por y), que es independiente del problema, y se dejó el número intacto para el cotejo con el PDF."
     }
   ]
 }

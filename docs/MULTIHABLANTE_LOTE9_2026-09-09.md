@@ -425,6 +425,8 @@ Para leer una sesión entera al margen del plan:
 
 | 187–195 | 2011-03-17 | 95 | **sesión cerrada 92/92** (3 ya estaban anotadas) · 13 actores · los 2 casos de la cola **ya estaban bien partidos** (3871 en 2: la opinión de Herrera y la del Presidente; 3887 en 2: Claro hasta su voto y Marshall desde «Al continuar con la votación»), 2b y 2c en cero, el barrido independiente sobre los 13 actores dio **1 sola** referencia ajena que es el propio Larraín como «el señor Ministro», las 10 filas de más de 2500 ch son monólogos → **ningún corte** · 1 residuo en la lista de asistentes corregido (`Financiera, ...don`) y el **primer fragmento desplazado** del corpus marcado, no movido: el «a 4%.» está dos oraciones antes de donde va (§62) |
 
+| 196–205 | 2010-08-12 | 96 | **sesión cerrada 90/90** (6 ya estaban anotadas) · 14 actores · el único caso de la cola, el padre 3303, **ya estaba bien partido** (3303:1 Vicuña sobre los datos de reconstrucción, 3303:2 Soto sobre el registro de los albañiles); los 2 casos de 2b son Soto mismo con la otra persona como objeto de una consulta; 6 referencias ajenas en el barrido de los 14 actores, todas el propio De Gregorio como Presidente, y 4 en las filas largas, todas el propio actor por cargo → **ningún corte** · **los 5 cierres con coma son legítimos**: en los cinco la oración continúa en la fila siguiente con «lo cual», «en tanto que», «a lo cual» o «A continuación» (§63) |
+
 Para anotar una ronda leída:
 
 ```

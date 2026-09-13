@@ -3916,3 +3916,76 @@ sesión · suite local **61 OK**.
 
 Registro: **1.722 filas / 2.951 operaciones / 212 revisiones / 217 filas marcadas**.
 Lecturas **5.069 de 9.724**, 63 de 132 sesiones.
+
+## §63 — Sesión 2010-08-12: cero cortes, dos familias transversales y dos defectos míos
+
+Noventa y seis filas, catorce actores, 106.715 caracteres. **Ningún corte.**
+
+### Los cierres con coma no son defectos
+
+El detector de finales marcaba cinco filas de la sesión que terminan en coma. Las cinco son
+**legítimas**, porque la oración continúa gramaticalmente en la fila siguiente, que pertenece a
+otro hablante:
+
+| fila | cierre | sigue con |
+|---|---|---|
+| `3288:1` | «…de manera significativa,» | `3288:2` «**lo cual** es compartido por…» |
+| `3303:2` | «…en el sector construcción,» | `3303:3` «**en tanto que** el señor Vicuña…» |
+| `3313:1` | «…150.000 mil personas,» | `3313:2` «**a lo cual** el señor García responde…» |
+| `3322:1` | «…A continuación,» | `3323:1` «el señor Claudio Soto se refiere a…» |
+| `3325:1` | «…seis meses después,» | `3325:2` «**a lo cual** el señor Vicuña comenta…» |
+
+Poner un punto en cualquiera de los cinco rompería la gramática. **Regla nueva: un cierre en coma
+es legítimo cuando la fila siguiente retoma la oración.** La coma es la puntuación correcta de una
+oración que el OCR partió en dos filas, y el corte por intervención es justamente lo que produce
+esa situación.
+
+### Dos familias transversales
+
+Las dos son del acta, pero estaban enumeradas completas y se corrigieron en todo el corpus, caso
+por caso y leyendo cada ocurrencia.
+
+**`asi` → `así`, 19 operaciones.** «asi» no es palabra del español; el corpus escribe «así» 1.199
+veces frente a 19. Los diecinueve son la misma lesión y ninguno es una sigla ni parte de otra
+palabra.
+
+**`Y` → `y`, 9 de 10.** Conjunción leída como mayúscula. **Se excluyó un caso legítimo:**
+`RPM-2012-09-13:5049:1`, «en el eje **Y** se mide el movimiento del TCR», donde la mayúscula
+nombra el eje. Una regla ciega habría roto esa fila; por eso la familia se curó ocurrencia por
+ocurrencia y no con un reemplazo global.
+
+**`obedecerla` → `obedecería`**, 1 operación en `3323:1`. «obedecerla a la depreciación del dólar»
+no es gramatical; la forma está atestiguada 56 veces, dos de ellas en esta misma sesión.
+
+### Dos defectos que introduje yo, y cómo se detectaron
+
+Al verificar el archivo escrito las tres familias seguían en 1 en vez de 0. La causa era mía: el
+generador del lote calculaba el reemplazo con `ctx.find(patron)`, que devuelve **la primera**
+coincidencia del ancla, no la de la posición que se estaba corrigiendo. Dos operaciones cayeron en
+el sitio equivocado:
+
+- `2562:1`: acentuó la «i» de **Brasil** → «Brasíl», forma inexistente, y dejó el `asi` intacto.
+- `3323:1`: reemplazó la «l» del artículo **la** → «de **ía** apreciación del peso obedecerla…».
+
+Ambas se corrigieron con `enmendar_operacion.py` (que reescribe `Despues` y `Tipo` y no puede
+tocar `Antes`), y la segunda pasó de `SIMBOLO_SUELTO` a `ACENTO_FALTANTE`.
+
+**Lección: un conteo de familia que no llega a cero no es ruido, es una operación mal anclada.**
+La comprobación que lo encontró compara `Antes` y `Despues` carácter a carácter y exige que el
+único cambio caiga sobre la palabra objetivo. Hay que correrla sobre cada lote nuevo, no sólo
+sobre las familias globales.
+
+### Cifra marcada
+
+`3313:1`: «la fuerza de trabajo había aumentado entre 100.000 y 150.000 mil personas». «150.000
+mil» serían 150 millones de personas. Las dos lecturas plausibles dan la misma magnitud pero no la
+misma cifra escrita. Marca 12, `CIFRA_INCONSISTENTE_POR_COTEJAR`; la conjunción mayúscula se
+corrigió igual porque es independiente del problema.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · `asi` **0** · `obedecerla` **0** · `Brasíl` **0** · `e ía`
+**0** · `Y` entre palabras **1**, el «eje Y» legítimo. Suite local **61 OK**.
+
+Registro: **1.734 filas / 2.980 operaciones / 212 revisiones / 218 filas marcadas**.
+Lecturas **5.159 de 9.724**, 64 de 132 sesiones.
