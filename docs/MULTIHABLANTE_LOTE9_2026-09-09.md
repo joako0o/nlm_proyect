@@ -433,6 +433,8 @@ Para leer una sesión entera al margen del plan:
 
 | 224–232 | 2011-11-15 | 89 | **sesión cerrada 86/86** (3 ya estaban anotadas) · 13 actores · **la sesión más limpia hasta ahora**: las tres redes en cero y el barrido independiente sobre los 13 actores no dio **ni una** referencia ajena en las 89 filas; signos limpios (cero fuera de repertorio, cero dobles espacios, cero comillas rectas, cero paréntesis desbalanceados, ninguna fila termina en letra suelta ni en coma); las 13 filas de más de 2500 ch son monólogos, incluidas la despedida de Marfán a De Gregorio y la presentación de Larraín → **ningún corte** (§66) |
 
+| 233–241 | 2012-07-12 | 89 | **sesión cerrada 85/85** (4 ya estaban anotadas) · 13 actores · ninguna fila en la cola y 2c en cero; 2b dio 2 casos y el barrido independiente otras 2, **las cuatro falsas** porque Marfán, Vergara y Soto son siempre el objeto de una referencia («a que se aludió por», «el planteamiento expuesto por», «junto con compartir el planteamiento del») o del traspaso de la palabra; las 10 filas de más de 2500 ch son monólogos y ninguna termina en coma → **ningún corte** (§67) |
+
 Para anotar una ronda leída:
 
 ```

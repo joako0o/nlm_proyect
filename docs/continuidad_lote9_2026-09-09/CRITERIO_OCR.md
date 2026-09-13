@@ -4214,3 +4214,76 @@ Suite local **61 OK**.
 
 Registro: **1.761 filas / 3.032 operaciones / 212 revisiones / 231 filas marcadas**.
 Lecturas **5.422 de 9.724**, 67 de 132 sesiones.
+
+## §67 — Sesión 2012-07-12: el método de las palabras únicas
+
+Ochenta y nueve filas, trece actores, 100.036 caracteres. **Ningún corte.**
+
+2b dio dos casos y los dos son falsos, ambos con Marfán como **objeto** de una referencia a algo que
+él mismo dijo antes:
+
+- `4910:1` (Vial): «…el titular del diario The Financial Times **a que se aludió por** el Vicepresidente
+  señor Manuel Marfán, estima que se refiere a…» — el que estima es Vial.
+- `4946:1` (Soto): «…corrobora **el planteamiento expuesto por** el Vicepresidente señor Manuel Marfán».
+
+El barrido independiente dio otras dos, falsas por el mismo motivo: en `4916:2` Vergara es objeto de
+«junto con compartir el planteamiento del Presidente» y Soto del traspaso de la palabra. Las 10 filas
+de más de 2.500 caracteres son monólogos y ninguna fila de la sesión termina en coma ni sin
+puntuación.
+
+### Un detector nuevo: las palabras que aparecen una sola vez en todo el corpus
+
+Los detectores habituales —acento, partida, deletreada, signos— dieron **cero** en esta sesión, y aun
+así tenía cuatro defectos. Lo que los encontró fue otro método: listar las palabras de la sesión que
+aparecen **una sola vez en las 9.724 filas** y leerlas. De 38 candidatas, cuatro eran daño real:
+
+| fila | dañado | correcto | evidencia |
+|---|---|---|---|
+| `4938:1` | «el tipo de **cambo** nominal» | `cambio` | 1 frente a **2.948** |
+| `4959:1` | «la evolución de la **ecqnomía** chilena» | `economía` | 1 frente a **2.988** |
+| `4967:1` | «agregados menos **líquídos**» | `líquidos` | 1 frente a **25** |
+| `4959:1` | «la opinión **de de** la Gerencia» | `de` | 13 casos, ninguno legítimo |
+
+Las otras 34 eran palabras legítimas que simplemente no se repiten (`férreas`, `potasio`,
+`termoeléctricas`, `letanía`, `totalizar`).
+
+**El método sirve porque no depende de una lista de defectos conocidos.** Los detectores de acento y
+de partida buscan patrones que ya se vieron; una palabra dañada que no se parece a ninguna forma
+conocida no cae en ninguno. Contar frecuencias sí la atrapa.
+
+### «de de», trece casos
+
+Preposición duplicada. Los trece son la misma lesión y ninguno es legítimo: no hay construcción del
+español con «de de» seguido de sustantivo. Once estaban en la fórmula «ofrece la palabra al Gerente
+**de de** Análisis Macroeconómico».
+
+En `1815:3` la fila ya tenía una operación sobre ese tramo que juntaba «Anál isis» en «Análisis»
+**pero dejaba el «de de»**. Se extendió la operación existente (§15) en vez de apilarle otra, y el
+`Tipo` pasó de `PALABRA_PARTIDA` a `PALABRA_DUPLICADA` porque el arreglo principal cambió.
+
+### «saddle pad»: marcada, no corregida
+
+`4909:1`: «una hipótesis no descartable es que en Chile cuesta cambiarse de **saddle pad**, ya que a
+diferencia de otros países donde se observa una cierta convergencia hacia un equilibrio, la
+experiencia local indica que los ajustes son bastante bruscos».
+
+La expresión no aparece en ninguna otra parte («saddle» 1 vez, «pad» 1 vez) y no tiene sentido en el
+contexto. La frase habla de convergencia hacia un equilibrio y de ajustes bruscos, que es el
+vocabulario de un **punto de silla** (*saddle point*), pero reconstruir «pad» como «point» sería
+adivinar —y además la guarda de términos foráneos del registro lo rechazaría. Marca 26.
+
+### Dos convenciones que NO son defectos
+
+- **Rangos de año con guión espaciado**: 51 casos, todos «AAAA - AAAA» («el período 2008 - 2009»).
+  Consistente.
+- **Guión largo**: el corpus usa las dos formas, « —palabra» (159) y « — palabra» (150). No hay una
+  sola convención que restaurar.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · `cambo` **0** y `cambio` **2.949** · `ecqnomía` **0** y
+`economía` **2.989** · `líquídos` **0** y `líquidos` **26** · «de de» **0** · «saddle pad» **1**,
+marcado. Suite local **61 OK**.
+
+Registro: **1.773 filas / 3.047 operaciones / 212 revisiones / 232 filas marcadas**.
+Lecturas **5.507 de 9.724**, 68 de 132 sesiones.

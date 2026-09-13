@@ -18771,12 +18771,12 @@
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1040 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
         },
         {
-          "Tipo": "PALABRA_PARTIDA",
+          "Tipo": "PALABRA_DUPLICADA",
           "Antes": "ra al Gerente de de Anál isis Macroeconómico ",
-          "Despues": "ra al Gerente de de Análisis Macroeconómico ",
+          "Despues": "ra al Gerente de Análisis Macroeconómico ",
           "Ocurrencias": 1,
           "Contexto": "a ción, el Presidente señor José De Gregorio ofrece la palabra al Gerente de de Anál isis Macroeconómico Interino, señor Claudio Soto Gamboa, par",
-          "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 1784 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA. Es un nombre propio, pero no se está adivinando nada: la forma correcta está atestiguada en el corpus y lo único que se elimina es un espacio que el escaneo insertó dentro de la palabra. No es resolución de alias, que es lo que el criterio prohíbe."
+          "Justificacion": "§67: se extiende la operación existente, que ya juntaba «Anál isis» en «Análisis» pero dejaba la preposición duplicada «de de». Dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden (regla del §15), así que los dos arreglos van en una sola operación. El Tipo pasa de PALABRA_PARTIDA a PALABRA_DUPLICADA porque ahora el arreglo principal es quitar la palabra repetida."
         }
       ]
     },
@@ -22998,6 +22998,14 @@
           "Ocurrencias": 1,
           "Contexto": "o extraordinario de acomodo de la Política Monetaria, y que de aquí en adelante cabria esperar movimientos de magnitud similar a los patrones ",
           "Justificacion": "Tilde faltante. Sin ella la forma observada no es palabra española en ninguna acepción, así que no hay ambigüedad que resolver con el contexto: podria/podrian/serian/estaria/deberia/cabria/aumentaria no existen (son los condicionales podría, podrían, serían, estaría, debería, cabría, aumentaría), y lo mismo vale para economia, indices, mayoria, paises, ciclicas, geopoliticos, exposicion, todavia, habia y tenian. Grupo A del arbitraje de §16: se separó deliberadamente del grupo B, donde la forma sin tilde sí existe como verbo, adjetivo o participio (seria, continua, publica, linea, ultimo, titulo, diagnostico, grafica, perdida, desafio, explicito) y entonces decide la oración, no la palabra."
+        },
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "reducción de 200 puntos base o una reducción de de 250 puntos base. Manifiesta que en ambos cas",
+          "Despues": "reducción de 200 puntos base o una reducción de 250 puntos base. Manifiesta que en ambos cas",
+          "Ocurrencias": 1,
+          "Contexto": "os aspectos anteriores sugieren considerar como las opciones más plausibles una reducción de 200 puntos base o una reducción de de 250 puntos base. Manifiesta que en ambos casos, se considera importante informar un sesgo claramente más neutral que en Reun",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
         }
       ]
     },
@@ -27772,6 +27780,22 @@
           "Despues": "alimentos—, así como ",
           "Contexto": "rios, como los componentes más volátiles el IPC — energía y alimentos— , así como la incidencia de la apreciación reciente del peso en la infl",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": " la TPM, manifiesta que la opinión de de la Gerencia de División Estudios e",
+          "Despues": " la TPM, manifiesta que la opinión de la Gerencia de División Estudios e",
+          "Ocurrencias": 1,
+          "Contexto": "lar, de las expectativas de mercado. En lo referente a la alternativa de reducir la TPM, manifiesta que la opinión de de la Gerencia de División Estudios es de descartarla en esta oportunidad, tomando en cuenta que la situación de brec",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "aceleración externa sobre la evolución de la ecqnomía chilena contribuyan a despejar este riesgo e",
+          "Despues": "aceleración externa sobre la evolución de la economía chilena contribuyan a despejar este riesgo e",
+          "Ocurrencias": 1,
+          "Contexto": "narias de mediano plazo. Hace presente que es probable que los efectos de la desaceleración externa sobre la evolución de la ecqnomía chilena contribuyan a despejar este riesgo en los meses venideros, pero que hasta el momento ellos han sido tenues, por lo q",
+          "Justificacion": "La «o» de «economía» se leyó como «q». El corpus escribe «economía» 2.988 veces y «ecqnomía» no aparece en ninguna otra parte."
         }
       ]
     },
@@ -34315,6 +34339,162 @@
           "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-11-13:1543:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": " Vittorio Corbo ofrece la palabra al Gerente de de División Estudios Subrogante, señor Igal Mag",
+          "Despues": " Vittorio Corbo ofrece la palabra al Gerente de División Estudios Subrogante, señor Igal Mag",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor Vittorio Corbo ofrece la palabra al Gerente de de División Estudios Subrogante, señor Igal Magendzo Weinberger, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-12-13:1587:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al Gerente de de División Estudios Subrogante, señor Igal Mag",
+          "Despues": "osé De Gregorio ofrece la palabra al Gerente de División Estudios Subrogante, señor Igal Mag",
+          "Ocurrencias": 1,
+          "Contexto": " países señala que no están interviniendo. A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de de División Estudios Subrogante, señor Igal Magendzo Weinberger, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-03-13:1704:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico, señor Igal Magendzo",
+          "Despues": "osé De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico, señor Igal Magendzo",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor José De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico, señor Igal Magendzo Weinberger, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-04-10:1748:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al\nGerente de de Análisis Macroeconómico Interino, señor Clau",
+          "Despues": "osé De Gregorio ofrece la palabra al\nGerente de Análisis Macroeconómico Interino, señor Clau",
+          "Ocurrencias": 1,
+          "Contexto": "A continuación, el Presidente señor José De Gregorio ofrece la palabra al\nGerente de de Análisis Macroeconómico Interino, señor Claudio Soto Gamboa, para que\npresente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-08-14:2006:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto G",
+          "Despues": "osé De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto G",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor José De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2056:3",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto G",
+          "Despues": "osé De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto G",
+          "Ocurrencias": 1,
+          "Contexto": "A continuación, el Presidente señor José De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-11-13:2137:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto G",
+          "Despues": "osé De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto G",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor José De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2204:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "osé De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto G",
+          "Despues": "osé De Gregorio ofrece la palabra al Gerente de Análisis Macroeconómico señor Claudio Soto G",
+          "Ocurrencias": 1,
+          "Contexto": "el Presidente señor José De Gregorio ofrece la palabra al Gerente de de Análisis Macroeconómico señor Claudio Soto Gamboa, para que presente la exposición sobre la parte nacional.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-11-12:2788:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "egorio, agradece la presentación del Gerente de de Análisis Macroeconómico, señor Claudio Soto.",
+          "Despues": "egorio, agradece la presentación del Gerente de Análisis Macroeconómico, señor Claudio Soto.",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente, señor José De Gregorio, agradece la presentación del Gerente de de Análisis Macroeconómico, señor Claudio Soto.",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4938:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": "dio Soto continúa, informando que el tipo de cambo nominal tendió a apreciarse, tanto en lo que",
+          "Despues": "dio Soto continúa, informando que el tipo de cambio nominal tendió a apreciarse, tanto en lo que",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Claudio Soto continúa, informando que el tipo de cambo nominal tendió a apreciarse, tanto en lo que se refiere a la paridad peso/dólar como también en términos multilaterales. Agr",
+          "Justificacion": "«el tipo de cambo nominal» — falta la «i». El corpus escribe «cambio» 2.948 veces y «cambo» aparece una sola vez en todo el corpus, aquí."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4967:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "ontrasta con la evolución de agregados menos líquídos, como el M2 por ejemplo, que sigue creciendo",
+          "Despues": "ontrasta con la evolución de agregados menos líquidos, como el M2 por ejemplo, que sigue creciendo",
+          "Ocurrencias": 1,
+          "Contexto": "ere que algunas de esas condiciones se han tendido a normalizar. De hecho, las contrasta con la evolución de agregados menos líquídos, como el M2 por ejemplo, que sigue creciendo a tasas del orden del 20% nominal anual, cifras que no se apreciaban desde el p",
+          "Justificacion": "Acento corrido una posición: «líquídos» por «líquidos», que es llana y no lleva tilde. El corpus tiene 25 «líquidos» correctos y este es el único caso dañado."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-10-18:5122:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_DUPLICADA",
+          "Antes": "os de fortalecimiento de la unión bancaria o de de la unión fiscal enfrentan aún un largo camin",
+          "Despues": "os de fortalecimiento de la unión bancaria o de la unión fiscal enfrentan aún un largo camin",
+          "Ocurrencias": 1,
+          "Contexto": "ticamente ilimitados, pero, por otra parte, los componentes quizás más sustantivos de fortalecimiento de la unión bancaria o de de la unión fiscal enfrentan aún un largo camino de negociación. En consecuencia, considera que las proyecciones del Fondo Mone",
+          "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -35717,6 +35897,11 @@
       "ID_Intervencion": "RPM-2007-04-12:1210:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "§66: corchete de cierre sin apertura. El texto está sano alrededor, pero el signo no pertenece a ninguna pareja: la fila tiene 0 aperturas y 1 cierre. Borrarlo cambiaría la lectura (en RPM-2007-04-12:1210:1 separa «una, que se está a un mes de un IPoM» de «dos, que no le queda claro», donde probablemente había un punto y coma) y reponer la apertura sería inventar. Se deja para el cotejo con el PDF. Son los 2 únicos desbalances de corchete del corpus."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-07-12:4909:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§67: «una hipótesis no descartable es que en Chile cuesta cambiarse de saddle pad, ya que a diferencia de otros países donde se observa una cierta convergencia hacia un equilibrio, la experiencia local indica que los ajustes son bastante bruscos». La expresión «saddle pad» no aparece en ninguna otra parte del corpus («saddle» 1 vez, «pad» 1 vez) y no tiene sentido en el contexto: la frase habla de convergencia hacia un equilibrio y de ajustes bruscos, que es el vocabulario de un punto de silla (saddle point), pero reconstruir «pad» como «point» sería adivinar y además la guarda de términos foráneos del registro lo rechazaría. Se deja el texto intacto para el cotejo con el PDF."
     }
   ]
 }
