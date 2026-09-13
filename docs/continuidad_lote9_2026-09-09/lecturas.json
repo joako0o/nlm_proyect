@@ -66685,7 +66685,797 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2015-12-17",
       "Justificacion": "Sesion cerrada 81/81 (79 nuevas), 11 actores, 94.320 caracteres. Cero cortes con las cuatro redes practicamente en cero: ninguna fila en la cola de 74, 2b 0, 2c 0 y de las seis firmas de 2d solo «A continuacion» dio 1 caso. Esa unica lectura obligatoria (7158:1) es la apertura estandar: Vergara abre la Reunion N 229, fija la proxima para el 16 de junio de 2016 y concede la palabra a Diego Gianelli, o sea apertura mas traspaso de la palabra, una sola voz (§68). Los cuatro detectores (acento, partida, partida_letra, deletreada) dieron 0 candidatos y los signos sospechosos 0 en todo, salvo 7218:1 que termina en comilla de cierre del Comunicado, legitima. 2 operaciones de OCR y ninguna marca."
+    },
+    "RPM-2011-04-12:3893:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3893:1",
+      "ID_Padre": "3893",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1534,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3895:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3895:1",
+      "ID_Padre": "3895",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 3660,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3896:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3896:1",
+      "ID_Padre": "3896",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 228,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3897:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3897:1",
+      "ID_Padre": "3897",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 685,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3898:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3898:1",
+      "ID_Padre": "3898",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 111,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3899:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3899:1",
+      "ID_Padre": "3899",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 289,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3900:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3900:1",
+      "ID_Padre": "3900",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 2688,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3901:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3901:1",
+      "ID_Padre": "3901",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 334,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3902:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3902:1",
+      "ID_Padre": "3902",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 1851,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3903:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3903:1",
+      "ID_Padre": "3903",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 155,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3904:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3904:1",
+      "ID_Padre": "3904",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 791,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3905:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3905:1",
+      "ID_Padre": "3905",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 1095,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3906:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3906:1",
+      "ID_Padre": "3906",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 135,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3906:2": {
+      "ID_Intervencion": "RPM-2011-04-12:3906:2",
+      "ID_Padre": "3906",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 122,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3907:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3907:1",
+      "ID_Padre": "3907",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 5778,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3908:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3908:1",
+      "ID_Padre": "3908",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 447,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3909:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3909:1",
+      "ID_Padre": "3909",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 412,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3910:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3910:1",
+      "ID_Padre": "3910",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 360,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3911:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3911:1",
+      "ID_Padre": "3911",
+      "Actor": "Sergio Lehmann Beresi",
+      "Caracteres": 280,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3913:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3913:1",
+      "ID_Padre": "3913",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 963,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3914:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3914:1",
+      "ID_Padre": "3914",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2331,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3915:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3915:1",
+      "ID_Padre": "3915",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 268,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3916:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3916:1",
+      "ID_Padre": "3916",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 349,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3917:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3917:1",
+      "ID_Padre": "3917",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 510,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3918:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3918:1",
+      "ID_Padre": "3918",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 598,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3919:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3919:1",
+      "ID_Padre": "3919",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 951,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3920:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3920:1",
+      "ID_Padre": "3920",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1775,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3921:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3921:1",
+      "ID_Padre": "3921",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 148,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3922:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3922:1",
+      "ID_Padre": "3922",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 296,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3923:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3923:1",
+      "ID_Padre": "3923",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 125,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3924:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3924:1",
+      "ID_Padre": "3924",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 143,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3925:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3925:1",
+      "ID_Padre": "3925",
+      "Actor": "Ricardo Vicuña Poblete",
+      "Caracteres": 134,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3926:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3926:1",
+      "ID_Padre": "3926",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3068,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3927:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3927:1",
+      "ID_Padre": "3927",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 94,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3928:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3928:1",
+      "ID_Padre": "3928",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 473,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3929:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3929:1",
+      "ID_Padre": "3929",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 249,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3930:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3930:1",
+      "ID_Padre": "3930",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 462,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3931:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3931:1",
+      "ID_Padre": "3931",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 508,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3932:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3932:1",
+      "ID_Padre": "3932",
+      "Actor": "Ricardo Vicuña Poblete",
+      "Caracteres": 205,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3933:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3933:1",
+      "ID_Padre": "3933",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 168,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3934:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3934:1",
+      "ID_Padre": "3934",
+      "Actor": "Ricardo Vicuña Poblete",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3935:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3935:1",
+      "ID_Padre": "3935",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 950,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3936:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3936:1",
+      "ID_Padre": "3936",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 81,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3937:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3937:1",
+      "ID_Padre": "3937",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 444,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3938:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3938:1",
+      "ID_Padre": "3938",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 530,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3939:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3939:1",
+      "ID_Padre": "3939",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3024,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3940:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3940:1",
+      "ID_Padre": "3940",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 125,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3941:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3941:1",
+      "ID_Padre": "3941",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 119,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3942:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3942:1",
+      "ID_Padre": "3942",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 98,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3943:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3943:1",
+      "ID_Padre": "3943",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 499,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3944:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3944:1",
+      "ID_Padre": "3944",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 130,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3945:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3945:1",
+      "ID_Padre": "3945",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 198,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3946:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3946:1",
+      "ID_Padre": "3946",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1853,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3947:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3947:1",
+      "ID_Padre": "3947",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 152,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3948:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3948:1",
+      "ID_Padre": "3948",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1760,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3949:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3949:1",
+      "ID_Padre": "3949",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 104,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3950:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3950:1",
+      "ID_Padre": "3950",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 334,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3951:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3951:1",
+      "ID_Padre": "3951",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 103,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3952:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3952:1",
+      "ID_Padre": "3952",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 199,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3953:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3953:1",
+      "ID_Padre": "3953",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 183,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3954:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3954:1",
+      "ID_Padre": "3954",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 75,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3955:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3955:1",
+      "ID_Padre": "3955",
+      "Actor": "Matías Bernier Bórquez",
+      "Caracteres": 344,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3956:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3956:1",
+      "ID_Padre": "3956",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 572,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3957:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3957:1",
+      "ID_Padre": "3957",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 225,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3958:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3958:1",
+      "ID_Padre": "3958",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1536,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3959:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3959:1",
+      "ID_Padre": "3959",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 203,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3959:2": {
+      "ID_Intervencion": "RPM-2011-04-12:3959:2",
+      "ID_Padre": "3959",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 142,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3959:3": {
+      "ID_Intervencion": "RPM-2011-04-12:3959:3",
+      "ID_Padre": "3959",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 184,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3960:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3960:1",
+      "ID_Padre": "3960",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 6392,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3962:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3962:1",
+      "ID_Padre": "3962",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 5531,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3963:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3963:1",
+      "ID_Padre": "3963",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 1637,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3965:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3965:1",
+      "ID_Padre": "3965",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 4605,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3966:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3966:1",
+      "ID_Padre": "3966",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 4029,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3966:2": {
+      "ID_Intervencion": "RPM-2011-04-12:3966:2",
+      "ID_Padre": "3966",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 1537,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3967:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3967:1",
+      "ID_Padre": "3967",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 3735,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3968:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3968:1",
+      "ID_Padre": "3968",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2859,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3968:2": {
+      "ID_Intervencion": "RPM-2011-04-12:3968:2",
+      "ID_Padre": "3968",
+      "Actor": "José De Gregorio Rebeco",
+      "Caracteres": 3574,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3969:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3969:1",
+      "ID_Padre": "3969",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1743,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
+    },
+    "RPM-2011-04-12:3970:1": {
+      "ID_Intervencion": "RPM-2011-04-12:3970:1",
+      "ID_Padre": "3970",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 77,
+      "Hallazgo": "UNA_SOLA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2011-04-12",
+      "Justificacion": "83 filas / 85.960 ch / 12 actores (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial, Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83. CERO cortes: los 10 «El señor X responde» tienen a X == Actor_Final de la fila (X está respondiendo, no hablando por otro); el único neto de la cola (3906) cae en un padre ya dividido en 2 segmentos (3906:1 De Gregorio / 3906:2 Claro); los 3 «A continuación» y el «por su parte» son de una sola voz; las 4 firmas de la seccion 2d son 0 candidatas reales («cambió»/«incrementó» son verbos legítimos); signos sospechosos 0 salvo una comilla recta. OCR: 19 ops / 19 filas (18 + 1 de la familia transversal) + 2 marcas. Hallazgo transversal: la comilla recta simple usada como residuo, 16 casos en todo el corpus, llevados a 1 (el restante es 'aquerida, marcado); los 8 apóstrofes legítimos —Moody's, Poor's, Managers', L1oyd's— quedan intactos."
     }
   },
-  "Total_Leidas": 6321
+  "Total_Leidas": 6400
 }

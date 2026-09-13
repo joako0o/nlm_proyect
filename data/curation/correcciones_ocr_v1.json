@@ -2670,6 +2670,14 @@
           "Ocurrencias": 1,
           "Contexto": "n Heinrich von Stackelberg, o de acuerdo al esquema de un \"dilema del prisionero\". Sin perjuicio de ello, resalta que la consolidación fiscal debiera pr",
           "Justificacion": "El par «\"dilema del prisionero\".» traía las DOS comillas rectas en la base. Una pasada anterior convirtió la primera en «”», o sea en comilla de CIERRE, cuando es la de apertura: quedó «”dilema del prisionero\".». Esta operación cierra el par; la dirección de la primera se corrige enmendando la operación existente (« \"» -> « “»), no apilando, porque ambas anclas caen sobre el mismo par. Es la única de las 5 comillas rectas restantes con dirección deducible sin adivinar dónde termina la cita (§28)."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "mucho tiempo y que han logrado “reanclar1' recientemente",
+          "Despues": "mucho tiempo y que han logrado “reanclar” recientemente",
+          "Ocurrencias": 1,
+          "Contexto": "y también de México, que han enfrentado un problema de desanclaje por mucho tiempo y que han logrado “reanclar1' recientemente. Manifiesta que distinto es tener una función de reacción que lleve a",
+          "Justificacion": "«han logrado “reanclar1' recientemente» — la comilla de apertura «“» está y la de cierre fue leída como «1'». Se repone la comilla tipográfica de cierre, la única que cierra el par. §78."
         }
       ]
     },
@@ -2908,6 +2916,14 @@
           "Ocurrencias": 1,
           "Contexto": " en el primer semestre del año (+63,2% anual en junio). IV. Actividad y empleo En mayo, la actividad económica medida por el imacec aumentó 6,4%, con lo que su velocidad de expansión se ubicó en tomo al 5% anual. Este resultado se explicó, principalmente, ",
           "Justificacion": "El OCR leyó la «I» mayúscula de «Imacec» como una «ele» minúscula. El corpus escribe el indicador 487 veces de forma correcta (263 «IMACEC» y 224 «Imacec») y «lmacec» no es ninguna palabra. Se repone la forma que usa la propia sesión para el mismo indicador; donde la sesión no da evidencia se usa la del año."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": " y un aumento de las percepciones de '’i^sgo geopolítico",
+          "Despues": " y un aumento de las percepciones de riesgo geopolítico",
+          "Ocurrencias": 1,
+          "Contexto": "nto de combustibles durante el próximo invierno en el hemisferio norte y un aumento de las percepciones de '’i^sgo geopolítico. La OPEP y la AIE confirmaron un crecimiento robusto de la demanda pa",
+          "Justificacion": "«un aumento de las percepciones de '’i^sgo geopolítico» — la secuencia «'’i^s» es basura del OCR en lugar de «rie»: es «riesgo». El corpus tiene 2.146 «riesgo» y «percepciones de riesgo geopolítico» es la única lectura posible. §78."
         }
       ]
     },
@@ -4185,6 +4201,14 @@
           "Ocurrencias": 1,
           "Contexto": "stán con un premio asociado al riesgo interbancario que no tenían en el pasado, yeso produce que ese indicador, al menos hoy día, aparezca clara",
           "Justificacion": "yeso por \"y eso\". Medido: 13 apariciones, en todas falta el espacio entre la conjuncion y el demostrativo (\"alto yeso tiene que tener\" = \"alto, y eso tiene que tener\"). Verificado que ninguna esta embebida en otra palabra. La coma no se inserta: la oracion queda gramatical sin ella y anadirla seria editar puntuacion."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " tasa del Reino Unido, el Zero /nterest Poliey. 'Comenta",
+          "Despues": " tasa del Reino Unido, el Zero /nterest Poliey. Comenta",
+          "Ocurrencias": 1,
+          "Contexto": "ificativos, si bien se registra alguna utilidad, particularmente en la tasa del Reino Unido, el Zero /nterest Poliey. 'Comenta que de hecho en el día de ayer comenzó definitivamente la compra de i",
+          "Justificacion": "«el Zero /nterest Poliey. 'Comenta que de hecho en el día de ayer…» — comilla recta suelta pegada al inicio de la oración siguiente, sin par ni función. Se borra sólo la comilla: el término inglés «Zero /nterest Poliey» está dañado, pero su forma correcta no aparece en ninguna parte del corpus y la fila no la atestigua, así que no se toca (criterio §58/§71). §78."
         }
       ]
     },
@@ -4629,6 +4653,14 @@
           "Ocurrencias": 1,
           "Contexto": "tener el estímulo monetario. Por otro lado, indica que el conjunto de medidas complementarías posibles, mencionadas en la presente minuta, no se aleja del tipo de opciones ",
           "Justificacion": "El adjetivo «complementarias» no lleva tilde; la forma esdrújula «complementarías» sería la segunda persona del condicional, que no cabe después de «medidas» y antes de «posibles». Medido: «complementarías» aparece 1 sola vez en todo el corpus y «complementarias» 47. En la misma fila, además, el sustantivo del que deriva se usa bien."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " la TPM se mantendrá por un tiempo prolongado. ' ' v Con",
+          "Despues": " la TPM se mantendrá por un tiempo prolongado. Con",
+          "Ocurrencias": 1,
+          "Contexto": " riesgos para la inflación y la comunicación de que el nivel mínimo de la TPM se mantendrá por un tiempo prolongado. ' ' v Con respecto a posibles medidas para incrementar el estímulo monetario, e",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"prolongado. ' ' v Con\"."
         }
       ]
     },
@@ -8359,6 +8391,14 @@
           "Ocurrencias": 1,
           "Contexto": "debido a los ajustes de algunos precios puntuales, el impacto de la apreciación cambiaría reciente y una menor incidencia de los combustibles. Dado l",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ial, tal como se señaló en el último IPoM. 'V / El señor",
+          "Despues": "ial, tal como se señaló en el último IPoM. El señor",
+          "Ocurrencias": 1,
+          "Contexto": "sario para lograr una evolución de la actividad alineada con su potencial, tal como se señaló en el último IPoM. 'V / El señor Luis Óscar Herrera señala que la opción de reducir la tasa de polític",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"IPoM. 'V / El señor\"."
         }
       ]
     },
@@ -8442,6 +8482,14 @@
           "Ocurrencias": 1,
           "Contexto": "del ajuste fiscal en Estados Unidos de América. En primer término, precisa que e! planteamiento central de los republicanos dice relación",
           "Justificacion": "Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: \"sorprendieron en algo a! alza\", \"precisa que e! planteamiento\", \"acceso a! financiamiento\", \"acuerdo sobre e! Mecanismo\". Ninguna es una exclamación real."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ido un efecto significativo en los spreads', que semanas",
+          "Despues": "ido un efecto significativo en los spreads, que semanas",
+          "Ocurrencias": 1,
+          "Contexto": "no Mario Monti ha generado incertidumbre en ese país, aunque no ha tenido un efecto significativo en los spreads', que semanas atrás se alcanzó un acuerdo en relación con el programa de rescate de",
+          "Justificacion": "«no ha tenido un efecto significativo en los spreads', que semanas atrás se alcanzó un acuerdo» — comilla recta suelta sin par ni función. Se borra; «spreads» aparece 399 veces en el corpus. §78."
         }
       ]
     },
@@ -9937,6 +9985,14 @@
           "Ocurrencias": 1,
           "Contexto": " Indica que si bien es un riesgo acotado, lo más probable es que la volatilidad cambiaría nos siga acompañando en adelante. En este cuadro, expresa q",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "dos evolucionan muy moderadamente. i 'O Hace presente que la inflación si",
+          "Despues": "dos evolucionan muy moderadamente. Hace presente que la inflación si",
+          "Ocurrencias": 1,
+          "Contexto": "ntra además un claro correlato en el mercado del crédito, cuyos agregados evolucionan muy moderadamente. i 'O Hace presente que la inflación sigue encaminada en la dirección anticipada. En efecto, la cifra del últ",
+          "Justificacion": "«cuyos agregados evolucionan muy moderadamente. i 'O Hace presente que la inflación sigue encaminada…» — «i 'O» es residuo de la maquetación del PDF entre dos oraciones completas: no es texto y sobra. Es el último miembro de la familia transversal de residuos con comilla recta hallada en §78, que me había quedado fuera del primer lote."
         }
       ]
     },
@@ -19613,6 +19669,14 @@
           "Ocurrencias": 1,
           "Contexto": "n escalón nuevo hacia abajo, porque tendrían que ser salidas nacionales, que en defin itiva son siempre un poco más complicadas. I '",
           "Justificacion": "Palabra partida en dos por un espacio espurio del OCR. Detectado por pasada transversal sobre las 9.723 filas: la palabra junta aparece 55 veces en el corpus y ninguna de las dos mitades por separado es una palabra corriente, así que el espacio no puede ser real. Tipo PALABRA_PARTIDA."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "poco más complicadas. I '",
+          "Despues": "poco más complicadas.",
+          "Ocurrencias": 1,
+          "Contexto": "endrían que ser salidas nacionales, que en defin itiva son siempre un poco más complicadas. I '",
+          "Justificacion": "«…son siempre un poco más complicadas. I '» — la fila termina con «I '», basura de la maquetación del PDF tras una oración que ya cerró con su punto. Se borra. §78."
         }
       ]
     },
@@ -23545,6 +23609,14 @@
           "Ocurrencias": 1,
           "Contexto": " y donde la Tasa de Política Monetaria ha aumentado de manera importante en las ultimas Reuniones. Manifiesta el señor Consejero que, en su opi",
           "Justificacion": "Tilde faltante, grupo B1: la forma sin tilde sí existe como verbo, adjetivo o participio, así que se leyó cada ocurrencia con su contexto y se decidió una por una. Donde la forma es mixta en el corpus se usa un par con contexto, para no tocar las apariciones legítimas. Casos leídos y NO corregidos porque son correctos: «un panorama benigno que limite las presiones» y «medidas que limite este accionar» (subjuntivo del verbo limitar, no el sustantivo), y «una eventual década perdida» (participio de perder, no el sustantivo pérdida). Los 29 que sí se corrigen son sustantivos, adjetivos, pretéritos o la fórmula «Por último» / «A título de»."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "ida para llevar la inflación a 3% en 2 años. -V Asimismo",
+          "Despues": "ida para llevar la inflación a 3% en 2 años. Asimismo",
+          "Ocurrencias": 1,
+          "Contexto": "ado todavía no internaliza la trayectoria de política monetaria 'aquerida para llevar la inflación a 3% en 2 años. -V Asimismo señala el Consejero señor Claro, que la trayectoria de la Tasa de Pol",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra 'años. -V Asimismo'."
         }
       ]
     },
@@ -27353,6 +27425,14 @@
           "Despues": " ha caído—, y por alz",
           "Contexto": " se explica por un debilitamiento del dólar — el Broad Index ha caído— , y por alzas en el precio del cobre. En materia de inflación, señala q",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "aumenta en desmedro del empleo por cuenta propia. V ' En",
+          "Despues": "aumenta en desmedro del empleo por cuenta propia. En",
+          "Ocurrencias": 1,
+          "Contexto": "o por cuenta propia hacia el empleo asalariado, es decir, este último aumenta en desmedro del empleo por cuenta propia. V ' En cuanto a los salarios, informa que las tasas de variación nominales s",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"propia. V ' En\"."
         }
       ]
     },
@@ -34857,6 +34937,14 @@
           "Ocurrencias": 1,
           "Contexto": "bien se mantienen el desalineamiento entre el petróleo WTI/Brent y la ¡ncertidumbre respecto de su evolución, los futuros anticiparían alguna moderación ",
           "Justificacion": "El signo «¡» sustituye a la letra inicial: el OCR lee una «i» minúscula de inicio de palabra como el signo de exclamación de apertura. La palabra reparada es la única lectura posible en el contexto y está atestiguada 790 veces en el corpus. Familia de 44 ocurrencias en 40 filas, presente en el virgen; hallada en §75."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o del maíz, el trigo y el petróleo, cuyas alzan alcanzan",
+          "Despues": "o del maíz, el trigo y el petróleo, cuyas alzas alcanzan",
+          "Ocurrencias": 1,
+          "Contexto": "mente generalizados respecto de la RPM anterior, en especial en el caso del maíz, el trigo y el petróleo, cuyas alzan alcanzan a 24, 21 y 13%, respectivamente. En cuanto al precio de los alimentos",
+          "Justificacion": "«el maíz, el trigo y el petróleo, cuyas alzan alcanzan a 24, 21 y 13%» — no concuerda: es el sustantivo «alzas», no el verbo «alzan». El corpus tiene 839 «alzas». §78."
         }
       ]
     },
@@ -35292,6 +35380,110 @@
           "Ocurrencias": 1,
           "Contexto": "n aumento de la inflación anual durante los primeros meses del año, que la ubicarán por sobre las exceptivas de mercado, lo que hace menos aconsejable retrasar una alza que tiene una probabilidad alta de se",
           "Justificacion": "«que la ubicarán por sobre las exceptivas de mercado» — la «x» y la «t» están confundidas: es «expectativas». «exceptivas» no es palabra española y el corpus tiene 3.726 «expectativas» más 182 «expectativa». §77."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-04-12:3960:1",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_INDEBIDO",
+          "Antes": "nsecuente con esta estrategia de minimízación de riesgos",
+          "Despues": "nsecuente con esta estrategia de minimización de riesgos",
+          "Ocurrencias": 1,
+          "Contexto": "n de la División de Estudios, esto es, de elevar la TPM en 50pb, es consecuente con esta estrategia de minimízación de riesgos y refleja el compromiso del Banco Central con la meta de inflación. C",
+          "Justificacion": "«es consecuente con esta estrategia de minimízación de riesgos» — la tilde está corrida una sílaba: es «minimización». El corpus tiene 3 «minimización» y ninguna con ese acento. §78."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-09-13:5087:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "o se observe una desaceleración más 4. W ' significativa",
+          "Despues": "o se observe una desaceleración más significativa",
+          "Ocurrencias": 1,
+          "Contexto": "a, salvo que algún evento complejo se produzca en la economía europea o se observe una desaceleración más 4. W ' significativa en China. Por lo tanto, enfatiza que esa combinación de factores repr",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"más 4. W ' significativa\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5296:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "mentadas por las matrículas y el transporte. i ' Plantea",
+          "Despues": "mentadas por las matrículas y el transporte. Plantea",
+          "Ocurrencias": 1,
+          "Contexto": "0,3% mensual por algunas alzas de carácter estacional, como las experimentadas por las matrículas y el transporte. i ' Plantea que con respecto de la proyección efectuada tanto para el IPoM del me",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"transporte. i ' Plantea\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-01-17:5326:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "on ajustes de magnitud moderada más adelante. 4 ' Agrega",
+          "Despues": "on ajustes de magnitud moderada más adelante. Agrega",
+          "Ocurrencias": 1,
+          "Contexto": "a tasa se mantendrá por un tiempo / V prolongado en su nivel actual, con ajustes de magnitud moderada más adelante. 4 ' Agrega que el balance de riesgos permanece equilibrado y que, por tanto, res",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"adelante. 4 ' Agrega\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-06-13:5592:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": " marginalmente en los últimos dos meses. / ' En términos",
+          "Despues": " marginalmente en los últimos dos meses. En términos",
+          "Ocurrencias": 1,
+          "Contexto": "riado y la tasa de crecimiento del empleo propiamente tal ha aumentado marginalmente en los últimos dos meses. / ' En términos sectoriales, consigna una desaceleración muy importante en la creació",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"meses. / ' En términos\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-07-11:5693:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "alguna señal sobre el ajuste futuro de dicha Tasa. . / '",
+          "Despues": "alguna señal sobre el ajuste futuro de dicha Tasa.",
+          "Ocurrencias": 1,
+          "Contexto": " Política Monetaria en 5% anual y que considera importante introducir alguna señal sobre el ajuste futuro de dicha Tasa. . / '",
+          "Justificacion": "«…sobre el ajuste futuro de dicha Tasa. . / '» — la fila termina con un segundo punto, una barra y una comilla recta: residuo de maquetación tras una oración cerrada. Se borra. §78."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-08-13:5751:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "urables, sino también en el de no durables. ¥ ' Consigna",
+          "Despues": "urables, sino también en el de no durables. Consigna",
+          "Ocurrencias": 1,
+          "Contexto": "onsumo privado no está únicamente sustentado en el consumo de bienes durables, sino también en el de no durables. ¥ ' Consigna que la inflación sigue baja, ya que la efectiva se encuentra en la pa",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"durables. ¥ ' Consigna\"."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2013-08-13:5752:3",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "proyecciones de consenso continúan i - J ' - anticipando",
+          "Despues": "proyecciones de consenso continúan anticipando",
+          "Ocurrencias": 1,
+          "Contexto": "rimestre han sido, en general, algo menores a lo esperado, aunque las proyecciones de consenso continúan i - J ' - anticipando una recuperación de Estados Unidos. Las expectativas de crecimiento p",
+          "Justificacion": "Residuo de la maquetación del PDF metido entre dos oraciones completas: no es texto y sobra. Familia transversal de residuos con comilla recta, hallada en §78. Se borra \"continúan i - J ' - anticipando\"."
         }
       ]
     }
@@ -36892,6 +37084,16 @@
       "ID_Intervencion": "RPM-2009-10-13:2751:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "«una recuperación rápida, por sobre lo esperado, podría venir de la mano de una represión en alguno de los shocks que nos han afectado». «represión» es palabra legítima y la frase es gramatical, pero es la única ocurrencia del término en las 9.724 filas y la lectura resulta forzada: un shock no se reprime. La candidata natural es «reversión», que aparece 289 veces. No hay prueba de daño ni forma de elegir entre las dos lecturas, así que no se corrige: se marca para cotejo contra el PDF (criterio §74)."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2092:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«la trayectoria de política monetaria 'aquerida para llevar la inflación a 3% en 2 años» — la comilla recta sustituye a la «d»: es «adquirida». La lectura es única, pero el corpus sólo tiene «adquirido» (masculino) y ninguna forma plegada de «adquirida», así que la compuerta de vocabulario del lado Despues la rechaza: no es una palabra inventada, es que el control no cubre la flexión de género. No se fuerza ni se amplía la lista de términos foráneos —que es para palabras extranjeras, no para formas españolas— y se marca para cotejo. El residuo «-V» de la misma fila sí se borró. §78."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2106:1",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Motivo": "«al Banco L1oyd's inglés que tiene una gran base de depósitos» — el «1» sustituye a la «l»: es «Lloyd's». Pero «Lloyd» no aparece en ninguna de las 9.724 filas, así que la forma canónica no está atestiguada en el corpus y la regla de nombres propios (§34, §58) no permite normalizar sin atestiguación. Se marca para cotejo contra el PDF, igual que «Sotz» en §68. §78."
     }
   ]
 }

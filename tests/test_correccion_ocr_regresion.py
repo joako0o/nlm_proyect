@@ -107,8 +107,8 @@ COMILLAS_RECTAS_MAX = 3
 # palabras que ya estaban bien («presupuestaria» -> «presupuestaría»,
 # «exposiciones» -> «exposiciónes») y se eliminaron. Corregir un error propio no
 # puede medirse como pérdida.
-MIN_CORREGIDAS = 1808
-MIN_OPERACIONES = 3131
+MIN_CORREGIDAS = 1816
+MIN_OPERACIONES = 3150
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -706,6 +706,33 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
         self.assertEqual({}, restos,
                          'familias de signos que sustituyen letras volvieron a '
                          f'aparecer en la salida: {restos}')
+
+    def test_las_comillas_rectas_sueltas_no_aumentan(self):
+        """§78: la comilla recta simple como residuo, no como apóstrofo.
+
+        Hermana de la prueba anterior pero para ``'``. El corpus usa ``'``
+        legítimamente en ocho apóstrofos de nombres propios (``Moody's``,
+        ``Poor's``, ``Managers'``, ``L1oyd's``), así que no se puede contar a
+        ciegas. La regla es «una letra inmediatamente antes»: un apóstrofo va
+        pegado al final o al medio de una palabra, mientras que el residuo de
+        maquetación flota entre espacios (``. i 'O Hace``) o abre palabra
+        (``'aquerida``). Exigir letra también *después* sería un error: deja
+        fuera ``Managers' Index``, donde el apóstrofo cierra el plural.
+        §78 bajó el residuo de 16 a 1, y el que queda es ``'aquerida``
+        (2092:1), marcado para cotejo porque la compuerta de vocabulario
+        rechaza «adquirida» (el corpus solo atestigua «adquirido»).
+        """
+        residuo = 0
+        for t in self.salida.values():
+            for m in re.finditer(r"'", t):
+                antes = t[m.start() - 1] if m.start() else ' '
+                if antes.isalpha():
+                    continue  # apóstrofo pegado a una palabra
+                residuo += 1
+        self.assertLessEqual(
+            residuo, 1,
+            f'comillas rectas sueltas subieron a {residuo}; la familia de '
+            'residuos de §78 estaba en 1')
 
     def test_las_marcas_usan_el_vocabulario_cerrado(self):
         for marcas in self.marcas.values():

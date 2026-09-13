@@ -4,21 +4,21 @@ Generado por `scripts/exportar_revision_ocr.py`. No es una fuente: es una
 vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
-- filas corregidas: **1808**
-- operaciones: **3131**
-- filas marcadas para cotejo: **241**
+- filas corregidas: **1816**
+- operaciones: **3150**
+- filas marcadas para cotejo: **242**
 - sha256 de la base: `eebaa728dc1d7ce14315caebd0c7516ff324b5d4acaefcf40cec2bf6d855945d`
 
 ## Operaciones por tipo
 
 | tipo | operaciones |
 |---|---:|
-| `LETRA_CONFUNDIDA` | 819 |
+| `LETRA_CONFUNDIDA` | 821 |
 | `ESPACIO_INDEBIDO` | 507 |
 | `PALABRA_PARTIDA` | 496 |
-| `ACENTO_INDEBIDO` | 390 |
-| `PUNTUACION` | 268 |
-| `SIMBOLO_SUELTO` | 244 |
+| `ACENTO_INDEBIDO` | 391 |
+| `PUNTUACION` | 269 |
+| `SIMBOLO_SUELTO` | 259 |
 | `ACENTO_FALTANTE` | 190 |
 | `FIRMA_TRUNCADA` | 55 |
 | `ESPACIO_FALTANTE` | 39 |
@@ -31,19 +31,19 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
 ## Muestra aleatoria de 30 filas (semilla 20260911)
 
-### `RPM-2014-11-18:6517:3` — Consejo del Banco Central de Chile
+### `RPM-2014-10-16:6484:1` — Rodrigo Vergara Montes
 
-1. **PUNTUACION**
-   - antes: `"`
-   - después: `“`
-   - por qué: Comilla recta que abre la cita del Comunicado. Medido en todo el corpus: la formula "Comunicado" va seguida de “ 99 veces y de una recta solo 6. La apertura es inequivoca y la corroboracion es del propio corpus, no de la intuicion.
+1. **ESPACIO_INDEBIDO**
+   - antes: ` así será— , solo que `
+   - después: ` así será—, solo que `
+   - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
-### `RPM-2011-08-18:4218:1` — Enrique Marshall Rivera
+### `RPM-2011-07-14:4214:1` — Consejo del Banco Central de Chile
 
-1. **PUNTUACION**
-   - antes: `"Zona-Euro: Spread Libor-OIS"`
-   - después: `“Zona-Euro: Spread Libor-OIS”`
-   - por qué: Comilla recta en un par completo. En esta fila las comillas rectas son pares y su direccion es deducible sin ambiguedad: la primera de cada par abre y la segunda cierra. El corpus usa comillas tipograficas de forma abrumadora (“ aparece 323 veces), de modo que la recta es un residuo del escaneo y no una eleccion del texto. Medido: de las 58 comillas rectas que quedaban, 52 estan en 23 filas con cantidad par (20 filas con 2 y 3 filas con 4) y son estas; las otras 6 estan en filas de cantidad impar y se dejan marcadas para cotejo.
+1. **FIRMA_TRUNCADA**
+   - antes: ` MANUEL MARFAN LEWIS JOSÉ DE GREGORIO REBECO Vicepresidente Presidente 7 SEBASTIÁN CLARO EDWARDS ENRI0UE MARSHALL RIVERA Consejero Consejero.`
+   - después: ``
+   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
 
 ### `RPM-2009-02-12:2356:2` — José De Gregorio Rebeco
 
@@ -97,16 +97,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `rio Corbo en relación al precio del cobre, que`
    - por qué: "ai" por "al": la l se leyo como i. Medido en toda la salida: 26 apariciones de la palabra suelta "ai" en 26 filas, y "ai" no es una palabra del español. En cambio "al" aparece miles de veces y "al alza" 1.405 contra 3 de "ai alza". Se revisaron una por una las 26 apariciones y en todas el contexto exige "al" ("asociadas ai sector exportador", "converge ai mismo nivel", "autorizó ai Banco Central", "mayor ai previsto", "Agrega que, ai respecto", "superior ai 9,5%"). No hay ninguna fila en que "ai" sea otra cosa.
 
-### `RPM-2012-10-18:5100:1` — Sebastián Claro Edwards
+### `RPM-2012-09-13:5091:1` — Manuel Marfán Lewis
 
-1. **ACENTO_INDEBIDO**
-   - antes: `cambiaría`
-   - después: `cambiaria`
-   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
-2. **SIMBOLO_SUELTO**
-   - antes: `A continuación,.`
-   - después: `A continuación,`
-   - por qué: Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto.
+1. **PUNTUACION**
+   - antes: `into.`
+   - después: `into,`
+   - por qué: Punto en vez de coma. Medido en el corpus: un punto seguido de espacio y de una palabra en minúscula aparece 109 veces; de esas, 18 son abreviaturas legítimas cuyo punto les pertenece («EE.UU.» 10, «hrs.» 6, «pp.» 1, «pb.» 1), 4 son basura de OCR tras el punto y 10 son palabras sueltas de margen o encabezados residuales («votación» 4, «interno» 3, «comentarios», «mencionada», «caso», «internamente»). Quedan 91 en que la oración continúa en minúscula y por tanto el punto no puede ser de cierre: la marca correcta es la coma. Cada caso se leyó uno por uno.
 
 ### `RPM-2007-07-12:1316:2` — Sergio Lehmann Beresi
 
@@ -122,12 +118,12 @@ contra la base virgen. Si el registro cambia, hay que regenerarlo.
    - después: `e de las noticias del Ministro respec`
    - por qué: Signo de exclamación en lugar de la ele final. Medido: 42 apariciones, y todas dan palabra válida al reponer la l: de! 31 (del), coyuntura! 2, a! 2 (al), e! 2 (el), diferencia!, rea!, genera!, anua!, metano!. Se revisaron las nueve formas una por una y los cuatro casos límite (a!, e!) en su contexto: "sorprendieron en algo a! alza", "precisa que e! planteamiento", "acceso a! financiamiento", "acuerdo sobre e! Mecanismo". Ninguna es una exclamación real.
 
-### `RPM-2015-02-12:6627:1` — Alberto Naudon Dell'Oro
+### `RPM-2015-01-15:6569:1` — Rodrigo Vergara Montes
 
 1. **ACENTO_INDEBIDO**
-   - antes: ` para aquellas cuyo financíamiento está más ligado`
-   - después: ` para aquellas cuyo financiamiento está más ligado`
-   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 440 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2009-06-16:2597:1` — Sebastián Claro Edwards
 
@@ -227,12 +223,12 @@ Ií ~ea con el mayor`
    - después: `cambiaria`
    - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
-### `RPM-2014-03-13:6114:1` — Consejo del Banco Central de Chile
+### `RPM-2014-03-13:6087:1` — Miguel Fuentes Díaz
 
-1. **FIRMA_TRUNCADA**
-   - antes: ` MARSHALL RIVERA RODRIGO VERGARA MONTES Vicepresidente Presidente.`
-   - después: ``
-   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
+1. **LETRA_CONFUNDIDA**
+   - antes: `cambiarlo`
+   - después: `cambiario`
+   - por qué: cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son "cambiarlos" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: "habria que cambiarlos por papeles" (2006-08-10:812:1), "hay que cambiarlo" (2006-11-16:980:1), "haya que cambiarlo" (2007-03-15:1146:1), "no puede cambiarlo" (2008-08-14:2022:1), "no hay antecedentes para cambiarlo" (2010-08-12:3317:1), "razones para cambiarlo" (2012-05-17:4843:1). Las 54 restantes son adjetivas: "el lado cambiarlo", "en lo cambiarlo", "los mercados financieros y cambiarlos". Los 11 contextos con palabra funcion delante se revisaron uno por uno.
 
 ### `RPM-2008-05-08:1847:1` — Jorge Desormeaux Jiménez
 
@@ -241,12 +237,12 @@ Ií ~ea con el mayor`
    - después: `una dirección u otra. Menciona`
    - por qué: Dos residuos seguidos, "U" y "U)": la regla general de letra suelta solo quitaria el primero y dejaria "U) Menciona". Se eliminan los dos en una sola operacion porque son adyacentes y forman un unico bloque de ruido entre las dos oraciones.
 
-### `RPM-2014-02-18:6055:3` — Consejo del Banco Central de Chile
+### `RPM-2014-02-18:6019:2` — Miguel Ricaurte Bermúdez
 
-1. **PUNTUACION**
-   - antes: `"`
-   - después: `”`
-   - por qué: Comilla recta que cierra una comilla curva: el par esta desbalanceado en el propio texto, de modo que el defecto queda demostrado sin recurrir al PDF. Medido en todo el corpus: 123 comillas rectas, de las cuales 57 forman par mixto con una curva (51 cierran una apertura “ y 6 abren donde el cierre es ”) y se corrigen; 57 forman pares enteramente rectos y no se tocan porque no hay desequilibrio que pruebe el defecto; 9 quedan huerfanas y se tratan aparte.
+1. **ACENTO_INDEBIDO**
+   - antes: `ñor Miguel Ricaurte índica que el alza del`
+   - después: `ñor Miguel Ricaurte indica que el alza del`
+   - por qué: Acento espurio: con esa tilde la palabra no existe en español. Forma correcta atestiguada 5140 veces en el corpus. Detectado por el escáner transversal de acentos y arbitrado uno por uno: se corrigieron sólo los casos en que la forma observada no es palabra en ninguna acepción. Se excluyeron los pares mínimos legítimos (terminó/término, cambió/cambio, dónde/donde, éstos/estos, período/periodo) y las formas que sí existen como verbo o adjetivo (solícita, varías, contraría, complementarías).
 
 ### `RPM-2010-05-13:3126:1` — José De Gregorio Rebeco
 
@@ -283,12 +279,12 @@ Ií ~ea con el mayor`
    - después: `A continuación,`
    - por qué: Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto.
 
-### `RPM-2011-05-12:4053:2` — Consejo del Banco Central de Chile
+### `RPM-2011-05-12:4053:1` — José De Gregorio Rebeco
 
-1. **SIMBOLO_SUELTO**
-   - antes: `A continuación,.`
-   - después: `A continuación,`
-   - por qué: Pase transversal. La fila termina en «A continuación,.» y la fila siguiente empieza siempre en minúscula con «el señor Presidente ofrece la palabra al…»: unidas dan «A continuación, el señor Presidente ofrece la palabra al…», que es la construcción normal del acta. El punto que sigue a la coma no pertenece a la oración; es un residuo del salto de párrafo de la fuente. Medido sobre las 9.724 filas: 76 apariciones, las 76 al final de una fila, las 76 con la fila siguiente en minúscula y en la misma sesión, cero excepciones y ninguna aparición en medio de una fila. La forma correcta «A continuación,» seguida de minúscula aparece 378 veces. Se quita el punto y se conserva la coma; Texto queda intacto.
+1. **LETRA_CONFUNDIDA**
+   - antes: `en tomo a`
+   - después: `en torno a`
+   - por qué: en tomo a por "en torno a". Medido: 24 apariciones (20 "en tomo a" y 4 "en tomo al"), la r leida como m. "tomo" es palabra real (volumen) pero ningun contexto lo admite. "en torno a" aparece 1.678 veces.
 
 ### `RPM-2010-08-12:3314:1` — Enrique Marshall Rivera
 
@@ -313,19 +309,19 @@ Ií ~ea con el mayor`
    - después: ` reflejado.`
    - por qué: Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra.
 
-### `RPM-2012-07-12:4938:1` — Claudio Soto Gamboa
+### `RPM-2012-07-12:4933:1` — Claudio Soto Gamboa
 
-1. **PALABRA_PARTIDA**
-   - antes: `dio Soto continúa, informando que el tipo de cambo nominal tendió a apreciarse, tanto en lo que`
-   - después: `dio Soto continúa, informando que el tipo de cambio nominal tendió a apreciarse, tanto en lo que`
-   - por qué: «el tipo de cambo nominal» — falta la «i». El corpus escribe «cambio» 2.948 veces y «cambo» aparece una sola vez en todo el corpus, aquí.
+1. **ACENTO_INDEBIDO**
+   - antes: `hacía`
+   - después: `hacia`
+   - por qué: Pase transversal, enumeración completa. De las 32 apariciones de «hacía» en el corpus, 17 son el verbo («hacía presente», «hacía referencia», «hacía mención», «hacía necesario», «lo hacía moderadamente»…) y 15 son la preposición «hacia» con tilde indebidamente puesta: siempre rigen un complemento de dirección o destino («hacía delante», «hacía adelante», «hacía la baja», «hacía América Latina», «hacía las economías emergentes», «hacía el tercer trimestre»). En esas 15 el verbo no tiene sujeto ni complemento posible. Se corrigieron las 15 y se dejaron las 17; el suelo de la guardia de regresión bajó de 32 a 17 con la enumeración documentada en el test, no en silencio. «hacia» aparece 2.183 veces.
 
-### `RPM-2014-09-11:6439:1` — Consejo del Banco Central de Chile
+### `RPM-2014-09-11:6422:1` — Miguel Fuentes Díaz
 
-1. **FIRMA_TRUNCADA**
-   - antes: ` E MARSHALL RIVERA RODRIGO VERGARA MONTES Vicepresidente Presidente.`
-   - después: ``
-   - por qué: Bloque de firmas escaneadas al pie del acta, incrustado al final de la fila. Medido: 52 filas lo contienen y en las 52 cae despues de la formula de cierre "Se levanta la Sesion a las HH:MM horas", nunca en medio del discurso. No contiene intervencion de nadie: solo nombres, cargos y la constancia de firma. El dano optico lo hace irreparable: el corpus trae la misma firma como "ENRIQUE MARSHALL RIVERA" 4 veces, como "E MARSHALL RIVERA" 15 veces y como "EI)fRIQUE MARSHALL RIVERA"; otros bloques quedan como "rORTO CORBO LIOIV" o "J U A f ^ T E B ^ LAVÁL ZALDÍVAR li". Reponer el nombre estaria prohibido por la seccion 5 (nunca se reescribe un nombre propio) y en la mayoria de los casos seria imposible sin el PDF. Se elimina el bloque y se conserva integra la formula de cierre, que si es informacion: la hora de termino de la sesion. La eliminacion ocurre solo en Texto_Corregido; Texto queda intacto.
+1. **ACENTO_INDEBIDO**
+   - antes: `cambiaría`
+   - después: `cambiaria`
+   - por qué: cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de "cambiarías", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: "cuanto cambiaria la estimacion" (2005-12-13:515:1), "no cambiaria el sesgo" (2012-03-15:4723:1), "no cambiaria el comportamiento" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva.
 
 ### `RPM-2010-05-13:3126:2` — Consejo del Banco Central de Chile
 

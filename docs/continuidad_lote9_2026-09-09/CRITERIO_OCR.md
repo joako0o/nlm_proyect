@@ -4963,3 +4963,66 @@ Las dos `LETRA_CONFUNDIDA`.
 
 Registro: **1.808 filas / 3.131 operaciones / 238 revisiones / 241 filas marcadas / 33
 `Marcas_Adicionales`**. Lecturas **6.321 de 9.724**, 78 de 132 sesiones.
+
+---
+
+## §78 — `2011-04-12` (Reunión N° 224): cero cortes y la familia transversal de la comilla recta
+
+**83 filas · 85.960 caracteres · 12 actores** (Medina, Vergara, Marshall, De Gregorio, Albagli, Vial,
+Cerda, Correa, Céspedes, Chumacero, Claro, Jara). Lectura completa de las 83.
+
+### Cero cortes, con la prueba
+
+Diez filas dicen «El señor X responde que…». Verificado programáticamente: **en las diez, X coincide con
+el `Actor_Final` de la propia fila**, o sea X está respondiendo, no hablando por otro. No hay corte.
+El criterio queda fijado: **«El señor X responde que…» es una sola voz cuando X == `Actor_Final`; es
+corte sólo cuando X es un tercero dentro de la fila de otra persona** (como el padre 1706 de §48).
+
+El único neto de la cola (padre `3906`) cae sobre un **padre ya dividido**: `3906:1` De Gregorio /
+`3906:2` Claro. Señal estricta de cola sobre padre ya partido no es un corte pendiente. Los 3 «A
+continuación» y el «por su parte» son de una sola voz (comparan variables, no interlocutores). Las 4
+firmas de 2d dieron **0 candidatas reales** («cambió»/«incrementó» son verbos legítimos) y los signos
+sospechosos 0 salvo una comilla recta.
+
+### El hallazgo transversal: la comilla recta simple como residuo
+
+La única comilla recta de la sesión (`3939:1`) no era un caso aislado. Un censo sobre **todo el corpus**
+dio 26 `'` en total: **10 apóstrofes legítimos** (`Moody's` ×4, `Standard & Poor's` ×2, `Managers'`,
+`L1oyd's` ×2) y **16 residuos** de maquetación del PDF, todos de la forma `. i 'O `, `. 'a `, `1'` entre
+dos oraciones completas. Se construyeron las 16 operaciones y el residuo bajó de **16 a 1**.
+
+No contradice `COMILLAS_RECTAS_MAX = 3` de los tests: esa prueba cuenta `"` (dobles), no `'`.
+
+**El que queda es deliberado.** `2008-09-04:2092:1`, «la trayectoria de política monetaria **'aquerida**
+para llevar la inflación a 3%»: la reparación obvia es «adquirida», pero la compuerta de vocabulario la
+rechaza — el corpus sólo atestigua «adquirido» y `plegar()` plega acentos y mayúsculas, **no flexión de
+género**. Se marca para cotejo en lugar de ensanchar `TERMINOS_FORANEOS`, que es para términos foráneos.
+
+### Límite de la normalización de nombres propios
+
+`2008-10-09:2106:1`, «el Banco **L1oyd's** inglés»: el `1` por `l` es evidente, pero `Lloyd` aparece **0**
+veces en el corpus, así que no hay forma canónica atestiguada. Se marca
+`NOMBRE_PROPIO_POR_COTEJAR` (§58). En la misma fila, «Zero /nterest Poliey» se deja intacto: es un
+término inglés no atestiguado y reconstruirlo sería adivinar.
+
+### Dos errores propios que quedaron como lección
+
+**Un censo se descuenta fila por fila contra el lote construido.** El censo listó 16 residuos, construí
+15 y entregué uno de menos (`2015-06-11:6861:1`, «evolucionan muy moderadamente. **i 'O** Hace
+presente…»). Lo detectó la verificación sólo porque volví a contar.
+
+**La regla de apóstrofo del test nuevo.** La primera versión exigía letra a *ambos* lados de la `'` y
+contaba 2 residuos: dejaba fuera `Managers' Index`, donde el apóstrofo cierra el plural y va seguido de
+espacio. La regla correcta es **«una letra inmediatamente antes»**, que reconoce los 8 apóstrofes y deja
+1 residuo, el marcado.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 1.816 `Texto_Corregido` no vacíos idénticos a los IDs del registro
+· 242 marcadas · `alzan` **0** / `alzas` **840** · `minimízación` **0** / `minimización` **4** ·
+`'’i^sgo` **0** / `riesgo` **2.147** · `reanclar1'` **0** · comillas rectas residuales **1** (de 16) · 8
+apóstrofes legítimos intactos · familias de §73, §75, §76 y §77 en **0**. Suite local **66 OK** (test
+nuevo `test_las_comillas_rectas_sueltas_no_aumentan`).
+
+Registro: **1.816 filas / 3.150 operaciones / 238 revisiones / 242 filas marcadas / 35
+`Marcas_Adicionales`**. Lecturas **6.400 de 9.724**, 79 de 132 sesiones.
