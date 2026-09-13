@@ -26443,11 +26443,11 @@
       "ID_Intervencion": "RPM-2009-05-07:2517:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "RESIDUO_PAGINACION",
           "Antes": "inicial. / . /",
-          "Despues": "inicial. /. /",
+          "Despues": "inicial.",
           "Contexto": "puntos base, de manera que se debería comparar con el nivel inicial. / . /",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "§70: se extiende la operación existente, que sólo había arreglado el espaciado DENTRO del residuo ('/ . /' -> '/. /') sin borrarlo. Lo que sigue al punto que cierra la oración no pertenece al texto: es el pie de página del PDF que el OCR capturó al terminar la página. La oración anterior está completa, así que borrarlo no quita nada del acta. El Tipo pasa a RESIDUO_PAGINACION porque ese es ahora el arreglo."
         },
         {
           "Tipo": "LETRA_CONFUNDIDA",
@@ -27520,11 +27520,11 @@
       "ID_Intervencion": "RPM-2011-06-14:4064:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "RESIDUO_PAGINACION",
           "Antes": "amente. -4 . f . • \" ' A)",
-          "Despues": "amente. -4. f. • \" ' A)",
+          "Despues": "amente.",
           "Contexto": " colectivo de cómo se van moviendo las economías sincronizadamente. -4 . f . • \" ' A)",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "§70: se extiende la operación existente, que sólo había arreglado el espaciado DENTRO del residuo ('-4 . f . • \" \\' A)' -> '-4. f. • \" \\' A)') sin borrarlo. Lo que sigue al punto que cierra la oración no pertenece al texto: es el pie de página del PDF que el OCR capturó al terminar la página. La oración anterior está completa, así que borrarlo no quita nada del acta. El Tipo pasa a RESIDUO_PAGINACION porque ese es ahora el arreglo."
         }
       ]
     },
@@ -27823,11 +27823,11 @@
       "ID_Intervencion": "RPM-2013-04-11:5486:1",
       "Operaciones": [
         {
-          "Tipo": "ESPACIO_INDEBIDO",
+          "Tipo": "RESIDUO_PAGINACION",
           "Antes": "l año 2012 . /",
-          "Despues": "l año 2012. /",
+          "Despues": "l año 2012.",
           "Contexto": "o de los precios de estos productos respecto de igual mes del año 2012 . /",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "§70: se extiende la operación existente, que sólo había arreglado el espaciado DENTRO del residuo (' . /' -> '. /') sin borrarlo. Lo que sigue al punto que cierra la oración no pertenece al texto: es el pie de página del PDF que el OCR capturó al terminar la página. La oración anterior está completa, así que borrarlo no quita nada del acta. El Tipo pasa a RESIDUO_PAGINACION porque ese es ahora el arreglo."
         }
       ]
     },
@@ -29307,6 +29307,14 @@
           "Ocurrencias": 1,
           "Contexto": " en que se verá un IPC mayor al indicado en el IPOM, a fines de este año. Agrega el Co",
           "Justificacion": "Sigla mal compuesta. Medido en el corpus: «IPoM» aparece 2473 veces y «IPOM» 58, siempre el mismo documento, el Informe de Política Monetaria del Banco Central de Chile, cuya sigla lleva la o minúscula. El OCR leyó la o minúscula como O mayúscula."
+        },
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "25 puntos base y, en consecuencia, su voto es en tal sentido. U)",
+          "Despues": "25 puntos base y, en consecuencia, su voto es en tal sentido.",
+          "Ocurrencias": 1,
+          "Contexto": " la tasa el mes pasado, la decisión más adecuada es subir la tasa de interés en 25 puntos base y, en consecuencia, su voto es en tal sentido. U)",
+          "Justificacion": "Residuo de fuente al final de la fila: después del punto que cierra la oración quedan marcas que no pertenecen al texto (números de página, viñetas, restos de firma o del pie del PDF que el OCR capturó al terminar la página). La oración anterior está completa y con su punto, así que borrarlo no quita nada del acta. Es exactamente el caso que la política de corrección autoriza a eliminar. Son los 6 únicos casos del corpus en que una fila termina en un signo suelto."
         }
       ]
     },
@@ -34540,6 +34548,45 @@
           "Ocurrencias": 1,
           "Contexto": "de interés de los bonos registraron importantes alzas tras la intervención y el anuncio de emisión de deuda, y que las tasas svjap han tendido a aumentar. Destaca que al comparar el movimiento de las tasas largas con el observado en el episodio anterior, ",
           "Justificacion": "«las tasas svjap han tendido a aumentar» — «swap» con tres letras leídas como otras: la «w» como «j», la «a» como «v» y conservada la «s». El corpus tiene 156 «swap», 61 «swaps», 8 «Swap» y 11 «Swaps», y «svjap» aparece una sola vez en las 9.724 filas. En la misma sesión y en la misma fila se habla de tasas de swap, que es el instrumento de que se trata."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:3011:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "s, hace presente que en el ámbito externo se ha observada que la volatilidad financiera se ha aplacado",
+          "Despues": "s, hace presente que en el ámbito externo se ha observado que la volatilidad financiera se ha aplacado",
+          "Ocurrencias": 1,
+          "Contexto": "ero pasado. Desde el punto de vista de las otras noticias coyunturales habituales, hace presente que en el ámbito externo se ha observada que la volatilidad financiera se ha aplacado, especialmente luego de los anuncios de ajuste fiscal y el respaldo de la Comun",
+          "Justificacion": "Participio mal concordado: «en el ámbito externo se ha observada que la volatilidad financiera se ha aplacado». Con el auxiliar «ha» el participio es invariable, y además el sujeto de la oración es la cláusula «que la volatilidad… se ha aplacado», no un sustantivo femenino. El corpus tiene 221 «ha observado» y este es el único «ha observada» de las 9.724 filas."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-11-13:2162:2",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "e de los activos tóxicos a que dichos activos se capitalicen. J)",
+          "Despues": "e de los activos tóxicos a que dichos activos se capitalicen.",
+          "Ocurrencias": 1,
+          "Contexto": "dica que su interpretación es que el mercado o los bancos, prefieren desprenderse de los activos tóxicos a que dichos activos se capitalicen. J)",
+          "Justificacion": "Residuo de fuente al final de la fila: después del punto que cierra la oración quedan marcas que no pertenecen al texto (números de página, viñetas, restos de firma o del pie del PDF que el OCR capturó al terminar la página). La oración anterior está completa y con su punto, así que borrarlo no quita nada del acta. Es exactamente el caso que la política de corrección autoriza a eliminar. Son los 6 únicos casos del corpus en que una fila termina en un signo suelto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:2969:1",
+      "Operaciones": [
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "Bouzo, y el Economista Senior señor Rodrigo Alfaro Arancibia. / )",
+          "Despues": "Bouzo, y el Economista Senior señor Rodrigo Alfaro Arancibia.",
+          "Ocurrencias": 1,
+          "Contexto": "l Gerente de Infraestructura y Regulación Financiera, señor José Manuel Garrido Bouzo, y el Economista Senior señor Rodrigo Alfaro Arancibia. / )",
+          "Justificacion": "Residuo de fuente al final de la fila: después del punto que cierra la oración quedan marcas que no pertenecen al texto (números de página, viñetas, restos de firma o del pie del PDF que el OCR capturó al terminar la página). La oración anterior está completa y con su punto, así que borrarlo no quita nada del acta. Es exactamente el caso que la política de corrección autoriza a eliminar. Son los 6 únicos casos del corpus en que una fila termina en un signo suelto."
         }
       ]
     }

@@ -439,6 +439,8 @@ Para leer una sesión entera al margen del plan:
 
 | 251–259 | 2011-01-13 | 89 | **sesión cerrada 83/83** (6 ya estaban anotadas) · 13 actores · la cola tenía un caso con **señal estricta**, el padre 3650, pero **ya viene partido en la base** (3650:1 Lehmann 103 ch / 3650:2 Herrera 280 ch sin ancla), igual que el padre 3651 — una señal estricta sobre un padre ya partido no es un corte pendiente; 2b dio 1 caso y el barrido independiente 2, los tres falsos porque Marfán y Claro son objeto de «planteadas por»; 10 filas largas, todas monólogos → **ningún corte** (§69) |
 
+| 260–268 | 2010-03-18 | 84 | **sesión cerrada 83/83** (1 ya estaba anotada) · 13 actores · la cola tenía un caso con señal estricta **y** con la firma «en tanto que» más un nombre, el padre 2983, pero **ya viene partido en la base** (2983:1 Soto 64 ch / 2983:2 Pablo García sin ancla) — segunda vez seguida que el detector señala el padre completo y no sus segmentos; 2b y 2c en cero; el barrido independiente dio 2 casos falsos (De Gregorio es objeto de «agradece las palabras del» y «el Gerente de Investigación Económica» es el propio Céspedes, que ocupa ese cargo desde 2009-04-09); 12 filas largas, todas monólogos → **ningún corte** (§70) |
+
 Para anotar una ronda leída:
 
 ```

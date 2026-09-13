@@ -4420,3 +4420,74 @@ formadas a partir de daño. Se dejó.
 
 Registro: **1.776 filas / 3.051 operaciones / 212 revisiones / 234 filas marcadas**.
 Lecturas **5.675 de 9.724**, 70 de 132 sesiones.
+
+## §70 — Sesión 2010-03-18: la firma «en tanto que» sobre un padre ya partido, y los residuos de página
+
+Ochenta y cuatro filas, trece actores, 87.548 caracteres. **Ningún corte.**
+
+La cola tenía un caso, el padre **2983**, con señal estricta **y** con la firma «en tanto que» más un
+nombre, que es una de las señales de lectura documentadas. Leída la fila, el corte **ya está hecho en
+la base**: `2983:1` es Claudio Soto («confirma que esos son los dos componentes», 64 ch) y `2983:2` es
+Pablo García («**en tanto que** el señor Pablo García explica que…», sin ancla). Segunda vez seguida
+que pasa (§69): **el detector señala el padre completo, no sus segmentos.**
+
+2b y 2c dieron cero. El barrido independiente dio dos casos, falsos los dos: en `3008:3` José De
+Gregorio es el objeto de «**agradece las palabras del**», y en `3011:3` «el Gerente de Investigación
+Económica» es el propio Luis Felipe Céspedes —cargo que ocupa en todas las sesiones desde
+2009-04-09, verificado en el corpus.
+
+### Un participio mal concordado
+
+`3011:1`: «en el ámbito externo se ha **observada** que la volatilidad financiera se ha aplacado». Con
+el auxiliar «ha» el participio es invariable, y además el sujeto es la cláusula «que la volatilidad…
+se ha aplacado», no un sustantivo femenino. El corpus tiene **221 «ha observado»** y éste era el
+único «ha observada» de las 9.724 filas.
+
+### Una familia transversal: residuos de página al final de la fila
+
+Revisando los signos aparecieron **6 filas en todo el corpus** que terminan en un signo suelto
+después del punto que cierra la oración:
+
+| fila | terminaba en |
+|---|---|
+| `RPM-2005-07-12:310:1` | `…en tal sentido.` **`U)`** |
+| `RPM-2008-11-13:2162:2` | `…se capitalicen.` **`J)`** |
+| `RPM-2009-05-07:2517:1` | `…nivel inicial.` **`/ . /`** |
+| `RPM-2010-03-18:2969:1` | `…Alfaro Arancibia.` **`/ )`** |
+| `RPM-2011-06-14:4064:1` | `…sincronizadamente.` **`-4 . f . • " ' A)`** |
+| `RPM-2013-04-11:5486:1` | `…mes del año 2012.` **`/`** |
+
+En los seis la oración anterior está completa y con su punto: lo que sigue es el pie de página del
+PDF que el OCR capturó al terminar la página. **Es exactamente el caso que la política de corrección
+autoriza a eliminar** (residuos de fuente: números de página, marcas sueltas, restos de firma). Se
+borraron las seis. Verificado: el censo pasa de **6 a 0**.
+
+### Una corrección anterior que arreglaba lo equivocado
+
+Tres de esas seis filas **ya tenían una operación** sobre ese tramo, y lo que hacía era arreglar el
+espaciado **dentro** del residuo en vez de borrarlo:
+
+| fila | `Antes` | `Despues` anterior | `Despues` ahora |
+|---|---|---|---|
+| `2517:1` | `inicial. / . /` | `inicial. /. /` | `inicial.` |
+| `4064:1` | `amente. -4 . f . • " ' A)` | `amente. -4. f. • " ' A)` | `amente.` |
+| `5486:1` | `l año 2012 . /` | `l año 2012. /` | `l año 2012.` |
+
+Se extendieron las tres operaciones existentes (§15) y el `Tipo` pasó de `ESPACIO_INDEBIDO` a
+`RESIDUO_PAGINACION`. **Enseñanza: antes de escribir una operación sobre un tramo que ya está
+corregido, leer qué hace la operación existente** — aquí el arreglo anterior no sólo era insuficiente,
+sino que apuntaba a un defecto que no era el defecto.
+
+### Doce finales en coma, todos legítimos
+
+Doce filas de la sesión cierran en coma. Se leyeron una por una y en todas la fila siguiente retoma la
+oración («lo cual», «y el Gerente…», «en tanto que…»), que es lo que la regla del §63 declara
+legítimo. No se tocó ninguna.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · filas que terminan en «)» o «/» **0** (antes 6) · «ha
+observada» **0** (antes 1). Suite local **61 OK**.
+
+Registro: **1.779 filas / 3.055 operaciones / 212 revisiones / 234 filas marcadas**.
+Lecturas **5.758 de 9.724**, 71 de 132 sesiones.
