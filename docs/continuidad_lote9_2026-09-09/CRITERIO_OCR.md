@@ -4148,3 +4148,69 @@ posibilidad. Marca 13, `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
 
 Registro: **1.757 filas / 3.025 operaciones / 212 revisiones / 221 filas marcadas**.
 Lecturas **5.336 de 9.724**, 66 de 132 sesiones.
+
+## §66 — Sesión 2011-11-15: la sesión más limpia, y el conector en mayúscula como señal de texto perdido
+
+Ochenta y nueve filas, trece actores, 95.723 caracteres. **Ningún corte.**
+
+Es la sesión más limpia hasta ahora. Las tres redes dieron cero y el barrido independiente sobre los
+trece actores **no dio ni una referencia ajena** en las 89 filas. Los signos también están limpios:
+cero caracteres fuera de repertorio, cero dobles espacios, cero comillas rectas, cero paréntesis
+desbalanceados, y ninguna fila termina en letra suelta ni en coma. Las 13 filas de más de 2.500
+caracteres son monólogos; se leyeron enteras las dos más sensibles —la despedida de Marfán a De
+Gregorio (`4446:3`, 1.637 ch) y la presentación de Larraín (`4453:3`, 4.713 ch)— y en ninguna cambia
+el sujeto.
+
+### Un conector en mayúscula pegado a una oración incompleta significa texto perdido
+
+Buscando otra cosa aparecieron ocho filas con este patrón:
+
+| fila | …antes del conector |
+|---|---|
+| `292:2` | «los últimos antecedentes de inflación y crecimiento nuevamente **confirman** Por lo tanto,» |
+| `657:2` | «en particular para **plazos** Por otra parte,» |
+| `744:4` | «el dinamismo de Europa es **ciertamente** Por último,» |
+| `1055:1` | «cambios de ciclo e incluso ciclos de política, **que** Por último,» |
+| `2176:2` | «tras la crisis de los años 30**,** Por otra parte,» |
+| `5177:1` | «suficiente fuerza para evitar el **fiscal** Por último,» |
+| `5380:1` | «anotaron una variación anual en **torno** Por su parte,» |
+| `5877:1` | «en el caso de LAN Airlines en **nuestro** Por último,» |
+
+**En siete de los ocho la oración anterior está incompleta**: «confirman» sin objeto, «es ciertamente»
+sin adjetivo, «en torno» sin complemento, «en nuestro» sin sustantivo. La mayúscula del conector no
+es un error de mayúscula: es el principio del párrafo siguiente, y entre las dos mitades el OCR
+perdió un trozo de texto en un salto de página o de columna.
+
+**No se corrigió ninguno, y la razón importa:** poner un punto donde está la coma taparía la
+pérdida. `2176:2` es el único donde la oración anterior sí está completa, pero ni ése se tocó,
+porque distinguirlos exige leer el PDF. Las ocho quedaron marcadas
+`RECONSTRUCCION_AMBIGUA_POR_COTEJAR` (marcas 16 a 23).
+
+**Regla nueva: un conector en mayúscula inmediatamente después de una minúscula o una coma es señal
+de texto perdido, no de puntuación.**
+
+### Dos corchetes de cierre sin apertura
+
+`978:1` («doble shock petrolero-gasífero**]** desde la apreciación…») y `1210:1` («se está a un mes de
+un IPoM**]** dos, que no le queda claro…»). Son los dos únicos desbalances de corchete del corpus:
+cada fila tiene 0 aperturas y 1 cierre. Borrarlo cambiaría la lectura —en `1210:1` el signo separa
+«una, que…» de «dos, que…», donde probablemente había un punto y coma— y reponer la apertura sería
+inventar. Marcas 24 y 25.
+
+### «porqué» junto, siete de diez
+
+`porqué` junto y acentuado es el sustantivo y exige artículo («el porqué», «del porqué»). El corpus
+tiene **94 «por qué»** frente a **10 «porqué»**, y de esos diez **tres llevan artículo y son
+legítimos** (`1846:1` «del porqué de un aumento», `2029:1` «el porqué el empleo…», `2042:1`
+«justificar el porqué»). Los otros siete introducen una interrogativa indirecta y se corrigieron a
+«por qué», uno en esta sesión (`4452:1`, «la pregunta es porqué no hacerlo»).
+
+Resultado: quedan **3**, los tres con artículo, y «por qué» pasa de 94 a **101**.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · `porqué` **3** (los tres con artículo) · `por qué` **101**.
+Suite local **61 OK**.
+
+Registro: **1.761 filas / 3.032 operaciones / 212 revisiones / 231 filas marcadas**.
+Lecturas **5.422 de 9.724**, 67 de 132 sesiones.

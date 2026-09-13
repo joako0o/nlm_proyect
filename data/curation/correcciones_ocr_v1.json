@@ -13447,6 +13447,14 @@
           "Ocurrencias": 1,
           "Contexto": "ción y una tasa de política monetaria relativamente estable por un período prolongado. A SU juicio, en el nuevo escenario central lo que corresponde es baj",
           "Justificacion": "La A abre la oración legítimamente (\"A su juicio\"), así que NO es residuo: el defecto es \"SU\" en mayúscula. Es el único de los 17 casos de letra suelta que no se elimina."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "que Por último, uno se tendría que preguntar porqué no bajar 50 puntos base. El mercado cree que",
+          "Despues": "que Por último, uno se tendría que preguntar por qué no bajar 50 puntos base. El mercado cree que",
+          "Ocurrencias": 1,
+          "Contexto": "nas políticas monetarias existen cambios de ciclo e incluso ciclos de política, que Por último, uno se tendría que preguntar porqué no bajar 50 puntos base. El mercado cree que aquí existe un riesgo que podría interpretar que la reversión sea mucho más int",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
         }
       ]
     },
@@ -28888,6 +28896,14 @@
           "Despues": "meses",
           "Contexto": "neutral, con un escenario de mantención de tasa por algunos m eses consistente con alcanzar una proyección de inflación en tor",
           "Justificacion": "Palabra partida por un espacio espurio: la forma junta aparece 4246 veces en el corpus y la segunda mitad por separado no es una palabra. La primera mitad es una letra suelta, que no es palabra española salvo a/y/o/e/u."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "Política Monetaria será muy difícil explicar porqué no solo no se bajó la tasa sino que además s",
+          "Despues": "Política Monetaria será muy difícil explicar por qué no solo no se bajó la tasa sino que además s",
+          "Ocurrencias": 1,
+          "Contexto": "los riesgos inflacionarios y una confirmación del escenario base del Informe de Política Monetaria será muy difícil explicar porqué no solo no se bajó la tasa sino que además se quitó el sesgo y podría dar la impresión que la baja del mes enero fue un erro",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
         }
       ]
     },
@@ -33771,6 +33787,14 @@
           "Ocurrencias": 1,
           "Justificacion": "«asi» no es palabra del español y el corpus escribe «así» 1.199 veces frente a 19. Los 19 casos son la misma lesión (caída del acento) y se leyeron uno por uno: ninguno es una sigla ni parte de otra palabra.",
           "Contexto": "nte dadas esas incertidumbres. En segundo lugar, el Gerente de División Política Financiera opina que esto es asi principalmente debido a que el escenario de crecimiento económico proyectado desde ese mismo período ha sido "
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "n mes de un IPoM] dos, que no le queda claro porqué los riesgos de oferta adicionalmente mencion",
+          "Despues": "n mes de un IPoM] dos, que no le queda claro por qué los riesgos de oferta adicionalmente mencion",
+          "Ocurrencias": 1,
+          "Contexto": "rle un carácter más neutral al comunicado, por dos razones: una, que se está a un mes de un IPoM] dos, que no le queda claro porqué los riesgos de oferta adicionalmente mencionados se compensan con proyecciones alternativas de IPCX1 que pueden llevar esta ",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
         }
       ]
     },
@@ -34237,6 +34261,58 @@
           "Ocurrencias": 1,
           "Contexto": " que el Banco cuente con mejor información que el mercado con el fin de hacer mejores proyecciones, hace notar que ambas han subestimando la inflación en el último tiempo, pero el Banco lo ha hecho en menor medida. Al no formularse comentarios adicionales y sien",
           "Justificacion": "«haber» más gerundio no es una forma del español: el participio es «haber» más participio. Los 9 casos del corpus son la misma lesión (la «d» del participio leída como «n») y se corrigieron uno por uno; en 2291:2 sólo cambia el primer verbo, porque «se han continuado disipando» lleva gerundio legítimo después."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2005-03-10:174:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "a o de tercera, vía remuneraciones no tienen porqué eliminarse, ya que tienden a tener efectos e",
+          "Despues": "a o de tercera, vía remuneraciones no tienen por qué eliminarse, ya que tienden a tener efectos e",
+          "Ocurrencias": 1,
+          "Contexto": "ia directa de los combustibles en los precios, pero los efectos de segunda vuelta o de tercera, vía remuneraciones no tienen porqué eliminarse, ya que tienden a tener efectos en los costos a lo largo de la economía. Esos fenómenos no están excluidos de ese",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1214:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": " es un riesgo. Se pregunta el señor Ministro porqué ese riesgo está en esta discusión y no en la",
+          "Despues": " es un riesgo. Se pregunta el señor Ministro por qué ese riesgo está en esta discusión y no en la",
+          "Ocurrencias": 1,
+          "Contexto": "or ejemplo, indica que se mencionaba el posible impacto del tipo de cambio y ese es un riesgo. Se pregunta el señor Ministro porqué ese riesgo está en esta discusión y no en la anterior. Le parece que en su opinión, se necesita un análisis más sistemático,",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-09-04:2074:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "erior constituye una de las explicaciones de porqué los salarios reales continúan cayendo en el ",
+          "Despues": "erior constituye una de las explicaciones de por qué los salarios reales continúan cayendo en el ",
+          "Ocurrencias": 1,
+          "Contexto": "alinearse con la meta hacia fines del horizonte de proyección. Indica que lo anterior constituye una de las explicaciones de porqué los salarios reales continúan cayendo en el corto plazo, pero a mediano plazo la actividad empieza a recuperarse. Por otro l",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2011-11-15:4452:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "rá en esa dirección, entonces la pregunta es porqué no hacerlo de forma inmediata.",
+          "Despues": "rá en esa dirección, entonces la pregunta es por qué no hacerlo de forma inmediata.",
+          "Ocurrencias": 1,
+          "Contexto": "ue si se tuviera la seguridad de que se impondrá un sesgo y que el Banco se moverá en esa dirección, entonces la pregunta es porqué no hacerlo de forma inmediata.",
+          "Justificacion": "«porqué» junto y acentuado es el sustantivo («el porqué», «del porqué») y exige artículo. Aquí introduce una interrogativa indirecta, que en español se escribe «por qué» en dos palabras: el corpus tiene 94 «por qué» frente a 10 «porqué», y de esos 10 sólo 3 llevan artículo y son legítimos (RPM-2008-05-08:1846:1, RPM-2008-08-14:2029:1 y RPM-2008-08-14:2042:1, que se dejan como están). Los otros 7 se corrigen."
         }
       ]
     }
@@ -35591,6 +35667,56 @@
       "ID_Intervencion": "RPM-2010-10-14:3476:5",
       "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
       "Motivo": "§65: la fila termina en «se reanuda la Sesión de Política Monetaria» sin punto. La fórmula aparece 67 veces en el corpus: 54 cierran con punto, 11 continúan con el número de la sesión y sólo ésta y RPM-2010-10-14:3476:5 terminan sin nada. El punto falta con casi total certeza, pero NO se agregó: el aplicador del registro es un reemplazo literal y cualquier inserción deja «Antes» contenido en «Despues», de modo que aplicar dos veces apilaría un segundo punto. Es el único tipo de arreglo que el registro no puede expresar, y el test test_no_vuelve_a_corregir_sobre_lo_corregido lo detecta. Se deja para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2005-06-09:292:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-05-11:657:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:744:4",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-01-11:1055:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-12-11:2176:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-11-13:5177:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-02-14:5380:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2013-11-19:5877:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: conector en mayúscula pegado al final de una oración que quedó INCOMPLETA. El tramo que precede termina a mitad de sentido y el siguiente párrafo empieza con su conector en mayúscula, lo que indica que el OCR perdió un trozo de texto en un salto de página o columna y pegó las dos mitades. No es un problema de puntuación: cambiar la coma por un punto taparía la pérdida. Se deja para el cotejo con el PDF. Los 8 casos del corpus son RPM-2005-06-09:292:2 («nuevamente confirman»), RPM-2006-05-11:657:2 («para plazos»), RPM-2006-07-13:744:4 («es ciertamente»), RPM-2007-01-11:1055:1 («ciclos de política, que»), RPM-2008-12-11:2176:2 (el único donde la oración anterior SÍ está completa), RPM-2012-11-13:5177:1 («evitar el fiscal»), RPM-2013-02-14:5380:1 («en torno») y RPM-2013-11-19:5877:1 («en nuestro»)."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-11-16:978:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: corchete de cierre sin apertura. El texto está sano alrededor, pero el signo no pertenece a ninguna pareja: la fila tiene 0 aperturas y 1 cierre. Borrarlo cambiaría la lectura (en RPM-2007-04-12:1210:1 separa «una, que se está a un mes de un IPoM» de «dos, que no le queda claro», donde probablemente había un punto y coma) y reponer la apertura sería inventar. Se deja para el cotejo con el PDF. Son los 2 únicos desbalances de corchete del corpus."
+    },
+    {
+      "ID_Intervencion": "RPM-2007-04-12:1210:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "§66: corchete de cierre sin apertura. El texto está sano alrededor, pero el signo no pertenece a ninguna pareja: la fila tiene 0 aperturas y 1 cierre. Borrarlo cambiaría la lectura (en RPM-2007-04-12:1210:1 separa «una, que se está a un mes de un IPoM» de «dos, que no le queda claro», donde probablemente había un punto y coma) y reponer la apertura sería inventar. Se deja para el cotejo con el PDF. Son los 2 únicos desbalances de corchete del corpus."
     }
   ]
 }

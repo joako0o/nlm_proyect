@@ -431,6 +431,8 @@ Para leer una sesión entera al margen del plan:
 
 | 215–223 | 2010-10-14 | 89 | **sesión cerrada 87/87** (2 ya estaban anotadas) · 13 actores · la cola tenía un caso, el padre 3449, **ya bien partido** (Claro con sus dudas sobre los precios de los activos, De Gregorio sobre el Dow Jones); 2b cero; **2c señaló 3454:1 con la firma «un tercero responde», la misma que produjo el corte del §48, y resultó falsa**: «respondiendo a una consulta del Vicepresidente señor Manuel Marfán, aclara que…» — el sujeto es Soto y Marfán es el objeto de la consulta → **ningún corte** (§65) |
 
+| 224–232 | 2011-11-15 | 89 | **sesión cerrada 86/86** (3 ya estaban anotadas) · 13 actores · **la sesión más limpia hasta ahora**: las tres redes en cero y el barrido independiente sobre los 13 actores no dio **ni una** referencia ajena en las 89 filas; signos limpios (cero fuera de repertorio, cero dobles espacios, cero comillas rectas, cero paréntesis desbalanceados, ninguna fila termina en letra suelta ni en coma); las 13 filas de más de 2500 ch son monólogos, incluidas la despedida de Marfán a De Gregorio y la presentación de Larraín → **ningún corte** (§66) |
+
 Para anotar una ronda leída:
 
 ```
