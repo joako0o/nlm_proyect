@@ -3784,3 +3784,67 @@ correcciones OCR nuevas en la sesión más allá de la familia `Claudia`→`Clau
 
 Registro: **1.719 filas / 2.946 operaciones / 212 revisiones / 215 filas marcadas** (sin cambios:
 ninguna fila del padre 3062 tenía corrección). Lecturas **4.885 de 9.724**, 61 de 132 sesiones.
+
+## §61 — Sesión 2008-05-08: cero cortes, cuatro residuos y una cifra que no se adivina
+
+Noventa y cinco filas, once actores, 100.466 caracteres. **Ningún corte.** Cola en cero, 2c en
+cero, los tres detectores de palabra partida en cero, cero caracteres fuera de repertorio.
+
+### Los dos candidatos a corte, leídos
+
+**2b — `1819:1`** (Pablo García, 2.187 ch) señalaba a Manuel Marfán. Falso: «En cuanto al
+comentario del Consejero señor Manuel Marfán **indica el señor García**, que la Gerencia de
+División Estudios ha calculado los costos laborales unitarios». Es sujeto pospuesto; Marfán es el
+objeto del comentario, no el hablante.
+
+**Barrido independiente — `1808:1`.** El padre entero (531 ch) es de Sebastián Claro:
+
+> «El Consejero señor Sebastián Claro menciona que esta tendencia inflacionaria en Europa… no
+> sugieren que se esté en presencia… de un boom de precios de alimentos, pero sí del petróleo…
+> **Asimismo, el señor Consejero consulta** de qué forma calza lo anterior con la historia de
+> mayores precios de los alimentos.»
+
+«El señor Consejero» sin nombre es el propio Claro continuando con «Asimismo»; no hay otro
+consejero en juego. Las otras 17 referencias ajenas del barrido son el actor de la fila referido
+por su cargo («el Gerente de Análisis Internacional» en filas de Lehmann, «el Gerente de Análisis
+Macroeconómico **Interino**» en filas de Soto, «la Ministra de Hacienda Subrogante» en filas de
+Recart). Las 9 filas de más de 2.500 caracteres son monólogos sin referencias ajenas.
+
+### Cuatro residuos corregidos
+
+| fila | virgen | corregido |
+|---|---|---|
+| `1804:2` | `paridades cambiabas` | `paridades cambiarias` (17 atestiguadas) |
+| `1816:1` | `los costos f' H- laborales unitarios` | `los costos laborales unitarios` (159) |
+| `1846:1` | `el riesgo de un L' desanclaje al alza` | `el riesgo de un desanclaje al alza` (145) |
+| `1815:1` | `…de la que se piensa. r` | `…de la que se piensa.` |
+
+Los dos del medio son la misma familia del §58 —residuo de escaneo pegado a una comilla recta—
+pero con el residuo **rodeado de espacios**, así que el barrido del §58 (apóstrofo entre letras)
+no los veía. El último cierra la alerta `FINAL_SIN_PUNTUACION` de esa fila: la oración de
+Desormeaux ya terminaba en punto y la «r» sobraba entre ella y la intervención siguiente, que
+empieza limpia. **La alerta se cierra porque el texto quedó bien, no porque se editara la alerta**,
+y se deja constancia aquí a propósito.
+
+### Una cifra que no se adivina
+
+`1816:1`: «en el mes de abril, la inflación anual del IPC llegó a **a,3%**». El dígito de las
+unidades está dañado: donde va un número hay una «a». La serie sugiere 8,3% —la Reunión siguiente
+(`2008-06-10:1872:1`) consigna para mayo «8,4% anual»— pero **reconstruir una cifra por tendencia
+es exactamente lo que la marca existe para no hacer**. Se dejó el texto intacto y se marcó
+`CIFRA_INCONSISTENTE_POR_COTEJAR` (marca 10).
+
+### Lo que ya estaba corregido y el barrido volvió a mostrar
+
+Tres de los seis defectos que aparecieron al leer la sesión ya no existen en la salida: `De
+Gregario` (§55), `Análisi s` y `del IRC`. Estaban en el **texto virgen**, que es lo que se lee;
+medidos sobre el texto efectivo dan 0. **Regla: lo que se lee es el virgen, lo que se mide es el
+efectivo.**
+
+### Verificado
+
+Los cuatro residuos → **0** · `paridades cambiarias` 17 → **18** · `costos laborales unitarios`
+159 → **160** · `Texto` idéntico a la base en las **9.724** · suite local **61 OK**.
+
+Registro: **1.721 filas / 2.950 operaciones / 212 revisiones / 216 filas marcadas**.
+Lecturas **4.977 de 9.724**, 62 de 132 sesiones.

@@ -92,8 +92,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 3
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1719
-MIN_OPERACIONES = 2946
+MIN_CORREGIDAS = 1721
+MIN_OPERACIONES = 2950
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,

@@ -6823,6 +6823,14 @@
           "Ocurrencias": 2,
           "Contexto": "rincipalmente porque se rompió la tendencia al agravamiento del desalineamiento cambiarlo. Por lo tanto, el Consejero señor Marfán señala que a difer",
           "Justificacion": "cambiarlo por cambiario. Misma familia: el OCR puso una l donde va una i. Medido: 60 apariciones, de las cuales 16 son \"cambiarlos\" (la forma larga contiene a la corta, y esta regla las corrige tambien). 6 son el infinitivo legitimo y sus filas quedan excluidas: \"habria que cambiarlos por papeles\" (2006-08-10:812:1), \"hay que cambiarlo\" (2006-11-16:980:1), \"haya que cambiarlo\" (2007-03-15:1146:1), \"no puede cambiarlo\" (2008-08-14:2022:1), \"no hay antecedentes para cambiarlo\" (2010-08-12:3317:1), \"razones para cambiarlo\" (2012-05-17:4843:1). Las 54 restantes son adjetivas: \"el lado cambiarlo\", \"en lo cambiarlo\", \"los mercados financieros y cambiarlos\". Los 11 contextos con palabra funcion delante se revisaron uno por uno."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "el riesgo de un L' desanclaje al alza",
+          "Despues": "el riesgo de un desanclaje al alza",
+          "Ocurrencias": 1,
+          "Contexto": "desbalanceado, es decir, aunque las expectativas están bien ancladas, el riesgo de un L' desanclaje al alza es mayor que un desanclaje a la baja en las actuales circunstancias. ",
+          "Justificacion": "Residuo de escaneo entre el artículo y el sustantivo: una ele y una comilla recta sueltas. La oración queda «el riesgo de un desanclaje al alza es mayor que un desanclaje a la baja», que es la construcción que el propio Marfán usa dos oraciones antes en la misma fila («el riesgo de desanclaje de expectativas sí está desbalanceado»). «desanclaje» aparece 145 veces en el corpus."
         }
       ]
     },
@@ -18742,6 +18750,14 @@
           "Ocurrencias": 1,
           "Contexto": " de los sectores económicos más ligados a su evolución. De este modo, seña la el señor Soto que en el escenario más probable la economía crecerá es",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «seña la» -> «señala». La evidencia es interna y doble: el primer trozo («seña») es marginal en el corpus (2 apariciones, y ésas son ésta) y la forma junta («señala») es la que el propio corpus usa 4816 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "los costos f' H- laborales unitarios",
+          "Despues": "los costos laborales unitarios",
+          "Ocurrencias": 1,
+          "Contexto": " son coherentes con las cláusulas de indexación habituales. Asimismo, los costos f' H- laborales unitarios aumentan a tasas mayores que a comienzos de año, influidos, en gran m",
+          "Justificacion": "Residuo de escaneo entre «costos» y «laborales»: una efe, una comilla recta, una hache y un guión sueltos. No hay lectura en que esos cuatro glifos sean texto. La expresión «costos laborales unitarios» aparece 159 veces en el corpus, y en esta misma sesión la usa Pablo García dos padres más adelante («la Gerencia de División Estudios ha calculado los costos laborales unitarios»)."
         }
       ]
     },
@@ -33417,6 +33433,32 @@
           "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Raddatz» 75 veces contra 1 «Claudia Raddatz». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1804:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "paridades cambiabas",
+          "Despues": "paridades cambiarias",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Internacional comenta que en materia de paridades cambiabas se observa que el dólar ha tendido a apreciarse durante las últimas s",
+          "Justificacion": "«cambiabas» es una forma verbal que no tiene lectura posible después de «paridades». El corpus atestigua «paridades cambiarias» 17 veces y «cambiarias» 260; «cambiabas» no aparece en ninguna otra parte."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1815:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "menos volatilidad de la que se piensa. r",
+          "Despues": "menos volatilidad de la que se piensa.",
+          "Ocurrencias": 1,
+          "Contexto": "cesariamente, sino una demanda a término, y por lo tanto, hay en ella menos volatilidad de la que se piensa. r",
+          "Justificacion": "Letra suelta al final de la fila. La oración de Desormeaux cierra completa con punto («…hay en ella menos volatilidad de la que se piensa.») y la intervención siguiente empieza limpia («El Gerente señor Sergio Lehmann informa finalmente que…»), así que la «r» no es el comienzo de una palabra partida sino residuo quedado entre las dos. Corregirla cierra la alerta FINAL_SIN_PUNTUACION de esta fila como consecuencia de arreglar el texto, no por editar la alerta."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -34739,6 +34781,11 @@
       "ID_Intervencion": "RPM-2008-10-09:2106:1",
       "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
       "Motivo": "§58: «al Banco L1oyd's inglés». El «1» ocupa el lugar de una «l», daño de OCR evidente, pero la forma canónica no está atestiguada en el corpus: «L1oyd» aparece 1 vez y «Lloyd» 0, así que la regla del §34 (normalizar sólo cuando el propio corpus atestigua la forma canónica) no la cubre y la guarda de vocabulario de correcciones_ocr_v1.py rechaza introducir una palabra ajena al corpus y a TERMINOS_FORANEOS. Se deja el texto intacto y se marca para cotejo con el PDF. En la misma fila sí se corrigió «Sanco» por «Banco» (§anterior), que sí tiene forma canónica atestiguada."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-05-08:1816:1",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "§61: «en el mes de abril, la inflación anual del IPC llegó a a,3%». El dígito de las unidades está dañado: donde va un número hay una «a». No se adivina. La serie sugiere 8,3% (la Reunión siguiente, 2008-06-10:1872:1, consigna para mayo «8,4% anual»), pero reconstruir una cifra por tendencia es justamente lo que esta marca existe para no hacer. Se deja el texto intacto y se marca para cotejo con el PDF."
     }
   ]
 }

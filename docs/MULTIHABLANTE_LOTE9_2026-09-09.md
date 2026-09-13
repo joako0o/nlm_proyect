@@ -421,6 +421,8 @@ Para leer una sesión entera al margen del plan:
 
 | 169–177 | 2010-04-15 | 91 | **sesión cerrada 91/91** · 11 actores · cola, 2b, 2c y los tres detectores de palabra partida en cero · el barrido independiente dio 15 referencias ajenas, 14 son el propio actor referido por cargo · la 15ª es el **padre 3062, un corte al revés**: la base partió en 3 y le atribuyó a Marfán 325 ch que son de Soto («sobre lo cual consultó el señor Vicepresidente **en la Reunión pasada**» es una relativa que remite a otra reunión; el verbo principal es «menciona», presente, sujeto Soto). **RESUELTO en §60** con el campo optativo `Fusiona_Intervencion_Revisada`: el padre pasa de 3 segmentos a 1, los 839 ch en Soto, y se publica la **entrega v11** (9.726 → 9.724, `Pasa: true`, 8 revisiones, la alerta sube a 485 porque la fila fusionada menciona a otro consejero y eso se deja visible) · en cambio sí se corrigió la familia `Claudia`→`Claudio` (30 casos, el discriminador es «señor/don» contra «doña/Gerenta») |
 
+| 178–186 | 2008-05-08 | 95 | **sesión cerrada 92/92** (3 ya estaban anotadas) · 11 actores · cola y 2c en cero, 2b 1 caso falso (`1819:1`, «indica el señor García» es sujeto pospuesto del propio actor) · el barrido independiente dio 18 referencias ajenas: 17 el propio actor por su cargo y la 18ª el padre 1808, leído completo —«**Asimismo, el señor Consejero** consulta…» es el propio Claro continuando— → **ningún corte** · las 9 filas de más de 2500 ch son monólogos · 4 residuos corregidos (dos con comilla recta **rodeada de espacios**, que el barrido del §58 no veía) y 1 cifra dañada marcada, no adivinada (§61) |
+
 Para anotar una ronda leída:
 
 ```
