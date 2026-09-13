@@ -58545,7 +58545,857 @@
       "Lectura": "COMPLETA",
       "Universo": "SESION_2012-07-12",
       "Justificacion": "Sesión 2012-07-12 (rondas 7-16, 89 filas, 13 actores, 100.036 caracteres). Leída completa contra una sola voz. Ninguna fila está en la cola de 74 y 2c dio cero. 2b dio dos casos y los dos son falsos: en 4910:1 el Vicepresidente Marfán aparece como objeto de una referencia a algo que él mismo dijo antes («el titular del diario The Financial Times a que se aludió por el Vicepresidente señor Manuel Marfán, estima que…», el que estima es Vial), y en 4946:1 como objeto de «el planteamiento expuesto por el Vicepresidente señor Manuel Marfán». El barrido independiente sobre los 13 actores dio 2 referencias ajenas, ambas falsas por el mismo motivo: en 4916:2 Vergara es objeto de «junto con compartir el planteamiento del Presidente» y Soto del traspaso de la palabra. Las 10 filas de más de 2500 caracteres son monólogos. Ninguna fila termina en coma ni sin puntuación. Ningún corte."
+    },
+    "RPM-2012-02-14:4573:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4573:1",
+      "ID_Padre": "4573",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1557,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4575:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4575:1",
+      "ID_Padre": "4575",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Caracteres": 4584,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4576:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4576:1",
+      "ID_Padre": "4576",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 156,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4577:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4577:1",
+      "ID_Padre": "4577",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Caracteres": 4933,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4578:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4578:1",
+      "ID_Padre": "4578",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 281,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4579:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4579:1",
+      "ID_Padre": "4579",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Caracteres": 873,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4580:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4580:1",
+      "ID_Padre": "4580",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 146,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4581:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4581:1",
+      "ID_Padre": "4581",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 280,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4582:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4582:1",
+      "ID_Padre": "4582",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Caracteres": 1220,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4583:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4583:1",
+      "ID_Padre": "4583",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4584:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4584:1",
+      "ID_Padre": "4584",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Caracteres": 3010,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4586:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4586:1",
+      "ID_Padre": "4586",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 933,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4587:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4587:1",
+      "ID_Padre": "4587",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 332,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4588:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4588:1",
+      "ID_Padre": "4588",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 1243,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4589:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4589:1",
+      "ID_Padre": "4589",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 545,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4589:2": {
+      "ID_Intervencion": "RPM-2012-02-14:4589:2",
+      "ID_Padre": "4589",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 1230,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4590:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4590:1",
+      "ID_Padre": "4590",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 2487,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4591:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4591:1",
+      "ID_Padre": "4591",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 751,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4592:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4592:1",
+      "ID_Padre": "4592",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 868,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4593:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4593:1",
+      "ID_Padre": "4593",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 141,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4594:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4594:1",
+      "ID_Padre": "4594",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 1149,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4594:2": {
+      "ID_Intervencion": "RPM-2012-02-14:4594:2",
+      "ID_Padre": "4594",
+      "Actor": "Miguel Ricaurte Bermúdez",
+      "Caracteres": 1567,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4595:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4595:1",
+      "ID_Padre": "4595",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 542,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4596:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4596:1",
+      "ID_Padre": "4596",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4597:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4597:1",
+      "ID_Padre": "4597",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2704,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4598:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4598:1",
+      "ID_Padre": "4598",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 108,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4599:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4599:1",
+      "ID_Padre": "4599",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 446,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4600:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4600:1",
+      "ID_Padre": "4600",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 90,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4601:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4601:1",
+      "ID_Padre": "4601",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 617,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4602:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4602:1",
+      "ID_Padre": "4602",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 118,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4603:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4603:1",
+      "ID_Padre": "4603",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 308,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4604:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4604:1",
+      "ID_Padre": "4604",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 780,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4605:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4605:1",
+      "ID_Padre": "4605",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 652,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4606:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4606:1",
+      "ID_Padre": "4606",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 427,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4607:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4607:1",
+      "ID_Padre": "4607",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 810,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4608:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4608:1",
+      "ID_Padre": "4608",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2752,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4609:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4609:1",
+      "ID_Padre": "4609",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 404,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4610:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4610:1",
+      "ID_Padre": "4610",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 276,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4611:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4611:1",
+      "ID_Padre": "4611",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 822,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4612:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4612:1",
+      "ID_Padre": "4612",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 266,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4613:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4613:1",
+      "ID_Padre": "4613",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 368,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4614:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4614:1",
+      "ID_Padre": "4614",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1231,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4615:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4615:1",
+      "ID_Padre": "4615",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 225,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4616:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4616:1",
+      "ID_Padre": "4616",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 629,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4617:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4617:1",
+      "ID_Padre": "4617",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 263,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4618:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4618:1",
+      "ID_Padre": "4618",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 523,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4619:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4619:1",
+      "ID_Padre": "4619",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 378,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4620:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4620:1",
+      "ID_Padre": "4620",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 792,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4621:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4621:1",
+      "ID_Padre": "4621",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 250,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4622:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4622:1",
+      "ID_Padre": "4622",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2630,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4623:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4623:1",
+      "ID_Padre": "4623",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 142,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4624:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4624:1",
+      "ID_Padre": "4624",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 3179,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4625:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4625:1",
+      "ID_Padre": "4625",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 210,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4626:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4626:1",
+      "ID_Padre": "4626",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 264,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4627:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4627:1",
+      "ID_Padre": "4627",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 169,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4628:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4628:1",
+      "ID_Padre": "4628",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 950,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4629:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4629:1",
+      "ID_Padre": "4629",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 143,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4630:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4630:1",
+      "ID_Padre": "4630",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 500,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4631:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4631:1",
+      "ID_Padre": "4631",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 255,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4632:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4632:1",
+      "ID_Padre": "4632",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 1375,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4633:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4633:1",
+      "ID_Padre": "4633",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 380,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4634:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4634:1",
+      "ID_Padre": "4634",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2171,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4634:2": {
+      "ID_Intervencion": "RPM-2012-02-14:4634:2",
+      "ID_Padre": "4634",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 188,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4634:3": {
+      "ID_Intervencion": "RPM-2012-02-14:4634:3",
+      "ID_Padre": "4634",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 2098,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4635:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4635:1",
+      "ID_Padre": "4635",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 185,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4636:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4636:1",
+      "ID_Padre": "4636",
+      "Actor": "Beltrán de Ramón Acevedo",
+      "Caracteres": 342,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4637:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4637:1",
+      "ID_Padre": "4637",
+      "Actor": "Claudio Soto Gamboa",
+      "Caracteres": 566,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4638:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4638:1",
+      "ID_Padre": "4638",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 394,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4638:2": {
+      "ID_Intervencion": "RPM-2012-02-14:4638:2",
+      "ID_Padre": "4638",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 145,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4638:3": {
+      "ID_Intervencion": "RPM-2012-02-14:4638:3",
+      "ID_Padre": "4638",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 143,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4640:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4640:1",
+      "ID_Padre": "4640",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 210,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4641:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4641:1",
+      "ID_Padre": "4641",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 250,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4642:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4642:1",
+      "ID_Padre": "4642",
+      "Actor": "Luis Óscar Herrera Barriga",
+      "Caracteres": 9151,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4643:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4643:1",
+      "ID_Padre": "4643",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 156,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4644:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4644:1",
+      "ID_Padre": "4644",
+      "Actor": "Kevin Cowan Logan",
+      "Caracteres": 4898,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4645:2": {
+      "ID_Intervencion": "RPM-2012-02-14:4645:2",
+      "ID_Padre": "4645",
+      "Actor": "Felipe Larraín Bascuñán",
+      "Caracteres": 7772,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4646:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4646:1",
+      "ID_Padre": "4646",
+      "Actor": "Joaquín Vial Ruiz-Tagle",
+      "Caracteres": 2528,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4647:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4647:1",
+      "ID_Padre": "4647",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 167,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4648:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4648:1",
+      "ID_Padre": "4648",
+      "Actor": "Sebastián Claro Edwards",
+      "Caracteres": 6040,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4649:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4649:1",
+      "ID_Padre": "4649",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 168,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4650:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4650:1",
+      "ID_Padre": "4650",
+      "Actor": "Enrique Marshall Rivera",
+      "Caracteres": 5888,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4651:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4651:1",
+      "ID_Padre": "4651",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 157,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4652:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4652:1",
+      "ID_Padre": "4652",
+      "Actor": "Manuel Marfán Lewis",
+      "Caracteres": 2764,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4653:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4653:1",
+      "ID_Padre": "4653",
+      "Actor": "Rodrigo Vergara Montes",
+      "Caracteres": 5117,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
+    },
+    "RPM-2012-02-14:4654:1": {
+      "ID_Intervencion": "RPM-2012-02-14:4654:1",
+      "ID_Padre": "4654",
+      "Actor": "Consejo del Banco Central de Chile",
+      "Caracteres": 1954,
+      "Hallazgo": "UNA_VOZ",
+      "Lectura": "COMPLETA",
+      "Universo": "SESION_2012-02-14",
+      "Justificacion": "Sesión 2012-02-14 (rondas 7-16, 90 filas, 12 actores, 111.619 caracteres). Leída completa contra una sola voz. La cola tenía un caso, el padre 4574, que es la apertura de la Reunión 182 a cargo del Presidente Vergara y es un solo hablante: da la bienvenida al nuevo Consejero Joaquín Vial, menciona que el Consejo renovó la designación de Manuel Marfán como Vicepresidente, deja constancia de que el Ministro Larraín le informó que solo asistirá a la segunda parte, y da paso a la presentación de Miguel Ricaurte. Bienvenida, mención, objeto de un verbo y traspaso de la palabra: nada de eso es una intervención efectiva. 2b dio tres casos y los tres son falsos: en 4579:1 y 4632:1 el Presidente Vergara es el objeto de «respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que hablan son Ricaurte y Soto; en 4577:1 «el Gerente de Análisis Internacional Subrogante» es el propio Ricaurte por cargo. El barrido independiente sobre los 12 actores dio 3 referencias ajenas, las tres ya descritas. Las 15 filas de más de 2500 caracteres son monólogos. Los signos están limpios. Ningún corte."
     }
   },
-  "Total_Leidas": 5507
+  "Total_Leidas": 5592
 }

@@ -4287,3 +4287,62 @@ marcado. Suite local **61 OK**.
 
 Registro: **1.773 filas / 3.047 operaciones / 212 revisiones / 232 filas marcadas**.
 Lecturas **5.507 de 9.724**, 68 de 132 sesiones.
+
+## §68 — Sesión 2012-02-14: la apertura de una Reunión es un solo hablante
+
+Noventa filas, doce actores, 111.619 caracteres. **Ningún corte.**
+
+El único caso de la cola, el padre **4574**, es la apertura de la Reunión 182 y es **un solo
+hablante**, el Presidente Vergara. La fila nombra a cuatro personas y ninguna interviene:
+
+| tramo | quién aparece | por qué no es intervención |
+|---|---|---|
+| «da la bienvenida al señor Joaquín Vial Ruiz-Tagle, en su carácter de nuevo Consejero» | Vial | **bienvenida** |
+| «el Consejo … acordó renovar la designación del señor Manuel Marfán Lewis en el cargo de Vicepresidente» | Marfán | **mención** de un acuerdo |
+| «deja constancia que el Ministro de Hacienda señor Felipe Larraín **le informó** que solo asistirá al análisis» | Larraín | **objeto** de «informó»; Larraín no habla |
+| «da paso a la presentación del escenario externo, a cargo del … señor Miguel Ricaurte» | Ricaurte | **traspaso de la palabra** |
+
+Es el caso más completo hasta ahora de los cuatro distractores que la regla ya cubre —mención,
+bienvenida, traspaso, y ahora también «alguien le informó algo al que habla». Que el detector
+permisivo propusiera a Larraín como segunda voz es exactamente el falso positivo que la regla
+anticipa.
+
+2b dio tres casos y los tres son falsos: en `4579:1` y `4632:1` el Presidente Vergara es el objeto de
+«respondiendo la consulta específica formulada por» y «respondiendo una consulta del», y los que
+hablan son Ricaurte y Soto; en `4577:1` «el Gerente de Análisis Internacional Subrogante» es el
+propio Ricaurte por cargo. Las 15 filas de más de 2.500 caracteres son monólogos y los signos están
+limpios.
+
+### Dos correcciones
+
+**`4574:1`**: «**En tercer, lugar,** indica que…» — coma intrusa dentro de la locución. La misma fila
+usa bien las dos anteriores («En primer término», «En segundo lugar») y en el corpus «En tercer
+lugar» aparece 80 veces sin coma interna. Es el único caso.
+
+**`4575:1`**: «a pesar **de la rebajas** de calificación de riesgo comentadas» — falta la «s» del
+artículo. El sustantivo va en plural y tres oraciones antes la misma fila dice «continuaron **las
+rebajas** de clasificación de riesgo». Es el único caso del corpus de «de la» seguido de plural.
+
+### Un apellido que no se tocó
+
+`4573:1`, lista de asistentes: «Gerente de Mercados Nacionales Subrogante, **doña Claudia Sotz
+Pantoja**». El apellido «Sotz» aparece una sola vez en las 9.724 filas y **no hay forma canónica
+atestiguada que lo supere**: el corpus tiene «Claudia Varela» (2 veces, otra persona) y ninguna
+«Claudia Soto». Podría ser «Soto» dañado, pero «o» por «z» no es una confusión que el OCR haga en
+ninguna otra parte del registro, y normalizar sin forma atestiguada es justo lo que las reglas de
+nombres prohíben (§34, §58). Marca 27.
+
+### Una variante que se dejó
+
+`trasferencia` (2) frente a `transferencia` (10) y `transferencias` (22). Las dos grafías son
+aceptadas y la diferencia de frecuencia no convierte a la minoritaria en error —el mismo criterio
+que dejó `periodo` junto a `período`. No se tocó.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · «En tercer, lugar» **0** y «En tercer lugar» **80** ·
+«de la rebajas» **0** y «de las rebajas» **3** · «Sotz» **1**, intacto y marcado. Suite local
+**61 OK**.
+
+Registro: **1.775 filas / 3.049 operaciones / 212 revisiones / 233 filas marcadas**.
+Lecturas **5.592 de 9.724**, 69 de 132 sesiones.

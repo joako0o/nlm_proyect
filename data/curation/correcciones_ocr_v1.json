@@ -34495,6 +34495,32 @@
           "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-02-14:4574:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "wis en el cargo de Vicepresidente del Banco. En tercer, lugar, indica que, de conformidad con el Reglamento",
+          "Despues": "wis en el cargo de Vicepresidente del Banco. En tercer lugar, indica que, de conformidad con el Reglamento",
+          "Ocurrencias": 1,
+          "Contexto": "brada en el día de hoy, acordó renovar la designación del señor Manuel Marfán Lewis en el cargo de Vicepresidente del Banco. En tercer, lugar, indica que, de conformidad con el Reglamento que rige estas Sesiones, fija la Reunión de Política Monetaria correspondiente ",
+          "Justificacion": "Coma intrusa dentro de la locución «En tercer lugar». La propia fila usa bien las dos anteriores: «En primer término» y «En segundo lugar» —y en el corpus la locución aparece sin coma interna. Es el único caso. Al quitarla queda «En tercer lugar, indica que…», con la coma donde corresponde."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2012-02-14:4575:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "e con su presentación, indicando que a pesar de la rebajas de calificación de riesgo comentadas y de la",
+          "Despues": "e con su presentación, indicando que a pesar de las rebajas de calificación de riesgo comentadas y de la",
+          "Ocurrencias": 1,
+          "Contexto": " de bonos de gobierno en 10 trillones de yenes. El señor Miguel Ricaurte prosigue con su presentación, indicando que a pesar de la rebajas de calificación de riesgo comentadas y de la incertidumbre por el rescate de Grecia, los CDS soberanos mostraron una importa",
+          "Justificacion": "Falta la «s» del artículo: «a pesar de la rebajas de calificación de riesgo comentadas». El sustantivo va en plural («las rebajas … comentadas») y de hecho tres oraciones antes la misma fila dice «continuaron las rebajas de clasificación de riesgo». Es el único caso del corpus de «de la» seguido de plural."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -35902,6 +35928,11 @@
       "ID_Intervencion": "RPM-2012-07-12:4909:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "§67: «una hipótesis no descartable es que en Chile cuesta cambiarse de saddle pad, ya que a diferencia de otros países donde se observa una cierta convergencia hacia un equilibrio, la experiencia local indica que los ajustes son bastante bruscos». La expresión «saddle pad» no aparece en ninguna otra parte del corpus («saddle» 1 vez, «pad» 1 vez) y no tiene sentido en el contexto: la frase habla de convergencia hacia un equilibrio y de ajustes bruscos, que es el vocabulario de un punto de silla (saddle point), pero reconstruir «pad» como «point» sería adivinar y además la guarda de términos foráneos del registro lo rechazaría. Se deja el texto intacto para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-02-14:4573:1",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Motivo": "§68: «Gerente de Mercados Nacionales Subrogante, doña Claudia Sotz Pantoja». El apellido «Sotz» aparece una sola vez en las 9.724 filas y no hay forma canónica atestiguada que lo supere: el corpus tiene «Claudia Varela» (2 veces, otra persona) y ninguna «Claudia Soto». Podría ser «Soto» dañado, pero «o» por «z» no es una confusión que el OCR haga en ninguna otra parte del registro, y normalizar sin forma atestiguada es justo lo que las reglas de nombres prohíben (§34, §58). Se deja el nombre intacto para el cotejo con el PDF."
     }
   ]
 }
