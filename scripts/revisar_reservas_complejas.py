@@ -119,11 +119,14 @@ def exports(rows,pkg):
     decisions=[dict(Izquierda=l,Derecha=e['Derecha'],Estado=e['Estado'],Estado_Anterior=e['Estado_Anterior'],
                     Aplicado='NO',Justificacion=e['Justificacion'],Siguiente_Accion=e['Siguiente_Accion']) for l,e in pkg['Casos'].items()]
     blockers=[r for r in decisions if r['Estado'].startswith('RESERVA_')]
-    summary=dict(Pares_Inventariados=len(result),Estados=dict(collections.Counter(r['Estado_Revision_Dirigida'] for r in result)),
+    estados=collections.Counter(r['Estado_Revision_Dirigida'] for r in result)
+    sin=estados['SIN_ADJUDICACION_EN_ESTE_INVENTARIO']
+    summary=dict(Pares_Inventariados=len(result),Estados=dict(estados),
                  Pares_Releidos=5,Padres_Completos=len(pkg['Padres']),Caracteres_Origen=sum(len(e['Texto_Padre']) for e in pkg['Padres'].values()),
                  Propuestas_No_Aplicadas=2,Reservas=3,Enlaces_Aplicados=0,Cortes_Aplicados=0,Alertas_Cerradas=0,
                  Filas=len(rows),Grupos=len({r['ID_Turno'] for r in rows}),Filas_Alertadas=sum(bool(r['Motivos_Revision']) for r in rows),
-                 Nota='Las53 filas sin adjudicación en este inventario no son53 errores ni53 casos nunca leídos. No estima cobertura semántica del corpus.')
+                 Nota=(f'Las {sin} filas sin adjudicación en este inventario no son {sin} errores ni {sin} casos '
+                       'nunca leídos. No estima cobertura semántica del corpus.'))
     return result,decisions,blockers,summary
 
 

@@ -1,0 +1,48 @@
+{
+  "Version": 1,
+  "Fecha": "2026-09-10",
+  "Politica": {
+    "Texto_Verbatim": "INTACTO",
+    "Columna_Nueva": "Texto_Corregido",
+    "Reglas_Automaticas": false,
+    "Residuos_Fuente": "ELIMINAR",
+    "Nota": "Cada correccion esta curada a mano sobre una fila leida completa. Una entrada exige Contexto y Justificacion. El validador exige que 'Antes' aparezca en el texto verbatim exactamente las veces declaradas; si no aparece, la corrida falla en vez de adivinar. Revisiones_Sin_Correccion guarda lo que se miro y se descarto, con el motivo: es la prueba de que no se paso una regla ciega.",
+    "Columna_Cotejo": "Cotejar_PDF",
+    "Nota_Cotejo": "Lo que el texto no alcanza a resolver queda marcado en Cotejar_PDF con vocabulario controlado, en vez de adivinarse o de perderse. NOMBRE_PROPIO_POR_COTEJAR, CARGO_EN_DISCURSO_POR_COTEJAR, CIFRA_INCONSISTENTE_POR_COTEJAR, RECONSTRUCCION_AMBIGUA_POR_COTEJAR, SIGNO_AUSENTE_POR_COTEJAR, RESERVA_ABIERTA_POR_COTEJO. La alerta TEXTO_DANADO_POR_COTEJAR del motor se arrastra sola. NO_REQUIERE_COTEJO se registra pero no genera marca: deja constancia de que el caso se resolvió."
+  },
+  "Correcciones": [],
+  "Revisiones_Sin_Correccion": [],
+  "Marcas_Adicionales": [
+    {
+      "ID_Intervencion": "RPM-2006-07-13:780:2",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 780 abierta: RESERVA_COTEJO_INICIO. Hay que localizar en el acta RPM95 del 13-07-2006 la transición entre el voto de De Gregorio y el inicio de Corbo."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-07-13:780:3",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 780 abierta: mismo cotejo que 780:2."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2661:6",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 2661 abierta: RESERVA_CONFIRMACION_NARRADA. La confirmación de Lehmann está narrada sin palabras ni modalidad; sólo el acta puede decir si hubo voz, pausa o gesto."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-08-13:2661:7",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 2661 abierta: mismo cotejo que 2661:6."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5252:3",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 5252 abierta: RESERVA_LIMITE_ACTA_PERSONA. La frontera entre la voz narrativa del acta y el aviso de Marfán no se resuelve sin la fuente."
+    },
+    {
+      "ID_Intervencion": "RPM-2012-12-13:5252:4",
+      "Marca": "RESERVA_ABIERTA_POR_COTEJO",
+      "Motivo": "Reserva 5252 abierta: mismo cotejo que 5252:3."
+    }
+  ],
+  "Fragmento": "A"
+}

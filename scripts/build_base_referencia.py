@@ -13,12 +13,37 @@ from turns import TurnDetector, normalize as normalize_turn
 from review_flags import review_reasons
 from context_warnings import load_context_warnings, contextual_motives
 from institutional_reviews import load_institutional_reviews, institutional_parts, institutional_type, is_movement, MOVEMENT_NOTE, NOTE as INSTITUTIONAL_NOTE
-from curation import load_role_reviews, load_speaker_reviews, speaker_intervals, SPEAKER_REVIEW_SOURCE
+from curation import (load_role_reviews, load_speaker_reviews, speaker_intervals,
+                      SPEAKER_REVIEW_SOURCE, SPEAKER_REVIEWS)
+
+# Las revisiones de hablante nuevas viven en un archivo aparte. El registro
+# histórico (revisiones_hablantes.json) está fijado por hash en veinte paquetes de
+# procedencia; agregarle entradas los invalida en cascada y obliga a reescribir
+# actas de lotes anteriores. Un archivo adicional deja esas procedencias intactas.
+SPEAKER_REVIEWS_EXTRA = SPEAKER_REVIEWS.parent / 'revisiones_hablantes_lote10.json'
+
+
+def revisiones_hablantes_completas(raw_by_id):
+    """Une el registro histórico con el lote adicional, sin solapar padres."""
+    base = load_speaker_reviews(raw_by_id)
+    if not SPEAKER_REVIEWS_EXTRA.is_file():
+        return base
+    extra = load_speaker_reviews(raw_by_id, SPEAKER_REVIEWS_EXTRA)
+    solapados = sorted(set(base) & set(extra))
+    if solapados:
+        raise ValueError('Revisiones de hablante del lote adicional solapadas con el '
+                         'registro histórico: %s' % solapados)
+    repetidos = {e['Revision_ID'] for e in base.values()}
+    choque = sorted({e['Revision_ID'] for e in extra.values()} & repetidos)
+    if choque:
+        raise ValueError('Revision_ID repetido entre registro y lote adicional: %s' % choque)
+    return {**base, **extra}
 from document_reviews import (load_document_reviews, document_parts, AUTHOR_SOURCE, READER_SOURCE,
                               ROLE_SOURCE as DOCUMENT_ROLE_SOURCE, DOCUMENT_TYPE)
 from reviewed_continuity import load_reviewed_links
 from intrapara_profiles import load_intrapara_links
 from functional_refinements import active_refinements, refine_segments, refined_institutions
+from functional_refinements_v5 import active_refinements as active_refinements_v5
 from reviewed_procedural_v5 import active_reviews as active_procedural, apply_reviews as apply_procedural
 import os
 from continuity import continuation_start, annotate_turns, update_state, EXPLICIT, CONTINUED, boundary
@@ -1113,7 +1138,8 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
             institutional = False
         local_review = reviews_by_start.get(a)
         if local_review:
-            if candidate and candidate["actor"] != local_review["Actor"]:
+            if (candidate and candidate["actor"] != local_review["Actor"]
+                    and not local_review.get("Fusiona_Intervencion_Revisada")):
                 raise ValueError("Revisión contradice sujeto explícito")
             who, source = local_review["Actor"], SPEAKER_REVIEW_SOURCE
         elif institutional:
@@ -1126,7 +1152,9 @@ def segment_turns(text, date, initial_actor, state=None, review=None, document=N
                 source = 'ANAFORA_CONTINUIDAD'
         else:
             continue
-        if (who != actor or a in explicit_review_ends or local_review or timed_personal) and a > start:
+        fusiona = bool(local_review and local_review.get('Fusiona_Intervencion_Revisada'))
+        if (who != actor or a in explicit_review_ends
+                or (local_review and not fusiona) or timed_personal) and a > start:
             segments.append((text[start:a].strip(), actor, method))
             start, method = a, None
         actor = who
@@ -1176,12 +1204,60 @@ def cat(kw):
     if any(norm(x) in k for x in ['discusión','debate','deliberación','comentarios','traspaso','preguntas','ronda']): return 'debate'
     return 'otros'
 
+# El ID de la base es un contador posicional (_rid, ver el bucle de segmentación): cualquier
+# fila nueva lo corre para todas las siguientes. Las lecturas procedimentales v5 lo traen
+# clavado, de modo que un corte curado legítimo —aunque no toque esas filas— las invalida.
+# Se refresca en memoria ese único campo posicional. El archivo de lecturas y el comparador
+# están pineados por los manifiestos v6/v7 y no se tocan; y el resto del contenido tiene que
+# seguir coincidiendo exactamente, así que la prueba conserva toda su fuerza: si una lectura
+# difiere en cualquier otro campo, sigue fallando igual que antes.
+IGNORADOS_LECTURA = frozenset({'ID_Turno', 'Relacion_Turno', 'ID_Antecedente_Continuidad'})
+POSICIONALES_LECTURA = frozenset({'ID'})
+
+
+def _misma_fila_ignorando_posicion(actual, lectura):
+    foto = {k: (str(v)[:10] if k == 'Fecha' else v) for k, v in actual.items()}
+    for k, v in lectura.items():
+        if k in IGNORADOS_LECTURA or k in POSICIONALES_LECTURA:
+            continue
+        av = foto.get(k) if foto.get(k) is not None else ''
+        lv = v if v is not None else ''
+        if av != lv:
+            return False
+    return True
+
+
+def refrescar_ids_de_lectura(rows, reviews):
+    """Pone al día el ID posicional de las lecturas cargadas. Devuelve cuántos cambió."""
+    if not reviews:
+        return 0
+    por_id = {r['ID_Intervencion']: r for r in rows}
+    cambiados = 0
+    for entrada in reviews.values():
+        for lado in ('Izquierda', 'Derecha'):
+            for lectura in entrada['Grupos_Leidos'][lado]:
+                actual = por_id.get(lectura.get('ID_Intervencion'))
+                if actual is None or not _misma_fila_ignorando_posicion(actual, lectura):
+                    continue
+                if str(lectura.get('ID')) != str(actual.get('ID')):
+                    print('ID posicional de lectura actualizado: %s %s -> %s'
+                          % (lectura.get('ID_Intervencion'), lectura.get('ID'), actual.get('ID')))
+                    lectura['ID'] = actual['ID']
+                    cambiados += 1
+    return cambiados
+
+
 def main():
     FULL_TEXTS = load_full_texts()
     reviewed_roles = load_role_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
-    reviewed_speakers = load_speaker_reviews({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
+    reviewed_speakers = revisiones_hablantes_completas({int(r[0]): {"Fecha":to_date_str(r[1]),"Texto":str(r[5])} for r in data})
     reviewed_institutions = load_institutional_reviews({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
     functional = active_refinements({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    # v5 extiende el mismo criterio a 29 padres más; los conjuntos no se superponen.
+    functional_v5 = active_refinements_v5({int(r[0]): {'Fecha':to_date_str(r[1]),'Texto':str(r[5])} for r in data})
+    if set(functional) & set(functional_v5):
+        raise ValueError('Un padre no puede recibir dos refinamientos funcionales')
+    functional_all = {**functional, **functional_v5}
     typed_institutions = refined_institutions(reviewed_institutions, functional)
     DATA_PROC.mkdir(parents=True, exist_ok=True)
     # ---- process ----
@@ -1207,7 +1283,7 @@ def main():
             raise ValueError(f'Texto truncado sin recuperación: {parent_id}')
         state = session_states.setdefault(date, {'date': date})
         seg_texts=segment_turns(text,date,actor_orig,state,reviewed_speakers.get(parent_id),reviewed_documents.get(parent_id),reviewed_institutions.get(parent_id))
-        seg_texts=refine_segments(parent_id, seg_texts, functional)
+        seg_texts=refine_segments(parent_id, seg_texts, functional_all)
         _seg_per_parent[parent_id]+=len(seg_texts)
         block_number=0
         for segment_number, (text, segment_actor, segment_method) in enumerate(seg_texts, 1):
@@ -1383,7 +1459,9 @@ def main():
     intra_path = os.environ.get("NLM_INTRAPARA_REVIEWS")
     annotate_turns(context_rows, load_reviewed_links(continuity_raw),
                    load_intrapara_links(continuity_raw, intra_path) if intra_path else None)
-    apply_procedural(context_rows, active_procedural(continuity_raw))
+    procedural_reviews = active_procedural(continuity_raw)
+    refrescar_ids_de_lectura(context_rows, procedural_reviews)
+    apply_procedural(context_rows, procedural_reviews)
     continuity_fields = ['ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor']
     for j,key in enumerate(continuity_fields,len(context_header)+1):
         ows.cell(1,j,key)

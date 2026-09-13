@@ -1,0 +1,32 @@
+{
+  "Perfil": "procedimental-v8",
+  "Baseline": "procedimental-v7",
+  "Pasa": true,
+  "Filas_Antes": 9723,
+  "Filas_Despues": 9724,
+  "Filas_Nuevas": [
+    "RPM-2008-08-14:1995:2"
+  ],
+  "Padres_Resegmentados": [
+    657,
+    1564,
+    1995,
+    2960
+  ],
+  "Cortes": 4,
+  "IDs_Corridos": 6962,
+  "Grupos_Antes": 9234,
+  "Grupos_Despues": 9235,
+  "Comparacion": "Todas las filas, todos los campos y todos los miembros de cada grupo; la única diferencia autorizada es la resegmentación de cuatro padres",
+  "Alertas_Antes": 484,
+  "Alertas_Despues": 484,
+  "Filas_Alertadas_Antes": 484,
+  "Reservas_Abiertas": {
+    "780": 4,
+    "2661": 12,
+    "5252": 4
+  },
+  "SHA256_Baseline": "d0b64842cd756df4c50d2960d9bbf01c4c45e5df28609d7b612c5d666593da75",
+  "SHA256_Registro": "260fa72636c1d60df1e6f6adf9b3d527801a9f85c1f48026d49637f3322de378",
+  "SHA256_Candidato": "9366fe7fc5ac4959d6634173bf9b4e3d36f8558c3974ab7114fbc3338e34eb3a"
+}

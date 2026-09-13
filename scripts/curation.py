@@ -92,6 +92,22 @@ def load_speaker_reviews(raw_by_id, path=SPEAKER_REVIEWS):
             raise ValueError('Ancla posterior revisada sin cita/límite válido')
         if not entry['Actor'] or not entry['Justificacion'] or not entry['Evidencia']:
             raise ValueError('Revisión de hablante sin evidencia')
+        # Excepción explícita y optativa para los CORTES AL REVÉS: la base partió
+        # donde NO cambia el hablante, porque el detector leyó como sujeto un
+        # nombre que en realidad va dentro de una subordinada. Hace dos cosas,
+        # las dos necesarias y las dos apagadas por defecto:
+        #   1. levanta la guarda «Revisión contradice sujeto explícito» para esta
+        #      entrada, sin la cual el constructor aborta;
+        #   2. no fuerza un límite de segmento en el inicio revisado, sin lo cual
+        #      la intervención queda partida en dos filas del mismo actor.
+        # Como es optativo, las siete revisiones ya aplicadas no cambian de
+        # comportamiento y ninguna construcción anterior se altera.
+        if 'Fusiona_Intervencion_Revisada' in entry:
+            if entry['Fusiona_Intervencion_Revisada'] is not True:
+                raise ValueError('Fusiona_Intervencion_Revisada debe ser true o no estar')
+            motivo = entry.get('Motivo_Sujeto_Explicito') or ''
+            if len(motivo.strip()) < 40:
+                raise ValueError('Fusiona_Intervencion_Revisada sin Motivo_Sujeto_Explicito explicado')
         for ev in entry['Evidencia']:
             row = raw_by_id.get(ev['ID_Padre'])
             if not row or str(row['Fecha'])[:10] != entry['Fecha']:
@@ -139,6 +155,19 @@ def validate_speaker_reviews(rows, reviews):
     for rid, root in reviews.items():
         for entry in speaker_intervals(root):
             group = [r for r in rows if r['ID_Padre']==rid]
+            if entry.get('Fusiona_Intervencion_Revisada'):
+                # Corte al revés: el intervalo no llega a ser un segmento propio sino
+                # que queda contenido en uno mayor que antes estaba partido, y ese
+                # segmento conserva el método del detector, no CONTEXTO_REVISADO. La
+                # comprobación pasa de «empieza con la cita» a «contiene el intervalo
+                # completo», que es lo que la fusión puede garantizar.
+                duenos = [i for i,r in enumerate(group)
+                          if r['Actor_Final']==entry['Actor']
+                          and compact(entry['_Texto_Intervalo']) in compact(r['Texto'])]
+                if len(duenos) != 1:
+                    errors.append(f'{entry["Revision_ID"]}: intervalo fusionado sin dueño único '
+                                  f'({len(duenos)} filas del padre lo contienen con ese actor)')
+                continue
             matches = [i for i,r in enumerate(group) if r['Fuente_Actor']==SPEAKER_REVIEW_SOURCE
                        and r['Actor_Final']==entry['Actor'] and compact(r['Texto']).startswith(compact(entry['Cita_Inicio']))]
             if len(matches) != 1:

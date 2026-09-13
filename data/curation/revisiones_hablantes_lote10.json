@@ -1,0 +1,192 @@
+[
+  {
+    "Revision_ID": "HAB-20260912-657-1",
+    "ID_Padre": 657,
+    "Fecha": "2006-05-11",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "14c6d54993a6c8bf8d01e4dc5b76f2b33dde16a3e988f39c3bf1d146476b9837",
+    "Inicio": 458,
+    "Fin": 4394,
+    "Cita_Inicio": "Respecto al crecimiento mundial, la situación de China",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente cierra su intervención cediendo la palabra («A continuación el señor Presidente ofrece la palabra a don Sergio Lehmann Beresi, para que inicie la exposición») y la oración siguiente abre la parte internacional sin sujeto explícito. El propio padre atribuye esa parte a Lehmann («el cual será presentado en la parte internacional, por el Gerente de Análisis Internacional, señor Sergio Lehmann B.») y el roster de la sesión lo confirma como único Gerente de Análisis Internacional. La fila v7 RPM-2006-05-11:657:1 atribuye todo a Corbo. No generalizar: la cesión nominal contigua y el asunto (crecimiento mundial) delimitan este corte.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 657,
+        "Cita": "A continuación el señor Presidente ofrece la palabra a don Sergio Lehmann Beresi, para que inicie la exposición."
+      },
+      {
+        "ID_Padre": 657,
+        "Cita": "el cual será presentado en la parte internacional, por el Gerente de Análisis Internacional, señor Sergio Lehmann B."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1564-2",
+    "ID_Padre": 1564,
+    "Fecha": "2007-11-13",
+    "Actor": "María Olivia Recart Herrera",
+    "SHA256_Texto_Padre": "1020bdb93e9250a4a10e83d51287e355fc1ae149885febc7f8ba37b17aa88264",
+    "Inicio": 163,
+    "Fin": 2230,
+    "Cita_Inicio": "Menciona la señora Ministra que va a destacar",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente agradece y cede la palabra a la Ministra de Hacienda Subrogante, doña María Olivia Recart Herrera; la oración siguiente ya tiene sujeto explícito pospuesto («Menciona la señora Ministra que va a destacar tres elementos centrales») y es el inicio de su exposición, no narración del Presidente. El roster de la sesión la registra como Ministro de Hacienda (S). La fila v7 RPM-2007-11-13:1564:1 atribuye todo a Corbo. El detector devuelve None porque «Ministra» sin nombre no resuelve por sesión.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1564,
+        "Cita": "ofrece la palabra a la señora Ministra de Hacienda Subrogante, doña María Olivia Recart Herrera"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1995-3",
+    "ID_Padre": 1995,
+    "Fecha": "2008-08-14",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "a9a694400bc4b5d475a709b7f740e2de3ec80be1c816f5193b8855162ff80410",
+    "Inicio": 740,
+    "Fin": 2791,
+    "Cita_Inicio": "Señala el señor Gerente que en Japón y Europa",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "Desormeaux habla hasta «...las tasas de desempleo altas ayudan mucho con las presiones inflacionarias.»; desde «Señala el señor Gerente que en Japón y Europa las tasas han tendido a caer» habla el Gerente de Análisis Internacional, a quien el propio padre acaba de referirse («es el mismo que ha presentado el Gerente de Análisis Internacional») y a quien la sesión nombra explícitamente. El contenido (tasas de Japón y Europa, paridades cambiarias, dólar) es la parte internacional. La fila v7 RPM-2008-08-14:1995:1 atribuye las 2.791 caracteres a Desormeaux. «El señor Gerente» es anáfora, no un cargo global: no propagar.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1995,
+        "Cita": "es el mismo que ha presentado el Gerente de Análisis Internacional"
+      },
+      {
+        "ID_Padre": 1980,
+        "Cita": "El Gerente de Análisis Internacional señor Sergio Lehmann informa que el crecimiento mundial se debilita, especialmente en Europa y Japón, donde la desaceleración ha sido más marcada que lo anticipado."
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-2960-4",
+    "ID_Padre": 2960,
+    "Fecha": "2010-02-11",
+    "Actor": "Kevin Cowan Logan",
+    "SHA256_Texto_Padre": "147a37503111c1cfb11c0187d6d60c4fee0636734bd8a2327ef0cd47ec458731",
+    "Inicio": 5729,
+    "Fin": 7785,
+    "Cita_Inicio": "El Gerente de División Política Financiera manifiesta creer",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente agradece y concede la palabra «al Gerente de División Política Financiera, señor Kevin Cowan»; la oración siguiente tiene ese cargo como sujeto explícito y abre la exposición de Cowan sobre la deuda soberana griega. El roster de la sesión registra a Kevin Cowan Logan en ese cargo. La fila v7 RPM-2010-02-11:2960:2 atribuye todo a De Gregorio.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 2960,
+        "Cita": "concede la palabra al Gerente de División Política Financiera, señor Kevin Cowan"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1706-5",
+    "ID_Padre": 1706,
+    "Fecha": "2008-03-13",
+    "Actor": "Igal Magendzo Weinberger",
+    "SHA256_Texto_Padre": "1de2586b7ad66f1a784b13cca97771645e8efa38443dc2e3b6f0ad10025abea6",
+    "Inicio": 313,
+    "Fin": 603,
+    "Cita_Inicio": "El señor Gerente responde afirmativamente en",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Justificacion": "El Presidente ofrece la palabra para comentarios sobre el escenario interno, consulta nominalmente al señor Magendzo («el Presidente consulta al señor Magendzo si habría que esperar que este aumento continúe más aceleradamente que hace un mes») y la oración siguiente ya no es de él: «El señor Gerente responde afirmativamente en atención a que dicho aumento no se está viendo como un adelanto de una situación que se pensó que iba a ocurrir, sino que se está observando que el efecto de la sequía ha sido mayor de lo que se esperaba y que además es persistente en el tiempo». Es una respuesta con contenido propio, no el resumen de una consulta: el hablante anterior pregunta y este responde. El roster de la sesión registra a Igal Magendzo Weinberger con 13 filas y el tratamiento «el señor Gerente» es el que el acta usa para él en toda la sesión. Encontrado por la red de «un tercero responde dentro de una fila de un solo hablante», no por la cola del lote10.",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1706,
+        "Cita": "el Presidente consulta al señor Magendzo si habría que esperar que este aumento continúe más aceleradamente que hace un mes."
+      },
+      {
+        "ID_Padre": 1706,
+        "Cita": "El señor Gerente responde afirmativamente en atención a que dicho aumento no se está viendo como un adelanto de una situación que se pensó que iba a ocurrir"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1924-6",
+    "ID_Padre": 1924,
+    "Fecha": "2008-07-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "3d3884137887c67db51bfffb53347cae9220b4c89a9213e30a2f57601e274c39",
+    "Inicio": 79,
+    "Fin": 404,
+    "Cita_Inicio": "El señor Gerente señala que no hay consenso respecto del largo plazo",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Justificacion": "El Ministro de Hacienda hace una consulta y la oración siguiente es la respuesta de otro: «El señor Ministro de Hacienda consulta a qué período se considera largo plazo. El señor Gerente señala que no hay consenso respecto del largo plazo». Es la firma 4 del censo del §49 —un tercero responde dentro de la fila—, la única que produjo un corte antes (padre 1706). La consulta y la respuesta no pueden ser del mismo hablante: nadie se consulta a sí mismo y se responde en tercera persona. El Gerente es Sergio Lehmann Beresi, que está exponiendo el escenario externo en este tramo de la sesión: su presentación abre en 1916, el Presidente le ofrece la palabra en 1915 y la retoma en 1923:3 («El Gerente de Análisis Internacional continúa su presentación»), y en 1925 el propio texto lo nombra («comenta el Gerente señor Sergio Lehmann»). El roster de la sesión le da 8 filas y el tratamiento «el señor Gerente» a secas es el que el acta usa para él de forma consistente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1924,
+        "Cita": "El señor Ministro de Hacienda consulta a qué período se considera largo plazo."
+      },
+      {
+        "ID_Padre": 1924,
+        "Cita": "El señor Gerente señala que no hay consenso respecto del largo plazo."
+      },
+      {
+        "ID_Padre": 1925,
+        "Cita": "comenta el Gerente señor Sergio Lehmann que el precio del cobre tendió a aumentar durante la semana"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1925-7",
+    "ID_Padre": 1925,
+    "Fecha": "2008-07-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "2ee1a69c54f7fd90705c8eb2c27436367be2edf8e6f0ddb2224d850c7141be9b",
+    "Inicio": 133,
+    "Fin": 2122,
+    "Cita_Inicio": "El señor Gerente comenta que esos son planteamientos de largo plazo",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Justificacion": "El Vicepresidente acota un dato y la oración siguiente ya no es suya: «El Vicepresidente señor Jorge Desormeaux acota que en el mercado futuro del petróleo, el plazo más largo que existe es a siete años. El señor Gerente comenta que esos son planteamientos de largo plazo que dan los propios bancos de inversiones». Es la misma firma 4 del padre 1924: una acotación y una réplica no son del mismo hablante. La atribución a Sergio Lehmann Beresi no es inferida sino explícita en la oración inmediatamente siguiente del mismo padre: «Por el lado del precio del cobre, comenta el Gerente señor Sergio Lehmann». El constructor ya partía este padre en tres, pero ponía la frontera en el offset 243 y dejaba la réplica del Gerente dentro del segmento del Vicepresidente; con la revisión la frontera pasa a 133 y las dos intervenciones contiguas de Lehmann se fusionan en un solo segmento, sin cambiar el número de filas.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1925,
+        "Cita": "El Vicepresidente señor Jorge Desormeaux acota que en el mercado futuro del petróleo, el plazo más largo que existe es a siete años."
+      },
+      {
+        "ID_Padre": 1925,
+        "Cita": "El señor Gerente comenta que esos son planteamientos de largo plazo que dan los propios bancos de inversiones."
+      },
+      {
+        "ID_Padre": 1925,
+        "Cita": "comenta el Gerente señor Sergio Lehmann que el precio del cobre tendió a aumentar durante la semana"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-3062-8",
+    "ID_Padre": 3062,
+    "Fecha": "2010-04-15",
+    "Actor": "Claudio Soto Gamboa",
+    "SHA256_Texto_Padre": "c2c79be12ccf06b9fca6e234376b3bd925a9d29cb00aa12499b0ee41f09a42f4",
+    "Inicio": 282,
+    "Fin": 608,
+    "Cita_Inicio": "Respecto de la dispersión de las tasas, sobre lo cual consultó el señor Vicepresidente",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Justificacion": "CORTE AL REVÉS: la base partía este padre en tres y le atribuía el tramo del medio a Manuel Marfán Lewis, que no lo dijo. La oración es «Respecto de la dispersión de las tasas, sobre lo cual consultó el señor Vicepresidente en la Reunión pasada, menciona que las medidas de dispersión se han mantenido más bien altas». El detector leyó «el señor Vicepresidente» más «consultó» y cortó ahí, pero «sobre lo cual consultó el señor Vicepresidente en la Reunión pasada» es una subordinada relativa que remite a una reunión ANTERIOR, y el verbo principal de la oración es «menciona», en presente, cuyo sujeto es el mismo narrador de las oraciones vecinas: la anterior dice «El señor Claudio Soto informa luego… Precisa que no es el caso de las tasas hipotecarias» y la siguiente «A continuación, el señor Claudio Soto indica que…». Las tres oraciones son de Soto y el padre fuente es un solo discurso de 839 caracteres. Esta entrada usa Fusiona_Intervencion_Revisada porque hace falta tanto levantar la guarda «Revisión contradice sujeto explícito» como no forzar un límite de segmento en el inicio revisado: sin lo segundo la intervención queda partida en dos filas del mismo actor.",
+    "Fusiona_Intervencion_Revisada": true,
+    "Motivo_Sujeto_Explicito": "El nombre que el detector toma por sujeto («el señor Vicepresidente») va dentro de una subordinada relativa con verbo en pretérito que remite a la Reunión pasada; el verbo principal de la oración es «menciona», en presente, y su sujeto es Claudio Soto, el narrador de las oraciones anterior y siguiente del mismo padre.",
+    "Evidencia": [
+      {
+        "ID_Padre": 3062,
+        "Cita": "El señor Claudio Soto informa luego que las tasas de colocación"
+      },
+      {
+        "ID_Padre": 3062,
+        "Cita": "sobre lo cual consultó el señor Vicepresidente en la Reunión pasada"
+      },
+      {
+        "ID_Padre": 3062,
+        "Cita": "A continuación, el señor Claudio Soto indica que los resultados de la Encuesta"
+      }
+    ]
+  }
+]

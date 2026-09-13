@@ -27,6 +27,7 @@ from reviewed_continuity import load_reviewed_links, validate_reviewed_links, RE
 from reviewed_intrapara_continuity import validate_intrapara_links, RELATION as INTRA_RELATION
 from intrapara_profiles import load_intrapara_links, profile_name
 from functional_refinements import active_refinements, refined_institutions, validate_refinements
+import functional_refinements_v5 as functional_v5
 from reviewed_procedural_v5 import (active_reviews as active_procedural, matching_review as matching_procedural,
                                     validate_reviews as validate_procedural, RELATION as PROCEDURAL_RELATION)
 import os
@@ -197,14 +198,26 @@ def main():
     institutions=load_institutional_reviews({r['ID']:r for r in raw})
     functional_path = os.environ.get('NLM_FUNCTIONAL_REVIEWS')
     functional = active_refinements({r['ID']:r for r in raw})
+    # v5 extiende el mismo criterio a 29 padres; se valida con su propio comparador.
+    refinements_v5 = functional_v5.active_refinements({r['ID']:r for r in raw})
+    perfil = os.environ.get('NLM_PERFIL_CONSTRUCCION')
+    if refinements_v5:
+        from compare_functional_v7 import compare as compare_v7, BASE as BASE_V6
+        compare_v7(read_rows(BASE_V6)[1],rows,refinements_v5)
     if procedural:
-        from compare_procedural_v5 import compare, BASE
-        compare(read_rows(BASE)[1],rows)
+        # v6 se compara contra la entrega v5; los perfiles históricos contra v4.
+        if perfil == 'procedimental-v6':
+            from compare_procedural_v6 import BASE as BASE_V5, verify
+            verify(read_rows(BASE_V5)[1], rows)
+        elif perfil != 'procedimental-v7':
+            from compare_procedural_v5 import compare, BASE
+            compare(read_rows(BASE)[1],rows)
     elif functional:
         from compare_functional_v4 import compare, BASE
         compare(read_rows(BASE)[1],rows,functional)
     errors.extend(validate_institutional_reviews(rows,refined_institutions(institutions,functional)))
     errors.extend(validate_refinements(rows,functional))
+    errors.extend(functional_v5.validate_refinements(rows,refinements_v5))
     context_alerts=load_context_warnings({r['ID']:r for r in raw})
     errors.extend(validate_context_warnings(rows,context_alerts))
     for (parent,actor),review in role_reviews.items():
@@ -254,8 +267,12 @@ def main():
     if procedural:
         report['continuidades_procedimentales_revisadas']=len(procedural)
     if functional:
-        report['refinamientos_funcionales']=len(functional)
-        report['continuidades_personales_funcionales']=len(functional)
+        # El resumen cuenta ambos refinamientos; v5 no puede quedar invisible.
+        report['refinamientos_funcionales']=len(functional)+len(refinements_v5)
+        report['continuidades_personales_funcionales']=len(functional)+len(refinements_v5)
+        if refinements_v5:
+            report['refinamientos_funcionales_v4']=len(functional)
+            report['refinamientos_funcionales_v5']=len(refinements_v5)
     (out/'qa_preparacion.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     fields=['ID','ID_Intervencion','ID_Padre','Fecha','Actor_Final','Rol_Final','Fuente_Actor','Fuente_Rol',
             'Motivos_Revision','ID_Turno','Relacion_Turno','ID_Antecedente_Continuidad','ID_Ancla_Actor',
@@ -312,8 +329,18 @@ def main():
     if functional_path:
         manifest['perfil_entrega'] = 'funcional-v4'
         manifest['pruebas_funcionales'] = {'archivo': str(Path(functional_path).resolve().relative_to(ROOT)), 'sha256': digest(Path(functional_path)), 'refinamientos': len(functional)}
+    if refinements_v5:
+        # Sin esto el manifiesto no registraba el registro que produjo 29 de los 32 cortes.
+        p5 = Path(os.environ['NLM_FUNCTIONAL_V5_REVIEWS'])
+        manifest['pruebas_funcionales_v5'] = {
+            'archivo': str(p5.resolve().relative_to(ROOT)), 'sha256': digest(p5),
+            'refinamientos': len(refinements_v5),
+            'lecturas': str(functional_v5.READINGS.relative_to(ROOT)),
+            'sha256_lecturas': digest(functional_v5.READINGS),
+            'base': str(functional_v5.BASE.relative_to(ROOT)),
+            'sha256_base': functional_v5.BASE_SHA}
     if procedural:
-        manifest['perfil_entrega'] = 'procedimental-v5'
+        manifest['perfil_entrega'] = os.environ.get('NLM_PERFIL_CONSTRUCCION') or 'procedimental-v5'
         pp=Path(os.environ['NLM_PROCEDURAL_REVIEWS'])
         manifest['pruebas_procedimentales'] = {'archivo':str(pp.resolve().relative_to(ROOT)), 'sha256':digest(pp), 'enlaces':len(procedural)}
     if intra_path:

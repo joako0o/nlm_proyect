@@ -96,14 +96,15 @@ def load_reviews(raw,path=PATH):
     return {(left,right):readings['Casos'][left] for left,right in PAIRS}
 
 
-def active_reviews(raw):
+def active_reviews(raw,intrapara_profile=None):
     path=os.environ.get('NLM_PROCEDURAL_REVIEWS')
     if not path:return {}
-    from intrapara_profiles import profile_name
+    from intrapara_profiles import profile_name, required_intrapara
     intra=os.environ.get('NLM_INTRAPARA_REVIEWS');functional=os.environ.get('NLM_FUNCTIONAL_REVIEWS')
-    if (not intra or profile_name(intra)!='intrapadre-v3'
+    intrapara_profile=required_intrapara(intrapara_profile)
+    if (not intra or profile_name(intra)!=intrapara_profile
             or not functional or file_sha(functional)!=FUNCTIONAL_SHA):
-        raise ValueError('procedimental-v5 requiere refinamiento v4 y pruebas intrapadre v3')
+        raise ValueError(f'procedimental requiere refinamiento v4 y pruebas {intrapara_profile}')
     return load_reviews(raw,path)
 
 
