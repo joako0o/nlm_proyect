@@ -107,8 +107,8 @@ COMILLAS_RECTAS_MAX = 3
 # palabras que ya estaban bien («presupuestaria» -> «presupuestaría»,
 # «exposiciones» -> «exposiciónes») y se eliminaron. Corregir un error propio no
 # puede medirse como pérdida.
-MIN_CORREGIDAS = 1818
-MIN_OPERACIONES = 3164
+MIN_CORREGIDAS = 1820
+MIN_OPERACIONES = 3166
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -116,10 +116,12 @@ MIN_OPERACIONES = 3164
 # pueden resolver sin modificar el Antes de una operación vecina, que es lo que
 # la ancla al texto virgen. El techo está aquí para que la familia no vuelva a
 # crecer y para que tocar el residuo sea visible.
-ESPACIO_ANTES_DE_SIGNO_MAX = 4
+ESPACIO_ANTES_DE_SIGNO_MAX = 3
 RESIDUO_ESPACIO_ANTES_DE_SIGNO = {
-    'RPM-2006-04-13:653:1', 'RPM-2009-02-12:2319:1',
-    'RPM-2010-12-16:3619:1', 'RPM-2015-08-13:6952:1',
+    # §81 saco de aqui a RPM-2006-04-13:653:1: su residuo («p re v ia m e n te ,»)
+    # estaba dentro de la palabra deletreada y se resolvio al corregirla. El techo
+    # baja de 4 a 3, como pide la prueba.
+    'RPM-2009-02-12:2319:1', 'RPM-2010-12-16:3619:1', 'RPM-2015-08-13:6952:1',
 }
 
 

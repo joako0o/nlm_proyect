@@ -35608,6 +35608,32 @@
           "Justificacion": "«un punto critico para el señor Consejero es que no se interprete» — falta la tilde del esdrújulo. El corpus tiene 11 «crítico» y 1 «critico» (éste)."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:638:2",
+      "Operaciones": [
+        {
+          "Tipo": "ACENTO_FALTANTE",
+          "Antes": ". Señala que la participación venia cayendo y que esta d",
+          "Despues": ". Señala que la participación venía cayendo y que esta d",
+          "Ocurrencias": 1,
+          "Contexto": "a que le llama la atención que tengan cambios tan bruscos de tendencia. Señala que la participación venia cayendo y que esta disminución se aceleró a fines del año pasado y repentinamente vuelve a",
+          "Justificacion": "«Señala que la participación venia cayendo y que esta disminución se aceleró a fines del año pasado» — falta la tilde del pretérito imperfecto; «venia» sin tilde es otra palabra (licencia o permiso), y aquí es el verbo. El corpus tiene 40 «venía»; los otros «venia» son el legítimo «con la venia del Consejo»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:653:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": ", como se ha discutido p re v ia m e n te , en un marco d",
+          "Despues": ", como se ha discutido previamente, en un marco d",
+          "Ocurrencias": 1,
+          "Contexto": "ndiciones externas y su eventual impacto en el gasto público y privado, como se ha discutido p re v ia m e n te , en un marco de condiciones financieras expansivas y de holguras decrecientes, confi",
+          "Justificacion": "«en el plano público y privado, como se ha discutido p re v ia m e n te , en un marco de condiciones financieras expansivas» — la palabra salió deletreada con espacios entre sílabas, y además quedó un espacio antes de la coma. El corpus tiene 115 «previamente»."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -37231,6 +37257,26 @@
       "ID_Intervencion": "RPM-2009-11-12:2801:1",
       "Marca": "NO_REQUIERE_COTEJO",
       "Motivo": "«Acuerdo: 146-01-091112-Tasa de Política Monetaria En su reunión mensual de política monetaria» — en §79 repuse aquí un punto apoyándome en un recuento que estaba sesgado: el regex que usé (-Tasa de Política Monetaria) sólo capturaba la variante del código con guion sin espacios. Medido bien, el encabezado de Acuerdo tiene dos variantes con convenciones distintas —guion con espacios: 17 con punto y 59 sin punto; guion sin espacios: 12 con punto y 6 sin punto—, o sea 29 con punto contra 65 sin punto en todo el corpus. La causa además no es el OCR sino la maquetación: en el PDF el encabezado es una línea de título y el cuerpo empieza en el párrafo siguiente, y al aplanar el salto de línea quedó un espacio. Reponer el punto sería inventar puntuación en un caso que no es inequívoco. Se revierte la operación y se deja constancia. §80."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:644:6",
+      "Marca": "CIFRA_INCONSISTENTE_POR_COTEJAR",
+      "Motivo": "«este shock de términos de intercambio se debe a un incremento de unos UScts 40 por libra de cobre y unos US$ 4 por barril del petróleo» — «UScts» aparece una sola vez en las 9.724 filas y «cts» no aparece ninguna, así que no es una abreviatura que el corpus use. Por magnitud tiene que ser 40 centavos de dólar por libra (el cobre estaba muy por debajo de un dólar el kilo en 2006), pero reconstruirlo exige elegir entre «US$ 0,40», «40 centavos de dólar» o «US¢ 40», y equivocarse aquí es un error de cien veces en una cifra. Se marca para cotejo contra el PDF en lugar de conjeturar. §81."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:639:3",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«Respecto a los salarios, señala el señor Magendzo que existe una El Gerente de Análisis Macroeconómico, señor Igal Magendzo indica que los CLU son solamente de empleo asalariado…» — la oración se corta en «que existe una» y enseguida vuelve a abrir con una atribución completa. NO es un cambio de hablante: la fila es entera de Igal Magendzo, que es el Gerente de Análisis Macroeconómico, y la segunda atribución es una repetición del propio redactor, no otra persona. Falta texto entre los dos tramos y no se puede reponer. Se marca para cotejo. §81."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:644:4",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«las pequeñas holguras que subsisten, más allá de vaivenes mensuales en las cifras de actividad, parecen estar copándose gradualmente, y la política monetaria es aún expansiva» — «copándose» aparece una sola vez en el corpus y no encaja: por el sujeto («las holguras») se esperaría algo como «cerrándose» o «acotándose», pero hay al menos dos reparaciones plausibles y ninguna está atestiguada en este contexto. Se marca en lugar de elegir. §81."
+    },
+    {
+      "ID_Intervencion": "RPM-2006-04-13:647:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«dada la incertidumbre remanente y el ruido externo, quizás se indinaría, sin cambiar la trayectoria de largo plazo, por una actitud este mes más de esperar y de ver» — «indinaría» no es palabra y la lectura es única: «inclinaría», por el régimen «inclinarse por algo» y el complemento «por una actitud… de esperar y de ver». Pero la compuerta de vocabulario del lado Despues la rechaza: el corpus atestigua el lema («inclina» 115, «inclinación» 20, «inclinado» 15, «inclinar» 6) y no la forma condicional, y el control no conjuga. Es el mismo punto ciego que «adquirida» en §78, ahora por tiempo verbal en vez de por género. No se fuerza la entrada ni se amplía TERMINOS_FORANEOS, que es para palabras extranjeras: se marca para cotejo. §81."
     }
   ]
 }

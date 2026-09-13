@@ -5185,3 +5185,90 @@ rectas sigue en **1**, el deliberado. Suite local **66 OK**.
 
 Registro: **1.818 filas / 3.164 operaciones / 238 revisiones / 244 filas marcadas / 38
 `Marcas_Adicionales`**. Lecturas **6.556 de 9.724**, 81 de 132 sesiones.
+
+---
+
+## §81 — `2006-04-13` (Sesión N° 91): cero cortes, y la compuerta de vocabulario muerde por segunda vez
+
+**78 filas · 66.996 caracteres · 13 actores.** Lectura completa de las 78.
+
+### Cero cortes
+
+**Los tres netos de la cola, por offset.** `644@6923` cae a **1 caracter** de la frontera ya existente
+hacia `644:7` (Marfán) — el padre tiene 12 segmentos. `647@1170` cae dentro del único segmento del padre
+(Velasco, 3.785 ch) y lo que dispara el neto es «**Recuerda que** el Gerente de División Estudios
+**señaló**…», retrospección en pasado. `653@3144` cae **35 caracteres antes** de la frontera correcta
+`653:1` Desormeaux / `653:2` De Gregorio.
+
+Ese último era el único tentador: `653:1` termina colgando en «Al respecto, indica que dado que el». Pero el
+«indica» remite a Desormeaux, que es el sujeto del párrafo, y en estas actas **cada turno nuevo abre con
+«El ⟨cargo⟩ señor ⟨nombre⟩ ⟨verbo⟩»** —`652:1`, `653:2`, `654:1` lo hacen—. Mover la frontera le metería a
+De Gregorio palabras de Desormeaux. El fragmento colgante es truncamiento de la fuente y ya lleva
+`FINAL_SIN_PUNTUACION`.
+
+**El falso corte de `639:3`.** La fila contiene dos atribuciones completas y parece un cambio de hablante:
+
+> «Respecto a los salarios, señala el señor Magendzo que existe una **El Gerente de Análisis Macroeconómico,
+> señor Igal Magendzo indica que** los CLU son solamente de empleo asalariado…»
+
+No lo es: la fila es **entera de Igal Magendzo**, que *es* el Gerente de Análisis Macroeconómico. La segunda
+atribución es una repetición del propio redactor. Lo que sí hay es texto perdido entre los dos tramos
+(«que existe una» no cierra), y eso va marcado, no corregido.
+
+**Barrido inverso propio** sobre las 78 filas: 17 candidatos, y los 17 son el cargo del propio actor
+(«El Gerente de Análisis Internacional» = Lehmann, «El señor Ministro de Hacienda» = Velasco, «El señor
+Gerente de División Estudios» = Valdés), «Se» impersonal («Se destaca además el riesgo…»), o pasado
+(«el ex Presidente señor Greenspan **señalaba**»).
+
+### Dos operaciones, una revertida
+
+- `638:2` «la participación **venia** cayendo» → `venía` (40 contra 3; los otros «venia» son el legítimo
+  «con la venia del Consejo»). `ACENTO_FALTANTE`.
+- `653:1` «como se ha discutido **p re v ia m e n te ,** en un marco» → `previamente,`. La palabra salió
+  deletreada con espacios entre sílabas y además quedó un espacio antes de la coma. `ESPACIO_INDEBIDO`;
+  115 «previamente» en el corpus.
+- `647:1` «quizás se **indinaría** por una actitud… de esperar y de ver» → `inclinaría`. **Revertida**: la
+  compuerta de vocabulario la rechaza.
+
+### La compuerta muerde por segunda vez, y ahora por tiempo verbal
+
+El corpus atestigua el **lema** con fuerza —«inclina» 115, «inclinación» 20, «inclinado» 15, «inclinar» 6—
+pero no la forma condicional, y el control no conjuga. En §78 el mismo punto ciego apareció por **género**
+(`adquirida` contra `adquirido`). No se fuerza la entrada ni se amplía `TERMINOS_FORANEOS`, que es para
+palabras extranjeras: se marca.
+
+Dos mordidas del mismo tipo ya son evidencia de que a la compuerta le falta reconocer lemas. Eso es un
+cambio de herramienta que se discute aparte, no algo que se contrabandea por la lista de términos foráneos.
+
+### Las cuatro marcas
+
+- `644:6` **`UScts 40`** → `CIFRA_INCONSISTENTE_POR_COTEJAR`. «cts» no aparece ninguna vez en el corpus. Por
+  magnitud tiene que ser 40 centavos de dólar por libra de cobre, pero reconstruirlo exige elegir entre
+  «US$ 0,40», «40 centavos» o «US¢ 40», y equivocarse aquí es **un error de cien veces** en una cifra.
+- `639:3` texto perdido entre los dos tramos → `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+- `644:4` «las holguras… parecen estar **copándose** gradualmente» → `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`.
+- `647:1` `indinaría` → `RECONSTRUCCION_AMBIGUA_POR_COTEJAR`, por la compuerta.
+
+### Deliberadamente conservado
+
+`UScts` y `copándose` y `guiaba` («él guiaba visiones de política económica distintas»: palabra real en una
+oración que se deja leer) · `S.E.` · `IPCX1` (medida real del Banco) · `1pp` y `0,3pp` (puntos porcentuales)
+· `éstos`, `cuánto`, `dónde` (interrogativos indirectos) · `Chairman` · «la parte que llaman **arte** de
+política».
+
+### El techo que bajó
+
+La prueba `test_el_espacio_antes_de_signo_se_quito` fija el **conjunto** de filas con residuo, no sólo el
+número, precisamente para que resolver una obligue a bajar el techo. Al corregir `653:1` su residuo
+desapareció, así que la fila sale del conjunto y `ESPACIO_ANTES_DE_SIGNO_MAX` baja de **4 a 3**.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 1.820 `Texto_Corregido` no vacíos idénticos a los IDs del registro ·
+247 marcadas · `p re v ia m e n te` **0** / `previamente` **116** · «participación **venía** cayendo» visible
+en el texto efectivo · `indinaría` y `UScts` siguen presentes **a propósito**, marcados · espacio antes de
+signo **3** (era 4) · familias de §73–§80 en **0** · residuo de comillas rectas sigue en **1**. Suite local
+**66 OK**.
+
+Registro: **1.820 filas / 3.166 operaciones / 238 revisiones / 247 filas marcadas / 42
+`Marcas_Adicionales`**. Lecturas **6.633 de 9.724**, 82 de 132 sesiones.
