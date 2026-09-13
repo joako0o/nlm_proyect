@@ -5272,3 +5272,89 @@ signo **3** (era 4) · familias de §73–§80 en **0** · residuo de comillas r
 
 Registro: **1.820 filas / 3.166 operaciones / 238 revisiones / 247 filas marcadas / 42
 `Marcas_Adicionales`**. Lecturas **6.633 de 9.724**, 82 de 132 sesiones.
+
+---
+
+## §82 — `2009-03-12` (Reunión N° 164): quince operaciones, y un ancla a media palabra que inhabilita su propio tramo
+
+**81 filas · 93.895 caracteres · 13 actores.** Lectura completa de las 81.
+
+### Cero cortes
+
+Los tres netos de la cola, por offset: `2392@0` es **frontera exacta** del segmento `2392:1` (Desormeaux,
+que es el Vicepresidente) en un padre ya dividido en 3. `2397@874` cae dentro del único segmento de Claro y
+lo que dispara el neto es «ese escenario de crecimiento mundial que **planteaba** el Gerente de Análisis
+Internacional», objeto en pasado. `2430@1874` cae dentro del único segmento de Beltrán de Ramón, que *es* el
+Gerente de División Operaciones Financieras, y «adicionales a las que ya **comentó** el Gerente de División
+Estudios» es retrospección.
+
+Las dos lecturas obligatorias de 2d son la misma fila, `2427:1`: De Gregorio **responde** (es el propio
+actor, criterio §78) y a continuación **traspasa** la palabra a Pablo García, que no llega a hablar ahí.
+
+**Barrido inverso propio**: 12 candidatos, los 12 cargo propio del actor, palabras capturadas como nombre
+(«Se estima», «Los agregados», «Otro indicador», «Además agrega») o «el Consejo estima» dentro de la cita de
+lo que dirá el Comunicado.
+
+### Quince operaciones en trece filas
+
+**Puntuación (7).** Cinco puntos omitidos antes de un nuevo sujeto (`2396:4`, `2400:1`, `2412:1`, `2428:1`,
+`2433:1`); un punto que cortaba una coordinación en curso («Fondo Monetario Internacional **y.** esa
+Institución»); y un separador decimal con punto donde la cifra gemela de la misma comparación lleva coma
+(«1,60% vs. **1.92%**»).
+
+**Residuos (4).** Las **dos únicas comillas rectas dobles** que quedaban en las 9.724 filas están en esta
+sesión y las dos son huérfanas —una de cierre sin apertura (`serrucho".`) y una de apertura sin cierre
+(`aplicando "mecánicamente`)—: borradas, la familia queda en **0**. Además `( i` en «la Reunión del mes de
+**( i** febrero», que abría un paréntesis que no cierra en toda la fila, y `r 4/`, resto de una llamada de
+nota al pie pegada entre dos oraciones.
+
+**Palabras y letras (4).** `sec ores`→`sectores` · `sene`→`serie` (misma familia que `senes` de §79) ·
+`Monetaha`→`Monetaria` · `dellMCE`→`del IMCE` (el corpus atestigua «IMCE» 84 veces).
+
+### Lo que no se corrigió, y por qué
+
+**`lí\/IACEC` (`2400:1`).** Ya estaba adjudicado: un test lo fija como el único caso ambiguo que conserva la
+secuencia `\/`, con candidatas IPCX1 o IPCSAE. Mi lectura era una tercera (IMACEC), lo que refuerza que es
+ambiguo. **No se toca.**
+
+**`dicho porcentajes` (`2393:2`) — la enmienda que hubo que revertir.** El defecto es cierto («dicho» es
+singular). Pero la «s» cae **dentro del rango** de una operación ya registrada, así que la regla §15 manda
+*extender* esa operación en vez de apilarle otra: dos tramos solapados sobre el mismo texto virgen no se
+pueden aplicar en ningún orden. Se extendió con `enmendar_operacion.py`… y la compuerta de vocabulario
+rechazó el resultado.
+
+La causa es nueva y vale la pena: el ancla existente es `orcentajes , aproximad`, que **empieza a media
+palabra**. Al extenderla, el lado `Despues` queda `orcentaje, aproximad`, y `orcentaje` no es una palabra
+del corpus sino un fragmento. Cambiar el `Antes` está fuera de lo que la herramienta permite por diseño —el
+`Antes` es lo que ata la operación al texto virgen—. Se revierte la enmienda y se marca.
+
+> **Lección: un ancla que arranca a media palabra deja ese tramo inhabilitado para cualquier arreglo
+> posterior que toque letras.** Las anclas deben empezar y terminar en frontera de palabra siempre que se
+> pueda.
+
+Es la **tercera** mordida de la compuerta, y de causa distinta a las dos anteriores (§78 `adquirida` por
+género, §81 `inclinaría` por tiempo verbal): ésta no es un hueco de vocabulario sino un artefacto del ancla.
+
+**Un fragmento desplazado, no un residuo.** `2433:1` termina «…necesarias en el corto plazo. **votación.**» y
+la fila siguiente, `2434:1`, es «El Presidente ofrece la palabra a los señores Consejeros para proceder a
+la». El «votación.» que cierra esa oración está en la fila anterior. Borrarlo perdería texto y el aplicador
+es un `str.replace` literal, así que reordenar no se puede expresar como operación. Se marca.
+
+**`Zero /nterest Poliey` (`2396:2`).** Dos sustituciones evidentes, pero el término inglés no aparece en
+ninguna parte del corpus en su forma correcta. Es además la **segunda** vez que aparece dañado exactamente
+igual (la otra es `2008-10-09:2106:1`, §78), lo que confirma un artefacto sistemático; y aun así, sin
+atestiguación no se normaliza (§34, §58). Se marca.
+
+Las otras dos marcas: `COSo` (`2396:4`, una sola aparición, sin lectura que se imponga) y `controlo`
+(`2393:2`, «control de la administración» contra «control o la administración»).
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · 1.827 `Texto_Corregido` no vacíos idénticos a los IDs del registro ·
+251 marcadas · **las 15 familias en 0** · comillas rectas dobles **0** (eran 2) · paréntesis de `2402:1`
+balanceado · `lí\/IACEC`, `dicho porcentajes` y el «votación.» desplazado siguen presentes **a propósito**,
+marcados · comillas rectas simples sueltas siguen en **1**, la deliberada · familias de §73–§81 en **0**.
+Suite local **66 OK**.
+
+Registro: **1.827 filas / 3.181 operaciones / 238 revisiones / 251 filas marcadas / 48
+`Marcas_Adicionales`**. Lecturas **6.710 de 9.724**, 83 de 132 sesiones.

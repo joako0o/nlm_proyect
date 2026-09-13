@@ -12833,6 +12833,22 @@
           "Ocurrencias": 1,
           "Contexto": " en promedio en el segundo semestre del 2008. Agrega el Gerente señor Claudia Soto que las expectativas respecto de la trayectoria de la Tasa de Polític",
           "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        },
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "expectativas de inflación anual que se extraen dellMCE pasan",
+          "Despues": "expectativas de inflación anual que se extraen del IMCE pasan",
+          "Ocurrencias": 1,
+          "Contexto": " previo y un promedio de 64% en el segundo semestre del año 2008. Las expectativas de inflación anual que se extraen dellMCE pasan de 4,5% en el mes de enero a 4,0% en el mes de febrero, 7,4% en prome",
+          "Justificacion": "«Las expectativas de inflación anual que se extraen dellMCE pasan de 4,5% en el mes de enero a 4,0%» — falta el espacio entre «del» y la sigla, y la «I» salió como «l». El corpus atestigua «IMCE» 84 veces."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "vigentes al momento de la Reunión del mes de ( i febrero",
+          "Despues": "vigentes al momento de la Reunión del mes de febrero",
+          "Ocurrencias": 1,
+          "Contexto": " expectativas de inflación muestran un descenso respecto de los datos vigentes al momento de la Reunión del mes de ( i febrero. Indica que la compensación inflacionaria -extraídas de las tasas swa",
+          "Justificacion": "«muestran un descenso respecto de los datos vigentes al momento de la Reunión del mes de ( i febrero» — «( i» es residuo de la maquetación: abre un paréntesis que no cierra en toda la fila y no es texto."
         }
       ]
     },
@@ -16353,6 +16369,14 @@
           "Ocurrencias": 1,
           "Contexto": " cierre de la Minuta preparada para esta Reunión, el dólar se cotizó en torno a S610, valor similar al vigente para la Reunión de Política M",
           "Justificacion": "S mayúscula en lugar del signo $. Medido: solo 2 apariciones en todo el corpus, \"S5\" y \"S6\", y ambas son montos en pesos donde solo cabe el signo: \"la paridad peso/dólar alcanzó un valor máximo de S530\" y \"el dólar se cotizó en torno a S610\". La misma fila 1323:1 usa \"$520\" unas lineas mas abajo."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "n la canasta previa: 1,60% vs. 1.92%, pero la composición",
+          "Despues": "n la canasta previa: 1,60% vs. 1,92%, pero la composición",
+          "Ocurrencias": 1,
+          "Contexto": " en la actual canasta una ponderación algo menor que la que contenía en la canasta previa: 1,60% vs. 1.92%, pero la composición de este gasto varió desde considerar el pago de intereses, comisiones",
+          "Justificacion": "«que contenía en la canasta previa: 1,60% vs. 1.92%» — la primera cifra lleva coma decimal y la segunda punto, en la misma comparación. El separador decimal del corpus es la coma."
         }
       ]
     },
@@ -20956,6 +20980,14 @@
           "Ocurrencias": 1,
           "Contexto": "o Internacional y. esa Institución está pensando en un crecimiento en torn o a 0% para el año 2010.",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «torn o» -> «torno». La evidencia es interna y doble: el primer trozo («torn») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («torno») es la que el propio corpus usa 1736 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "del Fondo Monetario Internacional y. esa Institución est",
+          "Despues": "del Fondo Monetario Internacional y esa Institución est",
+          "Ocurrencias": 1,
+          "Contexto": "oste nido conversaciones de carácter informal con algunas autoridades del Fondo Monetario Internacional y. esa Institución está pensando en un crecimiento en torn o a 0% para el año 2010.",
+          "Justificacion": "«algunas autoridades del Fondo Monetario Internacional y. esa Institución está pensando en un crecimiento» — el punto corta una coordinación en curso y deja minúscula detrás; no va punto."
         }
       ]
     },
@@ -20978,6 +21010,14 @@
           "Despues": " y destaca, especialm",
           "Contexto": "e continúa la salida de capitales desde economías emergentes y destaca , especialmente, la salida desde las economías de Europa emergente, que",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "as proyecciones para esta zona con caídas En términos de",
+          "Despues": "as proyecciones para esta zona con caídas. En términos de",
+          "Ocurrencias": 1,
+          "Contexto": "a en el corto plazo, debido a que ya hay percepciones y se mostró en las proyecciones para esta zona con caídas En términos de proyecciones, señala el señor Sergio Lehmann que se mantiene lo que y",
+          "Justificacion": "«se mostró en las proyecciones para esta zona con caídas En términos de proyecciones, señala el señor…» — falta el punto que cierra la oración antes del nuevo comienzo en mayúscula."
         }
       ]
     },
@@ -23307,6 +23347,22 @@
           "Ocurrencias": 1,
           "Contexto": "os aspectos anteriores sugieren considerar como las opciones más plausibles una reducción de 200 puntos base o una reducción de de 250 puntos base. Manifiesta que en ambos casos, se considera importante informar un sesgo claramente más neutral que en Reun",
           "Justificacion": "Preposición duplicada. Los 13 casos del corpus son la misma lesión y ninguno es legítimo: no hay construcción del español con «de de» seguido de sustantivo. Se corrigieron uno por uno."
+        },
+        {
+          "Tipo": "RESIDUO_PAGINACION",
+          "Antes": "ha sufrido menos que en el mundo desarrollado. r 4/ Comenta también",
+          "Despues": "ha sufrido menos que en el mundo desarrollado. Comenta también",
+          "Ocurrencias": 1,
+          "Contexto": "o estable y el mercado bursátil local, al igual que otros emergentes, ha sufrido menos que en el mundo desarrollado. r 4/ Comenta también el señor Gerente de División Estudios, que se estima que la transmisi",
+          "Justificacion": "«al igual que otros emergentes, ha sufrido menos que en el mundo desarrollado. r 4/ Comenta también el señor Gerente de División Estudios» — «r 4/» es el resto de una llamada de nota al pie que quedó pegada entre dos oraciones; no es texto."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "de la inflación estuvo bastante dentro de lo previsto Las medidas",
+          "Despues": "de la inflación estuvo bastante dentro de lo previsto. Las medidas",
+          "Ocurrencias": 1,
+          "Contexto": "stampillas. Asimismo, agrega que aparte de ese fenómeno, la evolución de la inflación estuvo bastante dentro de lo previsto Las medidas de expectativas de inflación han continuado cayendo, ubicándose inclu",
+          "Justificacion": "«la evolución de la inflación estuvo bastante dentro de lo previsto Las medidas de expectativas de inflación han…» — falta el punto antes del nuevo sujeto."
         }
       ]
     },
@@ -26298,7 +26354,7 @@
           "Antes": "orcentajes , aproximad",
           "Despues": "orcentajes, aproximad",
           "Contexto": "ando en porcentaje de activos que están cuestionando dicho porcentajes , aproximadamente el 12% de los activos del sistema bancario. Indica qu",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Justificacion": "Se EXTIENDE la operación existente en vez de apilarle otra (§15): la «s» de «porcentajes» cae dentro del rango de la op que ya quitaba el espacio antes de la coma, y dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. «se está hablando en porcentaje de activos que están cuestionando dicho porcentajes, aproximadamente el 12% de los activos» — «dicho» es singular, así que el sustantivo va en singular. Al tocar una letra el arreglo deja de ser ESPACIO_INDEBIDO y pasa a PALABRA_ERRONEA. El «cuestionando» de al lado se deja: es palabra real y su reparación no es única."
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
@@ -26325,6 +26381,14 @@
           "Despues": "nuye a 19%, 3,8% en e",
           "Contexto": "cupacional, el crecimiento anual del empleo asalariado disminuye a 19% , 3,8% en el trimestre móvil previo. El crecimiento anual de la fuerza ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "de consumo presentaron resultados disímiles Señala que en",
+          "Despues": "de consumo presentaron resultados disímiles. Señala que en",
+          "Ocurrencias": 1,
+          "Contexto": " de Estadísticas, cayó 8,9% anual. Por su parte, las cifras parciales de consumo presentaron resultados disímiles Señala que en el mes de enero, los indicadores de consumo habitual experimentaron u",
+          "Justificacion": "«las cifras parciales de consumo presentaron resultados disímiles Señala que en el mes de enero, los indicadores de…» — falta el punto antes del nuevo sujeto."
         }
       ]
     },
@@ -35634,6 +35698,97 @@
           "Justificacion": "«en el plano público y privado, como se ha discutido p re v ia m e n te , en un marco de condiciones financieras expansivas» — la palabra salió deletreada con espacios entre sílabas, y además quedó un espacio antes de la coma. El corpus tiene 115 «previamente»."
         }
       ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2406:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "de los recursos naturales respecto a los sec ores resto.",
+          "Despues": "de los recursos naturales respecto a los sectores resto.",
+          "Ocurrencias": 1,
+          "Contexto": " consulta cuánto de esta información corresponde al freno de la caída de los recursos naturales respecto a los sec ores resto.",
+          "Justificacion": "«los recursos naturales respecto a los sec ores resto» — «sectores» salió partido con un espacio que no va; «sec ores» no son dos palabras."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2407:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "o mejor no se tiene toda una sene como para hacer alguna ",
+          "Despues": "o mejor no se tiene toda una serie como para hacer alguna ",
+          "Ocurrencias": 1,
+          "Contexto": "El Consejero señor Manuel Marfán señala que a lo mejor no se tiene toda una sene como para hacer alguna afirmación sobre el particular. Sin embargo, indica que intuitivamente",
+          "Justificacion": "«señala que a lo mejor no se tiene toda una sene como para hacer alguna afirmación» — «sene» no es palabra; es «serie». El corpus tiene 49 «series»; es la misma familia que «senes» de §79."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2412:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "e los años 90 se produjo un fenómeno similar Indica que l",
+          "Despues": "e los años 90 se produjo un fenómeno similar. Indica que l",
+          "Ocurrencias": 1,
+          "Contexto": "las cuentas nacionales reescribirán la historia. Que también a fines de los años 90 se produjo un fenómeno similar Indica que las estimaciones de crecimiento potencial de aquel entonces eran mucho ",
+          "Justificacion": "«también a fines de los años 90 se produjo un fenómeno similar Indica que las estimaciones de crecimiento potencial…» — falta el punto antes del nuevo sujeto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2417:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "del PIB tiene estos componentes de serrucho\". Históricamente",
+          "Despues": "del PIB tiene estos componentes de serrucho. Históricamente",
+          "Ocurrencias": 1,
+          "Contexto": "ctivamente la evolución del crecimiento trimestral desestacionalizado del PIB tiene estos componentes de serrucho\". Históricamente se observa que hay una autorregulación negativa. Agrega que esa es la",
+          "Justificacion": "«el comportamiento trimestral desestacionalizado del PIB tiene estos componentes de serrucho\". Históricamente se observa» — comilla recta de cierre sin apertura en toda la fila: es una de las dos únicas «\"» que quedan en las 9.724 filas, y las dos son huérfanas."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2427:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "presente las Opciones de Política Monetaha para esta Reunión",
+          "Despues": "presente las Opciones de Política Monetaria para esta Reunión",
+          "Ocurrencias": 1,
+          "Contexto": "a palabra al Gerente de División Estudios señor Pablo García para que presente las Opciones de Política Monetaha para esta Reunión.",
+          "Justificacion": "«ofrece la palabra al Gerente de División Estudios señor Pablo García para que presente las Opciones de Política Monetaha para esta Reunión» — «Monetaha» por «Monetaria»; la «ri» salió como «h». El nombre del documento aparece miles de veces en el corpus."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2430:1",
+      "Operaciones": [
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": ", señalando que, aplicando \"mecánicamente ese indicador, ",
+          "Despues": ", señalando que, aplicando mecánicamente ese indicador, ",
+          "Ocurrencias": 1,
+          "Contexto": " 0,5%, del segundo semestre del año pasado. Continúa con su comentario, señalando que, aplicando \"mecánicamente ese indicador, se obtiene una inflación subyacente anual de 2,4% versus 6,2% que se t",
+          "Justificacion": "«Continúa con su comentario, señalando que, aplicando \"mecánicamente ese indicador, se obtiene una inflación subyacente anual de 2,4%» — comilla recta de apertura sin cierre en toda la fila: la segunda de las dos únicas «\"» del corpus, también huérfana."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2433:1",
+      "Operaciones": [
+        {
+          "Tipo": "PUNTUACION",
+          "Antes": "con la inflación meta en el largo plazo Agrega que no hay razones",
+          "Despues": "con la inflación meta en el largo plazo. Agrega que no hay razones",
+          "Ocurrencias": 1,
+          "Contexto": "fundamente, es orientarse rápidamente a una tasa de interés coherente con la inflación meta en el largo plazo Agrega que no hay razones para dilatar la transición. Al contrario, estima que los riesgos de d",
+          "Justificacion": "«la primera debe proyectarse hacia una tasa meta, es decir, a una tasa de interés coherente con la inflación meta en el largo plazo Agrega que no hay razones para dilatar» — falta el punto antes del nuevo sujeto."
+        }
+      ]
     }
   ],
   "Revisiones_Sin_Correccion": [
@@ -37277,6 +37432,36 @@
       "ID_Intervencion": "RPM-2006-04-13:647:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "«dada la incertidumbre remanente y el ruido externo, quizás se indinaría, sin cambiar la trayectoria de largo plazo, por una actitud este mes más de esperar y de ver» — «indinaría» no es palabra y la lectura es única: «inclinaría», por el régimen «inclinarse por algo» y el complemento «por una actitud… de esperar y de ver». Pero la compuerta de vocabulario del lado Despues la rechaza: el corpus atestigua el lema («inclina» 115, «inclinación» 20, «inclinado» 15, «inclinar» 6) y no la forma condicional, y el control no conjuga. Es el mismo punto ciego que «adquirida» en §78, ahora por tiempo verbal en vez de por género. No se fuerza la entrada ni se amplía TERMINOS_FORANEOS, que es para palabras extranjeras: se marca para cotejo. §81."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2396:4",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«la lámina gráfica que exhibe destaca los movimientos de paridades y COSo Menciona que éstos tienden a aumentar» — «COSo» aparece una sola vez en las 9.724 filas y no se deja resolver: el «éstos» que sigue pide un plural y el contexto es de tipos de cambio, pero no hay forma canónica atestiguada ni una lectura que se imponga. Falta además el punto antes de «Menciona», que sí se corrigió por separado. Se marca para cotejo contra el PDF. §82."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2393:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«instituciones que ya se han acogido al Capítulo XI, más aquellas que están siendo asistidas y que tienen también una calificación particular, es decir, que están en cierto grado en parte sujetas al controlo la administración o al apoyo directo del sector público» — «controlo» no es palabra. La reparación más probable es «control de la administración», por el paralelo con «o al apoyo directo del sector público», pero también cabe «control o la administración», y elegir entre meter un «de» o separar una «o» cambia la estructura. Se marca. En la misma fila sí se corrigió «dicho porcentajes» -> «dicho porcentaje», que no es ambiguo porque «dicho» fija el número. §82."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2386:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«y señala que éstas fueron mejores de lo que se esperaba. caso de Estados Unidos de América se observa un gran…» — la segunda oración arranca en minúscula y sin el «En el» que el giro pide («En el caso de Estados Unidos de América se observa…»). Reponerlo es agregar dos palabras, no reparar una letra, y no hay manera de saber si el texto se perdió en la OCR o viene así de la fuente. Se marca para cotejo en lugar de escribir texto nuevo. §82."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2396:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«particularmente en la tasa del Reino Unido, el Zero /nterest Poliey» — dos sustituciones evidentes («/» por «I», «e» por «c»), pero el término inglés no aparece en ninguna parte del corpus en su forma correcta, así que la regla de normalización (§34, §58) no permite escribirlo: no hay forma canónica atestiguada. Es además la SEGUNDA vez que aparece dañado exactamente igual —la otra es 2008-10-09:2106:1, vista en §78—, lo que confirma que es un artefacto sistemático de la OCR y no un caso aislado, y aun así sin atestiguación no se normaliza. Se marca. §82."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2433:1",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "La fila termina «…estima que no sería adecuado cerrar opciones que puedan ser necesarias en el corto plazo. votación.» y la fila siguiente, 2434:1, es «El Presidente ofrece la palabra a los señores Consejeros para proceder a la» — o sea que el «votación.» que cierra esa oración está en la fila anterior. Es un fragmento DESPLAZADO, no un residuo: borrarlo perdería texto y el aplicador es un str.replace literal, así que reordenar no se puede expresar como operación. Se marca para cotejo. §82."
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2393:2",
+      "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
+      "Motivo": "«se está hablando en porcentaje de activos que están cuestionando dicho porcentajes, aproximadamente el 12% de los activos del sistema bancario» — «dicho» es singular y «porcentajes» plural: el determinante fija el número y la reparación es cierta. Pero no se puede aplicar. La «s» cae dentro del rango de una operación ya registrada («orcentajes , aproximad» -> «orcentajes, aproximad», que quitaba el espacio antes de la coma), y la regla §15 manda EXTENDER esa operación en vez de apilarle otra, porque dos tramos solapados sobre el mismo texto virgen no se pueden aplicar en ningún orden. Se extendió, y entonces la compuerta de vocabulario rechazó el resultado: como el ancla existente empieza a media palabra, el lado Despues queda «orcentaje, aproximad» y «orcentaje» no es una palabra del corpus sino un fragmento. Cambiar el ancla está fuera de lo que permite la herramienta por diseño —el Antes es lo que ata la operación al texto virgen—. Se revierte la enmienda y se marca. Lección: un ancla que arranca a media palabra deja ese tramo inhabilitado para cualquier arreglo posterior que toque letras. §82."
     }
   ]
 }
