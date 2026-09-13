@@ -21,8 +21,10 @@ Convención de los umbrales:
 """
 from __future__ import annotations
 
+import re
 import sys
 import unittest
+import collections
 from collections import Counter
 from pathlib import Path
 
@@ -91,7 +93,7 @@ COMILLAS_RECTAS_MAX = 3
 
 # Crecen al corregir; nunca deben bajar.
 MIN_CORREGIDAS = 1714
-MIN_OPERACIONES = 2916
+MIN_OPERACIONES = 2920
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -414,6 +416,43 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                     if not (op.get(campo) or '').strip():
                         vacias.append(f'{rid} op{n}: falta {campo}')
         self.assertEqual([], vacias[:20])
+
+    def test_el_apostrofo_por_espacio_desaparecio_salvo_en_nombres_propios(self):
+        """§58: la OCR pone un apóstrofo donde iba un espacio, o parte una palabra.
+
+        Cuatro casos corregidos, todos sin lectura alternativa: «elementos'tácticos»,
+        «en'el caso», «el'f comportamiento» y el encabezado fijo «BANCO CENT'RAL DE
+        CHILE». Lo que queda es el apóstrofo legítimo de los nombres propios
+        extranjeros, y se enumera forma por forma en lugar de fiarse de una cuenta:
+        Moody's, Standard & Poor's, Dell'Oro y People's Bank of China, en sus
+        variantes con apóstrofo recto, tipográfico y acento agudo.
+
+        La única excepción es «L1oyd's»: el daño es evidente («1» por «l»), pero la
+        forma canónica no está atestiguada en el corpus («L1oyd» aparece 1 vez y
+        «Lloyd» 0), así que la regla del §34 no la cubre y la guarda de vocabulario
+        de correcciones_ocr_v1.py rechaza introducir una palabra ajena al corpus y a
+        TERMINOS_FORANEOS. Se dejó el texto intacto y se marcó para cotejo.
+        """
+        letra = 'A-Za-z\u00c1\u00c9\u00cd\u00d3\u00da\u00d1\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1'
+        pat = re.compile(f'[{letra}]+[\'\u00b4`\u2019][{letra}]+')
+        legitimos = {"poor\u2019s", 'poor\'s', "moody\u2019s", "moody's", "moody\u00b4s",
+                     "dell\u2019oro", "people\u2019s", "oyd's"}
+        vistos = collections.Counter()
+        for texto in self.salida.values():
+            vistos.update(m.group(0).lower() for m in pat.finditer(texto))
+        self.assertEqual(set(vistos) - legitimos, set(),
+                         f'apareció un apóstrofo entre letras fuera de los nombres propios '
+                         f'conocidos: {sorted(set(vistos) - legitimos)}')
+        self.assertEqual(sum(vistos.values()), 66,
+                         f'el total de apóstrofos entre letras cambió ({sum(vistos.values())}); '
+                         f'si bajó se corrigió un nombre propio legítimo, si subió hay un '
+                         f'defecto nuevo sin marcar')
+        self.assertIn('RPM-2008-10-09:2106:1', self.marcas,
+                      'la fila con el nombre propio dañado sin forma canónica debe estar marcada')
+        self.assertEqual([i for i, t in self.salida.items()
+                          if "CENT'RAL" in t or "elementos't" in t
+                          or "en'el" in t or "el'f" in t], [],
+                         'alguno de los cuatro defectos del §58 reapareció')
 
     def test_los_pares_minimos_legitimos_no_se_tocaron(self):
         """La otra mitad de §16: lo que NO se corrige.

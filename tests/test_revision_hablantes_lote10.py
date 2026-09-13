@@ -1,6 +1,6 @@
 """Lote10: separar por intervención sin tocar el registro histórico fijado por hash.
 
-Las cuatro revisiones viven en ``revisiones_hablantes_lote10.json`` porque el
+Las siete revisiones viven en ``revisiones_hablantes_lote10.json`` porque el
 registro histórico está fijado por hash en veinte paquetes de procedencia;
 agregarle entradas los invalida en cascada. Estas pruebas cubren lo que los
 conteos ajenos ya no cubren: que las revisiones nuevas cargan, que no solapan el
@@ -32,6 +32,13 @@ ESPERADO = {
     # responde dentro de una fila de un solo hablante». El Presidente consulta
     # nominalmente a Magendzo y la oración siguiente ya es la respuesta de éste.
     1706: ('Igal Magendzo Weinberger', 313, 603, 'José De Gregorio Rebeco'),
+    # Sexto y séptimo corte, sesión 2008-07-10: la misma firma 4 (un tercero
+    # responde dentro de la fila) dos veces seguidas. El Ministro de Hacienda
+    # consulta y el Gerente responde; el Vicepresidente acota y el Gerente
+    # replica. En 1925 la atribución a Lehmann es explícita en la oración
+    # siguiente del mismo padre.
+    1924: ('Sergio Lehmann Beresi', 79, 404, 'Andrés Velasco Brañes'),
+    1925: ('Sergio Lehmann Beresi', 133, 2122, 'Jorge Desormeaux Jiménez'),
 }
 
 
@@ -50,7 +57,7 @@ class _FuenteLote10(unittest.TestCase):
 
 class Lote10Tests(_FuenteLote10):
     def test_el_lote_carga_y_valida_contra_la_fuente(self):
-        self.assertEqual(len(self.entradas), 5)
+        self.assertEqual(len(self.entradas), 7)
         sueltas = load_speaker_reviews(self.raw, LOTE10)
         self.assertEqual(set(sueltas), set(ESPERADO))
         for padre, entrada in sueltas.items():
@@ -64,7 +71,7 @@ class Lote10Tests(_FuenteLote10):
 
     def test_no_solapa_el_registro_historico(self):
         self.assertEqual(len(self.historico), 353)
-        self.assertEqual(len(self.completas), 358)
+        self.assertEqual(len(self.completas), 360)
         self.assertFalse(set(self.historico) & set(ESPERADO))
         # los mismos Revision_ID no pueden repetirse entre los dos archivos
         historicos = {e['Revision_ID'] for e in
@@ -187,9 +194,9 @@ class RefrescoIDPosicionalTests(unittest.TestCase):
 
 
 class CantidadDeFilasTests(_FuenteLote10):
-    """De los cinco cortes, sólo dos agregan una fila (1995 y 1706): los otros tres
-    ya estaban partidos por el detector con el mismo actor, y la revisión corrige
-    la frontera.
+    """De los siete cortes, sólo tres agregan una fila (1995, 1706 y 1924): los otros
+    cuatro ya estaban partidos por el detector con el mismo actor, y la revisión
+    corrige la frontera.
 
     Esto importa porque el ID es posicional: cada fila nueva corre el ID de todas
     las siguientes y eso fue lo que invalidó las lecturas procedimentales v5.
@@ -199,17 +206,18 @@ class CantidadDeFilasTests(_FuenteLote10):
         return list(b.segment_turns(self.raw[padre]['Texto'], self.raw[padre]['Fecha'],
                                     self.raw[padre]['Actor'], review=review))
 
-    def test_solo_el_1995_y_el_1706_agregan_una_fila(self):
+    def test_solo_el_1995_el_1706_y_el_1924_agregan_una_fila(self):
         delta = {}
         for padre in ESPERADO:
             delta[padre] = len(self.segmentos(padre, self.completas.get(padre))) - \
                 len(self.segmentos(padre, None))
-        self.assertEqual(delta, {657: 0, 1564: 0, 1706: 1, 1995: 1, 2960: 0},
-                         'el total de filas de la base cambia en +2, no en +5')
+        self.assertEqual(delta, {657: 0, 1564: 0, 1706: 1, 1924: 1, 1925: 0,
+                                 1995: 1, 2960: 0},
+                         'el total de filas de la base cambia en +3, no en +7')
 
-    def test_los_tres_restantes_mueven_la_frontera(self):
+    def test_los_cuatro_restantes_mueven_la_frontera(self):
         """Corregir la frontera sin agregar fila también es un cambio real."""
-        for padre in (657, 1564, 2960):
+        for padre in (657, 1564, 1925, 2960):
             with self.subTest(padre=padre):
                 sin = self.segmentos(padre, None)
                 con = self.segmentos(padre, self.completas.get(padre))

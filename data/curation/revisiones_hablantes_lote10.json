@@ -105,5 +105,59 @@
         "Cita": "El señor Gerente responde afirmativamente en atención a que dicho aumento no se está viendo como un adelanto de una situación que se pensó que iba a ocurrir"
       }
     ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1924-6",
+    "ID_Padre": 1924,
+    "Fecha": "2008-07-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "3d3884137887c67db51bfffb53347cae9220b4c89a9213e30a2f57601e274c39",
+    "Inicio": 79,
+    "Fin": 404,
+    "Cita_Inicio": "El señor Gerente señala que no hay consenso respecto del largo plazo",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Justificacion": "El Ministro de Hacienda hace una consulta y la oración siguiente es la respuesta de otro: «El señor Ministro de Hacienda consulta a qué período se considera largo plazo. El señor Gerente señala que no hay consenso respecto del largo plazo». Es la firma 4 del censo del §49 —un tercero responde dentro de la fila—, la única que produjo un corte antes (padre 1706). La consulta y la respuesta no pueden ser del mismo hablante: nadie se consulta a sí mismo y se responde en tercera persona. El Gerente es Sergio Lehmann Beresi, que está exponiendo el escenario externo en este tramo de la sesión: su presentación abre en 1916, el Presidente le ofrece la palabra en 1915 y la retoma en 1923:3 («El Gerente de Análisis Internacional continúa su presentación»), y en 1925 el propio texto lo nombra («comenta el Gerente señor Sergio Lehmann»). El roster de la sesión le da 8 filas y el tratamiento «el señor Gerente» a secas es el que el acta usa para él de forma consistente.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1924,
+        "Cita": "El señor Ministro de Hacienda consulta a qué período se considera largo plazo."
+      },
+      {
+        "ID_Padre": 1924,
+        "Cita": "El señor Gerente señala que no hay consenso respecto del largo plazo."
+      },
+      {
+        "ID_Padre": 1925,
+        "Cita": "comenta el Gerente señor Sergio Lehmann que el precio del cobre tendió a aumentar durante la semana"
+      }
+    ]
+  },
+  {
+    "Revision_ID": "HAB-20260912-1925-7",
+    "ID_Padre": 1925,
+    "Fecha": "2008-07-10",
+    "Actor": "Sergio Lehmann Beresi",
+    "SHA256_Texto_Padre": "2ee1a69c54f7fd90705c8eb2c27436367be2edf8e6f0ddb2224d850c7141be9b",
+    "Inicio": 133,
+    "Fin": 2122,
+    "Cita_Inicio": "El señor Gerente comenta que esos son planteamientos de largo plazo",
+    "Tipo_Revision": "LECTURA_DIRIGIDA_POR_AGENTE",
+    "Limitacion": "Lectura del consolidado original; sin cotejo PDF ni revisión humana independiente.",
+    "Justificacion": "El Vicepresidente acota un dato y la oración siguiente ya no es suya: «El Vicepresidente señor Jorge Desormeaux acota que en el mercado futuro del petróleo, el plazo más largo que existe es a siete años. El señor Gerente comenta que esos son planteamientos de largo plazo que dan los propios bancos de inversiones». Es la misma firma 4 del padre 1924: una acotación y una réplica no son del mismo hablante. La atribución a Sergio Lehmann Beresi no es inferida sino explícita en la oración inmediatamente siguiente del mismo padre: «Por el lado del precio del cobre, comenta el Gerente señor Sergio Lehmann». El constructor ya partía este padre en tres, pero ponía la frontera en el offset 243 y dejaba la réplica del Gerente dentro del segmento del Vicepresidente; con la revisión la frontera pasa a 133 y las dos intervenciones contiguas de Lehmann se fusionan en un solo segmento, sin cambiar el número de filas.",
+    "Evidencia": [
+      {
+        "ID_Padre": 1925,
+        "Cita": "El Vicepresidente señor Jorge Desormeaux acota que en el mercado futuro del petróleo, el plazo más largo que existe es a siete años."
+      },
+      {
+        "ID_Padre": 1925,
+        "Cita": "El señor Gerente comenta que esos son planteamientos de largo plazo que dan los propios bancos de inversiones."
+      },
+      {
+        "ID_Padre": 1925,
+        "Cita": "comenta el Gerente señor Sergio Lehmann que el precio del cobre tendió a aumentar durante la semana"
+      }
+    ]
   }
 ]

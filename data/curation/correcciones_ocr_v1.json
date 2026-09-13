@@ -23779,6 +23779,14 @@
           "Despues": "86,\ncasi 1% por sobre",
           "Contexto": ", el TCR se ubica entre 94 y 95, con una base de 100 para 1986,\ncasi 1 % por sobre lo observado hace un mes.\n•\nPese a que si se elimina el efe",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "denominados “elementos'tácticos”.",
+          "Despues": "denominados “elementos tácticos”.",
+          "Ocurrencias": 1,
+          "Contexto": "n de la estrategia de normalización pausada de la política monetaria, denominados “elementos'tácticos”. En particular, dado un PIB de tendencia, el crecimiento de la activid",
+          "Justificacion": "Un apóstrofo ocupó el lugar del espacio entre dos palabras: «elementos'tácticos» no es una construcción posible en español y el par entre comillas es la etiqueta que el acta da a un concepto («elementos tácticos»)."
         }
       ]
     },
@@ -25121,6 +25129,14 @@
           "Despues": ", en tanto, aumentan ",
           "Contexto": "l caso del PCE. Comenta el señor Gerente que en la Zona Euro, en tanto , aumentan las presiones inflacionarias tal como lo muestra el índice d",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "No obstante, en'el caso de la Zona Euro",
+          "Despues": "No obstante, en el caso de la Zona Euro",
+          "Ocurrencias": 1,
+          "Contexto": " Productores, situación análoga a la que se está observando en Japón. No obstante, en'el caso de la Zona Euro, el IPC Core está relativamente estable y vale destacar que el IPP Co",
+          "Justificacion": "Un apóstrofo ocupó el lugar del espacio: «en'el caso» por «en el caso». La preposición y el artículo son dos palabras y no hay lectura alternativa."
         }
       ]
     },
@@ -26393,6 +26409,14 @@
           "Despues": "de dólares, luego exp",
           "Contexto": "es observados hasta antes de la crisis bordearon el trillón de dólares , luego experimentaron una fuerte caída, pero nunca desaparecieron del ",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "por componentes el'f comportamiento ha sido",
+          "Despues": "por componentes el comportamiento ha sido",
+          "Ocurrencias": 1,
+          "Contexto": "ta de los retrocesos mostrados en términos de agregados, mientras que por componentes el'f comportamiento ha sido algo más heterogéneo, con maíz y trigo subiendo, y el arroz registran",
+          "Justificacion": "Un apóstrofo y una «f» suelta se intercalaron entre el artículo y el sustantivo: «el'f comportamiento» por «el comportamiento». La oración sigue con «ha sido algo más heterogéneo, con maíz y trigo subiendo», que sólo admite ese sujeto."
         }
       ]
     },
@@ -29113,6 +29137,14 @@
           "Ocurrencias": 1,
           "Contexto": "BANCO CENT'RAL DE CHILE ACTA DE LA SESIÓN DE POLiTICA MONETARIA Nº 216 celebrada el día ",
           "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "SIMBOLO_SUELTO",
+          "Antes": "BANCO CENT'RAL DE CHILE",
+          "Despues": "BANCO CENTRAL DE CHILE",
+          "Ocurrencias": 1,
+          "Contexto": "BANCO CENT'RAL DE CHILE ACTA DE LA SESIÓN DE POLiTICA MONETARIA Nº 216 celebrada el día marte",
+          "Justificacion": "El encabezado del acta es una fórmula fija (§57): «BANCO CENTRAL DE CHILE». Aquí un apóstrofo partió la palabra CENTRAL. La misma fila ya tenía corregida POLiTICA."
         }
       ]
     },
@@ -34468,6 +34500,11 @@
       "ID_Intervencion": "RPM-2007-08-09:1357:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "§57: «ajustes en precios de activos financieros y í condiciones crediticias más restrictivas». La í con acento ocupa el lugar de una palabra entera y no hay forma de saber cuál: el corpus admite «y a condiciones», «y unas condiciones» o «y en condiciones». Se deja sin corregir y marcado para cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2008-10-09:2106:1",
+      "Marca": "NOMBRE_PROPIO_POR_COTEJAR",
+      "Motivo": "§58: «al Banco L1oyd's inglés». El «1» ocupa el lugar de una «l», daño de OCR evidente, pero la forma canónica no está atestiguada en el corpus: «L1oyd» aparece 1 vez y «Lloyd» 0, así que la regla del §34 (normalizar sólo cuando el propio corpus atestigua la forma canónica) no la cubre y la guarda de vocabulario de correcciones_ocr_v1.py rechaza introducir una palabra ajena al corpus y a TERMINOS_FORANEOS. Se deja el texto intacto y se marca para cotejo con el PDF. En la misma fila sí se corrigió «Sanco» por «Banco» (§anterior), que sí tiene forma canónica atestiguada."
     }
   ]
 }

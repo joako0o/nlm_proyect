@@ -3513,3 +3513,109 @@ extendiendo esa operación, no registrando otra.**
 idempotentes**.
 
 Registro: **1.714 filas / 2.916 operaciones / 215 filas marcadas**.
+
+## §58 — Sesión 2008-07-10: dos cortes de la firma 4, entrega v10 y la familia del apóstrofo
+
+Noventa y seis filas, doce actores, 108.277 caracteres. **Dos cortes reales**, los primeros
+desde el §48, y los dos con la misma firma: un tercero responde dentro de una fila atribuida a
+otro. Es la firma 4 del censo del §49, la única que hasta ahora había producido un corte (padre
+1706).
+
+### Los dos cortes
+
+**Padre 1924** (404 ch, actor Andrés Velasco Brañes):
+
+> «El señor Ministro de Hacienda **consulta** a qué período se considera largo plazo. **El señor
+> Gerente señala** que no hay consenso respecto del largo plazo…»
+
+Una consulta y su respuesta no pueden ser del mismo hablante: nadie se consulta a sí mismo y se
+contesta en tercera persona. Corte en el carácter 79, nuevo hablante **Sergio Lehmann Beresi**.
+Agrega la fila `1924:2`.
+
+**Padre 1925** (2.582 ch, actor Jorge Desormeaux Jiménez):
+
+> «El Vicepresidente señor Jorge Desormeaux **acota** que en el mercado futuro del petróleo, el
+> plazo más largo que existe es a siete años. **El señor Gerente comenta** que esos son
+> planteamientos de largo plazo que dan los propios bancos de inversiones…»
+
+Misma firma. Corte en el carácter 133. El constructor ya partía este padre en tres, pero ponía
+la frontera en 243 y dejaba la réplica del Gerente dentro del segmento del Vicepresidente. Con la
+revisión la frontera pasa a 132 y las dos intervenciones contiguas de Lehmann se fusionan: **no
+agrega fila**, sólo mueve el límite.
+
+**Que el Gerente sea Lehmann no se infiere del cargo, se lee.** En esta sesión su presentación del
+escenario externo abre en 1916, el Presidente le ofrece la palabra en 1915 y la retoma en 1923:3
+(«El Gerente de Análisis Internacional continúa su presentación»), y en el padre 1925 el acta lo
+nombra explícitamente dos oraciones más abajo: «comenta **el Gerente señor Sergio Lehmann**».
+
+Los dos cortes se registraron en `revisiones_hablantes_lote10.json` (entradas 6 y 7) y se publicó
+**`continuidad_procedimental_v10`** con gate propio (`compare_procedural_v10.py`, baseline v9
+`32752bd5…`):
+
+| | |
+|---|---|
+| Perfil | `procedimental-v10`, baseline `procedimental-v9` |
+| Filas | 9.725 → **9.726** |
+| Filas nuevas | `RPM-2008-07-10:1924:2` |
+| Padres resegmentados | 657, 1564, 1706, 1924, 1925, 1995, 2960 |
+| Grupos | 9.236 → 9.237 |
+| Alertas | 484 → 484 (ninguna se cerró) |
+| Reservas | 780 (4) · 2661 (12) · 5252 (4), intactas |
+| `Pasa` | **True** |
+
+De los siete cortes del lote10, **sólo tres agregan una fila** (1995, 1706 y 1924); los otros
+cuatro corrigen una frontera que el detector ya trazaba.
+
+### El apóstrofo en lugar del espacio
+
+Cuatro casos, ninguno con lectura alternativa:
+
+| fila | virgen | corregido |
+|---|---|---|
+| `2006-08-10:817:1` | `denominados “elementos'tácticos”` | `elementos tácticos` |
+| `2008-07-10:1916:2` | `No obstante, en'el caso de la Zona Euro` | `en el caso` |
+| `2010-01-14:2847:1` | `por componentes el'f comportamiento` | `el comportamiento` |
+| `2014-11-18:6486:1` | `BANCO CENT'RAL DE CHILE` | `BANCO CENTRAL DE CHILE` |
+
+El cuarto es el encabezado de acta cuya fórmula fijó el §57; esa misma fila ya tenía corregida
+`POLiTICA`.
+
+### Un nombre dañado que no se puede normalizar: `L1oyd's`
+
+`2008-10-09:2106:1` dice «al Banco **L1oyd's** inglés». El daño es evidente —un `1` en lugar de
+una `l`— pero **la forma canónica no está atestiguada en el corpus**: `L1oyd` aparece 1 vez y
+`Lloyd` 0. La regla del §34 sólo normaliza cuando el propio corpus atestigua la forma canónica, y
+además la guarda de vocabulario de `correcciones_ocr_v1.py` rechaza introducir una palabra que no
+está en el corpus ni en `TERMINOS_FORANEOS`. Se registró la operación, la validación la rechazó y
+**se revirtió**: el texto quedó intacto y la fila se marcó `NOMBRE_PROPIO_POR_COTEJAR` (marca 9).
+En la misma fila sí se corrigió `Sanco`→`Banco`, que sí tiene forma canónica atestiguada.
+
+**Regla: un daño evidente no basta para normalizar; hace falta que el corpus atestigüe la forma
+de destino. Si no, se marca.**
+
+### Lo que no se tocó
+
+- **`periodo` sin tilde (33) contra `período` (303).** Las dos grafías son legítimas en español,
+  así que esto es una variante y no un daño de OCR. Corregirlo sería una normalización de estilo,
+  no una reparación. Se deja, como `seria`, `éstos` o `cuánto`.
+- **Los apóstrofos de nombres propios extranjeros:** `Moody's`/`Moody’s`/`Moody´s`, `Standard &
+  Poor's`/`Poor’s`, `Dell’Oro`, `People’s Bank of China`. Ocho formas distintas, 66 ocurrencias en
+  52 filas, todas enumeradas en la prueba de regresión.
+
+### Una trampa de medición, de nuevo
+
+El primer barrido del apóstrofo se corrió sobre `Texto_Corregido` y encontró 6 filas. **Esa
+columna está vacía en las filas sin corrección**, así que el barrido era ciego a 9.726 − 1.714
+filas. Sobre el texto efectivo son 52. La prueba de regresión se escribió contra el texto
+efectivo y devolvió las dos filas que faltaban (`2012-02-14:4652:1`, `2012-10-18:5096:1`), las dos
+`Moody's` legítimos. **Regla repetida: medir siempre sobre el texto efectivo, nunca sobre la
+columna de corrección.**
+
+### Verificado
+
+Los cuatro defectos → **0** en el texto efectivo · apóstrofos entre letras: 8 formas, 66
+ocurrencias, todas nombres propios · `Texto` idéntico a la base en las **9.726** filas · 2.920
+operaciones exportadas · suite local **59 OK** (18+24+6+11).
+
+Registro: **1.714 filas / 2.920 operaciones / 212 revisiones / 215 filas marcadas** (la marca nueva
+cayó sobre una fila que ya estaba marcada, por eso el total no sube).

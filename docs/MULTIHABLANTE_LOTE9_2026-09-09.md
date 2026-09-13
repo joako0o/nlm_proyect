@@ -397,6 +397,8 @@ Para leer una sesión entera al margen del plan:
 
 | — | **quinto corte aplicado** | +1 | **`RPM-2008-03-13:1706`** De Gregorio → **Igal Magendzo Weinberger** @313–603 · encontrado por la red de «un tercero **responde** dentro de una fila de un solo hablante», no por la cola ni por el traspaso · **entrega v9 publicada**: 9.723 → 9.725, `Pasa: true`, 5 cortes · detalle en §48 |
 
+| — | **séptimo corte y entrega v10** | +1 | **`RPM-2008-07-10:1924`** Velasco → **Sergio Lehmann Beresi** @79–404 y **`RPM-2008-07-10:1925`** Desormeaux → Lehmann @133–2122 · los dos con la firma 4 (el Ministro **consulta** y el Gerente responde; el Vicepresidente **acota** y el Gerente replica), la misma que produjo el corte 1706 · sólo el 1924 agrega fila, el 1925 mueve una frontera que el detector ya trazaba · **entrega v10 publicada**: 9.725 → 9.726, `Pasa: true`, 7 cortes, grupos 9.236 → 9.237, alertas 484 sin cambio, tres reservas intactas · detalle en §58 |
+
 | 88–96 | 2008-06-10 | 107 | **sesión cerrada 105/105** (2 ya estaban anotadas) · 11 actores · **primera sesión auditada con las siete firmas dentro del auditor** (§50): cola 1 caso ya partido, red 2b cero, red 2c cero → **ningún corte** · 14 candidatos de acento, todos formas correctas · 2 residuos de OCR al final de fila («'V/» y «.LI I») |
 
 | 97–105 | 2010-11-16 | 108 | **sesión cerrada 104/104** (4 ya estaban anotadas) · 12 actores · cola vacía, red 2b cero, red 2c cero → **ningún corte** · 3 candidatos de acento, todos correctos · destapó el **pase transversal de la comilla del Comunicado**: 102 filas con “ contra 4 dañadas, posición fija y signo presente, corregidas en 4 actas (§51) |
@@ -412,6 +414,8 @@ Para leer una sesión entera al margen del plan:
 | 142–150 | 2009-06-16 | 99 | **sesión cerrada 98/98** (1 ya estaba anotada) · 13 actores · cola 4 casos ya partidos en 5/5/3/6 segmentos, 2b y 2c cero, barrido independiente sobre los 13 actores en cero → **ningún corte** · leídas las 11 filas de más de 1900 ch (2593:2 es un monólogo de 8683 ch) · 4 familias OCR: el **punto donde va coma** (91 de 109, separando 18 abreviaturas legítimas y 15 residuos), `IPOM`→`IPoM` 58, `desafio` 3, barra invertida 11 · 5 ops enmendadas porque otra corrección había dejado el punto dentro de su tramo y 1 que quedó destapado (§56) |
 
 | 151–159 | 2012-03-15 | 98 | **sesión cerrada 96/96** (2 ya estaban anotadas) · 14 actores · cola 1 caso que es mención (el Ministro avisó que no asiste), 2b y 2c cero, barrido independiente sobre los 14 actores en cero → **ningún corte** · 4722:3 (6828 ch) es la opinión **por escrito** del Ministro leída por el Presidente: atribución correcta · un barrido de acentos **sin umbral de frecuencia** destapó la fórmula del encabezado de acta (`SESION`/`POLITICA` en 36 casos) más 17 defectos sueltos · 1 caso sin resolver marcado para cotejo (§57) |
+
+| 160–168 | 2008-07-10 | 97 | **sesión cerrada 97/97** (2 ya estaban anotadas, 95 nuevas) · 12 actores · cola 1 caso ya partido en 8 segmentos bien atribuidos, 2b 1 caso que es mención («la matriz solicitada por el Consejero señor Manuel Marfán» lo hace objeto, no hablante), 2c cero → pero **dos cortes reales** por la firma 4 (§58) · la familia del apóstrofo en lugar del espacio: 4 corregidos y `L1oyd's` marcado porque la forma canónica no está atestiguada · `periodo`/`período` **no** se tocó: las dos grafías son legítimas |
 
 Para anotar una ronda leída:
 
