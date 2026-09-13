@@ -417,6 +417,8 @@ Para leer una sesión entera al margen del plan:
 
 | 160–168 | 2008-07-10 | 97 | **sesión cerrada 97/97** (2 ya estaban anotadas, 95 nuevas) · 12 actores · cola 1 caso ya partido en 8 segmentos bien atribuidos, 2b 1 caso que es mención («la matriz solicitada por el Consejero señor Manuel Marfán» lo hace objeto, no hablante), 2c cero → pero **dos cortes reales** por la firma 4 (§58) · la familia del apóstrofo en lugar del espacio: 4 corregidos y `L1oyd's` marcado porque la forma canónica no está atestiguada · `periodo`/`período` **no** se tocó: las dos grafías son legítimas |
 
+| 169–177 | 2010-04-15 | 93 | **SESIÓN ABIERTA** · 11 actores · cola, 2b, 2c y los tres detectores de palabra partida en cero · el barrido independiente dio 15 referencias ajenas, 14 son el propio actor referido por cargo · la 15ª es el **padre 3062, un corte al revés**: la base partió en 3 y le atribuyó a Marfán 325 ch que son de Soto («sobre lo cual consultó el señor Vicepresidente **en la Reunión pasada**» es una relativa que remite a otra reunión; el verbo principal es «menciona», presente, sujeto Soto). **No se pudo aplicar**: el lote10 sólo asigna el hablante de una oración, y apuntarlo a la del medio choca con la guarda «Revisión contradice sujeto explícito» (`build_base_referencia.py:1142`). Hace falta un campo explícito en el registro, no una regla general (§59) · en cambio sí se corrigió la familia `Claudia`→`Claudio` (30 casos, el discriminador es «señor/don» contra «doña/Gerenta») |
+
 Para anotar una ronda leída:
 
 ```

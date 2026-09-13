@@ -3619,3 +3619,86 @@ operaciones exportadas · suite local **59 OK** (18+24+6+11).
 
 Registro: **1.714 filas / 2.920 operaciones / 212 revisiones / 215 filas marcadas** (la marca nueva
 cayó sobre una fila que ya estaba marcada, por eso el total no sube).
+
+## §59 — Sesión 2010-04-15 (abierta): `Claudia`/`Claudio`, y un corte al revés que el motor no puede deshacer
+
+Noventa y tres filas, once actores, 89.149 caracteres. Cola en cero, 2b en cero, 2c en cero,
+detectores de palabra partida en cero. **La sesión no está cerrada**: apareció un caso que el
+mecanismo del lote10 no puede resolver y quedó abierto más abajo.
+
+### Una atribución invertida: el padre 3062
+
+El barrido independiente sobre los once actores dio 15 referencias ajenas; catorce son el propio
+actor de la fila referido por su cargo («el señor Presidente» en filas de De Gregorio, «el
+Gerente de Análisis Macroeconómico» en filas de Soto, «el Consejero aludido» en filas de Claro).
+La decimoquinta no:
+
+> `3062:1` Soto: «El señor Claudio Soto informa luego que las tasas de colocación… Precisa que no
+> es el caso de las tasas hipotecarias…»
+> **`3062:2` Marfán**: «Respecto de la dispersión de las tasas, **sobre lo cual consultó el señor
+> Vicepresidente en la Reunión pasada**, menciona que las medidas de dispersión se han mantenido
+> más bien altas…»
+> `3062:3` Soto: «A continuación, el señor Claudio Soto indica que los resultados de la Encuesta…»
+
+Los 325 caracteres del medio son de **Soto**, no de Marfán. «Sobre lo cual consultó el señor
+Vicepresidente **en la Reunión pasada**» es una subordinada relativa que remite a una reunión
+anterior, y el verbo principal de la oración es «menciona» en presente, cuyo sujeto es el mismo
+narrador de las oraciones vecinas. El detector leyó «el señor Vicepresidente» + «consultó» y
+partió ahí.
+
+**Es un corte al revés: la base separó donde no hay cambio de hablante y le atribuyó a Marfán
+palabras que no dijo.** El padre fuente (839 ch, actor Claudio Soto Gamboa, sha256
+`c2c79be12ccf06b9fca6e234376b3bd925a9d29cb00aa12499b0ee41f09a42f4`) es un solo discurso continuo.
+
+**Por qué no se aplicó.** El registro del lote10 sólo puede *asignar* el hablante de la oración
+que empieza en `Inicio`; las contiguas del mismo actor se fusionan después. Probado: una revisión
+que cubra todo el padre (`Inicio=0`) devuelve los mismos 3 segmentos, porque la revisión sólo
+toca la primera oración. Y al apuntarla a la oración del medio (`Inicio=282`, `Fin=608`) el
+constructor aborta:
+
+```
+ValueError: Revisión contradice sujeto explícito     # build_base_referencia.py:1142
+```
+
+La guarda es correcta como mecanismo de seguridad —impide sobrescribir al detector en silencio—
+pero aquí el detector se equivocó. Arreglarlo exige un cambio de código (un campo explícito por
+entrada en el registro, apagado por defecto), no una regla general. **Queda abierto.**
+
+### `Claudia` por `Claudio`: 30 casos, y el género es el discriminador
+
+| forma | ocurrencias | |
+|---|---|---|
+| `Claudio Soto` | **1.275** | forma canónica |
+| `señor/don Claudia Soto` | 27 | dañada |
+| `señor Claudias Soto` | 1 | dañada (variante con una `s` de más) |
+| `señor Claudios Soto` | 1 | dañada, ya corregida por una sesión anterior |
+| `Claudio Raddatz` | **75** | forma canónica |
+| `señor/don Claudia Raddatz` | 2 | dañada |
+| `doña Claudia Varela Lértora` | 2 | **legítima** |
+| `doña Claudia Sotz Pantoja` | 1 | **legítima** |
+
+Lo que decide no es la frecuencia sino **el tratamiento que la propia fila usa**: «señor» y
+«don» son masculinos, «doña» y «Gerenta» femeninos. Las dos Claudias legítimas son mujeres
+distintas y ni `Claudio Varela` ni `Claudio Sotz` aparecen nunca en el corpus, así que ahí no hay
+forma canónica que oponer y no se tocan. **30 operaciones**, `Claudio` 1.352 → **1.382**,
+`Claudia` 32 → **3** (las tres de «doña»).
+
+### Dos trampas, las dos ya conocidas y las dos repetidas
+
+1. **Un defecto ocultó al segundo en la misma fila.** `2010-10-14:3454:1` tiene `Claudia Soto`
+   en la primera línea y `Claudias Soto` en la 1.042. El lote buscaba `Claudia Soto` y lo
+   encontró, así que la fila entró como corregida y la variante con `s` pasó inadvertida. La
+   destapó la prueba de regresión, que cuenta **toda la familia `Claudi*`** y no sólo `Claudia`.
+2. **Partir una operación en vez de apilar otra.** `2010-03-18:2990:1` ya tenía un
+   `ESPACIO_INDEBIDO` cuyo `Antes` era `«s de junio . El señor Claudia Soto prosigue , mencionan»`:
+   abarcaba los dos espacios **y** el nombre. No se puede cambiar una letra dentro de un
+   `ESPACIO_INDEBIDO` porque la prueba exige que esas operaciones sólo quiten espacios. Se partió
+   en tres operaciones disjuntas, cada una con su tipo correcto:
+   `s de junio . El señor` / `Claudia Soto` / `prosigue , mencionan`.
+
+### Verificado
+
+`Claudi*` dañado → **0** · `Claudio` **1.382** · `Claudia` **3**, las tres con «doña» ·
+`Texto` idéntico a la base en las **9.726** · suite local **60 OK** (18+25+6+11).
+
+Registro: **1.719 filas / 2.946 operaciones / 212 revisiones / 215 filas marcadas**.

@@ -92,8 +92,8 @@ FORMAS_EN_CERO = {
 COMILLAS_RECTAS_MAX = 3
 
 # Crecen al corregir; nunca deben bajar.
-MIN_CORREGIDAS = 1714
-MIN_OPERACIONES = 2920
+MIN_CORREGIDAS = 1719
+MIN_OPERACIONES = 2946
 
 # §18 y §20: espacio indebidamente insertado antes de , . ; %. La familia medía
 # 551 ocurrencias en la base y bajó a 4. Una es una palabra letra a letra (§11,
@@ -453,6 +453,38 @@ class TestRegresionCuraduriaOCR(unittest.TestCase):
                           if "CENT'RAL" in t or "elementos't" in t
                           or "en'el" in t or "el'f" in t], [],
                          'alguno de los cuatro defectos del §58 reapareció')
+
+    def test_claudia_por_claudio_solo_queda_con_tratamiento_femenino(self):
+        """§59: la OCR escribe «Claudia» donde va «Claudio», y el género lo decide.
+
+        Veintinueve casos: 27 «señor/don Claudia Soto» contra 1.275 «Claudio Soto», y
+        2 «señor/don Claudia Raddatz» contra 75 «Claudio Raddatz». El discriminador no
+        es la frecuencia sino el tratamiento que la propia fila usa: «señor» y «don» son
+        masculinos. Las tres «Claudia» que sobreviven van con «doña» y son mujeres
+        distintas —Claudia Varela Lértora y Claudia Sotz Pantoja—, y ni «Claudio Varela»
+        ni «Claudio Sotz» aparecen nunca en el corpus, así que ahí no hay forma canónica
+        que oponer.
+
+        Una de las 29 no se corrigió con el lote sino partiendo en tres una operación
+        previa (2010-03-18:2990:1): abarcaba los dos espacios y el nombre a la vez, y
+        cambiar una letra dentro de un ESPACIO_INDEBIDO rompe la prueba que exige que
+        esas operaciones sólo quiten espacios.
+        """
+        n = lambda pat: sum(len(re.findall(pat, t)) for t in self.salida.values())
+        # Se cuenta TODA la familia Claudi*, no sólo «Claudia»: la variante
+        # «Claudias Soto» (2010-10-14:3454:1) convivía en la misma fila con un
+        # «Claudia Soto» y el primer hallazgo la ocultó. «Claudios Soto»
+        # (2011-10-13:4364:2) ya estaba corregido por una sesión anterior.
+        self.assertEqual(n(r'Claudi(?!o\b)\w*'), 3,
+                         'quedó una forma dañada de la familia o se corrigió una legítima')
+        self.assertEqual(sorted(i for i, t in self.salida.items() if 'Claudia' in t),
+                         ['RPM-2006-04-13:626:1', 'RPM-2006-05-11:655:1', 'RPM-2012-02-14:4573:1'],
+                         'las tres «Claudia» restantes deben ser las de «doña»')
+        self.assertEqual(n(r'(?:señor|don)\s+Claudi(?!o\b)\w*'), 0,
+                         'queda un nombre de pila dañado con tratamiento masculino')
+        self.assertGreaterEqual(n(r'\bClaudio Soto\b'), 1275,
+                                '«Claudio Soto» bajó: se está revirtiendo una corrección')
+        self.assertGreaterEqual(n(r'\bClaudio Raddatz\b'), 75)
 
     def test_los_pares_minimos_legitimos_no_se_tocaron(self):
         """La otra mitad de §16: lo que NO se corrige.

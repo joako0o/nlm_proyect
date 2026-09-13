@@ -4101,6 +4101,14 @@
           "Ocurrencias": 1,
           "Contexto": "bles yeso haría elevar algo la inflación dellPC por sobre la deIIPCX.",
           "Justificacion": "Sigla dañada por el glifo I/l, segunda vuelta: en estas tres filas el defecto cae a pocos caracteres de otro ya corregido en la misma fila y las ventanas se pisaban, asi que se compone un fragmento estrecho o se extiende la operacion existente. Medido en el corpus: el IPoM 1.543, IPCX1 469, del IPCX ampliamente atestiguado."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "Respecto a la caída de la inflación, el Gerente señor Claudia Soto señala que se realizó un ejercicio con un supuesto alternativo, pensa",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -12465,6 +12473,14 @@
           "Despues": "de febrero. En cuanto",
           "Contexto": "é que la inflación anual se ubicará en 2,3%, 2,8% en el mes de febrero . En cuanto a las expectativas que se extraen de la encuesta IPEC, el p",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": " en promedio en el segundo semestre del 2008. Agrega el Gerente señor Claudia Soto que las expectativas respecto de la trayectoria de la Tasa de Polític",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -16899,10 +16915,27 @@
         },
         {
           "Tipo": "ESPACIO_INDEBIDO",
-          "Antes": "s de junio . El señor Claudia Soto prosigue , mencionan",
-          "Despues": "s de junio. El señor Claudia Soto prosigue, mencionan",
-          "Contexto": "lo sería transitorio y que se devolvería en mayo o principios de junio . El señor Claudia Soto prosigue , mencionando que la nueva proyección considera una apreciación recient",
-          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+          "Antes": "s de junio . El señor",
+          "Despues": "s de junio. El señor",
+          "Ocurrencias": 1,
+          "Contexto": "arte de ello sería transitorio y que se devolvería en mayo o principios de junio . El señor Claudia Soto prosigue , mencionando que la nueva proyección considera",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "nsitorio y que se devolvería en mayo o principios de junio . El señor Claudia Soto prosigue , mencionando que la nueva proyección considera una apreciac",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor») y el corpus atestigua «Claudio Soto» 1.275 veces contra 27 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta». §59: esta operación nació de partir en tres una sola que abarcaba los dos espacios y el nombre a la vez, porque cambiar una letra dentro de un ESPACIO_INDEBIDO rompe la prueba que exige que esas operaciones sólo quiten espacios."
+        },
+        {
+          "Tipo": "ESPACIO_INDEBIDO",
+          "Antes": "prosigue , mencionan",
+          "Despues": "prosigue, mencionan",
+          "Ocurrencias": 1,
+          "Contexto": "e se devolvería en mayo o principios de junio . El señor Claudia Soto prosigue , mencionando que la nueva proyección considera una apreciación reciente del peso",
+          "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto."
         }
       ]
     },
@@ -17030,6 +17063,14 @@
           "Despues": " organismo. En consec",
           "Contexto": "erre estadístico y el decreto todavía no había entrado a ese organismo . En consecuencia, el factor tarifas eléctricas se descartará nuevament",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 3,
+          "Contexto": "es acotadas y crecen en torno a 3%. En materia de inflación, el señor Claudia Soto destaca que el IPC de noviembre tuvo una variación prácticamente nula",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 3 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -18975,6 +19016,14 @@
           "Ocurrencias": 1,
           "Contexto": "que presentó cifras inferiores a las proyecciones considerabas por el Sanco y también, de aquéllas que tenía el mercado, el Consejero señor Sebas",
           "Justificacion": "El OCR escribio «S» donde va «B». «Sanco» no es palabra y aparece 7 veces en el corpus, siempre en contextos que solo admiten «Banco»: «el Sanco Central Europeo», «el Sanco Central», «por el Sanco». «Banco» aparece 2.418 veces. Las 7 se leyeron una por una."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "ión entregada por el señor Gerente de Anál isis Macroeconóm ico señor Claudia Soto, relativa a actividad, especialmente en cuanto a los resultados del I",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -19319,6 +19368,14 @@
           "Ocurrencias": 1,
           "Contexto": "ustria aliment icia, la química, la de productos metálicos y la de la made ra.",
           "Justificacion": "Palabra partida por un espacio espurio, con la segunda mitad reducida a una letra: «made ra» -> «madera». La evidencia es interna y doble: el primer trozo («made») es marginal en el corpus (1 apariciones, y ésas son ésta) y la forma junta («madera») es la que el propio corpus usa 2 veces. La encontró detector_partida_letra, agregado en §31 porque detector_partida no puede verla: su guarda «segunda mitad con frecuencia < 50» bloquea justo las letras (a=37.528, o, e, s), que son frecuentes porque este mismo defecto las esparce. Precisión medida del detector: 40 candidatos en las 9.723 filas, 40 verdaderos; el único que no se corrige aquí es el de 147:1, que es la cola de una carrera letra por letra y se arregla entero en su pasada."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Claudia Soto hace presente que en el tema del PIS hay dos elementos de oferta que ",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -26058,6 +26115,14 @@
           "Despues": " inflación, en genera",
           "Contexto": " 2010 se mantiene en 3%. Agrega que las perspectivas para la inflación , en general, se han mantenido más o menos estables, y si se observa la",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "Respecto de la Bolsa de Comercio, el señor Claudia Soto señala que en Chile se ha recuperado algo menos que otras bolsas en e",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -26441,6 +26506,14 @@
           "Despues": "es décimas, ya que se",
           "Contexto": "oviene de la parte más subyacente, en el IPCX1, que subió tres décimas , ya que se piensa que puede haber algo más de estacionalidad en adelan",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Claudia Soto destaca luego que ha habido dos correcciones importantes al alza, que",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -26807,6 +26880,14 @@
           "Despues": "so extremo, se podría",
           "Contexto": " programas o esta generación de empleo. Señala que, en el caso extremo , se podría haber pensado que la tasa de desempleo no habría caído.",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 2,
+          "Contexto": "El señor Claudia Soto, en tanto, agrega que los antecedentes de la Universidad de Chile, cu",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 2 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -26869,6 +26950,22 @@
           "Despues": "el neutral, lo cual n",
           "Contexto": "e han mejorando significativamente, ubicándose hoy en un nivel neutral , lo cual no se observaba desde el año 2008. ( El Gerente aludido señal",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de Análisis Macroeconómico señor Claudia Soto inicia su exposición, precisando que, en materia de actividad, ellmac",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "el señor Claudias Soto hace presente",
+          "Despues": "el señor Claudio Soto hace presente",
+          "Ocurrencias": 1,
+          "Contexto": "rroborando el escenario base. En relación con el sector construcción, el señor Claudias Soto hace presente que los antecedentes tienden a confirmar el supuesto de un cierto rep",
+          "Justificacion": "Variante de la familia del §59 con una «s» de más: «Claudias Soto» por «Claudio Soto». La misma fila tenía además un «Claudia Soto» en la primera línea, y ese primer hallazgo ocultó este segundo porque las búsquedas por «Claudia Soto» no casan con «Claudias Soto». El tratamiento es masculino («el señor») y el corpus atestigua «Claudio Soto» 1.275 veces."
         }
       ]
     },
@@ -26888,6 +26985,14 @@
           "Despues": "tariamente, que el Co",
           "Contexto": "eradores de mercado y los analistas tienden a pensar, mayoritariamente , que el Consejo va a acordar un aumento de 25 puntos base, mientras qu",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 2,
+          "Contexto": "minuido. Respecto de la decisión política para esta Reunión, el señor Claudia Soto informa que, en general, los operadores de mercado y los analistas ti",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 2 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -26908,6 +27013,14 @@
           "Ocurrencias": 1,
           "Contexto": "iendo comentarios , el Presidente señor José De Gregario agradece la exposición del Gerente",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "o agradece la exposición del Gerente de Análisis Macroeconómico señor Claudia Soto, suspende la Sesión a las 13:15 horas e informa que la misma se reanu",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -27052,6 +27165,14 @@
           "Despues": "de mayo. ~.,",
           "Contexto": " una política de ajuste anual de precios, alrededor del mes de mayo. ~ .,",
           "Justificacion": "Espacio insertado antes del signo. En español el signo va pegado a la palabra o a la cifra que lo precede: no hay lectura en que el espacio sea correcto. Evidencia de fuente (§18): los dos PDFs del repositorio dan 0 ocurrencias del patrón y las 90 filas del corpus de esas mismas sesiones también, así que no es una característica del acta. La operación sólo quita el blanco; no altera ninguna palabra ni ninguna cifra."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "Respecto de los cigarrillos, el señor Claudia Soto explica que la evaluación que se llevó a cabo para ajustar la proyecc",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -29116,6 +29237,22 @@
           "Ocurrencias": 1,
           "Contexto": "ACTA DE LA SESIÓN DE POLITICA MONETARIA Nº 214 celebrada el día ",
           "Justificacion": "Fórmula fija del encabezado de acta. Medido en el corpus: «SESIÓN» aparece 115 veces y «SESION» 14 más «SESiÓN» 2; «POLÍTICA» 111 y «POLITICA» 16 más «POLíTICA» 1 y «POLiTICA» 3. La fórmula completa correcta «SESIÓN DE POLÍTICA MONETARIA» aparece 111 veces contra 14 sin acentos. Es el mismo encabezado en todas las actas, así que la forma canónica no admite duda; el OCR perdió el acento o leyó la Í mayúscula como i minúscula."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Raddatz",
+          "Despues": "Claudio Raddatz",
+          "Ocurrencias": 1,
+          "Contexto": "eltrán de Ramón Acevedo; Gerente de División Política Financiera, don Claudia Raddatz Kiefer; Gerente de División Estadísticas, don Ricardo Vicuña Poblete;",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Raddatz» 75 veces contra 1 «Claudia Raddatz». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "ones, don Luis Álvarez Vallejos; Asesor del Ministro de Hacienda, don Claudia Soto Gamboa; Asesora de la Presidencia, doña Natalia Gallardo Schnettler; ",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -29145,6 +29282,14 @@
           "Ocurrencias": 1,
           "Contexto": "BANCO CENT'RAL DE CHILE ACTA DE LA SESIÓN DE POLiTICA MONETARIA Nº 216 celebrada el día marte",
           "Justificacion": "El encabezado del acta es una fórmula fija (§57): «BANCO CENTRAL DE CHILE». Aquí un apóstrofo partió la palabra CENTRAL. La misma fila ya tenía corregida POLiTICA."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "ones, don Luis Álvarez Vallejos; Asesor del Ministro de Hacienda, don Claudia Soto Gamboa; Economista Senior, don Alfredo Pistelli Munizaga; Economista ",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -31719,6 +31864,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Presidente señor José De Gregario agradece la presentación del Geren",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "agradece la presentación del Gerente de Análisis Macroeconómico señor Claudia Soto y ofrece la palabra para comentarios.",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -31732,6 +31885,14 @@
           "Ocurrencias": 1,
           "Contexto": "El Presidente señor José De Gregario agradece la presentación del Geren",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "nn y a continuación solicita al Gerente Análisis Macroeconómico señor Claudia Soto, que exponga la parte nacional.",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -31857,6 +32018,14 @@
           "Ocurrencias": 1,
           "Contexto": "el Presidente señor José De Gregario concede la palabra al Gerente de A",
           "Justificacion": "Apellido dañado por OCR. Medido en el corpus: «De Gregorio» aparece 1150 veces y «De Gregario» 41, siempre referido a la misma persona, José De Gregorio Rebeco, Presidente del Banco Central desde 2008. El campo Actor_Final de las filas afectadas dice «José De Gregorio Rebeco». Confusión de la o por la a en la penúltima sílaba. Mismo tratamiento que las 39 normalizaciones de nombre ya registradas (tipo LETRA_CONFUNDIDA)."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "egario concede la palabra al Gerente de Análisis Macroeconómico señor Claudia Soto, para que presente el escenario interno.",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     },
@@ -33181,6 +33350,71 @@
           "Ocurrencias": 1,
           "Contexto": "a aumentar, debido a una menor producción en Arabía Saudita, Irak y el Mar del Norte; ",
           "Justificacion": "Acento indebido. Medido en el corpus: «Arabia» aparece 28 veces y «Arabía» 1, siempre «Arabia Saudita»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-01-08:2262:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Claudia Soto hace presente que no se considera en estos datos el efecto de las med",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2009-03-12:2402:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente señor Claudia Soto señala que efectivamente se refiere solamente a los días trabajados y",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-03-18:2991:2",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 1,
+          "Contexto": "El señor Claudia Soto informa que era 2,5% al término del año 2009 y que ahora se estima de",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 1 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2010-04-15:3050:3",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Soto",
+          "Despues": "Claudio Soto",
+          "Ocurrencias": 2,
+          "Contexto": " posibles efectos que pueda tener el terremoto en el empleo, el señor Claudia Soto informa que no se cuenta con antecedentes suficientes como para conoc",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Soto» 1.275 veces contra 2 «Claudia Soto». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2014-12-11:6530:1",
+      "Operaciones": [
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "Claudia Raddatz",
+          "Despues": "Claudio Raddatz",
+          "Ocurrencias": 1,
+          "Contexto": "El Gerente de División Política Financiera señor Claudia Raddatz plantea algunas consideraciones en lo que respecta a los commodities ",
+          "Justificacion": "La «a» final ocupó el lugar de la «o» en el nombre de pila. El propio texto lo descarta: la fila lo trata en masculino («señor» o «don») y el corpus atestigua «Claudio Raddatz» 75 veces contra 1 «Claudia Raddatz». No es la Claudia legítima del corpus (doña Claudia Varela Lértora, doña Claudia Sotz Pantoja), que siempre va con «doña» o «Gerenta»."
         }
       ]
     }
