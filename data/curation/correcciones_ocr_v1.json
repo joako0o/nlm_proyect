@@ -10023,6 +10023,14 @@
           "Ocurrencias": 2,
           "Contexto": "emente en los próximos trimestres, y el efecto inflacionario de la depreciación cambiaría, sugieren que aunque la política monetaria deba mantenerse ",
           "Justificacion": "cambiaría por cambiaria. La tilde convierte el adjetivo en verbo condicional. Medido en todo el corpus: 241 apariciones con tilde (188 singulares y 53 dentro de \"cambiarías\", que esta regla tambien corrige porque la forma larga contiene a la corta). SOLO 3 son el condicional legitimo y sus filas quedan excluidas: \"cuanto cambiaria la estimacion\" (2005-12-13:515:1), \"no cambiaria el sesgo\" (2012-03-15:4723:1), \"no cambiaria el comportamiento\" (2014-09-11:6425:1). Las 238 restantes van siempre tras un sustantivo que exige adjetivo (apreciacion 65, depreciacion 55, intervencion 28, ...); los 46 con sustantivo ambiguo fueron muestreados y todos exigen adjetivo. Se verifico ademas que ninguna fila mezcla la forma verbal con la adjetiva."
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "nzos del mes de septiembre establece algunos lincamientos que son centrales para comprender la actual ",
+          "Despues": "nzos del mes de septiembre establece algunos lineamientos que son centrales para comprender la actual ",
+          "Ocurrencias": 1,
+          "Contexto": "r Sebastián Claro plantea que el Informe de Política Monetaria publicado a comienzos del mes de septiembre establece algunos lincamientos que son centrales para comprender la actual situación macroeconómica y establecer un curso para la política monetaria. A su ",
+          "Justificacion": "«establece algunos lincamientos que son centrales» — la «e» se leyó como «c». El corpus tiene 8 «lineamientos» y este es el único «lincamientos»."
         }
       ]
     },
@@ -33978,6 +33986,22 @@
           "Ocurrencias": 1,
           "Justificacion": "Conjunción «y» leída como mayúscula por el OCR. El corpus la escribe en minúscula; se excluyó el único caso legítimo, «el eje Y» (RPM-2012-09-13:5049:1), donde la mayúscula nombra el eje.",
           "Contexto": "vos de riesgo y renta variable. En cuanto a los mercados bursátiles, se registraron caídas en todas las plazas Y aumentos significativos de CDS spreads a 5 años, en particular en Brasil, Perú y Colombia, pero tendieron a "
+        },
+        {
+          "Tipo": "LETRA_CONFUNDIDA",
+          "Antes": "mérica por parte del People’s Bank of China, POBC, para sostener su moneda y frenar la caída d",
+          "Despues": "mérica por parte del People’s Bank of China, PBOC, para sostener su moneda y frenar la caída d",
+          "Ocurrencias": 1,
+          "Contexto": " se ha visto intensificada con la reciente venta de bonos de Estados Unidos de América por parte del People’s Bank of China, POBC, para sostener su moneda y frenar la caída de la bolsa de valores. Agrega que las perspectivas inciertas de actividad para d",
+          "Justificacion": "Iniciales transpuestas: «el People’s Bank of China, POBC». La sigla se forma con las iniciales de la expansión que la propia fila trae inmediatamente antes —People’s Bank of China—, así que es PBOC y no POBC. La fila es la única que atestigua la sigla en todo el corpus y lo hace con la expansión al lado, que es evidencia más fuerte que una frecuencia."
+        },
+        {
+          "Tipo": "PALABRA_PARTIDA",
+          "Antes": " billones de euros, equivalentes a un 5% del oustanding; y que en caso de completarse el plan de com",
+          "Despues": " billones de euros, equivalentes a un 5% del outstanding; y que en caso de completarse el plan de com",
+          "Ocurrencias": 1,
+          "Contexto": "para expandir sus compras de activos; que a la fecha ha comprado algo más de 300 billones de euros, equivalentes a un 5% del oustanding; y que en caso de completarse el plan de compras anunciado llegaría a una cifra de 834 billones de euros, equivalente al 13,",
+          "Justificacion": "«equivalentes a un 5% del oustanding» — al término inglés «outstanding» le falta la «t» de la segunda sílaba. No existe la palabra «oustanding» en inglés y es el único caso del corpus."
         }
       ]
     },
@@ -34587,6 +34611,32 @@
           "Ocurrencias": 1,
           "Contexto": "l Gerente de Infraestructura y Regulación Financiera, señor José Manuel Garrido Bouzo, y el Economista Senior señor Rodrigo Alfaro Arancibia. / )",
           "Justificacion": "Residuo de fuente al final de la fila: después del punto que cierra la oración quedan marcas que no pertenecen al texto (números de página, viñetas, restos de firma o del pie del PDF que el OCR capturó al terminar la página). La oración anterior está completa y con su punto, así que borrarlo no quita nada del acta. Es exactamente el caso que la política de corrección autoriza a eliminar. Son los 6 únicos casos del corpus en que una fila termina en un signo suelto."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7011:1",
+      "Operaciones": [
+        {
+          "Tipo": "PALABRA_ERRONEA",
+          "Antes": "n una caída persistente durante los primeros ochos meses del año, mientras que las de empresarios tuv",
+          "Despues": "n una caída persistente durante los primeros ocho meses del año, mientras que las de empresarios tuv",
+          "Ocurrencias": 1,
+          "Contexto": "presarios. Añade que comparativamente, las expectativas de consumidores registran una caída persistente durante los primeros ochos meses del año, mientras que las de empresarios tuvieron alguna recuperación en el primer trimestre del año, que se ha revertido ín",
+          "Justificacion": "«una caída persistente durante los primeros ochos meses del año» — el cardinal «ocho» es invariable y no lleva «s»; el plural lo aporta «meses». El corpus tiene 20 «ocho» y este es el único «ochos»."
+        }
+      ]
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7034:1",
+      "Operaciones": [
+        {
+          "Tipo": "ESPACIO_FALTANTE",
+          "Antes": "la inflación y que la discusión respecto del desanclajede expectativas es un tema continuo que no debe",
+          "Despues": "la inflación y que la discusión respecto del desanclaje de expectativas es un tema continuo que no debe",
+          "Ocurrencias": 1,
+          "Contexto": "El Presidente señor Rodrigo Vergara expresa que el gran tema es la inflación y que la discusión respecto del desanclajede expectativas es un tema continuo que no debe ser minimizado. En ese sentido, califica como positivo que el Banco lo haya con",
+          "Justificacion": "Falta el espacio entre el sustantivo y la preposición: «la discusión respecto del desanclajede expectativas». El corpus tiene 144 «desanclaje» y 85 «desanclaje de»; este es el único caso pegado."
         }
       ]
     }
@@ -36006,6 +36056,16 @@
       "ID_Intervencion": "RPM-2011-01-13:3670:1",
       "Marca": "RECONSTRUCCION_AMBIGUA_POR_COTEJAR",
       "Motivo": "§69: la fila termina a mitad de frase y sin puntuación: «…bienes de consumo durables, que tienen trayectorias caracterizadas por caídas violentas del orden de 20%, y recuperaciones también». Falta el complemento de «también» (violentas, bruscas, rápidas). No es un corte por intervención: la fila siguiente, RPM-2011-01-13:3670:2, es otro hablante (Claudio Soto) y tiene su propia ancla, así que en el original eran dos párrafos distintos y lo que se perdió está dentro de ésta. No se puede reponer inventando el adjetivo ni cerrando con un punto, que taparía la pérdida. Se deja para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7008:1",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Motivo": "§71: la fila termina sin punto y el sentido está completo: «…explican la caída adicional desde entonces». Falta sólo el signo de cierre. No se puede agregar: el aplicador es un str.replace literal, así que toda inserción deja «Antes» contenido en «Despues» y aplicar dos veces apilaría un segundo punto —lo detectó test_no_vuelve_a_corregir_sobre_lo_corregido en el §65 y en las operaciones del registro no hay una sola inserción pura. No es un corte por intervención pendiente: la fila siguiente es otro hablante con su propia ancla. Se deja para el cotejo con el PDF."
+    },
+    {
+      "ID_Intervencion": "RPM-2015-09-15:7044:1",
+      "Marca": "SIGNO_AUSENTE_POR_COTEJAR",
+      "Motivo": "§71: la fila termina sin punto y el sentido está completo: «…si desea sumarse a la votación de la mayoría de los señores Consejeros». Falta sólo el signo de cierre. No se puede agregar: el aplicador es un str.replace literal, así que toda inserción deja «Antes» contenido en «Despues» y aplicar dos veces apilaría un segundo punto —lo detectó test_no_vuelve_a_corregir_sobre_lo_corregido en el §65 y en las operaciones del registro no hay una sola inserción pura. No es un corte por intervención pendiente: la fila siguiente es otro hablante con su propia ancla. Se deja para el cotejo con el PDF."
     }
   ]
 }

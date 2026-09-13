@@ -441,6 +441,8 @@ Para leer una sesión entera al margen del plan:
 
 | 260–268 | 2010-03-18 | 84 | **sesión cerrada 83/83** (1 ya estaba anotada) · 13 actores · la cola tenía un caso con señal estricta **y** con la firma «en tanto que» más un nombre, el padre 2983, pero **ya viene partido en la base** (2983:1 Soto 64 ch / 2983:2 Pablo García sin ancla) — segunda vez seguida que el detector señala el padre completo y no sus segmentos; 2b y 2c en cero; el barrido independiente dio 2 casos falsos (De Gregorio es objeto de «agradece las palabras del» y «el Gerente de Investigación Económica» es el propio Céspedes, que ocupa ese cargo desde 2009-04-09); 12 filas largas, todas monólogos → **ningún corte** (§70) |
 
+| 269–277 | 2015-09-15 | 84 | **sesión cerrada 82/82** (2 ya estaban anotadas) · 12 actores · ninguna fila en la cola y 2c en cero; 2b dio 1 caso y es falso por un motivo nuevo: el «señor Luis Óscar Herrera» de 7030:1 **no es** el Gerente del Banco que se llama igual sino el Economista Jefe para la Región Andina de BTG Pactual, citado como autor de una publicación — un nombre idéntico al de un asistente no es una segunda voz cuando el texto dice de dónde viene esa persona; el barrido independiente dio 1 caso falso (Fuentes es objeto de «expuestos por»); 11 filas largas, todas monólogos → **ningún corte** (§71) |
+
 Para anotar una ronda leída:
 
 ```

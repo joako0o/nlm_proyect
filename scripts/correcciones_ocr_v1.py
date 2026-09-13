@@ -97,6 +97,16 @@ TERMINOS_FORANEOS = {
                    # «se/ection bias» dos veces y nunca la correcta, así que el
                    # vocabulario no la contiene. La barra sustituye a la «l»,
                    # igual que en «Defau/t» -> «Default» (§21).
+    'outstanding', # RPM-2015-09-15:6987:1 trae «un 5% del oustanding»: al
+                   # término inglés le falta la «t» de la segunda sílaba. El
+                   # corpus no contiene la forma correcta en ninguna parte, así
+                   # que sin esta entrada el vocabulario la rechazaría. No hay
+                   # palabra inglesa «oustanding» (§71).
+    'PBOC',        # RPM-2015-09-15:6987:1 trae «el People’s Bank of China,
+                   # POBC»: las iniciales están transpuestas. La forma correcta
+                   # no aparece en ninguna otra parte del corpus, pero la fila
+                   # la atestigua sola porque trae la expansión completa
+                   # inmediatamente antes (§71).
 }
 
 _TOKEN = None  # se compila en _vocabulario()

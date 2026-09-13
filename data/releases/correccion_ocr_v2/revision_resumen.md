@@ -4,26 +4,26 @@ Generado por `scripts/exportar_revision_ocr.py`. No es una fuente: es una
 vista derivada de `data/curation/correcciones_ocr_v1.json` re-ejecutada
 contra la base virgen. Si el registro cambia, hay que regenerarlo.
 
-- filas corregidas: **1779**
-- operaciones: **3055**
-- filas marcadas para cotejo: **234**
+- filas corregidas: **1781**
+- operaciones: **3060**
+- filas marcadas para cotejo: **236**
 - sha256 de la base: `eebaa728dc1d7ce14315caebd0c7516ff324b5d4acaefcf40cec2bf6d855945d`
 
 ## Operaciones por tipo
 
 | tipo | operaciones |
 |---|---:|
-| `LETRA_CONFUNDIDA` | 732 |
+| `LETRA_CONFUNDIDA` | 734 |
 | `ESPACIO_INDEBIDO` | 507 |
-| `PALABRA_PARTIDA` | 491 |
+| `PALABRA_PARTIDA` | 492 |
 | `ACENTO_INDEBIDO` | 387 |
 | `PUNTUACION` | 268 |
 | `SIMBOLO_SUELTO` | 242 |
 | `ACENTO_FALTANTE` | 220 |
 | `FIRMA_TRUNCADA` | 55 |
 | `RESIDUO_PAGINACION` | 36 |
-| `ESPACIO_FALTANTE` | 34 |
-| `PALABRA_ERRONEA` | 32 |
+| `ESPACIO_FALTANTE` | 35 |
+| `PALABRA_ERRONEA` | 33 |
 | `PALABRA_OMITIDA` | 22 |
 | `PALABRA_DUPLICADA` | 16 |
 | `SALTOS_DE_LINEA` | 10 |

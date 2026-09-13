@@ -4491,3 +4491,67 @@ observada» **0** (antes 1). Suite local **61 OK**.
 
 Registro: **1.779 filas / 3.055 operaciones / 212 revisiones / 234 filas marcadas**.
 Lecturas **5.758 de 9.724**, 71 de 132 sesiones.
+
+## §71 — Sesión 2015-09-15: un homónimo externo, y dos términos foráneos que el vocabulario no contenía
+
+Ochenta y cuatro filas, doce actores, 89.981 caracteres. **Ningún corte.**
+
+Ninguna fila está en la cola de 74 y 2c dio cero. 2b dio un caso y es falso, pero por un motivo nuevo:
+en `7030:1` aparece «el señor **Luis Óscar Herrera**», que **no es** el Gerente del Banco que se llama
+igual sino el Economista Jefe para la Región Andina de BTG Pactual, citado como autor de una
+publicación:
+
+> «un análisis similar fue publicado recientemente por el Economista Jefe para la Región Andina de
+> BTG Pactual, señor Luis Óscar Herrera»
+
+No habla: es el autor de un documento. **Un nombre idéntico al de un asistente no es una segunda voz
+cuando el texto dice de dónde viene esa persona.**
+
+El barrido independiente dio un caso, falso: en `7012:1` el señor Fuentes es el objeto de «la
+diferencia con los resultados **expuestos por**». Las 11 filas de más de 2.500 caracteres son
+monólogos.
+
+### Cinco correcciones
+
+| fila | dañado | correcto | evidencia |
+|---|---|---|---|
+| `6987:1` | «People’s Bank of China, **POBC**» | `PBOC` | iniciales transpuestas; la expansión está en la misma frase |
+| `6987:1` | «un 5% del **oustanding**» | `outstanding` | falta la «t»; no existe «oustanding» en inglés |
+| `7011:1` | «los primeros **ochos** meses» | `ocho` | 1 frente a 20; el cardinal es invariable |
+| `7034:1` | «respecto del **desanclajede** expectativas» | `desanclaje de` | 1 frente a 144 / 85 |
+| `7043:1` | «algunos **lincamientos**» | `lineamientos` | 1 frente a 8 |
+
+### Dos entradas nuevas en `TERMINOS_FORANEOS`, y por qué
+
+`PBOC` y `outstanding` **no aparecen en ninguna parte del corpus**, así que la guarda de vocabulario
+del registro las habría rechazado: el control del lado `Despues` exige que cada palabra exista en el
+corpus virgen (ignorando acento y caja) o esté en la lista blanca.
+
+Se agregaron las dos, siguiendo el precedente que ya había (`fly`, `selection`):
+
+- **`outstanding`**: no hay palabra inglesa «oustanding», y el daño es una letra faltante. Es
+  inequívoco aunque la forma correcta no esté atestiguada.
+- **`PBOC`**: la sigla se forma con las iniciales de la expansión que **la propia fila trae
+  inmediatamente antes** —«People’s Bank of China». Que la fila atestigüe la forma con su expansión
+  al lado es evidencia más fuerte que una frecuencia.
+
+Es una excepción deliberada a la regla de «normalizar sólo cuando el corpus atestigua la forma
+canónica», que se escribió para **nombres propios**: en un nombre no hay expansión que decida, y ahí
+la regla sigue en pie (por eso `Sotz` quedó marcado en el §68). En una sigla o un término técnico
+con la expansión al lado, sí hay cómo decidir.
+
+### Dos puntos de cierre que no se pueden agregar
+
+`7008:1` y `7044:1` terminan sin punto con el sentido completo («…las razones que explican la caída
+adicional desde entonces», «…si desea sumarse a la votación de la mayoría de los señores Consejeros»).
+No se agregaron por la razón del §65: el aplicador es un `str.replace` literal, así que una inserción
+deja `Antes` dentro de `Despues` y aplicar dos veces apilaría un segundo punto. Marcas 29 y 30.
+
+### Verificado sobre el archivo escrito
+
+9.724 filas · **0 diffs de `Texto`** · `POBC` **0** / `PBOC` **1** · `oustanding` **0** /
+`outstanding` **1** · `ochos` **0** / `ocho` **21** · `desanclajede` **0** / `desanclaje de` **86** ·
+`lincamientos` **0** / `lineamientos` **9**. Suite local **61 OK**.
+
+Registro: **1.781 filas / 3.060 operaciones / 212 revisiones / 236 filas marcadas**.
+Lecturas **5.840 de 9.724**, 72 de 132 sesiones.
